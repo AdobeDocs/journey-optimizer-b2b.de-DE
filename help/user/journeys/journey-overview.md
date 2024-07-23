@@ -3,9 +3,9 @@ title: Account-Journey
 description: Erfahren Sie mehr über die Journey und wie Sie sie erstellen und verwalten können.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 59407f21319ff1b84e4fd001c4e92cfff61c57c9
+source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Definieren Sie eine umsatzbasierte Interaktion, die E-Mail, SMS und mehr innerha
 
 Diese Tabelle enthält die Möglichkeit, nach Name und Erstellt von zu suchen. Die Sortierung ist derzeit nicht verfügbar.
 
-Sie können die angezeigte Tabelle anpassen, indem Sie auf das Spaltensymbol oben rechts klicken und die Kontrollkästchen auswählen oder deaktivieren.
+Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalten_ oben rechts klicken und die Kontrollkästchen auswählen oder deaktivieren.
 
 ![Wählen Sie die Spalten aus, die in der Journey-Kontoliste angezeigt werden sollen](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
@@ -46,7 +46,7 @@ Klicken Sie in der Liste _[!UICONTROL Journey des Kontos]_ auf den Namen (der al
 
 ![Journey-Arbeitsbereich für Konten](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
-Der Editor-Header jeder Journey umfasst:
+Der Editor-Header jeder Konto-Journey umfasst:
 
 * Journey-Name
 * Möglichkeit zur Bearbeitung des Namens (_Bearbeiten_ -Symbol)

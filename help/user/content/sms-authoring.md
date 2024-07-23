@@ -3,9 +3,9 @@ title: SMS-Authoring
 description: Erfahren Sie, wie Sie Ihren Kunden auf ihren Mobilgeräten Textnachrichten (SMS) senden und Nachrichten im Textformat personalisieren und im SMS-Editor in der Vorschau anzeigen können.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: e0d9359560f31b3e66f593426c66e64d31044d54
+source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Verwenden Sie Adobe Journey Optimizer B2B Edition, um Ihren Kunden auf ihren Mob
 
 ## SMS-Konfigurationen
 
-Adobe Journey Optimizer B2B Edition sendet Textnachrichten über SMS-Dienstleister (oder SMS Gateway Provider). Konfigurieren Sie vor der Erstellung Ihrer SMS-Nachricht Ihren Dienstleister in den Administrator-Einstellungen.
+Adobe Journey Optimizer B2B Edition sendet Textnachrichten über SMS-Dienstleister (oder SMS Gateway Provider). Konfigurieren Sie vor der Erstellung Ihrer SMS-Nachricht Ihren Dienstleister über die Einstellungen für _Administrator_.
 
 ### SMS-Gateway-Dienstleister
 
@@ -162,22 +162,22 @@ Sie können Textnachrichten-Sendungen in einer Konto-Journey einrichten, wenn Si
 
    Wenn Ihre Personalisierungstoken platziert werden, klicken Sie auf **[!UICONTROL Speichern]** , um die Änderungen zu speichern und zum SMS-Authoring-Hauptarbeitsbereich zurückzukehren. Sie können die Nachricht mit den Token nach Bedarf weiter bearbeiten.
 
-<!-- 1. **Add URLs to text message**.
+1. **Fügen Sie der Textnachricht URLs hinzu**.
 
-   After defining your content, you can add URLs to your message by clicking the _Link_ icon.
-   
-   You can add two types of URLs: 
+   Nach der Definition Ihres Inhalts können Sie Ihrer Nachricht URLs hinzufügen, indem Sie auf das Symbol _Link_ klicken.
 
-   External URLs - This is ANY external URL that can be directly typed into/ pasted into the input text box
-   Adobe Marketo Engage Design Studio Landing Pages - Selecting this option, you will see a 'Landing Page picker' from which you can select any of the listed approved Landing Pages from Marketo Engage
+   Durch diese Aktion wird ein Dialogfeld geöffnet, in dem Sie eine von zwei Typen von URLs auswählen können, die verknüpft werden sollen:
 
-   You can choose to 'shorten' either of these URLs by selecting the checkbox
-   Note that the URL shortening function, uses the Marketo subdomain for shortening
-   The shortened URL appears as a read-only field within the modal
-   You can optionally track clicks on the URL
-   You can also choose to include 'mkt_tok' for tracking activity against a user
-   Click on Add to save changes & add the chosen URL to the SMS message
--->
+   * **[!UICONTROL Externe URL]** - Dieser Typ ist eine externe URL, die Sie in das Textfeld eingeben.
+   * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine der genehmigten Adobe Marketo Engage Design Studio-Landingpages aus Ihrer Marketo Engage-Instanz auszuwählen.
+
+   Das Dialogfeld enthält auch Optionen für die URL-Links:
+
+   * **[!UICONTROL URL kürzen]** - Aktivieren Sie dieses Kontrollkästchen, um die URL, die für das Tracking erforderlich ist, zu _verkürzen_. Bei einer Landingpage wird die Marketo Engage-Subdomäne für die gekürzte URL verwendet. Ein Beispiel für das gekürzte URL-Format wird angezeigt. Die tatsächliche URL wird erstellt, wenn die SMS an den Empfänger gesendet wird.
+
+   * **[!UICONTROL mkt_tok einschließen]** - Aktivieren Sie dieses Kontrollkästchen, um die Aktivität gegen einen Benutzer zu verfolgen.
+
+   Wenn die Link-Optionen abgeschlossen sind, klicken Sie auf **[!UICONTROL Hinzufügen]** , um die Änderungen zu speichern und den URL-Link zur SMS-Nachricht hinzuzufügen.
 
 ## SMS-Eigenschaften festlegen
 
@@ -198,32 +198,48 @@ Sie können Textnachrichten-Sendungen in einer Konto-Journey einrichten, wenn Si
 
    ![Aktion durchführen - SMS senden](./assets/sms-properties.png){width="700" zoomable="yes"}
 
-   Die Empfängernummer wird immer dem Feld `Lead.MainPhone` im Marketo Engage zugeordnet.
+   Die Empfängernummer wird immer dem Feld `Lead.mobilePhone` im Marketo Engage zugeordnet.
 
-<!-- ## Preview the text message content
+## Inhalt der Textnachricht simulieren
 
-When your message content is defined, you can use test profiles to preview its content. If you inserted personalized content, you can check how this content is displayed in the message, using test profile data.
+Wenn Ihr Nachrichteninhalt definiert ist, können Sie mithilfe von Testprofilen dessen Inhalt simulieren (in der Vorschau anzeigen). Wenn Sie personalisierten Inhalt eingefügt haben, können Sie anhand von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
-1. Click **[!UICONTROL Simulate Content]** at the top of the SMS authoring workspace.
+>[!IMPORTANT]
+>
+>Speichern Sie Ihre SMS-Nachricht, bevor Sie mit der Simulation der Textnachricht fortfahren.
 
-1. From the _[!UICONTROL Simulate Content]_ page, click **[!UICONTROL Add People]**.
+1. Klicken Sie oben im SMS-Authoring-Arbeitsbereich auf **[!UICONTROL Inhalt simulieren]** .
 
-1. Use the # page to manage the leads used for your test profile.
+1. Klicken Sie auf der Seite _[!UICONTROL Inhalt simulieren]_ auf **[!UICONTROL Personen hinzufügen]**.
 
-   In the displayed list, you can search for and add any of the leads (up to 10 leads at a time) from the Marketo Engage lead database.
+1. Verwenden Sie die Seite _Inhalt simulieren_ , um die Leads zu verwalten, die für Ihr Testprofil verwendet werden.
 
-   To search, enter the whole email address and click enter. The corresponding lead profile shows up for selection.
+   In der angezeigten Liste können Sie nach Leads suchen und diese (bis zu 10 Leads gleichzeitig) aus der Marketo Engage-Lead-Datenbank hinzufügen.
 
-   The preview updated to the personalization fields for the selected profile.
+   Geben Sie zum Durchsuchen die gesamte E-Mail-Adresse ein und drücken Sie die _Eingabetaste_. Das entsprechende Lead-Profil wird zur Auswahl angezeigt.
 
-   All the added leads appear on the left rail of the 'Simulate Content' page
+   Die Vorschau aktualisiert die Personalisierungsfelder für das ausgewählte Profil.
 
-   You can manage this list by adding more people and deleting individual leads from the profile listing (it does not remove them from the database).
+   Alle hinzugefügten Leads werden links angezeigt.
 
-1. Simulate content for a lead.
+   Sie können diese Liste verwalten, indem Sie weitere Personen hinzufügen und einzelne Leads aus der Profilliste löschen (sie werden nicht aus der Datenbank entfernt).
 
-   Select any of the leads listed on the left rail of the Simulate Content page and the SMS preview on the page updates for the corresponding lead.
+1. Inhalt für einen ausgewählten Lead simulieren.
 
-   You can also select a lead from the 'drop-down' box above the preview space and the SMS preview on the page updates for the corresponding lead
+   Wählen Sie einen der links aufgelisteten Leads aus und die SMS-Vorschau auf der Seite aktualisiert den entsprechenden Lead.
 
-1. To exit the _[!UICONTROL Simulate Content]_ page and return back to the SMS authoring workspace, click Close. -->
+   Sie können auch einen Lead aus dem Selektor über dem Vorschaubereich auswählen, um die SMS-Vorschau auf der Seite für den entsprechenden Lead zu aktualisieren.
+
+1. Um die Seite _[!UICONTROL Inhalt simulieren]_ zu verlassen und zum SMS-Authoring-Arbeitsbereich zurückzukehren, klicken Sie oben rechts auf **[!UICONTROL Schließen]** .
+
+## Verwaltung von SMS-Einverständnissen
+
+Es ist gesetzlich vorgeschrieben, Empfängern die Möglichkeit zu geben, sich vom Erhalt von Nachrichten einer Marke abzumelden und diese Entscheidung zu befolgen. Die Nichteinhaltung dieser Vorschriften birgt rechtliche Risiken für Ihre Marke. Diese Funktion hilft Ihnen auch, den Versand unerwünschter Nachrichten an Ihre Empfänger zu vermeiden, was dazu führen könnte, dass diese Ihre Nachrichten als Spam markieren und Ihrer Reputation schaden.
+
+Wenn Sie diese Option bereitstellen, können SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten. Alle standardmäßigen Opt-in- und Opt-out-Suchbegriffe werden unterstützt und berücksichtigt sowie alle benutzerdefinierten Suchbegriffe, die beim SMS-Dienstanbieter konfiguriert sind. Bei der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
+
+Journey Optimizer B2B Edition bietet die Möglichkeit, das Opt-out in SMS-Nachrichten mithilfe der folgenden Logik zu verwalten:
+
+* Wenn ein Lead sich vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden SMS-Sendungen ausgeschlossen
+
+* Diese Lead-Einwilligung aus verschiedenen Quellen (wie AEP oder der SMS-Dienstleister) wird mit Journey Optimizer B2B Edition synchronisiert. Derzeit unterstützt es nur einen einzelnen Zustimmungsstatus pro Lead auf Instanzenebene (ein Lead &quot;John Doe&quot;wird entweder für alle Promotion-SMS in der Instanz angemeldet oder von dieser abgemeldet). Es wird derzeit keine Anmeldung mit zweifacher Bestätigung für die Zustimmung auf Markenniveau oder auf Ebene der individuellen Abonnementliste unterstützt.

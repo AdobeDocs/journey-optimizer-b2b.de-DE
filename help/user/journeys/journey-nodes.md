@@ -3,52 +3,22 @@ title: Journey-Knoten des Kontos
 description: Erfahren Sie mehr über die Knotentypen, mit denen Sie Ihre Journey erstellen können.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: dc8301ba755aaf457b955ffbb9c6f0eff6d5a295
+source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1748'
 ht-degree: 2%
 
 ---
 
 # Journey-Knoten des Kontos
 
-Nachdem Sie [ein Konto-Journey](journey-overview.md#create-an-account-journey) und [die Audience hinzugefügt haben](journey-overview.md#add-the-account-audience-for-your-journey), erstellen Sie die Journey mithilfe von Knoten.
+Nachdem Sie [ein Konto-Journey](journey-overview.md#create-an-account-journey) und [die Audience hinzugefügt haben](journey-overview.md#add-the-account-audience-for-your-journey), erstellen Sie die Journey mithilfe von Knoten. Die Journey-Karte bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle erstellen können.
 
-## Knotentypen
+Erstellen Sie Ihre Konto-Journey, indem Sie die verschiedenen Aktions-, Ereignis- und Orchestrierungsknoten als mehrstufiges, kanalübergreifendes Szenario kombinieren. Jeder Knoten einer Journey stellt einen Schritt entlang eines logischen Pfads dar.
 
-| Knotentyp | Funktion |
-| --------- | ------- |
-| [Kontozielgruppe](journey-overview.md#add-the-account-audience-for-your-journey) | Audience des Eingabedokuments für die Journey. Dieser Knoten ist immer der erste Knoten und wird standardmäßig automatisch erstellt |
-| [Aktion für Personen](#add-a-people-action) | E-Mail senden |
-| | Bewertung ändern |
-| | Person zu Kaufgruppe zuweisen |
-| | Person aus Gruppe kaufen entfernen |
-| | Zu Marketo-Kampagne hinzufügen |
-| | Lead interessanten Moment erstellen |
-| [Aktion für Konten](#add-an-account-action) | Datenwert ändern |
-| | Konto aus (aktueller) Journey entfernen |
-| | Konto zur (anderen) Journey hinzufügen |
-| | Moment für interessantes Konto erstellen |
-| | Zur Marketo-Kontoliste hinzufügen (implizit) |
-| [Ereignisse für Personen](#add-a-people-event) | Datenwertänderungen |
-| | Ergebnisänderung |
-| | Öffnet E-Mail |
-| | Klickt auf Link in E-Mail |
-| | Klickt auf Link auf Web-Seite |
-| | Zugeordnet zur Einkaufsgruppe |
-| | Aus der Kaufgruppe entfernt |
-| [Ereignisse für Konten](#add-an-account-event) | Änderung des Kontodatenwerts |
-| | Hat einen interessanten Moment |
-| [Aufspaltung durch Personen](#add-a-split-path-by-people-node) | Lead-Attribute |
-| | Datenwert geändert (z. B. nach Aktivitätsverlauf filtern) |
-| | Geöffnete E-Mail |
-| | Link in E-Mail angeklickt |
-| | Link auf Web-Seite angeklickt |
-| | Hatte einen interessanten Moment |
-| | Mitglied der Einkaufsgruppe |
-| [Aufspaltung nach Konten](#add-a-split-path-by-account-node) | Änderung des Kontodatenwerts (z. B. Filterung des Aktivitätsverlaufs) |
-| [Warten](#wait) | Auf Kontoebene verfügbar |
-| [ Zusammenführungspfade](#merge-paths) | |
+## Knoten &quot;Kontozielgruppe&quot;
+
+Der Knoten [Zielgruppe des Kontos](journey-overview.md#add-the-account-audience-for-your-journey) definiert die Zielgruppe des Eingabedokuments (in Adobe Experience Platform erstellt und verwaltet) für die Journey. Dieser Knoten ist immer der erste Knoten und wird standardmäßig automatisch erstellt.
 
 ## Handeln
 
@@ -57,6 +27,23 @@ Führen Sie eine Aktion wie den Versand einer E-Mail, die Änderung der Punktzah
 **Aktion für Konten**: Die Aktion wird auf alle Personen angewendet, die Teil der Konten auf diesem Pfad sind.
 
 **Aktion für Personen**: Die Aktion wird auf alle Personen auf diesem Pfad angewendet. Eine Aktion für Personen kann innerhalb des Aufspaltungspfads von Personen verwendet oder durch Konten aufgeteilt werden.
+
+| Knotenkontext | Funktion | Einschränkungen |
+| ------------ | -------- | ----------- |
+| [Personen](#add-a-people-action) | Zuweisen zu einer Kaufgruppe | Lösungsinteresse auswählen<br/>Rolle auswählen |
+| | Entfernen aus der Gruppe &quot;Kaufen&quot; | Lösungsinteresse auswählen |
+| | SMS senden | SMS erstellen |
+| | Zur Marketo Engage-Anforderungskampagne hinzufügen | Marketo Engage-Arbeitsbereich auswählen<br/>Auswahl der Anforderungskampagne |
+| | Ändern der Personenpartition in Marketo Engage | Neue Partition |
+| | Person interessant Moment | Typ<br/>Beschreibung |
+| | Bewertung ändern | Score name<br/>change |
+| | E-Mail senden | Neue E-Mail erstellen<br/>E-Mail aus Marketo Engage auswählen |
+| [Konten](#add-an-account-action) | Versandwarnung | Lösungsinteresse auswählen<br/>E-Mail an senden |
+| | Konto zur (anderen) Journey hinzufügen | Live-Konto-Journey auswählen |
+| | Aktualisieren des Status der Gruppe kaufen | Lösungsinteresse<br/>Status (erforderlich, max. 50 Zeichen) |
+| | Konto aus (aktueller) Journey entfernen | Live-Konto-Journey auswählen |
+| | Moment des Kontointeressens | Typ (E-Mail, Meilenstein oder Web)<br/>Beschreibung (optional) |
+| | Datenwert für Kontoänderung | Attribut auswählen<br/>Neuer Wert |
 
 ### Hinzufügen einer Kontoaktion
 
@@ -94,6 +81,20 @@ Verschieben Sie Ihre Zielgruppe zum nächsten Schritt im Journey, wenn ein Ereig
 **Ereignisse in Konten verfolgen**: Wenn mindestens eine Person aus einem Konto ein Trigger ist, wechselt das Konto zum nächsten Schritt auf der Journey.
 
 **Ereignisse für Personen überwachen**: Ereignisse für Personen können nur auf einen Kontopfad angewendet werden. Es ist nicht für eine Aufspaltung durch Personen-Knoten verfügbar.
+
+| Knotenkontext | Funktion | Einschränkungen |
+| ------------ | -------- | ----------- |
+| [Personen](#add-a-people-event) | Datenwertänderungen | Attribut<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
+| | Klickt auf Link in E-Mail | E-Mail<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
+| | Zugeordnet zur Einkaufsgruppe | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional)<br/>Zeitüberschreitung (optional) |
+| | Öffnet E-Mail | E-Mail<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
+| | Bewertung wird geändert | Score name<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
+| | Aus der Kaufgruppe entfernt | Lösungsinteresse<br/>Aktivitätsdatum (optional)<br/>Zeitüberschreitung (optional) |
+| [Konten](#add-an-account-event) | Änderung des Status der gekauften Gruppe | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional)<br/>Zeitüberschreitung (optional) |
+| | Änderung der Vollständigkeitsbewertung | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional)<br/>Zeitüberschreitung (optional) |
+| | Konto hatte einen interessanten Moment | Typ<br/>Zusätzliche Einschränkungen (optional)<br/>Zeitüberschreitung (optional) |
+| | Änderung der Interaktionsbewertung | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional)<br/>Zeitüberschreitung (optional) |
+| | Änderung des Kontodatenwerts | Attribut<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
 
 ### Hinzufügen eines Kontoereignisses
 
@@ -141,6 +142,10 @@ Definieren Sie bei Bedarf die Zeitdauer, die die Journey auf das Ereignis wartet
 
 Aufspaltung der Audience anhand von Filterbedingungen.
 
+>[!NOTE]
+>
+>Es werden maximal 25 Pfade unterstützt.
+
 **Pfade nach Konten aufteilen**: Pfade, die nach Konten aufgeteilt sind, können sowohl Konto- als auch Personenaktionen und -ereignisse umfassen. Diese Pfade können weiter aufgeteilt werden.
 
 _Wie funktioniert ein Aufspaltungspfad nach Kontoknoten?_
@@ -162,9 +167,16 @@ _Wie funktioniert ein Aufspaltungspfad nach Personen-Knoten?_
 
 ![Journey-Knoten - geteilte Pfade nach Personen](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
->[!NOTE]
->
->Es werden maximal 25 Pfade unterstützt.
+| Knotenkontext | Pfadbedingungen | Beschreibung |
+| ------------ | -------- | ----------- |
+| [Personen](#add-a-split-path-by-people-node) | Personenattribute | |
+| | Datenwert geändert (z. B. nach Aktivitätsverlauf filtern) | |
+| | Geöffnete E-Mail | |
+| | Link in E-Mail angeklickt | |
+| | Link auf Web-Seite angeklickt | |
+| | Hatte einen interessanten Moment | |
+| | Mitglied der Einkaufsgruppe | |
+| [Konten](#add-a-split-path-by-account-node) | Änderung des Kontodatenwerts (z. B. Filterung des Aktivitätsverlaufs) | |
 
 ### Aufspaltungspfad nach Konto-Knoten hinzufügen
 
@@ -267,4 +279,3 @@ Verschiedene Pfade in Ihrer Journey können mithilfe dieses Knotens zusammengef�
    Sie sollten jetzt sehen, dass die Pfade zusammengeführt werden, sodass Konten aus den ausgewählten Pfaden zu einem einzigen Pfad kombiniert werden und weiterhin über die Journey weitergehen können.
 
 1. Bei Bedarf können Sie die Zusammenführung von Pfaden aufheben, indem Sie zurück zu den Eigenschaften des Zusammenführungsknotens navigieren und das Kontrollkästchen für alle Pfade deaktivieren, die Sie entfernen möchten.
-

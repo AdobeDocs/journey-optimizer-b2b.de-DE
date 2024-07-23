@@ -3,16 +3,16 @@ title: Dashboard "Journey-Übersicht"
 description: Erfahren Sie mehr über die Informationen des Dashboards Journey-Übersicht und wie Sie damit Ihre Konto-Journey-Strategie überwachen und verwalten können.
 feature: Dashboards, Account Journeys
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 3223a1379fad0da8b46af8c2f3929e79fafbd256
+source-git-commit: d1505512a45b2e47f8d867a8c1abe28ddc2565f0
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Dashboard &quot;Journey-Übersicht&quot;
 
-Dieses Dashboard bietet einen umfassenden Überblick über die Interaktion und zeigt Echtzeit-Metriken zu Konto und individuellen Interaktionen durch Momentaufnahmen-Donut-Diagramme und Trendzeilendiagramme im Zeitverlauf. Es hilft Ihnen, Ihre Interaktionsbemühungen effektiv zu überwachen und zu strategisieren.
+Dieses Dashboard bietet einen umfassenden Überblick über die Journey eines ausgewählten Kontos, in dem der Fortschritt des Kontos mithilfe von Ringdiagrammen und Liniendiagrammen detailliert beschrieben wird, in denen Beendigungen, laufende Aktivitäten und Abbrüche im Zeitverlauf kategorisiert und quantifiziert werden. Dies hilft Marketern, die Effektivität von E-Mail- und SMS-Kanälen mithilfe wichtiger Bereitstellungs- und Interaktionsmetriken zu bewerten.
 
 ## Journey-Status
 
@@ -85,7 +85,3 @@ Klicken Sie auf die Schaltfläche oben rechts, um eine der verfügbaren Spalten 
 * [!UICONTROL Einstiegsdatum]
 * [!UICONTROL Ausstiegsdatum]
 * [!UICONTROL Anzahl der Tage in Journey]
-
-Globaler Filter:
-
-Datumsfilter

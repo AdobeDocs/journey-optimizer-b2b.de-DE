@@ -3,7 +3,7 @@ title: Erstellen von Einkaufsgruppen
 description: Erfahren Sie, wie Sie Einkaufsgruppen erstellen.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 8afc432e7caeb2bf7e632276a7432d0a010f9ab2
+source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Erstellen von Einkaufsgruppen
 
-Wenn die Kaufgruppe erstellt wird, ist sie über das [Lösungsinteresse](./solution-interests.md) für die Verwendung in einer Konto-Journey verfügbar.
+Nachdem die Kaufgruppe erstellt wurde, kann sie über das [Lösungsinteresse](./solution-interests.md) in einer Journey verwendet werden.
 
 1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B Edition.
 
