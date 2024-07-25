@@ -1,15 +1,15 @@
 ---
-title: Kontozielgruppen
+title: Konto-Zielgruppen
 description: Erfahren Sie mehr über Kontozielgruppen und wie sie kontobasierte Journey aktivieren.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-
-# Kontozielgruppen
+# Konto-Zielgruppen
 
 Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Journey Optimizer B2B Edition verwendet die Funktionen zur Kontosegmentierung, die in den Adobe Real-time Customer Data Platform B2B- und B2P-Editionen zu finden sind. Mit der Kontosegmentierung können Benutzer Kontozielgruppen generieren, indem sie Daten aus einer der B2B-Entitäten innerhalb des Systems nutzen. Diese Kontozielgruppen dienen als Eingaben für Journey des Journey Optimizer B2B Edition-Kontos und ermöglichen so eine nahtlose Aktivierung und Personalisierung.
 

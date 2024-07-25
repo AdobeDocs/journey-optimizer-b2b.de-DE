@@ -1,10 +1,11 @@
 ---
 title: Erste Schritte mit Journey Optimizer B2B Edition
 description: Als neuer Anwender in Journey Optimizer B2B Edition erfahren Sie mehr über die Schlüsselbereiche für die ersten Schritte.
-source-git-commit: f38dc43681d7c12f6ae5e69978e5950fd9526f4c
+exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 3%
+source-wordcount: '623'
+ht-degree: 8%
 
 ---
 
@@ -16,15 +17,15 @@ Je nach Organisation können Administratoren verschiedene Arten von Benutzern de
 
 >[!BEGINTABS]
 
->[!TAB Schnellstart für einen Administrator]
+>[!TAB Schnellstart für Administratoren]
 
 Bevor Ihr Team mit der Verwendung der Adobe Journey Optimizer B2B Edition-Funktionen beginnen kann, sind einige Schritte erforderlich, um Ihre Umgebung vorzubereiten. Führen Sie diese Schritte aus, damit der Dateningenieur und Marketing-Experte mit der Adobe Journey Optimizer B2B Edition arbeiten können.
 
-Als Systemadministrator müssen Sie sich mit Produktprofilen vertraut machen und Berechtigungen für die Sandbox-Verwaltung und Kanalkonfiguration zuweisen. Außerdem müssen Sie Sandboxes einrichten und für die verfügbaren Produktprofile verwalten. Anschließend können Sie den Produktprofilen Team-Mitglieder zuweisen. Diese Funktionen können von Produktadministratoren verwaltet werden, die Zugriff auf die Adobe Admin Console haben. [Weitere Informationen zu Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+Als Systemadministrator müssen Sie sich mit Produktprofilen vertraut machen und Berechtigungen für die Sandbox-Verwaltung und Kanalkonfiguration zuweisen. Außerdem müssen Sie Sandboxes einrichten und für die verfügbaren Produktprofile verwalten. Anschließend können Sie den Produktprofilen Team-Mitglieder zuweisen. Diese Funktionen können von Produktadministratoren verwaltet werden, die Zugriff auf die Adobe Admin Console haben. [Erfahren Sie mehr über die Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
-1. **Erstellen Sie Sandboxes** , um Ihre Instanzen in separate, isolierte virtuelle Umgebungen zu unterteilen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
+1. **Erstellen Sie Sandboxes**, um Ihre Instanzen in separate, isolierte virtuelle Umgebungen zu unterteilen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
 
 1. **Einrichten des Produktprofils**. Ein Produktprofil ist ein Satz von Einzelrechten in Adobe Experience Platform, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. [Weitere Informationen](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
@@ -36,7 +37,7 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Konfigurieren und aktivieren Sie die Verwendung von Adobe Experience Manager Assets** für Teams, die Assets als c-Cloud Service für die zentralisierte Verwaltung digitaler Assets verwenden. [Weitere Informationen](../admin/configure-aem-repositories.md)
 
->[!TAB Schnellstart für einen Marketingexperten]
+>[!TAB Schnellstart für Marketingexperten]
 
 Als Marketer oder _Account Journey Practitioner_ sind Sie für die Erstellung von Journey und die Erstellung von Inhalten verantwortlich. Sie können mit Adobe Journey Optimizer B2B Edition arbeiten, nachdem der Systemadministrator und der Data Engineer Ihre Umgebung vorbereitet und Ihnen Zugriff gewährt haben.
 

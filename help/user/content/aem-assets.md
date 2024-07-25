@@ -2,10 +2,11 @@
 title: Arbeiten mit Experience Manager Assets
 description: Erfahren Sie, wie Sie beim Bearbeiten von Inhalten in Adobe Journey Optimizer B2B Edition Bild-Assets aus einem verbundenen AEM Assets-Repository verwenden können.
 feature: Assets, Content
-source-git-commit: 0bdf0da4db0cbfc781d16f1c50716b1fc8ea4db9
+exl-id: c6864981-209c-4123-8d3f-24deb07026a0
+source-git-commit: 7103e4f6666482a72511661dfaed1392d4eb16b1
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ Wenn Ihre Umgebung über eine oder mehrere [Assets-Repository-Verbindungen](../a
 
 * Wenn Sie einen neuen Inhalt erstellen, wählen Sie `AEM Assets` als Element **[!UICONTROL Image Source]** im Dialogfeld.
 
-  ![Wählen Sie AEM Assets als Bildquelle im Dialogfeld &quot;Erstellen&quot;aus](./assets/create-dialog-aem-assets.png){width="500"}
+  ![Wählen Sie AEM Assets als Bildquelle im Dialogfeld &quot;Erstellen&quot;aus](./assets/create-dialog-aem-assets.png){width="400"}
 
 * Wenn Sie eine vorhandene Inhaltsressource öffnen, wählen Sie im Bereich _[!UICONTROL Hauptteil]_ rechts die Option &quot;`AEM Assets`&quot;.
 

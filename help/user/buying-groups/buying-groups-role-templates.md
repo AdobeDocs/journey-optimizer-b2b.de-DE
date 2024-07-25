@@ -3,10 +3,10 @@ title: Kaufen von Gruppenrollenvorlagen
 description: Erfahren Sie mehr über die Definition einer Rollenvorlage, die als eine Käufergruppenkomponente verwendet werden soll.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 099b515ac91e37c90421cf92f7a724257b07f42e
+source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
 workflow-type: tm+mt
 source-wordcount: '857'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -29,9 +29,9 @@ Auf einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Einzelpe
    * [!UICONTROL Name]
    * [!UICONTROL Status]
    * [!UICONTROL Erstellungsdatum]
-   * [!UICONTROL Erstellt von ]
+   * [!UICONTROL Erstellt von]
    * [!UICONTROL Letzte Aktualisierung]
-   * [!UICONTROL Letzte Aktualisierung durch ]
+   * [!UICONTROL Zuletzt aktualisiert von]
    * [!UICONTROL Veröffentlicht am]
    * [!UICONTROL Veröffentlicht von ]
 
@@ -55,41 +55,41 @@ Auf einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Einzelpe
 
 1. Fügen Sie für jede Rolle, die Sie für die Vorlage definieren möchten, eine Regel hinzu.
 
-* Wählen Sie die Rolle **[!UICONTROL Gruppe kaufen]** aus der Liste aus.
+   * Wählen Sie die Rolle **[!UICONTROL Gruppe kaufen]** aus der Liste aus.
 
-  Für die aktuelle Version gibt es sechs Rollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`.
+     Für die aktuelle Version gibt es sechs Rollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`.
 
-![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
+     ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
-* Legen Sie die **[!UICONTROL Gewichtung]** für die Rolle fest, die zur Berechnung des Interaktionswerts verwendet wird.
+   * Legen Sie die **[!UICONTROL Gewichtung]** für die Rolle fest, die zur Berechnung des Interaktionswerts verwendet wird.
 
-  Der Wert für jede Option wird in einen Prozentsatz für die Punktberechnung übersetzt: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Wichtig] = 80 und [!UICONTROL Vital] = 100.
+     Der Wert für jede Option wird in einen Prozentsatz für die Punktberechnung übersetzt: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Wichtig] = 80 und [!UICONTROL Vital] = 100.
 
-  Beispielsweise wird eine Rollenvorlage mit Rollen, die Vital, Wichtig und Normal verwenden, dann in 100/240, 80/240, 60/240 konvertiert.
+     Beispielsweise wird eine Rollenvorlage mit Rollen, die Vital, Wichtig und Normal verwenden, dann in 100/240, 80/240, 60/240 konvertiert.
 
-* **[!UICONTROL Bedingungen für die automatische Zuweisung hinzufügen]** - Aktivieren Sie dieses Kontrollkästchen, um Bedingungen für die automatische Zuweisung von Mitgliedern zur Kaufgruppe hinzuzufügen, die mit der Bedingung übereinstimmen. Wenn das Kontrollkästchen nicht aktiviert ist, ist das Hinzufügen von Bedingungen NICHT erforderlich.
+   * **[!UICONTROL Bedingungen für die automatische Zuweisung hinzufügen]** - Aktivieren Sie dieses Kontrollkästchen, um Bedingungen für die automatische Zuweisung von Mitgliedern zur Kaufgruppe hinzuzufügen, die mit der Bedingung übereinstimmen. Wenn das Kontrollkästchen nicht aktiviert ist, ist das Hinzufügen von Bedingungen NICHT erforderlich.
 
-* **[!UICONTROL Erforderlich für die Vollständigkeitsbewertung]** - Aktivieren Sie dieses Kontrollkästchen für die Rolle, wenn Sie möchten, dass es eine Anforderung zur Berechnung einer Vollständigkeitsbewertung ist. —>
+   * **[!UICONTROL Erforderlich für die Vollständigkeitsbewertung]** - Aktivieren Sie dieses Kontrollkästchen für die Rolle, wenn Sie möchten, dass es eine Anforderung zur Berechnung einer Vollständigkeitsbewertung ist. —>
 
-* Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**.
+   * Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**.
 
-   * Erweitern Sie im Dialogfeld &quot;Bedingung&quot;die Liste der **[!UICONTROL Personenattribute]** und suchen Sie nach einem Attribut, das Sie verwenden möchten, um der Rolle zu entsprechen. Ziehen Sie es nach rechts und legen Sie es im Filterbereich ab.
+      * Erweitern Sie im Dialogfeld &quot;Bedingung&quot;die Liste der **[!UICONTROL Personenattribute]** und suchen Sie nach einem Attribut, das Sie verwenden möchten, um der Rolle zu entsprechen. Ziehen Sie es nach rechts und legen Sie es im Filterbereich ab.
 
-     ![Roll template add condition drag attribute](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+        ![Roll template add condition drag attribute](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-   * Verwenden Sie das -Attribut, um einen passenden Filter mit einem oder mehreren Werten zu erstellen.
+      * Verwenden Sie das -Attribut, um einen passenden Filter mit einem oder mehreren Werten zu erstellen.
 
-     Im folgenden Beispiel wird das Attribut Auftragstitel verwendet, um eine Übereinstimmung für den Entscheidungsträger zu identifizieren. Jeder Wert für den Titel, der mit `Director` oder `Sr Director` beginnt, wird für die Bedingung als &quot;true&quot;ausgewertet.
+        Im folgenden Beispiel wird das Attribut Auftragstitel verwendet, um eine Übereinstimmung für den Entscheidungsträger zu identifizieren. Jeder Wert für den Titel, der mit `Director` oder `Sr Director` beginnt, wird für die Bedingung als &quot;true&quot;ausgewertet.
 
-     Beispiel für eine Rollout-Vorlagenbedingung mit Auftragstitel](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}![
+        Beispiel für eine Rollout-Vorlagenbedingung mit Auftragstitel](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}![
 
-   * Fügen Sie bei Bedarf ein weiteres Attribut und eine weitere Bedingung hinzu, um die Kriterien für eine Übereinstimmung mit der Rolle weiter zu verfeinern.
+      * Fügen Sie bei Bedarf ein weiteres Attribut und eine weitere Bedingung hinzu, um die Kriterien für eine Übereinstimmung mit der Rolle weiter zu verfeinern.
 
-   * Klicken Sie auf **[!UICONTROL Fertig]**.
+      * Klicken Sie auf **[!UICONTROL Fertig]**.
 
-Klicken Sie für jede zusätzliche Rolle, die Sie für die Vorlage einbeziehen möchten, auf **[!UICONTROL Hinzufügen einer weiteren Rolle]** und definieren Sie eine oder mehrere Bedingungen, die für die Rolle erfüllt werden sollen.
+   Klicken Sie für jede zusätzliche Rolle, die Sie für die Vorlage einbeziehen möchten, auf **[!UICONTROL Hinzufügen einer weiteren Rolle]** und definieren Sie eine oder mehrere Bedingungen, die für die Rolle erfüllt werden sollen.
 
-![Benutzerdefinierte Vorlage mit mehreren definierten Rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+   ![Benutzerdefinierte Vorlage mit mehreren definierten Rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
 1. Wenn die Vorlage einsatzbereit ist, klicken Sie oben rechts auf **[!UICONTROL Publish]** .
 

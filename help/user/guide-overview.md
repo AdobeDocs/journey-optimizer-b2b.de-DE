@@ -1,11 +1,11 @@
 ---
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
-description: Erfahren Sie, wie Sie die Adobe Journey Optimizer B2B Edition-Funktionen verwenden.
+description: Erfahren Sie, wie Sie die Adobe Journey Optimizer B2B Edition-Funktionen für die Orchestrierung von Konten und den Kauf von Journey mit integrierter generativer KI und branchenführender Automatisierung verwenden.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: f8b8f2a4ee813094389d1f262f729a9e95502c6a
+source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 2%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -19,23 +19,27 @@ Im Folgenden finden Sie ein Beispiel der neuesten Verbesserungen des Journey Opt
 
 >[!BEGINTABS]
 
->[!TAB Beta-Version ist verfügbar]
+>[!TAB KI-Assistent]
 
-Treten Sie dem Beta-Programm bei, um die vielen Funktionen der Adobe Journey Optimizer B2B Edition Beta-Version zu entdecken.
+Machen Sie sich schnell mit kontobasierten Marketingkonzepten vertraut und lernen Sie die Funktionen der Journey Optimizer B2B Edition kennen, mit denen Sie die Strategien Ihres Teams maximieren können.
 
-[!BADGE Weitere Informationen]{type=Informative url="https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4epuYNI0IWZLgH1mr3nTaPdURThPQjFWR0VaWk9XNjJQTjFER1pYT0lWWi4u" tooltip="Journey Optimizer B2B Edition Beta-Version"}
+[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Informationen zum KI-Assistenten"}
 
->[!TAB KI-Assistent für E-Mail-Inhalt]
-
-Erhöhen Sie Ihre Inhalte mit AI Assistant in Adobe Journey Optimizer B2B Edition, basierend auf generativer KI. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und sogar Bilder generiert, die speziell auf Ihre Zielgruppe abgestimmt sind.
+Erhöhen Sie Ihre Inhalte mit AI Assistant für E-Mail-Inhalte in Adobe Journey Optimizer B2B Edition mit generativer KI auf die nächste Stufe. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und sogar Bilder generiert, die speziell auf Ihre Zielgruppe abgestimmt sind.
 
 [!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Informationen zum KI-Assistenten für E-Mails"}
 
+>[!TAB Visuelle Fragmente]
+
+Erstellen Sie wiederverwendbare Komponenten als benutzerdefinierte Inhaltsbausteine, damit Ihre Marketing-Team-Mitglieder E-Mail-Inhalte zusammenstellen können, um einen verbesserten Designprozess zu erzielen.
+
+[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Informationen zu visuellen Fragmenten"}
+
 >[!TAB Gruppen kaufen]
 
-Erstellen Sie Einkaufsgruppen aus einheitlichen B2B-Daten aus Ihrem gesamten Unternehmen, richten Sie sie an die Angebote Ihres Unternehmens aus und automatisieren Sie, wie Sie die richtigen Mitglieder für jede Rolle definieren, identifizieren und ansprechen, um das präziseste Targeting für Ihre Kunden-Journey zu skalieren.
+Erstellen Sie Einkaufsgruppen aus einheitlichen B2B-Daten aus Ihrem gesamten Unternehmen. Richten Sie sie an die Angebote Ihres Unternehmens aus und automatisieren Sie, wie Sie die richtigen Mitglieder für jede Rolle definieren, identifizieren und ansprechen, um das präziseste Targeting für Ihre Journey zu skalieren.
 
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Informationen zum Kaufen von Gruppen"}
+[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Informationen zu Einkaufsgruppen"}
 
 >[!TAB Account-Journey]
 
@@ -45,7 +49,7 @@ Erstellen Sie maßgeschneiderte Journey für den Kauf von Gruppen innerhalb von 
 
 >[!ENDTABS]
 
-## Erste Schritte mit den Grundlagen
+## Beginnen Sie mit den Grundlagen
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -55,7 +59,7 @@ Erstellen Sie maßgeschneiderte Journey für den Kauf von Gruppen innerhalb von 
     </td>
       <td>
     <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
-    <div><strong>Erstellen Sie Ihre erste Buying Group</strong><br/>Erstellen Sie Ihre erste Buying Group in Journey Optimizer B2B Edition, um den Prozess der Interaktion und Qualifizierung von Kontakten zu automatisieren.</div>
+    <div><strong>Erstellen Sie Ihre erste Buying Group</strong><br/>Erstellen Sie Ihre erste Einkaufsgruppe in Journey Optimizer B2B Edition, um den Prozess der Interaktion und Qualifizierung von Kontakten zu automatisieren.</div>
     </td>
     <td>
     <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
@@ -76,7 +80,7 @@ Erstellen Sie maßgeschneiderte Journey für den Kauf von Gruppen innerhalb von 
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>Anmelden und Startseite</strong><br/><a href="home-page.md#marketer---new-user">Marketer - neuer Benutzer</a><br/><a href="home-page.md#marketer---advanced-user">Marketer - erweitert</a> <br/><a href="home-page.md#administrator---new-user">Administrator - neuer Benutzer</a> <br/><a href="home-page.md#administrator---advanced-user">Administrator - erweitert</a>
+      <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmelden und Startseite</a><br/><a href="./start/get-started.md">Schnellstartanleitung</a> <br/><a href="./start/ai-assistant.md">KI-Assistent</a>
     </td>
     <!--
     <td>
@@ -99,7 +103,7 @@ Erstellen Sie maßgeschneiderte Journey für den Kauf von Gruppen innerhalb von 
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
-      <strong>Assets</strong><br/><a href="./content/assets-overview.md">Overview</a><br/><a href="./content/marketo-engage-design-studio.md">Marketo Engage Design Studio</a><br/><a href="./content/aem-assets.md">Adobe Experience Manager Assets</a>
+      <strong>Content Management</strong><br/><a href="./content/assets-overview.md">Assets - Übersicht</a><br/><a href="./content/email-templates.md">E-Mail-Vorlagen</a><br/><a href="./content/fragments.md">Visuelle Fragmente</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
