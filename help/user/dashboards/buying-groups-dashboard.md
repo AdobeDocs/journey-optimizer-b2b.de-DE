@@ -3,9 +3,9 @@ title: Übersicht-Dashboard für Käufergruppen
 description: Erfahren Sie mehr über das Dashboard "Übersicht über Einkaufsgruppen"und wie es den Übergabe für Verkäufe durch das Marketing-Team ermöglicht.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '410'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Gewinnen Sie Einblicke in den Fortschritt Ihrer Einkaufsgruppen mit der Ansicht 
 
 Verwenden Sie das Aktionsmenü oben rechts, um auf die Daten zuzugreifen.
 
-![Klicken Sie auf das Symbol, um auf das Aktionsmenü zuzugreifen](./assets/buying-group-more-menu.png){width="400"}
+![Klicken Sie auf das Symbol, um auf das Aktionsmenü zuzugreifen](./assets/buying-group-more-menu.png){width="300"}
 
 ### [!UICONTROL Durchfahren]
 
@@ -58,7 +58,7 @@ Wählen Sie **[!UICONTROL Durchsuchen]** , um eine detaillierte Analyse der einz
 
 ![Der Drilldown für die Diagrammdaten](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-Die globalen Filter, die auf das Dashboard angewendet werden, werden übernommen und können von dieser Seite aus nicht geändert werden.
+Die globalen Filter, die auf das Dashboard angewendet werden, werden übernommen.
 
 Klicken Sie oben rechts auf das Symbol für das Aktionsmenü und wählen Sie **[!UICONTROL Mehr anzeigen]** bis [erweiterte Daten und Einblicke anzeigen](#view-more) aus.
 

@@ -3,16 +3,16 @@ title: E-Mail-Authoring
 description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die in Account Journey verwendet werden.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: cae7aa7faa67bd1888b85051ff247848b6c3c072
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 0%
+source-wordcount: '1314'
+ht-degree: 11%
 
 ---
 
 # E-Mail-Authoring
 
-Verwenden Sie Adobe Journey Optimizer B2B Edition, um Ihren Kunden E-Mail-Nachrichten zu senden. In Email Designer können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie Adobe Journey Optimizer B2B Edition, um Ihren Kunden E-Mail-Nachrichten zu senden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
 
 ## Hinzufügen einer E-Mail-Aktion auf einer Konto-Journey
 
@@ -22,7 +22,7 @@ Sie können E-Mail-Sendungen in einer Konto-Journey einrichten, wenn Sie einen K
 1. Wählen Sie für die _[!UICONTROL Aktion für Personen]_ **[!UICONTROL E-Mail senden]** aus.
 1. Wählen Sie für die _[!UICONTROL E-Mail-Quelle]_ **[!UICONTROL Neue E-Mail erstellen]** aus.
 
-   Alternativ können Sie auch die Option `Select email from Adobe Marketo Engage` auswählen, um eine der vorab erstellten E-Mails in Marketo Engage zu verwenden und sie als Teil der Konto-Journey zu senden.
+   Alternativ können Sie auch die Option _[!UICONTROL E-Mail aus Adobe Marketo Engage auswählen]_ auswählen, um eine der vorab erstellten E-Mails in Marketo Engage zu verwenden und sie als Teil der Konto-Journey zu senden.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Mit dieser Aktion wird E-Mail-Designer gestartet, in der Sie aus den folgenden O
 
 * [Gestalten Sie Ihre E-Mail mit der Benutzeroberfläche von Email Designer von Grund auf neu](#design-your-email-from-scratch).
 
-* [Importieren Sie vorhandenen HTML-Inhalt](#import-existing-html-content) aus einer Datei oder einem ZIP-Ordner.
+* [Importieren Sie vorhandene HTML-Inhalte](#import-existing-html-content) aus einer Datei oder einem ZIP-Ordner.
 
 * [Wählen Sie eine vorhandene Vorlage ](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen.
 
@@ -64,7 +64,7 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie ihn
 
 ### E-Mail von Grund auf neu erstellen
 
-1. Wählen Sie auf der Designer-Startseite die Option **[!UICONTROL Neu entwerfen]** aus.
+1. Wählen Sie auf der Startseite von Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
 
 1. Ziehen Sie zum Starten Ihres Inhaltsdesigns ein Element aus den **[!UICONTROL Strukturen]** und legen Sie es auf der Arbeitsfläche ab.
 
@@ -92,15 +92,15 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie ihn
 
 1. Wählen Sie im linken Bereich die Registerkarte **[!UICONTROL Links]** aus, um alle getrackten URLs Ihres Inhalts anzuzeigen.
 
-   Sie können den Tracking-Typ oder die Bezeichnung ändern und bei Bedarf Tags hinzufügen.
+   Sie können den _Trackingtyp_ oder den _Titel_ ändern und bei Bedarf Tags hinzufügen.
 
-Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Codeeditor wechseln]** klicken. Mit dem Code-Editor können Sie den E-Mail-Quellcode bearbeiten, z. B. das Hinzufügen von Tracking- oder benutzerdefinierten HTML-Tags.
+Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Mit dem Code-Editor können Sie den E-Mail-Quellcode bearbeiten, z. B. das Hinzufügen von Tracking- oder benutzerdefinierten HTML-Tags.
 
 >[!CAUTION]
 >
 >Sie können nach dem Wechsel zum Code-Editor nicht zum visuellen Designer für diese E-Mail zurückkehren.
 
-Wenn Ihr Inhalt fertig ist, klicken Sie oben auf **[!UICONTROL Inhalt simulieren]** , um das Rendering zu überprüfen. Sie können die Desktop- oder Mobilansicht auswählen.
+Wenn Ihr Inhalt fertig ist, klicken Sie oben auf **[!UICONTROL Inhalt simulieren]** , um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
 
 Wenn Sie fertig sind, klicken Sie auf Speichern.
 
@@ -113,11 +113,11 @@ Importierte Inhalte können:
 
 >[!NOTE]
 >
->Die ZIP-Dateistruktur unterliegt keinen Beschränkungen. Verweise müssen jedoch relativ sein und in die Baumstruktur des Ordners .zip passen.
+>Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen.
 
 _So importieren Sie eine Datei mit HTML-Inhalt:_
 
-1. Wählen Sie auf der Startseite von Email Designer die Option **[!UICONTROL HTML importieren]**.
+1. Wählen Sie auf der Startseite des E-Mail-Designers die Option **[!UICONTROL HTML importieren]**.
 
 1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf [!UICONTROL Importieren].
 
@@ -151,7 +151,7 @@ _So erstellen Sie Ihren Inhalt mit einer der Beispiel- oder gespeicherten Vorlag
 
 1. Bearbeiten Sie den Inhalt nach Bedarf in der _E-Mail-Designer_.
 
-## Warnungen überprüfen
+## Prüfen von Warnhinweisen
 
 Während Sie den Inhalt Ihrer E-Mail-Nachricht erstellen, werden Warnhinweise in der Benutzeroberfläche (oben rechts auf der Seite) angezeigt, wenn wichtige Einstellungen fehlen.
 

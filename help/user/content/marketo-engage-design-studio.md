@@ -2,7 +2,8 @@
 title: Arbeiten mit Marketo Engage-Assets
 description: Erfahren Sie mehr über die Verwendung der Marketo Engage Design Studio Asset Management-Integration in Journey Optimizer B2B Edition.
 feature: Assets, Content
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
 workflow-type: tm+mt
 source-wordcount: '1696'
 ht-degree: 0%
@@ -95,7 +96,7 @@ Sie können ein Asset mit einer der folgenden Methoden ersetzen:
 
 Ziehen Sie im Dialogfeld _[!UICONTROL Asset ersetzen]_ die Ersatzdatei aus Ihrem System in das Dateifeld. Sie können auch auf den Link _[!UICONTROL Datei von Ihrem Computer auswählen]_ klicken, um mithilfe Ihres lokalen Dateisystems eine Datei auszuwählen. (Wenn Sie mehrere Dateien in Ihrem lokalen System auswählen, wird die erste ausgewählte Datei für den Austausch verwendet.)
 
-![Dialogfeld &quot;Asset ersetzen&quot;](./assets/assets-replace-dialog.png){width="500" zoomable="yes"}
+![Dialogfeld &quot;Asset ersetzen&quot;](./assets/assets-replace-dialog.png){width="520" zoomable="yes"}
 
 Um fortzufahren, klicken Sie auf **[!UICONTROL Ersetzen]**. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 
