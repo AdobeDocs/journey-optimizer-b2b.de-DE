@@ -3,9 +3,9 @@ title: Übersicht-Dashboard für Käufergruppen
 description: Erfahren Sie mehr über das Dashboard "Übersicht über Einkaufsgruppen"und wie es den Übergabe für Verkäufe durch das Marketing-Team ermöglicht.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1c2f6d6836c95be619ed3b35dd7248ab279a410c
+source-git-commit: c5fe3f1530b2c3d9b9eab8ad089dbab9a2c74e99
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -19,26 +19,52 @@ Der Sales Handoff umfasst:
 * **Datenübergabe**: Marketing identifiziert _ready_-Zieldaten und stellt sie für den Verkauf im CSV-Format bereit. 
 * **Annahme des Verkaufs**: Der Verkauf überprüft manuell die _fertigen_ Ziele und fügt sie in die Pipeline ein.
 
-![Übersicht über die Käufe von Gruppen](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
-
 ## Einkaufsgruppenstatus
 
 Gewinnen Sie Einblicke in den Fortschritt Ihrer Einkaufsgruppen mit der Ansicht &quot;Status der Einkaufsgruppe&quot;. Diese Visualisierung zeigt die Verteilung Ihrer Einkaufsgruppen, die nach ihrer letzten Statusaktualisierung innerhalb eines bestimmten Zeitraums kategorisiert sind.
 
+![Übersicht über die Käufe von Gruppen](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
+
 **[!UICONTROL Status]** (y-Achse): Verfolgen Sie das Journey von Einkaufsgruppen in verschiedenen Phasen.
 **[!UICONTROL Anzahl der Kaufgruppen]** (x-Achse): Quantifizieren Sie die Anzahl der Einkaufsgruppen für jeden Status, und geben Sie eine klare Metrik für den Zustand und die Aktivität Ihres Trichters an.
+<!-- To generate a shareable PDF of your current view, click **[!UICONTROL Export]** at the top-right corner of the page. -->
 
-Um eine freigebbare PDF Ihrer aktuellen Ansicht zu generieren, klicken Sie oben rechts auf der Seite auf **[!UICONTROL Exportieren]** . Verwenden Sie das Aktionsmenü oben rechts, um auf die Daten zuzugreifen.
+### Datenfilterung
+
+* **Datenfilter** - Verwenden Sie den _[!UICONTROL Datumsfilter]_, der das Datum der letzten Statusänderung der Bestellgruppe widerspiegelt. Das Startdatum kann angepasst werden. Das Enddatum wird standardmäßig auf den aktuellen Tag festgelegt.
+
+  ![Filtern der Statusdaten der Gruppe für den Kauf nach Datumsbereich](./assets//buying-group-status-filter-date.png){width="400"}
+
+* **Attributfilter** - Klicken Sie oben links auf das Symbol _Filter_ , um die Datenanzeige anhand eines dieser Attribute zu filtern:
+
+   * Lösungsinteressen
+   * Status
+   * Kaufen von Gruppenstatus
+   * Kontoregion
+   * Kundenbranche
+  <!-- * Account's Industry -->
+
+  ![Filtern der Statusdaten der Einkaufsgruppe nach Attribut](./assets/buying-group-status-drill-through-filters.png){width="500"}
+
+## Dateninteraktion
+
+Verwenden Sie das Aktionsmenü oben rechts, um auf die Daten zuzugreifen.
+
+![Klicken Sie auf das Symbol, um auf das Aktionsmenü zuzugreifen](./assets/buying-group-more-menu.png){width="400"}
 
 ### [!UICONTROL Durchfahren]
 
 Wählen Sie **[!UICONTROL Durchsuchen]** , um eine detaillierte Analyse der einzelnen Gruppenstatus zu erhalten.
 
-Die globalen Filter, die auf das Dashboard angewendet werden, werden übernommen und können von dieser Seite aus nicht geändert werden.
-Die angewendeten Filter werden angezeigt. 
-Der einzige verfügbare Filter, der aktiviert ist, ist _Kontoname_.
+![Der Drilldown für die Diagrammdaten](./assets/buying-group-status-drill-through-view.png){width="600" zoomable="yes"}
 
-Um verfügbare Spalten ein- oder auszublenden, klicken Sie oben rechts auf **[!UICONTROL Mehr anzeigen]** :
+Die globalen Filter, die auf das Dashboard angewendet werden, werden übernommen und können von dieser Seite aus nicht geändert werden.
+
+Klicken Sie oben rechts auf das Symbol für das Aktionsmenü und wählen Sie **[!UICONTROL Mehr anzeigen]** bis [erweiterte Daten und Einblicke anzeigen](#view-more) aus.
+
+### [!UICONTROL Mehr anzeigen]
+
+Wählen Sie **[!UICONTROL Mehr anzeigen]** für erweiterte Daten und Einblicke. Das angezeigte Popup-Fenster enthält eine Grafik und eine Tabelle, die die Aufschlüsselung der Status der gekauften Gruppen anzeigt:
 
 * [!UICONTROL Konto-ID ]
 * [!UICONTROL Kontoname]
@@ -58,21 +84,6 @@ Um verfügbare Spalten ein- oder auszublenden, klicken Sie oben rechts auf **[!U
 * [!UICONTROL Anzahl der eingehenden Interaktionsaktivitäten]
 * [!UICONTROL Letztes Interaktionsdatum]
 
-### Filter
+![Erweiterte Daten anzeigen](./assets/buying-group-status-view-more.png){width="600" zoomable="yes"}
 
-Globaler Filter: **[!UICONTROL Datumsfilter]**, der das Datum der letzten Statusänderung der Bestellgruppe widerspiegelt. Das Startdatum kann angepasst werden. Das Enddatum wird standardmäßig auf den aktuellen Tag festgelegt.
-
-Sie können die Anzeige auch mit einem der folgenden Attribute filtern:
-
-* Lösungsinteressen
-* Liste der Lösungsinteressen
-* Status
-* Kaufen von Gruppenstatus
-* Kontoregion
-* Region des Kontos
-* Kundenbranche
-* Branche des Kontos
-
-### [!UICONTROL Mehr anzeigen]
-
-Wählen Sie **[!UICONTROL Mehr anzeigen]** für erweiterte Daten und Einblicke. Das angezeigte Popup-Fenster enthält eine Grafik und eine Tabelle, die die Aufschlüsselung der Status der Einkaufsgruppe anzeigen, sowie eine Schaltfläche zum Herunterladen von CSV ]_oben rechts in der Tabelle._[!UICONTROL 
+Um die Daten herunterzuladen, klicken Sie oben rechts auf **[!UICONTROL CSV herunterladen]** .

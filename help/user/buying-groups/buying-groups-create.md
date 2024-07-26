@@ -3,7 +3,7 @@ title: Erstellen von Einkaufsgruppen
 description: Erfahren Sie, wie Sie Einkaufsgruppen erstellen.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Auf der ersten Seite finden Sie Anleitungen zu den Voraussetzungen/Komponenten, 
 
 Das Bestätigungsdialogfeld bietet eine Zusammenfassung des Kaufgruppenprozesses und eine geschätzte Fertigstellungszeit. Um den Prozess zu bestätigen und zu starten, klicken Sie auf **[!UICONTROL Erstellen]**.
 
-![Bestätigungsdialogfeld für Einkaufsgruppen erstellen](./assets/buying-groups-create-confirm.png){width="400" zoomable="no"}
+![Bestätigungsdialogfeld für Einkaufsgruppen erstellen](./assets/buying-groups-create-confirm.png){width="425" zoomable="no"}
 
 Sie können den Benutzer zur Registerkarte Projektmappeninteressen navigieren und die Anzahl der für das Lösungsinteresse erstellten Aufträge anzeigen.
 

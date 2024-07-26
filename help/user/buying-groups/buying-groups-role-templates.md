@@ -3,7 +3,7 @@ title: Kaufen von Gruppenrollenvorlagen
 description: Erfahren Sie mehr über die Definition einer Rollenvorlage, die als eine Käufergruppenkomponente verwendet werden soll.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 19633e2676c3e9d747a1e65bfc48a3ba421674b9
+source-git-commit: 164a038ecce64cbf113c50b9328f84a95aa7b201
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Auf einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Einzelpe
 
    * **[!UICONTROL Bedingungen für die automatische Zuweisung hinzufügen]** - Aktivieren Sie dieses Kontrollkästchen, um Bedingungen für die automatische Zuweisung von Mitgliedern zur Kaufgruppe hinzuzufügen, die mit der Bedingung übereinstimmen. Wenn das Kontrollkästchen nicht aktiviert ist, ist das Hinzufügen von Bedingungen NICHT erforderlich.
 
-   * **[!UICONTROL Erforderlich für die Vollständigkeitsbewertung]** - Aktivieren Sie dieses Kontrollkästchen für die Rolle, wenn Sie möchten, dass es eine Anforderung zur Berechnung einer Vollständigkeitsbewertung ist. —>
+   * **[!UICONTROL Erforderlich für die Vollständigkeitsbewertung]** - Aktivieren Sie dieses Kontrollkästchen für die Rolle, wenn Sie möchten, dass es eine Anforderung zur Berechnung einer Vollständigkeitsbewertung ist.
 
    * Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**.
 

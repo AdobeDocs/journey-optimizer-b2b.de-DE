@@ -2,10 +2,10 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Adobe Journey Optimizer B2B Edition-Funktionen für die Orchestrierung von Konten und den Kauf von Journey mit integrierter generativer KI und branchenführender Automatisierung verwenden.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 595eb7fcf982370cc733f566ea2f51fb02362926
+source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 
@@ -73,6 +73,12 @@ Erstellen Sie maßgeschneiderte Journey für den Kauf von Gruppen innerhalb von 
     <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
     </tr>
 </table>
+
+## Übersichtsdemo
+
+Entdecken Sie die Komponenten einer Einkaufsgruppe und lernen Sie die Grundlagen zum Erstellen einer Journey kennen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
 ## Dokumentation
 
