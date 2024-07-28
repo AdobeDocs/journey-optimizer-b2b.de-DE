@@ -3,10 +3,10 @@ title: Assets
 description: Erfahren Sie mehr über die Asset-Verwaltung in Journey Optimizer B2B Edition.
 feature: Assets, Content
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: dcd8ab2820d60654e8970944054142fc296ed54f
+source-git-commit: 16b798f18f72eeb63e68a8d32e69164930aa1e22
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Journey Optimizer B2B Edition bietet Marketing-Experten Zugriff auf zwei A
 
 ## Asset-Management
 
-Wenn Sie über ein Marketo Engage-Konto und Adobe Experience Manager as a Cloud Service verfügen, haben Sie Zugriff auf die Repositorys für Marketo Engage DAM und Adobe Experience Manager Assets as a Cloud Service, wenn Ihr Benutzerkonto über die erforderlichen Berechtigungen verfügt. Diese Repositorys sind separat und nicht synchronisiert. Sie können Bilder aus beiden Quellen verwenden, jedoch kann jeweils nur eines im Inhaltseditor aktiviert werden. Ein Administrator kann den Wechsel vom Marketo Engage-DAM zu Adobe Experience Manager Assets as a Cloud Service vornehmen. Das Element _[!UICONTROL Assets]_ im linken Navigationsbereich zeigt das derzeit eingerichtete Repository an.
+Wenn Sie über ein Marketo Engage-Konto und Adobe Experience Manager as a Cloud Service verfügen, haben Sie Zugriff auf die Repositorys für Marketo Engage DAM und Adobe Experience Manager Assets as a Cloud Service, wenn Ihr Benutzerkonto über die erforderlichen Berechtigungen verfügt. Diese Repositorys sind getrennt und nicht synchronisiert. Sie können Bilder aus beiden Quellen verwenden, jedoch kann jeweils nur eines im Inhaltseditor aktiviert werden. Ein Administrator kann den Wechsel vom Marketo Engage-DAM zu Adobe Experience Manager Assets as a Cloud Service vornehmen. Das Element _[!UICONTROL Assets]_ im linken Navigationsbereich zeigt das derzeit eingerichtete Repository an.
 
 ### Adobe Marketo Engage Design Studio
 
@@ -30,7 +30,7 @@ Unterstützte Dateiformate: JPG, JPEG, GIF, PNG, EPS, SVG, RGB
 
 Marketing- und Kreativ-Workflows mit Adobe Experience Manager Assets zusammenführen Es ist nativ in Adobe Journey Optimizer B2B Edition integriert, sodass Sie einfach auf Assets as a Cloud Service zugreifen können, um digitale Assets zu finden und zu verwenden. Es bietet Zugriff auf Ihr Assets-Repository für Assets, mit denen Sie Ihre Nachrichten ausfüllen können.
 
-Adobe Experience Manager Assets kann für zentrale Asset-Arbeitsbereiche, die Ihr Kreativsystem erweitern und digitale Assets für die Bereitstellung von Erlebnissen vereinheitlichen, eine Verbindung zu Adobe Experience Manager Assets as a Cloud Service herstellen. Adobe Experience Manager Assets as a Cloud Service bietet eine benutzerfreundliche Cloud-Lösung für effiziente Digital Asset Management- und Dynamic Media-Vorgänge. Es umfasst nahtlos erweiterte Funktionen, darunter künstliche Intelligenz und maschinelles Lernen.
+Adobe Experience Manager Assets kann für zentrale Asset-Arbeitsbereiche, die Ihr Kreativsystem erweitern und digitale Assets für die Bereitstellung von Erlebnissen vereinheitlichen, eine Verbindung zu Adobe Experience Manager Assets as a Cloud Service herstellen. Adobe Experience Manager Assets as a Cloud Service bietet eine benutzerfreundliche Cloud-Lösung für effiziente Digital Asset Management- und Dynamic Media-Vorgänge. Es integriert nahtlos fortschrittliche Funktionen, darunter künstliche Intelligenz und maschinelles Lernen.
 
 Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/overview) .
 
@@ -49,11 +49,11 @@ Verwenden Sie Assets beim Erstellen von E-Mails, E-Mail-Vorlagen und visuellen F
 
 ### Auswählen einer Asset-Quelle
 
-Wenn Sie über ein Abonnement von Experience Manager Assets as a Cloud Service sowie die standardmäßige Adobe Marketo Engage Design Studio verfügen, können Sie Bild-Assets aus beiden Quellen auswählen. Dazu müssen Sie die Bildquelle zum Zeitpunkt der Erstellung für eine neue E-Mail, eine E-Mail-Vorlage oder ein neues visuelles Fragment auswählen. Sie können auch die Bildquelle auswählen, wenn Sie den Inhalt bearbeiten. Die Auswahl gilt nur für das Bearbeitungserlebnis. Sie können die Bildquelle ändern, um bei Bedarf auf Assets aus einer anderen Bibliothek zuzugreifen.
+Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service sowie die standardmäßige Adobe Marketo Engage Design Studio verfügen, können Sie Bild-Assets aus beiden Quellen auswählen. Dazu müssen Sie die Bildquelle zum Zeitpunkt der Erstellung für eine neue E-Mail, eine E-Mail-Vorlage oder ein neues visuelles Fragment auswählen. Sie können auch die Bildquelle auswählen, wenn Sie den Inhalt bearbeiten. Die Auswahl gilt nur für das Bearbeitungserlebnis. Sie können die Bildquelle ändern, um bei Bedarf auf Assets aus einer anderen Bibliothek zuzugreifen.
 
-E-Mails erstellen
+_**Erstellen einer Inhaltsressource**_ - Wenn Sie beim Erstellen einer E-Mail, einer E-Mail-Vorlage oder eines Fragments eine Bildquelle auswählen möchten, legen Sie beim Erstellen der Ressource die **[!UICONTROL Bildquelle]** im Dialogfeld fest.
 
-Bearbeiten einer E-Mail: Um eine Bild-Asset-Quelle im Visual Editor auszuwählen, verwenden Sie die Auswahl **[!UICONTROL Bildquelle auswählen]** oben auf der Arbeitsfläche.
+_**Bearbeiten einer Inhaltsressource**_ - Um eine Bild-Asset-Quelle im Visual Editor auszuwählen, verwenden Sie den Selektor **[!UICONTROL Bildquelle auswählen]** oben auf der Arbeitsfläche.
 
 ### Hinzufügen von Assets zu Inhalten
 
