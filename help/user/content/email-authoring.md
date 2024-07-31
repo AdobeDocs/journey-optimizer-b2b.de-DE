@@ -3,9 +3,9 @@ title: E-Mail-Authoring
 description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die in Account Journey verwendet werden.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: ce38e378ad316fb379cb649a4592ed831250296d
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1294'
 ht-degree: 11%
 
 ---
@@ -88,8 +88,8 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie ihn
 
 1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Zielgruppenmitgliedschaften, Kontextattributen und mehr anzupassen.
 
-1. Klicken Sie auf **[!UICONTROL Bedingungsinhalt aktivieren]** , um dynamischen Inhalt hinzuzufügen und den Inhalt basierend auf Bedingungsregeln an die Zielprofile anzupassen.
-
+<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
+-->
 1. Wählen Sie im linken Bereich die Registerkarte **[!UICONTROL Links]** aus, um alle getrackten URLs Ihres Inhalts anzuzeigen.
 
    Sie können den _Trackingtyp_ oder den _Titel_ ändern und bei Bedarf Tags hinzufügen.
