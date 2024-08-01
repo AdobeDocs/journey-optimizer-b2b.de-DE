@@ -3,16 +3,16 @@ title: SMS-Authoring
 description: Erfahren Sie, wie Sie Ihren Kunden auf ihren Mobilgeräten Textnachrichten (SMS) senden und Nachrichten im Textformat personalisieren und im SMS-Editor in der Vorschau anzeigen können.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: a5f3f5533adefeb2daa6fc93e9cdef094aee9d37
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1879'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # SMS-Authoring
 
-Verwenden Sie Adobe Journey Optimizer B2B Edition, um Ihren Kunden auf ihren Mobilgeräten Textnachrichten (SMS) zu senden. Sie können Nachrichten im Textformat im SMS-Editor erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie Adobe Journey Optimizer B2B Edition, um Ihren Kunden auf ihren Mobilgeräten Textnachrichten (SMS) zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
 
 ## SMS-Konfigurationen
 
@@ -26,7 +26,7 @@ Bevor Sie einen SMS-Kanal in Adobe Journey Optimizer B2B Edition konfigurieren, 
 
 >[!IMPORTANT]
 >
->Ihre Nutzung von Textnachrichten unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Als Drittanbieterlösungen stehen Sinch, Twilio und Infobip Benutzern von Adobe Journey Optimizer B2B Edition über eine Integration zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich. Wenden Sie sich bei Problemen oder Ersuchen um Unterstützung im Zusammenhang mit den Textnachrichtendiensten (SMS) an Ihren Provider.
+>Ihre Nutzung von Textnachrichten-Services unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Als Drittanbieterlösungen stehen Sinch, Twilio und Infobip Benutzern von Adobe Journey Optimizer B2B Edition über eine Integration zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich. Wenden Sie sich bei Problemen oder Ersuchen um Unterstützung im Zusammenhang mit den Textnachrichtendiensten (SMS) an Ihren Provider.
 
 ### Vorhandene SMS-API-Konfiguration überprüfen
 
@@ -54,7 +54,7 @@ _So konfigurieren Sie Sinch als SMS-Provider mit Adobe Journey Optimizer B2B Edi
 
 1. Klicken Sie oben rechts in der Liste _[!UICONTROL API-Anmeldeinformationen]_ auf die Schaltfläche **[!UICONTROL Neue API-Anmeldeinformationen erstellen]** .
 
-1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen:
+1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
    ![Konfigurieren der Single-SMS-API-Anmeldeinformationen](./assets/config-sms-api-sinch.png){width="500"}
 
@@ -76,7 +76,7 @@ _So konfigurieren Sie Twilio als SMS-Provider mit Adobe Journey Optimizer B2B Ed
 
 1. Klicken Sie oben rechts in der Liste _[!UICONTROL API-Anmeldeinformationen]_ auf die Schaltfläche **[!UICONTROL Neue API-Anmeldeinformationen erstellen]** .
 
-1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen:
+1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
    ![Konfigurieren der Twilio-SMS-API-Anmeldeinformationen](./assets/config-sms-api-twilio.png){width="500"}
 
@@ -98,7 +98,7 @@ _So konfigurieren Sie Infobip als SMS-Provider mit Adobe Journey Optimizer B2B E
 
 1. Klicken Sie oben rechts in der Liste _[!UICONTROL API-Anmeldeinformationen]_ auf die Schaltfläche **[!UICONTROL Neue API-Anmeldeinformationen erstellen]** .
 
-1. Konfigurieren Sie Ihre SMS-API-Anmeldeinformationen:
+1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
    ![Konfigurieren der Anmeldeinformationen der Infobip-SMS-API](./assets/config-sms-api-infobip.png){width="500"}
 
@@ -138,7 +138,7 @@ Sie können Textnachrichten-Sendungen in einer Konto-Journey einrichten, wenn Si
 >
 >**Verwaltung der SMS-Einwilligung**<br/>
 ><br/>
->In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketingnachrichten eine Möglichkeit enthalten, mit der sich die Empfänger leicht abmelden können. Zu diesem Zweck können SMS-Empfänger mit Opt-in- und Opt-out-Keywords antworten. Alle standardmäßigen Opt-in- und Opt-out-Suchbegriffe werden unterstützt und berücksichtigt. Darüber hinaus werden alle benutzerdefinierten Suchbegriffe unterstützt und berücksichtigt, die für Ihr SMS-Dienstanbieterkonto konfiguriert wurden.
+>In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketingnachrichten eine Möglichkeit enthalten, mit der sich die Empfänger leicht abmelden können. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. Alle standardmäßigen Opt-in- und Opt-out-Suchbegriffe werden unterstützt und berücksichtigt. Darüber hinaus werden alle benutzerdefinierten Suchbegriffe unterstützt und berücksichtigt, die für Ihr SMS-Dienstanbieterkonto konfiguriert wurden.
 
 1. Geben Sie im Feld **[!UICONTROL Nachricht]** den Text ein, den Sie senden möchten.
 

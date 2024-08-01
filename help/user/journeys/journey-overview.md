@@ -3,10 +3,10 @@ title: Account-Journey
 description: Erfahren Sie mehr über die Journey und wie Sie sie erstellen und verwalten können.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 07198448d168e66023fada332f38099890ba4a1b
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1125'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -28,9 +28,9 @@ Definieren Sie eine umsatzbasierte Interaktion, die E-Mail, SMS und mehr innerha
    * [!UICONTROL Name] (klicken Sie auf den Namen, um die Konto-Journey zur Bearbeitung zu öffnen)
    * [!UICONTROL Status]
    * [!UICONTROL Beschreibung]
-   * [!UICONTROL Erstellt von ]
+   * [!UICONTROL Erstellt von]
    * [!UICONTROL Letzte Aktualisierung um ]
-   * [!UICONTROL Letzte Aktualisierung durch ]
+   * [!UICONTROL Zuletzt aktualisiert von]
    * [!UICONTROL Veröffentlicht am]
    * [!UICONTROL Veröffentlicht von ]
 
@@ -64,7 +64,7 @@ Der Status einer Journey ändert sich je nach den von Ihnen angewendeten Aktione
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _**Entwurf**_ | Eine nicht veröffentlichte Journey, die bearbeitbar ist. | <ul><li>Veröffentlichen</li><li>Doppelt </li><li>Löschen </li></ul> |
+| _**Entwurf**_ | Eine nicht veröffentlichte Journey, die bearbeitbar ist. | <ul><li>Veröffentlichen Sie</li><li>Doppelt </li><li>Löschen </li></ul> |
 | _**Live**_ | Der Journey-Status ändert sich von &quot;Entwurf&quot;in &quot;Live&quot;, wenn eine Journey veröffentlicht wird. In diesem Status ist sie nicht mehr bearbeitbar. | <ul><li>Doppelt </li><li>Schließen an neue Einträge </li><li>Abbrechen </li></ul> |
 | _**Geschlossen in neue Einträge**_ | Der Journey-Status ändert sich von _Live_ in _Geschlossen in neue Einträge_, wenn Sie in der oberen Navigationsleiste auf [!UICONTROL Für neue Einträge schließen] klicken. | <ul><li>Doppelt </li><li>Abbrechen </li></ul> |
 | _**Aborted**_ | Der Journey-Status ändert sich von _Live_ oder _Geschlossen in neue Einträge_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <ul><li>Doppelt </li><li>Löschen </li></ul> |

@@ -1,9 +1,9 @@
 ---
-title: Übersicht-Dashboard für Käufergruppen
+title: Übersicht-Dashboard "Gruppen kaufen"
 description: Erfahren Sie mehr über das Dashboard "Übersicht über Einkaufsgruppen"und wie es den Übergabe für Verkäufe durch das Marketing-Team ermöglicht.
 feature: Dashboards, Buying Groups
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ec72c46a57109814464542fd4a8e4a9828982136
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 1%

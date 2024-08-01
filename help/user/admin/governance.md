@@ -1,10 +1,11 @@
 ---
 title: Governance-Funktionen
 description: Erfahren Sie mehr über Governance-Funktionen, die derzeit in Journey Optimizer B2B Edition verfügbar sind.
-source-git-commit: 1353defe804947617a4d7489592d380bf372c7df
+exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -16,7 +17,7 @@ Als integrierte Adobe Experience Platform-App verwendet Journey Optimizer B2B Ed
 
 Journey Optimizer B2B Edition verwendet die bestehenden Marketo Engage DSGVO-Governance-Funktionen, die vom Privacy Service und Marketo Privacy Broker Service bereitgestellt werden.
 
-## Rollenbasierte Zugriffssteuerung (RBAC)
+## Rollenbasierte Zugriffskontrolle (RBAC)
 
 Mit Journey Optimizer B2B Edition und Zugriff auf Adobe Admin Console können Administratoren einem Entitätstyp Benutzerberechtigungen erteilen (Anzeigen von Segmenten, Verwalten von Segmenten, Verwalten von Journey usw.). Diese Funktion ist Teil des Unified Permissions Framework (UPF), das es allen Adobe Experience Platform-Kunden ermöglicht, Rollen und Berechtigungen für ihre Organisation zu definieren und zu verwalten.
 
@@ -39,7 +40,7 @@ Die folgenden Governance-Funktionen sind noch nicht verfügbar, sind jedoch in d
 * Durchsetzung der Datennutzungsbezeichnung (DULE)/Nutzungsrichtlinien
 * Datenhygiene
 * Zurücksetzen der Sandbox
-* Einverständnisrichtlinien
+* Einverständniserklärungen
 * Zugriffskontrolle auf Feldebene (FLAC)
 * Zugriffskontrolle auf Objektebene (OLAC)
 * CMK-Verschlüsselung für ruhende Daten

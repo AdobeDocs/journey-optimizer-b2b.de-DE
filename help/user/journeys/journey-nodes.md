@@ -1,9 +1,9 @@
 ---
-title: Journey-Knoten des Kontos
+title: Konto-Journey-Knoten
 description: Erfahren Sie mehr über die Knotentypen, mit denen Sie Ihre Journey erstellen können.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 90946e472ba4757a2594e4303495a20ceb4fc890
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 2%
@@ -28,9 +28,9 @@ Führen Sie eine Aktion wie den Versand einer E-Mail, die Änderung der Punktzah
 
 **Aktion für Personen**: Die Aktion wird auf alle Personen auf diesem Pfad angewendet. Eine Aktion für Personen kann innerhalb des Aufspaltungspfads von Personen verwendet oder durch Konten aufgeteilt werden.
 
-| Knotenkontext | Funktion | Einschränkungen |
+| Knotenkontext | Funktion | Begrenzungen |
 | ------------ | -------- | ----------- |
-| [Personen](#add-a-people-action) | Zuweisen zu einer Kaufgruppe | Lösungsinteresse auswählen<br/>Rolle auswählen |
+| [„Personen“](#add-a-people-action) | Zuweisen zu einer Kaufgruppe | Lösungsinteresse auswählen<br/>Rolle auswählen |
 | | Entfernen aus der Gruppe &quot;Kaufen&quot; | Lösungsinteresse auswählen |
 | | SMS senden | SMS erstellen |
 | | Zur Marketo Engage-Anforderungskampagne hinzufügen | Marketo Engage-Arbeitsbereich auswählen<br/>Auswahl der Anforderungskampagne |
@@ -82,9 +82,9 @@ Verschieben Sie Ihre Zielgruppe zum nächsten Schritt im Journey, wenn ein Ereig
 
 **Ereignisse für Personen überwachen**: Ereignisse für Personen können nur auf einen Kontopfad angewendet werden. Es ist nicht für eine Aufspaltung durch Personen-Knoten verfügbar.
 
-| Knotenkontext | Funktion | Einschränkungen |
+| Knotenkontext | Funktion | Begrenzungen |
 | ------------ | -------- | ----------- |
-| [Personen](#add-a-people-event) | Datenwertänderungen | Attribut<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
+| [„Personen“](#add-a-people-event) | Datenwertänderungen | Attribut<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
 | | Klickt auf Link in E-Mail | E-Mail<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
 | | Zugeordnet zur Einkaufsgruppe | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional)<br/>Zeitüberschreitung (optional) |
 | | Öffnet E-Mail | E-Mail<br/>Zusätzliche Einschränkungen (optional)<br/>Timeout (optional) |
@@ -169,7 +169,7 @@ _Wie funktioniert ein Aufspaltungspfad nach Personen-Knoten?_
 
 | Knotenkontext | Pfadbedingungen | Beschreibung |
 | ------------ | -------- | ----------- |
-| [Personen](#add-a-split-path-by-people-node) | Personenattribute | |
+| [„Personen“](#add-a-split-path-by-people-node) | Personenattribute | |
 | | Datenwert geändert (z. B. nach Aktivitätsverlauf filtern) | |
 | | Geöffnete E-Mail | |
 | | Link in E-Mail angeklickt | |

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B Edition und wie Sie sie verwenden können, um Konto- und Einkaufsgruppen-Journey mithilfe integrierter generativer KI und branchenführender Automatisierung zu orchestrieren.
-source-git-commit: 3d3f0e4d6e62aa7126e915cfd5b54151d1bf9186
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 13%
+source-wordcount: '128'
+ht-degree: 14%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 13%
    + [Rollenvorlagen](./buying-groups/buying-groups-role-templates.md)
    + [Erstellen von Einkaufsgruppen](./buying-groups/buying-groups-create.md)
 + Account-Journey {#account-journeys}
-   + [Journey - Übersicht](./journeys/journey-overview.md)
+   + [Überblick](./journeys/journey-overview.md)
    + [Journey-Knoten des Kontos](./journeys/journey-nodes.md)
 + Journey content {#journey-content}
    + [E-Mail-Authoring](./content/email-authoring.md)
-   + [Warnungen-E-Mail für Vertrieb](./content/sales-alert-email.md)
    + [KI-Assistent für die E-Mail-Bearbeitung](./content/ai-assistant-emails.md)
+   + [Warnungen-E-Mail für Vertrieb](./content/sales-alert-email.md)
    + [SMS-Authoring](./content/sms-authoring.md)
 + Content Management {#content-management}
    + Assets {#assets}

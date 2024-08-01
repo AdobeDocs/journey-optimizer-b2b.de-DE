@@ -3,7 +3,7 @@ title: KI-Assistent für die E-Mail-Bearbeitung
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten den E-Mail-Inhalt optimieren können, der in Account-Journey verwendet wird.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: f4f52919b9455277325a511a67c99daef42699f0
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%

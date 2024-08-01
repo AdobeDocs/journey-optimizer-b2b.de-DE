@@ -3,7 +3,7 @@ title: Gruppen kaufen
 description: Erfahren Sie mehr über den Kauf von Gruppen und deren Komponenten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e107c4c7c4e86c57b70d90e0f42d71454bc832a9
+source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 7%
@@ -58,7 +58,7 @@ Erweitern Sie im linken Navigationsbereich **[!UICONTROL Konten]** und klicken S
 
 Die Seite _[!UICONTROL Gruppen kaufen]_ ist in Form von Registerkarten organisiert:
 
-| Registerkarte | Beschreibung |
+| Tab | Beschreibung |
 | --- | ----------- |
 | [!UICONTROL Übersicht] | Diese Registerkarte ist die Standardeinstellung und zeigt das Dashboard [Gruppen kaufen](../dashboards/buying-groups-dashboard.md) an. |
 | [!UICONTROL Durchsuchen] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie die Liste der vorhandenen Einkaufsgruppen an. </li><li>Suche nach dem Namen der Gruppe. </li><li>Filtern nach Lösungsinteresse </li><li>Führen Sie einen Drilldown zum Kauf von Gruppendetails durch. </li><li>Erstellen Sie eine Kaufgruppe. Eine Kaufgruppe löschen.</li></ul> |
@@ -95,9 +95,9 @@ Die folgenden Beispiele veranschaulichen die Berechnung des Interaktionswerts:
 
 **Käufer der Gruppe 1** - Interaktionswert = 22,15
 
-| Benutzer | Role | Rollengewichtung | Aktion | Heute | Gestern | Aktionsgewichtung | Bewertung |
+| Benutzer | Role | Rollengewichtung | Aktion | Heute | Gestern | Aktionsgewichtung | Ergebnis |
 | ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Entscheidungsträger | 80 Prozent | Besuchte Website | 1000 | 2 | 1 | 22 |
+| Adam | Entscheidungsträger | 80 % | Besuchte Website | 1000 | 2 | 1 | 22 |
 | | | | Angeklickte E-Mail | 1 | 0 | 1 | 1 |
 | | | | Heruntergeladenes Pub | 1 | 3 | 1 | 4 |
 | Bob | Beeinflusser | 15 % | Besuchte Website | 1 | 2 | 1 | 3 |
@@ -105,9 +105,9 @@ Die folgenden Beispiele veranschaulichen die Berechnung des Interaktionswerts:
 
 **Käufer der Gruppe 2** - Interaktionsbewertung = 8,55
 
-| Benutzer | Role | Rollengewichtung | Aktion | Heute | Gestern | Aktionsgewichtung | Bewertung |
+| Benutzer | Role | Rollengewichtung | Aktion | Heute | Gestern | Aktionsgewichtung | Ergebnis |
 | ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Entscheidungsträger | 80 Prozent | Besuchte Website | 3 | 2 | 1 | 5 |
+| Alvin | Entscheidungsträger | 80 % | Besuchte Website | 3 | 2 | 1 | 5 |
 | | | | Angeklickte E-Mail | 1 | 0 | 1 | 1 |
 | | | | Heruntergeladenes Pub | 1 | 3 | 1 | 4 |
 | Bret | Beeinflusser | 15 % | Besuchte Website | 1 | 2 | 1 | 3 |
