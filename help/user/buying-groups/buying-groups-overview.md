@@ -3,10 +3,10 @@ title: Gruppen kaufen
 description: Erfahren Sie mehr über den Kauf von Gruppen und deren Komponenten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 7%
+source-wordcount: '1186'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Für B2B-Verkaufs- und Marketingaktivitäten sind Konten der Schlüssel zu jeder
 
 ![Diagramm der Kontorollen](assets/account-roles-diagram.png){width="800"}
 
-Innerhalb des Kontos kann es eine Untergruppe von Personen geben, die die _Einkaufsgruppe_ ausmachen. Diese Personen treffen letztendlich die Kaufentscheidung, sodass sie besondere Aufmerksamkeit vom Marketing-Experten benötigen und möglicherweise andere Informationen benötigen, die ihnen bereitgestellt werden als die anderen Personen, die mit dem Konto verbunden sind. Für verschiedene Produktlinien oder Angebote kann es sich bei Einkaufsgruppen um eine andere Personengruppe handeln. Beispielsweise kann ein Cybersicherheitsprodukt in der Regel einen Chief Information Officer oder Chief Security Officer und einen Vertreter der Rechtsabteilung zur Genehmigung eines Kaufs erfordern, aber ein Fehlerverfolgungsprodukt könnte in der Regel einen VP of Engineering und eine IT Director als Mitglieder der Einkaufsgruppe haben.
+Innerhalb des Kontos kann es eine Untergruppe von Personen geben, die die _Einkaufsgruppe_ ausmachen. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen, sodass sie besondere Aufmerksamkeit vom Marketing-Experten benötigen und möglicherweise andere Informationen benötigen, die ihnen bereitgestellt werden als die anderen Personen, die mit dem Konto verbunden sind. Für verschiedene Produktlinien oder Angebote kann es sich bei Einkaufsgruppen um eine andere Personengruppe handeln. Beispielsweise kann ein Cybersicherheitsprodukt in der Regel einen Chief Information Officer oder Chief Security Officer und einen Vertreter der Rechtsabteilung zur Genehmigung eines Kaufs erfordern, aber ein Fehlerverfolgungsprodukt könnte in der Regel einen VP of Engineering und eine IT Director als Mitglieder der Einkaufsgruppe haben.
 
 ## Wichtige Komponenten
 
@@ -52,7 +52,7 @@ Sie können die Marketingeffizienz steigern, indem Sie in Journey Optimizer B2B 
 
 1. Verwenden Sie in einer Konto-Journey über das zugehörige Lösungsinteresse.
 
-## Auf Einkaufsgruppen und Komponenten zugreifen
+## Anzeigen von Einkaufsgruppen und Komponenten
 
 Erweitern Sie im linken Navigationsbereich **[!UICONTROL Konten]** und klicken Sie auf **[!UICONTROL Gruppen kaufen]**.
 
@@ -87,28 +87,68 @@ Der Wert für die Vollständigkeit der Einkaufsgruppe wird jedes Mal neu berechn
 
 ### Interaktionsbewertung der Gruppe kaufen
 
-Der Interaktionswert wird verwendet, um die Effektivität Ihrer Marketingprogramme anhand der von den Journey verfolgten Verhaltensaktivitäten der Käufergruppen zu bewerten. Dieser Wert wird aus der Aktivität der letzten 30 Tage abgeleitet. Jede Rollenänderung an einer Vorlage erfordert eine Neuberechnung des Interaktionswerts für alle mit dieser Vorlage erstellten Einkaufsgruppen. Bei der Berechnung eines Interaktionswerts werden nur eingehende Aktivitäten ausgewertet.
+Der Interaktionswert der Gruppe &quot;Kauf&quot;ist eine Zahl, mit der die Interaktion der Mitglieder einer Einkaufsgruppe anhand der von ihnen ausgeführten Aktivitäten bestimmt wird. Jede eingehende Aktivität, die von den Mitgliedern der Einkaufsgruppe in den letzten 30 Tagen durchgeführt wurde, wird zur Berechnung des Ergebnisses verwendet.
 
-Der angezeigte Wert wird abgerundet (z. B. wird ein Wert von 75.8999 als 76 angezeigt), es gibt keine Obergrenze für den GA-Wert und es gibt eine tägliche Frequenzgrenze von 20.
+Für jede Aktivität gilt eine tägliche Frequenzlimitierung von 20. Wenn ein Mitglied einer Einkaufsgruppe dieselbe Aktivität mehr als 20-mal am Tag ausführt, wird die Anzahl der Aktivitäten auf 20 begrenzt und nicht auf eine höhere Anzahl.
 
-Die folgenden Beispiele veranschaulichen die Berechnung des Interaktionswerts:
+Die angezeigte Punktzahl wird gerundet. Beispielsweise wird ein Wert von 75.89999 als 76 angezeigt.
 
-**Käufer der Gruppe 1** - Interaktionswert = 22,15
+#### Gewichtung
 
-| Benutzer | Role | Rollengewichtung | Aktion | Heute | Gestern | Aktionsgewichtung | Ergebnis |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Adam | Entscheidungsträger | 80 % | Besuchte Website | 1000 | 2 | 1 | 22 |
-| | | | Angeklickte E-Mail | 1 | 0 | 1 | 1 |
-| | | | Heruntergeladenes Pub | 1 | 3 | 1 | 4 |
-| Bob | Beeinflusser | 15 % | Besuchte Website | 1 | 2 | 1 | 3 |
-| Calvin | Praktitioner | 5 % | Besuchte Website | 1 | 1 | 1 | 2 |
+Benutzer können jeder Rolle in der Rollenvorlage _Gewichtung_ zuweisen, um einer Rolle unterschiedliche Gewichtungen zuzuweisen, um das Interaktionsergebnis zu berechnen.
 
-**Käufer der Gruppe 2** - Interaktionsbewertung = 8,55
+![Legen Sie die Gewichtung für jede Rolle in der Rollenvorlage fest](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-| Benutzer | Role | Rollengewichtung | Aktion | Heute | Gestern | Aktionsgewichtung | Ergebnis |
-| ---- | ---- | ----------- | ------ | ----- | --------- | ------------- | ----- |
-| Alvin | Entscheidungsträger | 80 % | Besuchte Website | 3 | 2 | 1 | 5 |
-| | | | Angeklickte E-Mail | 1 | 0 | 1 | 1 |
-| | | | Heruntergeladenes Pub | 1 | 3 | 1 | 4 |
-| Bret | Beeinflusser | 15 % | Besuchte Website | 1 | 2 | 1 | 3 |
-| Cam | Praktitioner | 5 % | Besuchte Website | 1 | 1 | 1 | 2 |
+Jede Gewichtungsstufe entspricht einem Wert, der zur Berechnung des Interaktionswerts verwendet wird:
+
+* [!UICONTROL Trivial] = 20
+* [!UICONTROL Minor] = 40
+* [!UICONTROL Normal] = 60
+* [!UICONTROL Wichtig] = 80
+* [!UICONTROL Vital] = 100
+
+Eine Rollenvorlage mit drei als _[!UICONTROL Vital]_, _[!UICONTROL Wichtig]_ und _[!UICONTROL Normal]_ gewichteten Rollen konvertiert in die folgenden gewichteten Prozentsätze:
+
+| Role | Gewichtung | Backend-Wert | Werteberechnung | Prozentsatz |
+|-------------- |--------- |------------- |------------------ |---------- |
+|               |          |              |                   |           |
+| Entscheidungsträger | Vital | 100 | 24.10.2010 | 41,67% |
+| Beeinflusser | Wichtig | 80 | 240.80 | 33,33% |
+| Praktitioner | Normal | 60 | 240.60 | 25 % |
+|               | Gesamt | 240 |                   |           |
+
+#### Berechnungsbeispiel
+
+Das folgende Beispiel zeigt die Berechnung des Interaktionswerts anhand des festgelegten Rollengewichtsprozentsatzes, der Anzahl der eingehenden Aktivitäten für jedes Mitglied der Kaufgruppe und einer täglichen Obergrenze von 20 Zählern für jedes Ereignis (wenn es mehrmals aufgetreten ist).
+
+| Role | Mitglied | Typ der Aktivität | Anzahl gestern | Heute zählt | Berechnung | Gesamtbewertung |
+|-------------- |--------- |-------------|-----------------|-------------|------|-----------|
+|               |          |             |                 |             |      |           |
+| Entscheidungsträger | Adam | Besuchte Website | 37 | 15 | 20 + 15 | 35 |
+|               |          | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Mark | Besuchte Website | 5 | 3 | 5 + 3 | 8 |
+|               |          | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               |          | heruntergeladene Pinnwand | 3 | 2 | 3 + 2 | 5 |
+| **Gesamtwert der Entscheidungsfindung** |         |             |                 |             |      | **52** |
+|               |          |             |                 |             |      |           |
+| Beeinflusser | John | Besuchte Website | 19 | 9 | 19 + 9 | 28 |
+| **Gesamtwert der Einflussnehmer** |         |             |                 |             |      | **28** |
+|               |          |             |                 |             |      |           |
+| Praktitioner | Bob | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Paul | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               |          |             |                 |             |      |           |
+|               | Calvin | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               |          | Besuchte Website | 1 | 7 | 1 + 7 | 8 |
+|               |          | heruntergeladene Pinnwand | 1 | 2 | 1 + 2 | 3 |
+| **Gesamtergebnis der Praktizierenden** |         |             |                 |             |      | **17** |
+
+Der endgültige Interaktionswert wird durch Anwendung der Gewichtung für die einzelnen Rollenbewertungen berechnet:
+
+| Role | Gesamtbewertung der Rolle | Rollengewicht % | X-Gewicht des Score % |
+|-------------- |---------------- |------------- |---------------- |
+| Entscheidungsträger | 52 | 41,67% | 21,67 |
+| Influencers | 28 | 33,33% | 9,33 |
+| Praktikanten | 17 | 25 % | 4,25 |
+| **Endgültige Interaktionsbewertung** |                |             | **35.25** |
