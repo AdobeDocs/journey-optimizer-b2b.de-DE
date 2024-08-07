@@ -1,11 +1,11 @@
 ---
 title: Erste Schritte mit Journey Optimizer B2B Edition
-description: Als neuer Anwender in Journey Optimizer B2B Edition erfahren Sie mehr über die Schlüsselbereiche für die ersten Schritte.
+description: Als neue Benutzerin bzw. neuer Benutzer von Journey Optimizer B2B Edition erfahren Sie mehr über die Schlüsselbereiche für die ersten Schritte.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
