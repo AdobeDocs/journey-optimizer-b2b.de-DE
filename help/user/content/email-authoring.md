@@ -3,9 +3,9 @@ title: Email Authoring
 description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die in Account Journey verwendet werden.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1323'
 ht-degree: 11%
 
 ---
@@ -179,7 +179,12 @@ Zwei Arten von Warnhinweisen können erkannt werden:
 
    * `The email version of the message is empty`: Dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde.
 
-## E-Mail überprüfen und testen
+## E-Mail überprüfen und testen {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_preview_simulate"
+>title="Überprüfen des Inhalt-Renderings"
+>abstract="Wenn Ihr Inhalt definiert ist, können Sie eine Vorschau davon anzeigen und überprüfen, ob das Rendering für den verwendeten Kanal korrekt ist."
 
 Wenn Ihr Nachrichteninhalt definiert ist, können Sie mithilfe von Testprofilen die Vorschau anzeigen, Testsendungen durchführen und das Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients steuern. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten eine Vorschau des Inhalts in der Nachricht anzeigen.
 
