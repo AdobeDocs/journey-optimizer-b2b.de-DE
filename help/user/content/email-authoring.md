@@ -3,10 +3,10 @@ title: Email Authoring
 description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die in Account Journey verwendet werden.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9eb664edbfe1561e2946a94775c78554dfca74a2
+source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 11%
+source-wordcount: '1468'
+ht-degree: 20%
 
 ---
 
@@ -62,7 +62,37 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie ihn
 >
 >Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B Edition, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Stufe zu heben. Der KI-Assistent kann Sie dabei unterstützen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und Empfehlungen für den KI-Assistenten für Bilder generiert, die Ihrer Zielgruppe entsprechen. [Weitere Informationen](./ai-assistant-emails.md)
 
-### E-Mail von Grund auf neu erstellen
+### E-Mail von Grund auf neu erstellen {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der E-Mail. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_landing_page"
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Landingpage-Inhalts zu beginnen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_fragment"
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout des Fragments. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Fragmentinhalts zu beginnen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalt, die Sie zum Erstellen des E-Mail-Layouts verwenden können."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_landing_page"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_fragment"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout eines Fragments erstellen können."
 
 1. Wählen Sie auf der Startseite von Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
 
@@ -182,7 +212,7 @@ Zwei Arten von Warnhinweisen können erkannt werden:
 ## E-Mail überprüfen und testen {#preview-test}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_preview_simulate"
+>id="ajo-b2b_email_preview_simulate"
 >title="Überprüfen des Inhalt-Renderings"
 >abstract="Wenn Ihr Inhalt definiert ist, können Sie eine Vorschau davon anzeigen und überprüfen, ob das Rendering für den verwendeten Kanal korrekt ist."
 

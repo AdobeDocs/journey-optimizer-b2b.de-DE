@@ -3,10 +3,10 @@ title: E-Mail-Vorlagen
 description: Erfahren Sie, wie Sie E-Mail-Vorlagen erstellen und bearbeiten, mit denen Sie Journey-E-Mails für Konten einfach und effizient erstellen können.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
 workflow-type: tm+mt
-source-wordcount: '2622'
-ht-degree: 6%
+source-wordcount: '2670'
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,17 @@ Die Seite _[!UICONTROL Design your template]_ wird geöffnet und bietet mehrere 
 
 ![Wählen Sie, wie Sie mit Ihrem E-Mail-Vorlagenentwurf beginnen möchten](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Von Grund auf gestalten
+### Von Grund auf gestalten {#design-from-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der Vorlage. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Vorlageninhalts zu beginnen."
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Vorlage erstellen können."
 
 Definieren Sie mithilfe des E-Mail-Designers die Struktur Ihres E-Mail-Inhalts. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag &amp; Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden gestalten.
 

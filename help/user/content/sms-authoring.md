@@ -3,9 +3,9 @@ title: SMS-Authoring
 description: Erfahren Sie, wie Sie Ihren Kunden auf ihren Mobilgeräten Textnachrichten (SMS) senden und Nachrichten im Textformat personalisieren und im SMS-Editor in der Vorschau anzeigen können.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: eea4afcf352eeefbd5a67c4bfff6a4c2ec559319
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1908'
 ht-degree: 3%
 
 ---
@@ -200,7 +200,12 @@ Sie können Textnachrichten-Sendungen in einer Konto-Journey einrichten, wenn Si
 
    Die Empfängernummer wird immer dem Feld `Lead.mobilePhone` im Marketo Engage zugeordnet.
 
-## Inhalt der Textnachricht simulieren
+## Inhalt der Textnachricht simulieren {#preview-test}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_sms_preview_simulate"
+>title="Überprüfen des Inhalt-Renderings"
+>abstract="Wenn Ihr Inhalt definiert ist, können Sie eine Vorschau davon anzeigen und überprüfen, ob das Rendering für den verwendeten Kanal korrekt ist."
 
 Wenn Ihr Nachrichteninhalt definiert ist, können Sie mithilfe von Testprofilen dessen Inhalt simulieren (in der Vorschau anzeigen). Wenn Sie personalisierten Inhalt eingefügt haben, können Sie anhand von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
