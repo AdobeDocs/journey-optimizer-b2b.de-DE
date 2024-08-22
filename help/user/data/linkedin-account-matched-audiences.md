@@ -6,7 +6,7 @@ hide: true
 source-git-commit: 63bf202e179895d72cd8b3f40e1bf5333bcd4c48
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -16,12 +16,12 @@ Die Journey Optimizer B2B Edition bietet die Möglichkeit, LinkedIn Ad-Zielgrupp
 
 Bevor Sie einen Datenfluss aus Journey Optimizer B2B Edition starten, müssen Sie über mindestens eine Instanz des Connectors [(Unternehmen) LinkedIn Matched Audience Destination Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn Campaign Manager-Konto verfügen.
 
-## Neue Verbindung mit einem LinkedIn-Konto konfigurieren {#linkedin-destination-setup}
+## Konfigurieren einer neuen Verbindung mit einem LinkedIn-Konto {#linkedin-destination-setup}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_linkedin_destination_setup"
->title="LinkedIn-Zieleinrichtung erforderlich"
->abstract="Senden Sie Konten, die durch den Kauf von Gruppen gefiltert wurden, an ein LinkIn-Ziel, um mit potenziellen Mitgliedern der Einkaufsgruppe zu interagieren. Sie können bis zu 10 Datenflüsse für 10 verschiedene Gruppen gefilterter Konten erstellen. Um mit dieser Funktion zu beginnen, fügen Sie zuerst ein LinkedIn-Ziel hinzu."
+>title="Die Einrichtung eines LinkedIn-Ziels ist erforderlich"
+>abstract="Senden Sie nach Einkaufsgruppen gefilterte Konten an ein Linkedin-Ziel, um mit potenziellen Mitgliedern von Einkaufsgruppen zu interagieren. Sie können bis zu 10 Datenflüsse für 10 verschiedene Gruppen gefilterter Konten erstellen. Um mit dieser Funktion zu beginnen, fügen Sie zuerst ein LinkedIn-Ziel hinzu."
 
 1. Wechseln Sie in der linken Navigationsleiste unter Experience Platform zu **[!UICONTROL Verbindungen]** > **[!UICONTROL Ziele]** und wählen Sie die Registerkarte **[!UICONTROL Katalog]** aus.
 

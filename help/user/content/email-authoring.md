@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
 workflow-type: tm+mt
 source-wordcount: '1468'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -62,7 +62,7 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie ihn
 >
 >Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B Edition, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Stufe zu heben. Der KI-Assistent kann Sie dabei unterstützen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und Empfehlungen für den KI-Assistenten für Bilder generiert, die Ihrer Zielgruppe entsprechen. [Weitere Informationen](./ai-assistant-emails.md)
 
-### E-Mail von Grund auf neu erstellen {#design-from-scratch}
+### Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -209,12 +209,12 @@ Zwei Arten von Warnhinweisen können erkannt werden:
 
    * `The email version of the message is empty`: Dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde.
 
-## E-Mail überprüfen und testen {#preview-test}
+## Überprüfen und Testen der E-Mail {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Überprüfen des Inhalt-Renderings"
->abstract="Wenn Ihr Inhalt definiert ist, können Sie eine Vorschau davon anzeigen und überprüfen, ob das Rendering für den verwendeten Kanal korrekt ist."
+>abstract="Wenn Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
 Wenn Ihr Nachrichteninhalt definiert ist, können Sie mithilfe von Testprofilen die Vorschau anzeigen, Testsendungen durchführen und das Rendering in beliebten Desktop-, Mobile- und Web-basierten Clients steuern. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten eine Vorschau des Inhalts in der Nachricht anzeigen.
 
