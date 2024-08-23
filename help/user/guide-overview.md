@@ -2,9 +2,9 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Adobe Journey Optimizer B2B Edition-Funktionen für die Orchestrierung von Konten und den Kauf von Journey mit integrierter generativer KI und branchenführender Automatisierung verwenden.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8a27ab8d1c0849b9ed0e921874cb1e5260647e40
+source-git-commit: aa286aa7b0dbead59b3cec3b6c21ee3f332ad814
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '490'
 ht-degree: 4%
 
 ---
@@ -18,6 +18,12 @@ Im Folgenden finden Sie ein Beispiel der neuesten Verbesserungen des Journey Opt
 <!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
 
 >[!BEGINTABS]
+
+>[!TAB LinkedIn-Konto für übereinstimmende Zielgruppen]
+
+Generieren Sie LinkedIn-Anzeigenzielgruppen über kontengerechte Zielgruppen, damit Sie leere Rollen in Ihren Einkaufsgruppen ausfüllen können. Durch Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine mit LinkedIn übereinstimmende Zielgruppe beibehalten, um potenzielle Kunden auszuwählen, die mit Ihren Kundengruppenparametern übereinstimmen. Diese Funktion nutzt Experience Platform-Ziele , um einige Aspekte der Integration zu verwalten.
+
+[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Erfahren Sie mehr über mit LinkedIn-Konten übereinstimmende Zielgruppen"}
 
 >[!TAB KI-Assistent]
 

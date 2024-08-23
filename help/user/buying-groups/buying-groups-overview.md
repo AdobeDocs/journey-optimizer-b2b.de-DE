@@ -3,7 +3,7 @@ title: Gruppen kaufen
 description: Erfahren Sie mehr über den Kauf von Gruppen und deren Komponenten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 43fc83e70c4916c6367374a76a63e29110712a36
+source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 6%
@@ -11,7 +11,7 @@ ht-degree: 6%
 ---
 
 
-# Gruppen kaufen
+# Käufergruppen
 
 Für B2B-Verkaufs- und Marketingaktivitäten sind Konten der Schlüssel zu jeder Strategie. Jedes Konto hat eine Gruppe von Personen zugeordnet, und diese Personen können Mitarbeiter des Kontos oder Auftragnehmer sein, die mit dem Konto arbeiten. Konten sind hierarchisch aufgebaut und verschiedene Produkte können auf unterschiedlichen Ebenen in der Hierarchie verkauft werden. So kann Adobe Experience Platform beispielsweise auf Unternehmensebene an ein Top-Level-Konto verkauft werden, während Adobe Photoshop an ein Konto verkauft wird, das eine Abteilung oder Abteilung innerhalb eines Unternehmens repräsentiert, z. B. eine Design-Abteilung innerhalb eines größeren Unternehmens.
 
@@ -85,7 +85,7 @@ Wenn beispielsweise eine Einkaufsgruppe vier Rollen hat und drei der vier Rollen
 
 Der Wert für die Vollständigkeit der Einkaufsgruppe wird jedes Mal neu berechnet, wenn eine Einkaufsgruppe erstellt oder aktualisiert wird.
 
-### Interaktionsbewertung der Gruppe kaufen
+### Interaktionsbewertung der Käufergruppe
 
 Der Interaktionswert der Gruppe &quot;Kauf&quot;ist eine Zahl, mit der die Interaktion der Mitglieder einer Einkaufsgruppe anhand der von ihnen ausgeführten Aktivitäten bestimmt wird. Jede eingehende Aktivität, die von den Mitgliedern der Einkaufsgruppe in den letzten 30 Tagen durchgeführt wurde, wird zur Berechnung des Ergebnisses verwendet.
 
@@ -109,7 +109,7 @@ Jede Gewichtungsstufe entspricht einem Wert, der zur Berechnung des Interaktions
 
 Eine Rollenvorlage mit drei als _[!UICONTROL Vital]_, _[!UICONTROL Wichtig]_ und _[!UICONTROL Normal]_ gewichteten Rollen konvertiert in die folgenden gewichteten Prozentsätze:
 
-| Role | Gewichtung | Backend-Wert | Werteberechnung | Prozentsatz |
+| Role | Gewichtung | Systemwert | Werteberechnung | Prozentsatz |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
 | Entscheidungsträger | Vital | 100 | 24.10.2010 | 41,67% |
