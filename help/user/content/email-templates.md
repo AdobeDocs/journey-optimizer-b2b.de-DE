@@ -3,10 +3,10 @@ title: E-Mail-Vorlagen
 description: Erfahren Sie, wie Sie E-Mail-Vorlagen erstellen und bearbeiten, mit denen Sie Journey-E-Mails für Konten einfach und effizient erstellen können.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f3677c275971c9a438d2d63ef72c6a99fa7d3d8a
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '2670'
-ht-degree: 8%
+source-wordcount: '1817'
+ht-degree: 5%
 
 ---
 
@@ -48,46 +48,25 @@ Die Seite _[!UICONTROL Design your template]_ wird geöffnet und bietet mehrere 
 
 ![Wählen Sie, wie Sie mit Ihrem E-Mail-Vorlagenentwurf beginnen möchten](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-### Von Grund auf gestalten {#design-from-scratch}
+### Von Grund auf gestalten
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der Vorlage. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Vorlageninhalts zu beginnen."
+Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag &amp; Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden gestalten.
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Vorlage erstellen können."
-
-Definieren Sie mithilfe des E-Mail-Designers die Struktur Ihres E-Mail-Inhalts. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag &amp; Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden gestalten.
+>[!NOTE]
+>
+>Die verfügbaren Designtools entsprechen den Tools für das [E-Mail-Authoring](./email-authoring.md). Der Unterschied besteht darin, dass dieser Inhalt dann als Vorlage gespeichert wird, die über mehrere Senden-E-Mail-Knoten in Konto-Journey hinweg wiederverwendet werden kann.
 
 1. Wählen Sie auf der Homepage _[!UICONTROL Vorlage entwerfen]_ die Option **[!UICONTROL Neu entwerfen]** aus.
 
-1. Beginnen Sie mit der Inhaltserstellung, indem Sie Komponenten per Drag-and-Drop in die Arbeitsfläche ziehen, um das strukturelle Layout der E-Mail zu definieren.
-
-   Die verfügbaren Designtools entsprechen den Tools für das [E-Mail-Authoring](./email-authoring.md). Der Unterschied besteht darin, dass dieser Inhalt dann als Vorlage gespeichert wird, die über mehrere Senden-E-Mail-Knoten in Konto-Journey hinweg wiederverwendet werden kann.
+1. [Fügen Sie der Vorlage Struktur und Inhalt hinzu](#add-structure-and-content).
 
 ### Importieren von HTML
 
-Adobe Journey Optimizer B2B Edition ermöglicht den Import von HTML-Inhalten, um E-Mail-Vorlagen zu erstellen. Der Inhalt kann vorliegen als
+Adobe Journey Optimizer B2B Edition ermöglicht den Import von HTML-Inhalten, um E-Mail-Vorlagen zu erstellen.
 
-* Eine HTML-Datei mit integriertem Stylesheet.
-* Eine ZIP-Datei mit einer HTML-Datei, dem Stylesheet (.css) und Bildern.
+{{$include /help/_includes/content-design-import.md}}
 
-  >[!NOTE]
-  >
-  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen.
-
-_So importieren Sie eine Datei mit HTML-Inhalt:_
-
-1. Wählen Sie auf der Startseite _[!UICONTROL Vorlage entwerfen]_ die Option **[!UICONTROL HTML importieren]** aus.
-
-1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf **[!UICONTROL Importieren]**.
-
-   Nach dem Hochladen des HTML-Inhalts befindet sich Ihr Inhalt im _Kompatibilitätsmodus_. In diesem Modus können Sie nur Ihren Text personalisieren, Links hinzufügen oder Assets zu Ihrem Inhalt hinzufügen.
-
-1. Um die Inhaltskomponenten des E-Mail-Designers zu verwenden, klicken Sie auf die Registerkarte **[!UICONTROL HTML Converter]** und dann auf **[!UICONTROL Convert]**.
+![HTML-Inhalt in eine ZIP-Datei importieren](./assets/templates-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
@@ -97,91 +76,21 @@ Mit den visuellen E-Mail-Editor-Tools können Sie den importierten Inhalt nach B
 
 ### Auswählen einer Designvorlage
 
-Verwenden Sie auf der Startseite von _[!UICONTROL Design your template]_ den Abschnitt Designvorlage auswählen , um mit der Erstellung Ihres Inhalts aus einer Vorlage zu beginnen. Sie können eine Beispielvorlage oder eine gespeicherte E-Mail-Vorlage aus Ihrer Journey Optimizer B2B Edition-Instanz verwenden.
+{{$include /help/_includes/content-design-select-template.md}}
 
->[!BEGINTABS]
+## Struktur und Inhalt hinzufügen {#structure-content}
 
->[!TAB Gespeicherte Vorlagen]
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_template"
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der Vorlage. Ziehen Sie eine Komponente **Struktur** in die Arbeitsfläche, um mit der Erstellung des Inhalts für Ihre Vorlage zu beginnen."
 
-Auf der Startseite _Vorlage erstellen_ ist die Registerkarte _Beispielvorlagen erstellen_ standardmäßig ausgewählt. Um eine benutzerdefinierte Vorlage zu verwenden, wählen Sie die Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** aus.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_template"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Vorlage erstellen können."
 
-Die Liste aller E-Mail-Vorlagen, die in der aktuellen Sandbox erstellt wurden, wird angezeigt. Sie können sie nach _[!UICONTROL Name]_, _[!UICONTROL Zuletzt geändert]_ und _[!UICONTROL Zuletzt erstellt]_ sortieren.
-
-![Wählen Sie eine gespeicherte Vorlage aus](./assets/templates-design-saved-sort-by.png){width="800" zoomable="yes"}
-
-Wählen Sie die gewünschte Vorlage aus der Liste aus.
-
-Nach der Auswahl wird eine Vorschau der Vorlage angezeigt. Im Vorschaumodus können Sie mithilfe der Rechts- und Linkspfeile zwischen allen Vorlagen einer Kategorie (Beispiel oder je nach Auswahl gespeichert) navigieren.
-
-![Vorschau der gespeicherten Vorlage anzeigen](./assets/templates-design-saved-preview.png){width="800" zoomable="yes"}
-
-Wenn die Anzeige mit dem übereinstimmt, was Sie verwenden möchten, klicken Sie oben rechts im Vorschaufenster auf **[!UICONTROL Diese Vorlage verwenden]** .
-
-Mit dieser Aktion wird der Inhalt in den visuellen Inhaltsentwickler kopiert, wo Sie den Inhalt nach Bedarf bearbeiten können.
-
->[!TAB Beispielvorlage]
-
-Adobe Journey Optimizer B2B Edition bietet eine Auswahl an vordefinierten E-Mail-Vorlagen _1}, die zur Erstellung von E-Mails und E-Mail-Vorlagen verwendet werden können._
-
-![Wählen Sie eine von Adobe](./assets/templates-design-samples.png){width="800" zoomable="yes"} bereitgestellte Vorlage aus.
-
->[!ENDTABS]
-
-## Struktur und Inhalt hinzufügen
-
-Beginnen Sie mit der Erstellung Ihres Inhalts, indem Sie Strukturen aus dem Menü **[!UICONTROL Komponenten]** in die Arbeitsfläche ziehen und dort ablegen, um das Layout Ihrer E-Mail zu definieren.
-
-Fügen Sie beliebig viele Strukturen hinzu und bearbeiten Sie deren Einstellungen in den Elementeigenschaften auf der rechten Seite.
-
-Wählen Sie die Komponente _[!UICONTROL n:n column]_ aus, um die Anzahl der Spalten Ihrer Wahl festzulegen (zwischen drei und 10). Definieren Sie die Breite jeder Spalte, indem Sie die Pfeile unten verschieben.
-
->[!NOTE]
->
->Die Größe einer Spalte muss immer mindestens 10 % der Gesamtbreite der Strukturkomponente betragen. Leere Spalten können nur entfernt werden.
-
-Erweitern Sie den Abschnitt **[!UICONTROL Inhalt]** und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu.
-
-
-
-Jede Komponente kann mithilfe der Registerkarten _[!UICONTROL Einstellungen]_ oder _[!UICONTROL Stil]_ im rechten Bereich weiter angepasst werden. Sie können beispielsweise den Textstil, den Abstand oder den Rand jeder Komponente ändern.
-
-### Navigieren in Ebenen, Einstellungen und Stil
-
-Im folgenden Beispiel werden die Schritte zum Anpassen des Abstands und der vertikalen Ausrichtung innerhalb einer Strukturkomponente beschrieben, die aus drei Spalten besteht.
-
-1. Wählen Sie die Strukturkomponente direkt in der E-Mail oder mithilfe des Navigationsbaums im linken Menü aus.
-
-1. Klicken Sie in der Symbolleiste auf **[!UICONTROL Spalte auswählen]** und wählen Sie die Spalte aus, die Sie bearbeiten möchten.
-
-   ![n:n Spaltenkomponente, die auf der Arbeitsfläche angezeigt wird](./assets/visual-designer-n-n-column.png){width="800" zoomable="yes"}
-
-   Sie können sie auch im Strukturbaum auswählen. Die bearbeitbaren Parameter für diese Spalte werden im Menü _[!UICONTROL Stile]_ angezeigt.
-
-1. Wählen Sie unter **[!UICONTROL Ausrichtung]** das Symbol _Oben_, _Mitte_ oder _Unten_ aus.
-
-1. Definieren Sie unter **[!UICONTROL Abstand]** den Abstand für alle Seiten.
-
-   Wählen Sie **[!UICONTROL Unterschiedliche Abstände für jede Seite]** aus, wenn Sie eine Feinabstimmung für den Abstand vornehmen möchten. Klicken Sie auf das Sperrsymbol, um die Synchronisierung aufzuheben.
-
-1. Passen Sie bei Bedarf die Ausrichtung und den Abstand für die anderen Spalten an.
-
-1. Speichern Sie Ihre Änderungen.
-
-### Inhalt personalisieren
-
-Im folgenden Beispiel werden Schritte zum Personalisieren des Vorlageninhalts mit Lead-/Kontoattributen und System-Token beschrieben.
-
-1. Wählen Sie die Textkomponente aus und klicken Sie in der Symbolleiste auf das Symbol _Personalisierung hinzufügen_ .
-
-   ![Klicken Sie auf das Personalisierungssymbol](./assets/visual-designer-personalize-icon.png){width="500"}
-
-   Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet.
-
-1. Klicken Sie auf **+** oder **...** , um dem leeren Bereich ein Token hinzuzufügen.
-
-   ![Erstellen von personalisiertem Text mithilfe von Token](./assets/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
-
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+{{$include /help/_includes/content-design-components.md}}
 
 ### Fragmente hinzufügen
 
@@ -198,43 +107,33 @@ Im visuellen Inhaltseditor wird links das Symbol _Fragmente_ angezeigt. Im folge
 
    ![Wählen Sie ein Fragment aus der Liste aus](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Ziehen Sie eines der Fragmente in den Platzhalter der Strukturkomponente.
+1. Ziehen Sie eines der Fragmente in den Platzhalter für die Strukturkomponente.
 
    Der Editor rendert das Fragment innerhalb des Bereichs/Elements der E-Mail-Struktur.
 
-Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um eine visuelle Darstellung des Inhalts in der E-Mail zu erhalten.
+Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um anzuzeigen, wie der Inhalt in der E-Mail angezeigt wird.
 
-Wenn Sie das Fragment so hinzufügen möchten, dass es das gesamte horizontale Layout der E-Mail einnimmt, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment per Drag-and-Drop in die E-Mail.
+>[!TIP]
+>
+>Wenn Sie das Fragment so hinzufügen möchten, dass es das gesamte horizontale Layout der E-Mail einnimmt, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment per Drag-and-Drop in die E-Mail.
 
 Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie in der Zusammenfassung die Registerkarte _[!UICONTROL Verwendet von]_ auswählen. Zu einer E-Mail-Vorlage hinzugefügte Fragmente können nicht in der Vorlage bearbeitet werden. Der Inhalt wird durch das Quellfragment definiert.
 
 ### Hinzufügen von Assets
 
-Wählen Sie im Visual Content Editor das Symbol _Assets_ aus, das links angezeigt wird.
+{{$include /help/_includes/content-design-assets.md}}
 
->[!NOTE]
->
->Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service verfügen, können Sie neben dem standardmäßigen Adobe Marketo Engage Design Studio Bild-Assets aus der Quelle auswählen, die auf der Seite mit den Vorlagendetails ausgewählt ist.
+### Navigieren in den Ebenen, Einstellungen und Stilen
 
-Im folgenden Beispiel werden die Schritte zum Hinzufügen von Assets zum Vorlageninhalt beschrieben:
+{{$include /help/_includes/content-design-navigation.md}}
 
-1. Um die Asset-Bibliothek zu öffnen, klicken Sie auf das Symbol _Assets_ .
+### Inhalt personalisieren
 
-   In der Asset-Auswahl können Sie direkt in der Quellbibliothek gespeicherte Assets auswählen.
+{{$include /help/_includes/content-design-personalization.md}}
 
-1. Fügen Sie ein neues Asset hinzu, indem Sie das Bild-Asset per Drag-and-Drop in eine Strukturkomponente ziehen.
+### Linked URL-Tracking bearbeiten
 
-1. Ersetzen Sie ein Bild-Asset, indem Sie es auf der Arbeitsfläche auswählen und in den Bildquellen-Tools auf **[!UICONTROL Asset auswählen]** klicken.
-
-   ![Auswählen eines Assets aus der Quellbibliothek](./assets/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
-
-### Vorschau erstellen und URLs bearbeiten
-
-1. Klicken Sie links auf das Symbol _[!UICONTROL Links]_ , um alle URLs Ihres Inhalts anzuzeigen, die verfolgt werden sollen.
-
-1. Klicken Sie bei Bedarf auf das Symbol _Bearbeiten_ (Bleistift), ändern Sie den _Trackingtyp_ oder den _Titel_ und fügen Sie _Tags_ für einen Link hinzu.
-
-![Klicken Sie auf Mehr , um auf Vorlagenaktionen zuzugreifen](./assets/visual-designer-links.png){width="500"}
+{{$include /help/_includes/content-design-links.md}}
 
 ### Anzeigeoptionen
 

@@ -1,12 +1,12 @@
 ---
 title: Email Authoring
-description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die in Account Journey verwendet werden.
+description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die in einer Konto-Journey verwendet werden.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 3bdfdd8484063400f385120be87e6c460ef46d02
+source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 22%
+source-wordcount: '1221'
+ht-degree: 16%
 
 ---
 
@@ -65,121 +65,116 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie ihn
 ### Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der E-Mail. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen."
-
->[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
 >title="Hinzufügen von Strukturkomponenten"
 >abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Landingpage-Inhalts zu beginnen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout des Fragments. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Fragmentinhalts zu beginnen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalt, die Sie zum Erstellen des E-Mail-Layouts verwenden können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Über Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können."
 
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout eines Fragments erstellen können."
+Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag &amp; Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden gestalten.
 
-1. Wählen Sie auf der Startseite von Designer die Option **[!UICONTROL Erstellen von neuen Inhalten]** aus.
+1. Wählen Sie auf der Homepage _[!UICONTROL Vorlage entwerfen]_ die Option **[!UICONTROL Neu entwerfen]** aus.
 
-1. Ziehen Sie zum Starten Ihres Inhaltsdesigns ein Element aus den **[!UICONTROL Strukturen]** und legen Sie es auf der Arbeitsfläche ab.
+1. [Fügen Sie der E-Mail-Nachricht Struktur und Inhalt hinzu](#add-structure-and-content).
+1. [ Bild-Assets hinzufügen](#add-assets) zur E-Mail-Nachricht.
+1. [Personalisieren Sie den E-Mail-Inhalt](#personalize-content).
+1. [Überprüfen und aktualisieren Sie die Links](#preview-and-edit-linked-urls).
 
-   Wiederholen Sie diesen Schritt für jede Strukturkomponente , um das Layout Ihrer E-Mail zu erstellen.
-
-1. Fügen Sie so viele Elemente aus _Strukturen_ hinzu, wie Sie benötigen, und bearbeiten Sie die Einstellungen für jedes Element im Bereich auf der rechten Seite.
-
-   Wählen Sie die n:n-Spaltenkomponente aus, um die Anzahl der Spalten Ihrer Wahl zu definieren (zwischen drei und zehn). Sie können auch die Breite jeder Spalte definieren, indem Sie die Pfeile unter die Spalte verschieben.
-
-   Die Spaltengröße darf nicht weniger als 10 % der Gesamtbreite der Strukturkomponente betragen. Es können nur leere Spalten entfernt werden.
-
-1. Erweitern Sie den Abschnitt **[!UICONTROL Inhalt]** und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu.
-
-1. Bei Bedarf können Sie auf den Registerkarten _[!UICONTROL Einstellungen]_ oder _[!UICONTROL Stil]_ zusätzliche Anpassungen für jede Komponente vornehmen.
-
-   Sie können beispielsweise den Textstil, den Abstand oder den Rand jeder Komponente ändern.
-
-1. Über die Asset-Auswahl können Sie direkt in der Assets-Bibliothek gespeicherte Assets auswählen.
-
-   Doppelklicken Sie auf den Ordner, der Ihre Assets enthält. Ziehen Sie die Elemente in eine Strukturkomponente.
-
-1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Zielgruppenmitgliedschaften, Kontextattributen und mehr anzupassen.
-
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
-1. Wählen Sie im linken Bereich die Registerkarte **[!UICONTROL Links]** aus, um alle getrackten URLs Ihres Inhalts anzuzeigen.
-
-   Sie können den _Trackingtyp_ oder den _Titel_ ändern und bei Bedarf Tags hinzufügen.
-
-Bei Bedarf können Sie Ihre E-Mail weiter personalisieren, indem Sie im erweiterten Menü auf **[!UICONTROL Zum Code-Editor wechseln]** klicken. Mit dem Code-Editor können Sie den E-Mail-Quellcode bearbeiten, z. B. das Hinzufügen von Tracking- oder benutzerdefinierten HTML-Tags.
+<!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
->Sie können nach dem Wechsel zum Code-Editor nicht zum visuellen Designer für diese E-Mail zurückkehren.
+>You cannot revert back to the visual designer for this email after switching to the code editor. -->
 
 Wenn Ihr Inhalt fertig ist, klicken Sie oben auf **[!UICONTROL Inhalt simulieren]** , um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
 
-Wenn Sie fertig sind, klicken Sie auf Speichern.
+Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
 ### Vorhandenen HTML-Inhalt importieren
 
-Importierte Inhalte können:
+{{$include /help/_includes/content-design-import.md}}
 
-* Eine HTML-Datei mit integriertem Stylesheet
-* Ein ZIP-Ordner mit einer HTML-Datei, dem Stylesheet (.css) und Bilddateien
+![HTML-Inhalt in eine ZIP-Datei importieren](./assets/email-import-zip-file.png){width="500"}
 
 >[!NOTE]
 >
->Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen.
+>Einen `<table>`-Tag als erste Ebene in einer HTML-Datei zu verwenden kann zum Verlust des Stils führen, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
 
-_So importieren Sie eine Datei mit HTML-Inhalt:_
-
-1. Wählen Sie auf der Startseite des E-Mail-Designers die Option **[!UICONTROL HTML importieren]**.
-
-1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf [!UICONTROL Importieren].
-
-   Wenn der HTML-Inhalt-Upload abgeschlossen ist, befindet sich Ihr Inhalt im _Kompatibilitätsmodus_. In diesem Modus können Sie nur Ihren Text personalisieren, Links hinzufügen oder Assets zu Ihrem Inhalt hinzufügen.
+Mit den visuellen E-Mail-Editor-Tools können Sie den importierten Inhalt nach Bedarf personalisieren.
 
 ### Vorlage auswählen
 
-Sie können aus folgenden Optionen wählen:
+{{$include /help/_includes/content-design-select-template.md}}
 
-* Beispielvorlagen. Die Benutzeroberfläche von Journey Optimizer bietet 20 vordefinierte E-Mail-Vorlagen, aus denen Sie auswählen können.
+## Struktur und Inhalt hinzufügen {#structure-content}
 
-* Gespeicherte Vorlagen
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_structure_components_email"
+>title="Hinzufügen von Strukturkomponenten"
+>abstract="Strukturkomponenten definieren das Layout der E-Mail. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen."
 
-* Eine benutzerdefinierte Vorlage, die Sie entweder mit dem Menü _Vorlagen_ von Grund auf neu erstellt oder mithilfe der Option _[!UICONTROL Als Inhaltsvorlage speichern]_ aus einer E-Mail in einer Journey gespeichert haben.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_content_components_email"
+>title="Über Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalt, die Sie zum Erstellen des E-Mail-Layouts verwenden können."
 
-_So erstellen Sie Ihren Inhalt mit einer der Beispiel- oder gespeicherten Vorlagen:_
+{{$include /help/_includes/content-design-components.md}}
 
-1. Greifen Sie über den Arbeitsbereich zur Bearbeitung von E-Mail-Inhalten auf die _E-Mail-Designer_ zu.
+### Fragmente hinzufügen
 
-   Auf der Seite _[!UICONTROL E-Mail erstellen]_ ist standardmäßig der Tab **[!UICONTROL Beispielvorlagen]** ausgewählt.
+Im visuellen Inhaltseditor wird links das Symbol _Fragmente_ angezeigt. Im folgenden Beispiel werden die Schritte zum Hinzufügen von Fragmenten zum Vorlageninhalt beschrieben.
 
-1. Um eine benutzerdefinierte Vorlage zu verwenden, wählen Sie die Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** aus.
+1. Um die Fragmentliste zu öffnen, klicken Sie auf das Symbol _Fragmente_.
 
-   Die Liste aller in der aktuellen Sandbox erstellten Inhaltsvorlagen wird angezeigt. Sie können sie nach Name, Letzte Änderung oder Letzte Erstellung sortieren.
+   Sie haben folgende Möglichkeiten:
 
-1. Wählen Sie aus der Liste die gewünschte Vorlage aus.
+   * Sortieren Sie die Liste.
+   * Suchen, Suchen oder Filtern Sie die Liste.
+   * Zwischen Miniatur- und Listenansichten wechseln.
+   * Aktualisieren Sie die Liste, um eines der kürzlich erstellten Fragmente widerzuspiegeln.
 
-1. Nachdem Sie eine Kategorie ausgewählt haben, können Sie mithilfe der Rechts- und Linkspfeile zwischen allen Vorlagen dieser Kategorie (Beispiel oder je nach Auswahl gespeichert) navigieren.
+   ![Wählen Sie ein Fragment aus der Liste aus](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Diese Vorlage verwenden]** .
+1. Ziehen Sie eines der Fragmente in den Platzhalter für die Strukturkomponente.
 
-1. Bearbeiten Sie den Inhalt nach Bedarf in der _E-Mail-Designer_.
+   Der Editor rendert das Fragment innerhalb des Bereichs/Elements der E-Mail-Struktur.
+
+Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um anzuzeigen, wie der Inhalt in der E-Mail angezeigt wird.
+
+>[!TIP]
+>
+>Wenn Sie das Fragment so hinzufügen möchten, dass es das gesamte horizontale Layout der E-Mail einnimmt, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment per Drag-and-Drop in die E-Mail.
+
+Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie in der Zusammenfassung die Registerkarte _[!UICONTROL Verwendet von]_ auswählen. Zu einer E-Mail-Vorlage hinzugefügte Fragmente können nicht in der Vorlage bearbeitet werden. Der Inhalt wird durch das Quellfragment definiert.
+
+### Hinzufügen von Assets
+
+{{$include /help/_includes/content-design-assets.md}}
+
+### Navigieren in den Ebenen, Einstellungen und Stilen
+
+{{$include /help/_includes/content-design-navigation.md}}
+
+### Inhalt personalisieren
+
+{{$include /help/_includes/content-design-personalization.md}}
+
+### Linked URL-Tracking bearbeiten
+
+{{$include /help/_includes/content-design-links.md}}
+
+### Anzeigeoptionen
+
+Nutzen Sie die im visuellen E-Mail-Editor verfügbaren Ansicht- und Inhaltsvalidierungsoptionen.
+
+* Vergrößern/Verkleinern Sie den Inhalt über vordefinierte Zoom-Optionen.
+
+* Wechseln Sie zwischen der Anzeige des Inhalts über Desktop, Mobilgeräte oder Nur-Text/Nur-Text.
+   * Klicken Sie auf das Symbol _Auge_ für die geräteübergreifende Inhaltsvorschau.
+   * Wählen Sie eines der nativen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um die Vorschau des Inhalts anzuzeigen.
 
 ## Prüfen von Warnhinweisen
 
