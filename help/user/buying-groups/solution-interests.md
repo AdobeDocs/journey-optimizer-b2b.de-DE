@@ -3,9 +3,9 @@ title: Lösungsinteressen
 description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie zur Verwendung in Ihren Einkaufsgruppen definieren können.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 92f28ab633cc1f6e5e0172dff69869fcc718e2e8
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Lösungsinteressen
 
 Bevor Sie Gruppen kaufen, sollten Sie wissen, was Sie verkaufen und wen Sie auswählen möchten. Ihre Marketing- und Verkaufsstrategie sollte so ausgerichtet sein, dass Sie das Lösungsinteresse für die Einkaufsgruppen hinzufügen können.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
 ## Lösungsinteressen aufrufen und durchsuchen
 
@@ -84,3 +86,7 @@ Lösungsinteressen, die derzeit von einem Einkaufsgruppenauftrag oder einer Jour
    Wenn das Lösungsinteresse derzeit von einer Journey oder einem Gruppenauftrag verwendet wird, öffnet die Aktion ein Informationsdialogfeld, das Sie darauf hinweist, dass sie nicht gelöscht werden kann. Klicken Sie auf [!UICONTROL OK] , wodurch der Löschvorgang abgebrochen wird.
 
 1. Klicken Sie auf **[!UICONTROL Löschen]** , um den Löschvorgang zu bestätigen, oder Sie können den Vorgang abbrechen, indem Sie auf _[!UICONTROL Abbrechen]_ klicken.
+
+## Übersichtsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

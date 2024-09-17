@@ -3,9 +3,9 @@ title: Gruppen kaufen
 description: Erfahren Sie mehr über den Kauf von Gruppen und deren Komponenten.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 5e500f616dcbbebcdfacfead9ae386b523a4d1a4
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1193'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,8 @@ Für B2B-Verkaufs- und Marketingaktivitäten sind Konten der Schlüssel zu jeder
 ![Diagramm der Kontorollen](assets/account-roles-diagram.png){width="800"}
 
 Innerhalb des Kontos kann es eine Untergruppe von Personen geben, die die _Einkaufsgruppe_ ausmachen. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen, sodass sie besondere Aufmerksamkeit vom Marketing-Experten benötigen und möglicherweise andere Informationen benötigen, die ihnen bereitgestellt werden als die anderen Personen, die mit dem Konto verbunden sind. Für verschiedene Produktlinien oder Angebote kann es sich bei Einkaufsgruppen um eine andere Personengruppe handeln. Beispielsweise kann ein Cybersicherheitsprodukt in der Regel einen Chief Information Officer oder Chief Security Officer und einen Vertreter der Rechtsabteilung zur Genehmigung eines Kaufs erfordern, aber ein Fehlerverfolgungsprodukt könnte in der Regel einen VP of Engineering und eine IT Director als Mitglieder der Einkaufsgruppe haben.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video-Übersicht ansehen](#overview-video)
 
 ## Wichtige Komponenten
 
@@ -152,3 +154,7 @@ Der endgültige Interaktionswert wird durch Anwendung der Gewichtung für die ei
 | Influencers | 28 | 33,33% | 9,33 |
 | Praktikanten | 17 | 25 % | 4,25 |
 | **Endgültige Interaktionsbewertung** |                |             | **35.25** |
+
+## Übersichtsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

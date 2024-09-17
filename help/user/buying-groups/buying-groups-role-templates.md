@@ -3,9 +3,9 @@ title: Kaufen von Gruppenrollenvorlagen
 description: Erfahren Sie mehr über die Definition einer Rollenvorlage, die als eine Käufergruppenkomponente verwendet werden soll.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 1%
 # Kaufen von Gruppenrollenvorlagen
 
 Auf einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Einzelpersonen getroffen. Diese Personen nehmen entsprechend ihrer Rolle innerhalb der Organisation am Entscheidungsprozess teil. Erstellen Sie Benutzerrollenvorlagen aus der Gruppe &quot;Buying Group&quot;, die diese Rollendefinitionen entsprechend dem jeweiligen Produktangebot oder Anwendungsfall für Konten enthalten.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
 ## Rollenvorlagen aufrufen und durchsuchen
 
@@ -130,3 +132,7 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
    ![Rollenpriorität ändern](./assets/roles-template-delete.png){width="700"}
 
 1. Klicken Sie im Dialogfeld zur Bestätigung auf **[!UICONTROL Löschen]** .
+
+## Übersichtsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
