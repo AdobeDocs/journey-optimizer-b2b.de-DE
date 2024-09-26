@@ -6,7 +6,7 @@ exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1817'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -78,12 +78,12 @@ Mit den visuellen E-Mail-Editor-Tools können Sie den importierten Inhalt nach B
 
 {{$include /help/_includes/content-design-select-template.md}}
 
-## Struktur und Inhalt hinzufügen {#structure-content}
+## Hinzufügen von Struktur und Inhalt {#structure-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
 >title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der Vorlage. Ziehen Sie eine Komponente **Struktur** in die Arbeitsfläche, um mit der Erstellung des Inhalts für Ihre Vorlage zu beginnen."
+>abstract="Strukturkomponenten definieren das Layout der Vorlage. Ziehen Sie eine **Strukturkomponente** per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Vorlageninhalts zu beginnen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"

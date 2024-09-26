@@ -6,7 +6,7 @@ exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
 workflow-type: tm+mt
 source-wordcount: '1221'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -109,7 +109,7 @@ Mit den visuellen E-Mail-Editor-Tools können Sie den importierten Inhalt nach B
 
 {{$include /help/_includes/content-design-select-template.md}}
 
-## Struktur und Inhalt hinzufügen {#structure-content}
+## Hinzufügen von Struktur und Inhalt {#structure-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"

@@ -68,7 +68,7 @@ Previewing & editing URLs
 View options
 More options -->
 
-### Struktur und Inhalt hinzufügen {#design-fragment}
+### Hinzufügen von Struktur und Inhalt {#design-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
