@@ -3,9 +3,9 @@ title: Fragmente
 description: Erfahren Sie, wie Sie visuelle Inhaltsfragmente als wiederverwendbare Komponenten für E-Mails und E-Mail-Vorlagen in Adobe Journey Optimizer B2B Edition erstellen und verwenden.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '2687'
 ht-degree: 3%
 
 ---
@@ -31,11 +31,35 @@ Um auf visuelle Fragmente in Adobe Journey Optimizer B2B Edition zuzugreifen, na
 
 Die Tabelle wird nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei sich die zuletzt aktualisierten Fragmente standardmäßig oben befinden. Klicken Sie auf den Spaltentitel, um ihn zwischen auf- und absteigend zu ändern.
 
-Um nach einem Fragment anhand des Namens zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste für eine Übereinstimmung ein. Klicken Sie auf das Symbol _Filter_ , um die angezeigten Elemente nach Ihren angegebenen Kriterien zu filtern.
+### Fragmentstatus und -lebenszyklus
+
+Der Fragmentstatus bestimmt seine Verfügbarkeit für die Verwendung in einer E-Mail- oder E-Mail-Vorlage sowie die Änderungen, die Sie daran vornehmen können.
+
+| Status | Beschreibung |
+| -------------------- | ----------- |
+| Entwurf | Wenn Sie ein Fragment erstellen, befindet es sich im Entwurfsstatus. Dieser Status behält sich den Status vor, da Sie den visuellen Inhalt definieren oder bearbeiten, bis Sie ihn zur Verwendung in einer E-Mail- oder E-Mail-Vorlage veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>In Visual Designer bearbeiten<li>Veröffentlichen Sie<li>Doppelt<li>Löschen |
+| Veröffentlicht | Wenn Sie ein Fragment veröffentlichen, wird es zur Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar. Veröffentlichte Fragmentinhalte können im visuellen Designer nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Entwurfsversion erstellen<li>Doppelt<li>Löschen (falls nicht bereits verwendet) |
+| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einem veröffentlichten Fragment erstellen, bleibt die veröffentlichte Version für die Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar. Der Inhalt des Entwurfs kann im visuellen Designer geändert werden. Wenn Sie den Entwurf veröffentlichen, ersetzt er die aktuelle veröffentlichte Version und der Inhalt wird in den E-Mails und E-Mail-Vorlagen aktualisiert, in denen er verwendet wird. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Entwurfsversion in Visual Designer bearbeiten<li>Publish-Entwurfsversion<li>Doppelt<li>Löschen (falls nicht bereits verwendet) |
+
+![Lebenszyklus des Fragmentstatus](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+>[!IMPORTANT]
+>
+>Der Fragmentstatus wurde in der Journey Optimizer B2B Edition August-Version eingeführt. Alle vor dieser Version erstellten Fragmente haben den Status _Entwurf_ , auch wenn sie in einer E-Mail oder Vorlage verwendet werden. Wenn Sie Änderungen an diesen Fragmenten vornehmen, müssen Sie das Fragment veröffentlichen, um die Änderungen zu übernehmen.
+
+### Filtern der Fragmentliste
+
+Um nach einem Fragment anhand des Namens zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste für eine Übereinstimmung ein. Klicken Sie auf das Symbol _Filter_ ( ![Symbol zum Ein- oder Ausblenden von Filtern](../assets/do-not-localize/icon-filter.svg) ), um die verfügbaren Filteroptionen anzuzeigen und die Einstellungen zu ändern, um die angezeigten Elemente gemäß Ihren angegebenen Kriterien zu filtern.
 
 ![Filtern der angezeigten Fragmente](./assets/fragments-list-filtered.png){width="700" zoomable="yes"}
 
-Passen Sie die Spalten, die in der Tabelle angezeigt werden sollen, an, indem Sie oben rechts auf das Symbol _Tabelle anpassen_ klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
+### Spaltenanzeige anpassen
+
+Passen Sie die Spalten, die in der Tabelle angezeigt werden sollen, an, indem Sie oben rechts auf das Symbol _Tabelle anpassen_ ( ![Tabellensymbol anpassen](../assets/do-not-localize/icon-column-settings.svg) ) klicken.
+
+Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
+
+![Wählen Sie die Spalten aus, die angezeigt werden sollen](./assets/fragments-customize-table-dialog.png){width="300"}
 
 ## Erstellen von Fragmenten
 
@@ -57,16 +81,19 @@ Sie können neue visuelle Fragmente in Journey Optimizer B2B Edition erstellen, 
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   Der visuelle Inhaltseditor wird mit einer leeren Arbeitsfläche geöffnet.
+   Der visuelle Designer wird mit einer leeren Arbeitsfläche geöffnet.
 
-<!-- To be linked to the corresponding sections on this page: Adobe Journey Optimizer B2B Edition - Email Templates
+1. Verwenden Sie die Inhaltserstellungswerkzeuge, um den Inhalt des visuellen Fragments zu erstellen:
 
-Adding structure and content
-Adding assets
-Navigating the layers
-Previewing & editing URLs
-View options
-More options -->
+   * [Hinzufügen von Struktur und Inhalt](#add-structure-and-content)
+   * [Assets hinzufügen](#add-assets)
+   * [Navigieren in den Ebenen, Einstellungen und Stilen](#navigate-the-layers-settings-and-styles)
+   * [Inhalt personalisieren](#personalize-content)
+   * [Linked URL-Tracking bearbeiten](#edit-linked-url-tracking)
+
+1. Klicken Sie jederzeit auf **[!UICONTROL Speichern]** , um den Entwurf des Fragments zu speichern.
+
+1. Wenn Sie bereit sind, das Fragment für die Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar zu machen, klicken Sie auf **[!UICONTROL Publish]**.
 
 ### Hinzufügen von Struktur und Inhalt {#design-fragment}
 
@@ -145,12 +172,97 @@ Wenn das Fragment derzeit verwendet wird, öffnet die Aktion ein Informationsdia
 
 ## Bearbeiten von Fragmenten
 
-Sie können ein Fragment mit einer der folgenden Methoden bearbeiten:
+Die Bearbeitung eines Fragments hängt vom aktuellen Status ab:
 
-* Klicken Sie in den Fragmentdetails auf der rechten Seite auf **[!UICONTROL Bearbeiten]**.
-* Klicken Sie auf der Listenseite _[!UICONTROL Fragmente]_ auf das Auslassungszeichen neben dem Fragment und wählen Sie **[!UICONTROL Bearbeiten]**.
+* Wenn ein Fragment den Status _Entwurf_ aufweist, können Sie alle Details und den visuellen Inhalt bearbeiten.
+* Wenn ein Fragment den Status _Veröffentlicht_ aufweist, können Sie die Fragmentbeschreibung bearbeiten, nicht jedoch den Namen. Sie können den visuellen Inhalt nicht bearbeiten.
+* Befindet sich ein Fragment im Status _Veröffentlicht mit Entwurf_ , ist die Bearbeitung der Details auf die Beschreibung beschränkt. Sie können auch den visuellen Inhalt für die Entwurfsversion bearbeiten.
 
-Durch diese Aktion wird das Fragment in einem visuellen Inhaltseditor geöffnet, in dem Sie das Fragment mit einer der Funktionen zum Erstellen eines Fragments [ bearbeiten können.](#create-fragments)
+>[!BEGINTABS]
+
+>[!TAB Entwurf]
+
+1. Klicken Sie auf der Listenseite _[!UICONTROL Fragmente]_ auf den Fragmentnamen, um ihn zu öffnen.
+
+   Daraufhin wird eine Vorschau des visuellen Inhalts mit den Fragmentdetails auf der rechten Seite angezeigt.
+
+1. Ändern Sie alle Details, z. B. den Namen und die Beschreibung.
+
+   ![Details für Fragment mit Entwurfsstatus](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+
+1. Um Änderungen am Inhalt im visuellen Designer vorzunehmen, klicken Sie auf **[!UICONTROL Fragment bearbeiten]**.
+
+   Verwenden Sie die Visual Designer-Tools nach Bedarf:
+
+   * [Hinzufügen von Struktur und Inhalt](#add-structure-and-content)
+   * [Assets hinzufügen](#add-assets)
+   * [Navigieren in den Ebenen, Einstellungen und Stilen](#navigate-the-layers-settings-and-styles)
+   * [Inhalt personalisieren](#personalize-content)
+   * [Linked URL-Tracking bearbeiten](#edit-linked-url-tracking)
+
+   Klicken Sie auf **[!UICONTROL Speichern]** oder auf **[!UICONTROL Speichern und schließen]** , um zu den Fragmentdetails zurückzukehren.
+
+1. Wenn das Fragment Ihre Kriterien erfüllt und zur Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar sein soll, klicken Sie auf **[!UICONTROL Publish]**.
+
+>[!TAB Veröffentlicht]
+
+1. Klicken Sie auf der Listenseite _[!UICONTROL Fragmente]_ auf den Fragmentnamen, um ihn zu öffnen.
+
+   Daraufhin wird eine Vorschau des visuellen Inhalts mit den Fragmentdetails auf der rechten Seite angezeigt.
+
+1. Ändern Sie bei Bedarf die Beschreibung.
+
+   Bei einem veröffentlichten Fragment können nicht alle anderen Details geändert werden.
+
+1. Wenn Sie den Inhalt aktualisieren möchten, klicken Sie oben rechts auf **[!UICONTROL Entwurfsversion erstellen]** .
+
+   Klicken Sie im Dialogfeld auf **[!UICONTROL OK]** , um die Entwurfsversion im Visual Designer zu öffnen. Sie können bei Bedarf die [Bildquelle](./assets-overview.md#choose-an-asset-source) ändern.
+
+   ![Dialogfeld &quot;Entwurfsversion erstellen&quot;](./assets/fragments-create-draft-version.png){width="300"}
+
+   Verwenden Sie die Visual Designer-Tools nach Bedarf:
+
+   * [Hinzufügen von Struktur und Inhalt](#add-structure-and-content)
+   * [Assets hinzufügen](#add-assets)
+   * [Navigieren in den Ebenen, Einstellungen und Stilen](#navigate-the-layers-settings-and-styles)
+   * [Inhalt personalisieren](#personalize-content)
+   * [Linked URL-Tracking bearbeiten](#edit-linked-url-tracking)
+
+   Klicken Sie auf **[!UICONTROL Speichern]** oder auf **[!UICONTROL Speichern und schließen]** , um zu den Fragmentdetails zurückzukehren.
+
+1. Wenn der Entwurf des Fragments Ihre Kriterien erfüllt und Sie die Änderungen zur Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar machen möchten, klicken Sie auf **[!UICONTROL Publish]**.
+
+   Wenn Sie den Entwurf veröffentlichen, ersetzt er die aktuelle veröffentlichte Version und der Inhalt wird in den E-Mails und E-Mail-Vorlagen aktualisiert, wo er bereits verwendet wird.
+
+>[!TAB  Veröffentlicht mit Entwurf]
+
+Es gibt zwei Möglichkeiten, die Entwurfsversion zur Bearbeitung über die Listenseite _[!UICONTROL Fragmente]_ zu öffnen:
+
+* Klicken Sie auf das Symbol &quot;_Mehr_&quot;(**...**) neben dem Fragmentnamen und wählen Sie &quot;**[!UICONTROL Entwurfsversion öffnen]**&quot;.
+
+  ![Entwurfsversion öffnen](./assets/fragments-create-draft-version.png){width="300"}
+
+* Klicken Sie auf den Fragmentnamen, um ihn zu öffnen. Klicken Sie dann oben rechts auf **[!UICONTROL Entwurfsversion öffnen]** .
+
+  Eine Vorschau des visuellen Inhalts für die Entwurfsversion wird mit den Fragmentdetails auf der rechten Seite angezeigt.
+
+So aktualisieren Sie den Inhalt:
+
+1. Klicken Sie oben rechts auf **[!UICONTROL Fragment bearbeiten]** . Verwenden Sie die Visual Designer-Tools nach Bedarf:
+
+   * [Hinzufügen von Struktur und Inhalt](#add-structure-and-content)
+   * [Assets hinzufügen](#add-assets)
+   * [Navigieren in den Ebenen, Einstellungen und Stilen](#navigate-the-layers-settings-and-styles)
+   * [Inhalt personalisieren](#personalize-content)
+   * [Linked URL-Tracking bearbeiten](#edit-linked-url-tracking)
+
+   Klicken Sie auf **[!UICONTROL Speichern]** oder auf **[!UICONTROL Speichern und schließen]** , um zu den Fragmentdetails zurückzukehren.
+
+1. Wenn der Entwurf des Fragments Ihre Kriterien erfüllt und Sie die Änderungen zur Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar machen möchten, klicken Sie auf **[!UICONTROL Publish]**.
+
+   Wenn Sie den Entwurf veröffentlichen, ersetzt er die aktuelle veröffentlichte Version und der Inhalt wird in den E-Mails und E-Mail-Vorlagen aktualisiert, wo er bereits verwendet wird.
+
+>[!ENDTABS]
 
 ## Fragmente duplizieren
 
@@ -167,7 +279,7 @@ Geben Sie im Dialogfeld einen nützlichen Namen (eindeutig) und eine Beschreibun
 
 Das duplizierte (neue) Fragment wird dann in der Liste _Fragmente_ angezeigt.
 
-## Fragment aus E-Mail- oder Vorlageninhalt speichern
+## Neues Fragment aus E-Mail- oder Vorlageninhalt speichern
 
 Wenn Sie eine E-Mail- oder E-Mail-Vorlage im Visual Content Editor erstellen/bearbeiten, können Sie festlegen, dass alle oder Teile des Inhalts als Fragment gespeichert werden sollen, damit er zur Wiederverwendung verfügbar ist.
 
