@@ -2,7 +2,7 @@
 title: Versionshinweise
 description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1161afedadaf4ed16d895599ba2b6330b6bf7fa5
+source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 15%
@@ -47,7 +47,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
 <tbody>
 <tr>
 <td>
-<p>Visuelle Fragmente werden mithilfe eines Statuslebenszyklus verwaltet, in dem der Fragmentstatus die Verfügbarkeit für die Verwendung in einer E-Mail- oder E-Mail-Vorlage sowie die Änderungen bestimmt, die Sie daran vornehmen können. Dies erleichtert die Verwaltung wiederverwendeter Inhalte entsprechend Ihrem Werbe- und Kommunikationskalender. <a href="../content/fragments#fragment-status-and-lifecycle">Weitere Informationen</a>
+<p>Visuelle Fragmente werden mithilfe eines Statuslebenszyklus verwaltet, in dem der Fragmentstatus die Verfügbarkeit für die Verwendung in einer E-Mail- oder E-Mail-Vorlage sowie die Änderungen bestimmt, die Sie daran vornehmen können. Dies erleichtert die Verwaltung wiederverwendeter Inhalte entsprechend Ihrem Werbe- und Kommunikationskalender. <a href="../content/fragments.md#fragment-status-and-lifecycle">Weitere Informationen</a>
 </td>
 </tr>
 </tbody>
