@@ -3,7 +3,7 @@ title: Sales Alert-E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit automatisiertem Verkaufswarnhinweis in Ihre Journey einschließen.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 33bd8f68ae581d974fc52f94df6f2249d9493325
+source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 3%
@@ -60,4 +60,4 @@ Sie können E-Mail-Sendungen zu Verkaufswarnungen auf einer Konto-Journey einric
 
    ![Neues E-Mail-Dialogfeld erstellen](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Nach der Veröffentlichung der Konto-Journey wird die Verkaufswarnung entsprechend diesen Parametern bereitgestellt.
+   Nach der Publikation der Journey wird die Verkaufswarnung entsprechend diesen Parametern bereitgestellt.
