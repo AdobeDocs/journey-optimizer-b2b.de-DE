@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 9a7550b3e25adeab2918368c4fb5b4c640012baf
+source-git-commit: cdb6ddac25e3457a5baff3976b7e3181ad2c50e0
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 15%
+source-wordcount: '402'
+ht-degree: 9%
 
 ---
 
@@ -16,6 +16,42 @@ Adobe Journey Optimizer B2B Edition bietet kontinuierlich neue Funktionen, Verbe
 Journey Optimizer B2B Edition ist nativ auf [!DNL Adobe Experience Platform] aufgebaut und erbt von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Informationen zu Berechtigungen, Leistungsgarantien und Einschränkungen finden Sie in der [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} .
+
+## Versionshinweise für September 2024 {#Sept-2024}
+
+**Veröffentlichungsdatum**: 7. Oktober 2024
+
+Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
+
+<table>
+<thead>
+<tr>
+<th><strong>Erweiterte Bibliothek mit zentralen Assets</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Mit der erweiterten Bibliothek _central assets_ können Sie alle Bild-Assets in Ihrer Marketo Engage-Instanz über Design Studio-Arbeitsbereiche hinweg verwenden. Es gibt integrierte Limits, die Bearbeitungen von Marketo Engage-Assets aus Journey Optimizer B2B edition sowie Löschvorgänge und Verschiebevorgänge verhindern. Diese Schutzmaßnahmen stellen sicher, dass die Quell-Assets (Marketo Engage Design Studio) beibehalten werden, während eine nahtlose Lese- und Wiederverwendung in Journey Optimizer B2B edition ermöglicht wird. <a href="../content/marketo-engage-design-studio.md">Weitere Informationen</a>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Zuletzt aufgerufene Assets</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Startseite im Journey Optimizer B2B edition-Programm enthält jetzt den Abschnitt "_[!UICONTROL Kürzlich aufgerufen]_", der eine Liste der zuletzt aufgerufenen Assets für Marketing-Experten oder Administratoren enthält. Sie können diese Liste verwenden, um direkt zu dem Asset zu gelangen, an dem Sie kürzlich gearbeitet haben, ohne durch eine Reihe von Asset-Seiten zu navigieren und zu suchen. Es enthält zusätzliche Informationen zur Änderung, damit Sie die Entscheidung darüber treffen können, welche der Assets ab der letzten Sitzung weiter geändert werden muss. Bei E-Mail-Assets wird die Journey des Kontos angezeigt, in dem das E-Mail-Asset verwendet wird. <a href="../home-page.md">Weitere Informationen</a>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versionshinweise für August 2024 {#Aug-2024}
 
@@ -47,7 +83,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
 <tbody>
 <tr>
 <td>
-<p>Visuelle Fragmente werden mithilfe eines Statuslebenszyklus verwaltet, in dem der Fragmentstatus die Verfügbarkeit für die Verwendung in einer E-Mail- oder E-Mail-Vorlage sowie die Änderungen bestimmt, die Sie daran vornehmen können. Dies erleichtert die Verwaltung wiederverwendeter Inhalte entsprechend Ihrem Werbe- und Kommunikationskalender. <a href="../content/fragments.md#fragment-status-and-lifecycle">Weitere Informationen</a>
+<p>Visuelle Fragmente werden jetzt mit einem Statuslebenszyklus verwaltet. Der Fragmentstatus bestimmt seine Verfügbarkeit für die Verwendung in einer E-Mail- oder E-Mail-Vorlage sowie die Änderungen, die Sie daran vornehmen können. Dieser Workflow erleichtert die Verwaltung wiederverwendeter Inhalte entsprechend Ihrem Werbe- und Kommunikationskalender. <a href="../content/fragments.md#fragment-status-and-lifecycle">Weitere Informationen</a>
 </td>
 </tr>
 </tbody>

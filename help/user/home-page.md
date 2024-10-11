@@ -1,17 +1,17 @@
 ---
 title: Anmelden und Homepage
-description: Erfahren Sie, wie Sie auf die Journey Optimizer B2B Edition-App zugreifen und die Informationen zur Startseite verwenden.
+description: Erfahren Sie, wie Sie auf die Journey Optimizer B2B edition-App zugreifen und die Informationen zur Startseite verwenden.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
 # Anmelden und Homepage
 
-Mit der Adobe Journey Optimizer B2B Edition können Sie Konto- und Einkaufsgruppen-Journey mithilfe integrierter generativer KI und branchenführender Automatisierung koordinieren, um die Nachfrage nach spezifischen Angeboten mithilfe marketingqualifizierter Einkaufsgruppen zu maximieren.
+Mit Adobe Journey Optimizer B2B Edition können Sie Konto- und Käufergruppen-Journeys mithilfe integrierter generativer KI und branchenführender Automatisierung koordinieren, um die Nachfrage nach spezifischen Angeboten mithilfe Marketing-qualifizierter Käufergruppen zu maximieren.
 
 <!-- Requirements?
 -->
@@ -19,16 +19,20 @@ Um auf [!DNL Adobe Journey Optimizer B2B Edition] zuzugreifen, verbinden Sie sic
 
 ![Adobe Experience Platform apps](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-Die Startseite wird angezeigt, wenn Sie sich bei der Adobe Experience Platform anmelden und die Adobe Journey Optimizer B2B Edition-App auswählen. Auf dieser Seite erhalten Sie einen Überblick über den aktuellen Stand der B2B-Initiativen der Journey Optimizer in Form von detaillierten Einblicken und einem schnellen Zugriff auf die entsprechenden Module. Es enthält auch Informationen über die ideale nächste Aktion und darüber, wo Sie die umfassenden Tutorials und Dokumentation finden.
+Die Startseite wird angezeigt, wenn Sie sich bei Adobe Experience Platform anmelden und die Adobe Journey Optimizer B2B edition-App auswählen. Auf dieser Seite erhalten Sie einen Überblick über den aktuellen Stand der B2B-Initiativen von Journey Optimizer in Form von<!-- refined insights and--> schnellem Zugriff auf die entsprechenden Module. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-Die Journey Optimizer B2B Edition verfügt über zwei primäre Benutzerrollen: einen Marketingexperten und einen Administrator. Jede Persona verfügt über eine bestimmte Startseite für verschiedene Reifungsphasen (neu oder erweitert). Der Seiteninhalt basiert auf dem, was jede Person in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt. Diese Seiten enthalten auch Zugriff auf den [KI-Assistenten](./start/ai-assistant.md), der Benutzern hilft, schnelle Informationen zu bestimmten Fragen oder Themen zu erhalten, die sie benötigen<!-- and to obtain specific recommendations for their challenges or objectives-->.
+![Journey Optimizer B2B edition-Homepage](./assets/home-page.png){width="800" zoomable="yes"}
 
-![Startseite Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
+Die Journey Optimizer B2B edition verfügt über zwei primäre Benutzerrollen: einen _**Marketingexperten**_ und einen _**Administrator**_. Jede Persona verfügt über eine bestimmte Startseite für verschiedene Reifungsphasen (neu oder erweitert). Der Seiteninhalt basiert auf dem, was jede Person in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt.
 
 * **Marketer - neuer Benutzer** - Die Startseite _Marketer_ für einen neuen Benutzer hilft ihm, sich an Journey Optimizer B2B und seine Funktionen anzupassen. Es enthält eine geführte exemplarische Vorgehensweise für den neuen Marketingspezialisten, um eine Anleitung zum Onboarding zu erhalten, sodass diese die Nuancen des Systems verstehen und bei der Entwicklung von B2B-Marketingstrategien und -Initiativen effizient werden können.
 * **Marketer - fortgeschrittener Benutzer** - Die Startseite _Marketer_ für einen erweiterten Marketingexperten unterstützt ihn dabei, mehr Informationen über den aktuellen Fortschritt der Initiativen und über spezifische Aktionen sowie über die nächste beste Aktion zu erhalten, die zusammen mit dem schnellen Zugriff auf relevante Abschnitte durchgeführt werden soll.
-* **Administrator - neuer Benutzer** - Die Startseite _Admin_ für einen neuen Administrator hilft ihm, sich an die Journey Optimizer B2B Edition und ihre Funktionen anzupassen. Es enthält eine Anleitung für den neuen Administrator, um eine schrittweise Onboarding-Journey zu erhalten, um die Nuancen des Systems zu verstehen und bei der Entwicklung von B2B-Marketingstrategien und -initiativen effizient zu werden.
+* **Administrator - neuer Benutzer** - Die Startseite _Admin_ für einen neuen Administrator hilft ihm, sich an Journey Optimizer B2B edition und seine Funktionen anzupassen. Es enthält eine Anleitung für den neuen Administrator, um eine schrittweise Onboarding-Journey zu erhalten, um die Nuancen des Systems zu verstehen und bei der Entwicklung von B2B-Marketingstrategien und -initiativen effizient zu werden.
 * **Administrator - erweiterter Benutzer** - Die Startseite _Admin_ für einen erweiterten Administrator hilft ihm, mehr Informationen über den aktuellen Status der Instanz und über spezifische Aktionen zu erhalten, die ergriffen werden können, um sie für die Marketingexperten effizienter und effektiver zu gestalten.
+
+Der Abschnitt &quot;_[!UICONTROL Kürzlich aufgerufene]_&quot;enthält eine Liste der zuletzt aufgerufenen Assets für den Marketer oder Administrator. Verwenden Sie diese Liste, um direkt zu dem Asset zu gelangen, an dem Sie kürzlich gearbeitet haben, ohne durch eine Reihe von Asset-Seiten zu navigieren und zu suchen.
+
+Die Seite enthält auch Zugriff auf den [KI-Assistenten](./start/ai-assistant.md), der Benutzern hilft, schnelle Informationen zu bestimmten Fragen oder Themen zu erhalten, die sie benötigen.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
