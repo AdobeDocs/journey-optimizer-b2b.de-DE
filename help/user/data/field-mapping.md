@@ -1,19 +1,23 @@
 ---
 title: XDM-Felder
-description: Überprüfen Sie die standardmäßigen Attributfelder, die zwischen Adobe Experience Platform und Journey Optimizer B2B Edition synchronisiert werden.
+description: Überprüfen Sie die standardmäßigen Attributfelder, die zwischen Adobe Experience Platform und Journey Optimizer B2B edition synchronisiert werden.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: b38878ca063967e6c1ae56617674af52c10913df
+source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 25%
+source-wordcount: '965'
+ht-degree: 24%
 
 ---
 
 # XDM-Felder
 
-Zielgruppendaten für Konten werden als Attribute sowohl in der XDM Business Account- als auch in der XDM Business Person-Klasse gespeichert. Die Daten werden regelmäßig zwischen Adobe Experience Platform und Journey Optimizer B2B Edition synchronisiert. In den folgenden Abschnitten werden die standardmäßigen Attributsätze aufgelistet.
+Zielgruppendaten für Konten werden als Attribute sowohl in der XDM Business Account- als auch in der XDM Business Person-Klasse gespeichert. Die Daten werden regelmäßig zwischen Adobe Experience Platform und Journey Optimizer B2B edition synchronisiert. In den folgenden Abschnitten werden die standardmäßigen Attributsätze aufgelistet.
 
 ## XDM-Geschäftspersonalattribute
+
+>[!IMPORTANT]
+>
+>Das Attribut `workEmail.Address` ist erforderlich. Wenn es für ein Mitglied der Zielgruppe &quot;Konto&quot;leer ist, wird diese Person nicht erfasst und in den Journey- und Einkaufsgruppen des Kontos, die auf die Zielgruppe verweisen, weggelassen.
 
 | [Eigenschaft](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md) | Anzeigename | Journey Optimizer B2B-Anzeigename | Datentyp | Beschreibung |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -37,11 +41,15 @@ Zielgruppendaten für Konten werden als Attribute sowohl in der XDM Business Acc
 | `workAddress.postalCode` | Postleitzahl | Postleitzahl | String | Die Postleitzahl des Ortes. Postleitzahlen sind nicht für alle Länder verfügbar. In einigen Ländern enthält sie nur einen Teil der Postleitzahl. |
 | `workAddress.state` | Land | Land | String | Der Name des Status für die Adresse. Es ist ein Freiformfeld. |
 | `workAddress.street1` | Straße 1 | Adresse | String | Primäre Straßeninformationen, Wohnungsnummer, Straßennummer und Straßenname. |
-| `workEmail.address` | Adresse | E-Mail-Adresse | String | Die technische Adresse, z. B. `<name@domain.com>`, wie sie üblicherweise in RFC2822 und nachfolgenden Standards definiert ist. |
+| `workEmail.address` | Adresse | E-Mail-Adresse | String | **Erforderliches Feld** <br/>Die technische Adresse, z. B. `<name@domain.com>`, wie sie üblicherweise in RFC2822 und nachfolgenden Standards definiert ist. |
 | `workEmail.status` | Status | E-Mail angehalten | String | Ein Hinweis auf die Möglichkeit, die E-Mail-Adresse zu verwenden. |
 | `workPhone.number` | Zahl | Telefonnummer | String | Geschäftliche Telefonnummer. |
 
 ## XDM-Geschäftskontoattribute
+
+>[!IMPORTANT]
+>
+>Das Attribut `accountName` ist erforderlich. Wenn es für ein Konto in einer Konto-Audience leer ist, wird dieses Konto nicht erfasst und in den Konto-Journey und Kaufgruppen, die auf die Zielgruppe verweisen, weggelassen.
 
 | [Eigenschaft](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md) | Anzeigename | Journey Optimizer B2B-Anzeigename | Datentyp | Beschreibung |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -51,10 +59,10 @@ Zielgruppendaten für Konten werden als Attribute sowohl in der XDM Business Acc
 | `accountBillingAddress.region` | Region | Adressenregion | String | Die Region, der Bezirk oder der Bezirk der Abrechnungsadresse. |
 | `accountBillingAddress.state` | Land | Land | String | Der Name des Bundesstaates für die Abrechnungsadresse. Es ist ein Freiformfeld. |
 | `accountBillingAddress.street1` | Straße 1 | Straße 1 | String | Primäre Informationen auf Straßenebene für die Rechnungsadresse, die normalerweise die Wohnungsnummer, die Straßennummer und den Straßennamen enthalten würden. |
-| `accountName` | Name | Name | String | Name des Unternehmens. In diesem Feld sind bis zu 255 Zeichen zulässig. |
+| `accountName` | Name | Name | **Erforderliches Feld** <br/>Zeichenfolge | Name des Unternehmens. In diesem Feld sind bis zu 255 Zeichen zulässig. |
 | `accountOrganization.annualRevenue.amount` | Jahresumsatz | Jahresumsatz | Zahl | Geschätzter Betrag der jährlichen Einnahmen der Organisation. |
 | `accountOrganization.industry` | Branche | Branche | String | Der Wirtschaftszweig wurde der Organisation zugeordnet. Es handelt sich um ein Freiformfeld. Es empfiehlt sich, einen strukturierten Wert für Abfragen oder die Eigenschaft `xdm:classifier` zu verwenden. |
-| `accountOrganization.logoUrl` | Logo-URL | Logo-URL | String | Pfad, der mit der URL einer Salesforce-Instanz kombiniert werden soll (z. B. `https://yourInstance.salesforce.com/`), um eine URL zu generieren, mit der das mit dem Konto verknüpfte Profilbild des sozialen Netzwerks angefordert wird. Die generierte URL gibt eine HTTP-Umleitung (Code 302) zum Profilbild des sozialen Netzwerks für das Konto zurück. |
+| `accountOrganization.logoUrl` | Logo-URL | Logo-URL | String | Pfad, der mit der URL einer Salesforce-Instanz kombiniert werden soll (z. B. `https://yourInstance.salesforce.com/`), um eine URL zu generieren, mit der das Profilbild des sozialen Netzwerks abgerufen werden kann, das mit dem Konto verknüpft ist. Die generierte URL gibt eine HTTP-Umleitung (Code 302) zum Profilbild des sozialen Netzwerks für das Konto zurück. |
 | `accountOrganization.numberOfEmployees` | Anzahl der Mitarbeiter | Anzahl Mitarbeiter | Ganzzahl | Die Anzahl der Mitarbeiter in der Organisation. |
 | `accountOrganization.SICCode` | SIC-Code | SIC-Code | String | Der SIC-Code (Standard Industrial Classification) ist ein vierstelliger Code, der die Branchen, zu denen Unternehmen gehören, anhand ihrer Geschäftstätigkeit kategorisiert. |
 | `accountOrganization.website` | Website-URL | Domänenname | String | Die URL der Website der Organisation. |
