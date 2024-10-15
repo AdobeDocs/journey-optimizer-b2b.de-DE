@@ -2,7 +2,7 @@
 title: XDM-Felder
 description: Überprüfen Sie die standardmäßigen Attributfelder, die zwischen Adobe Experience Platform und Journey Optimizer B2B edition synchronisiert werden.
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 6578fdf35ec565ba315c00eeb3d2466c925cf816
+source-git-commit: 69312f48bdbe9f366a8e6adfb4736c20d04739f8
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 24%
@@ -59,7 +59,7 @@ Zielgruppendaten für Konten werden als Attribute sowohl in der XDM Business Acc
 | `accountBillingAddress.region` | Region | Adressenregion | String | Die Region, der Bezirk oder der Bezirk der Abrechnungsadresse. |
 | `accountBillingAddress.state` | Land | Land | String | Der Name des Bundesstaates für die Abrechnungsadresse. Es ist ein Freiformfeld. |
 | `accountBillingAddress.street1` | Straße 1 | Straße 1 | String | Primäre Informationen auf Straßenebene für die Rechnungsadresse, die normalerweise die Wohnungsnummer, die Straßennummer und den Straßennamen enthalten würden. |
-| `accountName` | Name | Name | **Erforderliches Feld** <br/>Zeichenfolge | Name des Unternehmens. In diesem Feld sind bis zu 255 Zeichen zulässig. |
+| `accountName` | Name | Name | String | **Erforderliches Feld** <br/>Name des Unternehmens. In diesem Feld sind bis zu 255 Zeichen zulässig. |
 | `accountOrganization.annualRevenue.amount` | Jahresumsatz | Jahresumsatz | Zahl | Geschätzter Betrag der jährlichen Einnahmen der Organisation. |
 | `accountOrganization.industry` | Branche | Branche | String | Der Wirtschaftszweig wurde der Organisation zugeordnet. Es handelt sich um ein Freiformfeld. Es empfiehlt sich, einen strukturierten Wert für Abfragen oder die Eigenschaft `xdm:classifier` zu verwenden. |
 | `accountOrganization.logoUrl` | Logo-URL | Logo-URL | String | Pfad, der mit der URL einer Salesforce-Instanz kombiniert werden soll (z. B. `https://yourInstance.salesforce.com/`), um eine URL zu generieren, mit der das Profilbild des sozialen Netzwerks abgerufen werden kann, das mit dem Konto verknüpft ist. Die generierte URL gibt eine HTTP-Umleitung (Code 302) zum Profilbild des sozialen Netzwerks für das Konto zurück. |
