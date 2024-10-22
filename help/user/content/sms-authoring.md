@@ -227,7 +227,7 @@ Sie können eine Nachricht mit bis zu 1600 Zeichen erstellen, wobei jede 160 Zei
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
 >title="Überprüfen des Inhalt-Renderings"
->abstract="Wenn Ihr Inhalt definiert ist, können Sie eine Vorschau davon anzeigen und das Rendering für den verwendeten Kanal überprüfen."
+>abstract="Wenn Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
 Wenn Ihr Nachrichteninhalt definiert ist, können Sie mithilfe von Testprofilen dessen Inhalt simulieren (in der Vorschau anzeigen). Wenn Sie personalisierten Inhalt eingefügt haben, können Sie anhand von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
