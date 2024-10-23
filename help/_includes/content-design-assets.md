@@ -1,7 +1,7 @@
 ---
 title: Inhaltserstellung - Assets
 description: Wiederverwendeter Abschnitt zur Verwendung von Assets für die Inhaltserstellung
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 23fb478712f3c6df59e94432bdf16883e6acf70b
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 # Inhaltserstellung - Assets
 
-Wählen Sie im Visual Content Editor das Symbol _Assets_ aus, das links angezeigt wird.
+Wählen Sie im Visual Content Editor das Symbol _Assets_ ( ![Assets anzeigen](../user/assets/do-not-localize/icon-assets-design.svg) ), das links angezeigt wird.
 
 >[!NOTE]
 >
->Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service verfügen, müssen Sie zum Zeitpunkt der Erstellung für eine E-Mail, eine E-Mail-Vorlage oder ein visuelles Fragment die standardmäßige Adobe Marketo Engage Design Studio-Bibliothek verwenden. Wählen Sie dazu die [Bildquelle](../user/content/assets-overview.md#choose-an-asset-source) aus. Sie können jedoch auch die Bildquelle auswählen, bevor Sie den Inhaltsdesigner zur Bearbeitung öffnen.
+>Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service verfügen, wählen Sie zusammen mit dem standardmäßigen Adobe Marketo Engage Design Studio zum Zeitpunkt der Erstellung für eine E-Mail, eine E-Mail-Vorlage oder ein visuelles Fragment die [Bildquelle](../user/content/assets-overview.md#choose-an-asset-source) aus. Sie können auch die Bildquelle auswählen, bevor Sie den visuellen Designer zur Bearbeitung öffnen.
 
 Im folgenden Beispiel werden die Schritte zum Hinzufügen von Assets zum Vorlageninhalt beschrieben:
 
@@ -30,4 +30,4 @@ Im folgenden Beispiel werden die Schritte zum Hinzufügen von Assets zum Vorlage
 
 1. Ersetzen Sie ein vorhandenes Bild-Asset, indem Sie es auf der Arbeitsfläche auswählen und in den Bildquellen-Tools auf **[!UICONTROL Asset auswählen]** klicken.
 
-   ![Auswählen eines Assets aus der Quellbibliothek](../assets/content-design-shared/visual-designer-select-an-asset.png){width="700" zoomable="yes"}
+   ![Auswählen eines Assets aus der Quellbibliothek](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
