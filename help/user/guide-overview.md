@@ -2,10 +2,10 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Adobe Journey Optimizer B2B Edition-Funktionen für die Orchestrierung von Konten und den Kauf von Journey mit integrierter generativer KI und branchenführender Automatisierung verwenden.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b0622b8224f581c76c43966537d1f576316d4068
+source-git-commit: a1cbb0270f5174b8a16b783aaef7a890abb81a32
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 4%
+source-wordcount: '565'
+ht-degree: 9%
 
 ---
 
@@ -13,11 +13,15 @@ ht-degree: 4%
 
 ## Neue Funktionen
 
-Im Folgenden finden Sie ein Beispiel der neuesten Verbesserungen des Journey Optimizer B2B Edition-Produkts und der Dokumentation.
-
-<!-- For a comprehensive list of features, improvements, and fixes, check out the detailed < Release Notes >. Stay up-to-date with the latest changes in our documentation by visiting the , < documentation updates page >. -->
+Im Folgenden finden Sie ein Beispiel der neuesten Verbesserungen des Journey Optimizer B2B edition-Produkts und der -Dokumentation.
 
 >[!BEGINTABS]
+
+>[!TAB Central Assets Library]
+
+Verwenden Sie alle Bild-Assets in Ihrer Marketo Engage-Instanz über Design Studio-Arbeitsbereiche hinweg. Integrierte Schutzmechanismen verhindern, dass die Marketo Engage-Assets von Journey Optimizer B2B edition bearbeitet werden. Diese Schutzmaßnahmen stellen sicher, dass die Marketo Engage-Quell-Assets beibehalten werden, während eine nahtlose Lese- und Wiederverwendung in Journey Optimizer B2B edition ermöglicht wird. Für Assets, die ausschließlich in Journey Optimizer B2B edition verwendet werden, bietet ein bestimmter Arbeitsbereich vollständige Asset-Management-Funktionen.
+
+[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Informationen zum zentralen Asset-Management"}
 
 >[!TAB LinkedIn-Konto für übereinstimmende Zielgruppen]
 
@@ -27,11 +31,11 @@ Generieren Sie LinkedIn-Anzeigenzielgruppen über kontengerechte Zielgruppen, da
 
 >[!TAB KI-Assistent]
 
-Machen Sie sich schnell mit kontobasierten Marketingkonzepten vertraut und lernen Sie die Funktionen der Journey Optimizer B2B Edition kennen, mit denen Sie die Strategien Ihres Teams maximieren können.
+Machen Sie sich schnell mit kontobasierten Marketingkonzepten vertraut und lernen Sie die Journey Optimizer B2B edition-Funktionen kennen, mit denen Sie die Strategien Ihres Teams maximieren können.
 
 [!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Informationen zum KI-Assistenten"}
 
-Erhöhen Sie Ihre Inhalte mit AI Assistant für E-Mail-Inhalte in Adobe Journey Optimizer B2B Edition mit generativer KI auf die nächste Stufe. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und sogar Bilder generiert, die speziell auf Ihre Zielgruppe abgestimmt sind.
+Erhöhen Sie Ihren Inhalt mit dem AI-Assistenten für E-Mail-Inhalte in Adobe Journey Optimizer B2B edition, der auf generativer KI basiert, auf die nächste Stufe. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und sogar Bilder generiert, die speziell auf Ihre Zielgruppe abgestimmt sind.
 
 [!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Informationen zum KI-Assistenten für E-Mails"}
 
@@ -41,42 +45,32 @@ Erstellen Sie wiederverwendbare Komponenten als benutzerdefinierte Inhaltsbauste
 
 [!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/fragments" tooltip="Informationen zu visuellen Fragmenten"}
 
->[!TAB Gruppen kaufen]
-
-Erstellen Sie Einkaufsgruppen aus einheitlichen B2B-Daten aus Ihrem gesamten Unternehmen. Richten Sie sie an die Angebote Ihres Unternehmens aus und automatisieren Sie, wie Sie die richtigen Mitglieder für jede Rolle definieren, identifizieren und ansprechen, um das präziseste Targeting für Ihre Journey zu skalieren.
-
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/buying-groups/buying-groups-overview" tooltip="Informationen zu Einkaufsgruppen"}
-
->[!TAB Account-Journey]
-
-Erstellen Sie maßgeschneiderte Journey für den Kauf von Gruppen innerhalb von Zielkonten, die eine maßgeschneiderte Vertriebs- und Marketinginteraktion automatisieren, um die Nachfragegenerierung, -qualifizierung und ein nahtloses, koordiniertes Kundengruppenerlebnis zu optimieren.
-
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-overview" tooltip="Erfahren Sie mehr über Account-Journey"}
-
 >[!ENDTABS]
+
+Eine vollständige Liste der neuen Funktionen und Verbesserungen finden Sie in den [Versionshinweisen](../user/release-notes/release-notes.md). <!-- Stay up-to-date with the latest changes in our documentation by visiting the [documentation updates page](using/rn/documentation-updates.md).-->
 
 ## Beginnen Sie mit den Grundlagen
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png"></a>
+    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Start der Produktnutzung"></a>
     <div><strong>Starten von Ihrer Startseite aus</strong><br/>Erfahren Sie, wie Sie Ihre Ziele in Journey Optimizer B2B Edition schneller erreichen können, indem Sie Ihre personalisierte Startseite auf Grundlage Ihrer Rolle verwenden.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png"></a>
-    <div><strong>Erstellen Sie Ihre erste Buying Group</strong><br/>Erstellen Sie Ihre erste Einkaufsgruppe in Journey Optimizer B2B Edition, um den Prozess der Interaktion und Qualifizierung von Kontakten zu automatisieren.</div>
+    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Käufergruppen"></a>
+    <div><strong>Erstellen Sie Ihre erste Buying Group</strong><br/>Erstellen Sie Ihre erste Einkaufsgruppe in Journey Optimizer B2B edition, um den Prozess des Kontakts und der Qualifizierung zu automatisieren.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png"></a>
+    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Account-Journey"></a>
     <div><strong>Erstellen Sie Ihre erste Konto-Journey</strong><br/>Entwerfen und orchestrieren Sie personalisierte Konto-Journey, um die Marketing-Reichweite mit gezielter Interaktion zu harmonisieren. 
     </div>
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg"></a></td>
-    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg"></a></td>
-    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg"></a></td>
+    <td align="center"><a href="home-page.md"><img src="../assets/learn-more.svg" alt="Weitere Informationen"></a></td>
+    <td align="center"><a href="buying-groups/buying-groups-overview.md"><img src="../assets/learn-more.svg" alt="Weitere Informationen"></a></td>
+    <td align="center"><a href="journeys/journey-overview.md"><img src="../assets/learn-more.svg" alt="Weitere Informationen"></a></td>
     </tr>
 </table>
 
@@ -91,7 +85,7 @@ Entdecken Sie die Komponenten einer Einkaufsgruppe und lernen Sie die Grundlagen
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Erste Schritte"><br/>
       <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmelden und Startseite</a><br/><a href="./start/get-started.md">Schnellstartanleitung</a> <br/><a href="./start/ai-assistant.md">KI-Assistent</a>
     </td>
     <!--
@@ -100,41 +94,44 @@ Entdecken Sie die Komponenten einer Einkaufsgruppe und lernen Sie die Grundlagen
       <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
     </td> -->
     <td>
-      <img src="../assets/do-not-localize/icon_audience.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Käufergruppen"><br/>
       <strong>Gruppen kaufen</strong><br/><a href="./buying-groups/buying-groups-overview.md">Überblick über den Kauf von Gruppen</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Rollenvorlagen</a><br/><a href="./buying-groups/solution-interests.md">Lösungsinteressen</a><br/><a href="./buying-groups/buying-groups-create.md">Erstellen von Kaufgruppen</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Account-Journey"><br/>
       <strong>Kontoknoten - Journey </strong><br/><a href="./journeys/journey-overview.md">Journey - Überblick</a><br/><a href="./journeys/journey-nodes.md">Journey-Knoten</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Erstellen eines Journey-Kontos</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
-      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Inhaltserstellung"><br/>
       <strong>Journey content</strong><br/><a href="./content/email-authoring.md">E-Mail-Authoring</a><br/><a href="./content/ai-assistant-emails.md">KI-Assistent für E-Mail</a><br/><a href="./content/sms-authoring.md">SMS-Authoring</a>
     </td>
         <td>
-      <img src="../assets/do-not-localize/icon_assets.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Inhaltselemente"><br/>
       <strong>Content Management</strong><br/><a href="./content/assets-overview.md">Assets - Übersicht</a><br/><a href="./content/email-templates.md">E-Mail-Vorlagen</a><br/><a href="./content/fragments.md">Visuelle Fragmente</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-offer.svg" width="35px"><br/>
+      <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Einblicke und Dashboards"><br/>
       <strong>Insights</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Gruppen-Dashboard kaufen</a><br/><a href="./dashboards/journeys-dashboard.md">Journey-Dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Interaktions-Dashboard</a>
     </td>
 
 </tr>
 </table>
 
-<!-- 
-
-## Additional resources
+## Zusätzliche Ressourcen
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Product description</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a>
-
+<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Documentation</a> - <a href="https://www.adobe.com/experience-platform/documentation-and-developer-resources.html" target="_blank">Developers resources</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de" target="_blank">Dokumentation</a> - <a href="https://www.adobe.com/de/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>
+</td></tr>
+<tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
+<a href="https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Tutorials für Entwickler</a>
+</td><td><strong>Adobe Marketo Engage</strong><br/>
+<a href="https://experienceleague.adobe.com/de/docs/marketo/using/home" target="_blank">Benutzerdokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Entwicklerdokumentation</a>
 </td>
-</tr></table> -->
+</tr></table>
+
