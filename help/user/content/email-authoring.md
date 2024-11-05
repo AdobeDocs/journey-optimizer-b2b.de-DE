@@ -3,16 +3,16 @@ title: Email Authoring
 description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die in einer Konto-Journey verwendet werden.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 17%
+source-wordcount: '1428'
+ht-degree: 14%
 
 ---
 
 # E-Mail-Authoring
 
-Verwenden Sie Adobe Journey Optimizer B2B Edition, um Ihren Kunden E-Mail-Nachrichten zu senden. Mithilfe des E-Mail-Designers können Sie Nachrichten erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie Adobe Journey Optimizer B2B edition , um E-Mail-Nachrichten an Ihre Kunden zu senden. Sie können Nachrichten im Visual Designer erstellen, personalisieren und in der Vorschau anzeigen.
 
 ## Hinzufügen einer E-Mail-Aktion auf einer Konto-Journey
 
@@ -60,7 +60,7 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie ihn
 
 >[!TIP]
 >
->Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B Edition, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Stufe zu heben. Der KI-Assistent kann Sie dabei unterstützen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und Empfehlungen für den KI-Assistenten für Bilder generiert, die Ihrer Zielgruppe entsprechen. [Weitere Informationen](./ai-assistant-emails.md)
+>Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition, der auf generativen KI basiert, um Ihre Inhalte auf die nächste Stufe zu heben. Der KI-Assistent kann Sie dabei unterstützen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails, zielgerichtete Textinhalte und Empfehlungen für den KI-Assistenten für Bilder generiert, die Ihrer Zielgruppe entsprechen. [Weitere Informationen](./ai-assistant-emails.md)
 
 ### Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
 
@@ -109,6 +109,10 @@ Mit den visuellen E-Mail-Editor-Tools können Sie den importierten Inhalt nach B
 
 {{$include /help/_includes/content-design-select-template.md}}
 
+>[!NOTE]
+>
+> Gespeicherte Vorlagen verfügen möglicherweise über Governance (Inhaltssperrung)-Einstellungen, die auf eine oder mehrere Komponenten angewendet werden. Der visuelle Designer bietet Richtlinien zu gesperrten Komponenten, wenn Sie [eine E-Mail aus einer verwalteten Vorlage erstellen](./email-authoring-governance.md).
+
 ## Hinzufügen von Struktur und Inhalt {#structure-content}
 
 >[!CONTEXTUALHELP]
@@ -146,9 +150,9 @@ Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um 
 
 >[!TIP]
 >
->Wenn Sie das Fragment so hinzufügen möchten, dass es das gesamte horizontale Layout der E-Mail einnimmt, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment per Drag-and-Drop in die E-Mail.
+>Um das Fragment so hinzuzufügen, dass es das gesamte horizontale Layout der E-Mail ausfüllt, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment in das Fragment.
 
-Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie in der Zusammenfassung die Registerkarte _[!UICONTROL Verwendet von]_ auswählen. Zu einer E-Mail-Vorlage hinzugefügte Fragmente können nicht in der Vorlage bearbeitet werden. Der Inhalt wird durch das Quellfragment definiert.
+Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie in der Zusammenfassung die Registerkarte _[!UICONTROL Verwendet von]_ auswählen. Zu einer E-Mail-Vorlage hinzugefügte Fragmente können nicht in der Vorlage bearbeitet werden. Das Quellfragment definiert den Inhalt.
 
 ### Hinzufügen von Assets
 
@@ -173,8 +177,20 @@ Nutzen Sie die im visuellen E-Mail-Editor verfügbaren Ansicht- und Inhaltsvalid
 * Vergrößern/Verkleinern Sie den Inhalt über vordefinierte Zoom-Optionen.
 
 * Wechseln Sie zwischen der Anzeige des Inhalts über Desktop, Mobilgeräte oder Nur-Text/Nur-Text.
-   * Klicken Sie auf das Symbol _Auge_ für die geräteübergreifende Inhaltsvorschau.
+   * Klicken Sie auf das Symbol _Anzeigen_ für die geräteübergreifende Inhaltsvorschau.
    * Wählen Sie eines der nativen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um die Vorschau des Inhalts anzuzeigen.
+
+### Mehr Optionen
+
+Im Menü _[!UICONTROL Mehr ...]_ oben im E-Mail-Designer können Sie die folgenden Aktionen ausführen:
+
+![Klicken Sie auf Mehr , um auf Vorlagenaktionen zuzugreifen](./assets/email-designer-more-menu.png){width="500"}
+
+* **[!UICONTROL E-Mail zurücksetzen]** - Klicken Sie auf diese Option, um die Arbeitsfläche des visuellen E-Mail-Designers zu leeren Arbeitsbereich zu leeren Arbeitsbereich zu leeren und mit dem Erstellen Ihres Inhalts neu zu beginnen.
+* **[!UICONTROL Als Fragment speichern]** - Speichern Sie alle oder Teile der E-Mail als Fragment, das über mehrere E-Mails oder E-Mail-Vorlagen hinweg wiederverwendet werden soll. Geben Sie einen Namen und eine Beschreibung für das Fragment ein und speichern Sie es in der Liste der verfügbaren Fragmente.
+* **[!UICONTROL Design ändern]** - Kehren Sie zur Seite _E-Mail entwerfen_ zurück. Von dort aus können Sie eine andere Vorlage auswählen, um den Designprozess neu zu starten, oder den Inhalt von Grund auf in einer schwarzen Arbeitsfläche entwerfen.\
+* **[!UICONTROL Als Inhaltsvorlage speichern]** - Speichern Sie den E-Mail-Textkörper als E-Mail-Vorlage, die über mehrere E-Mails oder E-Mail-Vorlagen hinweg wiederverwendet werden soll. Geben Sie einen Namen und eine Beschreibung für die Vorlage ein und speichern Sie sie in der Liste gespeicherter E-Mail-Vorlagen.
+* **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt der visuellen Arbeitsfläche in das lokale HTML-Format herunter, das als ZIP-Datei gepackt ist.
 
 ## Prüfen von Warnhinweisen
 

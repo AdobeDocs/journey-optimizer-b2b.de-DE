@@ -2,20 +2,34 @@
 title: Versionshinweise
 description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 235f54e4db84554f83076070b0d549e29141ba6e
+source-git-commit: ce241e3d5412e38f3f2bc833d9eca6ee567697f3
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 9%
+source-wordcount: '673'
+ht-degree: 11%
 
 ---
 
-# Versionshinweise zu Journey Optimizer B2B Edition
+# Versionshinweise zu Journey Optimizer B2B edition
 
-Adobe Journey Optimizer B2B Edition bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen.
+Adobe Journey Optimizer B2B edition bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen.
 
-Journey Optimizer B2B Edition ist nativ auf [!DNL Adobe Experience Platform] aufgebaut und erbt von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target="_blank"}.
+Journey Optimizer B2B edition basiert nativ auf [!DNL Adobe Experience Platform] und übernimmt die neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Informationen zu Berechtigungen, Leistungsgarantien und Einschränkungen finden Sie in der [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} .
+
+## Versionshinweise für Oktober 2024 {#Oct-2024}
+
+**Veröffentlichungsdatum**: 29. Oktober 2024
+
+Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Neue Funktion | Bedingter Inhalt in E-Mail-Vorlagen | Personalisieren Sie Ihren E-Mail-Inhalt auf der Basis des Empfängerverhaltens und der Profilmerkmale - sowohl auf Konto- als auch auf Lead-Ebene. <p>Wenn Sie eine E-Mail für Ihre Konto-Journey im E-Mail-Designer erstellen, verwenden Sie Bedingungsregeln, um mehrere Varianten für jede Inhaltskomponente zu definieren. <a href="../content/conditional-content.md">Weitere Informationen</a> |
+| Neue Funktion | Hinzufügen zu Liste und Entfernen aus Liste für Journey People-Aktionsknoten | Personalisieren Sie Ihren E-Mail-Inhalt auf der Basis des Empfängerverhaltens und der Profilmerkmale - sowohl auf Konto- als auch auf Lead-Ebene. <a href="../journeys/journey-nodes.md#action-nodes">Weitere Informationen</a> |
+| Neue Funktion | Content Governance und Komponentensperrung | Um die Einhaltung genehmigter Inhaltsentwürfe sicherzustellen, verwenden Sie Content Governance-Funktionen, um Inhaltskomponenten für E-Mail-Vorlagen zu sperren. Wenn Content Governance in der E-Mail-Vorlage aktiviert ist, können Marketer nur die zulässigen Elemente ändern, um sie an der Inhaltsstrategie auszurichten. <a href="../content/template-content-governance.md">Weitere Informationen</a> |
+| Verbesserung | Neue native E-Mail-Vorlagen | Die Beispielvorlagenbibliothek enthält jetzt zusätzliche E-Mail-Vorlagen, die für B2B-Marketer entwickelt wurden. Verwenden Sie diese Beispielvorlagen als Ausgangspunkt und fügen Sie Ihr eigenes Branding und Ihre eigenen Nachrichten hinzu. <a href="../content/email-templates.md#select-a-design-template">Weitere Informationen</a> |
+| Verbesserung | E-Mail-Kanaleinstellungen | E-Mail-Einstellungen sind jetzt in der Benutzeroberfläche von Journey Optimizer B2B edition sichtbar. Sie können die aktuellen Konfigurationen schnell überprüfen und Administratoren können auf _[!UICONTROL Einstellungen bearbeiten]_ klicken, um direkt zu den Einstellungen im Marketo Engage zu wechseln und sie entsprechend den Anforderungen Ihres Unternehmens zu aktualisieren. <a href="../admin/configure-channels-emails.md">Weitere Informationen</a> |
 
 ## Versionshinweise für September 2024 {#Sept-2024}
 
@@ -23,36 +37,10 @@ Informationen zu Berechtigungen, Leistungsgarantien und Einschränkungen finden 
 
 Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
 
-<table>
-<thead>
-<tr>
-<th><strong>Erweiterte Bibliothek mit zentralen Assets</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Mit der erweiterten Bibliothek <i>für zentrale Assets</i> können Sie alle Bild-Assets in Ihrer Marketo Engage-Instanz über Design Studio-Arbeitsbereiche hinweg verwenden. Es gibt integrierte Limits, die Bearbeitungen von Marketo Engage-Assets aus Journey Optimizer B2B edition sowie Löschvorgänge und Verschiebevorgänge verhindern. Diese Schutzmaßnahmen stellen sicher, dass die Quell-Assets (Marketo Engage Design Studio) beibehalten werden, während eine nahtlose Lese- und Wiederverwendung in Journey Optimizer B2B edition ermöglicht wird. </p>
-<p>Für Assets, die ausschließlich in Journey Optimizer B2B edition verwendet werden, bietet ein bestimmter Arbeitsbereich vollständige Asset-Management-Funktionen. <a href="../content/marketo-engage-design-studio.md">Weitere Informationen</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Zuletzt aufgerufene Assets</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Die Startseite im Journey Optimizer B2B edition-Programm enthält jetzt den Abschnitt "<i>[!UICONTROL Kürzlich aufgerufen]</i>", der eine Liste der zuletzt aufgerufenen Assets für Marketing-Experten oder Administratoren enthält. Sie können diese Liste verwenden, um direkt zu dem Asset zu gelangen, an dem Sie kürzlich gearbeitet haben, ohne durch eine Reihe von Asset-Seiten zu navigieren und zu suchen. Es enthält zusätzliche Informationen zur Änderung, damit Sie die Entscheidung darüber treffen können, welche der Assets ab der letzten Sitzung weiter geändert werden muss. Bei E-Mail-Assets wird die Journey des Kontos angezeigt, in dem das E-Mail-Asset verwendet wird. <a href="../home-page.md">Weitere Informationen</a>
-</td>
-</tr>
-</tbody>
-</table>
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Verbesserung | Central Assets-Bibliothek | Mit der erweiterten Bibliothek _für zentrale Assets_ können Sie alle Bild-Assets in Ihrer Marketo Engage-Instanz über Design Studio-Arbeitsbereiche hinweg verwenden. Es gibt integrierte Limits, die Bearbeitungen von Marketo Engage-Assets aus Journey Optimizer B2B edition sowie Löschvorgänge und Verschiebevorgänge verhindern. Diese Schutzmaßnahmen stellen sicher, dass die Quell-Assets (Marketo Engage Design Studio) beibehalten werden, während eine nahtlose Lese- und Wiederverwendung in Journey Optimizer B2B edition ermöglicht wird.<p>Für Assets, die ausschließlich in Journey Optimizer B2B edition verwendet werden, bietet ein bestimmter Arbeitsbereich vollständige Asset-Management-Funktionen. <a href="../content/marketo-engage-design-studio.md">Weitere Informationen</a> |
+| Neue Funktion | Zuletzt aufgerufene Assets | Die Startseite im Journey Optimizer B2B edition-Programm enthält jetzt den Abschnitt &quot;_[!UICONTROL Kürzlich aufgerufen]_&quot;, der eine Liste der zuletzt aufgerufenen Assets für Marketing-Experten oder Administratoren enthält. Sie können diese Liste verwenden, um direkt zu dem Asset zu gelangen, an dem Sie kürzlich gearbeitet haben, ohne durch eine Reihe von Asset-Seiten zu navigieren und zu suchen. <p>Die Liste enthält zusätzliche Informationen zur Änderung, sodass Sie die Entscheidung darüber treffen können, welche der Assets ab der letzten Sitzung weiter geändert werden muss. Bei E-Mail-Assets wird die Journey des Kontos angezeigt, in dem das E-Mail-Asset verwendet wird. <a href="../home-page.md">Weitere Informationen</a> |
 
 ## Versionshinweise für August 2024 {#Aug-2024}
 
@@ -60,32 +48,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
 
 Diese Version umfasst die folgenden neuen Funktionen und Erweiterungen:
 
-<table>
-<thead>
-<tr>
-<th><strong>LinkedIn-Konto-Matched Audiences</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Generieren Sie LinkedIn-Anzeigenzielgruppen über kontengerechte Zielgruppen, damit Sie leere Rollen in Ihren Einkaufsgruppen ausfüllen können. Durch Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine mit LinkedIn übereinstimmende Zielgruppe beibehalten, um potenzielle Kunden auszuwählen, die mit Ihren Kundengruppenparametern übereinstimmen. Diese Funktion nutzt Experience Platform-Ziele , um einige Aspekte der Integration zu verwalten. <a href="../data/linkedin-account-matched-audiences.md">Weitere Informationen</a>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Status-Lebenszyklus für visuelle Fragmente</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Visuelle Fragmente werden jetzt mit einem Statuslebenszyklus verwaltet. Der Fragmentstatus bestimmt seine Verfügbarkeit für die Verwendung in einer E-Mail- oder E-Mail-Vorlage sowie die Änderungen, die Sie daran vornehmen können. Dieser Workflow erleichtert die Verwaltung wiederverwendeter Inhalte entsprechend Ihrem Werbe- und Kommunikationskalender. <a href="../content/fragments.md#fragment-status-and-lifecycle">Weitere Informationen</a>
-</td>
-</tr>
-</tbody>
-</table>
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Neue Funktion | LinkedIn-Konto-Matched Audiences | Generieren Sie LinkedIn-Anzeigenzielgruppen über kontengerechte Zielgruppen, damit Sie leere Rollen in Ihren Einkaufsgruppen ausfüllen können. Durch Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine mit LinkedIn übereinstimmende Zielgruppe beibehalten, um potenzielle Kunden auszuwählen, die mit Ihren Kundengruppenparametern übereinstimmen. <p>Diese Funktion nutzt Experience Platform-Ziele , um einige Aspekte der Integration zu verwalten. <a href="../data/linkedin-account-matched-audiences.md">Weitere Informationen</a> |
+| Verbesserung | Status-Lebenszyklus für visuelle Inhaltsfragmente | Visuelle Fragmente werden jetzt mit einem Statuslebenszyklus verwaltet. Der Fragmentstatus bestimmt seine Verfügbarkeit für die Verwendung in einer E-Mail- oder E-Mail-Vorlage sowie die Änderungen, die Sie daran vornehmen können. <p>Dieser erweiterte Workflow erleichtert die Verwaltung wiederverwendeter Inhalte entsprechend Ihrem Werbe- und Kommunikationskalender. <a href="../content/fragments.md#fragment-status-and-lifecycle">Weitere Informationen</a> |

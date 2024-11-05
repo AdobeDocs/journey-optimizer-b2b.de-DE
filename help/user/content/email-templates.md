@@ -1,22 +1,22 @@
 ---
 title: E-Mail-Vorlagen
-description: Erfahren Sie, wie Sie E-Mail-Vorlagen erstellen und bearbeiten, mit denen Sie Journey-E-Mails für Konten einfach und effizient erstellen können.
+description: Erfahren Sie, wie Sie E-Mail-Vorlagen verwalten und erstellen, mit denen Sie Journey-E-Mails für Konten einfach und effizient erstellen können.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 5f53f4156c670d1c7b751844ab0bda0aef352973
+source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 6%
+source-wordcount: '1396'
+ht-degree: 4%
 
 ---
 
 # E-Mail-Vorlagen
 
-Für einen beschleunigten und verbesserten Designprozess können Sie eigenständige E-Mail-Vorlagen erstellen, um benutzerdefinierte Inhalte in den Journey der Adobe Journey Optimizer B2B Edition-Konten wiederzuverwenden. Über Vorlagen können Ihre inhaltsorientierten Teammitglieder außerhalb von Journey an E-Mail-Inhalten arbeiten. Marketing-Strategen können diese eigenständigen Vorlagen dann in ihren Account-Journey wiederverwenden und anpassen. Beispielsweise ist nur ein Team-Mitglied für Inhalte verantwortlich, ohne Zugriff auf Journey-Konten. Sie können jedoch eine E-Mail-Vorlage erstellen, die Marketing-Experten als Ausgangspunkt für E-Mail-Nachrichten auswählen und entsprechend den Anforderungen für die Journey anpassen können.
+Für einen beschleunigten und verbesserten Designprozess können Sie eigenständige E-Mail-Vorlagen erstellen, um benutzerdefinierte Inhalte in allen Journey von Adobe Journey Optimizer B2B edition-Konten wiederzuverwenden. Über Vorlagen können Ihre inhaltsorientierten Teammitglieder außerhalb von Journey an E-Mail-Inhalten arbeiten. Marketing-Strategen können diese eigenständigen Vorlagen dann in ihren Account-Journey wiederverwenden und anpassen. Beispielsweise ist nur ein Team-Mitglied für Inhalte verantwortlich, ohne Zugriff auf Journey-Konten. Sie können jedoch eine E-Mail-Vorlage erstellen, die Marketing-Experten als Ausgangspunkt für E-Mail-Nachrichten auswählen und entsprechend den Anforderungen für die Journey anpassen können.
 
 ## Zugriff und Verwaltung von E-Mail-Vorlagen
 
-Um auf E-Mail-Vorlagen in der Adobe Journey Optimizer B2B-Bearbeitung zuzugreifen, navigieren Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content Management]** > **[!UICONTROL Vorlagen]**. Durch diese Aktion wird eine Listenseite mit allen E-Mail-Vorlagen geöffnet, die in der in einer Tabelle aufgelisteten Instanz erstellt wurden.
+Um auf E-Mail-Vorlagen in Adobe Journey Optimizer B2B edition zuzugreifen, navigieren Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content Management]** > **[!UICONTROL Vorlagen]**. Durch diese Aktion wird eine Listenseite mit allen E-Mail-Vorlagen geöffnet, die in der in einer Tabelle aufgelisteten Instanz erstellt wurden.
 
 Die Tabelle wird nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Vorlagen standardmäßig oben in der Liste stehen. Klicken Sie auf den Spaltentitel, um ihn zwischen auf- und absteigend zu ändern.
 
@@ -28,9 +28,9 @@ Passen Sie die Spalten, die in der Tabelle angezeigt werden sollen, an, indem Si
 
 Auf der Listenseite können Sie die in den folgenden Abschnitten beschriebenen Aktionen ausführen.
 
-## E-Mail-Vorlagen erstellen
+## E-Mail-Vorlage erstellen
 
-Sie können eine neue E-Mail-Vorlage auf der Listenseite für E-Mail-Vorlagen erstellen, indem Sie oben rechts auf **[!UICONTROL Vorlage erstellen]** klicken.
+Sie können eine E-Mail-Vorlage auf der Listenseite für E-Mail-Vorlagen erstellen, indem Sie oben rechts auf **[!UICONTROL Vorlage erstellen]** klicken.
 
 1. Geben Sie im Dialogfeld einen nützlichen **[!UICONTROL Namen]** und **[!UICONTROL Beschreibung]** ein (optional).
 
@@ -48,21 +48,23 @@ Die Seite _[!UICONTROL Design your template]_ wird geöffnet und bietet mehrere 
 
 ![Wählen Sie, wie Sie mit Ihrem E-Mail-Vorlagenentwurf beginnen möchten](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
+Nachdem Sie die Methode ausgewählt haben, mit der Sie den E-Mail-Vorlagenentwurf erstellen möchten, verwenden Sie den visuellen Designer, um [Inhalt der E-Mail-Vorlage zu erstellen](./email-template-authoring.md).
+
 ### Von Grund auf gestalten
 
 Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag &amp; Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden gestalten.
 
 >[!NOTE]
 >
->Die verfügbaren Designtools entsprechen den Tools für das [E-Mail-Authoring](./email-authoring.md). Der Unterschied besteht darin, dass dieser Inhalt dann als Vorlage gespeichert wird, die über mehrere Senden-E-Mail-Knoten in Konto-Journey hinweg wiederverwendet werden kann.
+>Die verfügbaren Designtools entsprechen den Tools für das [E-Mail-Authoring](./email-authoring.md). Der Unterschied besteht darin, dass dieser Inhalt dann als Vorlage gespeichert wird, die über mehrere _E-Mail-1}-Knoten innerhalb der Konto-Journey wiederverwendet werden kann._
 
 1. Wählen Sie auf der Homepage _[!UICONTROL Vorlage entwerfen]_ die Option **[!UICONTROL Neu entwerfen]** aus.
 
-1. [Fügen Sie der Vorlage Struktur und Inhalt hinzu](#add-structure-and-content).
+1. [Fügen Sie der Vorlage Struktur und Inhalt hinzu](./email-authoring.md#add-structure-and-content).
 
 ### Importieren von HTML
 
-Adobe Journey Optimizer B2B Edition ermöglicht den Import von HTML-Inhalten, um E-Mail-Vorlagen zu erstellen.
+Mit Adobe Journey Optimizer B2B edition können Sie vorhandenen HTML-Inhalt importieren, um E-Mail-Vorlagen zu erstellen.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -72,89 +74,11 @@ Adobe Journey Optimizer B2B Edition ermöglicht den Import von HTML-Inhalten, um
 >
 >Einen `<table>`-Tag als erste Ebene in einer HTML-Datei zu verwenden kann zum Verlust des Stils führen, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
 
-Mit den visuellen E-Mail-Editor-Tools können Sie den importierten Inhalt nach Bedarf personalisieren.
+Sie können den importierten Inhalt nach Bedarf mit dem Visual Designer personalisieren.
 
 ### Auswählen einer Designvorlage
 
 {{$include /help/_includes/content-design-select-template.md}}
-
-## Hinzufügen von Struktur und Inhalt {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_template"
->title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der Vorlage. Ziehen Sie eine **Strukturkomponente** per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Vorlageninhalts zu beginnen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_template"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Vorlage erstellen können."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Fragmente hinzufügen
-
-Im visuellen Inhaltseditor wird links das Symbol _Fragmente_ angezeigt. Im folgenden Beispiel werden die Schritte zum Hinzufügen von Fragmenten zum Vorlageninhalt beschrieben.
-
-1. Um die Fragmentliste zu öffnen, klicken Sie auf das Symbol _Fragmente_.
-
-   Sie haben folgende Möglichkeiten:
-
-   * Sortieren Sie die Liste.
-   * Suchen, Suchen oder Filtern Sie die Liste.
-   * Zwischen Miniatur- und Listenansichten wechseln.
-   * Aktualisieren Sie die Liste, um eines der kürzlich erstellten Fragmente widerzuspiegeln.
-
-   ![Wählen Sie ein Fragment aus der Liste aus](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Ziehen Sie eines der Fragmente in den Platzhalter für die Strukturkomponente.
-
-   Der Editor rendert das Fragment innerhalb des Bereichs/Elements der E-Mail-Struktur.
-
-Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um anzuzeigen, wie der Inhalt in der E-Mail angezeigt wird.
-
->[!TIP]
->
->Wenn Sie das Fragment so hinzufügen möchten, dass es das gesamte horizontale Layout der E-Mail einnimmt, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment per Drag-and-Drop in die E-Mail.
-
-Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie in der Zusammenfassung die Registerkarte _[!UICONTROL Verwendet von]_ auswählen. Zu einer E-Mail-Vorlage hinzugefügte Fragmente können nicht in der Vorlage bearbeitet werden. Der Inhalt wird durch das Quellfragment definiert.
-
-### Hinzufügen von Assets
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navigieren in den Ebenen, Einstellungen und Stilen
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Inhalt personalisieren
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Linked URL-Tracking bearbeiten
-
-{{$include /help/_includes/content-design-links.md}}
-
-### Anzeigeoptionen
-
-Nutzen Sie die im visuellen E-Mail-Editor verfügbaren Ansicht- und Inhaltsvalidierungsoptionen.
-
-* Vergrößern/Verkleinern Sie den Inhalt über vordefinierte Zoom-Optionen.
-
-* Wechseln Sie zwischen der Anzeige des Inhalts über Desktop, Mobilgeräte oder Nur-Text/Nur-Text.
-   * Klicken Sie auf das Symbol _Auge_ für die geräteübergreifende Inhaltsvorschau.
-   * Wählen Sie eines der nativen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um die Vorschau des Inhalts anzuzeigen.
-
-### Mehr Optionen
-
-Über den Selektor _Mehr Optionen_ im Visual Content Editor können Sie die folgenden Aktionen ausführen:
-
-![Klicken Sie auf Mehr , um auf Vorlagenaktionen zuzugreifen](./assets/visual-designer-more-menu.png){width="500"}
-
-* **Vorlage zurücksetzen** - Klicken Sie auf diese Option, um die Arbeitsfläche des visuellen E-Mail-Designers zu leeren Arbeitsbereich zu leeren Arbeitsbereich zu löschen und die Erstellung von Inhalten neu zu starten.
-* **Als Fragment speichern** - Speichern Sie alle oder Teile davon als Fragment, das über mehrere E-Mails oder E-Mail-Vorlagen hinweg wiederverwendet werden soll. Sie geben einen Namen und eine Beschreibung für die Fragmente und sie für die Liste der verfügbaren Fragmente an.
-* **Ändern Sie Ihren Entwurf** - Kehren Sie zur Seite _Design Ihrer Vorlage_ zurück. Von hier aus können Sie jede Art von Aktion ausführen, wie im Abschnitt &quot;E-Mail-Vorlagen erstellen&quot;beschrieben.
-* **HTML exportieren** - Laden Sie den Inhalt der visuellen Arbeitsfläche in das lokale HTML-Format herunter, das als ZIP-Datei gepackt ist.
 
 ## Details der E-Mail-Vorlage anzeigen
 
@@ -178,7 +102,7 @@ Klicken Sie auf der Detailseite für E-Mail-Vorlagen auf den Tab **[!UICONTROL V
 
 ![Klicken Sie auf die Registerkarte Verwendet von , um die Vorlagennutzung zu überprüfen](./assets/template-details-used-by.png){width="400"}
 
-E-Mails in Journey Optimizer B2B Edition sind in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die die Vorlage verwendet, in Verweisen angezeigt wird.
+E-Mails in Journey Optimizer B2B edition werden in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die die Vorlage verwendet, in Verweisen angezeigt wird.
 
 * Durch Klicken auf den Link gelangen Sie zur entsprechenden Journey-E-Mail, in der die E-Mail-Vorlage verwendet wird.
 

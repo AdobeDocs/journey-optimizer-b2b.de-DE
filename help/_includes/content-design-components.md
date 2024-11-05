@@ -1,9 +1,9 @@
 ---
 title: Inhaltserstellung - Komponenten
 description: Wiederverwendeter Abschnitt zur Verwendung von Komponenten und Inhaltselementen für die Inhaltserstellung
-source-git-commit: 8e55e4444a363a5699574c2fa1ed256fdb690dd0
+source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,12 @@ ht-degree: 0%
 
    ![Ziehen Sie ein Inhaltselement auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
-   reference to the contents elements--->
+   reference to the contents elements when we have a completed reference for each.--->
 
 1. Bei Bedarf können Sie auf den Registerkarten _[!UICONTROL Einstellungen]_ oder _[!UICONTROL Stil]_ zusätzliche Anpassungen für jede Komponente vornehmen.
 
    Sie können beispielsweise den Textstil, den Abstand oder den Rand jeder Komponente ändern.
 
-<!-- 1. Click **[!UICONTROL Enable condition content]** to add dynamic content and adapt the content to the targeted profiles based on conditional rules.
--->
+1. Um bedingte Inhalte hinzuzufügen und den Inhalt basierend auf Bedingungsregeln an die Zielprofile anzupassen, wählen Sie eine Inhaltskomponente aus und klicken Sie in der Komponentensymbolleiste auf das Symbol **[!UICONTROL Bedingten Inhalt aktivieren]** .
+
+   Weitere Informationen finden Sie unter [_Bedingter Inhalt_](../user/content/conditional-content.md).
