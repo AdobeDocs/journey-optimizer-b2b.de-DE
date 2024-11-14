@@ -3,9 +3,9 @@ title: Sales Alert-E-Mail
 description: Erfahren Sie, wie Sie eine E-Mail mit automatisiertem Verkaufswarnhinweis in Ihre Journey einschließen.
 feature: Email Authoring, Content
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 28685802d677ed844e95499d7db6e1f754eb46c9
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 Eine _E-Mail mit einer Verkaufswarnung_ signalisiert die Übergabe von Einkaufsgruppen an den Verkauf. Die E-Mail enthält eine Zusammenfassung der Einkaufsgruppe und Informationen über die Mitglieder der Einkaufsgruppe und ihre Aktivitäten.
 
 Als Marketing-Experte können Sie einen E-Mail-Knoten für Verkaufswarnungen in Ihren Journey konfigurieren, um Ihr Verkaufsteam über den Abschluss der Journey für bestimmte Einkaufsgruppen zu informieren. Innerhalb des Knotens können Sie die E-Mail-Adressen des Verkaufsteams oder einen Verteilungsalias angeben, der eine Reihe von Konten erreicht.
+
+>[!IMPORTANT]
+>
+>Stellen Sie sicher, dass die Zulassungsliste Ihres Unternehmens &quot;&quot;aktualisiert wird, damit eine E-Mail mit einem Vertriebswarnhinweis versendet werden kann. Weitere Informationen finden Sie unter [Protokolle für Tracking und E-Mail-Versand](../start/email-protocols.md).
 
 ## E-Mail-Inhalt
 

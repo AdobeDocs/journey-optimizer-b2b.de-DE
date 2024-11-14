@@ -2,7 +2,7 @@
 title: Erste Schritte mit Journey Optimizer B2B edition
 description: Als neue Benutzerin bzw. neuer Benutzer von Journey Optimizer B2B Edition erfahren Sie mehr über die Schlüsselbereiche für die ersten Schritte.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: ed736c7366ad3fa5c4023947b1c3c4cef7097e2e
+source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 10%
@@ -37,9 +37,9 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **E-Mail-Versand konfigurieren** in Marketo Engage, wodurch Ihr Team E-Mail-Inhalte von Account-Journey senden kann. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **SMS-Dienste konfigurieren**. Richten Sie einen der unterstützten SMS-Anbieter von Drittanbietern ein, die unabhängig Textnachrichtendienste anbieten, und konfigurieren Sie die Kontoanmeldeinformationen in Adobe Journey Optimizer B2B edition. [Weitere Informationen](../content/sms-authoring.md#create-a-new-api-credentials-for-an-sms-service-provider)
+1. **SMS-Dienste konfigurieren**. Richten Sie einen der unterstützten SMS-Anbieter von Drittanbietern ein, die unabhängig Textnachrichtendienste anbieten, und konfigurieren Sie die Kontoanmeldeinformationen in Adobe Journey Optimizer B2B edition. [Weitere Informationen](../admin/configure-channels-sms.md)
 
-1. **Konfigurieren und aktivieren Sie die Verwendung von Adobe Experience Manager Assets** für Teams, die Assets als c-Cloud Service für die zentralisierte Verwaltung digitaler Assets verwenden. [Weitere Informationen](../admin/configure-aem-repositories.md)
+1. **Konfigurieren und aktivieren Sie die Verwendung von Adobe Experience Manager Assets** für Teams, die Assets as a Cloud Service für die zentralisierte Verwaltung digitaler Assets verwenden. [Weitere Informationen](../admin/configure-aem-repositories.md)
 
 >[!TAB Schnellstart für Marketingexperten]
 
