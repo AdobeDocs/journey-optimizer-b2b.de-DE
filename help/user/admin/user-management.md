@@ -1,19 +1,19 @@
 ---
 title: Benutzerverwaltung
-description: Erfahren Sie, wie Sie Journey Optimizer B2B Edition-Produktprofilen Teammitglieder zuweisen.
+description: Erfahren Sie, wie Sie Journey Optimizer B2B edition-Produktprofilen Teammitglieder zuweisen.
 feature: Setup
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 8335e47021df16d0e423c9cc270bf8a6e23834fc
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1166'
 ht-degree: 4%
 
 ---
 
 # Benutzerverwaltung
 
-Nachdem die Bereitstellung abgeschlossen und die Sandboxes gebunden sind, führen Sie die folgenden Schritte aus, um Ihrem Team und Ihren Benutzern Zugriff auf die Adobe Journey Optimizer B2B Edition zu gewähren.
+Nachdem die Bereitstellung abgeschlossen und die Sandboxes gebunden sind, führen Sie die folgenden Schritte aus, um Ihrem Team und Ihren Benutzern Zugriff auf Adobe Journey Optimizer B2B edition zu gewähren.
 
 1. [Erstellen Sie ein Marketo Engage-Produktprofil](#marketo-engage-profile) in der Admin Console (nur neue Marketo Engage-Instanz).
 1. [Erstellen Sie eine Benutzergruppe](#create-user-group) in der Admin Console.
@@ -56,7 +56,15 @@ Bevor Sie die Admin Console zum Verwalten von Benutzern in Ihrem Team verwenden 
 
 Wenn Sie Benutzern Zugriff auf eine Adobe-Lösung gewähren, möchten Sie ihnen nicht unbedingt uneingeschränkten Zugriff gewähren. Produktprofile ermöglichen es jeder Lösung, über eigene Benutzerberechtigungen zu verfügen. Verwenden Sie die Admin Console, um Produktprofile zuzuweisen.
 
-Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [Produktprofile für Unternehmensbenutzer verwalten](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html) in der Dokumentation zur Admin Console.
+Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [Verwalten von Produktprofilen für Unternehmensbenutzer](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html){target="_blank"} in der Dokumentation zur Admin Console.
+
+>[!BEGINSHADEBOX]
+
+Wenn Sie einen Benutzer zum Produktprofil &quot;Marketo Engage&quot;hinzufügen, werden diese anschließend zur Rolle _Standardbenutzer_ im Standardarbeitsbereich des Marketo Engage-Abonnements hinzugefügt. Mit dieser Rolle erhalten sie alle _Standardbenutzer_ -Berechtigungen für das Marketo Engage in diesem Arbeitsbereich. Derzeit müssen alle Journey Optimizer B2B edition-Benutzer Marketo Engage-Benutzer sein. Ein Marketo Engage-Administrator kann den Zugriff einschränken, indem er die Berechtigungen für die _Standardbenutzer_ -Rolle aktualisiert oder den Benutzer auf eine andere Marketo Engage-Benutzerrolle mit restriktiveren Berechtigungen verschiebt.
+
+Weitere Informationen zum Verwalten dieser Berechtigungen innerhalb von Marketo Engage finden Sie unter [Verwalten von Benutzerrollen und Berechtigungen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in der Marketo Engage-Dokumentation.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -78,7 +86,7 @@ Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigu
 
 Eine Benutzergruppe ist eine Sammlung von Benutzern, denen ein freigegebener Berechtigungssatz gewährt wird. Sie können Benutzer zu Ihrer Benutzergruppe hinzufügen oder daraus entfernen. Die Gruppenberechtigungen bleiben unverändert, während sich die Benutzer innerhalb der Gruppe ändern.
 
-Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html) in der Dokumentation zur Admin Console.
+Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html){target="_blank"} in der Dokumentation zur Admin Console.
 
 >[!NOTE]
 >
@@ -102,7 +110,7 @@ Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen
 
    * [!UICONTROL Marketo Engage]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
-   * [!UICONTROL Adobe Experience Platform-Datenerfassung]
+   * [!UICONTROL Adobe Experience Platform – Datenerfassung]
    * [!UICONTROL Datenerfassung - Zugriff auf alle ]
 
    ![Admin Console - Benutzergruppe - Produkte hinzufügen](./assets/admin-console-user-group-add-products.png){width="700" zoomable="yes"}
@@ -111,11 +119,11 @@ Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen
 
 ## Rollen in AEP-Berechtigungen erstellen {#create-role}
 
-Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewiesenen Berechtigungen definieren können. Jede Berechtigung wird im Rahmen einer Funktion erfasst, z. B. Journey oder Einkaufsgruppen, die die verschiedenen Funktionen oder Objekte in Journey Optimizer B2B Edition repräsentiert.
+Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewiesenen Berechtigungen definieren können. Jede Berechtigung wird unter einer Funktion erfasst, z. B. Journey oder Einkaufsgruppen, die die verschiedenen Funktionen oder Objekte in Journey Optimizer B2B edition darstellt.
 
 Im Bereich _Berechtigungen_ von Adobe Experience Platform können Administratoren Benutzerrollen und Zugriffsrichtlinien definieren, um Zugriffsberechtigungen für Funktionen und Objekte in einer Produktanwendung zu verwalten. In dieser App können Sie Rollen erstellen und verwalten sowie die gewünschten Ressourcenberechtigungen für diese Rollen zuweisen. Mit Berechtigungen können Sie auch die Bezeichnungen, Sandboxes und Benutzende verwalten, die einer bestimmten Rolle zugeordnet sind. 
 
-Weitere Informationen finden Sie unter [Berechtigungen für eine Rolle verwalten](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) in der Experience Platform-Dokumentation.
+Weitere Informationen finden Sie unter [Berechtigungen für eine Rolle verwalten](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Experience Platform-Dokumentation.
 
 >[!NOTE]
 >
