@@ -3,9 +3,9 @@ title: Gruppen kaufen
 description: Erfahren Sie, wie der Kauf von Gruppen in Journey Optimizer B2B edition die Marketingeffizienz steigern kann, indem Sie Mitglieder für Ihre Kontolisten identifizieren und auswählen.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1257'
 ht-degree: 6%
 
 ---
@@ -23,13 +23,14 @@ Innerhalb des Kontos kann es eine Untergruppe von Personen geben, die die _Einka
 
 ## Wichtige Komponenten
 
-Sie können die Marketingeffizienz steigern, indem Sie in Journey Optimizer B2B Edition Einkaufsgruppen einrichten, die anhand der Lösungen, für die Ihre Vertriebsteams verantwortlich sind, die für die Liste Ihrer Zielkonten fehlenden Mitglieder identifizieren. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Einkaufsgruppen beginnen, stellen Sie sicher, dass Sie die wichtigsten Komponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
+Sie können die Marketingeffizienz steigern, indem Sie in Journey Optimizer B2B edition Käufergruppen einrichten, die anhand der Lösungen, für die Ihr Verkaufsteam verantwortlich ist, die für die Liste Ihrer Zielkonten fehlenden Mitglieder identifizieren. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Einkaufsgruppen beginnen, stellen Sie sicher, dass Sie die wichtigsten Komponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
 
 | Komponente | Zweck |
 | --------- | ------- |
 | Lösungsinteresse | Diese Komponente bietet Antwort auf: <ul><li>Was verkaufen Sie als Marketingorganisation?</li><li>Welches Produkt oder welche Kollektion von Produkten möchten Sie verkaufen?</li></ul>  **_Beispiel:_** Weiterverkauf des neuen Produkts X an bestehende Kunden |
 | Konto-Zielgruppe | Diese Komponente bietet Antwort auf: <ul><li>Wem verkaufst du?</li><li>Was ist die Liste der Konten, die Sie als Ziel auswählen?</li></ul> **_Beispiel:_** Kontosegment definiert durch Konten mit Produkt Y mit Umsatz über 1M |
 | Kaufen von Gruppenrollenvorlagen | Diese Komponente bietet Antwort auf: <ul><li>Welche Rollen werden im Targeting verwendet?</li><li>Welcher Regelsatz wird verwendet, um zu bestimmen, wer den Käuferrollen zugewiesen ist?</li></ul>  **_Beispiel:_** Weisen Sie eine Person mit CMO-Titel der Rolle &quot;Entscheidungsträger&quot;zu |
+| Käufergruppenphasen | (Optional) Diese Komponente bietet die Antwort auf: Wie verfolgt die Käufer-Gruppe den Erfolg oder Misserfolg? |
 
 ## Gruppen-Workflow kaufen
 
@@ -66,6 +67,7 @@ Die Seite _[!UICONTROL Gruppen kaufen]_ ist in Form von Registerkarten organisie
 | [!UICONTROL Durchsuchen] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie die Liste der vorhandenen Einkaufsgruppen an. </li><li>Suche nach dem Namen der Gruppe. </li><li>Filtern nach Lösungsinteresse </li><li>Führen Sie einen Drilldown zum Kauf von Gruppendetails durch. </li><li>Erstellen Sie eine Kaufgruppe. Eine Kaufgruppe löschen.</li></ul> |
 | [!UICONTROL Interessen der Lösung] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie die Liste der vorhandenen Einkaufsgruppen an. </li><li>Suche nach dem Namen der Gruppe. </li><li>Öffnen und bearbeiten Sie die Interessenseigenschaften der Lösung. </li><li>Erstellen Sie ein Lösungsinteresse. </li><li>Löschen Sie ein Lösungsinteresse. </li><li>Anzeigen und Löschen von Aufträgen für Gruppen </li></ul> |
 | [!UICONTROL Benutzerrollen-Vorlagen] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie die Liste der vorhandenen Benutzervorlagen an. </li><li>Suchen Sie nach dem Namen der Benutzervorlage. </li><li>Zugriff und Bearbeitung von Eigenschaften und Bedingungen von Benutzervorlagen </li><li>Erstellen Sie eine Rollenvorlage. </li><li>Löschen Sie eine Rollenvorlage. </li></ul> |
+| [!UICONTROL Stadien] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Sehen Sie sich das Modell der vorhandenen Warengruppen-Bühnen an. </li><li>Öffnen und bearbeiten Sie das Modell der Kaufgruppenvorlagen. </li><li>Erstellen Sie das Modell für die Bühnen von Käufergruppen. </li></ul> |
 
 ## Gruppensuche und -filter kaufen
 

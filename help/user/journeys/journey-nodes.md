@@ -3,10 +3,10 @@ title: Konto-Journey-Knoten
 description: Erfahren Sie mehr über die Knotentypen, mit denen Sie Ihre Journey in Journey Optimizer B2B edition erstellen können.
 feature: Account Journeys
 exl-id: 4edb87d9-cdf8-47a4-968b-6dc76d97b89c
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: af72f5183cb1de56804340cbc9148de82faeca35
 workflow-type: tm+mt
-source-wordcount: '2142'
-ht-degree: 10%
+source-wordcount: '2443'
+ht-degree: 9%
 
 ---
 
@@ -54,6 +54,7 @@ Führen Sie eine Aktion wie den Versand einer E-Mail, die Änderung eines Punktw
 | | Konto zur (anderen) Journey hinzufügen | Live-Konto-Journey auswählen |
 | | Konto aus Journey entfernen | Live-Konto-Journey auswählen |
 | | Versandwarnung | Lösungsinteresse auswählen<br/>E-Mail an senden |
+| | Aktualisieren der Bug Group-Bühne | Lösungsinteressensauswahl<br/>Wählen Sie die Phase &quot;Gruppe kaufen&quot; |
 | | Aktualisieren des Status der Gruppe kaufen | Lösungsinteresse auswählen<br/>Status (erforderlich, max. 50 Zeichen) |
 
 ### Hinzufügen einer Kontoaktion
@@ -62,7 +63,7 @@ Führen Sie eine Aktion wie den Versand einer E-Mail, die Änderung eines Punktw
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Aktion durchführen]**.
 
-   ![Journey-Knoten hinzufügen - geteilte Pfade](./assets/add-node-action.png){width="400"}
+   ![Journey-Knoten hinzufügen - Aktion ausführen](./assets/add-node-action.png){width="400"}
 
 1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite **[!UICONTROL Konten]** für die Aktion.
 
@@ -97,19 +98,20 @@ Verschieben Sie Ihre Zielgruppe zum nächsten Schritt im Journey, wenn ein Ereig
 
 | Knotenkontext | Veranstaltung | Begrenzungen |
 | ------------ | ----- | ----------- |
-| [„Personen“](#add-a-people-event) | Zugeordnet zur Einkaufsgruppe | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional): <ul><li>Role</li><li>Datum der Aktivität</li></ul><br/>Timeout (optional) |
-| | Klickt auf Link in E-Mail | E-Mail<br/>Zusätzliche Einschränkungen (optional): <ul><li>Link</li><li>Link-ID</li><li>Ist ein mobiles Gerät</li><li>Gerät</li><li>Plattform</li><li>Browser</li><li>Ist prädiktiv Inhalt</li><li>Ist Bot-Aktivität</li><li>Bot-Aktivitätsmuster</li><li>Browser</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li></ul><br/>Timeout (optional) |
-| | Klickt auf Link in SMS | E-Mail<br/>Zusätzliche Einschränkungen (optional):<ul><li>Link</li><li>Gerät</li><li>Plattform</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li></ul><br/>Timeout (optional) |
-| | Datenwertänderungen | Personenattribut<br/>Zusätzliche Einschränkungen (optional):<ul><li>Neuer Wert</li><li>Vorheriger Wert</li><li>Grund</li><li>Quelle</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li></ul><br/>Timeout (optional) |
-| | Öffnet E-Mail | E-Mail<br/>Zusätzliche Einschränkungen (optional): <ul><li>Link</li><li>Link-ID</li><li>Ist ein mobiles Gerät</li><li>Gerät</li><li>Plattform</li><li>Browser</li><li>Ist prädiktiv Inhalt</li><li>Ist Bot-Aktivität</li><li>Bot-Aktivitätsmuster</li><li>Browser</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li></ul><br/>Timeout (optional) |
+| [„Personen“](#add-a-people-event) | Zugeordnet zur Einkaufsgruppe | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional): <li>Role</li><li>Datum der Aktivität</li><br/>Timeout (optional) |
+| | Klickt auf Link in E-Mail | E-Mail<br/>Zusätzliche Einschränkungen (optional): <li>Link</li><li>Link-ID</li><li>Ist ein mobiles Gerät</li><li>Gerät</li><li>Plattform</li><li>Browser</li><li>Ist prädiktiv Inhalt</li><li>Ist Bot-Aktivität</li><li>Bot-Aktivitätsmuster</li><li>Browser</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li><br/>Timeout (optional) |
+| | Klickt auf Link in SMS | E-Mail<br/>Zusätzliche Einschränkungen (optional): <li>Link</li><li>Gerät</li><li>Plattform</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li><br/>Timeout (optional) |
+| | Datenwertänderungen | Personenattribut<br/>Zusätzliche Einschränkungen (optional): <li>Neuer Wert</li><li>Vorheriger Wert</li><li>Grund</li><li>Quelle</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li><br/>Timeout (optional) |
+| | Öffnet E-Mail | E-Mail<br/>Zusätzliche Einschränkungen (optional): <li>Link</li><li>Link-ID</li><li>Ist ein mobiles Gerät</li><li>Gerät</li><li>Plattform</li><li>Browser</li><li>Ist prädiktiv Inhalt</li><li>Ist Bot-Aktivität</li><li>Bot-Aktivitätsmuster</li><li>Browser</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li><br/>Timeout (optional) |
 | | Aus der Kaufgruppe entfernt | Lösungsinteresse<br/>Aktivitätsdatum (optional)<br/>Zeitüberschreitung (optional) |
-| | Bewertung wird geändert | Score name<br/>Zusätzliche Einschränkungen (optional):<ul><li>Ändern</li><li>Neue Bewertung</li><li>Dringlichkeit</li><li>Priorität</li><li>Relative Bewertung</li><li>Relative Dringlichkeit</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li></ul><br/>Timeout (optional) |
-| | SMS-Bounces | SMS-Nachricht<br/>Zusätzliche Einschränkungen (optional):<ul><li>Datum der Aktivität</li><li>Min. Anzahl der Male</li></ul><br/>Timeout (optional) |
-| [Konten](#add-an-account-event) | Konto hatte einen interessanten Moment | Typ (E-Mail, Meilenstein oder Web)<br/>Zusätzliche Einschränkungen (optional):<ul><li>Beschreibung</li><li>Quelle</li><li>Datum der Aktivität</li></ul> <br/>Timeout (optional) |
-| | Änderung des Kontodatenwerts | Attribut<br/>Zusätzliche Einschränkungen (optional):<ul><li>Neuer Wert</li><li>Vorheriger Wert</li><li>Datum der Aktivität</li></ul> <br/>Timeout (optional) |
-| | Änderung des Status der gekauften Gruppe | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional):<ul><li>Neuer Status</li><li>Vorheriger Status</li><li>Datum der Aktivität</li></ul><br/> Zeitüberschreitung (optional) |
-| | Änderung der Vollständigkeitsbewertung | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional):<ul><li>Neue Bewertung</li><li>Vorheriger Wert</li><li>Datum der Aktivität</li></ul><br/> Zeitüberschreitung (optional) |
-| | Änderung der Interaktionsbewertung | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional):<ul><li>Neue Bewertung</li><li>Vorheriger Wert</li><li>Datum der Aktivität</li></ul><br/> Zeitüberschreitung (optional) |
+| | Bewertung wird geändert | Score name<br/>Zusätzliche Einschränkungen (optional):<li>Ändern</li><li>Neue Bewertung</li><li>Dringlichkeit</li><li>Priorität</li><li>Relative Bewertung</li><li>Relative Dringlichkeit</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li><br/>Timeout (optional) |
+| | SMS-Bounces | SMS-Nachricht<br/>Zusätzliche Einschränkungen (optional): <li>Datum der Aktivität</li><li>Min. Anzahl der Male</li><br/>Timeout (optional) |
+| [Konten](#add-an-account-event) | Konto hatte einen interessanten Moment | Typ (E-Mail, Meilenstein oder Web)<br/>Zusätzliche Einschränkungen (optional): <li>Beschreibung</li><li>Quelle</li><li>Datum der Aktivität</li> <br/>Timeout (optional) |
+| | Änderung des Kontodatenwerts | Attribut<br/>Zusätzliche Einschränkungen (optional): <li>Neuer Wert</li><li>Vorheriger Wert</li><li>Datum der Aktivität</li> <br/>Timeout (optional) |
+| | Änderung in der Bug-Group-Bühne | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional): <li>Neue Phase</li><li>Vorherige Phase</li><li>Datum der Aktivität</li><br/> Zeitüberschreitung (optional) |
+| | Änderung des Status der gekauften Gruppe | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional): <li>Neuer Status</li><li>Vorheriger Status</li><li>Datum der Aktivität</li><br/> Zeitüberschreitung (optional) |
+| | Änderung der Vollständigkeitsbewertung | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional): <li>Neue Bewertung</li><li>Vorheriger Wert</li><li>Datum der Aktivität</li><br/> Zeitüberschreitung (optional) |
+| | Änderung der Interaktionsbewertung | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional): <li>Neue Bewertung</li><li>Vorheriger Wert</li><li>Datum der Aktivität</li><br/> Zeitüberschreitung (optional) |
 
 ### Hinzufügen eines Kontoereignisses
 
@@ -176,9 +178,10 @@ _Wie funktioniert ein Aufspaltungspfad nach Kontoknoten?_
 
 _Wie funktioniert ein Aufspaltungspfad nach Personen-Knoten?_
 
-* Geteilter Pfad nach Personenknoten sind gruppierte Knoten. Sie werden automatisch zusammengeführt, sodass alle Personen in der Zielgruppe zum nächsten Schritt übergehen können, ohne den Kontext der Konten zu verlieren, zu denen sie gehören.
+* Geteilter Pfad nach Personenknoten sind gruppierte Knoten. Die Pfade werden automatisch zusammengeführt, sodass alle Personen in der Zielgruppe zum nächsten Schritt übergehen können, ohne ihren Kontenkontext zu verlieren.
 * Aufspaltungspfad für Personen kann nicht verschachtelt werden. Sie können keinen Aufspaltungspfad für Personen hinzufügen, die sich in diesem gruppierten Knoten befinden.
-* Aufspaltungspfad enthält eine Option, um keinen Standardpfad hinzuzufügen. Konten/Personen, die sich nicht qualifizieren, kommen nicht in der Journey voran.
+* Aufspaltungspfad enthält eine Option zum Auslassen eines Standardpfads. Konten/Personen ohne Übereinstimmung für einen definierten Pfad werden im Journey nicht weitergeführt.
+* Der geteilte Pfad nach Personen unterstützt die Verwendung von _Kundenbeziehungen_, wodurch Sie Personen nach ihrer Rolle (z. B. Auftragnehmer oder Vollzeitangestellter) filtern können, wie in den Benutzervorlagen definiert.
 
 ![Journey-Knoten - geteilte Pfade nach Personen](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -186,13 +189,14 @@ _Wie funktioniert ein Aufspaltungspfad nach Personen-Knoten?_
 
 | Knotenkontext | Pfadbedingungen | Beschreibung |
 | ------------ | --------------- | ----------- |
-| [„Personen“](#add-a-split-path-by-people-node) | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <ul><li>Stadt</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Last name</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Land</li><li>Abbestellt</li><li>Grund für Abmeldung</li></ul> |
-| | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verknüpfte E-Mail-Aktivitäten: <ul><li>[!UICONTROL Klick auf einen Link in E-Mail]</li><li>Geöffnete E-Mail</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li></ul> Diese Bedingungen werden mithilfe einer zuvor auf der Journey ausgewählten E-Mail-Nachricht ausgewertet. |
-| | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Datenwert geändert] | Bei einem ausgewählten Personenattribut ist eine Wertänderung aufgetreten. Zu diesen Änderungstypen gehören: <ul><li>Neuer Wert</li><li>Vorheriger Wert</li><li>Grund</li><li>Quelle</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li></ul> |
-| | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL hatte einen interessanten Moment] | Interessante Ereignisaktivität, die in der zugehörigen Marketo Engage-Instanz definiert ist. Zu den Einschränkungen gehören: ul><li>Meilenstein</li><li>E-Mail</li><li>Web</li></ul> |
-| | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Gruppe &quot;Buying&quot;] | Die Person ist oder ist kein Mitglied einer Einkaufsgruppe, das anhand eines oder mehrerer der folgenden Kriterien bewertet wurde: <ul><li>Lösungsinteressen</li><li>Status der Gruppe kaufen</li><li>Vollständigkeitsbewertung</li><li>Engagement-Bewertung</li><li>Role</li></ul> |
-| [Konten](#add-a-split-path-by-account-node) | Kontoattribute | Attribute aus dem Kontoprofil, einschließlich: <ul><li>Jahresumsatz</li><li>Stadt</li><li>Land</li><li>Mitarbeiterzahl</li><li>Branche</li><li>Name</li><li>SIC-Code</li><li>Land</li></ul> |
-| | [!UICONTROL Sonderfilter] > [!UICONTROL hat Einkaufsgruppe] | Das Konto verfügt über Mitglieder von Einkaufsgruppen, die anhand eines oder mehrerer der folgenden Kriterien bewertet wurden: <ul><li>Lösungsinteressen</li><li>Status der Gruppe kaufen</li><li>Vollständigkeitsbewertung</li><li>Engagement-Bewertung</li></ul> |
+| [Konten](#add-a-split-path-by-account-node) | Kontoattribute | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz</li><li>Stadt</li><li>Land</li><li>Mitarbeiterzahl</li><li>Branche</li><li>Name</li><li>SIC-Code</li><li>Land</li> |
+| | [!UICONTROL Sonderfilter] > [!UICONTROL hat Einkaufsgruppe] | Das Konto verfügt über Mitglieder von Einkaufsgruppen, die anhand eines oder mehrerer der folgenden Kriterien bewertet wurden: <li>Lösungsinteressen</li><li>Status der Gruppe kaufen</li><li>Vollständigkeitsbewertung</li><li>Engagement-Bewertung</li> |
+| [Personen](#add-a-split-path-by-people-node) > [!UICONTROL Nur Personenattribute] | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Last name</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Land</li><li>Abbestellt</li><li>Grund für Abmeldung</li> |
+| | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verknüpfte E-Mail-Aktivitäten: <li>[!UICONTROL Klick auf einen Link in E-Mail]</li><li>Geöffnete E-Mail</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li> Diese Bedingungen werden mithilfe einer zuvor auf der Journey ausgewählten E-Mail-Nachricht ausgewertet. |
+| | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Datenwert geändert] | Bei einem ausgewählten Personenattribut ist eine Wertänderung aufgetreten. Zu diesen Änderungstypen gehören: <li>Neuer Wert</li><li>Vorheriger Wert</li><li>Grund</li><li>Quelle</li><li>Datum der Aktivität</li><li>Min. Häufigkeit</li> |
+| | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL hatte einen interessanten Moment] | Interessante Ereignisaktivität, die in der zugehörigen Marketo Engage-Instanz definiert ist. Zu den Einschränkungen gehören: <li>Meilenstein</li><li>E-Mail</li><li>Web</li> |
+| | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Gruppe &quot;Buying&quot;] | Die Person ist oder ist kein Mitglied einer Einkaufsgruppe, das anhand eines oder mehrerer der folgenden Kriterien bewertet wurde: <li>Lösungsinteressen</li><li>Status der Gruppe kaufen</li><li>Vollständigkeitsbewertung</li><li>Engagement-Bewertung</li><li>Role</li> |
+| [Personen](#add-a-split-path-by-people-node) > [!UICONTROL Nur Attribute der Kontoperson] | Rolle in Kontoattributen | Der Person wird im Konto eine Rolle zugewiesen oder sie wird nicht zugewiesen. Optionale Einschränkungen: <li>Geben Sie einen Rollennamen ein</li> |
 
 ### Aufspaltungspfad nach Konto-Knoten hinzufügen
 
@@ -214,7 +218,7 @@ _Wie funktioniert ein Aufspaltungspfad nach Personen-Knoten?_
 
    * Passen Sie Ihre Bedingungen an, indem Sie oben die **[!UICONTROL Filterlogik]** anwenden. Sie können alle Attributbedingungen oder eine beliebige Bedingung erfüllen.
 
-     ![Aufspaltungspfadknoten - Bedingungsfilterlogik](./assets/node-split-conditions.png){width="700" zoomable="yes"}
+     ![Aufspaltungspfadknoten - Bedingungen, die Filterlogik der Konten](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
    * Klicken Sie auf **[!UICONTROL Fertig]**.
 
@@ -222,9 +226,15 @@ _Wie funktioniert ein Aufspaltungspfad nach Personen-Knoten?_
 
    Sie können auch jeden Pfad anhand dieser Bedingungen beschriften oder die Standardbeschriftungen verwenden.
 
-1. (Optional) Fügen Sie einen Standardpfad für Konten hinzu, die für die anderen Pfade nicht qualifiziert sind. Ist dies nicht der Fall, endet die Journey für diese Konten.
+1. Ordnen Sie die Pfade bei Bedarf entsprechend der Priorität für die Aufspaltung neu an.
 
-   ![ Aufspaltungspfad - Knoteneigenschaften - andere Konten](./assets/node-split-properties-other-accounts.png){width="700" zoomable="yes"}
+   Pfadfilter werden in der Reihenfolge von oben nach unten ausgewertet. Jedes Konto wird entlang des ersten Pfades weitergeleitet, der mit übereinstimmt.
+
+   Klicken Sie auf die Pfeile oben rechts auf jeder Pfadkarte, um sie in der Pfadliste nach oben oder unten zu verschieben.
+
+   ![Geteilter Pfadknoten - Neuanordnungspfade](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
+
+1. Aktivieren Sie die Option **[!UICONTROL Andere Konten]** , um einen Standardpfad für Konten hinzuzufügen, die nicht mit den definierten Pfaden übereinstimmen. Wenn nicht, endet die Journey für diese Leute.
 
 ### Hinzufügen eines Aufspaltungspfads nach dem Knoten Personen
 
@@ -236,13 +246,24 @@ _Wie funktioniert ein Aufspaltungspfad nach Personen-Knoten?_
 
 1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite **[!UICONTROL Personen]** für die Aufteilung aus.
 
+1. Legen Sie die **[!UICONTROL Attribute fest, die für Bedingungen verwendet werden]**.
+
+   * Wählen Sie **[!UICONTROL Nur Personenattribute]** aus, um Bedingungen im Zusammenhang mit dem Personenprofil und den Ereignissen zu verwenden.
+   * Wählen Sie **[!UICONTROL Nur Konto-Person-Attribute]** aus, um Bedingungen im Zusammenhang mit der Rollenmitgliedschaft der Person in einem Konto zu verwenden.
+
 1. Um eine Bedingung für _[!UICONTROL Pfad 1]_ zu definieren, klicken Sie auf **[!UICONTROL Bedingung anwenden]**.
 
 1. Fügen Sie im Bedingungseditor einen oder mehrere Filter hinzu, um den Aufspaltungspfad zu definieren.
 
-   * Ziehen Sie Filterattribute per Drag-and-Drop aus der linken Navigation und füllen Sie die Übereinstimmungsdefinition aus.
+   * Ziehen Sie eines der Personenattribute aus der linken Navigation und füllen Sie die Übereinstimmungsdefinition aus.
+
+     >[!NOTE]
+     >
+     >Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema in Experience Platform definiert haben, können diese Felder auch als Personenattribute in Bedingungen verwendet werden.
 
    * Passen Sie Ihre Bedingungen an, indem Sie oben die **[!UICONTROL Filterlogik]** anwenden. Sie können alle Attributbedingungen oder eine beliebige Bedingung erfüllen.
+
+     ![Aufspaltungspfadknoten - Bedingungen, Personenfilterlogik](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * Klicken Sie auf **[!UICONTROL Fertig]**.
 
@@ -250,13 +271,21 @@ _Wie funktioniert ein Aufspaltungspfad nach Personen-Knoten?_
 
    Sie können auch jeden Pfad anhand dieser Bedingungen beschriften oder die Standardbeschriftungen verwenden.
 
-1. Schließlich können Sie einen Standardpfad für Personen hinzufügen, die für die oben genannten Pfade nicht qualifiziert sind. Wenn nicht, endet die Journey für diese Personen
+1. Ordnen Sie die Pfade bei Bedarf entsprechend der Priorität für die Aufspaltung neu an.
+
+   Pfadfilter werden in der Reihenfolge von oben nach unten ausgewertet. Jede Person fährt entlang des ersten Pfades fort, der übereinstimmt.
+
+   Klicken Sie auf die Pfeile oben rechts auf jeder Pfadkarte, um sie in der Pfadliste nach oben oder unten zu verschieben.
+
+   ![Geteilter Pfadknoten - Neuanordnungspfade](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
+
+1. Aktivieren Sie die Option **[!UICONTROL Andere Personen]** , um einen Standardpfad für Personen hinzuzufügen, die nicht mit den definierten Pfaden übereinstimmen. Wenn nicht, endet die Journey für diese Leute.
 
 Wenn Sie Bedingungen für jeden Pfad definiert haben, um Ihre Zielgruppe auf der Personenebene zu teilen, können Sie Aktionen hinzufügen, die Sie für Personen durchführen möchten.
 
 >[!NOTE]
 >
->Wenn Sie die Zielgruppe nach Personen aufteilen, können Sie nur Aktionen für Personen hinzufügen.
+>Wenn Sie die Zielgruppe nach Personen aufteilen, können Sie nur Aktionen für Personen hinzufügen, bis die Pfade geschlossen oder zusammengeführt werden.
 
 ## Warten
 
@@ -288,10 +317,10 @@ Verschiedene Pfade in Ihrer Journey können mithilfe dieses Knotens zusammengef�
 
    ![Journey-Knoten - Zusammenführungspfade](./assets/node-plus-icon-merge-paths.png){width="400"}
 
-1. Wählen Sie in den Eigenschaften des Zusammenführungsknotens die Pfade aus, die Sie zusammenführen möchten.
+1. Wählen Sie in den Knoteneigenschaften für Zusammenführungspfade die Pfade aus, die Sie zusammenführen möchten.
 
    ![Journey-Knoten - Zusammenführungspfade](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
    An dieser Stelle werden die Pfade zusammengeführt, sodass Konten aus den ausgewählten Pfaden zu einem einzigen Pfad kombiniert werden, der auch weiterhin über die Journey weitergeführt werden kann.
 
-1. Bei Bedarf können Sie die Zusammenführung von Pfaden aufheben, indem Sie zurück zu den Eigenschaften des Zusammenführungsknotens navigieren und das Kontrollkästchen für alle Pfade deaktivieren, die Sie entfernen möchten.
+1. Bei Bedarf können Sie die Zusammenführung von Pfaden aufheben, indem Sie zurück zu den Knoteneigenschaften für Zusammenführungspfade navigieren und das Kontrollkästchen für alle Pfade deaktivieren, die Sie entfernen möchten.

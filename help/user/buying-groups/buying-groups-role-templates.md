@@ -3,9 +3,9 @@ title: Kaufen von Gruppenrollenvorlagen
 description: Erfahren Sie mehr über die Definition einer Rollenvorlage, die als eine Käufergruppenkomponente verwendet werden soll.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Auf einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Einzelpe
 
 ## Rollenvorlagen aufrufen und durchsuchen
 
-1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B Edition.
+1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B edition.
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Gruppen kaufen]**.
 
@@ -55,7 +55,13 @@ Auf einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Einzelpe
 
    ![Dialogfeld &quot;Benutzerdefinierte Vorlage erstellen&quot;](assets/roles-template-create-dialog.png){width="400"}
 
-1. Fügen Sie für jede Rolle, die Sie für die Vorlage definieren möchten, eine Regel hinzu.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+
+### Vorlagenrollen hinzufügen
+
+Nachdem Sie die Vorlage erstellt haben, wird sie im Arbeitsbereich geöffnet und Sie werden aufgefordert, die Rollen zu definieren. Die erste Rollenkarte wird standardmäßig angezeigt.
+
+1. Definieren Sie für die erste Rollenkarte die Rolleneigenschaften.
 
    * Wählen Sie die Rolle **[!UICONTROL Gruppe kaufen]** aus der Liste aus.
 
@@ -73,31 +79,37 @@ Auf einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Einzelpe
 
    * **[!UICONTROL Erforderlich für die Vollständigkeitsbewertung]** - Aktivieren Sie dieses Kontrollkästchen für die Rolle, wenn Sie möchten, dass es eine Anforderung zur Berechnung einer Vollständigkeitsbewertung ist.
 
-   * Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Bedingung hinzufügen]** und definieren Sie die bedingte Regel für die Rolle.
 
-      * Erweitern Sie im Dialogfeld &quot;Bedingung&quot;die Liste der **[!UICONTROL Personenattribute]** und suchen Sie nach einem Attribut, das Sie verwenden möchten, um der Rolle zu entsprechen. Ziehen Sie es nach rechts und legen Sie es im Filterbereich ab.
+   * Erweitern Sie im Dialogfeld _[!UICONTROL Bedingung]_ die Liste der **[!UICONTROL Personenattribute]** und suchen Sie nach einem Attribut, das Sie verwenden möchten, um der Rolle zu entsprechen. Ziehen Sie es nach rechts und legen Sie es im Filterbereich ab.
 
-        ![Roll template add condition drag attribute](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
+     ![Roll template add condition drag attribute](assets/roles-template-role-attribute.png){width="700" zoomable="yes"}
 
-      * Verwenden Sie das -Attribut, um einen passenden Filter mit einem oder mehreren Werten zu erstellen.
+     >[!NOTE]
+     >
+     >Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema in Experience Platform definiert haben, können diese Felder auch als Personenattribute in Bedingungen verwendet werden.
 
-        Im folgenden Beispiel wird das Attribut Auftragstitel verwendet, um eine Übereinstimmung für den Entscheidungsträger zu identifizieren. Jeder Wert für den Titel, der mit `Director` oder `Sr Director` beginnt, wird für die Bedingung als &quot;true&quot;ausgewertet.
+   * Verwenden Sie das -Attribut, um einen passenden Filter mit einem oder mehreren Werten zu erstellen.
 
-        Beispiel für eine Rollout-Vorlagenbedingung mit Auftragstitel](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}![
+     Im folgenden Beispiel wird das Attribut Auftragstitel verwendet, um eine Übereinstimmung für den Entscheidungsträger zu identifizieren. Jeder Wert für den Titel, der mit `Director` oder `Sr Director` beginnt, wird für die Bedingung als &quot;true&quot;ausgewertet.
 
-      * Fügen Sie bei Bedarf ein weiteres Attribut und eine weitere Bedingung hinzu, um die Kriterien für eine Übereinstimmung mit der Rolle weiter zu verfeinern.
+     Beispiel für eine Rollout-Vorlagenbedingung mit Auftragstitel](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}![
 
-      * Klicken Sie auf **[!UICONTROL Fertig]**.
+   * Fügen Sie bei Bedarf ein weiteres Attribut und eine weitere Bedingung hinzu, um die Kriterien für eine Übereinstimmung mit der Rolle weiter zu verfeinern.
 
-   Klicken Sie für jede zusätzliche Rolle, die Sie für die Vorlage einbeziehen möchten, auf **[!UICONTROL Hinzufügen einer weiteren Rolle]** und definieren Sie eine oder mehrere Bedingungen, die für die Rolle erfüllt werden sollen.
+   * Klicken Sie auf **[!UICONTROL Fertig]**.
+
+1. Klicken Sie für jede zusätzliche Rolle, die Sie für die Vorlage einbeziehen möchten, auf **[!UICONTROL Hinzufügen einer weiteren Rolle]** und wiederholen Sie die Schritte 1 und 2, um die Rolle zu definieren.
 
    ![Benutzerdefinierte Vorlage mit mehreren definierten Rollen ](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
-1. Wenn die Vorlage einsatzbereit ist, klicken Sie oben rechts auf **[!UICONTROL Publish]** .
+Ihre Änderungen werden automatisch im Status _Entwurf_ gespeichert. Wenn Sie noch nicht bereit sind, die Rollenvorlage zu veröffentlichen, klicken Sie oben auf der Seite auf den Pfeil nach links (zurück) und kehren Sie zur Liste _[!UICONTROL Benutzerrollen > Vorlagen]_ zurück.
 
-   Durch das Veröffentlichen der Vorlage wird sie auf den Status _Live_ gesetzt und für die Zuordnung zu einem Lösungspotenzial bereitgestellt. Es muss mindestens eine definierte Rolle geben, um die Benutzervorlage zu veröffentlichen.
+### Publish der Rollenvorlage
 
-   Ihre Änderungen werden automatisch im Status _Entwurf_ gespeichert. Wenn Sie noch nicht bereit sind, die Rollenvorlage zu veröffentlichen, klicken Sie oben auf der Seite auf den Pfeil nach links (zurück) und kehren Sie zur Liste Benutzerrollen-Vorlagen zurück.
+Wenn die Vorlage einsatzbereit ist, klicken Sie oben rechts auf **[!UICONTROL Publish]** .
+
+Durch Veröffentlichen der Vorlage wird der Status auf den Status _Live_ gesetzt und für die Zuordnung zu einem Lösungsinteresse bereitgestellt. Es muss mindestens eine definierte Rolle geben, um die Benutzervorlage zu veröffentlichen.
 
 ## Vorlage für Entwürfe von Rollen bearbeiten
 
@@ -107,13 +119,13 @@ Wenn eine Rollenvorlage den Status _Entwurf_ aufweist, können Sie die definiert
 
 ![Eigenschaften der Rolle &quot;Kauf&quot;ändern](./assets/roles-template-role-properties.png){width="600"}
 
-### Filter für eine Rolle ändern
+### Ändern der Bedingungen für eine Rolle
 
-Um die Filterlogik für eine der Rollen zu ändern, klicken Sie oben rechts auf der Rollenkarte auf das Symbol _Bearbeiten_ (Stift). Diese Aktion öffnet den Arbeitsbereich _[!UICONTROL Bedingungen]_ , in dem Sie einen vorhandenen Filter ändern, einen weiteren Filter hinzufügen, einen Filter entfernen oder die Filterlogik ändern können.
+Um die Bedingung-/Filterlogik für eine der Rollen zu ändern, klicken Sie oben rechts auf der Rollenkarte auf das Symbol _Bearbeiten_ ( ![Symbol Bearbeiten](../assets/do-not-localize/icon-edit.svg) ). Diese Aktion öffnet den Arbeitsbereich _[!UICONTROL Bedingungen]_ , in dem Sie einen vorhandenen Filter ändern, einen Filter hinzufügen oder entfernen oder die Filterlogik ändern können.
 
 ### Löschen von Rollenkarten
 
-Wenn Sie eine Rolle aus der Vorlage entfernen möchten, klicken Sie auf das Symbol _Löschen_ (Papierkorb) in der Rollenkarte.
+Wenn Sie eine Rolle aus der Vorlage entfernen möchten, klicken Sie auf das Symbol _Löschen_ ( ![Löschsymbol](../assets/do-not-localize/icon-delete.svg) ) auf der Rollenkarte.
 
 ### Festlegen der Priorität für Rollen
 

@@ -3,9 +3,9 @@ title: Lösungsinteressen
 description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie zur Verwendung in Ihren Einkaufsgruppen definieren können.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 8571e26a99a86e938bafbce7cea599a46441da8d
+source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Bevor Sie Gruppen kaufen, sollten Sie wissen, was Sie verkaufen und wen Sie ausw
 
 ## Lösungsinteressen aufrufen und durchsuchen
 
-1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B Edition.
+1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B edition.
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Gruppen kaufen]**.
 
@@ -48,13 +48,21 @@ Bevor Sie ein Lösungsinteresse erstellen, müssen Sie über eine Vorlage für L
 
 1. Wählen Sie eine **[!UICONTROL Benutzerrollen-Vorlage]** (erforderlich).
 
-   Klicken Sie auf die Auswahl und wählen Sie eine Live-Rollenvorlage aus der angezeigten Liste aus. Sie können nur eine Live-Roles-Vorlage mit einem Lösungsinteresse verknüpfen.
+   Klicken Sie auf **[!UICONTROL Vorlage für Rollen auswählen]** und wählen Sie in der Liste im Dialogfeld eine Vorlage für Live-Rollen aus. Sie können nur eine Live-Roles-Vorlage mit einem Lösungsinteresse verknüpfen. Klicken Sie auf **[!UICONTROL Speichern]** , um zur Seite _[!UICONTROL Lösungsinteresse erstellen]_ zurückzukehren, auf der die Vorlage für ausgewählte Rollen angezeigt wird.
 
-   ![Registerkarte &quot;Lösungsinteresse&quot;](assets/solution-interest-create.png){width="700" zoomable="yes"}
+   ![Fügen Sie dem Lösungsinteresse eine Rollenvorlage hinzu](assets/solution-interest-create.png){width="700" zoomable="yes"}
+
+1. Wählen Sie das **[!UICONTROL Modell für die Buying group stage]** aus, um die Statusprogression der Gruppe zu verwenden (optional).
+
+   Weitere Informationen zur Verwendung von Käufergruppen-Bühnen zur Verfolgung des Kontofortschritts finden Sie unter [Kaufen von Gruppenphasen](./buying-group-stages.md).
+
+1. Aktivieren Sie die Einstellung **[!UICONTROL Vorhandene Einkaufsgruppen aktualisieren]** (optional).
+
+   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse verknüpft sind, über den 24-Stunden-Synchronisierungszyklus aktualisiert.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Erstellen]** .
 
-   Ihre neuen Lösungsinteressen werden in den Lösungsinteressen angezeigt
+   Die neuen Lösungsinteressen werden in der Liste _[!UICONTROL Lösungsinteressen]_ angezeigt.
 
 ## Lösungsinteresse bearbeiten
 
@@ -68,6 +76,10 @@ Sie können jederzeit den Namen und die Beschreibung für ein Lösungsinteresse 
    ![Mehr Menü für die Lösung](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Aktualisieren Sie bei Bedarf den Namen (erforderlich und eindeutig) und die Beschreibung (optional).
+
+1. Wählen Sie bei Bedarf das **[!UICONTROL Modell für die Buying group stage-Vorlage]** aus, um den Fortschritt der Warengruppe-Phase zu verfolgen.
+
+   Weitere Informationen zur Verwendung von Käufergruppen-Bühnen zur Verfolgung des Journey-Fortschritts gegenüber Verkäufen finden Sie unter [Kaufen von Gruppenphasen](./buying-group-stages.md).
 
 1. Ändern Sie bei Bedarf die Einstellung **[!UICONTROL Vorhandene Einkaufsgruppen aktualisieren]** .
 
