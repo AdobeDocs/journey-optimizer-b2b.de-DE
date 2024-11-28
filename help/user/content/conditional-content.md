@@ -2,10 +2,11 @@
 title: Bedingter Inhalt
 description: Erfahren Sie, wie Sie Inhaltsvarianten erstellen und bedingte Regeln anwenden, wenn Sie E-Mail-Inhalte für Konto-Journey erstellen.
 feature: Email Authoring, Content
-source-git-commit: 15a5144554f25634efa29efc42d41350b19c2bfb
+exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '1071'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -15,12 +16,12 @@ Bedingter Inhalt ermöglicht es Ihnen, E-Mail-Inhalte auf der Grundlage von bedi
 
 Um bedingte Inhalte zu Ihren E-Mail-Nachrichten hinzuzufügen, können Sie in Adobe Journey Optimizer Bedingungsregeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im E-Mail-Designer an, während Sie [eine E-Mail in einem Konto-Journey erstellen](./email-authoring.md).
 
-## Bedingten Inhalt zu E-Mails hinzufügen {#email-content}
+## Hinzufügen von bedingten Inhalten zu E-Mails {#email-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="Bedingter Inhalt"
->abstract="Verwenden Sie bedingte Regeln, um mehrere Varianten einer Inhaltskomponente zu erstellen. Wenn beim Versand der Nachricht keine der Bedingungen erfüllt ist, wird der Inhalt der Standardvariante angezeigt."
+>abstract="Verwenden Sie bedingte Regeln, um mehrere Varianten einer Inhaltskomponente zu erstellen. Wenn beim Senden der Nachricht keine der Bedingungen erfüllt ist, wird der Inhalt der Standardvariante angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
