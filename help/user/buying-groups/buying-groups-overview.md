@@ -1,6 +1,6 @@
 ---
-title: Gruppen kaufen
-description: Erfahren Sie, wie der Kauf von Gruppen in Journey Optimizer B2B edition die Marketingeffizienz steigern kann, indem Sie Mitglieder für Ihre Kontolisten identifizieren und auswählen.
+title: Einkaufsgruppen
+description: Erfahren Sie, wie Einkaufsgruppen in Journey Optimizer B2B edition die Marketing-Effektivität steigern können, indem sie Mitglieder für Ihre Kontolisten identifizieren und auswählen.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
@@ -13,119 +13,119 @@ ht-degree: 6%
 
 # Käufergruppen
 
-Für B2B-Verkaufs- und Marketingaktivitäten sind Konten der Schlüssel zu jeder Strategie. Jedes Konto hat eine Gruppe von Personen zugeordnet, und diese Personen können Mitarbeiter des Kontos oder Auftragnehmer sein, die mit dem Konto arbeiten. Konten sind hierarchisch aufgebaut und verschiedene Produkte können auf unterschiedlichen Ebenen in der Hierarchie verkauft werden. So kann Adobe Experience Platform beispielsweise auf Unternehmensebene an ein Top-Level-Konto verkauft werden, während Adobe Photoshop an ein Konto verkauft wird, das eine Abteilung oder Abteilung innerhalb eines Unternehmens repräsentiert, z. B. eine Design-Abteilung innerhalb eines größeren Unternehmens.
+Für B2B-Vertriebs- und Marketing-Aktivitäten sind Accounts der Schlüssel zu jeder Strategie. Jedem Konto ist eine Gruppe von Personen zugeordnet, und diese Personen können Mitarbeiter des Kontos oder Auftragnehmer sein, die mit dem Konto arbeiten. Konten sind hierarchisch, und verschiedene Produkte können auf verschiedenen Ebenen in der Hierarchie verkauft werden. Beispielsweise kann Adobe Experience Platform auf Unternehmensebene an ein Konto der obersten Ebene verkauft werden, während Adobe Photoshop an ein Konto verkauft werden kann, das einen Geschäftsbereich oder eine Abteilung innerhalb eines Unternehmens repräsentiert, z. B. eine Design-Abteilung innerhalb eines größeren Unternehmens.
 
-![Diagramm der Kontorollen](assets/account-roles-diagram.png){width="800"}
+![Diagramm zu Kontorollen](assets/account-roles-diagram.png){width="800"}
 
-Innerhalb des Kontos kann es eine Untergruppe von Personen geben, die die _Einkaufsgruppe_ ausmachen. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen, sodass sie besondere Aufmerksamkeit vom Marketing-Experten benötigen und möglicherweise andere Informationen benötigen, die ihnen bereitgestellt werden als die anderen Personen, die mit dem Konto verbunden sind. Für verschiedene Produktlinien oder Angebote kann es sich bei Einkaufsgruppen um eine andere Personengruppe handeln. Beispielsweise kann ein Cybersicherheitsprodukt in der Regel einen Chief Information Officer oder Chief Security Officer und einen Vertreter der Rechtsabteilung zur Genehmigung eines Kaufs erfordern, aber ein Fehlerverfolgungsprodukt könnte in der Regel einen VP of Engineering und eine IT Director als Mitglieder der Einkaufsgruppe haben.
+Innerhalb des Kontos könnte es eine Untergruppe von Personen geben, die die &quot;_&quot;_. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen. Sie benötigen daher besondere Aufmerksamkeit vom Marketing-Experten und möglicherweise andere Informationen als die anderen Personen, die mit dem Account in Verbindung stehen. Einkaufsgruppen können für verschiedene Produktlinien oder Angebote eine unterschiedliche Personengruppe umfassen. Beispielsweise kann ein Cybersicherheitsprodukt in der Regel die Genehmigung eines Kaufs durch einen Chief Information Officer oder Chief Security Officer und einen Mitarbeiter der Rechtsabteilung erfordern, aber ein Produkt zur Fehlersuche kann in der Regel einen VP of Engineering und einen IT-Director als Mitglieder der kaufenden Gruppe haben.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video-Übersicht ansehen](#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video ansehen - Übersicht](#overview-video)
 
-## Wichtige Komponenten
+## Schlüsselkomponenten
 
-Sie können die Marketingeffizienz steigern, indem Sie in Journey Optimizer B2B edition Käufergruppen einrichten, die anhand der Lösungen, für die Ihr Verkaufsteam verantwortlich ist, die für die Liste Ihrer Zielkonten fehlenden Mitglieder identifizieren. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Einkaufsgruppen beginnen, stellen Sie sicher, dass Sie die wichtigsten Komponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
+Sie können die Marketing-Effektivität steigern, indem Sie in Journey Optimizer B2B edition Einkaufsgruppen einrichten, die fehlende Mitglieder für Ihre Zielkontenlisten identifizieren. Diese Gruppen basieren auf den Lösungen, für die Ihre Vertriebsteams verantwortlich sind. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Einkaufsgruppen beginnen, stellen Sie sicher, dass Sie die Schlüsselkomponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
 
 | Komponente | Zweck |
 | --------- | ------- |
-| Lösungsinteresse | Diese Komponente bietet Antwort auf: <ul><li>Was verkaufen Sie als Marketingorganisation?</li><li>Welches Produkt oder welche Kollektion von Produkten möchten Sie verkaufen?</li></ul>  **_Beispiel:_** Weiterverkauf des neuen Produkts X an bestehende Kunden |
-| Konto-Zielgruppe | Diese Komponente bietet Antwort auf: <ul><li>Wem verkaufst du?</li><li>Was ist die Liste der Konten, die Sie als Ziel auswählen?</li></ul> **_Beispiel:_** Kontosegment definiert durch Konten mit Produkt Y mit Umsatz über 1M |
-| Kaufen von Gruppenrollenvorlagen | Diese Komponente bietet Antwort auf: <ul><li>Welche Rollen werden im Targeting verwendet?</li><li>Welcher Regelsatz wird verwendet, um zu bestimmen, wer den Käuferrollen zugewiesen ist?</li></ul>  **_Beispiel:_** Weisen Sie eine Person mit CMO-Titel der Rolle &quot;Entscheidungsträger&quot;zu |
-| Käufergruppenphasen | (Optional) Diese Komponente bietet die Antwort auf: Wie verfolgt die Käufer-Gruppe den Erfolg oder Misserfolg? |
+| Lösungsinteresse | Diese Komponente bietet die Antwort auf: <ul><li>Was verkaufen Sie als Marketing-Organisation?</li><li>Welches Produkt oder welche Kollektion von Produkten möchten Sie verkaufen?</li></ul>  **_Beispiel:_** Crossselling New Product X to existing customers |
+| Konto-Zielgruppe | Diese Komponente bietet die Antwort auf: <ul><li>An wen verkaufen Sie?</li><li>Auf welche Liste von Konten zielen Sie ab?</li></ul> **_Beispiel:_** Kontosegment, das durch Konten mit Produkt Y mit einem Umsatz von mehr als 1 Million definiert wird |
+| Rollenvorlagen für Einkaufsgruppen | Diese Komponente bietet die Antwort auf: <ul><li>Auf welche Rollen zielen Sie ab?</li><li>Welcher Regelsatz wird verwendet, um zu bestimmen, wem die Rollen der Einkaufsgruppe zugewiesen sind?</li></ul>  **_Beispiel:_** Weisen Sie der Rolle Entscheidungsträger eine Person mit CMO-Titel zu |
+| Käufergruppenphasen | (Optional) Diese Komponente bietet die Antwort auf: Wie verfolgt die kaufende Gruppe den Erfolg oder Misserfolg? |
 
-## Gruppen-Workflow kaufen
+## Einkaufsgruppen-Workflow
 
-1. Erstellen Sie Warengruppen.
+1. Erstellen Sie Einkaufsgruppen.
 
    Optionen:
-   * Verwenden Sie [Lösungsinteresse](./solution-interests.md) und [Rollenvorlage](./buying-groups-role-templates.md)
-   * Importieren von Drittanbietern verwenden
-   * Aus KI/ML generieren
+   * Verwenden [Lösungsinteressen](./solution-interests.md) und [Rollenvorlage](./buying-groups-role-templates.md)
+   * Import von Drittanbietern verwenden
+   * Generieren aus KI/ML
 
 1. Identifizieren Sie fehlende Personen.
 
-   Analysieren Sie die Kaufgruppe mithilfe von Filtern.
+   Analysieren Sie die Einkaufsgruppe mithilfe von Filtern.
 
-   **_Beispiel:_** Die Rolle &quot;Entscheidungsträger&quot;fehlt und der Vollständigkeitswert ist &lt; 50
+   **_Beispiel_** Die Rolle des Entscheidungsträgers fehlt und der Vollständigkeitswert ist &lt; 50
 
-1. Füllen Sie die Definitionen für die Bestellgruppen aus.
+1. Füllen Sie die Definitionen der Einkaufsgruppen aus.
 <!--
    * Acquire missing people
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Verwenden Sie in einer Konto-Journey über das zugehörige Lösungsinteresse.
+1. Verwendung auf einer Konto-Journey über das zugehörige Lösungsinteresse.
 
-## Anzeigen von Einkaufsgruppen und Komponenten
+## Einkaufsgruppen und Komponenten anzeigen
 
-Erweitern Sie im linken Navigationsbereich **[!UICONTROL Konten]** und klicken Sie auf **[!UICONTROL Gruppen kaufen]**.
+Erweitern Sie in der linken Navigation **[!UICONTROL Konten]** und klicken Sie auf **[!UICONTROL Gruppen kaufen]**.
 
-Die Seite _[!UICONTROL Gruppen kaufen]_ ist in Form von Registerkarten organisiert:
+Die _[!UICONTROL Einkaufsgruppen]_ ist in Registerkarten unterteilt:
 
 | Tab | Beschreibung |
 | --- | ----------- |
-| [!UICONTROL Übersicht] | Diese Registerkarte ist die Standardeinstellung und zeigt das Dashboard [Gruppen kaufen](../dashboards/buying-groups-dashboard.md) an. |
-| [!UICONTROL Durchsuchen] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie die Liste der vorhandenen Einkaufsgruppen an. </li><li>Suche nach dem Namen der Gruppe. </li><li>Filtern nach Lösungsinteresse </li><li>Führen Sie einen Drilldown zum Kauf von Gruppendetails durch. </li><li>Erstellen Sie eine Kaufgruppe. Eine Kaufgruppe löschen.</li></ul> |
-| [!UICONTROL Interessen der Lösung] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie die Liste der vorhandenen Einkaufsgruppen an. </li><li>Suche nach dem Namen der Gruppe. </li><li>Öffnen und bearbeiten Sie die Interessenseigenschaften der Lösung. </li><li>Erstellen Sie ein Lösungsinteresse. </li><li>Löschen Sie ein Lösungsinteresse. </li><li>Anzeigen und Löschen von Aufträgen für Gruppen </li></ul> |
-| [!UICONTROL Benutzerrollen-Vorlagen] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie die Liste der vorhandenen Benutzervorlagen an. </li><li>Suchen Sie nach dem Namen der Benutzervorlage. </li><li>Zugriff und Bearbeitung von Eigenschaften und Bedingungen von Benutzervorlagen </li><li>Erstellen Sie eine Rollenvorlage. </li><li>Löschen Sie eine Rollenvorlage. </li></ul> |
-| [!UICONTROL Stadien] | Dieser Tab unterstützt die folgenden Aktivitäten: <ul><li>Sehen Sie sich das Modell der vorhandenen Warengruppen-Bühnen an. </li><li>Öffnen und bearbeiten Sie das Modell der Kaufgruppenvorlagen. </li><li>Erstellen Sie das Modell für die Bühnen von Käufergruppen. </li></ul> |
+| [!UICONTROL Übersicht] | Diese Registerkarte ist die Standardeinstellung und zeigt das Dashboard [Einkaufsgruppen](../dashboards/buying-groups-dashboard.md) an. |
+| [!UICONTROL Durchsuchen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Einkaufsgruppen anzeigen. </li><li>Suchen Sie nach dem Namen der kaufenden Gruppe. </li><li>Filtern nach Lösungsinteresse. </li><li>Aufschlüsselung zu Details der Einkaufsgruppe. </li><li>Erstellen Sie eine Einkaufsgruppe. Eine Einkaufsgruppe löschen.</li></ul> |
+| [!UICONTROL Lösungsinteressen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Einkaufsgruppen anzeigen. </li><li>Suchen Sie nach dem Namen der kaufenden Gruppe. </li><li>Zugreifen auf und Bearbeiten von Lösungsinteresseneigenschaften. </li><li>Erstellen Sie eine Interessenslösung. </li><li>Löschen Sie ein Lösungsinteresse. </li><li>Anzeigen und Löschen von Einkaufsgruppenvorgängen. </li></ul> |
+| [!UICONTROL Rollenvorlagen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Anzeigen der Liste der vorhandenen Rollenvorlagen. </li><li>Nach Namen der Rollenvorlage suchen. </li><li>Zugreifen auf und Bearbeiten von Eigenschaften und Bedingungen von Rollenvorlagen. </li><li>Erstellen Sie eine Rollenvorlage. </li><li>Löschen einer Rollenvorlage. </li></ul> |
+| [!UICONTROL Stadien] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie das Modell der vorhandenen Einkaufsgruppen-Stadien an. </li><li>Zugreifen auf und Bearbeiten des Entwurfs des Modells für Einkaufsgruppenschritte. </li><li>Erstellen Sie das Modell für Einkaufsgruppenstufen. </li></ul> |
 
-## Gruppensuche und -filter kaufen
+## Suche und Filter für Einkaufsgruppen
 
-Verwenden Sie die Registerkarte _[!UICONTROL Durchsuchen]_ , um die Liste der Kaufgruppen anzuzeigen. Sie können nach Namen suchen und die Liste nach Lösungsinteresse filtern.
+Auf der _[!UICONTROL Durchsuchen]_ können Sie die Liste der Einkaufsgruppen anzeigen. Sie können nach Namen suchen und die Liste nach Lösungsinteressen filtern.
 
-![Seite zum Durchsuchen von Gruppen kaufen](assets/buying-groups-browse.png){width="800" zoomable="yes"}
+![Einkaufsgruppe Seite durchsuchen](assets/buying-groups-browse.png){width="800" zoomable="yes"}
 
-## Gruppendetails kaufen
+## Details der Einkaufsgruppe
 
-Um auf Details für eine Gruppe zuzugreifen, klicken Sie auf den Namen der Gruppe &quot;Kauf&quot;auf der Registerkarte _[!UICONTROL Durchsuchen]_ .
+Um auf Details für eine Einkaufsgruppe zuzugreifen, klicken Sie auf den Namen der Einkaufsgruppe auf der Registerkarte _[!UICONTROL Durchsuchen]_.
 
-![Kaufen von Gruppendetails](assets/buying-group-details.png){width="600" zoomable="yes"}
+![Details der Einkaufsgruppe](assets/buying-group-details.png){width="600" zoomable="yes"}
 
-### Gesamtergebnis der Gruppe kaufen
+### Vollständigkeitsbewertung der Einkaufsgruppe
 
-Die Vollständigkeitsbewertung wird verwendet, um festzustellen, ob die Kaufgruppe abgeschlossen ist. Das bedeutet, dass ihr die richtigen Mitglieder zugewiesen sind und bereit sind, in einer Konto-Journey verwendet zu werden. Dieser Punktstand basiert auf der Anzahl der Rollen innerhalb der Gruppe, die den Kauf abschließen, und darauf, wie viele Rollen mindestens einem Lead zugewiesen sind.
+Mit dem Vollständigkeitswert wird bestimmt, ob die Einkaufsgruppe vollständig ist, d. h., dass ihr die richtigen Mitglieder zugewiesen sind und sie auf einer Account-Journey verwendet werden kann. Dieser Wert ist ein Prozentsatz, der auf der Anzahl der Rollen innerhalb der Einkaufsgruppe und der Anzahl der Rollen basiert, die mit mindestens einem Lead zugewiesen werden.
 
-Wenn beispielsweise eine Einkaufsgruppe vier Rollen hat und drei der vier Rollen mindestens einem Lead zugewiesen sind, ist die Einkaufsgruppe zu 75 % abgeschlossen.
+Wenn beispielsweise eine Einkaufsgruppe vier Funktionen hat und drei der vier Funktionen mindestens einem Lead zugewiesen sind, ist die Einkaufsgruppe zu 75 % abgeschlossen.
 
-Der Wert für die Vollständigkeit der Einkaufsgruppe wird jedes Mal neu berechnet, wenn eine Einkaufsgruppe erstellt oder aktualisiert wird.
+Der Vollständigkeitswert für die Einkaufsgruppe wird jedes Mal neu berechnet, wenn eine Einkaufsgruppe erstellt oder aktualisiert wird.
 
 ### Interaktionsbewertung der Käufergruppe
 
-Der Interaktionswert der Gruppe &quot;Kauf&quot;ist eine Zahl, mit der die Interaktion der Mitglieder einer Einkaufsgruppe anhand der von ihnen ausgeführten Aktivitäten bestimmt wird. Jede eingehende Aktivität, die von den Mitgliedern der Einkaufsgruppe in den letzten 30 Tagen durchgeführt wurde, wird zur Berechnung des Ergebnisses verwendet.
+Der Interaktionswert für eine Einkaufsgruppe ist eine Zahl, die die Interaktion der Mitglieder einer Einkaufsgruppe auf der Grundlage der von ihnen durchgeführten Aktivitäten bestimmt. Zur Berechnung der Punktzahl wird jede eingehende Aktivität verwendet, die von den Mitgliedern der Einkaufsgruppe in den letzten 30 Tagen ausgeführt wurde.
 
-Für jede Aktivität gilt eine tägliche Frequenzlimitierung von 20. Wenn ein Mitglied einer Einkaufsgruppe dieselbe Aktivität mehr als 20-mal am Tag ausführt, wird die Anzahl der Aktivitäten auf 20 begrenzt und nicht auf eine höhere Anzahl.
+Es gibt eine tägliche Häufigkeitsbegrenzung von 20 pro Aktivität. Wenn ein Mitglied einer Einkaufsgruppe dieselbe Aktivität mehr als 20 Mal am Tag ausführt, ist die Anzahl der Aktivitäten auf 20 begrenzt und nicht höher.
 
-Die angezeigte Punktzahl wird gerundet. Beispielsweise wird ein Wert von 75.89999 als 76 angezeigt.
+Die angezeigte Punktzahl ist gerundet. Beispielsweise wird ein Wert von 75,89999 als 76 angezeigt.
 
 #### Gewichtung
 
-Benutzer können jeder Rolle in der Rollenvorlage _Gewichtung_ zuweisen, um einer Rolle unterschiedliche Gewichtungen zuzuweisen, um das Interaktionsergebnis zu berechnen.
+Benutzerinnen und Benutzer können jeder Rolle in _Rollenvorlage &quot;_&quot; zuweisen, um einer Rolle unterschiedliche Gewichtungen für die Berechnung des Interaktionswerts zuzuweisen.
 
-![Legen Sie die Gewichtung für jede Rolle in der Rollenvorlage fest](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
+![Legen Sie in der Rollenvorlage die Gewichtung für jede Rolle fest](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
-Jede Gewichtungsstufe entspricht einem Wert, der zur Berechnung des Interaktionswerts verwendet wird:
+Jede Gewichtungsstufe wird in einen Wert umgewandelt, der für die Berechnung des Interaktionswerts verwendet wird:
 
 * [!UICONTROL Trivial] = 20
-* [!UICONTROL Minor] = 40
+* [!UICONTROL Gering] = 40
 * [!UICONTROL Normal] = 60
 * [!UICONTROL Wichtig] = 80
 * [!UICONTROL Vital] = 100
 
-Eine Rollenvorlage mit drei als _[!UICONTROL Vital]_, _[!UICONTROL Wichtig]_ und _[!UICONTROL Normal]_ gewichteten Rollen konvertiert in die folgenden gewichteten Prozentsätze:
+Eine Rollenvorlage mit drei Rollen, gewichtet mit _[!UICONTROL Wichtig]_, _[!UICONTROL Wichtig]_ und _[!UICONTROL Normal]_, konvertiert in die folgenden gewichteten Prozentsätze:
 
-| Role | Gewichtung | Systemwert | Werteberechnung | Prozentsatz |
+| Role | Gewichtung | Systemwert | Wertberechnung | Prozentsatz |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
-| Entscheidungsträger | Vital | 100 | 24.10.2010 | 41,67% |
-| Beeinflusser | Wichtig | 80 | 240.80 | 33,33% |
-| Praktitioner | Normal | 60 | 240.60 | 25 % |
+| Entscheidungsträger | lebenswichtig | 100 | 100/240 | 41,67 % |
+| Beeinflusser | Wichtig | 80 | 80/240 | 33,33 % |
+| Praktiker | Normal | 60 | 60/240 | 25 % |
 |               | Gesamt | 240 |                   |           |
 
 #### Berechnungsbeispiel
 
-Das folgende Beispiel zeigt die Berechnung des Interaktionswerts anhand des festgelegten Rollengewichtsprozentsatzes, der Anzahl der eingehenden Aktivitäten für jedes Mitglied der Kaufgruppe und einer täglichen Obergrenze von 20 Zählern für jedes Ereignis (wenn es mehrmals aufgetreten ist).
+Das folgende Beispiel veranschaulicht die Berechnung des Interaktionswerts mithilfe des beschriebenen Prozentsatzes der Rollengewichtung, der Anzahl der eingehenden Aktivitäten für jedes Mitglied der Einkaufsgruppe und einer täglichen Begrenzung von 20 Zählern für jedes Ereignis (wenn es mehrmals aufgetreten ist).
 
-| Role | Mitglied | Typ der Aktivität | Anzahl gestern | Heute zählt | Berechnung | Gesamtbewertung |
+| Role | Mitglied | Typ der Aktivität | Zählung gestern | Zählung heute | Kalkulation | Gesamtergebnis |
 |-------------- |--------- |-------------|-----------------|-------------|------|-----------|
 |               |          |             |                 |             |      |           |
 | Entscheidungsträger | Adam | Besuchte Website | 37 | 15 | 20 + 15 | 35 |
@@ -133,29 +133,29 @@ Das folgende Beispiel zeigt die Berechnung des Interaktionswerts anhand des fest
 |               |          |             |                 |             |      |           |
 |               | Mark | Besuchte Website | 5 | 3 | 5 + 3 | 8 |
 |               |          | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
-|               |          | heruntergeladene Pinnwand | 3 | 2 | 3 + 2 | 5 |
-| **Gesamtwert der Entscheidungsfindung** |         |             |                 |             |      | **52** |
+|               |          | Heruntergeladene Kneipe | 3 | 2 | 3 + 2 | 5 |
+| **Gesamtpunktzahl der Entscheidungsträger** |         |             |                 |             |      | **£** |
 |               |          |             |                 |             |      |           |
 | Beeinflusser | John | Besuchte Website | 19 | 9 | 19 + 9 | 28 |
-| **Gesamtwert der Einflussnehmer** |         |             |                 |             |      | **28** |
+| **Influencers-Gesamtpunktzahl** |         |             |                 |             |      | **28** |
 |               |          |             |                 |             |      |           |
-| Praktitioner | Bob | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+| Praktiker | Bob | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
 |               | Paul | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
 |               | Calvin | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
 |               |          | Besuchte Website | 1 | 7 | 1 + 7 | 8 |
-|               |          | heruntergeladene Pinnwand | 1 | 2 | 1 + 2 | 3 |
-| **Gesamtergebnis der Praktizierenden** |         |             |                 |             |      | **17** |
+|               |          | Heruntergeladene Kneipe | 1 | 2 | 1 + 2 | 3 |
+| **Gesamtpunktzahl der Praktizierenden** |         |             |                 |             |      | **17** |
 
-Der endgültige Interaktionswert wird durch Anwendung der Gewichtung für die einzelnen Rollenbewertungen berechnet:
+Der endgültige Engagement-Score wird durch Anwendung der Gewichtung für jeden Rollenwert berechnet:
 
-| Role | Gesamtbewertung der Rolle | Rollengewicht % | X-Gewicht des Score % |
+| Role | Gesamtergebnis der Funktion | Rollengewichtung % | Score X Gewichtung % |
 |-------------- |---------------- |------------- |---------------- |
-| Entscheidungsträger | 52 | 41,67% | 21,67 |
-| Influencers | 28 | 33,33% | 9,33 |
-| Praktikanten | 17 | 25 % | 4,25 |
-| **Endgültige Interaktionsbewertung** |                |             | **35.25** |
+| Entscheidungsträger | 52 | 41,67 % | 21,67 |
+| Influencers | 28 | 33,33 % | 9,33 |
+| Praktizierende | 17 | 25 % | 4,25 |
+| **Endgültiger Interaktionswert** |                |             | **,25** |
 
 ## Übersichtsvideo
 

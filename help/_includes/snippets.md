@@ -1,6 +1,6 @@
 ---
 title: Snippets
-description: Wiederverwendete Hinweise und visuelle Elemente zum Notizen einer Funktion oder Seite, die auf eine bestimmte Bearbeitung angewendet wird
+description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
 source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
 workflow-type: tm+mt
 source-wordcount: '399'
@@ -12,43 +12,43 @@ ht-degree: 0%
 
 <!-- Content authoring steps for reuse -->
 
-## Inhaltsbearbeitung - Komponenten - Strukturschritt {#structures-step}
+## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
 
-1. Ziehen Sie zum Starten Ihres Inhaltsdesigns ein Element aus den **[!UICONTROL Strukturen]** und legen Sie es auf der Arbeitsfläche ab.
+1. Ziehen Sie zum Beginnen Ihres Inhaltsdesigns ein Element aus der **[!UICONTROL Strukturen]** und legen Sie es auf der Arbeitsfläche ab.
 
    Fügen Sie so viele Elemente aus _[!UICONTROL Strukturen]_ hinzu, wie Sie benötigen, und bearbeiten Sie die Einstellungen für jedes Element im Bereich auf der rechten Seite.
 
    >[!TIP]
    >
-   >Wählen Sie die Komponente _[!UICONTROL n:n column]_ aus, um die Anzahl der Spalten Ihrer Wahl festzulegen (zwischen drei und 10). Sie können auch die Breite jeder Spalte definieren, indem Sie die Pfeile unter die Spalte verschieben.
+   >Wählen Sie die Komponente _[!UICONTROL n:n]_ aus, um die Anzahl der Spalten zu definieren (zwischen drei und 10). Sie können auch die Breite jeder Spalte definieren, indem Sie die Pfeile unter die Spalte verschieben.
 
    ![Ziehen Sie eine Struktur auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
 
-   Die Spaltengröße darf nicht weniger als 10 % der Gesamtbreite der Strukturkomponente betragen. Es können nur leere Spalten entfernt werden.
+   Die Größe einer Spalte darf nicht kleiner als 10 % der Gesamtbreite der Strukturkomponente sein. Nur leere Spalten können entfernt werden.
 
-## Inhaltsbearbeitung - Komponenten - Inhaltsschritt {#contents-step}
+## Inhaltserstellung - Komponenten - Inhaltsschritt {#contents-step}
 
-1. Erweitern Sie den Abschnitt **[!UICONTROL Inhalt]** und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu.
+1. Erweitern Sie **[!UICONTROL Abschnitt]** Inhalte“ und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu.
 
    ![Ziehen Sie ein Inhaltselement auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--
    reference to the contents elements--->
 
-## Inhaltsbearbeitung - Komponenten - Schritt Einstellungen {#settings-step}
+## Schritt „Inhaltserstellung - Komponenten - Einstellungen“ {#settings-step}
 
-1. Bei Bedarf können Sie auf den Registerkarten _[!UICONTROL Einstellungen]_ oder _[!UICONTROL Stil]_ zusätzliche Anpassungen für jede Komponente vornehmen.
+1. Bei Bedarf können Sie auf den Registerkarten _[!UICONTROL Einstellungen“ oder „Stil]_ zusätzliche Anpassungen _[!UICONTROL jede Komponente]_.
 
    Sie können beispielsweise den Textstil, den Abstand oder den Rand jeder Komponente ändern.
 
-## Inhaltsbearbeitung - Schritt &quot;Assets&quot; {#assets-step}
+## Inhaltserstellung - Schritt Assets {#assets-step}
 
-1. Über die Auswahl _Asset_ können Sie direkt in der Asset-Bibliothek gespeicherte Assets auswählen.
+1. Über die _Asset_-Auswahl können Sie direkt Assets auswählen, die in der Asset-Bibliothek gespeichert sind.
 
-   Doppelklicken Sie auf den Ordner, der Ihre Assets enthält. Ziehen Sie die Elemente in eine Strukturkomponente.
+   Doppelklicken Sie auf den Ordner, der Ihre Assets enthält. Ziehen Sie die Elemente per Drag-and-Drop in eine Strukturkomponente.
 
    >[!NOTE]
    >
-   >Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service verfügen, müssen Sie zum Zeitpunkt der Erstellung für eine E-Mail, eine E-Mail-Vorlage oder ein visuelles Fragment die standardmäßige Adobe Marketo Engage Design Studio-Bibliothek verwenden. Wählen Sie dazu die [Bildquelle](../user/content/assets-overview.md#choose-an-asset-source) aus. Sie können jedoch auch die Bildquelle auswählen, bevor Sie den Inhaltsdesigner zur Bearbeitung öffnen.
+   >Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service zusammen mit dem standardmäßigen Adobe Marketo Engage Design Studio verfügen, müssen Sie bei der Erstellung ](../user/content/assets-overview.md#choose-an-asset-source) E-Mail, E-Mail-Vorlage oder visuellen Fragments die [Bildquelle“ auswählen. Sie können jedoch auch die Bildquelle auswählen, bevor Sie den Content Designer zur Bearbeitung öffnen.
 
    Weitere Informationen zur Verwendung von Assets aus Ihrem Quelltyp finden Sie unter [Hinzufügen von Assets zu Ihrem Inhalt](../user/content/assets-overview.md#add-assets-to-your-content).
 
@@ -56,14 +56,14 @@ ht-degree: 0%
 
 ## Inhaltserstellung - Personalisierungsschritt {#personalization-step}
 
-1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Zielgruppenmitgliedschaften, Kontextattributen und mehr anzupassen.
+1. Fügen Sie Personalisierungsfelder ein, um Ihren Inhalt aus Profilattributen, Zielgruppenzugehörigkeiten, kontextuellen Attributen und mehr anzupassen.
 
-## Inhaltserstellung - Schritt zum Aktivieren des Bedingungsinhalts {#dynamic-content-step}
+## Inhaltserstellung - Bedingungsinhaltsschritt aktivieren {#dynamic-content-step}
 
-1. Klicken Sie auf **[!UICONTROL Bedingungsinhalt aktivieren]** , um dynamischen Inhalt hinzuzufügen und den Inhalt basierend auf Bedingungsregeln an die Zielprofile anzupassen.
+1. Klicken Sie **[!UICONTROL Bedingten Inhalt aktivieren]**, um dynamischen Inhalt hinzuzufügen und den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen.
 
-## Inhaltserstellung - Linktracking-Schritt {#links-tracking-step}
+## Inhaltserstellung - Schritt zum Linktracking {#links-tracking-step}
 
-1. Wählen Sie im linken Bereich die Registerkarte **[!UICONTROL Links]** aus, um alle getrackten URLs Ihres Inhalts anzuzeigen.
+1. Wählen Sie die **[!UICONTROL Links]** aus dem linken Bereich, um alle getrackten URLs Ihres Inhalts anzuzeigen.
 
-   Sie können den _Trackingtyp_ oder den _Titel_ ändern und bei Bedarf Tags hinzufügen.
+   Sie können den _Tracking-Typ_ oder _Label_ ändern und bei Bedarf Tags hinzufügen.

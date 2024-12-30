@@ -1,51 +1,52 @@
 ---
 title: Vorlagen-Content-Governance
-description: Erfahren Sie, wie Sie Inhaltselemente in Ihren E-Mail-Vorlagen sperren können, damit Sie steuern können, wie sie zur Verwendung in Konto-Journey verändert werden können.
+description: Erfahren Sie, wie Sie Inhaltselemente in Ihren E-Mail-Vorlagen sperren, damit Sie steuern können, wie sie für die Verwendung in Account-Journey geändert werden können.
 feature: Email Authoring, Content
-source-git-commit: 44413c763ca57d04b83ba78df0ae846142180ec3
+exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 0%
 
 ---
 
-# Verwaltung von Vorlageninhalten
+# Vorlagen-Content-Governance
 
-In vielen Marketingorganisationen entwerfen Inhaltsexperten E-Mail-Kampagnen. Ein bestimmtes Design kann als Grundlage für benutzerdefinierte Konto-Journey im gesamten Unternehmen verwendet werden. Um die Einhaltung genehmigter Inhaltsentwürfe sicherzustellen, können Sie mithilfe der Inhaltsverwaltungsfunktionen Vorlagenkomponenten sperren. Wenn die Inhaltssperrung in der E-Mail-Vorlage aktiviert ist, können Marketer nur die zulässigen Elemente ändern, um sie an der Inhaltsstrategie auszurichten.
+In vielen Marketing-Organisationen gibt es Content-Experten, die E-Mail-Kampagnen entwerfen. Ein bestimmtes Design kann als Grundlage für benutzerdefinierte Account-Journey im gesamten Unternehmen verwendet werden. Um die Einhaltung genehmigter Inhaltsentwürfe sicherzustellen, können Sie Inhaltssteuerungsfunktionen zum Sperren von Vorlagenkomponenten verwenden. Wenn die Inhaltssperre in der E-Mail-Vorlage aktiviert ist, können Marketing-Experten nur die zulässigen Elemente ändern, um sie an die Inhaltsstrategie anzupassen.
 
-Sie können beispielsweise die Kopf- und Fußzeile sperren, die für die Kontinuität der Markenkommunikation konzipiert ist. Sie können auch die Spalte sperren, die den Hauptteilabschnitt enthält, aber Autoren die Möglichkeit geben, den Journey-Text so zu ändern, dass er dem Zweck des Kontos entspricht.
+Beispielsweise können Sie die Kopf- und Fußzeile sperren, die für die Kontinuität der Markenkommunikation konzipiert ist. Sie können auch die Spalte sperren, die den Haupttextabschnitt enthält, Autorinnen und Autoren jedoch erlauben, den Text so zu ändern, dass er ihren Zweck im Account-Journey-Design erfüllt.
 
-## Aktivieren der Inhaltsverwaltung für die Vorlage
+## Aktivieren der Content Governance für die Vorlage
 
-Nachdem Sie den visuellen Designer zum [Erstellen der Struktur- und Inhaltskomponenten](./email-template-authoring.md) für Ihre E-Mail-Vorlage verwendet haben, aktivieren Sie Governance und wenden Sie bei Bedarf spezifische Inhaltssperren an.
+Nachdem Sie mit dem visuellen Designer die Struktur- [ Inhaltskomponenten für ](./email-template-authoring.md) E-Mail-Vorlage erstellt haben, aktivieren Sie die Governance und wenden Sie bei Bedarf eine spezifische Inhaltssperrung an.
 
-1. Greifen Sie im Visual Designer mithilfe des _Navigationsbaums_ auf die Ebenen/Container und Elemente zu.
+1. Greifen Sie im visuellen Designer mithilfe des Navigationsbaums auf _Ebenen/Container und Elemente_.
 
-   Klicken Sie auf das Symbol _Navigationsbaum_ ( ![Verknüpfungssymbol](../assets/do-not-localize/icon-navigation-tree.svg) ) links neben der Arbeitsfläche, um den Baum anzuzeigen.
+   Klicken Sie auf _Navigationsbaum_-Symbol ( ![Verknüpfungssymbol](../assets/do-not-localize/icon-navigation-tree.svg) ) links neben der Arbeitsfläche, um die Baumstruktur anzuzeigen.
 
-1. Wählen Sie in der Struktur die Stammkomponente **[!UICONTROL Hauptteil]** aus.
+1. Wählen Sie in der Baumstruktur die **[!UICONTROL &quot;]**&quot; aus.
 
-   Im Eigenschaftenbereich rechts neben der Arbeitsfläche wird standardmäßig die Registerkarte _[!UICONTROL Einstellungen]_ angezeigt.
+   Das Eigenschaftenbedienfeld rechts neben der Arbeitsfläche zeigt standardmäßig die Registerkarte _[!UICONTROL Einstellungen]_ an.
 
-1. Aktivieren Sie die Option **[!UICONTROL Governance]** .
+1. Aktivieren Sie die **[!UICONTROL Governance]**-Option.
 
    ![Aktivieren der Governance für eine E-Mail-Vorlage](./assets/governance-template-enable.png){width="800" zoomable="yes"}
 
-   Wenn diese Option aktiviert ist, ist der standardmäßige _[!UICONTROL Modus]_ **[!UICONTROL Schreibgeschützt]**. Wenn dieser Modus auf der Stammebene festgelegt ist, werden alle Elemente in der Vorlage gesperrt. In der Baumstruktur auf der linken Seite wird das Symbol _Schreibgeschützt_ ( ![Schreibgeschütztes Symbol](../assets/do-not-localize/icon-tree-lock.svg) ) neben dem Stamm und allen untergeordneten Elementen angezeigt.
+   Wenn diese Option aktiviert ist, ist der _[!UICONTROL Modus]_ standardmäßig **[!UICONTROL Schreibgeschützt]**. Wenn dieser Modus auf der Stammebene festgelegt ist, werden alle Elemente in der Vorlage gesperrt. In der Baumstruktur auf der linken Seite wird das _Schreibgeschützt_-Symbol ( ![Schreibgeschütztes Symbol](../assets/do-not-localize/icon-tree-lock.svg) ) neben dem Stamm und allen untergeordneten Elementen angezeigt.
 
-1. Um bestimmte Inhalte innerhalb der Vorlage zu sperren, ändern Sie den **[!UICONTROL Modus]** in **[!UICONTROL Inhaltssperrung]**.
+1. Um eine bestimmte Inhaltssperre innerhalb der Vorlage zu aktivieren, ändern Sie **[!UICONTROL Modus]** in **[!UICONTROL Inhaltssperre]**.
 
-   Wenn dieser Modus auf der Stammebene festgelegt ist, werden alle Elemente in der Vorlage entsperrt. In der Baumstruktur auf der linken Seite wird das Symbol _Inhaltssperrung_ ( ![Symbol für Inhaltssperrung](../assets/do-not-localize/icon-tree-content-lock.svg) ) neben dem Stammelement angezeigt. Wenden Sie bei Bedarf die Inhaltssperrung auf die enthaltenen (strukturellen) und individuellen Inhaltskomponenten an.
+   Wenn dieser Modus auf der Stammebene festgelegt ist, werden alle Elemente in der Vorlage entsperrt. In der Baumstruktur auf der linken Seite wird das Symbol _Inhaltssperrung_ ( ![Inhaltssperrsymbol](../assets/do-not-localize/icon-tree-content-lock.svg) ) neben dem Stammelement angezeigt. Wenden Sie die Inhaltssperrung nach Bedarf auf enthaltende (strukturelle) und individuelle Inhaltskomponenten an.
 
-   Aktivieren Sie die Option **[!UICONTROL Content-Addition aktivieren]**, damit Journey-E-Mail-Autoren Struktur- oder Inhaltselemente hinzufügen können. Wählen Sie die Art der Ergänzungen aus, die Sie zulassen möchten:
+   Um E-Mail-Journey-Autoren das Hinzufügen von Struktur- oder Inhaltselementen zu ermöglichen, aktivieren Sie **[!UICONTROL Inhaltshinzufügen aktivieren]**. Wählen Sie die Art der Hinzufügungen aus, die Sie zulassen möchten:
 
-   * **[!UICONTROL Hinzufügen von Struktur und Inhalt zulassen]** - Wählen Sie diese Option, wenn Sie Autoren erlauben möchten, sowohl Struktur- als auch Inhaltselemente hinzuzufügen.
+   * **[!UICONTROL Struktur und Inhaltshinzufügen zulassen]** - Wählen Sie diese Option aus, wenn Sie Autorinnen und Autoren das Hinzufügen sowohl von Struktur- als auch von Inhaltselementen ermöglichen möchten.
 
-   * **[!UICONTROL Nur Inhaltsangebot zulassen]** - Wählen Sie diese Option, wenn Sie zulassen möchten, dass Autoren nur Inhaltselemente hinzufügen können.
+   * **[!UICONTROL Nur Inhaltshinzufügen zulassen]** - Wählen Sie diese Option aus, wenn Sie Autoren erlauben möchten, nur Inhaltselemente hinzuzufügen.
 
-   ![Aktivieren von Inhaltszusätzen](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
+   ![Inhaltszusätze aktivieren](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
-   Wenn dieser Modus auf der Stammebene festgelegt ist, werden alle Elemente in der Vorlage gesperrt. In der Baumstruktur auf der linken Seite wird das Symbol _Schreibgeschützt_ ( ![Schreibgeschütztes Symbol](../assets/do-not-localize/icon-tree-lock.svg) ) neben dem Stamm und allen untergeordneten Elementen angezeigt.
+   Wenn dieser Modus auf der Stammebene festgelegt ist, werden alle Elemente in der Vorlage gesperrt. In der Baumstruktur auf der linken Seite wird das _Schreibgeschützt_-Symbol ( ![Schreibgeschütztes Symbol](../assets/do-not-localize/icon-tree-lock.svg) ) neben dem Stamm und allen untergeordneten Elementen angezeigt.
 <!-- 
 
    
@@ -57,39 +58,38 @@ Nachdem Sie den visuellen Designer zum [Erstellen der Struktur- und Inhaltskompo
 
 ## Anwenden von Sperren auf eine Struktur
 
-Planen Sie mithilfe des strukturellen Vererbungsmodells das Layout und die Struktur Ihrer E-Mail-Vorlage entsprechend der gewünschten Governance. Verwenden Sie die Strukturkomponenten als Container, um Elemente so zu gruppieren, dass sie einfach als gesperrt oder bearbeitbar gekennzeichnet werden können. Wenn der E-Mail-Vorlagenentwurf eingerichtet ist, überprüfen Sie die Struktur und wenden Sie die Sperrfunktionen gemäß Ihrem Plan an.
+Planen Sie mithilfe des strukturellen Vererbungsmodells das Layout und die Struktur Ihrer E-Mail-Vorlage entsprechend der Governance, die Sie anwenden möchten. Verwenden Sie die Strukturkomponenten als Container, um Elemente so zu gruppieren, dass sie leicht als gesperrt oder bearbeitbar gekennzeichnet werden können. Wenn der E-Mail-Vorlagenentwurf eingerichtet ist, überprüfen Sie die Struktur und wenden Sie Sperrfunktionen entsprechend Ihrem Plan an.
 
-Wenn Sie einen Sperrtyp auf Strukturebene anwenden, erhalten Sie eine Standardeinstellung für die untergeordneten Komponenten. Anschließend können Sie bei Bedarf eine bestimmte Sperreinstellung auf Spalten- oder Inhaltselementebene anwenden.
+Wenn Sie einen Sperrtyp auf der Strukturebene anwenden, wird eine Standardeinstellung für die untergeordneten Komponenten bereitgestellt. Sie können dann bei Bedarf eine bestimmte Sperreinstellung auf Spalten- oder Inhaltselementebene anwenden.
 
-1. Klicken Sie auf das Symbol _Navigationsbaum_ ( ![Verknüpfungssymbol](../assets/do-not-localize/icon-navigation-tree.svg) ) links neben der Arbeitsfläche, um den Baum anzuzeigen.
+1. Klicken Sie auf _Navigationsbaum_-Symbol ( ![Verknüpfungssymbol](../assets/do-not-localize/icon-navigation-tree.svg) ) links neben der Arbeitsfläche, um die Baumstruktur anzuzeigen.
 
 1. Wählen Sie die Struktur im Baum aus.
 
-   Im Eigenschaftenbereich rechts neben der Arbeitsfläche wird standardmäßig die Registerkarte _[!UICONTROL Einstellungen]_ angezeigt.
+   Das Eigenschaftenbedienfeld rechts neben der Arbeitsfläche zeigt standardmäßig die Registerkarte _[!UICONTROL Einstellungen]_ an.
 
 1. Legen Sie den **[!UICONTROL Sperrtyp]** fest:
 
-   * **[!UICONTROL Gesperrt]** - Mit dieser Einstellung sind alle untergeordneten Komponenten standardmäßig gesperrt. In der Baumstruktur auf der linken Seite wird das Symbol _Schreibgeschützt_ ( ![Schreibgeschütztes Symbol](../assets/do-not-localize/icon-tree-lock.svg) ) neben allen untergeordneten Komponenten angezeigt.
+   * **[!UICONTROL Gesperrt]** - Mit dieser Einstellung sind alle untergeordneten Komponenten standardmäßig gesperrt. In der Baumstruktur auf der linken Seite wird das _Schreibgeschützt_-Symbol ( ![Schreibgeschütztes Symbol](../assets/do-not-localize/icon-tree-lock.svg) ) neben allen untergeordneten Komponenten angezeigt.
 
-   * **[!UICONTROL Bearbeitbar]** - Mit dieser Einstellung sind alle untergeordneten Komponenten standardmäßig bearbeitbar. In der Baumstruktur auf der linken Seite werden neben den untergeordneten Komponenten keine Symbole angezeigt.
+   * **[!UICONTROL Bearbeitbar]** - Mit dieser Einstellung können alle untergeordneten Komponenten standardmäßig bearbeitet werden. In der Baumstruktur auf der linken Seite werden keine Symbole neben den untergeordneten Komponenten angezeigt.
 
-   ![Anwenden der Inhaltssperrung auf eine Strukturkomponente](./assets/governance-template-structure-locking.png){width="800" zoomable="yes"}
+   ![Wenden Sie Inhaltssperren auf eine Strukturkomponente an](./assets/governance-template-structure-locking.png){width="800" zoomable="yes"}
 
 ## Festlegen der Sperrung für eine untergeordnete Komponente
 
-1. Wählen Sie die Komponente im Baum aus.
+1. Wählen Sie die Komponente im Navigationsbaum aus.
 
-   Im Eigenschaftenbereich rechts neben der Arbeitsfläche wird standardmäßig die Registerkarte _[!UICONTROL Einstellungen]_ angezeigt.
+   Das Eigenschaftenbedienfeld rechts neben der Arbeitsfläche zeigt standardmäßig die Registerkarte _[!UICONTROL Einstellungen]_ an.
 
-1. Aktivieren Sie die Option **[!UICONTROL Spezifisches Sperren verwenden]** .
+1. Aktivieren Sie **[!UICONTROL Option „Spezifische Sperre verwenden]**.
 
-1. Wählen Sie den anzuwendenden Governance-Typ aus:
+1. Wählen Sie die Art der anzuwendenden Governance:
 
    * **[!UICONTROL Bearbeitbar]** - Ermöglicht die vollständige redaktionelle Kontrolle der Komponente beim E-Mail-Authoring.
-   * **[!UICONTROL Nur bearbeitbarer Inhalt]** - Ermöglicht es E-Mail-Autoren, den Inhalt zu ändern, nicht jedoch die Komponente selbst.
-   * **[!UICONTROL Gesperrt]** - Verhindert alle Änderungen an der Komponente während des E-Mail-Authoring.
+   * **[!UICONTROL Nur bearbeitbare Inhalte]** - Ermöglicht E-Mail-Autoren das Ändern des Inhalts, aber nicht der Komponente selbst.
+   * **[!UICONTROL Gesperrt]** - Verhindert Änderungen an der Komponente während des E-Mail-Authorings.
 
-     Bei gesperrten Komponenten können Sie das Entfernen der Komponente während des E-Mail-Authoring zulassen, indem Sie die Option **[!UICONTROL Löschen zulassen]** aktivieren.
+     Bei gesperrten Komponenten können Sie das Entfernen der Komponente während der E-Mail-Bearbeitung zulassen, indem Sie die Option **[!UICONTROL Löschen zulassen]** aktivieren.
 
-   ![Anwenden der Inhaltssperrung auf eine untergeordnete Komponente](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}
-
+   ![Wenden Sie die Inhaltssperre auf eine untergeordnete Komponente an](./assets/governance-template-component-locking.png){width="800" zoomable="yes"}

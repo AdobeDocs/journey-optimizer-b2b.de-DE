@@ -1,10 +1,11 @@
 ---
 title: Intelligentes Dashboard
-description: Erfahren Sie mehr über das Dashboard "Übersicht über Einkaufsgruppen"und wie es den Übergabe für Verkäufe durch das Marketing-Team ermöglicht.
+description: Erfahren Sie mehr über das Dashboard „Einkaufsgruppenübersicht“ und darüber, wie es die Übergabe an das Marketing-Team durch den Verkauf ermöglicht.
 feature: Dashboards, Buying Groups
 hide: true
 hidefromtoc: true
-source-git-commit: f27b0247be252a655e7fb68ee637efdabea959fc
+exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 60%
@@ -21,11 +22,11 @@ ht-degree: 60%
 >title="Käufergruppenphasen"
 >abstract="Dieses Diagramm bietet einen Überblick über die Käufergruppenentwicklung in verschiedenen Phasen, basierend auf den auf der Admin-Seite festgelegten Transitionsregeln. Der erste Balken zeigt die Anzahl der Käufergruppen in einer bestimmten Phase am ersten Datum des ausgewählten Zeitrahmens im Vergleich zur Anzahl der Käufergruppen am letzten Datum des ausgewählten Zeitrahmens."
 
-Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt &quot;Bühnen von Gruppen&quot;.
+Platzhaltertext zur Beschreibung weiterer Details/eines Beispiels für den Abschnitt „Einkaufsgruppenphasen“.
 
-## Gruppenhervorhebungen kaufen {#buying-group-highlights}
+## Einkaufsgruppen-Highlights {#buying-group-highlights}
 
-Platzhalter für den Überblick über die Abschnitte zu den hervorgehobenen Einkaufsgruppen
+Platzhalter für eine Übersicht der Abschnitte mit den Highlights der Einkaufsgruppe
 
 ### Die fünf Käufergruppen mit der stärksten Interaktion {#top-5-by-engagement}
 
@@ -34,7 +35,7 @@ Platzhalter für den Überblick über die Abschnitte zu den hervorgehobenen Eink
 >title="Die fünf Käufergruppen mit der stärksten Interaktion"
 >abstract="Die am stärksten interagierenden Käufergruppen basierend auf ihrem normalisierten Interaktionswert."
 
-Platzhaltertext zur Beschreibung weiterer Details/Beispiele für die Top 5-Einkaufsgruppen nach Interaktion.
+Platzhaltertext, um weitere Details/Beispiele für den Abschnitt „Die 5 wichtigsten Einkaufsgruppen nach Interaktion“ zu beschreiben.
 
 ### Die fünf Käufergruppen mit der höchsten Geschwindigkeit {#top-5-by-velocity}
 
@@ -43,7 +44,7 @@ Platzhaltertext zur Beschreibung weiterer Details/Beispiele für die Top 5-Einka
 >title="Die fünf Käufergruppen mit der höchsten Geschwindigkeit"
 >abstract="Käufergruppen basierend auf der Geschwindigkeit, mit der sie die Phasen durchlaufen."
 
-Platzhaltertext, um weitere Details/Beispiel für den Abschnitt &quot;Top 5-Kaufgruppen mit hoher Geschwindigkeit&quot;zu beschreiben.
+Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt „Die 5 häufigsten Hochgeschwindigkeits-Einkaufsgruppen“.
 
 ### Die fünf am stärksten stagnierenden Käufergruppen {#top-5-stagnant}
 
@@ -52,7 +53,7 @@ Platzhaltertext, um weitere Details/Beispiel für den Abschnitt &quot;Top 5-Kauf
 >title="Die fünf am stärksten stagnierenden Käufergruppen"
 >abstract="Stagnierende Käufergruppen, die trotz hoher Vollständigkeitsbewertung nicht die Phasen durchlaufen."
 
-Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt &quot;Die 5 wichtigsten Kaufgruppen&quot;.
+Platzhaltertext, um weitere Details/Beispiel für den Abschnitt „Top 5 der Kaufgruppen mit stagnierender Tendenz“ zu beschreiben.
 
 ## Konto-Anstieg {#account-surge}
 
@@ -61,11 +62,11 @@ Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt &
 >title="Konto-Anstieg"
 >abstract="Konten mit signifikanter Änderung bei der Interaktionsdynamik innerhalb des ausgewählten Zeitrahmens."
 
-Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt Kontoüberlagerung .
+Platzhaltertext zur Beschreibung weiterer Details/eines Beispiels für den Abschnitt „Kontenschwellenwert“.
 
-## Kontohervorhebungen {#account-highlights}
+## Account-Highlights {#account-highlights}
 
-Platzhalter für den Überblick über die Abschnitte zu den hervorgehobenen Einkaufsgruppen
+Platzhalter für eine Übersicht der Abschnitte mit den Highlights der Einkaufsgruppe
 
 ### Konten mit Anstieg {#surging-accounts}
 
@@ -74,7 +75,7 @@ Platzhalter für den Überblick über die Abschnitte zu den hervorgehobenen Eink
 >title="Konten mit Anstieg"
 >abstract="Konten mit signifikanter Zunahme bei der Interaktionsdynamik im ausgewählten Zeitrahmen "
 
-Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt Surging-Konten .
+Platzhaltertext zur Beschreibung weiterer Details/eines Beispiels für den Abschnitt mit den steigenden Konten.
 
 ### Risikokonten {#at-risk-accounts}
 
@@ -83,7 +84,7 @@ Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt S
 >title="Risikokonten"
 >abstract="Konten mit einer erheblichen Verringerung bei der Interaktionsdynamik innerhalb des ausgewählten Zeitrahmens."
 
-Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt &quot;Risikokonten&quot;.
+Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt „Risikokonten“.
 
 ## Kontaktabdeckung {#contact-coverage}
 
@@ -92,7 +93,7 @@ Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt &
 >title="Kontaktabdeckung"
 >abstract="Zeigt die Anzahl der Kontakte mit einer bestimmten Rolle an, die einem Lösungsinteresse zugeordnet sind. Die Zuordnung von Rolle und Lösungsinteresse basiert auf der Käufergruppenvorlage."
 
-Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt Kontaktaufnahme .
+Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt „Kontaktabdeckung“.
 
 ## Kontaktüberschneidung {#contact-overlap}
 
@@ -101,4 +102,4 @@ Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt K
 >title="Kontaktüberschneidung"
 >abstract="Liste der Kontakte, die zu mehreren Käufergruppen gehören, weil sie mehreren Lösungsinteressen zugeordnet sind."
 
-Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt Kontaktüberschneidung .
+Platzhaltertext zur Beschreibung weiterer Details/Beispiele für den Abschnitt „Kontaktüberschneidung“.

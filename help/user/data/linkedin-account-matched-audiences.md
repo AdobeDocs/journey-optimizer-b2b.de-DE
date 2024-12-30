@@ -1,6 +1,6 @@
 ---
-title: LinkedIn-Konto-Matched Audiences
-description: Erfahren Sie, wie Sie ein LinkedIn-Konto verbinden und einen Datenfluss für den Kauf von Gruppen aktivieren.
+title: Vom linkedIn-Konto abgeglichene Zielgruppen
+description: Erfahren Sie, wie Sie ein LinkedIn-Konto verbinden und einen Datenfluss für Einkaufsgruppen aktivieren.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
 workflow-type: tm+mt
@@ -9,11 +9,11 @@ ht-degree: 8%
 
 ---
 
-# LinkedIn-Konto-Matched Audiences
+# Vom linkedIn-Konto abgeglichene Zielgruppen
 
-Die Journey Optimizer B2B Edition bietet die Möglichkeit, LinkedIn Ad-Zielgruppen über kontengerechte Zielgruppen zu generieren. Sie unterstützt Sie dabei, leere Rollen in Ihren Einkaufsgruppen auszufüllen. Durch Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine mit LinkedIn übereinstimmende Zielgruppe beibehalten, um potenzielle Kunden auszuwählen, die mit Ihren Kundengruppenparametern übereinstimmen. Diese Funktion nutzt Experience Platform-Ziele , um einige Aspekte der Integration zu verwalten. Es gibt eine Grenze von zehn Datenflüssen.
+Journey Optimizer B2B edition bietet die Möglichkeit, LinkedIn-Anzeigenzielgruppen über Zielgruppen mit Kontoabgleich zu generieren, und wurde entwickelt, um Ihnen dabei zu helfen, leere Rollen in Ihren Einkaufsgruppen zu besetzen. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine von LinkedIn übereinstimmende Zielgruppe verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
 
-Bevor Sie einen Datenfluss aus Journey Optimizer B2B Edition starten, müssen Sie über mindestens eine Instanz des Connectors [(Unternehmen) LinkedIn Matched Audience Destination Connector](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn Campaign Manager-Konto verfügen.
+Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors für [(Unternehmen) LinkedIn Matched Audience ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn Campaign Manager-Konto haben.
 
 ## Konfigurieren einer neuen Verbindung mit einem LinkedIn-Konto {#linkedin-destination-setup}
 
@@ -22,7 +22,7 @@ Bevor Sie einen Datenfluss aus Journey Optimizer B2B Edition starten, müssen Si
 >title="Die Einrichtung eines LinkedIn-Ziels ist erforderlich"
 >abstract="Senden Sie nach Einkaufsgruppen gefilterte Konten an ein Linkedin-Ziel, um mit potenziellen Mitgliedern von Einkaufsgruppen zu interagieren. Sie können bis zu 10 Datenflüsse für 10 verschiedene Gruppen gefilterter Konten erstellen. Um mit dieser Funktion zu beginnen, fügen Sie zuerst ein LinkedIn-Ziel hinzu."
 
-1. Wechseln Sie in der linken Navigationsleiste unter Experience Platform zu **[!UICONTROL Verbindungen]** > **[!UICONTROL Ziele]** und wählen Sie die Registerkarte **[!UICONTROL Katalog]** aus.
+1. Navigieren Sie in Experience Platform **[!UICONTROL linken Navigationsbereich zu]** > **[!UICONTROL Ziele]** und wählen Sie die Registerkarte **[!UICONTROL Katalog]** aus.
 
 1. Suchen Sie im Katalog den Connector **[!UICONTROL (Unternehmen) LinkedIn Matched Audience]** .
 
@@ -30,51 +30,51 @@ Bevor Sie einen Datenfluss aus Journey Optimizer B2B Edition starten, müssen Si
    >
    >Sie können den Connector schnell finden, indem Sie `LinkedIn` in das Suchfeld eingeben.
 
-1. Klicken Sie auf der Connector-Karte auf das Symbol _Mehr_ (**...**) und wählen Sie **[!UICONTROL Neues Ziel konfigurieren]**.
+1. Klicken Sie auf der Connector-Karte auf das Symbol _Mehr_ (**…**) und wählen Sie **[!UICONTROL Neues Ziel konfigurieren]**.
 
-   ![Zugreifen auf den Connector (Unternehmen) LinkedIn Matched Audience (Matched Audience)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![Zugriff auf den Connector für (Firmen) mit LinkedIn Matched Audience](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Neues Konto]** und klicken Sie auf **[!UICONTROL Mit Ziel verbinden]**.
 
-   ![Neues LinkedIn-Konto verbinden](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
+   ![Verbinden Sie ein neues LinkedIn-Konto](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
 1. Geben Sie Ihre LinkedIn-Anmeldeinformationen ein und melden Sie sich an.
 
-   Nach der Authentifizierung ist das LinkedIn-Konto als Ziel im Experience Platform verbunden.
+   Nach der Authentifizierung wird das LinkedIn-Konto als Ziel auf Experience Platform verbunden.
 
    ![Die Bestätigung der Kontoverbindung wird angezeigt](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
 
    >[!IMPORTANT]
    >
-   >Geben Sie an dieser Stelle **nicht** die _[!UICONTROL Zieldetails]_ ein. Nur die Verbindung ist erforderlich.
+   >Geben Sie an dieser **nicht** &quot;_[!UICONTROL &quot;]_. Es wird nur die Verbindung benötigt.
 
-## Aktualisieren der Kontodetails
+## Kontodetails aktualisieren
 
-Der Name und die Beschreibung des LinkedIn-Kontos sind für Gruppen in Journey Optimizer B2B Edition sichtbar. Es empfiehlt sich, diese Informationen zu aktualisieren, damit sie für Ihre Marketingexperten, die mit Einkaufsgruppen arbeiten, einfach zu identifizieren sind. Sie können die Kontodetails in der Benutzeroberfläche von Experience Platform oder Journey Optimizer B2B Edition ändern.
+Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen in Journey Optimizer B2B edition sichtbar. Es empfiehlt sich, diese Informationen so zu aktualisieren, dass sie für Ihre Marketing-Fachleute, die mit Einkaufsgruppen arbeiten, leicht erkennbar sind. Sie können die Kontodetails auf der Benutzeroberfläche von Experience Platform oder Journey Optimizer B2B edition ändern.
 
-1. Wechseln Sie im linken Navigationsbereich zu **[!UICONTROL Verbindungen]** > **[!UICONTROL Ziele]** und wählen Sie die Registerkarte **[!UICONTROL Konten]** aus.
+1. Navigieren Sie **[!UICONTROL linken Navigationsbereich zu]** > **[!UICONTROL Ziele]** und wählen Sie die Registerkarte **[!UICONTROL Konten]** aus.
 
-1. Klicken Sie für das neue Konto, das Sie erstellt haben, auf das Menü _Mehr_ (**...**) und wählen Sie **[!UICONTROL Details bearbeiten]**.
+1. Klicken Sie für das neu erstellte Konto auf das Menü _Mehr_ (**…**) und wählen Sie **[!UICONTROL Details bearbeiten]**.
 
    ![Kontodetails bearbeiten](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 
 1. Aktualisieren Sie im Dialogfeld den Namen und die Beschreibung.
 
-   ![Name und Beschreibung bearbeiten](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"}
+   ![Bearbeiten Sie den Namen und die Beschreibung](./assets/destinations-linkedin-account-edit-details-dialog.png){width="500"}
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Konto für Gruppen aktivieren
+## Konto für Einkaufsgruppen aktivieren
 
 >[!NOTE]
 >
->Wenn Sie bereits über zehn Datenflüsse verfügen, können Sie keinen weiteren erstellen. Wenn Sie die maximale Anzahl haben, löschen Sie eine in Experience Platform, bevor Sie eine neue in Journey Optimizer B2B Edition erstellen.
+>Wenn Sie bereits über zehn Datenflüsse verfügen, können Sie keinen weiteren erstellen. Wenn Sie die Höchstgrenze erreicht haben, löschen Sie eine Datei auf Experience Platform, bevor Sie eine neue Datei in Journey Optimizer B2B edition erstellen.
 
-1. Wechseln Sie in Journey Optimizer B2B Edition im linken Navigationsbereich zu **[!UICONTROL Konten]** > **[!UICONTROL Gruppen kaufen]** .
+1. Navigieren Sie in Journey Optimizer B2B edition **[!UICONTROL Konten]** > **[!UICONTROL Einkaufsgruppen]** im linken Navigationsbereich.
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Durchsuchen]** aus.
 
-1. Klicken Sie oben rechts auf &quot;**[!UICONTROL Activate to LinkedIn Destination]**&quot;.
+1. Klicken **[!UICONTROL oben rechts auf „Für LinkedIn]** Ziel aktivieren“.
 
    ![Kontodetails bearbeiten](./assets/activate-linkedin-destination.png){width="800" zoomable="yes"}
 
@@ -84,30 +84,30 @@ Der Name und die Beschreibung des LinkedIn-Kontos sind für Gruppen in Journey O
 
 1. Geben Sie die [Konto-ID Ihres LinkedIn Campaign Manager-Kontos](https://www.linkedin.com/help/lms/answer/a424270) ein.
 
-   Ihre Konto-ID finden Sie anhand Ihres Kontonamens in der Benutzeroberfläche von Campaign Manager .
+   Ihre Konto-ID finden Sie anhand Ihres Kontonamens in der Benutzeroberfläche von Campaign Manager.
 
-   ![Hinzufügen der Datenflusseldetails](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
+   ![Hinzufügen der Datenflussdetails](./assets/destinations-linkedin-activate-details.png){width="700" zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Auswählen von Einkaufsgruppenfiltern]** und definieren Sie die Parameter Ihrer Kontozielgruppe.
+1. Klicken Sie **[!UICONTROL Einkaufsgruppenfilter auswählen]** und definieren Sie die Parameter Ihrer Konto-Audience.
 
    >[!IMPORTANT]
    >
-   >Derzeit können Filter nach der Aktivierung des Datenflusses nicht mehr bearbeitet werden. Überprüfen Sie Ihre Arbeit, bevor Sie den Datenfluss aktivieren.
+   >Derzeit können Filter nicht mehr bearbeitet werden, nachdem der Datenfluss aktiviert wurde. Überprüfen Sie Ihre Arbeit, bevor Sie den Datenfluss aktivieren.
 
-   ![Legen Sie die Zielgruppenfilterung für das Konto entsprechend den Einkaufsgruppen fest](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
+   ![Geben Sie die Filterung der Konto-Zielgruppe nach Einkaufsgruppen an](./assets/destinations-linkedin-activate-buying-group-filters.png){width="400"}
 
-   Für den **[!UICONTROL Interaktionswert]** ist der Operator `Between` inklusive, ebenso wie Prozentbereiche. Beispielsweise liegen 5.1 und 5 beide _zwischen_ 5 und 6.
+   Für den **[!UICONTROL Interaktionswert]** ist der `Between` ebenso inklusiv wie Prozentbereiche. Zum Beispiel sind 5.1 und 5 beide _zwischen_ 5 und 6.
 
    Leere Bedingungen werden wie `Is Any` behandelt.
 
-   Klicken Sie auf **[!UICONTROL Speichern]** , um die angegebenen Filter hinzuzufügen.
+   Klicken Sie **[!UICONTROL Speichern]**, um die angegebenen Filter hinzuzufügen.
 
-1. Klicken Sie auf **[!UICONTROL LinkedIn-Ziel auswählen]** und wählen Sie das konfigurierte LinkedIn-Ziel aus, das Sie verwenden möchten.
+1. Klicken Sie **[!UICONTROL LinkedIn-Ziel auswählen]** und wählen Sie das konfigurierte LinkedIn-Ziel aus, das Sie verwenden möchten.
 
-   Bei Aktivierung erstellt diese Einstellung den Datenfluss mithilfe der Zielkonfiguration und eines entsprechenden virtuellen Segments.
+   Bei Aktivierung erstellt diese Einstellung den Datenfluss mithilfe der Zielkonfiguration und des entsprechenden virtuellen Segments.
 
-1. Überprüfen Sie Ihre Einstellungen und klicken Sie oben rechts auf **[!UICONTROL Aktivieren]** .
+1. Überprüfen Sie Ihre Einstellungen und klicken Sie oben **[!UICONTROL auf]**.
 
-   Klicken Sie erneut im Bestätigungsdialogfeld auf **[!UICONTROL Aktivieren]** .
+   Klicken **[!UICONTROL im Bestätigungsdialogfeld]** erneut auf „Aktivieren“.
 
-   Ein Banner wird mit einem Link zu Ihrem Datenflussmenü in Experience Platform angezeigt, damit Sie den Datenflug-Datensatz überprüfen können.
+   Ein Banner mit einem Link zum Datenflussmenü wird in Experience Platform angezeigt, damit Sie den Datenflussdatensatz überprüfen können.

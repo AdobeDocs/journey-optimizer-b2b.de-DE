@@ -1,19 +1,20 @@
 ---
 title: Verwenden des KI-Assistenten
-description: Erfahren Sie, wie Sie mit AI Assistant die Funktionen der Journey Optimizer B2B Edition optimal nutzen können.
+description: Erfahren Sie, wie Sie mit dem KI-Assistenten die Funktionen von Journey Optimizer B2B edition optimal nutzen können.
 feature: AI Assistant
 level: Beginner
 badgeBeta: label="Beta" type="informative" tooltip="Beta-Funktion"
-source-git-commit: 3d20c8e8b9e5b8bc37274fc170edec80e142ad8e
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+source-git-commit: 6fef470f73bc9df0f8589a5b451dc7e72e52691b
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Verwenden des KI-Assistenten
 
-In Journey Optimizer B2B Edition ist AI Assistant eine Funktion der Benutzeroberfläche, mit der Sie kontobasierte Marketingkonzepte verstehen und schnell zu den Funktionen der Journey Optimizer B2B Edition navigieren und diese kennenlernen können<!-- get operational insights for your specific environment -->. Es ist auch in mehreren Produkten in Adobe Experience Cloud verfügbar.
+In Journey Optimizer B2B edition ist der KI-Assistent eine Funktion der Benutzeroberfläche, mit der Sie Account-basierte Marketing-Konzepte verstehen und schnell zu den Journey Optimizer B2B edition-Funktionen navigieren und mehr darüber erfahren können<!-- get operational insights for your specific environment -->. Es ist auch in mehreren Produkten in Adobe Experience Cloud verfügbar.
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der Kopfzeile. Der KI-Assistent wird in einem Bedienfeld auf der rechten Seite geöffnet.
 
@@ -21,13 +22,13 @@ Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der Kopfzei
 
 >[!IMPORTANT]
 >
->Bevor Sie den AI-Assistenten verwenden können, ist eine Vereinbarung für die generativen AI-Benutzerrichtlinien von Adobe Experience Cloud erforderlich. Weitere Informationen zu dieser Vereinbarung und den Nutzungsrichtlinien finden Sie in den [Adobe Experience Cloud Generative AI User Guidelines](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Bevor Sie den KI-Assistenten verwenden können, ist eine Vereinbarung für die Adobe Experience Cloud Generative AI-Benutzerrichtlinien erforderlich. Weitere Informationen zu dieser Vereinbarung und den Nutzungsrichtlinien finden Sie in den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 
-In Adobe Journey Optimizer B2B Edition unterstützt AI Assistant die folgenden Anwendungsfälle:
+In Adobe Journey Optimizer B2B edition unterstützt der KI-Assistent die folgenden Anwendungsfälle:
 
-* **Produktwissen** (Beta)
+* **Produktkenntnisse** (Beta)
 
-  Produktwissensfragen beziehen sich auf Journey Optimizer B2B Edition-Konzepte zu Adobe Journey Optimizer-Aspekten. Beispiele für Produktwissensfragen sind:
+  Fragen zu Produktkenntnissen beziehen sich auf Journey Optimizer B2B edition-Konzepte, die sich auf Aspekte von Adobe Journey Optimizer beziehen. Einige Beispiele für Fragen zum Produktwissen:
 
    * Wie richte ich SMS-Provider-Konten ein?
    * Wie sende ich eine E-Mail auf einer Konto-Journey?
@@ -46,14 +47,14 @@ In Adobe Journey Optimizer B2B Edition unterstützt AI Assistant die folgenden A
     >
     >The only Adobe Journey Optimizer B2B Edition object you have access to ask the AI Assistant operational insights questions about is **Journeys**. It will only have data for the sandbox you are currently in.
 -->
-Um eine Frage zu stellen, geben Sie sie in das Feld am unteren Rand des Bedienfelds ein und drücken Sie die Eingabetaste.
+Um eine Frage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste.
 
 ![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-ask-question.png){width="450" zoomable="yes"}
 
-Überprüfen Sie die Antwort und verwenden Sie die Schaltfläche **Quellen anzeigen** , um direkte Links zur Produktdokumentation zu erhalten und mehr zu erfahren.
+Überprüfen Sie die Antwort und verwenden Sie die Schaltfläche **Quellen anzeigen** um direkte Links zur Produktdokumentation zu erhalten und mehr zu erfahren.
 
-![Ergebnisse aus der AI Assistant-Abfrage](./assets/ai-assistant-answer.png){width="450" zoomable="yes"}
+![Ergebnisse aus der Abfrage des KI-Assistenten](./assets/ai-assistant-answer.png){width="450" zoomable="yes"}
 
-Verwenden Sie den Daumen nach oben oder den Daumen nach unten, um die Qualität der Antwort zu bewerten.
+Mit dem Daumen hoch oder Daumen runter können Sie die Qualität der Antwort bewerten.
 
-Informationen zur Verwendung des KI-Assistenten finden Sie in der Beispieldokumentation [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}. Weitere Informationen dazu finden Sie unter Beispiele für Ziele, die Sie mit dem KI-Assistenten erreichen können.
+Informationen zur Verwendung des KI-Assistenten finden Sie unter Beispielziele, die Sie mit dem KI-Assistenten erreichen können, und Informationen zur Funktionsweise des KI-Assistenten finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.

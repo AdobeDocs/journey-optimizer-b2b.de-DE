@@ -10,7 +10,7 @@ ht-degree: 2%
 
 # Inhaltserstellung - Personalisierung
 
-Journey Optimizer B2B Edition verwendet eine einfache Inline-Syntax, mit der Sie Ausdrücke mit personalisierten Inhalten erstellen können, die durch doppelte geschweifte Klammern `{}` eingeschlossen sind. Sie können im selben Inhalt oder Feld mehrere Ausdrücke ohne Einschränkungen hinzufügen.
+Journey Optimizer B2B edition verwendet eine einfache Inline-Syntax, mit der Sie Ausdrücke mit personalisierten Inhalten erstellen können, die von `{}` geschweiften Klammern eingeschlossen sind. Sie können ohne Einschränkungen mehrere Ausdrücke in demselben Inhalt oder Feld hinzufügen.
 
 Beispiele:
 
@@ -18,18 +18,18 @@ Beispiele:
 
 * `Hello {{profile.person.name.fullName}}`
 
-Bei der Verarbeitung der Nachricht (E-Mail und SMS) ersetzt Journey Optimizer B2B Edition den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten. Das erste Beispiel lautet also _Hallo, Max Mustermann_.
+Bei der Verarbeitung der Nachricht (E-Mail und SMS) ersetzt Journey Optimizer B2B edition den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten. Das erste Beispiel wird also _Hallo, Max Mustermann_.
 
-Im folgenden Beispiel werden Schritte zum Personalisieren von Inhalten mit Lead-/Kontoattributen und System-Token beschrieben.
+Im folgenden Beispiel werden die Schritte zum Personalisieren von Inhalten mit Lead-/Kontoattributen und System-Token beschrieben.
 
-1. Wählen Sie die Textkomponente aus und klicken Sie in der Symbolleiste auf das Symbol _Personalisierung hinzufügen_ .
+1. Wählen Sie die Textkomponente aus und klicken Sie auf das Symbol _Personalisierung hinzufügen_ in der Symbolleiste.
 
-   ![Klicken Sie auf das Personalisierungssymbol](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![Klicken Sie auf das Symbol Personalisieren ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet.
 
-1. Klicken Sie auf **+** oder **...** , um dem leeren Bereich ein Token hinzuzufügen.
+1. Klicken Sie auf **+** oder **…**, um dem Leerzeichen ein Token hinzuzufügen.
 
-   ![Erstellen von personalisiertem Text mithilfe von Token](../assets/content-design-shared/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
+   ![Personalisierten Text mithilfe von Token erstellen](../assets/content-design-shared/visual-designer-personalize-dialog.png){width="700" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

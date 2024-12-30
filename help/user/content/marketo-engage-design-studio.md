@@ -1,6 +1,6 @@
 ---
 title: Arbeiten mit Marketo Engage Assets
-description: Erfahren Sie mehr über die Verwendung der Marketo Engage Design Studio Asset Management-Integration in Journey Optimizer B2B edition.
+description: Erfahren Sie mehr über die Verwendung der Asset-Management-Integration von Marketo Engage Design Studio in Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
 source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # Arbeiten mit Marketo Engage-Assets
 
-Marketo Engage Design Studio ist die Standard-Asset-Quelle für Journey Optimizer B2B edition. Sie können die verfügbaren Assets in den Inhalten für Ihre Konto-Journey einfach verwalten und verwenden.
+Marketo Engage Design Studio ist die standardmäßige Asset-Quelle für Journey Optimizer B2B edition. Sie können die verfügbaren Assets im Inhalt für die Journey Ihres Kontos einfach verwalten und verwenden.
 
-In Marketo Engage verwenden Marketingunternehmen Arbeitsbereiche, um ihre Inhalts-Assets zu organisieren und Teams beim Zugriff auf das richtige Asset zu unterstützen. Gut definierte Arbeitsbereiche sind besonders für große Unternehmen hilfreich, die über ein großes Produktportfolio verfügen oder global mit unterschiedlichen Anforderungen an das Marketing in verschiedenen Regionen arbeiten.
+Beim Marketo Engage verwenden Marketing-Organisationen Arbeitsbereiche, um ihre Inhalts-Assets zu organisieren, und helfen Teams beim Zugriff auf das richtige Asset. Gut definierte Arbeitsbereiche sind besonders hilfreich für große Unternehmen, die über ein großes Portfolio an Produktangeboten verfügen oder global mit unterschiedlichen Anforderungen für das Marketing in verschiedenen Regionen arbeiten.
 
-## Zentrales Asset-Management
+## Zentrale Vermögensverwaltung
 
-Standardmäßig gibt es einen Arbeitsbereich vom Typ **_[!UICONTROL Journey Optimizer B2B edition]_** , den Sie speziell für Ihre Journey verwenden können. Die Assets, die Sie diesem Arbeitsbereich hinzufügen, sind nicht sichtbar oder stehen nicht zum Marketo Engage zur Verfügung. Bei Assets, die sich in diesem Arbeitsbereich befinden, verfügen Sie über alle Asset-Management-Funktionen in Journey Optimizer B2B edition. Zu diesen Funktionen gehören:
+Standardmäßig gibt es einen **_[!UICONTROL Journey Optimizer B2B edition]_**-Arbeitsbereich, den Sie speziell für die Journey-Inhalte Ihres Kontos verwenden können. Die Assets, die Sie diesem Arbeitsbereich hinzufügen, sind nicht sichtbar oder für die Verwendung im Marketo Engage nicht verfügbar. Für Assets, die sich in diesem Arbeitsbereich befinden, stehen alle Asset-Management-Funktionen in Journey Optimizer B2B edition zur Verfügung. Zu diesen Funktionen gehören:
 
 * Ersetzen
 * Löschen
 * Verschieben
 
-Assets in den Marketo Engage-Arbeitsbereichen ist auf schreibgeschützten Zugriff für E-Mails, E-Mail-Vorlagen und Fragmente beschränkt. Sie können diesen Arbeitsbereichen neue Assets hinzufügen und eine Kopie eines Assets herunterladen.
+Assets in den Marketo Engage-Arbeitsbereichen ist auf schreibgeschützten Zugriff zur Verwendung in E-Mails, E-Mail-Vorlagen und Fragmenten beschränkt. Sie können diesen Arbeitsbereichen neue Assets hinzufügen und eine Kopie eines Assets herunterladen.
 
-## Assets durchsuchen und aufrufen
+## Durchsuchen von und Zugreifen auf Assets
 
-Um von Journey Optimizer B2B edition aus auf Adobe Marketo Engage-Assets zuzugreifen, navigieren Sie zur linken Navigation und klicken Sie auf **[!UICONTROL Content Management]** > **[!UICONTROL Assets]**. Durch diese Aktion wird eine Listenseite mit allen aufgelisteten Assets geöffnet.
+Um von Journey Optimizer B2B edition aus auf Adobe Marketo Engage-Assets zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Assets]**. Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
 
-![Marketo Engage-Assets durchsuchen](assets/assets-list-page.png){width="800" zoomable="yes"}
+![Durchsuchen von Marketo Engage-Assets](assets/assets-list-page.png){width="800" zoomable="yes"}
 
 Der Journey Optimizer B2B edition-Arbeitsbereich ist standardmäßig ausgewählt. Die anderen Arbeitsbereiche sind unten aufgeführt.
 
-* Um die Assets nach Arbeitsbereich und Ordner anzuzeigen, öffnen Sie die Struktur, indem Sie auf das Symbol _Ordner anzeigen_ oben links klicken.
+* Um die Assets nach Arbeitsbereich und Ordner anzuzeigen, öffnen Sie die Struktur, indem _oben links auf_ Symbol „Ordner anzeigen“ klicken.
 
-* Um die Tabelle nach einer der Spalten zu sortieren, klicken Sie auf den Spaltentitel. Der Pfeil in der Titelzeile zeigt die aktuelle Sortierungsspalte und -reihenfolge an.
+* Um die Tabelle nach einer der Spalten zu sortieren, klicken Sie auf den Spaltentitel. Der Pfeil in der Titelzeile zeigt die aktuelle Sortierspalte und -reihenfolge an.
 
-* Um innerhalb des ausgewählten Arbeitsbereichs oder Ordners nach einem Bild-Asset zu suchen, geben Sie in die Suchleiste eine Textzeichenfolge ein.
+* Um im ausgewählten Arbeitsbereich oder Ordner nach einem Bild-Asset zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste ein.
 
-* Um die in der Tabelle angezeigten Spalten anzupassen, klicken Sie oben rechts auf das Symbol _Tabelle anpassen_ ( ![Tabelle anpassen](../assets/do-not-localize/icon-column-settings.svg) ).
+* Um die in der Tabelle angezeigten Spalten anzupassen, klicken Sie auf das Symbol _Tabelle anpassen_ ( ![Tabelle anpassen](../assets/do-not-localize/icon-column-settings.svg) ) oben rechts.
 
   Wählen Sie die Spalten aus, die in der Liste angezeigt werden sollen, und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -48,115 +48,115 @@ Der Journey Optimizer B2B edition-Arbeitsbereich ist standardmäßig ausgewählt
 
 Klicken Sie auf den Namen eines Assets, um die Asset-Detailseite zu öffnen.
 
-![Zugreifen auf Asset-Details](assets/assets-details.png){width="700" zoomable="yes"}
+![Zugriff auf Asset-Details](assets/assets-details.png){width="700" zoomable="yes"}
 
-## Von Verweisen verwendetes Asset anzeigen
+## Anzeigen von durch Verweise verwendeten Assets
 
-Klicken Sie auf der Asset-Detailseite auf die Registerkarte &quot;**[!UICONTROL Verwendet von]**&quot;, um Details dazu anzuzeigen, wo das Asset derzeit in Journey Optimizer B2B edition verwendet wird - für E-Mails, E-Mail-Vorlagen und Fragmente.
+Klicken Sie auf der Seite mit den Asset-Details auf die Registerkarte **[!UICONTROL Verwendet von]**, um Details zur aktuellen Verwendung des Assets in Journey Optimizer B2B edition sowie zu E-Mails, E-Mail-Vorlagen und Fragmenten anzuzeigen.
 
 >[!IMPORTANT]
 >
->Assets, die derzeit _IN USE_ in E-Mails, E-Mail-Vorlagen oder Fragmenten **sind, können nicht** gelöscht werden.
+>Assets, die derzeit in _E_ Mails, E-Mail-Vorlagen oder Fragmenten VERWENDET) sind **können** gelöscht werden.
 
-Im Bereich werden die Verweise nach Kategorie angezeigt: _E-Mail_, _E-Mail-Vorlage_ oder _Fragment_. E-Mails in Journey Optimizer B2B edition werden in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die das Asset verwendet, in Verweisen angezeigt wird.
+Im Bedienfeld werden die Verweise nach Kategorie angezeigt: _E_, _E-Mail-Vorlage_ oder _Fragment_. E-Mails in Journey Optimizer B2B edition sind in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die das Asset verwendet, als Referenzen angezeigt wird.
 
-Durch Klicken auf den Link gelangen Sie zur entsprechenden E-Mail, E-Mail-Vorlage oder zum Fragment, in dem das Asset verwendet wird.
+Durch Klicken auf den Link werden Sie zu der entsprechenden E-Mail, E-Mail-Vorlage oder dem Fragment weitergeleitet, in der bzw. dem das Asset verwendet wird.
 
 ![Anzeigen der Inhaltselemente, die das Asset verwenden](assets/assets-used-by.png){width="700" zoomable="yes"}
 
 ## Hinzufügen von Assets
 
-Auf der Assets-Listenseite können Sie Bild-Assets zum Journey Optimizer B2B edition-Arbeitsbereich oder einem Marketo Engage-Arbeitsbereich hinzufügen.
+Auf der Assets-Listenseite können Sie Bild-Assets zum Journey Optimizer B2B edition-Arbeitsbereich oder zum Marketo Engage-Arbeitsbereich hinzufügen.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Assets hinzufügen]** .
+1. Klicken **[!UICONTROL oben]** auf &quot;Assets hinzufügen“.
 
-1. Ziehen Sie im Dialogfeld _[!UICONTROL Assets hinzufügen]_ eine oder mehrere Dateien aus Ihrem System in das Dateifeld.
+1. Ziehen Sie _[!UICONTROL Dialogfeld]_ Assets hinzufügen“ per Drag-and-Drop eine oder mehrere Dateien aus Ihrem System in das Feld „Datei“.
 
    ![Hinzufügen von Assets zu einem Arbeitsbereich](./assets/assets-add-dialog.png){width="500"}
 
-   Sie können auch auf den Link _[!UICONTROL Datei von Ihrem Computer auswählen]_ klicken, um mithilfe des lokalen Dateisystems Dateien zu suchen und auszuwählen.
+   Sie können auch auf den Link _[!UICONTROL Datei auf Ihrem Computer auswählen]_ klicken, um Ihr lokales Dateisystem zum Suchen und Auswählen von Dateien zu verwenden.
 
-   Sie können Assets aus Ihrem lokalen System mit bis zu 10 Dateien gleichzeitig hochladen. Die maximale Dateigröße beträgt 100 MB.
+   Sie können Assets von Ihrem lokalen System mit bis zu 10 Dateien gleichzeitig hochladen. Die maximale Dateigröße beträgt 100 MB.
 
-   Die Dateinamen der ausgewählten Bilder werden im Dialogfeld angezeigt. Asset-Dateinamen müssen eindeutig sein (ordnerübergreifend). Wenn bereits eine Datei mit dem Namen vorhanden ist, wird eine Meldung angezeigt. Namen können maximal 100 Zeichen lang sein und dürfen keine Sonderzeichen wie `;`, `:`, `\` und `|` enthalten.
+   Die Dateinamen der ausgewählten Bilder werden im Dialogfeld angezeigt. Asset-Dateinamen müssen eindeutig sein (in allen Ordnern). Wenn bereits eine Datei mit dem Namen vorhanden ist, wird eine Meldung angezeigt. Namen dürfen maximal 100 Zeichen lang sein und keine Sonderzeichen enthalten (beispielsweise `;`, `:`, `\` und `|`).
 
 1. Wählen Sie den Zielarbeitsbereich oder -ordner aus, um die Assets zu speichern.
 
    >[!NOTE]
    >
-   >Wenn Sie einen Speicherort im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ auswählen, können Sie das Asset in der App verwalten. Wenn Sie das Asset zu einem Marketo Engage-Arbeitsbereich hinzufügen, sind Asset-Management-Funktionen nur in Marketo Engage Design Studio verfügbar.
+   >Wenn Sie einen Speicherort im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ auswählen, können Sie das Asset in der App verwalten. Wenn Sie das Asset einem Marketo Engage-Arbeitsbereich hinzufügen, stehen die Asset-Management-Funktionen nur im Marketo Engage Design Studio zur Verfügung.
 
-1. Wenn Sie Dateien beim Hochladen einer oder mehrerer Dateien mit einem vorhandenen Dateinamen überschreiben (ersetzen) möchten, aktivieren Sie das Kontrollkästchen **[!UICONTROL Vorhandene Dateien überschreiben]** .
+1. Um Dateien beim Hochladen einer oder mehrerer Dateien mit einem vorhandenen Dateinamen zu überschreiben (zu ersetzen), aktivieren Sie das Kontrollkästchen **[!UICONTROL Vorhandene Dateien überschreiben]**.
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
 ## Löschen von Assets
 
-Assets, die derzeit in E-Mails, E-Mail-Vorlagen oder Fragmenten verwendet werden, können nicht gelöscht werden. Überprüfen Sie die von den Verweisen verwendeten Verweise, bevor Sie eine Asset-Entfernung starten. Eine Löschaktion kann nicht rückgängig gemacht werden. Überprüfen Sie daher, bevor Sie eine Löschaktion starten.
+Assets, die derzeit in E-Mails, E-Mail-Vorlagen oder Fragmenten verwendet werden, können nicht gelöscht werden. Überprüfen Sie die von verwendeten Referenzen, bevor Sie mit dem Entfernen eines Assets beginnen. Außerdem kann eine Löschaktion nicht rückgängig gemacht werden. Überprüfen Sie dies, bevor Sie eine Entfernungsaktion starten.
 
 Verwenden Sie eine der folgenden Methoden, um ein Asset zu löschen, das sich im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ befindet:
 
-* Wechseln Sie zu den Asset-Details und klicken Sie auf **[!UICONTROL ... Mehr]** oben rechts und wählen Sie **[!UICONTROL Löschen]** aus den Optionen aus.
+* Gehen Sie zu den Asset-Details und klicken Sie auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Löschen]** aus den Optionen aus.
 
-  ![Zugreifen auf Aktionen für das Asset](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
+  ![Zugriff auf Aktionen für das Asset](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* Klicken Sie auf der Listenseite _[!UICONTROL Assets]_ auf das Symbol _Mehr_ (**[!UICONTROL ...]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Löschen]** aus den Optionen aus.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Löschen]** aus den Optionen.
 
-  ![Zugreifen auf Aktionen für das Asset](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
+  ![Zugriff auf Aktionen für das Asset](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
   >[!NOTE]
   >
-  >Im Menü _Mehr_ stehen nur Assets zur Asset-Verwaltung zur Verfügung, die sich im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ befinden.
+  >Nur Assets, die sich im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ befinden, verfügen über Asset-Management-Funktionen im Menü _Mehr_.
 
-Durch diese Aktion wird ein Bestätigungsdialogfeld geöffnet. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
+Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
-Wenn das Asset derzeit verwendet wird, öffnet die Aktion ein Informationsdialogfeld, das Sie darauf hinweist, dass es nicht gelöscht werden kann. Klicken Sie auf **[!UICONTROL OK]** , wodurch das Entfernen abgebrochen wird.
+Wenn das Asset derzeit verwendet wird, wird durch die Aktion ein Informationsdialogfeld geöffnet, in dem Sie darauf hingewiesen werden, dass es nicht gelöscht werden kann. Klicken Sie auf **[!UICONTROL OK]**, wodurch die Entfernung abgebrochen wird.
 
-## Assets ersetzen
+## Ersetzen von Assets
 
-Verwenden Sie eine der folgenden Methoden, um ein Asset im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ zu ersetzen:
+Verwenden Sie eine der folgenden Methoden, um ein Asset zu ersetzen, das sich im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ befindet:
 
-* Wechseln Sie zu den Asset-Details und klicken Sie auf **[!UICONTROL ... Mehr]** oben rechts und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
+* Gehen Sie zu den Asset-Details und klicken Sie auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
 
-* Klicken Sie auf der Listenseite _[!UICONTROL Assets]_ auf das Symbol _Mehr_ (**[!UICONTROL ...]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
 
-Ziehen Sie im Dialogfeld _[!UICONTROL Asset ersetzen]_ die Ersatzdatei aus Ihrem System in das Dateifeld. Sie können auch auf den Link _[!UICONTROL Datei von Ihrem Computer auswählen]_ klicken, um mithilfe Ihres lokalen Dateisystems eine Datei auszuwählen. (Wenn Sie mehrere Dateien in Ihrem lokalen System auswählen, wird die erste ausgewählte Datei für den Austausch verwendet.)
+Ziehen _[!UICONTROL im Dialogfeld]_ Asset ersetzen“ die Ersatzdatei per Drag-and-Drop von Ihrem System in das Feld „Datei“. Sie können auch auf den Link _[!UICONTROL Datei auf Ihrem Computer auswählen]_ klicken, um Ihr lokales Dateisystem zur Auswahl einer Datei zu verwenden. (Wenn Sie mehrere Dateien in Ihrem lokalen System auswählen, wird die erste ausgewählte Datei für den Ersatz verwendet.)
 
-![Dialogfeld &quot;Asset ersetzen&quot;](./assets/assets-replace-dialog.png){width="500"}
+![Dialogfeld „Asset ersetzen“](./assets/assets-replace-dialog.png){width="500"}
 
-Um fortzufahren, klicken Sie auf **[!UICONTROL Ersetzen]**. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
+Klicken Sie auf &quot;**[!UICONTROL &quot;, um]**. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 
-Wenn die zu ersetzende Datei derzeit verwendet wird, werden Sie durch ein Informationsdialogfeld darauf hingewiesen, dass die neue Bilddatei das Bild an allen Stellen ersetzt, an denen es verwendet wird (E-Mails, E-Mail-Vorlagen und Fragmente).
+Wenn die zu ersetzende Datei derzeit verwendet wird, werden Sie in einem informativen Dialogfeld darauf hingewiesen, dass die neue Bilddatei das Bild an allen Stellen ersetzt, an denen es verwendet wird (E-Mails, E-Mail-Vorlagen und Fragmente).
 
 ## Herunterladen von Assets
 
 Sie können ein Asset mit einer der folgenden Methoden herunterladen:
 
-* Wechseln Sie zu den Asset-Details und klicken Sie oben rechts auf **[!UICONTROL Download]** .
+* Gehen Sie zu den Asset-Details und klicken **[!UICONTROL oben]** auf „Herunterladen“.
 
-* Klicken Sie auf der Listenseite _[!UICONTROL Assets]_ auf die Option _Ellipse_ (**[!UICONTROL ...]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Download]** aus den Optionen aus.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen.
 
-Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Herunterladen]** , um den Download des Assets auf Ihr lokales System zu starten. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
+Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Herunterladen]**, um das Herunterladen des Assets auf Ihr lokales System zu starten. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 
-## Anwenden von Massenaktionen auf ausgewählte Assets
+## Massenaktionen auf ausgewählte Assets anwenden
 
-Wählen Sie auf der Listenseite (_[!UICONTROL Content Management]_ > _[!UICONTROL Assets]_) mehrere Assets gleichzeitig aus, indem Sie jedes Kontrollkästchen links neben dem Asset aktivieren. Unten wird ein Nachrichtenbanner angezeigt, wenn Sie mehrere Assets auswählen.
+Wählen Sie auf der Listenseite (_[!UICONTROL Content-Management]_ > _[!UICONTROL Assets]_) mehrere Assets gleichzeitig aus, indem Sie die einzelnen Kontrollkästchen links auswählen. Ein Nachrichtenbanner wird unten angezeigt, wenn Sie mehrere Assets auswählen.
 
 ![Ausgewählte Assets](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-Sie können die folgenden Massenaktionen für ausgewählte Assets ausführen, die sich im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ befinden:
+Sie können die folgenden Massenaktionen für ausgewählte Assets durchführen, die sich im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ befinden:
 
 +++Verschieben von Assets
 
 1. Klicken Sie im Auswahlbanner auf **[!UICONTROL Verschieben]**.
 
-   Dadurch wird das Dialogfeld _[!UICONTROL Assets verschieben]_ geöffnet, in dem die Namen der ausgewählten Assets aufgelistet werden und Sie den Ordner _target_ auswählen können, in den Sie diese Assets verschieben möchten.
+   Dadurch wird das Dialogfeld _[!UICONTROL Assets verschieben]_ geöffnet, in dem die Namen der ausgewählten Assets aufgelistet werden und Sie den _Zielordner_ auswählen können, in den Sie diese Assets verschieben möchten.
 
-1. Wählen Sie einen Ordner.
+1. Ordner auswählen.
 
-   Der Pfad wird neben &quot;_[!UICONTROL Ausgewählte Assets&quot;in &quot;]_&quot;aktualisiert.
+   Der Pfad wird neben _[!UICONTROL Ausgewählte Assets werden verschoben nach:]_.
 
-1. Klicken Sie auf **[!UICONTROL Verschieben]**.
+1. Klicken Sie **[!UICONTROL Verschieben]**.
 
 +++
 
@@ -164,57 +164,57 @@ Sie können die folgenden Massenaktionen für ausgewählte Assets ausführen, di
 
 >[!NOTE]
 >
->Sie können eine Massenlöschung für maximal 20 ausgewählte Assets anwenden.
+>Sie können einen Massenlöschvorgang für maximal 20 ausgewählte Assets anwenden.
 
 1. Klicken Sie im Auswahlbanner auf **[!UICONTROL Löschen]**.
 
 1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
 
-   Wenn eines der ausgewählten Assets aktuell verwendet wird, wird das Entfernen des Assets abgebrochen und eine Warnmeldung angezeigt.
+   Wenn eines der ausgewählten Assets derzeit verwendet wird, wird das Entfernen dieses Assets abgebrochen und eine Warnmeldung wird angezeigt.
 
 +++
 
-## Ordner erstellen
+## Erstellen eines Ordners
 
-1. Klicken Sie auf der Listenseite _[!UICONTROL Assets]_ oben rechts auf **[!UICONTROL Ordner erstellen]** .
+1. Klicken Sie auf der ]__[!UICONTROL  Assets **[!UICONTROL oben rechts auf]** Ordner erstellen“.
 
-1. Geben Sie im Dialogfeld den Ordnernamen ein und wählen Sie den (übergeordneten) Zielordner für den neuen Ordner aus.
+1. Geben Sie im Dialogfeld den Ordnernamen ein und wählen Sie den Ziel-(übergeordneten) Ordner für den neuen Ordner aus.
 
-   Ordnernamen müssen eindeutig sein, dürfen maximal 100 Zeichen lang sein und dürfen keine Sonderzeichen wie `;`, `:`, `\`, `|` enthalten.
+   Ordnernamen müssen eindeutig sein und dürfen maximal 100 Zeichen lang sein. Sie dürfen keine Sonderzeichen wie `;`, `:`, `\` oder `|` enthalten.
 
-   ![Dialogfeld &quot;Ordner erstellen&quot;](./assets/assets-create-folder-dialog.png){width="500"}
+   ![Dialogfeld „Ordner erstellen“](./assets/assets-create-folder-dialog.png){width="500"}
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-## Aktionen auf Ordnerebene anwenden
+## Anwenden von Aktionen auf Ordnerebene
 
-Im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ können Sie Aktionen auf einen Ordner oder Assets im Ordner anwenden. Klicken Sie auf das Symbol _Mehr_ (**...**) neben dem Ordner, um die Aktionen anzuzeigen, die Sie darauf anwenden können.
+Im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ können Sie Aktionen auf einen Ordner oder Assets im Ordner anwenden. Klicken Sie auf das _Mehr_-Symbol (**…**) neben dem Ordner, um die Aktionen anzuzeigen, die Sie darauf anwenden können.
 
-![Anwenden von Aktionen auf einen Ordner oder Assets im Ordner](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
+![Aktionen auf einen Ordner oder Assets im Ordner anwenden](./assets/assets-folder-menu-options.png){width="700" zoomable="yes"}
 
 Sie können die folgenden Aktionen auf Ordnerebene ausführen:
 
-+++Hinzufügen von Assets
++++Assets hinzufügen
 
 1. Wählen Sie **[!UICONTROL Assets hinzufügen]** aus, um Bilddateien in den Ordner hochzuladen.
 
-1. Ziehen Sie die Dateien im Dialogfeld _[!UICONTROL Assets hinzufügen]_ aus Ihrem System. Sie können auch auf den Link klicken, um Ihr Dateisystem zur Auswahl der Dateien zu verwenden.
+1. Ziehen Sie _[!UICONTROL Dialogfeld „Assets hinzufügen]_ die Dateien per Drag-and-Drop aus Ihrem System. Sie können auch auf den Link klicken, um Ihr Dateisystem zur Auswahl der Dateien zu verwenden.
 
-   Sie können Assets aus Ihrem lokalen System mit bis zu 10 Dateien gleichzeitig hinzufügen. Sie können Dateien beim Hochladen einer oder mehrerer Dateien mit einem vorhandenen Dateinamen überschreiben.
+   Sie können Assets aus Ihrem lokalen System mit bis zu 10 Dateien gleichzeitig hinzufügen. Sie haben die Möglichkeit, Dateien zu überschreiben, wenn Sie eine oder mehrere Dateien mit einem vorhandenen Dateinamen hochladen.
 
-   Die Dateinamen der ausgewählten Bilder werden im Dialogfeld angezeigt. Asset-Dateinamen müssen eindeutig sein (ordnerübergreifend). Wenn eine Datei mit dem Namen bereits vorhanden ist, wird eine Fehlermeldung angezeigt. Namen können maximal 100 Zeichen lang sein und dürfen keine Sonderzeichen wie `;`, `:`, `\` und `|` enthalten.
+   Die Dateinamen der ausgewählten Bilder werden im Dialogfeld angezeigt. Asset-Dateinamen müssen eindeutig sein (in allen Ordnern). Wenn bereits eine Datei mit dem Namen vorhanden ist, wird eine Fehlermeldung angezeigt. Namen dürfen maximal 100 Zeichen lang sein und keine Sonderzeichen enthalten (beispielsweise `;`, `:`, `\` und `|`).
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
 +++
 
-+++Unterordner erstellen
++++Erstellen eines Unterordners
 
-1. Wählen Sie **[!UICONTROL Ordner erstellen]** aus.
+1. Wählen Sie **[!UICONTROL Ordner erstellen]**.
 
 1. Geben Sie im Dialogfeld den Ordnernamen ein.
 
-   Ordnernamen müssen eindeutig sein, dürfen maximal 100 Zeichen lang sein und dürfen keine Sonderzeichen wie `;`, `:`, `\`, `|` enthalten.
+   Ordnernamen müssen eindeutig sein und dürfen maximal 100 Zeichen lang sein. Sie dürfen keine Sonderzeichen wie `;`, `:`, `\` oder `|` enthalten.
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
@@ -226,68 +226,68 @@ Sie können die folgenden Aktionen auf Ordnerebene ausführen:
 
 1. Geben Sie im Dialogfeld den neuen Ordnernamen ein.
 
-   Ordnernamen müssen eindeutig sein, dürfen maximal 100 Zeichen lang sein und dürfen keine Sonderzeichen wie `;`, `:`, `\`, `|` enthalten.
+   Ordnernamen müssen eindeutig sein und dürfen maximal 100 Zeichen lang sein. Sie dürfen keine Sonderzeichen wie `;`, `:`, `\` oder `|` enthalten.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 +++
 
-+++Ordner verschieben
++++Verschieben des Ordners
 
-1. Um den Ordner in einen anderen übergeordneten Ordner zu verschieben, wählen Sie &quot;**[!UICONTROL Verschieben]**&quot;.
+1. Um den Ordner in einen anderen übergeordneten Ordner zu verschieben, wählen Sie **[!UICONTROL Verschieben]** aus.
 
 1. Wählen Sie im Dialogfeld den Zielordner als neuen übergeordneten Ordner für den Unterordner aus.
 
-1. Klicken Sie auf **[!UICONTROL Verschieben]**.
+1. Klicken Sie **[!UICONTROL Verschieben]**.
 
-   Wenn Sie versuchen, einen Ordner in einen seiner eigenen Unterordner (innerhalb der Struktur des ausgewählten Ordners) zu verschieben, wird eine Fehlermeldung angezeigt und der Verschiebevorgang wird abgebrochen.
+   Wenn Sie versuchen, einen Ordner in einen seiner eigenen Unterordner zu verschieben (innerhalb der Struktur des ausgewählten Ordners), wird eine Fehlermeldung angezeigt und der Verschieben wird abgebrochen.
 
 +++
 
-+++Ordner löschen
++++Löschen des Ordners
 
-1. Wählen Sie **[!UICONTROL Löschen]** aus.
+1. Wählen Sie **[!UICONTROL Löschen]**.
 
 1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
 
-Wenn eines der Assets im Ordner derzeit verwendet wird, öffnet die Aktion ein Warndialogfeld, um Sie darüber zu informieren, dass das Asset nicht gelöscht werden kann. Klicken Sie auf **[!UICONTROL OK]** , wodurch das Entfernen abgebrochen wird.
+Wenn eines der Assets im Ordner derzeit verwendet wird, wird ein Warndialogfeld geöffnet, in dem Sie darüber informiert werden, dass es nicht gelöscht werden kann. Klicken Sie auf **[!UICONTROL OK]**, wodurch die Entfernung abgebrochen wird.
 
 +++
 
-+++Konvertieren in einen Archivordner
++++In Archivordner konvertieren
 
-Durch die Archivierung eines Ordners sind die darin enthaltenen Dateien nicht durchsuchbar. Verwenden Sie die Archivfunktion für Asset-Dateien, die Ihr Team-Mitglied in Zukunft nicht verwenden soll, z. B. ein veraltetes Ereignis-Werbe-Zeichen oder saisonale Inhalte. Später können Sie die Archivierung eines Ordners aufheben, wenn der Inhalt erneut verfügbar sein soll.
+Die Archivierung eines Ordners macht die darin enthaltenen Dateien undurchsuchbar. Verwenden Sie die Archivierungsfunktion für Asset-Dateien, die Ihr Teammitglied künftig nicht mehr verwenden soll, z. B. ein veraltetes Veranstaltungsabzeichen oder saisonale Inhalte. Später können Sie die Archivierung eines Ordners aufheben, wenn der Inhalt wieder verfügbar sein soll.
 
-* Wählen Sie **[!UICONTROL In Archivordner konvertieren]**. Es wird ein Bestätigungsbanner angezeigt, mit dem bestätigt wird, dass der Ordnerstatus in &quot;Archiviert&quot;geändert wurde.
+* Wählen Sie **[!UICONTROL In Archivordner konvertieren]**. Ein Bestätigungsbanner wird angezeigt, um zu bestätigen, dass der Ordnerstatus in „Archiviert“ geändert wurde.
 
-* Wählen Sie **[!UICONTROL Archivierungsordner aufheben]**. Es wird ein Bestätigungsbanner angezeigt, mit dem bestätigt wird, dass der Ordnerstatus in &quot;Nicht archiviert&quot;geändert wird.
+* Wählen Sie **[!UICONTROL Archivierung des Ordners aufheben]**. Ein Bestätigungsbanner wird angezeigt, um zu bestätigen, dass der Ordnerstatus in „Nicht archiviert“ geändert wurde.
 
 +++
 
-## Verwenden von Assets in Ihrem Inhalt
+## Verwenden von Assets in Inhalten
 
-Assets kann in der E-Mail-, E-Mail-Vorlage oder im visuellen Fragment-Authoring Ihres Teams im Visual Content Editor verwendet werden.
+Assets kann in der E-Mail-, E-Mail-Vorlage oder beim Erstellen visueller Fragmente des Teams über den Visual Content Editor verwendet werden.
 
-Wählen Sie in der Benutzeroberfläche des visuellen Designers auf der linken Seitenleiste das Symbol _Asset-Wähler_ ( ![Assets-Auswahl](../assets/do-not-localize/icon-assets-design.svg) ).
+Klicken Sie in der Visual Designer-Benutzeroberfläche auf das Symbol _Asset-Auswahl_ ( ![Assets](../assets/do-not-localize/icon-assets-design.svg) ) in der linken Seitenleiste.
 
-Durch diese Aktion wird der Tool-Bereich geändert, in dem eine strukturierte Liste der verfügbaren Assets im ausgewählten Arbeitsbereich angezeigt wird. Wählen Sie den Arbeitsbereich aus, der zur Auswahl eines Assets angezeigt werden soll.
+Durch diese Aktion wird das Bedienfeld Tools geändert, das eine strukturierte Liste der verfügbaren Assets im ausgewählten Arbeitsbereich anzeigt. Wählen Sie den Arbeitsbereich aus, den Sie für die Auswahl eines Assets anzeigen möchten.
 
 ![Ausgewählte Assets](./assets/asset-design-workspace-select.png){width="700" zoomable="yes"}
 
 Es gibt mehrere Methoden zum Hinzufügen eines Bild-Assets zur visuellen Arbeitsfläche:
 
-* Ziehen Sie eine Miniaturansicht per Drag-and-Drop aus der linken Navigation.
+* Ziehen Sie eine Miniaturansicht per Drag-and-Drop aus dem linken Navigationsbereich.
 
-* Fügen Sie der Arbeitsfläche eine Bildkomponente hinzu und klicken Sie auf **[!UICONTROL Durchsuchen]** , um das Dialogfeld _[!UICONTROL Asset aus Adobe Marketo Engage auswählen]_ zu öffnen.
+* Fügen Sie eine Bildkomponente zur Arbeitsfläche hinzu und klicken Sie auf **[!UICONTROL Durchsuchen]**, um das Dialogfeld _[!UICONTROL Asset aus Adobe Marketo Engage auswählen]_ zu öffnen.
 
-  ![Verwenden Sie die Filter und das Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+  ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-  Im Dialogfeld können Sie ein Bild aus dem ausgewählten Repository auswählen. Klicken Sie auf **[!UICONTROL Auswählen]** , um das Asset hinzuzufügen.
+  Im Dialogfeld können Sie ein Bild aus dem ausgewählten Repository auswählen. Klicken Sie auf **[!UICONTROL Auswählen]**, um das Asset hinzuzufügen.
 
   Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden können:
 
-   * Klicken Sie oben links auf das Symbol _Filter_ , um die angezeigten Elemente nach Ihren Kriterien zu filtern.
+   * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
 
-   * Geben Sie Text in das Feld _Suche_ ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
+   * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
 
-  ![Verwenden Sie die Filter und das Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+  ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

@@ -11,59 +11,59 @@ ht-degree: 10%
 
 # Erste Schritte mit Journey Optimizer B2B edition
 
-Die Funktionen und Tools, die Sie in Adobe Journey Optimizer B2B edition verwenden möchten, hängen von Ihrer Teamrolle ab.
+Welche Funktionen und Tools Sie in Adobe Journey Optimizer B2B edition angehen möchten, hängt von Ihrer Rolle in Ihrem Team ab.
 
-Je nach Organisation können Administratoren verschiedene Arten von Benutzern definieren und ihnen je nach Berechtigung Zugriff auf bestimmte Funktionen gewähren.
+Abhängig von Ihrem Unternehmen können Admins verschiedene Typen von Benutzenden definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
 >[!TIP]
 >
->Überprüfen Sie außerdem Ihre Lizenzberechtigungen und die entsprechende [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} bezüglich Leistungsgarantien und statischen Einschränkungen.
+>Überprüfen Sie außerdem Ihre Lizenzberechtigungen und die entsprechende [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"} auf Leistungs-Leitplanken und statische Einschränkungen.
 
 >[!BEGINTABS]
 
->[!TAB Schnellstart für Administratoren]
+>[!TAB Administrator-Schnellstart]
 
-Bevor Ihr Team mit der Verwendung der Adobe Journey Optimizer B2B edition-Funktionen beginnen kann, sind zur Vorbereitung Ihrer Umgebung einige Schritte erforderlich. Führen Sie diese Schritte aus, damit der Dateningenieur und Marketing-Experte mit der Arbeit mit Adobe Journey Optimizer B2B edition beginnen können.
+Bevor Ihr Team mit der Verwendung der Funktionen von Adobe Journey Optimizer B2B edition beginnen kann, sind mehrere Schritte erforderlich, um Ihre Umgebung vorzubereiten. Führen Sie diese Schritte aus, damit Datentechniker und Marketing-Fachleute mit Adobe Journey Optimizer B2B edition arbeiten können.
 
-Als Systemadministrator müssen Sie sich mit Produktprofilen vertraut machen und Berechtigungen für die Sandbox-Verwaltung und Kanalkonfiguration zuweisen. Außerdem müssen Sie Sandboxes einrichten und für die verfügbaren Produktprofile verwalten. Anschließend können Sie den Produktprofilen Team-Mitglieder zuweisen. Diese Funktionen können von Produktadministratoren verwaltet werden, die Zugriff auf die Adobe Admin Console haben. [Erfahren Sie mehr über die Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+Als Systemadministrator müssen Sie Produktprofile verstehen und Berechtigungen für die Sandbox-Administration und Kanalkonfiguration zuweisen. Außerdem müssen Sie Sandboxes einrichten und für die verfügbaren Produktprofile verwalten. Anschließend können Sie den Produktprofilen Team-Mitglieder zuweisen. Diese Funktionen können von Produktadministratoren verwaltet werden, die Zugriff auf die Adobe Admin Console haben. [Erfahren Sie mehr über die Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Erstellen Sie Sandboxes**, um Ihre Instanzen in separate, isolierte virtuelle Umgebungen zu unterteilen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/home#understanding-sandboxes)
 
-1. **Einrichten des Produktprofils**. Ein Produktprofil ist ein Satz von Einzelrechten in Adobe Experience Platform, die Benutzern den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. [Weitere Informationen](../admin/user-management.md#create-the-marketo-engage-product-profile)
+1. **Einrichten des Produktprofils**. Ein Produktprofil ist eine Reihe von Einzelrechten in Adobe Experience Platform, die Benutzenden den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. [Weitere Informationen](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
-1. **Richten Sie Benutzerberechtigungen ein** für Produktprofile, einschließlich Sandboxes, und gewähren Sie Zugriff auf Ihre Team-Mitglieder, indem Sie sie verschiedenen Produktprofilen zuweisen. Diese Aufgabe wird in der Admin Console ausgeführt. [Weitere Informationen](../admin/user-management.md#create-a-user-group)
+1. **Richten Sie Benutzerberechtigungen** Produktprofile, einschließlich Sandboxes, ein und gewähren Sie Ihren Team-Mitgliedern Zugriff, indem Sie sie verschiedenen Produktprofilen zuweisen. Diese Aufgabe wird in der Admin Console ausgeführt. [Weitere Informationen](../admin/user-management.md#create-a-user-group)
 
-1. **E-Mail-Versand konfigurieren** in Marketo Engage, wodurch Ihr Team E-Mail-Inhalte von Account-Journey senden kann. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
+1. **Konfigurieren Sie den E** Mail-Versand in Marketo Engage, damit Ihr Team E-Mail-Inhalte von den Account-Journey senden kann. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability)
 
-1. **SMS-Dienste konfigurieren**. Richten Sie einen der unterstützten SMS-Anbieter von Drittanbietern ein, die unabhängig Textnachrichtendienste anbieten, und konfigurieren Sie die Kontoanmeldeinformationen in Adobe Journey Optimizer B2B edition. [Weitere Informationen](../admin/configure-channels-sms.md)
+1. **Konfigurieren von SMS-Services**. Richten Sie einen der unterstützten SMS-Drittanbieter ein, der Textnachrichten-Services unabhängig anbietet, und konfigurieren Sie die Kontoanmeldeinformationen in Adobe Journey Optimizer B2B edition. [Weitere Informationen](../admin/configure-channels-sms.md)
 
-1. **Konfigurieren und aktivieren Sie die Verwendung von Adobe Experience Manager Assets** für Teams, die Assets as a Cloud Service für die zentralisierte Verwaltung digitaler Assets verwenden. [Weitere Informationen](../admin/configure-aem-repositories.md)
+1. **Konfigurieren und Aktivieren der Verwendung von Adobe Experience Manager Assets** für Teams, die Assets as a Cloud Service für die zentralisierte Verwaltung digitaler Assets verwenden. [Weitere Informationen](../admin/configure-aem-repositories.md)
 
->[!TAB Schnellstart für Marketingexperten]
+>[!TAB Marketer-Schnellstart]
 
-Als Marketer oder _Account Journey Practitioner_ sind Sie für die Erstellung von Journey und die Erstellung von Inhalten verantwortlich. Sie können mit der Arbeit mit Adobe Journey Optimizer B2B edition beginnen, nachdem der Systemadministrator und der Data Engineer Ihre Umgebung vorbereitet und Ihnen Zugriff gewährt haben.
+Als Marketing-Experte oder _Account Journey Practitioner_ sind Sie für die Gestaltung von Journey und die Erstellung von Inhalten verantwortlich. Sie können mit Adobe Journey Optimizer B2B edition arbeiten, nachdem der Systemadministrator und der Datentechniker Ihre Umgebung vorbereitet und Ihnen Zugriff gewährt haben.
 
-In den folgenden Abschnitten finden Sie Informationen zum Einrichten Ihrer ersten Journey, Hinzufügen von Assets und Senden von Inhalten:
+In den folgenden Abschnitten erfahren Sie, wie Sie Ihre erste Journey einrichten, Assets hinzufügen und Inhalte senden:
 
-1. **Fügen Sie Kontozielgruppen hinzu**. Mit Journey Optimizer B2B edition können Sie Zielgruppen für Konten direkt über Segmentdefinitionen aus der Anwendung erstellen und in Ihren Konto-Journey nutzen. [Weitere Informationen](../audiences/account-audience-overview.md)
+1. **Konto-Zielgruppen hinzufügen**. Mit Journey Optimizer B2B edition können Sie Account-Zielgruppen über Segmentdefinitionen direkt im Programm erstellen und diese in Ihren Account-Journey nutzen. [Weitere Informationen](../audiences/account-audience-overview.md)
 
-1. **Erstellen Sie Kaufgruppen**. Definieren Sie die Schlüsselkomponenten für die Erreichung Ihrer Geschäftsziele und erstellen Sie Kaufgruppen, die die Mitglieder für Ihre Zielkontolisten identifizieren. [Weitere Informationen](../buying-groups/buying-groups-overview.md)
+1. **Einkaufsgruppen erstellen**. Definieren Sie die wichtigsten Komponenten, um Ihre Geschäftsziele zu erreichen, und erstellen Sie Einkaufsgruppen, die die Mitglieder für Ihre Zielkontenlisten identifizieren. [Weitere Informationen](../buying-groups/buying-groups-overview.md)
 
-1. **Erstellen und Verwalten von Assets**. Adobe Experience Manager Assets bietet ein zentrales Asset-Repository, mit dem Sie Ihre Nachrichten ausfüllen können. [Weitere Informationen](../content/assets-overview.md)
+1. **Erstellen und Verwalten von Assets**. Adobe Experience Manager Assets bietet ein zentrales Repository mit Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](../content/assets-overview.md)
 
-1. **Fügen Sie personalisierte und dynamische E-Mail-Vorlagen hinzu**. Nutzen Sie Personalisierungs- und dynamische Inhaltsfunktionen von Journey Optimizer B2B edition, um Ihre Nachricht an Ihre Zielgruppe anzupassen. [Weitere Informationen](../content/email-templates.md)
+1. **Personalisierte und dynamische E-Mail-Vorlagen hinzufügen**. Nutzen Sie die Personalisierungs- und Dynamic Content-Funktionen von Journey Optimizer B2B edition, um Ihre Nachricht an Ihre Audience anzupassen. [Weitere Informationen](../content/email-templates.md)
 
-1. **Design-Konto-Journey zur Bereitstellung personalisierter, kontextbezogener Erlebnisse**. Mit Journey Optimizer B2B edition können Sie Anwendungsfälle für die Echtzeit-Orchestrierung der Customer Journey mit Kontextdaten erstellen, die in Ereignissen oder Datenquellen gespeichert sind. Erstellen Sie mehrstufige, erweiterte Szenarien mit folgenden Funktionen:
+1. **Entwerfen Sie Account-Journey für personalisierte, kontextuelle Erlebnisse**. Mit Journey Optimizer B2B edition können Sie Anwendungsfälle für die Echtzeit-Orchestrierung erstellen und dabei kontextuelle Daten nutzen, die in Ereignissen oder Datenquellen gespeichert sind. Entwerfen Sie mehrstufige, erweiterte Szenarien mit den folgenden Funktionen:
 
-   * Senden Sie einen einmaligen Echtzeit-Versand, der beim Empfang eines Ereignisses ausgelöst wird, oder einen Batch-Vorgang mit Adobe Experience Platform-Zielgruppen.
+   * Führen Sie einen unitären Versand in Echtzeit aus, ausgelöst durch den Empfang eines Ereignisses, oder im Batch unter Verwendung von Adobe Experience Platform-Zielgruppen.
 
-   * Verwenden Sie Kontextdaten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Diensten von Drittanbietern.
+   * Verwenden Sie kontextuelle Daten aus Ereignissen, Informationen aus Adobe Experience Platform oder Daten aus API-Services von Drittanbietern.
 
-   * Verwenden Sie die integrierten Kanalaktionen (E-Mail und SMS), um in Journey Optimizer B2B edition entworfene Nachrichten zu senden.
+   * Verwenden Sie die integrierten Kanalaktionen (E-Mail und SMS) zum Senden von in Journey Optimizer B2B edition entworfenen Nachrichten.
 
-   * Erstellen Sie im Journey Designer Ihre mehrstufigen Anwendungsfälle, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+   * Erstellen Sie im Journey-Designer Ihre mehrstufigen Anwendungsfälle, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
 [Weitere Informationen](../journeys/journey-overview.md)
 

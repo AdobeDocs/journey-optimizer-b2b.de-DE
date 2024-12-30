@@ -1,8 +1,9 @@
 ---
 title: SMS-Konfigurationen
-description: Erfahren Sie, wie Sie Verbindungen zu unterstützten SMS-Anbietern für die Verwendung von Journey Optimizer B2B edition SMS Messaging konfigurieren.
+description: Erfahren Sie, wie Sie Verbindungen zu unterstützten SMS-Anbietern konfigurieren, um sie von Journey Optimizer B2B edition SMS-Nachrichten zu verwenden.
 feature: Setup
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 6%
@@ -11,106 +12,106 @@ ht-degree: 6%
 
 # SMS-Konfigurationen
 
-Adobe Journey Optimizer B2B edition sendet Textnachrichten über SMS-Dienstleister (oder SMS Gateway Provider). Konfigurieren Sie vor der Erstellung Ihrer SMS-Nachricht Ihren Dienstleister über die Einstellungen für _Administrator_.
+Adobe Journey Optimizer B2B edition sendet Textnachrichten über SMS-Dienstleister (oder SMS-Gateway-Anbieter). Bevor Sie Ihre SMS-Nachricht erstellen, konfigurieren Sie Ihren Dienstleister über die Einstellungen _Administrator_.
 
-## SMS-Gateway-Dienstleister
+## SMS-Gateway-Dienstanbieter
 
-Adobe Journey Optimizer B2B edition lässt sich derzeit mit Drittanbietern integrieren, die unabhängig voneinander Textnachrichtendienste anbieten. Unterstützte Anbieter für Textnachrichten sind Sinch, Twilio und Infobip.
+Adobe Journey Optimizer B2B edition kann derzeit mit Drittanbietern integriert werden, die Textnachrichten-Services unabhängig anbieten. Unterstützte Anbieter für Textnachrichten sind Sinch, Twilio und Infobip.
 
-Bevor Sie einen SMS-Kanal in Adobe Journey Optimizer B2B edition konfigurieren, müssen Sie ein Konto bei einem dieser Anbieter erstellen, um Ihr API-Token und Ihre Service-ID zu erhalten. Diese Anmeldeinformationen sind erforderlich, um die Verbindung zwischen Adobe Journey Optimizer B2B edition und dem entsprechenden Provider zu konfigurieren.
+Bevor Sie einen SMS-Kanal in Adobe Journey Optimizer B2B edition konfigurieren, müssen Sie ein Konto bei einem dieser Provider erstellen, um Ihr API-Token und Ihre Service-ID zu erhalten. Diese Anmeldeinformationen werden benötigt, um die Verbindung zwischen Adobe Journey Optimizer B2B edition und dem entsprechenden Anbieter zu konfigurieren.
 
 >[!IMPORTANT]
 >
->Ihre Nutzung von Textnachrichten-Services unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Als Drittanbieterlösungen stehen Benutzern von Adobe Journey Optimizer B2B edition über eine Integration Sinch, Twilio und Infobip zur Verfügung. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich. Wenden Sie sich bei Problemen oder Ersuchen um Unterstützung im Zusammenhang mit den Textnachrichtendiensten (SMS) an Ihren Provider.
+>Ihre Nutzung von Textnachrichten-Services unterliegt zusätzlichen Bedingungen des jeweiligen Anbieters. Als Drittanbieterlösungen sind Sinch, Twilio und Infobip für Adobe Journey Optimizer B2B edition-Anwender über eine Integration verfügbar. Adobe kontrolliert keine Produkte von Drittanbietern und ist nicht für diese verantwortlich. Wenden Sie sich bei Problemen oder Anfragen zur Unterstützung im Zusammenhang mit den Textnachrichten-Services (SMS) an Ihren Provider.
 
-## Vorhandene SMS-API-Konfiguration überprüfen
+## Überprüfen einer vorhandenen SMS-API-Konfiguration
 
 >[!NOTE]
 >
 >Die beschriebenen Einstellungen sind nur für Benutzer mit SMS-Administratorrechten zugänglich.
 
-1. Erweitern Sie im linken Navigationsbereich den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Kanäle]**.
+1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Kanäle]**.
 
-   ![Zugriff auf die Konfiguration der SMS-API-Anmeldeinformationen](./assets/config-sms-api.png){width="800" zoomable="yes"}
+   ![Zugriff auf die Konfiguration von SMS-API-Anmeldeinformationen](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
-1. Wählen Sie im Navigationsfenster **[!UICONTROL API-Anmeldeinformationen]** aus.
+1. Wählen Sie im Navigationsbereich die Option **[!UICONTROL API-Anmeldeinformationen]** aus.
 
    Auf der Seite werden die verfügbaren API-Konfigurationen für Ihre Instanz aufgelistet.
 
-1. Klicken Sie bei Bedarf auf das Symbol _Filter_ ( ![Symbol für Filter ein- oder ausblenden](../assets/do-not-localize/icon-filter.svg) ) und wählen Sie Optionen aus, um die Liste der konfigurierten API-Anmeldeinformationen vom SMS-Dienstleister oder -Ersteller anzuzeigen.
+1. Klicken Sie bei Bedarf auf _Filter_-Symbol ( ![Filtersymbol ein- oder ausblenden](../assets/do-not-localize/icon-filter.svg) ) und wählen Sie Optionen aus, um die Liste der vom SMS-Dienstleister oder Ersteller konfigurierten API-Anmeldeinformationen anzuzeigen.
 
-   ![Klicken Sie auf das Filtersymbol, um die Liste der API-Anmeldeinformationen zu verfeinern.](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
+   ![Klicken Sie auf das Filtersymbol, um die Liste der API-Anmeldeinformationen zu verfeinern](./assets/config-sms-api-filter.png){width="600" zoomable="yes"}
 
-## Erstellen neuer API-Anmeldeinformationen für einen SMS-Dienstanbieter
+## Erstellen neuer API-Anmeldeinformationen für einen SMS-Dienstleister
 
 >[!BEGINTABS]
 
 >[!TAB Sinch]
 
-_So konfigurieren Sie Sinch wie Ihren SMS-Provider mit Adobe Journey Optimizer B2B edition:_
+_So konfigurieren Sie Sinch als SMS-Provider mit Adobe Journey Optimizer B2B edition:_
 
-1. Erweitern Sie im linken Navigationsbereich den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
+1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
 
-1. Klicken Sie oben rechts in der Liste _[!UICONTROL API-Anmeldeinformationen]_ auf die Schaltfläche **[!UICONTROL Neue API-Anmeldeinformationen erstellen]** .
+1. Klicken Sie **[!UICONTROL oben rechts in der Liste]** API-Anmeldeinformationen“ auf _[!UICONTROL Neue API-]_ erstellen“.
 
 1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
-   ![Konfigurieren der Single-SMS-API-Anmeldeinformationen](./assets/config-sms-api-sinch.png){width="500"}
+   ![Konfigurieren der Sinch-SMS-API-Anmeldeinformationen](./assets/config-sms-api-sinch.png){width="500"}
 
-   * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Sinch` als SMS-Provider aus.
+   * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Sinch` als SMS-Anbieter.
 
-   * **[!UICONTROL Name]** - Geben Sie einen Namen für Ihre API-Berechtigung ein.
+   * **[!UICONTROL Name]** - Geben Sie einen Namen für Ihre API-Anmeldeinformationen ein.
 
-   * **[!UICONTROL Dienst-ID]** und **[!UICONTROL API-Token]** - Greifen Sie über Ihr Einzelkonto auf die API-Seite zu (Ihre Anmeldeinformationen finden Sie auf der Registerkarte SMS ).
+   * **[!UICONTROL Service-]** und **[!UICONTROL API-Token]** - Greifen Sie über Ihr Sinch-Konto auf die API-Seite zu (Ihre Anmeldedaten finden Sie auf der Registerkarte „SMS„).
 
-   Weitere Informationen zum Auffinden dieser Informationen für Ihr Einzelkonto finden Sie in der [Dokumentation für Einzelentwickler](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
+   Weitere Informationen zum Auffinden dieser Informationen für Ihr Sinch-Konto finden Sie in der [Sinch-Entwicklerdokumentation](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
 
-1. Klicken Sie auf **[!UICONTROL Senden]** , wenn die Konfigurationsdetails Ihrer API-Anmeldeinformationen abgeschlossen sind.
+1. Klicken Sie **[!UICONTROL Senden]** wenn die Konfigurationsdetails Ihrer API-Anmeldeinformationen abgeschlossen sind.
 
 >[!TAB Twilio]
 
-_So konfigurieren Sie Twilio als Ihren SMS-Provider mit Adobe Journey Optimizer B2B edition:_
+_So konfigurieren Sie Twilio als SMS-Provider mit Adobe Journey Optimizer B2B edition:_
 
-1. Erweitern Sie im linken Navigationsbereich den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
+1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
 
-1. Klicken Sie oben rechts in der Liste _[!UICONTROL API-Anmeldeinformationen]_ auf die Schaltfläche **[!UICONTROL Neue API-Anmeldeinformationen erstellen]** .
+1. Klicken Sie **[!UICONTROL oben rechts in der Liste]** API-Anmeldeinformationen“ auf _[!UICONTROL Neue API-]_ erstellen“.
 
 1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
-   ![Konfigurieren der Twilio-SMS-API-Anmeldeinformationen](./assets/config-sms-api-twilio.png){width="500"}
+   ![Konfigurieren der Twilio SMS-API-Anmeldedaten](./assets/config-sms-api-twilio.png){width="500"}
 
-   * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Twilio` als SMS-Provider aus.
+   * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Twilio` als SMS-Anbieter.
 
-   * **[!UICONTROL Name]** - Geben Sie einen Namen für Ihre API-Anmeldedefinition ein.
+   * **[!UICONTROL Name]** - Geben Sie einen Namen für Ihre API-Berechtigungsdefinition ein.
 
-   * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungstoken]** - Greifen Sie auf den Bereich _Kontoinformationen_ Ihrer Twilio Console-Dashboard-Seite zu, um Ihre Anmeldeinformationen zu finden.
+   * **[!UICONTROL Konto-SID]** und **[!UICONTROL Authentifizierungs-Token]** - Rufen Sie den Bereich _Kontoinformationen_ Ihrer Twilio Console-Dashboard-Seite auf. Dort finden Sie Ihre Anmeldedaten.
 
-   Weitere Informationen zum Auffinden dieser Informationen für Ihr Twilio-Konto finden Sie im [Twilio Help Center](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-).
+   Weitere Informationen dazu, wie Sie diese Informationen für Ihr Twilio-Konto finden, finden Sie im [Twilio-Hilfezentrum](https://help.twilio.com/articles/14726256820123-What-is-a-Twilio-Account-SID-and-where-can-I-find-it-).
 
-1. Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Senden]** , wenn die Konfigurationsdetails Ihrer API-Anmeldeinformationen abgeschlossen sind.
+1. Klicken **[!UICONTROL oben rechts]** der Seite auf „Senden“, wenn die Konfigurationsdetails Ihrer API-Anmeldeinformationen abgeschlossen sind.
 
 >[!TAB Infobip]
 
 _So konfigurieren Sie Infobip als SMS-Provider mit Adobe Journey Optimizer B2B edition:_
 
-1. Erweitern Sie im linken Navigationsbereich den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
+1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
 
-1. Klicken Sie oben rechts in der Liste _[!UICONTROL API-Anmeldeinformationen]_ auf die Schaltfläche **[!UICONTROL Neue API-Anmeldeinformationen erstellen]** .
+1. Klicken Sie **[!UICONTROL oben rechts in der Liste]** API-Anmeldeinformationen“ auf _[!UICONTROL Neue API-]_ erstellen“.
 
 1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
-   ![Konfigurieren der Anmeldeinformationen der Infobip-SMS-API](./assets/config-sms-api-infobip.png){width="500"}
+   ![Konfigurieren der Infobip SMS-API-Anmeldedaten](./assets/config-sms-api-infobip.png){width="500"}
 
-   * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Infobip` als SMS-Provider aus.
+   * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Infobip` als SMS-Anbieter.
 
-   * **[!UICONTROL Name]** - Geben Sie einen Namen für Ihre API-Anmeldedefinition ein.
+   * **[!UICONTROL Name]** - Geben Sie einen Namen für Ihre API-Berechtigungsdefinition ein.
 
-   * **[!UICONTROL API-Basis-URL]** und **[!UICONTROL API-Schlüssel]** - Greifen Sie auf die Homepage Ihrer Web-Oberfläche oder die API-Schlüsselverwaltungsseite für Ihr Infobip-Konto zu, um Ihre Anmeldeinformationen zu finden.
+   * **[!UICONTROL API-Basis]** URL und **[!UICONTROL API-Schlüssel]** - Rufen Sie die Startseite Ihrer Web-Oberfläche oder die Seite zur Verwaltung von API-Schlüsseln für Ihr Infobip-Konto auf. Dort finden Sie Ihre Anmeldedaten.
 
    Weitere Informationen zum Auffinden dieser Informationen für Ihr Infobip-Konto finden Sie in der [Infobip-Dokumentation](https://www.infobip.com/docs/api/_blank).
 
-1. Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Senden]** , wenn die Konfigurationsdetails Ihrer API-Anmeldeinformationen abgeschlossen sind.
+1. Klicken **[!UICONTROL oben rechts]** der Seite auf „Senden“, wenn die Konfigurationsdetails Ihrer API-Anmeldeinformationen abgeschlossen sind.
 
 >[!ENDTABS]
 
-Wenn Sie auf _[!UICONTROL Senden]_ klicken, werden die Anmeldeinformationen sofort validiert und gespeichert und Sie werden zur Seite mit der Auflistung der _[!UICONTROL API-Anmeldeinformationen]_ weitergeleitet. Wenn die übermittelten Anmeldeinformationen ungültig sind, zeigt das System auf der Listenseite eine Fehlermeldung an. In diesem Fall können Sie die Konfiguration abbrechen oder aktualisieren und erneut senden.
+Wenn Sie auf _[!UICONTROL Senden]_ klicken, werden die Anmeldeinformationen sofort validiert und gespeichert, wodurch Sie zur Auflistungsseite _[!UICONTROL API]_ weitergeleitet werden. Wenn die übermittelten Anmeldeinformationen ungültig sind, zeigt das System auf der Listenseite eine Fehlermeldung an. In diesem Fall können Sie die Konfiguration abbrechen oder aktualisieren und erneut senden.

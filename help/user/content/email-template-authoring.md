@@ -1,17 +1,18 @@
 ---
-title: Authoring von E-Mail-Vorlagen
-description: Erfahren Sie, wie Sie E-Mail-Vorlagen für Content-Journey-E-Mails erstellen, die für Konto-E-Mails verwendet werden können, um Ihre Designs einfach und effizient wiederzuverwenden.
+title: Erstellen von E-Mail-Vorlagen
+description: Erfahren Sie, wie Sie Inhalts-E-Mail-Vorlagen erstellen, die für Account-Journey-E-Mails verwendet werden können, um Ihre Designs einfach und effizient wiederzuverwenden.
 feature: Email Authoring, Content
-source-git-commit: 8315c760e573aa36819652798a400206e6268ccc
+exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
+source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 11%
 
 ---
 
-# Authoring von E-Mail-Vorlagen
+# Erstellen von E-Mail-Vorlagen
 
-Nachdem Sie [eine E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email-template), verwenden Sie den visuellen Designer, um die Struktur- und Inhaltskomponenten in Ihrer E-Mail-Vorlage zu erstellen.
+Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email-template) verwenden Sie den visuellen Designer, um die Struktur- und Inhaltskomponenten in Ihrer E-Mail-Vorlage zu erstellen.
 
 ## Hinzufügen von Struktur und Inhalt {#structure-content}
 
@@ -27,32 +28,32 @@ Nachdem Sie [eine E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-
 
 {{$include /help/_includes/content-design-components.md}}
 
-### Fragmente hinzufügen
+### Hinzufügen von Fragmenten
 
-Im visuellen Inhaltseditor wird links das Symbol _Fragmente_ angezeigt. Im folgenden Beispiel werden die Schritte zum Hinzufügen von Fragmenten zum Vorlageninhalt beschrieben.
+Im visuellen Inhaltseditor wird das Symbol _Fragmente_ auf der linken Seite angezeigt. Im folgenden Beispiel werden die Schritte zum Hinzufügen von Fragmenten zum Vorlageninhalt beschrieben.
 
-1. Um die Fragmentliste zu öffnen, wählen Sie das Symbol _Fragmente_ ( ![Fragmentsymbol](../assets/do-not-localize/icon-fragments.svg) ).
+1. Um die Fragmentliste zu öffnen, wählen Sie das Symbol _Fragmente_ aus (![Fragmentsymbol](../assets/do-not-localize/icon-fragments.svg) ).
 
    Sie haben folgende Möglichkeiten:
 
    * Sortieren Sie die Liste.
-   * Suchen, Suchen oder Filtern Sie die Liste.
-   * Zwischen Miniatur- und Listenansichten wechseln.
-   * Aktualisieren Sie die Liste, um eines der kürzlich erstellten Fragmente widerzuspiegeln.
+   * Durchsuchen, Suchen oder Filtern der Liste.
+   * Wechseln zwischen Miniatur- und Listenansicht.
+   * Aktualisieren Sie die Liste, um die kürzlich erstellten Fragmente anzuzeigen.
 
    ![Wählen Sie ein Fragment aus der Liste aus](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
 
-1. Ziehen Sie eines der Fragmente in den Platzhalter für die Strukturkomponente.
+1. Ziehen Sie eines der Fragmente per Drag-and-Drop in den Platzhalter der Strukturkomponente .
 
-   Der Editor rendert das Fragment innerhalb des Bereichs/Elements der E-Mail-Struktur.
+   Der Editor rendert das Fragment innerhalb des Abschnitts/Elements der E-Mail-Struktur.
 
 Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um anzuzeigen, wie der Inhalt in der E-Mail angezeigt wird.
 
 >[!TIP]
 >
->Wenn das Fragment das gesamte horizontale Layout in der E-Mail einnehmen soll, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment per Drag-and-Drop in die E-Mail.
+>Wenn das Fragment das gesamte horizontale Layout in der E-Mail einnehmen soll, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
 
-Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie in der Zusammenfassung die Registerkarte _[!UICONTROL Verwendet von]_ auswählen. Zu einer E-Mail-Vorlage hinzugefügte Fragmente können nicht in der Vorlage bearbeitet werden. Das Quellfragment definiert den Inhalt.
+Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie die Registerkarte _[!UICONTROL Verwendet von]_ in der Zusammenfassung auswählen. Fragmente, die einer E-Mail-Vorlage hinzugefügt wurden, können innerhalb der Vorlage nicht bearbeitet werden — das Quellfragment definiert den Inhalt.
 
 ### Hinzufügen von Assets
 
@@ -66,27 +67,27 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-### Linked URL-Tracking bearbeiten
+### Verknüpftes URL-Tracking bearbeiten
 
 {{$include /help/_includes/content-design-links.md}}
 
-## Anzeigeoptionen
+## Optionen anzeigen
 
-Nutzen Sie die im visuellen Designer verfügbaren Ansicht- und Inhaltsvalidierungsoptionen.
+Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen Designer verfügbar sind.
 
-* Vergrößern/Verkleinern Sie den Inhalt über vordefinierte Zoom-Optionen.
+* Vergrößern/Verkleinern des Inhalts in allen vordefinierten Zoom-Optionen.
 
-* Wechseln Sie zwischen der Anzeige des Inhalts über Desktop, Mobilgeräte oder Nur-Text/Nur-Text.
-   * Klicken Sie auf das Symbol _Auge_ für die geräteübergreifende Inhaltsvorschau.
-   * Wählen Sie eines der nativen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um die Vorschau des Inhalts anzuzeigen.
+* Wechseln der Anzeige von Inhalten zwischen Desktop, Mobilgerät oder Nur-Text-/Nur-Text-Ansicht.
+   * Klicken Sie auf das _Auge_-Symbol für die geräteübergreifende Inhaltsvorschau.
+   * Wählen Sie eines der standardmäßigen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um eine Vorschau des Inhalts anzuzeigen.
 
 ### Mehr Optionen
 
-Im Menü _[!UICONTROL Mehr ...]_ oben im E-Mail-Designer können Sie die folgenden Aktionen ausführen:
+Im Menü _[!UICONTROL Mehr …]_ oben in Email Designer können Sie die folgenden Aktionen ausführen:
 
 ![Klicken Sie auf Mehr , um auf Vorlagenaktionen zuzugreifen](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Vorlage zurücksetzen]** - Klicken Sie auf diese Option, um die Arbeitsfläche des visuellen Designers zu leeren Arbeitsbereich zu leeren Arbeitsbereich zu leeren Arbeitsbereich zu löschen und die Erstellung von Inhalten neu zu starten.
-* **[!UICONTROL Als Fragment speichern]** - Speichern Sie alle oder Teile der Vorlage als Fragment, das über mehrere E-Mails oder E-Mail-Vorlagen hinweg wiederverwendet werden soll. Geben Sie einen Namen und eine Beschreibung für das Fragment ein und speichern Sie es in der Liste der verfügbaren Fragmente.
-* **[!UICONTROL Ändern Sie Ihren Entwurf]** - Kehren Sie zur Seite _Design Ihrer Vorlage_ zurück. Dort können Sie auswählen, ob Sie Ihre Vorlage von Grund auf neu erstellen oder eine vorhandene Vorlage verwenden möchten, um den Designprozess neu zu starten.
-* **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt der visuellen Arbeitsfläche in das lokale HTML-Format herunter, das als ZIP-Datei gepackt ist.
+* **[!UICONTROL Vorlage zurücksetzen]** - Klicken Sie auf diese Option, um die Arbeitsfläche des visuellen Designers zu leeren und die Inhaltserstellung neu zu starten.
+* **[!UICONTROL Als Fragment speichern]** - Speichert die Vorlage ganz oder teilweise als Fragment zur Wiederverwendung in mehreren E-Mails oder E-Mail-Vorlagen. Geben Sie einen Namen und eine Beschreibung für das Fragment ein und speichern Sie es in der Liste der verfügbaren Fragmente.
+* **[!UICONTROL Design ändern]** - Kehren Sie zur Seite _Vorlage_ zurück. Dort können Sie Ihre Vorlage von Grund auf neu entwerfen oder eine vorhandene Vorlage verwenden, um den Design-Prozess neu zu starten.
+* **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche auf Ihr lokales System im HTML-Format herunter, das als ZIP-Datei verpackt ist.

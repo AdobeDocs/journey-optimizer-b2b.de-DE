@@ -9,35 +9,35 @@ ht-degree: 42%
 ---
 
 
-# Benutzerhandbuch zu Journey Optimizer B2B edition {#user}
+# Journey Optimizer B2B edition-Benutzerhandbuch {#user}
 
 + [Dokumentation zu Adobe Journey Optimizer B2B Edition](guide-overview.md)
 + [Versionshinweise](./release-notes/release-notes.md)
 + Erste Schritte {#get-started}
    + [Übersicht über Journey Optimizer B2B edition](about-journey-optimizer-b2b-edition.md)
-   + [Anmelden und Homepage](home-page.md)
-   + [Schnellstartanleitungen](./start/get-started.md)
-   + [Tracking und E-Mail-Protokolle](./start/email-protocols.md)
+   + [Anmelde- und Startseite](home-page.md)
+   + [Schnellstartanleitung](./start/get-started.md)
+   + [Tracking- und E-Mail-Protokolle](./start/email-protocols.md)
    + [Verwenden des KI-Assistenten](./start/ai-assistant.md)
-+ Kontozielgruppen {#account-audiences}
++ Account Audiences {#account-audiences}
    + [Überblick](./audiences/account-audience-overview.md)
-   + [LinkedIn-Konto-Matched Audiences](./data/linkedin-account-matched-audiences.md)
+   + [Vom linkedIn-Konto abgeglichene Zielgruppen](./data/linkedin-account-matched-audiences.md)
    + [XDM-Felder](./data/field-mapping.md)
-+ Gruppen kaufen {#buying-groups}
++ Einkaufsgruppen {#buying-groups}
    + [Überblick](./buying-groups/buying-groups-overview.md)
-   + [Lösungsinteressen](./buying-groups/solution-interests.md)
+   + [Interessen an der Lösung](./buying-groups/solution-interests.md)
    + [Rollenvorlagen](./buying-groups/buying-groups-role-templates.md)
    + [Käufergruppenphasen](./buying-groups/buying-group-stages.md)
    + [Erstellen von Einkaufsgruppen](./buying-groups/buying-groups-create.md)
-+ Account-Journey {#account-journeys}
++ Account Journey {#account-journeys}
    + [Überblick](./journeys/journey-overview.md)
-   + [Journey-Knoten des Kontos](./journeys/journey-nodes.md)
-+ Journey content {#journey-content}
+   + [Konto-Journey-Knoten](./journeys/journey-nodes.md)
++ Journey-{#journey-content}
    + E-Mail-Kanal {#email-channel}
-      + [E-Mail-Authoring](./content/email-authoring.md)
-      + [KI-Assistent für die E-Mail-Bearbeitung](./content/ai-assistant-emails.md)
-      + [Geänderte Vorlagen](./content/email-authoring-governance.md)
-      + [Warnungen-E-Mail für Vertrieb](./content/sales-alert-email.md)
+      + [E-Mail-Erstellung](./content/email-authoring.md)
+      + [KI-Assistent für E-Mail-Authoring](./content/ai-assistant-emails.md)
+      + [Geregelte Vorlagen](./content/email-authoring-governance.md)
+      + [Benachrichtigungs-E-Mail für Verkauf](./content/sales-alert-email.md)
    + [SMS-Authoring](./content/sms-authoring.md)
 + Content Management {#content-management}
    + Assets {#assets}
@@ -46,19 +46,19 @@ ht-degree: 42%
       + [Arbeiten mit AEM Assets-Bildern](./content/aem-assets.md)
    + Vorlagen{#templates}
       + [E-Mail-Vorlagen verwalten](./content/email-templates.md)
-      + [Authoring von E-Mail-Vorlagen](./content/email-template-authoring.md)
-      + [Content-Governance](./content/template-content-governance.md)
+      + [Erstellen von E-Mail-Vorlagen](./content/email-template-authoring.md)
+      + [Content Governance](./content/template-content-governance.md)
    + [Fragmente](./content/fragments.md)
    + [Bedingter Inhalt](./content/conditional-content.md)
 + Insights-Dashboards {#dashboards}
    + [Intelligentes Dashboard](./dashboards/intelligent-dashboard.md)
-   + [Gruppen kaufen](./dashboards/buying-groups-dashboard.md)
+   + [Einkaufsgruppen](./dashboards/buying-groups-dashboard.md)
    + [Überblick über die Interaktion](./dashboards/engagement-dashboard.md)
    + [Überblick über die Journey](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
    + [Benutzerverwaltung](./admin/user-management.md)
    + Kanäle {#channels}
-      + [E-Mail-Konfigurationen](./admin/configure-channels-emails.md)
+      + [E-Mail-Konfiguration](./admin/configure-channels-emails.md)
       + [SMS-Konfigurationen](./admin/configure-channels-sms.md)
    + [Konfigurieren von AEM Assets-Repositorys](./admin/configure-aem-repositories.md)
    + [Governance](./admin/governance.md)

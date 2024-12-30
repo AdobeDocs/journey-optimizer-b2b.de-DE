@@ -1,6 +1,6 @@
 ---
-title: Lösungsinteressen
-description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie zur Verwendung in Ihren Einkaufsgruppen definieren können.
+title: Interessen an Lösungen
+description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie für die Verwendung in Ihren Einkaufsgruppen definieren können.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
 source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Lösungsinteressen
+# Interessen an der Lösung
 
-Bevor Sie Gruppen kaufen, sollten Sie wissen, was Sie verkaufen und wen Sie auswählen möchten. Ihre Marketing- und Verkaufsstrategie sollte so ausgerichtet sein, dass Sie das Lösungsinteresse für die Einkaufsgruppen hinzufügen können.
+Bevor Sie Einkaufsgruppen erstellen, sollten Sie wissen, was Sie verkaufen und wen Sie ansprechen möchten. Ihre Marketing- und Vertriebsstrategie sollte so abgestimmt sein, dass Sie das Lösungsinteresse für die Einkaufsgruppen hinzufügen können.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
@@ -22,82 +22,82 @@ Bevor Sie Gruppen kaufen, sollten Sie wissen, was Sie verkaufen und wen Sie ausw
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Gruppen kaufen]**.
 
-1. Wählen Sie auf der Seite &quot;Buying Groups&quot;die Registerkarte **[!UICONTROL Solution Interest]**.
+1. Wählen Sie auf der Seite „Einkaufsgruppen“ die Registerkarte **[!UICONTROL Lösungsinteresse]** aus.
 
-   ![Registerkarte &quot;Lösungsinteresse&quot;](assets/solution-interest-tab.png){width="700" zoomable="yes"}
+   ![Registerkarte „Lösungsinteresse“](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   Der Tab enthält eine Bestandsliste aller bestehenden Lösungsinteressen. Sie enthält Informationen in den Spaltenformaten _[!UICONTROL Name]_, _[!UICONTROL Benutzerrollen-Vorlage]_, _[!UICONTROL Erstellung von Gruppenaufträgen]_, _[!UICONTROL Letzte Aktualisierung am]_, _[!UICONTROL Aktualisiert von]_, _[!UICONTROL am]_ erstellt und _[!UICONTROL von]_ erstellt.
+   Die Registerkarte bietet eine Inventarliste aller vorhandenen Lösungsinteressen. Sie enthält Informationen im Spaltenformat _[!UICONTROL Name]_, _[!UICONTROL Rollenvorlage]_, _[!UICONTROL Vorgänge für die Erstellung von Einkaufsgruppen]_, _[!UICONTROL Zuletzt aktualisiert am]_, _[!UICONTROL Aktualisiert von]_, _[!UICONTROL Erstellt am]_ und _[!UICONTROL Erstellt von]_.
 
-   Die Liste wird standardmäßig nach der Spalte _[!UICONTROL Zuletzt aktualisiert am]_ sortiert. Klicken Sie auf den Spaltentitel in der Kopfzeile, um die Sortierung zwischen absteigender und aufsteigender Sortierung umzuschalten.
+   Die Liste ist standardmäßig nach der Spalte _[!UICONTROL Zuletzt aktualisiert am]_ sortiert. Klicken Sie auf den Spaltentitel in der Kopfzeile, um zwischen absteigender und aufsteigender Sortierung umzuschalten.
 
-## Kaufgruppenaufträge anzeigen und löschen
+## Anzeigen und Löschen von Aufträgen für Einkaufsgruppen
 
-Auf der Registerkarte _[!UICONTROL Lösungsinteressen]_ zeigt die Spalte **[!UICONTROL Erstellen von Gruppenaufträgen für Kauf]** die Anzahl der Aufträge an, die für die einzelnen Lösungsinteressen erstellt wurden. Die Zahl ist ein Link. Wenn Sie darauf klicken, wird ein Dialogfeld geöffnet, in dem die Liste der für die Lösung erstellten Aufträge angezeigt wird.
+Auf der Registerkarte _[!UICONTROL Lösungsinteresse]_ zeigt die Spalte **[!UICONTROL Einkaufsgruppenerstellungsaufträge]** die Anzahl der für jedes Lösungsinteresse erstellten Aufträge an. Die Zahl ist ein Link. Wenn Sie darauf klicken, wird ein Dialogfeld geöffnet, in dem die Liste der für die jeweilige Lösung erstellten Aufträge angezeigt wird.
 
-![Kaufen von Gruppenaufträgen für Lösungsinteressen](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
+![Gruppenaufträge für Lösungsinteressen kaufen](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
-Sie können einen Auftrag für eine Gruppe löschen, indem Sie auf das Auslassungszeichen (...) neben dem Auftragsnamen klicken und **[!UICONTROL Löschen]** auswählen.
+Sie können einen Einkaufsgruppenauftrag löschen, indem Sie auf die Auslassungspunkte (…) neben dem Auftragsnamen klicken und **[!UICONTROL Löschen]** auswählen.
 
 ## Lösungsinteresse erstellen
 
-Bevor Sie ein Lösungsinteresse erstellen, müssen Sie über eine Vorlage für Live-Rollen (veröffentlicht) verfügen, die die Rollen definiert, die Sie als Ziel auswählen möchten. Weitere Informationen zum Erstellen einer Rollenvorlage und Veröffentlichen einer Rollenvorlage finden Sie unter [Kaufen von Rollenvorlagen für Gruppen](./buying-groups-role-templates.md) .
+Bevor Sie eine Interessenslösung erstellen, müssen Sie über eine Live-Rollenvorlage (veröffentlicht) verfügen, die die Rollen definiert, die Sie ansprechen möchten. Weitere [ zum Erstellen einer Rollenvorlage und ](./buying-groups-role-templates.md) Veröffentlichen einer Rollenvorlage finden Sie unter „Kaufen von Rollenvorlagen für Gruppen“.
 
-1. Klicken Sie auf der Registerkarte _[!UICONTROL Lösungsinteresse]_ oben rechts auf **[!UICONTROL Lösungsinteresse erstellen]** .
+1. Klicken Sie auf _[!UICONTROL Registerkarte]_ Lösungsinteresse **[!UICONTROL oben rechts auf]** Lösungsinteresse erstellen“.
 
-1. Geben Sie einen eindeutigen **[!UICONTROL Namen]** (erforderlich) und eine **[!UICONTROL Beschreibung]** (optional) ein.
+1. Geben Sie einen eindeutigen **[!UICONTROL Namen]** (erforderlich) und einen **[!UICONTROL Beschreibung]** (optional) ein.
 
-1. Wählen Sie eine **[!UICONTROL Benutzerrollen-Vorlage]** (erforderlich).
+1. Wählen Sie eine **[!UICONTROL Rollenvorlage]** (erforderlich) aus.
 
-   Klicken Sie auf **[!UICONTROL Vorlage für Rollen auswählen]** und wählen Sie in der Liste im Dialogfeld eine Vorlage für Live-Rollen aus. Sie können nur eine Live-Roles-Vorlage mit einem Lösungsinteresse verknüpfen. Klicken Sie auf **[!UICONTROL Speichern]** , um zur Seite _[!UICONTROL Lösungsinteresse erstellen]_ zurückzukehren, auf der die Vorlage für ausgewählte Rollen angezeigt wird.
+   Klicken Sie **[!UICONTROL Rollenvorlage auswählen]** und wählen Sie eine Live-Rollenvorlage aus der Liste im Dialogfeld aus. Sie können nur eine Live-Rollenvorlage mit einer Interessenslösung verknüpfen. Klicken Sie **[!UICONTROL Speichern]**, um zur Seite _[!UICONTROL Interesse an Lösung erstellen]_ zurückzukehren, auf der die ausgewählte Rollenvorlage angezeigt wird.
 
    ![Fügen Sie dem Lösungsinteresse eine Rollenvorlage hinzu](assets/solution-interest-create.png){width="700" zoomable="yes"}
 
-1. Wählen Sie das **[!UICONTROL Modell für die Buying group stage]** aus, um die Statusprogression der Gruppe zu verwenden (optional).
+1. Wählen Sie das **[!UICONTROL Modell „Gruppenphase kaufen]**, um die Progression für den Gruppenschritt des Kaufs zu verwenden (optional).
 
-   Weitere Informationen zur Verwendung von Käufergruppen-Bühnen zur Verfolgung des Kontofortschritts finden Sie unter [Kaufen von Gruppenphasen](./buying-group-stages.md).
+   Weitere Informationen zur Verwendung von Käufergruppen-Stadien zur Verfolgung des Kontofortschritts finden Sie unter [Kaufen von Gruppenstadien](./buying-group-stages.md).
 
-1. Aktivieren Sie die Einstellung **[!UICONTROL Vorhandene Einkaufsgruppen aktualisieren]** (optional).
+1. Aktivieren Sie **[!UICONTROL Einstellung „Vorhandene Einkaufsgruppen aktualisieren]** (optional).
 
-   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse verknüpft sind, über den 24-Stunden-Synchronisierungszyklus aktualisiert.
+   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse gepaart sind, über den 24-stündigen Synchronisierungszyklus aktualisiert.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Erstellen]** .
+1. Klicken **[!UICONTROL oben]** auf „Erstellen“.
 
-   Die neuen Lösungsinteressen werden in der Liste _[!UICONTROL Lösungsinteressen]_ angezeigt.
+   Das neue Lösungsinteresse wird in der Liste _[!UICONTROL Lösungsinteressen]_ angezeigt.
 
 ## Lösungsinteresse bearbeiten
 
-Sie können jederzeit den Namen und die Beschreibung für ein Lösungsinteresse ändern. Die Benutzervorlage kann aufgrund der Abhängigkeit vom Kauf von Gruppen aufgrund des Lösungsinteresses und der Rollenvorlagenpaarung nicht geändert werden. In diesem Fall müssen Sie mithilfe einer anderen Benutzerrollenvorlage ein neues Lösungsinteresse erstellen.
+Sie können jederzeit den Namen und die Beschreibung für eine gewünschte Lösung ändern. Die Rollenvorlage kann aufgrund der Abhängigkeit von Einkaufsgruppen, die auf dem Lösungsinteresse und der Rollenvorlagenpaarung basieren, nicht geändert werden. In diesem Fall müssen Sie mithilfe einer anderen Rollenvorlage eine neue Interessenslösung erstellen.
 
-1. Verwenden Sie auf der Registerkarte _[!UICONTROL Lösungsinteresse]_ eine der folgenden Methoden, um die Eigenschaften für das Lösungsinteresse zu öffnen, das Sie bearbeiten möchten:
+1. Verwenden _[!UICONTROL auf der Registerkarte]_ Lösungsinteresse“ eine der folgenden Methoden, um die Eigenschaften für das Lösungsinteresse zu öffnen, das Sie bearbeiten möchten:
 
    * Klicken Sie auf den Namen des Lösungsinteresses.
-   * Klicken Sie auf die Auslassungspunkte (**...**) daneben und wählen Sie **[!UICONTROL Bearbeiten]**.
+   * Klicken Sie auf das Auslassungszeichen (**…**) daneben und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   ![Mehr Menü für die Lösung](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
+   ![Menü „Lösungsinteresse mehr“](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
 1. Aktualisieren Sie bei Bedarf den Namen (erforderlich und eindeutig) und die Beschreibung (optional).
 
-1. Wählen Sie bei Bedarf das **[!UICONTROL Modell für die Buying group stage-Vorlage]** aus, um den Fortschritt der Warengruppe-Phase zu verfolgen.
+1. Wählen Sie bei Bedarf das **[!UICONTROL Modell „Einkaufsgruppe Stadium]**, um den Fortschritt der Einkaufsgruppe zu verfolgen.
 
-   Weitere Informationen zur Verwendung von Käufergruppen-Bühnen zur Verfolgung des Journey-Fortschritts gegenüber Verkäufen finden Sie unter [Kaufen von Gruppenphasen](./buying-group-stages.md).
+   Weitere Informationen zur Verwendung von Käufergruppen-Stadien zur Verfolgung des Journey-Fortschritts gegenüber dem Umsatz finden Sie [Kaufen von Gruppenstadien](./buying-group-stages.md).
 
-1. Ändern Sie bei Bedarf die Einstellung **[!UICONTROL Vorhandene Einkaufsgruppen aktualisieren]** .
+1. Ändern Sie bei Bedarf die Einstellung **[!UICONTROL Vorhandene Einkaufsgruppen aktualisieren]**.
 
-   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse verknüpft sind, über den 24-Stunden-Synchronisierungszyklus aktualisiert.
+   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse gepaart sind, über den 24-stündigen Synchronisierungszyklus aktualisiert.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Lösungs-Interesse löschen
+## Interesse an einer Lösung löschen
 
-Lösungsinteressen, die derzeit von einem Einkaufsgruppenauftrag oder einer Journey verwendet werden, können nicht gelöscht werden. Außerdem kann kein Interesse an einer gelöschten Lösung abgerufen werden.
+Alle Lösungsinteressen, die derzeit von einem kaufenden Gruppenauftrag oder einer Konto-Journey verwendet werden, können nicht gelöscht werden. Außerdem kann kein Interesse an einer gelöschten Lösung abgerufen werden.
 
-1. Klicken Sie auf der Registerkarte _[!UICONTROL Lösungsinteresse]_ auf das Auslassungszeichen (**...**) neben dem Lösungsinteresse und wählen Sie **[!UICONTROL Löschen]**.
+1. Klicken Sie auf _[!UICONTROL Registerkarte]_ Lösungsinteresse“ auf die Auslassungspunkte (**…**) neben dem Lösungsinteresse und wählen Sie **[!UICONTROL Löschen]**.
 
-   Durch diese Aktion wird ein Bestätigungsdialogfeld geöffnet.
+   Diese Aktion öffnet ein Bestätigungsdialogfeld.
 
-   Wenn das Lösungsinteresse derzeit von einer Journey oder einem Gruppenauftrag verwendet wird, öffnet die Aktion ein Informationsdialogfeld, das Sie darauf hinweist, dass sie nicht gelöscht werden kann. Klicken Sie auf [!UICONTROL OK] , wodurch der Löschvorgang abgebrochen wird.
+   Wenn die Interessenslösung derzeit von einem Account-Journey oder einem Gruppenjob verwendet wird, öffnet die Aktion ein Informationsdialogfeld, das Sie darauf hinweist, dass sie nicht gelöscht werden kann. Klicken Sie auf [!UICONTROL OK], wodurch der Löschvorgang abgebrochen wird.
 
-1. Klicken Sie auf **[!UICONTROL Löschen]** , um den Löschvorgang zu bestätigen, oder Sie können den Vorgang abbrechen, indem Sie auf _[!UICONTROL Abbrechen]_ klicken.
+1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen, oder Sie können den Vorgang durch Klicken auf _[!UICONTROL Abbrechen]_ abbrechen.
 
 ## Übersichtsvideo
 
