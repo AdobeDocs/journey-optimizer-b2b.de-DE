@@ -4,10 +4,11 @@ description: Erfahren Sie, wie Sie auf die Einstellungen der Landingpage zugreif
 feature: Setup, Content
 hide: true
 hidefromtoc: true
-source-git-commit: f599ae239b6979f766f97330b825503e70a13e50
+exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
+source-git-commit: a04e069d12f1599eb3d53840704d01ced05ba4fb
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 3%
+ht-degree: 52%
 
 ---
 
@@ -24,16 +25,16 @@ Platzhaltertext.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_account_string"
 >title="Kontozeichenfolge für Landingpages"
->abstract="Die Kontozeichenfolge identifiziert die Adobe Journey Optimizer B2B edition-Instanz, die die Landingpages hostet."
+>abstract="Die Kontozeichenfolge identifiziert die Instanz von Adobe Journey Optimizer B2B Edition, die die Landingpages hostet."
 
 Die Kontozeichenfolge identifiziert die Adobe Journey Optimizer B2B edition-Instanz, die die Landingpages hostet. Stellen Sie sicher, dass Ihr System-Team den DNS-Eintrag hinzufügt und konfiguriert.
 
-### Formular-Vorbefüllen {#form-prefill}
+### Vorbefüllen von Formularen {#form-prefill}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_form_prefill"
->title="Vorbefüllungseinstellungen für Landingpage-Formulare"
->abstract="Sie können die Option zum Vorbefüllen des Formulars aktivieren, damit Formulare auf Ihren Landingpages vorbefüllte Informationen für bekannte Benutzer verwenden können."
+>title="Einstellungen zum Vorbefüllen von Landingpage-Formularen"
+>abstract="Sie können die Option zum Vorbefüllen von Formularen aktivieren, damit Formulare auf Ihren Landingpages vorbefüllte Informationen für bekannte Benutzerinnen und Benutzer verwenden können."
 
 Aktivieren Sie die Option **[!UICONTROL Formularvorbefüllung]**, damit Formulare auf Ihren Landingpages vorbefüllte Informationen für bekannte Benutzer verwenden können. Wenn diese Option deaktiviert ist, können Autoren von Landingpages keine vorausgefüllten Formularfelder einschließen.
 
@@ -41,19 +42,19 @@ Aktivieren Sie die Option **[!UICONTROL Formularvorbefüllung]**, damit Formular
 
 Platzhaltertext.
 
-### Subdomain hinzufügen {#add-subdomain}
+### Hinzufügen einer Subdomain {#add-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_add_subdomain"
->title="Landingpage-Subdomain hinzufügen"
->abstract="Sie können maximal 50 Subdomains hinzufügen. Richten Sie für jede eindeutige Marken-URL, die Sie auf Adobe Journey Optimizer B2B edition hosten möchten, eine neue Subdomain ein."
+>title="Hinzufügen einer Landingpage-Subdomain"
+>abstract="Sie können maximal 50 Subdomains hinzufügen. Richten Sie für jede eindeutige Marken-URL, die Sie in Adobe Journey Optimizer B2B Edition hosten möchten, eine neue Subdomain ein."
 
-### Subdomain-Details {#configure-subdomain}
+### Details der Subdomain {#configure-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_configure_subdomain"
->title="Konfigurieren der Landingpage-Subdomain"
->abstract="Zum Veröffentlichen von Landingpages ist eine konfigurierte Subdomain erforderlich. Sie können eine Subdomain verwenden, die bereits an das Adobe delegiert ist, oder eine neue Subdomain erstellen."
+>title="Konfigurieren einer Landingpage-Subdomain"
+>abstract="Zum Veröffentlichen von Landingpages ist eine konfigurierte Subdomain erforderlich. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine neue Subdomain erstellen."
 
 Platzhaltertext.
 
