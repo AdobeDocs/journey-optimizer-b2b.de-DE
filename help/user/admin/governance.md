@@ -2,16 +2,16 @@
 title: Governance-Funktionen
 description: Erfahren Sie mehr über Governance-Funktionen, die derzeit in Journey Optimizer B2B edition verfügbar sind.
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-source-git-commit: 8c191cd86a9aa9e7094b7d3464b3179cfdb4789e
+source-git-commit: 3198ba223125c95263d8dcf5ee8cb285a888a26a
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 3%
+source-wordcount: '413'
+ht-degree: 2%
 
 ---
 
 # Governance-Funktionen
 
-Als integrierte Adobe Experience Platform-App nutzt Journey Optimizer B2B edition verschiedene Services und Tools, mit denen Sie Ihre erfassten Erlebnisdaten sicher kontrollieren können, um Ihre Geschäftspraktiken, rechtlichen Verpflichtungen und Entwicklungsprozesse zu erfüllen. Die folgenden Abschnitte enthalten eine Zusammenfassung jeder dieser Governance-Funktionen.
+Journey Optimizer B2B edition ist eine integrierte Adobe Experience Platform-App. Sie verwendet mehrere Tools und Services, die die Kontrolle über Ihre erfassten Erlebnisdaten in Übereinstimmung mit Ihren Geschäftspraktiken, rechtlichen Verpflichtungen und Entwicklungsprozessen ermöglichen. Die folgenden Abschnitte enthalten eine Zusammenfassung jeder dieser Governance-Funktionen.
 
 ## Datenschutz - DSGVO
 
@@ -29,9 +29,13 @@ Mit Journey Optimizer B2B edition und Zugriff auf Adobe Admin Console können Ad
 
 ## Opt-in/Opt-out für Einverständnis
 
-Das Einverständnis-Opt-in/Opt-out ist eine Form der Governance, bei der ein Profil sich von einem Kommunikationskanal wie E-Mail oder SMS abmelden kann und ein Profil dann aus diesem Kommunikationskanal ausgeschlossen werden sollte.
+Das Einverständnis-Opt-in/Opt-out ist eine Form der Governance, bei der ein Profil sich von einem Kommunikationskanal wie E-Mail oder SMS abmelden kann und ein Profil dann aus dem Kommunikationskanal ausgeschlossen wird.
 
 Mit Journey Optimizer B2B edition können Sie Anwendungsfälle für E-Mail- und SMS-Sendungen erstellen und verwalten, bei denen sich Benutzende abmelden oder abmelden können. Diese Einverständnisvoreinstellungen werden in der Feldergruppe „XDM-Profileinverständnis“ gespeichert und im Rahmen des Datensynchronisierungs-Frameworks mit Journey Optimizer B2B edition synchronisiert und daraus entfernt. Diese Voreinstellungen werden zur Versandzeit verwendet, um abgemeldete Profile von Sendungen auszuschließen.
+
+## Zurücksetzen der Sandbox
+
+Das Zurücksetzen von Sandboxes **für Adobe Journey Optimizer B2B edition** derzeit nicht unterstützt. Das Zurücksetzen oder Löschen einer Sandbox, die Journey Optimizer B2B edition zugeordnet ist, kann zu dauerhaftem Datenverlust in Journey Optimizer B2B edition führen und könnte die Bereitstellung einer neuen Journey Optimizer B2B edition-Instanz erfordern.
 
 ## Noch nicht verfügbar
 
@@ -39,7 +43,6 @@ Die folgenden Governance-Funktionen sind noch nicht verfügbar:
 
 * Durchsetzung von Datennutzungskennzeichnungen (DULE)/Nutzungsrichtlinien
 * Datenhygiene
-* Zurücksetzen der Sandbox
 * Einverständniserklärungen
 * Zugriffskontrolle auf Feldebene (FLAC)
 * Zugriffssteuerung auf Objektebene (OLAC)
