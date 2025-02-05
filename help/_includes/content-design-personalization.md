@@ -1,9 +1,9 @@
 ---
 title: Inhaltserstellung - Personalisierung
 description: Wiederverwendeter Abschnitt zur Verwendung der Personalisierung für die Inhaltserstellung
-source-git-commit: 0a9c05ac2ddd95e1fa5321f44f5cbe8cfa595007
+source-git-commit: 3791beb98068a56882bb0a96fbc6b192e85130bb
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ Beispiele:
 
 * `Hello {{profile.person.name.fullName}}`
 
-Bei der Verarbeitung der Nachricht (E-Mail und SMS) ersetzt Journey Optimizer B2B edition den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten. Das erste Beispiel wird also _Hallo, Max Mustermann_.
+Bei der Verarbeitung des Inhalts ersetzt Journey Optimizer B2B edition den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten. Das erste Beispiel wird also _Hallo, Max Mustermann_.
 
 Im folgenden Beispiel werden die Schritte zum Personalisieren von Inhalten mit Lead-/Kontoattributen und System-Token beschrieben.
 

@@ -3,9 +3,9 @@ title: Fragmente
 description: Erfahren Sie, wie Sie visuelle Inhaltsfragmente als wiederverwendbare Komponenten für E-Mails und E-Mail-Vorlagen in Adobe Journey Optimizer B2B edition erstellen und verwenden.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: d0bf71dd1503d824391df7d7a7c59e3c2c925f03
+source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2679'
 ht-degree: 3%
 
 ---
@@ -216,7 +216,7 @@ Wenn das Fragment derzeit verwendet wird, wird durch die Aktion ein Informations
 
 1. Wenn Sie den Inhalt aktualisieren möchten, klicken Sie oben **[!UICONTROL auf „Entwurfsversion]**&quot;.
 
-   Klicken Sie **[!UICONTROL Dialogfeld]** OK“, um die Entwurfsversion im visuellen Designer zu öffnen. Sie können bei [ die ](./assets-overview.md#choose-an-asset-source) ändern.
+   Klicken Sie **[!UICONTROL Dialogfeld]** OK“, um die Entwurfsversion im visuellen Designer zu öffnen.
 
    ![Dialogfeld „Entwurfsversion erstellen“](./assets/fragments-create-draft-version.png){width="300"}
 

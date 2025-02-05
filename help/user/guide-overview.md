@@ -2,7 +2,7 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B edition verwenden, um Account- und Gruppen-Journey mit integrierter Generative AI und branchenführender Automatisierung zu orchestrieren und zu kaufen.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 30075a1804e520b9908ef6b2217a8a91e33e0a84
+source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 7%
@@ -27,7 +27,7 @@ Verwenden Sie bedingte Inhalte, um Ihren E-Mail-Inhalt auf der Grundlage bedingt
 
 Verwenden Sie auf einer Konto-Journey den Aktionsknoten _Zu Liste hinzufügen_, um Personen zu einer statischen Marketo Engage-Liste hinzuzufügen. Diese Listen bieten Ihnen volle Flexibilität bei der Neuverwendung und Zielgruppenbestimmung bestimmter Zielgruppen. Sie können eine Liste erstellen und dann eine Kampagne dafür erstellen oder eine Person direkt zu einer vorhandenen Kampagne hinzufügen. Verwenden Sie außerdem die Aktion _Aus Liste entfernen_ Personen , um Ihre Zielgruppenbestimmung auf der Grundlage des Journey-Fortschritts des Kontos in Marketo Engage zu verfeinern und zu ändern.
 
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes#action-nodes" tooltip="Erfahren Sie, wie Sie der Liste hinzufügen und aus ihr entfernen"}
+[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Erfahren Sie, wie Sie der Liste hinzufügen und aus ihr entfernen"}
 
 >[!TAB Zentrale Asset-Bibliothek]
 

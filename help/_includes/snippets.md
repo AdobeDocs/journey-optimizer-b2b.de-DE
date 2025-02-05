@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 4facd14886cb21371ebbc3e0032cbf14cc322586
+source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,19 @@ ht-degree: 0%
 # Snippets
 
 <!-- Content authoring steps for reuse -->
+
+## Konfiguration der Absichtsdaten {#intent-data-note}
+
+>[!NOTE]
+>Absichtsdaten können auch in die Seite aufgenommen werden, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Weitere Informationen zum Modell für die Absichtserkennung und zum Senden von Schlüsselwörtern finden Sie unter [Absichtsdaten](../user/admin/intent-data.md).
+>
+
+## AEM Assets-Lizenzhinweis {#aem-assets-licensing-note}
+
+>[!NOTE]
+>
+>Lizenzen für AEM Assets as a Cloud Service und Dynamic Media sind Voraussetzungen für die Integration. Sie sollten sicherstellen, dass [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist.<br/>
+>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
 
 ## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
 
@@ -46,11 +59,7 @@ ht-degree: 0%
 
    Doppelklicken Sie auf den Ordner, der Ihre Assets enthält. Ziehen Sie die Elemente per Drag-and-Drop in eine Strukturkomponente.
 
-   >[!NOTE]
-   >
-   >Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service zusammen mit dem standardmäßigen Adobe Marketo Engage Design Studio verfügen, müssen Sie bei der Erstellung ](../user/content/assets-overview.md#choose-an-asset-source) E-Mail, E-Mail-Vorlage oder visuellen Fragments die [Bildquelle“ auswählen. Sie können jedoch auch die Bildquelle auswählen, bevor Sie den Content Designer zur Bearbeitung öffnen.
-
-   Weitere Informationen zur Verwendung von Assets aus Ihrem Quelltyp finden Sie unter [Hinzufügen von Assets zu Ihrem Inhalt](../user/content/assets-overview.md#add-assets-to-your-content).
+   Weitere Informationen zur Verwendung von Assets aus Ihrem Quelltyp finden Sie unter [Hinzufügen von Assets zu Ihrem Inhalt](../user/content/assets-overview.md#use-assets-for-content-authoring).
 
    ![Ziehen Sie ein Marketo Engage-Asset auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-asset.png){width="800" zoomable="yes"}
 

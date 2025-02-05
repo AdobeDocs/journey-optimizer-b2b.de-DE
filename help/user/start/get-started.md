@@ -2,9 +2,9 @@
 title: Erste Schritte mit Journey Optimizer B2B edition
 description: Als neue Benutzerin bzw. neuer Benutzer von Journey Optimizer B2B Edition erfahren Sie mehr über die Schlüsselbereiche für die ersten Schritte.
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: b403ff764c002796953956379e33fec6eb8c0611
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '664'
 ht-degree: 10%
 
 ---
@@ -41,6 +41,8 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Konfigurieren und Aktivieren der Verwendung von Adobe Experience Manager Assets** für Teams, die Assets as a Cloud Service für die zentralisierte Verwaltung digitaler Assets verwenden. [Weitere Informationen](../admin/configure-aem-repositories.md)
 
+1. **Einrichten von Adobe Experience Platform (AEP)-Erlebnisereignisdefinitionen** für Teams, die für die Erstellung von Account-Journey verantwortlich sind und auf AEP-Erlebnisereignisse warten. [Weitere Informationen](../admin/configure-aep-events.md)
+
 >[!TAB Marketer-Schnellstart]
 
 Als Marketing-Experte oder _Account Journey Practitioner_ sind Sie für die Gestaltung von Journey und die Erstellung von Inhalten verantwortlich. Sie können mit Adobe Journey Optimizer B2B edition arbeiten, nachdem der Systemadministrator und der Datentechniker Ihre Umgebung vorbereitet und Ihnen Zugriff gewährt haben.
@@ -49,7 +51,7 @@ In den folgenden Abschnitten erfahren Sie, wie Sie Ihre erste Journey einrichten
 
 1. **Konto-Zielgruppen hinzufügen**. Mit Journey Optimizer B2B edition können Sie Account-Zielgruppen über Segmentdefinitionen direkt im Programm erstellen und diese in Ihren Account-Journey nutzen. [Weitere Informationen](../audiences/account-audience-overview.md)
 
-1. **Einkaufsgruppen erstellen**. Definieren Sie die wichtigsten Komponenten, um Ihre Geschäftsziele zu erreichen, und erstellen Sie Einkaufsgruppen, die die Mitglieder für Ihre Zielkontenlisten identifizieren. [Weitere Informationen](../buying-groups/buying-groups-overview.md)
+1. **Einkaufsgruppen erstellen**. Definieren Sie die wichtigsten Komponenten, um Ihre Geschäftsziele zu erreichen, und erstellen Sie Einkaufsgruppen, die die Mitglieder für Ihre Target-Kontolisten identifizieren. [Weitere Informationen](../buying-groups/buying-groups-overview.md)
 
 1. **Erstellen und Verwalten von Assets**. Adobe Experience Manager Assets bietet ein zentrales Repository mit Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](../content/assets-overview.md)
 

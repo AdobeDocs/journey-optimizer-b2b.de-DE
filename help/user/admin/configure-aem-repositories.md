@@ -3,7 +3,7 @@ title: Konfigurieren von Experience Manager-Asset-Repositorys
 description: Erfahren Sie, wie Sie eine Verbindung zu Experience Manager Assets-Repositorys für die Verwendung bei der Inhaltserstellung in Journey Optimizer B2B edition konfigurieren.
 feature: Assets, Integrations
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 Adobe Journey Optimizer B2B edition lässt sich mit Adobe Experience Manager Assets as a Cloud Service integrieren und ermöglicht so mehr als nur die Verwendung von Assets wie E-Mails innerhalb einer Account-Journey. Es sorgt für Transparenz durch den Austausch von Informationen mit Experience Manager Assets. Konfigurieren Sie die Verbindung zu Adobe Experience Assets, um diese Funktion zu aktivieren.
 
 Adobe Experience Manager Cloud Manager ist in Programme unterteilt und jedes Programm verfügt über mehrere Umgebungen und Repositorys ([Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types)). Wenn Sie Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition konfigurieren, richten Sie Verbindungen zu jedem Repository ein, das Sie für den Zugriff auf digitale Assets verwenden möchten.
+
+{{aem-assets-licensing-note}}
 
 ## Voraussetzungen
 

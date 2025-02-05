@@ -3,9 +3,9 @@ title: Einkaufsgruppenetappen
 description: Erfahren Sie mehr über den Kauf von Gruppenphasen und wie Sie diese definieren können, um den Journey-Fortschritt im Hinblick auf Verkaufsziele zu verfolgen.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 13a2e51ad6b550cf37ee0a790ccf17f764cc51b7
+source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2250'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Die Stadien der Einkaufsgruppen verfolgen den Fortschritt der Einkaufsgruppen bei der Konvertierung von Opportunities in Kunden. Verwenden Sie diese Funktion, um den Fortschritt der Einkaufsgruppe zu verfolgen und die nächsten besten Aktionen für Mitglieder der Einkaufsgruppe zu identifizieren.
 
-Definieren Sie die Phasen innerhalb eines einzelnen Staging-Modells, indem Sie mehrere Phasen und den Übergangsfluss zwischen ihnen definieren. Eine oder mehrere Phasen sind für den Eintritt in den Lebenszyklus vorgesehen. Das Modell ermöglicht auch eine nichtlineare Progression, bei der Sie Übergänge von einem Stadium zu einem anderen angeben können, z. B. von Stadium A zu Stadium B, C oder D. Es ist erforderlich, dass ein Schritt als Erfolgsschritt gekennzeichnet wird, z. B. ein Kauf oder ein unterzeichneter Vertrag. Es ist optional, dass eine weitere Phase als Ausfallphase eingestuft wird, z. B. ein abgelehnter Vertrag oder der Kauf einer konkurrierenden Lösung von einem anderen Anbieter.<!-- This is achieved through intelligent dashboards that show how buying groups are progressing in terms of completing a sale opportunity or converting an opportunity into a customer. -->
+Definieren Sie die Phasen innerhalb eines einzelnen Staging-Modells, indem Sie mehrere Phasen und den Übergangsfluss zwischen ihnen definieren. Eine oder mehrere Phasen sind für den Eintritt in den Lebenszyklus vorgesehen. Das Modell ermöglicht auch eine nichtlineare Progression, bei der Sie Übergänge von einem Stadium zu einem anderen angeben können, z. B. von Stadium A zu Stadium B, C oder D. Es ist erforderlich, dass ein Schritt als Erfolgsschritt gekennzeichnet wird, z. B. ein Kauf oder ein unterzeichneter Vertrag. Es ist optional, dass eine weitere Phase als Ausfallphase eingestuft wird, z. B. ein abgelehnter Vertrag oder der Kauf einer konkurrierenden Lösung von einem anderen Anbieter. Erreicht wird dies durch [intelligente Dashboards](../dashboards/intelligent-dashboard.md) die zeigen, wie Einkaufsgruppen in Bezug auf den Abschluss einer Verkaufschance oder die Umwandlung einer Opportunity in einen Kunden vorankommen.
 
 ![Beispiel für den Kauf von Gruppenstadien](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 

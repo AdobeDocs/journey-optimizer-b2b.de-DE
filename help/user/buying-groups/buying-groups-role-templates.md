@@ -3,10 +3,10 @@ title: Einkaufsgruppen-Rollenvorlagen
 description: Erfahren Sie, wie Sie eine Rollenvorlage definieren, die als Einkaufsgruppenkomponente verwendet werden soll.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 492c4f5c326624e1713fb12289826c530384686a
+source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 1%
+source-wordcount: '1125'
+ht-degree: 4%
 
 ---
 
@@ -61,6 +61,14 @@ In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen 
 
 Nachdem Sie die Vorlage erstellt haben, wird sie im Arbeitsbereich geöffnet und Sie werden aufgefordert, die Rollen zu definieren. Standardmäßig wird die erste Rollenkarte angezeigt.
 
+Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filtern oder _Bedingungen_, um die der Rolle zugewiesenen Mitglieder zu bestimmen. Verwenden Sie die folgenden Filtertypen, um die Bedingungen für eine Rolle zu definieren:
+
+| Typ | Bedingung |
+| ---- | --------- |
+| Personenattribute | <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Faxnummer <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Zweiter Vorname <li>Mobiltelefonnummer <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
+| Spezielle Filter | <li>Mitglied der Liste |
+| Absichtsdaten | Kategoriebedingung <li>Produktzweck <li>Keyword-Intent<br/>[ Erfahren Sie mehr über ](../admin/intent-data.md). |
+
 1. Definieren Sie für die erste Rollenkarte die Rolleneigenschaften.
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
@@ -102,6 +110,16 @@ Nachdem Sie die Vorlage erstellt haben, wird sie im Arbeitsbereich geöffnet und
 1. Klicken Sie für jede zusätzliche Rolle, die Sie in die Vorlage aufnehmen möchten, auf **[!UICONTROL Weitere Rolle hinzufügen]** und wiederholen Sie die Schritte 1 und 2, um die Rolle zu definieren.
 
    ![Rollenvorlage mit mehreren definierten Rollen](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX &quot;Marketo Engage-Listenmitgliedschaft“]
+
+Überprüfen Sie in Marketo Engage _Smart_-Kampagnen) die Programmmitgliedschaft, um sicherzustellen, dass Leads keine doppelten E-Mails erhalten und nicht gleichzeitig Mitglieder mehrerer E-Mail-Streams sind. In Journey Optimizer B2B können Sie die Mitgliedschaft in einer Marketo Engage-Liste als Bedingung für Ihre Rollenvorlage prüfen, um doppelte Käufe von Gruppenmitgliedschaften und Journey-Aktivitäten zu vermeiden.
+
+Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!UICONTROL Spezielle Filter]** und ziehen Sie die **[!UICONTROL Mitglied der Liste]** Bedingung in den Filterbereich. Füllen Sie dann die Filterdefinition aus, um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten.
+
+![Rollenvorlagenbedingung für das Marketo Engage der Listenmitgliedschaft](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+
+>[!ENDSHADEBOX]
 
 Ihre Änderungen werden automatisch im Status _Entwurf_ gespeichert. Wenn Sie die Rollenvorlage nicht veröffentlichen möchten, klicken Sie auf den Pfeil nach links (zurück) oben auf der Seite und kehren Sie zur Liste _[!UICONTROL Rollenvorlagen]_ zurück.
 

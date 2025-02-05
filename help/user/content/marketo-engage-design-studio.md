@@ -3,16 +3,16 @@ title: Arbeiten mit Marketo Engage Assets
 description: Erfahren Sie mehr über die Verwendung der Asset-Management-Integration von Marketo Engage Design Studio in Journey Optimizer B2B edition.
 feature: Assets, Content
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 80df6ffd84a51b9df0fbeab321cb2197f610a048
+source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
 
 # Arbeiten mit Marketo Engage-Assets
 
-Marketo Engage Design Studio ist die standardmäßige Asset-Quelle für Journey Optimizer B2B edition. Sie können die verfügbaren Assets im Inhalt für die Journey Ihres Kontos einfach verwalten und verwenden.
+Marketo Engage Design Studio ist die standardmäßige Asset-Quelle für Journey Optimizer B2B edition. Sie können die verfügbaren Assets einfach verwalten und verwenden, um Inhalte zu entwerfen, die die Journey Ihres Kontos unterstützen.
 
 Beim Marketo Engage verwenden Marketing-Organisationen Arbeitsbereiche, um ihre Inhalts-Assets zu organisieren, und helfen Teams beim Zugriff auf das richtige Asset. Gut definierte Arbeitsbereiche sind besonders hilfreich für große Unternehmen, die über ein großes Portfolio an Produktangeboten verfügen oder global mit unterschiedlichen Anforderungen für das Marketing in verschiedenen Regionen arbeiten.
 
@@ -20,15 +20,16 @@ Beim Marketo Engage verwenden Marketing-Organisationen Arbeitsbereiche, um ihre 
 
 Standardmäßig gibt es einen **_[!UICONTROL Journey Optimizer B2B edition]_**-Arbeitsbereich, den Sie speziell für die Journey-Inhalte Ihres Kontos verwenden können. Die Assets, die Sie diesem Arbeitsbereich hinzufügen, sind nicht sichtbar oder für die Verwendung im Marketo Engage nicht verfügbar. Für Assets, die sich in diesem Arbeitsbereich befinden, stehen alle Asset-Management-Funktionen in Journey Optimizer B2B edition zur Verfügung. Zu diesen Funktionen gehören:
 
-* Ersetzen
-* Löschen
-* Verschieben
+* [Ersetzen](#replace-assets)
+* [Löschen](#delete-assets)
+* [Verschieben](#create-a-folder)
+* [Mit Adobe Expreß bearbeiten](./image-edit-adobe-express.md)
 
 Assets in den Marketo Engage-Arbeitsbereichen ist auf schreibgeschützten Zugriff zur Verwendung in E-Mails, E-Mail-Vorlagen und Fragmenten beschränkt. Sie können diesen Arbeitsbereichen neue Assets hinzufügen und eine Kopie eines Assets herunterladen.
 
 ## Durchsuchen von und Zugreifen auf Assets
 
-Um von Journey Optimizer B2B edition aus auf Adobe Marketo Engage-Assets zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Assets]**. Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
+Um über Journey Optimizer B2B edition auf Adobe Marketo Engage-Assets zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Assets]**. Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
 
 ![Durchsuchen von Marketo Engage-Assets](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -66,7 +67,7 @@ Durch Klicken auf den Link werden Sie zu der entsprechenden E-Mail, E-Mail-Vorla
 
 ## Hinzufügen von Assets
 
-Auf der Assets-Listenseite können Sie Bild-Assets zum Journey Optimizer B2B edition-Arbeitsbereich oder zum Marketo Engage-Arbeitsbereich hinzufügen.
+Auf der Listenseite _Assets_ können Sie Bild-Assets zum Journey Optimizer B2B edition-Arbeitsbereich oder zum Marketo Engage-Arbeitsbereich hinzufügen.
 
 1. Klicken **[!UICONTROL oben]** auf &quot;Assets hinzufügen“.
 
@@ -126,7 +127,7 @@ Ziehen _[!UICONTROL im Dialogfeld]_ Asset ersetzen“ die Ersatzdatei per Drag-a
 
 Klicken Sie auf &quot;**[!UICONTROL &quot;, um]**. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 
-Wenn die zu ersetzende Datei derzeit verwendet wird, werden Sie in einem informativen Dialogfeld darauf hingewiesen, dass die neue Bilddatei das Bild an allen Stellen ersetzt, an denen es verwendet wird (E-Mails, E-Mail-Vorlagen und Fragmente).
+Wenn die zu ersetzende Datei verwendet wird, werden Sie in einem informativen Dialogfeld darauf hingewiesen, dass die neue Bilddatei das Bild an allen Stellen ersetzt, an denen es verwendet wird (E-Mails, E-Mail-Vorlagen und Fragmente).
 
 ## Herunterladen von Assets
 
@@ -154,7 +155,7 @@ Sie können die folgenden Massenaktionen für ausgewählte Assets durchführen, 
 
 1. Ordner auswählen.
 
-   Der Pfad wird neben _[!UICONTROL Ausgewählte Assets werden verschoben nach:]_.
+   Der Pfad neben _[!UICONTROL Ausgewählte Assets werden verschoben nach:]_ spiegelt die Änderung wider.
 
 1. Klicken Sie **[!UICONTROL Verschieben]**.
 
@@ -268,7 +269,7 @@ Die Archivierung eines Ordners macht die darin enthaltenen Dateien undurchsuchba
 
 Assets kann in der E-Mail-, E-Mail-Vorlage oder beim Erstellen visueller Fragmente des Teams über den Visual Content Editor verwendet werden.
 
-Klicken Sie in der Visual Designer-Benutzeroberfläche auf das Symbol _Asset-Auswahl_ ( ![Assets](../assets/do-not-localize/icon-assets-design.svg) ) in der linken Seitenleiste.
+Wählen Sie in der Visual Designer-Benutzeroberfläche das Symbol _Marketo Engage Assets_ ( ![Marketo Engage Assets-Symbol](../../assets/do-not-localize/icon-assets-me.svg) ) in der linken Seitenleiste aus.
 
 Durch diese Aktion wird das Bedienfeld Tools geändert, das eine strukturierte Liste der verfügbaren Assets im ausgewählten Arbeitsbereich anzeigt. Wählen Sie den Arbeitsbereich aus, den Sie für die Auswahl eines Assets anzeigen möchten.
 

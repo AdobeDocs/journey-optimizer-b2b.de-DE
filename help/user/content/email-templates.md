@@ -1,11 +1,11 @@
 ---
 title: E-Mail-Vorlagen
-description: Erfahren Sie, wie Sie E-Mail-Vorlagen verwalten und erstellen, die zur einfachen und effizienten Erstellung von Account-Journey-E-Mails verwendet werden können.
+description: Erfahren Sie, wie Sie E-Mail-Vorlagen verwalten und erstellen, die zur einfachen und effizienten Erstellung von Account-Journey-E-Mails verwendet werden.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 10f8f254f49bb5dfb498758a4f39b23112c123a0
+source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1316'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenstän
 
 Um auf E-Mail-Vorlagen in Adobe Journey Optimizer B2B edition zuzugreifen, navigieren Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Vorlagen]**. Diese Aktion öffnet eine Listenseite mit allen E-Mail-Vorlagen, die in der Instanz erstellt wurden, die in einer Tabelle aufgeführt ist.
 
-Die Tabelle wird nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Vorlagen standardmäßig oben in der Liste stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
+Die Tabelle wird standardmäßig nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Vorlagen oben stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
 
 Um nach einer Vorlage anhand des Namens zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste ein. Klicken Sie _oben links auf_ Symbol „Filtern“, um die Liste nach Erstellungs- oder Änderungsdatum und nach Vorlagen zu filtern, die Sie erstellt oder geändert haben.
 
@@ -26,7 +26,7 @@ Um nach einer Vorlage anhand des Namens zu suchen, geben Sie eine Textzeichenfol
 
 Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
-Auf der Listenseite können Sie die in den folgenden Abschnitten beschriebenen Aktionen durchführen.
+Aus der angezeigten Vorlagenliste können Sie die in den folgenden Abschnitten beschriebenen Aktionen durchführen.
 
 ## E-Mail-Vorlage erstellen
 
@@ -35,12 +35,6 @@ Sie können eine E-Mail-Vorlage auf der Seite mit der E-Mail-Vorlagenauflistung 
 1. Geben Sie im Dialogfeld einen nützlichen **[!UICONTROL (Name]** und **[!UICONTROL Beschreibung]** (optional) ein.
 
    ![Geben Sie die ersten Eigenschaften für die neue E-Mail-Vorlage ein](./assets/templates-create-dialog.png){width="400"}
-
-1. Legen Sie die anfängliche **[!UICONTROL Bildquelle]** fest.
-
-   Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service und das standardmäßige Adobe Marketo Engage Design Studio verfügen, können Sie Bild-Assets aus beiden Quellen auswählen. Wählen Sie dazu bei der Erstellung einer E-Mail-Vorlage oder eines visuellen Fragments die Bildquelle aus. Sie können jedoch auch die Bildquelle auswählen, wenn Sie den Inhalt bearbeiten.
-
-   Weitere Informationen zu Bildquellen finden Sie unter [Assets](./assets-overview.md).
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -94,7 +88,7 @@ Klicken Sie auf der Seite Vorlagenauflistung auf den Namen einer E-Mail-Vorlage,
 
 * Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnung für die E-Mail-Vorlage), klicken Sie oben ]**auf**[!UICONTROL  Warnhinweise), um die Informationen anzuzeigen.
 
-  Diese Warnhinweise verbieten zwar nicht die Verwendung der E-Mail-Vorlage für die E-Mail-Erstellung, aber diese Informationen bieten Marketing-Experten in Ihrem Team Einblicke in mögliche Probleme und die erforderlichen Aktualisierungen, bevor sie für den Versand verwendet werden können.
+  Diese Warnhinweise verbieten nicht die Verwendung der E-Mail-Vorlage für die E-Mail-Erstellung. Die Informationen bieten Marketing-Fachleuten in Ihrem Team einen Überblick darüber, was möglicherweise nicht funktioniert, und über die erforderlichen Aktualisierungen, bevor sie für die Bereitstellung verwendet werden können.
 
 ## Anzeigen der von Verweisen verwendeten E-Mail-Vorlage
 
@@ -115,7 +109,7 @@ Diese Aktion kann übernommen werden aus:
 * Die Detailseite - Klicken Sie auf **[!UICONTROL E-Mail-Vorlage bearbeiten]**.
 * Die Auflistungsseite - Klicken Sie auf die Auslassungspunkte (**…**) neben einer E-Mail-Vorlage und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-Diese Aktion führt Sie je _zuletzt gespeicherten Status der E_ Mail-Vorlage zur Seite „Vorlage gestalten“ oder zur Seite „Visual Content Editor“. Von hier aus können Sie den Inhalt Ihrer E-Mail-Vorlage nach Bedarf bearbeiten. Weitere [ zu den Bearbeitungsoptionen finden Sie ](#create-email-templates) „E-Mail-Vorlagen erstellen“.
+Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der E-Mail-Vorlage). Von hier aus können Sie den Inhalt Ihrer E-Mail-Vorlage nach Bedarf bearbeiten. Weitere [ zu den Bearbeitungsoptionen finden Sie ](#create-email-templates) „E-Mail-Vorlagen erstellen“.
 
 ## E-Mail-Vorlagen duplizieren
 
@@ -150,7 +144,7 @@ Wählen Sie auf der Seite mit der Liste der E-Mail-Vorlagen mehrere Vorlagen gle
 
 **[!UICONTROL Löschen]** - Sie können bis zu 20 Vorlagen gleichzeitig löschen. In einem Bestätigungsdialogfeld können Sie die Aktion abbrechen oder das Entfernen der Vorlagen bestätigen.
 
-## E-Mail aus einer gespeicherten Vorlage erstellen
+## Erstellen einer E-Mail aus einer gespeicherten Vorlage
 
 Verwenden Sie auf dem Bildschirm _E-Mail erstellen_ den Abschnitt _Design-Vorlage auswählen_, um Ihren Inhalt aus einer Vorlage zu erstellen.
 
