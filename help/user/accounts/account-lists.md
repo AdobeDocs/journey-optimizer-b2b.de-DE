@@ -1,7 +1,10 @@
 ---
 title: Kontenlisten
 description: Erfahren Sie mehr über Account-Listen und wie Marketing-Experten sie verwenden können, um Accounts über Account-Journey anzusprechen.
-source-git-commit: c44721af93275297a90c6f7c0c3683ade6847658
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+hidefromtoc: true
+hide: true
+source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -232,4 +235,3 @@ Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail 
 1. Wählen **[!UICONTROL unter „Live-]**-Kontoliste auswählen“ die Kontoliste aus, aus der Sie Konten entfernen möchten.
 
    ![Wählen Sie Zur Kontoliste hinzufügen aus](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
