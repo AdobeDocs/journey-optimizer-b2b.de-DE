@@ -2,7 +2,8 @@
 title: Details der Einkaufsgruppe
 description: Erfahren Sie mehr über den Zugriff auf detaillierte Informationen und Zusammenfassungen der generativen KI für Einkaufsgruppen in Journey Optimizer B2B edition.
 feature: Buying Groups
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+exl-id: f14301dc-d605-4ed2-8867-6a49675019de
+source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 5%
@@ -11,7 +12,7 @@ ht-degree: 5%
 
 # Details der Einkaufsgruppe
 
-Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Einkaufsgruppennamen klicken, werden die Details der Einkaufsgruppe angezeigt. Diese Informationen bieten nützliche Informationen über die Einkaufsgruppe, einschließlich der Zusammenfassungen der generativen KI.
+Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Einkaufsgruppennamen klicken, werden die Details der Einkaufsgruppe angezeigt. Diese Übersicht enthält nützliche Informationen zur Einkaufsgruppe, einschließlich der Zusammenfassungen zur generativen KI.
 
 ![Auf Details der Einkaufsgruppe zugreifen](./assets/buying-group-details.png){width="800" zoomable="yes"}
 

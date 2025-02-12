@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie verwenden können, um Konto- und Einkaufsgruppen-Journeys mithilfe integrierter generativer KI und branchenführender Automatisierung zu orchestrieren.
-source-git-commit: bb2c790dbef3202b871e1362a1ca091666888368
+source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 40%
+source-wordcount: '221'
+ht-degree: 38%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 40%
    + [Verwenden des KI-Assistenten](./start/ai-assistant.md)
 + Account Journey {#account-journeys}
    + [Überblick](./journeys/journey-overview.md)
+   + [Journey-Details](./journeys/journey-details.md)
    + [Journey Knoten](./journeys/journey-nodes.md)
    + Journey-Knoten {#journey-nodes}
       + [Konto-Zielgruppe](./journeys/account-audience-nodes.md)
@@ -45,14 +46,15 @@ ht-degree: 40%
       + [Details der Einkaufsgruppe](./buying-groups/buying-group-details.md)
       + [Erstellen von Einkaufsgruppen](./buying-groups/buying-groups-create.md)
       + [Kontoliste exportieren](./audiences/account-list-export.md)
-      + [Vom linkedIn-Konto abgeglichene Zielgruppen](./data/linkedin-account-matched-audiences.md)
+      + [Zugeordnete Zielgruppen des LinkedIn-Kontos](./data/linkedin-account-matched-audiences.md)
       + [Kaufen von Gruppenfiltern in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + [Kontolisten](./accounts/account-lists.md)
+   + [Kontodetails](./accounts/account-details.md)
    + [XDM-Felder](./data/field-mapping.md)
 + Content Management {#content-management}
    + Assets {#assets}
       + [Überblick](./content/assets-overview.md)
-      + Marketo Engage von Assets {#marketo-engage-dam}
+      + Marketo Engage Assets-{#marketo-engage-dam}
          + [Arbeiten mit Marketo Engage-Assets](./content/marketo-engage-design-studio.md)
          + [Bearbeiten von Bildern mit Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager-Bild-Assets](./content/aem-assets.md)
@@ -70,10 +72,9 @@ ht-degree: 40%
    + [Bedingter Inhalt](./content/conditional-content.md)
 + Insights-Dashboards {#dashboards}
    + [Intelligentes Dashboard](./dashboards/intelligent-dashboard.md)
-   + [Kontodetails](./accounts/account-details.md)
-   + [Einkaufsgruppen - Übersicht](./dashboards/buying-groups-dashboard.md)
    + [Überblick über die Interaktion](./dashboards/engagement-dashboard.md)
-   + [Überblick über die Journey](./dashboards/journeys-dashboard.md)
+   + [Einkaufsgruppen - Übersicht](./dashboards/buying-groups-dashboard.md)
+   + [Übersicht über Account Journey](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
    + [Benutzerverwaltung](./admin/user-management.md)
    + [Absichtsdaten](./admin/intent-data.md)
