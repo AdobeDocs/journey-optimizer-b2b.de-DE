@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie verwenden können, um Konto- und Einkaufsgruppen-Journeys mithilfe integrierter generativer KI und branchenführender Automatisierung zu orchestrieren.
-source-git-commit: 04656fde343ac613e98608ff6b68ddac38ec9a6d
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '226'
 ht-degree: 38%
 
 ---
@@ -21,14 +21,15 @@ ht-degree: 38%
    + [Verwenden des KI-Assistenten](./start/ai-assistant.md)
 + Account Journey {#account-journeys}
    + [Überblick](./journeys/journey-overview.md)
-   + [Journey-Details](./journeys/journey-details.md)
-   + [Journey Knoten](./journeys/journey-nodes.md)
+   + [Erstellen und Veröffentlichen einer Journey](./journeys/create-publish-journey.md)
+   + [Journey-Knoten](./journeys/journey-nodes.md)
    + Journey-Knoten {#journey-nodes}
       + [Konto-Zielgruppe](./journeys/account-audience-nodes.md)
       + [Aktion ausführen](./journeys/action-nodes.md)
       + [Überwachen eines Ereignisses](./journeys/listen-for-event-nodes.md)
       + [Pfade aufteilen und zusammenführen](./journeys/split-merge-paths-nodes.md)
       + [Warten](./journeys/wait-nodes.md)
+   + [Journey-Details](./journeys/journey-details.md)
 + Journey-{#journey-content}
    + E-Mail-Kanal {#email-channel}
       + [E-Mail-Erstellung](./content/email-authoring.md)

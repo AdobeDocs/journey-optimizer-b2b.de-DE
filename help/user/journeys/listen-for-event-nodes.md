@@ -2,9 +2,10 @@
 title: Überwachen eines Ereignisses
 description: Erfahren Sie mehr über das Überwachen eines Ereignisknotentyps, den Sie zum Orchestrieren Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Account Journeys
-source-git-commit: a1247b0cdab586f2bca1c0e495d5db2069d2645b
+exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1368'
 ht-degree: 13%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 13%
 # Überwachen eines Ereignisses
 
 Fügen Sie den Knoten _Auf ein Ereignis_) hinzu, um Ihre Zielgruppe beim Eintreten eines Ereignisses mit dem nächsten Schritt auf der Konto-Journey fortzufahren.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
 >[!NOTE]
 >
@@ -80,9 +83,9 @@ Lauschen Sie auf ein Ereignis, das auf Personen basiert, wenn Sie das Konto auf 
 
 1. Klicken Sie **[!UICONTROL Ereignis bearbeiten]** und definieren Sie Details für das Ereignis.
 
-### Auf Marketo Engage-Ereignis überwachen
+### Marketo Engage-Ereignis überwachen
 
-Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz erstellt haben, können Sie Trigger auf der Grundlage eines Besuchs/Kein Besuch auf Marketo Engage-Web-Seiten sowie auf Marketo Engage-Formularen erstellen, die nicht ausgefüllt wurden/waren.
+Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz erstellt haben, können Sie ein Ereignis auf der Grundlage eines Besuchs/Nichtbesuchs von Marketo Engage-Web-Seiten sowie von Marketo Engage-Formularen, die nicht ausgefüllt wurden/waren, als Trigger verwenden.
 
 1. Journey Wählen Sie im **[!UICONTROL -Editor einen]**-Knoten aus.
 
@@ -99,7 +102,7 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz erstellt haben, 
 
 1. Klicken Sie **[!UICONTROL Ereignis bearbeiten]** und definieren Sie eine oder mehrere Web-Seiten, die abgeglichen werden sollen, sowie alle zusätzlichen Einschränkungen für das Ereignis.
 
-   * (Erforderlich) Definieren Sie im Dialogfeld _[!UICONTROL Ereignis bearbeiten]_ die **[!UICONTROL Webseite]** oder füllen Sie die Formulareinschränkung aus. Verwenden Sie **[!UICONTROL is]** (Standard), um auf einer oder mehreren ausgewählten Seiten oder Formularen eine Übereinstimmung zu finden. Verwenden Sie **[!UICONTROL ist nicht]** um bei allen Seitenbesuchen/Formularen eine Übereinstimmung mit dem Ausschluss einer oder mehrerer ausgewählter Seiten/Formulare herzustellen. Oder verwenden Sie **[!UICONTROL ist beliebig]** um beim Besuch einer Marketo Engage-Webseite oder beim Ausfüllen eines Formulars eine Übereinstimmung zu finden.
+   * (Erforderlich) Definieren Sie im Dialogfeld _[!UICONTROL Ereignis bearbeiten]_ die **[!UICONTROL Webseite]** oder füllen Sie die Formulareinschränkung aus. Verwenden Sie **[!UICONTROL is]** (Standard), um auf einer oder mehreren ausgewählten Seiten oder Formularen eine Übereinstimmung zu finden. Verwenden Sie **[!UICONTROL ist nicht]** um bei allen Seitenbesuchen/Formularen eine Übereinstimmung mit dem Ausschluss einer oder mehrerer ausgewählter Seiten/Formulare herzustellen. Oder verwenden Sie **[!UICONTROL ist beliebig]**, um bei jedem Besuch auf einer Marketo Engage-Web-Seite oder bei jedem ausgefüllten Formular eine Übereinstimmung herzustellen.
 
    * (Optional) Klicken Sie auf **[!UICONTROL Begrenzung hinzufügen]** und wählen Sie das Feld aus, das Sie für die Begrenzung verwenden möchten. Legen Sie den Operator und den Wert für das Feld fest.
 
@@ -119,7 +122,7 @@ Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen kon
 
 1. [Erstellen und Veröffentlichen einer AEP-](../admin/configure-aep-events.md).
 
-2. Fügen Sie einem Konto-Journey den Knoten _Auf ein Ereignis_ und wählen Sie eine Experience Platform-Ereignisdefinition für ein personenbasiertes Ereignis aus.
+2. Fügen Sie auf einer Konto-Journey den Knoten _Auf ein Ereignis_) hinzu und wählen Sie eine Experience Platform-Ereignisdefinition für ein personenbasiertes Ereignis aus.
 
 _So fügen Sie ein Erlebnisereignis in Ihren Journey ein:_
 
@@ -175,5 +178,6 @@ Legen Sie bei Bedarf fest, wie lange die Journey auf das Ereignis warten soll. D
 
    ![Journey-Ereignisknoten - Zeitüberschreitungspfad festlegen](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
+## Übersichtsvideo
 
-
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

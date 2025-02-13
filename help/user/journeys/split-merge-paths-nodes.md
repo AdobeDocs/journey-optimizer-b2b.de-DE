@@ -2,9 +2,10 @@
 title: Pfade aufteilen und zusammenführen
 description: Erfahren Sie mehr über die Knotentypen „Aufspaltungspfade“ und „Zusammenführungspfade“, die Sie zur Orchestrierung Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Account Journeys
-source-git-commit: af6e89b25ca20e14ec9a4c2ed4c8d632ad7c12dc
+exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
+source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1519'
 ht-degree: 5%
 
 ---
@@ -12,6 +13,8 @@ ht-degree: 5%
 # Pfade aufteilen und zusammenführen
 
 Verwenden Sie Split- und Merge-Path-Knoten auf Ihrer Account-Journey, um Ihre Account-Journey zu orchestrieren. Sie können die Zielgruppe gemäß Bedingungen segmentieren, die Sie definieren, und die Segmente kombinieren, um fortzufahren.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
 ## Pfade aufteilen
 
@@ -122,7 +125,7 @@ _Wie funktioniert ein aufgeteilter Pfad nach Personenknoten?_
 
      >[!NOTE]
      >
-     >Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema auf Experience Platform definiert haben, sind diese Felder auch verfügbar, um als Personenattribute in Bedingungen zu verwenden.
+     >Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema in Experience Platform definiert haben, sind diese Felder auch verfügbar, um als Personenattribute in Bedingungen zu verwenden.
 
    * Passen Sie Ihre Bedingungen durch Anwendung der **[!UICONTROL Filterlogik]** oben an. Sie wählen, ob alle Attributbedingungen oder eine beliebige Bedingung erfüllt werden sollen.
 
@@ -144,13 +147,13 @@ _Wie funktioniert ein aufgeteilter Pfad nach Personenknoten?_
 
 1. Aktivieren Sie die Option **[!UICONTROL Andere Personen]**, um einen Standardpfad für Personen hinzuzufügen, die den definierten Pfaden nicht entsprechen. Wenn nicht, endet die Journey für diese Menschen.
 
->[!BEGINSHADEBOX &quot;Marketo Engage-Listenmitgliedschaft“]
+>[!BEGINSHADEBOX &quot;Marketo Engage List Membership“]
 
-Überprüfen Sie in Marketo Engage _Smart_-Kampagnen) die Programmmitgliedschaft, um sicherzustellen, dass Leads keine doppelten E-Mails erhalten und nicht gleichzeitig Mitglieder mehrerer E-Mail-Streams sind. In Journey Optimizer B2B können Sie die Zugehörigkeit zu einer Marketo Engage-Liste als Bedingung für Ihren Aufspaltungspfad nach Personen überprüfen, um doppelte Journey-Aktivitäten zu vermeiden.
+Überprüfen Sie in Marketo Engage _Smart_ Kampagnen) die Programmmitgliedschaft, um sicherzustellen, dass Leads keine doppelten E-Mails erhalten und nicht gleichzeitig Mitglieder mehrerer E-Mail-Streams sind. In Journey Optimizer B2B können Sie die Marketo Engage-Listenmitgliedschaft als Bedingung für Ihren Aufspaltungspfad nach Personen überprüfen, um doppelte Journey-Aktivitäten zu vermeiden.
 
 Erweitern Sie dazu **[!UICONTROL Spezialfilter]** und ziehen Sie die Bedingung **[!UICONTROL Mitglied der Liste]** in den Filterbereich. Vervollständigen Sie die Filterdefinition, um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten.
 
-![Aufspaltungspfad nach Personen-Bedingung für das Marketo Engage der Listenmitgliedschaft](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
+![Aufspaltungspfad nach Personen-Bedingung für die Marketo Engage-Listenmitgliedschaft](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -185,3 +188,7 @@ Fügen Sie einen Knoten _Zusammenführungspfade_ hinzu, um verschiedene Aufspalt
    An dieser Stelle werden die Pfade zusammengeführt, sodass Konten aus den ausgewählten Pfaden zu einem einzigen Pfad kombiniert werden, der durch den Journey weiter ausgeführt werden kann.
 
 1. Bei Bedarf können Sie die Zusammenführung von Pfaden aufheben, indem Sie zurück zu den Knoteneigenschaften der Zusammenführungspfade navigieren und das Kontrollkästchen für alle Pfade deaktivieren, die Sie entfernen möchten.
+
+## Übersichtsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
