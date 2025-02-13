@@ -2,9 +2,9 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B edition verwenden, um Account- und Gruppen-Journey mit integrierter Generative AI und branchenführender Automatisierung zu orchestrieren und zu kaufen.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '616'
 ht-degree: 7%
 
 ---
@@ -17,39 +17,37 @@ Im Folgenden finden Sie ein Beispiel für die neuesten Verbesserungen am Produkt
 
 >[!BEGINTABS]
 
+>[!TAB Intelligent Insights-Dashboard]
+
+Mit dem neuen intelligenten Dashboard können Sie den Fortschritt der Käuferqualifizierung über verschiedene Stadien hinweg sehen. Erfahren Sie, welche Einkaufsgruppen sich schnell bewegen und welche stagnieren, sodass Sie Journey kuratieren können, um sie nach Bedarf zu pflegen. Sie haben auch Details auf der Einkaufs- und Kontoebene, die mehr Kontext und historische Daten für die Kundeninteraktion bereitstellen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/dashboards/intelligent-dashboard.md" tooltip="Informationen zum intelligenten Dashboard"}
+
+>[!TAB Adobe Express-Bildbearbeitung]
+
+Verwenden Sie die Adobe Express-Schnellaktionen, um Ihre Inhalte mit Zuschneiden, Größenanpassung, Hintergrundentfernung und Formatkonvertierung zu versehen. Die intuitive Benutzeroberfläche von Adobe Express ist integriert, sodass Sie Ihre Bild-Assets schnell optimieren können.
+
+Mit der Adobe Express Enterprise-Lizenzierung können Sie eine vollständige Suite an Adobe Express-Funktionen nutzen. Verwenden Sie diese Funktionen, um Bilder unter Einhaltung der Markenrichtlinien zu verbessern und Hindernisse in der Inhaltslieferkette zu beseitigen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Informationen zur Bildbearbeitung mit Adobe Express"}
+
+>[!TAB AEP-Ereignisweiterleitung]
+
+Admins können jetzt Ereignisdefinitionen konfigurieren, die auf Adobe Experience Platform (AEP) basieren. Diese Konfigurationen ermöglichen es Marketing-Experten, Account-Journey zu erstellen, die auf AEP-Erlebnisereignisse reagieren.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Erfahren Sie mehr über AEP-Ereignisdefinitionen für die Journey-Orchestrierung"}
+
+>[!TAB Kaufen von Gruppenfiltern für Smart-Listen]
+
+Sie können jetzt Smart Lists mit Einkaufsgruppenfiltern in Marketo Engage anzeigen und erstellen. Mit diesen Filtern können Sie kaufende Gruppenmitglieder über Marketo Engage-Kampagnen und -Programme hinweg von den Account-Journey in Journey Optimizer B2B edition unterdrücken und einbeziehen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Erfahren Sie mehr über den Kauf von Gruppenfiltern, die in Marketo Engage-Smart-Listen verwendet werden"}
+
 >[!TAB Bedingter Inhalt]
 
 Verwenden Sie bedingte Inhalte, um Ihren E-Mail-Inhalt auf der Grundlage bedingter Regeln anzupassen. Definieren Sie die Regeln mithilfe von Profilattributen oder kontextuellen Ereignissen. Sie können im Regel-Builder bedingte Regeln erstellen und diese zur Wiederverwendung in Ihren Account-Journey speichern.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Informationen zu bedingten Inhalten"}
-
->[!TAB Personenaktion - Zu Liste hinzufügen/aus Liste entfernen]
-
-Verwenden Sie auf einer Konto-Journey den Aktionsknoten _Zu Liste hinzufügen_, um Personen zu einer statischen Marketo Engage-Liste hinzuzufügen. Diese Listen bieten Ihnen volle Flexibilität bei der Neuverwendung und Zielgruppenbestimmung bestimmter Zielgruppen. Sie können eine Liste erstellen und dann eine Kampagne dafür erstellen oder eine Person direkt zu einer vorhandenen Kampagne hinzufügen. Verwenden Sie außerdem die Aktion _Aus Liste entfernen_ Personen , um Ihre Zielgruppenbestimmung auf der Grundlage des Journey-Fortschritts des Kontos in Marketo Engage zu verfeinern und zu ändern.
-
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-journeys/journey-nodes/action-nodes" tooltip="Erfahren Sie, wie Sie der Liste hinzufügen und aus ihr entfernen"}
-
->[!TAB Zentrale Asset-Bibliothek]
-
-Verwenden Sie die Bild-Assets in Ihrer Marketo Engage-Instanz für alle Design Studio-Arbeitsbereiche. Integrierte Leitplanken verhindern Änderungen am Marketo Engage von Assets aus Journey Optimizer B2B edition. Diese Schutzmaßnahmen stellen sicher, dass die Marketo Engage-Quell-Assets gepflegt werden und gleichzeitig das nahtlose Lesen und Wiederverwenden in Journey Optimizer B2B edition ermöglichen. Für Assets, die ausschließlich zur Verwendung in Journey Optimizer B2B edition vorgesehen sind, bietet ein bestimmter Arbeitsbereich sämtliche Asset-Management-Funktionen.
-
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/marketo-engage-design-studio" tooltip="Informationen zum zentralen Asset-Management"}
-
->[!TAB LinkedIn-Konto hat Audiences abgeglichen]
-
-Generieren von LinkedIn-Anzeigen-Zielgruppen durch Zielgruppen mit Konto-Matched, damit Sie leere Rollen in Ihren Einkaufsgruppen ausfüllen können. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine von LinkedIn übereinstimmende Zielgruppe verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten.
-
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/account-audiences/linkedin-account-matched-audiences" tooltip="Erfahren Sie mehr über abgeglichene Zielgruppen mit LinkedIn-Konten"}
-
->[!TAB KI-Assistent]
-
-Machen Sie sich schnell mit den Konzepten für Account-basiertes Marketing vertraut und erfahren Sie mehr über die Funktionen von Journey Optimizer B2B edition, mit denen Sie die Strategien Ihres Teams optimieren können.
-
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant" tooltip="Informationen zum KI-Assistenten"}
-
-Heben Sie Ihre Inhalte mit dem KI-Assistenten für E-Mail-Inhalte in Adobe Journey Optimizer B2B edition auf die nächste Ebene heran, der auf generativer KI basiert. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails, zielgerichtete Textinhalte und sogar Bilder generiert, die speziell auf Ihre Zielgruppe zugeschnitten sind.
-
-[!BADGE Weitere Informationen]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/ai-assistant-emails" tooltip="Informationen zum KI-Assistenten für E-Mails"}
 
 >[!ENDTABS]
 
@@ -119,7 +117,7 @@ Entdecken Sie die Bestandteile einer Einkaufsgruppe und lernen Sie die Grundlage
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Insights und Dashboards"><br/>
-      <strong>Insights</strong><br/><a href="./dashboards/buying-groups-dashboard.md">Dashboard für Einkaufsgruppen</a><br/><a href="./dashboards/journeys-dashboard.md">Dashboard für Journey</a><br/><a href="./dashboards/engagement-dashboard.md">Interaktionen</a>
+      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent Dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Interaktions-Dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Dashboard für Einkaufsgruppen</a><br/><a href="./dashboards/journeys-dashboard.md">Journey Dashboard</a>
     </td>
 
 </tr>
@@ -134,7 +132,7 @@ Entdecken Sie die Bestandteile einer Einkaufsgruppe und lernen Sie die Grundlage
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklerressourcen</a>
 </td></tr>
-<tr><td><strong>Adobe Real-time Customer Data Platform</strong><br/>
+<tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home" target="_blank">Dokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Entwickler-Tutorials</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/marketo/using/home" target="_blank">Benutzerdokumentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Entwicklerdokumentation</a>
