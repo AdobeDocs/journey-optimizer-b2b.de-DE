@@ -5,10 +5,11 @@ feature: Content
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
+source-git-commit: 41041ad94cea758cf11f1255e0de5e49153d992e
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 9%
+ht-degree: 18%
 
 ---
 
@@ -16,12 +17,12 @@ ht-degree: 9%
 
 Nachdem Sie [Einstiegsseite erstellt haben](./landing-pages.md#create-a-landing-page) verwenden Sie den visuellen Designer, um die Struktur- und Inhaltskomponenten auf Ihrer Seite zu erstellen.
 
-## Hinzufügen von Struktur und Inhalt {#structure-content-landing-page}
+## Hinzufügen von Struktur und Inhalten {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_structure"
 >title="Hinzufügen von Strukturkomponenten zur Landingpage"
->abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung des Inhalts für Ihre Seite zu beginnen."
+>abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen Sie eine **Strukturkomponente** per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung von Inhalten für Ihre Seite zu beginnen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_page_content_components"
@@ -71,4 +72,4 @@ Im Menü _[!UICONTROL Mehr …]_ oben in Visual Designer können Sie die folgend
 * **[!UICONTROL Landingpage zurücksetzen]** - Klicken Sie auf diese Option, um die Arbeitsfläche des visuellen Designers zu leeren und die Erstellung des Seiteninhalts neu zu starten.
 * **[!UICONTROL Design ändern]** - Kehren Sie zur Startseite von _[!UICONTROL Erstellen]_ primären Landingpage“ zurück. Dort können Sie eine andere Vorlage auswählen, um den Design-Prozess neu zu starten, oder die Seite von Grund auf auf auf einer leeren Arbeitsfläche entwerfen.
 <!--- * **[!UICONTROL Save as content template]** - Save the page body as a landing page template to be reused across multiple landing pages. You provide a name and description for the template and save it to the list of saved  landing page templates. -->
-* **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche auf Ihr lokales System im HTML-Format herunter, das als ZIP-Datei verpackt ist.
+* **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche in HTML im Format herunter, das als ZIP-Datei verpackt ist.

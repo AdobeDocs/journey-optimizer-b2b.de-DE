@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ Das intelligente Dashboard bietet außerdem Zugriff auf Konto- und Einkaufsgrupp
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Käufergruppenphasen"
->abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Einkaufsgruppen in verschiedenen Stadien basierend auf den konfigurierten Übergangsregeln. Der erste Balken zeigt die Anzahl der Käufergruppen in einer bestimmten Phase am ersten Datum des ausgewählten Zeitrahmens im Vergleich zur Anzahl der Käufergruppen am letzten Datum des ausgewählten Zeitrahmens."
+>abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Käufergruppen in verschiedenen Phasen, basierend auf den konfigurierten Übergangsregeln. Der erste Balken zeigt die Anzahl der Käufergruppen in einer bestimmten Phase am ersten Datum des ausgewählten Zeitrahmens im Vergleich zur Anzahl der Käufergruppen am letzten Datum des ausgewählten Zeitrahmens."
 
 Das _[!UICONTROL Einkaufsgruppenstadien]_-Diagramm bietet einen Überblick über den Fortschritt der Käufe in verschiedenen Stadien ([ auf der Grundlage von Übergangsregeln, die von einem Administrator eingerichtet ](../buying-groups/buying-group-stages.md)).
 
@@ -64,7 +64,7 @@ Klicken Sie oben links auf _Filter_-Symbol ![Bearbeiten](../assets/do-not-locali
 
 <!-- Add screen when the UI is available ![Filtering the buying group status data by attribute](./assets/buying-group-status-drill-through-filters.png){width="500"} -->
 
-## Einkaufsgruppen-Highlights {#buying-group-highlights}
+## Käufergruppen-Highlights {#buying-group-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
@@ -157,7 +157,7 @@ Verwenden Sie den Datumsfilter oben rechts, um den Datumsbereich für die Datenv
 
 <!-- ![Filtering tdata by date range](./assets/intelligent-dashboard-date-filter.png){width="300"} -->
 
-## Account-Highlights {#account-highlights}
+## Konto-Highlights {#account-highlights}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_account_highlights_surging"
@@ -238,7 +238,7 @@ Klicken Sie oben links auf _Filter_-Symbol ![Filtersymbol](../assets/do-not-loca
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_contact_overlap"
 >title="Kontaktüberschneidung"
->abstract="Liste der Kontakte, die Teil mehrerer Einkaufsgruppen sind, da sie mit mehreren Lösungsinteressen verknüpft sind."
+>abstract="Liste der Kontakte, die zu mehreren Käufergruppen gehören, weil sie mehreren Lösungsinteressen zugeordnet sind."
 
 Im _[!UICONTROL Kontaktüberschneidung]_ wird eine Liste von Kontakten angezeigt, die zu mehr als einer Einkaufsgruppe gehören, da sie mit mehreren Lösungsinteressen verknüpft sind.
 

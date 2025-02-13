@@ -22,11 +22,11 @@ Sie können den E-Mail-Versand auf einer Konto-Journey einrichten, wenn Sie eine
 1. Wählen Sie für _[!UICONTROL Aktion für Personen]_ die Option **[!UICONTROL E-Mail senden]**.
 1. Wählen Sie für _[!UICONTROL E-Mail]_ die Option **[!UICONTROL Neue E-Mail erstellen]**.
 
-   Alternativ können Sie auch die Option _[!UICONTROL E-Mail aus Adobe Marketo Engage auswählen]_ auswählen, um eine der vorab erstellten E-Mails auf Marketo Engage zu verwenden und als Teil der Konto-Journey zu senden.
+   Alternativ können Sie auch die Option _[!UICONTROL E-Mail aus Adobe Marketo Engage auswählen]_ auswählen, um eine der vorab erstellten E-Mails in Marketo Engage zu verwenden und als Teil der Konto-Journey zu senden.
 
    >[!NOTE]
    >
-   >Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal in Adobe Marketo Engage konfiguriert ist. Weitere Informationen finden Sie unter [Sicherstellen der E-Mail](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) in der Marketo Engage-Dokumentation.
+   >Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal in Adobe Marketo Engage konfiguriert ist. Weitere Informationen finden Sie unter [Sicherstellen der E-Mail](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) in der Dokumentation zu Marketo Engage.
 
    ![Aktion durchführen - E-Mail senden](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -113,7 +113,7 @@ Sie können den importierten Inhalt nach Bedarf mit den visuellen E-Mail-Editor-
 >
 > Auf gespeicherte Vorlagen können Governance-Einstellungen (Inhaltssperrung) für eine oder mehrere Komponenten angewendet werden. Der visuelle Designer bietet Richtlinien zu gesperrten Komponenten, wenn Sie [E-Mail aus einer verwalteten Vorlage erstellen](./email-authoring-governance.md).
 
-## Hinzufügen von Struktur und Inhalt {#structure-content}
+## Hinzufügen von Struktur und Inhalten {#structure-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
@@ -190,7 +190,7 @@ Im Menü _[!UICONTROL Mehr …]_ oben in Email Designer können Sie die folgende
 * **[!UICONTROL Als Fragment speichern]** - Speichert die E-Mail ganz oder teilweise als Fragment, das für mehrere E-Mails oder E-Mail-Vorlagen wiederverwendet werden soll. Geben Sie einen Namen und eine Beschreibung für das Fragment ein und speichern Sie es in der Liste der verfügbaren Fragmente.
 * **[!UICONTROL Design ändern]** - Kehren Sie zur Seite _E-Mail gestalten_ zurück. Dort können Sie eine andere Vorlage auswählen, um den Design-Prozess neu zu starten, oder den Inhalt von Grund auf auf auf einer schwarzen Arbeitsfläche entwerfen.\
 * **[!UICONTROL Als Inhaltsvorlage speichern]** - Speichern Sie den E-Mail-Textkörper als E-Mail-Vorlage, die für mehrere E-Mails oder E-Mail-Vorlagen wiederverwendet werden kann. Geben Sie einen Namen und eine Beschreibung für die Vorlage ein und speichern Sie sie in der Liste der gespeicherten E-Mail-Vorlagen.
-* **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche auf Ihr lokales System im HTML-Format herunter, das als ZIP-Datei verpackt ist.
+* **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche in HTML im Format herunter, das als ZIP-Datei verpackt ist.
 
 ## Prüfen von Warnhinweisen
 
