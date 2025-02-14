@@ -3,10 +3,10 @@ title: Intelligentes Dashboard
 description: Erfahren Sie mehr über das intelligente Dashboard, das eine umfassende Ansicht der Einkaufsgruppen- und Kontometriken bietet
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 74561c07ea8cc3a717f1e0f25a3c4326cb14ee36
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 18%
+source-wordcount: '1568'
+ht-degree: 14%
 
 ---
 
@@ -30,13 +30,17 @@ Das intelligente Dashboard bietet außerdem Zugriff auf Konto- und Einkaufsgrupp
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Käufergruppenphasen"
->abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Käufergruppen in verschiedenen Phasen, basierend auf den konfigurierten Übergangsregeln. Der erste Balken zeigt die Anzahl der Käufergruppen in einer bestimmten Phase am ersten Datum des ausgewählten Zeitrahmens im Vergleich zur Anzahl der Käufergruppen am letzten Datum des ausgewählten Zeitrahmens."
+>abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Käufergruppen in verschiedenen Phasen, basierend auf den konfigurierten Übergangsregeln. Der erste Balken zeigt die Anzahl der Einkaufsgruppen in einem bestimmten Stadium am ersten Datum des ausgewählten Zeitrahmens im Vergleich zum letzten Datum des ausgewählten Zeitrahmens an."
 
 Das _[!UICONTROL Einkaufsgruppenstadien]_-Diagramm bietet einen Überblick über den Fortschritt der Käufe in verschiedenen Stadien ([ auf der Grundlage von Übergangsregeln, die von einem Administrator eingerichtet ](../buying-groups/buying-group-stages.md)).
 
+>[!NOTE]
+>
+>Die Verfügbarkeit von Einkaufsgruppenphasen erfordert die Konfiguration der Einkaufsgruppenphasen. Unter [Kaufen von ](../buying-groups/buying-group-stages.md)) finden Sie detaillierte Informationen zu den Phasen sowie dazu, wie Sie die Phasen für Käufergruppen definieren und aktivieren.
+
 ![Datenvisualisierung für Gruppenstadien ](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
-Das Diagramm verwendet die Stadien der Einkaufsgruppe aus der zuletzt veröffentlichten Version des Modells der Einkaufsgruppenstadien . Jede Stufe wird von zwei Balken reflektiert. Der erste Balken zeigt die Anzahl der Einkaufsgruppen am ersten Datum des ausgewählten Zeitraums an. Und die zweite (im Vergleich) ist die Anzahl der Einkaufsgruppen am letzten Datum des Zeitrahmens. Sie können den Mauszeiger über jede Leiste bewegen, um die Anzahl der Einkaufsgruppen in jedem Stadium anzuzeigen.
+Das Diagramm verwendet die Stadien der Einkaufsgruppe aus der zuletzt veröffentlichten Version des Modells der Einkaufsgruppenstadien . Für jede Bühne gibt es zwei Bars. Der erste Balken zeigt die Anzahl der Einkaufsgruppen am ersten Datum des ausgewählten Zeitraums an. Und die zweite (im Vergleich) ist die Anzahl der Einkaufsgruppen am letzten Datum des Zeitrahmens. Sie können den Mauszeiger über jede Leiste bewegen, um die Anzahl der Einkaufsgruppen in jedem Stadium anzuzeigen.
 
 ![Bewegen Sie den Mauszeiger über die Leiste, um detaillierte Zahlen anzuzeigen](./assets/intelligent-dashboard-buying-group-stages-hover-bar.png){width="400"}
 
@@ -104,6 +108,8 @@ Jede Karte enthält die folgenden Daten:
    * Die Daten für jede Zeile sind in Spalten angeordnet: der Produktname, die Stärke der Produktzeit und die wichtigsten Schlüsselwörter nach der Stärke der Absicht.
    * Die Sortierreihenfolge für Kategorie, Produkt und Schlüsselwörter ist hoch bis niedrig. Wenn ein oder mehrere Typen dieselbe Intent-Stärke aufweisen, verwendet die Sortierung eine alphabetische Reihenfolge.
 
+  {{intent-data-note}}
+
 Klicken Sie oben rechts im Bedienfeld &quot;_-Highlights_ auf **[!UICONTROL Alle anzeigen]**, um zur Listenseite „Einkaufsgruppen“ zu navigieren.
 
 ### Attributfilter {#attribute-filter-bg-highlights}
@@ -130,6 +136,10 @@ Verwenden Sie den Datumsfilter oben rechts, um den Datumsbereich für die Datenv
 >abstract="Konten mit signifikanter Änderung bei der Interaktionsdynamik innerhalb des ausgewählten Zeitrahmens."
 
 Im Abschnitt _[!UICONTROL Steigende Konten]_ wird eine Visualisierung der Konten mit einer signifikanten Änderung der Interaktionsdynamik innerhalb des ausgewählten Zeitraums angezeigt.
+
+>[!NOTE]
+>
+>Die Daten zu Kontoaufstockungen sind auf Konten beschränkt, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen in eine Account-Zielgruppe aufgenommen wurden.
 
 ![Visualisierung von Kontoaufstockungsdaten](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -171,6 +181,10 @@ Verwenden Sie den Datumsfilter oben rechts, um den Datumsbereich für die Datenv
 
 Der _[!UICONTROL Kaufgruppen-Highlights]_ ist in zwei Zeilen angeordnet, um Informationen über die Konten anzuzeigen, die für Ihr Unternehmen von Interesse sind.
 
+>[!NOTE]
+>
+>Die Daten zur Kontohervorhebung sind auf Konten beschränkt, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen in eine Account-Zielgruppe aufgenommen wurden.
+
 ![Account-Highlights](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
 * **Steigende Konten** - In dieser Zeile werden die Konten mit einer signifikanten Zunahme der Interaktionsdynamik im ausgewählten Zeitraum angezeigt.
@@ -187,6 +201,8 @@ Jede Karte enthält die folgenden Daten:
    * Im Popup Details wird der Kategoriename mit Absichtsebene oben angezeigt.
    * Die Daten für jede Zeile sind in Spalten angeordnet: der Produktname, die Stärke der Produktzeit und die wichtigsten Schlüsselwörter nach der Stärke der Absicht.
    * Die Sortierreihenfolge für Kategorie, Produkt und Schlüsselwörter ist hoch bis niedrig. Wenn ein oder mehrere Typen dieselbe Intent-Stärke aufweisen, verwendet die Sortierung eine alphabetische Reihenfolge.
+
+  {{intent-data-note}}
 <!-- 
 At the top right of the _Buying group highlights_ panel, click **[!UICONTROL View All]** to navigate to the Buying groups list page. -->
 
@@ -213,6 +229,10 @@ Verwenden Sie den Datumsfilter oben rechts, um den Datumsbereich für die Datenv
 >abstract="Zeigt die Anzahl der Kontakte mit einer bestimmten Rolle an, die einem Lösungsinteresse zugeordnet sind. Die Zuordnung von Rolle und Lösungsinteresse basiert auf der Käufergruppenvorlage."
 
 Im Abschnitt _[!UICONTROL Kontaktabdeckung]_ wird die Anzahl der Kontakte mit einer bestimmten Rolle, die mit einem Lösungsinteresse verbunden ist, visuell dargestellt. Die Zuordnung von Rolle und Lösungsinteresse basiert auf der Käufergruppenvorlage.
+
+>[!NOTE]
+>
+>Die Daten zur Kontaktabdeckung basieren auf den in der Journey Optimizer B2B edition-Instanz erstellten Einkaufsgruppen.
 
 ![Visualisierung von Kontoaufstockungsdaten](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -241,6 +261,10 @@ Klicken Sie oben links auf _Filter_-Symbol ![Filtersymbol](../assets/do-not-loca
 >abstract="Liste der Kontakte, die zu mehreren Käufergruppen gehören, weil sie mehreren Lösungsinteressen zugeordnet sind."
 
 Im _[!UICONTROL Kontaktüberschneidung]_ wird eine Liste von Kontakten angezeigt, die zu mehr als einer Einkaufsgruppe gehören, da sie mit mehreren Lösungsinteressen verknüpft sind.
+
+>[!NOTE]
+>
+>Die Daten zur Kontaktüberschneidung basieren auf den in der Journey Optimizer B2B edition-Instanz erstellten Einkaufsgruppen.
 
 ![Kontaktüberschneidungstabelle](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 
