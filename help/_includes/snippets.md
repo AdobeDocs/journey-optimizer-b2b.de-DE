@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 8892aff0501a157006506663ef304be5ccc9695c
+source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 0%
 ## Konfiguration der Absichtsdaten {#intent-data-note}
 
 >[!NOTE]
->Absichtsdaten können auch in die Seite aufgenommen werden, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Weitere Informationen zum Modell für die Absichtserkennung und zum Senden von Schlüsselwörtern finden Sie unter [Absichtsdaten](../user/admin/intent-data.md).
 >
+>Absichtsdaten werden auf der Seite eingefügt, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](../user/admin/intent-data.md).
 
 ## AEM Assets-Lizenzhinweis {#aem-assets-licensing-note}
 
 >[!NOTE]
 >
->Lizenzen für AEM Assets as a Cloud Service und Dynamic Media sind Voraussetzungen für die Integration. Sie sollten sicherstellen, dass [Dynamic Media withOpen API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist.<br/>
+>Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Sie sollten sicherstellen, dass [Dynamic Media mit offener API](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist.<br/>
 >Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
 
 ## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
