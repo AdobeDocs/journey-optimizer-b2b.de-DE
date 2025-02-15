@@ -2,9 +2,10 @@
 title: Journey Details
 description: Erfahren Sie mehr über die Informationen auf der Journey-Detailseite und wie Sie damit Ihre veröffentlichte Account-Journey überwachen und verwalten können.
 feature: Dashboards, Account Journeys
-source-git-commit: cbacc678d01850e3eb3901c44994ddf849a63d7c
+exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
+source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -25,6 +26,13 @@ Dieser Abschnitt enthält zwei Abschlussmetriken:
 
 * **[!UICONTROL Journey-Status]** - Dieses Kreisdiagramm bietet eine Aufschlüsselung der Journey-Status, indem Konten in _Abgeschlossen_, _In Bearbeitung_ und _Abgebrochen_ kategorisiert werden. Jedes Segment ist am äußeren Rand des Diagramms mit entsprechenden Prozentsätzen und Kontonummern gekennzeichnet.
 * **[!UICONTROL Abschluss des Journey im Zeitverlauf]** - Dieses Liniendiagramm verfolgt die Anzahl der Konten, die ihr Journey im Zeitverlauf abgeschlossen haben. Die horizontale Achse bildet die Zeitleiste ab, während die vertikale Achse die Konten quantifiziert, was eine einfache Ansicht der Abschlusstrends bietet.
+
+## Journey-Interaktion
+
+Dieser Abschnitt enthält zwei Abschlussmetriken:
+
+* **[!UICONTROL Interaktion nach Konten]** - Dieses Kreisdiagramm segmentiert die Konten auf einer Journey in _Interagiert_ und _Nicht interagiert_ Kategorien. Die zentrale Zahl zeigt die Gesamtzahl an. Diese Visualisierung bietet einen Überblick über die gesamte Account-Interaktion.
+* **Interaktion nach Personen** - Diese Visualisierung zeigt die Gesamtzahl der Personen an, die als _interagiert_ in einer Journey qualifiziert sind.
 
 ## Journey-Performance
 
