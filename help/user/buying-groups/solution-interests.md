@@ -3,7 +3,7 @@ title: Interessen an Lösungen
 description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie für die Verwendung in Ihren Einkaufsgruppen definieren können.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 02b0e1a50b75dc02afe1b11217729e17583d5f12
+source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Sie können jederzeit den Namen und die Beschreibung für eine gewünschte Lösu
 
 1. Ändern Sie bei Bedarf die Einstellung **[!UICONTROL Vorhandene Einkaufsgruppen aktualisieren]**.
 
-   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse gepaart sind, über den 24-stündigen Synchronisierungszyklus aktualisiert.
+   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse gepaart sind, über den 7-tägigen Synchronisierungszyklus aktualisiert.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
