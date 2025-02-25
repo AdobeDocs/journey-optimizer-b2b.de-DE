@@ -3,9 +3,9 @@ title: Interessen an Lösungen
 description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie für die Verwendung in Ihren Einkaufsgruppen definieren können.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: c84b3e0b05581a630993077688b1dd3a3a95fcc5
+source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Bevor Sie Einkaufsgruppen erstellen, sollten Sie wissen, was Sie verkaufen und w
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Gruppen kaufen]**.
 
-1. Wählen Sie auf der Seite „Einkaufsgruppen“ die Registerkarte **[!UICONTROL Lösungsinteresse]** aus.
+1. Wählen Sie auf _[!UICONTROL Seite]_ die Registerkarte **[!UICONTROL Interesse an Lösungen]** aus.
 
    ![Registerkarte „Lösungsinteresse“](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   Die Registerkarte bietet eine Inventarliste aller vorhandenen Lösungsinteressen. Sie enthält Informationen im Spaltenformat _[!UICONTROL Name]_, _[!UICONTROL Rollenvorlage]_, _[!UICONTROL Vorgänge für die Erstellung von Einkaufsgruppen]_, _[!UICONTROL Zuletzt aktualisiert am]_, _[!UICONTROL Aktualisiert von]_, _[!UICONTROL Erstellt am]_ und _[!UICONTROL Erstellt von]_.
+   Die Registerkarte bietet eine Inventarliste aller vorhandenen Lösungsinteressen. Im Spaltenformat werden folgende Informationen bereitgestellt: _[!UICONTROL Name]_, _[!UICONTROL Rollenvorlage]_, _[!UICONTROL Aufträge für Gruppenerstellung]_, _[!UICONTROL Zuletzt aktualisiert am]_, _[!UICONTROL Aktualisiert von]_, _[!UICONTROL Erstellt am]_ und _[!UICONTROL Erstellt von]_
 
    Die Liste ist standardmäßig nach der Spalte _[!UICONTROL Zuletzt aktualisiert am]_ sortiert. Klicken Sie auf den Spaltentitel in der Kopfzeile, um zwischen absteigender und aufsteigender Sortierung umzuschalten.
 
 ## Anzeigen und Löschen von Aufträgen für Einkaufsgruppen
 
-Auf der Registerkarte _[!UICONTROL Lösungsinteresse]_ zeigt die Spalte **[!UICONTROL Einkaufsgruppenerstellungsaufträge]** die Anzahl der für jedes Lösungsinteresse erstellten Aufträge an. Die Zahl ist ein Link. Wenn Sie darauf klicken, wird ein Dialogfeld geöffnet, in dem die Liste der für die jeweilige Lösung erstellten Aufträge angezeigt wird.
+Auf der Registerkarte _[!UICONTROL Lösungsinteresse]_ zeigt die Spalte **[!UICONTROL Einkaufsgruppenerstellungsaufträge]** die Anzahl der für jedes Lösungsinteresse erstellten Aufträge an. Klicken Sie auf die Zahl, um ein Dialogfeld zu öffnen, in dem die Liste der für die jeweilige Lösung erstellten Vorgänge angezeigt wird.
 
 ![Gruppenaufträge für Lösungsinteressen kaufen](assets/buying-group-jobs-for-solution-interest.png){width="700" zoomable="yes"}
 
@@ -75,15 +75,17 @@ Sie können jederzeit den Namen und die Beschreibung für eine gewünschte Lösu
 
    ![Menü „Lösungsinteresse mehr“](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
-1. Aktualisieren Sie bei Bedarf den Namen (erforderlich und eindeutig) und die Beschreibung (optional).
+1. Nehmen Sie alle erforderlichen Aktualisierungen an den Einstellungen für das Lösungs-Interesse vor:
 
-1. Wählen Sie bei Bedarf das **[!UICONTROL Modell „Einkaufsgruppe Stadium]**, um den Fortschritt der Einkaufsgruppe zu verfolgen.
+   * Aktualisieren Sie **[!UICONTROL Name]** und **[!UICONTROL Description]**.
 
-   Weitere Informationen zur Verwendung von Käufergruppen-Stadien zur Verfolgung des Journey-Fortschritts gegenüber dem Umsatz finden Sie [Kaufen von Gruppenstadien](./buying-group-stages.md).
+   * Wählen Sie das **[!UICONTROL Modell des Einkaufsgruppenstadiums]**, das zum Verfolgen des Fortschritts des Einkaufsgruppenstadiums verwendet wird.
 
-1. Ändern Sie bei Bedarf die Einstellung **[!UICONTROL Vorhandene Einkaufsgruppen aktualisieren]**.
+     Weitere Informationen zur Verwendung von Käufergruppen-Stadien zur Verfolgung des Journey-Fortschritts gegenüber dem Umsatz finden Sie [Kaufen von Gruppenstadien](./buying-group-stages.md).
 
-   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse gepaart sind, über den 7-tägigen Synchronisierungszyklus aktualisiert.
+   * Ändern Sie die Einstellung **[!UICONTROL Vorhandene Einkaufsgruppen aktualisieren]**.
+
+     Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse gepaart sind, über den 7-tägigen Synchronisierungszyklus aktualisiert.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -95,7 +97,7 @@ Alle Lösungsinteressen, die derzeit von einem kaufenden Gruppenauftrag oder ein
 
    Diese Aktion öffnet ein Bestätigungsdialogfeld.
 
-   Wenn die Interessenslösung derzeit von einem Account-Journey oder einem Gruppenjob verwendet wird, öffnet die Aktion ein Informationsdialogfeld, das Sie darauf hinweist, dass sie nicht gelöscht werden kann. Klicken Sie auf [!UICONTROL OK], wodurch der Löschvorgang abgebrochen wird.
+   Wenn das Lösungsinteresse derzeit von einem Account-Journey oder einem Gruppenauftrag verwendet wird, führt die Aktion zu einem Warnhinweis, dass sie nicht gelöscht werden kann. Klicken Sie auf **[!UICONTROL OK]**, wodurch der Löschvorgang abgebrochen wird.
 
 1. Klicken Sie auf **[!UICONTROL Löschen]**, um den Löschvorgang zu bestätigen, oder Sie können den Vorgang durch Klicken auf _[!UICONTROL Abbrechen]_ abbrechen.
 
