@@ -2,22 +2,22 @@
 title: Konto-Zielgruppen
 description: Erfahren Sie mehr über Account-Zielgruppen und wie sie Account-basierte Journey aktivieren.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 3%
+source-wordcount: '552'
+ht-degree: 2%
 
 ---
 
 # Konto-Zielgruppen
 
-Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Journey Optimizer B2B edition verwendet die Kontosegmentierungsfunktionen von Adobe Real-time Customer Data Platform B2B- und B2P-Editionen. Mit der Kontosegmentierung können Benutzer Account-Zielgruppen generieren, indem sie Daten aus jeder B2B-Entität im System nutzen. Diese Account-Zielgruppen dienen als Eingaben für die Account-Journey von Journey Optimizer B2B edition und erleichtern die nahtlose Aktivierung und Personalisierung.
+Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Journey Optimizer B2B edition verwendet die Kontosegmentierungsfunktionen von Adobe Real-Time Customer Data Platform B2B- und B2P-Editionen. Mit der Kontosegmentierung können Benutzer Account-Zielgruppen generieren, indem sie Daten aus jeder B2B-Entität im System nutzen. Diese Account-Zielgruppen dienen als Eingaben für die Account-Journey von Journey Optimizer B2B edition und erleichtern die nahtlose Aktivierung und Personalisierung.
 
-Weitere Informationen zu Konto-Zielgruppen und deren Definition finden Sie in der Dokumentation zum [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences).
+Weitere Informationen zu Konto-Zielgruppen und deren Definition finden Sie in der Dokumentation zum [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/types/account-audiences).
 
 ## Workflow für Konto-Zielgruppe
 
-Sie können sich Journey Optimizer B2B edition als ein Experience Platform-Ziel (AEP) vorstellen, das nicht im Zielkatalog angezeigt wird. Aktivieren Sie Konto-Zielgruppen für Journey Optimizer B2B edition mithilfe der folgenden Schritte:
+Sie können sich Journey Optimizer B2B edition als Experience Platform-Ziel (AEP) vorstellen, das nicht im Zielkatalog angezeigt wird. Aktivieren Sie Konto-Zielgruppen für Journey Optimizer B2B edition mithilfe der folgenden Schritte:
 
 1. Erstellen Sie Schemata für Ihre Daten in AEP.
 1. Nehmen Sie Ihre Daten in AEP auf.
@@ -26,7 +26,7 @@ Sie können sich Journey Optimizer B2B edition als ein Experience Platform-Ziel 
 
 In Journey Optimizer B2B edition werden Account-Zielgruppen als Eingabe für Account-basierte Journey verwendet, sodass Sie die Personen in diesen Accounts ansprechen können. Beispielsweise können Sie Account-Zielgruppen verwenden, um Datensätze aller Konten abzurufen, die keine Kontaktinformationen für Personen mit dem Titel Chief Operating Officer (COO) oder Chief Marketing Officer (CMO) haben.
 
-Mit Journey Optimizer B2B edition können Sie Adobe Experience Platform (AEP)-Konto-Zielgruppen direkt über die linke Navigationsleiste erstellen und sie in die Journey Ihrer Konten integrieren.
+Mit Journey Optimizer B2B edition können Sie Adobe Experience Platform (AEP)-Konto-Zielgruppen direkt über die linke Navigationsleiste erstellen und sie in Ihre Account-Journey integrieren.
 
 ![Zugriff auf Konto-Zielgruppen](./assets/account-audiences-browse.png){width="800" zoomable="yes"}
 
@@ -51,6 +51,14 @@ Definieren Sie die Konto-Zielgruppe, indem Sie eine Kontosegmentierung erstellen
    Im folgenden Beispiel wird eine mit `Country Code`, `Revenue Amount` und `Market segment` erstellte Zielgruppe definiert. Die englischsprachige Abfrage lautet: „I want all accounts in the US who are in the Finance Segment their Revenue above $1M.“
 
    ![Beispiel für Account Audience Segment Builder](./assets/audience-segment-builder-US-finance-1M.png){width="700" zoomable="yes"}
+   <br/>
+
+   >[!IMPORTANT]
+   >
+   >Das `Account Name` für Kontoeinträge muss einen Wert enthalten, der in die Journey des Kontos aufgenommen werden soll. Wenn dieses Attribut leer (null) ist, wird der Kontodatensatz ausgeschlossen.<br/>
+   >Um sicherzustellen, dass nur Konten mit einem nicht leeren Kontonamen enthalten sind, fügen Sie das Attribut **[!UICONTROL Kontoname]** hinzu und wählen Sie _[!UICONTROL vorhanden]_ als Übereinstimmungsbedingung aus<br/>
+   >![Das Attribut „Kontoname“ ist vorhanden](./assets/audience-segment-builder-account-name-exists.png){width="600"}
+   ><br/>Wenn Sie ein benutzerdefiniertes Attribut als Kontonamen verwenden, verwenden Sie den benutzerdefinierten Attributnamen anstelle von _[!UICONTROL Kontoname]_.
 
 1. Klicken **[!UICONTROL oben]** auf „Speichern und schließen“.
 
