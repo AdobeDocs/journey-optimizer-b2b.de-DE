@@ -3,7 +3,7 @@ title: Interessen an Lösungen
 description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie für die Verwendung in Ihren Einkaufsgruppen definieren können.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 5b2f80bd41a068c1c568e47cdefe4d9f83427c13
+source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Bevor Sie Einkaufsgruppen erstellen, sollten Sie wissen, was Sie verkaufen und w
 
    ![Registerkarte „Lösungsinteresse“](assets/solution-interest-tab.png){width="700" zoomable="yes"}
 
-   Die Registerkarte bietet eine Inventarliste aller vorhandenen Lösungsinteressen. Im Spaltenformat werden folgende Informationen bereitgestellt: _[!UICONTROL Name]_, _[!UICONTROL Rollenvorlage]_, _[!UICONTROL Aufträge für Gruppenerstellung]_, _[!UICONTROL Zuletzt aktualisiert am]_, _[!UICONTROL Aktualisiert von]_, _[!UICONTROL Erstellt am]_ und _[!UICONTROL Erstellt von]_
+   Die Registerkarte bietet eine Inventarliste aller vorhandenen Lösungsinteressen. Es werden die folgenden Informationen im Spaltenformat angezeigt: _[!UICONTROL Name]_, _[!UICONTROL Rollenvorlage]_, _[!UICONTROL Einkauf von Gruppenerstellungsaufträgen]_, _[!UICONTROL Zuletzt aktualisiert am]_, _[!UICONTROL Aktualisiert von]_, _[!UICONTROL Erstellt am]_ und _[!UICONTROL Erstellt von]_
 
    Die Liste ist standardmäßig nach der Spalte _[!UICONTROL Zuletzt aktualisiert am]_ sortiert. Klicken Sie auf den Spaltentitel in der Kopfzeile, um zwischen absteigender und aufsteigender Sortierung umzuschalten.
 
@@ -58,7 +58,7 @@ Bevor Sie eine Interessenslösung erstellen, müssen Sie über eine Live-Rollenv
 
 1. Aktivieren Sie **[!UICONTROL Einstellung „Vorhandene Einkaufsgruppen aktualisieren]** (optional).
 
-   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse gepaart sind, über den 24-stündigen Synchronisierungszyklus aktualisiert.
+   Wenn diese Option aktiviert ist, werden alle vorhandenen Einkaufsgruppen, die mit dem Lösungsinteresse gepaart sind, über den 7-tägigen Synchronisierungszyklus aktualisiert.
 
 1. Klicken **[!UICONTROL oben]** auf „Erstellen“.
 
