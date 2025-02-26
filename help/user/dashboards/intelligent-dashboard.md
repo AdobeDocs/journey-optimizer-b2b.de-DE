@@ -6,7 +6,7 @@ exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
 source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
 workflow-type: tm+mt
 source-wordcount: '1568'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ Das intelligente Dashboard bietet außerdem Zugriff auf Konto- und Einkaufsgrupp
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Käufergruppenphasen"
->abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Käufergruppen in verschiedenen Phasen, basierend auf den konfigurierten Übergangsregeln. Der erste Balken zeigt die Anzahl der Einkaufsgruppen in einem bestimmten Stadium am ersten Datum des ausgewählten Zeitrahmens im Vergleich zum letzten Datum des ausgewählten Zeitrahmens an."
+>abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Käufergruppen in verschiedenen Phasen, basierend auf den konfigurierten Übergangsregeln. Der erste Balken zeigt die Anzahl der Käufergruppen in einer bestimmten Phase am ersten Datum des ausgewählten Zeitrahmens im Vergleich zum letzten Datum des ausgewählten Zeitrahmens."
 
 Das _[!UICONTROL Einkaufsgruppenstadien]_-Diagramm bietet einen Überblick über den Fortschritt der Käufe in verschiedenen Stadien ([ auf der Grundlage von Übergangsregeln, die von einem Administrator eingerichtet ](../buying-groups/buying-group-stages.md)).
 
