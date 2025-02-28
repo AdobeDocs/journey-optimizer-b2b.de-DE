@@ -3,10 +3,10 @@ title: Einkaufsgruppen
 description: Erfahren Sie, wie Einkaufsgruppen in Journey Optimizer B2B edition die Marketing-Effektivität steigern können, indem sie Mitglieder für Ihre Kontolisten identifizieren und auswählen.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: e2059726fbb7541dbe0e7ab9be4cd82f37f26cf8
+source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 6%
+source-wordcount: '1788'
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ Für B2B-Vertriebs- und Marketing-Aktivitäten sind Accounts der Schlüssel zu j
 
 ![Diagramm zu Kontorollen](assets/account-roles-diagram.png){width="800"}
 
-Innerhalb des Kontos könnte es eine Untergruppe von Personen geben, die die &quot;_&quot;_. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen. Sie benötigen daher besondere Aufmerksamkeit vom Marketing-Experten und möglicherweise andere Informationen als die anderen Personen, die mit dem Account in Verbindung stehen. Einkaufsgruppen können für verschiedene Produktlinien oder Angebote eine unterschiedliche Personengruppe umfassen. Beispielsweise kann ein Cybersicherheitsprodukt in der Regel die Genehmigung eines Kaufs durch einen Chief Information Officer oder Chief Security Officer und einen Mitarbeiter der Rechtsabteilung erfordern, aber ein Produkt zur Fehlersuche kann in der Regel einen VP of Engineering und einen IT-Director als Mitglieder der kaufenden Gruppe haben.
+Innerhalb des Kontos könnte es eine Untergruppe von Personen geben, die die &quot;_&quot;_. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen. Sie benötigen daher besondere Aufmerksamkeit vom Marketing-Experten und möglicherweise andere Informationen als die anderen Personen, die mit dem Account in Verbindung stehen. Einkaufsgruppen können für verschiedene Produktlinien oder Angebote eine unterschiedliche Personengruppe umfassen. Beispielsweise kann ein Cybersicherheitsprodukt in der Regel die Genehmigung eines Kaufs durch einen Chief Information Officer oder Chief Security Officer und einen Vertreter der Rechtsabteilung erfordern, aber ein Produkt zur Fehlersuche kann in der Regel einen VP of Engineering und einen IT Director als Mitglieder der kaufenden Gruppe haben.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video ansehen - Übersicht](#overview-video)
 
@@ -91,11 +91,58 @@ Der Vollständigkeitswert für die Einkaufsgruppe wird jedes Mal neu berechnet, 
 
 ### Interaktionsbewertung der Käufergruppe
 
-Der Interaktionswert für eine Einkaufsgruppe ist eine Zahl, die die Interaktion der Mitglieder einer Einkaufsgruppe auf der Grundlage der von ihnen durchgeführten Aktivitäten bestimmt. Zur Berechnung der Punktzahl wird jede eingehende Aktivität verwendet, die von den Mitgliedern der Einkaufsgruppe in den letzten 30 Tagen ausgeführt wurde.
+Der Interaktionswert für eine Einkaufsgruppe ist eine Zahl, die die Interaktion der Mitglieder einer Einkaufsgruppe auf der Grundlage der von ihnen durchgeführten Aktivitäten bestimmt.
 
-Es gibt eine tägliche Häufigkeitsbegrenzung von 20 pro Aktivität. Wenn ein Mitglied einer Einkaufsgruppe dieselbe Aktivität mehr als 20 Mal am Tag ausführt, ist die Anzahl der Aktivitäten auf 20 begrenzt und nicht höher.
+* Die Berechnung des Interaktionswerts beginnt, sobald die Einkaufsgruppe generiert wurde.
+* Zur Berechnung der Punktzahl wird jede eingehende Aktivität verwendet, die von den Mitgliedern der Einkaufsgruppe in den letzten 30 Tagen ausgeführt wurde.
+* Mit dem 30-Tage-Fenster und dem Ablauf von Aktivitäten könnte die Punktzahl sinken.
+* Es gibt eine tägliche Häufigkeitsbegrenzung von 20 pro Aktivität. Wenn ein Mitglied einer Einkaufsgruppe dieselbe Aktivität mehr als 20 Mal am Tag ausführt, ist die Anzahl der Aktivitäten auf 20 begrenzt und nicht höher.
+* Die angezeigte Punktzahl ist gerundet. Beispielsweise wird ein Wert von 75,89999 als 76 angezeigt.
 
-Die angezeigte Punktzahl ist gerundet. Beispielsweise wird ein Wert von 75,89999 als 76 angezeigt.
++++Für die Bewertung verwendete Aktivitäten
+
+| Aktivitätsname | Beschreibung | Interaktionstyp | Maximale tägliche Häufigkeitsanzahl | Aktivitätsgewicht |
+| --- | --- | --- | --- | --- |
+| Für Veranstaltung registrieren | Registriert sich für ein Ereignis, das mit einer Kampagne verbunden ist | Veranstaltung | 20 | 60 |
+| An Veranstaltung teilnehmen | Teilnahme an einem Kampagnenereignis | Veranstaltung | 20 | 90 |
+| E-Mail öffnen | Öffnet eine E-Mail | E-Mail | 20 | 30 |
+| Klicken auf E-Mail | Klicks auf einen Link in einer E-Mail | E-Mail | 20 | 30 |
+| Verkaufs-E-Mail öffnen | Öffnet eine E-Mail | E-Mail | 20 | 30 |
+| Auf Verkaufs-E-Mail klicken | Klickt auf einen Link in einer Verkaufs-E-Mail | E-Mail | 20 | 30 |
+| Interessanter Moment | Hat einen interessanten Moment | Verwaltet | 20 | 60 |
+| Gewinnung Push-Benachrichtigung | Erhält eine Push-Benachrichtigung | Mobile | 20 | 30 |
+| Aktivität der mobilen App | Führt eine Aktivität in einer Mobile App durch | Mobile | 20 | 30 |
+| Sitzung der mobilen App | Ist in der Mobile-App-Sitzung aktiv | Mobile | 20 | 30 |
+| Facebook-Lead-Ads-Formular ausfüllen | Füllen Sie ein Formular für Lead-Anzeigen auf einer Facebook-Seite aus und senden Sie es. | Social | 20 | 30 |
+| RTP-Handlungsaufforderung anklicken | Klicks auf einen personalisierten Aktionsaufruf | Web | 20 | 60 |
+| In-App-Nachricht anzeigen | Anzeigen einer In-App-Nachricht | Mobile | 20 | 30 |
+| In-App-Nachricht auswählen | Tippen auf eine In-App-Nachricht | Mobile | 20 | 30 |
+| SMS abonnieren | Abonnieren von SMS-Nachrichten | SMS | 20 | 90 |
+| Antwort auf Verkaufs-E-Mail | Antworten auf eine Verkaufs-E-Mail | E-Mail | 20 | 30 |
+| Hatte eine Interaktion mit einem Dialog | Interagiert mit einem Dynamic Chat-Dialogfeld | Chat | 20 | 90 |
+| Hatte eine Interaktion mit Dokument in Dialog | Interagiert mit einem Dokument in einem Dynamic Chat-Dialogfeld | Chat | 20 | 90 |
+| Arrangierte ein Meeting in Dialog | Terminplanung in einem Dynamic Chat-Dialogfeld | Chat | 20 | 90 |
+| Dialogziel erreicht | Erreicht ein Ziel in einem Dynamic Chat-Dialogfeld |  | 20 | 90 |
+| Antwortete auf eine Umfrage in Webinar | Reagiert auf eine Abfrage im Webinar-Ereignis | Chat | 20 | 90 |
+| Handlungsaufforderung im Webinar angeklickt | Klickt auf einen Aktionsaufruf-Link in einem Webinar-Ereignis | Anruf | 20 | 30 |
+| Asset-Downloads im Webinar | Lädt eine Datei/ein Asset in einem Webinar-Ereignis herunter | Veranstaltung | 20 | 60 |
+| Stellt Fragen im Webinar | Stellt Fragen in einem Webinar-Ereignis | Veranstaltung | 20 | 60 |
+| Nahm am Event teil | Hat an einer Veranstaltung teilgenommen | Veranstaltung | 20 | 60 |
+| Hatte eine Interaktion mit einem Support-Mitarbeitenden per Dialog | Interagiert mit einem Agenten in einem Dynamic Chat-Dialogfeld | Chat | 20 | 90 |
+| Klickte auf Link im Chat in Dialog | Klickt auf einen Link in einem Dynamic Chat-Dialogfeld | Chat | 20 | 90 |
+| Hatte eine Interaktion mit einem Konversationsschema | Interagiert mit einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| Arrangierte ein Meeting in Konversationsschema | Plant einen Termin in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| Ziel des Konversationsschemas erreicht | Erreicht ein Ziel in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| Hatte eine Interaktion mit Dokument in Konversationsschema | Interagiert mit einem Dokument in einem Dynamic Chat-Konversationsfluss | Chat | 20 | 90 |
+| Hatte eine Interaktion mit Mitarbeitenden in Konversationsschema | Interagiert mit einem Agenten in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| Klickte auf Link im Chat in Konversationsschema | Klickt auf einen Link in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| Klick-Link in SMS V2 | Klickt auf einen Link in einer SMS-Nachricht | SMS | 20 | 90 |
+
+>[!NOTE]
+>
+>Aktivitäten mit dem Interaktionswert werden im Marketo Engage [Aktivitätsprotokoll für eine Person) ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}.
+
++++
 
 #### Gewichtung
 
