@@ -3,10 +3,10 @@ title: Intelligentes Dashboard
 description: Erfahren Sie mehr über das intelligente Dashboard, das eine umfassende Ansicht der Einkaufsgruppen- und Kontometriken bietet
 feature: Dashboards, Buying Groups
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 16%
+source-wordcount: '1688'
+ht-degree: 15%
 
 ---
 
@@ -24,6 +24,19 @@ Das intelligente Dashboard bietet außerdem Zugriff auf Konto- und Einkaufsgrupp
 * Absichtserkennung für Person, Einkaufsgruppe und Konto
 
 {{intent-data-note}}
+
+Um die Informationen und Erkenntnisse aus dem Intelligent Dashboard nutzen zu können, muss Ihre Journey Optimizer B2B edition-Instanz über die erforderlichen Elemente verfügen:
+
+| Typ | Anforderung |
+| ---- | ----------- |
+| [Gruppen-Stadien kaufen](#buying-group-stages) | Einrichten von Einkaufsgruppenstufen **und** Hinzufügen zu erstellten Einkaufsgruppen. |
+| [Einkaufsgruppen-Highlights](#buying-group-highlights) | Einrichten von Einkaufsgruppenstufen **und** Hinzufügen zu erstellten Einkaufsgruppen. |
+| [Kontoaufschwung](#surging-accounts) | Eine oder mehrere veröffentlichte Journey oder **oder** erstellte Einkaufsgruppen. |
+| [Account-Highlights](#account-highlights) | Eine oder mehrere veröffentlichte Journey oder **oder** erstellte Einkaufsgruppen. |
+| [Kontaktabdeckung](#contact-coverage) | Eine oder mehrere erstellte Einkaufsgruppen (Etappen nicht erforderlich). |
+| [Kontaktüberschneidung](#contact-overlap) | Eine oder mehrere erstellte Einkaufsgruppen (Etappen nicht erforderlich). |
+| [Kontodetailseite](../accounts/account-details.md) | Eine oder mehrere veröffentlichte Journey. |
+| [Seite mit Einkaufsgruppendetails](../buying-groups/buying-group-details.md) | Eine oder mehrere erstellte Einkaufsgruppen (Etappen nicht erforderlich). |
 
 ## Käufergruppenphasen {#buying-group-stages}
 
@@ -139,7 +152,7 @@ Im Abschnitt _[!UICONTROL Steigende Konten]_ wird eine Visualisierung der Konten
 
 >[!NOTE]
 >
->Die Daten zu Kontoaufstockungen sind auf Konten beschränkt, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen in eine Account-Zielgruppe aufgenommen wurden.
+>Die Daten zu Kontoaufstockungen sind auf Konten beschränkt, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen in eine Account-Zielgruppe aufgenommen werden.
 
 ![Visualisierung von Kontoaufstockungsdaten](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -179,11 +192,11 @@ Verwenden Sie den Datumsfilter oben rechts, um den Datumsbereich für die Datenv
 >title="Risikokonten"
 >abstract="Konten mit einer erheblichen Verringerung bei der Interaktionsdynamik innerhalb des ausgewählten Zeitrahmens."
 
-Der _[!UICONTROL Kaufgruppen-Highlights]_ ist in zwei Zeilen angeordnet, um Informationen über die Konten anzuzeigen, die für Ihr Unternehmen von Interesse sind.
+Der _[!UICONTROL Konto-Highlights]_ ist in zwei Zeilen unterteilt, um Informationen über die Konten anzuzeigen, die für Ihr Unternehmen von Interesse sind.
 
 >[!NOTE]
 >
->Die Daten zur Kontohervorhebung sind auf Konten beschränkt, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen in eine Account-Zielgruppe aufgenommen wurden.
+>Die Daten zur Kontohervorhebung sind auf Konten beschränkt, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen in eine Account-Zielgruppe aufgenommen werden.
 
 ![Account-Highlights](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

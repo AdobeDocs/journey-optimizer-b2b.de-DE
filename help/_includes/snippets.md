@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 561a6fe3a99e93e93e176f63572b260e621a4298
+source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Absichtsdaten werden auf der Seite eingefügt, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](../user/admin/intent-data.md).
+>Intent-Daten sind enthalten, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Es sind auch eine oder mehrere veröffentlichte Journey (**)** Einkaufsgruppen erforderlich. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](../user/admin/intent-data.md).
 
 ## AEM Assets-Lizenzhinweis {#aem-assets-licensing-note}
 
