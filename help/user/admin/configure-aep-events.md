@@ -1,10 +1,11 @@
 ---
-title: Experience Platform-Ereignisse konfigurieren
+title: Konfigurieren von Experience Platform Events
 description: Erfahren Sie mehr über den Knotentyp Warten , den Sie für die Orchestrierung Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Setup
-source-git-commit: e6f9be8ad43dfe4f314cb0462bc548a0957f5f0f
+exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1761'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen kon
 
 2. Fügen Sie auf einer Konto-Journey den Knoten _Auf ein Ereignis_) hinzu und [ Sie eine AEP-Ereignisdefinition als Personenereignis ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
-Für jede Ereignisdefinition ist die folgende Experience Platform-Eingabe erforderlich:
+Für jede Ereignisdefinition sind die folgenden Experience Platform-Eingaben erforderlich:
 
 * **_Schema_** - XDM-Schema, das die Datenstruktur des Erlebnisereignisses definiert. Sie muss auf einem Erlebnisereignis basieren und profilaktiviert sein.
 
@@ -39,11 +40,13 @@ Beachten Sie beim Erstellen und Verwalten Ihrer Ereignisdefinitionen zur Erfüll
 
 * Journey Optimizer B2B edition unterstützt maximal 50 Ereignisdefinitionen.
 
-* Nur eine AEP-Ereignisdefinition kann ein kombiniertes Schema und einen Satz von Ereignistypen verwenden. Wenn Sie eine Ereignisdefinition mit einem Schema (z. B. `My Schema`) und einem Ereignistyp (z. B. `Web Webpagedetails Page Views`) erstellen, kann keine andere Ereignisdefinition die Kombination aus `My Schema` und `Web Webpagedetails Page Views` verwenden.
+* Account-Journey können auf AEP-Erlebnisereignisse warten, die über AEP-Streaming-Funktionen wie Web-SDK oder HTTP-API aufgenommen werden.
+
+* Nur eine AEP-Ereignisdefinition kann ein kombiniertes Schema und eine Reihe von Ereignistypen verwenden. Wenn Sie eine Ereignisdefinition mit einem Schema (z. B. `My Schema`) und einem Ereignistyp (z. B. `Web Webpagedetails Page Views`) erstellen, kann keine andere Ereignisdefinition die Kombination aus `My Schema` und `Web Webpagedetails Page Views` verwenden.
 
 * Eine Ereignisdefinition kann auf mehr als einer Konto-Journey verwendet werden.
 
-* AEP-Erlebnisereignisse können zu Entscheidungszwecken innerhalb einer Konto-Journey verwendet werden, werden jedoch nicht beibehalten. Daher kann kein bisheriger Datensatz von AEP-Erlebnisereignissen innerhalb von Journey Optimizer B2B edition genutzt werden.
+* AEP-Erlebnisereignisse können zu Entscheidungszwecken auf einer Konto-Journey verwendet werden, werden jedoch nicht beibehalten. Daher kann kein bisheriger Datensatz von AEP-Erlebnisereignissen innerhalb von Journey Optimizer B2B edition genutzt werden.
 
 * Die Einschränkungen für _Datum der Aktivität_ und _Mindestanzahl von_) werden nicht unterstützt.
 
@@ -73,7 +76,7 @@ In der Liste _[!UICONTROL Ereignisdefinitionen]_ gibt die Spalte **[!UICONTROL S
 | -------------------- | ----------- |
 | Entwurf | Wenn Sie eine Ereignisdefinition erstellen, befindet sie sich im Entwurfsstatus. Er bleibt in diesem Status, bis Sie ihn zur Verwendung in den Journey des Kontos veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Veröffentlichen Sie<li>Löschen |
 | Veröffentlicht | Wenn Sie eine Ereignisdefinition veröffentlichen, wird sie zur Verwendung in Account-Journey verfügbar. Die Details können nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Verfügbar für _Lauschen auf ein Ereignis_ Journey-Knoten<li>Entwurfsversion erstellen<li>Löschen (wenn nicht in Gebrauch) |
-| Veröffentlicht (mit Entwurf) | Wenn Sie einen Entwurf aus einer veröffentlichten Ereignisdefinition erstellen, bleibt die veröffentlichte Version für die Verwendung in Account-Journey verfügbar, und die Entwurfsversion kann geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie noch nicht ausgeführt wird. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Entwurfsversion von Publish<li>Entwurfsversion verwerfen<li>Löschen (wenn nicht in Gebrauch) |
+| Veröffentlicht (mit Entwurf) | Wenn Sie einen Entwurf aus einer veröffentlichten Ereignisdefinition erstellen, bleibt die veröffentlichte Version für die Verwendung in Account-Journey verfügbar, und die Entwurfsversion kann geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie noch nicht ausgeführt wird. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Entwurfsversion veröffentlichen<li>Entwurfsversion verwerfen<li>Löschen (wenn nicht in Gebrauch) |
 
 ![Lebenszyklus des Fragmentstatus](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -135,7 +138,7 @@ Um nach einer Ereignisdefinition anhand des Namens zu suchen, geben Sie eine Tex
 
    ![Die neue Ereignisdefinition für Entwürfe wird auf der Seite aufgeführt](./assets/configuration-events-create-new-draft.png){width="700" zoomable="yes"}
 
-## Publish - eine Ereignisdefinition
+## Ereignisdefinition veröffentlichen
 
 Wenn Sie davon überzeugt sind, dass die Ereignisdefinition vollständig und Ihren Anforderungen entsprechend korrekt ist, können Sie sie veröffentlichen, um sie für die Verwendung in Account Journey verfügbar zu machen. Nachdem die Ereignisdefinition veröffentlicht wurde, können Sie eine Entwurfsversion erstellen, wenn Sie Änderungen daran vornehmen müssen. Sie können das Schema jedoch nicht ändern und nur Ereignistypen und -felder hinzufügen (Sie können diese nicht löschen).
 
@@ -149,11 +152,11 @@ Wenn Sie davon überzeugt sind, dass die Ereignisdefinition vollständig und Ihr
 
    Überprüfen Sie bei Bedarf die Einstellungen, bevor Sie veröffentlichen. Sie können [Entwurf bearbeiten](#edit-an-event-definition) wenn er nicht Ihren Anforderungen entspricht.
 
-1. Klicken Sie oben ]**auf**[!UICONTROL  Publish.
+1. Klicken **[!UICONTROL oben]** auf „Veröffentlichen“.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Publish]**.
+1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Veröffentlichen]**.
 
-   ![Publish-Ereignisdialogfeld](./assets/configuration-events-publish-dialog.png){width="300"}
+   ![Dialogfeld „Ereignis veröffentlichen](./assets/configuration-events-publish-dialog.png){width="300"}
 
    Der Status für die Ereignisdefinition ändert sich in _Veröffentlicht_ und ist jetzt [für die Verwendung in Account-Journey verfügbar](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -189,9 +192,9 @@ Führen Sie die Schritte entsprechend dem Status aus:
 
    Die Änderungen werden automatisch im Entwurf gespeichert.
 
-1. Wenn die Ereignisdefinition Ihren Kriterien entspricht und Sie sie für Benutzerkonto-Journey verfügbar machen möchten, klicken Sie auf **[!UICONTROL Publish]**.
+1. Wenn die Ereignisdefinition Ihren Kriterien entspricht und Sie sie für Benutzerkonto-Journey verfügbar machen möchten, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Publish]**.
+1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Veröffentlichen]**.
 
    Der Status für die Ereignisdefinition ändert sich in _Veröffentlicht_ und ist jetzt für die Verwendung in Account Journey verfügbar.
 
@@ -221,11 +224,11 @@ Führen Sie die Schritte entsprechend dem Status aus:
 
    Die Änderungen werden automatisch im Entwurf gespeichert.
 
-1. Wenn die Entwurfsereignisdefinition Ihren Kriterien entspricht und Sie die aktuelle veröffentlichte Version zur Verwendung in den Journey ersetzen möchten, klicken Sie auf **[!UICONTROL Publish-Entwurf]**.
+1. Wenn die Ereignisdefinition im Entwurf Ihren Kriterien entspricht und Sie die aktuell veröffentlichte Version zur Verwendung in den Journey ersetzen möchten, klicken Sie auf **[!UICONTROL Entwurf veröffentlichen]**.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Publish]**.
+1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Veröffentlichen]**.
 
-   ![Dialogfeld für Publish-Entwurf](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Dialogfeld „Entwurf veröffentlichen](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie bereits verwendet, aber noch nicht ausgeführt wird.
 
@@ -243,11 +246,11 @@ Wenn Sie eine Ereignisdefinition _Veröffentlicht (mit Entwurf)_ öffnen, ist di
 
    Die Änderungen werden automatisch im Entwurf gespeichert.
 
-1. Wenn die Entwurfsereignisdefinition Ihren Kriterien entspricht und Sie die aktuelle veröffentlichte Version zur Verwendung in den Journey ersetzen möchten, klicken Sie auf **[!UICONTROL Publish-Entwurf]**.
+1. Wenn die Ereignisdefinition im Entwurf Ihren Kriterien entspricht und Sie die aktuell veröffentlichte Version zur Verwendung in den Journey ersetzen möchten, klicken Sie auf **[!UICONTROL Entwurf veröffentlichen]**.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Publish]**.
+1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Veröffentlichen]**.
 
-   ![Dialogfeld für Publish-Entwurf](./assets/configuration-events-publish-draft-dialog.png){width="300"}
+   ![Dialogfeld „Entwurf veröffentlichen](./assets/configuration-events-publish-draft-dialog.png){width="300"}
 
    Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie bereits verwendet, aber noch nicht ausgeführt wird.
 
