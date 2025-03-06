@@ -3,10 +3,10 @@ title: Erstellen von E-Mail-Vorlagen
 description: Erfahren Sie, wie Sie Inhalts-E-Mail-Vorlagen erstellen, die für Account-Journey-E-Mails verwendet werden können, um Ihre Designs einfach und effizient wiederzuverwenden.
 feature: Email Authoring, Content
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
+source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 11%
+source-wordcount: '334'
+ht-degree: 16%
 
 ---
 
@@ -30,30 +30,9 @@ Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email
 
 ### Hinzufügen von Fragmenten
 
-Im visuellen Inhaltseditor wird das Symbol _Fragmente_ auf der linken Seite angezeigt. Im folgenden Beispiel werden die Schritte zum Hinzufügen von Fragmenten zum Vorlageninhalt beschrieben.
+{{$include /help/_includes/content-design-use-fragments.md}}
 
-1. Um die Fragmentliste zu öffnen, wählen Sie das Symbol _Fragmente_ aus (![Fragmentsymbol](../assets/do-not-localize/icon-fragments.svg) ).
-
-   Sie haben folgende Möglichkeiten:
-
-   * Sortieren Sie die Liste.
-   * Durchsuchen, Suchen oder Filtern der Liste.
-   * Wechseln zwischen Miniatur- und Listenansicht.
-   * Aktualisieren Sie die Liste, um die kürzlich erstellten Fragmente anzuzeigen.
-
-   ![Wählen Sie ein Fragment aus der Liste aus](./assets/visual-designer-fragments.png){width="700" zoomable="yes"}
-
-1. Ziehen Sie eines der Fragmente per Drag-and-Drop in den Platzhalter der Strukturkomponente .
-
-   Der Editor rendert das Fragment innerhalb des Abschnitts/Elements der E-Mail-Struktur.
-
-Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um anzuzeigen, wie der Inhalt in der E-Mail angezeigt wird.
-
->[!TIP]
->
->Wenn das Fragment das gesamte horizontale Layout in der E-Mail einnehmen soll, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
-
-Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie die Registerkarte _[!UICONTROL Verwendet von]_ in der Zusammenfassung auswählen. Fragmente, die einer E-Mail-Vorlage hinzugefügt wurden, können innerhalb der Vorlage nicht bearbeitet werden — das Quellfragment definiert den Inhalt.
+Nachdem die Vorlage gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie die Registerkarte _[!UICONTROL Verwendet von]_ in der Zusammenfassung auswählen.
 
 ### Hinzufügen von Assets
 

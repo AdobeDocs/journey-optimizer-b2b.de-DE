@@ -3,10 +3,10 @@ title: Fragmente
 description: Erfahren Sie, wie Sie visuelle Inhaltsfragmente als wiederverwendbare Komponenten für E-Mails und E-Mail-Vorlagen in Adobe Journey Optimizer B2B edition erstellen und verwenden.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: cd65d568c68f2f4ed85e1612a8f91d8343c9e2be
+source-git-commit: 7deb914dfb9d6979b4dc4a497ed2d15bbabd3011
 workflow-type: tm+mt
-source-wordcount: '2679'
-ht-degree: 3%
+source-wordcount: '2624'
+ht-degree: 1%
 
 ---
 
@@ -14,14 +14,18 @@ ht-degree: 3%
 
 Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E-Mails und E-Mail-Vorlagen in Adobe Journey Optimizer B2B edition referenziert werden kann. Normalerweise handelt es sich dabei um einen Inhaltsblock (Text, Bild oder beides), der vorab erstellt und schnell in eine E-Mail- oder E-Mail-Vorlage eingefügt werden kann. Mit dieser Funktion können Sie mehrere benutzerdefinierte Inhaltsbausteine vorab erstellen, die von Ihren Mitgliedern des Marketing-Teams verwendet werden können, um E-Mail-Inhalte für einen verbesserten Design-Prozess zusammenzustellen. Häufige Anwendungsfälle sind Kopf-/Fußzeilen-Inhaltsbausteine für E-Mails, Einladungsbanner für Veranstaltungen und saisonale Grußformeln.
 
+>[!BEGINSHADEBOX]
+
+**Visuelle Fragmente**
+
+Visuelle Fragmente sind vordefinierte visuelle Bausteine, die mit dem visuellen Inhalts-Designer erstellt wurden und die Sie in mehreren E-Mail-Adressen oder E-Mail-Vorlagen wiederverwenden können. Der aktuelle Umfang von Journey Optimizer B2B edition und diese Dokumentation beziehen sich nur auf visuelle Fragmente. Ausdrucksbasierte Fragmente werden in Journey Optimizer B2B edition noch nicht unterstützt.
+
+>[!ENDSHADEBOX]
+
 So verwenden Sie Fragmente in Ihren Workflows optimal:
 
 * _Eigene Fragmente erstellen_ - Erstellen Sie visuelle Fragmente von Grund auf neu oder indem Sie Inhalte als Fragment aus dem visuellen Inhaltseditor speichern.
 * _Fragmente wiederverwenden_ - Verwenden Sie sie so oft wie nötig in Ihren Inhalten.
-
-## Visuelle Fragmente
-
-Visuelle Fragmente sind vordefinierte visuelle Bausteine, die mit dem Visual Content Editor erstellt wurden und die Sie in mehreren E-Mails oder E-Mail-Vorlagen wiederverwenden können. Der aktuelle Umfang von Journey Optimizer B2B edition und diese Dokumentation beziehen sich nur auf visuelle Fragmente. Ausdrucksbasierte Fragmente werden in Journey Optimizer B2B edition noch nicht unterstützt.
 
 ## Zugreifen auf und Verwalten von Fragmenten
 
@@ -37,11 +41,11 @@ Der Fragmentstatus bestimmt seine Verfügbarkeit zur Verwendung in einer E-Mail 
 
 | Status | Beschreibung |
 | -------------------- | ----------- |
-| Entwurf | Wenn Sie ein Fragment erstellen, befindet es sich im Entwurfsstatus . Dieser Status bleibt erhalten, während Sie den visuellen Inhalt definieren oder bearbeiten, bis Sie ihn zur Verwendung in einer E-Mail- oder E-Mail-Vorlage veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>In Visual Designer bearbeiten<li>Veröffentlichen Sie<li>Doppelt<li>Löschen |
-| Veröffentlicht | Wenn Sie ein Fragment veröffentlichen, wird es zur Verwendung in einer E-Mail oder E-Mail-Vorlage verfügbar. Ein veröffentlichtes Inhaltsfragment kann im visuellen Designer nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Entwurfsversion erstellen<li>Doppelt<li>Löschen (wenn nicht in Gebrauch) |
+| Entwurf | Wenn Sie ein Fragment erstellen, befindet es sich im Entwurfsstatus . Dieser Status bleibt erhalten, während Sie den visuellen Inhalt definieren oder bearbeiten, bis Sie ihn zur Verwendung in einer E-Mail- oder E-Mail-Vorlage veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>In Visual Designer bearbeiten<li>Veröffentlichen<li>Doppelt<li>Löschen |
+| Veröffentlicht | Wenn Sie ein Fragment veröffentlichen, wird es zur Verwendung in einer E-Mail oder E-Mail-Vorlage verfügbar. Veröffentlichte Fragmentinhalte können im visuellen Designer nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Entwurfsversion erstellen<li>Doppelt<li>Löschen (wenn nicht in Gebrauch) |
 | Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einem veröffentlichten Fragment erstellen, bleibt die veröffentlichte Version zur Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar und der Entwurfsinhalt kann im visuellen Designer geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und der Inhalt wird in den E-Mails und E-Mail-Vorlagen, in denen sie verwendet wird, aktualisiert. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Bearbeiten der Entwurfsversion in Visual Designer<li>Entwurfsversion veröffentlichen<li>Doppelt<li>Löschen (wenn nicht in Gebrauch) |
 
-![Lebenszyklus des Fragmentstatus](./assets/status-lifecycle-diagram.png){width="800" zoomable="yes"}
+![Lebenszyklus des Fragmentstatus](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -85,45 +89,16 @@ Sie können neue visuelle Fragmente in Journey Optimizer B2B edition erstellen, 
 
 1. Verwenden Sie die Inhaltserstellungs-Tools, um den visuellen Fragmentinhalt zu erstellen:
 
-   * [Hinzufügen von Struktur und Inhalten](#add-structure-and-content)
-   * [Assets hinzufügen](#add-assets)
-   * [Navigieren in den Ebenen, Einstellungen und Stilen](#navigate-the-layers-settings-and-styles)
-   * [Inhalt personalisieren](#personalize-content)
-   * [Verknüpftes URL-Tracking bearbeiten](#edit-linked-url-tracking)
+   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
+   * [Assets hinzufügen](./fragment-authoring.md#add-assets)
+   * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Inhalt personalisieren](./fragment-authoring.md#personalize-content)
+   * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-custom-fields)
+   * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
 
 1. Klicken Sie **[!UICONTROL auf &quot;]**&quot;, um das Entwurfsfragment zu speichern.
 
 1. Wenn Sie bereit sind, das Fragment für die Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar zu machen, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
-
-### Hinzufügen von Struktur und Inhalten {#design-fragment}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_fragment"
->title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout des Fragments. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Fragmentinhalts zu beginnen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_fragment"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout eines Fragments erstellen können."
-
-{{$include /help/_includes/content-design-components.md}}
-
-### Hinzufügen von Assets
-
-{{$include /help/_includes/content-design-assets.md}}
-
-### Navigieren in den Ebenen, Einstellungen und Stilen
-
-{{$include /help/_includes/content-design-navigation.md}}
-
-### Inhalt personalisieren
-
-{{$include /help/_includes/content-design-personalization.md}}
-
-### Verknüpftes URL-Tracking bearbeiten
-
-{{$include /help/_includes/content-design-links.md}}
 
 ## Anzeigen von Fragmentdetails
 
@@ -194,11 +169,12 @@ Wenn das Fragment derzeit verwendet wird, wird durch die Aktion ein Informations
 
    Verwenden Sie nach Bedarf die visuellen Designer-Tools:
 
-   * [Hinzufügen von Struktur und Inhalten](#add-structure-and-content)
-   * [Assets hinzufügen](#add-assets)
-   * [Navigieren in den Ebenen, Einstellungen und Stilen](#navigate-the-layers-settings-and-styles)
-   * [Inhalt personalisieren](#personalize-content)
-   * [Verknüpftes URL-Tracking bearbeiten](#edit-linked-url-tracking)
+   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
+   * [Assets hinzufügen](./fragment-authoring.md#add-assets)
+   * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Inhalt personalisieren](./fragment-authoring.md#personalize-content)
+   * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-custom-fields)
+   * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Fragmentdetails zurückzukehren.
 
@@ -222,11 +198,12 @@ Wenn das Fragment derzeit verwendet wird, wird durch die Aktion ein Informations
 
    Verwenden Sie nach Bedarf die visuellen Designer-Tools:
 
-   * [Hinzufügen von Struktur und Inhalten](#add-structure-and-content)
-   * [Assets hinzufügen](#add-assets)
-   * [Navigieren in den Ebenen, Einstellungen und Stilen](#navigate-the-layers-settings-and-styles)
-   * [Inhalt personalisieren](#personalize-content)
-   * [Verknüpftes URL-Tracking bearbeiten](#edit-linked-url-tracking)
+   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
+   * [Assets hinzufügen](./fragment-authoring.md#add-assets)
+   * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Inhalt personalisieren](./fragment-authoring.md#personalize-content)
+   * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-custom-fields)
+   * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Fragmentdetails zurückzukehren.
 
@@ -250,11 +227,12 @@ So aktualisieren Sie den Inhalt:
 
 1. Klicken **[!UICONTROL oben]** auf „Fragment bearbeiten“. Verwenden Sie nach Bedarf die visuellen Designer-Tools:
 
-   * [Hinzufügen von Struktur und Inhalten](#add-structure-and-content)
-   * [Assets hinzufügen](#add-assets)
-   * [Navigieren in den Ebenen, Einstellungen und Stilen](#navigate-the-layers-settings-and-styles)
-   * [Inhalt personalisieren](#personalize-content)
-   * [Verknüpftes URL-Tracking bearbeiten](#edit-linked-url-tracking)
+   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
+   * [Assets hinzufügen](./fragment-authoring.md#add-assets)
+   * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
+   * [Inhalt personalisieren](./fragment-authoring.md#personalize-content)
+   * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-custom-fields)
+   * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Fragmentdetails zurückzukehren.
 
