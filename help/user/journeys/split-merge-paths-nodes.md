@@ -3,10 +3,10 @@ title: Pfade aufteilen und zusammenführen
 description: Erfahren Sie mehr über die Knotentypen „Aufspaltungspfade“ und „Zusammenführungspfade“, die Sie zur Orchestrierung Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Account Journeys
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: e0fc061b55af4fd79248c2255db94280ee41e2c8
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 5%
+source-wordcount: '1584'
+ht-degree: 4%
 
 ---
 
@@ -28,10 +28,11 @@ Fügen Sie einen Knoten _Pfade aufteilen_ hinzu, um einen oder mehrere segmentie
 
 _Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten?_
 
-* Wenn Sie einen aufgeteilten Pfadknoten hinzufügen und &quot;_&quot;_, enthält jeder hinzugefügte Pfad einen Endknoten mit der Möglichkeit, Knoten zu jeder Edge hinzuzufügen.
-* Es ist möglich, den Pfad wiederholt nach Konten aufzuteilen, z. B. auf verschachtelte Weise. Ein aufgeteilter Pfad enthält eine Option zum Nicht-Hinzufügen des Standardpfads.
-* Wenn ein Konto/eine Person nicht für einen der Aufspaltungspfade qualifiziert ist, wird sie auf der Journey nicht weitergeleitet.
-* Diese Pfade können mithilfe eines Zusammenführungsknotens kombiniert werden.
+* Jeder Pfad, den Sie hinzufügen, enthält einen Endknoten mit der Möglichkeit, Knoten zu jedem Edge hinzuzufügen.
+* Nach Kontoknoten aufgeteilt können verschachtelt werden. Sie können den Pfad wiederholt nach Konten aufteilen.
+* Wertet Pfade von oben nach unten aus. Wenn ein Konto für den ersten und zweiten Pfad übereinstimmt, wird es nur entlang des ersten Pfads fortgesetzt.
+* Zwei oder mehr Pfade können mithilfe eines Zusammenführungsknotens kombiniert werden.
+* Unterstützt die Definition eines Pfads _[!UICONTROL Andere Konten]_, in dem Sie Aktionen oder Ereignisse für Konten hinzufügen können, die nicht mit einem der definierten Segmente/Pfade übereinstimmen.
 
 ![Journey-Knoten - Pfade nach Konto aufteilen](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
@@ -39,10 +40,11 @@ _Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten?_
 
 _Wie funktioniert ein aufgeteilter Pfad nach Personenknoten?_
 
-* _Pfad nach Personen aufteilen_ Knoten sind gruppierte Knoten. Die Pfade werden automatisch zusammengeführt, sodass alle Personen in der Zielgruppe mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
-* _Pfad nach Personen aufteilen_ Knoten können nicht verschachtelt werden. Sie können keinen Aufspaltungspfad für Personen auf einem Pfad hinzufügen, der sich in diesem gruppierten Knoten befindet.
-* Pfadknoten aufteilen enthalten eine Option zum Auslassen eines Standardpfads, damit Konten/Personen ohne übereinstimmenden Pfad nicht auf dem Journey weitergeleitet werden.
-* _Pfad nach Personen_-Knoten unterstützen die Verwendung von _Konto-Personen-Beziehungen_, mit denen Sie Personen nach ihrer Rolle filtern können (z. B. Auftragnehmer oder Vollzeit-Mitarbeiter), wie in den Rollenvorlagen definiert.
+* Funktionen innerhalb einer Kombination _gruppierter Knoten_ Aufspaltung und Zusammenführung. Die Pfade der Aufspaltung werden automatisch zusammengeführt, sodass alle Personen in der Zielgruppe mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
+* Nach Personen aufgeteilte Knoten können nicht verschachtelt werden. Sie können keinen aufgeteilten Pfad für Personen auf einem Pfad hinzufügen, der sich in diesem gruppierten Knoten befindet.
+* Wertet Pfade von oben nach unten aus. Wenn eine Person für den ersten und zweiten Pfad eine Übereinstimmung findet, fährt sie nur entlang des ersten Pfads fort.
+* Unterstützt die Verwendung von _Konto-Personen-Beziehungen_ mit denen Sie Personen nach ihrer Rolle filtern können (z. B. Auftragnehmer oder Vollzeit-Mitarbeiter), wie in den Rollenvorlagen definiert.
+* Unterstützt die Definition eines Pfads _[!UICONTROL Andere Personen]_, in dem Sie Aktionen oder Ereignisse für Personen hinzufügen können, die nicht mit einem der definierten Segmente/Pfade übereinstimmen.
 
 ![Journey-Knoten - Pfade nach Personen aufteilen](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
@@ -96,7 +98,9 @@ _Wie funktioniert ein aufgeteilter Pfad nach Personenknoten?_
 
    ![Pfadknoten aufteilen - Pfade neu anordnen](./assets/node-split-reorder-paths-accounts.png){width="500" zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Andere Konten]**, um einen Standardpfad für Konten hinzuzufügen, die nicht mit den definierten Pfaden übereinstimmen. Wenn nicht, endet die Journey für diese Menschen.
+1. Aktivieren Sie die Option **[!UICONTROL Andere Konten]**, um den Standardpfad für Konten zu definieren, die nicht mit den definierten Segmenten/Pfaden übereinstimmen.
+
+   Wenn diese Option nicht aktiviert ist, endet das Journey für Konten, die nicht mit einem definierten Segment/Pfad innerhalb der Aufspaltung übereinstimmen.
 
 ### Fügen Sie einen Pfad für die Aufspaltung nach Personenknoten hinzu
 
@@ -145,13 +149,15 @@ _Wie funktioniert ein aufgeteilter Pfad nach Personenknoten?_
 
    ![Pfadknoten aufteilen - Pfade neu anordnen](./assets/node-split-reorder-paths-people.png){width="500" zoomable="yes"}
 
-1. Aktivieren Sie die Option **[!UICONTROL Andere Personen]**, um einen Standardpfad für Personen hinzuzufügen, die den definierten Pfaden nicht entsprechen. Wenn nicht, endet die Journey für diese Menschen.
+1. Aktivieren Sie die Option **[!UICONTROL Andere Personen]**, um einen Standardpfad für Personen hinzuzufügen, die den definierten Pfaden nicht entsprechen.
+
+   Wenn diese Option nicht aktiviert ist, bewegen sich Personen, die nicht mit einem definierten Segment/Pfad übereinstimmen, über die Teilung hinaus und fahren mit dem nächsten Schritt auf der Journey fort.
 
 >[!BEGINSHADEBOX &quot;Marketo Engage List Membership“]
 
 Überprüfen Sie in Marketo Engage _Smart_ Kampagnen) die Programmmitgliedschaft, um sicherzustellen, dass Leads keine doppelten E-Mails erhalten und nicht gleichzeitig Mitglieder mehrerer E-Mail-Streams sind. In Journey Optimizer B2B können Sie die Marketo Engage-Listenmitgliedschaft als Bedingung für Ihren Aufspaltungspfad nach Personen überprüfen, um doppelte Journey-Aktivitäten zu vermeiden.
 
-Erweitern Sie dazu **[!UICONTROL Spezialfilter]** und ziehen Sie die Bedingung **[!UICONTROL Mitglied der Liste]** in den Filterbereich. Vervollständigen Sie die Filterdefinition, um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten.
+Um die Listenmitgliedschaft in einer aufgeteilten Bedingung zu verwenden, erweitern Sie **[!UICONTROL Spezielle Filter]** und ziehen Sie die **[!UICONTROL Mitglied der Liste]** Bedingung in den Filterbereich. Vervollständigen Sie die Filterdefinition, um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten.
 
 ![Aufspaltungspfad nach Personen-Bedingung für die Marketo Engage-Listenmitgliedschaft](./assets/node-split-paths-conditions-people-member-of-list.png){width="700" zoomable="yes"}
 
