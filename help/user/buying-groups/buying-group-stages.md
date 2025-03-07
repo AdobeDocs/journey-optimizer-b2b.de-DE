@@ -3,9 +3,9 @@ title: Einkaufsgruppenetappen
 description: Erfahren Sie mehr über den Kauf von Gruppenphasen und wie Sie diese definieren können, um den Journey-Fortschritt im Hinblick auf Verkaufsziele zu verfolgen.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 3336a09a58d4c68418ffa1563b6c4c65097e1a49
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Die Stadien der Einkaufsgruppen verfolgen den Fortschritt der Einkaufsgruppen be
 Definieren Sie die Phasen innerhalb eines einzelnen Staging-Modells, indem Sie mehrere Phasen und den Übergangsfluss zwischen ihnen definieren. Eine oder mehrere Phasen sind für den Eintritt in den Lebenszyklus vorgesehen. Das Modell ermöglicht auch eine nichtlineare Progression, bei der Sie Übergänge von einem Stadium zu einem anderen angeben können, z. B. von Stadium A zu Stadium B, C oder D. Es ist erforderlich, dass ein Schritt als Erfolgsschritt gekennzeichnet wird, z. B. ein Kauf oder ein unterzeichneter Vertrag. Es ist optional, dass eine weitere Phase als Ausfallphase eingestuft wird, z. B. ein abgelehnter Vertrag oder der Kauf einer konkurrierenden Lösung von einem anderen Anbieter. Erreicht wird dies durch [intelligente Dashboards](../dashboards/intelligent-dashboard.md) die zeigen, wie Einkaufsgruppen in Bezug auf den Abschluss einer Verkaufschance oder die Umwandlung einer Opportunity in einen Kunden vorankommen.
 
 ![Beispiel für den Kauf von Gruppenstadien](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video ansehen - Übersicht](#overview-video)
 
 ## Definieren des Modells für Einkaufsgruppenstufen
 
@@ -159,7 +161,7 @@ So zeigen Sie das Entwurfsmodell an:
 
    Sie können auch auf _[!UICONTROL Abbrechen]_ klicken, um das Dialogfeld zu schließen und ohne Änderungen zur Modelldetailseite zurückzukehren.
 
-## Publish - Das Kaufgruppen-Staging-Modell
+## Veröffentlichen des Modells für Einkaufsgruppenstufen
 
 Wenn keine Validierungsfehler vorliegen, kann das Modell veröffentlicht werden. Wenn er veröffentlicht wird, wechselt er in einen _Live_-Status und kann verwendet werden, um den Kauf von Gruppenphasen in Account Journey voranzutreiben.
 
@@ -173,7 +175,7 @@ Wenn keine Validierungsfehler vorliegen, kann das Modell veröffentlicht werden.
 
 1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Publish]**.
+1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Veröffentlichen]**.
 
    Wenn Sie zur Seite mit Modelldetails zurückkehren, wird das Modell als _[!UICONTROL Live]_ gekennzeichnet. Klicken Sie oben links auf _Zurück_-Pfeil, um zur Registerkarte _[!UICONTROL Phasen]_ zurückzukehren.
 
@@ -345,3 +347,7 @@ Verwenden Sie den Eintritt einer Kaufgruppen-Stadienänderung, um das Konto mit 
    ![Journey-Knoten - Überwachen von Ereignissen auf Konto](./assets/stages-event-node-stage-change-properties.png){width="700" zoomable="yes"}
 
 1. Nehmen Sie weitere Änderungen vor und speichern Sie die Journey.
+
+## Übersichtsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

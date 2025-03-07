@@ -1,19 +1,19 @@
 ---
-title: Vom linkedIn-Konto abgeglichene Zielgruppen
+title: Zugeordnete Zielgruppen des LinkedIn-Kontos
 description: Erfahren Sie, wie Sie ein LinkedIn-Konto verbinden und einen Datenfluss für Einkaufsgruppen aktivieren.
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 00315c9d245d8d19954643e4dd51920ae2baafbe
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 8%
+source-wordcount: '742'
+ht-degree: 7%
 
 ---
 
-# Vom linkedIn-Konto abgeglichene Zielgruppen
+# Zugeordnete Zielgruppen des LinkedIn-Kontos
 
-Journey Optimizer B2B edition bietet die Möglichkeit, LinkedIn-Anzeigenzielgruppen über Zielgruppen mit Kontoabgleich zu generieren, und wurde entwickelt, um Ihnen dabei zu helfen, leere Rollen in Ihren Einkaufsgruppen zu besetzen. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine von LinkedIn übereinstimmende Zielgruppe verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
+Journey Optimizer B2B edition bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
 
-Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors für [(Unternehmen) LinkedIn Matched Audience ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn Campaign Manager-Konto haben.
+Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors „LinkedIn-Zielgruppe ([)“ mit abgeglichenem Zielgruppen-Connector ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect)Firmen) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
 
 ## Konfigurieren einer neuen Verbindung mit einem LinkedIn-Konto {#linkedin-destination-setup}
 
@@ -22,9 +22,9 @@ Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, mü
 >title="Die Einrichtung eines LinkedIn-Ziels ist erforderlich"
 >abstract="Senden Sie nach Einkaufsgruppen gefilterte Konten an ein Linkedin-Ziel, um mit potenziellen Mitgliedern von Einkaufsgruppen zu interagieren. Sie können bis zu 10 Datenflüsse für 10 verschiedene Gruppen gefilterter Konten erstellen. Um mit dieser Funktion zu beginnen, fügen Sie zuerst ein LinkedIn-Ziel hinzu."
 
-1. Navigieren Sie in Experience Platform **[!UICONTROL linken Navigationsbereich zu]** > **[!UICONTROL Ziele]** und wählen Sie die Registerkarte **[!UICONTROL Katalog]** aus.
+1. Navigieren Sie in Experience Platform **[!UICONTROL Verbindungen]** > **[!UICONTROL Ziele]** im linken Navigationsbereich und wählen Sie die Registerkarte **[!UICONTROL Katalog]** aus.
 
-1. Suchen Sie im Katalog den Connector **[!UICONTROL (Unternehmen) LinkedIn Matched Audience]** .
+1. Suchen Sie im Katalog den Connector **[!UICONTROL (Companies) LinkedIn Matched Audience]** .
 
    >[!TIP]
    >
@@ -32,15 +32,15 @@ Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, mü
 
 1. Klicken Sie auf der Connector-Karte auf das Symbol _Mehr_ (**…**) und wählen Sie **[!UICONTROL Neues Ziel konfigurieren]**.
 
-   ![Zugriff auf den Connector für (Firmen) mit LinkedIn Matched Audience](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
+   ![Zugriff auf den Connector für abgeglichene Zielgruppen von LinkedIn (Unternehmen)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
 1. Wählen Sie **[!UICONTROL Neues Konto]** und klicken Sie auf **[!UICONTROL Mit Ziel verbinden]**.
 
-   ![Verbinden Sie ein neues LinkedIn-Konto](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
+   ![Ein neues LinkedIn-Konto verbinden](./assets/aep-destinations-catalog-linkedin-new-account.png){width="500"}
 
-1. Geben Sie Ihre LinkedIn-Anmeldeinformationen ein und melden Sie sich an.
+1. Geben Sie Ihre LinkedIn-Anmeldedaten ein und melden Sie sich an.
 
-   Nach der Authentifizierung wird das LinkedIn-Konto als Ziel auf Experience Platform verbunden.
+   Nach der Authentifizierung wird das LinkedIn-Konto als Ziel in Experience Platform verbunden.
 
    ![Die Bestätigung der Kontoverbindung wird angezeigt](./assets/aep-destinations-catalog-linkedin-connected.png){width="400"}
 
@@ -50,7 +50,7 @@ Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, mü
 
 ## Kontodetails aktualisieren
 
-Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen in Journey Optimizer B2B edition sichtbar. Es empfiehlt sich, diese Informationen so zu aktualisieren, dass sie für Ihre Marketing-Fachleute, die mit Einkaufsgruppen arbeiten, leicht erkennbar sind. Sie können die Kontodetails auf der Benutzeroberfläche von Experience Platform oder Journey Optimizer B2B edition ändern.
+Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen in Journey Optimizer B2B edition sichtbar. Es empfiehlt sich, diese Informationen so zu aktualisieren, dass sie für Ihre Marketing-Fachleute, die mit Einkaufsgruppen arbeiten, leicht erkennbar sind. Sie können die Kontodetails in der Benutzeroberfläche von Experience Platform oder Journey Optimizer B2B edition ändern.
 
 1. Navigieren Sie **[!UICONTROL linken Navigationsbereich zu]** > **[!UICONTROL Ziele]** und wählen Sie die Registerkarte **[!UICONTROL Konten]** aus.
 
@@ -68,7 +68,7 @@ Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen 
 
 >[!NOTE]
 >
->Wenn Sie bereits über zehn Datenflüsse verfügen, können Sie keinen weiteren erstellen. Wenn Sie die Höchstgrenze erreicht haben, löschen Sie eine Datei auf Experience Platform, bevor Sie eine neue Datei in Journey Optimizer B2B edition erstellen.
+>Wenn Sie bereits über zehn Datenflüsse verfügen, können Sie keinen weiteren erstellen. Wenn Sie den Maximalwert erreicht haben, löschen Sie einen in Experience Platform, bevor Sie einen neuen in Journey Optimizer B2B edition erstellen.
 
 1. Navigieren Sie in Journey Optimizer B2B edition **[!UICONTROL Konten]** > **[!UICONTROL Einkaufsgruppen]** im linken Navigationsbereich.
 
@@ -80,9 +80,9 @@ Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen 
 
 1. Geben Sie dem Datenfluss einen beschreibenden Namen und eine Beschreibung (optional).
 
-   Nach dem Speichern wird dem Namen, den Sie für den Datenfluss angeben, _AJOB2B_ vorangestellt, um die Identifizierung des Datenflusses in Experience Platform zu erleichtern.
+   Nach dem Speichern wird dem Namen, den Sie für den Datenfluss angeben, _AJOB2B) vorangestellt,_ die Identifizierung des Datenflusses in Experience Platform zu unterstützen.
 
-1. Geben Sie die [Konto-ID Ihres LinkedIn Campaign Manager-Kontos](https://www.linkedin.com/help/lms/answer/a424270) ein.
+1. Geben Sie die [Konto-ID Ihres LinkedIn-Kampagnen-Manager-Kontos](https://www.linkedin.com/help/lms/answer/a424270) ein.
 
    Ihre Konto-ID finden Sie anhand Ihres Kontonamens in der Benutzeroberfläche von Campaign Manager.
 
@@ -110,4 +110,10 @@ Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen 
 
    Klicken **[!UICONTROL im Bestätigungsdialogfeld]** erneut auf „Aktivieren“.
 
-   Ein Banner mit einem Link zum Datenflussmenü wird in Experience Platform angezeigt, damit Sie den Datenflussdatensatz überprüfen können.
+   Ein Banner mit einem Link zum Menü Datenflüsse in Experience Platform wird angezeigt, damit Sie den Datenflussdatensatz überprüfen können.
+
+## Orchestrieren von Paid Media-Interaktionen
+
+Sie können mit Account-Mitgliedern über einen bezahlten Medienkanal wie LinkedIn Ad-Zielgruppen interagieren, um sie zu erwerben, zu pflegen und für den Verkauf zu qualifizieren. Verwenden Sie einen _Aktion ausführen_-Knoten auf einer Account-Journey, um die Interaktion mit wichtigen Mitgliedern eines Accounts über einen externen Kanal zu automatisieren, der für verschiedene Account-Mitglieder am besten geeignet ist.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

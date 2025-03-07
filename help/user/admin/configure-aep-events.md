@@ -2,17 +2,22 @@
 title: Konfigurieren von Experience Platform Events
 description: Erfahren Sie mehr über den Knotentyp Warten , den Sie für die Orchestrierung Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Setup
+soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 95b57124806c4dac46e5deeb9d8310ddcc1b3c93
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 0%
 
 ---
 
 # Konfigurieren von Experience Platform-Ereignisdefinitionen
 
-Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reagieren. Die Verwendung von AEP-Erlebnisereignissen in Account Journey ist ein zweistufiger Prozess:
+Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent) reagieren.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video ansehen - Übersicht](#overview-video)
+
+Die Verwendung von AEP-Erlebnisereignissen in Account Journey ist ein zweistufiger Prozess:
 
 1. Erstellen und veröffentlichen Sie eine AEP-Ereignisdefinition.
 
@@ -74,7 +79,7 @@ In der Liste _[!UICONTROL Ereignisdefinitionen]_ gibt die Spalte **[!UICONTROL S
 
 | Status | Beschreibung |
 | -------------------- | ----------- |
-| Entwurf | Wenn Sie eine Ereignisdefinition erstellen, befindet sie sich im Entwurfsstatus. Er bleibt in diesem Status, bis Sie ihn zur Verwendung in den Journey des Kontos veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Veröffentlichen Sie<li>Löschen |
+| Entwurf | Wenn Sie eine Ereignisdefinition erstellen, befindet sie sich im Entwurfsstatus. Er bleibt in diesem Status, bis Sie ihn zur Verwendung in den Journey des Kontos veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Veröffentlichen<li>Löschen |
 | Veröffentlicht | Wenn Sie eine Ereignisdefinition veröffentlichen, wird sie zur Verwendung in Account-Journey verfügbar. Die Details können nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Verfügbar für _Lauschen auf ein Ereignis_ Journey-Knoten<li>Entwurfsversion erstellen<li>Löschen (wenn nicht in Gebrauch) |
 | Veröffentlicht (mit Entwurf) | Wenn Sie einen Entwurf aus einer veröffentlichten Ereignisdefinition erstellen, bleibt die veröffentlichte Version für die Verwendung in Account-Journey verfügbar, und die Entwurfsversion kann geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie noch nicht ausgeführt wird. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Entwurfsversion veröffentlichen<li>Entwurfsversion verwerfen<li>Löschen (wenn nicht in Gebrauch) |
 
@@ -273,3 +278,7 @@ Sie können eine Ereignisdefinition löschen, wenn sie nicht von einer veröffen
 1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
 
    ![Bestätigen Sie, um die Ereignisdefinition zu löschen](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
+
+## Übersichtsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

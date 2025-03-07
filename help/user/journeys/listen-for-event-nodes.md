@@ -3,9 +3,9 @@ title: Überwachen eines Ereignisses
 description: Erfahren Sie mehr über das Überwachen eines Ereignisknotentyps, den Sie zum Orchestrieren Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Account Journeys
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1373'
 ht-degree: 13%
 
 ---
@@ -124,6 +124,8 @@ Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen kon
 
 2. Fügen Sie auf einer Konto-Journey den Knoten _Auf ein Ereignis_) hinzu und wählen Sie eine Experience Platform-Ereignisdefinition für ein personenbasiertes Ereignis aus.
 
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video ansehen - Übersicht](../admin/configure-aep-events.md#overview-video)
+
 _So fügen Sie ein Erlebnisereignis in Ihren Journey ein:_
 
 1. Journey Wählen Sie im **[!UICONTROL -Editor einen]**-Knoten aus.
@@ -162,7 +164,7 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein:_
 
 1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [ Sie ihn ](./journey-overview.md).
 
-   Wenn die Journey live (veröffentlicht) ist und den Knoten _Auf ein Ereignis warten_ erreicht, beginnt sie mit dem Lauschen auf AEP-Erlebnisereignisse.
+   Wenn die Journey live (veröffentlicht) ist und den Knoten _Auf ein Ereignis warten_ erreicht, beginnt sie mit dem Lauschen auf AEP Experience Events.
 
 ## Hinzufügen einer maximalen Wartezeit zu einem Ereignisknoten
 
