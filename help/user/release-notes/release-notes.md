@@ -2,10 +2,10 @@
 title: Versionshinweise
 description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 10%
+source-wordcount: '1601'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,21 @@ Journey Optimizer B2B edition basiert nativ auf [!DNL Adobe Experience Platform]
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leistungsschutzmechanismen und Einschränkungen zu erhalten.
 
-## Januar 2025 – Versionshinweise {#Jan-2025}
+## Versionshinweise für 2025.2
+
+**Veröffentlichungsdatum:**. März 2025
+
+Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Neue Funktion | Anpassbare Felder - Inhaltsfragmente | Als Inhaltsfragment-Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Auf diese Weise kann der E-Mail- oder Vorlagenautor einen benutzerdefinierten Feldwert angeben, der speziell für seine Anforderungen gilt. Dieses Anpassungsflag ist auf visuelle Bild-, Text- und Schaltflächen-Komponenten beschränkt. <a href="../content/fragment-authoring.md#enable-custom-fields">Weitere Informationen</a> |
+| Neue Funktion | Integrierte B2B-Rollen und -Produktberechtigungen | Experience Platform enthält jetzt eine Reihe integrierter (standardmäßiger) Rollen, mit denen Sie den Zugriff auf die B2B-Produktfunktionen verwalten können. <a href="../admin/user-management.md#b2b-built-in-roles">Weitere Informationen</a> <br/>Administratoren können jetzt benutzerdefinierte Rollen in Adobe Experience Platform definieren, um Journey Optimizer B2B edition-Produktberechtigungen einzuschließen.  <a href="../admin/user-management.md#b2b-product-permissions">Weitere Informationen</a> |
+| Verbesserung | Vier zusätzliche Beispiel-E-Mail-Vorlagen | Die Beispiel-E-Mail-Vorlagen-Bibliothek enthält jetzt vier SecurFinancial-Vorlagen als Beispiele für die Wiederaufnahme von Interaktionen, Informationen, Pflege und Feedback-Inhalte |
+
+
+
+## Versionshinweise für 2025.1 {#Jan-2025}
 
 **Veröffentlichungsdatum:**. Februar 2025
 
@@ -25,7 +39,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Neue Funktion | Erlebnisereignisweiterleitung | Admins können auf Adobe Experience Platform (AEP) basierende Ereignisdefinitionen konfigurieren. Diese Konfigurationen ermöglichen es Marketing-Experten, Account-Journey zu erstellen, die auf AEP-Erlebnisereignisse reagieren.  <a href="../admin/configure-aep-events.md">Weitere Informationen</a> |
+| Neue Funktion | Erlebnisereignisweiterleitung | Admins können auf Adobe Experience Platform (AEP) basierende Ereignisdefinitionen konfigurieren. Diese Konfigurationen ermöglichen es Marketing-Experten, Account-Journey zu erstellen, die auf AEP Experience Events reagieren.  <a href="../admin/configure-aep-events.md">Weitere Informationen</a> |
 | Neue Funktion | Paid Media-Ziele | Bekannte Personen für Paid-Media-Kampagnen von einer Account-Journey qualifizieren, damit sie auf Werbeplattformen wie LinkedIn weiter eingebunden werden können. Verwenden Sie einen aufgeteilten Pfadknoten in einer Account-Journey, um Account-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Accounts zu identifizieren, die zusätzliche Interaktionen rechtfertigen. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe zu einem unterstützten Paid-Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
 | Neue Funktion | Intelligentes Dashboard | Sehen Sie sich den Fortschritt von Einkaufsgruppen über ihre Account-Journey an, einschließlich KI-generierter Einblicke, um eine intelligentere Analyse und eine genauere Account-Priorisierung zu erhalten. <a href="../dashboards/intelligent-dashboard.md">Weitere Informationen</a> |
 | Neue Funktion | Einkaufsgruppe und Kontodetails | Sehen Sie sich Einblicke auf der Einkaufs- und Kontoebene an, um mehr Kontext- und historische Daten zu erhalten, wenn Sie mit der Interaktion mit einem Kunden beginnen.<p>Zu den Details der Einkaufsgruppe gehören alle erkannten First-Party-Absichten. <a href="../buying-groups/buying-group-details.md">Weitere Informationen</a><p>Die Accounts mit den Kontodetails zeigen den beobachteten Anstieg der Interaktionsabsicht, sodass Sie den Vertrieb auf Accounts hinweisen können, die für eine kundenspezifische, verkaufsorientierte Interaktion bereit sind.  <a href="../accounts/account-details.md">Weitere Informationen</a> |
@@ -46,7 +60,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Neue Funktion | Bedingte Inhalte in E-Mail-Vorlagen | Personalisieren Sie Ihren E-Mail-Inhalt basierend auf dem Verhalten und den Profilmerkmalen der Empfänger - sowohl auf Konto- als auch auf Lead-Ebene. <p>Verwenden Sie beim Erstellen einer E-Mail für Ihr Konto-Journey im E-Mail-Designer bedingte Regeln, um mehrere Varianten für Inhaltskomponenten zu definieren. <a href="../content/conditional-content.md">Weitere Informationen</a> |
+| Neue Funktion | Bedingte Inhalte in E-Mail-Vorlagen | Personalisieren Sie Ihren E-Mail-Inhalt basierend auf dem Verhalten und den Profilmerkmalen der Empfänger - sowohl auf Konto- als auch auf Lead-Ebene. <p>Verwenden Sie beim Erstellen einer E-Mail für Ihr Account-Journey im visuellen Design-Bereich der E-Mail bedingte Regeln, um mehrere Varianten für Inhaltskomponenten zu definieren. <a href="../content/conditional-content.md">Weitere Informationen</a> |
 | Neue Funktion | _Zu Liste hinzufügen_ und _Aus Liste entfernen_ Personalaktionen in Journey | Personalisieren Sie Ihren E-Mail-Inhalt basierend auf dem Verhalten und den Profilmerkmalen der Empfänger - sowohl auf Konto- als auch auf Lead-Ebene. <a href="../journeys/action-nodes.md">Weitere Informationen</a> |
 | Neue Funktion | Content Governance und Komponentensperrung | Um die Einhaltung genehmigter Inhaltsentwürfe sicherzustellen, verwenden Sie Content-Governance-Funktionen zum Sperren von Inhaltskomponenten für E-Mail-Vorlagen. Wenn die Content Governance in der E-Mail-Vorlage aktiviert ist, können Marketing-Experten nur die zulässigen Elemente ändern, um sie an die Inhaltsstrategie anzupassen. <a href="../content/template-content-governance.md">Weitere Informationen</a> |
 | Neue Funktion | Käufergruppenphasen | Wenn Sie ein benutzerdefiniertes Einkaufsgruppen-Staging-Modell definieren und veröffentlichen, können Sie den Fortschritt der Einkaufsgruppe über die Lebenszyklusphasen der Einkaufsgruppe verfolgen. Verwenden Sie diese Schritte, um die nächste beste Aktion für Käufergruppenmitglieder zu ermitteln. Sie konfigurieren die Übergangsregeln und Journey-Knoten, die den Staging-Fortschritt und die Trigger-Aktionen basierend auf Änderungen bestimmen. <a href="../buying-groups/buying-group-stages.md">Weitere Informationen</a> |

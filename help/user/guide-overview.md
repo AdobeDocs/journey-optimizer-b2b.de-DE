@@ -2,9 +2,9 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B edition verwenden, um Account- und Gruppen-Journey mit integrierter Generative AI und branchenführender Automatisierung zu orchestrieren und zu kaufen.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 24e39a532903ae2ca389f7c1a761ec7b5e03157d
+source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '680'
 ht-degree: 7%
 
 ---
@@ -31,9 +31,15 @@ Mit der Adobe Express Enterprise-Lizenzierung können Sie eine vollständige Sui
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Informationen zur Bildbearbeitung mit Adobe Express"}
 
+>[!TAB Anpassbare Fragmentfelder]
+
+Als Content Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Auf diese Weise kann der E-Mail- oder Vorlagenautor einen benutzerdefinierten Feldwert angeben, der speziell für seine Anforderungen gilt. Dieses Anpassungsflag ist auf visuelle Bild-, Text- und Schaltflächen-Komponenten beschränkt.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/fragment-authoring.md #enable-custom-fields" tooltip="Erfahren Sie mehr über benutzerdefinierte Felder für Inhaltsfragmente"}
+
 >[!TAB AEP-Ereignisweiterleitung]
 
-Admins können jetzt Ereignisdefinitionen konfigurieren, die auf Adobe Experience Platform (AEP) basieren. Diese Konfigurationen ermöglichen es Marketing-Experten, Account-Journey zu erstellen, die auf AEP-Erlebnisereignisse reagieren.
+Admins können jetzt Ereignisdefinitionen konfigurieren, die auf Adobe Experience Platform (AEP) basieren. Diese Konfigurationen ermöglichen es Marketing-Experten, Account-Journey zu erstellen, die auf AEP Experience Events reagieren.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Erfahren Sie mehr über AEP-Ereignisdefinitionen für die Journey-Orchestrierung"}
 
