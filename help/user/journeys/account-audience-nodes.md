@@ -1,17 +1,23 @@
 ---
 title: Konto-Zielgruppenknoten
-description: Erfahren Sie mehr über den Knotentyp Konto-Zielgruppe , den Sie für die Orchestrierung Ihrer Konto-Journey in Journey Optimizer B2B edition verwenden können.
+description: Erfahren Sie mehr über den Knotentyp Konto-Zielgruppe , den Sie zum Definieren der Eingabe für die Journey Ihres Kontos in Journey Optimizer B2B edition verwenden können.
 feature: Account Journeys
-source-git-commit: 279bc07b90da96c3d497f67a14596a3bed308984
+exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # Account Audience Journey Nodes
 
-Der Knoten Account-Zielgruppe definiert die Eingabekonto-Zielgruppe (in Adobe Experience Platform erstellt und verwaltet) für die Journey. Wenn Sie [Konto-Journey erstellen](./journey-overview.md#create-an-account-journey) beginnt diese immer mit einem _Konto-Zielgruppe_-Knoten, über den Sie Ihrer Journey Eingaben hinzufügen können.
+Der Zielgruppenknoten Konto definiert die Zielgruppe des Eingabekontos (in Adobe Experience Platform erstellt und verwaltet) für die Journey. Wenn Sie [Konto-Journey erstellen](./journey-overview.md#create-an-account-journey) beginnt diese immer mit einem _Konto-Zielgruppe_-Knoten, der die Eingabe für die Journey definiert.
+
+Es gibt zwei Arten von Eingaben, die Sie für diesen Knoten verwenden können:
+
+* **[Konto-Zielgruppe](../audiences/account-audience-overview.md)** - Dies ist die grundlegende Zielgruppe, die mit dem Experience Platform-Segmentierungs-Service synchronisiert wird.
+* **[Kontoliste](../accounts/account-lists.md)** - Dies ist eine Sammlung benannter Konten, die Sie für die zielgerichtete Journey-Orchestrierung verwenden können. Eine Kontenliste zielt auf benannte Konten nach den definierten Kriterien ab, z. B. Branche, Standort oder Größe des Unternehmens.
 
 _So legen Sie die Zielgruppe für den Knoten fest:_
 
@@ -19,11 +25,25 @@ _So legen Sie die Zielgruppe für den Knoten fest:_
 
    ![Konto-Zielgruppenknoten](./assets/account-journey-account-audience-node.png){width="700" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Konto-Audience hinzufügen]**.
+1. Wählen Sie den Eingabetyp für die Konten, die in die Journey eingehen sollen:
 
-1. Wählen _[!UICONTROL Dialogfeld „Zielgruppe hinzufügen]_ ein zuvor erstelltes Zielgruppensegment aus und klicken Sie auf **[!UICONTROL Zielgruppe hinzufügen]**.
+   * **[!UICONTROL Konto-Zielgruppe]**
 
-   ![Konto-Zielgruppenknoten](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+     Wählen Sie diesen Typ aus und klicken Sie dann auf **[!UICONTROL Konto-Zielgruppe hinzufügen]**.
+
+     Wählen _[!UICONTROL Dialogfeld „Zielgruppe hinzufügen]_ ein zuvor erstelltes Zielgruppensegment aus und klicken Sie auf **[!UICONTROL Zielgruppe hinzufügen]**.
+
+     ![Wählen Sie ein Zielgruppensegment für den Knoten aus](./assets/node-audience-add-dialog.png){width="700" zoomable="yes"}
+
+   * **[!UICONTROL Kontoliste]**
+
+     Wählen Sie diesen Typ aus und klicken Sie dann auf **[!UICONTROL Kontoliste hinzufügen]**.
+
+     Wählen _[!UICONTROL im Dialogfeld „Live-]_ auswählen“ eine zuvor veröffentlichte Kontoliste aus und klicken Sie auf **[!UICONTROL Speichern]**.
+
+     ![Live-Kontoliste für den Knoten auswählen](./assets/account-journey-account-audience-select-account-list.png){width="700" zoomable="yes"}
+
+     Unter [Kontolisten](../accounts/account-lists.md) finden Sie detaillierte Informationen zum Erstellen und Veröffentlichen von Kontolisten.
 
 _So erstellen Sie ein Zielgruppensegment:_
 

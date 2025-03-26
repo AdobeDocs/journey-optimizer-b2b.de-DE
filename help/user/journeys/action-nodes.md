@@ -3,7 +3,7 @@ title: Aktion ausführen
 description: Erfahren Sie mehr über den Knotentyp Aktion ausführen , den Sie zur Orchestrierung Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Verwenden Sie eine Aktion für Konten, wenn Sie eine Änderung auf alle Personen
 | [!UICONTROL Datenwert der Kontoänderung] | Attribut/<br/> Wert auswählen |
 | [!UICONTROL Interessanter Moment des Kontos] | Typ (E-Mail, Meilenstein oder Web)<br/>Beschreibung (optional) |
 | [!UICONTROL Konto zu (anderem) Journey hinzufügen] | Live-Konto-Journey auswählen |
-| [!UICONTROL Zur Kontoliste hinzufügen] | Live-Liste statischer Konten auswählen |
+| [!UICONTROL Zur Kontoliste hinzufügen] | Live-Liste der statischen Konten auswählen |
 | [!UICONTROL Konto von Journey entfernen] | Live-Konto-Journey auswählen |
 | [!UICONTROL Aus der Kontenliste entfernen] | Live-Liste statischer Konten auswählen |
 | [!UICONTROL Verkaufswarnung senden] | Lösungsinteresse auswählen<br/> E-Mail senden an |
@@ -183,7 +183,7 @@ Verwenden Sie diese Aktion, um eine SMS-Nachricht zu senden. Sie können SMS-Nac
 
 ### Marketo Engage-Aktionen
 
-Die personenbasierten Marketo Engage-Angebote sind so konzipiert, dass sie Ihre kontobasierte Marketing-Orchestrierung in Journey Optimizer B2B edition mit Ihren Lead-basierten Marketing-Maßnahmen in Marketo Engage koordinieren. Verwenden Sie diese Aktionen, um Listen-Mitgliedschaften, Personenpartitionen und Anfragekampagnen zu orchestrieren.
+Die personenbasierten Marketo Engage-Aktionen sind so konzipiert, dass sie Ihre kontobasierte Marketing-Orchestrierung in Journey Optimizer B2B edition mit Ihren Lead-basierten Marketing-Maßnahmen in Marketo Engage koordinieren. Verwenden Sie diese Aktionen, um Listen-Mitgliedschaften, Personenpartitionen und Anfragekampagnen zu orchestrieren.
 
 +++[!UICONTROL Zu Liste hinzufügen]
 

@@ -1,17 +1,18 @@
 ---
 title: Kontenlisten
 description: Erfahren Sie mehr über Account-Listen und wie Marketing-Experten sie verwenden können, um Accounts über Account-Journey anzusprechen.
-exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-hidefromtoc: true
 hide: true
-source-git-commit: 44a3bb6d986726dbbd9d2854e4fce321eac56824
+hidefromtoc: true
+badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
+source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
-# Kontenlisten
+# Kontolisten
 
 Eine Kontenliste ist eine Sammlung benannter Konten, die Marketing-Experten für die gezielte Journey-Orchestrierung verwenden können. Eine Account-Liste kann benannte Accounts nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen. Es gibt zwei Arten von Kontolisten:
 
@@ -140,7 +141,7 @@ Nachdem Sie eine dynamische Kontoliste erstellt haben, definieren Sie den Filter
 
 >[!ENDTABS]
 
-## Publish - eine Kontoliste
+## Kontoliste veröffentlichen
 
 Sie können mit dem Veröffentlichen einer Kontoliste fortfahren, sobald der Filtersatz abgeschlossen ist.
 
@@ -148,11 +149,11 @@ Sie können mit dem Veröffentlichen einer Kontoliste fortfahren, sobald der Fil
 
 >[!TAB Statische Kontoliste]
 
-1. Klicken Sie oben ]**auf**[!UICONTROL  Publish.
+1. Klicken **[!UICONTROL oben]** auf „Veröffentlichen“.
 
-   ![Klicken Sie oben rechts auf Publish](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![Klicken Sie oben rechts auf Veröffentlichen ](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
-1. Klicken Sie im Dialogfeld _[!UICONTROL Statische Publish]_ Kontoliste auf **[!UICONTROL Publish]**, um zu bestätigen.
+1. Klicken Sie im Dialogfeld _[!UICONTROL Statische Kontoliste veröffentlichen]_ zur Bestätigung auf **[!UICONTROL Veröffentlichen]**.
 
    ![Bestätigen der Veröffentlichung für eine statische Kontoliste](./assets/account-lists-static-publish-confirm.png){width="400"}
 
@@ -162,11 +163,11 @@ Der Status der statischen Kontoliste ändert sich in _[!UICONTROL Live]_ und sie
 
 Sie können mit dem Veröffentlichen einer dynamischen Kontoliste fortfahren, sobald der Filtersatz abgeschlossen ist. Nachdem sich die Kontenliste im Status Live befindet, kann sie in einem Journey-Knoten der Kontenzielgruppe ausgewählt werden.
 
-1. Klicken Sie oben ]**auf**[!UICONTROL  Publish.
+1. Klicken **[!UICONTROL oben]** auf „Veröffentlichen“.
 
-   ![Klicken Sie oben rechts auf Publish](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![Klicken Sie oben rechts auf Veröffentlichen ](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
-1. Klicken Sie im Dialogfeld _[!UICONTROL Dynamische Publish]_ Kontoliste auf **[!UICONTROL Publish]**, um zu bestätigen.
+1. Klicken Sie im Dialogfeld _[!UICONTROL Dynamische Kontoliste veröffentlichen]_ zur Bestätigung auf **[!UICONTROL Veröffentlichen]**.
 
    ![Bestätigen der Veröffentlichung für eine dynamische Kontoliste](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
