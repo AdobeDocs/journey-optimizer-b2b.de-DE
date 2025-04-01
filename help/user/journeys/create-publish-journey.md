@@ -2,10 +2,11 @@
 title: Konto-Journey erstellen und veröffentlichen
 description: Erfahren Sie, wie Sie Account Journey erstellen und veröffentlichen.
 feature: Account Journeys
-source-git-commit: d03e0e2d8070916d38bb956adff8dea3f3873aad
+exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
+source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 1%
+source-wordcount: '773'
+ht-degree: 2%
 
 ---
 
@@ -33,13 +34,13 @@ Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Designer. In diesem 
 
 Nachdem Sie eine Konto-Journey erstellt und die Audience hinzugefügt haben, erstellen Sie die Journey mithilfe von -Knoten. Die Journey-Zuordnung bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle mithilfe der folgenden Knotentypen erstellen können, um eine Account-Journey zu erstellen:
 
-* [Aktion ausführen](./action-nodes.md)
-* [Überwachen eines Ereignisses](./listen-for-event-nodes.md)
+* [Aktion durchführen](./action-nodes.md)
+* [Auf ein Ereignis lauschen](./listen-for-event-nodes.md)
 * [Pfade aufteilen](./split-merge-paths-nodes.md)
 * [Warten](./wait-nodes.md)
-* [Zusammenführen von Pfaden](./split-merge-paths-nodes.md)
+* [Pfade zusammenführen](./split-merge-paths-nodes.md)
 
-## Leitplanken
+## Schutzmechanismen
 
 Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen können, ohne Fehler zu verursachen:
 
@@ -109,7 +110,7 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 
 ## Konto-Journey veröffentlichen
 
-Wenn die Konto-Journey fehlerfrei ist, können Sie sie veröffentlichen.
+Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. Nach der Veröffentlichung ändert sich der Journey-Status in _Live_. Wenn der Journey Fehler aufweist, ist die Schaltfläche _[!UICONTROL Veröffentlichen]_ mit folgenden Inhaltsinformationen abgeblendet: `Resolve errors before publishing`.
 
 1. Klicken Sie oben rechts in der Journey-Zuordnung auf **[!UICONTROL Veröffentlichen]**.
 

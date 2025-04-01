@@ -2,9 +2,9 @@
 title: Versionshinweise
 description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 943dd70a732f8dbcee5c5031c1bc3b15966d66f1
+source-git-commit: 60bda27f2d7b6bb5b8dd07ec26e0b608b8858318
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1650'
 ht-degree: 9%
 
 ---
@@ -27,9 +27,8 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Neue Funktion | Anpassbare Felder - Inhaltsfragmente | Als Inhaltsfragment-Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Auf diese Weise kann der E-Mail- oder Vorlagenautor einen benutzerdefinierten Feldwert angeben, der speziell für seine Anforderungen gilt. Dieses Anpassungsflag ist auf visuelle Bild-, Text- und Schaltflächen-Komponenten beschränkt. <a href="../content/fragment-authoring.md#enable-custom-fields">Weitere Informationen</a> |
 | Neue Funktion | Integrierte B2B-Rollen und -Produktberechtigungen | Experience Platform enthält jetzt eine Reihe integrierter (standardmäßiger) Rollen, mit denen Sie den Zugriff auf die B2B-Produktfunktionen verwalten können. <a href="../admin/user-management.md#b2b-built-in-roles">Weitere Informationen</a> <br/>Administratoren können jetzt benutzerdefinierte Rollen in Adobe Experience Platform definieren, um Journey Optimizer B2B edition-Produktberechtigungen einzuschließen.  <a href="../admin/user-management.md#b2b-product-permissions">Weitere Informationen</a> |
+| Neue Funktion | Journey-Duplikatstypen | Wenn Sie eine Konto-Journey duplizieren, können Sie Knotendetails einbeziehen, mit Ausnahme von E-Mails und SMS-Nachrichten, die in Journey Optimizer B2B edition erstellt wurden. Als Alternative können Sie eine Skelettkopie der Struktur- und Pfadflüsse erstellen, ohne Knotendetails und Einstellungen. <a href="../journeys/journey-overview.md#duplicate-journey">Weitere Informationen</a> |
 | Verbesserung | Vier zusätzliche Beispiel-E-Mail-Vorlagen | Die Beispiel-E-Mail-Vorlagen-Bibliothek enthält jetzt vier SecurFinancial-Vorlagen als Beispiele für die Wiederaufnahme von Interaktionen, Informationen, Pflege und Feedback-Inhalte |
-
-
 
 ## Versionshinweise für 2025.1 {#Jan-2025}
 
