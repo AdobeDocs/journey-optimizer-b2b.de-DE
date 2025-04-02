@@ -3,9 +3,9 @@ title: Einkaufsgruppen-Rollenvorlagen
 description: Erfahren Sie, wie Sie eine Rollenvorlage definieren, die als Einkaufsgruppenkomponente verwendet werden soll.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 3ce0b2722e56ef46b84a55f097cd1e8a9d39ceb5
+source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1128'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 | Typ | Bedingung |
 | ---- | --------- |
 | Personenattribute | <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Faxnummer <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Zweiter Vorname <li>Mobiltelefonnummer <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
-| Spezielle Filter | <li>Mitglied der Liste |
+| Spezielle Filter | <li>Mitglied der Liste <li>Mitglied des Programms |
 | Absichtsdaten | Kategoriebedingung <li>Produktzweck <li>Keyword-Intent<br/>[ Erfahren Sie mehr über ](../admin/intent-data.md). |
 
 1. Definieren Sie für die erste Rollenkarte die Rolleneigenschaften.
@@ -95,7 +95,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
      >[!NOTE]
      >
-     >Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema auf Experience Platform definiert haben, sind diese Felder auch verfügbar, um als Personenattribute in Bedingungen zu verwenden.
+     >Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema in Experience Platform definiert haben, sind diese Felder auch verfügbar, um als Personenattribute in Bedingungen zu verwenden.
 
    * Verwenden Sie das -Attribut, um mithilfe eines oder mehrerer Werte einen übereinstimmenden Filter zu erstellen.
 
@@ -111,21 +111,21 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
    ![Rollenvorlage mit mehreren definierten Rollen](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
->[!BEGINSHADEBOX &quot;Marketo Engage-Listenmitgliedschaft“]
+>[!BEGINSHADEBOX &quot;Marketo Engage List Membership“]
 
-Überprüfen Sie in Marketo Engage _Smart_-Kampagnen) die Programmmitgliedschaft, um sicherzustellen, dass Leads keine doppelten E-Mails erhalten und nicht gleichzeitig Mitglieder mehrerer E-Mail-Streams sind. In Journey Optimizer B2B können Sie die Mitgliedschaft in einer Marketo Engage-Liste als Bedingung für Ihre Rollenvorlage prüfen, um doppelte Käufe von Gruppenmitgliedschaften und Journey-Aktivitäten zu vermeiden.
+Überprüfen Sie in Marketo Engage _Smart_ Kampagnen) die Programmmitgliedschaft, um sicherzustellen, dass Leads keine doppelten E-Mails erhalten und nicht gleichzeitig Mitglieder mehrerer E-Mail-Streams sind. In Journey Optimizer B2B können Sie die Marketo Engage-Listenmitgliedschaft als Bedingung für Ihre Rollenvorlage überprüfen, um doppelte Käufe von Gruppenmitgliedschaft und Journey-Aktivitäten zu vermeiden.
 
-Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!UICONTROL Spezielle Filter]** und ziehen Sie die **[!UICONTROL Mitglied der Liste]** Bedingung in den Filterbereich. Füllen Sie dann die Filterdefinition aus, um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten.
+Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!UICONTROL Spezielle Filter]** und ziehen Sie die **[!UICONTROL Mitglied der Liste]** Bedingung in den Filterbereich. Schließen Sie dann die Filterdefinition ab, um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten.
 
-![Rollenvorlagenbedingung für das Marketo Engage der Listenmitgliedschaft](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+![Vorlagenbedingung für Rollen für Marketo Engage-Listenmitgliedschaft](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
 Ihre Änderungen werden automatisch im Status _Entwurf_ gespeichert. Wenn Sie die Rollenvorlage nicht veröffentlichen möchten, klicken Sie auf den Pfeil nach links (zurück) oben auf der Seite und kehren Sie zur Liste _[!UICONTROL Rollenvorlagen]_ zurück.
 
-### Publish - die Rollenvorlage
+### Veröffentlichen der Rollenvorlage
 
-Wenn die Vorlage einsatzbereit ist, klicken Sie oben rechts ]****[!UICONTROL  Publish.
+Wenn die Vorlage einsatzbereit ist, klicken Sie oben **[!UICONTROL auf]** Veröffentlichen“.
 
 Durch das Veröffentlichen der Vorlage wird der Status auf _Live_ gesetzt und für die Verknüpfung mit einer interessanten Lösung verfügbar gemacht. Es muss mindestens eine definierte Rolle vorhanden sein, um die Rollenvorlage zu veröffentlichen.
 
