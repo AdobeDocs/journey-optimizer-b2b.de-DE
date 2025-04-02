@@ -3,12 +3,11 @@ title: Verwenden des KI-Assistenten
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten die Funktionen von Journey Optimizer B2B edition optimal nutzen können.
 feature: AI Assistant
 level: Beginner
-badgeBeta: label="Beta" type="informative" tooltip="Beta-Funktion"
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 6fef470f73bc9df0f8589a5b451dc7e72e52691b
+source-git-commit: e3ae3508db551cbd495be3108d555b936e2982a3
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 0%
 
 ---
 
