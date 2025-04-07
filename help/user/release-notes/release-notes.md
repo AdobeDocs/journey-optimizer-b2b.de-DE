@@ -2,9 +2,9 @@
 title: Versionshinweise
 description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dd93531d76ecb025451f0015eedd9ccce0986cb8
+source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1818'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Neue Funktion | Kontolisten | Sie können jetzt eine statische oder dynamische Kontenliste erstellen, um benannte Konten nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auszuwählen. <a href="../accounts/account-lists.md">Weitere Informationen</a> |
-| Neue Funktion | Meine Token für Account Journey | Sie können jetzt einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als &quot;_Token“_. Jedes dieser benutzerdefinierten Token dient zur Personalisierung beim Verfassen von Journey-E-Mails. |
+| Neue Funktion | Meine Token für Account Journey | Sie können jetzt einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als &quot;_Token“_. Jedes dieser benutzerdefinierten Token dient zur Personalisierung beim Verfassen von Journey-E-Mails. <a href="../content/personalization-my-tokens.md">Weitere Informationen</a> |
 | Neue Funktion | Einkaufsgruppenstufen löschen | Sie können das Modell der Einkaufsgruppenstufen löschen, wenn es sich im Status Entwurf oder Veröffentlicht befindet. Wenn sie veröffentlicht (live) ist, können Sie sie nur löschen, wenn sie nicht mit einer Interessenslösung verbunden ist. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Weitere Informationen</a> |
 | Verbesserung | Journey-Knotenanzahl | Verbesserte Sichtbarkeit der Anzahl der Journey-Mitglieder auf Knotenebene. Verwenden Sie diese Informationen, um den Kontofortschritt auf einer Journey zu überprüfen. |
 
