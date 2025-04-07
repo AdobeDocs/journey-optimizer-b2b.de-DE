@@ -3,9 +3,9 @@ title: Einkaufsgruppen
 description: Erfahren Sie, wie Einkaufsgruppen in Journey Optimizer B2B edition die Marketing-Effektivität steigern können, indem sie Mitglieder für Ihre Kontolisten identifizieren und auswählen.
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 8b2cfac4785e95e4fb994ac87068f59add40171d
+source-git-commit: 37b17b4377854c91995e420d462ed2f344c6f219
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1784'
 ht-degree: 18%
 
 ---
@@ -28,7 +28,7 @@ Sie können die Marketing-Effektivität steigern, indem Sie in Journey Optimizer
 | Komponente | Zweck |
 | --------- | ------- |
 | Lösungsinteresse | Diese Komponente bietet die Antwort auf: <ul><li>Was verkaufen Sie als Marketing-Organisation?</li><li>Welches Produkt oder welche Kollektion von Produkten möchten Sie verkaufen?</li></ul>  **_Beispiel:_** Crossselling New Product X to existing customers |
-| Konto-Zielgruppe | Diese Komponente bietet die Antwort auf: <ul><li>An wen verkaufen Sie?</li><li>Auf welche Liste von Konten zielen Sie ab?</li></ul> **_Beispiel:_** Kontosegment, das durch Konten mit Produkt Y mit einem Umsatz von mehr als 1 Million definiert wird |
+| Kontozielgruppe | Diese Komponente bietet die Antwort auf: <ul><li>An wen verkaufen Sie?</li><li>Auf welche Liste von Konten zielen Sie ab?</li></ul> **_Beispiel:_** Kontosegment, das durch Konten mit Produkt Y mit einem Umsatz von mehr als 1 Million definiert wird |
 | Rollenvorlagen für Einkaufsgruppen | Diese Komponente bietet die Antwort auf: <ul><li>Auf welche Rollen zielen Sie ab?</li><li>Welcher Regelsatz wird verwendet, um zu bestimmen, wem die Rollen der Einkaufsgruppe zugewiesen sind?</li></ul>  **_Beispiel:_** Weisen Sie der Rolle Entscheidungsträger eine Person mit CMO-Titel zu |
 | Käufergruppenphasen | (Optional) Diese Komponente bietet die Antwort auf: Wie verfolgt die kaufende Gruppe den Erfolg oder Misserfolg? |
 
@@ -64,7 +64,7 @@ Die _[!UICONTROL Einkaufsgruppen]_ ist in Registerkarten unterteilt:
 | Tab | Beschreibung |
 | --- | ----------- |
 | [!UICONTROL Übersicht] | Diese Registerkarte ist die Standardeinstellung und zeigt das Dashboard [Einkaufsgruppen](../dashboards/buying-groups-dashboard.md) an. |
-| [!UICONTROL Durchsuchen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Einkaufsgruppen anzeigen. </li><li>Suchen Sie nach dem Namen der kaufenden Gruppe. </li><li>Filtern nach Lösungsinteresse. </li><li>Aufschlüsselung zu Details der Einkaufsgruppe. </li><li>Erstellen Sie eine Einkaufsgruppe. Eine Einkaufsgruppe löschen.</li></ul> |
+| [!UICONTROL Durchsuchen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Einkaufsgruppen anzeigen. </li><li>Suchen Sie nach dem Namen der kaufenden Gruppe. </li><li>Filtern nach Lösungsinteresse. </li><li>Aufschlüsselung zu Details der Einkaufsgruppe. </li><li>Erstellen Sie eine Einkaufsgruppe. </li></ul> |
 | [!UICONTROL Lösungsinteressen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Einkaufsgruppen anzeigen. </li><li>Suchen Sie nach dem Namen der kaufenden Gruppe. </li><li>Zugreifen auf und Bearbeiten von Lösungsinteresseneigenschaften. </li><li>Erstellen Sie eine Interessenslösung. </li><li>Löschen Sie ein Lösungsinteresse. </li><li>Anzeigen und Löschen von Einkaufsgruppenvorgängen. </li></ul> |
 | [!UICONTROL Rollenvorlagen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Anzeigen der Liste der vorhandenen Rollenvorlagen. </li><li>Nach Namen der Rollenvorlage suchen. </li><li>Zugreifen auf und Bearbeiten von Eigenschaften und Bedingungen von Rollenvorlagen. </li><li>Erstellen Sie eine Rollenvorlage. </li><li>Löschen einer Rollenvorlage. </li></ul> |
 | [!UICONTROL Stadien] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Zeigen Sie das Modell der vorhandenen Einkaufsgruppen-Stadien an. </li><li>Zugreifen auf und Bearbeiten des Entwurfs des Modells für Einkaufsgruppenschritte. </li><li>Erstellen Sie das Modell für Einkaufsgruppenstufen. </li></ul> |
@@ -163,7 +163,7 @@ Eine Rollenvorlage mit drei Rollen, gewichtet mit _[!UICONTROL Wichtig]_, _[!UIC
 | Role | Gewichtung | Systemwert | Wertberechnung | Prozentsatz |
 |-------------- |--------- |------------- |------------------ |---------- |
 |               |          |              |                   |           |
-| Entscheidungsträger | lebenswichtig | 100 | 100/240 | 41,67 % |
+| Entscheidungsträger | Entscheidend | 100 | 100/240 | 41,67 % |
 | Beeinflusser | Wichtig | 80 | 80/240 | 33,33 % |
 | Praktiker | Normal | 60 | 60/240 | 25 % |
 |               | Gesamt | 240 |                   |           |
@@ -176,21 +176,21 @@ Das folgende Beispiel veranschaulicht die Berechnung des Interaktionswerts mithi
 |-------------- |--------- |-------------|-----------------|-------------|------|-----------|
 |               |          |             |                 |             |      |           |
 | Entscheidungsträger | Adam | Besuchte Website | 37 | 15 | 20 + 15 | 35 |
-|               |          | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               |          | In E-Mail geklickt | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
 |               | Mark | Besuchte Website | 5 | 3 | 5 + 3 | 8 |
-|               |          | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               |          | In E-Mail geklickt | 1 | 1 | 1 + 1 | 2 |
 |               |          | Heruntergeladene Kneipe | 3 | 2 | 3 + 2 | 5 |
 | **Gesamtpunktzahl der Entscheidungsträger** |         |             |                 |             |      | **£** |
 |               |          |             |                 |             |      |           |
 | Beeinflusser | John | Besuchte Website | 19 | 9 | 19 + 9 | 28 |
 | **Influencers-Gesamtpunktzahl** |         |             |                 |             |      | **28** |
 |               |          |             |                 |             |      |           |
-| Praktiker | Bob | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+| Praktiker | Bob | In E-Mail geklickt | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
-|               | Paul | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               | Paul | In E-Mail geklickt | 1 | 1 | 1 + 1 | 2 |
 |               |          |             |                 |             |      |           |
-|               | Calvin | Angeklickte E-Mail | 1 | 1 | 1 + 1 | 2 |
+|               | Calvin | In E-Mail geklickt | 1 | 1 | 1 + 1 | 2 |
 |               |          | Besuchte Website | 1 | 7 | 1 + 7 | 8 |
 |               |          | Heruntergeladene Kneipe | 1 | 2 | 1 + 2 | 3 |
 | **Gesamtpunktzahl der Praktizierenden** |         |             |                 |             |      | **17** |
