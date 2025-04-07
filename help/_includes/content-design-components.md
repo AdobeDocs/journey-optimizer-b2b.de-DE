@@ -1,7 +1,7 @@
 ---
 title: Inhaltserstellung - Komponenten
 description: Wiederverwendbarer Abschnitt über die Verwendung von Komponenten und Inhaltselementen für die Inhaltserstellung
-source-git-commit: b41a32710f872e4935077a01b91b691f5dbeaeeb
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%

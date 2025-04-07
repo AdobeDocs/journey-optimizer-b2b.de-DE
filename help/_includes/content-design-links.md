@@ -1,16 +1,16 @@
 ---
 title: Inhaltserstellung - Linktracking
 description: Wiederverwendeter Abschnitt zum Bearbeiten des Linktrackings für die Inhaltserstellung
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: e201d0b54309411d024a1b04c3bf7e67d4700aa9
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
 
 # Inhaltserstellung - Linktracking
 
-1. Klicken Sie auf _[!UICONTROL Links]_-Symbol auf der linken Seite, um alle URLs Ihrer zu trackenden Inhalte anzuzeigen.
+1. Klicken Sie auf _[!UICONTROL Links]_-Symbol (![Link-Symbol anzeigen](../assets/do-not-localize/icon-links.svg) ) auf der linken Seite, um alle verknüpften URLs in Ihrem Inhalt anzuzeigen, die verfolgt werden sollen.
 
 1. Klicken Sie bei Bedarf auf das Symbol _Bearbeiten_ ( ![Bearbeiten](../user/assets/do-not-localize/icon-edit.svg) ) und ändern Sie den **[!UICONTROL Tracking-Typ]** oder **[!UICONTROL Label]**.
 

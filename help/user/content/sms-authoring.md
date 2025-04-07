@@ -3,9 +3,9 @@ title: SMS-Authoring
 description: Erfahren Sie, wie Sie Textnachrichten (SMS) an Ihre Kunden auf ihren mobilen Geräten senden und Nachrichten im Textformat über den SMS-Editor personalisieren und in der Vorschau anzeigen können.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: c3352db2235af08e31ba7e4d8690bc9e330dd41f
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1368'
 ht-degree: 4%
 
 ---
@@ -78,7 +78,7 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
 1. Wählen Sie im Dialogfeld den Typ der zu verknüpfenden URLs aus:
 
-   * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine der genehmigten Adobe Marketo Engage Design Studio-Landingpages aus Ihrer Marketo Engage-Instanz auszuwählen. Wählen Sie den Arbeitsbereich und dann die Landingpage aus.
+   * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine der genehmigten Adobe Marketo Engage-Landingpages aus Ihrer Marketo Engage-Instanz auszuwählen. Wählen Sie den Arbeitsbereich und dann die Landingpage aus.
 
    * **[!UICONTROL Externe URL]** - Dieser Typ ist jede externe URL, die Sie in das Textfeld eingeben.
 
@@ -90,8 +90,8 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
      >[!NOTE]
      >
-     >Wenn Sie Tracking zulassen, aber _[!UICONTROL Include mkt_tok]_ deaktivieren, enthält die Ziel-URL nach der Umleitung den `mkt_tok` Abfragezeichenfolgenparameter nicht. Dieser Parameter wird vom Marketo Engage von Landingpages und Munchkin verwendet, um sicherzustellen, dass das Tracking von Personenaktivitäten erfolgt (z. B. wenn eine Person sich von einer E-Mail abmeldet). Deaktivieren Sie diese Option nur, wenn der Parameter Probleme auf Ihrer Website verursacht.<br/>
-     >Weitere Informationen zur Verwendung von Munchkin-Trackingcodes auf Ihrer Website finden Sie in der [Marketo Engage-Dokumentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Wenn Sie Tracking zulassen, aber _[!UICONTROL Include mkt_tok]_ deaktivieren, enthält die Ziel-URL nach der Umleitung den `mkt_tok` Abfragezeichenfolgenparameter nicht. Dieser Parameter wird von Marketo Engage-Landingpages und Munchkin verwendet, um sicherzustellen, dass das Tracking von Personenaktivitäten erfolgt (z. B. wenn eine Person sich von einer E-Mail abmeldet). Deaktivieren Sie diese Option nur, wenn der Parameter Probleme auf Ihrer Website verursacht.<br/>
+     >Weitere Informationen zur Verwendung von Munchkin-Trackingcodes auf Ihrer Website finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Dialogfeld „Link hinzufügen“ für SMS-Nachricht](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -101,7 +101,7 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
 1. Geben Sie im Abschnitt _[!UICONTROL SMS]_ einen **[!UICONTROL Name]** (erforderlich, maximal 100 Zeichen) und **[!UICONTROL Beschreibung]** (optional, maximal 300 Zeichen) für Ihre Nachricht ein.
 
-   Alpha-, numerische und Sonderzeichen sind für diese Felder zulässig. Die folgenden reservierten Zeichen sind **nicht zulässig**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` und `|`.
+   Alpha, numerische Zeichen und Sonderzeichen sind für diese Felder zulässig. Die folgenden reservierten Zeichen sind **nicht zulässig**: `\`, `/`, `:`, `*`, `?`, `"`, `<`, `>` und `|`.
 
 1. Wählen Sie den **[!UICONTROL SMS-Typ]**:
 
@@ -165,4 +165,4 @@ Journey Optimizer B2B edition bietet die Möglichkeit, das Opt-out in SMS-Nachri
 
 * Wenn sich ein Lead vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden SMS-Sendungen ausgeschlossen
 
-* Dieses Lead-Einverständnis aus verschiedenen Quellen (z. B. AEP oder SMS-Dienstleister) wird mit Journey Optimizer B2B edition synchronisiert. Derzeit wird pro Lead auf Instanzebene nur ein einziger Einverständnisstatus unterstützt (ein Lead &#39;Martin Müller&#39; hat alle Werbe-SMS in der Instanz entweder abonniert oder abgemeldet). Derzeit wird kein Double-Opt-in auf der Ebene der Marke/der individuellen Abonnement-Liste unterstützt.
+* Dieses Lead-Einverständnis aus verschiedenen Quellen (z. B. AEP oder der SMS-Dienstleister) wird mit Journey Optimizer B2B edition synchronisiert. Derzeit wird pro Lead auf Instanzebene nur ein einziger Einverständnisstatus unterstützt (ein Lead &#39;Martin Müller&#39; hat alle Werbe-SMS in der Instanz entweder abonniert oder abgemeldet). Derzeit wird kein Double-Opt-in auf der Ebene der Marke/der individuellen Abonnement-Liste unterstützt.

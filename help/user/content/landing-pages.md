@@ -2,31 +2,30 @@
 title: Landing Page
 description: Erfahren Sie mehr über Landingpages und deren Erstellung und Verwaltung zur Unterstützung von Account-Journey und -Kampagnen.
 feature: Content
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
+source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '2188'
 ht-degree: 3%
 
 ---
 
 # Landingpages
 
-Eine Landingpage ist eine eigenständige Web-Seite, auf der Sie Kontakte und Kunden leiten können, nachdem sie auf ein verknüpftes Element in einer E-Mail, SMS-Nachricht oder einem beliebigen digitalen Ort geklickt haben. Sie können diese Seiten in Ihre Account-Journey integrieren, damit Ihre Interessenten und Kunden Ihre Nachrichten im Internet anzeigen und in Ihren Account-Journey Fortschritte erzielen können. Sie können Landingpages in der Landingpage-Designer erstellen, personalisieren und in der Vorschau anzeigen.
+Eine Landingpage ist eine eigenständige Web-Seite, auf der Sie Kontakte und Kunden leiten können, nachdem sie auf ein verknüpftes Element in einer E-Mail, SMS-Nachricht oder einem beliebigen digitalen Ort geklickt haben. Sie können diese Seiten in Ihre Account-Journey integrieren, damit Ihre Interessenten und Kunden Ihre Nachrichten im Internet anzeigen und in Ihren Account-Journey Fortschritte erzielen können. Im visuellen Design-Bereich für Landingpages können Sie Landingpages erstellen, personalisieren und in der Vorschau anzeigen.
 
 Um Ihre Kunden beim Klicken auf einen bestimmten Link zu einer definierten Web-Seite weiterzuleiten, erstellen Sie in Journey Optimizer B2B edition eine Landingpage.
 
 * Erstellen der Seite
 * Landingpage gestalten und Inhalte erstellen
 * Testen der Seite
-* Publish - die Seite
+* Veröffentlichen der Seite
 * Link zur Seite aus Ihrem Journey-Inhalt
 
 Sie können beispielsweise Landingpages erstellen und gestalten, um Ihre Benutzer zu Online-Informationen zu führen. Die Seite könnte ein Formular enthalten, über das der Empfänger Ihre Nachrichten abmelden oder abmelden kann. Oder es kann eine Möglichkeit sein, wiederkehrende Nachrichten wie einen Newsletter zu abonnieren.
 
-Sie können Landingpages im visuellen Designer erstellen, personalisieren und in der Vorschau anzeigen.
+Sie können Landingpages im visuellen Design-Bereich erstellen, personalisieren und in der Vorschau anzeigen.
 <!-- 
 For the Beta phase, you can only design landing pages from scratch and publish your landing pages. The landing pages will be served on adobe hosted domain for the Beta phase. The capability to define your branded domains for hosting will be delivered in a future release. -->
 
@@ -58,9 +57,9 @@ Der Landingpage-Status bestimmt, ob Links in Ihren E-Mail- und SMS-Inhalten verf
 
 | Status | Beschreibung |
 | -------------------- | ----------- |
-| Entwurf | Wenn Sie eine Landingpage erstellen, befindet sie sich im Status Entwurf . Er bleibt in diesem Status, bis Sie den visuellen Inhalt definieren oder bearbeiten und bis Sie ihn als gehostete Seite veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>In Visual Designer bearbeiten<li>Veröffentlichen Sie<li>Doppelt<li>Löschen |
-| Veröffentlicht | Wenn Sie eine Landingpage veröffentlichen, wird sie auf der Journey Optimizer B2B edition-Instanz gehostet und steht dann zur Verknüpfung in E-Mail- oder SMS-Nachrichteninhalten zur Verfügung. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>Link im Inhalt von E-Mail- oder SMS-Nachrichten hinzufügen<li>Entwurfsversion erstellen<li>Doppelt<li>Löschen |
-| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einer veröffentlichten Landingpage erstellen, bleibt die veröffentlichte Version erhalten, und der Entwurfsinhalt kann im visuellen Designer geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuell veröffentlichte Version, und der Inhalt wird auf der gehosteten Seite aktualisiert. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>Link im Inhalt von E-Mail- oder SMS-Nachrichten hinzufügen<li>Bearbeiten der Entwurfsversion in Visual Designer<li>Entwurfsversion von Publish<li>Doppelt<li>Löschen (löscht beide Versionen)<li>Entwurf verwerfen (kehrt zur Veröffentlichungsinstanz zurück) |
+| Entwurf | Wenn Sie eine Landingpage erstellen, befindet sie sich im Status Entwurf . Er bleibt in diesem Status, bis Sie den visuellen Inhalt definieren oder bearbeiten und bis Sie ihn als gehostete Seite veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>Bearbeiten im visuellen Design-Bereich<li>Veröffentlichen<li>Duplizieren<li>Löschen |
+| Veröffentlicht | Wenn Sie eine Landingpage veröffentlichen, wird sie auf der Journey Optimizer B2B edition-Instanz gehostet und steht dann zur Verknüpfung in E-Mail- oder SMS-Nachrichteninhalten zur Verfügung. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>Link im Inhalt von E-Mail- oder SMS-Nachrichten hinzufügen<li>Versionsentwurf erstellen<li>Duplizieren<li>Löschen |
+| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einer veröffentlichten Landingpage erstellen, bleibt die veröffentlichte Version erhalten, und der Entwurfsinhalt kann im visuellen Design-Bereich geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuell veröffentlichte Version, und der Inhalt wird auf der gehosteten Seite aktualisiert. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>Link im Inhalt von E-Mail- oder SMS-Nachrichten hinzufügen<li>Bearbeiten der Entwurfsversion im visuellen Entwurfsbereich<li>Entwurfsversion veröffentlichen<li>Duplizieren<li>Löschen (löscht beide Versionen)<li>Entwurf verwerfen (kehrt zum Status „Veröffentlicht“ zurück) |
 
 ![Status der Landingpage - Lebenszyklus](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,11 +85,11 @@ Sie können in Journey Optimizer B2B edition eine neue Landingpage hinzufügen, 
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   Die Startseite _[!UICONTROL Erstellen einer primären]_-Seite“ wird geöffnet und bietet mehrere Optionen zum Erstellen der Seite: _[!UICONTROL Erstellen von neuen]_, _[!UICONTROL HTML importieren]_ oder eine gespeicherte Vorlage verwenden.
+   Die Startseite _[!UICONTROL Erstellen einer primären]_-Seite“ wird geöffnet und bietet mehrere Optionen zum Erstellen der Seite: _[!UICONTROL Von Grund auf]_, _[!UICONTROL HTML importieren]_ oder eine gespeicherte Vorlage verwenden.
 
    ![Wählen Sie aus, wie Sie mit Ihrem Landingpage-Design beginnen möchten](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-   Nachdem Sie die Methode ausgewählt haben, die Sie zum Starten des Landingpage-Designs verwenden möchten, verwenden Sie den visuellen Designer, um [Seite zu entwerfen](./landing-page-design.md).
+   Nachdem Sie die Methode ausgewählt haben, die Sie zum Starten des Landingpage-Designs verwenden möchten, verwenden Sie den visuellen Design-Bereich [Design der Seite](./landing-page-design.md).
 
 ### Von Grund auf gestalten
 
@@ -112,7 +111,7 @@ Mit Adobe Journey Optimizer B2B edition können Sie vorhandene HTML-Inhalte impo
 >
 >Einen `<table>`-Tag als erste Ebene in einer HTML-Datei zu verwenden kann zum Verlust des Stils führen, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
 
-Sie können den importierten Inhalt nach Bedarf mit dem visuellen Designer personalisieren.
+Sie können den importierten Inhalt nach Bedarf mit dem visuellen Design-Bereich personalisieren.
 
 ### Gespeicherte Vorlage auswählen
 
@@ -142,7 +141,7 @@ Nach der Auswahl wird eine Vorschau der Vorlage angezeigt. Im Vorschaumodus kön
 
 Wenn das Display dem entspricht, was Sie verwenden möchten, klicken **[!UICONTROL oben rechts]** Vorschaufenster auf „Diese Vorlage verwenden“.
 
-Durch diese Aktion wird der Inhalt in den visuellen Content Designer kopiert, wo Sie den Inhalt nach Bedarf bearbeiten können.
+Diese Aktion kopiert den Inhalt in den visuellen Design-Bereich, in dem Sie den Inhalt nach Bedarf bearbeiten können.
 
 >[!TAB Beispielvorlagen]
 
@@ -177,11 +176,11 @@ Adobe Journey Optimizer B2B edition bietet eine Auswahl _standardmäßigen Landi
 
    ![Details für Landingpage mit Entwurfsstatus](./assets/landing-page-draft-details.png){width="700" zoomable="yes"}
 
-1. Um Änderungen am Inhalt im visuellen Designer vorzunehmen, klicken Sie auf **[!UICONTROL Landingpage bearbeiten]**.
+1. Um Änderungen am Inhalt im visuellen Design-Bereich vorzunehmen, klicken Sie auf **[!UICONTROL Landingpage bearbeiten]**.
 
-   Verwenden Sie nach Bedarf die visuellen Designer-Tools:
+   Verwenden Sie bei Bedarf visuelle Design-Tools:
 
-   * [Hinzufügen von Struktur und Inhalt](./landing-page-design.md#add-structure-and-content)
+   * [Hinzufügen von Struktur und Inhalten](./landing-page-design.md#add-structure-and-content)
    * [Assets hinzufügen](./landing-page-design.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Inhalt personalisieren](./landing-page-design.md#personalize-content)
@@ -189,7 +188,7 @@ Adobe Journey Optimizer B2B edition bietet eine Auswahl _standardmäßigen Landi
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.
 
-1. Wenn die Seite Ihren Kriterien entspricht und Sie sie zur Anzeige bereitstellen möchten, klicken Sie auf **[!UICONTROL Publish]**.
+1. Wenn die Seite Ihren Kriterien entspricht und Sie sie zur Anzeige bereitstellen möchten, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
 >[!TAB Veröffentlicht]
 
@@ -203,13 +202,13 @@ Adobe Journey Optimizer B2B edition bietet eine Auswahl _standardmäßigen Landi
 
 1. Wenn Sie den Inhalt aktualisieren möchten, klicken Sie auf **[!UICONTROL rechten Seite auf]** Landingpage bearbeiten“.
 
-   Klicken Sie **[!UICONTROL Dialogfeld auf]** Entwurfsversion erstellen“, um die Entwurfsversion im visuellen Designer zu öffnen.
+   Klicken Sie **[!UICONTROL Dialogfeld auf]** Entwurfsversion erstellen“, um die Entwurfsversion im visuellen Entwurfsbereich zu öffnen.
 
    ![Dialogfeld „Entwurfsversion erstellen“](./assets/landing-page-create-draft-version.png){width="300"}
 
-   Verwenden Sie nach Bedarf die visuellen Designer-Tools:
+   Verwenden Sie bei Bedarf visuelle Design-Tools:
 
-   * [Hinzufügen von Struktur und Inhalt](./landing-page-design.md#add-structure-and-content)
+   * [Hinzufügen von Struktur und Inhalten](./landing-page-design.md#add-structure-and-content)
    * [Assets hinzufügen](./landing-page-design.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Inhalt personalisieren](./landing-page-design.md#personalize-content)
@@ -217,7 +216,7 @@ Adobe Journey Optimizer B2B edition bietet eine Auswahl _standardmäßigen Landi
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.
 
-1. Wenn die Landingpage Ihren Kriterien entspricht und Sie die Änderungen auf der veröffentlichten Seite verfügbar machen möchten, klicken Sie auf **[!UICONTROL Publish]**.
+1. Wenn die Landingpage Ihren Kriterien entspricht und Sie die Änderungen auf der veröffentlichten Seite verfügbar machen möchten, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
    Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuell veröffentlichte Version, und der Inhalt wird für die Seiten-URL aktualisiert.
 
@@ -229,9 +228,9 @@ Beim Öffnen der Landingpage wird standardmäßig die Entwurfsversion angezeigt.
 
 So aktualisieren Sie den Inhalt:
 
-1. Klicken **[!UICONTROL oben]** auf „Landingpage bearbeiten“. Verwenden Sie nach Bedarf die visuellen Designer-Tools:
+1. Klicken **[!UICONTROL oben]** auf „Landingpage bearbeiten“. Verwenden Sie bei Bedarf visuelle Design-Tools:
 
-   * [Hinzufügen von Struktur und Inhalt](./landing-page-design.md#add-structure-and-content)
+   * [Hinzufügen von Struktur und Inhalten](./landing-page-design.md#add-structure-and-content)
    * [Assets hinzufügen](./landing-page-design.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./landing-page-design.md#navigate-the-layers-settings-and-styles)
    * [Inhalt personalisieren](./landing-page-design.md#personalize-content)
@@ -239,7 +238,7 @@ So aktualisieren Sie den Inhalt:
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.
 
-1. Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie die Änderungen verfügbar machen möchten, klicken Sie auf **[!UICONTROL Publish]**.
+1. Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie die Änderungen verfügbar machen möchten, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
    Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und der Inhalt wird auf der gehosteten Seite aktualisiert.
 
@@ -292,3 +291,33 @@ Sie können eine Landingpage mit einer der folgenden Methoden löschen:
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
 ![Dialogfeld „Landingpage löschen“](./assets/landing-page-delete-dialog.png){width="400"}
+
+## Link zu einer Landingpage
+
+Als Marketing-Experte oder Designer, der E-Mail-, Fragment- und Seiteninhalte erstellt, können Sie Links zu den veröffentlichten (Live-)Landingpages einbetten, die in Ihrer Journey Optimizer B2B edition-Instanz erstellt werden.
+
+1. Wählen Sie beim Arbeiten im visuellen Design für ein Fragment, eine E-Mail, eine Landingpage oder eine Vorlage einen Textauszug, eine Schaltflächenkomponente oder eine Bildkomponente für den Link aus.
+
+   Die **[!UICONTROL Link]**-Optionen werden im rechten Bedienfeld angezeigt.
+
+1. Wählen Sie für **[!UICONTROL Option]** Typ“ die Option **[!UICONTROL Landingpage]**.
+
+   ![Verknüpfungsoptionen für eine Landingpage](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"}
+
+1. Klicken Sie für die **[!UICONTROL Landingpage]**-Option auf das Symbol _Seite auswählen_ ( ![Symbol „Links anzeigen](/help/assets/do-not-localize/icon-landing-page-select.svg) ).
+
+1. Legen Sie im Dialogfeld „Landingpage auswählen **[!UICONTROL als]** **[!UICONTROL Journey Optimizer B2B edition]** fest, aktivieren Sie das Kontrollkästchen für die Landingpage in der Liste der veröffentlichten Seiten und klicken Sie auf **[!UICONTROL Auswählen]**.
+
+   ![Verknüpfungsoptionen für eine Landingpage](/help/assets/content-design-shared/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
+
+1. Wählen Sie für **[!UICONTROL Option]** das Verhalten des Link-Ziels aus:
+
+   * **[!UICONTROL None]** - öffnet den Link mit dem Standardverhalten des Browsers.
+   * **[!UICONTROL Leer]** - öffnet den Link in einem neuen Fenster oder in einer neuen Registerkarte.
+   * **[!UICONTROL Self]** - öffnet den Link im selben Frame.
+   * **[!UICONTROL Parent]** - öffnet den Link im übergeordneten Frame.
+   * **[!UICONTROL Oben]** - Öffnet den Link im gesamten Fenster.
+
+1. (Nur Text-Link) Wenn Sie den verknüpften Text unterstreichen möchten, aktivieren Sie das Kontrollkästchen **[!UICONTROL Link unterstreichen]**.
+
+   Sie können zusätzliche Stile für den Link-Text festlegen, einschließlich der Link-Farbe, indem Sie die Registerkarte **[!UICONTROL Stile]** im rechten Bedienfeld auswählen.

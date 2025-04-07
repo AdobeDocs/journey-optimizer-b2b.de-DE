@@ -3,9 +3,9 @@ title: E-Mail-Erstellung
 description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die auf einer Konto-Journey verwendet werden.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1297'
 ht-degree: 15%
 
 ---
@@ -144,6 +144,10 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 ### Inhalt personalisieren
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+>[!NOTE]
+>
+>Wenn _[!UICONTROL Meine Token]_ für die Konto-Journey definiert sind, können Sie diese Journey-spezifischen Token auch für Ihren E-Mail-Inhalt verwenden. Weitere Informationen finden [ unter „Benutzerdefinierte Token ](./personalization-my-tokens.md) E-Mail-Personalisierung“.
 
 ### Verknüpftes URL-Tracking bearbeiten
 

@@ -1,31 +1,30 @@
 ---
-title: Landingpage-Design
-description: Erfahren Sie, wie Sie Inhalte für Ihre Landingpages entwerfen und erstellen, die Account-Journey und -Kampagnen unterstützen.
+title: Design von Landingpage-Vorlagen
+description: Erfahren Sie, wie Sie Inhalte für Landingpage-Vorlagen entwerfen und erstellen, die Marketing-Experten zur Erstellung von Landingpages wiederverwenden können.
 feature: Content
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
-exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: f0658fad82d6656bc052c1810530963404e29396
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 18%
+source-wordcount: '319'
+ht-degree: 9%
 
 ---
 
-# Landingpage-Design
+# Design von Landingpage-Vorlagen
 
-Nachdem Sie [Landingpage erstellt haben](./landing-pages.md#create-a-landing-page) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer Seite zu erstellen.
+Nachdem Sie [Landingpage-Vorlage erstellt haben](./landing-page-templates.md#create-a-landing-page-template) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer Seitenvorlage zu erstellen.
 
 ## Hinzufügen von Struktur und Inhalten {#structure-content-landing-page}
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_structure"
+>id="ajo-b2b_landing_page_template_structure"
 >title="Hinzufügen von Strukturkomponenten zur Landingpage"
->abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen Sie eine **Strukturkomponente** per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung von Inhalten für Ihre Seite zu beginnen."
+>abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen Sie per Drag **and-Drop eine** Struktur“ in die Arbeitsfläche, um mit der Gestaltung des Inhalts für Ihre Seitenvorlage zu beginnen."
 
 >[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_content_components"
+>id="ajo-b2b_landing_page_template_content_components"
 >title="Über Inhaltskomponenten für Landingpages"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können."
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage-Vorlage gestalten können."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -51,9 +50,9 @@ Nachdem Sie [Landingpage erstellt haben](./landing-pages.md#create-a-landing-pag
 
 ### Speichern Sie Ihre Arbeit
 
-Klicken Sie **[!UICONTROL auf]**, um den Entwurf der Landingpage zu speichern.
-
-Sie können die Entwurfsseite weiterhin bearbeiten. Wenn Sie bereit sind, die Seite anzuzeigen und für die Verknüpfung in einer E-Mail oder SMS-Nachricht verfügbar zu machen, können Sie die Seite veröffentlichen.
+Klicken Sie **[!UICONTROL auf]** Speichern“, um die Landingpage-Vorlage zu speichern.
+<!--
+You can continue to make edits to the draft page template. When you are ready to make it available for using in page creation, you can [publish the template](./landing-page-templates.md#). -->
 
 ### Optionen anzeigen
 

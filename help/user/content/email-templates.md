@@ -3,9 +3,9 @@ title: E-Mail-Vorlagen
 description: Erfahren Sie, wie Sie E-Mail-Vorlagen verwalten und erstellen, die zur einfachen und effizienten Erstellung von Account-Journey-E-Mails verwendet werden.
 feature: Email Authoring, Content
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 81c2f7be29e3fdb0b279a2ec8b786e4cf68596da
+source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1319'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Um nach einer Vorlage anhand des Namens zu suchen, geben Sie eine Textzeichenfol
 
 ![Greifen Sie auf die E-Mail-Vorlagenbibliothek zu und filtern Sie nach Name und Datum](./assets/templates-list-search-filter.png){width="700" zoomable="yes"}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
 Aus der angezeigten Vorlagenliste können Sie die in den folgenden Abschnitten beschriebenen Aktionen durchführen.
 
@@ -38,7 +38,7 @@ Sie können eine E-Mail-Vorlage auf der Seite mit der E-Mail-Vorlagenauflistung 
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-Die _[!UICONTROL Design your template]_ wird geöffnet und bietet mehrere Optionen zum Erstellen der Vorlage: _[!UICONTROL Erstellen von]_, _[!UICONTROL HTML importieren]_ oder _[!UICONTROL Design-Vorlage auswählen]_.
+Die Seite _[!UICONTROL Vorlage entwerfen]_ wird geöffnet und bietet mehrere Optionen zum Erstellen der Vorlage: _[!UICONTROL Von Grund auf]_, _[!UICONTROL HTML importieren]_ oder _[!UICONTROL Design-Vorlage auswählen]_.
 
 ![Wählen Sie aus, wie Sie mit dem Design Ihrer E-Mail-Vorlage beginnen möchten](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu
 
 ### Importieren von HTML
 
-Mit Adobe Journey Optimizer B2B edition können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mail-Vorlagen zu entwerfen.
+Mit Adobe Journey Optimizer B2B edition können Sie vorhandene HTML-Inhalte importieren, um Ihre E-Mail-Vorlagen zu entwerfen.
 
 {{$include /help/_includes/content-design-import.md}}
 

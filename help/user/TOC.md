@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie verwenden können, um Konto- und Einkaufsgruppen-Journeys mithilfe integrierter generativer KI und branchenführender Automatisierung zu orchestrieren.
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 37%
+source-wordcount: '240'
+ht-degree: 40%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 37%
    + [Erstellen und Veröffentlichen einer Journey](./journeys/create-publish-journey.md)
    + [Journey-Knoten](./journeys/journey-nodes.md)
    + Journey-Knoten {#journey-nodes}
-      + [Konto-Zielgruppe](./journeys/account-audience-nodes.md)
-      + [Aktion ausführen](./journeys/action-nodes.md)
-      + [Überwachen eines Ereignisses](./journeys/listen-for-event-nodes.md)
+      + [Kontozielgruppe](./journeys/account-audience-nodes.md)
+      + [Aktion durchführen](./journeys/action-nodes.md)
+      + [Auf ein Ereignis lauschen](./journeys/listen-for-event-nodes.md)
       + [Pfade aufteilen und zusammenführen](./journeys/split-merge-paths-nodes.md)
       + [Warten](./journeys/wait-nodes.md)
    + [Journey-Details](./journeys/journey-details.md)
@@ -36,6 +36,7 @@ ht-degree: 37%
       + [KI-Assistent für E-Mail-Authoring](./content/ai-assistant-emails.md)
       + [Geregelte Vorlagen](./content/email-authoring-governance.md)
       + [Benachrichtigungs-E-Mail für Verkauf](./content/sales-alert-email.md)
+   + [Benutzerdefinierte Personalisierungs-Token](./content/personalization-my-tokens.md)
    + [SMS-Authoring](./content/sms-authoring.md)
 + Konten {#accounts}
    + [Zielgruppen](./audiences/account-audience-overview.md)
@@ -45,7 +46,7 @@ ht-degree: 37%
       + [Rollenvorlagen](./buying-groups/buying-groups-role-templates.md)
       + [Käufergruppenphasen](./buying-groups/buying-group-stages.md)
       + [Details der Einkaufsgruppe](./buying-groups/buying-group-details.md)
-      + [Erstellen von Einkaufsgruppen](./buying-groups/buying-groups-create.md)
+      + [Käufergruppen erstellen](./buying-groups/buying-groups-create.md)
       + [Kontoliste exportieren](./audiences/account-list-export.md)
       + [Zugeordnete Zielgruppen des LinkedIn-Kontos](./data/linkedin-account-matched-audiences.md)
       + [Kaufen von Gruppenfiltern in Market Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
@@ -64,11 +65,15 @@ ht-degree: 37%
       + E-Mail-Vorlagen {#email-templates}
          + [Überblick](./content/email-templates.md)
          + [Erstellen von E-Mail-Vorlagen](./content/email-template-authoring.md)
-      + [Landing Page-Vorlagen](./content/landing-page-templates.md)
+      + Landingpage-Vorlagen {#landing-page-templates}
+         + [Überblick](./content/landing-page-templates.md)
+         + [Design von Landingpage-Vorlagen](./content/landing-page-template-design.md)
    + Fragmente {#visual-fragments}
       + [Überblick](./content/fragments.md)
       + [Erstellen von Fragmenten](./content/fragment-authoring.md)
-   + [Formulare](./content/forms.md)
+   + Forms {#forms}
+      + [Überblick](./content/forms.md)
+      + [Formularentwurf](./content/form-design.md)
    + Landingpages {#landing-pages}
       + [Übersicht](./content/landing-pages.md)
       + [Landingpage-Design](./content/landing-page-design.md)

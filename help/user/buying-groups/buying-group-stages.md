@@ -3,9 +3,9 @@ title: Einkaufsgruppenetappen
 description: Erfahren Sie mehr über den Kauf von Gruppenphasen und wie Sie diese definieren können, um den Journey-Fortschritt im Hinblick auf Verkaufsziele zu verfolgen.
 feature: Buying Groups, Account Journeys
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2344'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ Nachdem Sie die Stadien gespeichert haben, werden Sie zum Modellarbeitsbereich z
 
 Solange das Modell der kaufenden Gruppenphasen im Status _Entwurf_ bleibt, können Sie die Stadien und Übergangsregeln bearbeiten.
 
-So zeigen Sie das Entwurfsmodell an:
+_So zeigen Sie das Entwurfsmodell an:_
 
 1. Navigieren Sie in der linken Navigation zu **[!UICONTROL Konten]** > **[!UICONTROL Einkaufsgruppen]**.
 
@@ -186,6 +186,20 @@ Columns - Name, Status, Created by, Created date, Last updated by, Last update, 
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
 Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+
+## Löschen des Modells der Einkaufsgruppenstufen
+
+Sie können das Modell der Einkaufsgruppenstufen löschen, wenn es sich im Status Entwurf oder Veröffentlicht befindet. Wenn sie veröffentlicht (live) ist, können Sie sie nur löschen, wenn sie nicht mit einer Interessenslösung verbunden ist.
+
+1. Navigieren Sie in der linken Navigation zu **[!UICONTROL Konten]** > **[!UICONTROL Einkaufsgruppen]**.
+
+1. Wählen Sie auf _Seite_ die Registerkarte **[!UICONTROL Phasen]** aus.
+
+1. Klicken Sie auf das _Mehr_-Menüsymbol (**…**) neben dem Namen des Stadien-Modells und wählen Sie **[!UICONTROL Löschen]**.
+
+   ![Kaufen von Gruppenphasen-Modell Mehr Menü](./assets/stages-model-list-more-menu.png){width="700"}
+
+1. Klicken Sie im Dialogfeld zur Bestätigung **[!UICONTROL Löschen]**.
 
 ## Modell in Account-Journey verwenden
 
