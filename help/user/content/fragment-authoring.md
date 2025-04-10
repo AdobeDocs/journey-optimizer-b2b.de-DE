@@ -2,10 +2,11 @@
 title: Erstellen von Fragmenten
 description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen, die für Ihre E-Mails und Vorlagendesigns wiederverwendet werden können, um die Effizienz zu steigern und Design- und Branding-Standards zu gewährleisten.
 feature: Content
-source-git-commit: 1f551b636ef347fd65aa39a809dedba8372c3ac4
+exl-id: d29754cf-6721-489c-bff8-cde034456db2
+source-git-commit: 81f521cf245ac3d5460e1a8eb768ea2b609cf6fe
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 14%
+source-wordcount: '401'
+ht-degree: 13%
 
 ---
 
@@ -39,11 +40,11 @@ Nachdem Sie [ein Fragment erstellt haben](./fragments.md#create-fragments) verwe
 
 {{$include /help/_includes/content-design-personalization.md}}
 
-## Benutzerdefinierte Felder aktivieren
+## Aktivieren der Fragmentanpassung
 
-Wenn ein E-Mail- oder E-Mail-Vorlagenautor das Fragment hinzufügt, ist der Fragmentinhalt standardmäßig gesperrt. Alle Änderungen am veröffentlichten Fragment werden automatisch auf alle Inhalts-Assets übertragen, in denen das Fragment verwendet wird. Wenn Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen, kann der E-Mail- oder Vorlagenautor einen benutzerdefinierten Feldwert angeben, der speziell für seine Anforderungen gilt. Dieses Anpassungsflag ist auf visuelle Bild-, Text- und Schaltflächen-Komponenten beschränkt.
+Wenn ein Autor ein Fragment zu einer [E-](./email-authoring.md#content-authoring---use-visual-fragments) oder [E-Mail-Vorlage](./email-template-authoring.md#content-authoring---use-visual-fragments) hinzufügt, ist der Fragmentinhalt standardmäßig gesperrt. Alle Änderungen am veröffentlichten Fragment werden automatisch auf alle Inhalts-Assets übertragen, in denen das Fragment verwendet wird. Wenn Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen, kann der E-Mail- oder Vorlagenautor einen benutzerdefinierten Feldwert angeben, der speziell für seine Anforderungen gilt. Dieses Anpassungsflag ist auf visuelle Bild-, Text- und Schaltflächen-Komponenten beschränkt.
 
-Wenn Sie beispielsweise ein wiederverwendbares Banner mit einer anklickbaren Schaltfläche entwerfen, können Sie den URL-Parameter für die Schaltfläche als bearbeitbar festlegen. E-Mail-Autoren können dann eine URL verwenden, die spezifischer für ihre E-Mail-Kampagne ist. Mit diesen anpassbaren Feldern können Marketing-Experten Inhalte verwalten und personalisieren, ohne völlig neue Inhaltsbausteine erstellen oder die vom ursprünglichen Fragment übernommenen Aktualisierungen unterbrechen zu müssen.
+Wenn Sie beispielsweise ein wiederverwendbares Banner mit einer anklickbaren Schaltfläche entwerfen, können Sie den URL-Parameter für die Schaltfläche als bearbeitbar festlegen. E-Mail-Autoren können dann eine URL verwenden, die spezifischer für ihre E-Mail-Kampagne ist. Mit diesen anpassbaren Feldern können Marketing-Experten wiederverwendbare Inhalte verwalten und personalisieren, ohne völlig neue Inhaltsbausteine erstellen oder die vom ursprünglichen Fragment übernommenen Aktualisierungen unterbrechen zu müssen.
 
 1. Wählen Sie im visuellen Inhaltseditor das Bild, den Text oder das Schaltflächenelement aus, für das Sie die Anpassung aktivieren möchten.
 
@@ -51,7 +52,7 @@ Wenn Sie beispielsweise ein wiederverwendbares Banner mit einer anklickbaren Sch
 
 1. Klicken Sie auf **[!UICONTROL Umschalter für die Option]** Bearbeitung aktivieren“ und legen Sie die bearbeitbaren Felder fest.
 
-   ![Bearbeitbare Felder für eine Fragmentbildkomponente aktivieren](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}
+   ![Bearbeitbare Felder für eine Fragmentbildkomponente aktivieren](./assets/fragment-editable-fields-image.png){width="700" zoomable="yes"}{width=„700“ zoomable=„yes“}
 
    Sie können die Anpassung für die angezeigten Felder aktivieren, die vom Komponententyp und den im Fragment definierten Parametern abhängen.
 
@@ -59,7 +60,7 @@ Wenn Sie beispielsweise ein wiederverwendbares Banner mit einer anklickbaren Sch
 
 1. Klicken Sie **[!UICONTROL Übersicht]**, um alle bearbeitbaren Felder und ihre Standardwerte zu überprüfen.
 
-   ![Überprüfen Sie die bearbeitbaren Felder und ihre Standardwerte](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}
+   ![Überprüfen Sie die bearbeitbaren Felder und ihre Standardwerte](./assets/fragment-editable-fields-image-overview.png){width="700" zoomable="yes"}{width=„700“ zoomable=„yes“}
 
 1. Speichern Sie Ihre Änderungen.
 
