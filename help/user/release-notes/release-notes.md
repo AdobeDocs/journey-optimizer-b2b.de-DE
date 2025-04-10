@@ -2,9 +2,9 @@
 title: Versionshinweise
 description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 228837741f3373ee2b8423515b7412564281f8ea
+source-git-commit: 775cecb2aa4e305ba9a80ba0655e5e854ddf69e2
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1863'
 ht-degree: 9%
 
 ---
@@ -28,7 +28,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Neue Funktion | Kontolisten | Sie können jetzt eine statische oder dynamische Kontenliste erstellen, um benannte Konten nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auszuwählen. <a href="../accounts/account-lists.md">Weitere Informationen</a> |
 | Neue Funktion | Meine Token für Account Journey | Sie können jetzt einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als &quot;_Token“_. Jedes dieser benutzerdefinierten Token dient zur Personalisierung beim Verfassen von Journey-E-Mails. <a href="../content/personalization-my-tokens.md">Weitere Informationen</a> |
 | Neue Funktion | Einkaufsgruppenstufen löschen | Sie können das Modell der Einkaufsgruppenstufen löschen, wenn es sich im Status Entwurf oder Veröffentlicht befindet. Wenn sie veröffentlicht (live) ist, können Sie sie nur löschen, wenn sie nicht mit einer Interessenslösung verbunden ist. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Weitere Informationen</a> |
-| Verbesserung | Journey-Knotenanzahl | Verbesserte Sichtbarkeit der Anzahl der Journey-Mitglieder auf Knotenebene. Verwenden Sie diese Informationen, um den Kontofortschritt auf einer Journey zu überprüfen. |
+| Verbesserung | Journey-Knotenanzahl | Verbesserte Sichtbarkeit der Anzahl der veröffentlichten Journey-Zugehörigkeiten auf Knotenebene. In der _Journey-Zuordnung_ zeigen Knoten &quot;_[!UICONTROL Konten eingegeben]_ an. Wenn Sie einen Aktions -Knoten auswählen, umfassen die Details auf der rechten Seite auch _[!UICONTROL Konten, für die noch keine Aktion ausgeführt wurde]_. Zu den Details für _Auf ein Ereignis_)-Knoten gehören _[!UICONTROL Konten in diesem Schritt]_. Verwenden Sie diese Informationen, um den Kontofortschritt in Ihren Live-, abgeschlossenen und abgebrochenen Journey zu überprüfen. |
 
 ## Versionshinweise für 2025.2
 
@@ -38,7 +38,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Neue Funktion | Anpassbare Felder - Inhaltsfragmente | Als Inhaltsfragment-Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Auf diese Weise kann der E-Mail- oder Vorlagenautor einen benutzerdefinierten Feldwert angeben, der speziell für seine Anforderungen gilt. Dieses Anpassungsflag ist auf visuelle Bild-, Text- und Schaltflächen-Komponenten beschränkt. <a href="../content/fragment-authoring.md#enable-custom-fields">Weitere Informationen</a> |
+| Neue Funktion | Anpassbare Felder - Inhaltsfragmente | Als Inhaltsfragment-Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Auf diese Weise kann der E-Mail- oder Vorlagenautor einen benutzerdefinierten Feldwert angeben, der speziell für seine Anforderungen gilt. Dieses Anpassungsflag ist auf visuelle Bild-, Text- und Schaltflächen-Komponenten beschränkt. <a href="../content/fragment-authoring.md#enable-fragment-customization">Weitere Informationen</a> |
 | Neue Funktion | Integrierte B2B-Rollen und -Produktberechtigungen | Experience Platform enthält jetzt eine Reihe integrierter (standardmäßiger) Rollen, mit denen Sie den Zugriff auf die B2B-Produktfunktionen verwalten können. <a href="../admin/user-management.md#b2b-built-in-roles">Weitere Informationen</a> <br/>Administratoren können jetzt benutzerdefinierte Rollen in Adobe Experience Platform definieren, um Journey Optimizer B2B edition-Produktberechtigungen einzuschließen.  <a href="../admin/user-management.md#b2b-product-permissions">Weitere Informationen</a> |
 | Neue Funktion | Journey-Duplikatstypen | Wenn Sie eine Konto-Journey duplizieren, können Sie Knotendetails einbeziehen, mit Ausnahme von E-Mails und SMS-Nachrichten, die in Journey Optimizer B2B edition erstellt wurden. Als Alternative können Sie eine Skelettkopie der Struktur- und Pfadflüsse erstellen, ohne Knotendetails und Einstellungen. <a href="../journeys/journey-overview.md#duplicate-journey">Weitere Informationen</a> |
 | Verbesserung | Vier zusätzliche Beispiel-E-Mail-Vorlagen | Die Beispiel-E-Mail-Vorlagen-Bibliothek enthält jetzt vier SecurFinancial-Vorlagen als Beispiele für die Wiederaufnahme von Interaktionen, Informationen, Pflege und Feedback-Inhalte |
