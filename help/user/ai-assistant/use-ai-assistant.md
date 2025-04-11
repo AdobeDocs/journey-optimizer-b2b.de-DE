@@ -6,7 +6,7 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 source-git-commit: d19ed2bbe850a14cb0563f6e3563cd8f1c8d3226
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '496'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ In Journey Optimizer B2B edition ist der KI-Assistent eine Funktion der Benutzer
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der Kopfzeile. Der KI-Assistent wird in einem Bedienfeld auf der rechten Seite geöffnet.
 
-![Klicken Sie auf das Symbol, um auf den KI-](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"} zuzugreifen{width=„420“ zoomable=„yes“}
+![Klicken Sie auf das Symbol, um auf den KI-Assistenten zuzugreifen](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
 
 Die Benutzeroberfläche des KI-Assistenten wird angezeigt und stellt Ihnen sofort Informationen zum Einstieg bereit. Sie können die unter „Ideen _bereitgestellten Optionen verwenden, um_ zu beantworten, z. B.:
 
@@ -41,13 +41,13 @@ Fragen zu Produktkenntnissen beziehen sich auf Journey Optimizer B2B edition-Kon
 
 Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste.
 
-![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}{width=„420“ zoomable=„yes“}
+![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}
 
 Sie können die vom KI-Assistenten zurückgegebenen Antworten überprüfen, indem Sie die Zitate lesen, die mit jeder Antwort zu Produktkenntnissen verfügbar sind.
 
 Um Zitate anzuzeigen und die Antwort des KI-Assistenten zu validieren, wählen Sie **[!UICONTROL Quellen anzeigen]**.
 
-![Ergebnisse der Abfrage des KI-Assistenten](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}{width=„420“ zoomable=„yes“}
+![Ergebnisse aus der Abfrage des KI-Assistenten](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
 
 Der KI-Assistent aktualisiert die Benutzeroberfläche und stellt Links zur Dokumentation bereit, die die ursprüngliche Antwort bestätigen. Wenn Zitate aktiviert sind, aktualisiert der KI-Assistent außerdem die Antwort, sodass sie Fußnoten zur Angabe der spezifischen Teile der Antwort enthält, die auf die bereitgestellte Dokumentation verweisen.
 

@@ -2,7 +2,7 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B edition verwenden, um Account- und Gruppen-Journey mit integrierter Generative AI und branchenführender Automatisierung zu orchestrieren und zu kaufen.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 9e19b8b22c237f43fef3a5ed4c093ad12ff41781
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 7%
@@ -35,7 +35,7 @@ Mit der Adobe Express Enterprise-Lizenzierung können Sie eine vollständige Sui
 
 Als Content Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Auf diese Weise kann der E-Mail- oder Vorlagenautor einen benutzerdefinierten Feldwert angeben, der speziell für seine Anforderungen gilt. Dieses Anpassungsflag ist auf visuelle Bild-, Text- und Schaltflächen-Komponenten beschränkt.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/fragment-authoring.md #enable-custom-fields" tooltip="Erfahren Sie mehr über benutzerdefinierte Felder für Inhaltsfragmente"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/fragment-authoring.md #enable-fragment-customization" tooltip="Erfahren Sie mehr über benutzerdefinierte Felder für Inhaltsfragmente"}
 
 >[!TAB AEP-Ereignisweiterleitung]
 
@@ -96,7 +96,7 @@ Entdecken Sie die Bestandteile einer Einkaufsgruppe und lernen Sie die Grundlage
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Erste Schritte"><br/>
-      <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmeldung und Startseite</a><br/><a href="./start/get-started.md"> Schnellstartanleitung</a> <br/><a href="./start/ai-assistant.md">KI-Assistent</a>
+      <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmeldung und Startseite</a><br/><a href="./start/get-started.md"> Schnellstartanleitung</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">KI-Assistent</a>
     </td>
     <!--
     <td>
