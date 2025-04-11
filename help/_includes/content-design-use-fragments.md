@@ -1,9 +1,9 @@
 ---
 title: Inhaltserstellung - Verwenden von Fragmenten
 description: Wiederverwendeter Abschnitt zur Verwendung von Fragmenten für die Inhaltserstellung
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,9 @@ Im folgenden Beispiel werden Schritte zum Hinzufügen von Fragmenten bei der Ers
 
 >[!BEGINSHADEBOX]
 
-**Bearbeitbare Felder**
+**Bearbeitbare Felder in anpassbaren Fragmenten**
 
-Ein visuelles Fragment kann bearbeitbare Felder enthalten, die Sie anpassen können. Mit benutzerdefinierten Feldern können Sie Parameter ändern, wenn Sie das Fragment in Ihren Inhalt integrieren und ein maßgeschneidertes Erlebnis erstellen, ohne das ursprüngliche Fragment zu beeinflussen. Wenn ein eingeschlossenes Fragment Komponenten mit bearbeitbaren Feldern enthält, können Sie die Standardwerte ändern.
+Ein visuelles Fragment kann bearbeitbare Felder enthalten, die Sie anpassen können. Mit benutzerdefinierten Feldern können Sie Parameter ändern, wenn Sie das Fragment in Ihren Inhalt integrieren und ein maßgeschneidertes Erlebnis erstellen, ohne das ursprüngliche Fragment zu beeinflussen. Der Fragmentautor kann [das Fragment für die Anpassung entwerfen](../user/content/fragment-authoring.md#enable-fragment-customization) von Text-, Bild- und Schaltflächenkomponenten. Wenn ein eingeschlossenes Fragment Komponenten mit bearbeitbaren Feldern enthält, können Sie die Standardwerte ändern, um es für Ihren Inhalt anzupassen.
 
 1. Wählen Sie die Fragmentkomponente aus.
 
