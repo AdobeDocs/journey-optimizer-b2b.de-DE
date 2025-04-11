@@ -2,9 +2,9 @@
 title: Anmelden und Startseite
 description: Erfahren Sie, wie Sie auf die Journey Optimizer B2B edition-App zugreifen und die Informationen auf der Startseite verwenden können.
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-source-git-commit: f7f9531cce6447b4715f0e76b0fd8ce57715f519
+source-git-commit: 2d3437d133f6eacdd5beaf1e7da5cc8ef5992b90
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '452'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,11 @@ Mit Adobe Journey Optimizer B2B Edition können Sie Konto- und Käufergruppen-Jo
 -->
 Um auf [!DNL Adobe Journey Optimizer B2B Edition] zuzugreifen, verbinden Sie sich mit Adobe Experience Cloud mit Ihrer Adobe ID und wählen Sie [!DNL Journey Optimizer B2B Edition] aus.
 
-![Adobe Experience Platform-Apps](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
+![Adobe Experience Platform Apps](./assets/experience-cloud-apps.png){width=„800“ zoomable=„yes“}
 
 Die Startseite wird angezeigt, wenn Sie sich bei Adobe Experience Platform anmelden und die Adobe Journey Optimizer B2B edition-App auswählen. Auf dieser Seite erhalten Sie einen Überblick über den aktuellen Stand der B2B-Initiativen von Journey Optimizer in Form <!-- refined insights and--> schnellen Zugriffs auf die entsprechenden Module. <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
-![Startseite von Journey Optimizer B2B edition](./assets/home-page.png){width="800" zoomable="yes"}
+![Journey Optimizer B2B edition-Startseite](./assets/home-page.png){width=„800“ zoomable=„yes“}
 
 Journey Optimizer B2B edition verfügt über zwei primäre Benutzerrollen: einen _**Marketer**_ und einen _**Administrator**_. Jede Rolle verfügt über eine spezifische Startseite für verschiedene Reifegrade (neu oder erweitert). Der Seiteninhalt basiert darauf, was jede Rolle in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt.
 
@@ -32,7 +32,7 @@ Journey Optimizer B2B edition verfügt über zwei primäre Benutzerrollen: einen
 
 Der Abschnitt _[!UICONTROL Kürzlich aufgerufen]_ enthält eine Liste der zuletzt aufgerufenen Assets für den Marketing-Experten oder Administrator. Verwenden Sie diese Liste, um direkt zu dem Asset zu gehen, an dem Sie kürzlich gearbeitet haben, ohne durch eine Reihe von Asset-Seiten zu navigieren und zu suchen.
 
-Die Seite enthält auch Zugriff auf den [KI-](./start/ai-assistant.md)), der Benutzern hilft, schnell Informationen zu bestimmten Fragen oder Themen zu erhalten, die sie benötigen.<!-- and to obtain specific recommendations for their challenges or objectives-->
+Die Seite enthält auch Zugriff auf den [KI-](./ai-assistant/ai-assistant-overview.md)), der Benutzern hilft, schnell Informationen zu bestimmten Fragen oder Themen zu erhalten, die sie benötigen.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!-- 
 
