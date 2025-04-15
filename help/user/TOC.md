@@ -4,7 +4,7 @@ user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B 
 source-git-commit: 168bd128de8845c1ccd4e33b290aecebc28064ef
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 38%
+ht-degree: 44%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 38%
    + [Anmelde- und Startseite](home-page.md)
    + [Schnellstartanleitung](./start/get-started.md)
    + [Tracking- und E-Mail-Protokolle](./start/email-protocols.md)
-+ KI-{#ai-assistant}
++ KI-Assistent {#ai-assistant}
    + [Überblick](./ai-assistant/ai-assistant-overview.md)
    + [Aktivieren des Zugriffs auf den KI-Assistenten](./ai-assistant/enable-ai-assistant-access.md)
    + [Anleitung zu Fragen](./ai-assistant/question-guidance.md)
@@ -34,7 +34,7 @@ ht-degree: 38%
       + [Pfade aufteilen und zusammenführen](./journeys/split-merge-paths-nodes.md)
       + [Warten](./journeys/wait-nodes.md)
    + [Journey-Details](./journeys/journey-details.md)
-+ Journey-{#journey-content}
++ Journey-Inhalt {#journey-content}
    + E-Mail-Kanal {#email-channel}
       + [E-Mail-Erstellung](./content/email-authoring.md)
       + [KI-Assistent für E-Mail-Authoring](./content/ai-assistant-emails.md)
@@ -44,7 +44,7 @@ ht-degree: 38%
    + [SMS-Authoring](./content/sms-authoring.md)
 + Konten {#accounts}
    + [Zielgruppen](./audiences/account-audience-overview.md)
-   + Einkaufsgruppen {#buying-groups}
+   + Käufergruppen {#buying-groups}
       + [Überblick](./buying-groups/buying-groups-overview.md)
       + [Interessen an der Lösung](./buying-groups/solution-interests.md)
       + [Rollenvorlagen](./buying-groups/buying-groups-role-templates.md)
@@ -57,10 +57,10 @@ ht-degree: 38%
    + [Kontolisten](./accounts/account-lists.md)
    + [Kontodetails](./accounts/account-details.md)
    + [XDM-Felder](./data/field-mapping.md)
-+ Content Management {#content-management}
++ Content-Management {#content-management}
    + Assets {#assets}
       + [Überblick](./content/assets-overview.md)
-      + Marketo Engage Assets-{#marketo-engage-dam}
+      + Marketo Engage-Assets {#marketo-engage-dam}
          + [Arbeiten mit Marketo Engage-Assets](./content/marketo-engage-design-studio.md)
          + [Bearbeiten von Bildern mit Adobe Express](./content/image-edit-adobe-express.md)
       + [Experience Manager-Bild-Assets](./content/aem-assets.md)
@@ -75,14 +75,14 @@ ht-degree: 38%
    + Fragmente {#visual-fragments}
       + [Überblick](./content/fragments.md)
       + [Erstellen von Fragmenten](./content/fragment-authoring.md)
-   + Forms {#forms}
+   + Formulare {#forms}
       + [Überblick](./content/forms.md)
       + [Formularentwurf](./content/form-design.md)
    + Landingpages {#landing-pages}
       + [Übersicht](./content/landing-pages.md)
       + [Landingpage-Design](./content/landing-page-design.md)
    + [Bedingter Inhalt](./content/conditional-content.md)
-+ Insights-Dashboards {#dashboards}
++ Insights dashboards {#dashboards}
    + [Intelligentes Dashboard](./dashboards/intelligent-dashboard.md)
    + [Überblick über die Interaktion](./dashboards/engagement-dashboard.md)
    + [Einkaufsgruppen - Übersicht](./dashboards/buying-groups-dashboard.md)
