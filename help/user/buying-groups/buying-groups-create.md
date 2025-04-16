@@ -3,19 +3,17 @@ title: Erstellen von Einkaufsgruppen
 description: Erfahren Sie, wie Sie mit den erforderlichen Komponenten Einkaufsgruppen erstellen können.
 feature: Buying Groups
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: a514dcdce95b6ef2a134c9882cd6b6936d473609
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 
 
-# Erstellen von Einkaufsgruppen
+# Erstellen von Käufergruppen
 
 Nachdem die Einkaufsgruppe erstellt wurde, kann sie über die Option &quot;[&quot; auf einer Account-Journey verwendet ](./solution-interests.md).
-
-1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B edition.
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Gruppen kaufen]**.
 

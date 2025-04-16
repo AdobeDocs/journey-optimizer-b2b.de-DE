@@ -3,22 +3,20 @@ title: Interessen an Lösungen
 description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie für die Verwendung in Ihren Einkaufsgruppen definieren können.
 feature: Buying Groups, Account Journeys
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: d9cd89db1814cf606cbc57b0d7ae4d5309b5c7dc
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 0%
+source-wordcount: '695'
+ht-degree: 1%
 
 ---
 
-# Interessen an der Lösung
+# Lösungsinteressen
 
 Bevor Sie Einkaufsgruppen erstellen, sollten Sie wissen, was Sie verkaufen und wen Sie ansprechen möchten. Ihre Marketing- und Vertriebsstrategie sollte so abgestimmt sein, dass Sie das Lösungsinteresse für die Einkaufsgruppen hinzufügen können.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
 ## Lösungsinteressen aufrufen und durchsuchen
-
-1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B edition.
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Gruppen kaufen]**.
 

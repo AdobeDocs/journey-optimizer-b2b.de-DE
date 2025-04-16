@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie mit dem KI-Assistenten die Funktionen von Jou
 feature: AI Assistant
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: d19ed2bbe850a14cb0563f6e3563cd8f1c8d3226
+source-git-commit: 62dc7d43f77b2c84b9e0aa27146a7924ee8d7b35
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 6%
+source-wordcount: '957'
+ht-degree: 1%
 
 ---
 
 # Verwenden des KI-Assistenten in Journey Optimizer B2B edition
 
-In Journey Optimizer B2B edition ist der KI-Assistent eine Funktion der Benutzeroberfläche, mit der Sie Produktkonzepte verstehen, schnell zu den Funktionen von Journey Optimizer B2B edition navigieren und mehr über diese erfahren und operative Einblicke in Ihre spezifische Umgebung erhalten können. Es ist auch in mehreren Produkten in Adobe Experience Cloud verfügbar.
+In Journey Optimizer B2B edition ist der KI-Assistent eine Funktion der Benutzeroberfläche, mit der Sie Produktkonzepte verstehen, schnell zu den Produktfunktionen navigieren und sie kennenlernen und operative Einblicke in Ihre Umgebung erhalten können. Es ist auch in mehreren Produkten in Adobe Experience Cloud verfügbar.
 
 >[!IMPORTANT]
 >
@@ -21,41 +21,37 @@ In Journey Optimizer B2B edition ist der KI-Assistent eine Funktion der Benutzer
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der Kopfzeile. Der KI-Assistent wird in einem Bedienfeld auf der rechten Seite geöffnet.
 
-![Klicken Sie auf das Symbol, um auf den KI-Assistenten zuzugreifen](./assets/ai-assistant-icon-displayed.png){width="420" zoomable="yes"}
+![Klicken Sie auf das Symbol, um auf den KI-Assistenten zuzugreifen](./assets/ai-assistant-icon-displayed.png){width="420"}
 
 Die Benutzeroberfläche des KI-Assistenten wird angezeigt und stellt Ihnen sofort Informationen zum Einstieg bereit. Sie können die unter „Ideen _bereitgestellten Optionen verwenden, um_ zu beantworten, z. B.:
 
-* Welche Journey meines Accounts wurden veröffentlicht?
+* Welche Journey wurden veröffentlicht?
 * Welche Lösungsinteressen wurden geschaffen?
 * Erzählen Sie mir die wichtigsten Vorteile von Journey Optimizer B2B edition.
 
 In Adobe Journey Optimizer B2B edition unterstützt der KI-Assistent die folgenden Anwendungsfälle:
 
-## Produktkenntnisse
+## Fragen zum Produktwissen stellen
 
-Fragen zu Produktkenntnissen beziehen sich auf Journey Optimizer B2B edition-Konzepte, die sich auf Aspekte von Adobe Journey Optimizer beziehen. Einige Beispiele für Fragen zum Produktwissen:
+Fragen zu Produktkenntnissen beziehen sich auf Journey Optimizer B2B edition-Konzepte und Anleitungsinformationen. Einige Beispiele für Fragen zum Produktwissen:
 
 * Wie richte ich SMS-Provider-Konten ein?
-* Wie sende ich eine E-Mail auf einer Konto-Journey?
+* Wie sende ich eine E-Mail in einer Journey?
 * Wie kann ich meinen E-Mail-Inhalt personalisieren?
 
-Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste.
+Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste. Beispiel: Sie müssen lernen, wie Sie eine Einkaufsgruppe in einem Journey verwenden. In diesem Fall geben Sie _Wie verwende ich eine Einkaufsgruppe auf einer Journey?_ Nachdem Sie die Frage gesendet haben, fragt der KI-Assistent die Wissensdatenbank ab und erstellt in wenigen Sekunden eine Antwort.
 
-![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-ask-question.png){width="420" zoomable="yes"}
+![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-ask-question.png){width="420"}
 
-Sie können die vom KI-Assistenten zurückgegebenen Antworten überprüfen, indem Sie die Zitate lesen, die mit jeder Antwort zu Produktkenntnissen verfügbar sind.
++++Beispielantwort anzeigen
 
-Um Zitate anzuzeigen und die Antwort des KI-Assistenten zu validieren, wählen Sie **[!UICONTROL Quellen anzeigen]**.
+![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-product-answer.png){width="420"}
 
-![Ergebnisse aus der Abfrage des KI-Assistenten](./assets/ai-assistant-answer.png){width="420" zoomable="yes"}
++++
 
-Der KI-Assistent aktualisiert die Benutzeroberfläche und stellt Links zur Dokumentation bereit, die die ursprüngliche Antwort bestätigen. Wenn Zitate aktiviert sind, aktualisiert der KI-Assistent außerdem die Antwort, sodass sie Fußnoten zur Angabe der spezifischen Teile der Antwort enthält, die auf die bereitgestellte Dokumentation verweisen.
+## Stellen von Fragen zu betrieblichen Insights
 
-Mit dem Daumen hoch oder Daumen runter können Sie die Qualität der Antwort bewerten.
-
-## Operative Erkenntnisse
-
-Fragen zu operativen Erkenntnissen beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Einige Beispiele für Fragen oder Prompts zu operativen Erkenntnissen:
+Fragen zu betrieblichen Insights beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Sie können Fragen zu operativen Artefakten stellen, z. B. Konto-Zielgruppe, Konto-Journey, Lösungsinteresse und Einkaufsgruppenvorlage. Einige Beispiele für Fragen oder Eingabeaufforderungen zu betrieblichen Insights sind:
 
 * Wie viele lebende Journey habe ich in Adobe Journey Optimizer B2B edition?
 * Erstelle eine Liste aller geplanten Journeys
@@ -67,38 +63,62 @@ Sie müssen sich in einer aktiven Sandbox für den KI-Assistenten befinden, um e
 >
 >Die einzigen Adobe Journey Optimizer B2B edition-Objekte, die vom KI-Assistenten für operative Insights unterstützt werden, sind in der Tabelle [Domain für operative Insights](./ai-assistant-overview.md#operational-insights) aufgeführt. Es kann nur für die Sandbox auf Daten zugreifen, in der Sie sich derzeit befinden.
 
-<!-- Select to view an example of an operational insights question.
+Um eine Frage zu operativen Einblicken zu stellen, geben Sie sie in das Feld am unteren Rand des Bedienfelds ein und drücken Sie die Eingabetaste. Beispiel: Sie möchten mehr über die Zielgruppen für Ihre Sandbox erfahren. In diesem Fall geben Sie ein: &quot;_viele Zielgruppen gibt es?_.  Der KI-Assistent listet die Zielgruppen in Ihrer Sandbox auf und erläutert, wie er die Antwort berechnet hat. In der folgenden Beispielantwort stellt der KI-Assistent einen Link bereit, über den auf die Zielgruppen in der Benutzeroberfläche zugegriffen werden kann, und beschreibt die Schritte, die zum Identifizieren der Anzahl der Zielgruppen unternommen wurden.
 
-In the following example, AI Assistant receives the following query: _Show me dataflows that were created using the Amazon S3 source._
+![Antwort des KI-Assistenten für wie viele Zielgruppen](./assets/ai-assistant-insights-answer.png){width="420"}
 
-screen
+Sie können Ihrer anfänglichen Anfrage folgen, indem Sie nach einer Liste von Artefakten fragen, z. B. _Listen Sie die fünf wichtigsten nach Größe auf_. Der KI-Assistent gibt eine Tabelle mit den fünf wichtigsten Elementen in der Abfrage und den entsprechenden IDs zurück. Klicken Sie auf _Herunterladen_-Symbol ![Herunterladen](../assets/do-not-localize/icon-download.svg) , um die Tabelle als CSV-Datei herunterzuladen.
 
-AI Assistant responds with a table list of your dataflows and their corresponding IDs. Click the _Download_ icon ( Download icon ) to download the table as a CSV file. To view the entire table, click the _Expand_ icon ( Expand icon ).
+![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-query.png){width="420"}
 
-screen
+Um die gesamte Tabelle im KI-Assistenten anzuzeigen, klicken Sie auf das Symbol _Maximieren_ ( ![Maximieren-Symbol](../assets/do-not-localize/icon-maximize.svg) ). Klicken Sie in der erweiterten Tabellenansicht auf **[!UICONTROL CSV herunterladen]**, um die Informationen als CSV-Datei zu speichern.
 
-An expanded view of the table appears, providing you with a more comprehensive list of dataflows based on the parameters of your query.
+![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
-screen
+## Überprüfen von Antworten
 
-When prompted with an operational insights question, AI Assistant provides an explanation of how it computed the answer. In the following example, AI Assistant outlines the steps it took in order to identify the dataflows that were created using the Amazon S3 source.
+Der KI-Assistent enthält Tools, mit denen Sie Antworten überprüfen und validieren können.
 
-screen
+### Quellen zum Produktwissen
 
-You can also provide filters and modifications to your questions, and you can instruct AI Assistant to render its findings based on the filters that you include. For example, you can ask AI Assistant to show you a trend of the count of segment definitions in the order of their created date, remove segment definitions with zero total profiles, and use month names instead of integers when displaying the data.
+Nachdem Sie eine Antwort auf eine Produktfrage erhalten haben, wählen Sie **[!UICONTROL Quelle anzeigen]**, um die Zitate aus der Quelle für Produktwissen anzuzeigen, die zum Generieren der Antwort des KI-Assistenten verwendet werden.
 
-### Verify operational insights responses
+Der KI-Assistent enthält Links zur Dokumentation, die die ursprüngliche Antwort bestätigt. Außerdem werden der Antwort Fußnoten hinzugefügt, um die spezifischen Teile der Antwort anzugeben, die auf die verknüpften Dokumentationsquellen verweisen.
 
-You can verify each response related to operational insights questions using an SQL query that AI Assistant provides.
+![Ergebnisse aus der Abfrage des KI-Assistenten](./assets/ai-assistant-product-answer-sources.png){width="420"}
 
-Select to view example of verifying operational insights responses
+### Operative Insights-Quellen
 
-After receiving an answer for an operational insights question, click **[!UICONTROL Show sources]** and then select **[!UICONTROL View source query]**.
+Nachdem Sie eine Antwort auf eine operative Insights-Frage erhalten haben, klicken Sie auf **[!UICONTROL Quelle anzeigen]** und wählen Sie dann **[!UICONTROL Quellabfrage anzeigen]** aus.
 
-screen
+Sie können jede Antwort im Zusammenhang mit Fragen zu operativen Einblicken mithilfe einer SQL-Abfrage überprüfen, die der KI-Assistent bereitstellt. Bei der Abfrage mit einer operativen Insights-Frage stellt der KI-Assistent eine SQL-Abfrage bereit, mit der Sie den Prozess überprüfen können, der zur Berechnung der Antwort erforderlich war. Diese Quellabfrage dient nur zu Verifizierungszwecken und wird vom Abfrage-Service nicht unterstützt.
 
-When queried with an operational insights question, AI Assistant provides an SQL query that you can use to verify the process that it took to compute its answer. This source query is for verification purposes only and is not supported on Query Service.
+![Ergebnisse aus der Abfrage des KI-Assistenten](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
 
-screen  
+## Feedback geben
 
- -->
+Verwenden Sie die Symbole _Daumen hoch_ ( ![Daumen hoch](../assets/do-not-localize/icon-thumb-up.svg) ) oder _Daumen runter_ ( ![Daumen runter](../assets/do-not-localize/icon-thumb-down.svg) ), um die Nützlichkeit und Qualität der Antwort zu bewerten. Füllen Sie entsprechend Ihren Erfahrungen das kurze Umfrageformular aus und klicken Sie auf **[!UICONTROL Senden]**. Die von Ihnen bereitgestellten Informationen werden verwendet, um Verbesserungen am KI-Assistenten vorzunehmen.
+
+Wenn Sie in der Antwort etwas Problematisches feststellen, klicken Sie auf das Symbol _Flag_ ( ![Flag-Symbol](../assets/do-not-localize/icon-flag.svg) ). Beschreiben Sie das Problem im Formular und klicken Sie auf **[!UICONTROL Senden]** um das Problem zu melden.
+
+![Antwort des KI-Assistenten - Feedback-Symbole](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+
++++Formulare anzeigen
+
+>[!BEGINTABS]
+
+>[!TAB Daumen hoch]
+
+![KI-Assistentenantwort - Positives Feedback-Formular auflösen](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+
+>[!TAB Daumen runter]
+
+![Antwort des KI-Assistenten - Negatives Feedback-Formular abblättern](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+
+>[!TAB Markierung]
+
+![Antwort des KI-Assistenten - Feedback-Formular für Probleme kennzeichnen](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
+
++++

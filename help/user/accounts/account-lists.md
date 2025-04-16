@@ -2,10 +2,10 @@
 title: Kontenlisten
 description: Erfahren Sie mehr über Account-Listen und wie Marketing-Experten sie verwenden können, um Accounts über Account-Journey anzusprechen.
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 25776f0ccf4e3b55891d704ebf766aa142b8e536
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 1%
 
 ---
 
@@ -20,29 +20,27 @@ Wenn sich eine Kontoliste im Status _Live_ (veröffentlicht) befindet, ist sie f
 
 ## Zugreifen auf und Durchsuchen von Kontolisten
 
-1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B edition.
+Erweitern Sie in der linken Navigation **[!UICONTROL Konten]** und klicken Sie auf **[!UICONTROL Kontolisten]**.
 
-1. Erweitern Sie in der linken Navigation **[!UICONTROL Konten]** und klicken Sie auf **[!UICONTROL Kontolisten]**.
+![Auf Konto-Journeys zugreifen](./assets/account-lists-browse.png){width="800" zoomable="yes"}
 
-   ![Zugriff auf Account Journey](./assets/account-lists-browse.png){width="800" zoomable="yes"}
+Die angezeigte _[!UICONTROL Kontolisten]_ enthält die folgenden Spalten:
 
-   Die angezeigte _[!UICONTROL Kontolisten]_ enthält die folgenden Spalten:
-
-   * [!UICONTROL Name] (klicken Sie auf den Namen der Kontoliste, um die Details anzuzeigen)
-   * [!UICONTROL Status]
-   * [!UICONTROL Typ]
-   * [!UICONTROL Zuletzt aktualisiert am]
-   * [!UICONTROL Zuletzt aktualisiert von]
-   * [!UICONTROL Erstellungsdatum]
-   * [!UICONTROL Erstellt von]
+* [!UICONTROL Name] (klicken Sie auf den Namen der Kontoliste, um die Details anzuzeigen)
+* [!UICONTROL Status]
+* [!UICONTROL Typ]
+* [!UICONTROL Zuletzt aktualisiert am]
+* [!UICONTROL Zuletzt aktualisiert von]
+* [!UICONTROL Erstellungsdatum]
+* [!UICONTROL Erstellt von]
 
 Diese Tabelle bietet die Möglichkeit, nach Namen zu suchen. Die Sortierfunktion ist derzeit nicht verfügbar.
 
 Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen aktivieren oder deaktivieren.
 
-![Wählen Sie die Spalten aus, die in der Liste der Konto-Journey angezeigt werden sollen](./assets/account-lists-list-columns.png){width="300"}
+![Auswählen der Spalten, die in der Liste der Konto-Journeys angezeigt werden sollen](./assets/account-lists-list-columns.png){width="300"}
 
-Um die Beschreibung einer Kontoliste anzuzeigen, klicken Sie auf das Symbol _Informationen_ neben dem Namen.
+Um die Beschreibung einer Kontoliste anzuzeigen, klicken Sie auf das Symbol _Informationen_ ( ![Informationssymbol](../assets/do-not-localize/icon-info.svg) ) neben dem Namen.
 
 ## Erstellen einer Kontoliste
 

@@ -3,22 +3,20 @@ title: Einkaufsgruppen-Rollenvorlagen
 description: Erfahren Sie, wie Sie eine Rollenvorlage definieren, die als Einkaufsgruppenkomponente verwendet werden soll.
 feature: Buying Groups
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 745b88044c4194f08033b7bb3f79106ca206ae61
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 4%
+source-wordcount: '1115'
+ht-degree: 6%
 
 ---
 
-# Rollenvorlagen für Einkaufsgruppen
+# Vorlagen für Käufergruppenrollen
 
 In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen getroffen. Diese Personen nehmen entsprechend ihrer Rolle in der Organisation am Entscheidungsprozess teil. Erstellen Sie Rollenvorlagen für Einkaufsgruppen, die diese Rollendefinitionen entsprechend jedem Produktangebotstyp oder Account-Anwendungsfall enthalten.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
 ## Zugreifen auf und Durchsuchen von Rollenvorlagen
-
-1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B edition.
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Gruppen kaufen]**.
 
@@ -34,7 +32,7 @@ In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen 
    * [!UICONTROL Erstellt von]
    * [!UICONTROL Letzte Aktualisierung]
    * [!UICONTROL Zuletzt aktualisiert von]
-   * [!UICONTROL Veröffentlicht am]
+   * [!UICONTROL Veröffentlicht auf]
    * [!UICONTROL Veröffentlicht von]
 
    Die Liste ist standardmäßig nach der Spalte _[!UICONTROL Letzte Aktualisierung]_ sortiert.

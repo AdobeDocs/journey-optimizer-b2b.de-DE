@@ -3,10 +3,10 @@ title: Konto-Journeys
 description: Erfahren Sie mehr über Konto-Journeys und darüber, wie Sie sie erstellen und verwalten können.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
+source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 30%
+source-wordcount: '1009'
+ht-degree: 29%
 
 ---
 
@@ -29,22 +29,20 @@ Ihre ersten Schritte mit Konto-Journeys:
 
 ## Aufrufen und Durchsuchen von Konto-Journeys
 
-1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf „Adobe Journey Optimizer B2B Edition“.
+Klicken Sie in der linken Navigationsleiste auf **[!UICONTROL Konto-Journeys]**.
 
-1. Klicken Sie in der linken Navigationsleiste auf **[!UICONTROL Konto-Journeys]**.
+![Auf Konto-Journeys zugreifen](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   ![Auf Konto-Journeys zugreifen](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+Die angezeigte Seite „Journeys“ enthält die folgenden Spalten:
 
-   Die angezeigte Seite „Journeys“ enthält die folgenden Spalten:
-
-   * [!UICONTROL Name] (klicken Sie auf den Namen, um die Journey zur Bearbeitung zu öffnen)
-   * [!UICONTROL Status]
-   * [!UICONTROL Beschreibung]
-   * [!UICONTROL Erstellt von]
-   * [!UICONTROL Zuletzt aktualisiert]
-   * [!UICONTROL Zuletzt aktualisiert von]
-   * [!UICONTROL Veröffentlicht auf]
-   * [!UICONTROL Veröffentlicht von]
+* [!UICONTROL Name] (klicken Sie auf den Namen, um die Journey zur Bearbeitung zu öffnen)
+* [!UICONTROL Status]
+* [!UICONTROL Beschreibung]
+* [!UICONTROL Erstellt von]
+* [!UICONTROL Zuletzt aktualisiert]
+* [!UICONTROL Zuletzt aktualisiert von]
+* [!UICONTROL Veröffentlicht auf]
+* [!UICONTROL Veröffentlicht von]
 
 Verwenden Sie das _Suche_-Tool oben, um die Journey anhand des Namens zu finden. Sie können die Liste nach (_[!UICONTROL ) sortieren]_ indem Sie auf die Spaltenüberschrift klicken.
 
