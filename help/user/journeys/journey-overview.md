@@ -1,60 +1,60 @@
 ---
 title: Konto-Journeys
-description: Erfahren Sie mehr über Account Journey und wie Sie sie erstellen und verwalten können.
+description: Erfahren Sie mehr über Konto-Journeys und darüber, wie Sie sie erstellen und verwalten können.
 feature: Account Journeys
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: bd6f998b610c6f3a4d7c0e1fce5db4bb72b8a1e3
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 3%
+ht-degree: 30%
 
 ---
 
 
-# Account Journey
+# Konto-Journeys
 
 Mit Account Journeys können Sie die Nachfragegenerierung und die Kaufgruppenqualifizierung optimieren und mehr qualifizierte Nachfrage für Ihre Akquise-, Upsell-/Crosssell- und Kundenbindungsprogramme steigern. Passen Sie Ihre Journey für jede kaufende Gruppe und jedes kaufende Gruppenmitglied an, indem Sie automatisierte Interaktionen für E-Mail, SMS, Ereignisse und mehr verwenden.
 
-Definieren Sie eine verkaufsgesteuerte Interaktion, die E-Mail, SMS und mehr innerhalb der Account-Journey umfasst, um das eingehende Marketing mit ausgehenden Verkaufsaktivitäten für jedes Mitglied der Einkaufsgruppe zu koordinieren.
+Definieren Sie eine vertriebsorientierte Interaktion, die E-Mail, SMS und mehr innerhalb der Konto-Journeys umfasst, um das eingehende Marketing mit ausgehenden Vertriebsaktivitäten für jedes Mitglied der Käufergruppe zu koordinieren.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
 ## Erste Schritte mit einer Journey
 
-Erste Schritte mit den Account-Journey:
+Ihre ersten Schritte mit Konto-Journeys:
 
-1. [Erstellen einer Journey](./create-publish-journey.md#create-an-account-journey)
-1. [Fügen Sie die Knoten hinzu](./create-publish-journey.md#add-a-node) und [definieren Sie den Journey-](./create-publish-journey.md#add-and-delete-a-path)) in der Journey-Zuordnung.
-1. [Veröffentlichen Sie die Journey](./create-publish-journey.md#publish-an-account-journey).
+1. [Erstellen einer Journey](./create-publish-journey.md#create-an-account-journey).
+1. [Fügen Sie die Knoten hinzu](./create-publish-journey.md#add-a-node) und [definieren Sie den Journey Flow](./create-publish-journey.md#add-and-delete-a-path) in der Journey Map.
+1. [Veröffentlichen der Journey](./create-publish-journey.md#publish-an-account-journey).
 
-## Zugreifen auf und Durchsuchen von Account-Journey
+## Aufrufen und Durchsuchen von Konto-Journeys
 
-1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf Adobe Journey Optimizer B2B edition.
+1. Klicken Sie auf Ihrer Adobe Experience Platform-Startseite auf „Adobe Journey Optimizer B2B Edition“.
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Account Journey]**.
+1. Klicken Sie in der linken Navigationsleiste auf **[!UICONTROL Konto-Journeys]**.
 
-   ![Zugriff auf Account Journey](./assets/account-journey-browse.png){width="800" zoomable="yes"}
+   ![Auf Konto-Journeys zugreifen](./assets/account-journey-browse.png){width="800" zoomable="yes"}
 
-   Die angezeigte Seite Journey enthält die folgenden Spalten:
+   Die angezeigte Seite „Journeys“ enthält die folgenden Spalten:
 
    * [!UICONTROL Name] (klicken Sie auf den Namen, um die Journey zur Bearbeitung zu öffnen)
    * [!UICONTROL Status]
    * [!UICONTROL Beschreibung]
    * [!UICONTROL Erstellt von]
-   * [!UICONTROL Zuletzt aktualisiert um]
+   * [!UICONTROL Zuletzt aktualisiert]
    * [!UICONTROL Zuletzt aktualisiert von]
-   * [!UICONTROL Veröffentlicht am]
+   * [!UICONTROL Veröffentlicht auf]
    * [!UICONTROL Veröffentlicht von]
 
 Verwenden Sie das _Suche_-Tool oben, um die Journey anhand des Namens zu finden. Sie können die Liste nach (_[!UICONTROL ) sortieren]_ indem Sie auf die Spaltenüberschrift klicken.
 
 Sie können die in der Tabelle angezeigten Spalten anpassen, indem Sie auf das Symbol _Tabelle anpassen_ ( ![Tabelle anpassen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken. Aktivieren oder deaktivieren Sie die Kontrollkästchen im Dialogfeld und klicken Sie auf **[!UICONTROL Übernehmen]**.
 
-![Wählen Sie die Spalten aus, die in der Liste der Konto-Journey angezeigt werden sollen](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
+![Auswählen der Spalten, die in der Liste der Konto-Journeys angezeigt werden sollen](./assets/account-journeys-list-columns.png){width="800" zoomable="yes"}
 
-## Anatomie einer Account-Journey
+## Anatomie einer Konto-Journey
 
-Klicken Sie auf den Namen (als Link angezeigt) in der Liste _[!UICONTROL Account-Journey]_, um die Details zu überprüfen, Änderungen vorzunehmen und Maßnahmen zu ergreifen.
+Klicken Sie auf den Namen (als Link angezeigt) in der Liste _[!UICONTROL Konto-Journeys]_, um die Details zu überprüfen, Änderungen vorzunehmen und Maßnahmen zu ergreifen.
 
 ![Konto-Journey-Arbeitsbereich](./assets/account-journey-workspace.png){width="800" zoomable="yes"}
 
@@ -68,11 +68,11 @@ Der Status einer Journey kann sich je nach den von Ihnen durchgeführten Aktione
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitbar ist. | <ul><li>[Veröffentlichen](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplizieren </li><li>Löschen </li></ul> |
-| _**Live**_ | Der Journey-Status ändert sich von Entwurf zu Live, wenn eine Journey veröffentlicht wird. In diesem Zustand ist er nicht mehr bearbeitbar. | <ul><li>Duplizieren </li><li>Für neue Eintritte schließen </li><li>Abbrechen </li></ul> |
-| _**Für neue Einträge geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Geschlossen zu neuen Einträgen_ wenn Sie im oberen Navigationsbereich auf [!UICONTROL Für neue Einträge schließen] klicken. | <ul><li>Duplizieren </li><li>Abbrechen </li></ul> |
-| _**abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Geschlossen zu neuen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <ul><li>Duplizieren </li><li>Löschen </li></ul> |
-| _**BEENDET**_ | Wenn alle Konten auf einer Journey die Journey abgeschlossen haben, ändert sich der Status von Live oder Geschlossen zu Neue Einträge zu Beendet. | <ul><li>Duplizieren </li><li>Löschen </li></ul> |
+| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <ul><li>[Veröffentlichen](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplizieren </li><li>Löschen </li></ul> |
+| _**Live**_ | Wenn eine Journey veröffentlicht wird, ändert sich der Journey-Status von „Entwurf“ zu „Live“,. In diesem Status kann sie nicht mehr bearbeitet werden. | <ul><li>Duplizieren </li><li>Für neue Eintritte schließen </li><li>Abbrechen </li></ul> |
+| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <ul><li>Duplizieren </li><li>Abbrechen </li></ul> |
+| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <ul><li>Duplizieren </li><li>Löschen </li></ul> |
+| _**Beendet**_ | Wenn alle Konten in einer Journey die Journey abgeschlossen haben, ändert sich der Status von „Live“ oder „Für neue Eintritte geschlossen“ zu „Beendet“. | <ul><li>Duplizieren </li><li>Löschen </li></ul> |
 
 ## Journey verwalten
 
@@ -96,7 +96,7 @@ Wenn Sie eine Live- oder geplante Journey abbrechen (stoppen), wird der Fortschr
 
 ### Für neue Eintritte schließen
 
-Wenn Sie eine Live-Journey schließen, setzen Accounts, die sich derzeit auf der Journey befinden, ihren Pfad auf dieser Journey fort, sodass kein weiterer Journey-Eintritt möglich ist. Ein geschlossener Journey kann nicht neu gestartet werden. Sie können eine geschlossene Journey duplizieren.
+Wenn Sie eine Live-Journey schließen, setzen Accounts, die sich derzeit auf der Journey befinden, ihren Pfad auf dieser Journey fort, sodass kein weiterer Journey-Eintritt möglich ist. Eine geschlossene Journey kann nicht neu gestartet werden. Sie können eine geschlossene Journey duplizieren.
 
 >[!IMPORTANT]
 >
