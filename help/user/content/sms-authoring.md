@@ -3,18 +3,18 @@ title: SMS-Authoring
 description: Erfahren Sie, wie Sie Textnachrichten (SMS) an Ihre Kunden auf ihren mobilen Geräten senden und Nachrichten im Textformat über den SMS-Editor personalisieren und in der Vorschau anzeigen können.
 feature: SMS Authoring, Content
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: b614b972ad3f579c11b87af7ec7bcd6df24ec1a9
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1367'
 ht-degree: 4%
 
 ---
 
-# SMS-Authoring
+# SMS-Erstellung
 
 Verwenden Sie Adobe Journey Optimizer B2B edition, um Textnachrichten (SMS) an die Mobilgeräte Ihrer Kunden zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
 
-Bevor Sie SMS-Nachrichten für Konto-Journeys erstellen, stellen Sie sicher, dass der [SMS-Dienstleister“ ](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
+Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass der [SMS-Service-Provider“ ](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
 
 ## Hinzufügen einer SMS-Aktion auf einer Konto-Journey
 
@@ -34,7 +34,7 @@ Sie können einen Textnachrichten-Versand auf einer Konto-Journey einrichten, we
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   Der _Journey-Inhalts-Designer_ wird geöffnet. Sie können die Nachricht erstellen und die SMS-Eigenschaften für den Nachrichtenversand festlegen.
+   Die _Journey-Zuordnung_ wird geöffnet. Sie können die Nachricht erstellen und die SMS-Eigenschaften für den Nachrichtenversand festlegen.
 
 ### SMS-Nachricht erstellen
 
