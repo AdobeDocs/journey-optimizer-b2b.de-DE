@@ -1,23 +1,26 @@
 ---
 title: Kontenlisten
 description: Erfahren Sie mehr über Account-Listen und wie Marketing-Experten sie verwenden können, um Accounts über Account-Journey anzusprechen.
-badgeBeta: label="Eingeschränkte Verfügbarkeit" type="informative" tooltip="Diese Funktion ist derzeit nur auf Anfrage verfügbar"
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: b1e4709042ef5a436bbf4f209ae13cf100e78664
+source-git-commit: 2fbf54b3e532eadb7b9a84c64c7d67eb8bcf62b2
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 1%
+source-wordcount: '1339'
+ht-degree: 2%
 
 ---
 
 # Kontolisten
 
-Eine Kontenliste ist eine Sammlung benannter Konten, die Marketing-Experten für die gezielte Journey-Orchestrierung verwenden können. Eine Account-Liste kann benannte Accounts nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen. Es gibt zwei Arten von Kontolisten:
+In Journey Optimizer B2B edition ist eine Kontenliste eine Sammlung benannter Konten, die Marketing-Experten für die gezielte Journey-Orchestrierung verwenden können. Eine Account-Liste kann benannte Accounts nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen. Es gibt zwei Arten von Kontolisten:
 
 * **Statisch** - Bei einer statischen Kontoliste ändert sich die Liste nur, wenn Sie die Konten hinzufügen. Sie können Konten manuell hinzufügen, indem Sie einen Filtersatz anwenden, um die Liste auf der Grundlage der aktuellen Kontodaten zu füllen, oder Konten über eine Konto-Journey hinzufügen und entfernen.
 * **Dynamisch** - Mit einer dynamischen Kontenliste definieren Sie einen Filtersatz, mit dem die Liste automatisch kuratiert wird. Das System verwendet diesen Filtersatz, um Konten entsprechend den Änderungen in den Kontoinformationen hinzuzufügen und zu entfernen. Diese Listenverwaltung ähnelt der [Zielgruppensegmentierung in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b).
 
-Wenn sich eine Kontoliste im Status _Live_ (veröffentlicht) befindet, ist sie für die Verwendung in den Account-Journey verfügbar.
+Wenn sich eine Kontoliste im _Live_-Status (veröffentlicht) befindet, ist sie für die [Verwendung in Account-Journey- und Marketo Engage-Programmen](./account-lists-journeys.md) verfügbar.
+
+>[!NOTE]
+>
+>Account-Listen nutzen Account-Daten aus Marketo Engage, um Account-Segmente und -Listen zu erstellen. Wenn also ein Kontosegment aus Adobe Experience Platform nicht aktiv mit Marketo Engage synchronisiert wird, sind Konten in diesem Experience Platform-Segment möglicherweise nicht in Journey Optimizer B2B edition-Kontolisten verfügbar. Anschließend können Personen aus Konten in Experience Platform-Segmenten, die nicht mit Marketo Engage synchronisiert sind, nicht in die Anzahl der Personenmitgliedschaften einbezogen oder in Trigger-Ereignissen gezählt werden.
 
 ## Zugreifen auf und Durchsuchen von Kontolisten
 
@@ -170,65 +173,3 @@ Sie können mit dem Veröffentlichen einer dynamischen Kontoliste fortfahren, so
 Der Status der dynamischen Kontenliste ändert sich in _[!UICONTROL Live]_ und sie kann auf [ Konto-Journey verwendet ](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
-
-## Verwendung der Kontoliste in Account Journey
-
-Es gibt drei Möglichkeiten, Live (veröffentlichte)-Account-Listen in die Account-Journey zu integrieren:
-
-### Konto-Zielgruppenknoten
-
-1. Wählen Sie **[!UICONTROL Kontoliste]** für den _Konto-Zielgruppe_-Knoten aus.
-
-   ![Option „Kontoliste auswählen“ für den Konto-Zielgruppen-Knoten](../journeys/assets/node-audience-account-list.png){width="500"}
-
-1. Klicken Sie **[!UICONTROL Kontoliste hinzufügen]**.
-
-1. Aktivieren Sie das Kontrollkästchen für die Kontoliste und klicken Sie auf **[!UICONTROL Speichern]**.
-
-   ![Option „Kontoliste auswählen“ für den Konto-Zielgruppen-Knoten](../journeys/assets/node-audience-account-list-select-dialog.png){width="600" zoomable="yes"}
-
-Die Konten in der Liste wechseln durch die Journey, wenn sie live (veröffentlicht) geht.
-
-### Aktionsknoten ausführen - Zum Konto hinzufügen
-
-**_Nur statische Kontolisten_**
-
-Fügen Sie Konten mithilfe des Knotens [Aktion ausführen _zu_ statischen ](../journeys/action-nodes.md) hinzu.
-
-Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail senden, und einige Konten führen als Antwortaktionen verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey und möchten sie einer Kontenliste hinzufügen, die als Zielgruppe für eine andere Journey mit einem anderen Verlauf für qualifizierte Konten verwendet wird.
-
->[!NOTE]
->
->Wenn sich zum Zeitpunkt der Ausführung des Knotens bereits ein Konto in der Liste befindet, wird die Aktion ignoriert.
-
-1. Wählen Sie die Option _[!UICONTROL Aktion auf]_ **[!UICONTROL Konten]** aus.
-
-1. Wählen Sie _[!UICONTROL Aktion für Konten]_ die Option **[!UICONTROL Zur Kontoliste hinzufügen]** aus.
-
-   ![Wählen Sie Zur Kontoliste hinzufügen aus](../journeys/assets/node-action-account-add-to-account-list.png){width="500"}
-
-1. Wählen **[!UICONTROL unter „Live-]**-Kontoliste auswählen“ die Kontoliste aus, der Sie Konten hinzufügen möchten.
-
-   ![Wählen Sie Zur Kontoliste hinzufügen aus](../journeys/assets/node-action-account-add-to-account-list-select.png){width="500"}
-
-### Aktionsknoten ausführen - Aus Konto entfernen
-
-**_Nur statische Kontolisten_**
-
-Entfernen Sie Konten mithilfe des Knotens [Aktion ausführen _aus_ statischen ](../journeys/action-nodes.md).
-
-Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail senden, und einige Konten führen als Antwortaktionen verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey und möchten sie aus einer Kontoliste entfernen, die als Zielgruppe für eine andere Journey verwendet wird, die zusätzliche E-Mails sendet, damit Sie Ihre Qualifizierungskommunikationen nicht duplizieren.
-
->[!NOTE]
->
->Wenn sich ein Konto nicht in der Liste befindet, aus der es entfernt werden soll, wird die Aktion ignoriert.
-
-1. Wählen Sie die Option _[!UICONTROL Aktion auf]_ **[!UICONTROL Konten]** aus.
-
-1. Wählen Sie _[!UICONTROL Aktion für Konten]_ die Option **[!UICONTROL Aus Kontoliste entfernen]** aus.
-
-   ![Wählen Sie Zur Kontoliste hinzufügen aus](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
-
-1. Wählen **[!UICONTROL unter „Live-]**-Kontoliste auswählen“ die Kontoliste aus, aus der Sie Konten entfernen möchten.
-
-   ![Wählen Sie Zur Kontoliste hinzufügen aus](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

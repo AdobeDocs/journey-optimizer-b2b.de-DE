@@ -3,16 +3,16 @@ title: Konto-Zielgruppenknoten
 description: Erfahren Sie mehr über den Knotentyp Konto-Zielgruppe , den Sie zum Definieren der Eingabe für die Journey Ihres Kontos in Journey Optimizer B2B edition verwenden können.
 feature: Account Journeys
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: ed75e0c9b0391c31034a1143ef58c20673eac328
+source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 0%
+source-wordcount: '279'
+ht-degree: 5%
 
 ---
 
 # Account Audience Journey Nodes
 
-Der Zielgruppenknoten Konto definiert die Zielgruppe des Eingabekontos (in Adobe Experience Platform erstellt und verwaltet) für die Journey. Wenn Sie [Konto-Journey erstellen](./journey-overview.md#create-an-account-journey) beginnt diese immer mit einem _Konto-Zielgruppe_-Knoten, der die Eingabe für die Journey definiert.
+Der Zielgruppenknoten Konto definiert die Eingabekonten für die Journey. Wenn Sie [Konto-Journey erstellen](./journey-overview.md#create-an-account-journey) beginnt diese immer mit einem _Konto-Zielgruppe_-Knoten, der die Eingabe für die Journey definiert.
 
 Es gibt zwei Arten von Eingaben, die Sie für diesen Knoten verwenden können:
 
@@ -49,7 +49,7 @@ _So erstellen Sie ein Zielgruppensegment:_
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Konten]** > **[!UICONTROL Zielgruppen]** aus.
 
-1. Klicken **[!UICONTROL oben]** auf „Zielgruppe erstellen“.
+1. Klicken Sie oben rechts auf **[!UICONTROL Zielgruppe erstellen]**.
 
    ![Erstellen eines Zielgruppensegments](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 

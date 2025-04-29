@@ -3,14 +3,14 @@ title: Aktion ausführen
 description: Erfahren Sie mehr über den Knotentyp Aktion ausführen , den Sie zur Orchestrierung Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Account Journeys
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 73df89b39524a8622ec610a4ce531f68f0b9d98f
+source-git-commit: db30486c23f6560beb72cd9d9b3a82b70a2e2ddd
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 1%
+source-wordcount: '1240'
+ht-degree: 3%
 
 ---
 
-# Aktion ausführen
+# Durchführen einer Aktion
 
 Auf Ihrer Konto-Journey können Sie einen Knoten _[!UICONTROL Aktion ausführen]_ hinzufügen, um eine Aktion auszuführen, z. B. eine E-Mail senden, einen Punktewert ändern, einer Einkaufsgruppe zuweisen usw. Aktionen sind in der Regel das, was infolge eines Triggers geschehen soll, z. B. eines Ereignisses oder einer vorherigen Aktion.
 
@@ -27,7 +27,7 @@ Verwenden Sie eine Aktion für Konten, wenn Sie eine Änderung auf alle Personen
 | [!UICONTROL Datenwert der Kontoänderung] | Attribut/<br/> Wert auswählen |
 | [!UICONTROL Interessanter Moment des Kontos] | Typ (E-Mail, Meilenstein oder Web)<br/>Beschreibung (optional) |
 | [!UICONTROL Konto zu (anderem) Journey hinzufügen] | Live-Konto-Journey auswählen |
-| [!UICONTROL Zur Kontoliste hinzufügen] | Live-Liste der statischen Konten auswählen |
+| [!UICONTROL Zur Kontoliste hinzufügen] | Statische Live-Kontoliste auswählen |
 | [!UICONTROL Konto von Journey entfernen] | Live-Konto-Journey auswählen |
 | [!UICONTROL Aus der Kontenliste entfernen] | Live-Liste statischer Konten auswählen |
 | [!UICONTROL Verkaufswarnung senden] | Lösungsinteresse auswählen<br/> E-Mail senden an |
@@ -36,7 +36,7 @@ Verwenden Sie eine Aktion für Konten, wenn Sie eine Änderung auf alle Personen
 
 ### Hinzufügen einer kontobasierten Aktion
 
-1. Navigieren Sie zum Journey-Editor.
+1. Navigieren Sie zur Journey-Karte.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Aktion ausführen]**.
 
@@ -61,7 +61,7 @@ Verwenden Sie eine Aktion für Personen, wenn Sie eine Änderung auf alle Person
 | | [!UICONTROL Ändern des Datenwerts] | Personenattribut auswählen<br/>neuen Wert festlegen |
 | | [!UICONTROL Punktzahl ändern] | Score-Name<br/>Änderung des Score |
 | | [!UICONTROL Interessanter Moment der Person] | type<br/>description |
-| | [!UICONTROL Aus Einkaufsgruppe entfernen] | Interesse an der Lösung auswählen |
+| | [!UICONTROL Aus Einkaufsgruppe entfernen] | Lösungsinteresse auswählen |
 | | [!UICONTROL E-Mail senden] | Neue E-Mail erstellen<br/>E-Mail aus Marketo Engage auswählen |
 | | [!UICONTROL SMS senden] | SMS erstellen |
 | [Marketo Engage](#marketo-engage-actions) | [!UICONTROL Zu Liste hinzufügen] | Marketo Engage workspace<br/>list name auswählen |
@@ -71,7 +71,7 @@ Verwenden Sie eine Aktion für Personen, wenn Sie eine Änderung auf alle Person
 
 ### Hinzufügen einer personenbasierten Aktion
 
-1. Navigieren Sie zum Journey-Editor.
+1. Navigieren Sie zur Journey-Karte.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Aktion ausführen]**.
 
@@ -112,6 +112,10 @@ _So erstellen Sie eine externe Zielgruppe:_
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
    Das System erstellt die neue Zielgruppe und zeigt eine Bestätigungsmeldung an. Anschließend können Sie sie als vorhandene Zielgruppe für die Knotenaktion verwenden.
+
+   >[!NOTE]
+   >
+   >Wenn eine neue externe Kundenzielgruppe aus Journey Optimizer B2B edition erstellt wird, wird sie mit einem Platzhalterdatensatz (`test@email.com`) vorkonfiguriert. Dieser Eintrag wird überschrieben, sobald das erste echte Profil der externen Audience von der Journey hinzugefügt wird.
 
 _So verwenden Sie eine vorhandene Zielgruppe:_
 

@@ -3,22 +3,22 @@ title: Konto-Journey erstellen und veröffentlichen
 description: Erfahren Sie, wie Sie Account Journey erstellen und veröffentlichen.
 feature: Account Journeys
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 40043b0cae1be64cffedbc65da2d2b091186a310
+source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 # Konto-Journey erstellen und veröffentlichen
 
-Um mit einer Konto-Journey zu beginnen, erstellen Sie die Journey und erstellen Sie dann den Knoten- und Journey-Fluss im Journey-Editor.
+Um mit einer Konto-Journey zu beginnen, erstellen Sie die Journey und erstellen Sie dann den Knoten- und Journey-Fluss in der Journey-Zuordnung.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
 ## Konto-Journey erstellen
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Account Journey]**.
+1. Klicken Sie in der linken Navigationsleiste auf **[!UICONTROL Konto-Journeys]**.
 
 1. Klicken **[!UICONTROL oben rechts]** der Seite auf „Konto-Journey erstellen“.
 
@@ -34,7 +34,7 @@ Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Designer. In diesem 
 
 Nachdem Sie eine Konto-Journey erstellt und die Audience hinzugefügt haben, erstellen Sie die Journey mithilfe von -Knoten. Die Journey-Zuordnung bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle mithilfe der folgenden Knotentypen erstellen können, um eine Account-Journey zu erstellen:
 
-* [Aktion durchführen](./action-nodes.md)
+* [Durchführen einer Aktion](./action-nodes.md)
 * [Auf ein Ereignis lauschen](./listen-for-event-nodes.md)
 * [Pfade aufteilen](./split-merge-paths-nodes.md)
 * [Warten](./wait-nodes.md)
@@ -50,7 +50,7 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 ## Knoten hinzufügen
 
-1. Navigieren Sie zum Journey-Editor.
+1. Navigieren Sie zur Journey-Karte.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) im Pfad und wählen Sie den Knotentyp aus.
 
@@ -58,7 +58,7 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 ## Löschen eines Knotens
 
-1. Navigieren Sie zum Journey-Editor.
+1. Navigieren Sie zur Journey-Karte.
 
 1. Klicken Sie in den Knoteneigenschaften auf der rechten Seite auf das Symbol _Löschen_ ( ![Löschsymbol](../assets/do-not-localize/icon-delete.svg) ).
 
@@ -66,7 +66,7 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 ## Hinzufügen und Löschen eines Pfads
 
-1. Navigieren Sie zum Journey-Editor.
+1. Navigieren Sie zur Journey-Karte.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf dem Pfad und fügen Sie den [Pfadknoten aufteilen“ ](./split-merge-paths-nodes.md#split-paths).
 

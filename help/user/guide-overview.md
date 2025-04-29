@@ -2,10 +2,10 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B Edition zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 99%
+source-wordcount: '719'
+ht-degree: 65%
 
 ---
 
@@ -13,9 +13,33 @@ ht-degree: 99%
 
 ## Neue Funktionen?
 
-Im Folgenden finden Sie ein Beispiel für die neuesten Verbesserungen am Produkt und an der Dokumentation zu Journey Optimizer B2B Edition.
+Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesserungen in der Dokumentation zu Journey Optimizer B2B edition.
 
 >[!BEGINTABS]
+
+>[!TAB Kontolisten]
+
+Erstellen Sie eine Kontenliste, die eine Sammlung benannter Konten ist, die Marketing-Experten für die zielgerichtete Journey-Orchestrierung verwenden können. Eine Account-Liste kann benannte Accounts nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Erfahren Sie mehr über Kontolisten"}
+
+>[!TAB Kontolistenfilter für Smart-Listen]
+
+Sie können jetzt Marketo Engage-Smart-Listen mit Kontolistenfiltern filtern. Mit diesen Filtern können Sie Mitglieder von Kontenlisten in Marketo Engage-Kampagnen und -Programmen aus den Account-Journey in Journey Optimizer B2B edition unterdrücken und einbeziehen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/accounts/account-lists-journeys.md #marketo-engage-program---member-of-account-list" tooltip="Erfahren Sie mehr über die in Marketo Engage-Smart-Listen verwendeten Filter für Kontolisten"}
+
+>[!TAB Inaktivitätsverlaufsfilter]
+
+Journey zum Fortschritt basierend auf Inaktivität innerhalb von Marketo Engage-Kampagnen und -Programmen, einschließlich E-Mail, interessante Momente, Änderungen des Datenwerts und besuchte Web-Seiten.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md #activity-filtering" tooltip="Erfahren Sie mehr über Filter des Inaktivitätsverlaufs"}
+
+>[!TAB Journey-Duplizierung]
+
+Duplizieren Sie Ihre Konto-Journey-Strukturen, um manuelle Fehler zu minimieren und konsistente Einstellungen, Flüsse und Pfade sicherzustellen. Auf der duplizierten Journey können Sie Inhalte oder Aktionen anpassen, sodass größere und komplexere Kampagnen leichter verwaltet werden können&#x200B;.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-Journey" tooltip="Informationen zur Journey-Duplizierung"}
 
 >[!TAB Intelligentes Erkenntnis-Dashboard]
 
@@ -27,34 +51,15 @@ Mit dem neuen intelligenten Dashboard können Sie den Fortschritt der Käufergru
 
 Verwenden Sie die Schnellaktionen in Adobe Express, um Ihre Inhalte mit den Funktionen für Zuschneiden, Größenanpassung, Hintergrundentfernung und Formatkonvertierung zu verbessern. Die intuitive Benutzeroberfläche von Adobe Express ist integriert, sodass Sie Ihre Bild-Assets schnell optimieren können.
 
-Mit der Adobe Express Enterprise-Lizenzierung können Sie eine vollständige Suite an Adobe Express-Funktionen nutzen. Verwenden Sie diese Funktionen, um Bilder unter Einhaltung der Markenrichtlinien zu verbessern und Hindernisse in der Content-Lieferkette zu beseitigen.
+Mit der Adobe Express Enterprise-Lizenzierung können Sie eine vollständige Suite an Adobe Express-Funktionen nutzen. Verwenden Sie diese Funktionen, um Bilder zu optimieren und zu verbessern, wobei Sie sich an die Markenrichtlinien halten und Hindernisse in der Inhaltslieferkette beseitigen.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Informationen zur Bildbearbeitung mit Adobe Express"}
 
 >[!TAB Anpassbare Fragmentfelder]
 
-Als Content-Designerin oder -Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Auf diese Weise kann die Autorin bzw. der Autor der E-Mail oder Vorlage einen benutzerdefinierten Feldwert angeben, der speziell für ihre bzw. seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. 
+Als Content-Designerin oder -Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Diese Konfiguration ermöglicht es dem E-Mail- oder Vorlagenautor, einen benutzerdefinierten Feldwert anzugeben, der speziell für seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. 
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/content/fragment-authoring.md #enable-fragment-customization" tooltip="Informationen zu benutzerdefinierten Feldern für Inhaltsfragmente"}
-
->[!TAB AEP-Ereignisweiterleitung]
-
-Admins können jetzt auf Adobe Experience Platform (AEP) basierende Ereignisdefinitionen konfigurieren. Mit diesen Konfigurationen können Marketing-Fachleute Konto-Journeys erstellen, die auf Erlebnisereignissen aus AEP reagieren.
-  
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/configure-aep-events.md" tooltip="Erfahren Sie mehr über AEP-Ereignisdefinitionen für die Journey-Orchestrierung"}
-
->[!TAB Käufergruppenfilter für intelligente Listen]
-
-In Marketo Engage können Sie jetzt intelligente Listen mit Käufergruppenfiltern anzeigen und erstellen. Mit diesen Filtern können Sie Mitglieder von Käufergruppen in allen Marketo Engage-Kampagnen und -Programmen über die Account-Journeys in Journey Optimizer B2B Edition unterdrücken und einbeziehen. 
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/marketo-engage-smart-list-buying-group-filters.md" tooltip="Informationen zu Käufergruppenfiltern, die in intelligenten Listen in Marketo Engage verwendet werden"}
-
->[!TAB Bedingte Inhalte]
-
-Verwenden Sie bedingte Inhalte, um Ihren E-Mail-Inhalt auf der Grundlage bedingter Regeln anzupassen. Definieren Sie die Regeln mithilfe von Profilattributen oder kontextuellen Ereignissen. Sie können bedingte Regeln im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/conditional-content.md" tooltip="Informationen zu bedingten Inhalten"}
 
 >[!ENDTABS]
 
@@ -65,15 +70,15 @@ Eine vollständige Liste der neuen Funktionen und Verbesserungen finden Sie in d
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="home-page.md"><img width="120px" src="./assets/launch.png" alt="Start der Produktnutzung"></a>
+    <a href="home-page.md"><img width="140px" src="./assets/launch.png" alt="Start der Produktnutzung"></a>
     <div><strong>Starten von Ihrer Startseite aus</strong><br/>: Erfahren Sie, wie Sie Ihre Ziele in Journey Optimizer B2B Edition schneller erreichen, indem Sie Ihre auf Grundlage Ihrer Rolle personalisierte Startseite verwenden.</div>
     </td>
       <td>
-    <a href="buying-groups/buying-groups-overview.md"><img width="120px" src="./assets/communication.png" alt="Käufergruppen"></a>
+    <a href="buying-groups/buying-groups-overview.md"><img width="140px" src="./assets/communication.png" alt="Käufergruppen"></a>
     <div><strong>Erstellen Sie Ihre erste Käufergruppe</strong><br/>Erstellen Sie Ihre erste Käufergruppe in Journey Optimizer B2B Edition, um den Prozess der Interaktion mit und Qualifizierung von Kontakten zu automatisieren.</div>
     </td>
     <td>
-    <a href="journeys/journey-overview.md"><img width="120px" src="./assets/flow.png" alt="Konto-Journeys"></a>
+    <a href="journeys/journey-overview.md"><img width="140px" src="./assets/flow.png" alt="Konto-Journeys"></a>
     <div><strong>Erstellen Sie Ihre erste Konto-Journey</strong><br/>Entwerfen und orchestrieren Sie personalisierte Konto-Journeys, um das Marketing mit gezielten Interaktionen zu harmonisieren. 
     </div>
     </td>
