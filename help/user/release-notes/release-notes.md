@@ -2,9 +2,9 @@
 title: Versionshinweise
 description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: f4c0870e3cf8a8c1db3ed2f11f7ecfdf244f69fe
+source-git-commit: f26f8767a9bb1c7df8a1aaf4ca91657e40ef8aa1
 workflow-type: tm+mt
-source-wordcount: '2008'
+source-wordcount: '2004'
 ht-degree: 81%
 
 ---
@@ -27,7 +27,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | Kontolisten | Sie können jetzt eine statische oder dynamische Kontenliste erstellen, um benannte Konten nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auszuwählen. <a href="../accounts/account-lists.md">Weitere Informationen</a> |
 | Funktion | Journey-Orchestrierung der Kontoliste | Verwenden Sie Journey-Aktionsknoten, um Konten für statische Kontolisten hinzuzufügen und zu entfernen. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Weitere Informationen</a> |
-| Verbesserung | Filtern der Journey-Mitgliedschaft in Marketo Engage | Verwenden Sie Adobe Journey Optimizer B2B edition-Kontolisten für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer_) in Marketo Engage-Smart-Listen. &lt;a href=&quot;../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list>Weitere Informationen</a> |
+| Verbesserung | Filtern der Journey-Mitgliedschaft in Marketo Engage | Verwenden Sie Adobe Journey Optimizer B2B edition-Kontolisten für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer_) in Marketo Engage-Smart-Listen. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Weitere Informationen</a> |
 | Funktion | Inaktivitätsfilter | Orchestrieren Sie Journey auf der Grundlage von Inaktivität innerhalb von Marketo Engage-Kampagnen und -Programmen, einschließlich E-Mail-Inaktivität, interessante Momente, Änderungen des Datenwerts und besuchte Web-Seiten. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Weitere Informationen</a> |
 | Verbesserung | Filter für besuchte Web-Seiten | Orchestrieren Sie Journey basierend auf der Aktivität für besuchte Web-Seiten, die mit Marketo Engage-Kampagnen und -Programmen verknüpft sind. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Weitere Informationen</a> |
 
