@@ -4,8 +4,8 @@ description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ Mit der Adobe Express Enterprise-Lizenzierung können Sie eine vollständige Sui
 
 Als Content-Designerin oder -Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Diese Konfiguration ermöglicht es dem E-Mail- oder Vorlagenautor, einen benutzerdefinierten Feldwert anzugeben, der speziell für seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. 
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/fragment-authoring.md #enable-fragment-customization" tooltip="Informationen zu benutzerdefinierten Feldern für Inhaltsfragmente"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Informationen zu benutzerdefinierten Feldern für Inhaltsfragmente"}
 
 >[!ENDTABS]
 

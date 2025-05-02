@@ -3,8 +3,8 @@ user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
 source-git-commit: 5ed7e58b7a069c8b436d0d2f7b338072259768be
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,18 +73,18 @@ ht-degree: 91%
          + [Erstellung von E-Mail-Vorlagen](./content/email-template-authoring.md)
       + Landing Page-Vorlagen {#landing-page-templates}
          + [Überblick](./content/landing-page-templates.md)
-         + [Design von Landingpage-Vorlagen](./content/landing-page-template-design.md)
+         + [Landingpage-Vorlagen-Design](./content/landing-page-template-design.md)
    + Fragmente {#visual-fragments}
       + [Überblick](./content/fragments.md)
       + [Erstellen von Fragmenten](./content/fragment-authoring.md)
    + Formulare {#forms}
       + [Überblick](./content/forms.md)
-      + [Formularentwurf](./content/form-design.md)
+      + [Formular-Design](./content/form-design.md)
    + Landingpages {#landing-pages}
       + [Übersicht](./content/landing-pages.md)
       + [Landingpage-Design](./content/landing-page-design.md)
    + [Bedingte Inhalte](./content/conditional-content.md)
-+ Insights-Dashboards {#dashboards}
++ Erkenntnis-Dashboards {#dashboards}
    + [Intelligentes Dashboard](./dashboards/intelligent-dashboard.md)
    + [Überblick über die Interaktionen](./dashboards/engagement-dashboard.md)
    + [Überblick über Käufergruppen](./dashboards/buying-groups-dashboard.md)
