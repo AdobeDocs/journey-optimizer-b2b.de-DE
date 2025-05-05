@@ -69,7 +69,7 @@ Wenn Sie über eine Enterprise-Lizenz für Adobe Expreß verfügen, können Sie 
 
 ![Öffnen Sie das Bild im Adobe Express Enterprise-Editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-Das [Adobe Expreß-Benutzerhandbuch](https://helpx.adobe.com/express/user-guide.html){target="_blank"} enthält detaillierte Informationen zu den verfügbaren Bearbeitungsfunktionen.
+Das [Adobe Expreß-Benutzerhandbuch](https://helpx.adobe.com/de/express/user-guide.html){target="_blank"} enthält detaillierte Informationen zu den verfügbaren Bearbeitungsfunktionen.
 
 ## Schnellaktionen im Adobe Expreß
 

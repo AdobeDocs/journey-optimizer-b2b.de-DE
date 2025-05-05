@@ -50,11 +50,11 @@ Um die Branding-Domains zu überprüfen, klicken Sie auf die Registerkarte **[!U
 
 ![Zugriff auf die Einstellungen der Branding-Domains](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Marketo Engage-Arbeitsbereiche. Für neue E-Mails wird diese Domain als Standard verwendet. Marketing-Experten können sie jedoch pro E-Mail überschreiben. Weitere Informationen finden Sie in der Dokumentation zu [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Marketo Engage-Arbeitsbereiche. Für neue E-Mails wird diese Domain als Standard verwendet. Marketing-Experten können sie jedoch pro E-Mail überschreiben. Weitere Informationen finden Sie in der Dokumentation zu [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Wenn Sie mehrere Marken aus Journey Optimizer B2B edition und der verbundenen Marketo Engage-Instanz vermarkten und möchten, dass jede über eigene Marken-Tracking-Links verfügt, können Sie eine zusätzliche Branding-Domain hinzufügen. Weitere Informationen finden Sie in der Dokumentation zu [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Wenn Sie mehrere Marken aus Journey Optimizer B2B edition und der verbundenen Marketo Engage-Instanz vermarkten und möchten, dass jede über eigene Marken-Tracking-Links verfügt, können Sie eine zusätzliche Branding-Domain hinzufügen. Weitere Informationen finden Sie in der Dokumentation zu [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Benutzerdefinierte Kopfzeilenoptionen] {#custom-header-options}
 
@@ -78,7 +78,7 @@ Die Einstellungen sind in Journey Optimizer B2B edition schreibgeschützt. Klick
 >
 >Um auf diese Einstellungen in Adobe Marketo Engage zugreifen und sie bearbeiten zu können, benötigen Sie die Berechtigung eines Produktadministrators.
 
-Weitere Informationen zur Konfiguration der Kommunikationsbeschränkungen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Weitere Informationen zur Konfiguration der Kommunikationsbeschränkungen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
 
 ## SPF/DKIM
 
@@ -112,7 +112,7 @@ DKIM ist ein Authentifizierungsprotokoll, das von E-Mail-Empfängern verwendet w
 
 Wenn der öffentliche Schlüssel in Ihrem DNS-Eintrag und die Versand-Domain in der verbundenen Marketo Engage-Instanz aktiviert sind, wird für Ihre ausgehenden Nachrichten das benutzerdefinierte DKIM-Signieren verwendet. Die benutzerdefinierte DKIM-Signatur enthält zu jeder gesendeten E-Mail eine verschlüsselte digitale Signatur. Die Empfänger können dann die digitale Signatur entschlüsseln, indem sie den _öffentlichen Schlüssel_ im DNS Ihrer Versand-Domain nachschlagen. Wenn der Schlüssel in der E-Mail mit dem Schlüssel im DNS-Eintrag übereinstimmt, akzeptiert der empfangende E-Mail-Server die über Marketo Engage gesendete E-Mail mit höherer Wahrscheinlichkeit.
 
-Weitere Informationen zum Konfigurieren einer benutzerdefinierten DKIM-Signatur für den E-Mail-Versand finden Sie in der [Marketo Engage-Dokumentation](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
+Weitere Informationen zum Konfigurieren einer benutzerdefinierten DKIM-Signatur für den E-Mail-Versand finden Sie in der [Marketo Engage-Dokumentation](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/email-marketing/deliverability/set-up-a-custom-dkim-signature){target="_blank"}.
 
 ## Bot-Aktivität
 
@@ -145,4 +145,4 @@ Die Einstellungen sind in Journey Optimizer B2B edition schreibgeschützt. Klick
 >
 >Um auf diese Einstellungen in Adobe Marketo Engage zugreifen und sie bearbeiten zu können, benötigen Sie die Berechtigung eines Produktadministrators.
 
-Weitere Informationen zum Konfigurieren der Bot-Aktivitätsoptionen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Weitere Informationen zum Konfigurieren der Bot-Aktivitätsoptionen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

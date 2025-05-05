@@ -76,9 +76,9 @@ Bei Fragen zu operativen Einblicken spiegeln die Antworten möglicherweise nicht
 
 Derzeit umfasst der KI-Assistent Folgendes:
 
-* [Produktwissen](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#product-knowledge): Der KI-Assistent beantwortet Fragen zum Produktwissen von Real-Time Customer Data Platform und Adobe Journey Optimizer B2B edition.
+* [Produktwissen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home#product-knowledge): Der KI-Assistent beantwortet Fragen zum Produktwissen von Real-Time Customer Data Platform und Adobe Journey Optimizer B2B edition.
 
-* [Operative Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights): Sie können Fragen zum KI-Assistenten für operative Insights für die folgenden Datenobjekte stellen: Attribute, Account-Zielgruppen, Datenflüsse, Datensätze, Ziele, Account-Journey, Schemata, Quellen, Einkaufsgruppenvorlagen und Lösungsinteressen.
+* [Operative Insights](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home#operational-insights): Sie können Fragen zum KI-Assistenten für operative Insights für die folgenden Datenobjekte stellen: Attribute, Account-Zielgruppen, Datenflüsse, Datensätze, Ziele, Account-Journey, Schemata, Quellen, Einkaufsgruppenvorlagen und Lösungsinteressen.
 
 ### Datenschutz, Sicherheit und Governance
 
@@ -90,7 +90,7 @@ Der KI-Assistent in Journey Optimizer B2B edition basiert auf Datenschutz, Siche
 
 * Sie müssen explizit die Berechtigung haben, mit dem KI-Assistenten zu interagieren.
 
-   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) der [Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse).
+   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ ](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions) der [Admin Console ](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/browse).
 
    * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Benutzer verschiedene Fragenkategorien stellen können (Produktkenntnisse mit dem KI-Assistenten oder Fragen zu betrieblichen Einblicken).
 

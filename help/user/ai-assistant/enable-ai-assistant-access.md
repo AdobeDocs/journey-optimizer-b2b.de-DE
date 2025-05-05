@@ -21,7 +21,7 @@ Die folgenden Parameter steuern den Zugriff auf AI Assistant in Journey Optimize
 
 * **Zugriff auf die Applikation:** Sie können auf den KI-Assistenten in Adobe Systems Journey Optimizer B2B Edition zugreifen.
 
-* **Berechtigungen:** Verwenden Sie die [UI &quot;Berechtigungen&quot;,](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions) um den Zugriff auf AI Assistant in Ihrer Organisation zu gewähren oder zu widerrufen. Um AI Assistant verwenden zu können, muss eine bestimmte User zu einer Rolle gehören, die mit den **Berechtigungen KI-Assistent** aktivieren und **Ansicht Operational Insights** konfiguriert ist.
+* **Berechtigungen:** Verwenden Sie die [UI &quot;Berechtigungen&quot;,](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions) um den Zugriff auf AI Assistant in Ihrer Organisation zu gewähren oder zu widerrufen. Um AI Assistant verwenden zu können, muss eine bestimmte User zu einer Rolle gehören, die mit den **Berechtigungen KI-Assistent** aktivieren und **Ansicht Operational Insights** konfiguriert ist.
 
 Als Administrator haben Sie folgende Möglichkeiten:
 
@@ -31,7 +31,7 @@ Als Administrator haben Sie folgende Möglichkeiten:
 
 ![Zuweisen von AI Assistant-Berechtigungen](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Verwenden Sie die UI Berechtigungen, um Berechtigungen für die Verwendung von AI Assistant in Journey Optimizer B2B Edition zu erteilen. Informationen zum Zugriff auf AI Assistant in Experience Platform und anderen Experience Cloud Anwendungen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access).
+Verwenden Sie die UI Berechtigungen, um Berechtigungen für die Verwendung von AI Assistant in Journey Optimizer B2B Edition zu erteilen. Informationen zum Zugriff auf AI Assistant in Experience Platform und anderen Experience Cloud Anwendungen finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/access).
 
 Wenn der User über die erforderlichen Berechtigungen verfügt, kann er auf AI Assistant zugreifen, indem er das _AI Assistant-Symbol_ in der oberen Kopfzeile des von Ihnen verwendeten Applikation auswählt.
 

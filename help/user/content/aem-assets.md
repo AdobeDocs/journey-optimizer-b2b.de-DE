@@ -22,7 +22,7 @@ Wenn Ihre Umgebung über mindestens eine [Assets-Repository-Verbindung](../admin
 
 >[!IMPORTANT]
 >
->Ein Administrator muss Benutzende, die Zugriff auf Assets benötigen, zu den Produktprofilen &quot;Assets Consumer Users“ oder/und &quot;Assets Users“ hinzufügen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>Ein Administrator muss Benutzende, die Zugriff auf Assets benötigen, zu den Produktprofilen &quot;Assets Consumer Users“ oder/und &quot;Assets Users“ hinzufügen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
 
 ## Zugreifen auf AEM Assets-Bilder
 
@@ -32,7 +32,7 @@ Klicken Sie im visuellen Inhaltseditor auf das Symbol _Experience Manager Assets
 
 >[!NOTE]
 >
->Derzeit werden in Adobe Journey Optimizer B2B edition nur Bild-Assets aus Adobe Experience Manager Assets unterstützt. Änderungen an den Assets müssen über das zentrale Adobe Experience Manager Assets-Repository vorgenommen werden. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>Derzeit werden in Adobe Journey Optimizer B2B edition nur Bild-Assets aus Adobe Experience Manager Assets unterstützt. Änderungen an den Assets müssen über das zentrale Adobe Experience Manager Assets-Repository vorgenommen werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
 
 ### Ändern des angezeigten Repositorys
 

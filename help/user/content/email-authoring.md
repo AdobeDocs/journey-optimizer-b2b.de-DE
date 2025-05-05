@@ -26,7 +26,7 @@ Sie können den E-Mail-Versand auf einer Konto-Journey einrichten, wenn Sie eine
 
    >[!NOTE]
    >
-   >Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal in Adobe Marketo Engage konfiguriert ist. Weitere Informationen finden Sie unter [Sicherstellen der E-Mail](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) in der Dokumentation zu Marketo Engage.
+   >Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal in Adobe Marketo Engage konfiguriert ist. Weitere Informationen finden Sie unter [Sicherstellen der E-Mail](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) in der Dokumentation zu Marketo Engage.
 
    ![Aktion durchführen - E-Mail senden](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
