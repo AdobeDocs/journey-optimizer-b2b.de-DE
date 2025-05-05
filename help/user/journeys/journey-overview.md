@@ -66,11 +66,11 @@ Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Ak
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <ul><li>[Veröffentlichen](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplizieren </li><li>Löschen </li></ul> |
-| _**Live**_ | Wenn eine Journey veröffentlicht wird, ändert sich der Journey-Status von „Entwurf“ zu „Live“,. In diesem Status kann sie nicht mehr bearbeitet werden. | <ul><li>Duplizieren </li><li>Schließen für neue Eintritte </li><li>Abbrechen </li></ul> |
-| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <ul><li>Duplizieren </li><li>Abbrechen </li></ul> |
-| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <ul><li>Duplizieren </li><li>Löschen </li></ul> |
-| _**Beendet**_ | Wenn alle Konten in einer Journey die Journey abgeschlossen haben, ändert sich der Status von „Live“ oder „Für neue Eintritte geschlossen“ zu „Beendet“. | <ul><li>Duplizieren </li><li>Löschen </li></ul> |
+| _&#x200B;**Entwurf**&#x200B;_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <ul><li>[Veröffentlichen](./create-publish-journey.md#publish-an-account-journey)</li><li>Duplizieren </li><li>Löschen </li></ul> |
+| _&#x200B;**Live**&#x200B;_ | Wenn eine Journey veröffentlicht wird, ändert sich der Journey-Status von „Entwurf“ zu „Live“,. In diesem Status kann sie nicht mehr bearbeitet werden. | <ul><li>Duplizieren </li><li>Schließen für neue Eintritte </li><li>Abbrechen </li></ul> |
+| _&#x200B;**Für neue Eintritte geschlossen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <ul><li>Duplizieren </li><li>Abbrechen </li></ul> |
+| _&#x200B;**Abgebrochen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <ul><li>Duplizieren </li><li>Löschen </li></ul> |
+| _&#x200B;**Beendet**&#x200B;_ | Wenn alle Konten in einer Journey die Journey abgeschlossen haben, ändert sich der Status von „Live“ oder „Für neue Eintritte geschlossen“ zu „Beendet“. | <ul><li>Duplizieren </li><li>Löschen </li></ul> |
 
 ## Verwalten von Journeys
 

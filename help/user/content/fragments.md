@@ -98,7 +98,7 @@ Sie können neue visuelle Fragmente in Journey Optimizer B2B edition erstellen, 
 
 1. Klicken Sie jederzeit auf **[!UICONTROL Speichern]** , um den Entwurf des Fragments zu speichern.
 
-1. Wenn Sie bereit sind, das Fragment zur Verwendung in einer E-Mail oder einem E-Mail-Vorlage bereitzustellen, klicken Sie auf Publish ****.
+1. Wenn Sie bereit sind, das Fragment zur Verwendung in einer E-Mail oder einem E-Mail-Vorlage bereitzustellen, klicken Sie auf Publish **&#x200B;**.
 
 ## Anzeigen von Fragmentdetails
 
@@ -247,7 +247,7 @@ So aktualisieren Sie den Inhalt:
 Sie können ein Fragment mit einer der folgenden Methoden Duplikat:
 
 * Klicken Sie in der _[!UICONTROL Liste &quot;Fragmente]_ &quot; Seite auf das _Mehr-Symbol_ (**...**) neben dem Namen des Fragments und wählen Sie &quot; **[!UICONTROL Duplizieren]**&quot;.
-* Klicken Sie oben rechts in der Seite &quot;Fragmentdetails&quot; auf ... **** Mehr und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie oben rechts in der Seite &quot;Fragmentdetails&quot; auf ... **&#x200B;**&#x200B;Mehr und wählen Sie **[!UICONTROL Duplizieren]**.
 
 ![Duplizieren des Fragments](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
 
@@ -261,7 +261,7 @@ Das duplizierte (neue) Fragment wird dann in der Liste &quot; _Fragmente_ &quot;
 
 Beim Erstellen/Bearbeiten einer E-Mail oder eines E-Mail-Vorlage in der Visual Inhalte Bearbeiter können Sie die Inhalte ganz oder teilweise als Fragment speichern, damit sie zur Wiederverwendung zur Verfügung steht.
 
-1. Wenn einige Inhalte als Fragment gespeichert werden sollen, klicken Sie auf **[!UICONTROL Mehr]** und wählen Sie Speichern als Fragment ]**aus**[!UICONTROL .
+1. Wenn einige Inhalte als Fragment gespeichert werden sollen, klicken Sie auf **[!UICONTROL Mehr]** und wählen Sie Speichern als Fragment **aus**.
 
 1. Wählen Sie die verschiedenen Elemente aus, die in das Fragment aufgenommen werden sollen.
 
@@ -285,7 +285,7 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 1. Navigieren Sie zu **[!UICONTROL Account-Journey]** und öffnen Sie eine bestehende Journey oder erstellen Sie eine neue Journey.
 
-1. Erstellen Sie einen [_[!UICONTROL E-Mail senden ]_-Knoten](./email-authoring.md#add-an-email-action-in-an-account-journey).
+1. Erstellen Sie einen [_[!UICONTROL E-Mail senden &#x200B;]_-Knoten](./email-authoring.md#add-an-email-action-in-an-account-journey).
 
 1. Erstellen oder bearbeiten [E-Mail-Inhalt für den Knoten](./email-authoring.md#create-the-email-content).
 
@@ -352,8 +352,8 @@ Nachdem die E-Mail-Vorlage gespeichert wurde, wird sie in der Seite &quot;Fragme
 Wenn ein Fragment zu einer E-Mail oder E-Mail-Vorlage hinzugefügt wird, kann der Fragmentinhalt nicht innerhalb der E-Mail oder Vorlage bearbeitet werden. Sie können jedoch die folgenden Aktionen anwenden:
 
 * **[!UICONTROL Löschen]** - Mit dieser Aktion wird das Fragment aus dem aktuellen Inhalt der E-Mail oder E-Mail-Vorlage entfernt (die Fragmentquelle ist nicht betroffen).
-* **** Aktualisieren - Diese Aktion aktualisiert die Inhalte des Fragments in der aktuellen E-Mail oder E-Mail-Vorlage. Die Aktualisierung ist nützlich, wenn Sie alle kürzlich vorgenommenen Änderungen am Fragment nach dem Hinzufügen zur E-Mail oder E-Mail-Vorlage widerspiegeln möchten.
-* **** Duplizieren - Mit dieser Aktion wird das Fragment in derselben E-Mail oder E-Mail-Vorlage innerhalb der Bearbeiter mit denselben Abmessungen dupliziert und direkt darunter hinzugefügt.
+* **&#x200B;**&#x200B;Aktualisieren - Diese Aktion aktualisiert die Inhalte des Fragments in der aktuellen E-Mail oder E-Mail-Vorlage. Die Aktualisierung ist nützlich, wenn Sie alle kürzlich vorgenommenen Änderungen am Fragment nach dem Hinzufügen zur E-Mail oder E-Mail-Vorlage widerspiegeln möchten.
+* **&#x200B;**&#x200B;Duplizieren - Mit dieser Aktion wird das Fragment in derselben E-Mail oder E-Mail-Vorlage innerhalb der Bearbeiter mit denselben Abmessungen dupliziert und direkt darunter hinzugefügt.
 * **[!UICONTROL Fragment]** öffnen: Mit dieser Aktion wird eine neue Browser Tab mit dem Fragment Bearbeiter Seite und Details geöffnet.
 * **[!UICONTROL Vererbung]** unterbrechen - Diese Aktion unterbricht die Vererbung des Fragments (und seiner Änderungen) von der Quelle. Verwenden Sie diese Aktion, um das Fragment Inhalte als unabhängiges und bearbeitbares Inhalte in der E-Mail oder E-Mail-Vorlage verfügbar zu machen. Außerdem wird die E-Mail-Adresse oder der E-Mail-Vorlage aus der _Referenz &quot;Verwendet von_ &quot; für das ursprüngliche Fragment entfernt.
 
