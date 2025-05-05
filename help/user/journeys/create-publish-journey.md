@@ -136,4 +136,4 @@ Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443228/?learn=on&captions=ger)

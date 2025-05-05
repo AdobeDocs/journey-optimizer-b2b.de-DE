@@ -364,4 +364,4 @@ Verwenden Sie den Eintritt einer Kaufgruppen-Stadienänderung, um das Konto mit 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448703/?learn=on&captions=ger)
