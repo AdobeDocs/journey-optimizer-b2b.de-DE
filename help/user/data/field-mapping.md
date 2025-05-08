@@ -15,7 +15,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 
 >[!TIP]
 >
->Sie können XDM Business Person- und XDM Business Account-Klassen in einer Viele-zu-viele-Beziehung modellieren, indem Sie die XDM Business Account Person Relation-Klasse verwenden, wie in der [Experience Platform XDM-Dokumentation beschrieben](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Sie können XDM Business Person- und XDM Business Account-Klassen in einer Viele-zu-viele-Beziehung modellieren, indem Sie die XDM Business Account Person Relation-Klasse verwenden, wie in der [Experience Platform XDM-Dokumentation beschrieben](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Personenbeziehungsattribute für XDM Business-Konto
 
@@ -79,7 +79,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 
 ## XDM Business-Opportunity-Attribute
 
-Darüber hinaus werden Opportunity-Daten als Attribute in der Klasse XDM Business Opportunity gespeichert, die über eine Viele-zu-eins-Beziehung mit der Klasse XDM Business Account verknüpft werden können, wie in der [Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"} beschrieben.
+Darüber hinaus werden Opportunity-Daten als Attribute in der Klasse XDM Business Opportunity gespeichert, die über eine Viele-zu-eins-Beziehung mit der Klasse XDM Business Account verknüpft werden können, wie in der [Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"} beschrieben.
 
 | [Eigenschaft](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Anzeigename | Journey Optimizer B2B-Anzeigename | Datentyp | Beschreibung |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |

@@ -13,7 +13,7 @@ ht-degree: 16%
 
 Journey Optimizer B2B edition bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
 
-Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors „LinkedIn-Zielgruppe ([)“ mit abgeglichenem Zielgruppen-Connector ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Firmen) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
+Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors „LinkedIn-Zielgruppe ([)“ mit abgeglichenem Zielgruppen-Connector ](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Firmen) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
 
 ## Konfigurieren einer neuen Verbindung mit einem LinkedIn-Konto {#linkedin-destination-setup}
 

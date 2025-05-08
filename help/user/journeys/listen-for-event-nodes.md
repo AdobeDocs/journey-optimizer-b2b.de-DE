@@ -118,7 +118,7 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz erstellt haben, 
 
 ### Überwachen eines Erlebnisereignisses
 
-Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren. Die Verwendung von AEP-Erlebnisereignissen in Account Journey erfolgt in zwei Schritten:
+Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren. Die Verwendung von AEP-Erlebnisereignissen in Account Journey erfolgt in zwei Schritten:
 
 1. [Erstellen und Veröffentlichen einer AEP-](../admin/configure-aep-events.md).
 

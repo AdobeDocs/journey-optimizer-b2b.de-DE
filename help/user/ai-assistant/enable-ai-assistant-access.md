@@ -21,7 +21,7 @@ Die folgenden Parameter regeln den Zugriff auf den KI-Assistenten in Journey Opt
 
 * **Zugriff auf die Anwendung:** Sie können auf den KI-Assistenten in Adobe Journey Optimizer B2B edition zugreifen.
 
-* **Berechtigungen:** Verwenden Sie die [Benutzeroberfläche „Berechtigungen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}, um den Zugriff auf den KI-Assistenten in Ihrer Organisation zu gewähren oder zu widerrufen. Um den KI-Assistenten verwenden zu können, muss ein Benutzer zu einer Rolle gehören, die mit den Berechtigungen **KI-Assistent aktivieren** und **operative Insights anzeigen** konfiguriert ist.
+* **Berechtigungen:** Verwenden Sie die [Benutzeroberfläche „Berechtigungen](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}, um den Zugriff auf den KI-Assistenten in Ihrer Organisation zu gewähren oder zu widerrufen. Um den KI-Assistenten verwenden zu können, muss ein Benutzer zu einer Rolle gehören, die mit den Berechtigungen **KI-Assistent aktivieren** und **operative Insights anzeigen** konfiguriert ist.
 
 Als Administrator haben Sie folgende Möglichkeiten:
 
@@ -31,7 +31,7 @@ Als Administrator haben Sie folgende Möglichkeiten:
 
 ![Zuweisen von Berechtigungen für KI-Assistenten](./assets/ai-assistant-permissions.png){width="800" zoomable="yes"}
 
-Verwenden Sie die Benutzeroberfläche „Berechtigungen“, um Berechtigungen für die Verwendung des KI-Assistenten in Journey Optimizer B2B edition zu gewähren. Informationen zum Zugriff auf den KI-Assistenten in Experience Platform und anderen Experience Cloud-Anwendungen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target="_blank"}.
+Verwenden Sie die Benutzeroberfläche „Berechtigungen“, um Berechtigungen für die Verwendung des KI-Assistenten in Journey Optimizer B2B edition zu gewähren. Informationen zum Zugriff auf den KI-Assistenten in Experience Platform und anderen Experience Cloud-Anwendungen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/access){target="_blank"}.
 
 Wenn der/die Benutzende über die erforderlichen Berechtigungen verfügt, kann er/sie auf den KI-_zugreifen, indem er/sie das Symbol KI-Assistent_ in der oberen Kopfzeile der verwendeten Anwendung auswählt.
 
