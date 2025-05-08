@@ -50,7 +50,7 @@ Um die Beschreibung einer Kontoliste anzuzeigen, klicken Sie auf das Symbol _Inf
 
 Wenn Sie eine Kontoliste erstellen, definieren Sie einen Satz von Filtern, um die Liste zu generieren. Sie können damit beispielsweise eine Liste von Konten generieren, bei denen die Branche das Gesundheitswesen ist und der Umsatz über 100 Millionen Dollar beträgt.
 
-1. Klicken Sie _[!UICONTROL der Seite]_ Kontolisten“ oben rechts auf ]**Seite auf**[!UICONTROL  Kontoliste erstellen“.
+1. Klicken Sie _[!UICONTROL der Seite]_ Kontolisten“ oben rechts auf **Seite auf** Kontoliste erstellen“.
 
    ![Klicken Sie auf Kontoliste erstellen](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
