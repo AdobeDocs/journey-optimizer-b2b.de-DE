@@ -281,4 +281,4 @@ Sie können eine Ereignisdefinition löschen, wenn sie nicht von einer veröffen
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448692/?learn=on&captions=ger)
