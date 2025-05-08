@@ -2,8 +2,8 @@
 title: Konto-Zielgruppen
 description: Erfahren Sie mehr über Kontozielgruppen und darüber, wie sie Account-basierte Journeys aktivieren.
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: b6b26d9cb79926577ed7fc4ed50c094986796505
-workflow-type: ht
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Journey Optimizer B2B Edition verwendet die Kontosegmentierungsfunktionen der B2B- und B2P-Editionen von Adobe Real-Time Customer Data Platform. Mit der Kontosegmentierung können Benutzende Kontozielgruppen generieren, indem sie Daten aus jeder B2B-Entität im System nutzen. Diese Kontozielgruppen dienen als Eingaben für die Konto-Journeys von Journey Optimizer B2B Edition und erleichtern die Fähigkeit zur nahtlosen Aktivierung und Personalisierung.
 
-Weitere Informationen zu Kontozielgruppen und deren Definition finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/types/account-audiences).
+Weitere Informationen zu Kontozielgruppen und deren Definition finden Sie in der [Dokumentation zum Segmentierungs-Service von Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/types/account-audiences){target="_blank"}.
 
 ## Kontozielgruppen-Workflow
 
@@ -32,7 +32,7 @@ Mit Journey Optimizer B2B Edition können Sie Adobe Experience Platform(AEP)-Kon
 
 ## Erstellen einer Kontozielgruppe
 
-Definieren Sie die Kontozielgruppe, indem Sie eine Kontosegmentierung erstellen. Sie können die Kontosegmentierung direkt in der Journey Optimizer B2B Edition-Anwendung erstellen oder die [Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder) verwenden. Im Folgenden finden Sie die Schritte, die Sie zum Erstellen einer Kontosegmentierung in Journey Optimizer B2B Edition verwenden können.
+Definieren Sie die Kontozielgruppe, indem Sie eine Kontosegmentierung erstellen. Sie können die Kontosegmentierung direkt in der Journey Optimizer B2B Edition-Anwendung erstellen oder die [Benutzeroberfläche von Segment Builder](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"} verwenden. Im Folgenden finden Sie die Schritte, die Sie zum Erstellen einer Kontosegmentierung in Journey Optimizer B2B Edition verwenden können.
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Konten]** > **[!UICONTROL Zielgruppen]** aus.
 

@@ -3,7 +3,7 @@ title: E-Mail-Erstellung
 description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die auf einer Konto-Journey verwendet werden.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 797d049cc5aefe710a39a980107f63e75cae12d2
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 15%
@@ -26,7 +26,7 @@ Sie können den E-Mail-Versand auf einer Konto-Journey einrichten, wenn Sie eine
 
    >[!NOTE]
    >
-   >Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal in Adobe Marketo Engage konfiguriert ist. Weitere Informationen finden Sie unter [Sicherstellen der E-Mail](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability) in der Dokumentation zu Marketo Engage.
+   >Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal in Adobe Marketo Engage konfiguriert ist. Weitere Informationen finden Sie unter [Sicherstellen der E-Mail](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} in der Dokumentation zu Marketo Engage.
 
    ![Aktion durchführen - E-Mail senden](assets/journey-node-send-email.png){width="700" zoomable="yes"}
 
@@ -141,7 +141,7 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Inhalt personalisieren
+### Personalisieren von Inhalten
 
 {{$include /help/_includes/content-design-personalization.md}}
 

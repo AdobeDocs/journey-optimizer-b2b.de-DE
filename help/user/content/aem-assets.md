@@ -3,10 +3,10 @@ title: Arbeiten mit Experience Manager Assets
 description: Erfahren Sie, wie Sie Bild-Assets aus einem verbundenen AEM Assets-Repository beim Erstellen von Inhalten in Adobe Journey Optimizer B2B edition verwenden können.
 feature: Assets, Content
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 728d5316cfdeee92bd4f67277d299bbec2773a4f
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -16,13 +16,13 @@ Wenn Adobe Experience Manager Assets as a Cloud Service mit Adobe Journey Optimi
 
 {{aem-assets-licensing-note}}
 
-Wenn Sie diese digitalen Assets verwenden, werden die neuesten Änderungen in Assets as a Cloud Service automatisch über verknüpfte Verweise in Live-E-Mail-Kampagnen übertragen. Wenn Bilder in Adobe Experience Manager Assets as a Cloud Service gelöscht werden, werden sie in den E-Mails mit einer beschädigten Referenz angezeigt. Wenn Assets, die derzeit in Account Journey verwendet werden, geändert oder gelöscht werden, werden die Journey-Autoren über die Bildänderungen und die Liste der Journey, die das Image verwenden, benachrichtigt. Alle Änderungen an den Assets müssen im Adobe Experience Manager Assets Central Repository vorgenommen werden.
+Wenn Sie diese digitalen Assets verwenden, werden die neuesten Änderungen in Assets as a Cloud Service über verknüpfte Verweise automatisch an Live-E-Mail-Kampagnen weitergegeben. Wenn Bilder in Adobe Experience Manager Assets as a Cloud Service gelöscht werden, werden sie in den E-Mails mit einer beschädigten Referenz angezeigt. Wenn Assets, die derzeit in Account Journey verwendet werden, geändert oder gelöscht werden, werden die Journey-Autoren über die Bildänderungen und die Liste der Journey, die das Image verwenden, benachrichtigt. Alle Änderungen an den Assets müssen im Adobe Experience Manager Assets Central Repository vorgenommen werden.
 
 Wenn Ihre Umgebung über mindestens eine [Assets-Repository-Verbindung](../admin/configure-aem-repositories.md) verfügt, können Inhaltsautoren AEM Assets als Quelle für Assets beim Erstellen einer E-Mail, E-Mail-Vorlage oder eines visuellen Fragments verwenden.
 
 >[!IMPORTANT]
 >
->Ein Administrator muss Benutzende, die Zugriff auf Assets benötigen, zu den Produktprofilen &quot;Assets Consumer Users“ oder/und &quot;Assets Users“ hinzufügen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console)
+>Ein Administrator muss Benutzende, die Zugriff auf Assets benötigen, zu den Produktprofilen &quot;Assets Consumer Users“ oder/und &quot;Assets Users“ hinzufügen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Zugreifen auf AEM Assets-Bilder
 
@@ -32,7 +32,7 @@ Klicken Sie im visuellen Inhaltseditor auf das Symbol _Experience Manager Assets
 
 >[!NOTE]
 >
->Derzeit werden in Adobe Journey Optimizer B2B edition nur Bild-Assets aus Adobe Experience Manager Assets unterstützt. Änderungen an den Assets müssen über das zentrale Adobe Experience Manager Assets-Repository vorgenommen werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets)
+>Derzeit werden in Adobe Journey Optimizer B2B edition nur Bild-Assets aus Adobe Experience Manager Assets unterstützt. Änderungen an den Assets müssen über das zentrale Adobe Experience Manager Assets-Repository vorgenommen werden. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Ändern des angezeigten Repositorys
 
@@ -42,7 +42,7 @@ Wenn Sie über mehr als ein verbundenes AEM-Repository verfügen, klicken Sie au
 
 Es gibt mehrere Methoden zum Hinzufügen eines Bild-Assets zur visuellen Arbeitsfläche.
 
-### Bild per Drag-and-Drop verschieben
+### Bild per Drag-and-Drop ablegen
 
 1. Durchsuchen Sie die im linken Bereich angezeigten Miniaturansichten.
 

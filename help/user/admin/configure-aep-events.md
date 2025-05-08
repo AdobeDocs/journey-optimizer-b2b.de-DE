@@ -4,20 +4,20 @@ description: Erfahren Sie mehr über den Knotentyp Warten , den Sie für die Orc
 feature: Setup
 soultion: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 632eee973730f527ea0314c6affe5a49a72e3945
+source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
 workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 # Konfigurieren von Experience Platform-Ereignisdefinitionen
 
-Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent) reagieren.
+Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video ansehen - Übersicht](#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
 
-Die Verwendung von AEP-Erlebnisereignissen in Account Journey ist ein zweistufiger Prozess:
+Die Verwendung von AEP-Erlebnisereignissen in Account Journey erfolgt in zwei Schritten:
 
 1. Erstellen und veröffentlichen Sie eine AEP-Ereignisdefinition.
 
@@ -29,7 +29,7 @@ Für jede Ereignisdefinition sind die folgenden Experience Platform-Eingaben erf
 
   >[!NOTE]
   >
-  >Stimmen Sie sich mit Ihrem Engineering-Team ab, um sicherzustellen, dass die erforderlichen Schemata definiert werden. [Erstellen von XDM](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition)Schemata ist ein komplexer Prozess, der von Dateningenieuren auf der Grundlage von Anwendungsfallanforderungen in Ihrem Unternehmen durchgeführt wird.
+  >Stimmen Sie sich mit Ihrem Engineering-Team ab, um sicherzustellen, dass die erforderlichen Schemata definiert werden. [Erstellen von XDM](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition){target="_blank"}Schemata ist ein komplexer Prozess, der von Dateningenieuren auf der Grundlage von Anwendungsfallanforderungen in Ihrem Unternehmen durchgeführt wird.
 
 * **_Ereignistypen_** - XDM ExperienceEvent eventType (maximal 20 pro Ereignisdefinition).
 
@@ -80,8 +80,8 @@ In der Liste _[!UICONTROL Ereignisdefinitionen]_ gibt die Spalte **[!UICONTROL S
 | Status | Beschreibung |
 | -------------------- | ----------- |
 | Entwurf | Wenn Sie eine Ereignisdefinition erstellen, befindet sie sich im Entwurfsstatus. Er bleibt in diesem Status, bis Sie ihn zur Verwendung in den Journey des Kontos veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Veröffentlichen<li>Löschen |
-| Veröffentlicht | Wenn Sie eine Ereignisdefinition veröffentlichen, wird sie zur Verwendung in Account-Journey verfügbar. Die Details können nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Verfügbar für _Lauschen auf ein Ereignis_ Journey-Knoten<li>Entwurfsversion erstellen<li>Löschen (wenn nicht in Gebrauch) |
-| Veröffentlicht (mit Entwurf) | Wenn Sie einen Entwurf aus einer veröffentlichten Ereignisdefinition erstellen, bleibt die veröffentlichte Version für die Verwendung in Account-Journey verfügbar, und die Entwurfsversion kann geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie noch nicht ausgeführt wird. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Entwurfsversion veröffentlichen<li>Entwurfsversion verwerfen<li>Löschen (wenn nicht in Gebrauch) |
+| Veröffentlicht | Wenn Sie eine Ereignisdefinition veröffentlichen, wird sie zur Verwendung in Account-Journey verfügbar. Die Details können nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Verfügbar für _Lauschen auf ein Ereignis_ Journey-Knoten<li>Versionsentwurf erstellen<li>Löschen (wenn nicht in Gebrauch) |
+| Veröffentlicht (mit Entwurf) | Wenn Sie einen Entwurf aus einer veröffentlichten Ereignisdefinition erstellen, bleibt die veröffentlichte Version für die Verwendung in Account-Journey verfügbar, und die Entwurfsversion kann geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie noch nicht ausgeführt wird. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Entwurfsversion veröffentlichen<li>Versionsentwurf verwerfen<li>Löschen (wenn nicht in Gebrauch) |
 
 ![Lebenszyklus des Fragmentstatus](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ Um nach einer Ereignisdefinition anhand des Namens zu suchen, geben Sie eine Tex
 
 1. Wählen Sie die **[!UICONTROL Ereignistypen]** aus, die für die Ereignisdefinition verwendet werden sollen.
 
-   Die [Ereignistypen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent#eventType) die Sie auswählen, bestimmen die Ereignisse, die als Einschränkungen für einen _Lauschen auf ein Ereignis_-Knoten auf einer Konto-Journey verfügbar sind.
+   Die [Ereignistypen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} die Sie auswählen, bestimmen die Ereignisse, die als Einschränkungen für einen _Lauschen auf ein Ereignis_-Knoten auf einer Konto-Journey verfügbar sind.
 
    * Klicken Sie **[!UICONTROL Ereignistypen auswählen]**.
    * Wählen Sie im Dialogfeld einen oder mehrere Ereignistypen aus der Liste aus (maximal 20).
@@ -275,10 +275,10 @@ Sie können eine Ereignisdefinition löschen, wenn sie nicht von einer veröffen
 
 1. Suchen Sie die Ereignisdefinition in der Liste und klicken Sie auf _Löschen_ ( ![Löschsymbol](../assets/do-not-localize/icon-delete.svg) ) rechts neben dem Namen.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
+1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
    ![Bestätigen Sie, um die Ereignisdefinition zu löschen](./assets/configuration-events-delete-confirm-dialog.png){width="300"}
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448692/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
