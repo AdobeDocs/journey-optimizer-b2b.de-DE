@@ -154,4 +154,4 @@ Verwenden Sie die Aktion „Löschen“, um eine Journey dauerhaft zu löschen. 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443216/?learn=on&captions=ger)
