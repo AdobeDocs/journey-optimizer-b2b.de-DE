@@ -3,9 +3,9 @@ title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B Edition zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 8328829d11af5287dce743d49374fc4b1a4b3f53
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '719'
+ht-degree: 100%
 
 ---
 
@@ -13,33 +13,33 @@ ht-degree: 0%
 
 ## Neue Funktionen?
 
-Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesserungen in der Dokumentation zu Journey Optimizer B2B edition.
+Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesserungen an der Anwendung und an der Dokumentation zu Journey Optimizer B2B Edition.
 
 >[!BEGINTABS]
 
 >[!TAB Kontolisten]
 
-Erstellen Sie eine Kontenliste, die eine Sammlung benannter Konten ist, die Marketing-Experten für die zielgerichtete Journey-Orchestrierung verwenden können. Eine Account-Liste kann benannte Accounts nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen.
+Erstellen Sie eine Kontoliste. Dabei handelt es sich um eine Sammlung benannter Konten, die Marketing-Fachleute für die zielgerichtete Journey-Orchestrierung verwenden können. Eine Kontoliste kann benannte Konten nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Erfahren Sie mehr über Kontolisten"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/accounts/account-lists.md" tooltip="Weitere Informationen über Kontolisten"}
 
->[!TAB Kontolistenfilter für Smart-Listen]
+>[!TAB Kontolistenfilter für intelligente Listen]
 
-Sie können jetzt Marketo Engage-Smart-Listen mit Kontolistenfiltern filtern. Mit diesen Filtern können Sie Mitglieder von Kontenlisten in Marketo Engage-Kampagnen und -Programmen aus den Account-Journey in Journey Optimizer B2B edition unterdrücken und einbeziehen.
+Sie können intelligente Listen in Marketo Engage jetzt mit Kontolistenfiltern filtern. Mit diesen Filtern können Sie Mitglieder von Kontolisten in allen Marketo Engage-Kampagnen und -Programmen über die Konto-Journeys in Journey Optimizer B2B Edition unterdrücken und einbeziehen. 
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/accounts/account-lists-journeys.md #marketo-engage-program---member-of-account-list" tooltip="Erfahren Sie mehr über die in Marketo Engage-Smart-Listen verwendeten Filter für Kontolisten"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list" tooltip="Weitere Informationen zu Kontolistenfiltern, die in intelligenten Listen in Marketo Engage verwendet werden"}
 
 >[!TAB Inaktivitätsverlaufsfilter]
 
-Journey zum Fortschritt basierend auf Inaktivität innerhalb von Marketo Engage-Kampagnen und -Programmen, einschließlich E-Mail, interessante Momente, Änderungen des Datenwerts und besuchte Web-Seiten.
+Journeys zum Fortschritt basierend auf Inaktivität innerhalb von Marketo Engage-Kampagnen und -Programmen, einschließlich E-Mail, interessanten Momenten, Änderungen des Datenwerts und besuchten Web-Seiten.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md #activity-filtering" tooltip="Erfahren Sie mehr über Filter des Inaktivitätsverlaufs"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/split-merge-paths-nodes.md#activity-filtering" tooltip="Weitere Informationen zu Filtern des Inaktivitätsverlaufs"}
 
 >[!TAB Journey-Duplizierung]
 
-Duplizieren Sie Ihre Konto-Journey-Strukturen, um manuelle Fehler zu minimieren und konsistente Einstellungen, Flüsse und Pfade sicherzustellen. Auf der duplizierten Journey können Sie Inhalte oder Aktionen anpassen, sodass größere und komplexere Kampagnen leichter verwaltet werden können&#x200B;.
+Duplizieren Sie die Strukturen Ihrer Konto-Journey, um manuelle Fehler zu minimieren und konsistente Einstellungen, Flüsse und Pfade sicherzustellen. In der duplizierten Journey können Sie Inhalte oder Aktionen anpassen, um die Verwaltung größerer und komplexer Kampagnen zu vereinfachen.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-Journey" tooltip="Informationen zur Journey-Duplizierung"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/journey-overview.md#duplicate-journey" tooltip="Weitere Informationen zur Journey-Duplizierung"}
 
 >[!TAB Intelligentes Erkenntnis-Dashboard]
 
@@ -51,13 +51,13 @@ Mit dem neuen intelligenten Dashboard können Sie den Fortschritt der Käufergru
 
 Verwenden Sie die Schnellaktionen in Adobe Express, um Ihre Inhalte mit den Funktionen für Zuschneiden, Größenanpassung, Hintergrundentfernung und Formatkonvertierung zu verbessern. Die intuitive Benutzeroberfläche von Adobe Express ist integriert, sodass Sie Ihre Bild-Assets schnell optimieren können.
 
-Mit der Adobe Express Enterprise-Lizenzierung können Sie eine vollständige Suite an Adobe Express-Funktionen nutzen. Verwenden Sie diese Funktionen, um Bilder zu optimieren und zu verbessern, wobei Sie sich an die Markenrichtlinien halten und Hindernisse in der Inhaltslieferkette beseitigen.
+Mit der Adobe Express Enterprise-Lizenzierung können Sie eine vollständige Suite an Adobe Express-Funktionen nutzen. Verwenden Sie diese Funktionen, um Bilder unter Einhaltung der Markenrichtlinien zu verbessern und Hindernisse in der Content-Lieferkette zu beseitigen.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/content/image-edit-adobe-express.md" tooltip="Informationen zur Bildbearbeitung mit Adobe Express"}
 
 >[!TAB Anpassbare Fragmentfelder]
 
-Als Content-Designerin oder -Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Diese Konfiguration ermöglicht es dem E-Mail- oder Vorlagenautor, einen benutzerdefinierten Feldwert anzugeben, der speziell für seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. 
+Als Content-Designerin oder -Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Diese Methode ermöglicht es der Autorin bzw. dem Autor der E-Mail oder Vorlage, einen benutzerdefinierten Feldwert anzugeben, der speziell für ihre bzw. seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. 
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/content/fragment-authoring.md#enable-fragment-customization" tooltip="Informationen zu benutzerdefinierten Feldern für Inhaltsfragmente"}
 
@@ -139,7 +139,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>

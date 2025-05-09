@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Käufergruppen in Journey Optimizer B2B Edition d
 feature: Buying Groups
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1782'
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ Sie können die Effektivität des Marketings steigern, indem Sie Käufergruppen 
 
 1. Erstellen Sie Käufergruppen.
 
-   * Definieren [Lösungsinteresses](./solution-interests.md) und [Rollenvorlage](./buying-groups-role-templates.md)
-   * [Erstellen Sie die Einkaufsgruppe](./buying-groups-create.md#create-buying-groups) und weisen Sie [Einkaufsgruppenstufen“ ](./buying-group-stages.md).
+   * Definieren Sie [Lösungsinteresse](./solution-interests.md) und [Rollenvorlage](./buying-groups-role-templates.md)
+   * [Erstellen Sie die Käufergruppe](./buying-groups-create.md#create-buying-groups) und weisen Sie [Käufergruppenphasen](./buying-group-stages.md) zu.
 
 1. Identifizieren Sie fehlende Personen.
 
@@ -51,7 +51,7 @@ Sie können die Effektivität des Marketings steigern, indem Sie Käufergruppen 
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Verwenden Sie die Journey der Einkaufsgruppe Ihres Kontos.
+1. Verwenden Sie die Käufergruppe Ihrer Konto-Journeys.
 
 ## Anzeigen von Käufergruppen und Komponenten
 
@@ -204,4 +204,4 @@ Die endgültige Interaktionsbewertung wird durch Anwenden der Gewichtung für je
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
