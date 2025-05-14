@@ -1,52 +1,24 @@
 ---
-title: E-Mail-Erstellung
-description: Erfahren Sie, wie Sie personalisierte E-Mail-Inhalte erstellen, die auf einer Konto-Journey verwendet werden.
+title: Verfassen von E-Mail-Nachrichten
+description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Journey Optimizer B2B erstellen. Verwenden Sie Vorlagen, HTML-Importe und KI-gestützte Tools, um Ihre E-Mail-Kommunikation zu personalisieren und zu optimieren.
 feature: Email Authoring, Content
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 15%
+source-wordcount: '949'
+ht-degree: 20%
 
 ---
 
-# E-Mail-Erstellung
+# Verfassen von E-Mail-Nachrichten
 
-Verwenden Sie Adobe Journey Optimizer B2B edition, um E-Mail-Nachrichten an Ihre Kunden zu senden. Sie können Nachrichten im visuellen Designer erstellen, personalisieren und in der Vorschau anzeigen.
-
-## Hinzufügen einer E-Mail-Aktion zu einer Konto-Journey
-
-Sie können den E-Mail-Versand auf einer Konto-Journey einrichten, wenn Sie einen Knoten _[!UICONTROL Aktion ausführen]_ hinzufügen und dann Folgendes ausführen:
-
-1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
-1. Wählen Sie für _[!UICONTROL Aktion für Personen]_ die Option **[!UICONTROL E-Mail senden]**.
-1. Wählen Sie für _[!UICONTROL E-Mail]_ die Option **[!UICONTROL Neue E-Mail erstellen]**.
-
-   Alternativ können Sie auch die Option _[!UICONTROL E-Mail aus Adobe Marketo Engage auswählen]_ auswählen, um eine der vorab erstellten E-Mails in Marketo Engage zu verwenden und als Teil der Konto-Journey zu senden.
-
-   >[!NOTE]
-   >
-   >Wenn Sie zum ersten Mal eine E-Mail erstellen, stellen Sie sicher, dass der E-Mail-Kanal in Adobe Marketo Engage konfiguriert ist. Weitere Informationen finden Sie unter [Sicherstellen der E-Mail](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"} in der Dokumentation zu Marketo Engage.
-
-   ![Aktion durchführen - E-Mail senden](assets/journey-node-send-email.png){width="700" zoomable="yes"}
-
-1. Klicken Sie unten im Bedienfeld _[!UICONTROL Aktion ausführen]_ auf **[!UICONTROL E-Mail erstellen]**.
-
-1. Geben Sie im Dialogfeld einen eindeutigen **[!UICONTROL Namen“ für die E]** Mail und eine **[!UICONTROL Betreffzeile]** ein.
-
-   ![Dialogfeld „Neue E-Mail erstellen“](assets/create-new-email.png){width="400"}
-
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
-
-   Im Abschnitt _[!UICONTROL E]_ Mail-Eigenschaften“ der E-Mail-Inhaltsseite sind die Felder _[!UICONTROL Von E-Mail]_ und _[!UICONTROL Antwort an Adresse]_ bereits konfiguriert. Sie können Werte für die Felder _[!UICONTROL Absendername]_ und _[!UICONTROL Beschreibung]_ (optional) eingeben.
-
-## Erstellen des E-Mail-Inhalts
+Nachdem Sie [ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben](./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
 
 Klicken Sie **[!UICONTROL E-Mail-]** hinzufügen“ oben im Vorschaufenster _[!UICONTROL E-Mail]_.
 
 ![Klicken Sie auf E-Mail-Inhalt hinzufügen ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
-Diese Aktion startet die E-Mail-Designer, in der Sie aus den folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
+Diese Aktion startet die E-Mail-Design-Tools, in denen Sie aus den folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
 * [Erstellen Sie Ihre E-Mail von Grund auf ](#design-your-email-from-scratch) mithilfe der Benutzeroberfläche von E-Mail-Designer.
 
@@ -62,7 +34,7 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den
 >
 >Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Ebene zu heben. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails und zielgerichtete Textinhalte generiert und KI-Assistenten-Empfehlungen für Bilder abgibt, die bei Ihrer Audience Anklang finden. [Weitere Informationen](./ai-assistant-emails.md)
 
-### Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
+## Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
@@ -93,7 +65,7 @@ Wenn Ihr Inhalt fertig ist, klicken Sie oben auf **[!UICONTROL Inhalt simulieren
 
 Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
-### Vorhandenen HTML-Inhalt importieren
+## Vorhandenen HTML-Inhalt importieren
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -105,7 +77,7 @@ Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]
 
 Sie können den importierten Inhalt nach Bedarf mit den visuellen E-Mail-Editor-Tools personalisieren.
 
-### Vorlage auswählen
+## Vorlage auswählen
 
 {{$include /help/_includes/content-design-select-template.md}}
 
@@ -165,7 +137,7 @@ Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen E-Mail
 
 ### Mehr Optionen
 
-Im Menü _[!UICONTROL Mehr …]_ oben in Email Designer können Sie die folgenden Aktionen ausführen:
+Im Menü _[!UICONTROL Mehr …]_ oben im E-Mail-Design-Bereich können Sie die folgenden Aktionen ausführen:
 
 ![Klicken Sie auf Mehr , um auf Vorlagenaktionen zuzugreifen](./assets/email-designer-more-menu.png){width="500"}
 
@@ -174,34 +146,6 @@ Im Menü _[!UICONTROL Mehr …]_ oben in Email Designer können Sie die folgende
 * **[!UICONTROL Design ändern]** - Kehren Sie zur Seite _E-Mail gestalten_ zurück. Dort können Sie eine andere Vorlage auswählen, um den Design-Prozess neu zu starten, oder den Inhalt von Grund auf auf auf einer schwarzen Arbeitsfläche entwerfen.\
 * **[!UICONTROL Als Inhaltsvorlage speichern]** - Speichern Sie den E-Mail-Textkörper als E-Mail-Vorlage, die für mehrere E-Mails oder E-Mail-Vorlagen wiederverwendet werden kann. Geben Sie einen Namen und eine Beschreibung für die Vorlage ein und speichern Sie sie in der Liste der gespeicherten E-Mail-Vorlagen.
 * **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche in HTML im Format herunter, das als ZIP-Datei verpackt ist.
-
-## Prüfen von Warnhinweisen
-
-Während Sie den Inhalt Ihrer E-Mail-Nachricht entwerfen, werden Warnhinweise in der Benutzeroberfläche (oben rechts auf der Seite) angezeigt, wenn wichtige Einstellungen fehlen.
-
-Wenn diese Schaltfläche nicht angezeigt wird, treten keine Probleme auf.
-
-Es können zwei Arten von Warnhinweisen erkannt werden:
-
-* **_Warnhinweise_** die auf Empfehlungen und Best Practices verweisen, z. B.:
-
-   * `The opt-out link is not present in the email body`: Es wird empfohlen, einen Abmelde-Link in Ihren E-Mail-Textkörper einzufügen.
-
-     >[!NOTE]
-     >
-     >E-Mail-Nachrichten im Marketing-Stil müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist.
-
-   * `Text version of HTML is empty`: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
-
-   * `Empty link is present in email body`: Vergewissern Sie sich, dass alle Links in Ihrer E-Mail korrekt sind.
-
-   * `Email size has exceeded the limit of 100KB`: Stellen Sie sicher, dass die Größe Ihrer E-Mail 100 KB nicht überschreitet, um einen optimalen Versand zu erzielen.
-
-* **_Fehler_** die verhindern, dass Sie die Journey/Kampagne testen oder aktivieren, solange nicht alle Fehler behoben sind, z. B.:
-
-   * `The subject line is missing`: E-Mail-Betreffzeile ist obligatorisch.
-
-   * `The email version of the message is empty`: Dieser Fehler wird angezeigt, wenn der E-Mail-Inhalt nicht konfiguriert wurde.
 
 ## Überprüfen und Testen der E-Mail {#preview-test}
 

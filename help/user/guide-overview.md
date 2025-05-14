@@ -2,10 +2,10 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B Edition zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 8afe00f0ff4fd5a2046ca4c21114eaa1c654a793
+source-git-commit: 5d16e14a87aabb87fab9f06ea597ca671c66b7e3
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Journey-Inhalt"><br/>
-<strong>Journey-Inhalt</strong><br/><a href="./content/email-authoring.md">E-Mail-Authoring</a><br/><a href="./content/ai-assistant-emails.md">KI-Assistent für E-Mail</a><br/><a href="./content/sales-alert-email.md">E-Mail mit Verkaufshinweis</a><br/><a href="./content/sms-authoring.md">SMS-Authoring</a>
+      <strong>Journey-Inhalt</strong><br/><a href="./content/add-email.md">E-Mail-Kanal</a><br/><a href="./content/ai-assistant-emails.md">KI-Assistent für E-Mail</a><br/><a href="./content/sales-alert-email.md">Warnhinweis-E-Mail</a><br/><a href="./content/sms-authoring.md">SMS-Kanal</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content-Management"><br/>
@@ -139,7 +139,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>

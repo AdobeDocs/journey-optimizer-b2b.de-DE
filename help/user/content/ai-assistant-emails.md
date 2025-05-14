@@ -3,16 +3,16 @@ title: KI-Assistent für E-Mail-Authoring
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten den E-Mail-Inhalt optimieren können, der in Account Journey verwendet wird.
 feature: AI Assistant, Email Authoring, Content
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 78d82aa8b3bb8b8d432eeb187d75e2354dbff3ee
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
-# KI-Assistent für E-Mail-Authoring
+# KI-Assistent für E-Mail-Erstellung
 
-Da die Marketing-Branche wettbewerbsfähiger wird, suchen Marken nach effizienten Möglichkeiten, schnell und effizient wirkungsvolle Inhalte zu generieren. Der KI-Assistent für die E-Mail-Erstellung in Adobe Journey Optimizer B2B edition ist eine KI-gestützte Inhaltsgenerierungsfunktion der Adobe, die die Art und Weise revolutioniert, wie Marketing-Experten professionelle und markenkonsistente E-Mail-Inhalte erstellen. Mit erweiterten GenAI-Modellen und einem tiefen Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketing-Ziel mit Inhalten, die für Markenstile, -layouts, -töne und mehr optimiert sind. Der KI-Assistent macht die Erstellung und Ausführung von E-Mail-Marketing-Kampagnen intuitiv, einfach und unkompliziert. Durch das Hinzufügen dieser Funktion zu Ihren Workflows können Sie Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
+Da die Marketing-Branche wettbewerbsfähiger wird, suchen Marken nach effizienten Möglichkeiten, schnell und effizient wirkungsvolle Inhalte zu generieren. Der KI-Assistent für die E-Mail-Erstellung in Adobe Journey Optimizer B2B edition ist die KI-gestützte Inhaltsgenerierungsfunktion von Adobe, die die Art und Weise revolutioniert, wie Marketing-Experten professionelle und markenkonsistente E-Mail-Inhalte erstellen. Mit erweiterten GenAI-Modellen und einem tiefen Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketing-Ziel mit Inhalten, die für Markenstile, -layouts, -töne und mehr optimiert sind. Der KI-Assistent macht die Erstellung und Ausführung von E-Mail-Marketing-Kampagnen intuitiv, einfach und unkompliziert. Durch das Hinzufügen dieser Funktion zu Ihren Workflows können Sie Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
 
 Diese neue Funktion bietet eine sofortige -basierte Textgenerierung, vollständige E-Mail-Generierung und Inhaltserstellung innerhalb von E-Mail-Strukturen. Bilder werden nicht generiert, aber aus dem Bildkatalog im Eingabe-Marken-Asset für das Modell empfohlen. Mit dieser Funktion können Sie auch optimale Betreffzeilen und Preheader generieren, um die Öffnungsrate zu beeinflussen.
 
@@ -51,23 +51,23 @@ Wählen Sie die Eingabeaufforderung aus, die Ihre beabsichtigten Ziele am besten
 
 >[!ENDSHADEBOX]
 
-## Gruppen-Rollen kaufen
+## Käufergruppenrollen
 
 Adobe Journey Optimizer B2B edition bietet standardmäßig fünf Standard-Rollen für B2B-Einkaufsgruppen. Jede Einkaufsgruppenrolle hat einen eigenen Messaging-Fokus:
 
-| Role | Messaging-Fokus |
+| Rolle | Messaging-Fokus |
 | ---- | --------------- |
 | Lenkungsausschuss | Produktinformationen <br/>Preise <br/>Details zur technischen Integration <br/>Produktfunktionen und -funktionen |
-| Beeinflusser | Qualitätsnachweis (<br/> Implementierung <br/>Fachwissen <br/>Wettbewerbsvorteile |
+| Influencer | Qualitätsnachweis (<br/> Implementierung <br/>Fachwissen <br/>Wettbewerbsvorteile |
 | Entscheidungsträger | Return on Investment <br/>Financial Value (ROI) <br/>Kundengeschichten |
-| Praktiker | Benutzerfreundlichkeit <br/>Produktfunktionen und -funktionalität <br/>Produktkompatibilität <br/>Einfache Produktintegration |
+| Praktizierende | Benutzerfreundlichkeit <br/>Produktfunktionen und -funktionalität <br/>Produktkompatibilität <br/>Einfache Produktintegration |
 | Champion | Bildungsinhalte <br/>Vordenkerinhalte (Kundengeschichten<br/> |
 
 Durch die Auswahl einer dieser Einkaufsgruppenrollen wird die Ausgabe automatisch auf der Grundlage der für jede dieser Rollen relevanten Merkmale und Themen angepasst.
 
 ## Generieren von E-Mail-Eigenschaften mit dem KI-Assistenten
 
-Wenn Sie [ Konto-Journey ](./email-authoring.md#add-an-email-action-in-an-account-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Der KI-Assistent kann dazu beitragen, die E-Mail-Interaktion zu verbessern, indem er empfohlene Inhalte für die E-Mail **Betreffzeile** und den **Preheader** generiert.
+Wenn Sie [ Konto-Journey ](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Der KI-Assistent kann dazu beitragen, die E-Mail-Interaktion zu verbessern, indem er empfohlene Inhalte für die E-Mail **Betreffzeile** und den **Preheader** generiert.
 
 1. Erstellen Sie eine E-Mail von einer Konto-Journey oder öffnen Sie eine bestehende E-Mail von einem Journey-Knoten aus.
 
@@ -81,7 +81,7 @@ Wenn Sie [ Konto-Journey ](./email-authoring.md#add-an-email-action-in-an-accoun
 
 Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zum Generieren einer optimierten Betreffzeile für Ihre E-Mail:
 
-1. Klicken Sie in _[!UICONTROL E]_ Mail-Eigenschaften) rechts neben dem Feld ![Betreffzeile ]&#x200B;**auf das Symbol KI(./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}Assistent ((Zugriffssymbol KI** ).
+1. Klicken Sie in _[!UICONTROL E]_ Mail-Eigenschaften) rechts neben dem Feld ![Betreffzeile ]**auf das Symbol KI](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}Assistent ((Zugriffssymbol KI**[!UICONTROL  ).
 
    ![Zugriff des KI-Assistenten für die E-Mail-Betreffzeile](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -201,7 +201,7 @@ Ein E-Mail-Preheader ist der kurze Zusammenfassungstext, der auf die Betreffzeil
 
 ## Generieren von E-Mail-Textinhalten mit dem KI-Assistenten
 
-Nachdem Sie [E-Mail erstellt und personalisiert haben](./email-authoring.md#create-the-email-content) verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition auf der Basis von generativer KI, um den Inhalt Ihres E-Mail-Textkörpers auf die nächste Stufe zu heben.
+Nachdem Sie [E-Mail erstellt und personalisiert haben](./email-authoring.md) verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition auf der Basis von generativer KI, um den Inhalt Ihres E-Mail-Textkörpers auf die nächste Stufe zu heben.
 
 Im E-Mail-Designer kann Ihnen der KI-Assistent dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er den vollständigen E-Mail-Textkörper, zielgerichtete Textinhalte und Empfehlungen für Bilder generiert, die bei Ihrer Audience Anklang finden. Diese Optimierung Ihrer E-Mail-Kampagnen sorgt für eine bessere Interaktion.
 

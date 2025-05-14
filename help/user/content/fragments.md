@@ -3,10 +3,10 @@ title: Fragmente
 description: Erfahren Sie, wie Sie visuelle Inhaltsfragmente als wiederverwendbare Komponenten für E-Mails und E-Mail-Vorlagen in Adobe Journey Optimizer B2B edition erstellen und verwenden.
 feature: Content, Email Authoring
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 472ec05b4da1c5e91a2aa0da6bc9f5dedf03a862
+source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
 workflow-type: tm+mt
 source-wordcount: '2624'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -25,15 +25,15 @@ Visuelle Fragmente sind vordefinierte visuelle Bausteine, die mit dem visuellen 
 So verwenden Sie Fragmente in Ihren Workflows optimal:
 
 * _Eigene Fragmente erstellen_ - Erstellen Sie visuelle Fragmente von Grund auf neu oder indem Sie Inhalte als Fragment aus dem visuellen Inhaltseditor speichern.
-* _Fragmente_ wiederverwenden – Verwenden Sie sie so oft wie nötig in Ihrem Inhalte.
+* _Fragmente wiederverwenden_ - Verwenden Sie sie so oft wie nötig in Ihren Inhalten.
 
 ## Zugreifen auf und Verwalten von Fragmenten
 
-Um auf visuelle Fragmente in Adobe Systems Journey Optimizer B2B Edition zuzugreifen, gehen Sie zur linken Navigation und klicken Sie auf **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**. Hierdurch wird eine Auflistungs-Seite geöffnet, in der alle in der Instanz erstellten Fragmente in einer Tabelle aufgeführt sind.
+Um auf visuelle Fragmente in Adobe Journey Optimizer B2B edition zuzugreifen, navigieren Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Fragments]**. Diese Aktion öffnet eine Listenseite mit allen in der Instanz erstellten Fragmenten, die in einer Tabelle aufgeführt sind.
 
-![Zugreifen auf die Fragmente Bibliothek](./assets/fragments-list.png){width="700" zoomable="yes"}
+![Zugriff auf die Fragmentbibliothek](./assets/fragments-list.png){width="700" zoomable="yes"}
 
-Die Tabelle wird nach der _[!UICONTROL Spalte &quot;Geändert]_ &quot; sortiert, wobei die zuletzt aktualisierten Fragmente standardmäßig ganz oben stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
+Die Tabelle wird nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Fragmente standardmäßig oben stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
 
 ### Fragmentstatus und -lebenszyklus
 
@@ -61,7 +61,7 @@ Um nach einem Fragment anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
-Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL &quot;Übernehmen]**&quot;.
+Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
 ![Wählen Sie die Spalten aus, die Sie anzeigen möchten](./assets/fragments-customize-table-dialog.png){width="300"}
 
@@ -92,13 +92,13 @@ Sie können neue visuelle Fragmente in Journey Optimizer B2B edition erstellen, 
    * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [Personalisieren Inhalte](./fragment-authoring.md#personalize-content)
+   * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
    * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-fragment-customization)
-   * [Bearbeiten URL Tracking verknüpft](./fragment-authoring.md#edit-linked-url-tracking)
+   * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
 
-1. Klicken Sie jederzeit auf **[!UICONTROL Speichern]** , um den Entwurf des Fragments zu speichern.
+1. Klicken Sie **[!UICONTROL auf &quot;]**&quot;, um das Entwurfsfragment zu speichern.
 
-1. Wenn Sie bereit sind, das Fragment zur Verwendung in einer E-Mail oder einem E-Mail-Vorlage bereitzustellen, klicken Sie auf Publish **&#x200B;**.
+1. Wenn Sie bereit sind, das Fragment für die Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar zu machen, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
 ## Anzeigen von Fragmentdetails
 
@@ -143,23 +143,23 @@ Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrec
 
 Wenn das Fragment derzeit verwendet wird, wird durch die Aktion ein Informationsdialogfeld geöffnet, in dem Sie darauf hingewiesen werden, dass es nicht gelöscht werden kann. Klicken Sie auf **[!UICONTROL OK]**, wodurch die Löschaktion abgebrochen wird.
 
-![Dialogfeld Löschen Fragment - verwendetes Fragment kann nicht gelöscht werden](./assets/fragment-delete-dialog-in-use.png){width="400"}
+![Dialogfeld „Fragment löschen“ - In Verwendung befindliches Fragment kann nicht gelöscht werden](./assets/fragment-delete-dialog-in-use.png){width="400"}
 
 ## Bearbeiten von Fragmenten
 
-Die Bearbeitung eines Fragments hängt von seinem aktuellen Status ab:
+Änderungen an einem Fragment hängen vom aktuellen Status ab:
 
-* Wenn sich ein Fragment im _Entwurfsstatus_ befindet, können Sie alle seine Details und den visuellen Inhalte bearbeiten.
-* Wenn sich ein Fragment im _Status &quot;Veröffentlicht_ &quot; befindet, können Sie die Fragmentbeschreibung, nicht aber den Namen bearbeiten. Die visuelle Inhalte kann nicht bearbeitet werden.
-* Wenn sich ein Fragment im _Entwurfsstatus_ &quot;Veröffentlicht&quot; befindet, ist die Bearbeitung der Details auf die Beschreibung beschränkt. Sie können auch die visuellen Inhalte für die Entwurfsversion bearbeiten.
+* Wenn sich ein Fragment im _Entwurf_-Status befindet, können Sie alle zugehörigen Details und den visuellen Inhalt bearbeiten.
+* Wenn sich ein Fragment im Status _Veröffentlicht_ befindet, können Sie die Fragmentbeschreibung bearbeiten, jedoch nicht den Namen. Visuelle Inhalte können nicht bearbeitet werden.
+* Wenn sich ein Fragment im Status _Veröffentlicht mit Entwurf_ befindet, ist die Bearbeitung der Details auf die Beschreibung beschränkt. Sie können auch den visuellen Inhalt für die Entwurfsversion bearbeiten.
 
 >[!BEGINTABS]
 
 >[!TAB Entwurf]
 
-1. Klicken Sie in der _[!UICONTROL Seite der Liste &quot;Fragmente&quot; auf den Namen des Fragments]_ , um es zu öffnen.
+1. Klicken Sie auf _[!UICONTROL Listenseite]_ Fragmente“ auf den Fragmentnamen, um das Fragment zu öffnen.
 
-   Daraufhin wird eine Vorschau der visuellen Inhalte angezeigt, mit den Fragmentdetails auf der rechten Seite.
+   Eine Vorschau des visuellen Inhalts wird mit den Fragmentdetails auf der rechten Seite angezeigt.
 
 1. Ändern Sie alle Details, z. B. Namen und Beschreibung.
 
@@ -172,7 +172,7 @@ Die Bearbeitung eines Fragments hängt von seinem aktuellen Status ab:
    * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [Inhalt personalisieren](./fragment-authoring.md#personalize-content)
+   * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
    * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-fragment-customization)
    * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
 
@@ -199,11 +199,11 @@ Die Bearbeitung eines Fragments hängt von seinem aktuellen Status ab:
    Verwenden Sie nach Bedarf die visuellen Designer-Tools:
 
    * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
-   * [hinzufügen Assets](./fragment-authoring.md#add-assets)
+   * [Assets hinzufügen](./fragment-authoring.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [Personalisieren Inhalte](./fragment-authoring.md#personalize-content)
+   * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
    * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-fragment-customization)
-   * [Bearbeiten URL Tracking verknüpft](./fragment-authoring.md#edit-linked-url-tracking)
+   * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Fragmentdetails zurückzukehren.
 
@@ -228,40 +228,40 @@ So aktualisieren Sie den Inhalt:
 1. Klicken **[!UICONTROL oben]** auf „Fragment bearbeiten“. Verwenden Sie nach Bedarf die visuellen Designer-Tools:
 
    * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
-   * [hinzufügen Assets](./fragment-authoring.md#add-assets)
+   * [Assets hinzufügen](./fragment-authoring.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
-   * [Personalisieren Inhalte](./fragment-authoring.md#personalize-content)
+   * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
    * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-fragment-customization)
-   * [Bearbeiten URL Tracking verknüpft](./fragment-authoring.md#edit-linked-url-tracking)
+   * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
 
    Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Fragmentdetails zurückzukehren.
 
 1. Wenn das Entwurfsfragment Ihren Kriterien entspricht und Sie die Änderungen zur Verwendung in einer E-Mail oder E-Mail-Vorlage bereitstellen möchten, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
-   Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuell veröffentlichte Version und die Inhalte wird in den E-Mails und E-Mail-Vorlagen aktualisiert, in denen sie bereits verwendet wird.
+   Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und der Inhalt wird in den E-Mails und E-Mail-Vorlagen aktualisiert, in denen sie bereits verwendet wird.
 
 >[!ENDTABS]
 
-## Duplizieren Fragmente
+## Fragmente duplizieren
 
-Sie können ein Fragment mit einer der folgenden Methoden Duplikat:
+Sie können ein Fragment mit einer der folgenden Methoden duplizieren:
 
-* Klicken Sie in der _[!UICONTROL Liste &quot;Fragmente]_ &quot; Seite auf das _Mehr-Symbol_ (**...**) neben dem Namen des Fragments und wählen Sie &quot; **[!UICONTROL Duplizieren]**&quot;.
-* Klicken Sie oben rechts in der Seite &quot;Fragmentdetails&quot; auf ... **&#x200B;**&#x200B;Mehr und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie auf _[!UICONTROL Listenseite]_ Fragmente“ auf das Symbol _Mehr_ (**…**) neben dem Fragmentnamen und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie oben rechts auf der Seite mit den Fragmentdetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
 
-![Duplizieren des Fragments](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
+![Duplizieren Sie das Fragment](./assets/fragment-details-duplicate.png){width="600" zoomable="yes"}
 
-Geben Sie im Dialogfeld einen nützlichen Namen (eindeutig) und eine Beschreibung ein. Klicken Sie auf **[!UICONTROL Duplizieren]** , um die Aktion abzuschließen.
+Geben Sie im Dialogfeld einen nützlichen Namen (eindeutig) und eine Beschreibung ein. Klicken Sie **[!UICONTROL Duplizieren]**, um die Aktion abzuschließen.
 
 ![Geben Sie einen Namen und eine Beschreibung für das duplizierte Fragment ein](./assets/fragment-duplicate-dialog.png){width="400"}
 
-Das duplizierte (neue) Fragment wird dann in der Liste &quot; _Fragmente_ &quot; angezeigt.
+Das duplizierte (neue) Fragment wird dann in der Liste _Fragmente_ angezeigt.
 
-## Neues Fragment aus E-Mail oder Vorlage Inhalte Speichern
+## Speichern eines neuen Fragments aus E-Mail- oder Vorlageninhalten
 
-Beim Erstellen/Bearbeiten einer E-Mail oder eines E-Mail-Vorlage in der Visual Inhalte Bearbeiter können Sie die Inhalte ganz oder teilweise als Fragment speichern, damit sie zur Wiederverwendung zur Verfügung steht.
+Wenn Sie eine E-Mail- oder E-Mail-Vorlage im visuellen Inhaltseditor erstellen/bearbeiten, können Sie den gesamten Inhalt oder Teile davon als Fragment speichern, damit er wiederverwendet werden kann.
 
-1. Wenn einige Inhalte als Fragment gespeichert werden sollen, klicken Sie auf **[!UICONTROL Mehr]** und wählen Sie Speichern als Fragment **aus**.
+1. Wenn Sie Inhalte haben, die als Fragment gespeichert werden sollen, klicken Sie auf **[!UICONTROL Mehr]** und wählen Sie **[!UICONTROL Als Fragment speichern]**.
 
 1. Wählen Sie die verschiedenen Elemente aus, die in das Fragment aufgenommen werden sollen.
 
@@ -275,7 +275,7 @@ Beim Erstellen/Bearbeiten einer E-Mail oder eines E-Mail-Vorlage in der Visual I
 
    Das neue Fragment wird dann auf der Seite _Fragmente_ angezeigt und ist auch für die Verwendung in E-Mails und E-Mail-Vorlagen verfügbar.
 
-## hinzufügen visuelle Fragmente in Ihre E-Mail oder Vorlage Inhalte
+## Hinzufügen visueller Fragmente zu E-Mail- oder Vorlageninhalten
 
 Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung von E-Mail-Vorlagen und E-Mail-Vorlagen eingefügt werden. Sie können einer E-Mail oder Vorlage bis zu 30 Fragmente hinzufügen. Fragmente können nur bis zu einer Ebene verschachtelt werden.
 
@@ -285,9 +285,9 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 1. Navigieren Sie zu **[!UICONTROL Account-Journey]** und öffnen Sie eine bestehende Journey oder erstellen Sie eine neue Journey.
 
-1. Erstellen Sie einen [_[!UICONTROL E-Mail senden &#x200B;]_-Knoten](./email-authoring.md#add-an-email-action-in-an-account-journey).
+1. Erstellen Sie einen [_[!UICONTROL E-Mail senden ]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
 
-1. Erstellen oder bearbeiten [E-Mail-Inhalt für den Knoten](./email-authoring.md#create-the-email-content).
+1. Erstellen oder bearbeiten [E-Mail-Inhalt für den Knoten](./email-authoring.md).
 
 1. Ziehen Sie ein Element per Drag-and-Drop aus dem **[!UICONTROL Komponenten]**-Menü, um eine _Struktur_ für das Fragment bereitzustellen.
 
@@ -303,17 +303,17 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 1. Ziehen Sie eines der Fragmente in den Platzhalter der Strukturkomponente.
 
-   Die Bearbeiter rendert das Fragment innerhalb des Abschnitts/Elements der E-Mail-Struktur.
+   Der Editor rendert das Fragment innerhalb des Abschnitts/Elements der E-Mail-Struktur.
 
-Die Inhalte des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um die Darstellung der Inhalte in der E-Mail visuell darzustellen.
+Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um eine visuelle Darstellung des Inhalts in der E-Mail zu rendern.
 
 >[!TIP]
 >
->Wenn das Fragment das gesamte horizontale Layout in der E-Mail einnehmen soll, fügen Sie eine [!UICONTROL 1:1-Spaltenstruktur] hinzu und ziehen Sie das Fragment dann per Drag &amp; Drop hinein.
+>Wenn Sie möchten, dass das Fragment das gesamte horizontale Layout in der E-Mail einnimmt, fügen Sie eine [!UICONTROL 1:1-] hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
 
-Nachdem die E-Mail gespeichert wurde, wird sie in der Seite &quot;Fragmentdetails&quot; angezeigt, wenn das _[!UICONTROL Tab &quot;Verwendet von]_ &quot; ausgewählt wurde. Zu einer E-Mail hinzugefügte Fragmente können nicht innerhalb der E-Mail oder Vorlage bearbeitet werden – das veröffentlichte Quellfragment definiert die Inhalte.
+Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn die Registerkarte _[!UICONTROL Verwendet von]_ ausgewählt ist. Fragmente, die einer E-Mail hinzugefügt wurden, können innerhalb der E-Mail oder Vorlage nicht bearbeitet werden — das veröffentlichte Quellfragment definiert den Inhalt.
 
->[!TAB hinzufügen von Fragmenten zu einer E-Mail-Vorlage]
+>[!TAB Hinzufügen von Fragmenten zu einer E-Mail-Vorlage]
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Content-]** > **[!UICONTROL Vorlagen]**.
 
@@ -335,28 +335,28 @@ Nachdem die E-Mail gespeichert wurde, wird sie in der Seite &quot;Fragmentdetail
 
    Der Editor rendert das Fragment innerhalb des Abschnitts/Elements der E-Mail-Vorlagenstruktur.
 
-1. Ziehen Sie ein beliebiges Fragment in den Platzhalter der Strukturkomponente.
+1. Ziehen Sie eines der Fragmente in den Platzhalter der Strukturkomponente.
 
-   Die Bearbeiter rendert das Fragment innerhalb des Abschnitts/Elements der Vorlage-Struktur der E-Mail.
+   Der Editor rendert das Fragment innerhalb des Abschnitts/Elements der E-Mail-Vorlagenstruktur.
 
 >[!TIP]
 >
->Wenn das Fragment das gesamte horizontale Layout innerhalb der E-Mail-Vorlage einnehmen soll, fügen Sie eine _[!UICONTROL 1:1-Spaltenstruktur]_ hinzu und ziehen Sie das Fragment dann per Drag &amp; Drop hinein.
+>Wenn das Fragment das gesamte horizontale Layout in der E-Mail-Vorlage einnehmen soll, fügen Sie eine _[!UICONTROL 1:1-]_ hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
 
-Nachdem die E-Mail-Vorlage gespeichert wurde, wird sie in der Seite &quot;Fragmentdetails&quot; angezeigt, wenn das _[!UICONTROL Tab &quot;Verwendet von]_ &quot; ausgewählt wurde. Zu einer E-Mail-Vorlage hinzugefügte Fragmente können innerhalb der Vorlage nicht bearbeitet werden. Das veröffentlichte Quellfragment definiert die Inhalte.
+Nachdem die E-Mail-Vorlage gespeichert wurde, wird sie auf der Seite mit Fragmentdetails angezeigt, wenn die Registerkarte _[!UICONTROL Verwendet von]_ ausgewählt ist. Fragmente, die einer E-Mail-Vorlage hinzugefügt wurden, können innerhalb der Vorlage nicht bearbeitet werden — das veröffentlichte Quellfragment definiert den Inhalt.
 
 >[!ENDTABS]
 
-## Fragmentaktionen beim Authoring von E-Mails und Vorlage
+## Fragmentaktionen beim Verfassen von E-Mails und Vorlagen
 
 Wenn ein Fragment zu einer E-Mail oder E-Mail-Vorlage hinzugefügt wird, kann der Fragmentinhalt nicht innerhalb der E-Mail oder Vorlage bearbeitet werden. Sie können jedoch die folgenden Aktionen anwenden:
 
 * **[!UICONTROL Löschen]** - Mit dieser Aktion wird das Fragment aus dem aktuellen Inhalt der E-Mail oder E-Mail-Vorlage entfernt (die Fragmentquelle ist nicht betroffen).
-* **&#x200B;**&#x200B;Aktualisieren - Diese Aktion aktualisiert die Inhalte des Fragments in der aktuellen E-Mail oder E-Mail-Vorlage. Die Aktualisierung ist nützlich, wenn Sie alle kürzlich vorgenommenen Änderungen am Fragment nach dem Hinzufügen zur E-Mail oder E-Mail-Vorlage widerspiegeln möchten.
-* **&#x200B;**&#x200B;Duplizieren - Mit dieser Aktion wird das Fragment in derselben E-Mail oder E-Mail-Vorlage innerhalb der Bearbeiter mit denselben Abmessungen dupliziert und direkt darunter hinzugefügt.
-* **[!UICONTROL Fragment]** öffnen: Mit dieser Aktion wird eine neue Browser Tab mit dem Fragment Bearbeiter Seite und Details geöffnet.
-* **[!UICONTROL Vererbung]** unterbrechen - Diese Aktion unterbricht die Vererbung des Fragments (und seiner Änderungen) von der Quelle. Verwenden Sie diese Aktion, um das Fragment Inhalte als unabhängiges und bearbeitbares Inhalte in der E-Mail oder E-Mail-Vorlage verfügbar zu machen. Außerdem wird die E-Mail-Adresse oder der E-Mail-Vorlage aus der _Referenz &quot;Verwendet von_ &quot; für das ursprüngliche Fragment entfernt.
+* **[!UICONTROL Aktualisieren]** - Mit dieser Aktion wird der Inhalt des Fragments in der aktuellen E-Mail- oder E-Mail-Vorlage aktualisiert. Eine Aktualisierung ist nützlich, wenn Sie die letzten Änderungen am Fragment nach dem Hinzufügen zur E-Mail- oder E-Mail-Vorlage berücksichtigen möchten.
+* **[!UICONTROL Duplizieren]** - Mit dieser Aktion wird das Fragment innerhalb derselben E-Mail- oder E-Mail-Vorlage im Editor mit denselben Dimensionen dupliziert und direkt darunter hinzugefügt.
+* **[!UICONTROL Fragment öffnen]** - Diese Aktion öffnet eine neue Browser-Registerkarte mit der Fragment-Editor-Seite und Details.
+* **[!UICONTROL Vererbung unterbrechen]** - Mit dieser Aktion wird die Vererbung des Fragments (und seiner Änderungen) von der Quelle unterbrochen. Verwenden Sie diese Aktion, um den Fragmentinhalt als unabhängigen und bearbeitbaren Inhalt in der E-Mail- oder E-Mail-Vorlage verfügbar zu machen. Diese Aktion entfernt auch die E-Mail- oder E-Mail-Vorlage aus der Referenz _Verwendet von_ für das ursprüngliche Fragment.
 
-Wenn Sie das Fragment auf der Bearbeiter Seite auswählen, sind diese Aktionen in der Kontextsymbolleiste und im Eigenschaftenbereich auf der rechten Seite verfügbar.
+Wenn Sie das Fragment auf der Editor-Seite auswählen, sind diese Aktionen in der Kontextsymbolleiste und im Bedienfeld Eigenschaften auf der rechten Seite verfügbar.
 
-![Übernehmen Aktionen für das ausgewählte Fragment](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"}
+![Aktionen auf das ausgewählte Fragment anwenden](./assets/fragment-actions-email-authoring.png){width="600" zoomable="yes"}
