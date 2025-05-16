@@ -165,7 +165,7 @@ Formulare, die derzeit von einer Landingpage oder Landingpage-Vorlage verwendet 
 Sie können ein Formular mit einer der folgenden Methoden löschen:
 
 * Klicken Sie oben rechts auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
-* Klicken Sie auf der __ Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Löschen]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
@@ -182,7 +182,7 @@ Duplizieren Sie ein Formular, um schnell und einfach ein neues Formular mit eine
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
 * Klicken Sie oben rechts auf der Seite mit den Formulardetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
-* Klicken Sie auf der __ Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Duplizieren]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Duplizieren]**.
 
 ![Duplizieren Sie das Formular](./assets/form-list-page-duplicate.png){width="450"}
 

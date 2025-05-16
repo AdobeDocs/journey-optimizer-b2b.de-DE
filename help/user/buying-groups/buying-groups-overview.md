@@ -4,21 +4,21 @@ description: Erfahren Sie, wie Käufergruppen in Journey Optimizer B2B Edition d
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 100%
+source-wordcount: '1778'
+ht-degree: 95%
 
 ---
 
 
 # Käufergruppen
 
-Bei B2B-Vertriebs- und Marketing-Aktivitäten sind Konten wichtig für jede Strategie. Jedem Konto ist eine Gruppe von Personen zugeordnet, und diese Personen können Mitarbeitende des Kontos oder Auftragnehmer sein, die mit dem Konto arbeiten. Konten sind hierarchisch, und verschiedene Produkte können auf verschiedenen Ebenen in der Hierarchie verkauft werden. Adobe Experience Platform kann beispielsweise auf Unternehmensebene an ein Konto der obersten Ebene verkauft werden, während Adobe Photoshop möglicherweise an ein Konto verkauft wird, das einen Geschäftsbereich oder eine Abteilung innerhalb eines Unternehmens repräsentiert, z. B. eine Design-Abteilung innerhalb eines größeren Unternehmens.
+Bei B2B-Vertriebs- und Marketing-Aktivitäten sind Konten wichtig für jede Strategie. Jedem Konto ist eine Gruppe von Personen zugeordnet, und diese Personen können Mitarbeitende des Kontos oder Auftragnehmer sein, die mit dem Konto arbeiten. Konten sind hierarchisch, und verschiedene Produkte können auf verschiedenen Ebenen in der Hierarchie verkauft werden. Adobe Experience Platform könnte beispielsweise auf Unternehmensebene an ein Konto der obersten Ebene verkauft werden. Und Adobe Photoshop könnte an ein Konto verkauft werden, das einen Geschäftsbereich oder eine Abteilung innerhalb eines Unternehmens repräsentiert, wie z.B. eine Design-Abteilung innerhalb eines größeren Unternehmens.
 
 ![Diagramm zu Kontorollen](assets/account-roles-diagram.png){width="800"}
 
-Innerhalb des Kontos könnte es eine Untergruppe von Personen geben, die die _Käufergruppe_ umfassen. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen. Sie benötigen daher besondere Aufmerksamkeit von der Marketing-Fachkraft und ihnen müssen möglicherweise andere Informationen bereitgestellt werden als anderen Personen, die dem Konto zugeordnet sind. Käufergruppen können unterschiedliche Personengruppen für verschiedene Produktlinien oder Angebote umfassen. Beispielsweise ist für ein Cybersicherheitsprodukt in der Regel die Kaufgenehmigung durch einen Chief Information Officer oder Chief Security Officer und einen Vertreter der Rechtsabteilung erforderlich, aber ein Produkt zur Fehlersuche kann in der Regel einen VP of Engineering und einen IT Director als Mitglieder der Käufergruppe haben.
+Innerhalb des Kontos könnte es eine Untergruppe von Personen geben, die die _Käufergruppe_ umfassen. Diese Personen treffen letztendlich die Kaufentscheidung, sodass sie besondere Aufmerksamkeit vom Marketing-Experten benötigen und möglicherweise andere Informationen benötigen als die anderen Personen, die mit dem Account in Verbindung stehen. Käufergruppen können unterschiedliche Personengruppen für verschiedene Produktlinien oder Angebote umfassen. Beispielsweise ist für ein Cybersicherheitsprodukt in der Regel die Kaufgenehmigung durch einen Chief Information Officer oder Chief Security Officer und einen Vertreter der Rechtsabteilung erforderlich, aber ein Produkt zur Fehlersuche kann in der Regel einen VP of Engineering und einen IT Director als Mitglieder der Käufergruppe haben.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
 
@@ -126,7 +126,7 @@ Die Interaktionsbewertung einer Käufergruppe ist eine Zahl, anhand der die Inte
 | Handlungsaufforderung im Webinar angeklickt | Klickt auf einen Link mit Handlungsaufruf in einem Webinar-Ereignis | Anruf | 20 | 30 |
 | Asset-Downloads im Webinar | Lädt in einem Webinar-Ereignis eine Datei/ein Asset herunter | Ereignis | 20 | 60 |
 | Stellt Fragen im Webinar | Stellt Fragen in einem Webinar-Ereignis | Ereignis | 20 | 60 |
-| Nahm am Event teil | Hat an einem Ereignis teilgenommen | Ereignis | 20 | 60 |
+| Nahm am Event teil | An einer Veranstaltung teilgenommen | Ereignis | 20 | 60 |
 | Hatte eine Interaktion mit einem Support-Mitarbeitenden per Dialog | Interagiert mit einem Agenten in einem Dynamic Chat-Dialog | Chat | 20 | 90 |
 | Klickte auf Link im Chat in Dialog | Klickt auf einen Link in einem Dynamic Chat-Dialog | Chat | 20 | 90 |
 | Hatte eine Interaktion mit einem Konversationsschema | Interagiert mit einem Dynamic Chat-Konversationsfluss | Chat | 20 | 90 |
@@ -205,4 +205,4 @@ Die endgültige Interaktionsbewertung wird durch Anwenden der Gewichtung für je
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

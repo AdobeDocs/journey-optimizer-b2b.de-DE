@@ -102,4 +102,4 @@ Alle Lösungsinteressen, die derzeit von einem kaufenden Gruppenauftrag oder ein
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3450122/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)
