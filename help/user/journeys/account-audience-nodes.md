@@ -54,4 +54,4 @@ _So erstellen Sie ein Zielgruppensegment:_
 
    ![Erstellen eines Zielgruppensegments](./assets/audiences-list-create.png){width="800" zoomable="yes"}
 
-1. Führen Sie die im [Handbuch zum Segmentierungs-Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} beschriebenen Schritte aus.
+1. Führen Sie die im [Handbuch zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/account-audiences){target="_blank"} beschriebenen Schritte aus.

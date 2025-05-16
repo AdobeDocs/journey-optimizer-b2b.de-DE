@@ -77,7 +77,7 @@ Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail 
 
 Als Marketing-Experte können Sie Programme in Marketo Engage für Personen unterdrücken, die Teil der Kontolisten in Journey Optimizer B2B edition sind.
 
-In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der]_) in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren. Weitere Informationen zu Smart-Listen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der]_) in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren. Weitere Informationen zu Smart-Listen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Hinzufügen des Filters zu einer Smart-Liste
 
@@ -95,7 +95,7 @@ In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden i
 
 1. Fügen Sie im Kampagnenfluss den Schritt **[!UICONTROL Zu Liste hinzufügen]** hinzu und wählen Sie die Liste aus, in die Sie die Personen aus der Journey Optimizer B2B edition-Kontoliste einfügen möchten.
 
-   Siehe _[Hinzufügen eines Flussschritts zu einer Smart-Kampagne](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in der Marketo Engage-Dokumentation , um detaillierte Informationen zum Hinzufügen von Schritten zu einem Fluss zu erhalten.
+   Siehe _[Hinzufügen eines Flussschritts zu einer Smart-Kampagne](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in der Marketo Engage-Dokumentation , um detaillierte Informationen zum Hinzufügen von Schritten zu einem Fluss zu erhalten.
 
 ### Mitglieder überprüfen
 
