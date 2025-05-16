@@ -234,4 +234,4 @@ Fügen Sie einen Knoten _Zusammenführungspfade_ hinzu, um verschiedene Aufspalt
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443265/?learn=on&captions=ger)
