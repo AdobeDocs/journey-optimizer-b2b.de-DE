@@ -141,7 +141,7 @@ Die Senden-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars
 
 ### Inhalt der Schaltfläche bearbeiten {#button-content}
 
-Ändern Sie den Text im Textfeld **[!UICONTROL Schaltfläche ]_, während die Registerkarte_[!UICONTROL Inhalt]** im rechten Bereich angezeigt wird. Die Schaltflächengröße wird an die Länge des Textes angepasst.
+Ändern Sie den Text im Textfeld **[!UICONTROL Schaltfläche &#x200B;]_, während die Registerkarte_[!UICONTROL Inhalt]** im rechten Bereich angezeigt wird. Die Schaltflächengröße wird an die Länge des Textes angepasst.
 
 ![Ändern des Schaltflächentextes im Formular](./assets//form-field-button-text.png){width="600" zoomable="yes"}
 

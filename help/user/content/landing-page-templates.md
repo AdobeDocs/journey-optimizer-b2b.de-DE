@@ -92,7 +92,7 @@ Klicken Sie auf _Listenseite „Landingpage_ Vorlagen“ auf den Namen einer Lan
 
 * Klicken Sie **[!UICONTROL oben]** auf „Mehr“, um schnelle Aktionen in der Landingpage-Vorlage durchzuführen, z. B. _Duplizieren_ und _Löschen_.
 
-* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnhinweise für die Landingpage-Vorlage), klicken Sie oben ]**auf**[!UICONTROL  Warnhinweise“, um die Informationen anzuzeigen.
+* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnhinweise für die Landingpage-Vorlage), klicken Sie oben **auf** Warnhinweise“, um die Informationen anzuzeigen.
 
   Diese Warnhinweise verbieten nicht die Verwendung der Landingpage-Vorlage zur Erstellung von Landingpages. Die Informationen bieten Marketing-Fachleuten in Ihrem Team einen Überblick darüber, was möglicherweise nicht funktioniert, und über die erforderlichen Aktualisierungen, bevor sie für die Bereitstellung verwendet werden können.
 
