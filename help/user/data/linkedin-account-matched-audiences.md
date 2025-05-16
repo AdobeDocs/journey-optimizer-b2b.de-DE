@@ -1,8 +1,10 @@
 ---
 title: LinkedIn Account Matched Audiences
 description: Erfahren Sie, wie Sie ein LinkedIn-Konto verbinden und einen Datenfluss für Einkaufsgruppen aktivieren.
+feature: Integrations, Audiences, Buying Groups
+role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 16%
@@ -13,7 +15,7 @@ ht-degree: 16%
 
 Journey Optimizer B2B edition bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
 
-Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors „LinkedIn-Zielgruppe ([)“ mit abgeglichenem Zielgruppen-Connector ](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Firmen) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
+Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors „LinkedIn-Zielgruppe ([)“ mit abgeglichenem Zielgruppen-Connector ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Firmen) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
 
 ## Konfigurieren einer neuen Verbindung mit einem LinkedIn-Konto {#linkedin-destination-setup}
 
@@ -116,4 +118,4 @@ Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen 
 
 Sie können mit Account-Mitgliedern über einen bezahlten Medienkanal wie LinkedIn Ad-Zielgruppen interagieren, um sie zu erwerben, zu pflegen und für den Verkauf zu qualifizieren. Verwenden Sie einen _Aktion ausführen_-Knoten auf einer Account-Journey, um die Interaktion mit wichtigen Mitgliedern eines Accounts über einen externen Kanal zu automatisieren, der für verschiedene Account-Mitglieder am besten geeignet ist.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448681/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

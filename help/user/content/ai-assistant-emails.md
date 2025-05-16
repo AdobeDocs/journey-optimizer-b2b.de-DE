@@ -2,8 +2,9 @@
 title: KI-Assistent für E-Mail-Authoring
 description: Erfahren Sie, wie Sie mit dem KI-Assistenten den E-Mail-Inhalt optimieren können, der in Account Journey verwendet wird.
 feature: AI Assistant, Email Authoring, Content
+role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -81,7 +82,7 @@ Wenn Sie [ Konto-Journey ](./add-email.md#add-an-email-action-node-in-a-journey)
 
 Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zum Generieren einer optimierten Betreffzeile für Ihre E-Mail:
 
-1. Klicken Sie in _[!UICONTROL E]_ Mail-Eigenschaften) rechts neben dem Feld ![Betreffzeile ]&#x200B;**auf das Symbol KI(./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}Assistent ((Zugriffssymbol KI** ).
+1. Klicken Sie in _[!UICONTROL E]_ Mail-Eigenschaften) rechts neben dem Feld ![Betreffzeile ]**auf das Symbol KI](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}Assistent ((Zugriffssymbol KI**[!UICONTROL  ).
 
    ![Zugriff des KI-Assistenten für die E-Mail-Betreffzeile](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 

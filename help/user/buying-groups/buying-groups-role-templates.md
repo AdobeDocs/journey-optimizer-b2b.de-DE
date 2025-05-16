@@ -2,8 +2,9 @@
 title: Einkaufsgruppen-Rollenvorlagen
 description: Erfahren Sie, wie Sie eine Rollenvorlage definieren, die als Einkaufsgruppenkomponente verwendet werden soll.
 feature: Buying Groups
+role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 6%
@@ -163,4 +164,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

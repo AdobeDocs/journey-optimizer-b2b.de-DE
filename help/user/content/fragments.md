@@ -1,9 +1,10 @@
 ---
 title: Fragmente
 description: Erfahren Sie, wie Sie visuelle Inhaltsfragmente als wiederverwendbare Komponenten für E-Mails und E-Mail-Vorlagen in Adobe Journey Optimizer B2B edition erstellen und verwenden.
-feature: Content, Email Authoring
+feature: Fragments, Content
+role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: bf57c152e758a757279f7666423f6a6ca61e1092
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2624'
 ht-degree: 3%
@@ -285,7 +286,7 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 1. Navigieren Sie zu **[!UICONTROL Account-Journey]** und öffnen Sie eine bestehende Journey oder erstellen Sie eine neue Journey.
 
-1. Erstellen Sie einen [_[!UICONTROL E-Mail senden &#x200B;]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Erstellen Sie einen [_[!UICONTROL E-Mail senden ]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Erstellen oder bearbeiten [E-Mail-Inhalt für den Knoten](./email-authoring.md).
 

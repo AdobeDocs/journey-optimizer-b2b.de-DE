@@ -1,10 +1,11 @@
 ---
 title: Design von Landingpage-Vorlagen
 description: Erfahren Sie, wie Sie Inhalte für Landingpage-Vorlagen entwerfen und erstellen, die Marketing-Experten zur Erstellung von Landingpages wiederverwenden können.
-feature: Content
+feature: Templates, Landing Pages, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 4e203a5d1fb0c9d9dc2a6bd14705b17335c98ee3
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 22%

@@ -1,16 +1,17 @@
 ---
 title: Benachrichtigungs-E-Mail für Verkauf
 description: Erfahren Sie, wie Sie eine automatisierte E-Mail zu Verkaufswarnungen in Ihre Account-Journey aufnehmen.
-feature: Email Authoring, Content
+feature: Email Authoring, Account Journeys
+role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: c4df46db3c7123636311c47be36de171de24e1be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Benachrichtigungs-E-Mail für Verkauf
+# E-Mail mit Verkaufshinweis
 
 Eine _Benachrichtigungs-E-Mail_ signalisiert die Übergabe von Einkaufsgruppen an den Verkauf. Die E-Mail enthält eine Zusammenfassung der Einkaufsgruppe und Informationen über die Mitglieder der Einkaufsgruppe und ihre Aktivitäten.
 
@@ -31,11 +32,11 @@ Als Marketing-Experte können Sie einen E-Mail-Knoten für Verkaufswarnungen in 
 | - | ---- | ----------- |
 | Informationen zur Einkaufsgruppe | Name der Einkaufsgruppe | Anzeigename für die Einkaufsgruppe. |
 |   | Kontoname | Name des Kontos. |
-|   | Engagement-Bewertung | Engagement-Score der kaufenden Gruppe, basierend auf den aktiven Interaktionsaktivitäten der letzten 30 Tage. |
-|   | Vollständigkeitsindex | Vollständigkeitsbewertung der Einkaufsgruppe. |
+|   | Interaktionsbewertung | Engagement-Score der kaufenden Gruppe, basierend auf den aktiven Interaktionsaktivitäten der letzten 30 Tage. |
+|   | Vollständigkeitsbewertung | Vollständigkeitsbewertung der Einkaufsgruppe. |
 |   | Lösungsinteresse | Interesse an der Lösung in Verbindung mit der kaufenden Gruppe“ |
 |   | Status | Status der Einkaufsgruppe. |
-| Einkaufsgruppen-Highlights | Am häufigsten beteiligte Mitglieder | Top-Engagierte Mitglieder der Einkaufsgruppe, indem sie den Engagement-Score und die Rolle eines Gruppenmitglieds kaufen. |
+| Käufergruppen-Highlights | Am häufigsten beteiligte Mitglieder | Top-Engagierte Mitglieder der Einkaufsgruppe, indem sie den Engagement-Score und die Rolle eines Gruppenmitglieds kaufen. |
 |   | Interessantes Thema | Die häufigsten Schlüsselwörter, die bei der Interaktion mit Inhalten auftreten, basierend auf E-Mails, Downloads, Chat, PDF-Überprüfung, Aktivitätszusammenfassung und Fragen zu Webinaren. |
 |   | Fehlende Rollen | Obligatorische Rollen in der Vorlage, fehlen jedoch in der Einkaufsgruppe. |
 | Zusammenfassung der Einkaufsgruppe | Aktivitätsübersicht (unterstützt durch generative KI) | KI-generierte Zusammenfassung der Einkaufsgruppe basierend auf den Aktivitäten der Mitglieder. Die Aktivitäten der letzten 30 Tage werden berücksichtigt. |
@@ -43,10 +44,10 @@ Als Marketing-Experte können Sie einen E-Mail-Knoten für Verkaufswarnungen in 
 | Mitglieder | Liste von vier kaufenden Mitgliedern | Details zu den vier besten Mitgliedern der Einkaufsgruppe nach Engagement und Rolle. |
 | Jedes Mitglied der Einkaufsgruppe | Abonnentenname | Name des kaufenden Gruppenmitglieds. |
 |   | Titel | Titel des kaufenden Gruppenmitglieds. |
-|   | Role | Die Rolle der Einkaufsgruppe des Mitglieds. |
-|   | Engagement-Bewertung | Bewertung der Interaktion mit kaufenden Gruppenmitgliedern. Die Punktzahl basiert auf den aktiven Interaktionsaktivitäten der letzten 30 Tage. |
+|   | Rolle | Die Rolle der Einkaufsgruppe des Mitglieds. |
+|   | Interaktionsbewertung | Bewertung der Interaktion mit kaufenden Gruppenmitgliedern. Die Punktzahl basiert auf den aktiven Interaktionsaktivitäten der letzten 30 Tage. |
 |   | Letzter interessanter Moment | Der neueste interessanteste Moment bezog sich auf das Mitglied. |
-|   | Zuletzt verwendete Aktivitäten | Die letzten beiden Aktivitäten beziehen sich auf das Mitglied der Einkaufsgruppe. |
+|   | Neueste Aktivitäten | Die letzten beiden Aktivitäten beziehen sich auf das Mitglied der Einkaufsgruppe. |
 |   | E-Mail-ID | E-Mail-ID des kaufenden Gruppenmitglieds. |
 |   | Telefonnummer | Telefonnummer des kaufenden Gruppenmitglieds. |
 

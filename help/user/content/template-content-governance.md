@@ -1,9 +1,10 @@
 ---
 title: Vorlagen-Content-Governance
 description: Erfahren Sie, wie Sie Inhaltselemente in Ihren E-Mail-Vorlagen sperren, damit Sie steuern können, wie sie für die Verwendung in Account-Journey geändert werden können.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
+source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 0%

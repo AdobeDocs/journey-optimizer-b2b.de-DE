@@ -2,11 +2,12 @@
 title: Einkaufsgruppenetappen
 description: Erfahren Sie mehr über den Kauf von Gruppenphasen und wie Sie diese definieren können, um den Journey-Fortschritt im Hinblick auf Verkaufsziele zu verfolgen.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 266a9bde4ec889ec3577a7fa8881bec4763a66fd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2344'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,7 @@ Definieren Sie die Phasen innerhalb eines einzelnen Staging-Modells, indem Sie m
 
 ![Beispiel für den Kauf von Gruppenstadien](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Video ansehen - Übersicht](#overview-video)
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
 
 ## Definieren des Modells für Einkaufsgruppenstufen
 
@@ -48,7 +49,7 @@ Wenn Sie das Einkaufsgruppenstufenmodell erstellen, befindet es sich automatisch
 
    ![Fügen Sie den Namen und die Beschreibung für das Modell hinzu](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   Wenn Sie in _[!UICONTROL Dialogfeld auf]_&#x200B;_[!UICONTROL Abbrechen“ klicken, kehren Sie in einem_ leeren _zur Registerkarte]_ Phasen“ zurück.
+   Wenn Sie in _[!UICONTROL Dialogfeld auf]__[!UICONTROL Abbrechen“ klicken, kehren Sie in einem_ leeren _zur Registerkarte]_ Phasen“ zurück.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -189,7 +190,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## Löschen des Modells der Einkaufsgruppenstufen
 
-Sie können das Modell der Einkaufsgruppenstufen löschen, wenn es sich im Status Entwurf oder Veröffentlicht befindet. Wenn sie veröffentlicht (live) ist, können Sie sie nur löschen, wenn sie nicht mit einer Interessenslösung verbunden ist.
+Sie können das Modell der Käufergruppenphasen löschen, wenn es sich im Status „Entwurf“ oder „Veröffentlicht“ befindet. Wenn sie veröffentlicht (live) ist, können Sie sie nur löschen, wenn sie nicht mit einer Interessenslösung verbunden ist.
 
 1. Navigieren Sie in der linken Navigation zu **[!UICONTROL Konten]** > **[!UICONTROL Einkaufsgruppen]**.
 
@@ -364,4 +365,4 @@ Verwenden Sie den Eintritt einer Kaufgruppen-Stadienänderung, um das Konto mit 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448703/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

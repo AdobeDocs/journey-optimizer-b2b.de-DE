@@ -1,12 +1,13 @@
 ---
 title: Konfiguration einer Landingpage
 description: Erfahren Sie, wie Sie auf die Einstellungen der Landingpage zugreifen und diese konfigurieren können, damit Ihr Marketing-Team Web-Seiten zur Unterstützung seiner Kampagnen erstellen und veröffentlichen kann.
-feature: Setup, Content
+feature: Setup, Landing Pages, Content
+role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 31b7ea99d3b5721a2c78aa6aae6bf9da98e10f53
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 50%

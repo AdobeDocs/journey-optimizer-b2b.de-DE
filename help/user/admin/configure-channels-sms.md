@@ -1,9 +1,10 @@
 ---
 title: SMS-Konfigurationen
 description: Erfahren Sie, wie Sie Verbindungen zu unterstützten SMS-Anbietern konfigurieren, um sie von Journey Optimizer B2B edition SMS-Nachrichten zu verwenden.
-feature: Setup
+feature: Setup, Channels
+role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 82c4d9f1a46076d4dfad2ac46fca23c11ef8b4a6
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 6%

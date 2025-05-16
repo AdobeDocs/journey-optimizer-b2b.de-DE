@@ -1,7 +1,10 @@
 ---
 title: Verwenden von Kontolisten in Journey und Programmen
 description: Erfahren Sie, wie Sie die Zugehörigkeit zu einer Kontoliste in Journey koordinieren und Marketo Engage-Smart-Listen nach der Zugehörigkeit zu einer Kontoliste filtern.
-source-git-commit: 0845bff023741ebf8aca448c65950beceae77cf1
+feature: Account Lists, Account Journeys
+role: User
+exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -74,7 +77,7 @@ Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail 
 
 Als Marketing-Experte können Sie Programme in Marketo Engage für Personen unterdrücken, die Teil der Kontolisten in Journey Optimizer B2B edition sind.
 
-In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der]_) in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren. Weitere Informationen zu Smart-Listen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der]_) in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren. Weitere Informationen zu Smart-Listen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Hinzufügen des Filters zu einer Smart-Liste
 
@@ -92,11 +95,10 @@ In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden i
 
 1. Fügen Sie im Kampagnenfluss den Schritt **[!UICONTROL Zu Liste hinzufügen]** hinzu und wählen Sie die Liste aus, in die Sie die Personen aus der Journey Optimizer B2B edition-Kontoliste einfügen möchten.
 
-   Siehe _[Hinzufügen eines Flussschritts zu einer Smart-Kampagne](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in der Marketo Engage-Dokumentation , um detaillierte Informationen zum Hinzufügen von Schritten zu einem Fluss zu erhalten.
+   Siehe _[Hinzufügen eines Flussschritts zu einer Smart-Kampagne](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in der Marketo Engage-Dokumentation , um detaillierte Informationen zum Hinzufügen von Schritten zu einem Fluss zu erhalten.
 
 ### Mitglieder überprüfen
 
 Nach der Ausführung des Flusses können Sie die Liste der Personen anzeigen, die in der Liste aufgeführt sind. Öffnen Sie die Liste und wählen Sie die Registerkarte Personen aus.
 
 ![Marketo Engage-Kampagnenliste, die aus einer Kontoliste gefüllt wird](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
-

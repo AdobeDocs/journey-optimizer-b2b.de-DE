@@ -1,12 +1,13 @@
 ---
 title: KI-Assistent in Journey Optimizer B2B edition
-description: Platzhalter
+description: Erfahren Sie mehr über den KI-Assistenten und darüber, wie er Ihnen dabei helfen kann, durch Produktkonzepte zu navigieren und auf betriebliche Erkenntnisse zuzugreifen, die auf Ihre Umgebung zugeschnitten sind.
 feature: AI Assistant
+role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-source-git-commit: 9031191ead88652df95137a122f379b0ae2516a7
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1261'
 ht-degree: 5%
 
 ---
@@ -29,7 +30,7 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 ## KI-Assistentenfunktionen in Journey Optimizer B2B edition
 
-Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _&#x200B;**_Wissensdiagramm_**&#x200B;_ bezeichnet - ein umfassendes Web aus Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
+Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _**_Wissensdiagramm_**_ bezeichnet - ein umfassendes Web aus Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
 
 * Dokumentation zu Experience League.
 * Operative Artefakte, z. B. Schemata, Felder, Zielgruppen und Journey.
@@ -59,7 +60,7 @@ Sie können Fragen zum KI-Assistenten zu Ihren betrieblichen Erkenntnissen in de
 | Domain | Unterstützte Metadaten | Nicht unterstützte Metadaten |
 | --- | --- | --- |
 | Attribute/Felder | <li>Suche nach Attributnamen <li>Attribut - Schemabeziehung <li>Attribut - Datensatzbeziehung <li>Attribut - Zielgruppenbeziehung <li>Attribut - Zielbeziehung | <li>Attributklasse <li>Audit <li>Veraltungsstatus <li>Beschriftungen <li>In Attributen gespeicherter Wert |
-| Account-Zielgruppen <br><br>**_Hinweis:_**&#x200B;Der AJO B2B-KI-Assistent kann nur Zielgruppenfragen für Account-Zielgruppen beantworten, während der Experience Platform-KI-Assistent nur Fragen für Personen-Zielgruppen beantworten kann | <li>Zielgruppen-Anzahl <li>Zielgruppentyp (Streaming oder Batch) <li>Erstellungs-/Änderungsdatum <li>Aktivierungsstatus <li>Anzahl der Mitglieder <li>Duplizieren von Zielgruppen <li>Name- und ID-Suche | <li>Zielgruppenüberschneidungen <li>Zielgruppenaktivierung <li>Audit <li>Erstellen/Ändern <li>Beschriftungen <li>Trends bei der Mitgliederqualifizierung |
+| Account-Zielgruppen <br><br>**_Hinweis:_**Der AJO B2B-KI-Assistent kann nur Zielgruppenfragen für Account-Zielgruppen beantworten, während der Experience Platform-KI-Assistent nur Fragen für Personen-Zielgruppen beantworten kann | <li>Zielgruppen-Anzahl <li>Zielgruppentyp (Streaming oder Batch) <li>Erstellungs-/Änderungsdatum <li>Aktivierungsstatus <li>Anzahl der Mitglieder <li>Duplizieren von Zielgruppen <li>Name- und ID-Suche | <li>Zielgruppenüberschneidungen <li>Zielgruppenaktivierung <li>Audit <li>Erstellen/Ändern <li>Beschriftungen <li>Trends bei der Mitgliederqualifizierung |
 | Datenflüsse | <li>Anzahl der Datenflüsse <li>Datenflussstatus <li>Datenfluss - Datensatzbeziehung <li>Datenfluss-Quelle-Beziehung | <li>Erstellung/Änderung <li>Datenfluss-Batch-Beziehungen <li>Anzahl der aufgenommenen Profile |
 | Datensätze | <li>Anzahl der Datensätze <li>Profilaktivierungsstatus <li>Erstellungs-/Änderungsdatum <li>Datensatz - Schemabeziehung <li>Datensatz-Zielgruppen-Beziehung <li>Datensatz - Attributbeziehung <li>Datensatz - Datenflussbeziehung <li>Namenssuche <li>Name- und ID-Suche | <li>Audit <li>Erstellt von <li>Datensatz - Batch-Beziehung <li>Erstellen/Ändern von Datensätzen <li>Datensatzgröße <li>Anzahl der Profile <li>Anzahl Zeilen <li>Wertesuche |
 | Ziele | <li>Konfigurierte Zielzählungen <li>Ziel - Zielgruppenbeziehung <li>Zielattributbeziehung | <li>Konto-Setup <li>Informationen zu Kontoanmeldeinformationen <li>Eindeutige Profile aktiviert |
@@ -91,7 +92,7 @@ Der KI-Assistent in Journey Optimizer B2B edition basiert auf Datenschutz, Siche
 
 * Sie müssen explizit die Berechtigung haben, mit dem KI-Assistenten zu interagieren.
 
-   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ ](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console ](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Benutzer verschiedene Fragenkategorien stellen können (Produktkenntnisse mit dem KI-Assistenten oder Fragen zu betrieblichen Einblicken).
 

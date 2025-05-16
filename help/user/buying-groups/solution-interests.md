@@ -2,8 +2,9 @@
 title: Interessen an Lösungen
 description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie für die Verwendung in Ihren Einkaufsgruppen definieren können.
 feature: Buying Groups, Account Journeys
+role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '695'
 ht-degree: 1%
@@ -101,4 +102,4 @@ Alle Lösungsinteressen, die derzeit von einem kaufenden Gruppenauftrag oder ein
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3450122/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

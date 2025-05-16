@@ -2,8 +2,9 @@
 title: Übersichts-Dashboard für Einkaufsgruppen
 description: Erfahren Sie mehr über das Dashboard „Einkaufsgruppenübersicht“ und darüber, wie es die Übergabe an das Marketing-Team durch den Verkauf ermöglicht.
 feature: Dashboards, Buying Groups
+role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 1713f3284bc030d44ae910015b24d4e5e099813f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 3%
@@ -73,7 +74,7 @@ Wählen Sie für jedes Attribut, das Sie zum Filtern der Daten verwenden möchte
 
 ## Interagieren mit den Daten
 
-Um mit den Daten zu interagieren _verwenden Sie das Menü_&#x200B;**Mehr…**) oben rechts in jedem Diagramm.
+Um mit den Daten zu interagieren _verwenden Sie das Menü_**Mehr…**) oben rechts in jedem Diagramm.
 
 ### [!UICONTROL Drill-Through]
 

@@ -2,8 +2,9 @@
 title: Erstellen von Einkaufsgruppen
 description: Erfahren Sie, wie Sie mit den erforderlichen Komponenten Einkaufsgruppen erstellen können.
 feature: Buying Groups
+role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 08c8684d138005d4560941c7d89d6771472bcd60
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
@@ -17,7 +18,7 @@ Nachdem die Einkaufsgruppe erstellt wurde, kann sie über die Option &quot;[&quo
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Gruppen kaufen]**.
 
-1. Klicken _[!UICONTROL auf der Seite]_ Einkaufsgruppen“ oben rechts auf **Seite auf** Einkaufsgruppen erstellen“.
+1. Klicken _[!UICONTROL auf der Seite]_ Einkaufsgruppen“ oben rechts auf ]**Seite auf**[!UICONTROL  Einkaufsgruppen erstellen“.
 
    ![Klicken Sie auf Einkaufsgruppen erstellen](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
@@ -61,4 +62,4 @@ Remove a member of the buying group. -->
 
 ## Anleitungsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451770/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

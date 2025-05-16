@@ -1,16 +1,17 @@
 ---
 title: Erstellen von E-Mail-Vorlagen
 description: Erfahren Sie, wie Sie Inhalts-E-Mail-Vorlagen erstellen, die für Account-Journey-E-Mails verwendet werden können, um Ihre Designs einfach und effizient wiederzuverwenden.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 7250d2a1b7509211cf828c1df5bed7981d3ef809
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
-# Erstellen von E-Mail-Vorlagen
+# Erstellung von E-Mail-Vorlagen
 
 Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email-template) verwenden Sie den visuellen Designer, um die Struktur- und Inhaltskomponenten in Ihrer E-Mail-Vorlage zu erstellen.
 
@@ -42,7 +43,7 @@ Nachdem die Vorlage gespeichert wurde, wird sie auf der Seite mit den Fragmentde
 
 {{$include /help/_includes/content-design-navigation.md}}
 
-### Inhalt personalisieren
+### Personalisieren von Inhalten
 
 {{$include /help/_includes/content-design-personalization.md}}
 

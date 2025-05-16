@@ -1,16 +1,17 @@
 ---
 title: Details der Einkaufsgruppe
 description: Erfahren Sie mehr über den Zugriff auf detaillierte Informationen und Zusammenfassungen der generativen KI für Einkaufsgruppen in Journey Optimizer B2B edition.
-feature: Buying Groups
+feature: Buying Groups, Intelligent Insights
+role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: cfebf3d3a91733261417e338b3ce3c1b80495e5b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
-# Details der Einkaufsgruppe
+# Details zu Käufergruppen
 
 Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Einkaufsgruppennamen klicken, werden die Details der Einkaufsgruppe angezeigt. Diese Übersicht enthält nützliche Informationen zur Einkaufsgruppe, einschließlich der Zusammenfassungen zur generativen KI.
 
@@ -29,8 +30,8 @@ Der Abschnitt Übersicht über die Einkaufsgruppe enthält die folgenden Informa
 * Käufergruppenname
 * Kontoname (auf den Namen klicken, um die Kontodetails zu öffnen)
 * Anzahl der Personen in der Einkaufsgruppe
-* Engagement-Bewertung
-* Vollständigkeitsindex
+* Interaktionsbewertung
+* Vollständigkeitsbewertung
 * Aktuelle Einkaufsgruppenphase
 * Rollenvorlage (auf den Namen klicken, um die Rollenvorlagendetails zu öffnen)
 * Datum der letzten Änderung/Aktualisierung
@@ -49,7 +50,7 @@ Der Abschnitt Kontoübersicht enthält die folgenden Kontoinformationen:
 * Die letzten drei Konto-Journey, in denen das Konto derzeit verwendet wird (klicken Sie auf den Namen, um die Journey-Details zu öffnen)
 * Generative KI-Zusammenfassung des Kontos
 
-## Einkaufsgruppenmitglieder
+## Käufergruppenmitglieder
 
 ![Käufliche Gruppenmitglieder](./assets/details-page-buying-group-members.png){width="800" zoomable="yes"}
 
@@ -62,7 +63,7 @@ Jede Mitgliedskarte enthält die folgenden Details:
 
 * Name
 * Titel
-* Role
+* Rolle
 * Bewertung der Lead-Interaktion
 
 Klicken Sie **[!UICONTROL Details anzeigen]**, um auf die folgenden Mitgliedsinformationen zuzugreifen:

@@ -1,9 +1,10 @@
 ---
-title: Bearbeiten von Bildern mit dem Adobe Expreß
+title: Bearbeiten von Bildern mit Adobe Express
 description: Erfahren Sie mehr über die Verwendung von Adobe Express zum Bearbeiten von Bildern in Journey Optimizer B2B edition Workspace.
-feature: Assets, Content
+feature: Assets, Content, Integrations
+role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: cb8196a8bb33c326476ddc9d99103d5fea6d10bd
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 3%
@@ -17,7 +18,7 @@ ht-degree: 3%
 >title="Bearbeiten von Bildern in Adobe Express"
 >abstract="Einfache und intuitive Bildbearbeitungs-Tools, die von Adobe Express unterstützt werden, sind direkt in Adobe Journey Optimizer B2B Edition verfügbar, um die Content Velocity zu erhöhen."
 
-Adobe Journey Optimizer B2B edition integriert sich nativ mit Adobe Express und ermöglicht Ihnen den Zugriff auf eine Reihe von Tools zur Bearbeitung von Adobe Expreß-Bildern. Sie können diese Tools verwenden, um die im Arbeitsbereich von Journey Optimizer B2B edition gespeicherten Bilder für das verbundene Marketo Engage-Asset-Repository zu ändern. Die Integration bietet die folgenden zentralen Vorteile:
+Adobe Journey Optimizer B2B edition integriert sich nativ mit Adobe Express und ermöglicht Ihnen den Zugriff auf eine Reihe von Adobe Express-Tools zur Bildbearbeitung. Sie können diese Tools verwenden, um die im Arbeitsbereich von Journey Optimizer B2B edition gespeicherten Bilder für das verbundene Marketo Engage Asset-Repository zu ändern. Die Integration bietet die folgenden zentralen Vorteile:
 
 * Erhöhte Wiederverwendung von Inhalten durch Bearbeiten und Speichern neuer Bild-Assets in Journey Optimizer B2B edition.
 
@@ -25,9 +26,9 @@ Adobe Journey Optimizer B2B edition integriert sich nativ mit Adobe Express und 
 
 >[!NOTE]
 >
->Berechtigungen für Funktionen zur Bearbeitung von Adobe Expressen sind in allen Journey Optimizer B2B edition-Abonnements enthalten.
+>Berechtigungen für Adobe Express-Bearbeitungsfunktionen sind in allen Journey Optimizer B2B edition-Abonnements enthalten.
 
-Die Adobe Expreß-Funktionen unterstützen PNG- und JPEG-Bilddateiformate.
+Die Adobe Express-Funktionen unterstützen PNG- und JPEG-Bilddateiformate.
 
 _So ändern Sie ein Bild:_
 
@@ -51,31 +52,31 @@ Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets. Der Arbeit
    >
    >Es empfiehlt sich, in den Bilddetails [ Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen ](./marketo-engage-design-studio.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
 
-1. Klicken Sie im _[!UICONTROL (Details]_ auf der rechten Seite auf **[!UICONTROL Mit Adobe Expreß bearbeiten]**.
+1. Klicken Sie in _[!UICONTROL Abbildung]_ auf der rechten Seite auf **[!UICONTROL Mit Adobe Express bearbeiten]**.
 
-   ![Öffnen Sie das Bild im Adobe Expreß-Editor](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
+   ![Öffnen Sie das Bild im Adobe Express-Editor](./assets/assets-edit-adobe-express.png){width="600" zoomable="yes"}
 
-   Wenn das Bild verwendet wird, werden Sie in einem Warndialogfeld darüber informiert, dass alle von Ihnen vorgenommenen Änderungen sich auf diesen Inhalt auswirken. Klicken Sie **[!UICONTROL Fortfahren]**, um zum Adobe Expreß-Editor zu gelangen.
+   Wenn das Bild verwendet wird, werden Sie in einem Warndialogfeld darüber informiert, dass alle von Ihnen vorgenommenen Änderungen sich auf diesen Inhalt auswirken. Klicken Sie **[!UICONTROL Fortfahren]**, um zum Adobe Express-Editor zu gelangen.
 
    ![Ein Warnhinweis liefert Informationen zur Bildverwendung](./assets/assets-edit-adobe-express-usage-alert.png){width="300"}
 
-## Adobe Expreß Enterprise-Lizenz
+## Adobe Express Enterprise-Lizenz
 
-Wenn Sie über eine Enterprise-Lizenz für Adobe Expreß verfügen, können Sie auf den Express-Editor zugreifen und ihn verwenden. Zu diesen Bearbeitungsfunktionen gehören Vorgänge zur Bildanpassung, wie z. B. Farbe, Helligkeit, Schärfe, Kontraste und Zuschneiden. Dazu gehören auch _KI-Magie_-Vorgänge wie das Entfernen von Hintergründen, das Einfügen und Entfernen von Objekten und das Löschen von Teilen des Bildes.
+Wenn Sie über eine Enterprise-Lizenz für Adobe Express verfügen, können Sie auf den Express-Editor zugreifen und ihn verwenden. Zu diesen Bearbeitungsfunktionen gehören Vorgänge zur Bildanpassung, wie z. B. Farbe, Helligkeit, Schärfe, Kontraste und Zuschneiden. Dazu gehören auch _KI-Magie_-Vorgänge wie das Entfernen von Hintergründen, das Einfügen und Entfernen von Objekten und das Löschen von Teilen des Bildes.
 
 >[!NOTE]
 >
->Ihre Adobe Express Enterprise-Lizenz muss unter derselben IMS-Organisation erworben werden, um auf diese vollständigen Editor-Funktionen von Journey Optimizer B2B edition zugreifen zu können. Als einzelnes Mitglied der IMS-Organisation benötigen Sie eine zugewiesene Lizenz in der Adobe Expreß-Instanz. Andernfalls ist Ihr Adobe Expreß-Zugriff auf die [Schnellaktionen auf Adobe Expreß ](#quick-actions-in-adobe-express) von Journey Optimizer B2B edition beschränkt.
+>Ihre Adobe Express Enterprise-Lizenz muss unter derselben IMS-Organisation erworben werden, um auf diese vollständigen Editor-Funktionen von Journey Optimizer B2B edition zugreifen zu können. Als einzelnes Mitglied der IMS-Organisation benötigen Sie eine zugewiesene Lizenz in der Adobe Express-Instanz. Andernfalls ist der Zugriff auf Adobe Express auf die [Schnellaktionen auf Adobe Express](#quick-actions-in-adobe-express) in Journey Optimizer B2B edition beschränkt.
 
 ![Öffnen Sie das Bild im Adobe Express Enterprise-Editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
-Das [Adobe Expreß-Benutzerhandbuch](https://helpx.adobe.com/de/express/user-guide.html){target="_blank"} enthält detaillierte Informationen zu den verfügbaren Bearbeitungsfunktionen.
+Das [Adobe Express-Benutzerhandbuch](https://helpx.adobe.com/de/express/user-guide.html){target="_blank"} enthält detaillierte Informationen zu den verfügbaren Bearbeitungsfunktionen.
 
-## Schnellaktionen im Adobe Expreß
+## Schnellaktionen in Adobe Express
 
-Wenn Sie keine Adobe Expreß Enterprise-Lizenz haben, haben Sie Zugriff auf den Adobe Expreß-Schnellaktionseditor.
+Wenn Sie keine Adobe Express Enterprise-Lizenz haben, haben Sie Zugriff auf den Adobe Express-Schnellaktionseditor.
 
-1. Wählen Sie im Editor für Schnellaktionen eine der Bildänderungsfunktionen aus, um das Adobe Expreß zu ändern.
+1. Wählen Sie im Adobe Express-Schnellaktionseditor eine der Bildänderungsfunktionen aus, um das Bild zu ändern.
 
    * [**[!UICONTROL Bildgröße ändern]**](#resize-image)
    * [**[!UICONTROL Hintergrund entfernen]**](#remove-background)
@@ -85,7 +86,7 @@ Wenn Sie keine Adobe Expreß Enterprise-Lizenz haben, haben Sie Zugriff auf den 
 
    ![Wählen Sie einen Bearbeitungstyp aus, um das Bild zu ändern](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. Adobe Expreß Wenn Sie zum Haupteditor für Schnellaktionen zurückkehren, klicken Sie auf **[!UICONTROL Speichern]**, um die geänderte Bilddatei im Journey Optimizer B2B edition Asset-Arbeitsbereich unter Verwendung desselben Dateinamens zu speichern.
+1. Wenn Sie zum Adobe Express-Schnellaktionseditor zurückkehren, klicken Sie auf **[!UICONTROL Speichern]**, um die geänderte Bilddatei im Journey Optimizer B2B edition Asset-Arbeitsbereich unter Verwendung desselben Dateinamens zu speichern.
 
 ## Bildgröße ändern
 
@@ -97,21 +98,21 @@ Wenn Sie keine Adobe Expreß Enterprise-Lizenz haben, haben Sie Zugriff auf den 
 
    * Wenn Sie das Bild in den Originalzustand zurückversetzen möchten, klicken Sie auf **[!UICONTROL Zurücksetzen]**.
 
-   ![Mit Adobe Expreß bearbeiten - Bildgröße ändern](./assets/assets-edit-adobe-express-resize-image.png){width="600" zoomable="yes"}
+   ![Mit Adobe Express bearbeiten - Bildgröße ändern](./assets/assets-edit-adobe-express-resize-image.png){width="600" zoomable="yes"}
 
 1. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
 ## Hintergrund entfernen
 
-![Mit Adobe Expreß bearbeiten - Hintergrund entfernen](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
+![Mit Adobe Express bearbeiten - Hintergrund entfernen](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
-Adobe Expreß führt eine automatische Hintergrundentfernung durch, um das primäre Objekt im Bild zu isolieren. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Übernehmen]**.
+Adobe Express führt eine automatische Hintergrundentfernung durch, um das primäre Objekt im Bild zu isolieren. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
 ## Bild zuschneiden
 
 1. Ziehen Sie die Griffe auf die Ecken des Bildes, um die äußeren Bereiche zu entfernen, die Sie nicht in das Bild-Asset aufnehmen möchten.
 
-   ![Mit Adobe Expreß bearbeiten - Bild zuschneiden](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
+   ![Mit Adobe Express bearbeiten - Bild zuschneiden](./assets/assets-edit-adobe-express-crop-image.png){width="600" zoomable="yes"}
 
 1. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
@@ -120,6 +121,6 @@ Adobe Expreß führt eine automatische Hintergrundentfernung durch, um das prim�
 * **[!UICONTROL In JPEG konvertieren]** - Bei einem PNG-Bild können Sie das Bild in eine JPEG-Bilddatei konvertieren und als neues Asset im Arbeitsbereich speichern.
 * **[!UICONTROL In PNG konvertieren]** - Bei einem JPEG-Bild können Sie das Bild in eine PNG-Bilddatei konvertieren und als neues Asset im Arbeitsbereich speichern.
 
-![Bearbeiten mit Adobe Expreß- in PNG konvertieren](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}
+![Mit Adobe Express bearbeiten - in PNG konvertieren](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Übernehmen]**.

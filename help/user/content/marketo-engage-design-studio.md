@@ -2,11 +2,12 @@
 title: Arbeiten mit Marketo Engage Assets
 description: Erfahren Sie mehr über die Verwendung der Asset-Management-Integration von Marketo Engage Design Studio in Journey Optimizer B2B edition.
 feature: Assets, Content
+role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: bfa6cc84c3c8757146b70933b91b53337203eb5d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -14,16 +15,16 @@ ht-degree: 0%
 
 Marketo Engage Design Studio ist die standardmäßige Asset-Quelle für Journey Optimizer B2B edition. Sie können die verfügbaren Assets einfach verwalten und verwenden, um Inhalte zu entwerfen, die die Journey Ihres Kontos unterstützen.
 
-Beim Marketo Engage verwenden Marketing-Organisationen Arbeitsbereiche, um ihre Inhalts-Assets zu organisieren, und helfen Teams beim Zugriff auf das richtige Asset. Gut definierte Arbeitsbereiche sind besonders hilfreich für große Unternehmen, die über ein großes Portfolio an Produktangeboten verfügen oder global mit unterschiedlichen Anforderungen für das Marketing in verschiedenen Regionen arbeiten.
+In Marketo Engage verwenden Marketing-Organisationen Arbeitsbereiche, um ihre Inhalts-Assets zu organisieren und Teams dabei zu helfen, auf das richtige Asset zuzugreifen. Gut definierte Arbeitsbereiche sind besonders hilfreich für große Unternehmen, die über ein großes Portfolio an Produktangeboten verfügen oder global mit unterschiedlichen Anforderungen für das Marketing in verschiedenen Regionen arbeiten.
 
 ## Zentrale Vermögensverwaltung
 
-Standardmäßig gibt es einen **_[!UICONTROL Journey Optimizer B2B edition]_**-Arbeitsbereich, den Sie speziell für die Journey-Inhalte Ihres Kontos verwenden können. Die Assets, die Sie diesem Arbeitsbereich hinzufügen, sind nicht sichtbar oder für die Verwendung im Marketo Engage nicht verfügbar. Für Assets, die sich in diesem Arbeitsbereich befinden, stehen alle Asset-Management-Funktionen in Journey Optimizer B2B edition zur Verfügung. Zu diesen Funktionen gehören:
+Standardmäßig gibt es einen **_[!UICONTROL Journey Optimizer B2B edition]_**-Arbeitsbereich, den Sie speziell für die Journey-Inhalte Ihres Kontos verwenden können. Die Assets, die Sie diesem Arbeitsbereich hinzufügen, sind in Marketo Engage nicht sichtbar oder nicht verfügbar. Für Assets, die sich in diesem Arbeitsbereich befinden, stehen alle Asset-Management-Funktionen in Journey Optimizer B2B edition zur Verfügung. Zu diesen Funktionen gehören:
 
 * [Ersetzen](#replace-assets)
 * [Löschen](#delete-assets)
 * [Verschieben](#create-a-folder)
-* [Mit Adobe Expreß bearbeiten](./image-edit-adobe-express.md)
+* [Mit Adobe Express bearbeiten](./image-edit-adobe-express.md)
 
 Assets in den Marketo Engage-Arbeitsbereichen ist auf schreibgeschützten Zugriff zur Verwendung in E-Mails, E-Mail-Vorlagen und Fragmenten beschränkt. Sie können diesen Arbeitsbereichen neue Assets hinzufügen und eine Kopie eines Assets herunterladen.
 
@@ -67,7 +68,7 @@ Durch Klicken auf den Link werden Sie zu der entsprechenden E-Mail, E-Mail-Vorla
 
 ## Hinzufügen von Assets
 
-Auf der Listenseite _Assets_ können Sie Bild-Assets zum Journey Optimizer B2B edition-Arbeitsbereich oder zum Marketo Engage-Arbeitsbereich hinzufügen.
+Auf der Listenseite _Assets_ können Sie Bild-Assets zu Journey Optimizer B2B edition Workspace oder Marketo Engage Workspace hinzufügen.
 
 1. Klicken **[!UICONTROL oben]** auf &quot;Assets hinzufügen“.
 
@@ -85,7 +86,7 @@ Auf der Listenseite _Assets_ können Sie Bild-Assets zum Journey Optimizer B2B e
 
    >[!NOTE]
    >
-   >Wenn Sie einen Speicherort im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ auswählen, können Sie das Asset in der App verwalten. Wenn Sie das Asset einem Marketo Engage-Arbeitsbereich hinzufügen, stehen die Asset-Management-Funktionen nur im Marketo Engage Design Studio zur Verfügung.
+   >Wenn Sie einen Speicherort im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ auswählen, können Sie das Asset in der App verwalten. Wenn Sie das Asset zu einem Marketo Engage-Arbeitsbereich hinzufügen, stehen die Asset-Management-Funktionen nur im Marketo Engage Design Studio zur Verfügung.
 
 1. Um Dateien beim Hochladen einer oder mehrerer Dateien mit einem vorhandenen Dateinamen zu überschreiben (zu ersetzen), aktivieren Sie das Kontrollkästchen **[!UICONTROL Vorhandene Dateien überschreiben]**.
 
@@ -101,7 +102,7 @@ Verwenden Sie eine der folgenden Methoden, um ein Asset zu löschen, das sich im
 
   ![Zugriff auf Aktionen für das Asset](./assets/assets-details-more-menu.png){width="600" zoomable="yes"}
 
-* Klicken Sie auf der __ Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Löschen]** aus den Optionen.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Löschen]** aus den Optionen.
 
   ![Zugriff auf Aktionen für das Asset](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
@@ -119,7 +120,7 @@ Verwenden Sie eine der folgenden Methoden, um ein Asset zu ersetzen, das sich im
 
 * Gehen Sie zu den Asset-Details und klicken Sie auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
 
-* Klicken Sie auf der __ Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
 
 Ziehen _[!UICONTROL im Dialogfeld]_ Asset ersetzen“ die Ersatzdatei per Drag-and-Drop von Ihrem System in das Feld „Datei“. Sie können auch auf den Link _[!UICONTROL Datei auf Ihrem Computer auswählen]_ klicken, um Ihr lokales Dateisystem zur Auswahl einer Datei zu verwenden. (Wenn Sie mehrere Dateien in Ihrem lokalen System auswählen, wird die erste ausgewählte Datei für den Ersatz verwendet.)
 
@@ -135,7 +136,7 @@ Sie können ein Asset mit einer der folgenden Methoden herunterladen:
 
 * Gehen Sie zu den Asset-Details und klicken **[!UICONTROL oben]** auf „Herunterladen“.
 
-* Klicken Sie auf der __ Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen.
 
 Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Herunterladen]**, um das Herunterladen des Assets auf Ihr lokales System zu starten. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 
@@ -169,7 +170,7 @@ Sie können die folgenden Massenaktionen für ausgewählte Assets durchführen, 
 
 1. Klicken Sie im Auswahlbanner auf **[!UICONTROL Löschen]**.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
+1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
    Wenn eines der ausgewählten Assets derzeit verwendet wird, wird das Entfernen dieses Assets abgebrochen und eine Warnmeldung wird angezeigt.
 
@@ -177,7 +178,7 @@ Sie können die folgenden Massenaktionen für ausgewählte Assets durchführen, 
 
 ## Erstellen eines Ordners
 
-1. Klicken Sie auf der __ Assets **[!UICONTROL oben rechts auf]** Ordner erstellen“.
+1. Klicken Sie auf der ]__[!UICONTROL  Assets **[!UICONTROL oben rechts auf]** Ordner erstellen“.
 
 1. Geben Sie im Dialogfeld den Ordnernamen ein und wählen Sie den Ziel-(übergeordneten) Ordner für den neuen Ordner aus.
 
@@ -249,7 +250,7 @@ Sie können die folgenden Aktionen auf Ordnerebene ausführen:
 
 1. Wählen Sie **[!UICONTROL Löschen]**.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
+1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
 Wenn eines der Assets im Ordner derzeit verwendet wird, wird ein Warndialogfeld geöffnet, in dem Sie darüber informiert werden, dass es nicht gelöscht werden kann. Klicken Sie auf **[!UICONTROL OK]**, wodurch die Entfernung abgebrochen wird.
 

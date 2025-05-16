@@ -2,11 +2,12 @@
 title: Journey Details
 description: Erfahren Sie mehr über die Informationen auf der Journey-Detailseite und wie Sie damit Ihre veröffentlichte Account-Journey überwachen und verwalten können.
 feature: Dashboards, Account Journeys
+role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
-source-git-commit: 7667478672de935abc4fda587ce4ba977a5a3168
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -68,7 +69,7 @@ Interagieren Sie weiter mit den Daten, indem Sie das Aktionssymbol (**…**) obe
 
 ### Drill-Through
 
-Wählen Sie für das __ Journey-Status **[!UICONTROL Diagramm „Drill-Through]**, um eine detaillierte Analyse der individuellen Kontostatus durchzuführen.
+Wählen Sie für das ]__[!UICONTROL  Journey-Status **[!UICONTROL Diagramm „Drill-Through]**, um eine detaillierte Analyse der individuellen Kontostatus durchzuführen.
 
 ![Der Drill-Through für die Diagrammdaten](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--

@@ -1,9 +1,10 @@
 ---
 title: Verfassen von E-Mail-Nachrichten
 description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Journey Optimizer B2B erstellen. Verwenden Sie Vorlagen, HTML-Importe und KI-gestützte Tools, um Ihre E-Mail-Kommunikation zu personalisieren und zu optimieren.
-feature: Email Authoring, Content
+feature: Email Authoring, Content Design Tools
+role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 0fb3f56ef0a82f340c9847d4c384a5244df3182f
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 20%
@@ -12,7 +13,7 @@ ht-degree: 20%
 
 # Verfassen von E-Mail-Nachrichten
 
-Nachdem Sie &lbrack;ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben&rbrack;(./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
+Nachdem Sie [ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben](./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
 
 Klicken Sie **[!UICONTROL E-Mail-]** hinzufügen“ oben im Vorschaufenster _[!UICONTROL E-Mail]_.
 

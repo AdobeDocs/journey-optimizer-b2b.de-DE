@@ -1,9 +1,10 @@
 ---
 title: Intelligentes Dashboard
 description: Erfahren Sie mehr über das intelligente Dashboard, das eine umfassende Ansicht der Einkaufsgruppen- und Kontometriken bietet
-feature: Dashboards, Buying Groups
+feature: Dashboards, Intelligent Insights, Buying Groups
+role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: d0b2f91754ce3c5e38c6aa2c49c816fd46510403
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1688'
 ht-degree: 15%
@@ -284,7 +285,7 @@ Im _[!UICONTROL Kontaktüberschneidung]_ wird eine Liste von Kontakten angezeigt
 Klicken Sie auf _Information_ ( ![Informationssymbol](../assets/do-not-localize/icon-info.svg) ), um eine Tabelle mit den folgenden Details anzuzeigen:
 
 * Name der Einkaufsgruppe (klicken Sie auf den Namen, um die Seite mit den Einkaufsgruppendetails zu öffnen)
-* Role
+* Rolle
 * Lösungsinteresse
 * Produktzweck
 * Produkt

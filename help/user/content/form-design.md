@@ -1,17 +1,18 @@
 ---
 title: Formularentwurf
 description: Erfahren Sie, wie Sie wiederverwendbare Formulare für die Erfassung von Lead-Informationen entwerfen.
-feature: Content
+feature: Forms, Content Design Tools
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4eaaa8a33ba3ada99a75c43a56508362a2e7287b
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
 
 ---
 
-# Formularentwurf
+# Formular-Design
 
 Nach dem [Erstellen eines Formulars](./landing-pages.md#create-a-landing-page) wird im visuellen Design-Bereich ein Entwurf mit einer standardmäßigen allgemeinen Formulardefinition geöffnet. Klicken Sie im _[!UICONTROL Zusammenfassungsbereich]_ auf der rechten Seite auf **[!UICONTROL Formular bearbeiten]** und verwenden Sie den visuellen Design-Bereich, um die Formularstile und Feldkomponenten zu definieren.
 
@@ -128,7 +129,7 @@ Fügen Sie dem Formular Strukturkomponenten hinzu und verschieben Sie Felder in 
 
 ### Löschen oder Duplizieren eines Felds {#field-delete-duplicate}
 
-Klicken Sie auf das _Löschen_-Symbol ( ![Löschsymbol](../assets/do-not-localize/icon-delete.svg) ) in der Symbolleiste oder im rechten Bereich, um ein ausgewähltes Feld zu löschen. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
+Klicken Sie auf das _Löschen_-Symbol ( ![Löschsymbol](../assets/do-not-localize/icon-delete.svg) ) in der Symbolleiste oder im rechten Bereich, um ein ausgewähltes Feld zu löschen. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
 Klicken Sie auf _Duplizieren_-Symbol ( ![Duplizieren-Symbol](../assets/do-not-localize/icon-duplicate.svg) ) in der Symbolleiste oder im rechten Bereich, um ein ausgewähltes Feld zu duplizieren. Das neue Feld wird direkt unter dem ursprünglichen Feld angezeigt. Klicken Sie **[!UICONTROL Feldattribut auswählen]**, um das Attribut für das Feld festzulegen. Legen Sie den Feldtyp, die Details und die Stile nach Bedarf fest.
 
@@ -140,7 +141,7 @@ Die Senden-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars
 
 ### Inhalt der Schaltfläche bearbeiten {#button-content}
 
-Ändern Sie den Text im Textfeld **[!UICONTROL Schaltfläche &#x200B;]_, während die Registerkarte_[!UICONTROL Inhalt]** im rechten Bereich angezeigt wird. Die Schaltflächengröße wird an die Länge des Textes angepasst.
+Ändern Sie den Text im Textfeld **[!UICONTROL Schaltfläche ]_, während die Registerkarte_[!UICONTROL Inhalt]** im rechten Bereich angezeigt wird. Die Schaltflächengröße wird an die Länge des Textes angepasst.
 
 ![Ändern des Schaltflächentextes im Formular](./assets//form-field-button-text.png){width="600" zoomable="yes"}
 

@@ -2,8 +2,9 @@
 title: Konto-Journey erstellen und veröffentlichen
 description: Erfahren Sie, wie Sie Account Journey erstellen und veröffentlichen.
 feature: Account Journeys
+role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 77dcb83d3659c33184f0947fdfa20052aa534d9e
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 5%
@@ -90,7 +91,7 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen&rbrace; klicken.
+1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen} klicken.
 
 1. Legen Sie im Dialogfeld die Zeitplanoptionen fest:
 
@@ -136,4 +137,4 @@ Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443228/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

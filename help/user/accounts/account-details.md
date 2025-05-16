@@ -2,7 +2,9 @@
 title: Kontodetails
 description: Erfahren Sie mehr über den Zugriff auf detaillierte Informationen und Generative KI-Zusammenfassungen für -Konten in Journey Optimizer B2B edition.
 feature: Account Insights
-source-git-commit: 55c157483f7b5c5340bc3e0e2cfde29de45a5cc2
+role: User
+exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -67,7 +69,7 @@ Im Abschnitt _[!UICONTROL Kontaktüberschneidung]_ werden Kontakte aus dem Konto
 Klicken Sie auf _Information_ ( ![Informationssymbol](../assets/do-not-localize/icon-info.svg) ) neben dem Kontaktnamen, um eine Tabelle mit den folgenden Details anzuzeigen:
 
 * Einkaufsgruppe (klicken Sie auf den Namen, um die Details der Einkaufsgruppe zu öffnen)
-* Role
+* Rolle
 * Lösungsinteresse
 * Produktabsicht (falls konfiguriert)
 * Produkt

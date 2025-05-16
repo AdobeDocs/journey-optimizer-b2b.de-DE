@@ -1,10 +1,11 @@
 ---
-title: Landing Page
+title: Landingpages
 description: Erfahren Sie mehr über Landingpages und deren Erstellung und Verwaltung zur Unterstützung von Account-Journey und -Kampagnen.
-feature: Content
+feature: Landing Pages, Content
+role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: d2ce1685bd8185f418cd28e37dc11d539e765ad9
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 3%
@@ -183,7 +184,7 @@ Adobe Journey Optimizer B2B edition bietet eine Auswahl _standardmäßigen Landi
    * [Hinzufügen von Struktur und Inhalten](./landing-page-design.md#add-structure-and-content)
    * [Assets hinzufügen](./landing-page-design.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Inhalt personalisieren](./landing-page-design.md#personalize-content)
+   * [Personalisieren von Inhalten](./landing-page-design.md#personalize-content)
    * [Verknüpftes URL-Tracking bearbeiten](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.
@@ -211,7 +212,7 @@ Adobe Journey Optimizer B2B edition bietet eine Auswahl _standardmäßigen Landi
    * [Hinzufügen von Struktur und Inhalten](./landing-page-design.md#add-structure-and-content)
    * [Assets hinzufügen](./landing-page-design.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Inhalt personalisieren](./landing-page-design.md#personalize-content)
+   * [Personalisieren von Inhalten](./landing-page-design.md#personalize-content)
    * [Verknüpftes URL-Tracking bearbeiten](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.
@@ -233,7 +234,7 @@ So aktualisieren Sie den Inhalt:
    * [Hinzufügen von Struktur und Inhalten](./landing-page-design.md#add-structure-and-content)
    * [Assets hinzufügen](./landing-page-design.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Inhalt personalisieren](./landing-page-design.md#personalize-content)
+   * [Personalisieren von Inhalten](./landing-page-design.md#personalize-content)
    * [Verknüpftes URL-Tracking bearbeiten](./landing-page-design.md#edit-linked-url-tracking)
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.

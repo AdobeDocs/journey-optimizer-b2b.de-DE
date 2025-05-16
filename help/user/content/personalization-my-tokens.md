@@ -1,11 +1,13 @@
 ---
 title: Benutzerdefinierte Token für Email Personalization
 description: Erfahren Sie, wie Sie mit einer Reihe von Token, die für eine Konto-Journey definiert sind, die Personalisierung in Ihrem E-Mail-Inhalt verwalten können.
-feature: Content, Email Authoring
-source-git-commit: 01c217c928ccb344eaebe471c7b7a8b930c68010
+feature: Personalization, Content, Email Authoring
+role: User
+exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +29,7 @@ _So greifen Sie auf die benutzerdefinierten Token für eine Konto-Journey zu:_
 
 1. Klicken Sie oben rechts auf das **[!UICONTROL Mehr…]** und wählen Sie **[!UICONTROL Meine Token]**.
 
-   ![Klicken Sie oben rechts auf Mehr](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
+   ![Klicken auf „Mehr“ oben rechts](../journeys/assets/account-journey-draft-more-menu.png){width="450"}
 
    Auf _Seite „Meine_&quot; werden alle benutzerdefinierten Token aufgelistet, die für die Journey definiert sind.
 
@@ -73,7 +75,7 @@ Sie können ein benutzerdefiniertes Token aus der Liste _Meine Token_ löschen, 
 
 1. Klicken Sie auf _[!UICONTROL Seite]_ Meine Token“ auf das Symbol _Mehr Aktionen_ (**…**) neben dem Token-Namen und wählen Sie **[!UICONTROL Löschen]**.
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
+1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
 ## Verwenden benutzerdefinierter Token in Ihrem Inhalt
 

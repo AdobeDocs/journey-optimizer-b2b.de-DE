@@ -1,9 +1,10 @@
 ---
 title: E-Mail-Vorlagen
 description: Erfahren Sie, wie Sie E-Mail-Vorlagen verwalten und erstellen, die zur einfachen und effizienten Erstellung von Account-Journey-E-Mails verwendet werden.
-feature: Email Authoring, Content
+feature: Templates, Email Authoring, Content
+role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 4%
@@ -86,7 +87,7 @@ Klicken Sie auf der Seite Vorlagenauflistung auf den Namen einer E-Mail-Vorlage,
 
 * Klicken Sie **[!UICONTROL rechts oben]** „Mehr“, um schnell mit der E-Mail-Vorlage umzugehen, z. B _„Duplizieren_ und _Löschen_.
 
-* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnung für die E-Mail-Vorlage), klicken Sie oben **auf** Warnhinweise), um die Informationen anzuzeigen.
+* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnung für die E-Mail-Vorlage), klicken Sie oben ]**auf**[!UICONTROL  Warnhinweise), um die Informationen anzuzeigen.
 
   Diese Warnhinweise verbieten nicht die Verwendung der E-Mail-Vorlage für die E-Mail-Erstellung. Die Informationen bieten Marketing-Fachleuten in Ihrem Team einen Überblick darüber, was möglicherweise nicht funktioniert, und über die erforderlichen Aktualisierungen, bevor sie für die Bereitstellung verwendet werden können.
 

@@ -1,19 +1,20 @@
 ---
 title: Landing Page-Vorlagen
 description: Erfahren Sie, wie Sie Landingpage-Vorlagen erstellen, die Ihr Marketing-Team verwenden kann, um neue Seiten zur Unterstützung von Account-Journey und -Kampagnen zu erstellen.
-feature: Content
+feature: Landing Pages, Templates, Content
+role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 22112bde7692247d9bc0ea9b79160682b9370f55
+source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
 
 ---
 
-# Landingpage-Vorlagen
+# Landing Page-Vorlagen
 
 Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige Landingpage-Vorlagen erstellen, um Ihr Seiten-Design und Ihre Inhalte zu standardisieren. Marketing-Strategen können die Seiten wiederverwenden und an die Verwendung in Kampagnen und Journey anpassen.
 
@@ -91,7 +92,7 @@ Klicken Sie auf _Listenseite „Landingpage_ Vorlagen“ auf den Namen einer Lan
 
 * Klicken Sie **[!UICONTROL oben]** auf „Mehr“, um schnelle Aktionen in der Landingpage-Vorlage durchzuführen, z. B. _Duplizieren_ und _Löschen_.
 
-* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnhinweise für die Landingpage-Vorlage), klicken Sie oben **auf** Warnhinweise“, um die Informationen anzuzeigen.
+* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnhinweise für die Landingpage-Vorlage), klicken Sie oben ]**auf**[!UICONTROL  Warnhinweise“, um die Informationen anzuzeigen.
 
   Diese Warnhinweise verbieten nicht die Verwendung der Landingpage-Vorlage zur Erstellung von Landingpages. Die Informationen bieten Marketing-Fachleuten in Ihrem Team einen Überblick darüber, was möglicherweise nicht funktioniert, und über die erforderlichen Aktualisierungen, bevor sie für die Bereitstellung verwendet werden können.
 
