@@ -18,7 +18,7 @@ Nachdem die Einkaufsgruppe erstellt wurde, kann sie über die Option &quot;[&quo
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Gruppen kaufen]**.
 
-1. Klicken _[!UICONTROL auf der Seite]_ Einkaufsgruppen“ oben rechts auf ]**Seite auf**[!UICONTROL  Einkaufsgruppen erstellen“.
+1. Klicken _[!UICONTROL auf der Seite]_ Einkaufsgruppen“ oben rechts auf **Seite auf** Einkaufsgruppen erstellen“.
 
    ![Klicken Sie auf Einkaufsgruppen erstellen](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 

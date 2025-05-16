@@ -45,7 +45,7 @@ Wählen Sie für das Kreisdiagramm **[!UICONTROL Drill-Through]** aus, um eine d
 
 ![Drillthrough zum Zugriff auf Diagrammdaten](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-Sie können oben rechts auf das _Mehr_-Menü (**…**) klicken und **[!UICONTROL Mehr anzeigen]** wählen, um erweiterte Daten [](#view-more).
+Sie können oben rechts auf das _Mehr_-Menü (**…**) klicken und **[!UICONTROL Mehr anzeigen]** wählen, um erweiterte Daten [&#128279;](#view-more).
 
 ### [!UICONTROL Mehr anzeigen]
 
