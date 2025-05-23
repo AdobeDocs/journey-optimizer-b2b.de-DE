@@ -4,20 +4,20 @@ description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Journey Optimizer B2B
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 633f23525a6fd2b03460ecbef17379077d6b51d2
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '928'
 ht-degree: 20%
 
 ---
 
 # Verfassen von E-Mail-Nachrichten
 
-Nachdem Sie &lbrack;ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben&rbrack;(./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
+Nachdem Sie [ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben](./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
 
-Klicken Sie **[!UICONTROL E-Mail-]** hinzufügen“ oben im Vorschaufenster _[!UICONTROL E-Mail]_.
+Klicken Sie **[!UICONTROL der Registerkarte _[!UICONTROL Details]_ im rechten Bedienfeld auf]** E-Mail-Inhalt bearbeiten“.
 
-![Klicken Sie auf E-Mail-Inhalt hinzufügen ](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Klicken Sie auf E-Mail-Inhalt bearbeiten ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Diese Aktion startet die E-Mail-Design-Tools, in denen Sie aus den folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
@@ -26,8 +26,6 @@ Diese Aktion startet die E-Mail-Design-Tools, in denen Sie aus den folgenden Opt
 * [Importieren Sie vorhandene HTML-Inhalte](#import-existing-html-content) aus einer Datei oder einem ZIP-Ordner.
 
 * [Wählen Sie eine vorhandene ](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus.
-
-Um die Betreffzeile mit dem Ausdruckseditor zu konfigurieren und zu personalisieren, klicken Sie auf das Symbol _Personalization_ und fügen Sie eines der Marketo Engage-Token hinzu.
 
 Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den Inhalt zur Validierung oder zur späteren Verwendung exportieren. Klicken Sie **[!UICONTROL HTML exportieren]**, um den Inhalt als ZIP-Datei zu speichern, die Ihre HTML und Assets enthält.
 
@@ -47,10 +45,9 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den
 >title="Über Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können."
 
-Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden entwerfen.
+Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt der E-Mail zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden entwerfen.
 
 1. Wählen Sie auf _[!UICONTROL Startseite]_ Vorlage entwerfen“ die Option **[!UICONTROL Erstellen von neuen]** aus.
-
 1. [Struktur und Inhalt hinzufügen](#add-structure-and-content) zur E-Mail-Nachricht.
 1. [Hinzufügen von Bild-](#add-assets)) zur E-Mail-Nachricht.
 1. [Personalisieren des E-Mail-Inhalts](#personalize-content).
