@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über Lösungsinteressen und wie Sie sie für die
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 1280bd6a4a889507fcede73a859e943cbe3c0674
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,13 @@ Bevor Sie Einkaufsgruppen erstellen, sollten Sie wissen, was Sie verkaufen und w
 
 1. Wählen Sie auf _[!UICONTROL Seite]_ die Registerkarte **[!UICONTROL Interesse an Lösungen]** aus.
 
+   Die Registerkarte bietet eine Inventarliste aller vorhandenen Lösungsinteressen. Es werden die folgenden Informationen im Spaltenformat angezeigt: _[!UICONTROL Name]_, _[!UICONTROL Rollenvorlage]_, _[!UICONTROL Einkaufsgruppenerstellungsaufträge]_, _[!UICONTROL Einkaufsgruppen aktualisieren]_, _[!UICONTROL Erstellungsdatum]_, _[!UICONTROL Erstellt von]_, _[!UICONTROL Letzte Aktualisierung]_ und _[!UICONTROL Zuletzt aktualisiert von]_,
+
+   Die Liste ist standardmäßig nach der Spalte _[!UICONTROL Letzte Aktualisierung]_ sortiert. Klicken Sie auf den Spaltentitel in der Kopfzeile, um zwischen absteigender und aufsteigender Sortierung umzuschalten.
+
+   Geben Sie oben in der Liste im _Suche_-Tool Text ein, um die angezeigte Liste nach Namen zu filtern.
+
    ![Registerkarte „Lösungsinteresse“](assets/solution-interest-tab.png){width="700" zoomable="yes"}
-
-   Die Registerkarte bietet eine Inventarliste aller vorhandenen Lösungsinteressen. Es werden die folgenden Informationen im Spaltenformat angezeigt: _[!UICONTROL Name]_, _[!UICONTROL Rollenvorlage]_, _[!UICONTROL Einkauf von Gruppenerstellungsaufträgen]_, _[!UICONTROL Zuletzt aktualisiert am]_, _[!UICONTROL Aktualisiert von]_, _[!UICONTROL Erstellt am]_ und _[!UICONTROL Erstellt von]_
-
-   Die Liste ist standardmäßig nach der Spalte _[!UICONTROL Zuletzt aktualisiert am]_ sortiert. Klicken Sie auf den Spaltentitel in der Kopfzeile, um zwischen absteigender und aufsteigender Sortierung umzuschalten.
 
 ## Anzeigen und Löschen von Aufträgen für Einkaufsgruppen
 
@@ -102,4 +104,4 @@ Alle Lösungsinteressen, die derzeit von einem kaufenden Gruppenauftrag oder ein
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3450122/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

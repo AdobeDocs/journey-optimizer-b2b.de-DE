@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie Inhalts-E-Mail-Vorlagen erstellen, die für A
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 17%
 
 ---
 
 # Erstellung von E-Mail-Vorlagen
 
-Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email-template) verwenden Sie den visuellen Designer, um die Struktur- und Inhaltskomponenten in Ihrer E-Mail-Vorlage zu erstellen.
+Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email-template) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer E-Mail-Vorlage zu erstellen.
 
 ## Hinzufügen von Struktur und Inhalten {#structure-content}
 
@@ -45,7 +45,7 @@ Nachdem die Vorlage gespeichert wurde, wird sie auf der Seite mit den Fragmentde
 
 ### Personalisieren von Inhalten
 
-{{$include /help/_includes/content-design-personalization.md}}
+{{$include /help/_includes/content-design-personalization-email.md}}
 
 ### Verknüpftes URL-Tracking bearbeiten
 
@@ -53,7 +53,7 @@ Nachdem die Vorlage gespeichert wurde, wird sie auf der Seite mit den Fragmentde
 
 ## Optionen anzeigen
 
-Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen Designer verfügbar sind.
+Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen Design-Bereich verfügbar sind.
 
 * Vergrößern/Verkleinern des Inhalts in allen vordefinierten Zoom-Optionen.
 
@@ -63,11 +63,11 @@ Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen Design
 
 ### Mehr Optionen
 
-Im Menü _[!UICONTROL Mehr …]_ oben in Email Designer können Sie die folgenden Aktionen ausführen:
+Im Menü _[!UICONTROL Mehr …]_ oben im E-Mail-Design-Bereich können Sie die folgenden Aktionen ausführen:
 
 ![Klicken Sie auf Mehr , um auf Vorlagenaktionen zuzugreifen](./assets/visual-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL Vorlage zurücksetzen]** - Klicken Sie auf diese Option, um die Arbeitsfläche des visuellen Designers zu leeren und die Inhaltserstellung neu zu starten.
+* **[!UICONTROL Vorlage zurücksetzen]** - Klicken Sie auf diese Option, um die Arbeitsfläche des Designs zu leeren und die Inhaltserstellung neu zu starten.
 * **[!UICONTROL Als Fragment speichern]** - Speichert die Vorlage ganz oder teilweise als Fragment zur Wiederverwendung in mehreren E-Mails oder E-Mail-Vorlagen. Geben Sie einen Namen und eine Beschreibung für das Fragment ein und speichern Sie es in der Liste der verfügbaren Fragmente.
 * **[!UICONTROL Design ändern]** - Kehren Sie zur Seite _Vorlage_ zurück. Dort können Sie Ihre Vorlage von Grund auf neu entwerfen oder eine vorhandene Vorlage verwenden, um den Design-Prozess neu zu starten.
 * **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche in HTML im Format herunter, das als ZIP-Datei verpackt ist.

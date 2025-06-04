@@ -1,11 +1,12 @@
 ---
-title: Versionshinweise
-description: Neueste Versionshinweise für Adobe Journey Optimizer B2B Edition
+title: Versionshinweise zu Journey Optimizer B2B edition
+description: Erfahren Sie mehr über die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B edition.
+role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c3f2d57da830c46bd1e91d172db14f5400aabfca
-workflow-type: ht
-source-wordcount: '2030'
-ht-degree: 100%
+source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
+workflow-type: tm+mt
+source-wordcount: '2190'
+ht-degree: 89%
 
 ---
 
@@ -17,9 +18,22 @@ Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] a
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
 
+## Versionshinweise für 2025.5
+
+**Bereitstellungsdatum:**. Juni 2025
+
+Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Funktion | Integration mit GenStudio for Performance Marketing | (Eingeschränkte Verfügbarkeit) Sie können jetzt E-Mail-Erlebnisse von GenStudio for Performance Marketing mit Journey Optimizer B2B edition integrieren, um die Marketing-Effizienz zu verbessern und die Markenkonsistenz zu gewährleisten. Mit dieser Integration können Sie die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B edition kombinieren. [Weitere Informationen](../content/genstudio-email-workflow.md) |
+| Verbesserung | Handlebar-Token-Format für E-Mail | Personalization-Token für E-Mail-Inhalte verwenden jetzt ein aktualisiertes Format, das vollständig mit Handlebar-Skripten kompatibel ist. Dieses Format verwendet _Binnenmajuskel-Schreibweise_ oder Unterstriche, wobei Leerzeichen eliminiert werden. [Weitere Informationen](../content/email-authoring.md#content-authoring---personalization) |
+| Verbesserung | Anzeige der Gesamtanzahl für Listen | Die _[!UICONTROL Lösungsinteressen]_ und _[!UICONTROL Account-Journey]_ werden durch die Anzeige der Gesamtanzahl neben der Suchleiste erweitert. |
+
+
 ## Versionshinweise für 2025.4
 
-**Veröffentlichungsdatum**: 29. April 2025
+**Bereitstellungsdatum:**. April 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -34,7 +48,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 ## Versionshinweise für 2025.3
 
-**Veröffentlichungsdatum**: 1. April 2025
+**Bereitstellungsdatum:**. April 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -47,27 +61,27 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 ## Versionshinweise für 2025.2
 
-**Veröffentlichungsdatum**: 11. März 2025
+**Bereitstellungsdatum:**. März 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Anpassbare Felder – Inhaltsfragmente | Als Inhaltsfragment-Designerin oder -Designer können Sie einen Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Diese Funktion ermöglicht es der Autorin bzw. dem Autor der E-Mail oder Vorlage, einen benutzerdefinierten Feldwert anzugeben, der speziell für ihre bzw. seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. <a href="../content/fragment-authoring.md#enable-fragment-customization">Weitere Informationen</a> |
+| Funktion | Anpassbare Felder – Inhaltsfragmente | Beim visuellen Fragmentdesign können Sie Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Diese Funktion ermöglicht es der Autorin bzw. dem Autor der E-Mail oder Vorlage, einen benutzerdefinierten Feldwert anzugeben, der speziell für ihre bzw. seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. <a href="../content/fragment-authoring.md#enable-fragment-customization">Weitere Informationen</a> |
 | Funktion | Integrierte Rollen und Produktberechtigungen für B2B | Experience Platform enthält jetzt eine Reihe integrierter (standardmäßiger) Rollen, mit denen Sie den Zugriff auf die B2B-Produktfunktionen verwalten können. <a href="../admin/user-management.md#b2b-built-in-roles">Weitere Informationen</a> <br/>Admins können jetzt benutzerdefinierte Rollen in Adobe Experience Platform definieren, um Produktberechtigungen aus Journey Optimizer B2B Edition einzuschließen.  <a href="../admin/user-management.md#b2b-product-permissions">Weitere Informationen</a> |
 | Funktion | Journey-Duplizierungstypen | Wenn Sie eine Konto-Journey duplizieren, können Sie Knotendetails einbeziehen, mit Ausnahme von in Journey Optimizer B2B Edition erstellten E-Mails und SMS-Nachrichten. Als Alternative können Sie eine Basiskopie der Struktur- und Pfadflüsse erstellen (ohne Knotendetails und Einstellungen). <a href="../journeys/journey-overview.md#duplicate-journey">Weitere Informationen</a> |
 | Verbesserung | Vier zusätzliche Beispielvorlagen für E-Mails | Die Bibliothek mit Beispielvorlagen für E-Mails enthält jetzt vier SecurFinancial-Vorlagen als Beispiele für die Wiederaufnahme von Interaktionen, Informieren, Pflegen und Feedback-Inhalte |
 
 ## Versionshinweise für 2025.1 {#Jan-2025}
 
-**Versionsdatum**: 6. Februar 2025
+**Bereitstellungsdatum:**. Februar 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Weiterleitung von Erlebnisereignissen | Admins können die auf Adobe Experience Platform (AEP) basierenden Ereignisdefinitionen konfigurieren. Mit diesen Konfigurationen können Marketing-Fachleute Konto-Journeys erstellen, die auf Erlebnisereignissen aus AEP reagieren. <a href="../admin/configure-aep-events.md">Weitere Informationen</a> |
-| Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen Knoten vom Typ „Pfade aufteilen“ in einer Konto-Journey, um Konto-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Konten zu identifizieren, die zusätzliche Interaktionen gewährleisten. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
+| Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen aufgeteilten Pfadknoten in einer Account-Journey, um Account-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Accounts zu identifizieren, die zusätzliche Interaktionen rechtfertigen. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
 | Funktion | Intelligentes Dashboard | Sehen Sie sich den Fortschritt von Käufergruppen durch ihre Konto-Journey an, einschließlich KI-generierter Erkenntnisse, um eine intelligentere Analyse und eine genauere Priorisierung von Konten zu erhalten. <a href="../dashboards/intelligent-dashboard.md">Weitere Informationen</a> |
 | Funktion | Details zu Käufergruppen und Konten | Sehen Sie sich Erkenntnisse auf der Käufergruppen- und Kontoebene an, um zu Beginn der Interaktion mit einer Kundin oder einem Kunden mehr Kontext- und historische Daten zu erhalten.<p>Zu den Details der Käufergruppe gehören alle erkannten First-Party-Intent-Daten. <a href="../buying-groups/buying-group-details.md">Weitere Informationen</a><p>Die Konten mit den Kontodetails zeigen den beobachteten Anstieg der Interaktionsabsicht, sodass Sie Ihren Vertrieb auf Konten hinweisen können, die für eine kundenspezifische, verkaufsorientierte Interaktion bereit sind.  <a href="../accounts/account-details.md">Weitere Informationen</a> |
 | Funktion | Journey-Überblick | Wenn Sie auf Konto-Journeys zugreifen, bietet die Registerkarte „Überblick“ eine umfassende Übersicht über Ihre aktiven Konto-Journeys mit detaillierten Fortschrittsanzeigen zu Konten, in denen Abschlüsse und Interaktionsaktivitäten anhand von Kreis- und Balkendiagrammen kategorisiert und quantifiziert werden.  <a href="../dashboards/journeys-dashboard.md">Weitere Informationen</a> |
@@ -78,10 +92,13 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Mitgliedschaftsfilter für Marketo Engage-Listen für Journeys und Rollen | Aktivieren Sie die Marketo Engage-Listenmitgliedschaft in Journey Optimizer B2B als Bedingung für einen Knoten _Pfad nach Personen aufteilen_, um doppelte Journey-Aktivitäten zu vermeiden. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Weitere Informationen</a> <p> Verwenden Sie die Listenmitgliedschaft als Rollenbedingung für Rollenvorlagen für Käufergruppen. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Weitere Informationen</a> |
 | Verbesserung | Dashboard für den Überblick über die Interaktion | Dieses Dashboard wurde aktualisiert, um eine umfassende Interaktionsansicht zu bieten. Es zeigt Echtzeitmetriken der Interaktionen von Konten und Einzelpersonen durch Kreisdiagramme von Momentaufnahmen und Liniendiagramme, die Trends aufzeigen, im Zeitverlauf an. <a href="../dashboards/engagement-dashboard.md">Weitere Informationen</a> |
 
+## Versionen 2024
 
-## Versionshinweise für Oktober 2024 {#Oct-2024}
+Erweitern Sie die folgenden Listen für die Funktionen und Verbesserungen für Journey Optimizer B2B edition, die im Jahr 2024 veröffentlicht wurden.
 
-**Veröffentlichungsdatum**: 29. Oktober 2024
++++Versionshinweise Oktober 2024
+
+**Bereitstellungsdatum:**. Oktober 2024
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -95,9 +112,11 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Benutzerdefinierte Felder als Personenattribute | Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema in Experience Platform definiert haben, können diese Felder auch als Personenattribute in Bedingungen verwendet werden. Verwenden Sie diese benutzerdefinierten Attribute in: <li>Rollenvorlagen <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Weitere Informationen</a></li><li>Journey-Knoten vom Typ „Pfade nach Personen aufteilen“ <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Weitere Informationen</a></li> |
 | Verbesserung | Einstellungen für den E-Mail-Kanal | E-Mail-Einstellungen sind jetzt in der Benutzeroberfläche von Journey Optimizer B2B Edition sichtbar. Sie können die aktuellen Konfigurationen schnell überprüfen. Admins können dann auf _[!UICONTROL Einstellungen bearbeiten]_ klicken, um direkt zu den Einstellungen in Marketo Engage zu wechseln und sie entsprechend den Anforderungen Ihrer Organisation zu aktualisieren. <a href="../admin/configure-channels-emails.md">Weitere Informationen</a> |
 
-## Versionshinweise für September 2024 {#Sept-2024}
++++
 
-**Veröffentlichungsdatum**: 7. Oktober 2024
++++September 2024 - Versionshinweise
+
+**Bereitstellungsdatum:**. Oktober 2024
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -108,9 +127,11 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Journey-Knoten vom Typ „Aufteilen“ – Neues Anordnen von Pfaden | Bei Knoten vom Typ „Pfad aufteilen“ wird die Pfadfilterung in der Reihenfolge von oben nach unten ausgewertet. Jede Person oder jedes Konto fährt auf dem ersten Pfad fort, der passt. Sie können die Reihenfolge der definierten Pfade ändern, indem Sie oben rechts auf jeder Pfadkarte auf die Pfeile nach oben und unten klicken, um die Pfade in der Liste nach oben oder unten zu verschieben. <a href="../journeys/split-merge-paths-nodes.md#split-paths">Weitere Informationen</a> |
 | Verbesserung | Journey-Knoten vom Typ „Aufteilen“ – Zusätzliche Bedingungsattribute für den Aktivitätsverlauf | Wenn Sie Bedingungen verwenden, um die Pfadfilterung für einen Knoten vom Typ „Aufteilen“ nach Personen zu definieren, gibt es zwei zusätzliche Attribute: _Hat E-Mail geöffnet_ und _War übermittelte E-Mail_. Diese Ergänzungen bieten mehr Flexibilität beim Filtern von Personen in der Journey basierend auf E-Mail-Aktivitäten. <a href="../journeys/journey-nodes.md#split-paths">Weitere Informationen</a> |
 
-## Versionshinweise für August 2024 {#Aug-2024}
++++
 
-**Veröffentlichungsdatum**: 29. August 2024
++++Versionshinweise August 2024
+
+**Bereitstellungsdatum:**. August 2024
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -118,3 +139,5 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | LinkedIn Account Matched Audiences | Generieren Sie LinkedIn-Anzeigezielgruppen über Account Matched Audiences, damit Sie leere Rollen in Ihren Käufergruppen ausfüllen können. Durch die Definition eines Satzes von Käufergruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Käufergruppenparametern entsprechen. <p>Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. <a href="../data/linkedin-account-matched-audiences.md">Weitere Informationen</a> |
 | Verbesserung | Statuslebenszyklus für visuelle Inhaltsfragmente | Visuelle Fragmente werden jetzt mithilfe eines Statuslebenszyklus verwaltet. Der Fragmentstatus bestimmt seine Verfügbarkeit zur Verwendung in einer E-Mail oder E-Mail-Vorlage und die Änderungen, die Sie daran vornehmen können. <p>Dieser erweiterte Workflow erleichtert es Ihnen, wiederverwendete Inhalte entsprechend Ihrem Werbe- und Kommunikationskalender zu verwalten. <a href="../content/fragments.md#fragment-status-and-lifecycle">Weitere Informationen</a> |
+
++++
