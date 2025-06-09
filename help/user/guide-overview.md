@@ -3,9 +3,9 @@ title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B Edition zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesse
 
 >[!BEGINTABS]
 
->[!TAB GenStudio-E-Mail-Erlebnisse]
+>[!TAB E-Mail-Erlebnisse in GenStudio]
 
-Integrieren Sie E-Mail-Erlebnisse in GenStudio for Performance Marketing mit Journey Optimizer B2B edition, um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu wahren. Mit dieser Integration können Sie die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B edition kombinieren.
+Die Integration von E-Mail-Erlebnissen in GenStudio for Performance Marketing mit Journey Optimizer B2B Edition steigert die Marketing-Effizienz und wahrt die Markenkonsistenz. Diese Integration kombiniert die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B Edition.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Informationen zu E-Mail-Erlebnissen in GenStudio"}
 
@@ -121,7 +121,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Journey-Inhalt"><br/>
-      <strong>Journey-Inhalt</strong><br/><a href="./content/add-email.md">E-Mail-Kanal</a><br/><a href="./content/ai-assistant-emails.md">KI-Assistent für E-Mail</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio-E-Mail-Erlebnisse</a><br/><a href="./content/sales-alert-email.md">Verkaufswarnung E-Mail</a><br/><a href="./content/sms-authoring.md">SMS-Kanal</a>
+      <strong>Journey-Inhalt</strong><br/><a href="./content/add-email.md">E-Mail-Kanal</a><br/><a href="./content/ai-assistant-emails.md">KI-Assistent für E-Mail</a><br/><a href="./content/genstudio-email-workflow.md">E-Mail-Erlebnisse in GenStudio</a><br/><a href="./content/sales-alert-email.md">E-Mail mit Verkaufshinweis</a><br/><a href="./content/sms-authoring.md">SMS-Kanal</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content-Management"><br/>
@@ -139,7 +139,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>

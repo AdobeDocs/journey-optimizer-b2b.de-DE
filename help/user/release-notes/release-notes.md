@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu Journey Optimizer B2B edition
-description: Erfahren Sie mehr über die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B edition.
+title: Versionshinweise zu Journey Optimizer B2B Edition
+description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 0e1cfb13d3597f06ddb08d8b861de8909478eafd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2190'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,20 +20,20 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 ## Versionshinweise für 2025.5
 
-**Bereitstellungsdatum:**. Juni 2025
+**Bereitstellungsdatum**: 3. Juni 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Integration mit GenStudio for Performance Marketing | (Eingeschränkte Verfügbarkeit) Sie können jetzt E-Mail-Erlebnisse von GenStudio for Performance Marketing mit Journey Optimizer B2B edition integrieren, um die Marketing-Effizienz zu verbessern und die Markenkonsistenz zu gewährleisten. Mit dieser Integration können Sie die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B edition kombinieren. [Weitere Informationen](../content/genstudio-email-workflow.md) |
-| Verbesserung | Handlebar-Token-Format für E-Mail | Personalization-Token für E-Mail-Inhalte verwenden jetzt ein aktualisiertes Format, das vollständig mit Handlebar-Skripten kompatibel ist. Dieses Format verwendet _Binnenmajuskel-Schreibweise_ oder Unterstriche, wobei Leerzeichen eliminiert werden. [Weitere Informationen](../content/email-authoring.md#content-authoring---personalization) |
-| Verbesserung | Anzeige der Gesamtanzahl für Listen | Die _[!UICONTROL Lösungsinteressen]_ und _[!UICONTROL Account-Journey]_ werden durch die Anzeige der Gesamtanzahl neben der Suchleiste erweitert. |
+| Funktion | Integration mit GenStudio for Performance Marketing | (Eingeschränkte Verfügbarkeit) E-Mail-Erlebnisse in GenStudio for Performance Marketing können jetzt mit Journey Optimizer B2B Edition integriert werden, um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu gewährleisten. Diese Integration kombiniert die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B Edition. [Weitere Informationen](../content/genstudio-email-workflow.md) |
+| Verbesserung | Handlebar-Token-Format für E-Mail | Personalisierungs-Token für E-Mail-Inhalte verwenden jetzt ein aktualisiertes Format, das vollständig mit Handlebar-Scripting kompatibel ist. Dieses Format verwendet _Binnenmajuskel-Schreibweise_ oder Unterstriche, wobei Leerzeichen eliminiert werden. [Weitere Informationen](../content/email-authoring.md#content-authoring---personalization) |
+| Verbesserung | Anzeige der Gesamtzahl der Listen | Die Listenseiten für _[!UICONTROL Lösungsinteressen]_ und _[!UICONTROL Konto-Journeys]_ werden durch die Anzeige der Gesamtanzahl neben der Suchleiste erweitert. |
 
 
 ## Versionshinweise für 2025.4
 
-**Bereitstellungsdatum:**. April 2025
+**Bereitstellungsdatum**: 29. April 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -48,7 +48,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 ## Versionshinweise für 2025.3
 
-**Bereitstellungsdatum:**. April 2025
+**Bereitstellungsdatum**: 1. April 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -61,27 +61,27 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 ## Versionshinweise für 2025.2
 
-**Bereitstellungsdatum:**. März 2025
+**Bereitstellungsdatum**: 11. März 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Anpassbare Felder – Inhaltsfragmente | Beim visuellen Fragmentdesign können Sie Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Diese Funktion ermöglicht es der Autorin bzw. dem Autor der E-Mail oder Vorlage, einen benutzerdefinierten Feldwert anzugeben, der speziell für ihre bzw. seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. <a href="../content/fragment-authoring.md#enable-fragment-customization">Weitere Informationen</a> |
+| Funktion | Anpassbare Felder – Inhaltsfragmente | Während Sie visuelle Fragmente designen, können Sie Parameter für eine Komponente im Fragment als bearbeitbar festlegen. Diese Funktion ermöglicht es der Autorin bzw. dem Autor der E-Mail oder Vorlage, einen benutzerdefinierten Feldwert anzugeben, der speziell für ihre bzw. seine Anforderungen gilt. Diese Anpassungsmarkierung ist auf visuelle Bild-, Text- und Schaltflächenkomponenten beschränkt. <a href="../content/fragment-authoring.md#enable-fragment-customization">Weitere Informationen</a> |
 | Funktion | Integrierte Rollen und Produktberechtigungen für B2B | Experience Platform enthält jetzt eine Reihe integrierter (standardmäßiger) Rollen, mit denen Sie den Zugriff auf die B2B-Produktfunktionen verwalten können. <a href="../admin/user-management.md#b2b-built-in-roles">Weitere Informationen</a> <br/>Admins können jetzt benutzerdefinierte Rollen in Adobe Experience Platform definieren, um Produktberechtigungen aus Journey Optimizer B2B Edition einzuschließen.  <a href="../admin/user-management.md#b2b-product-permissions">Weitere Informationen</a> |
 | Funktion | Journey-Duplizierungstypen | Wenn Sie eine Konto-Journey duplizieren, können Sie Knotendetails einbeziehen, mit Ausnahme von in Journey Optimizer B2B Edition erstellten E-Mails und SMS-Nachrichten. Als Alternative können Sie eine Basiskopie der Struktur- und Pfadflüsse erstellen (ohne Knotendetails und Einstellungen). <a href="../journeys/journey-overview.md#duplicate-journey">Weitere Informationen</a> |
 | Verbesserung | Vier zusätzliche Beispielvorlagen für E-Mails | Die Bibliothek mit Beispielvorlagen für E-Mails enthält jetzt vier SecurFinancial-Vorlagen als Beispiele für die Wiederaufnahme von Interaktionen, Informieren, Pflegen und Feedback-Inhalte |
 
 ## Versionshinweise für 2025.1 {#Jan-2025}
 
-**Bereitstellungsdatum:**. Februar 2025
+**Bereitstellungsdatum**: 6. Februar 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Weiterleitung von Erlebnisereignissen | Admins können die auf Adobe Experience Platform (AEP) basierenden Ereignisdefinitionen konfigurieren. Mit diesen Konfigurationen können Marketing-Fachleute Konto-Journeys erstellen, die auf Erlebnisereignissen aus AEP reagieren. <a href="../admin/configure-aep-events.md">Weitere Informationen</a> |
-| Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen aufgeteilten Pfadknoten in einer Account-Journey, um Account-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Accounts zu identifizieren, die zusätzliche Interaktionen rechtfertigen. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
+| Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen Knoten vom Typ „Pfad aufteilen“ in einer Konto-Journey, um Konto-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Konten zu identifizieren, die zusätzliche Interaktionen gewährleisten. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
 | Funktion | Intelligentes Dashboard | Sehen Sie sich den Fortschritt von Käufergruppen durch ihre Konto-Journey an, einschließlich KI-generierter Erkenntnisse, um eine intelligentere Analyse und eine genauere Priorisierung von Konten zu erhalten. <a href="../dashboards/intelligent-dashboard.md">Weitere Informationen</a> |
 | Funktion | Details zu Käufergruppen und Konten | Sehen Sie sich Erkenntnisse auf der Käufergruppen- und Kontoebene an, um zu Beginn der Interaktion mit einer Kundin oder einem Kunden mehr Kontext- und historische Daten zu erhalten.<p>Zu den Details der Käufergruppe gehören alle erkannten First-Party-Intent-Daten. <a href="../buying-groups/buying-group-details.md">Weitere Informationen</a><p>Die Konten mit den Kontodetails zeigen den beobachteten Anstieg der Interaktionsabsicht, sodass Sie Ihren Vertrieb auf Konten hinweisen können, die für eine kundenspezifische, verkaufsorientierte Interaktion bereit sind.  <a href="../accounts/account-details.md">Weitere Informationen</a> |
 | Funktion | Journey-Überblick | Wenn Sie auf Konto-Journeys zugreifen, bietet die Registerkarte „Überblick“ eine umfassende Übersicht über Ihre aktiven Konto-Journeys mit detaillierten Fortschrittsanzeigen zu Konten, in denen Abschlüsse und Interaktionsaktivitäten anhand von Kreis- und Balkendiagrammen kategorisiert und quantifiziert werden.  <a href="../dashboards/journeys-dashboard.md">Weitere Informationen</a> |
@@ -94,11 +94,11 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 ## Versionen 2024
 
-Erweitern Sie die folgenden Listen für die Funktionen und Verbesserungen für Journey Optimizer B2B edition, die im Jahr 2024 veröffentlicht wurden.
+Erweitern Sie die folgenden Listen, um die Funktionen und Verbesserungen aus der 2024 veröffentlichen Version von Journey Optimizer B2B Edition anzuzeigen.
 
-+++Versionshinweise Oktober 2024
++++Versionshinweise für Oktober 2024
 
-**Bereitstellungsdatum:**. Oktober 2024
+**Bereitstellungsdatum**: 29. Oktober 2024
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -114,9 +114,9 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 +++
 
-+++September 2024 - Versionshinweise
++++Versionshinweise für September 2024
 
-**Bereitstellungsdatum:**. Oktober 2024
+**Bereitstellungsdatum**: 7. Oktober 2024
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
@@ -129,9 +129,9 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 +++
 
-+++Versionshinweise August 2024
++++Versionshinweise für August 2024
 
-**Bereitstellungsdatum:**. August 2024
+**Bereitstellungsdatum**: 29. August 2024
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 

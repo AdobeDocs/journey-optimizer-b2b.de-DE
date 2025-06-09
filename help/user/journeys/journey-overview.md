@@ -1,13 +1,13 @@
 ---
 title: Konto-Journeys
-description: Machen Sie sich mit den Account-Journey vertraut und erfahren Sie, wie Sie sie mithilfe der Account-Journey-Liste verwalten können.
+description: Informationen zu Konto-Journeys und wie diese mithilfe der Konto-Journey-Liste verwaltet werden.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: a67ab8268676050f0c5f34b94d4aebfd46aaf601
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ Ihre ersten Schritte mit Konto-Journeys:
 
 ## Aufrufen und Durchsuchen von Konto-Journeys
 
-Journey Erweitern Sie in der linken Navigation **[!UICONTROL Kontoverwaltung]** und klicken Sie auf **[!UICONTROL Kontoverwaltung]**.
+Erweitern Sie in der linken Navigationsleiste **[!UICONTROL Kontoverwaltung]** und klicken Sie auf die Option **[!UICONTROL Konto-Journeys]**.
 
-Geben Sie oben in der Liste im _Suche_-Tool Text ein, um die angezeigte Liste nach Namen zu filtern.
+Um die angezeigte Liste nach Namen zu filtern, geben Sie im Tool _Suchen_ oben in der Liste Text ein.
 
-![Filtern Sie die Liste der Journey des Kontos](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
+![Filtern der Liste der Konto-Journeys](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
-Die _[!UICONTROL Konto-Journey]_ Listenseite enthält die folgenden Spalten:
+Die Listenseite _[!UICONTROL Konto-Journeys]_ enthält die folgenden Spalten:
 
 * [!UICONTROL Name] (klicken Sie auf den Namen, um die Konto-Journey zur Bearbeitung zu öffnen)
 * [!UICONTROL Status]
@@ -62,18 +62,18 @@ Klicken Sie auf den Namen (als Link angezeigt) in der Liste _[!UICONTROL Konto-J
 Die Kopfzeile jeder Journey Map eines Kontos enthält:
 
 * Journey-Name
-* Bearbeitungswerkzeug für den Journey-Namen (![Bearbeitungssymbol](../assets/do-not-localize/icon-edit.svg) _Bearbeiten_)
+* Tool „Bearbeiten“ für den Journey-Namen (![Symbol Bearbeiten](../assets/do-not-localize/icon-edit.svg) _Bearbeiten_-Symbol)
 * Status der Journey
 
 Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Aktionen ändern. Je nach Status einer Journey stehen bestimmte Aktionen rechts in der Kopfzeile zur Verfügung oder nicht.
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Entwurf**&#x200B;_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-an-account-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Wenn eine Journey veröffentlicht wird, ändert sich der Journey-Status von „Entwurf“ zu „Live“,. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Einträge schließen](#close-to-new-entries) <li>[abbrechen](#abort-journey) |
-| _&#x200B;**Für neue Eintritte geschlossen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[abbrechen](#abort-journey) |
-| _&#x200B;**Abgebrochen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Beendet**&#x200B;_ | Wenn alle Konten auf einer Journey die Journey abgeschlossen haben, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Beendet_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-an-account-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Live**_ | Wenn eine Journey veröffentlicht wird, ändert sich der Journey-Status von „Entwurf“ zu „Live“,. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
+| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
+| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Beendet**_ | Wenn alle Konten in einer Journey die Journey abgeschlossen haben, ändert sich der Status von _Live_ oder _Für neue Eintritte geschlossen_ zu _Beendet_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
 
 ## Verwalten von Journeys
 
@@ -85,7 +85,7 @@ Wenn Sie eine Live-Journey oder geplante Journey abbrechen (stoppen), wird der J
 
 >[!IMPORTANT]
 >
->Wenn die Konto-Journey auf einer anderen Journey von einem Knoten _Aktion ausführen_ mit der Aktion _Konto zu (anderer) Journey hinzufügen_ verwendet wird, blockiert das Abbrechen der Journey diese Aktion auf dieser Journey.
+>Wenn die Konto-Journey in einer anderen Journey von einem Knoten _Aktion durchführen_ mit der Aktion _Konto zu (anderer) Journey hinzufügen_ verwendet wird, wird durch den Journey-Abbruch diese Aktion von dieser Journey geblockt.
 
 1. Klicken Sie auf den Namen der Journey, um sie zu öffnen.
 
@@ -157,4 +157,4 @@ Verwenden Sie die Aktion „Löschen“, um eine Journey dauerhaft zu löschen. 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443216/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
