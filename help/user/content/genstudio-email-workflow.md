@@ -6,10 +6,11 @@ topic: Content Supply Chain
 level: Intermediate
 role: User
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: fe54f7eba982a29461aa922b408e6b4d68e6b0e2
+exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
+source-git-commit: 82bfb3b425bc7a3931b5ce8b925b860ef70d11fe
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Verwenden einer mit GenStudio erstellten Vorlage"
->abstract="Verwenden Sie die Integration mit Adobe GenStudio for Performance Marketing, um eine GenStudio-Vorlage zu importieren, die mit der Adobe-KI-Technologie erweitert wurde."
+>abstract="Nutzen Sie die Integration mit Adobe GenStudio for Performance Marketing, um eine mit KI-Technologie von Adobe erweiterte GenStudio-Vorlage zu importieren."
 
 >[!AVAILABILITY]
 >
@@ -72,7 +73,7 @@ GenStudio for Performance Marketing erkennt bestimmte Elemente innerhalb der imp
 
 Verwenden Sie die HTML-Datei, um eine Vorlage in GenStudio for Performance Marketing zu erstellen.
 
-Weitere Informationen zum Hochladen einer HTML-Vorlage in GenStudio in Adobe GenStudio for Performance Marketing finden Sie unter [Hinzufügen einer Vorlage](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in der Dokumentation zu GenStudio for Performance Marketing.
+Weitere Informationen zum Hochladen einer HTML-Vorlage in GenStudio in Adobe GenStudio for Performance Marketing finden Sie unter [Hinzufügen einer Vorlage](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#add-a-template) in der Dokumentation zu GenStudio for Performance Marketing.
 
 Wenn Sie die exportierte HTML als Vorlage hochladen, überprüft GenStudio for Performance Marketing die HTML-Datei auf erkannte Felder. Verwenden Sie die Vorschau, um Ihre Vorlagenelemente zu überprüfen und sicherzustellen, dass Sie sie ordnungsgemäß mit den erkannten Feldnamen identifiziert haben.
 
