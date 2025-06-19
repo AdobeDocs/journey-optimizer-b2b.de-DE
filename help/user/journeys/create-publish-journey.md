@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Account Journey erstellen und veröffentliche
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '791'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ Um mit einer Konto-Journey zu beginnen, erstellen Sie die Journey und erstellen 
 
 ## Bausteine einer Journey
 
-Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Designer. In diesem Bereich können Sie Journey-Knoten hinzufügen und konfigurieren. Klicken Sie auf einen Knoten, um seinen Eigenschaftenbereich rechts von der Arbeitsfläche zu öffnen und ihn entsprechend Ihrem Design festzulegen. Eine Konto-Journey beginnt immer mit einem [Konto-Zielgruppenknoten](./account-audience-nodes.md) in dem Sie Ihrer Journey Eingaben hinzufügen können.
+Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Arbeitsbereich. In diesem Bereich können Sie Journey-Knoten hinzufügen und konfigurieren. Klicken Sie auf einen Knoten, um seinen Eigenschaftenbereich rechts von der Arbeitsfläche zu öffnen und ihn entsprechend Ihrem Design festzulegen. Eine Konto-Journey beginnt immer mit einem [Konto-Zielgruppenknoten](./account-audience-nodes.md) in dem Sie Ihrer Journey Eingaben hinzufügen können.
 
 Nachdem Sie eine Konto-Journey erstellt und die Audience hinzugefügt haben, erstellen Sie die Journey mithilfe von -Knoten. Die Journey-Zuordnung bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle mithilfe der folgenden Knotentypen erstellen können, um eine Account-Journey zu erstellen:
 
@@ -47,7 +47,7 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 * _Löschen eines Knotens mit aufgeteiltem Pfad_: Zum Löschen eines Knotens müssen alle nachfolgenden Knoten in jedem Pfad gelöscht werden.
 * _Löschen eines Zusammenführungsknotens_: Ein Zusammenführungsknoten kann nur gelöscht werden, wenn ein Pfad mit ihm verbunden ist. Um einen Zusammenführungsknoten zu löschen, lassen Sie nur einen Pfad ausgewählt.
-* _Wechseln zwischen Konto und Personen_: Sie können die Auswahl von Konten zu Personen nicht ändern, ohne alle nachfolgenden Knoten in jedem Pfad zu löschen.
+* _Wechseln zwischen Konto und Personen_: Wenn Sie die Auswahl von Konten zu Personen ändern, werden alle nachfolgenden Knoten in jedem Pfad gelöscht.
 
 ## Knoten hinzufügen
 
@@ -91,7 +91,7 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen&rbrace; klicken.
+1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen} klicken.
 
 1. Legen Sie im Dialogfeld die Zeitplanoptionen fest:
 
@@ -112,6 +112,10 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 ## Konto-Journey veröffentlichen
 
 Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. Nach der Veröffentlichung ändert sich der Journey-Status in _Live_. Wenn der Journey Fehler aufweist, ist die Schaltfläche _[!UICONTROL Veröffentlichen]_ mit folgenden Inhaltsinformationen abgeblendet: `Resolve errors before publishing`.
+
+>[!NOTE]
+>
+>Nach der Veröffentlichung einer Account-Journey gibt es eine Verzögerung von bis zu 24 Stunden, bis qualifizierte Accounts die Journey betreten können.
 
 1. Klicken Sie oben rechts in der Journey-Zuordnung auf **[!UICONTROL Veröffentlichen]**.
 
@@ -137,4 +141,4 @@ Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443228/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
