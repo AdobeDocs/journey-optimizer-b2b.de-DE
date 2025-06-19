@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ae2acbde4fbabb5d49a532e8060005acf04f8b26
+source-git-commit: ffa88d48f2badec61901a5de394f59eca35674a3
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 100%
+source-wordcount: '2187'
+ht-degree: 97%
 
 ---
 
@@ -27,9 +27,9 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Integration mit GenStudio for Performance Marketing | (Eingeschränkte Verfügbarkeit) E-Mail-Erlebnisse in GenStudio for Performance Marketing können jetzt mit Journey Optimizer B2B Edition integriert werden, um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu gewährleisten. Diese Integration kombiniert die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B Edition. [Weitere Informationen](../content/genstudio-email-workflow.md) |
+| Funktion | E-Mail-Tests mit Litmus | Mit einem [Litmus-Konto](https://www.litmus.com/email-testing){target="_blank"} können Sie jetzt das E-Mail-Rendering in gängigen E-Mail-Clients von Journey Optimizer B2B edition in der Vorschau anzeigen. Durch diese Integration können Sie sicherstellen, dass Ihr E-Mail-Inhalt in jedem E-Mail-Posteingang gut aussieht und wie vorgesehen funktioniert. [Weitere Informationen](../content/email-test-rendering.md) |
 | Verbesserung | Handlebar-Token-Format für E-Mail | Personalisierungs-Token für E-Mail-Inhalte verwenden jetzt ein aktualisiertes Format, das vollständig mit Handlebar-Scripting kompatibel ist. Dieses Format verwendet _Binnenmajuskel-Schreibweise_ oder Unterstriche, wobei Leerzeichen eliminiert werden. [Weitere Informationen](../content/email-authoring.md#content-authoring---personalization) |
 | Verbesserung | Anzeige der Gesamtzahl der Listen | Die Listenseiten für _[!UICONTROL Lösungsinteressen]_ und _[!UICONTROL Konto-Journeys]_ werden durch die Anzeige der Gesamtanzahl neben der Suchleiste erweitert. |
-
 
 ## Versionshinweise für 2025.4
 

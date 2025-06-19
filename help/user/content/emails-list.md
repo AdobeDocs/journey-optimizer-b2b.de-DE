@@ -4,16 +4,16 @@ description: Verwenden Sie die E-Mail-Liste, um Ihren E-Mail-Inhalt in Adobe Jou
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # E-Mails
 
-Wenn Sie [E-Mails erstellen](./add-email.md) fügen Sie sie im Kontext eines Journey-Knotens hinzu. Wenn Sie mit E-Mails außerhalb der Journey-Zuordnung arbeiten möchten, verwenden Sie die Liste _[!UICONTROL E-Mails]_, um die E-Mail zu finden und zu aktualisieren. Sie können E-Mails überprüfen oder die Einstellungen und Inhalte aktualisieren.
+Wenn Sie [E-Mails erstellen](./add-email.md) fügen Sie sie im Kontext eines Journey-Knotens hinzu. Wenn Sie mit E-Mail-Inhalten außerhalb der Journey-Zuordnung arbeiten möchten, verwenden Sie die Liste _[!UICONTROL E-Mails]_, um die E-Mail zu suchen und zu aktualisieren. Sie können E-Mails überprüfen oder die Einstellungen und Inhalte aktualisieren.
 
 ## Zugreifen auf und Verwalten von E-Mails
 

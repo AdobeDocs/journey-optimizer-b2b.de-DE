@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
-source-git-commit: d5e69ad5e24147b4ab8e3876a9fbb5325499686a
+source-git-commit: edf6222e7378a9eed715bc35bc10e8d32cbdb5d5
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 97%
+source-wordcount: '268'
+ht-degree: 96%
 
 ---
 
@@ -62,7 +62,9 @@ ht-degree: 97%
    + [Kontodetails](./accounts/account-details.md)
    + [XDM-Felder](./data/field-mapping.md)
 + Content-Management {#content-management}
-   + [E-Mails](./content/emails-list.md)
+   + E-Mails {#emails}
+      + [Arbeiten mit E-Mail-Inhalten](./content/emails-list.md)
+      + [Testen des E-Mail-Renderings](./content/email-test-rendering.md)
    + Assets {#assets}
       + [Überblick](./content/assets-overview.md)
       + Marketo Engage-Assets {#marketo-engage-dam}
