@@ -4,18 +4,18 @@ description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Journey Optimizer B2B
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8793e92054f57f64f311b039cc8161281b6269a8
+source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 19%
 
 ---
 
 # Verfassen von E-Mail-Nachrichten
 
-Nachdem Sie &lbrack;ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben&rbrack;(./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
+Nachdem Sie [ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben](./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
 
-Klicken Sie **[!UICONTROL der Registerkarte _[!UICONTROL Details]_ im rechten Bedienfeld auf]** E-Mail-Inhalt bearbeiten“.
+Klicken Sie **[!UICONTROL der Registerkarte]** Details _[!UICONTROL im rechten Bedienfeld auf]_ E-Mail-Inhalt bearbeiten“.
 
 ![Klicken Sie auf E-Mail-Inhalt bearbeiten ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
@@ -52,14 +52,13 @@ Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt
 1. [Hinzufügen von Bild-](#add-assets)) zur E-Mail-Nachricht.
 1. [Personalisieren des E-Mail-Inhalts](#personalize-content).
 1. [Links überprüfen und ](#preview-and-edit-linked-urls).
+1. [Testen Sie die E-Mail](#check-and-test-the-email).
 
 <!-- If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. The code editor allows you to edit the email source code, such as adding tracking or custom HTML tags.
 
 >[!CAUTION]
 >
 >You cannot revert back to the visual designer for this email after switching to the code editor. -->
-
-Wenn Ihr Inhalt fertig ist, klicken Sie oben auf **[!UICONTROL Inhalt simulieren]**, um das Rendering zu überprüfen. Sie können zwischen der Desktop- oder der mobilen Ansicht wählen.
 
 Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -133,7 +132,7 @@ Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen E-Mail
    * Klicken Sie auf das _Anzeigen_-Symbol für die geräteübergreifende Inhaltsvorschau.
    * Wählen Sie eines der standardmäßigen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um eine Vorschau des Inhalts anzuzeigen.
 
-### Mehr Optionen
+## Mehr Optionen
 
 Im Menü _[!UICONTROL Mehr …]_ oben im E-Mail-Design-Bereich können Sie die folgenden Aktionen ausführen:
 
@@ -145,15 +144,21 @@ Im Menü _[!UICONTROL Mehr …]_ oben im E-Mail-Design-Bereich können Sie die f
 * **[!UICONTROL Als Inhaltsvorlage speichern]** - Speichern Sie den E-Mail-Textkörper als E-Mail-Vorlage, die für mehrere E-Mails oder E-Mail-Vorlagen wiederverwendet werden kann. Geben Sie einen Namen und eine Beschreibung für die Vorlage ein und speichern Sie sie in der Liste der gespeicherten E-Mail-Vorlagen.
 * **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche in HTML im Format herunter, das als ZIP-Datei verpackt ist.
 
-## Überprüfen und Testen der E-Mail {#preview-test}
+## Überprüfen und Testen der E-Mail {#email-testing}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Überprüfen des Inhalt-Renderings"
 >abstract="Wenn Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
-Wenn der Nachrichteninhalt definiert ist, können Sie ihn mithilfe von Testprofilen in der Vorschau anzeigen, Testsendungen durchführen und das Rendering in gängigen Desktop-, Mobile- und Web-basierten Clients steuern. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten eine Vorschau der Anzeige dieses Inhalts in der Nachricht anzeigen.
+Wenn der Nachrichteninhalt definiert ist, können Sie ihn mithilfe von Testprofilen in der Vorschau anzeigen, einen Testversand durchführen und die Darstellung im Seitenverhältnis für Desktop-Computer und Mobilgeräte überprüfen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten eine Vorschau der Anzeige dieses Inhalts in der Nachricht anzeigen.
 
-Um eine Vorschau des E-Mail-Inhalts anzuzeigen, klicken Sie **[!UICONTROL Inhalt simulieren]** und fügen Sie dann ein Testprofil hinzu, um Ihre Nachricht mithilfe der Testprofildaten zu überprüfen.
+Um [Vorschau des E-Mail](./email-simulate-content.md)Inhalts anzuzeigen, klicken Sie auf **[!UICONTROL Inhalt simulieren]** und wählen Sie ein Testprofil aus, um Ihre Nachricht mithilfe der Daten des Personenprofils zu überprüfen.
 
 ![Simulieren Sie den E-Mail-Inhalt, um Ihr Design zu überprüfen](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
+
+Sie können auf zusätzliche Tools zugreifen, um den E-Mail-Inhalt zu validieren und zu überprüfen:
+
+* [Durchführen eines Testversands](./email-simulate-content.md#send-proofs)
+* [Testrendering in E-Mail Clients](./email-test-rendering.md)
+<!-- * Generate a spam report -->
