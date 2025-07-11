@@ -1,13 +1,13 @@
 ---
 title: Onboarding-Anleitungen für Administratoren und Marketing-Experten
-description: Erfahren Sie als neuer Administrator oder Anwender in Journey Optimizer B2B edition mehr über die wichtigsten Bereiche des Onboarding-Prozesses.
+description: Hier finden neue Admins sowie neue Benutzer und Benutzerinnen von Journey Optimizer B2B Edition Informationen zu den wichtigsten Bereichen des Onboarding-Verfahrens.
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: d0bd2d5153b972df92ff42c6f1eebb25448b222f
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Erstellen Sie Sandboxes**, um Ihre Instanzen in separate, isolierte virtuelle Umgebungen zu unterteilen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Arbeiten Sie mit Ihrem Dateningenieur zusammen** um Ihre B2B-Zielgruppe und Profilaktivierung zu planen und zu implementieren. Überprüfen Sie die veröffentlichten Blueprints und befolgen Sie die Richtlinien entsprechend Ihren Anforderungen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Arbeiten Sie mit Ihrem Dateningenieur zusammen** um Ihre B2B-Zielgruppe und Profilaktivierung zu planen und zu implementieren. Überprüfen Sie die veröffentlichten Blueprints und befolgen Sie die Richtlinien entsprechend Ihren Anforderungen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Richten Sie das Produktprofil ein**. Bei einem Produktprofil handelt es sich um eine Reihe von Einzelberechtigungen in Adobe Experience Platform, die Benutzenden den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. [Weitere Informationen](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
