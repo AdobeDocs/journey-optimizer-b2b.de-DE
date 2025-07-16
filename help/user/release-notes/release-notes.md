@@ -3,9 +3,9 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7e9396a7ac029c173fe3d9b0b1bab6b7c4521ee0
+source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2166'
 ht-degree: 96%
 
 ---
@@ -26,7 +26,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | E-Mail-Tests mit Litmus | Mit einem [Litmus-Konto](https://www.litmus.com/email-testing){target="_blank"} können Sie jetzt das E-Mail-Rendering in gängigen E-Mail-Clients von Journey Optimizer B2B edition in der Vorschau anzeigen. Durch diese Integration können Sie sicherstellen, dass Ihr E-Mail-Inhalt in jedem E-Mail-Posteingang gut aussieht und wie vorgesehen funktioniert. [Weitere Informationen](../content/email-test-rendering.md) |
+| Funktion | E-Mail-Tests mit Litmus | Mit einem [Litmus Enterprise-Konto](https://www.litmus.com/email-testing){target="_blank"} können Sie jetzt das E-Mail-Rendering in gängigen E-Mail-Clients von Journey Optimizer B2B edition aus in der Vorschau anzeigen. Durch diese Integration können Sie sicherstellen, dass Ihr E-Mail-Inhalt in jedem E-Mail-Posteingang gut aussieht und wie vorgesehen funktioniert. [Weitere Informationen](../content/email-test-rendering.md) |
 | Verbesserung | E-Mail duplizieren | Beim Hinzufügen einer E-Mail für einen Journey-Knoten können Sie jetzt eine vorhandene E-Mail duplizieren. Ändern Sie die Einstellung oder den Inhalt für die duplizierte E-Mail oder lassen Sie sie intakt.  [Weitere Informationen](../content/add-email.md#add-an-email-to-your-journey) |
 | Verbesserung | Handlebar-Token-Format für E-Mail | Personalisierungs-Token für E-Mail-Inhalte verwenden jetzt ein aktualisiertes Format, das vollständig mit Handlebar-Scripting kompatibel ist. Dieses Format verwendet _Binnenmajuskel-Schreibweise_ oder Unterstriche, wobei Leerzeichen eliminiert werden. [Weitere Informationen](../content/email-authoring.md#content-authoring---personalization) |
 | Verbesserung | Anzeige der Gesamtzahl der Listen | Die Listenseiten für _[!UICONTROL Lösungsinteressen]_ und _[!UICONTROL Konto-Journeys]_ werden durch die Anzeige der Gesamtanzahl neben der Suchleiste erweitert. |
