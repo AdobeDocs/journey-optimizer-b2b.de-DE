@@ -31,7 +31,7 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Erstellen Sie Sandboxes**, um Ihre Instanzen in separate, isolierte virtuelle Umgebungen zu unterteilen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Arbeiten Sie mit Ihrem Dateningenieur zusammen** um Ihre B2B-Zielgruppe und Profilaktivierung zu planen und zu implementieren. Überprüfen Sie die veröffentlichten Blueprints und befolgen Sie die Richtlinien entsprechend Ihren Anforderungen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Arbeiten Sie mit Ihrem Dateningenieur zusammen** um Ihre B2B-Zielgruppe und Profilaktivierung zu planen und zu implementieren. Überprüfen Sie die veröffentlichten Blueprints und befolgen Sie die Richtlinien entsprechend Ihren Anforderungen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Planen und implementieren Sie die Marketo Engage-Integration** um benutzerdefinierte Schemata, die Aufnahme von Profilen und Konten und die Orchestrierung personalisierter Journey für Einkaufsgruppen einzubinden. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
