@@ -64,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Anleitungsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451770/?learn=on&captions=ger)
