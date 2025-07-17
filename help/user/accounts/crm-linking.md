@@ -91,7 +91,7 @@ Verwenden Sie das `Account` -Objekt, um die 18-stellige ID des Kontos abzurufen,
 
 +++
 
-Schaltfläche +++Detailseite“
++++Schaltfläche Detailseite“
 
 1. Wechseln Sie in Salesforce **[!UICONTROL Setup]** > **[!UICONTROL Objektmanager]** > **[!UICONTROL Konto]**/**[!UICONTROL Kontakt]**/**[!UICONTROL Lead]** > **[!UICONTROL Schaltflächen, Links und Aktionen]**.
 1. Klicken Sie **[!UICONTROL Neue Schaltfläche oder Link]** oben rechts und erstellen Sie die Schaltfläche Detailseite .
