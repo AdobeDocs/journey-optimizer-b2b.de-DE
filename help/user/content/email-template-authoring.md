@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Sie Inhalts-E-Mail-Vorlagen erstellen, die für A
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: 45335eeba059ca8b4b390b336fbcb0ef29bd90ca
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 17%
+source-wordcount: '421'
+ht-degree: 14%
 
 ---
 
@@ -28,6 +28,16 @@ Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Vorlage erstellen können."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Hinzufügen von benutzerdefiniertem CSS
+
+Sie können Ihr eigenes benutzerdefiniertes CSS direkt im Design-Bereich der E-Mail-Vorlage hinzufügen. Verwenden Sie benutzerdefiniertes CSS, um erweiterte und spezifische Stile anzuwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen. Es empfiehlt sich, diese Formatierung auf höchster Ebene hinzuzufügen, bevor Sie Komponenten wie Bilder, Schaltflächen und Text einbeziehen.
+
+Wählen Sie bei mindestens einer Inhaltskomponente auf der Arbeitsfläche die Komponente **[!UICONTROL Hauptteil]** in der linken Navigationsstruktur aus, um auf den benutzerdefinierten CSS-Editor zuzugreifen.
+
+![Zugriff auf Textkörperstile](./assets/email-template-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Hinzufügen von Fragmenten
 

@@ -5,10 +5,10 @@ feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 19%
+source-wordcount: '431'
+ht-degree: 16%
 
 ---
 
@@ -29,6 +29,16 @@ Nachdem Sie [Landingpage erstellt haben](./landing-pages.md#create-a-landing-pag
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Hinzufügen von benutzerdefiniertem CSS
+
+Sie können Ihr eigenes benutzerdefiniertes CSS direkt im Design-Bereich der Landingpage hinzufügen. Verwenden Sie benutzerdefiniertes CSS, um erweiterte und spezifische Stile anzuwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen. Es empfiehlt sich, diese Formatierung auf höchster Ebene hinzuzufügen, bevor Sie Komponenten wie Bilder, Schaltflächen und Text einbeziehen.
+
+Wählen Sie bei mindestens einer Inhaltskomponente auf der Arbeitsfläche die Komponente **[!UICONTROL Hauptteil]** in der linken Navigationsstruktur aus, um auf den benutzerdefinierten CSS-Editor zuzugreifen.
+
+![Zugriff auf Textkörperstile](./assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Hinzufügen von Assets
 

@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Käufergruppen in Journey Optimizer B2B Edition d
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: d1130841ed3c560208bc93c53a54169f9b0b94aa
-workflow-type: ht
-source-wordcount: '1778'
-ht-degree: 100%
+source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+workflow-type: tm+mt
+source-wordcount: '2151'
+ht-degree: 57%
 
 ---
 
@@ -18,20 +18,34 @@ Bei B2B-Vertriebs- und Marketing-Aktivitäten sind Konten wichtig für jede Stra
 
 ![Diagramm zu Kontorollen](assets/account-roles-diagram.png){width="800"}
 
-Innerhalb des Kontos könnte es eine Untergruppe von Personen geben, die die _Käufergruppe_ umfassen. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen. Sie benötigen daher besondere Aufmerksamkeit von der Marketing-Fachkraft und ihnen müssen möglicherweise andere Informationen bereitgestellt werden als anderen Personen, die dem Konto zugeordnet sind. Käufergruppen können unterschiedliche Personengruppen für verschiedene Produktlinien oder Angebote umfassen. Beispielsweise ist für ein Cybersicherheitsprodukt in der Regel die Kaufgenehmigung durch einen Chief Information Officer oder Chief Security Officer und einen Vertreter der Rechtsabteilung erforderlich, aber ein Produkt zur Fehlersuche kann in der Regel einen VP of Engineering und einen IT Director als Mitglieder der Käufergruppe haben.
+Innerhalb des Kontos könnte es eine Teilmenge von Personen geben, die die _Käufergruppe_ umfassen. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen. Sie benötigen daher besondere Aufmerksamkeit von der Marketing-Fachkraft und ihnen müssen möglicherweise andere Informationen bereitgestellt werden als anderen Personen, die dem Konto zugeordnet sind. Käufergruppen können unterschiedliche Personengruppen für verschiedene Produktlinien oder Angebote umfassen. Beispielsweise kann für ein Cybersicherheitsprodukt in der Regel ein Chief Information Officer oder ein Chief Security Officer sowie ein Vertreter der Rechtsabteilung erforderlich sein, um einen Kauf zu genehmigen. Ein Produkt zur Fehlersuche kann in der Regel einen VP of Engineering und einen IT Director als Mitglieder der kaufenden Gruppe haben.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
 
 ## Wichtige Komponenten
 
-Sie können die Effektivität des Marketings steigern, indem Sie Käufergruppen in Journey Optimizer B2B Edition einrichten, die fehlende Mitglieder für Ihre Zielkontenlisten identifizieren. Diese Gruppen basieren auf den Lösungen, für deren Vertrieb Ihre Vertriebs-Teams verantwortlich sind. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Käufergruppen beginnen, stellen Sie sicher, dass Sie die wichtigen Komponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
+Sie können die Marketing-Effektivität steigern, indem Sie in Journey Optimizer B2B edition Einkaufsgruppen einrichten, die Mitglieder für Ihre Target-Kontolisten basierend auf den Lösungen identifizieren, für die Ihre Vertriebsteams verantwortlich sind. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Einkaufsgruppen beginnen, stellen Sie sicher, dass Sie die Schlüsselkomponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
 
 | Komponente | Zweck |
 | --------- | ------- |
-| Lösungsinteresse | Diese Komponente bietet die Antwort auf: <ul><li>Was verkaufen Sie als Marketing-Organisation?</li><li>Welches Produkt oder welche Produktkollektion möchten Sie verkaufen?</li></ul>  **_Beispiel:_** Crossselling des neuen Produktes X an Bestandskundschaft |
-| Kontozielgruppe | Diese Komponente bietet die Antwort auf: <ul><li>An wen verkaufen Sie?</li><li>Auf welche Kontoliste zielen Sie ab?</li></ul> **_Beispiel:_** Kontosegment, das durch Konten mit Produkt Y und einem Umsatz von mehr als 1 Million definiert wird. |
-| Vorlagen für Käufergruppenrollen | Diese Komponente bietet die Antwort auf: <ul><li>Auf welche Rollen zielen Sie ab?</li><li>Welcher Regelsatz wird verwendet, um zu bestimmen, wer welchen Käufergruppenrollen zugewiesen wird?</li></ul>  **_Beispiel:_** Weisen Sie eine Person mit CMO-Titel der Rolle „Entscheidungsträger“ zu. |
+| Lösungsinteresse | Diese Komponente bietet die Antwort auf: <ul><li>Was verkaufen Sie als Marketing-Organisation?</li><li>Welches Produkt oder welche Produktkollektion möchten Sie verkaufen?</li></ul>  **_Example:_** Crossselling new Product X to existing customers |
+| Kontozielgruppe | Diese Komponente bietet die Antwort auf: <ul><li>An wen verkaufen Sie?</li><li>Auf welche Kontoliste zielen Sie ab?</li></ul> **_Example:_** Kontensegment, das durch Konten mit Produkt Y mit einem Umsatz über 1 Million definiert ist |
+| Vorlagen für Käufergruppenrollen | Diese Komponente bietet die Antwort auf: <ul><li>Auf welche Rollen zielen Sie ab?</li><li>Welcher Regelsatz wird verwendet, um zu bestimmen, wer welchen Käufergruppenrollen zugewiesen wird?</li></ul>  **_Example:_** Weisen Sie der Rolle Entscheidungsträger eine Person mit CMO-Titel zu |
 | Käufergruppenphasen | (Optional) Diese Komponente bietet die Antwort auf die Frage: Wie stark ist die Käufergruppe auf Erfolg oder Misserfolg ausgerichtet? |
+
+## Mitgliederzuweisung
+
+Es gibt drei Möglichkeiten, wie Mitglieder einer Einkaufsgruppe zugewiesen oder aus dieser entfernt werden. In der folgenden Liste werden diese Methoden zum Hinzufügen und Entfernen in der Reihenfolge ihrer Priorität beschrieben. Die oberste Methode hat die höchste Priorität und eine niedrigere kann sie nicht überschreiben.
+
+1. **_Manuelle Aktion_** - Eine manuelle Aktion zum Hinzufügen eines Mitglieds oder zum Entfernen eines Mitglieds, die von einem Verkaufsbenutzer für die Einkaufsgruppe ausgeführt wird
+2. **_Journey-Aktion_** - Journey [Aktionsknoten für den Erwerb der Gruppenmitgliedschaft](../journeys/action-nodes.md#add-a-people-based-action) (_Der Einkaufsgruppe zuweisen_ oder _Aus der Einkaufsgruppe entfernen_)
+3. **_Systemaufträge_** - Kauf von [- ](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) Wartungsaufträgen.
+
+Um sicherzustellen, dass die Mitgliederzuweisung in einer Einkaufsgruppe nicht falsch überschrieben wird, ist diese Liste in der Reihenfolge der Rangfolge, die im System befolgt wird, um eine genaue Mitgliederzuweisung sicherzustellen. Wenn ein Verkaufsbenutzer beispielsweise manuell ein Mitglied zur Einkaufsgruppe hinzufügt, möchte er nicht, dass ein Wartungsauftrag diese Hinzufügung ändert. Unter Verwendung der Rangfolge der Priorität werden die folgenden Szenarien erzwungen:
+
+* Wenn ein(e) Benutzende(r) ein Mitglied manuell einer Einkaufsgruppe zuweist und anschließend ein Wartungsauftrag für die Einkaufsgruppe ausgeführt wird, bei dem dasselbe Mitglied aus der Einkaufsgruppe entfernt wird, **der Wartungsauftrag dieses** nicht entfernen und kann die manuelle Zuweisung nicht überschreiben.
+* Wenn ein(e) Benutzende(r) ein Mitglied manuell einer Einkaufsgruppe zuweist und anschließend ein ausgelöster Journey-Knoten auftritt, der dasselbe Mitglied aus der Einkaufsgruppe entfernt, wird dieses Mitglied durch die Knotenaktion **nicht entfernt** und die manuelle Zuweisung kann nicht überschrieben werden.
+* Wenn ein ausgelöster Journey-Aktionsknoten ein Mitglied zu einer Einkaufsgruppe hinzufügt und darauf ein Wartungsauftrag für eine Einkaufsgruppe folgt, der dasselbe Mitglied aus der Einkaufsgruppe entfernt, entfernt der Wartungsauftrag **dieses Mitglied nicht** und kann die Journey-Aktionszuweisung nicht überschreiben.
 
 ## Käufergruppen-Workflow
 
@@ -40,11 +54,11 @@ Sie können die Effektivität des Marketings steigern, indem Sie Käufergruppen 
    * Definieren Sie [Lösungsinteresse](./solution-interests.md) und [Rollenvorlage](./buying-groups-role-templates.md)
    * [Erstellen Sie die Käufergruppe](./buying-groups-create.md#create-buying-groups) und weisen Sie [Käufergruppenphasen](./buying-group-stages.md) zu.
 
-1. Identifizieren Sie fehlende Personen.
+1. Identifizieren Sie fehlende Personen anhand der Vollständigkeit.
 
    Analysieren Sie die Käufergruppe mithilfe von Filtern.
 
-   **_Beispiel_** Die Rolle „Entscheidungsträger“ fehlt und der Vollständigkeitswert ist &lt; 50
+   **_:_**: Die Rolle des Entscheidungsträgers fehlt und der Vollständigkeitswert ist &lt; 50
 
 1. Vervollständigen Sie die Definitionen der Käufergruppen.
 <!--
@@ -52,7 +66,7 @@ Sie können die Effektivität des Marketings steigern, indem Sie Käufergruppen 
    * Send to LinkedIn Destination
    * Enrich with Zoominfo -->
 
-1. Verwenden Sie die Käufergruppe Ihrer Konto-Journeys.
+1. Fügen Sie Ihren Account-Journey Kauf-Gruppenaktionen hinzu.
 
 ## Anzeigen von Käufergruppen und Komponenten
 
@@ -63,8 +77,8 @@ Die Seite _[!UICONTROL Käufergruppen]_ ist in Registerkarten unterteilt:
 | Tab | Beschreibung |
 | --- | ----------- |
 | [!UICONTROL Übersicht] | Diese Registerkarte ist die Standardeinstellung und zeigt das [Käufergruppen-Dashboard](../dashboards/buying-groups-dashboard.md) an. |
-| [!UICONTROL Durchsuchen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Käufergruppen anzeigen. </li><li>Nach dem Namen der Käufergruppe suchen. </li><li>Nach Lösungsinteresse filtern. </li><li>Details zur Käufergruppe aufschlüsseln. </li><li>Erstellen sie eine Käufergruppe. </li></ul> |
-| [!UICONTROL Lösungsinteressen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Käufergruppen anzeigen. </li><li>Nach dem Namen der Käufergruppe suchen. </li><li>Auf Lösungsinteresseneigenschaften zugreifen und diese bearbeiten. </li><li>Lösungsinteresse erstellen. </li><li>Lösungsinteresse löschen. </li><li>Käufergruppenaufträge anzeigen und löschen. </li></ul> |
+| [!UICONTROL Durchsuchen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Käufergruppen anzeigen. </li><li>Suchen Sie nach dem Namen der Einkaufsgruppe. </li><li>Nach Lösungsinteresse filtern. </li><li>Details zur Käufergruppe aufschlüsseln. </li><li>Erstellen sie eine Käufergruppe. </li></ul> |
+| [!UICONTROL Lösungsinteressen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Käufergruppen anzeigen. </li><li>Suchen Sie nach dem Namen der Einkaufsgruppe. </li><li>Auf Lösungsinteresseneigenschaften zugreifen und diese bearbeiten. </li><li>Lösungsinteresse erstellen. </li><li>Lösungsinteresse löschen. </li><li>Käufergruppenaufträge anzeigen und löschen. </li></ul> |
 | [!UICONTROL Rollenvorlagen] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Liste der vorhandenen Rollenvorlagen anzeigen. </li><li>Nach dem Namen der Rollenvorlage suchen. </li><li>Auf die Eigenschaften und Bedingungen von Rollenvorlagen zugreifen und diese bearbeiten. </li><li>Eine Rollenvorlage erstellen. </li><li>Eine Rollenvorlage löschen. </li></ul> |
 | [!UICONTROL Stadien] | Diese Registerkarte unterstützt die folgenden Aktivitäten: <ul><li>Modell der vorhandenen Käufergruppenphasen anzeigen. </li><li>Auf den Modellentwurf der Käufergruppenphasen zugreifen und diesen bearbeiten. </li><li>Das Modell für Käufergruppenphasen erstellen. </li></ul> |
 
@@ -100,42 +114,48 @@ Die Interaktionsbewertung einer Käufergruppe ist eine Zahl, anhand der die Inte
 
 +++Für die Bewertung verwendete Aktivitäten
 
+>[!BEGINSHADEBOX]
+
 | Aktivitätsname | Beschreibung | Interaktionstyp | Maximale tägliche Frequenzlimitierung | Aktivitätsgewichtung |
 | --- | --- | --- | --- | --- |
-| Für Ereignis registrieren | Registriert sich für ein Ereignis, das mit einer Kampagne verbunden ist | Ereignis | 20 | 60 |
-| An Ereignis teilnehmen | Nimmt an einem Kampagnenereignis teil | Ereignis | 20 | 90 |
-| E-Mail öffnen | Öffnet eine E-Mail | E-Mail | 20 | 30 |
-| Auf E-Mail klicken | Klickt auf einen Link in einer E-Mail | E-Mail | 20 | 30 |
-| Verkaufs-E-Mail öffnen | Öffnet eine Verkaufs-E-Mail | E-Mail | 20 | 30 |
-| Auf Verkaufs-E-Mail klicken | Klickt auf einen Link in einer Verkaufs-E-Mail | E-Mail | 20 | 30 |
-| Interessanter Moment | Erlebt einen interessanten Moment | Kuratiert | 20 | 60 |
-| Push-Benachrichtigung antippen | Empfängt eine Push-Benachrichtigung | Mobile | 20 | 30 |
-| Aktivität einer Mobile App | Führt eine Aktivität in einer Mobile App durch | Mobile | 20 | 30 |
-| Sitzung einer Mobile App | Ist in einer Mobile-App-Sitzung aktiv | Mobile | 20 | 30 |
-| Facebook-Lead-Ads-Formular ausfüllen | Füllt ein Formular für Lead-Anzeigen auf einer Facebook-Seite aus und sendet es ab. | Social | 20 | 30 |
-| RTP-Handlungsaufforderung anklicken | Klickt auf eine personalisierte Handlungsaufforderung | Web | 20 | 60 |
-| In-App-Nachricht anzeigen | Zeigt eine In-App-Nachricht an | Mobile | 20 | 30 |
-| In-App-Nachricht antippen | Tippt auf eine In-App-Nachricht  | Mobile | 20 | 30 |
-| SMS abonnieren | Abonniert SMS-Nachrichten | SMS | 20 | 90 |
-| Auf Verkaufs-E-Mail antworten | Antwortet auf eine Verkaufs-E-Mail | E-Mail | 20 | 30 |
-| Hatte eine Interaktion mit einem Dialog | Interagiert mit einem Dynamic Chat-Dialog | Chat | 20 | 90 |
-| Hatte eine Interaktion mit Dokument in Dialog | Interagiert mit einem Dokument in einem Dynamic Chat-Dialog | Chat | 20 | 90 |
-| Arrangierte ein Meeting in Dialog | Plant einen Termin in einem Dynamic Chat-Dialog | Chat | 20 | 90 |
-| Dialogziel erreicht | Erreicht ein Ziel in einem Dynamic Chat-Dialog |  | 20 | 90 |
-| Antwortete auf eine Umfrage in Webinar | Antwortet auf eine Umfrage in einem Webinar-Ereignis | Chat | 20 | 90 |
-| Handlungsaufforderung im Webinar angeklickt | Klickt auf einen Link mit Handlungsaufruf in einem Webinar-Ereignis | Anruf | 20 | 30 |
-| Asset-Downloads im Webinar | Lädt in einem Webinar-Ereignis eine Datei/ein Asset herunter | Ereignis | 20 | 60 |
-| Stellt Fragen im Webinar | Stellt Fragen in einem Webinar-Ereignis | Ereignis | 20 | 60 |
-| Nahm am Event teil | Nahm am Event teil | Ereignis | 20 | 60 |
-| Hatte eine Interaktion mit einem Support-Mitarbeitenden per Dialog | Interagiert mit einem Agenten in einem Dynamic Chat-Dialog | Chat | 20 | 90 |
-| Klickte auf Link im Chat in Dialog | Klickt auf einen Link in einem Dynamic Chat-Dialog | Chat | 20 | 90 |
-| Hatte eine Interaktion mit einem Konversationsschema | Interagiert mit einem Dynamic Chat-Konversationsfluss | Chat | 20 | 90 |
-| Arrangierte ein Meeting in Konversationsschema | Plant einen Termin in einem Dynamic Chat-Konversationsfluss | Chat | 20 | 90 |
-| Ziel des Konversationsschemas erreicht | Erreicht ein Ziel in einem Dynamic Chat-Konversationsfluss | Chat | 20 | 90 |
-| Hatte eine Interaktion mit Dokument in Konversationsschema | Interagiert mit einem Dokument in einem Dynamic Chat-Konversationsfluss | Chat | 20 | 90 |
-| Hatte eine Interaktion mit Mitarbeitenden in Konversationsschema | Interagiert mit einem Agenten in einem Dynamic Chat-Konversationsfluss | Chat | 20 | 90 |
-| Klickte auf Link im Chat in Konversationsschema | Klickt auf einen Link in einem Dynamic Chat-Konversationsfluss | Chat | 20 | 90 |
-| Link in SMS anklicken V2 | Klickt auf einen Link in einer SMS-Nachricht | SMS | 20 | 90 |
+| [!UICONTROL Web-Seite besuchen] | Ein Mitglied besucht eine Webseite | Web | 20 | 40 |
+| [!UICONTROL Formular ausfüllen] | Ein Mitglied füllt ein Formular auf einer Web-Seite aus und sendet es. | Web | 20 | 40 |
+| [!UICONTROL Link klicken] | Ein Mitglied klickt auf einen Link auf einer Webseite | Web | 20 | 40 |
+| [!UICONTROL E-Mail öffnen] | Ein Mitglied öffnet eine E-Mail | E-Mail | 20 | 30 |
+| [!UICONTROL E-Mail klicken] | Ein Mitglied klickt auf einen Link in einer E-Mail | E-Mail | 20 | 30 |
+| [!UICONTROL Verkaufs-E-Mail öffnen] | Ein Mitglied öffnet eine Verkaufs-E-Mail | E-Mail | 20 | 30 |
+| [!UICONTROL Verkaufs-E-Mail klicken] | Ein Mitglied klickt auf einen Link in einer Verkaufs-E-Mail | E-Mail | 20 | 30 |
+| [!UICONTROL Interessanter Moment] | Ein Mitglied hat einen interessanten Moment | Kuratiert | 20 | 60 |
+| [!UICONTROL Tippen Sie auf Push-Benachrichtigung] | Ein Mitglied erhält eine Push-Benachrichtigung | Mobile | 20 | 30 |
+| [!UICONTROL Mobile-App-Aktivität] | Ein Mitglied führt eine Aktivität in einer mobilen App aus | Mobile | 20 | 30 |
+| [!UICONTROL Mobile-App-Sitzung] | Ein Mitglied ist in einer App-Sitzung aktiv | Mobile | 20 | 30 |
+| [!UICONTROL Facebook-Lead-Anzeigen-Formular ausfüllen] | Ein Mitglied füllt ein Lead-Anzeigen-Formular auf einer Facebook-Seite aus und sendet es. | Social | 20 | 30 |
+| [!UICONTROL Klicken Sie auf RTP Call to action] | Ein Mitglied klickt auf eine personalisierte call to action | Web | 20 | 60 |
+| [!UICONTROL In-App-Nachricht anzeigen] | Ein Mitglied sieht sich eine In-App-Nachricht an | Mobile | 20 | 30 |
+| [!UICONTROL Tippen Sie auf In-App-Nachricht] | Ein Mitglied tippt auf eine In-App-Nachricht | Mobile | 20 | 30 |
+| [!UICONTROL SMS abonnieren] | Abonnierte SMS-Nachrichten | SMS | 20 | 90 |
+| [!UICONTROL Antwort auf Verkaufs-E-Mail] | Ein Mitglied antwortet auf eine Verkaufs-E-Mail | E-Mail | 20 | 30 |
+| [!UICONTROL Interagiert mit einem Dialog] | Ein Mitglied greift auf ein Dynamic Chat-Dialogfeld zu | Chat | 20 | 90 |
+| [!UICONTROL Interagiert mit einem Dokument im Dialogfeld] | Ein Mitglied interagiert in einem Dynamic Chat-Dialogfeld mit einem Dokument | Chat | 20 | 90 |
+| [!UICONTROL Geplante Besprechung im Dialogfeld] | Ein Mitglied plant einen Termin in einem Dynamic Chat-Dialogfeld | Chat | 20 | 90 |
+| [!UICONTROL Dialogziel erreicht] | Ein Mitglied erreicht ein Ziel in einem Dynamic Chat-Dialogfeld |  | 20 | 90 |
+| [!UICONTROL Beantwortet eine Umfrage im Webinar] | Teilnehmer antwortet auf eine Umfrage in einem Webinar-Ereignis | Chat | 20 | 90 |
+| [!UICONTROL Call to action im Webinar angeklickt] | Ein Teilnehmer klickt auf einen call-to-action-Link in einem Webinar-Ereignis | Anruf | 20 | 30 |
+| [!UICONTROL Asset-Downloads im Webinar] | Ein Mitglied lädt eine Datei/ein Asset in einem Webinar-Ereignis herunter | Ereignis | 20 | 60 |
+| [!UICONTROL Stellt Fragen im Webinar] | Ein Mitglied stellt in einer Webinar-Veranstaltung Fragen. | Ereignis | 20 | 60 |
+| [!UICONTROL Hat an der Veranstaltung teilgenommen] | Ein Mitglied hat an einer Veranstaltung teilgenommen | Ereignis | 20 | 60 |
+| [!UICONTROL Interagiert mit einem Agenten im Dialog] | Ein Mitglied tritt mit einem Agenten in einem Dynamic Chat-Dialogfeld in Kontakt | Chat | 20 | 90 |
+| [!UICONTROL Link im Chat im Dialogfeld angeklickt] | Ein Mitglied klickt in einem Dynamic Chat-Dialogfeld auf einen Link | Chat | 20 | 90 |
+| [!UICONTROL Interagiert mit einem Gesprächsfluss] | Ein Mitglied tritt mit einem Dynamic Chat-Gesprächsfluss in Kontakt | Chat | 20 | 90 |
+| [!UICONTROL Geplante Besprechung im Gesprächsfluss] | Ein Mitglied plant einen Termin in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| [!UICONTROL Ziel des Gesprächsflusses erreicht] | Ein Mitglied erreicht ein Ziel in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| [!UICONTROL Interagiert mit einem Dokument im Konversationsfluss] | Ein Mitglied interagiert mit einem Dokument in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| [!UICONTROL Interagiert mit einem Agenten im Gesprächsfluss] | Ein Mitglied interagiert mit einem Agenten in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| [!UICONTROL Link im Chat im Gesprächsfluss angeklickt] | Ein Mitglied klickt auf einen Link in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
+| [!UICONTROL Link in SMS V2 klicken] | Ein Mitglied klickt auf einen Link in einer SMS-Nachricht | SMS | 20 | 90 |
+
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -205,4 +225,4 @@ Die endgültige Interaktionsbewertung wird durch Anwenden der Gewichtung für je
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

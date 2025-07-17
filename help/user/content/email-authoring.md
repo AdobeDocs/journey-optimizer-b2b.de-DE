@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Journey Optimizer B2B
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: db7be2c76039096a743efca11f528815a0e2a7f7
+source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '1050'
 ht-degree: 19%
 
 ---
 
 # Verfassen von E-Mail-Nachrichten
 
-Nachdem Sie &lbrack;ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben&rbrack;(./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
+Nachdem Sie [ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben](./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
 
 Klicken Sie **[!UICONTROL der Registerkarte]** Details _[!UICONTROL im rechten Bedienfeld auf]_ E-Mail-Inhalt bearbeiten“.
 
@@ -95,6 +95,20 @@ Sie können den importierten Inhalt nach Bedarf mit den visuellen E-Mail-Editor-
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalt, die Sie zum Erstellen des E-Mail-Layouts verwenden können."
 
 {{$include /help/_includes/content-design-components.md}}
+
+### Hinzufügen von benutzerdefiniertem CSS
+
+Sie können Ihr eigenes benutzerdefiniertes CSS direkt im E-Mail-Design-Bereich hinzufügen. Verwenden Sie benutzerdefiniertes CSS, um erweiterte und spezifische Stile anzuwenden, um die Flexibilität und Kontrolle über das Erscheinungsbild Ihrer Inhalte zu erhöhen. Es empfiehlt sich, diese Formatierung auf höchster Ebene hinzuzufügen, bevor Sie Komponenten wie Bilder, Schaltflächen und Text einbeziehen.
+
+Wählen Sie bei mindestens einer Inhaltskomponente auf der Arbeitsfläche die Komponente **[!UICONTROL Hauptteil]** in der linken Navigationsstruktur aus, um auf den benutzerdefinierten CSS-Editor zuzugreifen.
+
+>[!NOTE]
+>
+>Wenn Ihre E-Mail-Nachricht mit einer [Vorlage mit gesperrtem Inhalt](./template-content-governance.md) erstellt wurde, können Sie Ihrem Inhalt kein benutzerdefiniertes CSS hinzufügen. Das Label der Schaltfläche ändert sich in **[!UICONTROL Benutzerdefiniertes CSS anzeigen]** und bereits im Inhalt vorhandene benutzerdefinierte CSS sind schreibgeschützt.
+
+![Zugriff auf Textkörperstile](./assets/email-body-styles.png){width="800" zoomable="yes"}
+
+{{$include /help/_includes/content-design-custom-css.md}}
 
 ### Hinzufügen von Fragmenten
 

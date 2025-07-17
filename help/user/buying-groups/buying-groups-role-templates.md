@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie eine Rollenvorlage definieren, die als Einkau
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1103'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen 
 
    ![Registerkarte Rollenvorlagen](assets/roles-templates-tab.png){width="700" zoomable="yes"}
 
-   Die Registerkarte bietet eine Inventarliste aller vorhandenen Rollenvorlagen mit den folgenden Spalten:
+   Die Registerkarte bietet eine Bestandsliste aller vorhandenen Rollenvorlagen und zeigt die folgenden Informationen im Spaltenformat an:
 
    * [!UICONTROL Name]
    * [!UICONTROL Status]
@@ -36,9 +36,7 @@ In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen 
    * [!UICONTROL Veröffentlicht auf]
    * [!UICONTROL Veröffentlicht von]
 
-   Die Liste ist standardmäßig nach der Spalte _[!UICONTROL Letzte Aktualisierung]_ sortiert.
-
-   Die Anzahl _(_) Rollenvorlagen wird oben rechts auf der Seite angezeigt. Alle Rollenvorlagen haben den Status `Draft` oder `Live`.
+   Die Liste ist standardmäßig nach der _[!UICONTROL Letzte Aktualisierung]_ sortiert. Alle Rollenvorlagen haben den Status `Draft` oder `Live`.
 
 1. Um die Liste nach Namen zu filtern, verwenden Sie das Suchfeld oben in der Liste.
 
@@ -164,4 +162,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

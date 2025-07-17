@@ -1,13 +1,13 @@
 ---
 title: Erstellen von Einkaufsgruppen
-description: Erfahren Sie, wie Sie mit den erforderlichen Komponenten Einkaufsgruppen erstellen können.
+description: Erfahren Sie, wie Sie mit den erforderlichen Komponenten Einkaufsgruppen erstellen.
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: d68d99c56b125b9caff62f69a0b88b142c62e056
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '268'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Nachdem die Einkaufsgruppe erstellt wurde, kann sie über die Option &quot;[&quo
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Gruppen kaufen]**.
 
-1. Klicken _[!UICONTROL auf der Seite]_ Einkaufsgruppen“ oben rechts auf **Seite auf** Einkaufsgruppen erstellen“.
+1. Klicken _[!UICONTROL auf der Seite]_ Einkaufsgruppen **[!UICONTROL oben rechts auf]** Seite auf „Einkaufsgruppen erstellen“.
 
    ![Klicken Sie auf Einkaufsgruppen erstellen](./assets/buying-groups-create.png){width="700" zoomable="yes"}
 
@@ -50,9 +50,11 @@ Das Bestätigungsdialogfeld bietet eine Zusammenfassung des Einkaufsgruppenproze
 
 ![Bestätigungsdialog für Einkaufsgruppen erstellen](./assets/buying-groups-create-confirm.png){width="400" zoomable="yes"}
 
-Sie können den Benutzer zur Registerkarte „Interessen der Lösung“ navigieren und die Anzahl der für das Lösungsinteresse erstellten Aufträge anzeigen.
+## Aufträge zur Erstellung von Käufergruppen
 
-![Klicken Sie auf Einkaufsgruppen erstellen](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
+Der Erstellungsvorgang erstellt automatisch Einkaufsgruppen für jedes neue Konto in der Konto-Zielgruppe. Sie können zur Registerkarte _[!UICONTROL Lösungsinteresse]_ navigieren, auf der die Anzahl der für jedes Lösungsinteresse erstellten Erstellungsaufträge angezeigt wird. Klicken Sie auf die Zahl in der Spalte **[!UICONTROL Einkaufsgruppenerstellungsaufträge]**, um die Liste der Erstellungsaufträge anzuzeigen.
+
+![Gruppenaufträge nach Lösungsinteresse kaufen](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
 <!-- Other buying group activities:
 
@@ -62,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Anleitungsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451770/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

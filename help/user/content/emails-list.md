@@ -4,9 +4,9 @@ description: Verwenden Sie die E-Mail-Liste, um Ihren E-Mail-Inhalt in Adobe Jou
 feature: Email Authoring, Content
 role: User
 exl-id: e7ea71dc-83dc-4044-aa02-8b745368193d
-source-git-commit: 23fe51dd0df0b958a61ada25521f35d8acd8bcc4
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,12 @@ Um nach einer E-Mail anhand des Namens zu suchen, geben Sie eine Textzeichenfolg
 
 ![Greifen Sie auf die E-Mail-Vorlagenbibliothek zu und filtern Sie nach Name und Datum](./assets/emails-list-filtered.png){width="700" zoomable="yes"}
 
-## E-Mails bearbeiten
+## E-Mails öffnen und bearbeiten
 
 Klicken Sie auf den E-Mail-Namen in der Liste, um sie zu öffnen. Sie können die „E-Mail[Einstellungen“ überprüfen und ](./add-email.md#define-the-email-settings). Klicken Sie **[!UICONTROL E-Mail-Inhalt bearbeiten]**, um [Aktualisierungen am Inhalt vorzunehmen](./email-authoring.md).
 
 Wenn [Warnhinweise angezeigt werden](./add-email.md#check-alerts) oben rechts auf der Seite klicken Sie, um die Warnungen oder Fehler zu überprüfen und die Elemente nach Bedarf zu beheben.
 
 ![Öffnen Sie die E-Mail, um Aktualisierungen vorzunehmen](./assets/email-open-update.png){width="700" zoomable="yes"}
+
+Sie können auch auf das Fenster [_[!UICONTROL Inhalt simulieren]_](./email-simulate-content.md) zugreifen. Verwenden Sie diese Tools, um eine Vorschau des Inhalts mithilfe eines Testprofils anzuzeigen, Testsendungen durchzuführen und die E-Mail auf Zustellbarkeit und E-Mail-Client-Rendering zu testen.

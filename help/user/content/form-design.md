@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
 workflow-type: tm+mt
 source-wordcount: '2054'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Formular-Design
 
-Nach dem [Erstellen eines Formulars](./landing-pages.md#create-a-landing-page) wird im visuellen Design-Bereich ein Entwurf mit einer standardmäßigen allgemeinen Formulardefinition geöffnet. Klicken Sie im _[!UICONTROL Zusammenfassungsbereich]_ auf der rechten Seite auf **[!UICONTROL Formular bearbeiten]** und verwenden Sie den visuellen Design-Bereich, um die Formularstile und Feldkomponenten zu definieren.
+Nach dem [Erstellen eines Formulars](./forms.md#create-forms) wird im visuellen Design-Bereich ein Entwurf mit einer standardmäßigen allgemeinen Formulardefinition geöffnet. Klicken Sie im _[!UICONTROL Zusammenfassungsbereich]_ auf der rechten Seite auf **[!UICONTROL Formular bearbeiten]** und verwenden Sie den visuellen Design-Bereich, um die Formularstile und Feldkomponenten zu definieren.
 
 ![Zugriff auf die Forms-Bibliothek](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
@@ -141,7 +141,7 @@ Die Senden-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars
 
 ### Inhalt der Schaltfläche bearbeiten {#button-content}
 
-Ändern Sie den Text im Textfeld **[!UICONTROL Schaltfläche &#x200B;]_, während die Registerkarte_[!UICONTROL Inhalt]** im rechten Bereich angezeigt wird. Die Schaltflächengröße wird an die Länge des Textes angepasst.
+Ändern Sie den Text im Textfeld _[!UICONTROL Schaltfläche]_, während die Registerkarte **[!UICONTROL Inhalt]** im rechten Bereich angezeigt wird. Die Schaltflächengröße wird an die Länge des Textes angepasst.
 
 ![Ändern des Schaltflächentextes im Formular](./assets//form-field-button-text.png){width="600" zoomable="yes"}
 
@@ -179,7 +179,7 @@ Sie können die Stile für den Formularbereich ändern, wenn Sie außerhalb der 
 
 Für neue Formulare wird das Standard-CSS zum Formatieren verwendet. Wenn Sie die Stile ändern möchten, indem Sie das CSS ändern, können Sie es kopieren und dann verwenden, um ein benutzerdefiniertes CSS für das Formular zu definieren.
 
-_So definieren Sie ein benutzerdefiniertes CSS für das Formular:_
+_So definieren Sie eine benutzerdefinierte CSS für das Formular :_
 
 1. Klicken Sie **[!UICONTROL rechten Bedienfeld auf]** CSS anzeigen“, um den CSS-Code zu überprüfen.
 

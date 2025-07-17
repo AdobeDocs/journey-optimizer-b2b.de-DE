@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie E-Mail-Aktionen in Adobe Journey Optimizer B2
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-source-git-commit: 2aaecfb1b71e449f0cf82fb77a976389fd22d11c
+source-git-commit: 4bbe641305065888a59b3e77357e9b39fa6d402e
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Kno
 
       1. Klicken Sie auf **[!UICONTROL E-Mail bearbeiten]**, um die E-Mail [Einstellungen](#define-the-email-settings) zu definieren und den [Inhalt](./email-authoring.md) zu gestalten.
 
-     +++
++++
 
      +++Duplizieren vorhandener E-Mails
 
@@ -77,7 +77,7 @@ Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Kno
 
       1. Klicken Sie bei Bedarf auf **[!UICONTROL E-Mail bearbeiten]**, um die E-Mail [Einstellungen](#define-the-email-settings) und [Inhalt](./email-authoring.md) ändern.
 
-     +++
++++
 
    * Wählen Sie **[!UICONTROL E-Mail aus Adobe Marketo Engage auswählen]**, um eine der vorab erstellten E-Mails in Marketo Engage zu verwenden und als Teil der Journey zu senden.
 
@@ -89,9 +89,9 @@ Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Kno
 
 ## E-Mail-Einstellungen definieren
 
-Wenn die Registerkarte **[!UICONTROL Details]** im Bedienfeld _Zusammenfassung_ auf der rechten Seite ausgewählt ist, scrollen Sie nach unten, um die E-Mail-Optionen anzuzeigen und festzulegen.
+Wenn die Registerkarte **[!UICONTROL Details]** im Bedienfeld _Zusammenfassung_ auf der rechten Seite ausgewählt ist, scrollen Sie nach unten, um die E-Mail-Einstellungen anzuzeigen und zu definieren.
 
-![E-Mail-Einstellungen](./assets/email-summary-details-settings.png){width="600" zoomable="yes"}
+![E-Mail-Einstellungen](./assets/email-summary-details-settings.png){width="700" zoomable="yes"}
 
 | Option | Beschreibung |
 | ------ | ----------- |
@@ -99,8 +99,11 @@ Wenn die Registerkarte **[!UICONTROL Details]** im Bedienfeld _Zusammenfassung_ 
 | [!UICONTROL Von E-Mail] | Die in der E-Mail-Kopfzeile verwendete Absenderadresse. Der Standardwert wird aus den [E-Mail-Kanal-Versandeinstellungen](../admin/configure-channels-emails.md#delivery-settings) übernommen. Klicken Sie auf das _Personalisieren_-Symbol ( ![Personalisieren-Symbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token in diesem Feld zu verwenden. |
 | [!UICONTROL Antwortadresse] | Die in der E-Mail-Kopfzeile verwendete Absenderadresse. Der Standardwert wird aus den [E-Mail-Kanal-Versandeinstellungen](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL From Label]) gefüllt. Geben Sie die E-Mail-Adresse ein, die Sie ausfüllen möchten, wenn der Empfänger die Antwortfunktion verwendet (sie kann anders oder mit der Absenderadresse identisch sein). Klicken Sie auf das _Personalisieren_-Symbol ( ![Personalisieren-Symbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token in diesem Feld zu verwenden. |
 | [!UICONTROL Betreffzeile] | Der Text, der im Feld Betreff für die E-Mail angezeigt wird. Der Standardwert wird aus dem Text gefüllt, den Sie im Dialogfeld _[!UICONTROL Neue E-Mail erstellen]_ eingegeben haben. Sie können den Text bei Bedarf ändern. Klicken Sie auf das _Personalisieren_-Symbol ( ![Personalisieren-Symbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token im Feld zu verwenden.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
+| [!UICONTROL Branding-Domain] | Wenn im System mehr als eine [Branding-Domain](../admin/configure-channels-emails.md#branding-domains) definiert ist, wählen Sie die Branding-Domain aus, die für den E-Mail-Versand verwendet werden soll. Verwenden Sie eine bestimmte Branding-Domain, um E-Mails zu senden, die anscheinend von Ihrer Marke und nicht vom Unternehmen als Ganzem stammen. Es baut Vertrauen in die Marke auf, personalisiert das E-Mail-Erlebnis und erhöht die Öffnungs- und Reaktionsraten. |
+| [!UICONTROL Dedizierte IP] | Wenn mehr als eine dedizierte IP-Adresse definiert ist, wählen Sie eine dedizierte IP-Adresse aus, die für den Versand der E-Mail verwendet werden soll. Wenn Sie eine bestimmte dedizierte IP für Ihre Programme verwenden, können Sie die Zustellbarkeit genauer verfolgen und überwachen und schnell auf Änderungen an Ihren Versandmetriken reagieren. Weitere Informationen zum Hinzufügen einer dedizierten IP für die verbundene Marketo Engage-Instanz finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
+| Problembehebung - Es ist einfacher, Bereitstellungsprobleme zu untersuchen, zu verstehen und zu lösen. |
 | [!UICONTROL Operative E-Mail] | Aktivieren Sie das Kontrollkästchen, wenn Sie die E-Mail als betriebsbereit kennzeichnen möchten. Operative E-Mails sind von Opt-out-/Abmeldelisten und von Kommunikationsbeschränkungen ausgeschlossen. Wählen Sie diese Option nur aus, wenn der Empfänger die E-Mail-Nachricht nicht als unerwünschte Werbenachricht (SPAM) betrachten kann. |
-| [!UICONTROL Als Webseite anzeigen] | Aktivieren Sie das Kontrollkästchen, um einen Link zu einer Web-Seite einzufügen, die aus dem Inhalt der E-Mail-Nachricht generiert wird. E-Mail-Nachrichten verfügen über eingeschränktere Funktionen als Web-Seiten. Daher ist sie für JavaScript, erweitertes CSS und Formulare nützlich. Der Text, der zum Generieren des Links verwendet wird, wird in den [Versandeinstellungen des E-Mail-Kanals](../admin/configure-channels-emails.md#delivery-settings) konfiguriert ([!UICONTROL Als Webseite anzeigen, HTML] und [!UICONTROL Als Webseite anzeigen, Text &#x200B;]). |
+| [!UICONTROL Als Webseite anzeigen] | Aktivieren Sie das Kontrollkästchen, um einen Link zu einer Web-Seite einzufügen, die aus dem Inhalt der E-Mail-Nachricht generiert wird. E-Mail-Nachrichten verfügen über eingeschränktere Funktionen als Web-Seiten. Daher ist sie für JavaScript, erweitertes CSS und Formulare nützlich. Der Text, der zum Generieren des Links verwendet wird, wird in den [Versandeinstellungen des E-Mail-Kanals](../admin/configure-channels-emails.md#delivery-settings) konfiguriert ([!UICONTROL Als Webseite anzeigen, HTML] und [!UICONTROL Als Webseite anzeigen, Text ]). |
 | [!UICONTROL Öffnungs-Tracking deaktivieren] | Aktivieren Sie das Kontrollkästchen, wenn Sie die Aktivität zum Öffnen von E-Mails nicht verfolgen möchten. Wenn die Funktion deaktiviert ist, wird die Anzahl der Öffnungen von E-Mails nur dann erhöht, wenn eine eindeutige Person die E-Mail öffnet. Sie können [Tracking für E-Mail-Inhaltslinks verwalten](./email-authoring.md#content-authoring---link-tracking) wenn Sie den Inhalt des E-Mail-Textkörpers entwerfen. |
 | [!UICONTROL Preheader] | Aktivieren Sie das Kontrollkästchen, um einen Preheader einzuschließen. Ein Preheader ist der kurze Zusammenfassungstext, der in einigen E-Mail-Clients nach der Betreffzeile angezeigt wird. Sie bietet in der Regel eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem einzigen Satz. Geben Sie den Zusammenfassungstext in das Feld <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
 | [!UICONTROL Felder als CC-Adressen] | Wählen Sie, falls verfügbar, bis zu 25 Lead- oder Firmenfelder aus, die in Marketo Engage mithilfe des `Email` eingerichtet werden. |

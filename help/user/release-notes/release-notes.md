@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dbb1c0d57f3d0b9818dc284047bda9562cfb40f6
+source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 96%
+source-wordcount: '2552'
+ht-degree: 85%
 
 ---
 
@@ -17,6 +17,34 @@ Adobe Journey Optimizer B2B Edition bietet kontinuierlich neue Funktionen, Verbe
 Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von dessen neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
+<!-- hold for 2025.8 release 
+
+| Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
+| Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
+
+-->
+
+## Versionshinweise für 2025.6
+
+**Bereitstellungsdatum**: Mittwoch, 15. Juli 2025
+
+Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Funktion | Integration mit GenStudio for Performance Marketing | (Eingeschränkte Verfügbarkeit) E-Mail-Erlebnisse in GenStudio for Performance Marketing können jetzt mit Journey Optimizer B2B Edition integriert werden, um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu gewährleisten. Diese Integration kombiniert die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B Edition. [Weitere Informationen](../content/genstudio-email-workflow.md) |
+| Funktion | Spam-Erkennungsberichte | Um Spam-Filter zu vermeiden und sicherzustellen, dass Nachrichten an Zielgruppen-Posteingänge gesendet werden, können Sie _Spam-Bericht_ direkt im E-Mail-Design-Bereich erstellen. [Weitere Informationen](../content/email-spam-report.md) |
+| Funktion | Seite „Personendetails“ | Sie können jetzt auf den Namen einer Person klicken, wenn er (als Hyperlink) im Intelligenten Dashboard, auf der Seite mit den Einkaufsgruppendetails und auf der Seite mit den Kontodetails angezeigt wird. Diese Aktion öffnet die Seite mit den zugehörigen Personendetails, auf der Informationen zum Kontakt, zu seiner Aktivität und zu den aktivsten Einkaufsgruppen angezeigt werden. [Weitere Informationen](../accounts/person-details.md) |
+| Funktion | Konto- und Einkaufsgruppenaktionen | Ergreifen Sie Aktionen direkt auf den Seiten „Kontodetails“ und „Einkaufsgruppendetails“, um rechtzeitig und vorsätzlich mit Ihnen zu interagieren. <li>Verwenden Sie die Aktion _E-Mail senden_, um eine genehmigte Marketo Engage-E-Mail an ausgewählte Kontokontakte oder Mitglieder der Einkaufsgruppe zu senden. [Weitere Informationen](../accounts/account-details.md#send-emails) <li>Zu den Aktionen in den Details der Einkaufsgruppe gehören auch _Neues Mitglied zuweisen_, _Mitglied entfernen_ und _Rolle bearbeiten_. [Weitere Informationen](../buying-groups/buying-group-details.md#members-tab) |
+| Funktion | In-CRM-Zugriff auf Detailseiten | Sie können jetzt direkte Links zu Journey Optimizer B2B edition-Detailseiten für Konten, Kontakte und Leads in Ihrem CRM-Tool (Customer Relationship Management) konfigurieren, z. B. Salesforce oder Microsoft Dynamics. [Weitere Informationen](../accounts/crm-linking.md) |
+| Funktion | Benutzerdefinierte CSS-Unterstützung für das Content-Design | Sie können jetzt Ihr eigenes benutzerdefiniertes CSS hinzufügen, wenn Sie E-Mail- und Landingpage-Inhalte im Design-Bereich erstellen. [Weitere Informationen](../content/design-custom-css.md) |
+| Funktion | Konfiguration der Intent-Schlüsselwortzuordnung | Um das Modell zur Absichtserkennung zu aktivieren und zu verwalten, können Sie jetzt eine Tabelle hochladen, um eine Absichtsdaten-Mapping-Kategorie zu definieren. [Weitere Informationen](../admin/intent-data.md) |
+| Verbesserung | Inhalt aus E-Mail-Zusammenfassung simulieren | Sie können jetzt über die E _Mail-Zusammenfassung (Details und Eigenschaften) auf die Tools_ Inhalt simulieren) zugreifen, wenn Sie eine E-Mail über die E-Mail-Liste öffnen. Dieser Zugriff ergänzt den E-Mail-Design-Bereich. [Weitere Informationen](../content/email-simulate-content.md#display-the-email-preview) |
+| Verbesserung | Anzeige der Gesamtzahl für die Liste der Rollenvorlagen | Die _[!UICONTROL Rollenvorlagen]_ Listenseite wird um die Gesamtanzahl neben der Suchleiste erweitert. |
+
+<!-- The following capabilities are currently available only for a set of program participants (Beta):
+
+**Brand Kit with AI Assistant** - Maintain brand consistency across email assets by storing and managing brand assets. Add assets, such as colors, fonts, logos, themes, visual content, and compliance guidelines, and use them for your generative AI content creation. -->
 
 ## Versionshinweise für 2025.5
 

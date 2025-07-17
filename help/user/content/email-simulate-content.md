@@ -4,9 +4,10 @@ description: Erfahren Sie, wie Sie Ihren E-Mail-Inhalt in der Vorschau anzeigen 
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: c93a294d2e70f9a6c17be9ba9cc6994fb7944ebc
+exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
+source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,11 @@ Verwenden Sie die Funktion _Inhalt simulieren_, um eine Vorschau des E-Mail-Inha
 
 ## E-Mail-Vorschau anzeigen
 
-1. Klicken Sie im E-<!-- or the email properties -->-Bereich auf **[!UICONTROL Inhalt simulieren]**.
+Sie können auf die Rendering-Vorschau über den [E-Mail-Design-Bereich](./email-authoring.md) oder über die _[!UICONTROL Zusammenfassung]_ zugreifen, wenn Sie [eine E-Mail über die E-Mail-Liste öffnen](./emails-list.md#edit-emails).
 
-   ![Klicken Sie auf Inhalt simulieren](assets/email-simulate-content-.png){width="800" zoomable="yes"}
+1. Klicken **[!UICONTROL oben]** „Inhalt simulieren“.
+
+   ![Klicken Sie auf Inhalt simulieren](assets/email-simulate-content.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
