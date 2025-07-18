@@ -1,5 +1,5 @@
 ---
-title: Onboarding-Anleitungen für Administratoren und Marketing-Experten
+title: Anleitung zum Onboarding für Admins und Marketing-Fachleute
 description: Hier finden neue Admins sowie neue Benutzer und Benutzerinnen von Journey Optimizer B2B Edition Informationen zu den wichtigsten Bereichen des Onboarding-Verfahrens.
 role: Admin, User
 level: Beginner
@@ -7,13 +7,13 @@ exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
-# Onboarding-Leitlinien
+# Anleitung zum Onboarding
 
-Welche Funktionen und Tools Sie in Adobe Journey Optimizer B2B edition angehen möchten, hängt von Ihrer Rolle in Ihrem Team ab. Abhängig von Ihrer Organisation können Admins verschiedene Typen von Benutzenden definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
+Welche Funktionen und Tools Sie in Adobe Journey Optimizer B2B Edition verwenden, hängt von Ihrer Rolle in Ihrem Team ab. Abhängig von Ihrer Organisation können Admins verschiedene Typen von Benutzenden definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
 >[!TIP]
 >
@@ -21,17 +21,17 @@ Welche Funktionen und Tools Sie in Adobe Journey Optimizer B2B edition angehen m
 
 >[!BEGINTABS]
 
->[!TAB Administrator]
+>[!TAB Admin]
 
 Bevor Ihr Team die Funktionen von Adobe Journey Optimizer B2B Edition verwenden kann, sind mehrere Schritte erforderlich, um Ihre Umgebung vorzubereiten. Führen Sie diese Schritte aus, damit Data Engineering und Marketing mit Adobe Journey Optimizer B2B Edition arbeiten können.
 
-Als Systemadmin müssen Sie Produktprofile verstehen und Berechtigungen für die Sandbox-Administration und Kanalkonfiguration zuweisen. Außerdem müssen Sie Sandboxes einrichten und entsprechend den verfügbaren Produktprofilen verwalten. Anschließend können Sie den Produktprofilen Team-Mitglieder zuweisen. Produktadministratoren, die Zugriff auf die Adobe Admin Console haben, können diese Funktionen verwalten. [Erfahren Sie mehr über die Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+Als Systemadmin müssen Sie Produktprofile verstehen und Berechtigungen für die Sandbox-Administration und Kanalkonfiguration zuweisen. Außerdem müssen Sie Sandboxes einrichten und entsprechend den verfügbaren Produktprofilen verwalten. Anschließend können Sie den Produktprofilen Team-Mitglieder zuweisen. Produktadmins mit Zugriff auf die Adobe Admin Console können diese Funktionen verwalten. [Erfahren Sie mehr über die Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Erstellen Sie Sandboxes**, um Ihre Instanzen in separate, isolierte virtuelle Umgebungen zu unterteilen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/home#understanding-sandboxes){target="_blank"}
 
-1. **Arbeiten Sie mit Ihrem Dateningenieur zusammen** um Ihre B2B-Zielgruppe und Profilaktivierung zu planen und zu implementieren. Überprüfen Sie die veröffentlichten Blueprints und befolgen Sie die Richtlinien entsprechend Ihren Anforderungen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
+1. **Arbeiten Sie mit Ihrem Data Engineering zusammen**, um Ihre B2B-Zielgruppe und Profilaktivierung zu planen und zu implementieren. Überprüfen Sie die veröffentlichten Blueprints und befolgen Sie die Richtlinien entsprechend Ihren Anforderungen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
 1. **Planen und implementieren Sie die Marketo Engage-Integration** um benutzerdefinierte Schemata, die Aufnahme von Profilen und Konten und die Orchestrierung personalisierter Journey für Einkaufsgruppen einzubinden. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
@@ -47,7 +47,7 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Richten Sie Erlebnisereignis-Definitionen für Adobe Experience Platform (AEP) ein**, und zwar für Teams, die für die Erstellung von Konto-Journeys zuständig sind, die auf AEP-Erlebnisereignisse lauschen. [Weitere Informationen](../admin/configure-aep-events.md)
 
->[!TAB Marketer]
+>[!TAB Marketing-Fachkraft]
 
 Als Marketing-Fachkraft oder als _Person, die Konto-Journeys nutzt_, sind Sie für die Gestaltung von Journeys und die Erstellung von Inhalten verantwortlich. Sie können mit Adobe Journey Optimizer B2B Edition arbeiten, nachdem die Systemadministration und das Data Engineering Ihre Umgebung vorbereitet und Ihnen Zugriff gewährt haben.
 
@@ -69,7 +69,7 @@ Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Asset
 
    * Verwenden Sie die integrierten Kanalaktionen (E-Mail und SMS) zum Senden von in Journey Optimizer B2B Edition entworfenen Nachrichten.
 
-   * Erstellen Sie in der Journey-Zuordnung Ihre mehrstufigen Anwendungsfälle, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
+   * Erstellen Sie in der Journey Map mehrstufigen Anwendungsfälle, fügen Sie Bedingungen hinzu und senden Sie personalisierte Nachrichten.
 
 [Weitere Informationen](../journeys/journey-overview.md)
 
