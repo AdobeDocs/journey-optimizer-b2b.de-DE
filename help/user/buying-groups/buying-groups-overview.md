@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Käufergruppen in Journey Optimizer B2B Edition d
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 92916a9d018084dd10681cbe9e9e54a5970c3c94
+source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 57%
@@ -114,8 +114,6 @@ Die Interaktionsbewertung einer Käufergruppe ist eine Zahl, anhand der die Inte
 
 +++Für die Bewertung verwendete Aktivitäten
 
->[!BEGINSHADEBOX]
-
 | Aktivitätsname | Beschreibung | Interaktionstyp | Maximale tägliche Frequenzlimitierung | Aktivitätsgewichtung |
 | --- | --- | --- | --- | --- |
 | [!UICONTROL Web-Seite besuchen] | Ein Mitglied besucht eine Webseite | Web | 20 | 40 |
@@ -153,9 +151,6 @@ Die Interaktionsbewertung einer Käufergruppe ist eine Zahl, anhand der die Inte
 | [!UICONTROL Interagiert mit einem Agenten im Gesprächsfluss] | Ein Mitglied interagiert mit einem Agenten in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
 | [!UICONTROL Link im Chat im Gesprächsfluss angeklickt] | Ein Mitglied klickt auf einen Link in einem Dynamic Chat-Gesprächsfluss | Chat | 20 | 90 |
 | [!UICONTROL Link in SMS V2 klicken] | Ein Mitglied klickt auf einen Link in einer SMS-Nachricht | SMS | 20 | 90 |
-
-
->[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -225,4 +220,4 @@ Die endgültige Interaktionsbewertung wird durch Anwenden der Gewichtung für je
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
