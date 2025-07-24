@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über Account-Listen und wie Marketing-Experten s
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1346'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 2%
 In Journey Optimizer B2B edition ist eine Kontenliste eine Sammlung benannter Konten, die Marketing-Experten für die gezielte Journey-Orchestrierung verwenden können. Eine Account-Liste kann benannte Accounts nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen. Es gibt zwei Arten von Kontolisten:
 
 * **Statisch** - Bei einer statischen Kontoliste ändert sich die Liste nur, wenn Sie die Konten hinzufügen. Sie können Konten manuell hinzufügen, indem Sie einen Filtersatz anwenden, um die Liste auf der Grundlage der aktuellen Kontodaten zu füllen, oder Konten über eine Konto-Journey hinzufügen und entfernen.
-* **Dynamisch** - Mit einer dynamischen Kontenliste definieren Sie einen Filtersatz, mit dem die Liste automatisch kuratiert wird. Das System verwendet diesen Filtersatz, um Konten entsprechend den Änderungen in den Kontoinformationen hinzuzufügen und zu entfernen. Diese Listenverwaltung ähnelt der [Zielgruppensegmentierung in Real-time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dynamisch** - Mit einer dynamischen Kontenliste definieren Sie einen Filtersatz, mit dem die Liste automatisch kuratiert wird. Das System verwendet diesen Filtersatz, um Konten entsprechend den Änderungen in den Kontoinformationen hinzuzufügen und zu entfernen. Diese Listenverwaltung ähnelt der [Zielgruppensegmentierung in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Wenn sich eine Kontoliste im _Live_-Status (veröffentlicht) befindet, ist sie für die [Verwendung in Account-Journey- und Marketo Engage-Programmen](./account-lists-journeys.md) verfügbar.
+
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
 
 >[!NOTE]
 >
@@ -52,7 +54,7 @@ Um die Beschreibung einer Kontoliste anzuzeigen, klicken Sie auf das Symbol _Inf
 
 Wenn Sie eine Kontoliste erstellen, definieren Sie einen Satz von Filtern, um die Liste zu generieren. Sie können damit beispielsweise eine Liste von Konten generieren, bei denen die Branche das Gesundheitswesen ist und der Umsatz über 100 Millionen Dollar beträgt.
 
-1. Klicken Sie _[!UICONTROL der Seite]_ Kontolisten“ oben rechts auf **Seite auf** Kontoliste erstellen“.
+1. Klicken Sie _[!UICONTROL der Seite]_ Kontolisten“ oben rechts auf **[!UICONTROL Seite auf]** Kontoliste erstellen“.
 
    ![Klicken Sie auf Kontoliste erstellen](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
@@ -175,3 +177,7 @@ Sie können mit dem Veröffentlichen einer dynamischen Kontoliste fortfahren, so
 Der Status der dynamischen Kontenliste ändert sich in _[!UICONTROL Live]_ und sie kann auf [ Konto-Journey verwendet ](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
+
+## Übersichtsvideo
+
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
