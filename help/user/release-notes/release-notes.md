@@ -4,9 +4,9 @@ description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimiz
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2552'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,21 +26,21 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 ## Versionshinweise für 2025.6
 
-**Bereitstellungsdatum**: Mittwoch, 15. Juli 2025
+**Bereitstellungsdatum**: 15. Juli 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Integration mit GenStudio for Performance Marketing | (Eingeschränkte Verfügbarkeit) E-Mail-Erlebnisse in GenStudio for Performance Marketing können jetzt mit Journey Optimizer B2B Edition integriert werden, um die Marketing-Effizienz zu steigern und die Markenkonsistenz zu gewährleisten. Diese Integration kombiniert die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B Edition. [Weitere Informationen](../content/genstudio-email-workflow.md) |
-| Funktion | Spam-Erkennungsberichte | Um Spam-Filter zu vermeiden und sicherzustellen, dass Nachrichten an Zielgruppen-Posteingänge gesendet werden, können Sie _Spam-Bericht_ direkt im E-Mail-Design-Bereich erstellen. [Weitere Informationen](../content/email-spam-report.md) |
-| Funktion | Seite „Personendetails“ | Sie können jetzt auf den Namen einer Person klicken, wenn er (als Hyperlink) im Intelligenten Dashboard, auf der Seite mit den Einkaufsgruppendetails und auf der Seite mit den Kontodetails angezeigt wird. Diese Aktion öffnet die Seite mit den zugehörigen Personendetails, auf der Informationen zum Kontakt, zu seiner Aktivität und zu den aktivsten Einkaufsgruppen angezeigt werden. [Weitere Informationen](../accounts/person-details.md) |
-| Funktion | Konto- und Einkaufsgruppenaktionen | Ergreifen Sie Aktionen direkt auf den Seiten „Kontodetails“ und „Einkaufsgruppendetails“, um rechtzeitig und vorsätzlich mit Ihnen zu interagieren. <li>Verwenden Sie die Aktion _E-Mail senden_, um eine genehmigte Marketo Engage-E-Mail an ausgewählte Kontokontakte oder Mitglieder der Einkaufsgruppe zu senden. [Weitere Informationen](../accounts/account-details.md#send-emails) <li>Zu den Aktionen in den Details der Einkaufsgruppe gehören auch _Neues Mitglied zuweisen_, _Mitglied entfernen_ und _Rolle bearbeiten_. [Weitere Informationen](../buying-groups/buying-group-details.md#members-tab) |
-| Funktion | In-CRM-Zugriff auf Detailseiten | Sie können jetzt direkte Links zu Journey Optimizer B2B edition-Detailseiten für Konten, Kontakte und Leads in Ihrem CRM-Tool (Customer Relationship Management) konfigurieren, z. B. Salesforce oder Microsoft Dynamics. [Weitere Informationen](../accounts/crm-linking.md) |
-| Funktion | Benutzerdefinierte CSS-Unterstützung für das Content-Design | Sie können jetzt Ihr eigenes benutzerdefiniertes CSS hinzufügen, wenn Sie E-Mail- und Landingpage-Inhalte im Design-Bereich erstellen. [Weitere Informationen](../content/design-custom-css.md) |
-| Funktion | Konfiguration der Intent-Schlüsselwortzuordnung | Um das Modell zur Absichtserkennung zu aktivieren und zu verwalten, können Sie jetzt eine Tabelle hochladen, um eine Absichtsdaten-Mapping-Kategorie zu definieren. [Weitere Informationen](../admin/intent-data.md) |
-| Verbesserung | Inhalt aus E-Mail-Zusammenfassung simulieren | Sie können jetzt über die E _Mail-Zusammenfassung (Details und Eigenschaften) auf die Tools_ Inhalt simulieren) zugreifen, wenn Sie eine E-Mail über die E-Mail-Liste öffnen. Dieser Zugriff ergänzt den E-Mail-Design-Bereich. [Weitere Informationen](../content/email-simulate-content.md#display-the-email-preview) |
-| Verbesserung | Anzeige der Gesamtzahl für die Liste der Rollenvorlagen | Die _[!UICONTROL Rollenvorlagen]_ Listenseite wird um die Gesamtanzahl neben der Suchleiste erweitert. |
+| Funktion | Reporting zur Spam-Erkennung | Um Spam-Filter zu umgehen und sicherzustellen, dass Nachrichten im Posteingang der Zielgruppenmitglieder eintreffen, können Sie direkt im E-Mail-Design-Bereich einen _Spam-Bericht_ generieren. [Weitere Informationen](../content/email-spam-report.md) |
+| Funktion | Seite mit persönlichen Daten | Sie können jetzt im intelligenten Dashboard, auf der Seite mit den Käufergruppendetails und auf der Seite mit den Kontodetails auf den Namen einer Person klicken, wenn er (als Hyperlink) angezeigt wird. Diese Aktion öffnet die Seite mit den zugehörigen persönlichen Daten, auf der Informationen zum Kontakt, zu dessen Aktivität und zu den aktivsten Käufergruppen angezeigt werden. [Weitere Informationen](../accounts/person-details.md) |
+| Funktion | Konto- und Käufergruppenaktionen | Führen Sie Aktionen direkt auf den Detailseiten für Konten und Käufergruppen aus, um zeitnahe und zielgerichtete Interaktionen umzusetzen. <li>Verwenden Sie die Aktion _E-Mail senden_, um eine genehmigte Marketo Engage-E-Mail an ausgewählte Kontokontakte oder Mitglieder der Käufergruppe zu senden. [Weitere Informationen](../accounts/account-details.md#send-emails) <li>Zu den Aktionen in den Details der Käufergruppe gehören auch _Neues Mitglied zuweisen_, _Mitglied entfernen_ und _Rolle bearbeiten_. [Weitere Informationen](../buying-groups/buying-group-details.md#members-tab) |
+| Funktion | Zugriff auf Detailseiten im CRM | Sie können jetzt in Ihrem CRM-Tool (Customer Relationship Management), z. B. Salesforce oder Microsoft Dynamics, direkte Links zu den Detailseiten für Konten, Kontakte und Leads in Journey Optimizer B2B Edition konfigurieren. [Weitere Informationen](../accounts/crm-linking.md) |
+| Funktion | Unterstützung für benutzerdefiniertes CSS beim Design von Inhalten | Bei der Erstellung von E-Mail- und Landingpage-Inhalten im Design-Bereich können Sie jetzt eigenes, benutzerdefiniertes CSS hinzufügen. [Weitere Informationen](../content/design-custom-css.md) |
+| Funktion | Konfiguration des Intent-Keyword-Mappings | Um das Modell zur Intent-Erkennung zu aktivieren und zu verwalten, können Sie jetzt eine Tabelle hochladen, um eine Mapping-Kategorie für Intent-Daten zu definieren. [Weitere Informationen](../admin/intent-data.md) |
+| Verbesserung | Simulieren von Inhalten aus E-Mail-Zusammenfassungen | Sie können jetzt über die E-Mail-Zusammenfassung (Details und Eigenschaften) auf die Tools _Inhalte simulieren_ zugreifen, wenn Sie eine E-Mail aus der E-Mail-Liste öffnen. Diese Methode ist ergänzend zum Zugriff über den E-Mail-Design-Bereich. [Weitere Informationen](../content/email-simulate-content.md#display-the-email-preview) |
+| Verbesserung | Anzeigen der Gesamtzahl für die Liste der Rollenvorlagen | Auf der Seite mit der Liste der _[!UICONTROL Rollenvorlagen]_ wird neben der Suchleiste auch die Gesamtanzahl angezeigt. |
 
 <!-- The following capabilities are currently available only for a set of program participants (Beta):
 
@@ -54,7 +54,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | E-Mail-Tests mit Litmus | Mit einem [Litmus Enterprise-Konto](https://www.litmus.com/email-testing){target="_blank"} können Sie jetzt das E-Mail-Rendering in gängigen E-Mail-Clients von Journey Optimizer B2B edition aus in der Vorschau anzeigen. Durch diese Integration können Sie sicherstellen, dass Ihr E-Mail-Inhalt in jedem E-Mail-Posteingang gut aussieht und wie vorgesehen funktioniert. [Weitere Informationen](../content/email-test-rendering.md) |
+| Funktion | E-Mail-Tests mit Litmus | Mit einem [Litmus Enterprise-Konto](https://www.litmus.com/email-testing){target="_blank"} können Sie in Journey Optimizer B2B Edition jetzt Ihr E-Mail-Rendering in gängigen E-Mail-Clients in der Vorschau anzeigen. Durch diese Integration können Sie sicherstellen, dass Ihr E-Mail-Inhalt in jedem E-Mail-Posteingang gut aussieht und wie vorgesehen funktioniert. [Weitere Informationen](../content/email-test-rendering.md) |
 | Verbesserung | Duplizieren einer E-Mail | Beim Hinzufügen einer E-Mail für einen Journey-Knoten können Sie jetzt eine vorhandene E-Mail duplizieren. Ändern Sie die Einstellung oder den Inhalt der duplizierten E-Mail oder lassen Sie sie unbearbeitet.  [Weitere Informationen](../content/add-email.md#add-an-email-to-your-journey) |
 | Verbesserung | Handlebar-Token-Format für E-Mail | Personalisierungs-Token für E-Mail-Inhalte verwenden jetzt ein aktualisiertes Format, das vollständig mit Handlebar-Scripting kompatibel ist. Dieses Format verwendet _Binnenmajuskel-Schreibweise_ oder Unterstriche, wobei Leerzeichen eliminiert werden. [Weitere Informationen](../content/email-authoring.md#content-authoring---personalization) |
 | Verbesserung | Anzeige der Gesamtzahl der Listen | Die Listenseiten für _[!UICONTROL Lösungsinteressen]_ und _[!UICONTROL Konto-Journeys]_ werden durch die Anzeige der Gesamtanzahl neben der Suchleiste erweitert. |

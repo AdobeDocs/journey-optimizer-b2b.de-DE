@@ -5,9 +5,9 @@ role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
 source-git-commit: 1e430af82b972dc73178161e64da10d1cdaaefaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Arbeiten Sie mit Ihrem Data Engineering zusammen**, um Ihre B2B-Zielgruppe und Profilaktivierung zu planen und zu implementieren. Überprüfen Sie die veröffentlichten Blueprints und befolgen Sie die Richtlinien entsprechend Ihren Anforderungen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Planen und implementieren Sie die Marketo Engage-Integration** um benutzerdefinierte Schemata, die Aufnahme von Profilen und Konten und die Orchestrierung personalisierter Journey für Einkaufsgruppen einzubinden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Planen und implementieren Sie die Marketo Engage-Integration**, um benutzerdefinierte Schemata, die Aufnahme von Profilen und Konten und die Orchestrierung personalisierter Journeys für Käufergruppen einzugliedern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Richten Sie das Produktprofil ein**. Bei einem Produktprofil handelt es sich um eine Reihe von Einzelberechtigungen in Adobe Experience Platform, die Benutzenden den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. [Weitere Informationen](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
