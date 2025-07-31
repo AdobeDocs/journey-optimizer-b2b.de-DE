@@ -4,10 +4,10 @@ description: Überprüfen Sie die Standardattributfelder, die zwischen Adobe Exp
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: b62891e3d87ac4ff5345dac564d63c0b8aaa9669
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 23%
+source-wordcount: '1097'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 
 >[!TIP]
 >
->Sie können XDM Business Person- und XDM Business Account-Klassen in einer Viele-zu-viele-Beziehung modellieren, indem Sie die XDM Business Account Person Relation-Klasse verwenden, wie in der [Experience Platform XDM-Dokumentation beschrieben](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Sie können XDM Business Person- und XDM Business Account-Klassen in einer Viele-zu-viele-Beziehung modellieren, indem Sie die XDM Business Account Person Relation-Klasse verwenden, wie in der [Experience Platform XDM-Dokumentation beschrieben](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 ## Personenbeziehungsattribute für XDM Business-Konto
 
@@ -29,7 +29,10 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 
 >[!IMPORTANT]
 >
->Das Attribut `workEmail.Address` ist erforderlich. Wenn es für ein Mitglied der Account-Zielgruppe leer ist, wird diese Person nicht aufgenommen und in den Account-Journey und Einkaufsgruppen, die auf die Zielgruppe verweisen, weggelassen.
+>Das Attribut für die E-Mail-Adresse ist erforderlich und muss ausgefüllt werden, damit es ordnungsgemäß funktioniert. Standardmäßig verwendet das System `workEmail.Address`. Wenn Sie ein anderes Attribut verwenden möchten, wenden Sie sich an den Adobe-Support, bevor Sie Journey veröffentlichen, um eine ordnungsgemäße Konfiguration sicherzustellen.<br/>
+>
+>Stellen Sie sicher, dass das E-Mail-Attribut nicht null ist, da dies Auswirkungen auf die Datensynchronisierung und nachgelagerte Prozesse haben kann.
+><ul><li>Wenn das E-Mail-Attribut in Real-Time CDP B2B null ist und die Person in Journey Optimizer B2B edition vorhanden ist, wird das Attribut in Journey Optimizer B2B edition bei der Synchronisierung mit einem Nullwert überschrieben. Anschließend wird es in Marketo Engage als Null beibehalten.<li>Wenn das E-Mail-Attribut in Real-Time CDP B2B null ist und die Person nicht in Journey Optimizer B2B edition vorhanden ist, wird der Personendatensatz nicht synchronisiert.<ul/>
 
 | [Eigenschaft](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Anzeigename | Journey Optimizer B2B-Anzeigename | Datentyp | Beschreibung |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
@@ -81,7 +84,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
 |[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
 |------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
