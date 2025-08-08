@@ -237,7 +237,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 
