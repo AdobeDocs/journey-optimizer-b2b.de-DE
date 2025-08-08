@@ -5,10 +5,10 @@ feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 18%
+source-wordcount: '345'
+ht-degree: 4%
 
 ---
 
@@ -17,16 +17,6 @@ ht-degree: 18%
 Nachdem Sie [Landingpage-Vorlage erstellt haben](./landing-page-templates.md#create-a-landing-page-template) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer Seitenvorlage zu erstellen.
 
 ## Hinzufügen von Struktur und Inhalten {#structure-content-landing-page}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_template_structure"
->title="Hinzufügen von Strukturkomponenten zur Landingpage"
->abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen Sie eine **Strukturkomponente** per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung des Inhalts für ihre Seitenvorlage zu beginnen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_landing_page_template_content_components"
->title="Über Inhaltskomponenten für Landingpages"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage-Vorlage gestalten können."
 
 {{$include /help/_includes/content-design-components.md}}
 

@@ -1,20 +1,20 @@
 ---
 title: Inhaltserstellung - Navigation
 description: Wiederverwendeter Abschnitt zur Verwendung des Navigationsbaums für die Inhaltserstellung
-source-git-commit: e041d7eb02d2792f2f8c3526ed80b9d6c6cb1556
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 6%
 
 ---
 
 # Inhaltserstellung - Navigation
 
-Beim Arbeiten mit Inhalten im visuellen Designer können Sie über die Baumstruktur „Navigation“ auf die Ebenen/Container _Elemente_. Klicken Sie auf _Navigation_, um die Baumstruktur links neben der Arbeitsfläche anzuzeigen.
+Beim Arbeiten mit Inhalten im visuellen Design-Bereich können Sie über die Navigationsstruktur auf die Komponenten, Spalten und Inhaltselemente zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
-Im folgenden Beispiel werden Schritte zum Anpassen des Abstands und der vertikalen Ausrichtung innerhalb einer aus Spalten zusammengesetzten Strukturkomponente beschrieben.
+Im folgenden Beispiel werden Schritte zum Anpassen des Abstands und der vertikalen Ausrichtung innerhalb einer Strukturkomponente mit Spalten beschrieben.
 
 1. Wählen Sie die Spalte in der Strukturkomponente direkt auf der Arbeitsfläche aus oder verwenden Sie den _Navigationsbaum_ der links angezeigt wird.
 

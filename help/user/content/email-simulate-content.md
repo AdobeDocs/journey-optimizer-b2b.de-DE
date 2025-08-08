@@ -5,14 +5,19 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: fb243fbbbf897fd40d816995d6bef96480e355c1
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 5%
 
 ---
 
-# Vorschau und Test des E-Mail-Inhalts
+# Vorschau und Test des E-Mail-Inhalts {#preview-simulate}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_email_preview_simulate"
+>title="Überprüfen des Inhalt-Renderings"
+>abstract="Wenn Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
 Verwenden Sie die Funktion _Inhalt simulieren_, um eine Vorschau des E-Mail-Inhalts anzuzeigen und Testsendungen an bestimmte Empfängerinnen und Empfänger zu senden. Die erforderlichen E-Mail-Felder müssen definiert werden, einschließlich _[!UICONTROL Absendername]_, _[!UICONTROL Absenderadresse]_, _[!UICONTROL Antwortadresse]_ und _[!UICONTROL Betreffzeile]_, um auf die Vorschau- und Testfunktionen zuzugreifen.
 

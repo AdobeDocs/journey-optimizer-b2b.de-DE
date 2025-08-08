@@ -1,7 +1,7 @@
 ---
 title: Inhaltserstellung - Komponenten
 description: Wiederverwendbarer Abschnitt über die Verwendung von Komponenten und Inhaltselementen für die Inhaltserstellung
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >Wählen Sie die Komponente _[!UICONTROL n:n]_ aus, um die Anzahl der Spalten zu definieren (zwischen drei und 10). Sie können auch die Breite jeder Spalte definieren, indem Sie die Pfeile unter die Spalte verschieben.
+   >Wählen Sie die Komponente _[!UICONTROL n:n Column]_ aus, um die Anzahl der Spalten zu definieren (drei bis zehn). Sie können auch die Breite jeder Spalte definieren, indem Sie die Pfeile unter die Spalte verschieben.
 
    ![Ziehen Sie eine Struktur auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-structure.png){width="800" zoomable="yes"}
 
    Die Größe einer Spalte darf nicht kleiner als 10 % der Gesamtbreite der Strukturkomponente sein. Nur leere Spalten können entfernt werden.
 
-1. Erweitern Sie **[!UICONTROL Abschnitt]** Inhalte“ und fügen Sie beliebig viele Elemente zu einer oder mehreren Strukturkomponenten hinzu.
+1. Erweitern Sie **[!UICONTROL Abschnitt]** Inhalte“ und fügen Sie beliebig viele Inhaltskomponenten zu einer oder mehreren Strukturkomponenten hinzu.
 
    ![Ziehen Sie ein Inhaltselement auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
    <!--

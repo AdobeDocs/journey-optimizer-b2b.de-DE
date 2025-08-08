@@ -4,9 +4,9 @@ description: Erfahren Sie mehr über die Verwendung der Asset-Management-Integra
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -280,7 +280,7 @@ Es gibt mehrere Methoden zum Hinzufügen eines Bild-Assets zur visuellen Arbeits
 
 * Ziehen Sie eine Miniaturansicht per Drag-and-Drop aus dem linken Navigationsbereich.
 
-* Fügen Sie eine Bildkomponente zur Arbeitsfläche hinzu und klicken Sie auf **[!UICONTROL Durchsuchen]**, um das Dialogfeld _[!UICONTROL Asset aus Adobe Marketo Engage auswählen]_ zu öffnen.
+* Fügen Sie eine Bildkomponente zur Arbeitsfläche hinzu und klicken Sie in der Komponente auf **[!UICONTROL Marketo EngageAssets]**, um das Dialogfeld _[!UICONTROL Asset aus Adobe Marketo Engage auswählen]_ zu öffnen.
 
   ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

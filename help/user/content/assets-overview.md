@@ -4,10 +4,10 @@ description: Erfahren Sie mehr über das Asset-Management in Journey Optimizer B
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Derzeit können in Adobe Journey Optimizer B2B Edition nur Bilder aus Adobe Expe
 
 Verwenden Sie Assets beim Erstellen von E-Mails, E-Mail-Vorlagen und visuellen Fragmenten. Der visuelle Content-Editor bietet Zugriff auf die Bilder in Ihren verbundenen Asset-Repositorys. Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service und die Standardversion von Adobe Marketo Engage Design Studio verfügen, können Sie Bild-Assets aus beiden Quellen auswählen. Sie können auch ein Bild-Asset hochladen, wodurch es im Journey Optimizer B2B Edition-Arbeitsbereich des verbundenen Marketo Engage Design Studio-Repositorys platziert wird.
 
-Sie können die Bildquelle auswählen, wenn Sie die Einstellungen für eine Bildkomponente bearbeiten oder direkt auf der Arbeitsfläche Änderungen vornehmen.
+Sie können die Bildquelle auswählen, wenn Sie die Einstellungen für eine Bildkomponente oder direkt auf der Arbeitsfläche bearbeiten:
 
 * **_Einstellungen der Bildkomponente_**: Wenn Sie eine Bildkomponente im visuellen Designer ausgewählt haben, können Sie die Einstellungen im rechten Panel anzeigen und bearbeiten. Um die in der Komponente angezeigte Bilddatei hinzuzufügen oder zu ändern, wählen Sie den Quelltyp und dann eine Bilddatei aus.
 
@@ -61,7 +61,7 @@ Sie können die Bildquelle auswählen, wenn Sie die Einstellungen für eine Bild
 
   ![Auswählen einer Quelle und einer Bilddatei für die Bildkomponente mithilfe der Symbolleiste](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-Sie können ein Bild-Asset hinzufügen, während Sie Inhalte erstellen, je nach Quelle des Bild-Assets.
+Sie können ein Bild-Asset hinzufügen, während Sie Ihre Inhalte erstellen, je nach Quelle des Bild-Assets. Sie können auch ein Bild-Asset in den Hintergrundeinstellungen für eine Strukturkomponente auswählen.
 
 >[!BEGINTABS]
 

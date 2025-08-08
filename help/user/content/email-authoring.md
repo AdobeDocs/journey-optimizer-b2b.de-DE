@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Journey Optimizer B2B
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 47b032788d182da7306f3d855d87162cd43afd34
+source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 19%
+source-wordcount: '924'
+ht-degree: 8%
 
 ---
 
 # Verfassen von E-Mail-Nachrichten
 
-Nachdem Sie &lbrack;ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben&rbrack;(./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
+Nachdem Sie [ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben](./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
 
 Klicken Sie **[!UICONTROL der Registerkarte]** Details _[!UICONTROL im rechten Bedienfeld auf]_ E-Mail-Inhalt bearbeiten“.
 
@@ -34,16 +34,6 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den
 >Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Ebene zu heben. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails und zielgerichtete Textinhalte generiert und KI-Assistenten-Empfehlungen für Bilder abgibt, die bei Ihrer Audience Anklang finden. [Weitere Informationen](./ai-assistant-emails.md)
 
 ## Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_landing_page"
->title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der Landingpage. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres Landingpage-Inhalts zu beginnen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_landing_page"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie das Layout einer Landingpage erstellen können."
 
 Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt der E-Mail zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden entwerfen.
 
@@ -83,16 +73,6 @@ Sie können den importierten Inhalt nach Bedarf mit den visuellen E-Mail-Editor-
 > Auf gespeicherte Vorlagen können Governance-Einstellungen (Inhaltssperrung) für eine oder mehrere Komponenten angewendet werden. Der visuelle Designer bietet Richtlinien zu gesperrten Komponenten, wenn Sie [E-Mail aus einer verwalteten Vorlage erstellen](./email-authoring-governance.md).
 
 ## Hinzufügen von Struktur und Inhalten {#structure-content}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_structure_components_email"
->title="Hinzufügen von Strukturkomponenten"
->abstract="Strukturkomponenten definieren das Layout der E-Mail. Ziehen Sie eine **Struktur**-Komponente per Drag-and-Drop auf die Arbeitsfläche, um mit der Gestaltung Ihres E-Mail-Inhalts zu beginnen."
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_content_components_email"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalt, die Sie zum Erstellen des E-Mail-Layouts verwenden können."
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -159,11 +139,6 @@ Im Menü _[!UICONTROL Mehr …]_ oben im E-Mail-Design-Bereich können Sie die f
 * **[!UICONTROL HTML exportieren]** - Laden Sie den Inhalt auf der visuellen Arbeitsfläche in HTML im Format herunter, das als ZIP-Datei verpackt ist.
 
 ## Überprüfen und Testen der E-Mail {#email-testing}
-
->[!CONTEXTUALHELP]
->id="ajo-b2b_email_preview_simulate"
->title="Überprüfen des Inhalt-Renderings"
->abstract="Wenn Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
 Wenn der Nachrichteninhalt definiert ist, können Sie ihn mithilfe von Testprofilen in der Vorschau anzeigen, einen Testversand durchführen und die Darstellung im Seitenverhältnis für Desktop-Computer und Mobilgeräte überprüfen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten eine Vorschau der Anzeige dieses Inhalts in der Nachricht anzeigen.
 
