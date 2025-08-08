@@ -1,5 +1,5 @@
 ---
-title: Bewertung der Markenausrichtung
+title: Markenausrichtungsbewertung
 description: Erfahren Sie, wie Sie markeninterne Inhalte mithilfe einer Bewertung für die Markenausrichtung erstellen, validieren und verwalten.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
@@ -7,14 +7,15 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: b0b4359128d65c6e765af6d07db1bfeb26d4fbc9
+exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 17%
+ht-degree: 25%
 
 ---
 
-# Bewertung der Markenausrichtung {#brand-score}
+# Markenausrichtungsbewertung {#brand-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -23,8 +24,8 @@ ht-degree: 17%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
->title="Bewertung der Markenausrichtung"
->abstract="Die Bewertung Ihrer Markenausrichtung misst, wie gut Ihr Inhalt den Markenrichtlinien entspricht, sodass Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil gewährleistet ist."
+>title="Markenausrichtungswert"
+>abstract="Der Markenausrichtungswert misst, inwieweit Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um die Konsistenz bezüglich Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

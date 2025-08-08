@@ -7,10 +7,11 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 98298c41981de45dfc5d0de430913729f3a92453
+exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -66,12 +67,12 @@ Sie können jede veröffentlichte (_Live_) Marke als Standardmarke festlegen. Kl
 
 ![Bestimmen der standardmäßigen Markenidentität](./assets/brands-set-default.png){width="350"}
 
-## Marke erstellen und definieren {#create-brand}
+## Erstellen und Definieren einer Marke {#create-brand}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brands_create"
 >title="Erstellen Ihrer Marke"
->abstract="Geben Sie Ihren Markennamen ein und laden Sie die Datei mit Ihren Markenrichtlinien hoch. Das Tool extrahiert automatisch wichtige Details, was die Pflege Ihrer Markenidentität erleichtert."
+>abstract="Geben Sie Ihren Markennamen ein und laden Sie die Datei mit Ihren Markenrichtlinien hoch. Das Tool extrahiert automatisch wichtige Details und erleichtert so das Aufrechterhalten Ihrer Markenidentität."
 
 Um Ihre Markenrichtlinien zu erstellen und zu definieren, können Sie entweder die Details eingeben oder Ihre Markenrichtlinien-Dokumente hochladen, um sie für die automatische Extraktion zu verwenden.
 

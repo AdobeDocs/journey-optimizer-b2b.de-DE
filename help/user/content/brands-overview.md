@@ -7,24 +7,25 @@ hide: true
 hidefromtoc: true
 role: User
 level: Beginner, Intermediate
-source-git-commit: 91424c334c22bf683cd071afcb0ab0660a9ac832
+exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
+source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
-# Verwenden von Marken zur Inhaltserstellung und -konsistenz {#brands}
+# Verwenden von Marken zur Inhaltserstellung und aus Konsistenzgründen {#brands}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Erste Schritte mit Marken"
->abstract="Erstellen und passen Sie Ihre eigenen Marken an, um Ihre einzigartige visuelle und verbale Identität zu definieren und es gleichzeitig einfacher zu machen, Inhalte zu generieren, die Ihrem Markenstil und Ihrer Stimme entsprechen."
+>abstract="Erstellen Sie Ihre eigenen Marken und passen Sie diese an, um Ihre einzigartige visuelle und verbale Identität zu definieren. Gleichzeitig können Sie das Generieren von Inhalten vereinfachen, die dem Stil und der Sprache Ihrer Marke entsprechen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
 >title="Auswählen Ihrer Marke"
->abstract="Wählen Sie Ihre Marke, um sicherzustellen, dass alle KI-generierten Inhalte auf Ihre Markenspezifikationen und -richtlinien zugeschnitten sind."
+>abstract="Wählen Sie Ihre Marke, um sicherzustellen, dass alle KI-generierten Inhalte auf die Spezifikationen und Richtlinien Ihrer Marke zugeschnitten sind."
 
 Marken tragen dazu bei, Ihre _Markenidentität_ zu definieren, und spielen eine entscheidende Rolle bei der Sicherstellung einer konsistenten und effektiven Inhaltserstellung, die Ihre Markenidentität, Ihre Werte und Ihre Botschaften korrekt wiedergibt. Durch die Befolgung klar definierter Markenstile können Unternehmen eine kohärente und erkennbare Markenpräsenz über Kanäle und Touchpoints hinweg aufrechterhalten und ihre Markenerkennung, ihr Vertrauen und die Treue ihrer Zielgruppen stärken.
 
@@ -99,4 +100,3 @@ Adobe Experience Cloud Produktadministratoren können den Zugriff auf die Funkti
    * Klicken Sie **[!UICONTROL Speichern]**, um die Änderungen anzuwenden.
 
 >[!ENDSHADEBOX]
-
