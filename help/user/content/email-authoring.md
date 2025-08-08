@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Verfassen von E-Mail-Nachrichten
 
-Nachdem Sie [ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben](./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
+Nachdem Sie &lbrack;ein neues<!-- or duplicated --> E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt haben&rbrack;(./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
 
 Klicken Sie **[!UICONTROL der Registerkarte]** Details _[!UICONTROL im rechten Bedienfeld auf]_ E-Mail-Inhalt bearbeiten“.
 

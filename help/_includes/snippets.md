@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[ dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist.<br/>
->>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
+>&#x200B;>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
 
 ## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
 
