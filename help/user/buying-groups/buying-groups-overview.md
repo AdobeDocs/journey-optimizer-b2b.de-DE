@@ -4,10 +4,10 @@ description: Erfahren Sie, wie Käufergruppen in Journey Optimizer B2B Edition d
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: ada98f505aad848f958cf8325ed90d66692a6cac
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: a2917ea8c389c35129a77d427528051be499addf
+workflow-type: tm+mt
+source-wordcount: '2170'
+ht-degree: 97%
 
 ---
 
@@ -102,14 +102,19 @@ Wenn eine Käufergruppe beispielsweise vier Rollen umfasst und drei der vier Rol
 
 Jedes Mal, wenn eine Käufergruppe erstellt oder aktualisiert wird, wird der Vollständigkeitswert für der Käufergruppe neu berechnet.
 
-### Interaktionsbewertung der Käufergruppe
+### Interaktionsbewertung der Käufergruppe {#engagement-score}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score"
+>title="Interaktionsbewertung"
+>abstract="Interaktionswerte bestimmen den Grad der Interaktion für kaufende Gruppenmitglieder."
 
 Die Interaktionsbewertung einer Käufergruppe ist eine Zahl, anhand der die Interaktion der Mitglieder einer Käufergruppe basierend auf den von ihnen durchgeführten Aktivitäten ermittelt wird.
 
 * Die Berechnung der Interaktionsbewertung beginnt, sobald die Käufergruppe generiert wurde.
 * Zur Berechnung der Bewertung wird jede eingehende Aktivität verwendet, die von den Mitgliedern der Käufergruppe in den letzten 30 Tagen ausgeführt wurde.
 * Mit dem 30-Tage-Fenster und dem Ablaufen von Aktivitäten könnte die Bewertung sinken.
-* Es gibt eine tägliche Frequenzlimitierung von 20 pro Aktivität. Wenn ein Mitglied einer Käufergruppe also dieselbe Aktivität mehr als 20 Mal am Tag ausführt, wird die Anzahl der Aktivitäten auf 20 begrenzt und nicht höher.
+* Es gibt eine tägliche Frequenzbegrenzung von 20 pro Aktivität. Wenn ein Mitglied einer Käufergruppe also dieselbe Aktivität mehr als 20 Mal am Tag ausführt, wird die Anzahl der Aktivitäten auf 20 begrenzt und nicht höher.
 * Die angezeigte Bewertung ist gerundet. Beispielsweise wird eine Bewertung von 75,89999 als 76 angezeigt.
 
 +++Für die Bewertung verwendete Aktivitäten
@@ -158,9 +163,14 @@ Die Interaktionsbewertung einer Käufergruppe ist eine Zahl, anhand der die Inte
 
 +++
 
-#### Gewichtung
+#### Gewichtung {#engagement-score-weighting}
 
-Benutzerinnen und Benutzer können jeder Rolle in der Rollenvorlage eine _Gewichtung_ zuweisen, um einer Rolle unterschiedliche Gewichtungen für die Berechnung der Interaktionsbewertung zu geben.
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_buying_group_engagement_score_weighting"
+>title="Gewichtung der Interaktionswerte"
+>abstract="Verwenden Sie die Gewichtung, um die Berechnung des Interaktionswerts anzupassen."
+
+Benutzerinnen und Benutzer können jeder _in der_ Rollenvorlage“ eine [Gewichtung](./buying-groups-role-templates.md) zuweisen, um einer Rolle unterschiedliche Gewichtungen zuzuweisen.
 
 ![Eine Gewichtung für jede Rolle in der Rollenvorlage festlegen](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 
@@ -220,4 +230,4 @@ Die endgültige Interaktionsbewertung wird durch Anwenden der Gewichtung für je
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
