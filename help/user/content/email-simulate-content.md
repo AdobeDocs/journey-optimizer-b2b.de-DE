@@ -1,5 +1,5 @@
 ---
-title: Vorschau und Test des E-Mail-Inhalts
+title: Anzeigen einer Vorschau und Testen der E-Mail-Inhalte
 description: Erfahren Sie, wie Sie Ihren E-Mail-Inhalt in der Vorschau anzeigen und testen können, um sicherzustellen, dass er sowohl in den Inhalts- als auch in den Personalisierungseinstellungen frei von Fehlern ist.
 feature: Email Authoring
 level: Beginner
@@ -8,11 +8,11 @@ exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
-# Vorschau und Test des E-Mail-Inhalts {#preview-simulate}
+# Anzeigen einer Vorschau und Testen der E-Mail-Inhalte {#preview-simulate}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"

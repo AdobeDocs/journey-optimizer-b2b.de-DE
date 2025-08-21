@@ -3,10 +3,11 @@ title: Inhaltskomponenten
 description: Erfahren Sie, wie Sie Inhaltskomponenten zum Entwerfen Ihrer E-Mail-, Landingpage- und visuellen Fragmentinhalte verwenden.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '2841'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -14,23 +15,23 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
->title="Über Inhaltskomponenten"
+>title="Informationen zu Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine E-Mail gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine Landingpage gestalten können."
+>title="Informationen zu Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine Landingpage gestalten können. "
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
->title="Über Inhaltskomponenten"
+>title="Informationen zu Inhaltskomponenten"
 >abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie ein Fragment gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
->title="Über Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine Vorlage entwerfen können."
+>title="Informationen zu Inhaltskomponenten"
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine Vorlage gestalten können."
 
 Verwenden Sie beim Entwerfen von Inhalten für E-Mails, Landingpages, Vorlagen und visuelle Fragmente die [!UICONTROL Inhaltskomponenten], um visuelle Design-Elemente hinzuzufügen. Sie können beliebig viele Inhaltskomponenten zu einer oder mehreren Strukturkomponenten hinzufügen, die das Layout definieren.
 
@@ -237,7 +238,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 
@@ -249,13 +250,13 @@ Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fü
 
 +++
 
-+++border
++++Rahmen
 
 {{styles-border}}
 
 +++
 
-+++size
++++Größe
 
 {{styles-size}}
 
@@ -267,7 +268,7 @@ Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fü
 
 +++
 
-+++Abstand
++++Ränder
 
 {{styles-padding}}
 
@@ -331,13 +332,13 @@ Passen Sie den Schaltflächenstil auf der Registerkarte **[!UICONTROL Stile]** a
 
 +++
 
-+++border
++++Rahmen
 
 {{styles-border}}
 
 +++
 
-+++size
++++Größe
 
 {{styles-size}}
 
@@ -357,7 +358,7 @@ Passen Sie den Schaltflächenstil auf der Registerkarte **[!UICONTROL Stile]** a
 
 +++
 
-+++Abstand
++++Ränder
 
 {{styles-padding}}
 
@@ -389,13 +390,13 @@ Diese Stile werden auf den gesamten Textblock angewendet. Sie können Inline-Sti
 
 +++
 
-+++border
++++Rahmen
 
 {{styles-border}}
 
 +++
 
-+++size
++++Größe
 
 {{styles-size}}
 
@@ -407,7 +408,7 @@ Diese Stile werden auf den gesamten Textblock angewendet. Sie können Inline-Sti
 
 +++
 
-+++Abstand
++++Ränder
 
 {{styles-padding}}
 
@@ -431,11 +432,11 @@ Fügen Sie _Komponente_ Trennzeichen“ hinzu, um eine lineare Aufteilung zwisch
 
 +++
 
-+++line
++++Linie
 
 +++
 
-+++size
++++Größe
 
 {{styles-size}}
 
@@ -453,7 +454,7 @@ Fügen Sie _Komponente_ Trennzeichen“ hinzu, um eine lineare Aufteilung zwisch
 
 +++
 
-+++Abstand
++++Ränder
 
 {{styles-padding}}
 
@@ -487,13 +488,13 @@ Für eine HTML-Komponente können Sie die folgenden Stile für die gesamte HTML-
 
 +++
 
-+++border
++++Rahmen
 
 {{styles-border}}
 
 +++
 
-+++size
++++Größe
 
 {{styles-size}}
 
@@ -511,7 +512,7 @@ Für eine HTML-Komponente können Sie die folgenden Stile für die gesamte HTML-
 
 +++
 
-+++Abstand
++++Ränder
 
 {{styles-padding}}
 
@@ -623,13 +624,13 @@ Legen Sie die Stile für die Bildkomponente im rechten Bedienfeld fest.
 
 +++
 
-+++border
++++Rahmen
 
 {{styles-border}}
 
 +++
 
-+++size
++++Größe
 
 {{styles-size}}
 
@@ -647,7 +648,7 @@ Legen Sie die Stile für die Bildkomponente im rechten Bedienfeld fest.
 
 +++
 
-+++Abstand
++++Ränder
 
 {{styles-padding}}
 
@@ -689,13 +690,13 @@ Sie können die folgenden Stiloptionen für die Komponente _Social_ festlegen:
 
 +++
 
-+++border
++++Rahmen
 
 {{styles-border}}
 
 +++
 
-+++size
++++Größe
 
 {{styles-size}}
 
@@ -713,7 +714,7 @@ Sie können die folgenden Stiloptionen für die Komponente _Social_ festlegen:
 
 +++
 
-+++Abstand
++++Ränder
 
 {{styles-padding}}
 

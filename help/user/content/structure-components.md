@@ -3,10 +3,11 @@ title: Strukturkomponenten
 description: Erfahren Sie, wie Sie mit Strukturkomponenten das Layout Ihrer E-Mail, Landingpage und visueller Fragmentinhalte definieren können.
 feature: Content Design Tools
 role: User
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
+source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -14,22 +15,22 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_email"
->title="Über Strukturkomponenten"
+>title="Informationen zu Strukturkomponenten"
 >abstract="Strukturkomponenten sind Layout-Elemente, mit denen Sie die Struktur einer E-Mail gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_landing_page"
->title="Über Strukturkomponenten"
+>title="Informationen zu Strukturkomponenten"
 >abstract="Strukturkomponenten sind Layout-Elemente, mit denen Sie die Struktur einer Seite gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_fragment"
->title="Über Strukturkomponenten"
->abstract="CStructure-Komponenten sind Layout-Elemente, mit denen Sie die Struktur eines Fragments gestalten können."
+>title="Informationen zu Strukturkomponenten"
+>abstract="Strukturkomponenten sind Layout-Elemente, mit denen Sie die Struktur eines Fragments gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_structure_components_template"
->title="Über Strukturkomponenten"
+>title="Informationen zu Strukturkomponenten"
 >abstract="Strukturkomponenten sind Layout-Elemente, mit denen Sie die Struktur einer Vorlage gestalten können."
 
 Verwenden Sie die _Strukturkomponenten_ im visuellen Design-Bereich, um die Struktur Ihrer Inhalte zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie die Form Ihres Inhalts-Layouts schnell definieren. Jede Strukturkomponente erstreckt sich über den horizontalen Bereich und Sie können sie stapeln, um das Layout vertikal zu erstellen. Unterteilen Sie jede Komponente in Spalten, um jeden benötigten Inhaltsblock zu bilden.
@@ -146,7 +147,7 @@ Verwenden Sie die Option **[!UICONTROL Bildplatzierung]**, um festzulegen, wie d
 
 Sie können andere Strukturkomponentenstile anwenden, um ihre Anzeige in der E-Mail-Nachricht oder Landingpage anzupassen.
 
-+++border
++++Rahmen
 
 {{styles-border}}
 
@@ -210,7 +211,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
 +++
 
-+++border
++++Rahmen
 
 {{styles-border}}
 

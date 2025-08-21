@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: a2917ea8c389c35129a77d427528051be499addf
 workflow-type: tm+mt
 source-wordcount: '2170'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -107,7 +107,7 @@ Jedes Mal, wenn eine Käufergruppe erstellt oder aktualisiert wird, wird der Vol
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
 >title="Interaktionsbewertung"
->abstract="Interaktionswerte bestimmen den Grad der Interaktion für kaufende Gruppenmitglieder."
+>abstract="Interaktionsbewertungen bestimmen den Grad der Interaktion für Käufergruppenmitglieder."
 
 Die Interaktionsbewertung einer Käufergruppe ist eine Zahl, anhand der die Interaktion der Mitglieder einer Käufergruppe basierend auf den von ihnen durchgeführten Aktivitäten ermittelt wird.
 
@@ -167,8 +167,8 @@ Die Interaktionsbewertung einer Käufergruppe ist eine Zahl, anhand der die Inte
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Gewichtung der Interaktionswerte"
->abstract="Verwenden Sie die Gewichtung, um die Berechnung des Interaktionswerts anzupassen."
+>title="Gewichtung der Interaktionsbewertung"
+>abstract="Verwenden Sie eine Gewichtung, um die Berechnung der Interaktionsbewertung anzupassen."
 
 Benutzerinnen und Benutzer können jeder _in der_ Rollenvorlage“ eine [Gewichtung](./buying-groups-role-templates.md) zuweisen, um einer Rolle unterschiedliche Gewichtungen zuzuweisen.
 
@@ -230,4 +230,4 @@ Die endgültige Interaktionsbewertung wird durch Anwenden der Gewichtung für je
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
