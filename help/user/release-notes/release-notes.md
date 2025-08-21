@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: dfd426f6d658a9340c531231e7180cbc215b65f9
-workflow-type: ht
-source-wordcount: '2552'
-ht-degree: 100%
+source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+workflow-type: tm+mt
+source-wordcount: '2780'
+ht-degree: 92%
 
 ---
 
@@ -17,12 +17,32 @@ Adobe Journey Optimizer B2B Edition bietet kontinuierlich neue Funktionen, Verbe
 Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von dessen neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
-<!-- hold for 2025.8 release 
+
+<!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## Versionshinweise für 2025.8
+
+**Bereitstellungsdatum**: Mittwoch, 26. August 2025
+
+Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Funktion | Bewertungsfilter für Personeninteraktionen für Rollenvorlagen und Journey | Sie können jetzt _Personen-Interaktionswert_ als Filter in Rollenvorlagen verwenden, die zum Erstellen von Einkaufsgruppen und in Split-Path-Journey-Knoten verwendet werden. |
+| Funktion | Konfiguration benutzerdefinierter Rollen für Einkaufsgruppen | Sie haben jetzt die Flexibilität, benutzerdefinierte Rollen für Einkaufsgruppen zu konfigurieren, sodass Sie die Rollen definieren können, die für Ihre Anwendungsfälle spezifisch sind. |
+| Funktion | Konfiguration der Gewichtung der Interaktionswerte | Sie können jetzt den Aktivitäten, die die Bewertung der Einkaufsgruppeninteraktion beeinflussen, Gewichtungen zuweisen. Diese Funktion umfasst die Definition eigener benutzerdefinierter Bewertungsmodelle und die Änderung des aktiven Modells, das die Berechnung des Interaktionswerts beeinflusst. |
+| Verbesserung | Bedingte Inhalte für Fragmente | Sie können jetzt die bedingten Inhaltstools für das visuelle Fragmentdesign verwenden. |
+| Verbesserung | Aktualisierungen des Interaktionswerts | Die Score-Logik für die Kaufgruppeninteraktion wird aktualisiert, um die Score-Werte zu normalisieren. Darüber hinaus können Sie mit Interaktionswerten auf Mitgliederebene sowie mit kollektiven Interaktionswerten für die gesamte Einkaufsgruppe arbeiten. |
+| Verbesserung | Active Journey Observability - Konten an jedem Knoten | Für eine aktive Account-Journey können Sie auf eine Liste der Accounts zugreifen, die jeden Account-Knoten auf der Journey erreicht haben. |
+
+>[!NOTE]
+>
+>Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am 26. August 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2025.6
 
@@ -69,7 +89,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | Kontolisten | Sie können nun eine statische oder dynamische Kontoliste erstellen, um benannte Konten anhand der von Ihnen definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auszuwählen. <a href="../accounts/account-lists.md">Weitere Informationen</a> |
 | Funktion | Journey-Orchestrierung der Kontoliste | Verwenden Sie den Knoten „Journey-Aktion“, um Konten für statische Kontolisten hinzuzufügen und zu entfernen. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Weitere Informationen</a> |
-| Verbesserung | Filtern der Journey-Mitgliedschaft in Marketo Engage | Verwenden Sie Kontolisten in Adobe Journey Optimizer B2B Edition für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer Kontoliste_ in intelligenten Listen in Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Weitere Informationen</a> |
+| Verbesserung | Filtern der Journey-Zugehörigkeit in Marketo Engage | Verwenden Sie Kontolisten in Adobe Journey Optimizer B2B Edition für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer Kontoliste_ in intelligenten Listen in Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Weitere Informationen</a> |
 | Funktion | Inaktivitätsfilter | Orchestrieren Sie Journeys auf der Grundlage von Inaktivität innerhalb von Marketo Engage-Kampagnen und -Programmen, einschließlich E-Mail-Inaktivität, interessanten Momenten, Änderungen des Datenwerts und besuchten Web-Seiten. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Weitere Informationen</a> |
 | Verbesserung | Filter für besuchte Web-Seiten | Orchestrieren Sie Journeys basierend auf der Aktivität für besuchte Web-Seiten, die mit Marketo Engage-Kampagnen und -Programmen verknüpft sind. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Weitere Informationen</a> |
 | Verbesserung | E-Mail-Liste | Zeigen Sie eine globale Liste der aktiven E-Mails und der E-Mail-Entwürfe an, um sie in den zugehörigen Konto-Journeys zu suchen, zu überprüfen und zu aktualisieren. <a href="../content/emails-list.md">Weitere Informationen</a> |
@@ -118,7 +138,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Funktion | Absichtsfilter für Käufergruppenrollen | Wenn Sie Ihre Absichtsschlüsselwörter übermitteln, sagt das Absichtserkennungsmodell eine Lösung/ein Produkt von Interesse basierend auf der Aktivität eines Leads mit ausreichend hoher Zuverlässigkeit voraus. <a href="../admin/intent-data.md">Weitere Informationen</a> <p>Diese Absichtsdaten stehen für die Definition der Bedingungen für die Käufergruppenrolle zur Verfügung <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Weitere Informationen</a> |
 | Verbesserung | Marketo Engage-Ereignisunterstützung in Journeys | Der Journey-Knoten _Auf Ereignis lauschen_ unterstützt jetzt zwei Marketo Engage-Ereignisse auf Personenebene: _Besucht Webseite_ und _Füllt Formular aus_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Weitere Informationen</a> |
 | Verbesserung | Käufergruppenfilter für intelligente Listen in Marketo Engage | Sie können in Marketo Engage intelligente Listen mit Käufergruppenfiltern anzeigen und erstellen. Mit diesen hinzugefügten Filtern können Sie Mitglieder von Käufergruppen in allen Marketo Engage-Kampagnen und -Programmen über die Konto-Journeys in Journey Optimizer B2B Edition unterdrücken und einbeziehen. <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">Weitere Informationen</a> |
-| Verbesserung | Mitgliedschaftsfilter für Marketo Engage-Listen für Journeys und Rollen | Aktivieren Sie die Marketo Engage-Listenmitgliedschaft in Journey Optimizer B2B als Bedingung für einen Knoten _Pfad nach Personen aufteilen_, um doppelte Journey-Aktivitäten zu vermeiden. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Weitere Informationen</a> <p> Verwenden Sie die Listenmitgliedschaft als Rollenbedingung für Rollenvorlagen für Käufergruppen. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Weitere Informationen</a> |
+| Verbesserung | Zugehörigkeitsfilter für Marketo Engage-Listen für Journeys und Rollen | Aktivieren Sie die Marketo Engage-Listenzugehörigkeit in Journey Optimizer B2B als Bedingung für einen Knoten _Pfad nach Personen aufteilen_, um doppelte Journey-Aktivitäten zu vermeiden. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Weitere Informationen</a> <p> Verwenden Sie die Listenzugehörigkeit als Rollenbedingung für Rollenvorlagen für Käufergruppen. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Weitere Informationen</a> |
 | Verbesserung | Dashboard für den Überblick über die Interaktion | Dieses Dashboard wurde aktualisiert, um eine umfassende Interaktionsansicht zu bieten. Es zeigt Echtzeitmetriken der Interaktionen von Konten und Einzelpersonen durch Kreisdiagramme von Momentaufnahmen und Liniendiagramme, die Trends aufzeigen, im Zeitverlauf an. <a href="../dashboards/engagement-dashboard.md">Weitere Informationen</a> |
 
 ## Versionen 2024
