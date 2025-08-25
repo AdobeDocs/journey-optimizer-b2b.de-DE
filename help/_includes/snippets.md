@@ -1,9 +1,9 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 592c456ec88bd86f093dcc37862545b180ec0814
+source-git-commit: f12042952864dfbc37b214351849a20578d1ed63
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2261'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[ dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist.<br/>
->&#x200B;>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
+>Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[ dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist. Die Integration ist auf Repositorys der _Bereitstellungsebene“_. Wenn Sie die _Autorenebene_ verwenden und sie konvertieren möchten, wenden Sie sich an den Adobe Experience Manager-Support.<br/>
+>>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
 
 ## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
 
