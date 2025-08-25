@@ -4,36 +4,36 @@ description: Erfahren Sie, wie Sie Bild-Assets aus einem verbundenen AEM Assets-
 feature: Assets, Content, Integrations
 role: User
 exl-id: c6864981-209c-4123-8d3f-24deb07026a0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ea2093b03ba89f9e8d3f0db60b65cb143603c217
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '559'
 ht-degree: 2%
 
 ---
 
 # Arbeiten mit Experience Manager-Assets
 
-Wenn Adobe Experience Manager Assets as a Cloud Service mit Adobe Journey Optimizer B2B edition integriert ist, können Sie auf einfache Weise digitale Assets für die Verwendung in Ihren Marketing-Inhalten ermitteln und darauf zugreifen. Während Sie Ihre Inhalte erstellen, können Sie über das Element _Experience Manager Assets_ im linken Navigationsbereich und beim Erstellen von E-Mail-Inhalten für eine Konto-Journey auf die Assets zugreifen.
+Wenn [!DNL Adobe Experience Manager Assets as a Cloud Service] mit [!DNL Adobe Journey Optimizer B2B Edition] integriert ist, können Sie auf einfache Weise digitale Assets für die Verwendung in Ihren Marketing-Inhalten entdecken und darauf zugreifen. Während Sie Ihre Inhalte erstellen, können Sie über das Element _[!UICONTROL Experience Manager Assets]_ im linken Navigationsbereich und beim Erstellen von E-Mail-Inhalten für eine Konto-Journey auf die Assets zugreifen.
 
 {{aem-assets-licensing-note}}
 
-Wenn Sie diese digitalen Assets verwenden, werden die neuesten Änderungen in Assets as a Cloud Service über verknüpfte Verweise automatisch an Live-E-Mail-Kampagnen weitergegeben. Wenn Bilder in Adobe Experience Manager Assets as a Cloud Service gelöscht werden, werden sie in den E-Mails mit einer beschädigten Referenz angezeigt. Wenn Assets, die derzeit in Account Journey verwendet werden, geändert oder gelöscht werden, werden die Journey-Autoren über die Bildänderungen und die Liste der Journey, die das Image verwenden, benachrichtigt. Alle Änderungen an den Assets müssen im Adobe Experience Manager Assets Central Repository vorgenommen werden.
+Wenn Sie diese digitalen Assets verwenden, werden die neuesten Änderungen in [!DNL Assets as a Cloud Service] über verknüpfte Verweise automatisch an Live-E-Mail-Kampagnen weitergegeben. Wenn Bilder in [!DNL Adobe Experience Manager Assets as a Cloud Service] gelöscht werden, werden sie in den E-Mails mit einem beschädigten Verweis angezeigt. Wenn Assets, die derzeit in Account Journey verwendet werden, geändert oder gelöscht werden, werden die Journey-Autoren über die Bildänderungen und die Liste der Journey, die das Image verwenden, benachrichtigt. Alle Änderungen an den Assets müssen im zentralen [!DNL Adobe Experience Manager Assets]-Repository vorgenommen werden.
 
-Wenn Ihre Umgebung über mindestens eine [Assets-Repository-Verbindung](../admin/configure-aem-repositories.md) verfügt, können Inhaltsautoren AEM Assets als Quelle für Assets beim Erstellen einer E-Mail, E-Mail-Vorlage oder eines visuellen Fragments verwenden.
+Wenn Ihre Umgebung über mindestens eine [Assets-Repository-Verbindung](../admin/configure-aem-repositories.md) verfügt, können Inhaltsautoren [!DNL Experience Manager Assets] als Quelle für Assets beim Erstellen einer E-Mail, E-Mail-Vorlage oder eines visuellen Fragments verwenden.
 
 >[!IMPORTANT]
 >
->Ein Administrator muss Benutzende, die Zugriff auf Assets benötigen, zu den Produktprofilen &quot;Assets Consumer Users“ oder/und &quot;Assets Users“ hinzufügen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
+>Ein Administrator muss Benutzende, die Zugriff auf Assets benötigen, zu den Produktprofilen &quot;Assets Consumer Users“ oder/und &quot;Assets Users“ hinzufügen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/security/ims-support#managing-products-and-user-access-in-admin-console){target="_blank"}
 
 ## Zugreifen auf AEM Assets-Bilder
 
-Klicken Sie im visuellen Inhaltseditor auf das Symbol _Experience Manager Assets_ ( ![Experience Manager Assets-Symbol](../../assets/do-not-localize/icon-assets-aem.svg) ) in der linken Seitenleiste. Dadurch wird das Bedienfeld „Tools“ in eine Liste der verfügbaren Assets im ausgewählten Repository geändert.
+Klicken Sie im Bereich „Inhaltsdesign“ auf das Symbol _[!UICONTROL Experience Manager Assets]_ ( ![Experience Manager Assets-Symbol](../../assets/do-not-localize/icon-assets-aem.svg) ) in der linken Seitenleiste. Dadurch wird das Bedienfeld „Tools“ in eine Liste der verfügbaren Assets im ausgewählten Repository geändert.
 
 ![Klicken Sie auf das Symbol Assets-Selektor , um auf die Bild-Assets zuzugreifen](./assets/content-assets-selector-aem-assets.png){width="700" zoomable="yes"}
 
 >[!NOTE]
 >
->Derzeit werden in Adobe Journey Optimizer B2B edition nur Bild-Assets aus Adobe Experience Manager Assets unterstützt. Änderungen an den Assets müssen über das zentrale Adobe Experience Manager Assets-Repository vorgenommen werden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
+>Derzeit werden in [!DNL Adobe Experience Manager Assets] nur Bild-Assets aus [!DNL Adobe Journey Optimizer B2B Edition] unterstützt. Änderungen an den Assets müssen über das zentrale [!DNL Adobe Experience Manager Assets]-Repository vorgenommen werden. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets){target="_blank"}
 
 ### Ändern des angezeigten Repositorys
 
