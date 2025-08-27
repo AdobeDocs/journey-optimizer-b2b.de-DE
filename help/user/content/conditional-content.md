@@ -1,23 +1,23 @@
 ---
-title: Bedingte Inhalte
-description: Erfahren Sie, wie Sie Inhaltsvarianten erstellen und bedingte Regeln anwenden, wenn Sie E-Mail-Inhalte für Account-Journey erstellen.
-feature: Email Authoring, Content
+title: Bedingter Inhalt
+description: Erfahren Sie, wie Sie Inhaltsvarianten erstellen und bedingte Regeln anwenden, wenn Sie visuelle Fragmente und E-Mail-Inhalte für Account-Journey erstellen.
+feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 9ad8ba495cdae4c88d9422f758ea912ca84e143c
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 13%
+source-wordcount: '1259'
+ht-degree: 12%
 
 ---
 
 # Bedingte Inhalte
 
-Bedingter Inhalt ermöglicht die Anpassung von E-Mail-Inhalten auf der Grundlage von bedingten Regeln. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können bedingte Regeln im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
+Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können bedingte Regeln im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
 
-Um bedingte Inhalte in Ihre E-Mail-Nachrichten einzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im E-Mail-Design an, wenn Sie [E-Mail-Inhalt für eine Konto-Journey erstellen](./email-authoring.md).
+Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) ](./fragment-authoring.md).
 
-## Hinzufügen von bedingten Inhalten zu E-Mails {#email-content}
+## Hinzufügen bedingter Inhalte {#email-fragment-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
@@ -29,15 +29,15 @@ Um bedingte Inhalte in Ihre E-Mail-Nachrichten einzufügen, können Sie mit Adob
 >title="Bedingte Inhalte"
 >abstract="Verwenden Sie eine in der Bibliothek gespeicherte bedingte Regel oder erstellen Sie eine neue."
 
-Verwenden Sie beim Erstellen einer E-Mail für Ihr Account-Journey im E-Mail-Design bedingte Regeln, um mehrere Varianten für eine Inhaltskomponente zu definieren.
+Verwenden Sie beim Erstellen eines Fragments oder einer E-Mail im visuellen Design bedingte Regeln, um mehrere Varianten für eine Inhaltskomponente zu definieren.
 
 1. Wählen Sie eine Inhaltskomponente aus und klicken Sie auf das Symbol **[!UICONTROL Bedingten Inhalt aktivieren]** in der Komponenten-Symbolleiste.
 
-   Die Komponente ist orange umrandet, um anzugeben, dass sie als bedingte Komponente aktiviert ist. Der Bereich **[!UICONTROL Bedingter Inhalt]** wird auf der linken Seite mit den _Standardvariante_ und _Variante - 1 angezeigt.
+   Die Komponente ist orange umrandet, um anzugeben, dass sie als bedingte Komponente aktiviert ist. Der Bereich **[!UICONTROL Bedingter Inhalt]** wird auf der linken Seite mit der _Standardvariante_ und _Variante - 1_ angezeigt.
 
    ![Bedingten Inhalt für die Textkomponente aktivieren](./assets/conditions-enable.png){width="700" zoomable="yes"}
 
-   Der ausgewählte und aktivierte Originalinhalt ist die Standardeinstellung und wird angewendet, wenn keine der bedingten Regeln für eine der von Ihnen definierten Varianten erfüllt ist.
+   Der von Ihnen ausgewählte und aktivierte Originalinhalt ist die Standardeinstellung und wird angewendet, wenn keine der bedingten Regeln für eine der von Ihnen definierten Varianten erfüllt ist.
 
    In diesem Bereich können Sie mithilfe von bedingten Regeln mehrere Varianten für die ausgewählte Inhaltskomponente definieren.
 
@@ -94,20 +94,18 @@ Verwenden Sie beim Erstellen einer E-Mail für Ihr Account-Journey im E-Mail-Des
 ## Bedingte Regeln
 
 Bedingte Regeln sind ein Satz bedingter Ausdrücke, die als „true“ oder „false“ ausgewertet werden können. Sie können diese Regeln verwenden, um auf der Grundlage verschiedener Filter, wie Profilattribute oder kontextuelle Ereignisse, zu bestimmen, welche Inhaltsvariante in einer E-Mail-Nachricht angezeigt werden soll.
-
-Bedingte Regeln werden in der Bedingungsbibliothek gespeichert, wo sie für die Wiederverwendung über Journey-Inhalte für Ihr Unternehmen hinweg verfügbar sind.
-<!-- 
-
+Die Regeln werden in der Bedingungsbibliothek gespeichert, wo sie für Ihre Organisation zur Wiederverwendung in E-Mail- und Fragmentinhalten verfügbar sind.
+<!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization. -->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
 
 ### Bedingungsfilter {#condition-filters}
 
 | Bedingungstyp | Filter | Beschreibung |
 | -------------- | ------- | ----------- |
 | **Konto** | Kontoattribute | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz</li><li>Stadt</li><li>Land</li><li>Mitarbeiterzahl</li><li>Branche</li><li>Name</li><li>SIC-Code</li><li>Land</li> |
-| | [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li> |
+| | [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Der Filter kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li> |
 | **Person** | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verbundene E-Mail-Aktivitäten: <li>[!UICONTROL Link in E-Mail angeklickt]</li><li>Geöffnete E-Mail</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li> Diese Bedingungen werden mithilfe einer ausgewählten E-Mail-Nachricht aus einem früheren Abschnitt der Journey ausgewertet. |
 |  | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Last name</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Land</li><li>Abbestellt</li><li>Grund für Abmeldung</li> |
 | | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>Rolle</li> |

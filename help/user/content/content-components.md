@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie Inhaltskomponenten zum Entwerfen Ihrer E-Mail
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
 workflow-type: tm+mt
-source-wordcount: '2841'
+source-wordcount: '2844'
 ht-degree: 7%
 
 ---
@@ -200,10 +200,9 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 | ---- | ---- | ----- |
 | ![Hinzufügen von Personalisierung](../assets/do-not-localize/toolbar-button-add-personalization.png){width="40"} | Hinzufügen von Personalisierung | Verwenden Sie den Personalisierungseditor, um Personalisierungs-Token in den Komponenteninhalt einzufügen. [Weitere Informationen](./email-authoring.md#personalize-content) |
 | ![Quellcode anzeigen](../assets/do-not-localize/toolbar-button-show-source-code.png){width="40"} | Quellcode anzeigen | Den HTML-Quell-Code für die Komponente in einem schreibgeschützten Popup anzeigen. <br/>![HTML-Code anzeigen](./assets/content-components-show-source-code.png){width="200"} |
-| ![Bedingten Inhalt aktivieren](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Bedingten Inhalt aktivieren | Aktivieren von bedingten Varianten für die Komponente. [Weitere Informationen](./conditional-content.md) |
+| ![Bedingten Inhalt aktivieren](../assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Bedingten Inhalt aktivieren | (E-Mails und Fragmente) Aktivieren bedingter Varianten für die Komponente. [Weitere Informationen](./conditional-content.md) |
 | ![Duplizieren](../assets/do-not-localize/toolbar-button-duplicate.png){width="40"} | Duplizieren | Erstellen Sie eine Kopie der Komponente und fügen Sie sie direkt unten hinzu. |
 | ![Löschen](../assets/do-not-localize/toolbar-button-delete.png){width="40"} | Löschen | Entfernen Sie die Komponente. |
-
 
 ## Hinzufügen einer Inhaltskomponente zu einem Design
 
@@ -238,7 +237,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 

@@ -1,10 +1,10 @@
 ---
 title: Snippets
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: f12042952864dfbc37b214351849a20578d1ed63
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 0%
+source-wordcount: '2375'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[ dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist. Die Integration ist auf Repositorys der _Bereitstellungsebene“_. Wenn Sie die _Autorenebene_ verwenden und sie konvertieren möchten, wenden Sie sich an den Adobe Experience Manager-Support.<br/>
->&#x200B;>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
+>>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
 
 ## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
 
@@ -262,3 +262,16 @@ Ziehen _[!UICONTROL im Dialogfeld]_ Bild hochladen“ eine Datei aus dem System 
 Die Dateinamen der ausgewählten Bilder werden im Dialogfeld angezeigt. Asset-Dateinamen müssen eindeutig sein (in allen Ordnern). Wenn bereits eine Datei mit dem Namen vorhanden ist, wird eine Meldung angezeigt. Namen dürfen maximal 100 Zeichen lang sein und keine Sonderzeichen enthalten (beispielsweise `;`, `:`, `\` und `|`).
 
 Klicken Sie **[!UICONTROL Importieren]**.
+
+## Engagement Score-Aktivitäten {#engagement-activities}
+
+| Aktivitätsname | Beschreibung | Interaktionstyp | Maximale tägliche Frequenzlimitierung | Standardmäßige Aktivitätsgewichtung des Modells |
+| --- | --- | --- | --- | --- |
+| [!UICONTROL An Veranstaltung teilnehmen] | Ein Mitglied nimmt an einem Event teil | Ereignis | 20 | 60 |
+| [!UICONTROL E-Mail angeklickt] | Ein Mitglied klickt auf einen Link in einer E-Mail | E-Mail | 20 | 30 |
+| [!UICONTROL E-Mail geöffnet] | Ein Mitglied öffnet eine E-Mail | E-Mail | 20 | 30 |
+| [!UICONTROL Formular ausgefüllt] | Ein Mitglied füllt ein Formular auf einer Web-Seite aus und sendet es ab | Web | 20 | 40 |
+| [!UICONTROL Interessanter Moment] | Ein Mitglied hat einen interessanten Moment | Kuratiert | 20 | 60 |
+| [!UICONTROL Link-Klicks] | Ein Mitglied klickt auf einen Link auf einer Web-Seite | Web | 20 | 40 |
+| [!UICONTROL Seitenansichten] | Ein Mitglied zeigt eine Web-Seite an | Web | 20 | 40 |
+| [!UICONTROL Für Veranstaltung registrieren] | Ein für ein Ereignis registriertes Mitglied | Ereignis | 20 | 60 |

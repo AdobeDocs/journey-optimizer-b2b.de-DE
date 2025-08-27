@@ -3,9 +3,9 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 3461236ca286982bf8c9c722c84486aa4e8266ab
+source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2787'
 ht-degree: 92%
 
 ---
@@ -33,11 +33,11 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Bewertungsfilter für Personeninteraktionen für Rollenvorlagen und Journey | Sie können jetzt _Personen-Interaktionswert_ als Filter in Rollenvorlagen verwenden, die zum Erstellen von Einkaufsgruppen und in Split-Path-Journey-Knoten verwendet werden. |
-| Funktion | Konfiguration benutzerdefinierter Rollen für Einkaufsgruppen | Sie haben jetzt die Flexibilität, benutzerdefinierte Rollen für Einkaufsgruppen zu konfigurieren, sodass Sie die Rollen definieren können, die für Ihre Anwendungsfälle spezifisch sind. |
-| Funktion | Konfiguration der Gewichtung der Interaktionswerte | Sie können jetzt den Aktivitäten, die die Bewertung der Einkaufsgruppeninteraktion beeinflussen, Gewichtungen zuweisen. Diese Funktion umfasst die Definition eigener benutzerdefinierter Bewertungsmodelle und die Änderung des aktiven Modells, das die Berechnung des Interaktionswerts beeinflusst. |
-| Verbesserung | Bedingte Inhalte für Fragmente | Sie können jetzt die bedingten Inhaltstools für das visuelle Fragmentdesign verwenden. |
-| Verbesserung | Aktualisierungen des Interaktionswerts | Die Score-Logik für die Kaufgruppeninteraktion wird aktualisiert, um die Score-Werte zu normalisieren. Darüber hinaus können Sie mit Interaktionswerten auf Mitgliederebene sowie mit kollektiven Interaktionswerten für die gesamte Einkaufsgruppe arbeiten. |
+| Funktion | Bewertungsfilter für Personeninteraktionen für Rollenvorlagen und Journey | Sie können jetzt _Personen-Interaktionswert_ als Filter in Rollenvorlagen verwenden, die zum Erstellen von Einkaufsgruppen und in Split-Path-Journey-Knoten verwendet werden. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Funktion | Konfiguration benutzerdefinierter Rollen für Einkaufsgruppen | Sie haben jetzt die Flexibilität, benutzerdefinierte Rollen für Einkaufsgruppen zu konfigurieren, sodass Sie die Rollen definieren können, die für Ihre Anwendungsfälle spezifisch sind. [Weitere Informationen](../buying-groups/default-custom-roles.md) |
+| Funktion | Konfiguration der Gewichtung der Interaktionswerte | Sie können jetzt den Aktivitäten, die die Bewertung der Einkaufsgruppeninteraktion beeinflussen, Gewichtungen zuweisen. Diese Funktion umfasst die Definition eigener benutzerdefinierter Bewertungsmodelle und die Änderung des aktiven Modells, das die Berechnung des Interaktionswerts beeinflusst. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Verbesserung | Bedingte Inhalte für Fragmente | Sie können jetzt die bedingten Inhaltstools für das visuelle Fragmentdesign verwenden. [Weitere Informationen](../content/conditional-content.md) |
+| Verbesserung | Aktualisierungen des Interaktionswerts | Die Score-Logik für die Kaufgruppeninteraktion wird aktualisiert, um die Score-Werte zu normalisieren. Darüber hinaus können Sie mit Interaktionswerten auf Mitgliederebene sowie mit kollektiven Interaktionswerten für die gesamte Einkaufsgruppe arbeiten. [Weitere Informationen](../buying-groups/engagement-scores.md) |
 | Verbesserung | Active Journey Observability - Konten an jedem Knoten | Für eine aktive Account-Journey können Sie auf eine Liste der Accounts zugreifen, die jeden Account-Knoten auf der Journey erreicht haben. |
 
 >[!NOTE]
@@ -153,7 +153,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Sperren von bedingten Inhalten in E-Mail-Vorlagen | Personalisieren Sie Ihre E-Mail-Inhalte basierend auf dem Verhalten und den Profilmerkmalen der Empfängerinnen und Empfänger – sowohl auf Konto- als auch auf Lead-Ebene. <p>Verwenden Sie bedingte Regeln beim Erstellen einer E-Mail für Ihre Konto-Journey im visuellen Design-Bereich der E-Mail, um mehrere Varianten für Inhaltskomponenten zu definieren. <a href="../content/conditional-content.md">Weitere Informationen</a> |
+| Funktion | Bedingte Inhalte in E-Mails | Personalisieren Sie Ihre E-Mail-Inhalte basierend auf dem Verhalten und den Profilmerkmalen der Empfängerinnen und Empfänger – sowohl auf Konto- als auch auf Lead-Ebene. <p>Verwenden Sie bedingte Regeln beim Erstellen einer E-Mail für Ihre Konto-Journey im visuellen Design-Bereich der E-Mail, um mehrere Varianten für Inhaltskomponenten zu definieren. <a href="../content/conditional-content.md">Weitere Informationen</a> |
 | Funktion | Personenaktionen _Zu Liste hinzufügen_ und _Aus Liste entfernen_ | Personalisieren Sie Ihre E-Mail-Inhalte basierend auf dem Verhalten und den Profilmerkmalen der Empfängerinnen und Empfänger – sowohl auf Konto- als auch auf Lead-Ebene. <a href="../journeys/action-nodes.md">Weitere Informationen</a> |
 | Funktion | Content-Governance und Komponentensperrung | Um die Einhaltung genehmigter Inhaltsentwürfe sicherzustellen, verwenden Sie Content-Governance-Funktionen, um Inhaltskomponenten für E-Mail-Vorlagen zu sperren. Wenn die Content-Governance in der E-Mail-Vorlage aktiviert ist, können Marketing-Fachleute nur die zulässigen Elemente ändern, um sie an die Inhaltsstrategie anzupassen. <a href="../content/template-content-governance.md">Weitere Informationen</a> |
 | Funktion | Käufergruppenphasen | Wenn Sie ein benutzerdefiniertes Käufergruppenphasenmodell definieren und veröffentlichen, können Sie den Fortschritt der Käufergruppe über die Lebenszyklusphasen der Käufergruppe hinweg verfolgen. Verwenden Sie diese Phasen, um die nächsten optimalen Aktionen für Käufergruppenmitglieder zu ermitteln. Sie konfigurieren die Übergangsregeln und Journey-Knoten, die den Fortschritt in der Phase festlegen und Aktionen basierend auf Änderungen auslösen. <a href="../buying-groups/buying-group-stages.md">Weitere Informationen</a> |

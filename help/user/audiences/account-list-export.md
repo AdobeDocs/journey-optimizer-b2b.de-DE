@@ -1,19 +1,19 @@
 ---
-title: Exportieren der Kontoliste
+title: Konten exportieren
 description: Erfahren Sie, wie Sie die Kontoliste basierend auf dem Filter „Käufergruppen“ exportieren.
 feature: Account Lists
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '253'
-ht-degree: 100%
+source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 91%
 
 ---
 
-# Exportieren der Kontoliste
+# Konten exportieren
 
-Verwenden Sie die Funktion _Kontoliste exportieren_, um alle Konten oder eine Reihe von Konten basierend auf der von Ihnen definierten Filterung zu exportieren. Durch den Exportvorgang wird eine CSV-Datei generiert und die URL für die gespeicherte Datei wird innerhalb einer Pulse-Benachrichtigung gesendet. Mit dieser Funktion können Sie bei Bedarf Konten in Plattformen von Drittanbietern verschieben.
+Verwenden Sie die Funktion _Konten exportieren_ um alle Konten oder eine Gruppe von Konten basierend auf den von Ihnen definierten Filtern zu exportieren. Durch den Exportvorgang wird eine CSV-Datei generiert und die URL für die gespeicherte Datei wird innerhalb einer Pulse-Benachrichtigung gesendet. Mit dieser Funktion können Sie bei Bedarf Konten in Plattformen von Drittanbietern verschieben.
 
 1. Navigieren Sie in Journey Optimizer B2B Edition in der linken Navigation zu **[!UICONTROL Konten]** > **[!UICONTROL Käufergruppen]**.
 

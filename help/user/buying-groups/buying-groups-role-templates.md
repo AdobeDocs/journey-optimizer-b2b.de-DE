@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie eine Rollenvorlage definieren, die als Einkau
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 64e6b19894be749b154720ea542c8b18b9153a07
+source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 6%
 
 ---
 
 # Vorlagen für Käufergruppenrollen
 
-In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen getroffen. Diese Personen nehmen entsprechend ihrer Rolle in der Organisation am Entscheidungsprozess teil. Erstellen Sie Rollenvorlagen für Einkaufsgruppen, die diese Rollendefinitionen entsprechend jedem Produktangebotstyp oder Account-Anwendungsfall enthalten.
+In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen getroffen. Diese Personen nehmen entsprechend ihrer Rolle in der Organisation am Entscheidungsprozess teil. Erstellen Sie Rollenvorlagen für Einkaufsgruppen, die eine Gruppe von Rollendefinitionen entsprechend jedem Produktangebotstyp oder Account-Anwendungsfall enthalten.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
@@ -23,7 +23,7 @@ In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen 
 
 1. Wählen Sie auf _[!UICONTROL Seite]_ die Registerkarte **[!UICONTROL Rollenvorlagen]** aus.
 
-   ![Registerkarte Rollenvorlagen](assets/roles-templates-tab.png){width="700" zoomable="yes"}
+   ![Registerkarte Rollenvorlagen](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    Die Registerkarte bietet eine Bestandsliste aller vorhandenen Rollenvorlagen und zeigt die folgenden Informationen im Spaltenformat an:
 
@@ -56,13 +56,13 @@ In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen 
 
 ### Vorlagenrollen hinzufügen
 
-Nachdem Sie die Vorlage erstellt haben, wird sie im Arbeitsbereich geöffnet und Sie werden aufgefordert, die Rollen zu definieren. Standardmäßig wird die erste Rollenkarte angezeigt.
+Nachdem Sie die Vorlage erstellt haben, wird sie im Arbeitsbereich geöffnet, und Sie werden aufgefordert, die Rollen hinzuzufügen. Standardmäßig wird die erste Rollenkarte angezeigt.
 
 Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filtern oder _Bedingungen_, um die der Rolle zugewiesenen Mitglieder zu bestimmen. Verwenden Sie die folgenden Filtertypen, um die Bedingungen für eine Rolle zu definieren:
 
 | Typ | Bedingung |
 | ---- | --------- |
-| Personenattribute | <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Faxnummer <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Zweiter Vorname <li>Mobiltelefonnummer <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
+| Personenattribute | <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Faxnummer <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Zweiter Vorname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
 | Spezielle Filter | <li>Mitglied der Liste <li>Mitglied des Programms |
 | Absichtsdaten | Kategoriebedingung <li>Produktzweck <li>Keyword-Intent<br/>[ Erfahren Sie mehr über ](../admin/intent-data.md). |
 
@@ -70,7 +70,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Für die aktuelle Version gibt es sechs Rollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`.
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#custom-roles).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -162,4 +162,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

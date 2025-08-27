@@ -4,16 +4,16 @@ description: Erfahren Sie, wie Sie Inhaltsfragmente erstellen, die für Ihre E-M
 feature: Fragments, Content Design Tools
 role: User
 exl-id: d29754cf-6721-489c-bff8-cde034456db2
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 6028a1ac7989212624be2813d7961f6711080f4e
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 7%
+source-wordcount: '391'
+ht-degree: 6%
 
 ---
 
 # Erstellen von Fragmenten
 
-Nachdem Sie [ein Fragment erstellt haben](./fragments.md#create-fragments) verwenden Sie den Visual Editor, um die Struktur- und Inhaltskomponenten in Ihrem Fragment zu erstellen.
+Nachdem Sie [ein Fragment erstellt haben](./fragments.md#create-fragments) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrem Fragment zu erstellen.
 
 ## Hinzufügen von Struktur und Inhalten {#design-fragment}
 
@@ -30,6 +30,12 @@ Nachdem Sie [ein Fragment erstellt haben](./fragments.md#create-fragments) verwe
 ## Personalisieren von Inhalten
 
 {{$include /help/_includes/content-design-personalization.md}}
+
+## Bedingte Inhalte
+
+Um bedingte Inhalte hinzuzufügen, die den Inhalt auf der Grundlage von Regeln an die Zielprofile anpassen, wählen Sie eine Inhaltskomponente aus und klicken Sie auf die Schaltfläche **[!UICONTROL Bedingten Inhalt aktivieren]** in der Komponenten-Symbolleiste. Wenn das veröffentlichte Fragment in einer E-Mail-Nachricht enthalten ist, bestimmen die bedingten Regeln die Variante einer bedingten Komponente, die in der E-Mail-Nachricht gerendert wird.
+
+Weitere Informationen finden Sie unter [_Bedingter Inhalt_](./conditional-content.md).
 
 ## Aktivieren der Fragmentanpassung
 
