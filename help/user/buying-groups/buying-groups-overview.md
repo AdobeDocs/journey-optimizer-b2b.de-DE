@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Käufergruppen in Journey Optimizer B2B Edition d
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: eb80b57b0481837a50c7c0985ac4dc5d71f3577e
+source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1194'
 ht-degree: 75%
 
 ---
@@ -20,7 +20,7 @@ Bei B2B-Vertriebs- und Marketing-Aktivitäten sind Konten wichtig für jede Stra
 
 Innerhalb des Kontos könnte es eine Teilmenge von Personen geben, die die _Käufergruppe_ umfassen. Dies sind die Personen, die letztendlich die Kaufentscheidung treffen. Sie benötigen daher besondere Aufmerksamkeit von der Marketing-Fachkraft und ihnen müssen möglicherweise andere Informationen bereitgestellt werden als anderen Personen, die dem Konto zugeordnet sind. Käufergruppen können unterschiedliche Personengruppen für verschiedene Produktlinien oder Angebote umfassen. Beispielsweise muss der Kauf eines Cyber-Sicherheitsprodukts in der Regel durch die oder den Chief Information Officer oder Chief Security Officer sowie eine Vertreterin oder einen Vertreter der Rechtsabteilung genehmigt werden. Bei einem Produkt zur Fehlersuche kann die Käufergruppe typischerweise die oder den VP of Engineering und die oder den IT Director umfassen.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
+![Video-Symbol](../../assets/do-not-localize/icon-video.svg){width="30"} [Video-Übersicht ansehen](#overview-video)
 
 ## Wichtige Komponenten
 
@@ -112,4 +112,4 @@ Unter [Interaktionswerte](./engagement-scores.md) finden Sie detaillierte Inform
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

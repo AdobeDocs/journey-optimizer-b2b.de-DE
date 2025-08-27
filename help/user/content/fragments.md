@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie visuelle Inhaltsfragmente als wiederverwendba
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: f700f84c55d37ded9980a08286da05011345800c
 workflow-type: tm+mt
-source-wordcount: '2624'
+source-wordcount: '2738'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,11 @@ Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E
 
 **Visuelle Fragmente**
 
-Visuelle Fragmente sind vordefinierte visuelle Bausteine, die mit dem visuellen Inhalts-Designer erstellt wurden und die Sie in mehreren E-Mail-Adressen oder E-Mail-Vorlagen wiederverwenden können. Der aktuelle Umfang von Journey Optimizer B2B edition und diese Dokumentation beziehen sich nur auf visuelle Fragmente. Ausdrucksbasierte Fragmente werden in Journey Optimizer B2B edition noch nicht unterstützt.
+Visuelle Fragmente sind vordefinierte visuelle Bausteine, die mithilfe von visuellen Design-Tools erstellt wurden und die Sie in mehreren E-Mails oder E-Mail-Vorlagen wiederverwenden können. Der aktuelle Umfang von Journey Optimizer B2B edition und diese Dokumentation beziehen sich nur auf visuelle Fragmente.
+
+>[!NOTE]
+>
+>Ausdrucksbasierte Fragmente werden in [!DNL Journey Optimizer B2B Edition] noch nicht unterstützt.
 
 >[!ENDSHADEBOX]
 
@@ -42,9 +46,9 @@ Der Fragmentstatus bestimmt seine Verfügbarkeit zur Verwendung in einer E-Mail 
 
 | Status | Beschreibung |
 | -------------------- | ----------- |
-| Entwurf | Wenn Sie ein Fragment erstellen, befindet es sich im Entwurfsstatus . Dieser Status bleibt erhalten, während Sie den visuellen Inhalt definieren oder bearbeiten, bis Sie ihn zur Verwendung in einer E-Mail- oder E-Mail-Vorlage veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>In Visual Designer bearbeiten<li>Veröffentlichen<li>Duplizieren<li>Löschen |
-| Veröffentlicht | Wenn Sie ein Fragment veröffentlichen, wird es zur Verwendung in einer E-Mail oder E-Mail-Vorlage verfügbar. Veröffentlichte Fragmentinhalte können im visuellen Designer nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Versionsentwurf erstellen<li>Duplizieren<li>Löschen (wenn nicht in Gebrauch) |
-| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einem veröffentlichten Fragment erstellen, bleibt die veröffentlichte Version zur Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar und der Entwurfsinhalt kann im visuellen Designer geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und der Inhalt wird in den E-Mails und E-Mail-Vorlagen, in denen sie verwendet wird, aktualisiert. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Bearbeiten der Entwurfsversion in Visual Designer<li>Entwurfsversion veröffentlichen<li>Duplizieren<li>Löschen (wenn nicht in Gebrauch) |
+| Entwurf | Wenn Sie ein Fragment erstellen, befindet es sich im Entwurfsstatus . Dieser Status bleibt erhalten, während Sie den visuellen Design-Bereich definieren oder bearbeiten, bis Sie ihn zur Verwendung in einer E-Mail oder E-Mail-Vorlage veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Bearbeiten im visuellen Design-Bereich<li>Veröffentlichen<li>Duplizieren<li>Löschen |
+| Veröffentlicht | Wenn Sie ein Fragment veröffentlichen, wird es zur Verwendung in einer E-Mail oder E-Mail-Vorlage verfügbar. Veröffentlichte Fragmentinhalte können im visuellen Design nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Versionsentwurf erstellen<li>Duplizieren<li>Löschen (wenn nicht in Gebrauch) |
+| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einem veröffentlichten Fragment erstellen, bleibt die veröffentlichte Version zur Verwendung in einer E-Mail- oder E-Mail-Vorlage verfügbar und der Entwurfsinhalt kann im visuellen Design-Bereich geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und der Inhalt wird in den E-Mails und E-Mail-Vorlagen, in denen sie verwendet wird, aktualisiert. Verfügbare Aktionen:<br/><ul><li>Beschreibung bearbeiten.<li>Hinzufügen zu einer E-Mail oder Vorlage<li>Bearbeiten der Entwurfsversion im visuellen Design-Bereich<li>Entwurfsversion veröffentlichen<li>Duplizieren<li>Löschen (wenn nicht in Gebrauch) |
 
 ![Lebenszyklus des Fragmentstatus](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -86,7 +90,7 @@ Sie können neue visuelle Fragmente in Journey Optimizer B2B edition erstellen, 
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   Der visuelle Designer wird mit einer leeren Arbeitsfläche geöffnet.
+   Der visuelle Design-Bereich wird mit einer leeren Arbeitsfläche geöffnet.
 
 1. Verwenden Sie die Inhaltserstellungs-Tools, um den visuellen Fragmentinhalt zu erstellen:
 
@@ -96,6 +100,18 @@ Sie können neue visuelle Fragmente in Journey Optimizer B2B edition erstellen, 
    * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
    * [Benutzerdefinierte Felder aktivieren](./fragment-authoring.md#enable-fragment-customization)
    * [Verknüpftes URL-Tracking bearbeiten](./fragment-authoring.md#edit-linked-url-tracking)
+
+1. (Optional) Wenden Sie ein [Markendesign](./brand-themes.md) auf den Fragmentinhalt an, um den Prozess der Fragmentbearbeitung zu optimieren und sicherzustellen, dass das Design den definierten Standards entspricht.
+
+   >[!NOTE]
+   >
+   >Beim Anwenden eines Designs ist die Fragmentkompatibilität auf E-Mails und E-Mail-Vorlagen beschränkt, die im _Design-Modus_ erstellt werden.
+
+   Klicken Sie auf _Designs_ ( ![Themes-Symbol](../assets/do-not-localize/icon-design-themes.svg) ) auf der rechten Seite.
+
+   ![Fragment-Design-Bereich - Symbol „Designs“ ausgewählt](./assets/fragment-design-themes-icon-selected.png){width="600" zoomable="yes"}
+
+   Wählen Sie eines der benutzerdefinierten Designs aus, das auf der Registerkarte **[!UICONTROL Meine Designs]** aufgeführt ist, oder Sie können **[!UICONTROL Adobe-]** auswählen, um ein integriertes Design zu verwenden. Wenn Sie außerhalb der Liste klicken, wendet das ausgewählte Design die Stile auf alle Komponenten auf der Arbeitsfläche an. Sie können bei Bedarf zwischen den Farbvarianten wechseln.
 
 1. Klicken Sie **[!UICONTROL auf &quot;]**&quot;, um das Entwurfsfragment zu speichern.
 
@@ -166,9 +182,9 @@ Wenn das Fragment derzeit verwendet wird, wird durch die Aktion ein Informations
 
    ![Details für Fragment mit Entwurfsstatus](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
-1. Um Änderungen am Inhalt im visuellen Designer vorzunehmen, klicken Sie auf **[!UICONTROL Fragment bearbeiten]**.
+1. Um Änderungen am Inhalt im visuellen Design-Bereich vorzunehmen, klicken Sie auf **[!UICONTROL Fragment bearbeiten]**.
 
-   Verwenden Sie nach Bedarf die visuellen Designer-Tools:
+   Verwenden Sie bei Bedarf visuelle Design-Tools:
 
    * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
@@ -193,11 +209,11 @@ Wenn das Fragment derzeit verwendet wird, wird durch die Aktion ein Informations
 
 1. Wenn Sie den Inhalt aktualisieren möchten, klicken Sie oben **[!UICONTROL auf „Entwurfsversion]**&quot;.
 
-   Klicken Sie **[!UICONTROL Dialogfeld]** OK“, um die Entwurfsversion im visuellen Designer zu öffnen.
+   Klicken Sie **[!UICONTROL Dialogfeld]** OK“, um die Entwurfsversion im visuellen Design-Bereich zu öffnen.
 
    ![Dialogfeld „Entwurfsversion erstellen“](./assets/fragments-create-draft-version.png){width="300"}
 
-   Verwenden Sie nach Bedarf die visuellen Designer-Tools:
+   Verwenden Sie bei Bedarf visuelle Design-Tools:
 
    * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
@@ -226,7 +242,7 @@ Es gibt zwei Möglichkeiten, die Entwurfsversion zur Bearbeitung über die Liste
 
 So aktualisieren Sie den Inhalt:
 
-1. Klicken **[!UICONTROL oben]** auf „Fragment bearbeiten“. Verwenden Sie nach Bedarf die visuellen Designer-Tools:
+1. Klicken **[!UICONTROL oben]** auf „Fragment bearbeiten“. Verwenden Sie bei Bedarf visuelle Design-Tools:
 
    * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
@@ -286,7 +302,7 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 1. Navigieren Sie zu **[!UICONTROL Account-Journey]** und öffnen Sie eine bestehende Journey oder erstellen Sie eine neue Journey.
 
-1. Erstellen Sie einen [_[!UICONTROL E-Mail senden &#x200B;]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Erstellen Sie einen [_[!UICONTROL E-Mail senden ]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Erstellen oder bearbeiten [E-Mail-Inhalt für den Knoten](./email-authoring.md).
 
@@ -310,7 +326,7 @@ Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um 
 
 >[!TIP]
 >
->Wenn Sie möchten, dass das Fragment das gesamte horizontale Layout in der E-Mail einnimmt, fügen Sie eine [!UICONTROL 1:1-] hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
+>Wenn das Fragment das gesamte horizontale Layout in der E-Mail einnehmen soll, fügen Sie eine [!UICONTROL 1:1Spalten]-Struktur hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
 
 Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn die Registerkarte _[!UICONTROL Verwendet von]_ ausgewählt ist. Fragmente, die einer E-Mail hinzugefügt wurden, können innerhalb der E-Mail oder Vorlage nicht bearbeitet werden — das veröffentlichte Quellfragment definiert den Inhalt.
 
@@ -342,7 +358,7 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 
 >[!TIP]
 >
->Wenn das Fragment das gesamte horizontale Layout in der E-Mail-Vorlage einnehmen soll, fügen Sie eine _[!UICONTROL 1:1-]_ hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
+>Wenn das Fragment das gesamte horizontale Layout in der E-Mail-Vorlage einnehmen soll, fügen Sie eine _[!UICONTROL 1::1-]_ hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
 
 Nachdem die E-Mail-Vorlage gespeichert wurde, wird sie auf der Seite mit Fragmentdetails angezeigt, wenn die Registerkarte _[!UICONTROL Verwendet von]_ ausgewählt ist. Fragmente, die einer E-Mail-Vorlage hinzugefügt wurden, können innerhalb der Vorlage nicht bearbeitet werden — das veröffentlichte Quellfragment definiert den Inhalt.
 

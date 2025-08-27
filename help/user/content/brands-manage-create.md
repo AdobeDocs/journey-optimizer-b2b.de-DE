@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 3065dfedc4fa70d102d7d39a413ecd7aaf93f3f8
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2053'
 ht-degree: 17%
 
 ---
@@ -148,7 +148,7 @@ Um Ihre Markenrichtlinien zu erstellen und zu definieren, können Sie entweder d
 
    * **Beispiele für Richtlinien und Ausschlüsse hinzufügen oder**.
 
-     Klicken Sie auf der angezeigten Beispielkachel auf _Bearbeiten_ ( ![Bearbeiten-Symbol](../assets/do-not-localize/icon-edit.svg) ), um das Beispiel zu ändern, oder klicken Sie auf das _Löschen_ ( ![Löschen-Symbol](../assets/do-not-localize/icon-delete.svg) ), um es zu entfernen.
+     Klicken Sie auf der angezeigten Beispielkachel auf das Symbol _Bearbeiten_ ( ![Bearbeiten-Symbol](../assets/do-not-localize/icon-edit.svg) ), um das Beispiel zu ändern, oder klicken Sie auf das Symbol _Löschen_ ( ![Löschen-Symbol](../assets/do-not-localize/icon-delete.svg) ), um es zu entfernen.
 
 1. Wenn Sie alles definiert haben, klicken Sie auf **[!UICONTROL Speichern]**.
 
