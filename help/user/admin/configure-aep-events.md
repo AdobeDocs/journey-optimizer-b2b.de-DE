@@ -3,18 +3,18 @@ title: Konfigurieren von Experience Platform Events
 description: Erfahren Sie mehr über den Knotentyp Warten , den Sie für die Orchestrierung Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
 feature: Setup, Integrations
 role: Admin
-soultion: Journey Optimizer B2B Edition, Experience Platform
+solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: a7cf25536ac698f99d9d9a54c574f03d0fe5974b
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1779'
 ht-degree: 2%
 
 ---
 
 # Konfigurieren von Experience Platform-Ereignisdefinitionen
 
-Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren.
+Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
 
@@ -30,7 +30,7 @@ Für jede Ereignisdefinition sind die folgenden Experience Platform-Eingaben erf
 
   >[!NOTE]
   >
-  >Stimmen Sie sich mit Ihrem Engineering-Team ab, um sicherzustellen, dass die erforderlichen Schemata definiert werden. [Erstellen von XDM](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition){target="_blank"}Schemata ist ein komplexer Prozess, der von Dateningenieuren auf der Grundlage von Anwendungsfallanforderungen in Ihrem Unternehmen durchgeführt wird.
+  >Um sicherzustellen, dass die erforderlichen Schemata definiert werden, stimmen Sie sich mit Ihrem Engineering-Team ab. [Erstellen von XDM](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition){target="_blank"}Schemata ist ein komplexer Prozess, der von Dateningenieuren auf der Grundlage von Anwendungsfallanforderungen in Ihrem Unternehmen durchgeführt wird.
 
 * **_Ereignistypen_** - XDM ExperienceEvent eventType (maximal 20 pro Ereignisdefinition).
 
@@ -70,7 +70,7 @@ Beachten Sie beim Erstellen und Verwalten Ihrer Ereignisdefinitionen zur Erfüll
 
    ![Zugriff auf die konfigurierten Ereignisdefinitionen](./assets/configuration-events-defs-list.png){width="800" zoomable="yes"}
 
-   Die Tabelle wird nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Definitionen standardmäßig oben stehen.<!-- Click the column title to change between ascending and descending.-->
+   Die Tabelle wird nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Definitionen als Standard oben stehen.<!-- Click the column title to change between ascending and descending.-->
 
 1. Um auf die Details für eine Ereignisdefinition zuzugreifen, klicken Sie auf den Namen.
 
@@ -80,9 +80,9 @@ In der Liste _[!UICONTROL Ereignisdefinitionen]_ gibt die Spalte **[!UICONTROL S
 
 | Status | Beschreibung |
 | -------------------- | ----------- |
-| Entwurf | Wenn Sie eine Ereignisdefinition erstellen, befindet sie sich im Entwurfsstatus. Er bleibt in diesem Status, bis Sie ihn zur Verwendung in den Journey des Kontos veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Veröffentlichen<li>Löschen |
-| Veröffentlicht | Wenn Sie eine Ereignisdefinition veröffentlichen, wird sie zur Verwendung in Account-Journey verfügbar. Die Details können nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Verfügbar für _Lauschen auf ein Ereignis_ Journey-Knoten<li>Versionsentwurf erstellen<li>Löschen (wenn nicht in Gebrauch) |
-| Veröffentlicht (mit Entwurf) | Wenn Sie einen Entwurf aus einer veröffentlichten Ereignisdefinition erstellen, bleibt die veröffentlichte Version für die Verwendung in Account-Journey verfügbar, und die Entwurfsversion kann geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie noch nicht ausgeführt wird. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Entwurfsversion veröffentlichen<li>Versionsentwurf verwerfen<li>Löschen (wenn nicht in Gebrauch) |
+| Entwurf | Wenn Sie eine Ereignisdefinition erstellen, befindet sie sich im Entwurfsstatus. Er bleibt in diesem Status, bis Sie ihn zur Verwendung in den Journey des Kontos veröffentlichen. Verfügbare Aktionen: <br/><li>Alle Details bearbeiten<li>Veröffentlichen<li>Löschen |
+| Veröffentlicht | Wenn Sie eine Ereignisdefinition veröffentlichen, wird sie zur Verwendung in Account-Journey verfügbar. Die Details können nicht geändert werden. Verfügbare Aktionen: <br/><li>Verfügbar für _Lauschen auf ein Ereignis_ Journey-Knoten<li>Versionsentwurf erstellen<li>Löschen (wenn nicht in Gebrauch) |
+| Veröffentlicht (mit Entwurf) | Wenn Sie einen Entwurf aus einer veröffentlichten Ereignisdefinition erstellen, bleibt die veröffentlichte Version für die Verwendung in Account-Journey verfügbar, und die Entwurfsversion kann geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuelle veröffentlichte Version, und die Ereignisdefinition wird für Account-Journey aktualisiert, in denen sie noch nicht ausgeführt wird. Verfügbare Aktionen: <br/><li>Alle Details bearbeiten<li>Entwurfsversion veröffentlichen<li>Versionsentwurf verwerfen<li>Löschen (wenn nicht in Gebrauch) |
 
 ![Lebenszyklus des Fragmentstatus](../assets/status-lifecycle-diagram.png){zoomable="yes"}
 
@@ -106,7 +106,7 @@ Um nach einer Ereignisdefinition anhand des Namens zu suchen, geben Sie eine Tex
 
 1. Legen Sie das **[!UICONTROL Schema]** für die Ereignisdefinition fest.
 
-   Das von Ihnen ausgewählte Schema bestimmt die Felder, die der Definition hinzugefügt werden können und dann als Einschränkungen für einen Ereignisknoten _Lauschen_ auf einer Konto-Journey verfügbar sind.
+   Das ausgewählte Schema bestimmt die Felder, die der Definition hinzugefügt werden können. Die Felder, die Sie hinzufügen, sind dann als Einschränkungen für einen _Lauschen auf ein Ereignis_-Knoten auf einer Konto-Journey verfügbar.
 
    * Klicken Sie **[!UICONTROL Schema auswählen]**.
    * Wählen Sie im Dialogfeld ein Schema aus der Liste der auf Erlebnisereignissen basierenden Schemas aus.
@@ -116,7 +116,7 @@ Um nach einer Ereignisdefinition anhand des Namens zu suchen, geben Sie eine Tex
 
 1. Wählen Sie die **[!UICONTROL Ereignistypen]** aus, die für die Ereignisdefinition verwendet werden sollen.
 
-   Die [Ereignistypen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} die Sie auswählen, bestimmen die Ereignisse, die als Einschränkungen für einen _Lauschen auf ein Ereignis_-Knoten auf einer Konto-Journey verfügbar sind.
+   Die [Ereignistypen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} die Sie auswählen, bestimmen die Ereignisse, die als Einschränkungen für einen _Lauschen auf ein Ereignis_-Knoten auf einer Konto-Journey verfügbar sind.
 
    * Klicken Sie **[!UICONTROL Ereignistypen auswählen]**.
    * Wählen Sie im Dialogfeld einen oder mehrere Ereignistypen aus der Liste aus (maximal 20).
@@ -146,7 +146,7 @@ Um nach einer Ereignisdefinition anhand des Namens zu suchen, geben Sie eine Tex
 
 ## Ereignisdefinition veröffentlichen
 
-Wenn Sie davon überzeugt sind, dass die Ereignisdefinition vollständig und Ihren Anforderungen entsprechend korrekt ist, können Sie sie veröffentlichen, um sie für die Verwendung in Account Journey verfügbar zu machen. Nachdem die Ereignisdefinition veröffentlicht wurde, können Sie eine Entwurfsversion erstellen, wenn Sie Änderungen daran vornehmen müssen. Sie können das Schema jedoch nicht ändern und nur Ereignistypen und -felder hinzufügen (Sie können diese nicht löschen).
+Wenn Sie sich vergewissert haben, dass die Ereignisdefinition für den Entwurf vollständig und Ihren Anforderungen entsprechend korrekt ist, können Sie sie veröffentlichen. Die veröffentlichte Ereignisdefinition ist dann für die Verwendung in Account Journey verfügbar. Nachdem die Ereignisdefinition veröffentlicht wurde, können Sie eine Entwurfsversion erstellen, wenn Sie Änderungen daran vornehmen müssen. Sie können das Schema jedoch nicht ändern und nur Ereignistypen und -felder hinzufügen (Sie können diese nicht löschen).
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfiguration]** aus.
 
@@ -218,7 +218,7 @@ Führen Sie die Schritte entsprechend dem Status aus:
 
 1. Klicken Sie auf den Namen der Ereignisdefinition, um sie zu öffnen.
 
-   Bei einer Ereignisdefinition _Veröffentlicht (mit Entwurf_ ist die Registerkarte _[!UICONTROL Veröffentlicht]_-Version standardmäßig ausgewählt.
+   Bei einer Ereignisdefinition _Veröffentlicht (mit Entwurf_ wird die Registerkarte _[!UICONTROL Veröffentlicht]_-Version als Standard ausgewählt.
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Entwurfsversion]** aus.
 
@@ -240,7 +240,7 @@ Führen Sie die Schritte entsprechend dem Status aus:
 
 >[!TAB Veröffentlicht (mit Entwurf)]
 
-Wenn Sie eine Ereignisdefinition _Veröffentlicht (mit Entwurf)_ öffnen, ist die Registerkarte _[!UICONTROL Veröffentlichte]_ Version standardmäßig ausgewählt.
+Wenn Sie eine Ereignisdefinition _Veröffentlicht (mit Entwurf)_ öffnen, wird die Registerkarte _[!UICONTROL Veröffentlichte]_ Version als Standard ausgewählt.
 
 1. Wählen Sie die Registerkarte **[!UICONTROL Entwurfsversion]** aus.
 
@@ -282,4 +282,4 @@ Sie können eine Ereignisdefinition löschen, wenn sie nicht von einer veröffen
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448692/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)

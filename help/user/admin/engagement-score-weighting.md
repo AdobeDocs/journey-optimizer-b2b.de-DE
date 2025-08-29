@@ -6,9 +6,10 @@ hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 role: Admin
-source-git-commit: c17e66ae3bc6344a87cbb3e2d3a971babc9612c3
+exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
+source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 Der Interaktionswert einer Einkaufsgruppe spiegelt den Grad der Interaktion wider, indem er verschiedene Aktivitäten auswertet, die für Mitglieder der Einkaufsgruppe aufgezeichnet wurden. Mit der benutzerdefinierten Score-Gewichtung können Marketing-Operations-Teams ihre eigenen Modelle für die Gewichtung der Aktivitäten definieren, die für die Interaktion am aussagekräftigsten sind. Ein benutzerdefiniertes Scoring-Modell liefert eine genauere Darstellung Ihrer Pipeline, indem es die Verhaltensweisen priorisiert, die die Kaufabsicht in Ihrem Verkaufsprozess am genauesten signalisieren.
 
-Als Administrator können Sie mehrere Interaktionsbewertungsmodelle für Ihre Organisation definieren, aber immer kann nur ein Modell aktiv sein. Sie definieren ein Bewertungsmodell entsprechend den einzubeziehenden Aktivitäten und der auf jede Aktivität angewendeten Gewichtung.
+Als Administrator können Sie mehrere Interaktionsbewertungsmodelle für Ihre Organisation definieren, aber immer kann nur ein Modell aktiv sein. Sie definieren ein Score-Modell anhand der Gewichtung, die auf jede Interaktions-Scoring-Aktivität angewendet wird.
 
 ## Zugriff auf die Gewichtungsmodelle für Interaktionsbewertungen
 
@@ -29,7 +30,7 @@ Als Administrator können Sie mehrere Interaktionsbewertungsmodelle für Ihre Or
 
    ![Zugriff auf die konfigurierten Ereignisdefinitionen](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   Die Tabelle wird nach der Spalte _[!UICONTROL Zuletzt aktualisiert]_ sortiert, wobei die zuletzt aktualisierten Modelle standardmäßig oben stehen. Außerdem wird die Suche nach _[!UICONTROL Name]_ ermöglicht. Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen für die Spalten aktivieren oder deaktivieren.
+   Die Tabelle zeigt die zuletzt aktualisierten Modelle oben an (sortiert nach _[!UICONTROL Zuletzt aktualisiert]_) und bietet die Möglichkeit, nach _[!UICONTROL Name]_ zu suchen. Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen für die Spalten aktivieren oder deaktivieren.
 
 ![Spalten für die Anzeige in der Liste der Interaktionsbewertungen](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
@@ -78,11 +79,11 @@ Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im
 1. Passen Sie für jedes Gewichtsband den Namen oder die Werte Ihren Anforderungen entsprechend an:
 
    * Ändern Sie den Namen im Feld _[!UICONTROL Gewichtungsband]_.
-   * Geben Sie einen neuen Wert ein, oder klicken Sie auf **+** oder **-**, um den Wert zu erhöhen oder zu verringern.
+   * Einen neuen Wert eingeben. Sie können auch auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Einstellungen für die Interaktionsgewichtung](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
-1. Bei Bedarf ist ein weiteres Gewichtsband hinzuzufügen:
+1. Fügen Sie bei Bedarf ein weiteres Gewichtsband hinzu:
 
    Klicken Sie unten **[!UICONTROL der Liste auf]**+ Gewichtungsband hinzufügen . Durch diese Aktion wird ein leeres Gewichtungsband am Ende der Liste eingefügt.
 
@@ -98,7 +99,7 @@ Jedes Score-Modell enthält die vollständige Liste der unterstützten Interakti
 
 {{engagement-activities}}
 
-Legen Sie für jede Aktivität in der Liste den Wert fest, den Sie für jedes Aktivitätsereignis zuweisen möchten. Klicken Sie im Feld Gewichtung auf den Pfeil nach unten und wählen Sie das in den Einstellungen für die Interaktionsgewichtung definierte Gewichtungsband aus.
+Legen Sie für jede Aktivität in der Liste den Wert fest, den Sie jeder Aktivitätsinstanz zuweisen möchten. Klicken Sie im Feld **[!UICONTROL Gewichtung]** auf den Abwärtspfeil und wählen Sie das in den Einstellungen für die Interaktionsgewichtung definierte Gewichtungsband aus.
 
 ![Festlegen der Aktivitätsgewichtung](./assets/configuration-engagement-scoring-model-set-activity-weighting.png){width="500"}
 
