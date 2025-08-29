@@ -2,10 +2,10 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B Edition zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: ef8f8b4cdea143aec1add8af9b825c36053ccdf0
-workflow-type: ht
-source-wordcount: '610'
-ht-degree: 100%
+source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 76%
 
 ---
 
@@ -17,29 +17,23 @@ Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesse
 
 >[!BEGINTABS]
 
+>[!TAB Engagement-Punktzahl der Person]
+
+B2B-Marketing-Experten können jetzt Interaktionswerte auf Personenebene als Filter in ihren Aufspaltungspfaden für eine Journey oder in einer Rollenvorlage verwenden, um Einkaufsgruppen zu erstellen. Diese Punktzahl und Filterung ermöglicht die präzise Zielgruppenbestimmung der Mitglieder von Einkaufsgruppen, um die laufende Interaktion zu personalisieren.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Erfahren Sie mehr über die Interaktionswerte und die Filterung von Personen"}
+
+>[!TAB Benutzerdefinierte Einkaufsgruppenrollen]
+
+B2B-Marketing-Strategen können jetzt die Präzision der Einkaufsgruppe durch benutzerdefinierte Einkaufsgruppenrollen erweitern. Erstellen Sie bis zu 20 benutzerdefinierte Rollen über die standardmäßigen sechs hinaus und verwenden Sie sie in allen Einkaufsgruppen erneut. Passen Sie innerhalb der Account-Journeys Ihre Messaging-Funktion an Ihre individuellen Bedürfnisse an und verbessern Sie die Relevanz und Interaktion zwischen den Einkaufsgruppen&#x200B;
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Erfahren Sie mehr über benutzerdefinierte Einkaufsgruppenrollen"}
+
 >[!TAB E-Mail-Erlebnisse in GenStudio]
 
 Die Integration von E-Mail-Erlebnissen in GenStudio for Performance Marketing mit Journey Optimizer B2B Edition steigert die Marketing-Effizienz und wahrt die Markenkonsistenz. Diese Integration kombiniert die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B Edition.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Informationen zu E-Mail-Erlebnissen in GenStudio"}
-
->[!TAB Reporting zur Spam-Erkennung]
-
-Mit den neuen Spam-Berichten können Sie Spam-Filter umgehen und sicherstellen, dass Nachrichten im Posteingang der Zielgruppenmitglieder eintreffen. Generieren Sie einen _Spam-Bericht_ direkt im E-Mail-Design-Bereich.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Informationen über das Reporting zur Spam-Erkennung"}
-
->[!TAB Konto- und Käufergruppenaktionen]
-
-Führen Sie Aktionen direkt auf den Detailseiten für Konten und Käufergruppen aus, um zeitnahe und zielgerichtete Interaktionen umzusetzen.
-
-Verwenden Sie die Aktion _E-Mail senden_, um eine genehmigte Marketo Engage-E-Mail an ausgewählte Kontokontakte oder Mitglieder der Käufergruppe zu senden.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/accounts/account-details.md#send-emails" tooltip="Informationen über das Senden von E-Mails an Kontokontakte"}
-
-Zu den Aktionen in den Details der Käufergruppe gehören auch _Neues Mitglied zuweisen_, _Mitglied entfernen_ und _Rolle bearbeiten_.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Informationen über Aktionen für Käufergruppen"}
 
 >[!TAB Unterstützung für benutzerdefiniertes CSS]
 
@@ -53,11 +47,11 @@ Um das Modell zur Intent-Erkennung zu aktivieren und zu verwalten, können Sie j
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Informationen über die Konfiguration des Intent-Keyword-Mappings"}
 
->[!TAB E-Mail-Tests mit Litmus]
+>[!TAB Reporting zur Spam-Erkennung]
 
-Mit einem Litmus-Konto können Sie in Journey Optimizer B2B Edition jetzt Ihr E-Mail-Rendering in gängigen E-Mail-Clients in der Vorschau anzeigen. Durch diese Integration können Sie sicherstellen, dass Ihr E-Mail-Inhalt in jedem E-Mail-Posteingang gut aussieht und wie vorgesehen funktioniert. 
+Mit den neuen Spam-Berichten können Sie Spam-Filter umgehen und sicherstellen, dass Nachrichten im Posteingang der Zielgruppenmitglieder eintreffen. Generieren Sie einen _Spam-Bericht_ direkt im E-Mail-Design-Bereich.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-test-rendering.md" tooltip="Informationen über die Integration von E-Mail-Tests mit Litmus"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Informationen über das Reporting zur Spam-Erkennung"}
 
 >[!ENDTABS]
 
@@ -100,7 +94,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Erste Schritte"><br/>
-<strong>Erste Schritte</strong><br/><a href="home-page.md">Anmeldung und Startseite</a><br/><a href="./start/get-started.md">Schnellstartanleitung</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">KI-Assistent</a>
+      <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmeldung und Startseite</a><br/><a href="./start/get-started.md">Onboarding-Anleitung</a> <br/><a href="./ai-assistant/ai-assistant-overview.md">KI-Assistent</a>
     </td>
     <!--
     <td>
@@ -113,7 +107,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Konto-Journeys"><br/>
-<strong>Konto-Journeys</strong><br/><a href="./journeys/journey-overview.md">Journeys-Überblick</a><br/><a href="./journeys/journey-nodes.md">Journey-Knoten</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Konto-Journey erstellen</a>
+      <strong>Account-Journey</strong><br/><a href="./journeys/journey-overview.md">Journey-Übersicht</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Account-Journey erstellen</a><br/><a href="./journeys/journey-nodes.md">Journey-Knoten</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +131,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>
