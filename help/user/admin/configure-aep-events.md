@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Konfigurieren von Experience Platform-Ereignisdefinitionen
 
-Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren.
+Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
 
@@ -116,7 +116,7 @@ Um nach einer Ereignisdefinition anhand des Namens zu suchen, geben Sie eine Tex
 
 1. Wählen Sie die **[!UICONTROL Ereignistypen]** aus, die für die Ereignisdefinition verwendet werden sollen.
 
-   Die [Ereignistypen](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} die Sie auswählen, bestimmen die Ereignisse, die als Einschränkungen für einen _Lauschen auf ein Ereignis_-Knoten auf einer Konto-Journey verfügbar sind.
+   Die [Ereignistypen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent#eventType){target="_blank"} die Sie auswählen, bestimmen die Ereignisse, die als Einschränkungen für einen _Lauschen auf ein Ereignis_-Knoten auf einer Konto-Journey verfügbar sind.
 
    * Klicken Sie **[!UICONTROL Ereignistypen auswählen]**.
    * Wählen Sie im Dialogfeld einen oder mehrere Ereignistypen aus der Liste aus (maximal 20).
