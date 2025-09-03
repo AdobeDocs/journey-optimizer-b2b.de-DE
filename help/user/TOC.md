@@ -4,7 +4,7 @@ user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B 
 source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 91%
    + Fragmente {#visual-fragments}
       + [Überblick](./content/fragments.md)
       + [Erstellen von Fragmenten](./content/fragment-authoring.md)
-   + Forms (Beta) {#forms}
+   + Formulare (Beta) {#forms}
       + [Überblick](./content/forms.md)
       + [Formular-Design](./content/form-design.md)
    + Landingpages (Beta) {#landing-pages}
