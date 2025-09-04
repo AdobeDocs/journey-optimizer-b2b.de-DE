@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Sie visuelle Inhaltsfragmente als wiederverwendba
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-source-git-commit: f700f84c55d37ded9980a08286da05011345800c
+source-git-commit: 5e0415268ac3423a6d3004338302b2f756c75a9f
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2736'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ Ein Fragment ist eine wiederverwendbare Komponente, die in einer oder mehreren E
 
 **Visuelle Fragmente**
 
-Visuelle Fragmente sind vordefinierte visuelle Bausteine, die mithilfe von visuellen Design-Tools erstellt wurden und die Sie in mehreren E-Mails oder E-Mail-Vorlagen wiederverwenden können. Der aktuelle Umfang von Journey Optimizer B2B edition und diese Dokumentation beziehen sich nur auf visuelle Fragmente.
+Visuelle Fragmente sind vordefinierte visuelle Bausteine, die mithilfe von visuellen Design-Tools erstellt wurden und die Sie in mehreren E-Mails oder E-Mail-Vorlagen wiederverwenden können. Der aktuelle Umfang von Journey Optimizer B2B edition und diese Dokumentation umfassen nur visuelle Fragmente.
 
 >[!NOTE]
 >
@@ -302,7 +302,7 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 1. Navigieren Sie zu **[!UICONTROL Account-Journey]** und öffnen Sie eine bestehende Journey oder erstellen Sie eine neue Journey.
 
-1. Erstellen Sie einen [_[!UICONTROL E-Mail senden &#x200B;]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Erstellen Sie einen [_[!UICONTROL E-Mail senden ]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Erstellen oder bearbeiten [E-Mail-Inhalt für den Knoten](./email-authoring.md).
 
