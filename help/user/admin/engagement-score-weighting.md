@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Sie die benutzerdefinierte Gewichtung der Interak
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%
@@ -27,9 +27,11 @@ Als Administrator können Sie mehrere Interaktionsbewertungsmodelle für Ihre Or
 
    ![Zugriff auf die konfigurierten Ereignisdefinitionen](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
-   Die Tabelle zeigt die zuletzt aktualisierten Modelle oben an (sortiert nach _[!UICONTROL Zuletzt aktualisiert]_) und bietet die Möglichkeit, nach _[!UICONTROL Name]_ zu suchen. Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen für die Spalten aktivieren oder deaktivieren.
+   Die Tabelle zeigt die zuletzt aktualisierten Modelle oben an (sortiert nach _[!UICONTROL Zuletzt aktualisiert]_) und bietet die Möglichkeit, nach _[!UICONTROL Name]_ zu suchen.
 
-![Spalten für die Anzeige in der Liste der Interaktionsbewertungen](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+   Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen für die Spalten aktivieren oder deaktivieren.
+
+   ![Spalten für die Anzeige in der Liste der Interaktionsbewertungen](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
 
 1. Um auf die Details für ein Interaktionsbewertungsmodell zuzugreifen, klicken Sie auf den Namen.
 
@@ -76,7 +78,7 @@ Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im
 1. Passen Sie für jedes Gewichtsband den Namen oder die Werte Ihren Anforderungen entsprechend an:
 
    * Ändern Sie den Namen im Feld _[!UICONTROL Gewichtungsband]_.
-   * Einen neuen Wert eingeben. Sie können auch auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   * Einen neuen Wert eingeben. Sie können auch auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Einstellungen für die Interaktionsgewichtung](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
