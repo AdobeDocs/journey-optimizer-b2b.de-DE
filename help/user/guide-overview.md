@@ -2,10 +2,10 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: Erfahren Sie, wie Sie die Funktionen von Adobe Journey Optimizer B2B Edition zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 59f75834895e73c3ac84a3f01c923eaa202fbad7
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 76%
+source-wordcount: '639'
+ht-degree: 71%
 
 ---
 
@@ -28,6 +28,12 @@ B2B-Marketing-Experten können jetzt Interaktionswerte auf Personenebene als Fil
 B2B-Marketing-Strategen können jetzt die Präzision der Einkaufsgruppe durch benutzerdefinierte Einkaufsgruppenrollen erweitern. Erstellen Sie bis zu 20 benutzerdefinierte Rollen über die standardmäßigen sechs hinaus und verwenden Sie sie in allen Einkaufsgruppen erneut. Passen Sie innerhalb der Account-Journeys Ihre Messaging-Funktion an Ihre individuellen Bedürfnisse an und verbessern Sie die Relevanz und Interaktion zwischen den Einkaufsgruppen&#x200B;
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Erfahren Sie mehr über benutzerdefinierte Einkaufsgruppenrollen"}
+
+>[!TAB Benutzerdefinierte Gewichtung der Interaktionswerte]
+
+Weisen Sie den Interaktionsaktivitäten benutzerdefinierte Gewichtungen zu, damit die Interaktionswerte Ihre Aktivitäten mit dem höchsten Wert widerspiegeln. Durch die Betonung von Signalen mit hoher Absicht kann Ihr Team Konten mit dem stärksten Kaufpotenzial besser identifizieren und priorisieren.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Erfahren Sie mehr über die Gewichtung der benutzerdefinierten Interaktionswerte"}
 
 >[!TAB E-Mail-Erlebnisse in GenStudio]
 
@@ -131,7 +137,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>

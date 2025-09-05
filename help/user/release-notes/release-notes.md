@@ -3,9 +3,9 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: eb8269b481ae7e7a9160f2d17820a81bdcd7f064
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | Bewertungsfilter für Personeninteraktionen für Rollenvorlagen und Journey | Sie können jetzt _Personen-Interaktionswert_ als Filter in Rollenvorlagen verwenden, die zum Erstellen von Einkaufsgruppen und in Split-Path-Journey-Knoten verwendet werden. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Funktion | Konfiguration benutzerdefinierter Rollen für Einkaufsgruppen | Sie haben jetzt die Flexibilität, benutzerdefinierte Rollen für Einkaufsgruppen zu konfigurieren, sodass Sie die Rollen definieren können, die für Ihre Anwendungsfälle spezifisch sind. [Weitere Informationen](../buying-groups/default-custom-roles.md) |
-| Funktion | Konfiguration der Gewichtung der Interaktionswerte | Sie können jetzt den Aktivitäten, die die Bewertung der Einkaufsgruppeninteraktion beeinflussen, Gewichtungen zuweisen. Diese Funktion umfasst die Definition eigener benutzerdefinierter Bewertungsmodelle und die Änderung des aktiven Modells, das die Berechnung des Interaktionswerts beeinflusst. <!-- [Learn more](../admin/engagement-score-weighting.md)  --> |
+| Funktion | Konfiguration der Gewichtung der Interaktionswerte | Sie können jetzt den Aktivitäten, die die Bewertung der Einkaufsgruppeninteraktion beeinflussen, Gewichtungen zuweisen. Diese Funktion umfasst die Definition eigener benutzerdefinierter Bewertungsmodelle und die Änderung des aktiven Modells, das die Berechnung des Interaktionswerts beeinflusst. [Weitere Informationen](../admin/engagement-score-weighting.md) |
 | Verbesserung | Bedingte Inhalte für Fragmente | Sie können jetzt die bedingten Inhaltstools für das visuelle Fragmentdesign verwenden. [Weitere Informationen](../content/conditional-content.md) |
 | Verbesserung | Aktualisierungen des Interaktionswerts | Die Score-Logik für die Kaufgruppeninteraktion wird aktualisiert, um die Score-Werte zu normalisieren. Darüber hinaus können Sie mit Interaktionswerten auf Mitgliederebene sowie mit kollektiven Interaktionswerten für die gesamte Einkaufsgruppe arbeiten. [Weitere Informationen](../buying-groups/engagement-scores.md) |
 | Verbesserung | Active Journey Observability - Konten an jedem Knoten | Für eine aktive Account-Journey können Sie auf eine Liste der Accounts zugreifen, die jeden Account-Knoten auf der Journey erreicht haben. |

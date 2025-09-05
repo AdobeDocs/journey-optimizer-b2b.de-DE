@@ -2,14 +2,11 @@
 title: Konfigurieren der Gewichtung der Interaktionswerte
 description: Erfahren Sie, wie Sie die benutzerdefinierte Gewichtung der Interaktionswerte konfigurieren, um die Scoring-Logik widerzuspiegeln, die mit Ihren Geschäftsstrategien übereinstimmt.
 feature: Setup, Engagement, Buying Groups
-hide: true
-hidefromtoc: true
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 1eaaf92fdec538bec4f3d70cc65dee141971b0c5
+source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -79,7 +76,7 @@ Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im
 1. Passen Sie für jedes Gewichtsband den Namen oder die Werte Ihren Anforderungen entsprechend an:
 
    * Ändern Sie den Namen im Feld _[!UICONTROL Gewichtungsband]_.
-   * Einen neuen Wert eingeben. Sie können auch auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   * Einen neuen Wert eingeben. Sie können auch auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Einstellungen für die Interaktionsgewichtung](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
