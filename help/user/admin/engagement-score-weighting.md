@@ -76,7 +76,7 @@ Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im
 1. Passen Sie für jedes Gewichtsband den Namen oder die Werte Ihren Anforderungen entsprechend an:
 
    * Ändern Sie den Namen im Feld _[!UICONTROL Gewichtungsband]_.
-   * Einen neuen Wert eingeben. Sie können auch auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   * Einen neuen Wert eingeben. Sie können auch auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Einstellungen für die Interaktionsgewichtung](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
