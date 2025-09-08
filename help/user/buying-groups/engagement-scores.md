@@ -30,7 +30,7 @@ Es gibt zwei Arten von Interaktionswerten:
 
 * **Interaktionswert für eine Person** - Der Interaktionswert für eine Person basiert auf den Aktivitäten eines einzelnen kaufenden Gruppenmitglieds.
 
-  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte ]_Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
+  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte &#x200B;]_&#x200B;Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
 
   ![Die engagiertesten Mitglieder der Einkaufsgruppe](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
