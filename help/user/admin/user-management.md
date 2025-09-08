@@ -62,7 +62,7 @@ Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigu
 
 Wenn Sie Benutzende zum Marketo Engage-Produktprofil hinzufügen, werden sie anschließend zur Rolle _Standardbenutzende_ im Standardarbeitsbereich des Marketo Engage-Abonnements hinzugefügt. Diese Rolle gewährt allen Benutzenden _Standardbenutzer_ Berechtigungen für Marketo Engage in diesem Arbeitsbereich. Derzeit müssen alle Journey Optimizer B2B edition-Benutzer Marketo Engage-Benutzer sein. Ein Marketo Engage-Administrator kann den Zugriff einschränken, indem er die Berechtigungen für die Rolle _Standardbenutzer_ aktualisiert oder indem er die Benutzerin bzw. den Benutzer in eine andere Benutzerrolle in Marketo Engage mit eingeschränkteren Berechtigungen verschiebt.
 
-Weitere Informationen zum Verwalten dieser Berechtigungen in Marketo Engage finden Sie unter [Verwalten von Benutzerrollen und -berechtigungen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in der Dokumentation zu Marketo Engage.
+Weitere Informationen zum Verwalten dieser Berechtigungen in Marketo Engage finden Sie unter [Verwalten von Benutzerrollen und -berechtigungen](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in der Dokumentation zu Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -143,7 +143,7 @@ Permissions are unitary rights that allow you to define the authorizations assig
 
 The _Permissions_ area of Adobe Experience Platform is where administrators can define user roles and access policies to manage access permissions for features and objects within a product application. In this app, you can create and manage roles, as well as assign the desired resource permissions for these roles. Permissions also allow you to manage the sandboxes and users associated with a specific role.
 
-For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
+For more information about role permissions in Experience Platform, see [Manage permissions for a role](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in the Experience Platform documentation.
 
 ### B2B product permissions
 
@@ -240,7 +240,7 @@ _To change the permissions for a role:_
 
 ### Add user groups to a role
 
-For information about user management, see [Admin Console users](https://helpx.adobe.com/enterprise/using/user-groups.html) in the Admin Console documentation.
+For information about user management, see [Admin Console users](https://helpx.adobe.com/de/enterprise/using/user-groups.html) in the Admin Console documentation.
 
 ![Administrator role requirements](../../assets/do-not-localize/icon-admin-user.svg){width="30"} A system administrator or AEP product administrator can perform the following steps. 
 
