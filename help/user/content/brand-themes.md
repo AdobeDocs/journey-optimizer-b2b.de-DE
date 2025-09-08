@@ -9,19 +9,20 @@ keywords: E-Mail-Designs, Wiederverwendbarkeit, Markenausrichtung, E-Mail-Design
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9d8aa70c23ce85058a23bbe21c198d6e074923ac
+exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
+source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
 workflow-type: tm+mt
 source-wordcount: '3085'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Verwenden von Markendesigns für E-Mail-Inhalte {#email-brand-themes}
+# Verwenden von Marken-Designs für E-Mail-Inhalte {#email-brand-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
->title="Anwenden eines Markendesigns auf Ihre E-Mail oder E-Mail-Vorlage"
->abstract="Wählen Sie ein Design für Ihre E-Mail oder E-Mail-Vorlage, um einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt."
+>title="Anwenden eines Marken-Designs auf Ihre E-Mail oder E-Mail-Vorlage"
+>abstract="Wählen Sie ein Design für Ihre E-Mail oder E-Mail-Vorlage aus, um einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt."
 
 Mit Designs können nicht-technische Designer wiederverwendbare Richtlinien für das Design von E-Mail-Inhalten erstellen, die an eine bestimmte Marke und ein bestimmtes Styling angepasst sind. Designs ermöglichen es Marketing-Experten, visuell ansprechende, markenkonsistente E-Mails schneller und mit weniger Aufwand zu nutzen und erweiterte Anpassungsoptionen für individuelle Design-Anforderungen bereitzustellen.
 

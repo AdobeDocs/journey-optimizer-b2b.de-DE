@@ -3,15 +3,15 @@ title: Interaktionswerte für Einkaufsgruppen
 description: Erfahren Sie mehr über die Werte für Gruppen- und Personeninteraktionen, einschließlich Berechnungslogik und Aktivitätstypen, die die Bewertung bestimmen.
 feature: Buying Groups
 role: User
-source-git-commit: 9a70cdf73585a1d55cc973046d91fe15c7e80a02
+exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
+source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
-
-# Interaktionswerte {#engagement-scores}
+# Interaktionsbewertungen {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
@@ -30,7 +30,7 @@ Es gibt zwei Arten von Interaktionswerten:
 
 * **Interaktionswert für eine Person** - Der Interaktionswert für eine Person basiert auf den Aktivitäten eines einzelnen kaufenden Gruppenmitglieds.
 
-  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte &#x200B;]_&#x200B;Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
+  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte ]_Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
 
   ![Die engagiertesten Mitglieder der Einkaufsgruppe](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -96,12 +96,12 @@ Es gibt eine tägliche Frequenzbegrenzung von 20 pro Aktivität. Wenn ein Mitgli
 >
 >Aktivitäten mit dem Interaktionswert werden im Aktivitätsprotokoll von Marketo Engage für eine Person aufgezeichnet. Sie können auf dieses Protokoll in der verbundenen Marketo Engage-Instanz zugreifen. Weitere Informationen finden Sie unter [Suchen des Aktivitätsprotokolls für eine Person](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in der Dokumentation zu Marketo Engage.
 
-## Gewichtung der Rollenvorlage {#engagement-score-weighting}
+## Rollengewichtung der Vorlage {#engagement-score-weighting}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score_weighting"
->title="Rollengewichtung für Interaktionsbewertung"
->abstract="Verwenden Sie die Rollengewichtung, um die Berechnung des Interaktionswerts anzupassen."
+>title="Rollengewichtung der Interaktionsbewertung"
+>abstract="Verwenden Sie eine Rollengewichtung, um die Berechnung der Interaktionsbewertung anzupassen."
 
 Benutzerinnen und Benutzer können jeder _in der_ Rollenvorlage“ eine [Gewichtung](./buying-groups-role-templates.md) zuweisen, um einer Rolle unterschiedliche Gewichtungen zuzuweisen.
 
