@@ -30,7 +30,7 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 ## KI-Assistentenfunktionen in Journey Optimizer B2B edition
 
-Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _**_Wissensdiagramm_**_ bezeichnet - ein umfassendes Web aus Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
+Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _&#x200B;**_Wissensdiagramm_**&#x200B;_ bezeichnet - ein umfassendes Web aus Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
 
 * Dokumentation zu Experience League.
 * Operative Artefakte, z. B. Schemata, Felder, Zielgruppen und Journey.
