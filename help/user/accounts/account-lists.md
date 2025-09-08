@@ -1,10 +1,10 @@
 ---
 title: Kontenlisten
-description: Erfahren Sie mehr über Account-Listen und wie Marketing-Experten sie verwenden können, um Accounts über Account-Journey anzusprechen.
+description: Erstellen Sie statische und dynamische Account-Listen mit benutzerdefinierten Filtern für die zielgerichtete Journey-Orchestrierung und das Account-Based Marketing in Journey Optimizer B2B edition.
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-source-git-commit: 40d39ba6d3b4844fe928db5cbf3a990d523aadef
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 In Journey Optimizer B2B edition ist eine Kontenliste eine Sammlung benannter Konten, die Marketing-Experten für die gezielte Journey-Orchestrierung verwenden können. Eine Account-Liste kann benannte Accounts nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen. Es gibt zwei Arten von Kontolisten:
 
 * **Statisch** - Bei einer statischen Kontoliste ändert sich die Liste nur, wenn Sie die Konten hinzufügen. Sie können Konten manuell hinzufügen, indem Sie einen Filtersatz anwenden, um die Liste auf der Grundlage der aktuellen Kontodaten zu füllen, oder Konten über eine Konto-Journey hinzufügen und entfernen.
-* **Dynamisch** - Mit einer dynamischen Kontenliste definieren Sie einen Filtersatz, mit dem die Liste automatisch kuratiert wird. Das System verwendet diesen Filtersatz, um Konten entsprechend den Änderungen in den Kontoinformationen hinzuzufügen und zu entfernen. Diese Listenverwaltung ähnelt der [Zielgruppensegmentierung in Real-time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dynamisch** - Mit einer dynamischen Kontenliste definieren Sie einen Filtersatz, mit dem die Liste automatisch kuratiert wird. Das System verwendet diesen Filtersatz, um Konten entsprechend den Änderungen in den Kontoinformationen hinzuzufügen und zu entfernen. Diese Listenverwaltung ähnelt der [Zielgruppensegmentierung in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Wenn sich eine Kontoliste im _Live_-Status (veröffentlicht) befindet, ist sie für die [Verwendung in Account-Journey- und Marketo Engage-Programmen](./account-lists-journeys.md) verfügbar.
 
@@ -24,7 +24,7 @@ Wenn sich eine Kontoliste im _Live_-Status (veröffentlicht) befindet, ist sie f
 
 >[!NOTE]
 >
->Account-Listen nutzen Account-Daten aus Marketo Engage, um Account-Segmente und -Listen zu erstellen. Wenn also ein Kontosegment aus Adobe Experience Platform nicht aktiv mit Marketo Engage synchronisiert wird, sind Konten in diesem Experience Platform-Segment möglicherweise nicht in Journey Optimizer B2B edition-Kontolisten verfügbar. Anschließend können Personen aus Konten in Experience Platform-Segmenten, die nicht mit Marketo Engage synchronisiert sind, nicht in die Anzahl der Personenmitgliedschaften einbezogen oder in Trigger-Ereignissen gezählt werden.
+>Account-Listen nutzen Account-Daten aus Marketo Engage, um Account-Segmente und -Listen zu erstellen. Wenn also ein Kontosegment aus Adobe Experience Platform nicht aktiv mit Marketo Engage synchronisiert wird, sind Konten in diesem Experience Platform-Segment möglicherweise nicht in Journey Optimizer B2B edition-Kontolisten verfügbar. Anschließend werden nur Personen aus Konten in Experience Platform-Segmenten, die mit Marketo Engage synchronisiert werden, in die Anzahl der Personenmitgliedschaften und in Trigger-Ereignissen einbezogen.
 
 ## Zugreifen auf und Durchsuchen von Kontolisten
 
@@ -180,4 +180,4 @@ Der Status der dynamischen Kontenliste ändert sich in _[!UICONTROL Live]_ und s
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448658/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

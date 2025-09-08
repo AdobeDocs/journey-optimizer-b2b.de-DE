@@ -1,13 +1,13 @@
 ---
 title: Käufergruppen
-description: Erfahren Sie, wie Käufergruppen in Journey Optimizer B2B Edition die Effektivität des Marketings durch das Identifizieren und Targeting von Mitgliedern für Ihre Kontolisten steigern können.
+description: Verstärken Sie das Account-Based-Marketing mit Einkaufsgruppen, um wichtige Entscheidungsträger zu identifizieren, Interaktionsbewertungen zu verfolgen und Zielkonten in Journey Optimizer B2B edition zu finden.
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -112,4 +112,4 @@ Unter [Interaktionswerte](./engagement-scores.md) finden Sie detaillierte Inform
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

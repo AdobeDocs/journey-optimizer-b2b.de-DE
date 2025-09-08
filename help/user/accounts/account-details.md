@@ -1,12 +1,12 @@
 ---
 title: Kontodetails
-description: Erfahren Sie mehr über den Zugriff auf detaillierte Informationen und Generative KI-Zusammenfassungen für -Konten in Journey Optimizer B2B edition.
+description: Account Insights mit KI-Zusammenfassungen, Absichtserkennung, Kontaktabdeckungsanalyse und E-Mail-Nachrichten in Journey Optimizer B2B edition anzeigen.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 31c79208503e01964475230ea950eb8bdfadd176
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '639'
 ht-degree: 6%
 
 ---

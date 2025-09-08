@@ -1,21 +1,22 @@
 ---
-title: In-CRM-Zugriff auf Detailseiten
-description: Erfahren Sie, wie Mitglieder des Vertriebsteams direkt über ihr CRM-Tool (Customer Relationship Management) wie Salesforce oder Microsoft Dynamics auf detaillierte Seiten für Accounts, Kontakte und Leads zugreifen können.
+title: Zugriff auf Detailseiten im CRM
+description: Fügen Sie benutzerdefinierte Links für Konto- und Kontaktdetails hinzu, um den direkten Zugriff auf Journey Optimizer B2B-Insights von Salesforce und Dynamics CRM zu ermöglichen.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
-source-git-commit: d50e7eb067e40bdcc18c93baec1a0b6713bf793c
+exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 0%
+source-wordcount: '1428'
+ht-degree: 1%
 
 ---
 
-# In-CRM-Zugriff auf Detailseiten
+# Zugriff auf Detailseiten im CRM
 
-Mit Adobe Journey Optimizer B2B edition können Mitglieder des Vertriebsteams und Account Manager direkt über ihr CRM-Tool (Customer Relationship Management) wie Salesforce oder Microsoft Dynamics auf detaillierte Seiten für Konto- und Kaufgruppeninformationen zugreifen. Mit dieser Integration können Vertriebsmitarbeiter schnell auf Echtzeit-Konto- und Einkaufsgruppeneinblicke zugreifen, wie z. B. den Interaktionsverlauf, Absichtssignale und KI-generierte Empfehlungen. Diese Fähigkeit ermöglicht dem Vertriebsteam eine schnellere Kontaktaufnahme, eine intelligentere Priorisierung und eine bessere Abstimmung mit dem Marketing.
+Mit Adobe Journey Optimizer B2B edition können Mitglieder des Vertriebs- und Account-Teams direkt über ihr CRM-Tool (Customer Relationship Management) wie Salesforce oder Microsoft Dynamics auf detaillierte Seiten für Konto- und Kaufgruppeninformationen zugreifen. Mit dieser Integration können Vertriebsmitarbeiter schnell auf Echtzeit-Konto- und Einkaufsgruppeneinblicke zugreifen, wie z. B. den Interaktionsverlauf, Absichtssignale und KI-generierte Empfehlungen. Diese Fähigkeit ermöglicht dem Vertriebsteam eine schnellere Kontaktaufnahme, eine intelligentere Priorisierung und eine bessere Abstimmung mit dem Marketing.
 
-Damit Mitglieder des Vertriebsteams die Seiten [Kontodetails](account-details.md) und [Personendetails“ in Journey Optimizer B2B edition aus dem CRM anzeigen können](person-details.md) kann der Salesforce- oder Dynamics-Administrator einen Journey Optimizer B2B edition-Link aus der Konto-, Kontakt- oder Lead-Ansicht hinzufügen.
+Damit die Mitglieder des Vertriebs- und Account-Teams die [Kontodetails](account-details.md) und [Personendetails](person-details.md) in Journey Optimizer B2B edition aus dem CRM anzeigen können, kann der Salesforce- oder Dynamics-Administrator einen Link aus der Konto-, Kontakt- oder Lead-Ansicht hinzufügen.
 
 Wenn ein Mitglied des Vertriebsteams den Link von der CRM-Instanz verwendet, sollte die Sandbox _Prod_ sein, und die IMS-Organisation wird gemäß der folgenden geordneten Logik bestimmt:
 
@@ -91,7 +92,7 @@ Verwenden Sie das `Account` -Objekt, um die 18-stellige ID des Kontos abzurufen,
 
 +++
 
-+++Schaltfläche Detailseite“
++++Schaltfläche „Detailseite“
 
 1. Wechseln Sie in Salesforce **[!UICONTROL Setup]** > **[!UICONTROL Objektmanager]** > **[!UICONTROL Konto]**/**[!UICONTROL Kontakt]**/**[!UICONTROL Lead]** > **[!UICONTROL Schaltflächen, Links und Aktionen]**.
 1. Klicken Sie **[!UICONTROL Neue Schaltfläche oder Link]** oben rechts und erstellen Sie die Schaltfläche Detailseite .
@@ -319,7 +320,7 @@ Führen Sie diese Aufgabensequenz aus, um den benutzerdefinierten Link als HTML-
 
    ![Web-Ressource](./assets//crm-linking-dynamics-web-resource-form-properties.png){width="500" zoomable="yes"}
 
-   Siehe die [Power Apps-Dokumentation](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy) für detaillierte Informationen zu Eigenschaften und Formatierung von Web-Ressourcen.
+   Ausführliche Informationen zu Eigenschaften und Formatierung von Web-Ressourcen finden Sie in der [Power Apps-Dokumentation](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/web-resource-properties-legacy).
 
 1. Klicken Sie auf **[!UICONTROL OK]**.
 

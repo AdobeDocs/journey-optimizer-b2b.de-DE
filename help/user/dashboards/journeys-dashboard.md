@@ -1,12 +1,12 @@
 ---
 title: Dashboard für Kontoübersicht-Journey
-description: Erfahren Sie mehr über die Informationen im Dashboard "Journey-Übersicht“ und darüber, wie Sie damit Ihre Journey-Strategie für das Konto überwachen und verwalten können.
+description: Verfolgen Sie die Account-Journey-Performance mit Abschlussraten, Interaktionsmetriken und Kanaleffektivitätsanalysen in Journey Optimizer B2B edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: a3d4988e-5fa6-498b-828b-690095578db8
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '367'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Wählen Sie für das Kreisdiagramm **[!UICONTROL Drill-Through]** aus, um eine d
 
 ![Drillthrough zum Zugriff auf Diagrammdaten](./assets/journey-completion-rate-drill-through.png){width="700" zoomable="yes"}
 
-Sie können oben rechts auf das _Mehr_-Menü (**…**) klicken und **[!UICONTROL Mehr anzeigen]** wählen, um erweiterte Daten [&#128279;](#view-more).
+Sie können oben rechts auf das _Mehr_-Menü (**…**) klicken und **[!UICONTROL Mehr anzeigen]** wählen, um erweiterte Daten [](#view-more).
 
 ### [!UICONTROL Mehr anzeigen]
 

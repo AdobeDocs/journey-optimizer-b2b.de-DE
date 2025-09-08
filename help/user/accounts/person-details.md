@@ -1,11 +1,12 @@
 ---
 title: Personendetails
-description: Erfahren Sie mehr über den Zugriff auf detaillierte Informationen und eine Übersicht über generative KI für eine Person, die mit einem Konto oder einer Einkaufsgruppe in Journey Optimizer B2B edition verknüpft ist.
+description: Anzeigen von Personeneinblicken mit KI-Zusammenfassungen, Interaktionswerten, Aktivitäts-Tracking und Absichtserkennung für Kauf-Gruppenmitglieder in Journey Optimizer B2B edition.
 feature: Account Insights
 role: User
-source-git-commit: 5382bc89903a567268ee06648a8d6b0bf34695a6
+exl-id: 401d7107-fd20-471e-9adf-a64c590b0080
+source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '297'
 ht-degree: 7%
 
 ---

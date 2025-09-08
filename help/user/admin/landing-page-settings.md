@@ -1,15 +1,15 @@
 ---
 title: Konfiguration einer Landingpage
-description: Erfahren Sie, wie Sie auf die Einstellungen der Landingpage zugreifen und diese konfigurieren können, damit Ihr Marketing-Team Web-Seiten zur Unterstützung seiner Kampagnen erstellen und veröffentlichen kann.
+description: Konfigurieren Sie Landingpage-Subdomains, Einstellungen zum Vorbefüllen von Formularen und Datenströme, um die Veröffentlichung von Campaign-Web-Seiten in Journey Optimizer B2B edition zu ermöglichen.
 feature: Setup, Landing Pages, Content
 role: Admin
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 8bd3d696a52a813b88de9e3b58145b1cbfb3fa32
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '506'
 ht-degree: 26%
 
 ---

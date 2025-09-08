@@ -1,13 +1,13 @@
 ---
 title: Intelligentes Dashboard
-description: Erfahren Sie mehr über das intelligente Dashboard, das eine umfassende Ansicht der Einkaufsgruppen- und Kontometriken bietet
+description: Greifen Sie auf KI-gestützte Einblicke für Einkaufsgruppen und Konten mit Interaktionsmetriken, Absichtserkennung und prädiktiven Analysen in Journey Optimizer B2B edition zu.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 15%
+source-wordcount: '1679'
+ht-degree: 16%
 
 ---
 
@@ -153,7 +153,7 @@ Im Abschnitt _[!UICONTROL Steigende Konten]_ wird eine Visualisierung der Konten
 
 >[!NOTE]
 >
->Die Daten zu Kontoaufstockungen sind auf Konten beschränkt, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen in eine Account-Zielgruppe aufgenommen werden.
+>Zu den Kontoaufstockungsdaten gehören nur Konten, die Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen aufnimmt.
 
 ![Visualisierung von Kontoaufstockungsdaten](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -197,7 +197,7 @@ Der _[!UICONTROL Konto-Highlights]_ ist in zwei Zeilen unterteilt, um Informatio
 
 >[!NOTE]
 >
->Die Daten zur Kontohervorhebung sind auf Konten beschränkt, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen in eine Account-Zielgruppe aufgenommen werden.
+>Die Kontohervorhebungsdaten umfassen nur Konten, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen aufgenommen werden.
 
 ![Account-Highlights](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 

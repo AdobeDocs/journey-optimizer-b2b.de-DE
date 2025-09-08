@@ -1,12 +1,12 @@
 ---
 title: Konfigurieren der Gewichtung der Interaktionswerte
-description: Erfahren Sie, wie Sie die benutzerdefinierte Gewichtung der Interaktionswerte konfigurieren, um die Scoring-Logik widerzuspiegeln, die mit Ihren Geschäftsstrategien übereinstimmt.
+description: Erstellen Sie benutzerdefinierte Interaktionsbewertungsmodelle mit gewichteten Aktivitäten, um die Kaufgruppeninteraktion und -absicht in Journey Optimizer B2B edition genau zu messen.
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: 855e06e07fff9223c607bce9adde5ef4f4f6b97b
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im
 1. Passen Sie für jedes Gewichtsband den Namen oder die Werte Ihren Anforderungen entsprechend an:
 
    * Ändern Sie den Namen im Feld _[!UICONTROL Gewichtungsband]_.
-   * Einen neuen Wert eingeben. Sie können auch auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   * Einen neuen Wert eingeben. Sie können auch auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Einstellungen für die Interaktionsgewichtung](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 

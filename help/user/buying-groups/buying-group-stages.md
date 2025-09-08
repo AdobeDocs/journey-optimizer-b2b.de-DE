@@ -1,10 +1,10 @@
 ---
 title: Einkaufsgruppenetappen
-description: Erfahren Sie mehr über den Kauf von Gruppenphasen und wie Sie diese definieren können, um den Journey-Fortschritt im Hinblick auf Verkaufsziele zu verfolgen.
+description: Konfigurieren Sie die Stadien der Einkaufsgruppe, um den Fortschritt der Verkäufe von der Opportunity bis zur Kundenkonversion in Journey Optimizer B2B edition zu verfolgen.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Wenn Sie das Einkaufsgruppenstufenmodell erstellen, befindet es sich automatisch
 
    ![Fügen Sie den Namen und die Beschreibung für das Modell hinzu](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   Wenn Sie in _[!UICONTROL Dialogfeld auf]_&#x200B;_[!UICONTROL Abbrechen“ klicken, kehren Sie in einem_ leeren _zur Registerkarte]_ Phasen“ zurück.
+   Wenn Sie in _[!UICONTROL Dialogfeld auf]__[!UICONTROL Abbrechen“ klicken, kehren Sie in einem]_ leeren _zur Registerkarte_ Phasen“ zurück.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -128,7 +128,7 @@ Nachdem Sie die Stadien gespeichert haben, werden Sie zum Modellarbeitsbereich z
 
 Solange das Modell der kaufenden Gruppenphasen im Status _Entwurf_ bleibt, können Sie die Stadien und Übergangsregeln bearbeiten.
 
-_So zeigen Sie das Entwurfsmodell an:_
+_Anzeigen des Entwurfsmodells :_
 
 1. Navigieren Sie in der linken Navigation zu **[!UICONTROL Konten]** > **[!UICONTROL Einkaufsgruppen]**.
 
@@ -365,4 +365,4 @@ Verwenden Sie den Eintritt einer Kaufgruppen-Stadienänderung, um das Konto mit 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448703/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

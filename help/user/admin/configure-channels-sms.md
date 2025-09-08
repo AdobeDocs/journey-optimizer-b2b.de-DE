@@ -1,12 +1,12 @@
 ---
 title: SMS-Konfigurationen
-description: Erfahren Sie, wie Sie Verbindungen zu unterstützten SMS-Anbietern konfigurieren, um sie von Journey Optimizer B2B edition SMS-Nachrichten zu verwenden.
+description: Verbinden Sie SMS-Anbieter wie Sinch, Twilio und Infobip mit API-Anmeldeinformationen, um Textnachrichten in Journey Optimizer B2B edition Journey zu aktivieren.
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '714'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Bevor Sie einen SMS-Kanal in Adobe Journey Optimizer B2B edition konfigurieren, 
 
 >[!TAB Sinch]
 
-_So konfigurieren Sie Sinch als SMS-Provider mit Adobe Journey Optimizer B2B edition:_
+_So konfigurieren Sie Sinch als SMS-Provider mit Adobe Journey Optimizer B2B edition :_
 
 1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
 
@@ -71,7 +71,7 @@ _So konfigurieren Sie Sinch als SMS-Provider mit Adobe Journey Optimizer B2B edi
 
 >[!TAB Twilio]
 
-_So konfigurieren Sie Twilio als SMS-Provider mit Adobe Journey Optimizer B2B edition:_
+_So konfigurieren Sie Twilio als SMS-Provider mit Adobe Journey Optimizer B2B edition :_
 
 1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
 
@@ -93,7 +93,7 @@ _So konfigurieren Sie Twilio als SMS-Provider mit Adobe Journey Optimizer B2B ed
 
 >[!TAB Infobip]
 
-_So konfigurieren Sie Infobip als SMS-Provider mit Adobe Journey Optimizer B2B edition:_
+_So konfigurieren Sie Infobip als SMS-Provider mit Adobe Journey Optimizer B2B edition :_
 
 1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Konfiguration]**.
 

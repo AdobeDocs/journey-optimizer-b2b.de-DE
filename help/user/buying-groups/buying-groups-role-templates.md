@@ -1,12 +1,12 @@
 ---
 title: Einkaufsgruppen-Rollenvorlagen
-description: Erfahren Sie, wie Sie eine Rollenvorlage definieren, die als Einkaufsgruppenkomponente verwendet werden soll.
+description: Erstellen Sie Rollenvorlagen für Käufergruppen mit automatischen Zuweisungsbedingungen, um Entscheidungsträger und Stakeholder in Journey Optimizer B2B edition zu identifizieren.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6fb15d8d7f67105f4e53c346091798908c8727bd
+source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1124'
 ht-degree: 6%
 
 ---
@@ -162,4 +162,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

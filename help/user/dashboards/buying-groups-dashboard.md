@@ -1,12 +1,12 @@
 ---
 title: Übersichts-Dashboard für Einkaufsgruppen
-description: Erfahren Sie mehr über das Dashboard „Einkaufsgruppenübersicht“ und darüber, wie es die Übergabe an das Marketing-Team durch den Verkauf ermöglicht.
+description: Verfolgen Sie den Fortschritt der Einkaufsgruppe mit Abschlussbewertungen, Interaktionsmetriken und Lösungsinteressenanalysen, um die Übergabe der Käufe in Journey Optimizer B2B edition zu ermöglichen.
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -74,7 +74,7 @@ Wählen Sie für jedes Attribut, das Sie zum Filtern der Daten verwenden möchte
 
 ## Interagieren mit den Daten
 
-Um mit den Daten zu interagieren _verwenden Sie das Menü_&#x200B;**Mehr…**) oben rechts in jedem Diagramm.
+Um mit den Daten zu interagieren _verwenden Sie das Menü_**Mehr…**) oben rechts in jedem Diagramm.
 
 ### [!UICONTROL Drill-Through]
 

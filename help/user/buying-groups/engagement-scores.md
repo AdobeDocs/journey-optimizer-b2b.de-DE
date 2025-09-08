@@ -1,13 +1,13 @@
 ---
 title: Interaktionswerte für Einkaufsgruppen
-description: Erfahren Sie mehr über die Werte für Gruppen- und Personeninteraktionen, einschließlich Berechnungslogik und Aktivitätstypen, die die Bewertung bestimmen.
-feature: Buying Groups
+description: Verfolgen Sie die Werte für Einkaufsgruppen- und Personeninteraktionen mit gewichteten Aktivitäten und rollenbasierten Berechnungen in Journey Optimizer B2B edition.
+feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 75a53661fdfbb65e2652f3365f4c1e907f948bd7
+source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 24%
+source-wordcount: '1251'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ Es gibt zwei Arten von Interaktionswerten:
 
 * **Interaktionswert für eine Person** - Der Interaktionswert für eine Person basiert auf den Aktivitäten eines einzelnen kaufenden Gruppenmitglieds.
 
-  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte &#x200B;]_&#x200B;Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
+  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte ]_Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
 
   ![Die engagiertesten Mitglieder der Einkaufsgruppe](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
@@ -50,7 +50,16 @@ Buying Group Scoring ist nicht _ausgelöste_. Es handelt sich um einen tägliche
 
 Es gibt eine tägliche Frequenzbegrenzung von 20 pro Aktivität. Wenn ein Mitglied einer Einkaufsgruppe dieselbe Aktivität mehr als 20 Mal an einem Tag ausführt, wird die Anzahl für die Aktivität auf 20 begrenzt.
 
-{{engagement-activities}}
+| Aktivitätsname | Beschreibung | Interaktionstyp | Maximale tägliche Frequenzlimitierung | Standardmäßige Aktivitätsgewichtung des Modells |
+|---------------|-------------|-----------------|---------------------------|-------------------------------|
+| An Ereignis teilnehmen | Ein Mitglied nimmt an einem Event teil | Ereignis | 20 | 60 |
+| E-Mail angeklickt | Ein Mitglied klickt auf einen Link in einer E-Mail | E-Mail | 20 | 30 |
+| E-Mail geöffnet | Ein Mitglied öffnet eine E-Mail | E-Mail | 20 | 30 |
+| Formular ausgefüllt | Ein Mitglied füllt ein Formular auf einer Web-Seite aus und sendet es ab | Web | 20 | 40 |
+| Interessanter Moment | Ein Mitglied hat einen interessanten Moment | Kuratiert | 20 | 60 |
+| Link-Klicks | Ein Mitglied klickt auf einen Link auf einer Web-Seite | Web | 20 | 40 |
+| Seitenansichten | Ein Mitglied zeigt eine Web-Seite an | Web | 20 | 40 |
+| Für Ereignis registrieren | Ein für ein Ereignis registriertes Mitglied | Ereignis | 20 | 60 |
 
 <!-- old list
 

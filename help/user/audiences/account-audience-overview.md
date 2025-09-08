@@ -1,13 +1,13 @@
 ---
 title: Konto-Zielgruppen
-description: Erfahren Sie mehr über Kontozielgruppen und darüber, wie sie Account-basierte Journeys aktivieren.
+description: Erstellen Sie Account-Zielgruppen mit Segmentierung, um bestimmte Accounts auszuwählen und personalisierte Account-basierte Journey in Journey Optimizer B2B edition zu ermöglichen.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
-workflow-type: ht
-source-wordcount: '552'
-ht-degree: 100%
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ Sie können sich Journey Optimizer B2B Edition als ein Experience Platform(AEP)-
 1. Erstellen eines Kontosegments zur Auswertung Ihrer Daten.
 1. Aktivieren der ausgewerteten Daten für Journey Optimizer B2B Edition.
 
-In Journey Optimizer B2B Edition werden Kontozielgruppen als Eingabe für kontobasierte Journeys verwendet, sodass Sie die Personen in diesen Konten ansprechen können. Sie können beispielsweise Kontozielgruppen verwenden, um Datensätze aller Konten abzurufen, die keine Kontaktinformationen für Personen mit dem Titel Chief Operating Officer (COO) oder Chief Marketing Officer (CMO) haben.
+In Journey Optimizer B2B Edition werden Kontozielgruppen als Eingabe für kontobasierte Journeys verwendet, sodass Sie die Personen in diesen Konten ansprechen können. Sie können beispielsweise Kontozielgruppen verwenden, um Einträge aller Konten abzurufen, die keine Kontaktinformationen für Personen mit dem Titel Chief Operating Officer (COO) oder Chief Marketing Officer (CMO) haben.
 
 Mit Journey Optimizer B2B Edition können Sie Adobe Experience Platform(AEP)-Kontozielgruppen direkt über die linke Navigationsleiste erstellen und sie in Ihre Konto-Journeys integrieren.
 
@@ -57,7 +57,7 @@ Definieren Sie die Kontozielgruppe, indem Sie eine Kontosegmentierung erstellen.
 
    >[!IMPORTANT]
    >
-   >Das Attribut `Account Name` für Kontodatensätze muss einen Wert enthalten, der in Konto-Journeys aufgenommen werden soll. Wenn dieses Attribut leer (null) ist, wird der Kontodatensatz ausgeschlossen.<br/>
+   >Das Attribut `Account Name` für Kontoeinträge muss einen Wert enthalten, der in Konto-Journeys aufgenommen werden soll. Wenn dieses Attribut leer (null) ist, wird der Kontoeintrag ausgeschlossen.<br/>
    >Um sicherzustellen, dass nur Konten mit einem nicht leeren Kontonamen enthalten sind, fügen Sie das Attribut **[!UICONTROL Kontoname]** hinzu und wählen Sie _[!UICONTROL Vorhanden]_ als Übereinstimmungsbedingung aus.<br/>
    >![Das Attribut „Kontoname“ ist vorhanden](./assets/audience-segment-builder-account-name-exists.png){width="600"}
    ><br/>Wenn Sie ein benutzerdefiniertes Attribut als Kontonamen verwenden, verwenden Sie den Namen des benutzerdefinierten Attributs anstelle von _[!UICONTROL Kontoname]_.

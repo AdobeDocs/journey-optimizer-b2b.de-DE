@@ -1,12 +1,12 @@
 ---
 title: Interaktionsübersicht-Dashboard
-description: Erfahren Sie, wie Sie mit dem Dashboard „Interaktionsübersicht“ Ihre Interaktionsbemühungen überwachen können.
+description: Überwachen Sie Echtzeit-Interaktionsmetriken für Konten, Einkaufsgruppen und Personen mit interaktiven Diagrammen und Trendanalysen in Journey Optimizer B2B edition.
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '549'
 ht-degree: 6%
 
 ---

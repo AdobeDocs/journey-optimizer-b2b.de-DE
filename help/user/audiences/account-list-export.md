@@ -1,13 +1,13 @@
 ---
 title: Konten exportieren
-description: Erfahren Sie, wie Sie die Kontoliste basierend auf dem Filter „Käufergruppen“ exportieren.
-feature: Account Lists
+description: Exportieren Sie gefilterte Kontolisten in die CSV-Datei für Drittanbieterplattformen mit Kaufgruppen- und Interaktionswertfiltern in Journey Optimizer B2B edition.
+feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
-source-git-commit: 124d917de02a2481bcf2558b381c0f932129a255
+source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 91%
+source-wordcount: '259'
+ht-degree: 83%
 
 ---
 
