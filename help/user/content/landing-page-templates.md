@@ -1,15 +1,15 @@
 ---
-title: Landing Page-Vorlagen
-description: Erfahren Sie, wie Sie Landingpage-Vorlagen erstellen, die Ihr Marketing-Team verwenden kann, um neue Seiten zur Unterstützung von Account-Journey und -Kampagnen zu erstellen.
+title: Landingpage-Vorlagen
+description: Erstellen, Verwalten und Wiederverwenden von Landingpage-Vorlagen - Erstellen Sie von Grund auf neue Vorlagen, importieren Sie HTML, duplizieren Sie sie, löschen Sie sie und verfolgen Sie die Nutzung durch Marketing-Teams in Journey Optimizer B2B edition.
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 3%
 
 ---
@@ -92,7 +92,7 @@ Klicken Sie auf _Listenseite „Landingpage_ Vorlagen“ auf den Namen einer Lan
 
 * Klicken Sie **[!UICONTROL oben]** auf „Mehr“, um schnelle Aktionen in der Landingpage-Vorlage durchzuführen, z. B. _Duplizieren_ und _Löschen_.
 
-* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnhinweise für die Landingpage-Vorlage), klicken Sie oben **auf** Warnhinweise“, um die Informationen anzuzeigen.
+* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnhinweise für die Landingpage-Vorlage), klicken Sie oben **[!UICONTROL auf]** Warnhinweise“, um die Informationen anzuzeigen.
 
   Diese Warnhinweise verbieten nicht die Verwendung der Landingpage-Vorlage zur Erstellung von Landingpages. Die Informationen bieten Marketing-Fachleuten in Ihrem Team einen Überblick darüber, was möglicherweise nicht funktioniert, und über die erforderlichen Aktualisierungen, bevor sie für die Bereitstellung verwendet werden können.
 
@@ -150,13 +150,13 @@ Wählen Sie auf der Seite mit der Liste der Landingpage-Vorlagen mehrere Vorlage
 
 ## Erstellen einer Landingpage aus einer gespeicherten Vorlage
 
-Auf der Seite _Landingpage erstellen_ können Sie im Abschnitt _Design-Vorlage auswählen_ mit der Erstellung Ihres Inhalts aus einer Vorlage beginnen.
+Auf der Seite _[!UICONTROL Landingpage erstellen]_ können Sie im Abschnitt _Design-Vorlage auswählen_ mit der Erstellung Ihres Inhalts aus einer Vorlage beginnen.
 
 Um mit der Erstellung Ihres Inhalts mit einer der erstellten Landingpage-Vorlagen zu beginnen, führen Sie die folgenden Schritte aus:
 
 1. Greifen Sie über die Seite „Inhalt bearbeiten _auf den visuellen_ zu.
 
-   Auf der _Landingpage erstellen_ ist die Registerkarte _Beispielvorlagen_ standardmäßig ausgewählt.
+   Auf der _[!UICONTROL Landingpage erstellen]_ ist die Registerkarte _Beispielvorlagen_ standardmäßig ausgewählt.
 
 1. Um eine benutzerdefinierte Landingpage-Vorlage zu verwenden, wählen Sie die Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** aus.
 
@@ -168,4 +168,4 @@ Um mit der Erstellung Ihres Inhalts mit einer der erstellten Landingpage-Vorlage
 
 1. Klicken **[!UICONTROL oben]** auf „Diese Vorlage verwenden“.
 
-1. Bearbeiten Sie den Inhalt nach Bedarf im visuellen Content Designer.
+1. Bearbeiten Sie Ihre Inhalte nach Bedarf im visuellen Inhaltsdesign-Bereich.

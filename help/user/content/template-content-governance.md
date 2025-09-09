@@ -1,12 +1,12 @@
 ---
 title: Vorlagen-Content-Governance
-description: Erfahren Sie, wie Sie Inhaltselemente in Ihren E-Mail-Vorlagen sperren, damit Sie steuern können, wie sie für die Verwendung in Account-Journey geändert werden können.
+description: 'Sperren von E-Mail-Vorlagenkomponenten für die Markenkonformität : Legen Sie Governance-Modi fest, steuern Sie die Inhaltsbearbeitung und verwalten Sie Berechtigungen für Konto-Journey-Autoren in Journey Optimizer B2B edition.'
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 4905346d8160147f7d71b7b1131ea33f26d3bba0
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Beispielsweise können Sie die Kopf- und Fußzeile sperren, die für die Kontinu
 
 ## Aktivieren der Content Governance für die Vorlage
 
-Nachdem Sie mit dem visuellen Designer die Struktur- [ Inhaltskomponenten für ](./email-template-authoring.md) E-Mail-Vorlage erstellt haben, aktivieren Sie die Governance und wenden Sie bei Bedarf eine spezifische Inhaltssperrung an.
+Nachdem Sie den visuellen Design-Bereich verwendet haben[ um die Struktur- und Inhaltskomponenten für ](./email-template-authoring.md) E-Mail-Vorlage zu erstellen, aktivieren Sie die Governance und wenden Sie bei Bedarf eine spezifische Inhaltssperrung an.
 
-1. Greifen Sie im visuellen Designer mithilfe des Navigationsbaums auf _Ebenen/Container und Elemente_.
+1. Greifen Sie im visuellen Entwurfsbereich mithilfe des Navigationsbaums auf die Ebenen/Container _Elemente_.
 
    Klicken Sie auf _Navigationsbaum_-Symbol ( ![Verknüpfungssymbol](../assets/do-not-localize/icon-navigation-tree.svg) ) links neben der Arbeitsfläche, um die Baumstruktur anzuzeigen.
 

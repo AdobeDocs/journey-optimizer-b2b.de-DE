@@ -1,12 +1,12 @@
 ---
 title: Konto-Journey erstellen und veröffentlichen
-description: Erfahren Sie, wie Sie Account Journey erstellen und veröffentlichen.
+description: Erstellen Sie Account-Journey in der visuellen Arbeitsfläche, fügen Sie Aktions- und Ereignisknoten hinzu, konfigurieren Sie die Planung und veröffentlichen Sie für die Live-Orchestrierung in Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-source-git-commit: b88b4d45b8697b24c120f58bf7f85fd298bcfb8d
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '806'
 ht-degree: 5%
 
 ---
@@ -91,7 +91,7 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen&rbrace; klicken.
+1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen} klicken.
 
 1. Legen Sie im Dialogfeld die Zeitplanoptionen fest:
 
@@ -141,4 +141,4 @@ Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443228/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

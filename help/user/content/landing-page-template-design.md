@@ -1,13 +1,13 @@
 ---
 title: Design von Landingpage-Vorlagen
-description: Erfahren Sie, wie Sie Inhalte für Landingpage-Vorlagen entwerfen und erstellen, die Marketing-Experten zur Erstellung von Landingpages wiederverwenden können.
+description: 'Entwerfen von Landingpage-Vorlagen für die Wiederverwendung : Hinzufügen von Inhaltskomponenten, Formularen, benutzerdefiniertem CSS, Personalisierung und Gerätevorschau in Journey Optimizer B2B edition.'
 feature: Templates, Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 3dc6a523-1a33-4560-8f3c-ce8d0bf9f064
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '347'
 ht-degree: 4%
 
 ---

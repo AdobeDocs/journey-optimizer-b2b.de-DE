@@ -1,12 +1,13 @@
 ---
 title: Spam-Bericht überprüfen
-description: Erfahren Sie, wie Sie die Spam-Bewertung Ihres E-Mail-Inhalts in einem speziellen Spam-Bericht überprüfen können, der vorhersagt, ob ISPs oder Postfachanbieter ihn als Spam betrachten würden oder nicht.
+description: Trigger Erstellen Sie Spam-Berichte mit SpamAssassin-Bewertung, um zu überprüfen, ob E-Mails Spam-Filter enthalten und die Zustellbarkeit in Journey Optimizer B2B edition zu verbessern.
 feature: Email Authoring
 level: Beginner
 role: User
-source-git-commit: 7992df497182b69c5103b603d69a70e1a40e903a
+exl-id: 0ab2a85c-fbab-4681-9964-74b7fd1d574f
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -40,6 +41,3 @@ Wenn Sie Ihre E-Mail-Einstellungen überprüfen oder den Inhalt bearbeiten, öff
 1. Wenn es einige Elemente im E-Mail-Inhalt gibt, die verbessert werden können, bearbeiten Sie Ihren Inhalt, um die erforderlichen Aktualisierungen anzuwenden.
 
 1. Wenn Ihre Änderungen abgeschlossen sind, kehren Sie zur Seite _[!UICONTROL Simulieren]_ zurück und klicken Sie erneut auf **[!UICONTROL Spam-Bericht]**, um die resultierenden Score-Verbesserungen zu überprüfen.
-
-
-

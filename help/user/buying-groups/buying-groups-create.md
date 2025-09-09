@@ -1,12 +1,12 @@
 ---
 title: Erstellen von Einkaufsgruppen
-description: Erstellen Sie Einkaufsgruppen, indem Sie Lösungsinteressen und Account-Zielgruppen für automatisiertes Marketing in Journey Optimizer B2B edition auswählen.
+description: Erstellen Sie automatisierte Einkaufsgruppen, indem Sie Lösungsinteressen und Account-Zielgruppen für zielgerichtete Account-Journey in Journey Optimizer B2B edition auswählen.
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 3%
 
 ---
@@ -64,4 +64,4 @@ Remove a member of the buying group. -->
 
 ## Anleitungsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451770/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

@@ -1,19 +1,19 @@
 ---
 title: Aus einer verwalteten Vorlage erstellen
-description: Erfahren Sie, wie Sie das E-Mail-Authoring mit einer verwalteten Vorlage verwenden, die gesperrte Inhaltskomponenten enthält.
+description: 'Verfassen von E-Mails aus verwalteten Vorlagen mit gesperrtem Inhalt : Identifizieren Sie bearbeitbare Bereiche und arbeiten Sie innerhalb der Governance-Beschränkungen in Journey Optimizer B2B edition.'
 feature: Email Authoring, Content
 role: User
 exl-id: 1af996a6-a010-4899-96e9-bad76f93865c
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 1%
 
 ---
 
 # Aus einer verwalteten Vorlage erstellen
 
-Content-Designer können beim Erstellen von E[Mail _Vorlagen die_ Governance“ ](./template-content-governance.md). Mit Governance-Funktionen können sie die Teile des Designs festlegen, die bei Verwendung auf einer Account-Journey nicht geändert werden können. Wenn Sie [gespeicherte Vorlage auswählen](./email-authoring.md#select-a-template) um eine E-Mail zu erstellen, lädt der visuelle Designer die Vorlage, damit Sie sie als Grundlage für Ihre E-Mail verwenden können.
+Content-Designer können beim Erstellen von E[Mail _Vorlagen die_ Governance“ ](./template-content-governance.md). Mit Governance-Funktionen können sie die Teile des Designs festlegen, die bei Verwendung auf einer Account-Journey nicht geändert werden können. Wenn Sie [gespeicherte Vorlage auswählen](./email-authoring.md#select-a-template) um eine E-Mail zu erstellen, lädt der visuelle Design-Bereich die Vorlage, damit Sie sie als Grundlage für Ihre E-Mail verwenden können.
 
 Wenn für die Vorlage die Governance aktiviert ist, wird im Bereich Eigenschaften auf der rechten Seite ein Warnhinweis angezeigt. Sie können die Option **[!UICONTROL Bearbeitbare Bereiche hervorheben]** oben auf der Arbeitsfläche aktivieren, um zu sehen, welche Komponenten und Inhaltselemente für die Verwendung auf Ihrem Journey bearbeitbar sind.
 

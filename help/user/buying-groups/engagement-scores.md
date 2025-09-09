@@ -1,12 +1,12 @@
 ---
 title: Interaktionswerte für Einkaufsgruppen
-description: Verfolgen Sie die Werte für Einkaufsgruppen- und Personeninteraktionen mit gewichteten Aktivitäten und rollenbasierten Berechnungen in Journey Optimizer B2B edition.
+description: Berechnen Sie die Werte für Einkaufsgruppen- und Personeninteraktionen mithilfe von gewichteten Aktivitäten, rollenbasierten Berechnungen und 30-tägigen Bewertungsfenstern in Journey Optimizer B2B edition.
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1254'
 ht-degree: 29%
 
 ---
@@ -30,7 +30,7 @@ Es gibt zwei Arten von Interaktionswerten:
 
 * **Interaktionswert für eine Person** - Der Interaktionswert für eine Person basiert auf den Aktivitäten eines einzelnen kaufenden Gruppenmitglieds.
 
-  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte &#x200B;]_&#x200B;Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
+  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte ]_Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
 
   ![Die engagiertesten Mitglieder der Einkaufsgruppe](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 

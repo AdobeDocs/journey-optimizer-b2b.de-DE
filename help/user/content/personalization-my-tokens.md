@@ -1,13 +1,13 @@
 ---
 title: Benutzerdefinierte Token für Email Personalization
-description: Erfahren Sie, wie Sie mit einer Reihe von Token, die für eine Konto-Journey definiert sind, die Personalisierung in Ihrem E-Mail-Inhalt verwalten können.
+description: Erstellen und verwalten Sie benutzerdefinierte Meine Token für die dynamische E-Mail-Personalisierung - definieren Sie Text- und Zahlenvariablen für Account-Journey in Journey Optimizer B2B edition.
 feature: Personalization, Content, Email Authoring
 role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 3%
+source-wordcount: '603'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Die _Meine Token_ sind benutzerdefinierte Variablen, die Sie für eine Konto-Jou
 
 Wenn Sie einer E-Mail ein benutzerdefiniertes Token hinzufügen, wird es als `{{my.TokenName}}` angezeigt. Beispielsweise könnten Sie `{{my.EventDate}}` oder `{{my.WebinarSpeaker}}` Token erstellen, um E-Mail-Inhalte im Zusammenhang mit kommenden Webinaren zu verwalten.
 
-_So greifen Sie auf die benutzerdefinierten Token für eine Konto-Journey zu:_
+_Zugreifen auf die benutzerdefinierten Token für eine Konto-Journey :_
 
 1. Öffnen Sie die Journey des Kontoentwurfs.
 

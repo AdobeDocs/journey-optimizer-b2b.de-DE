@@ -1,12 +1,12 @@
 ---
 title: Inhaltskomponenten
-description: Erfahren Sie, wie Sie Inhaltskomponenten zum Entwerfen Ihrer E-Mail-, Landingpage- und visuellen Fragmentinhalte verwenden.
+description: Entwerfen von E-Mails, Landingpages und Fragmenten mit Inhaltskomponenten - Hinzufügen von Schaltflächen, Text, Bildern, Formularen und Containern in Journey Optimizer B2B edition.
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2844'
+source-wordcount: '2849'
 ht-degree: 7%
 
 ---
@@ -237,7 +237,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 

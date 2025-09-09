@@ -1,12 +1,12 @@
 ---
 title: Verfassen von E-Mail-Nachrichten
-description: Erfahren Sie, wie Sie E-Mail-Inhalte in Adobe Journey Optimizer B2B erstellen. Verwenden Sie Vorlagen, HTML-Importe und KI-gestützte Tools, um Ihre E-Mail-Kommunikation zu personalisieren und zu optimieren.
+description: Erstellen von E-Mails mit visuellen Design-Tools, HTML-Import oder Vorlagen - Verwenden Sie die Inhaltserstellung mit dem KI-Assistenten, benutzerdefiniertes CSS und Personalisierung in Journey Optimizer B2B edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1045'
 ht-degree: 7%
 
 ---

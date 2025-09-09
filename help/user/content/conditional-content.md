@@ -1,12 +1,12 @@
 ---
 title: Bedingter Inhalt
-description: Erfahren Sie, wie Sie Inhaltsvarianten erstellen und bedingte Regeln anwenden, wenn Sie visuelle Fragmente und E-Mail-Inhalte für Account-Journey erstellen.
+description: Erstellen Sie dynamische Inhaltsvarianten mit bedingten Regeln, die auf Profilattributen und Ereignissen für personalisierte E-Mails und Fragmente in Journey Optimizer B2B edition basieren.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: ce6137aac66f2009da9ccabfa3e39ca367e04f4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1262'
 ht-degree: 12%
 
 ---

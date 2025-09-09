@@ -1,12 +1,12 @@
 ---
 title: Arbeiten mit Marketo Engage Assets
-description: Erfahren Sie mehr über die Verwendung der Asset-Management-Integration von Marketo Engage Design Studio in Journey Optimizer B2B edition.
+description: Durchsuchen, Verwalten und Verwenden von Marketo Engage Design Studio-Assets in Journey Optimizer B2B edition - Organisieren von Arbeitsbereichen, Bearbeiten von Bildern und Erstellen von Inhalten für Account-Journey.
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -128,7 +128,7 @@ Ziehen _[!UICONTROL im Dialogfeld]_ Asset ersetzen“ die Ersatzdatei per Drag-a
 
 Klicken Sie auf &quot;**[!UICONTROL &quot;, um]**. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 
-Wenn die zu ersetzende Datei verwendet wird, werden Sie in einem informativen Dialogfeld darauf hingewiesen, dass die neue Bilddatei das Bild an allen Stellen ersetzt, an denen es verwendet wird (E-Mails, E-Mail-Vorlagen und Fragmente).
+Wenn die zu ersetzende Datei verwendet wird, werden Sie in einem Dialogfeld darauf hingewiesen, dass die neue Bilddatei das Bild dort ersetzt, wo sie verwendet wird (E-Mails, E-Mail-Vorlagen und Fragmente).
 
 ## Herunterladen von Assets
 
@@ -196,7 +196,7 @@ Im Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ können Sie Aktio
 
 Sie können die folgenden Aktionen auf Ordnerebene ausführen:
 
-+++Assets hinzufügen
++++Hinzufügen von Assets
 
 1. Wählen Sie **[!UICONTROL Assets hinzufügen]** aus, um Bilddateien in den Ordner hochzuladen.
 
@@ -234,7 +234,7 @@ Sie können die folgenden Aktionen auf Ordnerebene ausführen:
 
 +++
 
-+++Verschieben des Ordners
++++Ordner verschieben
 
 1. Um den Ordner in einen anderen übergeordneten Ordner zu verschieben, wählen Sie **[!UICONTROL Verschieben]** aus.
 
@@ -246,7 +246,7 @@ Sie können die folgenden Aktionen auf Ordnerebene ausführen:
 
 +++
 
-+++Löschen des Ordners
++++Ordner löschen
 
 1. Wählen Sie **[!UICONTROL Löschen]**.
 
@@ -270,7 +270,7 @@ Die Archivierung eines Ordners macht die darin enthaltenen Dateien undurchsuchba
 
 Assets kann in der E-Mail-, E-Mail-Vorlage oder beim Erstellen visueller Fragmente des Teams über den Visual Content Editor verwendet werden.
 
-Wählen Sie in der Visual Designer-Benutzeroberfläche das Symbol _Marketo Engage Assets_ ( ![Marketo Engage Assets-Symbol](../../assets/do-not-localize/icon-assets-me.svg) ) in der linken Seitenleiste aus.
+Wählen Sie in der visuellen Entwurfsleiste das Symbol _Marketo Engage Assets_ ( ![Marketo Engage Assets-Symbol](../../assets/do-not-localize/icon-assets-me.svg) ) in der linken Seitenleiste aus.
 
 Durch diese Aktion wird das Bedienfeld Tools geändert, das eine strukturierte Liste der verfügbaren Assets im ausgewählten Arbeitsbereich anzeigt. Wählen Sie den Arbeitsbereich aus, den Sie für die Auswahl eines Assets anzeigen möchten.
 

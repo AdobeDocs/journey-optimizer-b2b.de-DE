@@ -1,17 +1,17 @@
 ---
-title: KI-Assistent für E-Mail-Authoring
-description: Erfahren Sie, wie Sie mit dem KI-Assistenten den E-Mail-Inhalt optimieren können, der in Account Journey verwendet wird.
+title: KI-Assistent für die Erstellung von E-Mail-Inhalten
+description: Generieren von E-Mail-Inhalten mit dem KI-Assistenten - Erstellen Sie Nachrichteninhalte, Betreffzeilen und Preheader mit Marken-Assets und Targeting für Einkaufsgruppen in Journey Optimizer B2B edition.
 feature: AI Assistant, Email Authoring, Content
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3072'
-ht-degree: 0%
+source-wordcount: '3089'
+ht-degree: 1%
 
 ---
 
-# KI-Assistent für E-Mail-Erstellung
+# KI-Assistent für die Erstellung von E-Mail-Inhalten
 
 Da die Marketing-Branche wettbewerbsfähiger wird, suchen Marken nach effizienten Möglichkeiten, schnell und effizient wirkungsvolle Inhalte zu generieren. Der KI-Assistent für die E-Mail-Erstellung in Adobe Journey Optimizer B2B edition ist die KI-gestützte Inhaltsgenerierungsfunktion von Adobe, die die Art und Weise revolutioniert, wie Marketing-Experten professionelle und markenkonsistente E-Mail-Inhalte erstellen. Mit erweiterten GenAI-Modellen und einem tiefen Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketing-Ziel mit Inhalten, die für Markenstile, -layouts, -töne und mehr optimiert sind. Der KI-Assistent macht die Erstellung und Ausführung von E-Mail-Marketing-Kampagnen intuitiv, einfach und unkompliziert. Durch das Hinzufügen dieser Funktion zu Ihren Workflows können Sie Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
 
@@ -82,7 +82,7 @@ Wenn Sie [ Konto-Journey ](./add-email.md#add-an-email-action-node-in-a-journey)
 
 Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zum Generieren einer optimierten Betreffzeile für Ihre E-Mail:
 
-1. Klicken Sie in _[!UICONTROL E]_ Mail-Eigenschaften) rechts neben dem Feld ![Betreffzeile ]&#x200B;**auf das Symbol KI(./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"}Assistent ((Zugriffssymbol KI** ).
+1. Klicken Sie in _[!UICONTROL E]_ Mail-Eigenschaften) rechts neben dem Feld ![Betreffzeile](./assets/email-properties-ai-assistant-button.png){width="30" zoomable="no"} auf das Symbol KI **[!UICONTROL Assistent ((Zugriffssymbol KI]** ).
 
    ![Zugriff des KI-Assistenten für die E-Mail-Betreffzeile](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -204,11 +204,11 @@ Ein E-Mail-Preheader ist der kurze Zusammenfassungstext, der auf die Betreffzeil
 
 Nachdem Sie [E-Mail erstellt und personalisiert haben](./email-authoring.md) verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition auf der Basis von generativer KI, um den Inhalt Ihres E-Mail-Textkörpers auf die nächste Stufe zu heben.
 
-Im E-Mail-Designer kann Ihnen der KI-Assistent dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er den vollständigen E-Mail-Textkörper, zielgerichtete Textinhalte und Empfehlungen für Bilder generiert, die bei Ihrer Audience Anklang finden. Diese Optimierung Ihrer E-Mail-Kampagnen sorgt für eine bessere Interaktion.
+Im Bereich des E-Mail-Designs kann Ihnen der KI-Assistent dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er den vollständigen E-Mail-Textkörper, zielgerichtete Textinhalte und Empfehlungen für Bilder generiert, die bei Ihrer Audience Anklang finden. Diese Optimierung Ihrer E-Mail-Kampagnen sorgt für eine bessere Interaktion.
 
 1. Erstellen Sie eine E-Mail von einer Konto-Journey und klicken Sie auf **[!UICONTROL E-Mail-Designer öffnen]** oder **[!UICONTROL E-Mail-Inhalt hinzufügen]**.
 
-1. Wählen Sie eine E-Mail-Vorlage im visuellen E-Mail-Designer aus und öffnen Sie sie.
+1. Wählen Sie eine E-Mail-Vorlage im visuellen E-Mail-Design-Bereich aus und öffnen Sie sie.
 
 1. Personalisieren Sie die E-Mail nach Bedarf für den Journey-Knoten.
 
@@ -220,7 +220,7 @@ Im E-Mail-Designer kann Ihnen der KI-Assistent dabei helfen, die Wirkung Ihrer S
 
 Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zum Verfeinern einer vorhandenen E-Mail-Vorlage:
 
-1. Rufen Sie in Email Designer das Menü des KI-Assistenten auf, indem Sie auf das Symbol (![Umschalter für das Menü des KI-](../assets/button-ai-assistant.png){width="30" zoomable="no"}) auf der rechten Seite klicken.
+1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das ](../assets/button-ai-assistant.png){width="30" zoomable="no"}-Menü ) auf der rechten Seite klicken.
 
    ![KI-Assistenten-Umschalter im E-Mail-Designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -247,7 +247,7 @@ Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des K
    * **[!UICONTROL Kommunikationsstrategie]** - Wählen Sie den am besten geeigneten Kommunikationsstil für Ihren generierten Text.
    * **[!UICONTROL Language]** - Wählen Sie die Sprache aus, in der Ihre Inhalte generiert werden sollen.
    * **[!UICONTROL Tone]** - Wählen Sie einen Ton, der bei Ihrer Audience Anklang findet. Wenn Sie angeben, dass Sie informativ, spielerisch oder überzeugend klingen möchten, kann der KI-Assistent die Nachricht entsprechend anpassen.
-   * **Inhaltstyp** - Wählen Sie eine Option aus, die die Art der visuellen Elemente widerspiegelt. Diese Einstellung unterscheidet zwischen verschiedenen Formen der visuellen Darstellung wie Fotos, Grafiken oder Kunst.
+   * **Inhaltstyp** - Wählen Sie eine Option aus, die die Art der visuellen Elemente widerspiegelt. Diese Einstellung unterscheidet zwischen verschiedenen Formen der visuellen Darstellung, wie Fotos, Grafiken oder Kunst.
 
 1. Wenn Ihre Eingabeaufforderung fertig ist, klicken Sie auf **[!UICONTROL Generieren]**.
 
@@ -259,15 +259,15 @@ Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des K
 
      ![KI-Assistent - Texteinstellungen](./assets/email-designer-ai-assistant-feedback.png){width="600" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Auswählen]**, um den Vorlageninhalt durch die ausgewählte Variante zu ersetzen und zum E-Mail-Designer zurückzukehren.
+1. Klicken Sie **[!UICONTROL Auswählen]**, um den Vorlageninhalt durch die ausgewählte Variante zu ersetzen und zum E-Mail-Design zurückzukehren.
 
-   In Email Designer können Sie die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um den Inhalt sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
+   Im E-Mail-Design können Sie die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um den Inhalt sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
 
 >[!TAB Textgenerierung]
 
 Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zur Verfeinerung oder Verbesserung des Textinhalts für eine vorhandene E-Mail:
 
-1. Rufen Sie in Email Designer das Menü des KI-Assistenten auf, indem Sie auf das Symbol (![Umschalter für das Menü des KI-](../assets/button-ai-assistant.png){width="30" zoomable="no"}) auf der rechten Seite klicken.
+1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das ](../assets/button-ai-assistant.png){width="30" zoomable="no"}-Menü ) auf der rechten Seite klicken.
 
    ![KI-Assistenten-Umschalter im E-Mail-Designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -307,7 +307,7 @@ Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des K
 
    * **[!UICONTROL Entwickeln]** - Der KI-Assistent kann Ihnen dabei helfen, bestimmte Themen zu vertiefen und zusätzliche Details bereitzustellen, um das Verständnis und die Interaktion zu verbessern.
 
-   * **[!UICONTROL Zusammenfassen]** - Lange Informationen können E-Mail-Empfänger überlasten. Verwenden Sie den KI-Assistenten, um wichtige Punkte in klaren, knappen Zusammenfassungen zu verdichten, die Aufmerksamkeit erregen und sie zum weiteren Lesen ermutigen.
+   * **[!UICONTROL Zusammenfassen]** - Lange Informationen können E-Mail-Empfänger überlasten. Nutzen Sie den KI-Assistenten, um die wichtigsten Punkte in klaren, prägnanten Aussagen zusammenzufassen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen anregen.
 
    * **[!UICONTROL Umformulieren]** - Der KI-Assistent kann Ihre Nachricht auf unterschiedliche Weise umformulieren, sodass Sie frisch schreiben und für unterschiedliche Zielgruppen interessant sind.
 
@@ -315,9 +315,9 @@ Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des K
 
    ![KI-Assistent - Vorschau von Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
 
-1. Wenn Sie den gewünschten Inhalt haben, klicken Sie auf **[!UICONTROL Auswählen]**, um den Text durch die ausgewählte Variante zu ersetzen und zum E-Mail-Designer zurückzukehren.
+1. Wenn Sie den gewünschten Inhalt haben, klicken Sie auf **[!UICONTROL Auswählen]**, um den Text durch die ausgewählte Variante zu ersetzen und zum E-Mail-Design zurückzukehren.
 
-   In Email Designer können Sie die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um den Text sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
+   Im E-Mail-Design können Sie die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um den Text sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
 
 >[!TAB Bildempfehlungen]
 
@@ -345,7 +345,7 @@ Sie können den KI-Assistenten verwenden, um Ihre Assets zu optimieren und zu ve
 
 1. Verfeinern Sie die Eingabeaufforderung mit den Bildeinstellungen:
 
-   * **[!UICONTROL Seitenverhältnis]** - Diese Einstellung bestimmt die Breite und Höhe des Assets. Sie haben die Möglichkeit, aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 zu wählen, oder Sie können eine benutzerdefinierte Größe eingeben.
+   * **[!UICONTROL Seitenverhältnis]** - Diese Einstellung bestimmt die Breite und Höhe des Assets. Sie können aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 wählen oder eine benutzerdefinierte Größe eingeben.
    * **[!UICONTROL Farbe und Ton]** - Diese Einstellung beeinflusst das allgemeine Erscheinungsbild der Farben in einem Bild und die Stimmung oder Atmosphäre, die es vermittelt.
    * **[!UICONTROL Inhaltstyp]** - Diese Einstellung kategorisiert die Art des visuellen Elements, wobei zwischen verschiedenen Formen visueller Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
    * **[!UICONTROL Beleuchtung]** - Mit dieser Einstellung wird der Blitz in einem Bild angepasst, wodurch die Atmosphäre geformt und bestimmte Elemente hervorgehoben werden.
@@ -363,8 +363,8 @@ Sie können den KI-Assistenten verwenden, um Ihre Assets zu optimieren und zu ve
 
    Um eine Vollbildversion der ausgewählten Variante anzuzeigen, klicken Sie auf **[!UICONTROL Vorschau]**.
 
-1. Markieren Sie das gewünschte Bild und klicken Sie auf **[!UICONTROL Auswählen]**, um das Bild oder den Platzhalter durch das ausgewählte Element zu ersetzen und zum E-Mail-Designer zurückzukehren.
+1. Markieren Sie das gewünschte Bild und klicken Sie auf **[!UICONTROL Auswählen]**, um das Bild oder den Platzhalter durch das ausgewählte Element zu ersetzen und zum E-Mail-Design zurückzukehren.
 
-   In Email Designer können Sie die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um den Inhalt sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
+   Im E-Mail-Design können Sie die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um den Inhalt sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
 
 >[!ENDTABS]

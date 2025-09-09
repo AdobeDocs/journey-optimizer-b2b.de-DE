@@ -1,12 +1,12 @@
 ---
 title: Interessen an Lösungen
-description: Definieren Sie Lösungsinteressen, um Zielprodukte zu identifizieren und automatisch Einkaufsgruppen mit Rollenvorlagen in Journey Optimizer B2B edition zu erstellen.
+description: Erstellen Sie Lösungsinteressen für Target-Produkte, automatisieren Sie die Erstellung von Einkaufsgruppen mit Rollenvorlagen und verwalten Sie den Staging-Fortschritt in Journey Optimizer B2B edition.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
@@ -104,4 +104,4 @@ Alle Lösungsinteressen, die derzeit von einem kaufenden Gruppenauftrag oder ein
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3450122/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433080/?learn=on)

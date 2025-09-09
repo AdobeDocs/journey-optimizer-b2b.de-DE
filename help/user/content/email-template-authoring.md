@@ -1,13 +1,13 @@
 ---
-title: Erstellen von E-Mail-Vorlagen
-description: Erfahren Sie, wie Sie Inhalts-E-Mail-Vorlagen erstellen, die für Account-Journey-E-Mails verwendet werden können, um Ihre Designs einfach und effizient wiederzuverwenden.
+title: Erstellung von E-Mail-Vorlagen
+description: Erstellen Sie wiederverwendbare E-Mail-Vorlagen mit visuellen Design-Tools, benutzerdefiniertem CSS, Fragmenten und Personalisierung für Account Journey in Journey Optimizer B2B edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 3%
+source-wordcount: '422'
+ht-degree: 4%
 
 ---
 

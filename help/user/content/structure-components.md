@@ -1,12 +1,12 @@
 ---
 title: Strukturkomponenten
-description: Erfahren Sie, wie Sie mit Strukturkomponenten das Layout Ihrer E-Mail, Landingpage und visueller Fragmentinhalte definieren können.
+description: Verwenden Sie Strukturkomponenten, um Layouts für E-Mails, Landingpages und Fragmente zu erstellen - Ziehen Sie Spaltenlayouts, legen Sie Stile fest und konfigurieren Sie die Mobile-Anzeige in Journey Optimizer B2B edition.
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 4fd1c524f67e9a07a21ecd3d191166b3a4d41bb9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1584'
 ht-degree: 7%
 
 ---

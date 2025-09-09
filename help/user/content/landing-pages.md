@@ -1,13 +1,13 @@
 ---
 title: Landingpages
-description: Erfahren Sie mehr über Landingpages und deren Erstellung und Verwaltung zur Unterstützung von Account-Journey und -Kampagnen.
+description: Landingpages für Account-Journey erstellen, entwerfen und veröffentlichen - von Grund auf neu erstellen, HTML importieren, Formulare hinzufügen, Inhalte personalisieren und Links aus E-Mails in Journey Optimizer B2B edition erstellen.
 feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2198'
 ht-degree: 3%
 
 ---

@@ -1,12 +1,12 @@
 ---
 title: Einkaufsgruppenetappen
-description: Konfigurieren Sie die Stadien der Einkaufsgruppe, um den Fortschritt der Verkäufe von der Opportunity bis zur Kundenkonversion in Journey Optimizer B2B edition zu verfolgen.
+description: Erstellen Sie benutzerdefinierte Einkaufsgruppen-Staging-Modelle mit Eintritts-, Erfolgs- und Fehlerphasen, um den Fortschritt und die Journey-Aktionen der Trigger-Konten in Journey Optimizer B2B edition zu verfolgen.
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2351'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Die Stadien der Einkaufsgruppen verfolgen den Fortschritt der Einkaufsgruppen bei der Konvertierung von Opportunities in Kunden. Verwenden Sie diese Funktion, um den Fortschritt der Einkaufsgruppe zu verfolgen und die nächsten besten Aktionen für Mitglieder der Einkaufsgruppe zu identifizieren.
 
-Definieren Sie die Phasen innerhalb eines einzelnen Staging-Modells, indem Sie mehrere Phasen und den Übergangsfluss zwischen ihnen definieren. Eine oder mehrere Phasen sind für den Eintritt in den Lebenszyklus vorgesehen. Das Modell ermöglicht auch eine nichtlineare Progression, bei der Sie Übergänge von einem Stadium zu einem anderen angeben können, z. B. von Stadium A zu Stadium B, C oder D. Es ist erforderlich, dass ein Schritt als Erfolgsschritt gekennzeichnet wird, z. B. ein Kauf oder ein unterzeichneter Vertrag. Es ist optional, dass eine weitere Phase als Ausfallphase eingestuft wird, z. B. ein abgelehnter Vertrag oder der Kauf einer konkurrierenden Lösung von einem anderen Anbieter. Erreicht wird dies durch [intelligente Dashboards](../dashboards/intelligent-dashboard.md) die zeigen, wie Einkaufsgruppen in Bezug auf den Abschluss einer Verkaufschance oder die Umwandlung einer Opportunity in einen Kunden vorankommen.
+Definieren Sie die Phasen innerhalb eines einzelnen Staging-Modells, indem Sie mehrere Phasen und den Übergangsfluss zwischen ihnen definieren. Eine oder mehrere Phasen sind für den Eintritt in den Lebenszyklus vorgesehen. Das Modell ermöglicht auch eine nichtlineare Progression, bei der Sie Übergänge von einem Stadium zu einem anderen angeben können, z. B. von Stadium A zu Stadium B, C oder D. Es ist erforderlich, dass ein Schritt als Erfolgsschritt gekennzeichnet wird, z. B. ein Kauf oder ein unterzeichneter Vertrag. Es ist optional, dass eine weitere Phase als Ausfallphase eingestuft wird, z. B. ein abgelehnter Vertrag oder der Kauf einer konkurrierenden Lösung von einem anderen Anbieter. Überwachen Sie diese Phasen über [intelligente Dashboards](../dashboards/intelligent-dashboard.md) die zeigen, wie Einkaufsgruppen in Bezug auf den Abschluss einer Verkaufschance oder die Umwandlung einer Opportunity in einen Kunden vorankommen.
 
 ![Beispiel für den Kauf von Gruppenstadien](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -49,7 +49,7 @@ Wenn Sie das Einkaufsgruppenstufenmodell erstellen, befindet es sich automatisch
 
    ![Fügen Sie den Namen und die Beschreibung für das Modell hinzu](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   Wenn Sie in _[!UICONTROL Dialogfeld auf]_&#x200B;_[!UICONTROL Abbrechen“ klicken, kehren Sie in einem]_ leeren _zur Registerkarte_ Phasen“ zurück.
+   Wenn Sie in _[!UICONTROL Dialogfeld auf]__[!UICONTROL Abbrechen“ klicken, kehren Sie in einem]_ leeren _zur Registerkarte_ Phasen“ zurück.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -365,4 +365,4 @@ Verwenden Sie den Eintritt einer Kaufgruppen-Stadienänderung, um das Konto mit 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448703/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

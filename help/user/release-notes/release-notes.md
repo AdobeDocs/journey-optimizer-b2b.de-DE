@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu Journey Optimizer B2B Edition
-description: Die neuesten Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition.
+title: Versionshinweise zu Journey Optimizer B2B edition
+description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B edition - bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c0ccd7130f14d8f36d15e2ee04cadc1d41ad07bb
+source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 92%
+source-wordcount: '2795'
+ht-degree: 90%
 
 ---
 
@@ -130,7 +130,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Weiterleitung von Erlebnisereignissen | Admins können die auf Adobe Experience Platform (AEP) basierenden Ereignisdefinitionen konfigurieren. Mit diesen Konfigurationen können Marketing-Fachleute Konto-Journeys erstellen, die auf Erlebnisereignissen aus AEP reagieren. <a href="../admin/configure-aep-events.md">Weitere Informationen</a> |
-| Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen Knoten vom Typ „Pfad aufteilen“ in einer Konto-Journey, um Konto-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Konten zu identifizieren, die zusätzliche Interaktionen gewährleisten. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
+| Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen aufgeteilten Pfadknoten, um Account-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Konten zu identifizieren, die zusätzliche Interaktionen rechtfertigen. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
 | Funktion | Intelligentes Dashboard | Sehen Sie sich den Fortschritt von Käufergruppen durch ihre Konto-Journey an, einschließlich KI-generierter Erkenntnisse, um eine intelligentere Analyse und eine genauere Priorisierung von Konten zu erhalten. <a href="../dashboards/intelligent-dashboard.md">Weitere Informationen</a> |
 | Funktion | Details zu Käufergruppen und Konten | Sehen Sie sich Erkenntnisse auf der Käufergruppen- und Kontoebene an, um zu Beginn der Interaktion mit einer Kundin oder einem Kunden mehr Kontext- und historische Daten zu erhalten.<p>Zu den Details der Käufergruppe gehören alle erkannten First-Party-Intent-Daten. <a href="../buying-groups/buying-group-details.md">Weitere Informationen</a><p>Die Konten mit den Kontodetails zeigen den beobachteten Anstieg der Interaktionsabsicht, sodass Sie Ihren Vertrieb auf Konten hinweisen können, die für eine kundenspezifische, verkaufsorientierte Interaktion bereit sind.  <a href="../accounts/account-details.md">Weitere Informationen</a> |
 | Funktion | Journey-Überblick | Wenn Sie auf Konto-Journeys zugreifen, bietet die Registerkarte „Überblick“ eine umfassende Übersicht über Ihre aktiven Konto-Journeys mit detaillierten Fortschrittsanzeigen zu Konten, in denen Abschlüsse und Interaktionsaktivitäten anhand von Kreis- und Balkendiagrammen kategorisiert und quantifiziert werden.  <a href="../dashboards/journeys-dashboard.md">Weitere Informationen</a> |

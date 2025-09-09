@@ -1,12 +1,12 @@
 ---
 title: Details der Einkaufsgruppe
-description: Anzeigen von Details zu Einkaufsgruppen mit KI-Einblicken, Verwalten von Mitgliedern und Verfolgen der Interaktionswerte in Journey Optimizer B2B edition.
+description: Zeigen Sie die Details der Einkaufsgruppe mit KI-Einblicken an, verwalten Sie Mitgliederrollen, verfolgen Sie Interaktionsbewertungen und analysieren Sie Intent-Daten in Journey Optimizer B2B edition.
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '785'
 ht-degree: 4%
 
 ---

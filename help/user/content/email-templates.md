@@ -1,12 +1,12 @@
 ---
 title: E-Mail-Vorlagen
-description: Erfahren Sie, wie Sie E-Mail-Vorlagen verwalten und erstellen, die zur einfachen und effizienten Erstellung von Account-Journey-E-Mails verwendet werden.
+description: Wiederverwendbare E-Mail-Vorlagen von Grund auf neu erstellen, HTML importieren oder vorhandene Designs verwalten - Vorlagen für Account-Journey in Journey Optimizer B2B edition verwalten
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: f8d70f2e1cff6055ff353bad0c5a0f625d426db8
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---

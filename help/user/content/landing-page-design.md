@@ -1,14 +1,14 @@
 ---
 title: Landingpage-Design
-description: Erfahren Sie, wie Sie Inhalte für Ihre Landingpages entwerfen und erstellen, die Account-Journey und -Kampagnen unterstützen.
+description: Entwerfen von Landingpages mit visuellen Tools - Hinzufügen von Inhaltskomponenten, Formularen, benutzerdefiniertem CSS, Personalisierung und Gerätevorschau für Account-Journey in Journey Optimizer B2B edition.
 feature: Landing Pages, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 4%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 

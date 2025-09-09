@@ -1,12 +1,12 @@
 ---
 title: Warteknoten
-description: Erfahren Sie mehr über den Knotentyp Warten , den Sie für die Orchestrierung Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
+description: Fügen Sie Warteknoten hinzu, um den Journey-Fortschritt mit relativer Dauer oder bestimmten Daten für das strategische Timing in Journey Optimizer B2B edition anzuhalten.
 feature: Account Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Es gibt zwei Möglichkeiten, die Wartezeit zu definieren:
 * Eine relative Dauer (Anzahl der Minuten, Stunden, Tage, Wochen oder Monate)
 * Ein bestimmtes Datum, an dem Sie zum nächsten Knoten auf der Journey wechseln möchten
 
-_So definieren Sie einen Warteknoten für Ihre Konto-Journey:_
+_So definieren Sie einen Warteknoten für Ihre Konto-Journey :_
 
 1. Navigieren Sie zur Journey-Karte.
 

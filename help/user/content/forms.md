@@ -1,13 +1,13 @@
 ---
 title: Formulare
-description: Erfahren Sie, wie Sie wiederverwendbare Formulare erstellen, die Sie in Ihre Landingpages aufnehmen können.
+description: Wiederverwendbare Formulare für die Erfassung von Geschäftsdaten erstellen und verwalten - Felder entwerfen, Dankeseiten festlegen, veröffentlichen und die Nutzung in Journey Optimizer B2B edition verfolgen.
 feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 9b3b6db22e27ceff88be9808a1aaf89b3eee7f17
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2357'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Der Formularstatus bestimmt, ob in einer Landingpage- oder Landingpage-Vorlage v
 | -------------------- | ----------- |
 | Entwurf | Wenn Sie ein Formular erstellen, befindet es sich im Entwurfsstatus . Dieser Status bleibt erhalten, während Sie die Felder definieren oder bearbeiten, bis Sie sie zur Verwendung in einer Landingpage oder Landingpage-Vorlage veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Alle Details bearbeiten<li>Bearbeiten im visuellen Design-Bereich<li>Veröffentlichen<li>Duplizieren<li>Löschen |
 | Veröffentlicht | Wenn Sie ein Formular veröffentlichen, wird es zur Verwendung in einer Landingpage oder Landingpage-Vorlage verfügbar. Veröffentlichte Formularinhalte können im visuellen Design-Bereich nicht geändert werden. Verfügbare Aktionen:<br/><ul><li>Namen, Beschreibung oder Dankeseite bearbeiten<li>Hinzufügen zu einer Landingpage oder Landingpage-Vorlage<li>Versionsentwurf erstellen<li>Duplizieren<li>Löschen (wenn nicht in Gebrauch)<li>Einbettungs-Code |
-| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einem veröffentlichten Formular erstellen, bleibt die veröffentlichte Version für die Verwendung in einer Landingpage- oder Landingpage-Vorlage verfügbar und der Entwurfsinhalt kann im visuellen Design-Bereich geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuell veröffentlichte Version, und der Inhalt wird auf den Landingpages oder Landingpage-Vorlagen aktualisiert, auf denen sie verwendet wird. Verfügbare Aktionen:<br/><ul><li>Namen, Beschreibung oder Dankeseiten bearbeiten<li>Hinzufügen zu einer Landingpage oder Landingpage-Vorlage<li>Bearbeiten der Entwurfsversion im visuellen Entwurfsbereich<li>Entwurfsversion veröffentlichen<li>Duplizieren<li>Löschen (wenn nicht in Gebrauch)<li>Einbettungs-Code |
+| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einem veröffentlichten Formular erstellen, bleibt die veröffentlichte Version zur Verwendung auf einer Landingpage oder in einer Vorlage verfügbar. Der Entwurfsinhalt kann im visuellen Design-Bereich geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuell veröffentlichte Version, und der Inhalt wird auf den Landingpages oder Landingpage-Vorlagen aktualisiert, auf denen sie verwendet wird. Verfügbare Aktionen:<br/><ul><li>Namen, Beschreibung oder Dankeseiten bearbeiten<li>Hinzufügen zu einer Landingpage oder Landingpage-Vorlage<li>Bearbeiten der Entwurfsversion im visuellen Entwurfsbereich<li>Entwurfsversion veröffentlichen<li>Duplizieren<li>Löschen (wenn nicht in Gebrauch)<li>Einbettungs-Code |
 
 ![Formularstatus-Lebenszyklus](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 

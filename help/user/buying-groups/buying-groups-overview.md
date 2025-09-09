@@ -1,12 +1,12 @@
 ---
 title: Käufergruppen
-description: Verstärken Sie das Account-Based-Marketing mit Einkaufsgruppen, um wichtige Entscheidungsträger zu identifizieren, Interaktionsbewertungen zu verfolgen und Zielkonten in Journey Optimizer B2B edition zu finden.
+description: Optimieren Sie das Account-basierte Marketing mit Einkaufsgruppen - identifizieren Sie Entscheidungsträger, verfolgen Sie Interaktionswerte und automatisieren Sie das Targeting in Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1187'
 ht-degree: 73%
 
 ---
@@ -24,7 +24,7 @@ Innerhalb des Kontos könnte es eine Teilmenge von Personen geben, die die _Käu
 
 ## Wichtige Komponenten
 
-Sie können die Marketing-Effektivität steigern, indem Sie in Journey Optimizer B2B edition Einkaufsgruppen einrichten, die Mitglieder für Ihre Target-Kontolisten für die Lösungen identifizieren, für die Ihre Vertriebsteams verantwortlich sind. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Käufergruppen beginnen, stellen Sie sicher, dass Sie die wichtigen Komponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
+Sie können die Marketing-Effektivität steigern, indem Sie Kaufgruppen einrichten, die Mitglieder für Ihre Zielkontenlisten für die Lösungen identifizieren, für die Ihre Vertriebsteams verantwortlich sind. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Käufergruppen beginnen, stellen Sie sicher, dass Sie die wichtigen Komponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
 
 | Komponente | Zweck |
 | --------- | ------- |
@@ -112,4 +112,4 @@ Unter [Interaktionswerte](./engagement-scores.md) finden Sie detaillierte Inform
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

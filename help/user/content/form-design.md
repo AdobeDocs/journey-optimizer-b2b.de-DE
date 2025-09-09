@@ -1,13 +1,13 @@
 ---
-title: Formularentwurf
-description: Erfahren Sie, wie Sie wiederverwendbare Formulare für die Erfassung von Lead-Informationen entwerfen.
+title: Formular-Design
+description: Entwerfen Sie Formulare mit Feldtypen, Validierung, Stilen und XDM-Schemaattributen für die Geschäftsdatenerfassung in Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: fd26ecdb0457141f7beb7fd46d01e609da011a38
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2062'
 ht-degree: 1%
 
 ---

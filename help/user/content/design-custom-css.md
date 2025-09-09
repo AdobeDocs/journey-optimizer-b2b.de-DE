@@ -1,12 +1,12 @@
 ---
 title: Hinzufügen von benutzerdefiniertem CSS für Inhalte
-description: Erfahren Sie, wie Sie Ihren E-Mail- und Landingpage-Inhalten benutzerdefiniertes CSS hinzufügen.
+description: Hinzufügen von benutzerdefiniertem CSS zu E-Mails und Landingpages für erweiterte Formatierung und präzise Designkontrolle über Standardkomponenten in Journey Optimizer B2B edition hinaus.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 exl-id: 5a961190-8a65-41b0-90d0-5dd44e5cdf8a
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '562'
 ht-degree: 9%
 
 ---
@@ -192,7 +192,7 @@ Wenn Sie benutzerdefiniertes CSS mit Inhalten verwenden möchten, die in den Des
 
 * Wenn Sie externen HTML-Inhalt einschließlich CSS importieren, <!-- unless converting that content, -->wird dieser im [!UICONTROL Kompatibilitätsmodus] ausgefüllt und der Abschnitt [!UICONTROL CSS-]&quot; ist nicht verfügbar.
 
-* Wenn Sie Inhalte importieren, die ursprünglich im Design-Bereich der E-Mail oder Landingpage erstellt wurden, einschließlich durch die Option [!UICONTROL Benutzerdefiniertes CSS hinzufügen] angewendetem CSS, ist das angewendete CSS von derselben Option aus sichtbar und bearbeitbar.
+* Wenn Sie Inhalte importieren, die ursprünglich im Design-Bereich der E-Mail oder Landingpage mit der Option [!UICONTROL Benutzerdefiniertes CSS hinzufügen] erstellt wurden, ist die angewendete CSS-Datei von derselben Option aus sichtbar und bearbeitbar.
 
 ## Fehlerbehebung
 

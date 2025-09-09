@@ -1,12 +1,12 @@
 ---
 title: Überwachen eines Ereignisses
-description: Erfahren Sie mehr über das Überwachen eines Ereignisknotentyps, den Sie zum Orchestrieren Ihrer Account-Journey in Journey Optimizer B2B edition verwenden können.
+description: Konfigurieren von Ereignisknoten für Konto- und Personen-Trigger - Überwachen Sie in Journey Optimizer B2B edition die Kaufgruppenänderungen, E-Mail-Klicks, Formularausfüllungen und Experience Platform-Ereignisse.
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1374'
 ht-degree: 16%
 
 ---
@@ -86,7 +86,7 @@ Lauschen Sie auf ein Ereignis, das auf Personen basiert, wenn Sie das Konto auf 
 
 ### Marketo Engage-Ereignis überwachen
 
-Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz erstellt haben, können Sie ein Ereignis auf der Grundlage eines Besuchs/Nichtbesuchs von Marketo Engage-Web-Seiten sowie von Marketo Engage-Formularen, die nicht ausgefüllt wurden/waren, als Trigger verwenden.
+Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können Sie ein Ereignis auf der Grundlage eines Triggers/Kein Besuch dieser Web-Seiten sowie von Marketo Engage-Formularen, die nicht ausgefüllt wurden/waren, erstellen.
 
 1. Wählen Sie in **[!UICONTROL Journey-Map einen]** Auf ein Ereignis überwachen“ aus.
 
@@ -119,7 +119,7 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz erstellt haben, 
 
 ### Überwachen eines Erlebnisereignisses
 
-Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren. Die Verwendung von AEP-Erlebnisereignissen in Account Journey erfolgt in zwei Schritten:
+Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren. Die Verwendung von AEP-Erlebnisereignissen in Account Journey erfolgt in zwei Schritten:
 
 1. [Erstellen und Veröffentlichen einer AEP-](../admin/configure-aep-events.md).
 
@@ -127,7 +127,7 @@ Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen kon
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](../admin/configure-aep-events.md#overview-video)
 
-_So fügen Sie ein Erlebnisereignis in Ihren Journey ein:_
+_So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
 1. Wählen Sie in **[!UICONTROL Journey-Map einen]** Auf ein Ereignis überwachen“ aus.
 
@@ -183,4 +183,4 @@ Legen Sie bei Bedarf fest, wie lange die Journey auf das Ereignis warten soll. D
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443243/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)

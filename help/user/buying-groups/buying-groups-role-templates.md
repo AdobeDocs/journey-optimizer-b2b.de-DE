@@ -1,12 +1,12 @@
 ---
 title: Einkaufsgruppen-Rollenvorlagen
-description: Erstellen Sie Rollenvorlagen für Käufergruppen mit automatischen Zuweisungsbedingungen, um Entscheidungsträger und Stakeholder in Journey Optimizer B2B edition zu identifizieren.
+description: Erstellen Sie Rollenvorlagen mit bedingter automatischer Zuweisung, um Entscheidungsträger und Stakeholder für Einkaufsgruppen in Journey Optimizer B2B edition zu identifizieren.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 6f141e08066097c3b5e991e27b6177148fad1fff
+source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1125'
 ht-degree: 6%
 
 ---
@@ -162,4 +162,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

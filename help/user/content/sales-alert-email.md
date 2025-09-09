@@ -1,12 +1,12 @@
 ---
 title: Benachrichtigungs-E-Mail für Verkauf
-description: Erfahren Sie, wie Sie eine automatisierte E-Mail zu Verkaufswarnungen in Ihre Account-Journey aufnehmen.
+description: Konfigurieren Sie Benachrichtigungs-E-Mails für den Verkauf in den Account-Journeys, um die Vertriebsteams zu benachrichtigen. Dazu gehören Kaufgruppenübersichten, KI-Einblicke und Mitgliederdetails in Journey Optimizer B2B edition.
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 01bffbce-6c73-483a-8731-de4e5569cf61
-source-git-commit: 4a54548ad061fc778fae3bc4b8499f3716850e4a
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 6%
 
 ---
@@ -65,4 +65,4 @@ Sie können den E-Mail-Versand von Warnhinweisen für den Verkauf auf einer Kont
 
    ![Dialogfeld „Neue E-Mail erstellen“](assets/sales-alert-email-journey-node.png){width="600" zoomable="yes"}
 
-   Nach der Veröffentlichung der Account-Journey wird die Verkaufswarnung gemäß diesen Parametern zugestellt.
+   Wenn die Konto-Journey live ist, wird der Verkaufsalarm entsprechend diesen Parametern gesendet.
