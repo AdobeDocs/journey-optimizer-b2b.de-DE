@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Marken für die Inhaltserstellung und -konsistenz
-description: Erfahren Sie mehr über Markenrichtlinien, die Sie in Journey Optimizer B2B edition definieren können, um Ihre Inhalte entsprechend Ihren Markenstilen und Ihrer Stimme zu generieren und zu optimieren.
+description: Definieren Sie Markenrichtlinien für die konsistente Inhaltserstellung - Pflegen Sie visuelle Identität, Messaging-Ausrichtung und authentische Stimme in Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 9%
+source-wordcount: '837'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_overview"
 >title="Erste Schritte mit Marken"
->abstract="Erstellen Sie Ihre eigenen Marken und passen Sie diese an, um Ihre einzigartige visuelle und verbale Identität zu definieren. Gleichzeitig können Sie das Generieren von Inhalten vereinfachen, die dem Stil und der Sprache Ihrer Marke entsprechen."
+>abstract="Erstellen und passen Sie Ihre Marken an, um Ihre einzigartige visuelle und verbale Identität zu definieren und es gleichzeitig einfacher zu machen, Inhalte zu generieren, die Ihrem Markenstil und Ihrer Stimme entsprechen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_ai_menu"
@@ -73,7 +73,7 @@ Eine definierte Marke stellt die _Quelle der Wahrheit_ bereit, die Ihr Kreativ-T
 
 ## Markenbezogene Berechtigungen
 
-Adobe Experience Cloud Produktadministratoren können den Zugriff auf die Funktionen für Markenverwaltung und Markenausrichtung ermöglichen, indem sie über die **[!UICONTROL Permissions]**-App in **[!UICONTROL Ressourcenberechtigungen für das]** Manage Brand Kit oder _Enable AI Assistant_ vergeben.
+Produktadministratoren können den Zugriff auf die Funktionen für Markenverwaltung und Markenausrichtung ermöglichen, indem sie über die Benutzeroberfläche **[!UICONTROL Berechtigungen]** oder **[!UICONTROL KI-Assistenten aktivieren]** Ressourcenberechtigungen _Berechtigungen_ in Adobe Experience Cloud zuweisen.
 
 1. Gehen Sie in der Berechtigungs-App zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie die gewünschte [Rolle](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/roles){target="_blank"} aus.
 

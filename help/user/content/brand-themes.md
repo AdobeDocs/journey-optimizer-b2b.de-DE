@@ -1,6 +1,6 @@
 ---
 title: Verwenden von Markendesigns für E-Mail-Inhalte
-description: Erfahren Sie, wie Sie die Erstellung von E-Mail-Inhalten mit wiederverwendbaren Designs optimieren können, um die Konsistenz und Effizienz des Designs sicherzustellen.
+description: Erstellen benutzerdefinierter Markendesigns für E-Mails und Vorlagen - Definieren von Farben, Schriftarten, Abständen und Schaltflächen für ein konsistentes Design in Journey Optimizer B2B edition.
 feature: Email Authoring, Brand Identity, Content Design Tools
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: d27a72089e28d0c69ed267e4d9fba3ef44a73542
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 3%
+source-wordcount: '3087'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
 >title="Anwenden eines Marken-Designs auf Ihre E-Mail oder E-Mail-Vorlage"
->abstract="Wählen Sie ein Design für Ihre E-Mail oder E-Mail-Vorlage aus, um einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt."
+>abstract="Wählen Sie ein Design für Ihre E-Mail oder E-Mail-Vorlage, um einen Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt."
 
 Mit Designs können nicht-technische Designer wiederverwendbare Richtlinien für das Design von E-Mail-Inhalten erstellen, die an eine bestimmte Marke und ein bestimmtes Styling angepasst sind. Designs ermöglichen es Marketing-Experten, visuell ansprechende, markenkonsistente E-Mails schneller und mit weniger Aufwand zu nutzen und erweiterte Anpassungsoptionen für individuelle Design-Anforderungen bereitzustellen.
 
@@ -132,7 +132,7 @@ Wählen Sie die Registerkarte **[!UICONTROL Farben]** und verwenden Sie die Eins
 
   | Typ | Einstellungen | Beschreibung |
   | ---- | -------- | ----------- |
-  | [!UICONTROL Allgemein] | ![Allgemeine Farbeinstellungen für eine Variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Mit diesen Einstellungen können Sie Farben für den Textkörper, Strukturen, Container, Hintergründe, Links, Raster und Rahmen festlegen. |
+  | [!UICONTROL Allgemein] | ![Allgemeine Farbeinstellungen für eine Variante](./assets/email-theme-colors-settings-variant-general.png){width="300"} | Mit diesen Einstellungen werden die Farben für Text, Strukturen, Container, Hintergründe, Links, Raster und Rahmen festgelegt. |
   | [!UICONTROL Überschriften] | ![Überschriftenfarbeinstellungen für eine Variante](./assets/email-theme-colors-settings-variant-headings.png){width="300"} | Diese Einstellungen gelten für `Heading` Elemente, bei denen Sie Text- und Rahmenfarben für jede der sechs Überschriftenebenen festlegen können. Erweitern Sie jede Überschriftenebene, für die Sie die Farbe für die Variante festlegen möchten. |
   | [!UICONTROL Absätze] | ![Absatzfarbeinstellungen für eine Variante](./assets/email-theme-colors-settings-variant-paragraphs.png){width="300"} | Diese Einstellungen gelten für `Paragraph`, bei denen Sie Text- und Rahmenfarben für jeden der drei Absatztypen festlegen können. Erweitern Sie jeden Absatztyp, für den Sie die Farbe für die Variante festlegen möchten. |
   | [!UICONTROL Schaltflächen] | ![Farbeinstellungen der Schaltfläche für eine Variante](./assets/email-theme-colors-settings-variant-buttons.png){width="300"} | Die Einstellungen gelten für Schaltflächenelemente, in denen Sie die Füllfarbe, Rahmenfarbe und Textfarbe für jede der drei Schaltflächenvorgaben festlegen können: _Primär_, _Sekundär_ und _Tertiär_. |

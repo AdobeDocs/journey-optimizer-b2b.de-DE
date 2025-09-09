@@ -1,6 +1,6 @@
 ---
-title: Markenausrichtungsbewertung
-description: Erfahren Sie, wie Sie markeninterne Inhalte mithilfe einer Bewertung für die Markenausrichtung erstellen, validieren und verwalten.
+title: Bewertung der Markenausrichtung
+description: Bewerten von E-Mail-Inhalten mit Bewertung der Markenausrichtung - Validieren Sie Farben, Schriftarten, Logos und den Schreibstil anhand der Markenrichtlinien in Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 hide: true
@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: c95323936f48a595a74c469c201b19daf1ee95e5
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 25%
+source-wordcount: '467'
+ht-degree: 18%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Markenausrichtungswert"
->abstract="Der Markenausrichtungswert misst, inwieweit Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um die Konsistenz bezüglich Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
+>abstract="Die Bewertung Ihrer Markenausrichtung misst, wie gut Ihr Inhalt den Markenrichtlinien entspricht, sodass Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil gewährleistet ist."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors"

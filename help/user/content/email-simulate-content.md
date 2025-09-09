@@ -1,14 +1,14 @@
 ---
 title: Anzeigen einer Vorschau und Testen der E-Mail-Inhalte
-description: Erfahren Sie, wie Sie Ihren E-Mail-Inhalt in der Vorschau anzeigen und testen können, um sicherzustellen, dass er sowohl in den Inhalts- als auch in den Personalisierungseinstellungen frei von Fehlern ist.
+description: Zeigen Sie E-Mails mit Testprofilen in der Vorschau an, überprüfen Sie das Desktop- und Mobile-Rendering, senden Sie Testsendungen an Empfängerinnen und Empfänger und validieren Sie die Personalisierung in Journey Optimizer B2B edition.
 feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-source-git-commit: 9abb6443a0761070d9864a4bd2243baa9568cdc9
+source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 7%
+source-wordcount: '575'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_preview_simulate"
 >title="Überprüfen des Inhalt-Renderings"
->abstract="Wenn Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
+>abstract="Wenn Ihr Inhalt definiert ist, können Sie eine Vorschau davon anzeigen und überprüfen, ob das Rendering für den verwendeten Kanal korrekt ist."
 
 Verwenden Sie die Funktion _Inhalt simulieren_, um eine Vorschau des E-Mail-Inhalts anzuzeigen und Testsendungen an bestimmte Empfängerinnen und Empfänger zu senden. Die erforderlichen E-Mail-Felder müssen definiert werden, einschließlich _[!UICONTROL Absendername]_, _[!UICONTROL Absenderadresse]_, _[!UICONTROL Antwortadresse]_ und _[!UICONTROL Betreffzeile]_, um auf die Vorschau- und Testfunktionen zuzugreifen.
 
