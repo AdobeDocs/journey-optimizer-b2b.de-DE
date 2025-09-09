@@ -49,7 +49,7 @@ Wenn Sie das Einkaufsgruppenstufenmodell erstellen, befindet es sich automatisch
 
    ![Fügen Sie den Namen und die Beschreibung für das Modell hinzu](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   Wenn Sie in _[!UICONTROL Dialogfeld auf]__[!UICONTROL Abbrechen“ klicken, kehren Sie in einem]_ leeren _zur Registerkarte_ Phasen“ zurück.
+   Wenn Sie in _[!UICONTROL Dialogfeld auf]_&#x200B;_[!UICONTROL Abbrechen“ klicken, kehren Sie in einem]_ leeren _zur Registerkarte_ Phasen“ zurück.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
