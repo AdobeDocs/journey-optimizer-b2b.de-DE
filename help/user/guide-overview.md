@@ -5,7 +5,7 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 67%
+ht-degree: 89%
 
 ---
 
@@ -17,17 +17,17 @@ Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesse
 
 >[!BEGINTABS]
 
->[!TAB Engagement-Punktzahl der Person]
+>[!TAB Personen-Interaktionsbewertung]
 
-B2B-Marketing-Experten können jetzt Interaktionswerte auf Personenebene als Filter in ihren Aufspaltungspfaden für eine Journey oder in einer Rollenvorlage verwenden, um Einkaufsgruppen zu erstellen. Diese Punktzahl und Filterung ermöglicht die präzise Zielgruppenbestimmung der Mitglieder von Einkaufsgruppen, um die laufende Interaktion zu personalisieren.
+B2B-Marketing-Fachleute können jetzt Interaktionsbewertungen auf Personenebene als Filter in ihren Aufspaltungspfaden für eine Journey oder in einer Rollenvorlage verwenden, um Käufergruppen zu erstellen. Diese Bewertung und Filterung ermöglicht die präzise Zielgruppenbestimmung der Mitglieder von Käufergruppen, um die laufende Interaktion zu personalisieren.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Erfahren Sie mehr über die Interaktionswerte und die Filterung von Personen"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Erfahren Sie mehr über Interaktionsbewertungen und das Filtern von Personen"}
 
->[!TAB Benutzerdefinierte Einkaufsgruppenrollen]
+>[!TAB Benutzerdefinierte Käufergruppenrollen]
 
-B2B-Marketing-Strategen können jetzt die Präzision der Einkaufsgruppe durch benutzerdefinierte Einkaufsgruppenrollen erweitern. Erstellen Sie bis zu 20 benutzerdefinierte Rollen über die standardmäßigen sechs hinaus und verwenden Sie sie in allen Einkaufsgruppen erneut. Passen Sie innerhalb der Account-Journeys Ihre Messaging-Funktion an Ihre individuellen Bedürfnisse an und verbessern Sie die Relevanz und Interaktion zwischen den Einkaufsgruppen&#x200B;
+Strateginnen und Strategen im B2B-Marketing können jetzt die Präzision der Käufergruppen durch benutzerdefinierte Käufergruppenrollen erweitern. Erstellen Sie bis zu 20 benutzerdefinierte Rollen über die standardmäßigen sechs hinaus und verwenden Sie sie in allen Käufergruppen erneut. Passen Sie innerhalb der Konto-Journeys das Messaging an Ihre individuellen Bedürfnisse an und verbessern Sie die Relevanz und Interaktion über alle Käufergruppen hinweg.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/default-custom-roles.md" tooltip="Erfahren Sie mehr über benutzerdefinierte Einkaufsgruppenrollen"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Erfahren Sie mehr über benutzerdefinierte Käufergruppenrollen"}
 
 >[!TAB Benutzerdefinierte Gewichtung der Interaktionswerte]
 
@@ -113,7 +113,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Konto-Journeys"><br/>
-      <strong>Account-Journey</strong><br/><a href="./journeys/journey-overview.md">Journey-Übersicht</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Account-Journey erstellen</a><br/><a href="./journeys/journey-nodes.md">Journey-Knoten</a>
+      <strong>Konto-Journeys</strong><br/><a href="./journeys/journey-overview.md">Übersicht über Journeys</a><br/><a href="./journeys/journey-overview.md#create-an-account-journey">Erstellen einer Konto-Journey</a><br/><a href="./journeys/journey-nodes.md">Journey-Knoten</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -137,7 +137,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>

@@ -1,5 +1,5 @@
 ---
-title: Konten exportieren
+title: Exportieren von Konten
 description: Exportieren Sie gefilterte Kontolisten in die CSV-Datei für Drittanbieterplattformen mit Kaufgruppen- und Interaktionswertfiltern in Journey Optimizer B2B edition.
 feature: Audiences
 role: User
@@ -7,13 +7,13 @@ exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
-# Konten exportieren
+# Exportieren von Konten
 
-Verwenden Sie die Funktion _Konten exportieren_ um alle Konten oder eine Gruppe von Konten basierend auf den von Ihnen definierten Filtern zu exportieren. Durch den Exportvorgang wird eine CSV-Datei generiert und die URL für die gespeicherte Datei wird innerhalb einer Pulse-Benachrichtigung gesendet. Mit dieser Funktion können Sie bei Bedarf Konten in Plattformen von Drittanbietern verschieben.
+Verwenden Sie die Funktion _Konten exportieren_, um alle Konten oder eine Reihe von Konten basierend auf von Ihnen definierten Filtern zu exportieren. Durch den Exportvorgang wird eine CSV-Datei generiert und die URL für die gespeicherte Datei wird innerhalb einer Pulse-Benachrichtigung gesendet. Mit dieser Funktion können Sie bei Bedarf Konten in Plattformen von Drittanbietern verschieben.
 
 1. Navigieren Sie in Journey Optimizer B2B Edition in der linken Navigation zu **[!UICONTROL Konten]** > **[!UICONTROL Käufergruppen]**.
 

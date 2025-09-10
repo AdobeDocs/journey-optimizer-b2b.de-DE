@@ -7,7 +7,7 @@ exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 73%
+ht-degree: 95%
 
 ---
 
@@ -41,11 +41,11 @@ Es gibt drei Möglichkeiten, wie Mitglieder einer Käufergruppe zugewiesen oder 
 2. **_Journey-Aktion:_** Journey-[Aktionsknoten für die Käufergruppenmitgliedschaft](../journeys/action-nodes.md#add-a-people-based-action) (_Der Käufergruppe zuweisen_ oder _Aus der Käufergruppe entfernen_)
 3. **_Systemaufträge:_** Käufergruppen-[Erstellung](../buying-groups/buying-groups-create.md#buying-group-creation-jobs) und Wartungsaufträge.
 
-Um zu vermeiden, dass eine Mitgliedschaftszuweisung in einer Einkaufsgruppe fälschlicherweise überschrieben wird, ist diese Liste in der Rangfolge aufgeführt, die im System befolgt wird, um eine genaue Mitgliedschaftszuweisung sicherzustellen. Wenn Benutzende aus dem Vertrieb beispielsweise der Käfergruppe manuell ein Mitglied hinzufügen, möchten sie nicht, dass dies durch einen Wartungsauftrag geändert wird. Durch Verwendung der Prioritätsrangfolge werden folgende Szenarien erzwungen:
+Um ein fehlerhaftes Überschreiben einer Mitgliederzuweisung in einer Käufergruppe zu vermeiden, ist diese Liste in derselben Rangfolge gehalten, der auch das System folgt, sodass die korrekte Mitgliederzuweisung gewährleistet bleibt. Wenn Benutzende aus dem Vertrieb beispielsweise der Käfergruppe manuell ein Mitglied hinzufügen, möchten sie nicht, dass dies durch einen Wartungsauftrag geändert wird. Durch Verwendung der Prioritätsrangfolge werden folgende Szenarien erzwungen:
 
-* Wenn ein(e) Benutzende(r) ein Mitglied manuell einer Einkaufsgruppe zuweist und ihm ein Wartungsauftrag für die Einkaufsgruppe folgt, durch den dasselbe Mitglied aus der Einkaufsgruppe entfernt wird, **der Wartungsauftrag dieses** nicht entfernen und kann die manuelle Zuweisung nicht überschreiben.
-* Wenn ein(e) Benutzende(r) ein Mitglied manuell einer Einkaufsgruppe zuweist und auf diesen ein ausgelöster Journey-Knoten folgt, der dasselbe Mitglied aus der Einkaufsgruppe entfernt, wird dieses Mitglied durch die Knotenaktion **nicht entfernt** und die manuelle Zuweisung kann nicht überschrieben werden.
-* Wenn ein ausgelöster Journey-Aktionsknoten ein Mitglied zu einer Einkaufsgruppe hinzufügt und auf ihn ein Wartungsauftrag für eine Einkaufsgruppe folgt, der dasselbe Mitglied aus der Einkaufsgruppe entfernt, entfernt der Wartungsauftrag **dieses** nicht und kann die Journey-Aktionszuweisung nicht überschreiben.
+* Wenn Benutzende ein Mitglied manuell einer Käufergruppe zuweisen und anschließend ein Wartungsauftrag für die Käufergruppe ausgeführt wird, bei dem dasselbe Mitglied aus der Käufergruppe entfernt wird, wird dieses Mitglied durch den Wartungsauftrag **nicht entfernt** und die manuelle Zuweisung wird nicht überschreiben.
+* Wenn Benutzende ein Mitglied manuell einer Käufergruppe zuweisen und anschließend ein Knoten einer ausgelösten Journey auftritt, der dasselbe Mitglied aus der Käufergruppe entfernt, wird dieses Mitglied durch die Knotenaktion **nicht entfernt**, und die manuelle Zuweisung kann nicht überschrieben werden.
+* Wenn ein Aktionsknoten einer ausgelösten Journey der Käufergruppe ein Mitglied hinzufügt und darauf ein Käufergruppen-Wartungsauftrag folgt, der dasselbe Mitglied aus der Käufergruppe entfernt, wird dieses Mitglied durch den Wartungsauftrag **nicht entfernt** und die Journey-Aktionszuweisung kann nicht überschreiben werden.
 
 ## Käufergruppen-Workflow
 
@@ -96,7 +96,7 @@ Um auf die Details einer Käufergruppe zuzugreifen, klicken Sie auf der Register
 
 ### Vollständigkeitswert der Käufergruppe
 
-Mit dem Vollständigkeitswert wird bestimmt, ob die Einkaufsgruppe über die richtigen Mitglieder verfügt, die den Rollen zugewiesen sind, und für die Verwendung auf einer Account-Journey bereit ist. Dieser Wert ist ein Prozentsatz, der auf der Anzahl der Rollen innerhalb der Käufergruppe und der Anzahl der Rollen basiert, die mit mindestens einem Lead zugewiesen werden.
+Mit dem Vollständigkeitswert wird ermittelt, ob die Käufergruppe über die richtigen Mitglieder verfügt, die den Rollen zugewiesen sind, und ob sie in einer Konto-Journey verwendet werden kann. Dieser Wert ist ein Prozentsatz, der auf der Anzahl der Rollen innerhalb der Käufergruppe und der Anzahl der Rollen basiert, die mit mindestens einem Lead zugewiesen werden.
 
 Wenn eine Käufergruppe beispielsweise vier Rollen umfasst und drei der vier Rollen mindestens einem Lead zugewiesen sind, ist die Käufergruppe zu 75 % vollständig.
 
@@ -104,12 +104,12 @@ Jedes Mal, wenn eine Käufergruppe erstellt oder aktualisiert wird, wird der Vol
 
 ### Interaktionsbewertung der Käufergruppe {#engagement-score}
 
-Der Interaktionswert basiert auf den Aktivitäten der kaufenden Gruppenmitglieder, den gewichteten Aktionen und den gewichteten Rollen. Die resultierende Bewertung wird innerhalb des Mandanten/der Instanz normalisiert, um einen konsistenten Vergleich zu ermöglichen und umsetzbare Einblicke zu ermöglichen.
+Die Interaktionsbewertung basiert auf den Aktivitäten der Käufergruppenmitglieder, den gewichteten Aktionen und den gewichteten Rollen. Die resultierende Bewertung wird innerhalb des Mandanten/der Instanz normalisiert, um einen konsistenten Vergleich und umsetzbare Erkenntnisse zu ermöglichen.
 
-Die Berechnung des anfänglichen Interaktionswerts beginnt, sobald Sie die Einkaufsgruppe erstellen, und wird täglich neu berechnet.
+Die Berechnung der anfänglichen Interaktionsbewertung beginnt, sobald Sie die Käufergruppe erstellen, und sie wird täglich neu berechnet.
 
-Unter [Interaktionswerte](./engagement-scores.md) finden Sie detaillierte Informationen zu Aktivitäten und Berechnungen des Interaktionswerts.
+Unter [Interaktionsbewertungen](./engagement-scores.md) finden Sie detaillierte Informationen zu Aktivitäten und Berechnungen der Interaktionsbewertung.
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

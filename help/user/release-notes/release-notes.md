@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
 workflow-type: tm+mt
 source-wordcount: '2795'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -27,18 +27,18 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 ## Versionshinweise für 2025.8
 
-**Bereitstellungsdatum**: Mittwoch, 26. August 2025
+**Bereitstellungsdatum**: 26. August 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Bewertungsfilter für Personeninteraktionen für Rollenvorlagen und Journey | Sie können jetzt _Personen-Interaktionswert_ als Filter in Rollenvorlagen verwenden, die zum Erstellen von Einkaufsgruppen und in Split-Path-Journey-Knoten verwendet werden. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| Funktion | Konfiguration benutzerdefinierter Rollen für Einkaufsgruppen | Sie haben jetzt die Flexibilität, benutzerdefinierte Rollen für Einkaufsgruppen zu konfigurieren, sodass Sie die Rollen definieren können, die für Ihre Anwendungsfälle spezifisch sind. [Weitere Informationen](../buying-groups/default-custom-roles.md) |
-| Funktion | Konfiguration der Gewichtung der Interaktionswerte | Sie können jetzt den Aktivitäten, die die Bewertung der Einkaufsgruppeninteraktion beeinflussen, Gewichtungen zuweisen. Diese Funktion umfasst die Definition eigener benutzerdefinierter Bewertungsmodelle und die Änderung des aktiven Modells, das die Berechnung des Interaktionswerts beeinflusst. [Weitere Informationen](../admin/engagement-score-weighting.md) |
-| Verbesserung | Bedingte Inhalte für Fragmente | Sie können jetzt die bedingten Inhaltstools für das visuelle Fragmentdesign verwenden. [Weitere Informationen](../content/conditional-content.md) |
-| Verbesserung | Aktualisierungen des Interaktionswerts | Die Score-Logik für die Kaufgruppeninteraktion wird aktualisiert, um die Score-Werte zu normalisieren. Darüber hinaus können Sie mit Interaktionswerten auf Mitgliederebene sowie mit kollektiven Interaktionswerten für die gesamte Einkaufsgruppe arbeiten. [Weitere Informationen](../buying-groups/engagement-scores.md) |
-| Verbesserung | Active Journey Observability - Konten an jedem Knoten | Für eine aktive Account-Journey können Sie auf eine Liste der Accounts zugreifen, die jeden Account-Knoten auf der Journey erreicht haben. |
+| Funktion | Filter für Personen-Interaktionsbewertung für Rollenvorlagen und Journeys | Sie können jetzt die _Personen-Interaktionsbewertung_ als Filter in Rollenvorlagen verwenden, die zum Erstellen von Käufergruppen und in Journey-Knotenpunkten mit geteilten Pfaden verwendet werden. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Funktion | Konfiguration benutzerdefinierter Rollen für Käufergruppen | Sie haben jetzt die Flexibilität, benutzerdefinierte Rollen für Käufergruppen zu konfigurieren, sodass Sie die Rollen definieren können, die für Ihre Anwendungsfälle spezifisch sind. [Weitere Informationen](../buying-groups/default-custom-roles.md) |
+| Funktion | Konfiguration der Gewichtung der Interaktionsbewertung | Sie können jetzt den Aktivitäten Gewichtungen zuweisen, die die Interaktionsbewertung der Käufergruppen beeinflussen. Diese Funktion umfasst die Definition eigener benutzerdefinierter Bewertungsmodelle und die Änderung des aktiven Modells, das die Berechnung des Interaktionswerts beeinflusst. [Weitere Informationen](../admin/engagement-score-weighting.md) |
+| Verbesserung | Bedingte Inhalte für Fragmente | Sie können jetzt für das visuelle Fragment-Design die Tools für bedingte Inhalte verwenden. [Weitere Informationen](../content/conditional-content.md) |
+| Verbesserung | Aktualisierungen der Interaktionsbewertung | Die Logik der Interaktionsbewertungen für Käufergruppen wurde aktualisiert, um die Bewertungen zu normalisieren. Darüber hinaus können Sie mit Interaktionsbewertungen auf Mitgliederebene ebenso wie mit kollektiven Interaktionsbewertungen für die gesamte Käufergruppe arbeiten. [Weitere Informationen](../buying-groups/engagement-scores.md) |
+| Verbesserung | Beobachtbarkeit der aktiven Journeys – Konten an jedem Knoten | Für eine Journey mit aktiven Konten können Sie auf eine Liste der Konten zugreifen, die die jeweiligen Kontoknotenpunkte in der Journey erreicht haben. |
 
 >[!NOTE]
 >
@@ -186,7 +186,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | LinkedIn Account Matched Audiences | Generieren Sie LinkedIn-Anzeigezielgruppen über Account Matched Audiences, damit Sie leere Rollen in Ihren Käufergruppen ausfüllen können. Durch die Definition eines Satzes von Käufergruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Käufergruppenparametern entsprechen. <p>Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. <a href="../data/linkedin-account-matched-audiences.md">Weitere Informationen</a> |
+| Funktion | Auf LinkedIn-Konto abgestimmte Zielgruppen | Generieren Sie LinkedIn-Anzeigezielgruppen über Account Matched Audiences, damit Sie leere Rollen in Ihren Käufergruppen ausfüllen können. Durch die Definition eines Satzes von Käufergruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Käufergruppenparametern entsprechen. <p>Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. <a href="../data/linkedin-account-matched-audiences.md">Weitere Informationen</a> |
 | Verbesserung | Statuslebenszyklus für visuelle Inhaltsfragmente | Visuelle Fragmente werden jetzt mithilfe eines Statuslebenszyklus verwaltet. Der Fragmentstatus bestimmt seine Verfügbarkeit zur Verwendung in einer E-Mail oder E-Mail-Vorlage und die Änderungen, die Sie daran vornehmen können. <p>Dieser erweiterte Workflow erleichtert es Ihnen, wiederverwendete Inhalte entsprechend Ihrem Werbe- und Kommunikationskalender zu verwalten. <a href="../content/fragments.md#fragment-status-and-lifecycle">Weitere Informationen</a> |
 
 +++

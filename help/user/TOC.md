@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
-user-guide-description: Erfahren Sie mehr über die Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung verwenden können.
+user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
 source-git-commit: 2a452537620e357a94a5f1c6b6c66f994d06c3c2
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 92%
       + [Lösungsinteressen](./buying-groups/solution-interests.md)
       + [Rollenvorlagen](./buying-groups/buying-groups-role-templates.md)
       + [Standard- und benutzerdefinierte Rollen](./buying-groups/default-custom-roles.md)
-      + [Interaktionswerte](./buying-groups/engagement-scores.md)
+      + [Interaktionsbewertungen](./buying-groups/engagement-scores.md)
       + [Käufergruppenphasen](./buying-groups/buying-group-stages.md)
       + [Erstellen von Käufergruppen](./buying-groups/buying-groups-create.md)
-      + [Konten exportieren](./audiences/account-list-export.md)
-      + [LinkedIn Account Matched Audiences](./data/linkedin-account-matched-audiences.md)
+      + [Exportieren von Konten](./audiences/account-list-export.md)
+      + [Auf LinkedIn-Konto abgestimmte Zielgruppen](./data/linkedin-account-matched-audiences.md)
       + [Käufergruppenfilter in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
    + Kontolisten {#account-lists}
       + [Überblick](./accounts/account-lists.md)
@@ -96,7 +96,7 @@ ht-degree: 92%
    + Landingpages (Beta) {#landing-pages}
       + [Übersicht](./content/landing-pages.md)
       + [Landingpage-Design](./content/landing-page-design.md)
-   + Inhaltserstellungs-Tools {#content-design}
+   + Tools für das Design von Inhalten {#content-design}
       + [Strukturkomponenten](./content/structure-components.md)
       + [Inhaltskomponenten](./content/content-components.md)
       + [Benutzerdefiniertes CSS](./content/design-custom-css.md)
