@@ -112,4 +112,4 @@ Unter [Interaktionsbewertungen](./engagement-scores.md) finden Sie detaillierte 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
