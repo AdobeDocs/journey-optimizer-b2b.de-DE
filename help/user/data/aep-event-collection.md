@@ -9,7 +9,7 @@ badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich
 source-git-commit: a5df9dc1674d2a4fbc1705423e51318e3367d3c6
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 1%
+ht-degree: 45%
 
 ---
 
@@ -18,6 +18,6 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_subdomain_datastream_id"
 >title="Subdomain-Datenstrom-ID"
->abstract="Bereitstellen eines Datenstroms, um die Erfassung von Landingpage-Daten mit Experience Platform Web SDK zu ermöglichen. "
+>abstract="Stellen Sie einen Datenstrom bereit, um die Erfassung von Landingpage-Daten mit dem Experience Platform Web SDK zu ermöglichen. "
 
 Inhalte in Kürze verfügbar.

@@ -10,7 +10,7 @@ exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 26%
+ht-degree: 31%
 
 ---
 
@@ -47,12 +47,12 @@ Aktivieren Sie die Option **[!UICONTROL Formularvorbefüllung]**, damit Formular
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_datastream"
 >title="Erforderlicher Datenstrom"
->abstract="Der Datenstrom ist erforderlich, um Seitenereignisse von den Landingpages in dieser Domain zu erfassen."
+>abstract="Der Datenstrom ist erforderlich, um Seitenereignisse von den Landingpages dieser Domain zu erfassen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_landing_pages_missing_datastream"
 >title="Fehlende Datenstrom-ID"
->abstract="In der Subdomain fehlt eine Datenstrom-ID, die für ein ordnungsgemäßes Routing erforderlich ist. Konfigurieren Sie ihn in den Einstellungen, um fortzufahren"
+>abstract="In der Subdomain fehlt eine Datenstrom-ID, die für ein ordnungsgemäßes Routing erforderlich ist. Konfigurieren Sie sie in den Einstellungen, um fortzufahren"
 
 Legen Sie die Option **[!UICONTROL Datenstrom]** fest, um einen Datenstrom für die Ereigniserfassung von Landingpages zu konfigurieren.
 
