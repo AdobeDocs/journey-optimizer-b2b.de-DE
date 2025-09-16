@@ -1,11 +1,11 @@
 ---
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
-description: Vollständige Dokumentation für Journey Optimizer B2B edition - Erkunden Sie die verfügbaren Ressourcen für das Onboarding, die Erstellung von Einkaufsgruppen, die Erstellung von Account-Journey und die Verwaltung von Inhalten.
+description: 'Vollständige Dokumentation für Journey Optimizer B2B Edition: Erkunden Sie die verfügbaren Ressourcen für Onboarding, die Erstellung von Käufergruppen, die Einrichtung von Konto-Journeys und die Verwaltung von Inhalten.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Strateginnen und Strategen im B2B-Marketing können jetzt die Präzision der Kä
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Erfahren Sie mehr über benutzerdefinierte Käufergruppenrollen"}
 
->[!TAB Benutzerdefinierte Gewichtung der Interaktionswerte]
+>[!TAB Gewichtung von benutzerdefinierten Interaktionsbewertungen]
 
-Weisen Sie den Interaktionsaktivitäten benutzerdefinierte Gewichtungen zu, damit die Interaktionswerte Ihre Aktivitäten mit dem höchsten Wert widerspiegeln. Durch die Betonung von Signalen mit hoher Absicht kann Ihr Team Konten mit dem stärksten Kaufpotenzial besser identifizieren und priorisieren.
+Weisen Sie Interaktionsaktivitäten benutzerdefinierte Gewichtungen zu, damit Interaktionsbewertungen Ihre Aktivitäten mit dem höchsten Wert widerspiegeln. Durch die Betonung von Signalen mit hoher Absicht kann Ihr Team Konten mit dem stärksten Kaufpotenzial besser erkennen und priorisieren.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Erfahren Sie mehr über die Gewichtung der benutzerdefinierten Interaktionswerte"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Informationen zur Gewichtung von benutzerdefinierten Interaktionsbewertungen"}
 
 >[!TAB E-Mail-Erlebnisse in GenStudio]
 
@@ -137,7 +137,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>

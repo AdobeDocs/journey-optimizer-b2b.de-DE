@@ -1,12 +1,12 @@
 ---
-title: Versionshinweise zu Journey Optimizer B2B edition
-description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B edition - bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
+title: Versionshinweise zu Journey Optimizer B2B Edition
+description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition – bleiben Sie bezüglich neuer Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2795'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | Filter für Personen-Interaktionsbewertung für Rollenvorlagen und Journeys | Sie können jetzt die _Personen-Interaktionsbewertung_ als Filter in Rollenvorlagen verwenden, die zum Erstellen von Käufergruppen und in Journey-Knotenpunkten mit geteilten Pfaden verwendet werden. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Funktion | Konfiguration benutzerdefinierter Rollen für Käufergruppen | Sie haben jetzt die Flexibilität, benutzerdefinierte Rollen für Käufergruppen zu konfigurieren, sodass Sie die Rollen definieren können, die für Ihre Anwendungsfälle spezifisch sind. [Weitere Informationen](../buying-groups/default-custom-roles.md) |
-| Funktion | Konfiguration der Gewichtung der Interaktionsbewertung | Sie können jetzt den Aktivitäten Gewichtungen zuweisen, die die Interaktionsbewertung der Käufergruppen beeinflussen. Diese Funktion umfasst die Definition eigener benutzerdefinierter Bewertungsmodelle und die Änderung des aktiven Modells, das die Berechnung des Interaktionswerts beeinflusst. [Weitere Informationen](../admin/engagement-score-weighting.md) |
+| Funktion | Konfiguration der Gewichtung der Interaktionsbewertung | Sie können jetzt den Aktivitäten Gewichtungen zuweisen, die die Interaktionsbewertung der Käufergruppen beeinflussen. Diese Funktion umfasst das Definieren Ihrer eigenen benutzerdefinierten Bewertungsmodelle und das Ändern des aktiven Modells, das die Berechnung der Interaktionsbewertung beeinflusst. [Weitere Informationen](../admin/engagement-score-weighting.md) |
 | Verbesserung | Bedingte Inhalte für Fragmente | Sie können jetzt für das visuelle Fragment-Design die Tools für bedingte Inhalte verwenden. [Weitere Informationen](../content/conditional-content.md) |
 | Verbesserung | Aktualisierungen der Interaktionsbewertung | Die Logik der Interaktionsbewertungen für Käufergruppen wurde aktualisiert, um die Bewertungen zu normalisieren. Darüber hinaus können Sie mit Interaktionsbewertungen auf Mitgliederebene ebenso wie mit kollektiven Interaktionsbewertungen für die gesamte Käufergruppe arbeiten. [Weitere Informationen](../buying-groups/engagement-scores.md) |
 | Verbesserung | Beobachtbarkeit der aktiven Journeys – Konten an jedem Knoten | Für eine Journey mit aktiven Konten können Sie auf eine Liste der Konten zugreifen, die die jeweiligen Kontoknotenpunkte in der Journey erreicht haben. |
@@ -130,7 +130,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Weiterleitung von Erlebnisereignissen | Admins können die auf Adobe Experience Platform (AEP) basierenden Ereignisdefinitionen konfigurieren. Mit diesen Konfigurationen können Marketing-Fachleute Konto-Journeys erstellen, die auf Erlebnisereignissen aus AEP reagieren. <a href="../admin/configure-aep-events.md">Weitere Informationen</a> |
-| Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen aufgeteilten Pfadknoten, um Account-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Konten zu identifizieren, die zusätzliche Interaktionen rechtfertigen. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
+| Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen Knoten vom Typ „Pfad aufteilen“, um Konto-Zielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Konten zu identifizieren, die zusätzliche Interaktionen erfordern. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
 | Funktion | Intelligentes Dashboard | Sehen Sie sich den Fortschritt von Käufergruppen durch ihre Konto-Journey an, einschließlich KI-generierter Erkenntnisse, um eine intelligentere Analyse und eine genauere Priorisierung von Konten zu erhalten. <a href="../dashboards/intelligent-dashboard.md">Weitere Informationen</a> |
 | Funktion | Details zu Käufergruppen und Konten | Sehen Sie sich Erkenntnisse auf der Käufergruppen- und Kontoebene an, um zu Beginn der Interaktion mit einer Kundin oder einem Kunden mehr Kontext- und historische Daten zu erhalten.<p>Zu den Details der Käufergruppe gehören alle erkannten First-Party-Intent-Daten. <a href="../buying-groups/buying-group-details.md">Weitere Informationen</a><p>Die Konten mit den Kontodetails zeigen den beobachteten Anstieg der Interaktionsabsicht, sodass Sie Ihren Vertrieb auf Konten hinweisen können, die für eine kundenspezifische, verkaufsorientierte Interaktion bereit sind.  <a href="../accounts/account-details.md">Weitere Informationen</a> |
 | Funktion | Journey-Überblick | Wenn Sie auf Konto-Journeys zugreifen, bietet die Registerkarte „Überblick“ eine umfassende Übersicht über Ihre aktiven Konto-Journeys mit detaillierten Fortschrittsanzeigen zu Konten, in denen Abschlüsse und Interaktionsaktivitäten anhand von Kreis- und Balkendiagrammen kategorisiert und quantifiziert werden.  <a href="../dashboards/journeys-dashboard.md">Weitere Informationen</a> |

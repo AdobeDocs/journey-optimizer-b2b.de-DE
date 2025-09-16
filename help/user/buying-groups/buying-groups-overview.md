@@ -1,13 +1,13 @@
 ---
 title: Käufergruppen
-description: Optimieren Sie das Account-basierte Marketing mit Einkaufsgruppen - identifizieren Sie Entscheidungsträger, verfolgen Sie Interaktionswerte und automatisieren Sie das Targeting in Journey Optimizer B2B edition.
+description: 'Optimieren Sie Account-basiertes Marketing mit Käufergruppen: Identifizieren Sie Entscheidungsträgerinnen und Entscheidungsträger, verfolgen Sie Interaktionswerte und automatisieren Sie das Targeting in Journey Optimizer B2B Edition.'
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1187'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Innerhalb des Kontos könnte es eine Teilmenge von Personen geben, die die _Käu
 
 ## Wichtige Komponenten
 
-Sie können die Marketing-Effektivität steigern, indem Sie Kaufgruppen einrichten, die Mitglieder für Ihre Zielkontenlisten für die Lösungen identifizieren, für die Ihre Vertriebsteams verantwortlich sind. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Käufergruppen beginnen, stellen Sie sicher, dass Sie die wichtigen Komponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
+Sie können die Effektivität des Marketings steigern, indem Sie Käufergruppen einrichten, mit denen die Mitglieder für Ihre Zielkontenlisten identifiziert werden. Diese Gruppen basieren auf den Lösungen, für deren Vertrieb Ihre Vertriebs-Teams verantwortlich sind. Bevor Sie und Ihr Marketing-Team mit der Erstellung Ihrer Käufergruppen beginnen, stellen Sie sicher, dass Sie die wichtigen Komponenten definiert haben. Diese Komponenten sind für die Erreichung Ihrer Geschäftsziele von entscheidender Bedeutung.
 
 | Komponente | Zweck |
 | --------- | ------- |
@@ -112,4 +112,4 @@ Unter [Interaktionsbewertungen](./engagement-scores.md) finden Sie detaillierte 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

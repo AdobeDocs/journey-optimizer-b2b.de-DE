@@ -1,13 +1,13 @@
 ---
 title: Konto-Zielgruppen
-description: Erstellen Sie Account-Zielgruppen mit Segmentierung, um bestimmte Accounts auszuwählen und personalisierte Account-basierte Journey in Journey Optimizer B2B edition zu ermöglichen.
+description: Erstellen Sie Kontozielgruppen mit Segmentierung, um in Journey Optimizer B2B Edition bestimmte Accounts auszuwählen und personalisierte Account-basierte Journeys zu ermöglichen.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
 source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

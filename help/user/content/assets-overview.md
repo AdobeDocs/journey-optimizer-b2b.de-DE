@@ -1,21 +1,21 @@
 ---
 title: Assets
-description: Verwalten von Bild-Assets aus Marketo Engage Design Studio und AEM Assets für E-Mails, Vorlagen und Fragmente in Journey Optimizer B2B edition.
+description: Verwalten Sie Bild-Assets aus Marketo Engage Design Studio und AEM Assets für E-Mails, Vorlagen und Fragmente in Journey Optimizer B2B Edition.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Assets
 
-In [!DNL Adobe Journey Optimizer B2B Edition] sind Assets normalerweise die Bilder, die beim Gestalten von Inhalten für Konto-Journeys verwendet werden. Sie können diese Bilder in den E-Mails, E-Mail-Vorlagen und Fragmenten aus dem Asset-Wähler oder über eine einfache Drag-and-Drop-Oberfläche im visuellen Design-Bereich verwenden.
+In [!DNL Adobe Journey Optimizer B2B Edition] sind Assets normalerweise die Bilder, die beim Gestalten von Inhalten für Konto-Journeys verwendet werden. Sie können diese Bilder in E-Mails, E-Mail-Vorlagen und Fragmenten über eine Asset-Auswahl oder eine einfache Drag-and-Drop-Oberfläche im visuellen Design-Bereich verwenden.
 
-[!DNL Journey Optimizer B2B Edition] bietet Marketing-Fachleuten Zugriff auf zwei Arten von Asset-Bibliotheken: [!DNL Adobe Marketo Engage] [!DNL Design Studio] und [!DNL Adobe Experience Manager Assets as a Cloud Service]. Sie können nur Adobe Marketo Engage Design Studio verwenden oder beide Bibliotheken gleichzeitig konfigurieren (basierend auf der von Ihnen verwendeten [!DNL Experience Manager Assets]).
+[!DNL Journey Optimizer B2B Edition] bietet Marketing-Fachleuten Zugriff auf zwei Arten von Asset-Bibliotheken: [!DNL Adobe Marketo Engage] [!DNL Design Studio] und [!DNL Adobe Experience Manager Assets as a Cloud Service]. Sie können entweder ausschließlich Adobe Marketo Engage Design Studio oder gleichzeitig beide konfigurierten Bibliotheken verwenden (je nach der von Ihnen verwendeten [!DNL Experience Manager Assets]-Lizenz).
 
 ## Asset-Management
 
