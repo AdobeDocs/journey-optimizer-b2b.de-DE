@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition – bleiben Sie bezüglich neuer Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 100%
+source-wordcount: '3016'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,23 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Feature | Forms | You can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition. _(Previously a Beta program feature.)_ [Learn more](../content/forms.md) |
 
 -->
+
+## Versionshinweise für 2025.9
+
+**Bereitstellungsdatum**: Mittwoch, 30. September 2025
+
+Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Funktion | E-Mail-Inhaltszusammenarbeit | Sie können jetzt die Zusammenarbeit mit anderen Journey Optimizer B2B edition-Benutzern im Kontext eines E-Mail-Assets kommentieren. Sie können Ihre Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Die Benachrichtigung ist auch als Impuls-Benachrichtigung verfügbar. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _Dunkelmodus“_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Empfänger angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. <!-- [Learn more](../content/email-dark-mode.md) --> |
+| Verbesserung | Journey - Pfad nach Anzahl der Personen in der Rolle aufteilen | Verwenden Sie einen Aufspaltungspfad nach Kontenknoten, um ein Konto mit der Anzahl der Personen in einer oder mehreren Einkaufsgruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Einkaufsgruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| Verbesserung | Journey - Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine passende Einkaufsgruppe auszuwählen. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+
+>[!NOTE]
+>
+>Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am Mittwoch, 30. September 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2025.8
 
