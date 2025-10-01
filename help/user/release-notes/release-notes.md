@@ -4,9 +4,9 @@ description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbeh
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3016'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,20 +27,20 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 ## Versionshinweise für 2025.9
 
-**Bereitstellungsdatum**: Mittwoch, 30. September 2025
+**Bereitstellungsdatum**: 30. September 2025
 
 Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | E-Mail-Inhaltszusammenarbeit | Sie können jetzt die Zusammenarbeit mit anderen Journey Optimizer B2B edition-Benutzern im Kontext eines E-Mail-Assets kommentieren. Sie können Ihre Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Die Benachrichtigung ist auch als Impuls-Benachrichtigung verfügbar. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _Dunkelmodus“_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Empfänger angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. <!-- [Learn more](../content/email-dark-mode.md) --> |
-| Verbesserung | Journey - Pfad nach Anzahl der Personen in der Rolle aufteilen | Verwenden Sie einen Aufspaltungspfad nach Kontenknoten, um ein Konto mit der Anzahl der Personen in einer oder mehreren Einkaufsgruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Einkaufsgruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| Verbesserung | Journey - Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine passende Einkaufsgruppe auszuwählen. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| Funktion | Zusammenarbeit an E-Mail-Inhalten | Sie können jetzt mit anderen Benutzenden von Journey Optimizer B2B Edition an einem E-Mail-Asset zusammenarbeiten und Kommentare abgeben. Sie können Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Benachrichtigungen sind auch als Pulse-Benachrichtigungen verfügbar. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
+| Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Personen angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. <!-- [Learn more](../content/email-dark-mode.md) --> |
+| Verbesserung | Journeys – Nach der Anzahl der Personen in der Rolle aufgeteilter Pfad | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Käufergruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
+| Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine übereinstimmende Käufergruppe anzusprechen. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
 
 >[!NOTE]
 >
->Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am Mittwoch, 30. September 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+>Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am 30. September 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2025.8
 
