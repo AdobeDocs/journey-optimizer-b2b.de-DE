@@ -28,6 +28,7 @@ Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barri
 >Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Journey Optimizer B2B Edition] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
 >
  
+
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. [Weitere Informationen](content-components.md#text)
