@@ -27,7 +27,7 @@ Um nach einer E-Mail anhand des Namens zu suchen, geben Sie eine Textzeichenfolg
 
 ## E-Mails öffnen und bearbeiten
 
-Klicken Sie auf den E-Mail-Namen in der Liste, um sie zu öffnen. Sie können die „E-Mail[Einstellungen“ überprüfen und ](./add-email.md#define-the-email-settings). Klicken Sie **[!UICONTROL E-Mail-Inhalt bearbeiten]**, um [Aktualisierungen am Inhalt vorzunehmen](./email-authoring.md).
+Klicken Sie auf den E-Mail-Namen in der Liste, um sie zu öffnen. Sie können die „E-Mail[Einstellungen“ überprüfen und &#x200B;](./add-email.md#define-the-email-settings). Klicken Sie **[!UICONTROL E-Mail-Inhalt bearbeiten]**, um [Aktualisierungen am Inhalt vorzunehmen](./email-authoring.md).
 
 Wenn [Warnhinweise angezeigt werden](./add-email.md#check-alerts) oben rechts auf der Seite klicken Sie, um die Warnungen oder Fehler zu überprüfen und die Elemente nach Bedarf zu beheben.
 
