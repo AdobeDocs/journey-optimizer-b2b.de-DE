@@ -2,10 +2,10 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: 'Vollständige Dokumentation für Journey Optimizer B2B Edition: Erkunden Sie die verfügbaren Ressourcen für Onboarding, die Erstellung von Käufergruppen, die Einrichtung von Konto-Journeys und die Verwaltung von Inhalten.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 100%
 Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesserungen an der Anwendung und an der Dokumentation zu Journey Optimizer B2B Edition.
 
 >[!BEGINTABS]
+
+>[!TAB Zusammenarbeit bei E-Mail-Inhalten]
+
+Der E-Mail-Design-Bereich enthält Tools für die Zusammenarbeit bei Kommentaren und Lösungen, damit Marketing-Teams E-Mail-Assets direkt in [!DNL Journey Optimizer B2B Edition] nahtlos überprüfen, besprechen und abschließen können. Anstatt Entwürfe über externe Tools (wie Chat, E-Mail-Threads oder Tabellen) freizugeben, können Benutzende im E-Mail-Design-Bereich Kommentare abgeben, Änderungen vorschlagen und Feedback geben. Sie können Ihre Team-Mitglieder taggen, damit sie eine E-Mail- oder Pulsbenachrichtigung mit den Details des Kommentars erhalten.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Weitere Informationen zu E-Mail-Tools für die Inhaltszusammenarbeit"}
+
+>[!TAB Design von E-Mails im Dunkelmodus]
+
+Der E-Mail-Design-Bereich enthält jetzt _Dunkelmodus_ Vorschau und Einstellungen. Der Dunkelmodus ermöglicht es einem unterstützenden E-Mail-Client oder einer Mobile App, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere visuelle Elemente anzuzeigen. Vorschau des Renderings, Anpassen von Einstellungen, Sicherstellung der Barrierefreiheit und Testen über E-Mail-Clients hinweg.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Informationen zum Entwerfen von E-Mails im Dunkelmodus"}
 
 >[!TAB Personen-Interaktionsbewertung]
 
@@ -35,12 +47,6 @@ Weisen Sie Interaktionsaktivitäten benutzerdefinierte Gewichtungen zu, damit In
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Informationen zur Gewichtung von benutzerdefinierten Interaktionsbewertungen"}
 
->[!TAB E-Mail-Erlebnisse in GenStudio]
-
-Die Integration von E-Mail-Erlebnissen in GenStudio for Performance Marketing mit Journey Optimizer B2B Edition steigert die Marketing-Effizienz und wahrt die Markenkonsistenz. Diese Integration kombiniert die KI-gestützte Inhaltserstellung von GenStudio mit den erweiterten Orchestrierungsfunktionen in Journey Optimizer B2B Edition.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/genstudio-email-workflow.md" tooltip="Informationen zu E-Mail-Erlebnissen in GenStudio"}
-
 >[!TAB Unterstützung für benutzerdefiniertes CSS]
 
 Bei der Erstellung von E-Mail- und Landingpage-Inhalten im Design-Bereich können Sie jetzt eigenes, benutzerdefiniertes CSS hinzufügen.
@@ -52,12 +58,6 @@ Bei der Erstellung von E-Mail- und Landingpage-Inhalten im Design-Bereich könne
 Um das Modell zur Intent-Erkennung zu aktivieren und zu verwalten, können Sie jetzt eine Tabelle hochladen, um eine Mapping-Kategorie für Intent-Daten zu definieren.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Informationen über die Konfiguration des Intent-Keyword-Mappings"}
-
->[!TAB Reporting zur Spam-Erkennung]
-
-Mit den neuen Spam-Berichten können Sie Spam-Filter umgehen und sicherstellen, dass Nachrichten im Posteingang der Zielgruppenmitglieder eintreffen. Generieren Sie einen _Spam-Bericht_ direkt im E-Mail-Design-Bereich.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-spam-report.md" tooltip="Informationen über das Reporting zur Spam-Erkennung"}
 
 >[!ENDTABS]
 
@@ -137,7 +137,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>

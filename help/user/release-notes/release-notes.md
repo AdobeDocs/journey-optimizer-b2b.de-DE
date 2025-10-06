@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition – bleiben Sie bezüglich neuer Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ac67766c80394b3f00fa8ce713b441a34574b583
-workflow-type: ht
-source-wordcount: '3016'
-ht-degree: 100%
+source-git-commit: 93a5b236c9d6f4e11d18704f1feb4804a79989f6
+workflow-type: tm+mt
+source-wordcount: '3000'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,6 @@ Adobe Journey Optimizer B2B Edition bietet kontinuierlich neue Funktionen, Verbe
 Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von dessen neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
-
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -33,10 +32,10 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Zusammenarbeit an E-Mail-Inhalten | Sie können jetzt mit anderen Benutzenden von Journey Optimizer B2B Edition an einem E-Mail-Asset zusammenarbeiten und Kommentare abgeben. Sie können Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Benachrichtigungen sind auch als Pulse-Benachrichtigungen verfügbar. <!-- [Learn more](../admin/engagement-score-weighting.md) --> |
-| Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Personen angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. <!-- [Learn more](../content/email-dark-mode.md) --> |
-| Verbesserung | Journeys – Nach der Anzahl der Personen in der Rolle aufgeteilter Pfad | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Käufergruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. <!-- [Learn more](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) --> |
-| Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine übereinstimmende Käufergruppe anzusprechen. <!-- [Learn more](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) --> |
+| Funktion | Zusammenarbeit an E-Mail-Inhalten | Sie können jetzt mit anderen Benutzenden von Journey Optimizer B2B Edition an einem E-Mail-Asset zusammenarbeiten und Kommentare abgeben. Sie können Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Die Benachrichtigung ist auch als Impuls-Benachrichtigung verfügbar. [Weitere Informationen](../content/email-collaboration-tools.md) |
+| Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Empfänger angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. [Weitere Informationen](../content/email-dark-mode.md) |
+| Verbesserung | Journeys – Nach der Anzahl der Personen in der Rolle aufgeteilter Pfad | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Einkaufsgruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
+| Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine passende Einkaufsgruppe auszuwählen. [Weitere Informationen](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
 >[!NOTE]
 >
@@ -56,10 +55,6 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Bedingte Inhalte für Fragmente | Sie können jetzt für das visuelle Fragment-Design die Tools für bedingte Inhalte verwenden. [Weitere Informationen](../content/conditional-content.md) |
 | Verbesserung | Aktualisierungen der Interaktionsbewertung | Die Logik der Interaktionsbewertungen für Käufergruppen wurde aktualisiert, um die Bewertungen zu normalisieren. Darüber hinaus können Sie mit Interaktionsbewertungen auf Mitgliederebene ebenso wie mit kollektiven Interaktionsbewertungen für die gesamte Käufergruppe arbeiten. [Weitere Informationen](../buying-groups/engagement-scores.md) |
 | Verbesserung | Beobachtbarkeit der aktiven Journeys – Konten an jedem Knoten | Für eine Journey mit aktiven Konten können Sie auf eine Liste der Konten zugreifen, die die jeweiligen Kontoknotenpunkte in der Journey erreicht haben. |
-
->[!NOTE]
->
->Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am 26. August 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2025.6
 
@@ -108,7 +103,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Funktion | Journey-Orchestrierung der Kontoliste | Verwenden Sie den Knoten „Journey-Aktion“, um Konten für statische Kontolisten hinzuzufügen und zu entfernen. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Weitere Informationen</a> |
 | Verbesserung | Filtern der Journey-Zugehörigkeit in Marketo Engage | Verwenden Sie Kontolisten in Adobe Journey Optimizer B2B Edition für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer Kontoliste_ in intelligenten Listen in Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Weitere Informationen</a> |
 | Funktion | Inaktivitätsfilter | Orchestrieren Sie Journeys auf der Grundlage von Inaktivität innerhalb von Marketo Engage-Kampagnen und -Programmen, einschließlich E-Mail-Inaktivität, interessanten Momenten, Änderungen des Datenwerts und besuchten Web-Seiten. <a href="../journeys/split-merge-paths-nodes.md#activity-filtering">Weitere Informationen</a> |
-| Verbesserung | Filter für besuchte Web-Seiten | Orchestrieren Sie Journeys basierend auf der Aktivität für besuchte Web-Seiten, die mit Marketo Engage-Kampagnen und -Programmen verknüpft sind. <a href="../journeys/split-merge-paths-nodes.md#people-path-conditions">Weitere Informationen</a> |
+| Verbesserung | Filter für besuchte Web-Seiten | Orchestrieren Sie Journeys basierend auf der Aktivität für besuchte Web-Seiten, die mit Marketo Engage-Kampagnen und -Programmen verknüpft sind. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Weitere Informationen</a> |
 | Verbesserung | E-Mail-Liste | Zeigen Sie eine globale Liste der aktiven E-Mails und der E-Mail-Entwürfe an, um sie in den zugehörigen Konto-Journeys zu suchen, zu überprüfen und zu aktualisieren. <a href="../content/emails-list.md">Weitere Informationen</a> |
 
 ## Versionshinweise für 2025.3

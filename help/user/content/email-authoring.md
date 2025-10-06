@@ -4,10 +4,10 @@ description: Erstellen von E-Mails mit visuellen Design-Tools, HTML-Import oder 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 9f8953423e3b6d578155431c7638e4fec9abf86a
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 7%
+source-wordcount: '1163'
+ht-degree: 6%
 
 ---
 
@@ -107,7 +107,7 @@ Wählen Sie bei mindestens einer Inhaltskomponente auf der Arbeitsfläche die Ko
 
 Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdetails angezeigt, wenn Sie die Registerkarte _[!UICONTROL Verwendet von]_ in der Zusammenfassung auswählen.
 
-### Hinzufügen von Assets
+### Hinzufügen von Bild-Assets
 
 {{$include /help/_includes/content-design-assets.md}}
 
@@ -126,6 +126,14 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 ### Verknüpftes URL-Tracking bearbeiten
 
 {{$include /help/_includes/content-design-links.md}}
+
+### Anwenden des Dunkelmodus-Stils
+
+Verwenden Sie _Dunkler Modus_, um Ihre E-Mail-Anzeige auf ein dunkles Design in einem E-Mail-Client zu überprüfen. Ein Dunkelmodus oder Design ermöglicht es einem unterstützenden E-Mail-Client oder einer unterstützenden Mobile App, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere visuelle Elemente anzuzeigen. Ändern Sie oben rechts auf der Design-Arbeitsfläche die Auswahl in _Dunkler Modus_ (![Symbol für den Dunkelmodus](../assets/do-not-localize/icon-content-dark-mode.svg) ). Zeigen Sie dann eine Vorschau an und definieren Sie spezifische benutzerdefinierte Einstellungen, die von unterstützenden E-Mail-Clients zur Anzeige verwendet werden, wenn deren dunkles Design aktiviert ist.
+
+![E-Mail-Design-Arbeitsfläche mit der Auswahl für den Dunkelmodus und den im Dunkelmodus angezeigten E-Mail-Inhalten](./assets/email-color-mode-dark-selector.png){width="700" zoomable="yes"}
+
+Weitere Informationen zu Stilen und Best Practices für den Dunkelmodus finden Sie unter [Dunkelmodus für E-Mail-Inhalte](./email-dark-mode.md).
 
 ### Optionen anzeigen
 
