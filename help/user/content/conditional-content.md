@@ -15,7 +15,7 @@ ht-degree: 12%
 
 Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können bedingte Regeln im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
 
-Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) ](./fragment-authoring.md).
+Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) &#x200B;](./fragment-authoring.md).
 
 ## Hinzufügen bedingter Inhalte {#email-fragment-content}
 
@@ -51,7 +51,7 @@ Verwenden Sie beim Erstellen eines Fragments oder einer E-Mail im visuellen Desi
 
    ![Bedingungen für Bibliothekszugriffsbedingungsdetails](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [ eine bedingte Regel, ](#create-condition) Sie auf **[!UICONTROL Neu erstellen]**.
+   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [&#x200B; eine bedingte Regel, &#x200B;](#create-condition) Sie auf **[!UICONTROL Neu erstellen]**.
 
 1. Wählen Sie die bedingte Regel aus und klicken Sie auf **[!UICONTROL Auswählen]**, um sie mit der Variante zu verknüpfen.
 

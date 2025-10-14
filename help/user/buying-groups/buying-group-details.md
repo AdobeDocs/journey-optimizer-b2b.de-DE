@@ -35,7 +35,7 @@ Der Abschnitt Zusammenfassung der Einkaufsgruppe enthält die folgenden Informat
 * Interaktionsbewertung
 * Vollständigkeitsbewertung
 * Aktuelle Einkaufsgruppenphase
-* Rollenvorlage (auf den Namen klicken, um die [Rollenvorlage) ](buying-groups-role-templates.md#access-and-browse-role-templates).
+* Rollenvorlage (auf den Namen klicken, um die [Rollenvorlage) &#x200B;](buying-groups-role-templates.md#access-and-browse-role-templates).
 * Datum der letzten Änderung/Aktualisierung
 * Generative KI-Zusammenfassung der Einkaufsgruppe
 

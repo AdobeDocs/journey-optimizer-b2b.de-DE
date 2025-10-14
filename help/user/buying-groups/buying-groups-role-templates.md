@@ -64,13 +64,13 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 | ---- | --------- |
 | Personenattribute | <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Faxnummer <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Zweiter Vorname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
 | Spezielle Filter | <li>Mitglied der Liste <li>Mitglied des Programms |
-| Absichtsdaten | Kategoriebedingung <li>Produktzweck <li>Keyword-Intent<br/>[ Erfahren Sie mehr über ](../admin/intent-data.md). |
+| Absichtsdaten | Kategoriebedingung <li>Produktzweck <li>Keyword-Intent<br/>[&#x200B; Erfahren Sie mehr über &#x200B;](../admin/intent-data.md). |
 
 1. Definieren Sie für die erste Rollenkarte die Rolleneigenschaften.
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#custom-roles).
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert &#x200B;](./default-custom-roles.md#custom-roles).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 

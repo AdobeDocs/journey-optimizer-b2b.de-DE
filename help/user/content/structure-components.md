@@ -97,7 +97,7 @@ Sie können die Kopf- oder Fußzeilenbezeichnung entfernen, indem Sie die Kompon
 
 Bei kleineren Bildschirmen oder Anzeigefenstern werden die Spalten in der Strukturkomponente als gestapelt angezeigt, es sei denn, Sie ändern die Standardeinstellung. Wenn Sie die mehrspaltige Strukturkomponente ausgewählt haben, ändern Sie die Einstellung **[!UICONTROL Spalten auf Mobilgeräten nicht stapeln]** indem Sie den Schieberegler nach rechts verschieben.
 
-![Spalten auf mobilen ](./assets/structure-component-settings-stack-columns.png){width="250"} nicht stapeln
+![Spalten auf mobilen &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"} nicht stapeln
 
 ## Komponentenstile
 
@@ -237,7 +237,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
 ## Navigationsbaum
 
-Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 

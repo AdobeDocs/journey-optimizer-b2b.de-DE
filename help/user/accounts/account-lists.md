@@ -86,7 +86,7 @@ Nachdem Sie die Liste der statischen Konten erstellt haben, können Sie sie durc
 
 1. Klicken Sie auf **[!UICONTROL Konten hinzufügen]**.
 
-   ![Hinzufügen eines Kontofilters zum Ausfüllen der Liste ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
+   ![Hinzufügen eines Kontofilters zum Ausfüllen der Liste &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Sie können auf diese Funktion in der leeren Listenseite oder oben rechts zugreifen.
 
@@ -154,13 +154,13 @@ Sie können mit dem Veröffentlichen einer Kontoliste fortfahren, sobald der Fil
 
 1. Klicken **[!UICONTROL oben]** auf „Veröffentlichen“.
 
-   ![Klicken Sie oben rechts auf Veröffentlichen ](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![Klicken Sie oben rechts auf Veröffentlichen &#x200B;](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
 1. Klicken Sie im Dialogfeld _[!UICONTROL Statische Kontoliste veröffentlichen]_ zur Bestätigung auf **[!UICONTROL Veröffentlichen]**.
 
    ![Bestätigen der Veröffentlichung für eine statische Kontoliste](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-Der Status der statischen Kontoliste ändert sich in _[!UICONTROL Live]_ und sie ist für die [Verwendung auf einer Konto-Journey) ](#account-list-usage-in-account-journeys).
+Der Status der statischen Kontoliste ändert sich in _[!UICONTROL Live]_ und sie ist für die [Verwendung auf einer Konto-Journey) &#x200B;](#account-list-usage-in-account-journeys).
 
 >[!TAB Dynamische Kontoliste]
 
@@ -168,13 +168,13 @@ Sie können mit dem Veröffentlichen einer dynamischen Kontoliste fortfahren, so
 
 1. Klicken **[!UICONTROL oben]** auf „Veröffentlichen“.
 
-   ![Klicken Sie oben rechts auf Veröffentlichen ](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![Klicken Sie oben rechts auf Veröffentlichen &#x200B;](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
 1. Klicken Sie im Dialogfeld _[!UICONTROL Dynamische Kontoliste veröffentlichen]_ zur Bestätigung auf **[!UICONTROL Veröffentlichen]**.
 
    ![Bestätigen der Veröffentlichung für eine dynamische Kontoliste](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-Der Status der dynamischen Kontenliste ändert sich in _[!UICONTROL Live]_ und sie kann auf [ Konto-Journey verwendet ](#account-list-usage-in-account-journeys).
+Der Status der dynamischen Kontenliste ändert sich in _[!UICONTROL Live]_ und sie kann auf [&#x200B; Konto-Journey verwendet &#x200B;](#account-list-usage-in-account-journeys).
 
 >[!ENDTABS]
 

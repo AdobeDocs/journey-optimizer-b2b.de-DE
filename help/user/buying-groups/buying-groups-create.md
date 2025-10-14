@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Erstellen von Käufergruppen
 
-Nachdem die Einkaufsgruppe erstellt wurde, kann sie über die Option &quot;[&quot; auf einer Account-Journey verwendet ](./solution-interests.md).
+Nachdem die Einkaufsgruppe erstellt wurde, kann sie über die Option &quot;[&quot; auf einer Account-Journey verwendet &#x200B;](./solution-interests.md).
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Gruppen kaufen]**.
 

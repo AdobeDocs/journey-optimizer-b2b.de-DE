@@ -19,7 +19,7 @@ Beispielsweise können Sie die Kopf- und Fußzeile sperren, die für die Kontinu
 
 ## Aktivieren der Content Governance für die Vorlage
 
-Nachdem Sie den visuellen Design-Bereich verwendet haben[ um die Struktur- und Inhaltskomponenten für ](./email-template-authoring.md) E-Mail-Vorlage zu erstellen, aktivieren Sie die Governance und wenden Sie bei Bedarf eine spezifische Inhaltssperrung an.
+Nachdem Sie den visuellen Design-Bereich verwendet haben[&#x200B; um die Struktur- und Inhaltskomponenten für &#x200B;](./email-template-authoring.md) E-Mail-Vorlage zu erstellen, aktivieren Sie die Governance und wenden Sie bei Bedarf eine spezifische Inhaltssperrung an.
 
 1. Greifen Sie im visuellen Entwurfsbereich mithilfe des Navigationsbaums auf die Ebenen/Container _Elemente_.
 

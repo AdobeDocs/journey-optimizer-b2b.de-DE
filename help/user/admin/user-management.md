@@ -18,9 +18,9 @@ Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Si
 1. [Erstellen eines Marketo Engage-Produktprofils](#marketo-engage-profile) in der Admin Console (nur neue Marketo Engage-Instanz).
 1. [Erstellen einer Benutzergruppe](#create-user-group) in der Admin Console.
 1. [Bearbeiten von integrierten Rollen](#edit-roles) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit Berechtigungen für Journey Optimizer B2B edition.
-1. [Benutzer](#add-users) oder &quot;[&quot; ](#add-user-groups-to-a-role) Rollen hinzufügen.
+1. [Benutzer](#add-users) oder &quot;[&quot; &#x200B;](#add-user-groups-to-a-role) Rollen hinzufügen.
 
-Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und [ finden Sie auf der Seite ](https://helpx.adobe.com/de/enterprise/using/admin-console.html)Übersicht über Admin Console .
+Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und [&#x200B; finden Sie auf der Seite &#x200B;](https://helpx.adobe.com/de/enterprise/using/admin-console.html)Übersicht über Admin Console .
 
 ## Die Admin Console aufrufen
 
@@ -292,7 +292,7 @@ Informationen zur Benutzerverwaltung finden Sie unter [Admin Console-Benutzer](h
 
 1. B2B-Produktberechtigungen hinzufügen:
 
-   Anhand der Liste der B2B[Produktberechtigungen können Sie ](#b2b-product-permissions), welche Produktfunktionen Sie für die Rolle benötigen.
+   Anhand der Liste der B2B[Produktberechtigungen können Sie &#x200B;](#b2b-product-permissions), welche Produktfunktionen Sie für die Rolle benötigen.
 
    Suchen Sie in der _[!UICONTROL Ressourcen]_-Liste auf der linken Seite die **[!UICONTROL B2B]**-Elemente und klicken Sie auf das _Hinzufügen_-Symbol (**+**), um jedes Attribut hinzuzufügen, das Sie für die Rolle aktivieren möchten.
 

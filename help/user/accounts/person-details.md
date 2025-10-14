@@ -17,7 +17,7 @@ Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle aus auf ei
 
 ![Seite „Personendetails“](./assets/person-details-page.png){width="800" zoomable="yes"}
 
-Sie können auf diese Seite zugreifen, indem Sie auf einen Namen klicken[ der im Intelligenten Dashboard ](../dashboards/intelligent-dashboard.md), auf [Seite mit den Kaufgruppendetails](../buying-groups/buying-group-details.md) oder auf [Kontodetailseite](./account-details.md).
+Sie können auf diese Seite zugreifen, indem Sie auf einen Namen klicken[&#x200B; der im Intelligenten Dashboard &#x200B;](../dashboards/intelligent-dashboard.md), auf [Seite mit den Kaufgruppendetails](../buying-groups/buying-group-details.md) oder auf [Kontodetailseite](./account-details.md).
 
 Die Seite „Personendetails“ besteht aus den folgenden vier Abschnitten:
 
@@ -44,7 +44,7 @@ In diesem Abschnitt finden Sie eine Liste der letzten E-Mail-, Web-, Formular- u
 
 Dieser Abschnitt enthält Einkaufsgruppen, in denen die Person Mitglied ist und nach dem Interaktionswert sortiert ist. Jede Karte enthält die folgenden Informationen zur Einkaufsgruppe:
 
-* Name - Klicken Sie auf den Namen, um die [Einkaufsgruppendetails“ ](../buying-groups/buying-group-details.md) öffnen.
+* Name - Klicken Sie auf den Namen, um die [Einkaufsgruppendetails“ &#x200B;](../buying-groups/buying-group-details.md) öffnen.
 * Interaktionsbewertung
 * Vollständigkeitsbewertung
 * Phase

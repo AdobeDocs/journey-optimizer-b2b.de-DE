@@ -30,7 +30,7 @@ Um nach einer Vorlage anhand des Namens zu suchen, geben Sie eine Textzeichenfol
 
 Klicken Sie oben links auf _Filter_-Symbol ( ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die Liste nach Erstellungs- oder Änderungsdatum und nach Vorlagen zu filtern, die Sie erstellt oder geändert haben.
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
 Aus der angezeigten Vorlagenliste können Sie die in den folgenden Abschnitten beschriebenen Aktionen durchführen.
 
@@ -48,7 +48,7 @@ Die Seite _[!UICONTROL Primäre Landingpage erstellen]_ wird geöffnet und biete
 
 ![Wählen Sie aus, wie Sie mit Ihrem Landingpage-Vorlagendesign beginnen möchten](./assets/landing-page-templates-create-design.png){width="800" zoomable="yes"}
 
-Nachdem Sie die Methode ausgewählt haben, mit der Sie mit dem Vorlagendesign beginnen möchten, verwenden Sie den visuellen Design-Bereich, um den Inhalt [ Landingpage-Vorlage zu ](./landing-page-design.md).
+Nachdem Sie die Methode ausgewählt haben, mit der Sie mit dem Vorlagendesign beginnen möchten, verwenden Sie den visuellen Design-Bereich, um den Inhalt [&#x200B; Landingpage-Vorlage zu &#x200B;](./landing-page-design.md).
 
 ### Von Grund auf gestalten
 
@@ -113,7 +113,7 @@ Diese Aktion kann übernommen werden aus:
 * Die Detailseite - Klicken Sie auf **[!UICONTROL Landingpage-Vorlage]**.
 * Die Auflistungsseite - Klicken Sie auf die Auslassungspunkte (**…**) neben einer Vorlage und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der Landingpage-Vorlage). Von hier aus können Sie den Inhalt Ihrer Landingpage-Vorlage nach Bedarf bearbeiten. Weitere [ zu den Bearbeitungsoptionen finden Sie ](#create-a-landing-page-template) „Erstellen einer Landingpage-Vorlage“.
+Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der Landingpage-Vorlage). Von hier aus können Sie den Inhalt Ihrer Landingpage-Vorlage nach Bedarf bearbeiten. Weitere [&#x200B; zu den Bearbeitungsoptionen finden Sie &#x200B;](#create-a-landing-page-template) „Erstellen einer Landingpage-Vorlage“.
 
 ## Duplizieren von Landingpage-Vorlagen
 

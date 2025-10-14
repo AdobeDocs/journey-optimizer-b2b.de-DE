@@ -21,7 +21,7 @@ Verwenden Sie Adobe Journey Optimizer B2B edition, um E-Mail-Nachrichten über A
 
 ## Hinzufügen eines E-Mail-Aktionsknotens in einer Journey
 
-Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen ](../journeys/action-nodes.md) Folgendes tun:
+Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen &#x200B;](../journeys/action-nodes.md) Folgendes tun:
 
 1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
 

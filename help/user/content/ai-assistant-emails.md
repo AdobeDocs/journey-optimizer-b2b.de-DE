@@ -68,7 +68,7 @@ Durch die Auswahl einer dieser Einkaufsgruppenrollen wird die Ausgabe automatisc
 
 ## Generieren von E-Mail-Eigenschaften mit dem KI-Assistenten
 
-Wenn Sie [ Konto-Journey ](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Der KI-Assistent kann dazu beitragen, die E-Mail-Interaktion zu verbessern, indem er empfohlene Inhalte für die E-Mail **Betreffzeile** und den **Preheader** generiert.
+Wenn Sie [&#x200B; Konto-Journey &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Der KI-Assistent kann dazu beitragen, die E-Mail-Interaktion zu verbessern, indem er empfohlene Inhalte für die E-Mail **Betreffzeile** und den **Preheader** generiert.
 
 1. Erstellen Sie eine E-Mail von einer Konto-Journey oder öffnen Sie eine bestehende E-Mail von einem Journey-Knoten aus.
 
@@ -220,7 +220,7 @@ Im Bereich des E-Mail-Designs kann Ihnen der KI-Assistent dabei helfen, die Wirk
 
 Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zum Verfeinern einer vorhandenen E-Mail-Vorlage:
 
-1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das ](../assets/button-ai-assistant.png){width="30" zoomable="no"}-Menü ) auf der rechten Seite klicken.
+1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das &#x200B;](../assets/button-ai-assistant.png){width="30" zoomable="no"}-Menü ) auf der rechten Seite klicken.
 
    ![KI-Assistenten-Umschalter im E-Mail-Designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -267,7 +267,7 @@ Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des K
 
 Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zur Verfeinerung oder Verbesserung des Textinhalts für eine vorhandene E-Mail:
 
-1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das ](../assets/button-ai-assistant.png){width="30" zoomable="no"}-Menü ) auf der rechten Seite klicken.
+1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das &#x200B;](../assets/button-ai-assistant.png){width="30" zoomable="no"}-Menü ) auf der rechten Seite klicken.
 
    ![KI-Assistenten-Umschalter im E-Mail-Designer](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 

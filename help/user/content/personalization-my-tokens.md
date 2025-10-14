@@ -83,7 +83,7 @@ Wenn Sie E-Mail-Inhalte für Ihre Konto-Journey erstellen, können Sie eines der
 
 1. Wählen Sie die Textkomponente aus und klicken Sie auf das Symbol _Personalisierung hinzufügen_ ( ![Personalisierungssymbol hinzufügen](../../assets/do-not-localize/icon-personalization-field.svg) ) in der Symbolleiste.
 
-   ![Klicken Sie auf das Symbol Personalisierung hinzufügen ](./assets/email-personalize-text.png){width="600"}
+   ![Klicken Sie auf das Symbol Personalisierung hinzufügen &#x200B;](./assets/email-personalize-text.png){width="600"}
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet. Das Dialogfeld enthält einen Ordner _[!UICONTROL Meine Token]_ in der _[!UICONTROL Personalization Tokens]_-Bibliothek, wenn benutzerdefinierte Token für die Konto-Journey definiert sind.
 

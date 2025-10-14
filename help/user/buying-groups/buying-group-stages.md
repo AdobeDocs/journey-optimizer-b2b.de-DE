@@ -156,7 +156,7 @@ _Anzeigen des Entwurfsmodells :_
 
 1. Ändern Sie _Dialogfeld &quot;_ bearbeiten“ die Flussoptionen nach Bedarf.
 
-   Weitere [ zu diesen Optionen und deren Auswirkungen auf den Modellfluss finden ](#configure-the-workflow-and-transition-rules) unter „Konfigurieren des Workflows und der Übergangsregeln“.
+   Weitere [&#x200B; zu diesen Optionen und deren Auswirkungen auf den Modellfluss finden &#x200B;](#configure-the-workflow-and-transition-rules) unter „Konfigurieren des Workflows und der Übergangsregeln“.
 
 1. Wenn Sie mit den definierten Übergangsregeln zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 

@@ -70,11 +70,11 @@ Um eine Frage zu operativen Einblicken zu stellen, geben Sie sie in das Feld am 
 
 Sie können Ihrer anfänglichen Anfrage folgen, indem Sie nach einer Liste von Artefakten fragen, z. B. _Listen Sie die fünf wichtigsten nach Größe auf_. Der KI-Assistent gibt eine Tabelle mit den fünf wichtigsten Elementen in der Abfrage und den entsprechenden IDs zurück. Klicken Sie auf _Herunterladen_-Symbol ![Herunterladen](../assets/do-not-localize/icon-download.svg) , um die Tabelle als CSV-Datei herunterzuladen.
 
-![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-query.png){width="420"}
+![Antwort des KI-Assistenten für eine Liste der Live-Journey &#x200B;](./assets/ai-assistant-artifacts-query.png){width="420"}
 
 Um die gesamte Tabelle im KI-Assistenten anzuzeigen, klicken Sie auf das Symbol _Maximieren_ ( ![Maximieren-Symbol](../assets/do-not-localize/icon-maximize.svg) ). Klicken Sie in der erweiterten Tabellenansicht auf **[!UICONTROL CSV herunterladen]**, um die Informationen als CSV-Datei zu speichern.
 
-![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
+![Antwort des KI-Assistenten für eine Liste der Live-Journey &#x200B;](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
 ## Überprüfen von Antworten
 

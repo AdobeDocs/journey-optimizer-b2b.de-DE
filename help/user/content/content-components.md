@@ -212,7 +212,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
    Sie können zu einer einzelnen Strukturkomponente und zu jeder Spalte einer Strukturkomponente mehrere Komponenten hinzufügen.
 
-   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente ](./assets/content-components-drag.png){width="600" zoomable="yes"}
+   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente &#x200B;](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
 1. Passen Sie die Komponentenanzeige mit den Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stil]** auf der rechten Seite oder der auf der Arbeitsfläche angezeigten Kontextsymbolleiste an.
 
@@ -299,7 +299,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -547,7 +547,7 @@ Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie eine Bild
 
      ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
-* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu ](../admin/configure-aem-repositories.md) und auszuwählen.
+* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu &#x200B;](../admin/configure-aem-repositories.md) und auszuwählen.
 
   Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 
@@ -597,7 +597,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -674,7 +674,7 @@ Verwenden Sie die Komponente _Social_, um Links zu Social-Media-Seiten in Ihre I
 Wenn Sie einen Social-Media-Typ ausgewählt haben, legen Sie die Optionen für diesen Typ fest:
 
 * **[!UICONTROL URL]** - Geben Sie die Social-Media-URL ein, die Sie mit der Social-Media-Grafik oder dem Symbol verknüpfen möchten.
-* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [ Bild-Assets finden ](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
+* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [&#x200B; Bild-Assets finden &#x200B;](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
 * **[!UICONTROL ALT-]**: Geben Sie den ALT-Text für das angezeigte Bild ein.
 
   ![Einstellungen für den ausgewählten Social-Media-Typ](./assets/content-components-social-settings-for-type.png){width="250"}

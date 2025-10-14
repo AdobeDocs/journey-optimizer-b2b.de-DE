@@ -22,7 +22,7 @@ Die Verwendung von AEP-Erlebnisereignissen in Account Journey erfolgt in zwei Sc
 
 1. Erstellen und veröffentlichen Sie eine AEP-Ereignisdefinition.
 
-2. Fügen Sie auf einer Konto-Journey den Knoten _Auf ein Ereignis_) hinzu und [ Sie eine AEP-Ereignisdefinition als Personenereignis ](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+2. Fügen Sie auf einer Konto-Journey den Knoten _Auf ein Ereignis_) hinzu und [&#x200B; Sie eine AEP-Ereignisdefinition als Personenereignis &#x200B;](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
 Für jede Ereignisdefinition sind die folgenden Experience Platform-Eingaben erforderlich:
 

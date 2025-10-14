@@ -18,7 +18,7 @@ In Journey Optimizer B2B edition sagt das Modell der Absichtserkennung basierend
 * Absichtsebenen - Verfügbar auf bekannter Lead-, Konto- und Einkaufsgruppenebene.
 * Arten von Intent-Signalen - Schlüsselwörter, Produkt und Lösung
 
-Die Absichtsdaten werden auf der Seite [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Kontodetails_, ](../accounts/account-details.md), [_Einkaufsgruppendetails_ und ](../buying-groups/buying-group-details.md) [_Personendetails_ verwendet](../accounts/person-details.md).
+Die Absichtsdaten werden auf der Seite [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Kontodetails_, &#x200B;](../accounts/account-details.md), [_Einkaufsgruppendetails_ und &#x200B;](../buying-groups/buying-group-details.md) [_Personendetails_ verwendet](../accounts/person-details.md).
 
 ![Intent-Datenvisualisierung](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 

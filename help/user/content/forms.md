@@ -46,7 +46,7 @@ Um nach einem Formular anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 ### Spaltenanzeige anpassen
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -280,7 +280,7 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 ## Hinzufügen von Formularen zu einer Landingpage oder Vorlage
 
-Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) ](./landing-page-templates.md).
+Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) &#x200B;](./landing-page-templates.md).
 
 {{$include /help/_includes/content-design-add-forms.md}}
 
