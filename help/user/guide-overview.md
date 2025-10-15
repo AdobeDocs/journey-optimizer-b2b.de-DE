@@ -3,9 +3,9 @@ title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: 'Vollständige Dokumentation für Journey Optimizer B2B Edition: Erkunden Sie die verfügbaren Ressourcen für Onboarding, die Erstellung von Käufergruppen, die Einrichtung von Konto-Journeys und die Verwaltung von Inhalten.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesse
 
 >[!BEGINTABS]
 
->[!TAB Zusammenarbeit bei E-Mail-Inhalten]
+>[!TAB Zusammenarbeit an E-Mail-Inhalten]
 
-Der E-Mail-Design-Bereich enthält Tools für die Zusammenarbeit bei Kommentaren und Lösungen, damit Marketing-Teams E-Mail-Assets direkt in [!DNL Journey Optimizer B2B Edition] nahtlos überprüfen, besprechen und abschließen können. Anstatt Entwürfe über externe Tools (wie Chat, E-Mail-Threads oder Tabellen) freizugeben, können Benutzende im E-Mail-Design-Bereich Kommentare abgeben, Änderungen vorschlagen und Feedback geben. Sie können Ihre Team-Mitglieder taggen, damit sie eine E-Mail- oder Pulsbenachrichtigung mit den Details des Kommentars erhalten.
+Der E-Mail-Design-Bereich enthält Tools für die Zusammenarbeit bei Kommentaren und Lösungen, damit Marketing-Teams E-Mail-Assets direkt in [!DNL Journey Optimizer B2B Edition] nahtlos überprüfen, besprechen und abschließen können. Anstatt Entwürfe über externe Tools (wie Chat, E-Mail-Threads oder Tabellen) freizugeben, können Benutzende im E-Mail-Design-Bereich Kommentare abgeben, Änderungen vorschlagen und Feedback geben. Sie können Team-Mitglieder mit Tags versehen, sodass sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. 
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Weitere Informationen zu E-Mail-Tools für die Inhaltszusammenarbeit"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-collaboration-tools.md" tooltip="Informationen zu E-Mail-Tools für die Inhaltszusammenarbeit"}
 
->[!TAB Design von E-Mails im Dunkelmodus]
+>[!TAB Dunkler Modus für E-Mail-Design]
 
-Der E-Mail-Design-Bereich enthält jetzt _Dunkelmodus_ Vorschau und Einstellungen. Der Dunkelmodus ermöglicht es einem unterstützenden E-Mail-Client oder einer Mobile App, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere visuelle Elemente anzuzeigen. Vorschau des Renderings, Anpassen von Einstellungen, Sicherstellung der Barrierefreiheit und Testen über E-Mail-Clients hinweg.
+Der E-Mail-Design-Bereich enthält jetzt eine Vorschau und Einstellungen für den _dunklen Modus_. Der dunkle Modus ermöglicht es unterstützenden E-Mail-Clients und Anwendungen, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere grafische Elemente anzuzeigen. Erstellen Sie eine Vorschau des Renderings, passen Sie Einstellungen an, stellen Sie die Barrierefreiheit sicher und testen Sie über E-Mail-Clients hinweg.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Informationen zum Entwerfen von E-Mails im Dunkelmodus"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/email-dark-mode.md" tooltip="Informationen zum E-Mail-Design im dunklen Modus"}
 
 >[!TAB Personen-Interaktionsbewertung]
 
@@ -137,7 +137,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>
