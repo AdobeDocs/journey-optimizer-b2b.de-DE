@@ -3,11 +3,10 @@ title: E-Mail an Collaboration-Tools senden
 description: Zusammenarbeit bei E-Mails in Journey Optimizer B2B edition. Hinzufügen von Kommentaren, Einladen von Reviewern, Auflösen von Feedback und Optimierung von Review-Workflows für Teams.
 feature: Email Authoring, Content
 role: User
-hidefromtoc: true
-source-git-commit: 9cb77da73778c313392af1c42632d6b9e7e92f3b
+source-git-commit: 890e7dc012ac08fc112d647f1294f26ce096041b
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -63,7 +62,7 @@ Produktadministratoren können den Zugriff auf die Tools für die E-Mail-Zusamme
 
 Beim Erstellen, Bearbeiten oder Überprüfen von Inhalten im E-Mail-Design können Sie auf das Bedienfeld _Collaboration_ zugreifen, um Kommentare für den E-Mail-Inhalt hinzuzufügen oder zu verwalten.
 
-Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration![&#x200B; ( &#x200B;](../assets/do-not-localize/icon-comments.svg)Collaboration-Symbol ).
+Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration![ ( ](../assets/do-not-localize/icon-comments.svg)Collaboration-Symbol ).
 
 ![Symbol für das Collaboration-Bedienfeld im rechten Navigationsbereich des E-Mail-Designs](./assets/email-comments-right-nav-icon.png){width="700" zoomable="yes"}
 
@@ -71,9 +70,9 @@ Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration![&#x200B; (
 
 Sie können die Collaboration-Tools verwenden, um einem standardmäßigen Inhalts-Workflow zu folgen:
 
-1. [Laden Sie &#x200B;](#invite-collaborators-and-reviewers) Mitarbeiter und Prüfer ein.
+1. [Laden Sie ](#invite-collaborators-and-reviewers) Mitarbeiter und Prüfer ein.
 1. Reviewer [Kommentare hinzufügen](#add-comments).
-1. Lesen Sie Kommentare[&#x200B; fügen Sie Antworten &#x200B;](#reply-to-a-comment), um Feedback zu besprechen, und nehmen Sie die erforderlichen Änderungen vor.
+1. Lesen Sie Kommentare[ fügen Sie Antworten ](#reply-to-a-comment), um Feedback zu besprechen, und nehmen Sie die erforderlichen Änderungen vor.
 1. Reviewer oder Autoren [Kommentare auflösen](#resolve-comments).
 
 >[!BEGINSHADEBOX]
@@ -94,7 +93,7 @@ Sie können die Collaboration-Tools verwenden, um einem standardmäßigen Inhalt
 
 1. Wählen Sie den Textkörper der E-Mail aus.
 
-1. Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration![&#x200B; ( &#x200B;](../assets/do-not-localize/icon-comments.svg)Collaboration-Symbol ).
+1. Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration![ ( ](../assets/do-not-localize/icon-comments.svg)Collaboration-Symbol ).
 
 1. Geben Sie oben im rechten Bedienfeld Ihren Einladungstext ein, damit Benutzer zusammenarbeiten und Feedback geben können.
 
@@ -180,7 +179,7 @@ Sie können Ihr Kommentar-Protokoll bereinigen, indem Sie ihn entfernen und lös
 
 ### Gelöste Kommentare
 
-Standardmäßig werden aufgelöste Kommentare im Bedienfeld _Collaboration&rbrace;_. Sie können aufgelöste Kommentare jederzeit anzeigen, indem Sie den Filter löschen. Klicken Sie auf _Symbol_ Filtern![&#x200B; ( Symbol „Aufgelöste Kommentare filtern](../assets/do-not-localize/icon-filter.svg) ) und deaktivieren Sie das **[!UICONTROL Aufgelöste Kommentare ausblenden]**.
+Standardmäßig werden aufgelöste Kommentare im Bedienfeld _Collaboration}_. Sie können aufgelöste Kommentare jederzeit anzeigen, indem Sie den Filter löschen. Klicken Sie auf _Symbol_ Filtern![ ( Symbol „Aufgelöste Kommentare filtern](../assets/do-not-localize/icon-filter.svg) ) und deaktivieren Sie das **[!UICONTROL Aufgelöste Kommentare ausblenden]**.
 
 ![Collaboration-Bedienfeld mit Filter zum Anzeigen aufgelöster E-Mail-Kommentare](./assets/email-comments-filter-resolved.png){width="350"}
 
