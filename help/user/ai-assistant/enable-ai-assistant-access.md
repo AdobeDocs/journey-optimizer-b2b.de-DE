@@ -42,7 +42,7 @@ Wenn der/die Benutzende über die erforderlichen Berechtigungen verfügt, kann e
 
 Sehen Sie sich das folgende Video an, um zu erfahren, wie Sie den Zugriff auf den KI-Assistenten für Ihre Organisationen und Benutzer konfigurieren.
 
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3475928/?captions=ger&learn=on)
 
 ## Nächste Schritte
 
