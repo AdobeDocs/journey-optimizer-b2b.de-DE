@@ -2,11 +2,10 @@
 title: Persona-Zuordnung
 description: Erfahren Sie, wie Sie Personas für Account-basiertes Marketing konfigurieren, indem Sie Personenattribute zuordnen, um optimierte Rollenvorlagen für Einkaufsgruppen zu erstellen.
 feature: Setup, Buying Groups
-hide: true
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 role: Admin
-source-git-commit: e301dfd5ac1421eb73e80b1d772d1b17f9ef3a1e
+source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
