@@ -5,9 +5,9 @@ feature: Setup, Buying Groups
 hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 role: Admin
-source-git-commit: 05c70d7b27ba47633ec131782bcb7d269f809239
+source-git-commit: 521bfb3870e98dab85fbcabe711ed662e9b748d4
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -76,10 +76,7 @@ Verwenden Sie die Such- und Filter-Tools, um die gewünschte Rolle zu finden:
 
   ![Filtern Sie die angezeigten Ereignisdefinitionen](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* Klicken Sie oben links auf _Filter_-Symbol ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die angezeigte Liste mithilfe eines der folgenden Attribute zu filtern:
-
-   * ?
-   * ?
+* Klicken Sie _oben links auf_ Filter![ ( Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die angezeigte Liste nach Attribut zu filtern.
 
 ## Persona erstellen
 
@@ -114,7 +111,6 @@ Verwenden Sie die Such- und Filter-Tools, um die gewünschte Rolle zu finden:
 ## Persona bearbeiten
 
 1. Um auf die Details der Rolle zuzugreifen, klicken Sie auf den Namen.
-
 
 ## Persona löschen
 
