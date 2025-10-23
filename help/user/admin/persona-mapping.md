@@ -76,7 +76,7 @@ Verwenden Sie die Such- und Filter-Tools, um die gewünschte Rolle zu finden:
 
   ![Filtern Sie die angezeigten Ereignisdefinitionen](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
 
-* Klicken Sie _oben links auf_ Filter![ ( Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die angezeigte Liste nach Attribut zu filtern.
+* Klicken Sie _oben links auf_ Filter![&#x200B; ( Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die angezeigte Liste nach Attribut zu filtern.
 
 ## Persona erstellen
 
