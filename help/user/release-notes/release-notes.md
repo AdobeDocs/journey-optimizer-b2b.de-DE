@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition – bleiben Sie bezüglich neuer Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: fbb949da360e1e80e92fa34b2dd43a4de10011b9
-workflow-type: ht
-source-wordcount: '2996'
-ht-degree: 100%
+source-git-commit: c8cf78c8e393121e325ffc8c7876c80902289d11
+workflow-type: tm+mt
+source-wordcount: '3078'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,13 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Personen angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. |
 | Verbesserung | Journeys – Nach der Anzahl der Personen in der Rolle aufgeteilter Pfad | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Käufergruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine übereinstimmende Käufergruppe anzusprechen. [Weitere Informationen](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
+
+In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden agenten KI-Funktionen für Journey Optimizer B2B edition verfügbar:
+
+| Agent | Update | Beschreibung |
+| ----- | ------ | ----------- |
+| Journey Build Agent | Neu | Der Journey-Build-Agent analysiert, konzipiert und erstellt Journey in Echtzeit mit, sodass Marketing-Experten schneller starten, die Interaktion verbessern und höhere Konversionsraten erzielen können. [Weitere Informationen](../agents/journey-agent.md) |
+| Audience Agent | Neu | Audience Agent identifiziert und erstellt Kaufgruppen automatisch anhand strukturierter und unstrukturierter Daten. Es hilft Marketing-Experten, die richtigen Personen schneller und genauer anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
 
 >[!NOTE]
 >
