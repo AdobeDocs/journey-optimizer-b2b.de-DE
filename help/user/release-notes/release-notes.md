@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition – bleiben Sie bezüglich neuer Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: c8cf78c8e393121e325ffc8c7876c80902289d11
+source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 97%
+source-wordcount: '3384'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,34 @@ Adobe Journey Optimizer B2B Edition bietet kontinuierlich neue Funktionen, Verbe
 Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von dessen neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
+
+## Versionshinweise für 2025.10
+
+**Bereitstellungsdatum**: Samstag, 31. Oktober 2025
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Funktion | Modellbasierte benutzerdefinierte Schemata | Erstellen Sie benutzerdefinierte Schemata aus modellbasierten Klassen. |
+| Funktion | Für Ziel aktivieren | Verwenden Sie die neue Aktion _Für Ziel aktivieren_ Unternehmenskonto , um die Aktivierung direkt für Unternehmen und nicht für Einzelpersonen durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) |
+| Funktion | Markenthemen | Mit Marken-Designs können technisch nicht versierte Benutzende jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Designsprache passen, indem sie den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
+| Funktion | Persona-Zuordnung | Binden Sie Kontomitglieder an etablierte Personas mit Attributzuordnung. [Weitere Informationen](../admin/persona-mapping.md) |
+| Verbesserung | Einkauf von Gruppenwartungsaufträgen | Die Häufigkeit der Wartungsaufträge für die Einkaufsgruppe wird von wöchentlich auf täglich aktualisiert. |
+| Verbesserung | Account Journey Progress | Ein _Weitere Informationen_-Link für das Journey-Voranschreiten ist sichtbar, um auf Kontozählungen und Listen zuzugreifen. |
+
+<!-- M1.5 changes
+| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
+
+In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden agenten KI-Funktionen für Journey Optimizer B2B edition verfügbar:
+
+| Agent | Update | Beschreibung |
+| ----- | ------ | ----------- |
+| Account Qualification Agent | Neu | Ermitteln Sie mithilfe des Account Qualification Agent im KI-Assistenten, welche Konten für die nächste Phase bereit sind. Dieser Agent ermöglicht es Ihren Mitgliedern des Vertriebsteams, sich auf die richtigen Accounts zu konzentrieren, indem er hochwertige Leads aufdeckt und Qualifizierungs-Workflows automatisiert. [Weitere Informationen](../agents/account-qualification-agent.md) |
+
+>[!NOTE]
+>
+>Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am Samstag, 31. Oktober 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+
+
 <!-- hold for later release 
 
 | Feature | Landing pages | You can now create and publish landing pages in Journey Optimizer B2B Edition to support your journeys and programs. _(Previously a Beta program feature.)_ [Learn more](../content/landing-pages.md) |
@@ -34,6 +62,8 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | Zusammenarbeit an E-Mail-Inhalten | Sie können jetzt mit anderen Benutzenden von Journey Optimizer B2B Edition an einem E-Mail-Asset zusammenarbeiten und Kommentare abgeben. Sie können Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Benachrichtigungen sind auch als Pulse-Benachrichtigungen verfügbar. |
 | Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Personen angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. |
+| Funktion | Deduplizierung der E-Mail-Ermüdung | Sie können jetzt die E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass dieselbe E-Mail nicht mehrmals an dieselbe Adresse auf einer Journey gesendet wird. Doppelte Adressen werden blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
+| Funktion | Sales Insights für Salesforce und Dynamics | Mitglieder des Vertriebsteams können jetzt reifende Einkaufsgruppen und zugehörige Einblicke innerhalb einer Salesforce- oder Dynamics-Integration anzeigen, um neue Opportunities zu identifizieren. Die Details der Einkaufsgruppe wie Phase, Score und zugehörige Mitglieder sind enthalten. |
 | Verbesserung | Journeys – Nach der Anzahl der Personen in der Rolle aufgeteilter Pfad | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Käufergruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine übereinstimmende Käufergruppe anzusprechen. [Weitere Informationen](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
