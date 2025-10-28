@@ -1,12 +1,12 @@
 ---
 title: Versionshinweise zu Journey Optimizer B2B Edition
-description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition – bleiben Sie bezüglich neuer Funktionen und Produktverbesserungen auf dem Laufenden.
+description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 4bf03f99f146454658422d5b1dac184a108c802b
 workflow-type: tm+mt
-source-wordcount: '3384'
-ht-degree: 90%
+source-wordcount: '3490'
+ht-degree: 87%
 
 ---
 
@@ -24,15 +24,16 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Modellbasierte benutzerdefinierte Schemata | Erstellen Sie benutzerdefinierte Schemata aus modellbasierten Klassen. |
-| Funktion | Für Ziel aktivieren | Verwenden Sie die neue Aktion _Für Ziel aktivieren_ Unternehmenskonto , um die Aktivierung direkt für Unternehmen und nicht für Einzelpersonen durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) |
+| Funktion | Relationales Datenmodell | Nutzen Sie die relationalen Daten, die mit B2B-Konten verknüpft sind, um Konten innerhalb einer Konto-Journey zu filtern oder E-Mail-Inhalte zu personalisieren. Diese relationalen Daten können reale Geschäftsentitäten wie Kaufaufzeichnungen, Ereignisregistrierungen, Softwarelizenzen, Service-Abonnements oder Reservierungen darstellen. |
+| Funktion | Für Ziel für Journey aktivieren | Verwenden Sie die neue Aktion _Für Ziel aktivieren_ Unternehmenskonto , um die Aktivierung direkt für Unternehmen und nicht für Einzelpersonen durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) |
+| Funktion | Aktivierung mehrerer Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-bezogene Journey-Aktionen einzurichten. Diese Aktionen, z. B. das Hinzufügen oder Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
 | Funktion | Markenthemen | Mit Marken-Designs können technisch nicht versierte Benutzende jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Designsprache passen, indem sie den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
 | Funktion | Persona-Zuordnung | Binden Sie Kontomitglieder an etablierte Personas mit Attributzuordnung. [Weitere Informationen](../admin/persona-mapping.md) |
+| Funktion | Sales Insights für Salesforce und Dynamics | Mitglieder des Vertriebsteams können jetzt reifende Einkaufsgruppen und zugehörige Einblicke innerhalb einer Salesforce- oder Dynamics-Integration anzeigen, um neue Opportunities zu identifizieren. Die Details der Einkaufsgruppe wie Phase, Score und zugehörige Mitglieder sind enthalten. |
+| Verbesserung | Deduplizierung der E-Mail-Ermüdung | Sie können jetzt die E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass dieselbe E-Mail nicht mehrmals an dieselbe Adresse auf einer Journey gesendet wird. Doppelte Adressen werden blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
+| Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B edition. |
 | Verbesserung | Einkauf von Gruppenwartungsaufträgen | Die Häufigkeit der Wartungsaufträge für die Einkaufsgruppe wird von wöchentlich auf täglich aktualisiert. |
 | Verbesserung | Account Journey Progress | Ein _Weitere Informationen_-Link für das Journey-Voranschreiten ist sichtbar, um auf Kontozählungen und Listen zuzugreifen. |
-
-<!-- M1.5 changes
-| Enhancement | Buying group scoring | The Buying Group completeness score is improved, including the ability to customize how the score is calculated. | -->
 
 In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden agenten KI-Funktionen für Journey Optimizer B2B edition verfügbar:
 
@@ -43,7 +44,6 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden agenten K
 >[!NOTE]
 >
 >Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am Samstag, 31. Oktober 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
-
 
 <!-- hold for later release 
 
@@ -62,8 +62,6 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | Zusammenarbeit an E-Mail-Inhalten | Sie können jetzt mit anderen Benutzenden von Journey Optimizer B2B Edition an einem E-Mail-Asset zusammenarbeiten und Kommentare abgeben. Sie können Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Benachrichtigungen sind auch als Pulse-Benachrichtigungen verfügbar. |
 | Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Personen angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. |
-| Funktion | Deduplizierung der E-Mail-Ermüdung | Sie können jetzt die E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass dieselbe E-Mail nicht mehrmals an dieselbe Adresse auf einer Journey gesendet wird. Doppelte Adressen werden blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
-| Funktion | Sales Insights für Salesforce und Dynamics | Mitglieder des Vertriebsteams können jetzt reifende Einkaufsgruppen und zugehörige Einblicke innerhalb einer Salesforce- oder Dynamics-Integration anzeigen, um neue Opportunities zu identifizieren. Die Details der Einkaufsgruppe wie Phase, Score und zugehörige Mitglieder sind enthalten. |
 | Verbesserung | Journeys – Nach der Anzahl der Personen in der Rolle aufgeteilter Pfad | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Käufergruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine übereinstimmende Käufergruppe anzusprechen. [Weitere Informationen](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
