@@ -3,7 +3,7 @@ title: Account Qualification Agent für B2B
 description: Erfahren Sie mehr über die KI-gestützte Account Qualification Agent für B2B-Vertriebsteams, um die Pipeline-Generierung mit automatisierter Interessentenforschung, Account Insights und E-Mail-Entwürfen zu beschleunigen.
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 79a4c897621c7af68c4c17382673124cdc14d8af
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Account Qualification Agent für B2B
 
->[!NOTE]
->Diese Funktion ist derzeit nur eingeschränkt verfügbar und steht nicht allen Benutzern zur Verfügung.
+>[!AVAILABILITY]
 >
+>Diese Funktion ist derzeit nur eingeschränkt verfügbar und steht nicht allen Benutzern zur Verfügung.
 
 Account Qualification Agent ist ein KI-gestützter Assistent für Kundenbetreuer. Es optimiert und automatisiert die zentralen Workflows für die Verkaufsentwicklung, reduziert den manuellen Overhead erheblich und beschleunigt die Pipeline-Generierung.
 
