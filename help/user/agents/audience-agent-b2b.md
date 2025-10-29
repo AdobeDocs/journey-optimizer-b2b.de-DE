@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Audience Agent für B2B
 
-Mit [Adobe Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) ist Audience Agent B2B in Journey Optimizer B2B edition verfügbar. Die Verwendung dieses Agenten verbessert die Effizienz und Effektivität beim Erkunden und Skalieren von Zielgruppen, beschleunigt die Erstellung von Einkaufsgruppen und bietet nahtlose Workflows für die Journey-Aktivierung:
+Mit [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) ist Audience Agent B2B in Journey Optimizer B2B edition verfügbar. Die Verwendung dieses Agenten verbessert die Effizienz und Effektivität beim Erkunden und Skalieren von Zielgruppen, beschleunigt die Erstellung von Einkaufsgruppen und bietet nahtlose Workflows für die Journey-Aktivierung:
 
 * **_Priorisieren der Zielgruppen nach Intent_**: Ziehen Sie Personas auf der Grundlage des Produktintents für verschiedene Zielgruppen in den Schluss und optimieren Sie die Kampagnenplanung, indem Sie die Zeit für die Audience-Validierung reduzieren.
 
@@ -433,7 +433,7 @@ Audience Agent nutzt die in Journey Optimizer B2B edition erkannte First-Party-A
 1. Bezeichnete Assets (Ereignisdaten) werden mit dem Verhalten der Besucher (Anzahl der besuchten Seiten) kombiniert, um eine Besucherabsicht auf Keyword-, Produkt- und Produktkategorieebene → die Absichtsberechnung zu bestimmen
 1. Absichtsbewertungen auf Besucherprofilebene werden auf Kontoebene aggregiert, um die Kontoabsicht in einem bestimmten Keyword, einer bestimmten Produkt- und Produktkategorie > Absichtskonto-Aggregation zu bestimmen
 
-Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder ](../admin/intent-data.md):
+Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x200B;](../admin/intent-data.md):
 
 <table>
   <tbody>
