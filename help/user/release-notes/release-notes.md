@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
+source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 85%
+source-wordcount: '3644'
+ht-degree: 81%
 
 ---
 
@@ -17,6 +17,16 @@ Adobe Journey Optimizer B2B Edition bietet kontinuierlich neue Funktionen, Verbe
 Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von dessen neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest){target="_blank"}.
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
+
+## Agent-KI-Funktionen
+
+In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden agenten KI-Funktionen für Journey Optimizer B2B edition verfügbar:
+
+| Agent | Update | Beschreibung |
+| ----- | ------ | ----------- |
+| Journey Build Agent | Neu | Der Journey-Build-Agent analysiert, konzipiert und erstellt Journey in Echtzeit mit, sodass Marketing-Experten schneller starten, die Interaktion verbessern und höhere Konversionsraten erzielen können. [Weitere Informationen](../agents/journey-agent.md) |
+| Audience Agent | Neu | Audience Agent identifiziert und erstellt Kaufgruppen automatisch anhand strukturierter und unstrukturierter Daten. Es hilft Marketing-Experten, die richtigen Personen schneller und genauer anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
+| Account Qualification Agent | Neu | Ermitteln Sie mithilfe des Account Qualification Agent im KI-Assistenten, welche Konten für die nächste Phase bereit sind. Dieser Agent ermöglicht es Ihren Mitgliedern des Vertriebsteams, sich auf die richtigen Accounts zu konzentrieren, indem er hochwertige Leads aufdeckt und Qualifizierungs-Workflows automatisiert. [Weitere Informationen](../agents/account-qualification-agent.md) |
 
 ## Versionshinweise für 2025.10
 
@@ -36,15 +46,20 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Verbesserung | Einkauf von Gruppenwartungsaufträgen | Die Häufigkeit der Wartungsaufträge für die Einkaufsgruppe wird von wöchentlich auf täglich aktualisiert. |
 | Verbesserung | Account Journey Progress | Ein _Weitere Informationen_-Link für das Journey-Voranschreiten ist sichtbar, um auf Kontozählungen und Listen zuzugreifen. |
 
-In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden agenten KI-Funktionen für Journey Optimizer B2B edition verfügbar:
-
-| Agent | Update | Beschreibung |
-| ----- | ------ | ----------- |
-| Account Qualification Agent | Neu | Ermitteln Sie mithilfe des Account Qualification Agent im KI-Assistenten, welche Konten für die nächste Phase bereit sind. Dieser Agent ermöglicht es Ihren Mitgliedern des Vertriebsteams, sich auf die richtigen Accounts zu konzentrieren, indem er hochwertige Leads aufdeckt und Qualifizierungs-Workflows automatisiert. [Weitere Informationen](../agents/account-qualification-agent.md) |
-
 >[!NOTE]
 >
->Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am Samstag, 31. Oktober 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+>Diese Versionsänderungen beginnen mit der Bereitstellung am 31. Oktober 2025 mit einem schrittweisen Rollout jeder Funktion. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+
+### Vereinfachte Architektur
+
+Adobe Journey Optimizer B2B edition ist jetzt in einer vereinfachten Architektur verfügbar. Mit dieser aktualisierten Architektur befinden sich Journey Optimizer B2B edition und Marketo Engage nicht mehr im selben System und in demselben Datenspeicher. Journey Optimizer B2B edition empfängt Daten nur von Adobe Experience Platform. Sie ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Konfigurationsfunktionen angewiesen, um das System bereitzustellen und zu konfigurieren.
+
+Diese aktualisierte Architektur bietet mehrere Vorteile:
+
+* **Vereinheitlichen und Skalieren Ihrer Daten**: Die aktualisierte Plattform unterstützt komplexe Datenmodelle, einschließlich benutzerdefinierter Objekte, Einkaufsgruppen und Kontoereignisse.
+* **Mehrere Adobe Marketo Engage-Instanzen verbinden**: Daten aus mehreren Adobe Marketo Engage-Umgebungen an einem Ort verwalten und vereinheitlichen.
+* **Schützen Sie Ihre Daten**: Erweiterte Datenschutz- und Sicherheitsfunktionen helfen Ihnen, Ihre Kundendaten zu schützen.
+* **Für die Zukunft entwickelt**: Dieses Update setzt Ihr Unternehmen auf kontinuierliche Verbesserungen und Innovationen.
 
 <!-- hold for later release 
 
@@ -66,16 +81,9 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Journeys – Nach der Anzahl der Personen in der Rolle aufgeteilter Pfad | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Käufergruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine übereinstimmende Käufergruppe anzusprechen. [Weitere Informationen](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
-In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden agenten KI-Funktionen für Journey Optimizer B2B edition verfügbar:
-
-| Agent | Update | Beschreibung |
-| ----- | ------ | ----------- |
-| Journey Build Agent | Neu | Der Journey-Build-Agent analysiert, konzipiert und erstellt Journey in Echtzeit mit, sodass Marketing-Experten schneller starten, die Interaktion verbessern und höhere Konversionsraten erzielen können. [Weitere Informationen](../agents/journey-agent.md) |
-| Audience Agent | Neu | Audience Agent identifiziert und erstellt Kaufgruppen automatisch anhand strukturierter und unstrukturierter Daten. Es hilft Marketing-Experten, die richtigen Personen schneller und genauer anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-
 >[!NOTE]
 >
->Die Veröffentlichungsänderungen beginnen mit der Bereitstellung am 30. September 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+>Diese Versionsänderungen beginnen mit der Bereitstellung am 30. September 2025 mit einem schrittweisen Rollout jeder Funktion. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2025.8
 
