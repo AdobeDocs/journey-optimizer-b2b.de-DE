@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 5a18826c9739bcf3ee86f995700d2a209e9b6ae1
+source-git-commit: 7b36124cf830b5cdb980a1288d3870843a10fed2
 workflow-type: tm+mt
-source-wordcount: '3494'
-ht-degree: 86%
+source-wordcount: '3522'
+ht-degree: 85%
 
 ---
 
@@ -26,9 +26,10 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | ---- | ---- | ----------- |
 | Funktion | Relationales Datenmodell | Nutzen Sie die relationalen Daten, die mit B2B-Konten verknüpft sind, um Konten innerhalb einer Konto-Journey zu filtern oder E-Mail-Inhalte zu personalisieren. Diese relationalen Daten können reale Geschäftsentitäten wie Kaufaufzeichnungen, Ereignisregistrierungen, Softwarelizenzen, Service-Abonnements oder Reservierungen darstellen. |
 | Funktion | Für Ziel für Journey aktivieren | Verwenden Sie die neue Aktion _Für Ziel aktivieren_ Unternehmenskonto , um die Aktivierung direkt für Unternehmen und nicht für Einzelpersonen durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) |
-| Funktion | Aktivierung mehrerer Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-bezogene Journey-Aktionen einzurichten. Diese Aktionen, z. B. das Hinzufügen oder Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
+| Funktion | Aktivierung mehrerer Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-Aktionen von Journey einzurichten. Diese Aktionen, z. B. das Hinzufügen/Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
 | Funktion | Markenthemen | Mit Marken-Designs können technisch nicht versierte Benutzende jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Designsprache passen, indem sie den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
-| Funktion | Persona-Zuordnung | Binden Sie Kontomitglieder an etablierte Personas mit Attributzuordnung. [Weitere Informationen](../admin/persona-mapping.md) |
+| Funktion | E-Mail-Vorlagen - Bild in HTML konvertieren | Sie können jetzt Ihre als JPG- oder PNG-Bilddateien gespeicherten Design-Dateien verwenden und automatisch E-Mail-Vorlagen generieren. [Weitere Informationen](../content/email-template-image-convert.md) |
+| Funktion | Persona-Mapping | Binden Sie Kontomitglieder an etablierte Personas mit Attributzuordnung. [Weitere Informationen](../admin/persona-mapping.md) |
 | Funktion | Sales Insights für Salesforce und Dynamics | Mitglieder des Vertriebsteams können jetzt reifende Einkaufsgruppen und zugehörige Einblicke innerhalb einer Salesforce- oder Dynamics-Integration anzeigen, um neue Opportunities zu identifizieren. Die Details der Einkaufsgruppe wie Phase, Score und zugehörige Mitglieder sind enthalten. |
 | Verbesserung | Deduplizierung der E-Mail-Ermüdung | Sie können jetzt die E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass dieselbe E-Mail nicht mehrmals an dieselbe Adresse auf einer Journey gesendet wird. Doppelte Adressen werden blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
 | Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B edition. |
