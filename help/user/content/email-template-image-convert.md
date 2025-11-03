@@ -2,7 +2,7 @@
 title: Konvertieren eines Bildes in eine E-Mail-Vorlage
 description: Wandeln Sie mit Journey Optimizer B2B edition Bilddateien in HTML-E-Mail-Vorlagen um. Laden Sie PNG/JPEG-Dateien hoch und generieren Sie automatisch wiederverwendbare E-Mail-Inhalte.
 feature: Email Authoring, Content
-source-git-commit: afac631110f27c59f73aaf4761e3739c772258be
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -11,11 +11,9 @@ ht-degree: 0%
 
 # Konvertieren eines Bildes in eine E-Mail-Vorlage
 
-Sie können problemlos als Bilder gespeicherte Design-Dateien (PNG oder JPEG) in eine für E-Mail-Vorlagen geeignete HTML konvertieren und so Ihrem Web-Team wertvolle Zeit und Ressourcen ersparen.
-
 Das Erstellen und Aktualisieren von E-Mail-Vorlagen ist eine grundlegende Komponente in Ihrem Marketing-Content-supply chain. Aufgrund der manuellen HTML-Codierung sind für diese Aufgaben jedoch häufig viel Zeit und Ressourcen erforderlich. Marketing-Teams haben sich bei der Entwicklung dieser Vorlagen traditionell auf Agenturen oder IT-Teams verlassen. Das neue Tool „Bild-zu-HTML&quot; für E-Mail-Vorlagen vereinfacht diesen Prozess, indem es Marketern ermöglicht, Design-Dateien in HTML-Code-Vorlagen zu konvertieren. Der konvertierte HTML ist für die weitere Bearbeitung im E-Mail-Design-Bereich bereit. Dieses Tool unterstützt sowohl JPEG- als auch PNG-Dateitypen und verfügt über eine Drag-and-Drop-Oberfläche.
 
-Der intuitive Vorlagengenerator konvertiert Bilder in HTML-Code-Vorlagen, die mit den E-Mail-Design-Tools bearbeitet werden können. Marketing-Experten oder Design-Profis können ein Bild hochladen und schnell eine E-Mail-Vorlage generieren, ohne dass eine manuelle HTML-Codierung erforderlich ist. Dieses Tool unterstützt die Konvertierung von JPEG- und PNG-Dateitypen in HTML-codierte E-Mail-Vorlagen.
+Sie können problemlos als Bilder gespeicherte Design-Dateien (PNG oder JPEG) in eine für E-Mail-Vorlagen geeignete HTML konvertieren und so Ihrem Web-Team wertvolle Zeit und Ressourcen ersparen. Der intuitive Vorlagengenerator konvertiert Bilder in HTML-codierte E-Mail-Vorlagen, die mit den E-Mail-Design-Tools bearbeitet werden können. Marketing-Experten oder Design-Profis können ein Bild hochladen und schnell eine E-Mail-Vorlage generieren, ohne dass eine manuelle HTML-Codierung erforderlich ist. Dieses Tool unterstützt die Konvertierung von JPEG- und PNG-Dateitypen in HTML-codierte E-Mail-Vorlagen.
 
 >[!BEGINSHADEBOX]
 

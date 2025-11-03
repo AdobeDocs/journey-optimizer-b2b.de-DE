@@ -4,7 +4,7 @@ description: Wiederverwendbare E-Mail-Vorlagen von Grund auf neu erstellen, HTML
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: d97a05899e4fff784924c3db0aa941232d169944
+source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # E-Mail-Vorlagen
 
-Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige E-Mail-Vorlagen erstellen, um benutzerdefinierte Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] Account-Journey wiederzuverwenden. Mithilfe von Vorlagen können Ihre inhaltsorientierten Team-Mitglieder an E-Mail-Inhalten außerhalb von Journey arbeiten. Marketing-Strategen können diese eigenständigen Vorlagen dann in ihren Account-Journey wiederverwenden und anpassen. Beispielsweise ist ein Teammitglied nur für den Inhalt verantwortlich, es hat jedoch keinen Zugriff auf die Journey des Kontos. Sie können jedoch eine E-Mail-Vorlage erstellen, die Marketing-Experten als Ausgangspunkt für E-Mail-Nachrichten auswählen und entsprechend den Anforderungen für den Journey anpassen können.
+Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige E-Mail-Vorlagen erstellen, um Ihre benutzerdefinierten Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] Account-Journey wiederzuverwenden. Mithilfe von Vorlagen können Ihre inhaltsorientierten Team-Mitglieder an E-Mail-Inhalten außerhalb von Journey arbeiten. Marketing-Strategen können diese eigenständigen Vorlagen dann in ihren Journey wiederverwenden und anpassen. Beispielsweise ist ein Teammitglied nur für den Inhalt verantwortlich, es hat jedoch keinen Zugriff auf die Journey des Kontos. Sie können jedoch eine E-Mail-Vorlage erstellen, die Marketing-Experten als Ausgangspunkt für E-Mail-Nachrichten auswählen und entsprechend den Anforderungen für den Journey anpassen können.
 
 ## Zugreifen auf und Verwalten von E-Mail-Vorlagen
 
@@ -27,7 +27,7 @@ Um nach einer Vorlage anhand des Namens zu suchen, geben Sie eine Textzeichenfol
 
 ![Greifen Sie auf die E-Mail-Vorlagenbibliothek zu und filtern Sie nach Name und Datum](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
 Aus der angezeigten Vorlagenliste können Sie die in den folgenden Abschnitten beschriebenen Aktionen durchführen.
 
@@ -134,7 +134,7 @@ Diese Aktion kann übernommen werden aus:
 * Die Detailseite - Klicken Sie auf **[!UICONTROL E-Mail-Vorlage bearbeiten]**.
 * Die Auflistungsseite - Klicken Sie auf die Auslassungspunkte (**…**) neben einer E-Mail-Vorlage und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der E-Mail-Vorlage). Von hier aus können Sie den Inhalt Ihrer E-Mail-Vorlage nach Bedarf bearbeiten. Weitere [&#x200B; zu den Bearbeitungsoptionen finden Sie &#x200B;](#create-email-templates) „E-Mail-Vorlagen erstellen“.
+Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der E-Mail-Vorlage). Von hier aus können Sie den Inhalt Ihrer E-Mail-Vorlage nach Bedarf bearbeiten. Weitere [ zu den Bearbeitungsoptionen finden Sie ](#create-email-templates) „E-Mail-Vorlagen erstellen“.
 
 ## E-Mail-Vorlagen duplizieren
 
