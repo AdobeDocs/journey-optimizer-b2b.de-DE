@@ -1,12 +1,12 @@
 ---
 title: Versionshinweise zu Journey Optimizer B2B Edition
-description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
+description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
 workflow-type: tm+mt
 source-wordcount: '3644'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
@@ -20,31 +20,31 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 ## Agent-KI-Funktionen
 
-In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden agenten KI-Funktionen für Journey Optimizer B2B edition verfügbar:
+In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-basierten KI-Funktionen für Journey Optimizer B2B Edition verfügbar:
 
 | Agent | Update | Beschreibung |
 | ----- | ------ | ----------- |
-| Journey Build Agent | Neu | Der Journey-Build-Agent analysiert, konzipiert und erstellt Journey in Echtzeit mit, sodass Marketing-Experten schneller starten, die Interaktion verbessern und höhere Konversionsraten erzielen können. [Weitere Informationen](../agents/journey-agent.md) |
-| Audience Agent | Neu | Audience Agent identifiziert und erstellt Kaufgruppen automatisch anhand strukturierter und unstrukturierter Daten. Es hilft Marketing-Experten, die richtigen Personen schneller und genauer anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | Neu | Ermitteln Sie mithilfe des Account Qualification Agent im KI-Assistenten, welche Konten für die nächste Phase bereit sind. Dieser Agent ermöglicht es Ihren Mitgliedern des Vertriebsteams, sich auf die richtigen Accounts zu konzentrieren, indem er hochwertige Leads aufdeckt und Qualifizierungs-Workflows automatisiert. [Weitere Informationen](../agents/account-qualification-agent.md) |
+| Journey Build Agent | Neu | Der Journey Build Agent analysiert und konzipiert Journeys und gestaltet diese in Echtzeit mit. Dies versetzt Marketing-Fachleute in die Lage, Launches zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten zu erzielen. [Weitere Informationen](../agents/journey-agent.md) |
+| Audience Agent | Neu | Audience Agent identifiziert und erstellt Käufergruppen automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
+| Account Qualification Agent | Neu | Ermitteln Sie mithilfe des Account Qualification Agent im KI-Assistenten, welche Konten für den nächsten Schritt bereit sind. Dieser Agent ermöglicht es den Mitgliedern Ihres Vertriebs-Teams, sich auf die richtigen Konten zu konzentrieren, indem er hochwertige Leads anzeigt und Qualifizierungs-Workflows automatisiert. [Weitere Informationen](../agents/account-qualification-agent.md) |
 
 ## Versionshinweise für 2025.10
 
-**Bereitstellungsdatum**: Samstag, 31. Oktober 2025
+**Bereitstellungsdatum**: 31. Oktober 2025
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Relationales Datenmodell | Nutzen Sie die relationalen Daten, die mit B2B-Konten verknüpft sind, um Konten innerhalb einer Konto-Journey zu filtern oder E-Mail-Inhalte zu personalisieren. Diese relationalen Daten können reale Geschäftsentitäten wie Kaufaufzeichnungen, Ereignisregistrierungen, Softwarelizenzen, Service-Abonnements oder Reservierungen darstellen. |
-| Funktion | Für Ziel für Journey aktivieren | Verwenden Sie die neue Aktion _Für Ziel aktivieren_ Unternehmenskonto , um die Aktivierung direkt für Unternehmen und nicht für Einzelpersonen durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) |
-| Funktion | Aktivierung mehrerer Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-Aktionen von Journey einzurichten. Diese Aktionen, z. B. das Hinzufügen/Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
-| Funktion | Markenthemen | Mit Marken-Designs können technisch nicht versierte Benutzende jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Designsprache passen, indem sie den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
+| Funktion | Relationales Datenmodell | Nutzen Sie die relationalen Daten, die mit B2B-Konten verknüpft sind, um Konten innerhalb einer Konto-Journey zu filtern oder E-Mail-Inhalte zu personalisieren. Diese relationalen Daten können reale Geschäftsobjekte wie Kaufnachweise, Veranstaltungsregistrierungen, Software-Lizenzen, Service-Abonnements oder Reservierungen darstellen. |
+| Funktion | „Für Ziel aktivieren“ für Journeys | Verwenden Sie die neue Firmenkontoaktion _Für Ziel aktivieren_, um die Aktivierung direkt für Unternehmen statt für Kontakte durchzuführen. (Für diese Version auf LinkedIn-Firmen beschränkt.) |
+| Funktion | Mehrfach-Aktivierung für Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-Aktionen von Journey einzurichten. Diese Aktionen, z. B. das Hinzufügen/Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
+| Funktion | Markenthemen | Mit Markenthemen können technisch nicht versierte Benutzerinnen und Benutzer jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Design-Sprache passen, indem sie zusätzlich zu den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
 | Funktion | E-Mail-Vorlagen - Bild in HTML konvertieren | Sie können jetzt Ihre als JPG- oder PNG-Bilddateien gespeicherten Design-Dateien verwenden und automatisch E-Mail-Vorlagen generieren. [Weitere Informationen](../content/email-template-image-convert.md) |
-| Funktion | Persona-Mapping | Binden Sie Kontomitglieder an etablierte Personas mit Attributzuordnung. [Weitere Informationen](../admin/persona-mapping.md) |
-| Funktion | Sales Insights für Salesforce und Dynamics | Mitglieder des Vertriebsteams können jetzt reifende Einkaufsgruppen und zugehörige Einblicke innerhalb einer Salesforce- oder Dynamics-Integration anzeigen, um neue Opportunities zu identifizieren. Die Details der Einkaufsgruppe wie Phase, Score und zugehörige Mitglieder sind enthalten. |
-| Verbesserung | Deduplizierung der E-Mail-Ermüdung | Sie können jetzt die E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass dieselbe E-Mail nicht mehrmals an dieselbe Adresse auf einer Journey gesendet wird. Doppelte Adressen werden blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
-| Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B edition. |
-| Verbesserung | Einkauf von Gruppenwartungsaufträgen | Die Häufigkeit der Wartungsaufträge für die Einkaufsgruppe wird von wöchentlich auf täglich aktualisiert. |
-| Verbesserung | Account Journey Progress | Ein _Weitere Informationen_-Link für das Journey-Voranschreiten ist sichtbar, um auf Kontozählungen und Listen zuzugreifen. |
+| Funktion | Persona-Mapping | Verknüpfen Sie Kontomitglieder mithilfe von Attributzuordnungen mit etablierten Personas. [Weitere Informationen](../admin/persona-mapping.md) |
+| Funktion | Vertriebserkenntnisse für Salesforce und Dynamics | Mitglieder des Vertriebs-Teams können jetzt Käufergruppen mit zunehmendem Reifegrad und zugehörige Erkenntnisse innerhalb einer Salesforce- oder Dynamics-Integration anzeigen lassen, um neue Opportunities zu identifizieren. Darin eingeschlossen sind Angaben zur Käufergruppe wie Phase, Bewertung und zugehörige Mitglieder. |
+| Verbesserung | Deduplizierung bei E-Mail-Müdigkeit | Sie können jetzt E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass eine E-Mail im Rahmen einer Journey nicht mehrmals an dieselbe Adresse geschickt wird. Doppelte Adressen werden gesperrt, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
+| Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B Edition. |
+| Verbesserung | Aufträge zur Wartung von Käufergruppen | Die Häufigkeit der Aufträge zur Wartung von Käufergruppen wird von wöchentlich auf täglich geändert. |
+| Verbesserung | Fortschritt der Konto-Journey | Der Link _Weitere Informationen_ wird für den Journey-Fortschritt angezeigt, der den Zugriff auf die Kontoanzahlen und Listen ermöglicht. |
 
 >[!NOTE]
 >
@@ -76,8 +76,8 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Zusammenarbeit an E-Mail-Inhalten | Sie können jetzt mit anderen Benutzenden von Journey Optimizer B2B Edition an einem E-Mail-Asset zusammenarbeiten und Kommentare abgeben. Sie können Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Die Benachrichtigung ist auch als Impuls-Benachrichtigung verfügbar. [Weitere Informationen](../content/email-collaboration-tools.md) |
-| Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Empfänger angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. [Weitere Informationen](../content/email-dark-mode.md) |
+| Funktion | Zusammenarbeit an E-Mail-Inhalten | Sie können jetzt mit anderen Benutzenden von Journey Optimizer B2B Edition an einem E-Mail-Asset zusammenarbeiten und Kommentare abgeben. Sie können Team-Mitglieder taggen, damit sie eine E-Mail-Benachrichtigung mit den Details des Kommentars erhalten. Benachrichtigungen sind auch als Pulse-Benachrichtigungen verfügbar. [Weitere Informationen](../content/email-collaboration-tools.md) |
+| Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Personen angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. [Weitere Informationen](../content/email-dark-mode.md) |
 | Verbesserung | Journeys – Nach der Anzahl der Personen in der Rolle aufgeteilter Pfad | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Käufergruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#buying-group-filtering-for-accounts) |
 | Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine übereinstimmende Käufergruppe anzusprechen. [Weitere Informationen](../journeys/listen-for-event-nodes.md#add-filters-to-the-people-event) |
 
