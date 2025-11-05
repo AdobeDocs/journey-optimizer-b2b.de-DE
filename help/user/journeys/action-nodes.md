@@ -261,4 +261,4 @@ Wenn das Personenprofil nicht Mitglied der Smart-Liste war, wird die Aktion igno
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443254/?captions=ger&learn=on)
