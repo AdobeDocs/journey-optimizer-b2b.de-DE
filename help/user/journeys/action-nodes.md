@@ -4,10 +4,10 @@ description: Konfigurieren von Aktionsknoten für Konto- und Personenaktionen - 
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 17cdface550fc5bcc8050cd10880929885dfe27c
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 3%
+source-wordcount: '1475'
+ht-degree: 2%
 
 ---
 
@@ -49,6 +49,36 @@ Verwenden Sie eine Aktion für Konten, wenn Sie eine Änderung auf alle Personen
 1. Wählen Sie eine Aktion aus der Liste aus und legen Sie beliebige Werte für die Aktion fest.
 
    ![Journey-Knoten - Aktion für ein Konto durchführen](./assets/node-take-action-account.png){width="700" zoomable="yes"}
+
+>[!BEGINSHADEBOX]
+
+### Für ein LinkedIn-Ziel aktivieren
+
+Verwenden Sie die Aktion _Für Ziel aktivieren_ für Konten, um Konten für Experience Platform-Ziele direkt von Ihrem Journey aus zu aktivieren. Diese Aktion ermöglicht es Ihnen, qualifizierte Konten (basierend auf Kaufgruppenfiltern, Interaktionswerten und anderen Kriterien) in übereinstimmende Zielgruppen in unterstützten Zielen zu übertragen. IT
+
+Ab Version 2025.10 ist **_LinkedIn_** der erste unterstützte Zieltyp. Verwenden Sie die Aktion für ein LinkedIn-Ziel, um die Kampagnenausführung zu optimieren, indem Sie Übergaben an mehrere Systeme eliminieren und die Latenz reduzieren. Als Marketing-Experte können Sie beispielsweise automatisch Konten mit hohen Absichten für das Retargeting aktivieren, wenn wichtige Kaufrollen fehlen, oder inaktive Konten basierend auf Inaktivitätsfiltern erneut aktivieren.
+
+Weitere Informationen zur Verwendung von mit dem Konto übereinstimmenden Zielgruppen für ein LinkedIn-Ziel finden Sie unter [Mit dem Konto übereinstimmende Zielgruppen](../data/linkedin-account-matched-audiences.md).
+
++++ Festlegen der Aktivierung von Konten für ein LinkedIn-Ziel
+
+1. Wenn der Knoten _Aktion ausführen_ auf der Arbeitsfläche &quot;Journey&quot; ausgewählt ist, legen Sie **[!UICONTROL Aktion für Konten]** auf **[!UICONTROL Für Ziel aktivieren]** fest.
+
+1. Klicken Sie **[!UICONTROL Ziel auswählen]**.
+
+   ![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren](./assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
+
+1. Wählen Sie im Dialogfeld das konfigurierte LinkedIn-Ziel aus und klicken Sie auf **[!UICONTROL Speichern]**.
+
+![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren - Dialogfeld „Ziel auswählen“](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+
+1. Geben Sie den **[!UICONTROL Zielgruppennamen]** ein, der zur Identifizierung der aktivierten Zielgruppe im Ziel verwendet wird.
+
+   ![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren - Abgeschlossene Einstellungen](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
+
++++
+
+>[!ENDSHADEBOX]
 
 ## Personenaktionen
 
@@ -97,7 +127,7 @@ Verwenden Sie diese Aktion, um Personen zu einer externen Zielgruppe zu pushen, 
 
 ![Aktion durchführen - Hinzufügen zu einer externen Kundenzielgruppe](./assets/node-action-add-to-external-audience-options.png){width="300"}
 
-Wenn Sie diese personenbasierte Aktion auswählen, können Sie eine neue externe Zielgruppe erstellen oder aus einer vorhandenen externen Zielgruppe auswählen. Bei bestehenden Zielgruppen können Sie aus externen Kundenzielgruppen wählen, die nur in Journey Optimizer B2B edition erstellt wurden. Wenn Sie eine Zielgruppe erstellen und für diese Journey-Aktion verwenden, stellen Sie sicher, dass Sie eine Verbindung mit dem Ziel herstellen. Weitere Informationen finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} und [Aktivierung - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in der Dokumentation zu Experience Platform.
+Wenn Sie diese personenbasierte Aktion auswählen, können Sie eine neue externe Zielgruppe erstellen oder aus einer vorhandenen externen Zielgruppe auswählen. Bei bestehenden Zielgruppen können Sie aus externen Kundenzielgruppen wählen, die nur in Journey Optimizer B2B edition erstellt wurden. Wenn Sie eine Zielgruppe erstellen und für diese Journey-Aktion verwenden, stellen Sie sicher, dass Sie eine Verbindung mit dem Ziel herstellen. Weitere Informationen finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} und [Aktivierung - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in der Dokumentation zu Experience Platform.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoübersicht über die Orchestrierung bezahlter Medien ansehen](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -133,7 +163,7 @@ _So verwenden Sie eine vorhandene Zielgruppe :_
 
 +++[!UICONTROL Der Einkaufsgruppe zuweisen]
 
-Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [&#x200B; und einer ausgewählten Rolle &#x200B;](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [ und einer ausgewählten Rolle ](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
 
 ![Aktion ausführen - Zu Einkaufsgruppe hinzufügen](./assets/node-action-add-to-buying-group.png){width="300"}
 
@@ -141,7 +171,7 @@ Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten
 
 +++[!UICONTROL Ändern des Datenwerts]
 
-Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[&#x200B; zu &#x200B;](../data/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
+Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[ zu ](../data/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
 
 ![Aktion ausführen - Datenwert ändern](./assets/node-action-change-data-value.png){width="300"}
 
@@ -149,7 +179,7 @@ Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[&#x200B
 
 +++[!UICONTROL Punktzahl ändern]
 
-Verwenden Sie diese Aktion, um die Punktzahl der Person in Marketo Engage zu ändern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
+Verwenden Sie diese Aktion, um die Punktzahl der Person in Marketo Engage zu ändern. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/marketo-learn/tutorials/lead-and-data-management/lead-scoring-learn){target="_blank"}
 
 ![Aktion ausführen - Punktzahl ändern](./assets/node-action-change-score.png){width="300"}
 
@@ -165,7 +195,7 @@ Verwenden Sie diese Aktion, um einen interessanten Moment für Personen zu proto
 
 +++[!UICONTROL Aus Einkaufsgruppe entfernen]
 
-Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ &#x200B;](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
+Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ ](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
 
 ![Aktion ausführen - Zu Einkaufsgruppe hinzufügen](./assets/node-action-remove-from-buying-group.png){width="300"}
 
@@ -173,7 +203,7 @@ Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ &#x2
 
 +++[!UICONTROL E-Mail senden]
 
-Verwenden Sie diese Aktion, um eine E-Mail zu senden. Nachdem Sie [E-Mail erstellen](../content/add-email.md#add-an-email-to-your-journey) für den Knoten können Sie E-Mail-Nachrichten im E-Mail-Design-Bereich entwerfen, personalisieren und in der Vorschau anzeigen (siehe [E-Mail-Authoring](../content/email-authoring.md)). Sie können auch eine (E[Mail von Marketo Engage aus) &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Wählen Sie den Marketo Engage-Arbeitsbereich und dann die zu sendende E-Mail aus.
+Verwenden Sie diese Aktion, um eine E-Mail zu senden. Nachdem Sie [E-Mail erstellen](../content/add-email.md#add-an-email-to-your-journey) für den Knoten können Sie E-Mail-Nachrichten im E-Mail-Design-Bereich entwerfen, personalisieren und in der Vorschau anzeigen (siehe [E-Mail-Authoring](../content/email-authoring.md)). Sie können auch eine (E[Mail von Marketo Engage aus) ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Wählen Sie den Marketo Engage-Arbeitsbereich und dann die zu sendende E-Mail aus.
 
 ![Aktion durchführen - E-Mail senden](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -193,7 +223,7 @@ Die personenbasierten Marketo Engage-Aktionen sind so konzipiert, dass sie Ihre 
 
 +++[!UICONTROL Zu Liste hinzufügen]
 
-Mit dieser Aktion können Sie Personen zu einer [statischen Liste](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage hinzufügen.
+Mit dieser Aktion können Sie Personen zu einer [statischen Liste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage hinzufügen.
 
 Wählen Sie zunächst den Arbeitsbereich in der verbundenen Marketo Engage-Instanz aus. Wählen Sie anschließend den Listennamen aus.
 
@@ -203,7 +233,7 @@ Wählen Sie zunächst den Arbeitsbereich in der verbundenen Marketo Engage-Insta
 
 +++[!UICONTROL Zur Marketo-Anfragekampagne hinzufügen]
 
-Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} in Marketo Engage hinzuzufügen.
 
 Wählen Sie zunächst den Arbeitsbereich in der verbundenen Marketo Engage-Instanz aus. Wählen Sie als Nächstes den Namen der Anfragekampagne aus.
 
@@ -213,7 +243,7 @@ Wählen Sie zunächst den Arbeitsbereich in der verbundenen Marketo Engage-Insta
 
 +++[!UICONTROL Ändern der Personenpartition in Marketo Engage]
 
-Verwenden Sie diese Aktion, um die [Personenpartition](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} in Marketo Engage zu ändern.
+Verwenden Sie diese Aktion, um die [Personenpartition](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/workspaces-and-person-partitions/understanding-workspaces-and-person-partitions#person-partitions){target="_blank"} in Marketo Engage zu ändern.
 
 ![Aktion durchführen - Personenpartition in Marketo Engage ändern](./assets/node-action-change-people-partition-options.png){width="300"}
 
@@ -221,7 +251,7 @@ Verwenden Sie diese Aktion, um die [Personenpartition](https://experienceleague.
 
 +++[!UICONTROL Aus Liste entfernen]
 
-Mit dieser Aktion können Sie Personen aus einer [statischen Liste](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage entfernen. Wählen Sie zunächst den Arbeitsbereich in der verbundenen Marketo Engage-Instanz aus. Wählen Sie anschließend den Listennamen aus.
+Mit dieser Aktion können Sie Personen aus einer [statischen Liste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage entfernen. Wählen Sie zunächst den Arbeitsbereich in der verbundenen Marketo Engage-Instanz aus. Wählen Sie anschließend den Listennamen aus.
 
 ![Aktion ausführen - Aus Liste entfernen](./assets/node-action-remove-from-list-options.png){width="300"}
 
@@ -231,4 +261,4 @@ Wenn das Personenprofil nicht Mitglied der Smart-Liste war, wird die Aktion igno
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443254/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)

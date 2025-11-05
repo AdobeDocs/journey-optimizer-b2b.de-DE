@@ -4,10 +4,10 @@ description: 'Optimieren Sie die Nachfragegenerierung mit Konto-Journeys: Erstel
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 91%
 
 ---
 
@@ -85,7 +85,7 @@ Wenn Sie eine Live-Journey oder geplante Journey abbrechen (stoppen), wird der J
 
 >[!IMPORTANT]
 >
->Wenn die Konto-Journey in einer anderen Journey von einem Knoten _Aktion durchführen_ mit der Aktion _Konto zu (anderer) Journey hinzufügen_ verwendet wird, wird durch den Journey-Abbruch diese Aktion von dieser Journey geblockt.
+>Wenn die Konto-Journey in einer anderen Journey von einem Knoten _Aktion durchführen_ mit der Aktion _[!UICONTROL Konto zu (anderer) Journey hinzufügen]_ verwendet wird, wird durch den Journey-Abbruch diese Aktion von dieser Journey geblockt.
 
 1. Klicken Sie auf den Namen der Journey, um sie zu öffnen.
 
@@ -101,7 +101,7 @@ Wenn Sie eine Live-Journey schließen, setzen die derzeit in der Journey befindl
 
 >[!IMPORTANT]
 >
->Wenn die Konto-Journey in einer anderen Journey von einem Knoten _Aktion durchführen_ mit der Aktion _Konto zu (anderer) Journey hinzufügen_ verwendet wird, wird durch das Schließen für neue Eintritte diese Aktion von dieser Journey geblockt.
+>Wenn die Konto-Journey in einer anderen Journey von einem Knoten _Aktion durchführen_ mit der Aktion _[!UICONTROL Konto zu (anderer) Journey hinzufügen]_ verwendet wird, wird durch das Schließen für neue Eintritte diese Aktion von dieser Journey geblockt.
 
 1. Klicken Sie auf den Namen der Journey, um sie zu öffnen.
 
@@ -155,6 +155,16 @@ Verwenden Sie die Aktion „Löschen“, um eine Journey dauerhaft zu löschen. 
 
 1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
+## Fortschritt des Kontos überprüfen
+
+Für eine veröffentlichte Journey mit dem Status _Live_, _Geschlossen für neue Einträge_, _Abgebrochen_ oder _Abgeschlossen_ können Sie die Journey-Zuordnung öffnen, um den Kontofortschritt für die Journey-Knoten zu überprüfen. Jeder Knoten in der Zuordnung zeigt die Anzahl der Konten an, die diesen Knoten erreichen, und bei Live-Journey die Anzahl der Konten, die sich derzeit an diesem Knoten befinden.
+
+![Informationen zum Journey-Knotenkonto](./assets/node-account-progression-observability.png){width="400"}
+
+Wenn Sie den Knoten auswählen, klicken Sie auf die Zahl, um eine Liste der Konten anzuzeigen, die in den Knoten eingetreten sind oder sich derzeit in diesem Schritt des Journey befinden.
+
+![Informationen zum Journey-Knotenkonto](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443216/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

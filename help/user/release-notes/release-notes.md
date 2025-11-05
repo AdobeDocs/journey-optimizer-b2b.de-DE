@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 74633474e8d0af1e976d007d75bf4db9906fe7d2
+source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
-source-wordcount: '3644'
-ht-degree: 93%
+source-wordcount: '3690'
+ht-degree: 92%
 
 ---
 
@@ -35,16 +35,17 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Relationales Datenmodell | Nutzen Sie die relationalen Daten, die mit B2B-Konten verknüpft sind, um Konten innerhalb einer Konto-Journey zu filtern oder E-Mail-Inhalte zu personalisieren. Diese relationalen Daten können reale Geschäftsobjekte wie Kaufnachweise, Veranstaltungsregistrierungen, Software-Lizenzen, Service-Abonnements oder Reservierungen darstellen. |
-| Funktion | „Für Ziel aktivieren“ für Journeys | Verwenden Sie die neue Firmenkontoaktion _Für Ziel aktivieren_, um die Aktivierung direkt für Unternehmen statt für Kontakte durchzuführen. (Für diese Version auf LinkedIn-Firmen beschränkt.) |
-| Funktion | Mehrfach-Aktivierung für Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-Aktionen von Journey einzurichten. Diese Aktionen, z. B. das Hinzufügen/Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
+| Funktion | „Für Ziel aktivieren“ für Journeys | Verwenden Sie die neue Firmenkontoaktion _Für Ziel aktivieren_, um die Aktivierung direkt für Unternehmen statt für Kontakte durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) [Weitere Informationen](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Funktion | Markenthemen | Mit Markenthemen können technisch nicht versierte Benutzerinnen und Benutzer jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Design-Sprache passen, indem sie zusätzlich zu den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
 | Funktion | E-Mail-Vorlagen - Bild in HTML konvertieren | Sie können jetzt Ihre als JPG- oder PNG-Bilddateien gespeicherten Design-Dateien verwenden und automatisch E-Mail-Vorlagen generieren. [Weitere Informationen](../content/email-template-image-convert.md) |
 | Funktion | Persona-Mapping | Verknüpfen Sie Kontomitglieder mithilfe von Attributzuordnungen mit etablierten Personas. [Weitere Informationen](../admin/persona-mapping.md) |
 | Funktion | Vertriebserkenntnisse für Salesforce und Dynamics | Mitglieder des Vertriebs-Teams können jetzt Käufergruppen mit zunehmendem Reifegrad und zugehörige Erkenntnisse innerhalb einer Salesforce- oder Dynamics-Integration anzeigen lassen, um neue Opportunities zu identifizieren. Darin eingeschlossen sind Angaben zur Käufergruppe wie Phase, Bewertung und zugehörige Mitglieder. |
+| Funktion | Mehrfach-Aktivierung für Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Instanzen von Marketo Engage und verwenden Sie diese Verbindungen, um Marketo Engage-bezogene Journey-Aktionen einzurichten. Diese Aktionen, z. B. das Hinzufügen oder Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
 | Verbesserung | Deduplizierung bei E-Mail-Müdigkeit | Sie können jetzt E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass eine E-Mail im Rahmen einer Journey nicht mehrmals an dieselbe Adresse geschickt wird. Doppelte Adressen werden gesperrt, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
+| Verbesserung | Verbesserte Bewertung der Vollständigkeit der Einkaufsgruppe | Sie können jetzt sicherstellen, dass Einkaufsgruppen die tatsächliche Entscheidungsfindung mit anpassbaren Schwellenwerten für Rollenmitglieder zur Vollständigkeitsbewertung widerspiegeln.  [Weitere Informationen](../buying-groups/completeness-scores.md) |
 | Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B Edition. |
 | Verbesserung | Aufträge zur Wartung von Käufergruppen | Die Häufigkeit der Aufträge zur Wartung von Käufergruppen wird von wöchentlich auf täglich geändert. |
-| Verbesserung | Fortschritt der Konto-Journey | Der Link _Weitere Informationen_ wird für den Journey-Fortschritt angezeigt, der den Zugriff auf die Kontoanzahlen und Listen ermöglicht. |
+| Verbesserung | Fortschritt der Konto-Journey | Für eine veröffentlichte Journey mit dem Status _Live_, _Geschlossen für neue Einträge_, _Abgebrochen_ oder _Abgeschlossen_ können Sie die Journey-Zuordnung öffnen, um eine Liste der Konten für jeden Journey-Knoten zu überprüfen. |
 
 >[!NOTE]
 >

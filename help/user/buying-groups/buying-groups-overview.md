@@ -4,10 +4,10 @@ description: 'Optimieren Sie Account-basiertes Marketing mit Käufergruppen: Ide
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
-workflow-type: ht
-source-wordcount: '1187'
-ht-degree: 100%
+source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+workflow-type: tm+mt
+source-wordcount: '1193'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ Um ein fehlerhaftes Überschreiben einer Mitgliederzuweisung in einer Käufergru
 * Wenn Benutzende ein Mitglied manuell einer Käufergruppe zuweisen und anschließend ein Wartungsauftrag für die Käufergruppe ausgeführt wird, bei dem dasselbe Mitglied aus der Käufergruppe entfernt wird, wird dieses Mitglied durch den Wartungsauftrag **nicht entfernt** und die manuelle Zuweisung wird nicht überschreiben.
 * Wenn Benutzende ein Mitglied manuell einer Käufergruppe zuweisen und anschließend ein Knoten einer ausgelösten Journey auftritt, der dasselbe Mitglied aus der Käufergruppe entfernt, wird dieses Mitglied durch die Knotenaktion **nicht entfernt**, und die manuelle Zuweisung kann nicht überschrieben werden.
 * Wenn ein Aktionsknoten einer ausgelösten Journey der Käufergruppe ein Mitglied hinzufügt und darauf ein Käufergruppen-Wartungsauftrag folgt, der dasselbe Mitglied aus der Käufergruppe entfernt, wird dieses Mitglied durch den Wartungsauftrag **nicht entfernt** und die Journey-Aktionszuweisung kann nicht überschreiben werden.
+
+>[!NOTE]
+>
+>Wartungsaufträge für automatisierte Einkaufsgruppen werden täglich ausgeführt, beginnend mit der Version 2025.10.
 
 ## Käufergruppen-Workflow
 
@@ -96,11 +100,11 @@ Um auf die Details einer Käufergruppe zuzugreifen, klicken Sie auf der Register
 
 ### Vollständigkeitswert der Käufergruppe
 
-Mit dem Vollständigkeitswert wird ermittelt, ob die Käufergruppe über die richtigen Mitglieder verfügt, die den Rollen zugewiesen sind, und ob sie in einer Konto-Journey verwendet werden kann. Dieser Wert ist ein Prozentsatz, der auf der Anzahl der Rollen innerhalb der Käufergruppe und der Anzahl der Rollen basiert, die mit mindestens einem Lead zugewiesen werden.
+Mit dem Vollständigkeitswert wird bestimmt, ob die Einkaufsgruppe über die richtige Anzahl von Mitgliedern verfügt, die den erforderlichen Rollen zugewiesen sind, und für die Verwendung auf einer Account-Journey bereit ist. Dieser Wert ist ein Prozentsatz, der auf der Anzahl der Rollen innerhalb der Einkaufsgruppe und der Vollständigkeit für jede der definierten Rollen basiert.
 
-Wenn eine Käufergruppe beispielsweise vier Rollen umfasst und drei der vier Rollen mindestens einem Lead zugewiesen sind, ist die Käufergruppe zu 75 % vollständig.
+Die anfängliche Berechnung des Vollständigkeitswerts beginnt, sobald Sie die Einkaufsgruppe erstellen, wird täglich neu berechnet und jedes Mal, wenn eine Einkaufsgruppe erstellt oder aktualisiert wird.
 
-Jedes Mal, wenn eine Käufergruppe erstellt oder aktualisiert wird, wird der Vollständigkeitswert für der Käufergruppe neu berechnet.
+Siehe [Vollständigkeitsbewertungen](./completeness-scores.md) für detaillierte Informationen zur Vollständigkeitsbewertung und zu Berechnungen.
 
 ### Interaktionsbewertung der Käufergruppe {#engagement-score}
 
@@ -112,4 +116,4 @@ Unter [Interaktionsbewertungen](./engagement-scores.md) finden Sie detaillierte 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)
