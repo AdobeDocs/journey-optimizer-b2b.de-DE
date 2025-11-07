@@ -6,7 +6,7 @@ exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '3690'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] a
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
 
-## Agent-KI-Funktionen
+## Funktionen für Agent-basierte KI
 
 In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-basierten KI-Funktionen für Journey Optimizer B2B Edition verfügbar:
 
@@ -37,7 +37,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 | Funktion | Relationales Datenmodell | Nutzen Sie die relationalen Daten, die mit B2B-Konten verknüpft sind, um Konten innerhalb einer Konto-Journey zu filtern oder E-Mail-Inhalte zu personalisieren. Diese relationalen Daten können reale Geschäftsobjekte wie Kaufnachweise, Veranstaltungsregistrierungen, Software-Lizenzen, Service-Abonnements oder Reservierungen darstellen. |
 | Funktion | „Für Ziel aktivieren“ für Journeys | Verwenden Sie die neue Firmenkontoaktion _Für Ziel aktivieren_, um die Aktivierung direkt für Unternehmen statt für Kontakte durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) [Weitere Informationen](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
 | Funktion | Markenthemen | Mit Markenthemen können technisch nicht versierte Benutzerinnen und Benutzer jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Design-Sprache passen, indem sie zusätzlich zu den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
-| Funktion | E-Mail-Vorlagen - Bild in HTML konvertieren | Sie können jetzt Ihre als JPG- oder PNG-Bilddateien gespeicherten Design-Dateien verwenden und automatisch E-Mail-Vorlagen generieren. [Weitere Informationen](../content/email-template-image-convert.md) |
+| Funktion | E-Mail-Vorlagen – Bild in HTML konvertieren | Sie können jetzt Ihre als JPG- oder PNG-Bilddateien gespeicherten Design-Dateien verwenden und automatisch E-Mail-Vorlagen generieren. [Weitere Informationen](../content/email-template-image-convert.md) |
 | Funktion | Persona-Mapping | Verknüpfen Sie Kontomitglieder mithilfe von Attributzuordnungen mit etablierten Personas. [Weitere Informationen](../admin/persona-mapping.md) |
 | Funktion | Vertriebserkenntnisse für Salesforce und Dynamics | Mitglieder des Vertriebs-Teams können jetzt Käufergruppen mit zunehmendem Reifegrad und zugehörige Erkenntnisse innerhalb einer Salesforce- oder Dynamics-Integration anzeigen lassen, um neue Opportunities zu identifizieren. Darin eingeschlossen sind Angaben zur Käufergruppe wie Phase, Bewertung und zugehörige Mitglieder. |
 | Funktion | Mehrfach-Aktivierung für Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Instanzen von Marketo Engage und verwenden Sie diese Verbindungen, um Marketo Engage-bezogene Journey-Aktionen einzurichten. Diese Aktionen, z. B. das Hinzufügen oder Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
@@ -49,18 +49,18 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 
 >[!NOTE]
 >
->Diese Versionsänderungen beginnen mit der Bereitstellung am 31. Oktober 2025 mit einem schrittweisen Rollout jeder Funktion. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+>Diese Versionsänderungen beginnen mit der Bereitstellung am 31. Oktober 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ### Vereinfachte Architektur
 
-Adobe Journey Optimizer B2B edition ist jetzt in einer vereinfachten Architektur verfügbar. Mit dieser aktualisierten Architektur befinden sich Journey Optimizer B2B edition und Marketo Engage nicht mehr im selben System und in demselben Datenspeicher. Journey Optimizer B2B edition empfängt Daten nur von Adobe Experience Platform. Sie ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Konfigurationsfunktionen angewiesen, um das System bereitzustellen und zu konfigurieren.
+Adobe Journey Optimizer B2B Edition ist jetzt in einer vereinfachten Architektur verfügbar. Mit dieser aktualisierten Architektur befinden sich Journey Optimizer B2B Edition und Marketo Engage nicht mehr im selben System und im selben Datenspeicher. Journey Optimizer B2B Edition empfängt Daten nur von Adobe Experience Platform. Es ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Konfigurationsfunktionen angewiesen, um das System bereitzustellen und zu konfigurieren.
 
 Diese aktualisierte Architektur bietet mehrere Vorteile:
 
-* **Vereinheitlichen und Skalieren Ihrer Daten**: Die aktualisierte Plattform unterstützt komplexe Datenmodelle, einschließlich benutzerdefinierter Objekte, Einkaufsgruppen und Kontoereignisse.
-* **Mehrere Adobe Marketo Engage-Instanzen verbinden**: Daten aus mehreren Adobe Marketo Engage-Umgebungen an einem Ort verwalten und vereinheitlichen.
-* **Schützen Sie Ihre Daten**: Erweiterte Datenschutz- und Sicherheitsfunktionen helfen Ihnen, Ihre Kundendaten zu schützen.
-* **Für die Zukunft entwickelt**: Dieses Update setzt Ihr Unternehmen auf kontinuierliche Verbesserungen und Innovationen.
+* **Vereinheitlichen und Skalieren Ihrer Daten**: Die aktualisierte Plattform unterstützt komplexe Datenmodelle, einschließlich benutzerdefinierter Objekte, Käufergruppen und Kontoereignisse.
+* **Verbinden mehrerer Adobe Marketo Engage-Instanzen**: Verwalten und vereinheitlichen Sie Daten aus mehreren Adobe Marketo Engage-Umgebungen an einem Ort.
+* **Schutz Ihrer Daten**: Erweiterte Datenschutz- und Sicherheitsfunktionen helfen Ihnen, Ihre Kundendaten zu schützen.
+* **Für die Zukunft entwickelt**: Dieses Update bereitet Ihr Unternehmen auf kontinuierliche Verbesserungen und Innovationen vor.
 
 <!-- hold for later release 
 
@@ -84,7 +84,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 >[!NOTE]
 >
->Diese Versionsänderungen beginnen mit der Bereitstellung am 30. September 2025 mit einem schrittweisen Rollout jeder Funktion. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+>Diese Versionsänderungen beginnen mit der Bereitstellung am 30. September 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2025.8
 

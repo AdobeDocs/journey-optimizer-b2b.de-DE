@@ -4,7 +4,7 @@ user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edit
 source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 96%
       + E-Mail-Vorlagen {#email-templates}
          + [Überblick](./content/email-templates.md)
          + [Erstellung von E-Mail-Vorlagen](./content/email-template-authoring.md)
-         + [Bild in Vorlage konvertieren](./content/email-template-image-convert.md)
+         + [Konvertieren eines Bilds in eine Vorlage](./content/email-template-image-convert.md)
       + Landingpage-Vorlagen (Beta) {#landing-page-templates}
          + [Überblick](./content/landing-page-templates.md)
          + [Landingpage-Vorlagen-Design](./content/landing-page-template-design.md)
