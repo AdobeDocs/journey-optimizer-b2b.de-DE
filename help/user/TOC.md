@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 98%
+source-wordcount: '346'
+ht-degree: 97%
 
 ---
 
@@ -23,9 +23,12 @@ ht-degree: 98%
    + [Aktivieren des Zugriffs auf den KI-Assistenten](./ai-assistant/enable-ai-assistant-access.md)
    + [Anleitung zu Fragen](./ai-assistant/question-guidance.md)
    + [Verwenden des KI-Assistenten](./ai-assistant/use-ai-assistant.md)
+   + Agentinnen bzw. Agenten {#ai-agents}
+      + [Audience Agent](./agents/audience-agent-b2b.md)
+      + [Journey Build Agent](./agents/journey-agent.md)
+      + [Verkaufskennzeichner](./agents/sales-qualifier.md)
 + Konto-Journeys {#account-journeys}
    + [Überblick](./journeys/journey-overview.md)
-   + [Journey Build Agent](./agents/journey-agent.md)
    + [Erstellen und Veröffentlichen einer Journey](./journeys/create-publish-journey.md)
    + [Journey-Knoten](./journeys/journey-nodes.md)
    + Journey-Knoten {#journey-nodes}
@@ -48,8 +51,6 @@ ht-degree: 98%
    + [SMS-Erstellung](./content/sms-authoring.md)
 + Konten {#accounts}
    + [Zielgruppen](./audiences/account-audience-overview.md)
-   + [Audience Agent](./agents/audience-agent-b2b.md)
-   + [Account Qualification Agent](agents/account-qualification-agent.md)
    + Käufergruppen {#buying-groups}
       + [Überblick](./buying-groups/buying-groups-overview.md)
       + [Lösungsinteressen](./buying-groups/solution-interests.md)
@@ -63,6 +64,7 @@ ht-degree: 98%
       + [Exportieren von Konten](./audiences/account-list-export.md)
       + [Auf LinkedIn-Konto abgestimmte Zielgruppen](./data/linkedin-account-matched-audiences.md)
       + [Käufergruppenfilter in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
+      + [In-CRM-Einblicke](./buying-groups/incrm-insights.md)
    + Kontolisten {#account-lists}
       + [Überblick](./accounts/account-lists.md)
       + [Verwendung in Journeys und Programmen](./accounts/account-lists-journeys.md)

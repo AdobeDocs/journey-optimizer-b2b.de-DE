@@ -3,7 +3,7 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 57f32068b69dfd4fbc4128ae2f5753a1086fd4ae
+source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 98%
@@ -26,7 +26,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 | ----- | ------ | ----------- |
 | Journey Build Agent | Neu | Der Journey Build Agent analysiert und konzipiert Journeys und gestaltet diese in Echtzeit mit. Dies versetzt Marketing-Fachleute in die Lage, Launches zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten zu erzielen. [Weitere Informationen](../agents/journey-agent.md) |
 | Audience Agent | Neu | Audience Agent identifiziert und erstellt Käufergruppen automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Account Qualification Agent | Neu | Ermitteln Sie mithilfe des Account Qualification Agent im KI-Assistenten, welche Konten für den nächsten Schritt bereit sind. Dieser Agent ermöglicht es den Mitgliedern Ihres Vertriebs-Teams, sich auf die richtigen Konten zu konzentrieren, indem er hochwertige Leads anzeigt und Qualifizierungs-Workflows automatisiert. [Weitere Informationen](../agents/account-qualification-agent.md) |
+| Account Qualification Agent | Neu | Ermitteln Sie mithilfe des Account Qualification Agent im KI-Assistenten, welche Konten für den nächsten Schritt bereit sind. Dieser Agent ermöglicht es den Mitgliedern Ihres Vertriebs-Teams, sich auf die richtigen Konten zu konzentrieren, indem er hochwertige Leads anzeigt und Qualifizierungs-Workflows automatisiert. [Weitere Informationen](../agents/sales-qualifier.md) |
 
 ## Versionshinweise für 2025.10
 
