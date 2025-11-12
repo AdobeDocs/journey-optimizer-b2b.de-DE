@@ -167,4 +167,4 @@ Wenn Sie den Knoten auswählen, klicken Sie auf die Zahl, um eine Liste der Kont
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443216/?captions=ger&learn=on)
