@@ -5,9 +5,9 @@ feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
 source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1193'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Um ein fehlerhaftes Überschreiben einer Mitgliederzuweisung in einer Käufergru
 
 >[!NOTE]
 >
->Wartungsaufträge für automatisierte Einkaufsgruppen werden täglich ausgeführt, beginnend mit der Version 2025.10.
+>Automatisierte Aufträge zur Wartung von Käufergruppen werden täglich ausgeführt, beginnend mit Version 2025.10.
 
 ## Käufergruppen-Workflow
 
@@ -100,11 +100,11 @@ Um auf die Details einer Käufergruppe zuzugreifen, klicken Sie auf der Register
 
 ### Vollständigkeitswert der Käufergruppe
 
-Mit dem Vollständigkeitswert wird bestimmt, ob die Einkaufsgruppe über die richtige Anzahl von Mitgliedern verfügt, die den erforderlichen Rollen zugewiesen sind, und für die Verwendung auf einer Account-Journey bereit ist. Dieser Wert ist ein Prozentsatz, der auf der Anzahl der Rollen innerhalb der Einkaufsgruppe und der Vollständigkeit für jede der definierten Rollen basiert.
+Mit dem Vollständigkeitswert wird ermittelt, ob die Käufergruppe über die richtige Anzahl an Mitgliedern verfügt, die den erforderlichen Rollen zugewiesen sind, und ob sie in einer Konto-Journey verwendet werden kann. Dieser Wert ist ein Prozentsatz, der auf der Anzahl der Rollen innerhalb der Käufergruppe sowie der Vollständigkeit jeder definierten Rolle basiert.
 
-Die anfängliche Berechnung des Vollständigkeitswerts beginnt, sobald Sie die Einkaufsgruppe erstellen, wird täglich neu berechnet und jedes Mal, wenn eine Einkaufsgruppe erstellt oder aktualisiert wird.
+Die erste Berechnung des Vollständigkeitswerts beginnt unmittelbar nach der Erstellung der Käufergruppe. Der Wert wird täglich sowie bei jeder Erstellung oder Aktualisierung einer Käufergruppe neu berechnet.
 
-Siehe [Vollständigkeitsbewertungen](./completeness-scores.md) für detaillierte Informationen zur Vollständigkeitsbewertung und zu Berechnungen.
+Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte Informationen zur Bewertung und Berechnung der Vollständigkeit.
 
 ### Interaktionsbewertung der Käufergruppe {#engagement-score}
 
@@ -116,4 +116,4 @@ Unter [Interaktionsbewertungen](./engagement-scores.md) finden Sie detaillierte 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

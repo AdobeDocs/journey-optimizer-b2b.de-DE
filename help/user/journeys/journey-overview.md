@@ -5,9 +5,9 @@ feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
 source-git-commit: 5ba2531a287143bd1111f764aa9eba8089111bc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,11 +69,11 @@ Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Ak
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Entwurf**&#x200B;_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-an-account-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Wenn eine Journey veröffentlicht wird, ändert sich der Journey-Status von „Entwurf“ zu „Live“,. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
-| _&#x200B;**Für neue Eintritte geschlossen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
-| _&#x200B;**Abgebrochen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Beendet**&#x200B;_ | Wenn alle Konten in einer Journey die Journey abgeschlossen haben, ändert sich der Status von _Live_ oder _Für neue Eintritte geschlossen_ zu _Beendet_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-an-account-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Live**_ | Wenn eine Journey veröffentlicht wird, ändert sich der Journey-Status von „Entwurf“ zu „Live“,. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
+| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
+| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Beendet**_ | Wenn alle Konten in einer Journey die Journey abgeschlossen haben, ändert sich der Status von _Live_ oder _Für neue Eintritte geschlossen_ zu _Beendet_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
 
 ## Verwalten von Journeys
 
@@ -155,16 +155,16 @@ Verwenden Sie die Aktion „Löschen“, um eine Journey dauerhaft zu löschen. 
 
 1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
-## Fortschritt des Kontos überprüfen
+## Überprüfen des Kontofortschritts
 
-Für eine veröffentlichte Journey mit dem Status _Live_, _Geschlossen für neue Einträge_, _Abgebrochen_ oder _Abgeschlossen_ können Sie die Journey-Zuordnung öffnen, um den Kontofortschritt für die Journey-Knoten zu überprüfen. Jeder Knoten in der Zuordnung zeigt die Anzahl der Konten an, die diesen Knoten erreichen, und bei Live-Journey die Anzahl der Konten, die sich derzeit an diesem Knoten befinden.
+Für eine veröffentlichte Journey mit dem Status _Live_, _Für neue Einträge geschlossen_, _Abgebrochen_ oder _Beendet_ können Sie die Journey Map öffnen, um den Kontofortschritt für die Journey-Knoten zu überprüfen. Jeder Knoten in der Map zeigt die Anzahl der Konten an, die diesen Knoten erreichen, sowie bei Live-Journeys die Anzahl der Konten, die sich aktuell an diesem Knoten befinden.
 
-![Informationen zum Journey-Knotenkonto](./assets/node-account-progression-observability.png){width="400"}
+![Informationen zum Kontofortschritt an den Journey-Knoten](./assets/node-account-progression-observability.png){width="400"}
 
-Wenn Sie den Knoten auswählen, klicken Sie auf die Zahl, um eine Liste der Konten anzuzeigen, die in den Knoten eingetreten sind oder sich derzeit in diesem Schritt des Journey befinden.
+Wenn Sie den Knoten auswählen, klicken Sie auf die Zahl, um eine Liste der Konten anzuzeigen, die in den Knoten eingetreten sind oder sich derzeit an diesem Schritt der Journey befinden.
 
-![Informationen zum Journey-Knotenkonto](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
+![Informationen zum Kontofortschritt an den Journey-Knoten](./assets/node-accounts-entered-list.png){width="700" zoomable="yes"}
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443216/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
