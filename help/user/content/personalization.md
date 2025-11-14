@@ -50,7 +50,7 @@ Der Personalisierungseditor ist in jedem Kontext verfügbar, in dem Sie die Pers
 
 >[!NOTE]
 >
->Die folgenden Informationen für den Personalisierungseditor spiegeln die Änderungen wider, die für Journey Optimizer B2B edition-Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
+>Die folgenden Informationen für den Personalisierungseditor spiegeln die Änderungen wider, die für Journey Optimizer B2B edition-Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
 
 Fügen Sie Personalisierung in einem beliebigen Feld oder einer beliebigen Inhaltskomponente hinzu, indem Sie auf das Symbol _Personalisierung hinzufügen_ (![Personalisierungssymbol hinzufügen](../../assets/do-not-localize/icon-personalization-field.svg) klicken.
 

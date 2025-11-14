@@ -51,7 +51,7 @@ Um die Branding-Domains zu überprüfen, klicken Sie auf die Registerkarte **[!U
 
 ![Zugriff auf die Einstellungen der Branding-Domains](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Arbeitsbereiche in der verbundenen Marketo Engage-Instanz. Für neue E-Mails wird diese Domain als Standard verwendet, aber Marketing-[ können sie pro E-Mail überschreiben](../content/add-email.md#define-the-email-settings). Weitere Informationen zur Definition der Standard-Branding-Domain finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Arbeitsbereiche in der verbundenen Marketo Engage-Instanz. Für neue E-Mails wird diese Domain als Standard verwendet, aber Marketing-[&#x200B; können sie pro E-Mail überschreiben](../content/add-email.md#define-the-email-settings). Weitere Informationen zur Definition der Standard-Branding-Domain finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
@@ -71,11 +71,11 @@ Kommunikationsbeschränkungen steuern die Anzahl der E-Mails, die ein Kontakt vo
 
 >[!AVAILABILITY]
 >
->Die Kommunikationsbeschränkungen sind für Journey Optimizer-B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
+>Die Kommunikationsbeschränkungen sind für Journey Optimizer-B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
 
 Beispielsweise stellt das System mit einem definierten Limit von fünf E-Mails pro Tag sicher, dass ein Kontakt innerhalb eines Tages keine sechste E-Mail erhält, indem es die sechste E-Mail unterdrückt. Bei gemeinsam genutzten Kommunikationsbeschränkungen zwischen Journey Optimizer B2B edition und Marketo Engage werden die Regeln für Kommunikationsbeschränkungen an einem Ort definiert. Die sechste E-Mail wird unabhängig von der Sendeaktion von Journey Optimizer B2B edition oder Marketo Engage unterdrückt.
 
-Für alle Marketo Engage-Produktionsinstanzen sind standardmäßig Kommunikationsbeschränkungen definiert (weitere Informationen finden Sie in der [ zu ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}Marketo Engage). Um freigegebene Kommunikationsbeschränkungen zu verwenden, definieren Sie die Regeln in Journey Optimizer B2B edition und erweitern Sie die Freigabe dieser Beschränkungen auf die Marketo Munchkin-Codes.
+Für alle Marketo Engage-Produktionsinstanzen sind standardmäßig Kommunikationsbeschränkungen definiert (weitere Informationen finden Sie in der [&#x200B; zu &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}Marketo Engage). Um freigegebene Kommunikationsbeschränkungen zu verwenden, definieren Sie die Regeln in Journey Optimizer B2B edition und erweitern Sie die Freigabe dieser Beschränkungen auf die Marketo Munchkin-Codes.
 
 >[!IMPORTANT]
 >

@@ -19,7 +19,7 @@ Verwenden Sie die Helper-Funktionen im Personalisierungseditor, um personalisier
 
 >[!AVAILABILITY]
 >
->Helper-Funktionen sind für Journey Optimizer-B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
+>Helper-Funktionen sind für Journey Optimizer-B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
 
 ## Aggregationsfunktionen
 
@@ -975,9 +975,9 @@ Dabei ist die erste Zeichenfolge das Datumsattribut, der zweite Wert ist die Art
 >
 > Wenn ein Datumsmuster ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
 >
-> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation zusammengefasst ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation zusammengefasst &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
+> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
 
 **Beispiel**
 
@@ -1803,7 +1803,7 @@ Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind
 
 **Beispiel**
 

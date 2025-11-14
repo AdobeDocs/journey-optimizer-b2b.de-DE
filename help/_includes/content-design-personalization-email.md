@@ -20,11 +20,11 @@ Unter [Personalisierung von Inhalten](../user/content/personalization.md) finden
 >
 >Journey Optimizer B2B edition folgt _Binnenmajuskeln_ Syntax für Personalisierungs-Token in E-Mails, um sie mit den anderen Adobe Experience Platform-Programmen abzustimmen und so ein konsistentes Erlebnis zu gewährleisten. Dieses Token-Format ist vollständig kompatibel mit der [Handlebars-Vorlagensprache](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Alle Token, die vor dieser Änderung hinzugefügt wurden, werden automatisch aktualisiert.
 
-Im folgenden Beispiel werden die Schritte zum Personalisieren von Inhalten mit Personen- und System-Token beschrieben. Sie spiegelt die Änderungen wider, die für Journey Optimizer B2B edition-Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ bereitgestellt ](../user/simplified-architecture.md).
+Im folgenden Beispiel werden die Schritte zum Personalisieren von Inhalten mit Personen- und System-Token beschrieben. Sie spiegelt die Änderungen wider, die für Journey Optimizer B2B edition-Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../user/simplified-architecture.md).
 
 1. Wählen Sie die Textkomponente aus und klicken Sie auf das Symbol _Personalisierung hinzufügen_ ( ![Personalisierungssymbol hinzufügen](../assets/do-not-localize/icon-personalization-field.svg) ) in der Symbolleiste.
 
-   ![Klicken Sie auf das Symbol Personalisieren ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![Klicken Sie auf das Symbol Personalisieren &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet.
 
