@@ -4,9 +4,9 @@ description: Konfigurieren Sie E-Mail-Versandeinstellungen, Kommunikationsbeschr
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
-source-git-commit: 6f226c806d321cae27483df02a130bd4d8180702
+source-git-commit: 7d150069e7af582d837411aa52f6e8caa2b5e89e
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Um die Branding-Domains zu überprüfen, klicken Sie auf die Registerkarte **[!U
 
 ![Zugriff auf die Einstellungen der Branding-Domains](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Arbeitsbereiche in der verbundenen Marketo Engage-Instanz. Für neue E-Mails wird diese Domain als Standard verwendet, aber Marketing-[&#x200B; können sie pro E-Mail überschreiben](../content/add-email.md#define-the-email-settings). Weitere Informationen zur Definition der Standard-Branding-Domain finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Arbeitsbereiche in der verbundenen Marketo Engage-Instanz. Für neue E-Mails wird diese Domain als Standard verwendet, aber Marketing-[ können sie pro E-Mail überschreiben](../content/add-email.md#define-the-email-settings). Weitere Informationen zur Definition der Standard-Branding-Domain finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Wenn Sie mehrere Marken vermarkten und jeweils eigene Marken-Tracking-Links verwenden möchten, können Sie eine zusätzliche Branding-Domain hinzufügen. Weitere Informationen zum Hinzufügen mehrerer Branding-Domains finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Wenn Sie mehrere Marken vermarkten und jeweils eigene Marken-Tracking-Links verwenden möchten, können Sie eine zusätzliche Branding-Domain hinzufügen. Weitere Informationen zum Hinzufügen mehrerer Branding-Domains finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Benutzerdefinierte Kopfzeilenoptionen] {#custom-header-options}
 
@@ -67,19 +67,67 @@ Wenn _[!UICONTROL Strict Transport Security]_ aktiviert ist, wird garantiert, da
 
 ## Kommunikationsbeschränkungen
 
-Kommunikationsbeschränkungen steuern die Anzahl der E-Mails, die Ihr Unternehmen sendet. Es empfiehlt sich, Beschränkungen festzulegen, damit die Empfängerinnen und Empfänger nicht durch zu viele E-Mails aus Ihrer Organisation überlastet werden.
+Kommunikationsbeschränkungen steuern die Anzahl der E-Mails, die ein Kontakt von Ihrer Organisation erhält. Die von Ihnen festgelegten Beschränkungen werden von Journey Optimizer B2B edition und der verbundenen Marketo Engage-Instanz gemeinsam genutzt. Durch die Festlegung dieser Beschränkungen wird sichergestellt, dass ein Lead in einem bestimmten Zeitraum nicht mehr als eine maximale Anzahl von E-Mails erhält.
 
-Um die aktuellen Einstellungen zu überprüfen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]**. Wählen _[!UICONTROL im]_ unter „E-Mail“ die Option **[!UICONTROL Kommunikationsbeschränkungen]** aus.
-
-![Zugriff auf die Einstellungen der Kommunikationsbeschränkungen](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
-
-Klicken Sie **[!UICONTROL oben]** auf „Einstellungen bearbeiten“, um auf die Konfigurationsoptionen in der verbundenen Marketo Engage-Instanz zuzugreifen.
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Um auf diese Einstellungen in Adobe Marketo Engage zugreifen und sie bearbeiten zu können, benötigen Sie die Berechtigung eines Produktadministrators.
+>Die Kommunikationsbeschränkungen sind für Journey Optimizer-B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
 
-Weitere Informationen zur Konfiguration der Kommunikationsbeschränkungen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}.
+Beispielsweise stellt das System mit einem definierten Limit von fünf E-Mails pro Tag sicher, dass ein Kontakt innerhalb eines Tages keine sechste E-Mail erhält, indem es die sechste E-Mail unterdrückt. Bei gemeinsam genutzten Kommunikationsbeschränkungen zwischen Journey Optimizer B2B edition und Marketo Engage werden die Regeln für Kommunikationsbeschränkungen an einem Ort definiert. Die sechste E-Mail wird unabhängig von der Sendeaktion von Journey Optimizer B2B edition oder Marketo Engage unterdrückt.
+
+Für alle Marketo Engage-Produktionsinstanzen sind standardmäßig Kommunikationsbeschränkungen definiert (weitere Informationen finden Sie in der [ zu ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"}Marketo Engage). Um freigegebene Kommunikationsbeschränkungen zu verwenden, definieren Sie die Regeln in Journey Optimizer B2B edition und erweitern Sie die Freigabe dieser Beschränkungen auf die Marketo Munchkin-Codes.
+
+>[!IMPORTANT]
+>
+>Wenden Sie sich an Ihr Adobe-Account-Management-Team, um den Kommunikationsregelsatz auf die Marketo Munchkin-Codes zu erweitern. Diese Konfiguration ist in der Regel Teil des Onboarding-Prozesses.
+
+Um die Regeln für Kommunikationsbeschränkungen zu überprüfen oder festzulegen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]**. Wählen _[!UICONTROL im]_ unter „E-Mail“ die Option **[!UICONTROL Kommunikationsbeschränkungen]** aus.
+
+![Zugriff auf die Konfiguration der Kommunikationsbeschränkungen](./assets/config-email-communication-limits.png){width="700" zoomable="yes"}
+
+Standardmäßig gibt es einen globalen Regelsatz, mit dem Sie je nach Ihren Anforderungen mehrere Regeln definieren, aktivieren und deaktivieren können. Klicken Sie auf den Namen des Regelsatzes, um die Regelliste anzuzeigen.
+
+### Erstellen einer Regel
+
+1. Klicken **[!UICONTROL oben]** auf „Regel erstellen“.
+
+   ![Zugriff auf die Konfiguration der Kommunikationsbeschränkungen](./assets/config-email-communication-limits-create-rule-select.png){width="600" zoomable="yes"}
+
+1. Geben Sie den **[!UICONTROL Regelnamen“]**.
+
+1. Legen Sie den **[!UICONTROL Begrenzungsbetrag]** fest.
+
+   Geben Sie den Wert ein, oder klicken Sie auf den _Nach_ oder _Nach-unten_ Pfeil rechts, um den Wert zu erhöhen oder zu verkleinern.
+
+1. Wählen Sie den Wert **[!UICONTROL Begrenzungshäufigkeit zurücksetzen]** entsprechend der Art und Weise, wie Sie den Zeitraum für das Limit definieren möchten.
+
+   Sie können zwischen _[!UICONTROL Stündlich]_, _[!UICONTROL Täglich]_, _[!UICONTROL Wöchentlich]_ oder _[!UICONTROL Monatlich]_ wählen.
+
+   ![Zugriff auf die Konfiguration der Kommunikationsbeschränkungen](./assets/config-email-communication-limits-create-rule-settings.png){width="600" zoomable="yes"}
+
+1. Legen Sie den **[!UICONTROL Alle]**-Wert fest, entsprechend der Anzahl der Häufigkeitseinheiten, die in den Zeitraum aufgenommen werden sollen.
+
+   Wenn Sie beispielsweise _Täglich_ als Häufigkeit verwenden und diesen Wert auf `3` setzen, wird der Zeitraum als drei Tage definiert.
+
+1. Klicken **[!UICONTROL oben]** auf „Regel erstellen“.
+
+Die neue Regel befindet sich im Status _Entwurf_ und wird erst dann auf die Kommunikationsbeschränkungen angewendet, wenn Sie sie aktivieren.
+
+### Verwalten von Regeln
+
+Solange sich eine Regel im Status _Entwurf_ befindet, können Sie die Definition bearbeiten oder die Regel löschen. Wenn die Regel angewendet werden soll, können Sie sie aktivieren. Klicken Sie auf _Mehr Menü_ (***…***) neben dem Namen der Entwurfsregel in der Liste und wählen Sie **[!UICONTROL Aktivieren]** aus.
+
+![Klicken Sie auf das Menü Mehr für eine Regel für Kommunikationsgrenzwerte im Entwurf](./assets/config-email-communication-limits-draft-more-menu.png){width="400" zoomable="yes"}
+
+Klicken Sie dann **[!UICONTROL Bestätigungsdialogfeld]** Aktivieren“.
+
+Eine aktive Regel kann nicht bearbeitet oder gelöscht werden, sondern nur deaktiviert werden. Für eine aktive Regel, die Sie aus den angewendeten Kommunikationsbeschränkungen entfernen möchten, klicken Sie auf das Symbol _Deaktivieren_ ( ![Deaktivierungssymbol](../assets/do-not-localize/icon-deactivate.svg) ) neben dem Namen der aktiven Regel.
+
+![Klicken Sie auf das Symbol Deaktivieren für eine Regel der aktiven Kommunikationsbeschränkungen](./assets/config-email-communication-limits-active-deactivate.png){width="400" zoomable="yes"}
+
+Klicken Sie dann **[!UICONTROL Bestätigungsdialog auf]** Deaktivieren“.
+
+Die Regel wird mit dem Status _Inaktiv_ angezeigt. Es ähnelt einer Entwurfsregel, und Sie können sie bei Bedarf bearbeiten, löschen oder aktivieren.
 
 ## SPF/DKIM
 
@@ -146,4 +194,4 @@ Die Einstellungen sind in Journey Optimizer B2B edition schreibgeschützt. Klick
 >
 >Um auf diese Einstellungen in Adobe Marketo Engage zugreifen und sie bearbeiten zu können, benötigen Sie die Berechtigung eines Produktadministrators.
 
-Weitere Informationen zum Konfigurieren der Bot-Aktivitätsoptionen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Weitere Informationen zum Konfigurieren der Bot-Aktivitätsoptionen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
