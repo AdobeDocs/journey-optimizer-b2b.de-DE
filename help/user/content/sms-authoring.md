@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Verwenden Sie Adobe Journey Optimizer B2B edition, um Textnachrichten (SMS) an die Mobilgeräte Ihrer Kunden zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
 
-Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass der [SMS-Service-Provider“ ](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
+Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass der [SMS-Service-Provider“ &#x200B;](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
 
 ## Hinzufügen einer SMS-Aktion auf einer Konto-Journey
 
