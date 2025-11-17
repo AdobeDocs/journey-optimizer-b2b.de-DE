@@ -1,11 +1,11 @@
 ---
 title: Verkaufskennzeichner
-description: Erfahren Sie, wie Sie mit der Anwendung „Sales Qualifier“ Ihre Journey beschleunigen und warten können.
-feature: Account Journeys, AI Assistant
+description: Automatisieren Sie die B2B-Qualifizierung und Kontaktaufnahme mit dem Sales Qualifier. Es bietet KI-gestützte Forschung, E-Mail-Erstellung, CRM-Integration und Interaktionspläne für BDRs.
+feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 1%
 >Diese Funktion ist derzeit nur eingeschränkt verfügbar und steht nicht allen Benutzern zur Verfügung.
 >
 
-Der Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die den Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Der Sales Qualifier automatisiert Workflows für die Interessentenqualifizierung, Kontaktaufnahme und Käuferinteraktion kanalübergreifend, reduziert die manuelle BDR-Belastung und beschleunigt die Pipeline-Geschwindigkeit für B2B-Unternehmen.
+Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und zur Optimierung der Workflows für Business Development Representatives (BDRs) entwickelt wurde. Sales Qualifier automatisiert Workflows für die Qualifizierung von Interessenten, Kontaktaufnahme und Käuferinteraktion über verschiedene Kanäle hinweg. Dies reduziert die manuelle BDR-Belastung und beschleunigt die Pipeline-Geschwindigkeit für B2B-Unternehmen.
 Verwenden Sie den Browser und die E-Mail-Plug-ins, um Business Intelligence direkt in CRMs oder Outlook aufzurufen.
 
-Der Sales Qualifier ist in AJO B2B enthalten, aber eine separate App innerhalb der AEP Experience Cloud.
+Der Verkaufsqualifizierer ist in Journey Optimizer B2B edition enthalten, aber es handelt sich um eine separate App innerhalb von Experience Platform Experience Cloud.
 
 ![Sales Qualifier-Startseite](assets/home-screen.png)
 
 ## Account Qualification Agent
 
-Die Account Qualification Agent (AQA) ist das Herzstück des Sales Qualifier. Die AQA verwendet KI, um Ihre Konten zu lesen und festzustellen, welche für den nächsten Schritt bereit sind.  Es unterstützt bei Recherche, E-Mail-Erstellung und CRM-Updates.
+Die Account Qualification Agent (AQA) ist das Herzstück des Sales Qualifier. Die AQA verwendet KI, um Ihre Konten zu lesen und festzustellen, welche für den nächsten Schritt bereit sind. Es unterstützt bei Recherche, E-Mail-Erstellung und CRM-Updates.
 
 ![Account Qualification Agent](assets/acc-qualification-agent.png)
 
@@ -52,9 +52,9 @@ Adobe-KI-Agenten verwenden _Abfragen in natürlicher Sprache_ was bedeutet, dass
 
 Mit natürlicher Sprache können Sie den Agenten bitten:
 
-* Meine zugewiesenen Leads ohne Interaktion anzeigen
-* Zeigen Sie mir alle meine Leads, die nicht Teil eines autonomen Engagements sind
-* Geben Sie mir eine detaillierte Zusammenfassung zu `<company>`, einschließlich der Einkaufsgruppe, der jüngsten Absichtserklärungen und unserer vergangenen Interaktion.
+* `Show me my assigned leads with no engagement yet`
+* `Show me all my leads that are not part of any autonomous engagement`
+* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
 
 Sie können sofort erkennen, welche Konten und Leads am aktivsten sind und die höchste Absicht zeigen, sodass Sie Ihre Energie dort konzentrieren können, wo sie die größte Wirkung hat.
 
@@ -66,11 +66,11 @@ Iterieren Sie über Ihren Journey, indem Sie Ihre Eingabeaufforderungen verfeine
 
 ## Prospects
 
-In diesem Fenster werden alle Leads aufgelistet, auf die Sie Zugriff haben. Dort können Sie schnell Dinge wie den Lead-Status und die letzte Aktivität überprüfen.
+In diesem Fenster werden alle Leads aufgelistet, auf die Sie Zugriff haben. Es ist eine schnelle Prüfung von Dingen wie Lead-Status und letzte Aktivität.
 
 ![Alle Leads in der Lead-Tabelle anzeigen](assets/prospects.png)
 
-Klicken Sie auf das Filter![Symbol Filtern](../assets/icon-filter.png), um nach Lead-Status zu filtern.
+Klicken Sie auf _Filter_ ![Filtersymbol](../../assets/do-not-localize/icon_filter-outline.svg), um die angezeigte Liste nach Lead-Status zu filtern.
 
 ## Interaktionspläne
 
@@ -80,10 +80,10 @@ In diesem Fenster finden Sie Details zu allen definierten Interaktionsplänen.
 
 Um einen neuen Interaktionsplan zu erstellen, klicken Sie auf **[!UICONTROL Interaktionsplan erstellen]**.
 
-1. Geben Sie in der Phase Details einen Namen und optional eine Beschreibung ein. Klicken Sie **[!UICONTROL Speichern und fortfahren]**.
-1. Wählen Sie in der Phase „Interessenten auswählen“ die Leads aus, die in diesen Plan gehören sollen.
-1. Legen Sie im Schritt Kadenz definieren die Parameter für den Plan fest.
-1. Stellen Sie in der Vorschau-Phase sicher, dass alles erwartungsgemäß funktioniert.
+1. Geben Sie _Schritt_ Details“ einen Namen und eine optionale Beschreibung ein. Klicken Sie **[!UICONTROL Speichern und fortfahren]**.
+1. Wählen Sie _Schritt &quot;_ auswählen“ die Leads aus, die in diesen Plan gehören sollen.
+1. Legen _im Schritt &quot;_ definieren“ die Parameter für den Plan fest.
+1. Stellen Sie _Schritt_ Vorschau“ sicher, dass alles erwartungsgemäß funktioniert.
 
 ## E-Mail-Postausgang
 
@@ -99,7 +99,7 @@ In diesem Panel werden alle Chats und Threads angezeigt.
 
 ![Chat-Posteingang](assets/chat-inbox.png)
 
-Sie können nicht nur mit Clients interagieren, sondern auch eine Zusammenfassung des Kontakts und eine Zusammenfassung des Threads anzeigen, damit Sie schnell wissen, wo Sie sich im Thread befinden.
+Sie können mit Clients interagieren und Zusammenfassungen für den Kontakt und den Thread anzeigen, damit Sie schnell wissen, wo Sie sich im Thread befinden.
 
 ## Integrationen
 
@@ -116,12 +116,12 @@ Um eine neue Integration zu starten, klicken **[!UICONTROL oben]** auf „Integr
 
 ![Integrationsdetails](assets/integration-details.png)
 
-Hier definieren wir die URL der Integration und legen die zu sendende Payload fest.
+Definieren Sie die URL der Integration und die zu sendende Payload:
 
 1. Geben Sie einen eindeutigen Namen und eine Beschreibung (optional) für die Integration an.
 1. Legen Sie das URL-Feld auf den Integrationsauthentifizierungs-Endpunkt Ihrer Integrations-Site fest.
 1. Legen Sie unter Pfadparameter die HTTP-Methode fest.
-1. Legen Sie unter Header-Parameter alle HTTP-Header fest, die gesendet werden müssen. Im Allgemeinen ein JSON-Objekt, das gesendet wird und eine Kopfzeile vom Typ Inhalt erfordert.
+1. Legen Sie unter Header-Parameter alle HTTP-Header fest, die gesendet werden müssen. Im Allgemeinen ist es ein JSON-Objekt, das gesendet wird und eine Kopfzeile vom Typ Inhalt erfordert.
 1. Legen Sie unter Abfrageparameter alle erforderlichen Parameter fest.
 1. Richten Sie unter Authentifizierung die Anmeldeinformationen für die Integrations-Site ein.
 
@@ -130,27 +130,28 @@ Hier definieren wir die URL der Integration und legen die zu sendende Payload fe
    * API-Schlüssel
    * Einfache Authentifizierung
 
-1. Legen Sie im Abschnitt Payload-Konfiguration Drosselungs- und Cache-Werte fest.
-1. Klicken Sie unter Payload-Konfiguration auf das Stiftsymbol. Fügen Sie im Dialogfeld Payload einfügen Ihr JSON-Payload-Objekt ein.
-   * Anfrage-Payload : Ein JSON-Objekt, das Daten zum Senden der Integrations-Site enthält.
-   * Antwort-Payload: Die Datenstruktur, die Sie im Gegenzug erwarten.
-1. Klicken Sie [!UICONTROL Verbindung testen], um sicherzustellen, dass Ihre Einstellungen korrekt sind.
+1. Legen Sie im Abschnitt **[!UICONTROL Payload-Konfiguration“ Einschränkungs-]** Cache-Werte fest.
+   * Klicken Sie auf das Stiftsymbol.
+   * Fügen Sie im _Payload einfügen_ Ihr JSON-Payload-Objekt ein oder geben Sie es ein.
+
+      * **[!UICONTROL Anfrage-]**: Ein JSON-Objekt, das Daten enthält, die an die Integrations-Site gesendet werden sollen.
+      * **[!UICONTROL Antwort-Payload]** - Die Datenstruktur, die voraussichtlich zurückgegeben wird.
+
+1. Klicken Sie **[!UICONTROL Verbindung testen]**, um sicherzustellen, dass Ihre Einstellungen korrekt sind.
 
 Wenn die Verbindungseinstellungen gültig sind, klicken Sie auf **[!UICONTROL Als Entwurf speichern]**.
 
-Wenn Sie sich wieder in der Tabelle mit den Hauptintegrationen befinden, wählen Sie die Integration aus und klicken Sie auf **[!UICONTROL Aktivieren]**, um die Integration live zu schalten, oder **[!UICONTROL Als Entwurf speichern]**.
-
-
+Wenn Sie sich wieder in der Haupttabelle _[!UICONTROL Integrationen]_ befinden, wählen Sie die Integration aus und klicken Sie auf **[!UICONTROL Aktivieren]**, um die Integration live zu schalten. Wenn Sie es noch nicht aktivieren können, klicken Sie auf **[!UICONTROL Als Entwurf speichern]**.
 
 #### Verwalten des Zugriffs
 
-Sie können den Zugriff auf Benutzende verwalten und festlegen, welche Art von Daten für verschiedene Benutzergruppen freigegeben werden.
+Sie können den Zugriff auf Benutzer und die Art der Daten verwalten, die für verschiedene Benutzergruppen freigegeben werden.
 
-Klicken Sie auf **[!UICONTROL Zugriff verwalten]**, um das Dialogfeld „Zugriff verwalten“ zu öffnen.
+Klicken Sie auf **[!UICONTROL Zugriff verwalten]**, um das Dialogfeld _[!UICONTROL Zugriff verwalten]_ zu öffnen.
 
-In diesem Dialogfeld werden alle Kennzeichnungen aufgelistet, die von Ihrer Organisation eingerichtet wurden. Wählen Sie die Kennzeichnungen aus, die Sie auf diese Integration anwenden möchten.
+In diesem Dialogfeld werden alle Kennzeichnungen aufgelistet, die für Ihre Organisation festgelegt sind. Wählen Sie die Kennzeichnungen aus, die Sie auf diese Integration anwenden möchten.
 
-Wenn Sie eine neue Bezeichnung benötigen, klicken Sie auf **[!UICONTROL Bezeichnung erstellen]** und füllen Sie Folgendes aus:
+Wenn Sie eine neue Beschriftung benötigen, klicken Sie auf **[!UICONTROL Beschriftung erstellen]** und geben Sie die Beschriftungsinformationen ein:
 
 * Name
 * Benutzerfreundlicher Name
@@ -158,56 +159,45 @@ Wenn Sie eine neue Bezeichnung benötigen, klicken Sie auf **[!UICONTROL Bezeich
 
 ## Repräsentative Einstellungen
 
-Hier geben Sie Informationen über sich selbst ein: persönliche Daten, E-Mail- und Kalendereinstellungen und Chat-Verfügbarkeit.
+Die repräsentativen Einstellungen geben Informationen über sich selbst an, einschließlich persönlicher Daten, E-Mail- und Kalendereinstellungen und Chat-Verfügbarkeit.
 
 ### Details
 
-Auf der Registerkarte Details geben Sie Informationen zu sich selbst ein:
+Auf **[!UICONTROL Registerkarte]** Details“ geben Sie Informationen über sich selbst ein:
 
 ![Einstellungen für Verkaufskennzeichner-Details](assets/details.png)
 
 ### E-Mail-Einstellungen
 
-Richten Sie auf der Registerkarte E-Mail-Einstellungen Ihre E-Mail-Verbindungen ein.
+Richten Sie auf **[!UICONTROL Registerkarte]** E-Mail-Einstellungen“ Ihre E-Mail-Verbindungen ein.
 
 ![E-Mail-Einstellungen](assets/email-settings.png)
 
-#### E-Mail-Verbindungen
+* **[!UICONTROL E-Mail-]**: Klicken Sie auf **[!UICONTROL Verbinden]** und folgen Sie dem Anmeldeverfahren für Microsoft.
 
-Klicken Sie **[!UICONTROL Verbinden]** und folgen Sie dem Anmeldeverfahren für Microsoft.
-
-#### E-Mail-Signatur
-
-Konfigurieren der E-Mail-Signatur, die in automatisch generierten E-Mails verwendet wird.
+* **[!UICONTROL E-Mail-]**: Konfigurieren der E-Mail-Signatur, die in automatisch generierten E-Mails verwendet wird.
 
 ### Kalendereinstellungen
 
-Legen Sie auf der Registerkarte Kalendereinstellungen Ihre Zeitzone und Verfügbarkeit fest.
+Legen Sie auf **[!UICONTROL Registerkarte]** Kalendereinstellungen“ Ihre Zeitzone und Verfügbarkeit fest.
 
 ![Kalendereinstellungen](assets/calendar-settings.png)
 
-#### Kalenderverbindung
+* **[!UICONTROL Kalenderverbindung]** - Klicken Sie auf **[!UICONTROL Verbinden]** und folgen Sie dem Anmeldeverfahren für Microsoft, um Ihren Kalender zu integrieren.
 
-Klicken Sie **[!UICONTROL Verbinden]** und folgen Sie dem Anmeldeverfahren von Microsoft, um Ihren Kalender zu integrieren.
+* **[!UICONTROL Besprechungsbestätigungs-E-Mail]** - Wenn ein Kunde ein Meeting mit Ihnen bestätigt, erhält er die Bestätigungs-E-Mail als Antwort. Verwenden Sie diese Einstellungen, um den Betreff und Text der E-Mail zu definieren.
 
-#### E-Mail-Bestätigung für Meeting
-
-Wenn ein Kunde ein Meeting mit Ihnen bestätigt, erhält er die Bestätigungs-E-Mail als Antwort.
-Verwenden Sie diese Einstellungen, um den Betreff und Text der E-Mail zu definieren.
-
-#### Voreinstellungen
-
-Legen Sie die standardmäßige Länge der Besprechung und die Zeit fest, die zwischen aufeinander folgenden Besprechungen vergehen soll.
+* **[!UICONTROL Voreinstellungen]** - Legen Sie die standardmäßige Länge der Besprechung und die Zeit zwischen Back-to-Back-Besprechungen fest.
 
 ### Chat-Einstellungen
 
-Legen Sie auf dieser Registerkarte die Verfügbarkeit Ihres Zeitzonen-Live-Chats fest.
+Legen Sie auf **[!UICONTROL Registerkarte]** Chat-Einstellungen“ die Verfügbarkeit Ihres Zeitzonen-Live-Chats fest.
 
 ![Chat-Einstellungen](assets/chat-settings.png)
 
 ## Repräsentative Geschäftsführung
 
-In diesem Bedienfeld wird eine Tabelle aller definierten Vertreter und deren Kalenderstatus angezeigt.
+Das _[!UICONTROL Repräsentantenverwaltung]_ zeigt die definierten Repräsentanten und deren Kalenderstatus an.
 
 ## Meeting-Performance
 
@@ -233,4 +223,4 @@ Klicken Sie unten links in der Anwendung auf **[!UICONTROL Bearbeiten]** um zu s
 
 Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)

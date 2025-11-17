@@ -4,9 +4,9 @@ description: Verbinden Sie SMS-Anbieter wie Sinch, Twilio und Infobip mit API-An
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 325ae8e8c1f3bbf25e0d96907ede6cb9f2e76e3d
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '713'
 ht-degree: 6%
 
 ---
@@ -65,7 +65,7 @@ _So konfigurieren Sie Sinch als SMS-Provider mit Adobe Journey Optimizer B2B edi
 
    * **[!UICONTROL Service-]** und **[!UICONTROL API-Token]** - Greifen Sie über Ihr Sinch-Konto auf die API-Seite zu (Ihre Anmeldedaten finden Sie auf der Registerkarte „SMS„).
 
-   Weitere Informationen zum Auffinden dieser Informationen für Ihr Sinch-Konto finden Sie in der [Sinch-Entwicklerdokumentation](https://developers.sinch.com/docs/sms/getting-started/#2-get-credentials)
+   Weitere Informationen zum Auffinden dieser Informationen für Ihr Sinch-Konto finden Sie in der [Sinch-Entwicklerdokumentation](https://developers.sinch.com/docs/sms/getting-started)
 
 1. Klicken Sie **[!UICONTROL Senden]** wenn die Konfigurationsdetails Ihrer API-Anmeldeinformationen abgeschlossen sind.
 
