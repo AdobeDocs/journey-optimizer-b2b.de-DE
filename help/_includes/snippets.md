@@ -1,14 +1,14 @@
 ---
-title: Snippets
+title: Ausschnitte
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 20f9620691fe76119797a83b721ca460c0cc39e8
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2374'
 ht-degree: 3%
 
 ---
 
-# Snippets
+# Ausschnitte
 
 <!-- Content authoring steps for reuse -->
 
@@ -22,8 +22,8 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[&#x200B; dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist. Die Integration ist auf Repositorys der _Bereitstellungsebene“_. Wenn Sie die _Autorenebene_ verwenden und sie konvertieren möchten, wenden Sie sich an den Adobe Experience Manager-Support.<br/>
->&#x200B;>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
+>Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[ dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist. Die Integration ist auf Repositorys der _Bereitstellungsebene“_. Wenn Sie die _Autorenebene_ verwenden und sie konvertieren möchten, wenden Sie sich an den Adobe Experience Manager-Support.<br/>
+>Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
 
 ## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
 
@@ -217,7 +217,7 @@ Wählen Sie diesen Typ aus, um ein Bild-Asset aus der Journey Optimizer B2B edit
 
 ![Durchsuchen der verfügbaren Bild-Assets](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-Im Dialogfeld können Sie ein Bild aus dem ausgewählten Repository und Arbeitsbereich auswählen. Klicken Sie auf **[!UICONTROL Auswählen]**, um das Asset hinzuzufügen.
+Im Dialogfeld können Sie ein Bild aus dem ausgewählten Repository auswählen. Klicken Sie auf **[!UICONTROL Auswählen]**, um das Asset hinzuzufügen.
 
 Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden können:
 
@@ -229,7 +229,7 @@ Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden könne
 
 ## Inhalt - Bildauswahl - AEM Assets {#aem-assets-dam}
 
-Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu durchsuchen und &#x200B;](../user/admin/configure-aem-repositories.md).
+Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu durchsuchen und ](../user/admin/configure-aem-repositories.md).
 
 Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 

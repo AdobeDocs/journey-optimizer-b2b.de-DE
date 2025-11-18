@@ -1,31 +1,31 @@
 ---
 title: Assets
-description: Verwalten Sie Bild-Assets aus Marketo Engage Design Studio und AEM Assets für E-Mails, Vorlagen und Fragmente in Journey Optimizer B2B Edition.
+description: Verwalten von Bild-Assets aus Journey Optimizer B2B edition und AEM Assets für E-Mails, Vorlagen und Fragmente.
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
-workflow-type: ht
-source-wordcount: '883'
-ht-degree: 100%
+source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+workflow-type: tm+mt
+source-wordcount: '858'
+ht-degree: 70%
 
 ---
 
 # Assets
 
-In [!DNL Adobe Journey Optimizer B2B Edition] sind Assets normalerweise die Bilder, die beim Gestalten von Inhalten für Konto-Journeys verwendet werden. Sie können diese Bilder in E-Mails, E-Mail-Vorlagen und Fragmenten über eine Asset-Auswahl oder eine einfache Drag-and-Drop-Oberfläche im visuellen Design-Bereich verwenden.
+In [!DNL Adobe Journey Optimizer B2B Edition] sind Assets normalerweise die Bilder, die beim Gestalten von Inhalten für Konto-Journeys verwendet werden. Sie können diese Bilder in Ihren E-Mails, E-Mail-Vorlagen und Fragmenten über den Asset-Wähler oder eine einfache Drag-and-Drop-Oberfläche im visuellen Design-Bereich verwenden.
 
-[!DNL Journey Optimizer B2B Edition] bietet Marketing-Fachleuten Zugriff auf zwei Arten von Asset-Bibliotheken: [!DNL Adobe Marketo Engage] [!DNL Design Studio] und [!DNL Adobe Experience Manager Assets as a Cloud Service]. Sie können entweder ausschließlich Adobe Marketo Engage Design Studio oder gleichzeitig beide konfigurierten Bibliotheken verwenden (je nach der von Ihnen verwendeten [!DNL Experience Manager Assets]-Lizenz).
+[!DNL Journey Optimizer B2B Edition] bietet Designern und Marketern Zugriff auf zwei Arten von Asset-Bibliotheken: ein internes [!DNL Journey Optimizer B2B Edition] Asset-Repository und [!DNL Adobe Experience Manager Assets as a Cloud Service]. Sie können nur das integrierte Repository verwenden oder beide Bibliothekstypen gleichzeitig verwenden (je nach vorhandener [!DNL Experience Manager Assets]).
 
 ## Asset-Management
 
-Wenn Sie über [!DNL Adobe Experience Manager as a Cloud Services] verfügen, haben Sie Zugriff auf die Repositorys für [!DNL Marketo Engage Design Studio] und [!DNL Adobe Experience Manager Assets as a Cloud Service], wenn Ihr Benutzerkonto über die erforderlichen Berechtigungen verfügt. Diese Repositorys sind getrennt und nicht synchronisiert. Sie können Bilder aus beiden Quellen verwenden.
+Wenn Sie über [!DNL Adobe Experience Manager as a Cloud Services] verfügen und es als Asset-Quelle in [!DNL Journey Optimizer B2B Edition] konfiguriert ist, haben Sie Zugriff auf beide Repository-Typen, wenn Ihr Benutzerkonto über die erforderlichen Berechtigungen verfügt. Diese Repositorys sind getrennt und nicht synchronisiert. Sie können Bilder aus beiden Quellen verwenden.
 
-### Adobe Marketo Engage-Assets
+### Interne Assets
 
-Das Asset-Repository von [!DNL Adobe Marketo Engage Design Studio] wird standardmäßig mit jedem [!DNL Journey Optimizer B2B Edition]-Abonnement bereitgestellt. Das bedeutet, dass Sie Zugriff auf alle Bild-Assets haben, die in [!DNL Adobe Marketo Engage] ([!UICONTROL Design Studio] > [!UICONTROL Bilder und Dateien]) gespeichert sind. Sie können dieses Repository als lokale Asset-Bibliothek verwenden, also auch die Funktionen zum Hoch- und Herunterladen von Assets. Sie können diese Assets auch in Ihren Journey-Inhalten einsetzen.
+Das interne Asset-Repository wird standardmäßig bei jedem [!DNL Journey Optimizer B2B Edition]-Abonnement bereitgestellt. Das bedeutet, dass Sie Zugriff auf alle Bild-Assets haben, die im verbundenen [!DNL Adobe Marketo Engage]-Asset-Dateisystem gespeichert sind. Sie können dieses Repository als lokale Asset-Bibliothek verwenden, also auch die Funktionen zum Hoch- und Herunterladen von Assets. Sie können diese Assets auch in Ihren Journey-Inhalten einsetzen.
 
-Es gibt integrierte Schutzmechanismen, die Änderungen an den [!DNL Marketo Engage]-Assets von [!DNL Journey Optimizer B2B Edition] sowie Lösch- und Verschiebevorgänge verhindern. Diese Schutzmaßnahmen stellen sicher, dass die Quell-Assets (Marketo Engage Design Studio) beibehalten werden und gleichzeitig ein nahtloses Lesen und Wiederverwenden in [!DNL Journey Optimizer B2B Edition] möglich ist.
+Sie können [diese Assets mit Adobe Express bearbeiten](./image-edit-adobe-express.md) und sie in Ordner verschieben, um sie für die Verwendung in Ihren E-Mails, Vorlagen und Fragmenten zu organisieren.
 
 Folgende Dateiformate werden unterstützt: JPG, JPEG, GIF, PNG, EPS, SVG und RGB.
 
@@ -45,7 +45,7 @@ Derzeit können in Adobe Journey Optimizer B2B Edition nur Bilder aus Adobe Expe
 
 ## Verwenden von Assets für die Inhaltserstellung
 
-Verwenden Sie Assets beim Erstellen von E-Mails, E-Mail-Vorlagen und visuellen Fragmenten. Der visuelle Content-Editor bietet Zugriff auf die Bilder in Ihren verbundenen Asset-Repositorys. Wenn Sie über ein Abonnement für Experience Manager Assets as a Cloud Service und die Standardversion von Adobe Marketo Engage Design Studio verfügen, können Sie Bild-Assets aus beiden Quellen auswählen. Sie können auch ein Bild-Asset hochladen, wodurch es im [!DNL Journey Optimizer B2B Edition]-Arbeitsbereich des verbundenen [!DNL Marketo Engage Design Studio]-Repositorys platziert wird.
+Verwenden Sie Assets beim Erstellen von E-Mails, E-Mail-Vorlagen und visuellen Fragmenten. Der visuelle Content-Editor bietet Zugriff auf die Bilder in Ihren verbundenen Asset-Repositorys. Wenn Sie auch über ein Abonnement für Experience Manager Assets as a Cloud Service verfügen, können Sie Bild-Assets aus beiden Quellen auswählen. Sie können auch ein Bild-Asset hochladen, wodurch es im internen Assets-Repository abgelegt wird.
 
 Sie können die Bildquelle auswählen, wenn Sie die Einstellungen für eine Bildkomponente bearbeiten oder direkt auf der Arbeitsfläche Änderungen vornehmen.
 
@@ -65,15 +65,15 @@ Sie können ein Bild-Asset hinzufügen, während Sie Inhalte erstellen, je nach 
 
 >[!BEGINTABS]
 
->[!TAB Marketo Engage-Assets]
+>[!TAB Asset auswählen]
 
-Klicken Sie auf **[!UICONTROL Marketo Engage-Assets]**, um die Asset-Auswahl zu öffnen. Dort können Sie ein Bild aus einem [!DNL Marketo Engage]-Arbeitsbereich oder dem Journey Optimizer B2B Edition-Arbeitsbereich auswählen.
+Klicken Sie auf **[!UICONTROL Asset auswählen]**, um den Asset-Wähler zu öffnen, in dem Sie ein Bild aus dem Journey Optimizer B2B edition Asset-Repository auswählen können.
 
-![Auswählen eines Bild-Assets aus dem Arbeitsbereich](./assets/content-assets-image-me-selected.png){width="700" zoomable="yes"}
+![Bild-Asset auswählen](./assets/content-assets-internal-image-selected.png){width="700" zoomable="yes"}
 
 Sie können die Suche und Filter verwenden, um das gewünschte Bild-Asset zu finden. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Auswählen]**, um es für die Bildkomponente zu verwenden.
 
-Weitere Informationen zur Verwendung von [!DNL Marketo Engage]-Bild-Assets finden Sie unter [Verwenden von Assets in Ihren Inhalten](./marketo-engage-design-studio.md#use-assets-in-your-content).
+Weitere Informationen zur Verwendung interner Bild-Assets finden Sie unter [Verwenden von Assets in Ihren Inhalten](./internal-image-assets.md#use-assets-in-your-content).
 
 >[!TAB Experience Manager Assets]
 
@@ -89,8 +89,8 @@ Weitere Informationen zur Verwendung von Bilddateien aus [!DNL Experience Manage
 
 Klicken Sie auf **[!UICONTROL Medien importieren]**, um eine Bilddatei auszuwählen und sie als Asset zu importieren, das für Journey Optimizer B2B Edition-Inhalte verwendet werden kann.
 
-![Auswählen einer eigenen Bilddatei, die als Asset importiert werden soll](./assets/content-assets-image-import-file-selected.png){width="500" zoomable="yes"}
+![Auswählen einer eigenen Bilddatei, die als Asset importiert werden soll](./assets/content-assets-image-import-file-selected.png){width="450" zoomable="yes"}
 
-Nachdem Sie die Datei per Drag-and-Drop verschoben oder aus Ihrem Dateisystem ausgewählt haben, klicken Sie auf **[!UICONTROL Importieren]**. Das importierte Asset wird im [!DNL Journey Optimizer B2B Edition]-Arbeitsbereich des [!DNL Adobe Marketo Engage Design Studio]-Repositorys gespeichert.
+Nachdem Sie die Datei per Drag-and-Drop verschoben oder aus Ihrem Dateisystem ausgewählt haben, klicken Sie auf **[!UICONTROL Importieren]**. Das importierte Asset wird im [!DNL Journey Optimizer B2B Edition] Asset-Repository gespeichert.
 
 >[!ENDTABS]

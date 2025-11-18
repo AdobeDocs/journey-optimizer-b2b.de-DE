@@ -1,12 +1,12 @@
 ---
 title: Bearbeiten von Bildern mit Adobe Express
-description: Native Bildbearbeitung mit Adobe Express in Journey Optimizer B2B edition - Größenänderung, Beschneiden, Entfernen von Hintergründen, Konvertieren von Formaten und Speichern in Ihrem Arbeitsbereich.
+description: Native Bildbearbeitung mit Adobe Express in Journey Optimizer B2B edition - Ändern Sie die Größe, schneiden Sie Bilder zu, entfernen Sie Hintergründe, konvertieren Sie Formate und speichern Sie sie im Asset-Repository.
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '869'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 >title="Bearbeiten von Bildern in Adobe Express"
 >abstract="Einfache und intuitive Bildbearbeitungs-Tools, die von Adobe Express unterstützt werden, sind direkt in Adobe Journey Optimizer B2B Edition verfügbar, um die Content Velocity zu erhöhen."
 
-Adobe Journey Optimizer B2B edition integriert sich nativ mit Adobe Express und ermöglicht Ihnen den Zugriff auf eine Reihe von Adobe Express-Tools zur Bildbearbeitung. Sie können diese Tools verwenden, um die im Arbeitsbereich von Journey Optimizer B2B edition gespeicherten Bilder für das verbundene Marketo Engage Asset-Repository zu ändern. Die Integration bietet die folgenden zentralen Vorteile:
+Adobe Journey Optimizer B2B edition integriert sich nativ mit Adobe Express und ermöglicht Ihnen den Zugriff auf eine Reihe von Adobe Express-Tools zur Bildbearbeitung. Sie können diese Tools verwenden, um die im Journey Optimizer B2B edition Asset-Repository gespeicherten Bilder zu ändern. Die Integration bietet die folgenden zentralen Vorteile:
 
 * Erhöhte Wiederverwendung von Inhalten durch Bearbeiten und Speichern neuer Bild-Assets in Journey Optimizer B2B edition.
 
@@ -34,23 +34,23 @@ _So ändern Sie ein Bild :_
 
 1. Navigieren Sie zur linken Navigation und klicken Sie auf **[!UICONTROL Content-]** > **[!UICONTROL Assets]**.
 
-Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets. Der Arbeitsbereich _[!UICONTROL Journey Optimizer B2B edition]_ ist standardmäßig ausgewählt.
+Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
 
 1. Suchen Sie das Bild, das Sie ändern oder als Original verwenden möchten, um ein neues Asset zu erstellen.
 
-   * Um die Assets nach Arbeitsbereich und Ordner anzuzeigen, öffnen Sie die Struktur, indem Sie oben links auf _Ordner anzeigen_ klicken.
+   * Um die Assets nach Ordner anzuzeigen, öffnen Sie die Struktur, indem Sie oben links auf _Ordner anzeigen_ klicken.
 
    * Um die Tabelle nach einer der Spalten zu sortieren, klicken Sie auf den Spaltentitel. Der Pfeil in der Titelzeile zeigt die aktuelle Sortierspalte und -reihenfolge an.
 
-   * Um im ausgewählten Arbeitsbereich oder Ordner nach einem Bild-Asset zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste ein.
+   * Um im ausgewählten Ordner nach einem Bild-Asset zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste ein.
 
-   ![Durchsuchen von Assets im Journey Optimizer B2B edition-Arbeitsbereich](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![Durchsuchen von Assets im Journey Optimizer B2B edition-Repository](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. Klicken Sie auf den Namen des Bild-Assets, um es zu öffnen und seine Details anzuzeigen.
 
    >[!TIP]
    >
-   >Es empfiehlt sich, in den Bilddetails [&#x200B; Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen &#x200B;](./marketo-engage-design-studio.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
+   >Es empfiehlt sich, in den Bilddetails [ Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen ](./internal-image-assets.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
 
 1. Klicken Sie in _[!UICONTROL Abbildung]_ auf der rechten Seite auf **[!UICONTROL Mit Adobe Express bearbeiten]**.
 
@@ -86,7 +86,7 @@ Wenn Sie keine Adobe Express Enterprise-Lizenz haben, haben Sie Zugriff auf den 
 
    ![Wählen Sie einen Bearbeitungstyp aus, um das Bild zu ändern](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. Wenn Sie zum Adobe Express-Schnellaktionseditor zurückkehren, klicken Sie auf **[!UICONTROL Speichern]**, um die geänderte Bilddatei im Journey Optimizer B2B edition Asset-Arbeitsbereich unter Verwendung desselben Dateinamens zu speichern.
+1. Wenn Sie zum Adobe Express-Schnellaktionseditor zurückkehren, klicken Sie auf **[!UICONTROL Speichern]**, um die geänderte Bilddatei im Journey Optimizer B2B edition Asset-Repository unter Verwendung desselben Dateinamens zu speichern.
 
 ## Bildgröße ändern
 
@@ -118,8 +118,8 @@ Adobe Express führt eine automatische Hintergrundentfernung durch, um das prim�
 
 ## Dateiformat konvertieren
 
-* **[!UICONTROL In JPEG konvertieren]** - Bei einem PNG-Bild können Sie das Bild in eine JPEG-Bilddatei konvertieren und als neues Asset im Arbeitsbereich speichern.
-* **[!UICONTROL In PNG konvertieren]** - Bei einem JPEG-Bild können Sie das Bild in eine PNG-Bilddatei konvertieren und als neues Asset im Arbeitsbereich speichern.
+* **[!UICONTROL In JPEG konvertieren]** - Bei einem PNG-Bild können Sie das Bild in eine JPEG-Bilddatei konvertieren und als neues Asset speichern.
+* **[!UICONTROL In PNG konvertieren]** - Bei einem JPEG-Bild können Sie das Bild in eine PNG-Bilddatei konvertieren und als neues Asset speichern.
 
 ![Mit Adobe Express bearbeiten - in PNG konvertieren](./assets/assets-edit-adobe-express-convert-to-png.png){width="600" zoomable="yes"}
 

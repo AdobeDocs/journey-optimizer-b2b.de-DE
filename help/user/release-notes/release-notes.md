@@ -3,7 +3,7 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 8ddd69584f834517c9f4cea14ed4417f14020254
+source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
 workflow-type: tm+mt
 source-wordcount: '3729'
 ht-degree: 95%
@@ -58,6 +58,10 @@ Diese aktualisierte Architektur bietet mehrere Vorteile:
 * **Schutz Ihrer Daten**: Erweiterte Datenschutz- und Sicherheitsfunktionen helfen Ihnen, Ihre Kundendaten zu schützen.
 * **Für die Zukunft entwickelt**: Dieses Update bereitet Ihr Unternehmen auf kontinuierliche Verbesserungen und Innovationen vor.
 
+>[!NOTE]
+>
+>Wenn Ihre Umgebung auf dieser Architektur bereitgestellt ist, lesen Sie die [Konfigurationsrichtlinien](../simplified-architecture.md).
+
 Mit der vereinfachten Architektur sind die folgenden neuen Funktionen und Verbesserungen in der Version 2025.10 verfügbar:
 
 | Typ | Element | Beschreibung |
@@ -67,7 +71,12 @@ Mit der vereinfachten Architektur sind die folgenden neuen Funktionen und Verbes
 | Funktion | Deduplizierung bei E-Mail-Müdigkeit | Sie können jetzt E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass eine E-Mail im Rahmen einer Journey nicht mehrmals an dieselbe Adresse geschickt wird. Doppelte Adressen werden gesperrt, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
 | Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B edition. [Weitere Informationen](../admin/configure-channels-emails.md#communication-limits) |
 
-Wenn Ihre Umgebung auf dieser Architektur bereitgestellt ist, lesen Sie die [Konfigurationsrichtlinien](../simplified-architecture.md).
+<!-- There are additional functional changes with the simplified architecture:
+
+| Item | Description |
+| ---- | ----------- |
+| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
+| | | -->
 
 <!-- hold for later release 
 
@@ -235,7 +244,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Verbesserung | Zentrale Asset-Bibliothek | Mit der erweiterten _zentralen Assets-Bibliothek_ können Sie alle Bild-Assets in Ihrer Marketo Engage-Instanz in allen Design Studio-Arbeitsbereichen verwenden. Es gibt integrierte Schutzmechnismen, die Änderungen an den Marketo Engage-Assets von Journey Optimizer B2B Edition sowie Lösch- und Verschiebevorgänge verhindern. Diese Schutzmaßnahmen stellen sicher, dass die Quell-Assets (Marketo Engage Design Studio) beibehalten werden und gleichzeitig ein nahtloses Lesen und Wiederverwenden in Journey Optimizer B2B Edition möglich ist.<p>Für Assets, die ausschließlich zur Verwendung in Journey Optimizer B2B Edition vorgesehen sind, werden sämtliche Asset-Management-Funktionen in einem spezifischen Arbeitsbereich bereitgestellt. <a href="../content/marketo-engage-design-studio.md">Weitere Informationen</a> |
+| Verbesserung | Zentrale Asset-Bibliothek | Mit der erweiterten _zentralen Assets-Bibliothek_ können Sie alle Bild-Assets in Ihrer Marketo Engage-Instanz in allen Design Studio-Arbeitsbereichen verwenden. Es gibt integrierte Schutzmechnismen, die Änderungen an den Marketo Engage-Assets von Journey Optimizer B2B Edition sowie Lösch- und Verschiebevorgänge verhindern. Diese Schutzmaßnahmen stellen sicher, dass die Quell-Assets (Marketo Engage Design Studio) beibehalten werden und gleichzeitig ein nahtloses Lesen und Wiederverwenden in Journey Optimizer B2B Edition möglich ist.<p>Für Assets, die ausschließlich zur Verwendung in Journey Optimizer B2B Edition vorgesehen sind, werden sämtliche Asset-Management-Funktionen in einem spezifischen Arbeitsbereich bereitgestellt. <a href="../content/internal-image-assets.md">Weitere Informationen</a> |
 | Funktion | Zuletzt aufgerufene Assets | Die Startseite in der Journey Optimizer B2B Edition-Anwendung enthält jetzt den Abschnitt _[!UICONTROL Zuletzt aufgerufen]_ mit einer Liste der zuletzt aufgerufenen Assets für die Marketing-Fachkraft oder die Admins. Mit dieser Liste gelangen Sie direkt zu dem Asset, an dem Sie kürzlich gearbeitet haben, ohne erst durch eine Reihe von Asset-Seiten navigieren oder danach suchen zu müssen. <p>Die Liste enthält zusätzliche Informationen zu der Änderung, sodass Sie entscheiden können, welches der Assets weiter geändert werden muss. Bei E-Mail-Assets wird die Konto-Journey angezeigt, in der das E-Mail-Asset verwendet wird. <a href="../home-page.md">Weitere Informationen</a> |
 | Verbesserung | Journey-Knoten vom Typ „Aufteilen“ – Neues Anordnen von Pfaden | Bei Knoten vom Typ „Pfad aufteilen“ wird die Pfadfilterung in der Reihenfolge von oben nach unten ausgewertet. Jede Person oder jedes Konto fährt auf dem ersten Pfad fort, der passt. Sie können die Reihenfolge der definierten Pfade ändern, indem Sie oben rechts auf jeder Pfadkarte auf die Pfeile nach oben und unten klicken, um die Pfade in der Liste nach oben oder unten zu verschieben. <a href="../journeys/split-merge-paths-nodes.md#split-paths">Weitere Informationen</a> |
 | Verbesserung | Journey-Knoten vom Typ „Aufteilen“ – Zusätzliche Bedingungsattribute für den Aktivitätsverlauf | Wenn Sie Bedingungen verwenden, um die Pfadfilterung für einen Knoten vom Typ „Aufteilen“ nach Personen zu definieren, gibt es zwei zusätzliche Attribute: _Hat E-Mail geöffnet_ und _War übermittelte E-Mail_. Diese Ergänzungen bieten mehr Flexibilität beim Filtern von Personen in der Journey basierend auf E-Mail-Aktivitäten. <a href="../journeys/journey-nodes.md#split-paths">Weitere Informationen</a> |

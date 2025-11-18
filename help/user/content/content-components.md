@@ -4,9 +4,9 @@ description: Entwerfen von E-Mails, Landingpages und Fragmenten mit Inhaltskompo
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
 workflow-type: tm+mt
-source-wordcount: '2849'
+source-wordcount: '2843'
 ht-degree: 7%
 
 ---
@@ -212,7 +212,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
    Sie können zu einer einzelnen Strukturkomponente und zu jeder Spalte einer Strukturkomponente mehrere Komponenten hinzufügen.
 
-   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente &#x200B;](./assets/content-components-drag.png){width="600" zoomable="yes"}
+   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente ](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
 1. Passen Sie die Komponentenanzeige mit den Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stil]** auf der rechten Seite oder der auf der Arbeitsfläche angezeigten Kontextsymbolleiste an.
 
@@ -237,7 +237,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 
@@ -293,13 +293,13 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **[!UICONTROL Externer Link]** - Wählen Sie diesen Typ aus, um eine Standard-URL als Link-Ziel zu verwenden.
 
-     Geben **[!UICONTROL unter]** die URL für das Link-Ziel ein. Klicken Sie auf _Personalisieren_-Symbol ( ![Personalisieren-Symbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token als Parameter in der URL zu verwenden.
+     Geben **[!UICONTROL unter]** die URL für das Link-Ziel ein. Klicken Sie auf das Symbol _Personalisieren_ ( ![Personalisierungssymbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token als Parameter in der URL zu verwenden.
 
      ![Definieren eines externen Links für eine Schaltflächenkomponente](./assets/component-button-link-options-external.png){width="200"}
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -431,7 +431,7 @@ Fügen Sie _Komponente_ Trennzeichen“ hinzu, um eine lineare Aufteilung zwisch
 
 +++
 
-+++Linie
++++Zeile
 
 +++
 
@@ -537,7 +537,7 @@ Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie eine Bild
 
   ![Durchsuchen der verfügbaren Bild-Assets](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
-  Im Dialogfeld können Sie ein Bild aus dem ausgewählten Repository und Arbeitsbereich auswählen. Klicken Sie auf **[!UICONTROL Auswählen]**, um das Asset hinzuzufügen.
+  Im Dialogfeld können Sie ein Bild aus dem ausgewählten Repository auswählen. Klicken Sie auf **[!UICONTROL Auswählen]**, um das Asset hinzuzufügen.
 
   Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden können:
 
@@ -547,7 +547,7 @@ Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie eine Bild
 
      ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
-* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu &#x200B;](../admin/configure-aem-repositories.md) und auszuwählen.
+* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu ](../admin/configure-aem-repositories.md) und auszuwählen.
 
   Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 
@@ -591,13 +591,13 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **[!UICONTROL Externer Link]** - Wählen Sie diesen Typ aus, um eine Standard-URL als Link-Ziel zu verwenden.
 
-     Geben **[!UICONTROL unter]** die URL für das Link-Ziel ein. Klicken Sie auf _Personalisieren_-Symbol ( ![Personalisieren-Symbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token als Parameter in der URL zu verwenden.
+     Geben **[!UICONTROL unter]** die URL für das Link-Ziel ein. Klicken Sie auf das Symbol _Personalisieren_ ( ![Personalisierungssymbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token als Parameter in der URL zu verwenden.
 
      ![Definieren eines externen Links für eine Schaltflächenkomponente](./assets/component-button-link-options-external.png){width="250"}
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -674,7 +674,7 @@ Verwenden Sie die Komponente _Social_, um Links zu Social-Media-Seiten in Ihre I
 Wenn Sie einen Social-Media-Typ ausgewählt haben, legen Sie die Optionen für diesen Typ fest:
 
 * **[!UICONTROL URL]** - Geben Sie die Social-Media-URL ein, die Sie mit der Social-Media-Grafik oder dem Symbol verknüpfen möchten.
-* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [&#x200B; Bild-Assets finden &#x200B;](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
+* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [ Bild-Assets finden ](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
 * **[!UICONTROL ALT-]**: Geben Sie den ALT-Text für das angezeigte Bild ein.
 
   ![Einstellungen für den ausgewählten Social-Media-Typ](./assets/content-components-social-settings-for-type.png){width="250"}
