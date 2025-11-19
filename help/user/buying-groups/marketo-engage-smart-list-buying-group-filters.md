@@ -1,17 +1,25 @@
 ---
-title: Kaufen von Gruppenfiltern in Market Engage
+title: Kaufen von Gruppenfiltern in Marketo Engage
 description: Filtern Sie Leads, indem Sie Gruppenmitgliedschaften in Marketo Engage Smart Lists mit Einschränkungen wie Vollständigkeitsbewertung erwerben, um Kampagnen zu optimieren und die Lead-Bewertung zu optimieren.
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '506'
 ht-degree: 1%
 
 ---
 
 # Käufergruppenfilter in Marketo Engage
+
+>[!IMPORTANT]
+>
+>**Einstellung von Funktionen**</br></br>
+>
+>Mit der [vereinfachten Architektur](../simplified-architecture.md) für Journey Optimizer B2B edition sind die Einkaufsgruppenfilter nicht mehr in einer verbundenen Marketo Engage-Instanz verfügbar.</br></br>
+>
+>Alternativ können Sie für jede gewünschte Lösung eine statische Liste erstellen und dann [die Aktion _Zu Marketo-Liste hinzufügen_ von einem Journey-](../journeys/action-nodes.md#marketo-engage-actions) aus verwenden. Durch diese Aktion werden kaufende Gruppenmitglieder zu einer bestimmten statischen Liste in einer verbundenen Marketo Engage-Instanz hinzugefügt. Verwenden Sie dann die lösungsorientierte statische Liste für einen Smart-Listen-Filter.
 
 Als Marketing-Experte können Sie Kampagnen in Marketo Engage für Personen unterdrücken, die Teil von Einkaufsgruppen in Journey Optimizer B2B edition sind. Sie können die Lead-Scoring-Workflows in Marketo Engage auch anhand von Informationen zu den Leads informieren, die mit Einkaufsgruppen verbunden sind. Beispiel:
 
@@ -22,7 +30,7 @@ Wenn diese Bedingungen erfüllt sind, können Sie den Lead höher bewerten. Ande
 
 In Ihrer Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der Kaufgruppe]_ in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren.
 
-1. Nachdem Sie [Smart-Liste in Marketo Engage erstellen](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} wählen Sie die Registerkarte **[!UICONTROL Smart-Liste]** aus, um den Filter-Editor zu öffnen.
+1. Nachdem Sie [Smart-Liste in Marketo Engage erstellen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} wählen Sie die Registerkarte **[!UICONTROL Smart-Liste]** aus, um den Filter-Editor zu öffnen.
 
 1. Scrollen Sie in der Filterliste auf der rechten Seite in der Liste nach unten und erweitern Sie den Ordner **[!UICONTROL Spezielle Filter]**.
 
