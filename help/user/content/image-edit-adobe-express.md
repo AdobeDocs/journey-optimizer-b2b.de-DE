@@ -4,9 +4,9 @@ description: Native Bildbearbeitung mit Adobe Express in Journey Optimizer B2B e
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '856'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 >title="Bearbeiten von Bildern in Adobe Express"
 >abstract="Einfache und intuitive Bildbearbeitungs-Tools, die von Adobe Express unterstützt werden, sind direkt in Adobe Journey Optimizer B2B Edition verfügbar, um die Content Velocity zu erhöhen."
 
-Adobe Journey Optimizer B2B edition integriert sich nativ mit Adobe Express und ermöglicht Ihnen den Zugriff auf eine Reihe von Adobe Express-Tools zur Bildbearbeitung. Sie können diese Tools verwenden, um die im Journey Optimizer B2B edition Asset-Repository gespeicherten Bilder zu ändern. Die Integration bietet die folgenden zentralen Vorteile:
+[!DNL Adobe Journey Optimizer B2B Edition] integriert sich nativ mit Adobe Express und ermöglicht den Zugriff auf eine Reihe [!DNL Adobe Express] Bildbearbeitungs-Tools. Mit diesen Tools können Sie die im [!DNL Journey Optimizer B2B Edition] Asset-Repository gespeicherten Bilder ändern. Die Integration bietet die folgenden zentralen Vorteile:
 
 * Erhöhte Wiederverwendung von Inhalten durch Bearbeiten und Speichern neuer Bild-Assets in Journey Optimizer B2B edition.
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer B2B edition integriert sich nativ mit Adobe Express und 
 >
 >Berechtigungen für Adobe Express-Bearbeitungsfunktionen sind in allen Journey Optimizer B2B edition-Abonnements enthalten.
 
-Die Adobe Express-Funktionen unterstützen PNG- und JPEG-Bilddateiformate.
+Die [!DNL Adobe Express] unterstützen PNG- und JPEG-Bilddateiformate.
 
 _So ändern Sie ein Bild :_
 
@@ -50,7 +50,7 @@ Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
 
    >[!TIP]
    >
-   >Es empfiehlt sich, in den Bilddetails [&#x200B; Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen &#x200B;](./internal-image-assets.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
+   >Es empfiehlt sich, in den Bilddetails [ Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen ](./internal-image-assets.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
 
 1. Klicken Sie in _[!UICONTROL Abbildung]_ auf der rechten Seite auf **[!UICONTROL Mit Adobe Express bearbeiten]**.
 
