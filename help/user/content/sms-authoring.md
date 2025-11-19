@@ -4,7 +4,7 @@ description: Erstellen von SMS-Nachrichten für Account-Journey mit Personalisie
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-source-git-commit: aa79e0655737541f122801f28db73d9f31ebb2f7
+source-git-commit: 9a97682590d779c8b5f5b385efd912ee1f56ed31
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Verwenden Sie Adobe Journey Optimizer B2B edition, um Textnachrichten (SMS) an die Mobilgeräte Ihrer Kunden zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
 
-Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass der [SMS-Service-Provider“ &#x200B;](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
+Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass der [SMS-Service-Provider“ ](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
 
 ## Hinzufügen einer SMS-Aktion auf einer Konto-Journey
 
@@ -67,7 +67,7 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
 1. Geben _[!UICONTROL im Dialogfeld „Fallback-]_ eingeben“ den Text ein, der als Fallback angezeigt wird, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
-   ![Fallback-Text für das Token eingeben](./assets/sms-message-personalize-fallback-text.png){width="400"}
+   ![Fallback-Text für das Token eingeben](./assets/sms-message-personalize-fallback-text.png){width="450"}
 
 1. Wenn Ihre Personalisierungs-Token platziert sind, klicken Sie auf **[!UICONTROL Speichern]**, um Änderungen zu speichern und zum Haupt-Arbeitsbereich für die SMS-Bearbeitung zurückzukehren.
 
@@ -89,12 +89,12 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
    * **[!UICONTROL Tracking aktivieren]** - Aktivieren Sie dieses Kontrollkästchen, um das Tracking zu aktivieren. Dazu muss _URL_ werden. Für eine Landingpage wird die Marketo Engage-Subdomain als gekürzte URL verwendet. Ein Beispiel für das gekürzte URL-Format wird angezeigt. Die eigentliche URL wird erstellt, wenn die SMS an den Empfänger gesendet wird.
 
-   * **[!UICONTROL mkt_tok einschließen]** - Aktivieren Sie dieses Kontrollkästchen, um die Aktivität in Bezug auf einen Benutzer zu verfolgen.
+   * **[!UICONTROL mkt_tok einschließen]** - Aktivieren Sie dieses Kontrollkästchen, um die Aktivität in Bezug auf einen Benutzer zu verfolgen.</br>
 
      >[!NOTE]
      >
      >Wenn Sie Tracking zulassen, aber _[!UICONTROL Include mkt_tok]_ deaktivieren, enthält die Ziel-URL nach der Umleitung den `mkt_tok` Abfragezeichenfolgenparameter nicht. Dieser Parameter wird von Marketo Engage-Landingpages und Munchkin verwendet, um sicherzustellen, dass das Tracking von Personenaktivitäten erfolgt (z. B. wenn eine Person sich von einer E-Mail abmeldet). Deaktivieren Sie diese Option nur, wenn der Parameter Probleme auf Ihrer Website verursacht.<br/>
-     >Weitere Informationen zur Verwendung von Munchkin-Trackingcodes auf Ihrer Website finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+     >Weitere Informationen zur Verwendung von Munchkin-Trackingcodes auf Ihrer Website finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
    ![Dialogfeld „Link hinzufügen“ für SMS-Nachricht](./assets/sms-add-link-dialog.png){width="470"}
 
@@ -117,7 +117,7 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
 1. Geben Sie die **[!UICONTROL Absendernummer]** ein&#x200B; die Sie für Ihre Nachrichten verwenden möchten.
 
-   ![Eigenschaften von SMS-Nachrichten](./assets/sms-properties.png){width="700" zoomable="yes"}
+   ![Eigenschaften von SMS-Nachrichten](./assets/sms-properties.png){width="500" zoomable="yes"}
 
    Die Empfängernummer wird immer dem `profile.mobilePhone.number` in Experience Platform zugeordnet.
 
