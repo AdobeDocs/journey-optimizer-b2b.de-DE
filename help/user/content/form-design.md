@@ -5,7 +5,7 @@ feature: Forms, Content Design Tools
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Verwenden Sie die Tools für den Feldentwurf, um die Felder und das Layout zu er
 
 1. Aktivieren _[!UICONTROL im Dialogfeld]_ Feldattribut auswählen“ das Kontrollkästchen für das Personenprofilattribut, das Sie für das Feld verwenden möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-   Die [XDM-Geschäftsschemata](../data/field-mapping.md#xdm-business-person-attributes) bestimmen die verfügbaren Attribute.  Alle benutzerdefinierten Felder, die für Ihre Journey Optimizer B2B edition-Instanz definiert sind, sind ebenfalls verfügbar. Verwenden Sie das Textfeld Suchen , um die Liste nach Namen zu filtern, oder klicken Sie auf das Symbol Filtern , um die Liste nach Schema/Datentyp zu filtern.
+   Die [XDM-Geschäftsschemata](../admin/field-mapping.md#xdm-business-person-attributes) bestimmen die verfügbaren Attribute.  Alle benutzerdefinierten Felder, die für Ihre Journey Optimizer B2B edition-Instanz definiert sind, sind ebenfalls verfügbar. Verwenden Sie das Textfeld Suchen , um die Liste nach Namen zu filtern, oder klicken Sie auf das Symbol Filtern , um die Liste nach Schema/Datentyp zu filtern.
 
    ![Fügen Sie eine Feldkomponente zum Formular hinzu](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
 
