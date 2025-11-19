@@ -1,16 +1,16 @@
 ---
-title: Journey-Build-Agent für B2B
+title: Journey-Build-Agent B2B
 description: Erfahren Sie, wie Sie mit dem KI-gestützten Journey-Build-Agenten schnell zuverlässige Journey erstellen können
 feature: Account Journeys, AI Assistant
 role: User
-source-git-commit: 8fb86fe3434a5acdec6fd638fad571a0bc901884
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Journey-Build-Agent für B2B
+# Journey-Build-Agent B2B
 
 Journey Builder Agent B2B ist ein KI-Agent, der Sie bei der Erstellung, Ausführung und Optimierung von Journey durch Automatisierung und datengestützte Empfehlungen unterstützt. Journey Builder Agent for B2B automatisiert und reduziert die Zeit für die Erstellung neuer B2B-Journey.
 
