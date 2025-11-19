@@ -3,9 +3,9 @@ title: Verkaufskennzeichner
 description: Automatisieren Sie die B2B-Qualifizierung und Kontaktaufnahme mit dem Sales Qualifier. Es bietet KI-gestützte Forschung, E-Mail-Erstellung, CRM-Integration und Interaktionspläne für BDRs.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: dc6495a65b89cb3993c4b72706298181a3b555db
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1376'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ Verwenden Sie den Browser und die E-Mail-Plug-ins, um Business Intelligence dire
 
 Der Verkaufsqualifizierer ist in Journey Optimizer B2B edition enthalten, aber es handelt sich um eine separate App innerhalb von Experience Platform Experience Cloud.
 
-![Sales Qualifier-Startseite](assets/home-screen.png)
+![Dashboard für Vertriebsqualifizierer zur Automatisierung der Qualifizierung und Kontaktaufnahme von BDR-Interessenten für B2B-Unternehmen](assets/home-screen.png)
 
 ## Account Qualification Agent
 
 Die Account Qualification Agent (AQA) ist das Herzstück des Sales Qualifier. Die AQA verwendet KI, um Ihre Konten zu lesen und festzustellen, welche für den nächsten Schritt bereit sind. Es unterstützt bei Recherche, E-Mail-Erstellung und CRM-Updates.
 
-![Account Qualification Agent](assets/acc-qualification-agent.png)
+![KI-gestütztes Account Qualification Agent-Dashboard für die Untersuchung von Interessenten und Accounts im Vertrieb](assets/acc-qualification-agent.png)
 
 * **Prospect Research**
 
@@ -68,7 +68,7 @@ Iterieren Sie über Ihren Journey, indem Sie Ihre Eingabeaufforderungen verfeine
 
 In diesem Fenster werden alle Leads aufgelistet, auf die Sie Zugriff haben. Es ist eine schnelle Prüfung von Dingen wie Lead-Status und letzte Aktivität.
 
-![Alle Leads in der Lead-Tabelle anzeigen](assets/prospects.png)
+![Leads-Tabelle mit Lead-Status und letzter Aktivität für das Interessenten-Management](assets/prospects.png)
 
 Klicken Sie auf _Filter_ ![Filtersymbol](../../assets/do-not-localize/icon_filter-outline.svg), um die angezeigte Liste nach Lead-Status zu filtern.
 
@@ -76,7 +76,7 @@ Klicken Sie auf _Filter_ ![Filtersymbol](../../assets/do-not-localize/icon_filte
 
 In diesem Fenster finden Sie Details zu allen definierten Interaktionsplänen.
 
-![Interaktionspläne](assets/engagement-plans.png)
+![Interaktionsplan-Dashboard mit Plandetails, ausgewählten Leads und Zeitplaneinstellungen](assets/engagement-plans.png)
 
 Um einen neuen Interaktionsplan zu erstellen, klicken Sie auf **[!UICONTROL Interaktionsplan erstellen]**.
 
@@ -95,9 +95,9 @@ In diesem Bedienfeld werden alle durch Automatisierung eingerichteten Meetings a
 
 ## Chat-Posteingang
 
-In diesem Panel werden alle Chats und Threads angezeigt.
+In diesem Panel werden alle Ihre Chat-Threads angezeigt.
 
-![Chat-Posteingang](assets/chat-inbox.png)
+![Panel mit Chat-Threads mit Kontakt- und Thread-Zusammenfassungen für die Verkaufsautomatisierung](assets/chat-inbox.png)
 
 Sie können mit Clients interagieren und Zusammenfassungen für den Kontakt und den Thread anzeigen, damit Sie schnell wissen, wo Sie sich im Thread befinden.
 
@@ -106,15 +106,15 @@ Sie können mit Clients interagieren und Zusammenfassungen für den Kontakt und 
 Mit Integrationen kann der Sales Qualifier CRMs und andere Datenquellen nutzen, um Kundenprofile anzureichern und Vertriebsaktivitäten zu nutzen:
 
 * Integration in Ihren E-Mail-Posteingang, um relevante eingehende E-Mails zu verfolgen und Antworten zu generieren.
-* Lesen und Aktualisieren von CRM-Daten, z. B. Salesforce oder Microsoft® Dynamics, ZoomInfo oder Buildwidth.
+* Lesen und Aktualisieren von CRM-Daten, z. B. Salesforce oder Microsoft® Dynamics, ZoomInfo oder BuiltWith.
 
-![Integration von Outlook für den Verkaufsqualifizierer](assets/outlook.png)
+![Integration von Sales Qualifier mit Microsoft Outlook mit E-Mail- und Kontaktübersichten](assets/outlook.png)
 
 ### Einrichten einer neuen Integration
 
 Um eine neue Integration zu starten, klicken **[!UICONTROL oben]** auf „Integration erstellen“.
 
-![Integrationsdetails](assets/integration-details.png)
+![Integrations-Setup-Formular mit URL-, HTTP-Methode-, Kopfzeilen- und Authentifizierungsoptionen](assets/integration-details.png)
 
 Definieren Sie die URL der Integration und die zu sendende Payload:
 
@@ -165,13 +165,13 @@ Die repräsentativen Einstellungen geben Informationen über sich selbst an, ein
 
 Auf **[!UICONTROL Registerkarte]** Details“ geben Sie Informationen über sich selbst ein:
 
-![Einstellungen für Verkaufskennzeichner-Details](assets/details.png)
+![Registerkarte „Details“ mit persönlichen Informationen, E-Mail- und Chat-Verfügbarkeitseinstellungen für Vertreter](assets/details.png)
 
 ### E-Mail-Einstellungen
 
 Richten Sie auf **[!UICONTROL Registerkarte]** E-Mail-Einstellungen“ Ihre E-Mail-Verbindungen ein.
 
-![E-Mail-Einstellungen](assets/email-settings.png)
+![Registerkarte E-Mail-Einstellungen mit E-Mail-Verbindungsoptionen und E-Mail-Signaturkonfiguration](assets/email-settings.png)
 
 * **[!UICONTROL E-Mail-]**: Klicken Sie auf **[!UICONTROL Verbinden]** und folgen Sie dem Anmeldeverfahren für Microsoft.
 
@@ -181,7 +181,7 @@ Richten Sie auf **[!UICONTROL Registerkarte]** E-Mail-Einstellungen“ Ihre E-Ma
 
 Legen Sie auf **[!UICONTROL Registerkarte]** Kalendereinstellungen“ Ihre Zeitzone und Verfügbarkeit fest.
 
-![Kalendereinstellungen](assets/calendar-settings.png)
+![Registerkarte „Kalendereinstellungen“ mit Optionen zu Zeitzone und Verfügbarkeit](assets/calendar-settings.png)
 
 * **[!UICONTROL Kalenderverbindung]** - Klicken Sie auf **[!UICONTROL Verbinden]** und folgen Sie dem Anmeldeverfahren für Microsoft, um Ihren Kalender zu integrieren.
 
@@ -193,7 +193,7 @@ Legen Sie auf **[!UICONTROL Registerkarte]** Kalendereinstellungen“ Ihre Zeitz
 
 Legen Sie auf **[!UICONTROL Registerkarte]** Chat-Einstellungen“ die Verfügbarkeit Ihres Zeitzonen-Live-Chats fest.
 
-![Chat-Einstellungen](assets/chat-settings.png)
+![Registerkarte „Chat-Einstellungen“ zum Konfigurieren der Zeitzone und der Verfügbarkeit von Live-Chat](assets/chat-settings.png)
 
 ## Repräsentative Geschäftsführung
 
@@ -223,4 +223,4 @@ Klicken Sie unten links in der Anwendung auf **[!UICONTROL Bearbeiten]** um zu s
 
 Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
