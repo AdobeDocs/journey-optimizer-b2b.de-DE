@@ -4,16 +4,16 @@ description: 'Durchsuchen, Verwalten und Verwenden von Journey Optimizer B2B edi
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: ddc0c68c5d2fb3c1260100bb4686bcff16aafdff
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1758'
 ht-degree: 1%
 
 ---
 
 # Arbeiten mit internen Bild-Assets
 
-Das interne Bild-Asset-Repository ist die Standard-Asset-Quelle für das Entwerfen von Inhalten. Sie können die verfügbaren Assets einfach verwalten und verwenden, um Inhalte zu entwerfen, die die Journey Ihres Kontos unterstützen.
+Das interne Bild-Asset-Repository ist die standardmäßige Bild-Asset-Quelle. Sie können die verfügbaren Assets einfach verwalten und verwenden, um Inhalte zu entwerfen, die die Journey Ihres Kontos unterstützen.
 
 Sie verfügen über alle Asset-Management-Funktionen in Journey Optimizer B2B edition. Zu diesen Funktionen gehören:
 
