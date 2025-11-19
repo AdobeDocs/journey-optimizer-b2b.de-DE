@@ -4,7 +4,7 @@ description: Konfigurieren von Aktionsknoten für Konto- und Personenaktionen - 
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 559725b4a1c789085fa241b9a19dc666a457c77b
+source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 2%
@@ -174,7 +174,7 @@ Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten
 
 +++[!UICONTROL Ändern des Datenwerts]
 
-Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[ zu ](../data/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
+Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[ zu ](../admin/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
 
 ![Aktion ausführen - Datenwert ändern](./assets/node-action-change-data-value.png){width="300"}
 
