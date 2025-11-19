@@ -4,10 +4,10 @@ description: Verwalten von Bild-Assets aus Journey Optimizer B2B edition und AEM
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-source-git-commit: 9c4f2fd95d60eb98deb256cbbb382da694a1a1cf
+source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '852'
+ht-degree: 60%
 
 ---
 
@@ -49,15 +49,15 @@ Verwenden Sie Assets beim Erstellen von E-Mails, E-Mail-Vorlagen und visuellen F
 
 Sie können die Bildquelle auswählen, wenn Sie die Einstellungen für eine Bildkomponente bearbeiten oder direkt auf der Arbeitsfläche Änderungen vornehmen.
 
-* **_Einstellungen für Bildkomponenten_** – Wenn Sie eine Bildkomponente im visuellen Design-Bereich ausgewählt haben, können Sie die Einstellungen im rechten Bereich anzeigen und bearbeiten. Um die in der Komponente angezeigte Bilddatei hinzuzufügen oder zu ändern, wählen Sie den Quelltyp und dann eine Bilddatei aus.
+* **_Einstellungen der Bildkomponente_** - Wenn Sie eine Bildkomponente auf der Arbeitsfläche ausgewählt haben, können Sie die Einstellungen im rechten Bedienfeld anzeigen und bearbeiten. Um die in der Komponente angezeigte Bilddatei hinzuzufügen oder zu ändern, wählen Sie den Quelltyp und dann eine Bilddatei aus.
 
   ![Bearbeiten der Einstellungen der Bildkomponente im rechten Panel](./assets/content-assets-image-settings.png){width="350"}
 
-* **_Leere Komponente_** – Wenn Sie eine Bildkomponente im visuellen Design-Bereich hinzufügen, ist diese leer und bietet einen einfachen Zugriff, um eine Quelle und eine Bilddatei auszuwählen.
+* **_Leere Komponente_** - Wenn Sie eine Bildkomponente zur Arbeitsfläche hinzufügen, ist sie leer und bietet einfachen Zugriff zum Auswählen einer Quelle und einer Bilddatei.
 
   ![Auswählen einer Quelle, um eine Bilddatei für die leere Bildkomponente festzulegen](./assets/content-assets-image-component-empty.png){width="500"}
 
-* **_Bildkomponenten-Symbolleiste_** – Wenn Sie eine Bildkomponente im visuellen Design-Bereich ausgewählt haben, bietet die Symbolleiste einen einfachen Zugriff, um eine Quelle und die Bilddatei auszuwählen.
+* **_Bildkomponenten-Symbolleiste_** - Wenn Sie eine Bildkomponente auf der Arbeitsfläche ausgewählt haben, bietet die Symbolleiste einfachen Zugriff, um eine Quelle und die Bilddatei auszuwählen.
 
   ![Auswählen einer Quelle und einer Bilddatei für die Bildkomponente mithilfe der Symbolleiste](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
@@ -79,7 +79,7 @@ Weitere Informationen zur Verwendung interner Bild-Assets finden Sie unter [Verw
 
 Klicken Sie auf **[!UICONTROL Experience Manager Assets]**, um den Asset-Wähler zu öffnen. Dort können Sie ein Bild aus dem Experience Manager Assets-Repository auswählen.
 
-![Auswählen eines Bild-Assets aus dem AEM Assets-Repository &#x200B;](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
+![Auswählen eines Bild-Assets aus dem AEM Assets-Repository ](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
 
 Sie können die Suche und Filter verwenden, um das gewünschte Bild-Asset zu finden. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Auswählen]**, um es für die Bildkomponente zu verwenden.
 
