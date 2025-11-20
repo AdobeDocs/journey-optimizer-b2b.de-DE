@@ -4,9 +4,9 @@ description: Konfigurieren von Ereignisknoten für Konto- und Personen-Trigger -
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: f5fc362d52ff83335c71b5efe7ea2915d6a7e330
+source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1810'
 ht-degree: 12%
 
 ---
@@ -117,7 +117,7 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können S
 
 1. Klicken Sie **[!UICONTROL Ereignis bearbeiten]** und definieren Sie eine oder mehrere Web-Seiten, die abgeglichen werden sollen, sowie alle zusätzlichen Einschränkungen für das Ereignis.
 
-   * (Erforderlich) Definieren Sie im Dialogfeld _[!UICONTROL Ereignis bearbeiten]_ die Einschränkung **[!UICONTROL Webseite]** oder **[!UICONTROL Formular ausfüllen]**. Verwenden Sie **[!UICONTROL is]** (Standard), um auf einer oder mehreren ausgewählten Seiten oder Formularen eine Übereinstimmung zu finden. Verwenden Sie **[!UICONTROL ist nicht]** um bei allen Seitenbesuchen/Formularen eine Übereinstimmung mit dem Ausschluss einer oder mehrerer ausgewählter Seiten/Formulare herzustellen. Oder verwenden Sie **[!UICONTROL ist beliebig]**, um bei jedem Besuch auf einer Marketo Engage-Web-Seite oder bei jedem ausgefüllten Formular eine Übereinstimmung herzustellen.
+   * (Erforderlich) Definieren Sie im Dialogfeld _[!UICONTROL Ereignis bearbeiten]_ die Einschränkung **[!UICONTROL Webseite]** oder **[!UICONTROL Formular ausfüllen]**. Verwenden Sie **[!UICONTROL is]** (Standard), um auf einer oder mehreren ausgewählten Seiten oder Formularen eine Übereinstimmung zu finden. Verwenden Sie **[!UICONTROL ist nicht]** um bei allen Seitenbesuchen/Formularen eine Übereinstimmung mit dem Ausschluss einer oder mehrerer ausgewählter Seiten/Formulare herzustellen. Oder verwenden Sie den Operator **[!UICONTROL is any]**, um ihn bei jedem Besuch auf einer Marketo Engage-Web-Seite oder bei jedem ausgefüllten Formular abzugleichen.
 
    * (Optional) Klicken Sie auf **[!UICONTROL Begrenzung hinzufügen]** und wählen Sie das Feld aus, das Sie für die Begrenzung verwenden möchten. Legen Sie den Operator und den Wert für das Feld fest.
 
@@ -135,13 +135,14 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können S
 
 ### Überwachen eines Erlebnisereignisses
 
-Admins können Adobe Experience Platform (AEP)-basierte Ereignisdefinitionen konfigurieren, mit denen Marketing-Experten Account-Journey erstellen können, die auf [AEP Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} reagieren. Die Verwendung von AEP-Erlebnisereignissen in Account Journey erfolgt in zwei Schritten:
+Admins können [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} auswählen, mit denen Marketing-Experten Journey erstellen können, die nahezu in Echtzeit auf die Ereignisse reagieren. Die Verwendung von Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
 
-1. [Erstellen und Veröffentlichen einer AEP-](../admin/configure-aep-events.md).
+1. Ein Administrator [wählt die Ereignistypen und -felder aus](../admin/configure-aep-events.md#select-an-event) um sie in Journey verfügbar zu machen.
 
-2. Fügen Sie auf einer Konto-Journey den Knoten _Auf ein Ereignis_) hinzu und wählen Sie eine Experience Platform-Ereignisdefinition für ein personenbasiertes Ereignis aus.
+2. Fügen Sie auf einer Journey den _Auf ein Ereignis_ lauschen“ hinzu und wählen Sie einen Experience Platform-Ereignistyp für ein personenbasiertes Ereignis aus.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width=„30“, vertical-align=„Middle“} [Videoübersicht](../admin/configure-aep-events.md#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) -->
 
 _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
@@ -159,21 +160,21 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
    ![Ereignis bearbeiten](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Ereignis bearbeiten]** und definieren Sie die Ereignistypen und alle zusätzlichen Einschränkungen für das Ereignis.
+1. Klicken Sie **[!UICONTROL Ereignis bearbeiten]** und definieren Sie eine oder mehrere Einschränkungen für das Ereignis.
 
-   * (Erforderlich) Definieren Sie im _[!UICONTROL Ereignis bearbeiten]_ den Ereignistyp. Sie können den Standardoperator **[!UICONTROL is]** verwenden, um einen oder mehrere ausgewählte Ereignistypen abzugleichen. Sie können auch den Operator **[!UICONTROL ist nicht]** verwenden, um für alle Ereignistypen einen Abgleich durchzuführen, wobei ein oder mehrere ausgewählte Ereignistypen ausgeschlossen sind.
+   Die verfügbaren Einschränkungen werden als verwaltete Felder für die Ereigniskonfiguration definiert.
 
-   * (Optional) Klicken Sie auf **[!UICONTROL Begrenzung hinzufügen]** und wählen Sie das Feld aus, das Sie für die Begrenzung verwenden möchten. Legen Sie den Operator und den Wert für das Feld fest.
+   * Klicken Sie **[!UICONTROL Begrenzung hinzufügen]** und wählen Sie das Feld aus, das Sie für die Begrenzung verwenden möchten.
+
+   * Schließen Sie die Bedingung für die Einschränkung ab.
+
+     Sie können den Standardoperator **[!UICONTROL is]** verwenden, um einen oder mehrere Feldwerte abzugleichen. Sie können auch den Operator **[!UICONTROL isNot]** verwenden, um für alle Werte einen Abgleich durchzuführen, wobei ein oder mehrere angegebene Werte ausgeschlossen sind.
 
      ![Überwachen eines Erlebnisereignisses](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
 
-     >[!NOTE]
-     >
-     >Die Einschränkungen für _Datum der Aktivität_ und _Mindestanzahl von_) werden nicht unterstützt.
-
-     Sie können diese Aktion wiederholen, um bei Bedarf zusätzliche Feldeinschränkungen einzuschließen.
-
    * Wählen Sie bei Bedarf die Registerkarte **[!UICONTROL Filter]** aus, um [Filter für das Ereignis hinzuzufügen](#add-a-filter-to-the-people-event).
+
+   * (Optional) Klicken Sie auf **[!UICONTROL Begrenzung hinzufügen]** und wiederholen Sie diese Schritte, um bei Bedarf zusätzliche Feldeinschränkungen einzuschließen.
 
    * Wenn die Einschränkungen und Filter definiert sind, klicken Sie auf **[!UICONTROL Fertig]**.
 
@@ -181,7 +182,7 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
 1. Fügen Sie in der Journey-Zuordnung den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
 
-1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [&#x200B; Sie ihn &#x200B;](./journey-overview.md).
+1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [ Sie ihn ](./journey-overview.md).
 
    Wenn die Journey live (veröffentlicht) ist und den Knoten _Auf ein Ereignis warten_ erreicht, beginnt sie mit dem Lauschen auf AEP Experience Events.
 
@@ -219,6 +220,6 @@ Legen Sie bei Bedarf fest, wie lange die Journey auf das Ereignis warten soll. D
 
    ![Journey-Ereignisknoten - Zeitüberschreitungspfad festlegen](./assets/node-event-timeout-set-path.png){width="700" zoomable="yes"}
 
-## Übersichtsvideo
+<!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443243/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

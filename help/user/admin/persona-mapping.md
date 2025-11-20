@@ -3,14 +3,14 @@ title: Persona-Zuordnung
 description: Erfahren Sie, wie Sie ein Persona-Mapping für B2B-Marketing einrichten. Ordnen Sie Personenattribute in Journey Optimizer B2B edition zu, um Rollenvorlagen zu erstellen und das Targeting für Einkaufsgruppen zu optimieren.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# Persona-Zuordnung
+# Persona-Mapping
 
 Personas sind ein wichtiger Aspekt in einem Account-Based Marketing (ABM)-Ansatz, da sie Marketing-Experten dabei helfen, ihre Strategien an die spezifischen Bedürfnisse, Präferenzen und Schmerzpunkte von Personen in Zielkonten anzupassen. Marketing-Experten können für jede Rolle ein detailliertes Profil erstellen, einschließlich Hintergrund, Zuständigkeiten, Probleme und bevorzugter Kommunikationskanäle. Mit diesen Definitionen können Admins Personas anhand von Personenattributen in Journey Optimizer B2B edition konfigurieren, sodass Rollenvorlagen optimierte und konsistente Rollenbedingungen verwenden können, die diese Personas erfassen.
 
@@ -39,13 +39,13 @@ Sie können beispielsweise eine Rolle mit dem Namen _Produktverwaltung_ konfigur
 
 1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** Persona-Zuordnung“, um die Liste der Personas anzuzeigen.
 
-   ![Zugriff auf die konfigurierten Personas](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
+   ![Zugriff auf die konfigurierten Personas](./assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
-   Auf dieser Seite können Sie [erstellen](#create-an-engagement-score-model), [bearbeiten](#change-the-engagement-weighting-settings) oder [löschen](#delete-a-persona).
+   Auf dieser Seite können Sie [erstellen](#create-a-persona), [bearbeiten](#edit-a-persona) oder [löschen](#delete-a-persona).
 
-   Die Persona-Zuordnungsliste. ist als Tabelle organisiert und zeigt oben die zuletzt aktualisierten Personas an (sortiert nach &quot;_[!UICONTROL Aktualisierung]_). Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen für die Spalten aktivieren oder deaktivieren.
+   Die Persona-Zuordnungsliste ist als Tabelle organisiert und zeigt oben die zuletzt aktualisierten Personas an (sortiert nach _[!UICONTROL Letzte Aktualisierung]_). Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen für die Spalten aktivieren oder deaktivieren.
 
-![Spalten für die Anzeige in der Persona-Zuordnungsliste](./assets/configuration-engagement-scoring-list-columns.png){width="300"}
+![Spalten für die Anzeige in der Persona-Zuordnungsliste](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Um auf die Details einer Rolle zuzugreifen, klicken Sie auf den Namen.
 
@@ -68,13 +68,9 @@ Die _Persona-Zuordnung_ enthält fünf standardmäßige Personas, die anhand des
 
 ### Filtern von Listen
 
-Verwenden Sie die Such- und Filter-Tools, um die gewünschte Rolle zu finden:
+Um die gewünschte Rolle zu finden, geben Sie eine Textzeichenfolge in die Suchleiste ein, um Rollen anhand des Namens zuzuordnen.
 
-* Geben Sie eine Textzeichenfolge in die Suchleiste ein, um Personas nach Namen abzugleichen.
-
-  ![Filtern Sie die angezeigten Ereignisdefinitionen](./assets/configuration-events-defs-list-filtered.png){width="700" zoomable="yes"}
-
-* Klicken Sie _oben links auf_ Filter![&#x200B; ( Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die angezeigte Liste nach Attribut zu filtern.
+![Filtern der angezeigten Rollenzuordnungen](./assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## Persona erstellen
 
@@ -86,6 +82,8 @@ Verwenden Sie die Such- und Filter-Tools, um die gewünschte Rolle zu finden:
 
 1. Geben Sie einen eindeutigen **[!UICONTROL Namen]** und **[!UICONTROL Beschreibung]** (optional) für die Rolle ein.
 
+   ![Persona-Zuordnung erstellen](./assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+
 1. Wählen Sie die Attribute aus, die für die Zuordnung der Rolle verwendet werden sollen.
 
    * Klicken Sie **[!UICONTROL Personenattribute auswählen]**.
@@ -96,6 +94,8 @@ Verwenden Sie die Such- und Filter-Tools, um die gewünschte Rolle zu finden:
 
      Um die Attributliste nach Namen zu filtern, geben Sie eine Textzeichenfolge in die Suchleiste ein. Sie können auch auf das Symbol _Filter_ ( ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ) oben links klicken, um die angezeigte Liste nach Typ, _Standard_ oder _Benutzerdefiniert_ zu filtern.
 
+     ![Dialogfeld „Persönliche Attribute auswählen“](./assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+
    * Klicken Sie auf **[!UICONTROL Speichern]**.
 
      Die ausgewählten Attribute werden im Abschnitt &quot;_[!UICONTROL -Attribute]_ ausgefüllt.
@@ -104,11 +104,13 @@ Verwenden Sie die Such- und Filter-Tools, um die gewünschte Rolle zu finden:
 
    Anstelle eines Werts können Sie auch eine Eingabeaufforderung hinzufügen, mit der eine Übereinstimmung identifiziert werden kann. Sie können beispielsweise Folgendes eingeben
 
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Senden]**.
 
 ## Persona bearbeiten
 
 Klicken Sie auf den Personennamen, um auf die Details der Rolle zuzugreifen und sie zu bearbeiten.
+
+Sie können den Namen oder die Beschreibung ändern, Attribute hinzufügen oder die Attributwerte aktualisieren. Klicken Sie **[!UICONTROL Senden]** wenn Ihre Änderungen abgeschlossen sind.
 
 ## Persona löschen
 
