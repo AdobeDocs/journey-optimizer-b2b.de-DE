@@ -79,7 +79,7 @@ Weitere Informationen zur Verwendung interner Bild-Assets finden Sie unter [Verw
 
 Klicken Sie auf **[!UICONTROL Experience Manager Assets]**, um den Asset-Wähler zu öffnen. Dort können Sie ein Bild aus dem Experience Manager Assets-Repository auswählen.
 
-![Auswählen eines Bild-Assets aus dem AEM Assets-Repository ](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
+![Auswählen eines Bild-Assets aus dem AEM Assets-Repository &#x200B;](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
 
 Sie können die Suche und Filter verwenden, um das gewünschte Bild-Asset zu finden. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Auswählen]**, um es für die Bildkomponente zu verwenden.
 
