@@ -4,20 +4,20 @@ description: Erfahren Sie, wie Sie ein LinkedIn-Konto verbinden und einen Datenf
 feature: Integrations, Audiences, Buying Groups
 role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
-source-git-commit: 1cc50d33e396e490f401330688e5d322270090e3
+source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 13%
+source-wordcount: '995'
+ht-degree: 12%
 
 ---
 
-# Auf LinkedIn-Konto abgestimmte Zielgruppen
+# Zugeordnete Zielgruppen des LinkedIn-Kontos
 
-Journey Optimizer B2B edition bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Sie können eine Zielgruppe auch von einer Konto-Journey aus einem „Aktion _&quot;-_ aktivieren.
+[!DNL Journey Optimizer B2B Edition] bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Sie können eine Zielgruppe auch von einer Konto-Journey aus einem „Aktion _&quot;-_ aktivieren.
 
 Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
 
-Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors „LinkedIn-Zielgruppe ([)“ mit abgeglichenem Zielgruppen-Connector &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Firmen) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
+Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, müssen Sie mindestens eine Instanz des Zielkonnektors „LinkedIn-Zielgruppe ([)“ mit abgeglichenem Zielgruppen-Connector ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"}Firmen) mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
 
 ## Konfigurieren einer neuen Verbindung mit einem LinkedIn-Konto {#linkedin-destination-setup}
 
@@ -122,7 +122,17 @@ Verwenden Sie ab Version 2025.10 die Aktion _Für Ziel aktivieren_ für Konten, 
 
 1. Wenn der Knoten _Aktion ausführen_ auf der Arbeitsfläche &quot;Journey&quot; ausgewählt ist, legen Sie **[!UICONTROL Aktion für Konten]** auf **[!UICONTROL Für Ziel aktivieren]** fest.
 
-1. Klicken Sie **[!UICONTROL Ziel auswählen]**.
+   ![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren](./assets/node-activate-destination.png){width="550" zoomable="yes"}
+
+1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite das Ziel aus.
+
+   * Wenn ein oder mehrere Ziele erstellt wurden, können Sie auf **[!UICONTROL Ziel auswählen]** klicken, um ein vorhandenes Ziel auszuwählen.
+
+   * Wenn keine Ziele vorhanden sind oder Sie ein neues Ziel erstellen möchten, klicken Sie auf **[!UICONTROL Ziel einrichten]**.
+
+     ![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren - Ziel einrichten](./assets/node-activate-destination-set-up-destination.png){width="550" zoomable="yes"}
+
+     Diese Aktion öffnet die Zielkatalogseite in einer neuen Browser-Registerkarte.
 
    ![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren](../journeys/assets/node-activate-destination-select-destination.png){width="600" zoomable="yes"}
 
@@ -138,4 +148,4 @@ Verwenden Sie ab Version 2025.10 die Aktion _Für Ziel aktivieren_ für Konten, 
 
 Sie können mit Account-Mitgliedern über einen bezahlten Medienkanal wie LinkedIn Ad-Zielgruppen interagieren, um sie zu erwerben, zu pflegen und für den Verkauf zu qualifizieren. Verwenden Sie einen _Aktion ausführen_-Knoten auf einer Account-Journey, um die Interaktion mit wichtigen Mitgliedern eines Accounts über einen externen Kanal zu automatisieren, der für verschiedene Account-Mitglieder am besten geeignet ist.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448681/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448649/?learn=on)

@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: ab6445c36e6287e04015b2b1f7dd9dd8cb8d1287
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 91%
+source-wordcount: '371'
+ht-degree: 88%
 
 ---
 
@@ -49,8 +49,11 @@ ht-degree: 91%
       + [E-Mail mit Verkaufshinweis](./content/sales-alert-email.md)
    + [Benutzerdefinierte Personalisierungs-Token](./content/personalization-my-tokens.md)
    + [SMS-Erstellung](./content/sms-authoring.md)
++ Zielgruppen {#audiences}
+   + [Experience Platform-Zielgruppen](./audiences/account-audience-overview.md)
+   + [Externe Zielgruppen ansprechen](./audiences/target-external-audience.md)
+   + [Zugeordnete Zielgruppen des LinkedIn-Kontos](./data/linkedin-account-matched-audiences.md)
 + Konten {#accounts}
-   + [Zielgruppen](./audiences/account-audience-overview.md)
    + Käufergruppen {#buying-groups}
       + [Überblick](./buying-groups/buying-groups-overview.md)
       + [Lösungsinteressen](./buying-groups/solution-interests.md)
@@ -62,7 +65,6 @@ ht-degree: 91%
       + [Käufergruppenphasen](./buying-groups/buying-group-stages.md)
       + [Erstellen von Käufergruppen](./buying-groups/buying-groups-create.md)
       + [Exportieren von Konten](./audiences/account-list-export.md)
-      + [Auf LinkedIn-Konto abgestimmte Zielgruppen](./data/linkedin-account-matched-audiences.md)
       + [Käufergruppenfilter in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
       + [In-CRM-Einblicke](./buying-groups/incrm-insights.md)
    + Kontolisten {#account-lists}

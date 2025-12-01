@@ -15,12 +15,12 @@ ht-degree: 10%
 
 # Erlebnisereignisse und -felder auswählen
 
-Admins können bestimmte [AEP-Erlebnisereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und deren zugehörige Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
+Admins können bestimmte [AEP-Erlebnisereignisse](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und deren zugehörige Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 Die Verwendung von AEP-Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
 
-1. AEP Ein Administrator ([&#x200B; Erlebnisereignisse und -felder) &#x200B;](#add-an-event) den Journey Optimizer B2B edition-Konfigurationen.
+1. AEP Ein Administrator ([ Erlebnisereignisse und -felder) ](#add-an-event) den Journey Optimizer B2B edition-Konfigurationen.
 
 2. Auf einer Journey fügt der Marketing-Experte einen _Lauschen auf ein_) hinzu und [wählt ein Erlebnisereignis aus](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -113,7 +113,7 @@ Bearbeiten Sie die Ereignisdetails, um die Felder zu ändern.
 
 1. Klicken Sie auf den Ereignisnamen oder auf das Symbol _Mehr Menü_ ( **…** ) und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   ![Klicken Sie auf das Menüsymbol Mehr &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Klicken Sie auf das Menüsymbol Mehr ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Klicken Sie **[!UICONTROL Felder bearbeiten]**, um im Dialogfeld „Felder _[!UICONTROL &quot; weitere Felder hinzuzufügen oder]_ Auswahl zu entfernen.
 
@@ -464,4 +464,4 @@ Ereignistyp: `leadOperation.interestingMoment `
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448692/?captions=ger&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) -->
