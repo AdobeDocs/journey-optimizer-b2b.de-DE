@@ -106,5 +106,5 @@ Der Aktivierungsprozess erfordert, dass Sie [!DNL Adobe Target] als externe Ziel
 
    ![Experience Platform - Ziele - Ziel aktivieren - Überprüfen](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Nach der Aktivierung können Sie die Zielgruppe in [Adobe Target-Zielgruppen](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} sehen und in Adobe Target-Aktivitäten verwenden.
+Nach der Aktivierung können Sie die Zielgruppe in [Adobe Target-Zielgruppen](https://experienceleague.adobe.com/de/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} sehen und in Adobe Target-Aktivitäten verwenden.
 
