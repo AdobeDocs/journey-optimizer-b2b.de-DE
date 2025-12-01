@@ -37,7 +37,7 @@ Fügen Sie in Ihrem Journey [Knoten _Aktion ausführen_ hinzu](../journeys/actio
 
    * Wenn bereits mindestens eine externe Zielgruppe erstellt wurde, können Sie **[!UICONTROL Vorhandene auswählen]** und [die Zielgruppe auswählen, die Sie verwenden möchten](#choose-an-external-audience).
 
-   * Wenn Sie eine Zielgruppe [ möchten, ](#create-an-external-audience) Sie für den Knoten verwenden möchten, wählen Sie **[!UICONTROL Neu erstellen]**.
+   * Wenn Sie eine Zielgruppe [&#x200B; möchten, &#x200B;](#create-an-external-audience) Sie für den Knoten verwenden möchten, wählen Sie **[!UICONTROL Neu erstellen]**.
 
 ### Erstellen einer externen Zielgruppe
 
