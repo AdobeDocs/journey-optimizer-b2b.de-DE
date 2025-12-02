@@ -4,9 +4,9 @@ description: Verwenden Sie die XDM-Feldverwaltung, um die Daten zu steuern, die 
 feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: 0497f44336cdd6bfed5bac9f6f579a97f6be585a
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)-Schemata enthalten in der Regel viele Felder in 
 Administratoren, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kundendatenplattform (CDP) zusammenarbeiten, sollten die Verfahren auf dieser Seite verwenden.
 
 >[!NOTE]
->[Relationale Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) sind in begrenztem Umfang für die [!DNL Journey Optimizer B2B Edition] verfügbar. Data Mirror und relationale Schemata stehen Lizenzinhabern von Journey Optimizer Orchestered Campaign zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für Customer Journey Analytics-Benutzende verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>[Relationale Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) stehen als eingeschränkte Verfügbarkeitsversion zur [!DNL Journey Optimizer B2B Edition] zur Verfügung. Data Mirror und relationale Schemata stehen Lizenzinhabern von Journey Optimizer Orchestered Campaign zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für Customer Journey Analytics-Benutzende verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 ## Zugriff auf XDM-Klassen
 
@@ -73,7 +73,7 @@ Um Felder aus dem Vereinigungsschema für Standard-XDM-Klassen auszuwählen, kli
 
 >[!NOTE]
 >
->Ein Feld muss zunächst _verwaltet“_ kann dann _aktualisierbar_ werden. Die _aktualisierbaren Felder_ die Sie auswählen, müssen in Ihrem vom Benutzer bereitgestellten Schema vorhanden sein.
+>Ein Feld muss zunächst _verwaltet“_ kann dann _aktualisierbar_ werden. Die _aktualisierbaren Felder_ die Sie auswählen, müssen in Ihrem vom Benutzer bereitgestellten Schema vorhanden sein. Ihr Schema enthält möglicherweise keine erforderlichen Felder, mit Ausnahme der systemdefinierten.
 
 #### Verwaltete Felder
 
@@ -89,10 +89,12 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 #### Aktualisierbare Felder
 
-Wenn Sie &quot;**[!UICONTROL Felder“]**, können _Dialogfeld „Felder_&quot; Felder aus anderen Datenquellen auswählen.
+Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
-1. Wählen **[!UICONTROL unter]** die Datenquelle aus, die Sie konfigurieren möchten.
-1. Felder aus dem ausgewählten Datensatz bearbeiten.
+Erstellen Sie einen Datensatz für ein individuelles Profil und einen anderen für ein Geschäftskonto. Wählen Sie während des Konfigurationsprozesses jeden neuen Datensatz aus:
+
+1. Wählen **[!UICONTROL unter]** die neue Datenquelle aus, die Sie erstellt haben.
+1. Felder aus dem ausgewählten Datensatz auswählen.
 
    ![Dialogfeld zur Auswahl aktualisierbarer Felder aus Datensätzen in der XDM-Schemakonfiguration](./assets/xdm-select-updateable.png){width="450" zoomable="yes"}
 
@@ -101,6 +103,8 @@ Wenn Sie &quot;**[!UICONTROL Felder“]**, können _Dialogfeld „Felder_&quot; 
 ### Relationale Schemata
 
 Mit relationalen Schemata können Sie benutzerdefinierte Datenklassen erstellen. Mit Zugriff auf mehrere Datensätze können Sie Klassen erstellen, die speziell auf Ihre Datenanforderungen zugeschnitten sind. Verwenden Sie relationale Schemata für Geschäftsentitäten wie Käufe, Lizenzen und Ereignisregistrierungen beim Journey von Entscheidungen und bei der E-Mail-Personalisierung. Pro Schema können bis zu 50 Schemata und bis zu 100 Felder ausgewählt werden.
+
+Weitere Informationen darüber, wie die ausgewählten Felder für die erweiterte E-Mail-Personalisierung verwendet werden, finden Sie unter [Inhaltspersonalisierung](../content/personalization.md#custom-datasets).
 
 >[!NOTE]
 >
@@ -141,7 +145,7 @@ So wählen Sie relationale Schemafelder zur Verwendung in [!DNL Journey Optimize
 
    Sie können den Namespace nur einmal festlegen und diese Aktion nicht rückgängig machen.
 
-   ![Der Standard-Namespace im Dialogfeld Namespace erstellen &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Der Standard-Namespace im Dialogfeld Namespace erstellen ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Überprüfen Sie die Felder des relationalen Schemas.
 
