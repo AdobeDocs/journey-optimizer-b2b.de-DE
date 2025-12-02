@@ -145,7 +145,7 @@ So wählen Sie relationale Schemafelder zur Verwendung in [!DNL Journey Optimize
 
    Sie können den Namespace nur einmal festlegen und diese Aktion nicht rückgängig machen.
 
-   ![Der Standard-Namespace im Dialogfeld Namespace erstellen ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Der Standard-Namespace im Dialogfeld Namespace erstellen &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Überprüfen Sie die Felder des relationalen Schemas.
 
