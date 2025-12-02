@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: af71f00fa4be24ed8c594f3e5823bc0c9db17c6d
+source-git-commit: 4033d0eb711120d615851d614aa6abbcf07f6ea0
 workflow-type: tm+mt
-source-wordcount: '3729'
-ht-degree: 95%
+source-wordcount: '3778'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 | Funktion | E-Mail-Vorlagen – Bild in HTML konvertieren | Sie können jetzt Ihre als JPG- oder PNG-Bilddateien gespeicherten Design-Dateien verwenden und automatisch E-Mail-Vorlagen generieren. [Weitere Informationen](../content/email-template-image-convert.md) |
 | Funktion | Persona-Mapping | Verknüpfen Sie Kontomitglieder mithilfe von Attributzuordnungen mit etablierten Personas. [Weitere Informationen](../admin/persona-mapping.md) |
 | Funktion | Vertriebserkenntnisse für Salesforce und Dynamics | Mitglieder des Vertriebs-Teams können jetzt Käufergruppen mit zunehmendem Reifegrad und zugehörige Erkenntnisse innerhalb einer Salesforce- oder Dynamics-Integration anzeigen lassen, um neue Opportunities zu identifizieren. Die Details der Einkaufsgruppe wie Phase, Score und zugehörige Mitglieder sind enthalten. [Weitere Informationen](../buying-groups/incrm-insights.md) |
+| Funktion | Zielgruppe für [!DNL Adobe Target] aktivieren | Sie können jetzt eine Zielgruppe von einer Account-Journey für eine externe Kunden-Zielgruppe aktivieren und [!DNL Adobe Target] pushen. Mit dieser Integration können Sie eine Zielgruppe bereitstellen, die durch eine Journey-Sequenz für ein in [!DNL Target] entworfenes Web-Erlebnis qualifiziert ist. [Weitere Informationen](../audiences/target-external-audience.md) |
 | Verbesserung | Verbesserte Vollständigkeitsbewertung für Käufergruppen | Sie können jetzt sicherstellen, dass Käufergruppen die tatsächliche Entscheidungsfindung widerspiegeln, indem Sie je nach Rolle anpassbare Schwellenwerte für Mitglieder zur Vollständigkeitsbewertung festlegen.  [Weitere Informationen](../buying-groups/completeness-scores.md) |
 | Verbesserung | Aufträge zur Wartung von Käufergruppen | Die Häufigkeit der Aufträge zur Wartung von Käufergruppen wird von wöchentlich auf täglich geändert. |
 | Verbesserung | Fortschritt der Konto-Journey | Für eine veröffentlichte Journey mit dem Status _Live_, _Für neue Einträge geschlossen_, _Abgebrochen_ oder _Beendet_ können Sie die Journey Map öffnen, um eine Liste der Konten für jeden Journey-Knoten zu überprüfen. |
@@ -66,8 +67,8 @@ Mit der vereinfachten Architektur sind die folgenden neuen Funktionen und Verbes
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Relationales Datenmodell | Nutzen Sie die relationalen Daten, die mit B2B-Konten verknüpft sind, um Konten innerhalb einer Konto-Journey zu filtern oder E-Mail-Inhalte zu personalisieren. Diese relationalen Daten können reale Geschäftsobjekte wie Kaufnachweise, Veranstaltungsregistrierungen, Software-Lizenzen, Service-Abonnements oder Reservierungen darstellen. |
-| Funktion | Mehrfach-Aktivierung für Marketo Engage | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-Aktionen für Journey einzurichten. Diese Aktionen, z. B. das Hinzufügen oder Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. |
+| Funktion | Relationales Datenmodell | Nutzen Sie die relationalen Daten, die mit B2B-Konten verknüpft sind, um Konten innerhalb einer Konto-Journey zu filtern oder E-Mail-Inhalte zu personalisieren. Diese relationalen Daten können reale Geschäftsentitäten wie Kaufaufzeichnungen, Ereignisregistrierungen, Softwarelizenzen, Service-Abonnements oder Reservierungen darstellen. [Weitere Informationen](../admin/xdm-field-management.md#relational-schemas) |
+| Funktion | Mehrere Marketo Engage-Aktivierungen | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-Aktionen für Journey einzurichten. Diese Aktionen, z. B. das Hinzufügen oder Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. [Weitere Informationen](../admin/marketo-actions-connect.md) |
 | Funktion | Deduplizierung bei E-Mail-Müdigkeit | Sie können jetzt E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass eine E-Mail im Rahmen einer Journey nicht mehrmals an dieselbe Adresse geschickt wird. Doppelte Adressen werden gesperrt, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. |
 | Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B edition. [Weitere Informationen](../admin/configure-channels-emails.md#communication-limits) |
 

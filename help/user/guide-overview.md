@@ -2,10 +2,10 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: 'Vollständige Dokumentation für Journey Optimizer B2B Edition: Erkunden Sie die verfügbaren Ressourcen für Onboarding, die Erstellung von Käufergruppen, die Einrichtung von Konto-Journeys und die Verwaltung von Inhalten.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: b60efa2fb448b6c5542ad0d7894f762ca2372990
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b794194191ea41d91402db643aafbeb0df5d9809
+workflow-type: tm+mt
+source-wordcount: '720'
+ht-degree: 69%
 
 ---
 
@@ -13,9 +13,35 @@ ht-degree: 100%
 
 ## Neue Funktionen
 
-Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesserungen an der Anwendung und an der Dokumentation zu Journey Optimizer B2B Edition.
+Im Folgenden finden Sie ein Beispiel für die neuesten Ergänzungen und Verbesserungen in der [!DNL Journey Optimizer B2B Edition].
 
 >[!BEGINTABS]
+
+>[!TAB KI-Agenten]
+
+Mit der [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kann die Benutzeroberfläche des KI-Assistenten automatisch spezialisierte Agenten aufrufen, um Ihnen die richtigen Antworten und Erkenntnisse zu liefern. Agent Orchestrator speichert Ihren Gesprächsverlauf, sodass Sie auf natürliche Weise auf früheren Fragen aufbauen können, ohne den Kontext zu wiederholen, und kombiniert Einblicke aus mehreren Agenten, um Ihnen klare, einheitliche Antworten zu bieten. Im [!DNL Journey Optimizer B2B Edition] Kontext gibt es drei speziell entwickelte Agenten für bestimmte B2B-Aufgaben und -Domains:
+
+* [Audience Agent B2B](./agents/audience-agent-b2b.md)
+* [Journey-Build-Agent B2B](./agents/journey-agent.md)
+* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+
+>[!TAB Markenthemen]
+
+Mit Designs können nicht-technische Designer wiederverwendbare Richtlinien für das Design von E-Mail-Inhalten erstellen, die an eine bestimmte Marke und ein bestimmtes Styling angepasst sind. Designs ermöglichen es Marketing-Experten, visuell ansprechende, markenkonsistente E-Mails schneller und mit weniger Aufwand zu nutzen und erweiterte Anpassungsoptionen für individuelle Design-Anforderungen bereitzustellen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Informationen zu Markenthemen"}
+
+>[!TAB Persona-Zuordnung]
+
+Marketing-Experten können detaillierte Profile einschließlich Hintergrundinformationen, Zuständigkeiten, Probleme und bevorzugte Kommunikationskanäle definieren. Mit diesen Definitionen können Admins Personas anhand von Personenattributen in [!DNL Journey Optimizer B2B Edition] konfigurieren, damit Rollenvorlagen optimierte und konsistente Rollenbedingungen verwenden können, die diese Personas erfassen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Informationen zum Persona-Mapping"}
+
+>[!TAB In-CRM-Vertriebserkenntnisse]
+
+Mitglieder des Vertriebs-Teams können jetzt Käufergruppen mit zunehmendem Reifegrad und zugehörige Erkenntnisse innerhalb einer Salesforce- oder Dynamics-Integration anzeigen lassen, um neue Opportunities zu identifizieren. Darin eingeschlossen sind Angaben zur Käufergruppe wie Phase, Bewertung und zugehörige Mitglieder.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/incrm-insights.md" tooltip="Erfahren Sie mehr über In-CRM-Vertriebseinblicke"}
 
 >[!TAB Zusammenarbeit an E-Mail-Inhalten]
 
@@ -33,31 +59,7 @@ Der E-Mail-Design-Bereich enthält jetzt eine Vorschau und Einstellungen für de
 
 B2B-Marketing-Fachleute können jetzt Interaktionsbewertungen auf Personenebene als Filter in ihren Aufspaltungspfaden für eine Journey oder in einer Rollenvorlage verwenden, um Käufergruppen zu erstellen. Diese Bewertung und Filterung ermöglicht die präzise Zielgruppenbestimmung der Mitglieder von Käufergruppen, um die laufende Interaktion zu personalisieren.
 
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Erfahren Sie mehr über Interaktionsbewertungen und das Filtern von Personen"}
-
->[!TAB Benutzerdefinierte Käufergruppenrollen]
-
-Strateginnen und Strategen im B2B-Marketing können jetzt die Präzision der Käufergruppen durch benutzerdefinierte Käufergruppenrollen erweitern. Erstellen Sie bis zu 20 benutzerdefinierte Rollen über die standardmäßigen sechs hinaus und verwenden Sie sie in allen Käufergruppen erneut. Passen Sie innerhalb der Konto-Journeys das Messaging an Ihre individuellen Bedürfnisse an und verbessern Sie die Relevanz und Interaktion über alle Käufergruppen hinweg.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/buying-group-details.md#members-tab" tooltip="Erfahren Sie mehr über benutzerdefinierte Käufergruppenrollen"}
-
->[!TAB Gewichtung von benutzerdefinierten Interaktionsbewertungen]
-
-Weisen Sie Interaktionsaktivitäten benutzerdefinierte Gewichtungen zu, damit Interaktionsbewertungen Ihre Aktivitäten mit dem höchsten Wert widerspiegeln. Durch die Betonung von Signalen mit hoher Absicht kann Ihr Team Konten mit dem stärksten Kaufpotenzial besser erkennen und priorisieren.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/engagement-score-weighting.md" tooltip="Informationen zur Gewichtung von benutzerdefinierten Interaktionsbewertungen"}
-
->[!TAB Unterstützung für benutzerdefiniertes CSS]
-
-Bei der Erstellung von E-Mail- und Landingpage-Inhalten im Design-Bereich können Sie jetzt eigenes, benutzerdefiniertes CSS hinzufügen.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/design-custom-css.md" tooltip="Informationen über die Verwendung von benutzerdefiniertem CSS"}
-
->[!TAB Intent-Keyword-Mapping]
-
-Um das Modell zur Intent-Erkennung zu aktivieren und zu verwalten, können Sie jetzt eine Tabelle hochladen, um eine Mapping-Kategorie für Intent-Daten zu definieren.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/intent-data.md" tooltip="Informationen über die Konfiguration des Intent-Keyword-Mappings"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/buying-groups/engagement-scores.md" tooltip="Erfahren Sie mehr über Interaktionsbewertungen und das Filtern von Personen"}
 
 >[!ENDTABS]
 
@@ -123,11 +125,11 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content-Management"><br/>
-<strong>Content-Management</strong><br/><a href="./content/assets-overview.md">Assets-Überblick</a><br/><a href="./content/email-templates.md">E-Mail-Vorlagen</a><br/><a href="./content/fragments.md">Visuelle Fragmente</a><br/><a href="./content/conditional-content.md">Bedingte Inhalte</a>
+      <strong>Content-Management</strong><br/><a href="./content/assets-overview.md">Übersicht über Assets</a><br/><a href="./content/email-templates.md">E-Mail-Vorlagen</a><br/><a href="./content/fragments.md">Visuelle Fragmente</a><br/><a href="./content/conditional-content.md">Bedingter Inhalt</a><br/><a href="./content/brand-themes.md">Markenthemen</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Erkenntnisse und Dashboards"><br/>
-<strong>Erkenntnisse</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligentes Dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Interaktions-Dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Käufergruppen-Dashboard</a><br/><a href="./dashboards/journeys-dashboard.md">Journey-Dashboard</a>
+      <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent Dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Interaktions-Dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Gruppen-Dashboard kaufen</a><br/><a href="./dashboards/journeys-dashboard.md">Journey-Dashboard</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM-Insights</a>
     </td>
 
 </tr>
@@ -137,7 +139,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> – <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklungsressourcen</a>

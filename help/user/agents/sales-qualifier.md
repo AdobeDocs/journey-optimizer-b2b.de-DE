@@ -3,7 +3,7 @@ title: Verkaufskennzeichner
 description: Automatisieren Sie die B2B-Qualifizierung und Kontaktaufnahme mit dem Sales Qualifier. Es bietet KI-gestützte Forschung, E-Mail-Erstellung, CRM-Integration und Interaktionspläne für BDRs.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: de7f5620556a48fe6f12ed1c70e925e11ec770f1
+source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -14,13 +14,13 @@ ht-degree: 1%
 # Verkaufskennzeichner
 
 >[!NOTE]
->Diese Funktion ist derzeit nur eingeschränkt verfügbar und steht nicht allen Benutzern zur Verfügung.
 >
+>Diese Funktion ist derzeit nur eingeschränkt verfügbar und steht nicht allen Benutzern zur Verfügung.
 
 Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und zur Optimierung der Workflows für Business Development Representatives (BDRs) entwickelt wurde. Sales Qualifier automatisiert Workflows für die Qualifizierung von Interessenten, Kontaktaufnahme und Käuferinteraktion über verschiedene Kanäle hinweg. Dies reduziert die manuelle BDR-Belastung und beschleunigt die Pipeline-Geschwindigkeit für B2B-Unternehmen.
 Verwenden Sie den Browser und die E-Mail-Plug-ins, um Business Intelligence direkt in CRMs oder Outlook aufzurufen.
 
-Der Verkaufsqualifizierer ist in Journey Optimizer B2B edition enthalten, aber es handelt sich um eine separate App innerhalb von Experience Platform Experience Cloud.
+Der Verkaufsqualifizierer ist in [!UICONTROL Journey Optimizer B2B edition] enthalten, aber es handelt sich um eine separate App innerhalb der Experience Platform Experience Cloud.
 
 ![Dashboard für Vertriebsqualifizierer zur Automatisierung der Qualifizierung und Kontaktaufnahme von BDR-Interessenten für B2B-Unternehmen](assets/home-screen.png)
 
@@ -223,4 +223,4 @@ Klicken Sie unten links in der Anwendung auf **[!UICONTROL Bearbeiten]** um zu s
 
 Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
