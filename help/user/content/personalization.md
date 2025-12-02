@@ -54,7 +54,7 @@ Fügen Sie Personalisierung in einem beliebigen Feld oder einer beliebigen Inhal
 
 >[!NOTE]
 >
->Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ ](../simplified-architecture.md).
+>Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ &#x200B;](../simplified-architecture.md).
 
 ### Token und Helper-Funktionen
 
