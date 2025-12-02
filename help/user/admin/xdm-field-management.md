@@ -23,7 +23,7 @@ Adobe Experience Platform (AEP)-Schemata enthalten in der Regel viele Felder in 
 Administratoren, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kundendatenplattform (CDP) zusammenarbeiten, sollten die Verfahren auf dieser Seite verwenden.
 
 >[!NOTE]
->[Relationale Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) stehen als eingeschränkte Verfügbarkeitsversion zur [!DNL Journey Optimizer B2B Edition] zur Verfügung. Data Mirror und relationale Schemata stehen Lizenzinhabern von Journey Optimizer Orchestered Campaign zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für Customer Journey Analytics-Benutzende verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>[Relationale Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) stehen als eingeschränkte Verfügbarkeitsversion zur [!DNL Journey Optimizer B2B Edition] zur Verfügung. Data Mirror und relationale Schemata stehen Lizenzinhabern von Journey Optimizer Orchestered Campaign zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für Customer Journey Analytics-Benutzende verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 ## Zugriff auf XDM-Klassen
 
@@ -89,7 +89,7 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 #### Aktualisierbare Felder
 
-Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
+Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
 Erstellen Sie einen Datensatz für ein individuelles Profil und einen anderen für ein Geschäftskonto. Wählen Sie während des Konfigurationsprozesses jeden neuen Datensatz aus:
 
