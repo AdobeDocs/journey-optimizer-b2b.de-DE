@@ -30,15 +30,15 @@ Verwenden Sie für Umgebungen, die für diese Architektur bereitgestellt werden,
 
 ## Namespaces und Schemata
 
-Einen [ Überblick finden Sie unter „B2B](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)Namespaces und -Schemata“ in der Experience Platform-Dokumentation.
+Einen [&#x200B; Überblick finden Sie unter „B2B](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)Namespaces und -Schemata“ in der Experience Platform-Dokumentation.
 
 ### Einrichten der Umgebung
 
 Richten Sie eine Postman-Umgebung ein, um den B2B-Namespace und das Dienstprogramm zur automatischen Schemaerstellung zu unterstützen.
 
-* Sie können den Namespace und die Dienstprogrammsammlung zur automatischen Schemaerstellung sowie die Umgebung aus dem GitHub[Repository ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility).
+* Sie können den Namespace und die Dienstprogrammsammlung zur automatischen Schemaerstellung sowie die Umgebung aus dem GitHub[Repository &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility).
 
-* Informationen zur Verwendung von Experience Platform-APIs, einschließlich Details zum Erfassen von Werten für erforderliche Kopfzeilen und zum Lesen von Beispiel-API-Aufrufen, finden Sie [ Handbuch Erste Schritte mit Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-guide).
+* Informationen zur Verwendung von Experience Platform-APIs, einschließlich Details zum Erfassen von Werten für erforderliche Kopfzeilen und zum Lesen von Beispiel-API-Aufrufen, finden Sie [&#x200B; Handbuch Erste Schritte mit Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-guide).
 
 * Informationen zum Generieren Ihrer Anmeldeinformationen für Experience Platform-APIs finden Sie im Tutorial zum [Authentifizieren und Zugreifen auf Experience Platform-APIs](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication).
 
@@ -131,11 +131,11 @@ Wählen Sie [relationale Schemata](https://experienceleague.adobe.com/de/docs/ex
 >Beachten Sie, dass relationale Schemata die folgenden Konfigurationen aufweisen müssen:
 >
 ><li>Verhalten: Datensatz
-&gt; <li>Segmentierung: Aktiviert
-&gt; <li>Beziehungstyp: Viele-zu-eins
-&gt; <li>Referenzschema: <a href="https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B-Konto - XDM Business-Kontoschema</a>
-&gt; <li>Erforderliche Felder: Primärer Schlüssel, Fremdschlüssel und Versionsdeskriptor
-&gt; <li>Zugeordneter Datensatz: definiert und dem Schema zugeordnet
+>&gt; <li>Segmentierung: Aktiviert
+>&gt; <li>Beziehungstyp: Viele-zu-eins
+>&gt; <li>Referenzschema: <a href="https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data">B2B-Konto - XDM Business-Kontoschema</a>
+>&gt; <li>Erforderliche Felder: Primärer Schlüssel, Fremdschlüssel und Versionsdeskriptor
+>&gt; <li>Zugeordneter Datensatz: definiert und dem Schema zugeordnet
 
 ### Ereignisse
 
@@ -247,7 +247,7 @@ Führen Sie die folgenden Schritte aus, um diese Verbindungen zu konfigurieren:
 
 ## Onboarding von Benutzern
 
-Einen Überblick [ Sie auf der Seite ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)Benutzerverwaltung“.
+Einen Überblick [&#x200B; Sie auf der Seite &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)Benutzerverwaltung“.
 
 ### Vorhandene Benutzergruppen
 
