@@ -30,7 +30,7 @@ Verwenden Sie für Umgebungen, die für diese Architektur bereitgestellt werden,
 
 ## Namespaces und Schemata
 
-Einen [&#x200B; Überblick finden Sie unter „B2B](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)Namespaces und -Schemata“ in der Experience Platform-Dokumentation.
+Einen [&#x200B; Überblick finden Sie unter „B2B](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces)Namespaces und -Schemata“ in der Experience Platform-Dokumentation.
 
 ### Einrichten der Umgebung
 
@@ -40,9 +40,9 @@ Richten Sie eine Postman-Umgebung ein, um den B2B-Namespace und das Dienstprogra
 
 * Informationen zur Verwendung von Experience Platform-APIs, einschließlich Details zum Erfassen von Werten für erforderliche Kopfzeilen und zum Lesen von Beispiel-API-Aufrufen, finden Sie [&#x200B; Handbuch Erste Schritte mit Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-guide).
 
-* Informationen zum Generieren Ihrer Anmeldeinformationen für Experience Platform-APIs finden Sie im Tutorial zum [Authentifizieren und Zugreifen auf Experience Platform-APIs](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication).
+* Informationen zum Generieren Ihrer Anmeldeinformationen für Experience Platform-APIs finden Sie im Tutorial zum [Authentifizieren und Zugreifen auf Experience Platform-APIs](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-authentication).
 
-* Informationen zum Einrichten von Postman für Experience Platform-APIs finden Sie in den detaillierten Schritten unter [Postman in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman).
+* Informationen zum Einrichten von Postman für Experience Platform-APIs finden Sie in den detaillierten Schritten unter [Postman in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/postman).
 
 Wenn eine Experience Platform-Entwicklerkonsole und Postman eingerichtet sind, können Sie jetzt damit beginnen, die entsprechenden Umgebungswerte auf Ihre Postman-Umgebung anzuwenden.
 
@@ -155,19 +155,19 @@ Wählen Sie die Erlebnisereignisse aus, die in der **_Journey-Entscheidungsfindu
 
 Folgendes sollte konfiguriert werden, um E-Mails aus Journey Optimizer B2B edition zu senden.  
 
-[https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols)
+[https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/get-started/email-protocols](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/get-started/email-protocols)
 
 ### Protokolle für Tracking und E-Mail-Versand
 
-1. [DNS-Einträge für E-Mail erstellen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
+1. [DNS-Einträge für E-Mail erstellen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/get-started/email-protocols#create-dns-records-for-landing-pages-and-email)
 
-1. [Einrichten von SPF und DKIM](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
+1. [Einrichten von SPF und DKIM](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-spf-and-dkim)
 
-1. [Einrichten von DMARC](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
+1. [Einrichten von DMARC](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-dmarc)
 
-1. [MX-Einträge für Ihre Domain einrichten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
+1. [MX-Einträge für Ihre Domain einrichten](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/get-started/email-protocols#set-up-mx-records-for-your-domain)
 
-1. auf die Zulassungsliste setzen [Ausgehende IP-Adressen zu hinzufügen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
+1. auf die Zulassungsliste setzen [Ausgehende IP-Adressen zu hinzufügen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/get-started/email-protocols#outbound-ip-addresses)
 
 1. Wenn Sie den dedizierten IP-Pool freigeben müssen, wenden Sie sich bezüglich der Durchführbarkeit und der unterstützten Einrichtung an das Zustellbarkeits-Team.
 
@@ -175,9 +175,9 @@ Folgendes sollte konfiguriert werden, um E-Mails aus Journey Optimizer B2B editi
 
 In der vereinfachten Architektur werden E-Mail-Einstellungen über das Marketo Engage-Programm konfiguriert. Führen Sie die Einrichtungsschritte für die E-Mail aus:
 
-* [https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps)
+* [https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps)
 
-* [https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
+* [https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-emails)
 
 ### Kommunikationsbeschränkungen
 
@@ -189,7 +189,7 @@ In der vereinfachten Architektur werden E-Mail-Einstellungen über das Marketo E
 
    Es gibt keine Kommunikationsbeschränkung, wenn der globale Regelsatz nicht erstellt wird.
 
-<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
+<!-- In the future, you can also add local communication limit rule sets (AJO B2C doc can be found here [https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/conflict-prioritization/capping-rules/rule-sets). We may need a small update for our B2B version.) -->
 
 ### Freigegebene Kommunikationsbeschränkungen
 
@@ -217,7 +217,7 @@ curl --location --request POST 'http://sjrest2a.marketo.org/rest/v1/fm.json?_mun
 
 ## SMS-Kanalkonfiguration
 
-Siehe [_SMS-_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)) für detaillierte Informationen.
+Siehe [_SMS-_](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-sms)) für detaillierte Informationen.
 
 ## Marketo Engage-Aktionen von Journey
 
@@ -247,7 +247,7 @@ Führen Sie die folgenden Schritte aus, um diese Verbindungen zu konfigurieren:
 
 ## Onboarding von Benutzern
 
-Einen Überblick [&#x200B; Sie auf der Seite &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management)Benutzerverwaltung“.
+Einen Überblick [&#x200B; Sie auf der Seite &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/user-management)Benutzerverwaltung“.
 
 ### Vorhandene Benutzergruppen
 
@@ -257,7 +257,7 @@ Wenn alle bestehenden Journey Optimizer B2B edition-Benutzenden Zugriff auf die 
 
 1. Fügen Sie eine vorhandene Benutzergruppe zum erstellten Produktprofil hinzu.
 
-Die Profile gewähren allen Rollen und Berechtigungen, die dieser Benutzergruppe bereits zugewiesen sind. Diese sollte bereits für den Zugriff der Benutzer auf Journey Optimizer B2B edition konfiguriert sein. Wenn nur eine Untergruppe von Benutzern auf die neue Architektur zugreifen soll, führen Sie die folgenden Schritte aus. Weitere Informationen finden Sie in [aktuellen Dokumentation](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/user-management).
+Die Profile gewähren allen Rollen und Berechtigungen, die dieser Benutzergruppe bereits zugewiesen sind. Diese sollte bereits für den Zugriff der Benutzer auf Journey Optimizer B2B edition konfiguriert sein. Wenn nur eine Untergruppe von Benutzern auf die neue Architektur zugreifen soll, führen Sie die folgenden Schritte aus. Weitere Informationen finden Sie in [aktuellen Dokumentation](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/user-management).
 
 ### Erstellen einer neuen Benutzergruppe
 
