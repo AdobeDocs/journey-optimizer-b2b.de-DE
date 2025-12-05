@@ -4,10 +4,10 @@ description: 'Onboarding-Handbuch für Admins und Marketing-Fachleute: Einrichte
 role: Admin, User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 32b36690e76a4920a87bdd6c2fff85158c22d0e7
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '739'
+ht-degree: 93%
 
 ---
 
@@ -33,13 +33,15 @@ Informationen zur Zugriffsverwaltung finden Sie auf den folgenden Seiten:
 
 1. **Arbeiten Sie mit Ihrem Data Engineering zusammen**, um Ihre B2B-Zielgruppe und Profilaktivierung zu planen und zu implementieren. Überprüfen Sie die veröffentlichten Blueprints und befolgen Sie die Richtlinien entsprechend Ihren Anforderungen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/overview){target="_blank"}
 
-1. **Planen und implementieren Sie die Marketo Engage-Integration**, um benutzerdefinierte Schemata, die Aufnahme von Profilen und Konten und die Orchestrierung personalisierter Journeys für Käufergruppen einzugliedern. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
+1. **Planen und implementieren Sie die Marketo Engage** Integrationen, um benutzerdefinierte Schemata, die Aufnahme von Profilen und Konten und die Orchestrierung personalisierter Journey für Einkaufsgruppen einzubinden. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/blueprints-learn/architecture/b2b-activation/b2b-journeys-with-marketo){target="_blank"}
 
 1. **Richten Sie das Produktprofil ein**. Bei einem Produktprofil handelt es sich um eine Reihe von Einzelberechtigungen in Adobe Experience Platform, die Benutzenden den Zugriff auf bestimmte Funktionen oder Objekte in der Benutzeroberfläche ermöglichen. [Weitere Informationen](../admin/user-management.md#create-the-marketo-engage-product-profile)
 
 1. **Richten Sie Benutzerberechtigungen für Produktprofile ein**, einschließlich Sandboxes, und gewähren Sie Ihren Team-Mitgliedern Zugriff, indem Sie sie verschiedenen Produktprofilen zuweisen. Diese Aufgabe wird in der Admin Console durchgeführt. [Weitere Informationen](../admin/user-management.md#create-a-user-group)
 
-1. **Konfigurieren Sie den E-Mail-Versand** in Marketo Engage, damit Ihr Team E-Mail-Inhalte von Konto-Journeys senden kann. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#ensure-email-deliverability){target="_blank"}
+1. **Konfigurieren von XDM-Klassen und -**, um die Daten zu steuern, die für die Journey-Orchestrierung und die Inhaltspersonalisierung in Journey Optimizer B2B edition verfügbar sind. [Weitere Informationen](../admin/xdm-field-management.md)
+
+1. **Konfigurieren Sie den E-Mail-Versand** in Marketo Engage, damit Ihr Team E-Mail-Inhalte von Konto-Journeys senden kann. [Weitere Informationen](../admin/configure-channels-emails.md){target="_blank"}
 
 1. **Konfigurieren Sie SMS-Dienste**. Richten Sie einen der unterstützten SMS-Drittanbieter ein, der Textnachrichten-Dienste unabhängig anbietet, und konfigurieren Sie die Kontoanmeldeinformationen in Adobe Journey Optimizer B2B Edition. [Weitere Informationen](../admin/configure-channels-sms.md)
 
