@@ -24,7 +24,7 @@ Admins, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kun
 
 >[!NOTE]
 >
->XDM-Feldverwaltung ist für Journey Optimizer B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
+>XDM-Feldverwaltung ist für Journey Optimizer B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
 
 ## Zugriff auf XDM-Klassen
 
@@ -150,7 +150,7 @@ So wählen Sie relationale Schemafelder zur Verwendung in [!DNL Journey Optimize
 
    Sie können den Namespace nur einmal festlegen und diese Aktion nicht rückgängig machen.
 
-   ![Der Standard-Namespace im Dialogfeld Namespace erstellen ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Der Standard-Namespace im Dialogfeld Namespace erstellen &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Überprüfen Sie die Felder des relationalen Schemas.
 
