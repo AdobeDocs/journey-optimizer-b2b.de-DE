@@ -28,14 +28,14 @@ Führen Sie die folgenden Schritte aus, um eine externe Marketo Engage-Instanz f
 
 ### Erstellen des benutzerdefinierten Marketo Engage-Service
 
-1. Melden Sie sich bei Marketo Engage als Administrator an und [ Sie einen benutzerdefinierten Service ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Melden Sie sich bei Marketo Engage als Administrator an und [&#x200B; Sie einen benutzerdefinierten Service &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Kopieren Sie die folgenden Werte, die für die Journey Optimizer B2B edition-Verbindung verwendet werden sollen:
 
    * Munchkin-ID
    * Client-ID
    * Client-Geheimnis
 
-Die Sichtbarkeit von Marketo Engage Workspace für Assets wie Listen und Kampagnen wird durch die [Rollenberechtigungen, die im benutzerdefinierten Service zugewiesen sind“ ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Marketer können dieselbe Verbindung mehrmals innerhalb einer Journey und verschiedene Marketo Engage-Verbindungen innerhalb derselben Journey verwenden.
+Die Sichtbarkeit von Marketo Engage Workspace für Assets wie Listen und Kampagnen wird durch die [Rollenberechtigungen, die im benutzerdefinierten Service zugewiesen sind“ &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Marketer können dieselbe Verbindung mehrmals innerhalb einer Journey und verschiedene Marketo Engage-Verbindungen innerhalb derselben Journey verwenden.
 
 ### Integration hinzufügen
 
