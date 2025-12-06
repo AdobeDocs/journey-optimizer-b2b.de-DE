@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Marketo Engage-Aktionen sind _personenbasierte_ Aktionen, mit denen Sie Ihre _Account-basierte_ Marketing-Orchestrierung zwischen Journey Optimizer B2B edition und Ihren _Lead-basierten_ Marketing-Maßnahmen in Marketo Engage koordinieren können. Verwenden Sie diese Aktionen, um die Mitgliedschaft in statischen Listen zu orchestrieren und Personen in Kampagnen zu platzieren.
 
-Um Marketo Engage-Journey-Aktionen zu verwenden, erstellt ein Administrator zunächst einen [benutzerdefinierten Service](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, der die für die Authentifizierung erforderlichen Anmeldeinformationen bereitstellt. Anschließend verwendet ein Produktadministrator für Journey Optimizer B2B edition die Anmeldeinformationen, um eine Verbindung zu Marketo Engage herzustellen. Journey Optimizer B2B edition-Benutzer können dann auf die Verbindung verweisen, um Marketo Engage-Aktionen in <!-- person and -->Account-Journey zu konfigurieren, z. B. Personen zu Marketo Engage-Listen hinzuzufügen oder daraus zu entfernen oder sie zu Anfragekampagnen hinzuzufügen.
+Um Marketo Engage-Journey-Aktionen zu verwenden, erstellt ein Administrator zunächst einen [benutzerdefinierten Service](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services){target="_blank"} in Marketo Engage, der die für die Authentifizierung erforderlichen Anmeldeinformationen bereitstellt. Anschließend verwendet ein Produktadministrator für Journey Optimizer B2B edition die Anmeldeinformationen, um eine Verbindung zu Marketo Engage herzustellen. Journey Optimizer B2B edition-Benutzer können dann auf die Verbindung verweisen, um Marketo Engage-Aktionen in <!-- person and -->Account-Journey zu konfigurieren, z. B. Personen zu Marketo Engage-Listen hinzuzufügen oder daraus zu entfernen oder sie zu Anfragekampagnen hinzuzufügen.
 
 ## Konfigurieren einer Marketo Engage-Verbindung {#external-marketo-configure}
 
@@ -28,14 +28,14 @@ Führen Sie die folgenden Schritte aus, um eine externe Marketo Engage-Instanz f
 
 ### Erstellen des benutzerdefinierten Marketo Engage-Service
 
-1. Melden Sie sich bei Marketo Engage als Administrator an und [&#x200B; Sie einen benutzerdefinierten Service &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
+1. Melden Sie sich bei Marketo Engage als Administrator an und [ Sie einen benutzerdefinierten Service ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-custom-service-for-use-with-rest-api){target="_blank"}.
 1. Kopieren Sie die folgenden Werte, die für die Journey Optimizer B2B edition-Verbindung verwendet werden sollen:
 
    * Munchkin-ID
    * Client-ID
    * Client-Geheimnis
 
-Die Sichtbarkeit von Marketo Engage Workspace für Assets wie Listen und Kampagnen wird durch die [Rollenberechtigungen, die im benutzerdefinierten Service zugewiesen sind“ &#x200B;](https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Marketer können dieselbe Verbindung mehrmals innerhalb einer Journey und verschiedene Marketo Engage-Verbindungen innerhalb derselben Journey verwenden.
+Die Sichtbarkeit von Marketo Engage Workspace für Assets wie Listen und Kampagnen wird durch die [Rollenberechtigungen, die im benutzerdefinierten Service zugewiesen sind“ ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/rest/custom-services#permission-list){target="_blank"}. Marketer können dieselbe Verbindung mehrmals innerhalb einer Journey und verschiedene Marketo Engage-Verbindungen innerhalb derselben Journey verwenden.
 
 ### Integration hinzufügen
 
