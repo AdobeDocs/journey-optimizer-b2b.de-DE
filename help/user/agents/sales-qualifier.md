@@ -3,7 +3,7 @@ title: Verkaufskennzeichner
 description: Automatisieren Sie die B2B-Qualifizierung und Kontaktaufnahme mit dem Sales Qualifier. Es bietet KI-gestützte Forschung, E-Mail-Erstellung, CRM-Integration und Interaktionspläne für BDRs.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: bae61706c0bee7f2d2e90f6f5f32712ba1adf3eb
+source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 1%
@@ -19,6 +19,12 @@ ht-degree: 1%
 
 Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und zur Optimierung der Workflows für Business Development Representatives (BDRs) entwickelt wurde. Sales Qualifier automatisiert Workflows für die Qualifizierung von Interessenten, Kontaktaufnahme und Käuferinteraktion über verschiedene Kanäle hinweg. Dies reduziert die manuelle BDR-Belastung und beschleunigt die Pipeline-Geschwindigkeit für B2B-Unternehmen.
 Verwenden Sie den Browser und die E-Mail-Plug-ins, um Business Intelligence direkt in CRMs oder Outlook aufzurufen.
+
+## Demo-Video
+
+Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Der Verkaufsqualifizierer ist in [!UICONTROL Journey Optimizer B2B edition] enthalten, aber es handelt sich um eine separate App innerhalb der Experience Platform Experience Cloud.
 
@@ -218,9 +224,3 @@ Wenn das Plug-in in Chrome installiert ist, wird das Adobe-Logo in der rechten M
 ## Linke Navigationsleiste bearbeiten
 
 Klicken Sie unten links in der Anwendung auf **[!UICONTROL Bearbeiten]** um zu steuern, welche der Symbole in der Navigation sichtbar sind. Sie können sie auch per Drag-and-Drop verschieben, um sie nach Belieben neu anzuordnen.
-
-## Demo-Video
-
-Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
-
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
