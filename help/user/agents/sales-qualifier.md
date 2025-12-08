@@ -24,7 +24,7 @@ Verwenden Sie den Browser und die E-Mail-Plug-ins, um Business Intelligence dire
 
 Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
 
 Der Verkaufsqualifizierer ist in [!UICONTROL Journey Optimizer B2B edition] enthalten, aber es handelt sich um eine separate App innerhalb der Experience Platform Experience Cloud.
 
