@@ -285,4 +285,4 @@ Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie an
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443254/?captions=ger&learn=on)
