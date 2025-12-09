@@ -90,7 +90,7 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 #### Aktualisierbare Felder
 
-Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
+Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ Weitere Informationen dazu, wie Sie die ausgewählten Felder für die erweiterte
 
 >[!NOTE]
 >
->Die [relationalen Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Die [relationalen Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 >[!NOTE]
 >
