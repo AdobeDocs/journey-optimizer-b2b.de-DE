@@ -79,7 +79,7 @@ Um detailliertere Informationen anzuzeigen, klicken Sie auf das Menüsymbol **�
 
 ## Interagieren mit den Daten
 
-Um mit den Daten zu interagieren _verwenden Sie das Menü_**Mehr…**) oben rechts in jedem Diagramm.
+Um mit den Daten zu interagieren _verwenden Sie das Menü_&#x200B;**Mehr…**) oben rechts in jedem Diagramm.
 
 ### [!UICONTROL Drill-Through]
 
