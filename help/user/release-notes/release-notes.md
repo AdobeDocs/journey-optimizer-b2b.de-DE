@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: b7940e98c8370c65c7ef6b795ef27fd4b23eee7a
+source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
 workflow-type: tm+mt
-source-wordcount: '3780'
-ht-degree: 92%
+source-wordcount: '3807'
+ht-degree: 91%
 
 ---
 
@@ -40,6 +40,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 | Funktion | Persona-Mapping | Verknüpfen Sie Kontomitglieder mithilfe von Attributzuordnungen mit etablierten Personas. [Weitere Informationen](../admin/persona-mapping.md) |
 | Funktion | Vertriebserkenntnisse für Salesforce und Dynamics | Mitglieder des Vertriebs-Teams können jetzt Käufergruppen mit zunehmendem Reifegrad und zugehörige Erkenntnisse innerhalb einer Salesforce- oder Dynamics-Integration anzeigen lassen, um neue Opportunities zu identifizieren. Die Details der Einkaufsgruppe wie Phase, Score und zugehörige Mitglieder sind enthalten. [Weitere Informationen](../buying-groups/incrm-insights.md) |
 | Funktion | Zielgruppe für [!DNL Adobe Target] aktivieren | Sie können jetzt eine Zielgruppe von einer Account-Journey für eine externe Kunden-Zielgruppe aktivieren und [!DNL Adobe Target] pushen. Mit dieser Integration können Sie eine Zielgruppe bereitstellen, die durch eine Journey-Sequenz für ein in [!DNL Target] entworfenes Web-Erlebnis qualifiziert ist. [Weitere Informationen](../audiences/target-external-audience.md) |
+| Funktion | Dashboard für Rolleneinblicke | Das neue Dashboard _[!UICONTROL Rolleneinblicke]_ bietet Einblicke in die Art und Weise, wie Ihre Kampagnen und Journey die Akquise und Interaktion von Käufergruppen beeinflussen. [Weitere Informationen](../buying-groups/buying-group-role-insights.md) |
 | Verbesserung | Verbesserte Vollständigkeitsbewertung für Käufergruppen | Sie können jetzt sicherstellen, dass Käufergruppen die tatsächliche Entscheidungsfindung widerspiegeln, indem Sie je nach Rolle anpassbare Schwellenwerte für Mitglieder zur Vollständigkeitsbewertung festlegen.  [Weitere Informationen](../buying-groups/completeness-scores.md) |
 | Verbesserung | Aufträge zur Wartung von Käufergruppen | Die Häufigkeit der Aufträge zur Wartung von Käufergruppen wird von wöchentlich auf täglich geändert. |
 | Verbesserung | Fortschritt der Konto-Journey | Für eine veröffentlichte Journey mit dem Status _Live_, _Für neue Einträge geschlossen_, _Abgebrochen_ oder _Beendet_ können Sie die Journey Map öffnen, um eine Liste der Konten für jeden Journey-Knoten zu überprüfen. |
