@@ -3,9 +3,9 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: a0f9fc38b2c383dc92542bbeaf86c5a7d81bd25b
+source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
 workflow-type: tm+mt
-source-wordcount: '3807'
+source-wordcount: '3841'
 ht-degree: 91%
 
 ---
@@ -40,6 +40,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 | Funktion | Persona-Mapping | Verknüpfen Sie Kontomitglieder mithilfe von Attributzuordnungen mit etablierten Personas. [Weitere Informationen](../admin/persona-mapping.md) |
 | Funktion | Vertriebserkenntnisse für Salesforce und Dynamics | Mitglieder des Vertriebs-Teams können jetzt Käufergruppen mit zunehmendem Reifegrad und zugehörige Erkenntnisse innerhalb einer Salesforce- oder Dynamics-Integration anzeigen lassen, um neue Opportunities zu identifizieren. Die Details der Einkaufsgruppe wie Phase, Score und zugehörige Mitglieder sind enthalten. [Weitere Informationen](../buying-groups/incrm-insights.md) |
 | Funktion | Zielgruppe für [!DNL Adobe Target] aktivieren | Sie können jetzt eine Zielgruppe von einer Account-Journey für eine externe Kunden-Zielgruppe aktivieren und [!DNL Adobe Target] pushen. Mit dieser Integration können Sie eine Zielgruppe bereitstellen, die durch eine Journey-Sequenz für ein in [!DNL Target] entworfenes Web-Erlebnis qualifiziert ist. [Weitere Informationen](../audiences/target-external-audience.md) |
+| Funktion | Web-Interaktions-Dashboard | Ein neues Dashboard, das Einblicke in die Interaktion von Web-Besucherinnen und -Besuchern mit wichtigen Inhalten bietet. Es segmentiert Daten in verschiedene Kontobranchen und Regionen, damit Sie Interaktionstrends besser verstehen können. [Weitere Informationen](../dashboards/web-engagement-dashboard.md) |
 | Funktion | Dashboard für Rolleneinblicke | Das neue Dashboard _[!UICONTROL Rolleneinblicke]_ bietet Einblicke in die Art und Weise, wie Ihre Kampagnen und Journey die Akquise und Interaktion von Käufergruppen beeinflussen. [Weitere Informationen](../buying-groups/buying-group-role-insights.md) |
 | Verbesserung | Verbesserte Vollständigkeitsbewertung für Käufergruppen | Sie können jetzt sicherstellen, dass Käufergruppen die tatsächliche Entscheidungsfindung widerspiegeln, indem Sie je nach Rolle anpassbare Schwellenwerte für Mitglieder zur Vollständigkeitsbewertung festlegen.  [Weitere Informationen](../buying-groups/completeness-scores.md) |
 | Verbesserung | Aufträge zur Wartung von Käufergruppen | Die Häufigkeit der Aufträge zur Wartung von Käufergruppen wird von wöchentlich auf täglich geändert. |
