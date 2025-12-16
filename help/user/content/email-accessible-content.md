@@ -23,6 +23,7 @@ Mit den [!DNL Journey Optimizer B2B Edition] Design-Tools können Marketing-Expe
 
 In den folgenden Abschnitten werden die Best Practices zum Entwerfen barrierefreier Inhalte mit [!DNL Journey Optimizer B2B Edition] beschrieben. Diese Informationen konzentrieren sich auf die Gestaltung von Inhalten, die für alle Ihre Empfängerinnen und Empfänger zugänglich sind, sodass Menschen mit Behinderungen Ihre E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
  
+
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. Weitere Informationen zum Formatieren von Textkomponenten finden Sie unter [Inhaltskomponenten](content-components.md#text)
