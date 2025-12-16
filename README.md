@@ -1,21 +1,21 @@
 ---
-source-git-commit: 7a08e546a71503e44338e996c597058daaf4c667
+source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 49%
 
 ---
 # Artikel beitragen
 
-Wir freuen uns über Beiträge unserer Community sowie von Adobe-Mitarbeitern, die nicht zum Dokumentationsteam gehören.
+Beiträge von der Community und von Adobe-Mitarbeitern außerhalb der Dokumentations-Teams sind willkommen.
 
 ## Adobe Open Source-Verhaltenskodex
 
-Dieses Projekt beachtet den [Adobe Open Source Code of Conduct](code-of-conduct.md) bzw. den [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Weitere Informationen finden Sie in [diesem Artikel](contributing.md).
+Dieses Projekt beachtet den [Adobe Open Source Code of Conduct](code-of-conduct.md) bzw. den [.NET Foundation Code of Conduct](https://dotnetfoundation.org/about/policies/code-of-conduct). Weitere Informationen finden Sie in [diesem Artikel](contributing.md).
 
 ## So tragen Sie zu Adobe-Inhalten bei
 
-**Wenn Sie nicht bei Adobe arbeiten**, können Sie einen externen Community-Beitrag einreichen. Community-Beiträge werden in unsere internen Systeme importiert und im öffentlichen Repository bearbeitet und zusammengeführt. Das öffentliche Repository wird dann mit den neuesten Änderungen synchronisiert und im privaten Repository zusammengeführt.
+**Wenn Sie kein Adobe-Mitarbeiter sind** können Sie einen externen Community-Beitrag einreichen. Community-Beiträge werden in interne Systeme importiert und im öffentlichen Repository bearbeitet und zusammengeführt. Das öffentliche Repository wird dann mit den neuesten Änderungen synchronisiert und im privaten Repository zusammengeführt.
 
 **Wenn Sie bei Adobe arbeiten**, können Sie direkt an dem privaten [Adobe-GitHub-Repository](https://git.corp.adobe.com/AdobeDocs/) mitwirken. Weitere Informationen finden Sie im Adobe Experience League Authoring-Handbuch für Adobe-Mitarbeitende.
 
@@ -26,39 +26,39 @@ Dieses Projekt beachtet den [Adobe Open Source Code of Conduct](code-of-conduct.
 Wenn Sie eine geringfügige Aktualisierung beitragen:
 
 1. Navigieren Sie zu dem Thema, das Sie bearbeiten möchten.
-1. Klicken Sie im Banner „War dieser Inhalt hilfreich?“ unten im Browser-Fenster auf **Detaillierte Feedback-Optionen**.
-1. Klicken Sie auf **Änderung vorschlagen** und senden Sie einen Pull-Request (PR) mit Ihren Änderungen in der GitHub-Benutzeroberfläche.
+1. In der _War dieser Inhalt hilfreich?_ Banner am unteren Rand Ihres Browser-Fensters klicken Sie auf **Detaillierte Feedback-Optionen**.
+1. Klicken Sie **Bearbeiten vorschlagen** und senden Sie eine Pull-Anfrage (PR) mit Ihren Änderungen in der GitHub-Benutzeroberfläche.
 
-   Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de).
+   Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction).
 
 Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebeispiele in diesem Repository senden, sind durch die Adobe-Nutzungsbedingungen abgedeckt.
 
 ### Wesentliche Änderungen oder neue Themen aus der Community
 
-Wenn Sie Teil der Adobe-Community sind und ein neues Thema erstellen oder größere Änderungen übermitteln möchten, verwenden Sie die Registerkarte **Issues** im Git-Repository, um ein entsprechendes Ticket zu öffnen und mit dem Dokumentations-Team in einen Dialog zu treten. Sobald ein Plan vereinbart ist, werden Sie mit einem Mitglied des Adobe-Autoren-Teams zusammenarbeiten, um Ihre Überarbeitungen zu veröffentlichen.
+Wenn Sie Teil der Adobe-Community sind und ein neues Thema erstellen oder wichtige Änderungen vornehmen möchten, verwenden Sie die Registerkarte **Probleme** im entsprechenden Git-Repository, um ein Problem zu senden. Die neue Anfrage startet ein Gespräch mit dem Dokumentations-Team. Wenn ein Plan vereinbart wird, veröffentlichen Sie Ihre Revisionen gemeinsam mit einem Adobe-Autor.
 
-**HINWEIS:** Wenn Sie einen Pull Request mit wesentlichen Änderungen an Dokumentation und Code-Beispielen absenden, werden Sie über eine Meldung in der Pull Request aufgefordert, eine Online-Lizenzvereinbarung für Mitwirkende (Contribution License Agreement, CLA) einzureichen. Sie müssen das Online-Formular ausfüllen, bevor wir Ihren Pull Request überprüfen können.
+**HINWEIS:** Wenn Sie eine Pull-Anfrage mit wichtigen Änderungen an der Dokumentation und den Code-Beispielen senden, wird in der Pull-Anfrage eine Meldung angezeigt, in der Sie aufgefordert werden, eine Online-Beitragslizenzvereinbarung (Online Contribution License Agreement, CLA) einzureichen. Das Ausfüllen dieses Online-Formulars ist erforderlich, bevor ein Teammitglied Ihre Pull-Anfrage überprüfen kann.
 
 ### Tools
 
 Community-Mitarbeiter können die GitHub-Benutzeroberfläche zur einfachen Bearbeitung oder zur Abspaltung des Repositorys verwenden, um umfangreiche Beiträge vorzunehmen.
 
-Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de).
+Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction).
 
 ## Interne Mitwirkende
 
-Wenn Sie in der technischen Redaktion, im Programm-Management oder in der Produktentwicklung für eine Adobe Experience Cloud-Lösung arbeiten und es Ihre Aufgabe ist, an technischen Artikeln mitzuwirken bzw. diese zu verfassen, verwenden Sie das [private Repository](https://git.corp.adobe.com/AdobeDocs). 
+Wenn Sie technischer Redakteur/technische Redakteurin, Programmmanager oder Entwickler(in) des Adobe-Produktteams sind und es Ihre Aufgabe ist, technische Artikel zu erstellen oder zu diesen beizutragen, verwenden Sie das [private Repository](https://git.corp.adobe.com/AdobeDocs).
 
 ## Formatieren Ihres Artikels
 
 Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, finden Sie weitere Informationen dazu unter:
 
-* [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Druckbares Markdown-Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown-Grundlagen](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+* [GitHub-Dokumente](https://docs.github.com/en)
 
-## Beschriftungen
+## Labels
 
-Im öffentlichen Repository werden automatisierte Bezeichnungen Pull-Anforderungen zugewiesen, damit wir den Arbeitsablauf für Pull-Anforderungen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anforderung passiert:
+Im öffentlichen Repository werden automatisierte Labels Pull-Anfragen zugewiesen, damit wir den Workflow für Pull-Anfragen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anfrage passiert:
 
 * **Change sent to author**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
-* **ready-to-merge**: Bereit zur Überprüfung durch unser Pull-Anforderung-Überprüfungsteam.
+* **ready-to-merge**: Bereit zur Überprüfung durch das Überprüfungs-Team für Pull-Anforderungen.
