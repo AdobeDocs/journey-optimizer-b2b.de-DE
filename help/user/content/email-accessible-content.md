@@ -6,56 +6,50 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
-source-git-commit: 68afc2a865a7640f4fd4d5a08ca2299bdc134887
+source-git-commit: 09391f6d7c3360d0624edd7dae6c25a8616046d9
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 82%
+source-wordcount: '1645'
+ht-degree: 63%
 
 ---
 
 # Gestalten barrierefreier Inhalte {#accessible-content}
 
-Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32019L0882){target="_blank"} soll die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, den Binnenmarkt für barrierefreie Produkte und Dienstleistungen verbessern.
+Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019L0882){target="_blank"} soll die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, den Binnenmarkt für barrierefreie Produkte und Dienstleistungen verbessern.
 
 Diese Richtlinie legt fest, dass alle digitalen Mitteilungen, einschließlich E-Mails, Newslettern, PDFs und herunterladbaren Inhalten, barrierefrei sein sollen. Beim Erstellen von Inhalten für Ihre Empfängerinnen und Empfänger müssen Sie daher bestimmte Leitlinien befolgen (z. B. barrierefreie Schriftarten und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen).
 
-Mit der [!DNL Journey Optimizer B2B Edition] E-Mail-Designer, mit der Marketing-Experten Inhalte sowohl für **E-Mails** als auch für **Landingpages** erstellen können, können Sie diese Anweisung auf der Grundlage der Web Content Accessibility Guidelines (WCAG) 2.1, Level AA, problemlos einhalten.
+Mit den [!DNL Journey Optimizer B2B Edition] Design-Tools können Marketing-Experten Inhalte sowohl für **E-** als auch für **Landingpages** erstellen. Verwenden Sie diese Tools, um diese Richtlinie einzuhalten, die auf den Web Content Accessibility Guidelines (WCAG) 2.1, Level AA, basiert.
 
-Dementsprechend finden Sie im Folgenden Best Practices für die Gestaltung barrierefreier Inhalte mit [!DNL Journey Optimizer B2B Edition].
-
->[!NOTE]
->
->Auf dieser Seite geht es darum, Ihre Inhalte für alle Empfängerinnen und Empfänger barrierefrei zu machen, um sicherzustellen, dass Menschen mit Behinderungen Ihre mit [!DNL Journey Optimizer B2B Edition] entworfenen E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
->
+In den folgenden Abschnitten werden die Best Practices zum Entwerfen barrierefreier Inhalte mit [!DNL Journey Optimizer B2B Edition] beschrieben. Diese Informationen konzentrieren sich auf die Gestaltung von Inhalten, die für alle Ihre Empfängerinnen und Empfänger zugänglich sind, sodass Menschen mit Behinderungen Ihre E-Mails und Landingpages lesen, verstehen und mit ihnen interagieren können.
  
-
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
-Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. [Weitere Informationen](content-components.md#text)
+Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. Weitere Informationen zum Formatieren von Textkomponenten finden Sie unter [Inhaltskomponenten](content-components.md#text)
 
-![](assets/accessible-text-styles.png){width="80%"}
+![Registerkarte „Textkomponentenstile“ mit Optionen für Schriftart, Größe und Farbe](assets/accessible-text-styles.png){width="700" zoomable="yes"}
 
 Befolgen Sie für Schriftarten und Text die folgenden Leitlinien:
 
-**Schriftartenauswahl**
+### Schriftartenauswahl
 
 * Verwenden Sie serifenlose Schriftarten wie Arial, Verdana, Tahoma, Helvetica oder Open Sans.
 * Vermeiden Sie in Textinhalten serifenbetonte, kursive oder dekorative Schriftarten.
 * Achten Sie auf einen beschränkten Schriftsatz, um Konsistenz und Fallback zu gewährleisten (z. B. `font-family: Arial, Helvetica, sans-serif;`).
 
-**Schriftgrad**
+### Schriftgröße
 
 * Achten Sie beim Textkörper auf einen Schriftgrad von mindestens 16 Pixel.
-* Verwenden Sie eine angemessene Hierarchie für Überschriften.
+* Verwenden Sie eine geeignete Hierarchie für Überschriften.
 
-**Farbkontrast**
+### Farbkontrast
 
 * Wahren Sie zwischen Text und Hintergrund ein Kontrastverhältnis von mindestens 4,5 :1.
 * Achten Sie bei großem Text (≥24 Pixel oder 18 Pixel fett) auf einen Kontrast von mindestens 3 :1.
 * Vermeiden Sie hellgrauen oder pastellfarbenen Text auf weißem Hintergrund.
 * Verlassen Sie sich nicht allein auf Farbe, um Bedeutung zu vermitteln, sondern verwenden Sie auch Unterstreichungen, Symbole usw.
 
-**Barrierefreiheit von Text**
+### Barrierefreiheit von Text
 
 * Vermeiden Sie Text in Bildern.
 * Verwenden Sie im Textkörper nicht ausschließlich Großbuchstaben.
@@ -74,11 +68,11 @@ Um dafür zu sorgen, dass Inhalte visuell barrierefrei sind, wenden Sie die folg
 
 Sie können beispielsweise den Hintergrund aktualisieren oder die Ränder, den Abstand und die Ausrichtung ändern, um die visuelle Barrierefreiheit Ihrer Inhalte zu verbessern.
 
-![](assets/accessible-styles.png){width="80%"}
+![Stilbereich mit Hintergrund-, Rand-, Abstand- und Ausrichtungseinstellungen](assets/accessible-styles.png){width="700" zoomable="yes"}
 
-Darüber hinaus können Sie mit dem E-Mail-Designer von [!DNL Journey Optimizer B2B Edition] das Design für verschiedene Geräte und Bildschirmgrößen in der Vorschau anzeigen und optimieren. Sie können jederzeit **[!UICONTROL Zur Live-Ansicht wechseln]** um zu überprüfen, wie Ihre Inhalte auf verschiedenen Gerätegrößen gerendert werden können.
+Darüber hinaus können Sie mit dem E-Mail-Designer von [!DNL Journey Optimizer B2B Edition] das Design für verschiedene Geräte und Bildschirmgrößen in der Vorschau anzeigen und optimieren. Sie können jederzeit zur Live **[!UICONTROL Ansicht wechseln,]** zu überprüfen, wie Ihre Inhalte auf verschiedenen Gerätegrößen gerendert werden können.
 
-![](assets/accessible-live-view.png){width="80%"}
+![Umschalter für die Live-Ansicht mit Desktop-, Tablet- und mobilen Vorschauoptionen](assets/accessible-live-view.png){width="700" zoomable="yes"}
 
 >[!CAUTION]
 >
@@ -86,9 +80,9 @@ Darüber hinaus können Sie mit dem E-Mail-Designer von [!DNL Journey Optimizer 
 
 ## Verwenden von Alternativtext für Bilder {#alt-text}
 
-Verwenden Sie die Komponente **[!UICONTROL Bild]**, um alternativen Text für Bilder bereitzustellen. [Weitere Informationen](content-components.md#image)
+Verwenden Sie die Komponente **[!UICONTROL Bild]**, um alternativen Text für Bilder bereitzustellen. Weitere Informationen zu den Einstellungen der Bildkomponente finden Sie unter [Inhaltskomponenten](content-components.md#image)
 
-![](assets/accessible-alt-text.png){width="90%"}
+![Bedienfeld „Einstellungen der Bildkomponente“ mit hervorgehobenem Feld „Alternativtext“](assets/accessible-alt-text.png){width="700" zoomable="yes"}
 
 Wenden Sie die folgenden Richtlinien an, um in digitalen Produkten effektiven Alternativtext zu nutzen:
 
@@ -100,7 +94,7 @@ Wenden Sie die folgenden Richtlinien an, um in digitalen Produkten effektiven Al
 
 Verwenden Sie die für E-Mail-Designer relevante Struktur und [Inhaltskomponenten](content-components.md) sowie die Optionen im Bereich **[!UICONTROL Stile]**, um Ihren Content übersichtlich, logisch und präzise anzuordnen, sodass er für alle zugänglich ist.
 
-![](assets/accessible-components.png){width="100%"}
+![E-Mail-Designer mit Struktur- und Inhaltskomponenten für organisierte Layouts](assets/accessible-components.png){width="800" zoomable="yes"}
 
 * Nutzen Sie strukturierte, semantische HTML mit passenden Überschriften, Absätzen, Listen und Tabellen.
 * Stellen Sie sicher, dass der Inhalt einem logischen Fluss von links nach rechts, von oben nach unten folgt.
@@ -117,7 +111,7 @@ Um lesbar zu sein, müssen Ihre Inhalte klar, gut strukturiert und für alle ver
 * Nutzen Sie das Aktiv, um die Satzstruktur einfacher zu halten.
 * Vermeiden Sie Slang, Fachsprache oder regionale Wörter, mit denen manche Menschen möglicherweise nicht vertraut sind.
 
-Zur Einschätzung der Lesbarkeit Ihrer E-Mails können Sie den beliebten [Flesch Reading Ease Test](https://support.microsoft.com/de-de/office/abrufen-der-lesbarkeit-und-ebenenstatistiken-ihres-dokuments-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} nutzen, der in Microsoft Word zu finden ist. Er berechnet auf einer Skala von 0–100, wie leicht Ihre Inhalte zu lesen sind.
+Um Ihre E-Mail-Lesbarkeit zu bewerten, verwenden Sie den beliebten [Flesch Reading Ease Test](https://support.microsoft.com/de-de/office/abrufen-der-lesbarkeit-und-ebenenstatistiken-ihres-dokuments-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2){target="_blank"} in Microsoft Word. Es berechnet, wie einfach Ihr Inhalt auf einer Skala von 0-100 zu lesen ist.
 
 ## Testen Ihrer Inhalte {#test}
 
@@ -129,7 +123,7 @@ Zum Überprüfen der Barrierefreiheit Ihrer Inhalte können Sie die von [!DNL Jo
 
 * Führen Sie Testsendungen durch, um das Rendering Ihres Inhalts zu testen, bevor Sie ihn an Ihre echte Zielgruppe senden.
 
-![](assets/accessible-simulate.png){width="90%"}
+![Benutzeroberfläche zur Inhaltssimulation mit Vorschauoptionen für Testprofile](assets/accessible-simulate.png){width="800" zoomable="yes"}
 
 Um konsistenter zu überprüfen, ob Ihre Inhalte zuverlässig barrierefrei sind, nutzen Sie externe Tools wie:
 
@@ -139,13 +133,12 @@ Um konsistenter zu überprüfen, ob Ihre Inhalte zuverlässig barrierefrei sind,
 
 ## Verwenden des dunklen Modus {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
 
 Der dunkle Modus optimiert die visuelle Barrierefreiheit für Benutzende mit Lichtempfindlichkeit oder Sehbehinderungen, um das Anwendererlebnis zu verbessern.
 
-![](assets/accessible-dark-mode.png){width="90%"}
+![E-Mail-Vorschau zum Vergleich des Hell- und Dunkelmodus-Renderings](assets/accessible-dark-mode.png){width="800" zoomable="yes"}
 
-Zu den Best Practices für die Gestaltung von Inhalten im dunklen Modus gehören die Verwendung transparenter PNGs oder SVGs, das Festlegen geeigneter Meta-Tags und CSS sowie das Bereitstellen barrierefreier Fallback-Stile, wenn der dunkle Modus nicht unterstützt wird. Sorgen Sie abschließend dafür, dass Ihre E-Mails im dunklen Modus korrekt gerendert werden, indem Sie alle E-Mail-Inhalte und UI-Elemente sowohl im hellen als auch im dunklen Modus testen.
+Verwenden Sie beim Entwerfen für den Dunkelmodus transparente PNG- oder SVG-Bilder und legen Sie geeignete Meta-Tags und CSS fest. Wenn der Dunkelmodus nicht unterstützt wird, können barrierefreie Ausweich-Stile bereitgestellt werden. Testen Sie abschließend alle E-Mail-Inhalte und Benutzeroberflächenelemente sowohl im hellen als auch im dunklen Modus.
 
 ## Verwenden spezifischer Attribute für Barrierefreiheit {#attributes}
 
@@ -189,7 +182,7 @@ Fügen Sie beim Gestalten von Designs die Attribute `lang` (Sprache) und `dir` (
 
   +++
 
-Bildschirmlesehilfen verwenden das Attribut `lang`, um die korrekten Ausspracheregeln anzuwenden, während die Textausrichtung dafür sorgt, dass Inhalte in Sprachen, die von links nach rechts bzw. von rechts nach links fließen, richtig dargestellt werden. Ohne diese Attribute kann es zu einer verwirrenden Leserichtung oder falscher Aussprache kommen. Umschließen Sie daher Ihren E-Mail-Textkörper immer mit dem entsprechenden `lang`- und `dir`-Attribut.
+Bildschirmlesehilfen verwenden das Attribut `lang` , um die richtigen Ausspracheregeln anzuwenden. Die Textrichtung stellt sicher, dass Inhalte für Sprachen mit Rechts-nach-Links- oder Rechts-nach-Links-Schreibrichtung von der Natur aus fließen. Ohne diese Attribute kann es zu einer verwirrenden Leserichtung oder falscher Aussprache kommen. Umschließen Sie daher Ihren E-Mail-Textkörper immer mit dem entsprechenden `lang`- und `dir`-Attribut.
 
 >[!TIP]
 >
@@ -197,7 +190,7 @@ Bildschirmlesehilfen verwenden das Attribut `lang`, um die korrekten Ausspracher
 
 ### Tabellen {#tables}
 
-In HTML-Inhalten werden häufig Tabellen für das Layout verwendet. Standardmäßig behandeln Bildschirmlesehilfen jede `<table>` als Datentabelle und geben Zeilen, Spalten und Struktur aus. Dies kann verwirrend sein, wenn die Tabelle nur zur Formatierung dient.
+In HTML-Inhalten werden häufig Tabellen für das Layout verwendet. Standardmäßig behandeln Bildschirmlesehilfen jede `<table>` als Datentabelle und geben Zeilen, Spalten und Struktur aus. Diese Struktur kann verwirrend sein, wenn die Tabelle nur zur Formatierung verwendet wird.
 
 Fügen Sie Layout-Tabellen `role="presentation"` (oder `role="none"`) hinzu, um sicherzustellen, dass Hilfstechnologien ihre Struktur überspringen und sich nur auf den tatsächlichen Inhalt konzentrieren.
 
@@ -215,7 +208,7 @@ Fügen Sie Layout-Tabellen `role="presentation"` (oder `role="none"`) hinzu, um 
 ```
 
 Die Bildschirmlesehilfen lesen:
-„Hallo Welt. Willkommen zu unserem Newsletter.“ *(Zeilen, Spalten oder Tabellen werden nicht erwähnt)*
+„Hallo Welt. Willkommen bei diesem Newsletter.“ *(Zeilen, Spalten oder Tabellen werden nicht erwähnt)*
 
 +++
 
@@ -253,11 +246,11 @@ Die Bildschirmlesehilfen lesen:
 
 ### Text für Links {#links}
 
-Bildschirmlesehilfen lesen Links mit ihrem Text vor. Wenn ein Link nur mit „Hier klicken“ oder „Weitere Informationen“ beschriftet ist, kennen Benutzende von Hilfstechnologien das Ziel nicht. Für Barrierefreiheit benötigen sie beschreibenden Text, der das Ziel oder die Aktion klar angibt.
+Bildschirmlesehilfen lesen Links mit ihrem Text vor. Wenn ein Link nur _Hier klicken_ oder _Weitere Informationen_ beschriftet ist, kennen Benutzer von Hilfstechnologien das Ziel nicht. Für Barrierefreiheit benötigen sie beschreibenden Text, der das Ziel oder die Aktion klar angibt.
 
-Verwenden Sie die E-Mail-Designer , um einen Link zu Ihrem Inhalt hinzuzufügen und die Kennzeichnung zu bearbeiten, damit sie erkennbar (sichtbar) und beschreibend (klar zu Ihrem Zweck) ist. Vermeiden Sie vage Labels wie „hier“ oder „mehr“.
+Verwenden Sie die E-Mail-Designer , um einen Link zu Ihrem Inhalt hinzuzufügen und die Kennzeichnung zu bearbeiten, damit sie erkennbar (sichtbar) und beschreibend (klar zu Ihrem Zweck) ist. Vermeiden Sie vage Bezeichnungen wie _hier_ oder _mehr_.
 
-![](assets/accessible-link.png){width="70%"}
+![Bedienfeld „Link-Einstellungen“ mit URL-Feld- und beschreibenden Beschriftungsoptionen](assets/accessible-link.png){width="600" zoomable="yes"}
 
 +++Beispiel – guter Link (beschreibend): 
 
@@ -289,7 +282,7 @@ Die Bildschirmlesehilfen lesen:
 
 <!--for landing pages-->
 
-Durch die Bereitstellung von Tastaturnavigation und Fokusunterstützung können Benutzende, die keine Maus verwenden können, Inhalte umfassend aufrufen und mit ihnen interagieren. Zudem wird die Anwenderfreundlichkeit verbessert, da alle Benutzenden eine klare und konsistente Möglichkeit haben, durch Informationen zu navigieren.
+Durch die Unterstützung der Tastaturnavigation und des Fokus können Personen, die keine Maus verwenden können, auf Inhalte zugreifen und mit ihnen interagieren. Zudem wird die Anwenderfreundlichkeit verbessert, da alle Benutzenden eine klare und konsistente Möglichkeit haben, durch Informationen zu navigieren.
 
 * Fokus über die Tastatur
    * Sorgen Sie dafür, dass alle interaktiven Elemente (z. B. Schaltflächen, Kontrollkästchen, Links) `tabindex="0"` aufweisen, damit sie in der natürlichen Registerkartenreihenfolge enthalten sind.
