@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 8ccfe2f6ec21b4bdc409b8d709304f88292181c9
+source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 84%
       + [Warten](./journeys/wait-nodes.md)
    + [Journey-Details](./journeys/journey-details.md)
 + Journey-Inhalt {#journey-content}
+   + [SMS-Kanal](./content/sms-authoring.md)
    + E-Mail-Kanal {#email-channel}
       + [Hinzufügen einer E-Mail](./content/add-email.md)
       + [E-Mail-Erstellung](./content/email-authoring.md)
@@ -48,8 +49,11 @@ ht-degree: 84%
       + [Geregelte Vorlagen](./content/email-authoring-governance.md)
       + [E-Mail mit Verkaufshinweis](./content/sales-alert-email.md)
       + [E-Mail-Deduplizierung](./content/email-deduplication.md)
+   + Web-Kanal (Beta) {#web-channel}
+      + [Überblick](./content/web-experiences.md)
+      + [Web-Erlebnisdesign](./content/web-experience-design.md)
+      + [Single Page Applications](./content/web-single-page-applications.md)
    + [Benutzerdefinierte Personalisierungs-Token](./content/personalization-my-tokens.md)
-   + [SMS-Erstellung](./content/sms-authoring.md)
 + Zielgruppen {#audiences}
    + [Experience Platform-Zielgruppen](./audiences/account-audience-overview.md)
    + [Externe Zielgruppen ansprechen](./audiences/target-external-audience.md)
@@ -142,7 +146,8 @@ ht-degree: 84%
    + Kanäle {#channels}
       + [E-Mail-Konfigurationen](./admin/configure-channels-emails.md)
       + [SMS-Konfigurationen](./admin/configure-channels-sms.md)
-      + [Landingpage-Einstellungen](./admin/landing-page-settings.md)
+      + [Web-Kanalkonfigurationen (Beta)](./admin/configure-channels-web.md)
+      + [Landingpage-Einstellungen (Beta)](./admin/landing-page-settings.md)
       + [Konfigurieren von Datenströmen für die Ereignissammlung](./data/aep-event-collection.md)
    + Konfigurationen  {#configurations}
       + [AEM Assets-Repositorys](./admin/configure-aem-repositories.md)
