@@ -23,7 +23,7 @@ Bevor Sie Web-Erlebnisse entwerfen können, stellen Sie sicher, dass die folgend
 
 * Ein Produktadministrator hat einen oder mehrere Web-Kanäle konfiguriert, um die URLs (Seiten) zu definieren, die für ein Web-Erlebnis eingeschlossen werden sollen. Weitere Informationen finden Sie unter [Webkanalkonfigurationen](../admin/configure-channels-web.md).
 
-* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Adobe Experience Platform Web SDK Version 2.16 oder höher ist erforderlich.
+* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Adobe Experience Platform Web SDK Version 2.16 oder höher ist erforderlich.
 
 * Sie verfügen über die erforderlichen [Berechtigungen](../admin/user-management.md#b2b-product-permissions) um Web-Erlebnisse auf einer Journey zu erstellen und zu verwalten:
    * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen verwalten]_ - Erforderlich zum Hinzufügen oder Aktualisieren eines Web-Personalisierungsaktionsknotens.

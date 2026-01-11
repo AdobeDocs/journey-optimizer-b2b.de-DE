@@ -30,7 +30,7 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
 * Ein Produktadministrator hat einen oder mehrere Web-Kanäle konfiguriert, um die URLs (Seiten) zu definieren, die für ein Web-Erlebnis eingeschlossen werden sollen. Weitere Informationen finden Sie unter [Webkanalkonfigurationen](../admin/configure-channels-web.md).
 
-* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
+* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
 
 * Sie verfügen über die erforderlichen [Berechtigungen](../admin/user-management.md#b2b-product-permissions) um Web-Erlebnisse auf einer Journey zu erstellen und zu verwalten:
    * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen verwalten]_ - Erforderlich zum Hinzufügen oder Aktualisieren eines Web-Personalisierungsaktionsknotens.
@@ -193,9 +193,9 @@ Um die Bereitstellung von Web-Erlebnissen zu aktivieren, müssen die folgenden E
 
 * Achten Sie darauf, dass in Adobe Experience Platform bei einer der Zusammenführungsrichtlinien die Option _[!UICONTROL Active-On-Edge]_ aktiviert ist.
 
-  Wählen Sie im Menü Kunde > Profile > Zusammenführungsrichtlinien Experience Platform eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Wählen Sie im Menü Kunde > Profile > Zusammenführungsrichtlinien Experience Platform eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in Journey Optimizer B2B edition verwendet, um eingehende Web-Erlebnisse auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
+  Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in Journey Optimizer B2B edition verwendet, um eingehende Web-Erlebnisse auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Fehlerbehebung
 
