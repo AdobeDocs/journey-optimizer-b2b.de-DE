@@ -93,7 +93,7 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Klicken Sie auf das Pluszeichen ( **+** ) auf dem Pfad und fügen Sie den [Pfadknoten aufteilen“ ](./split-merge-paths-nodes.md#split-paths).
+1. Klicken Sie auf das Pluszeichen ( **+** ) auf dem Pfad und fügen Sie den [Pfadknoten aufteilen“ &#x200B;](./split-merge-paths-nodes.md#split-paths).
 
 1. Klicken Sie in den Knoteneigenschaften auf der rechten Seite auf **[!UICONTROL Konto]**.
 
@@ -115,7 +115,7 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen} klicken.
+1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen&rbrace; klicken.
 
 1. Legen Sie im Dialogfeld die Zeitplanoptionen fest:
 

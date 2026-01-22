@@ -17,7 +17,7 @@ Der _Personen-Zielgruppe_-Knoten gibt an, welche Personenprofile in die Journey 
 
 Verwenden Sie eine der folgenden Eingabeoptionen für den Knoten „Zielgruppen-Journey für Personen“:
 
-* **Profilzielgruppe** - Verwenden Sie in einer CDP definierte Segmentzielgruppen. Alle Profile, die sich für die Zielgruppe qualifizieren, werden der Journey als Mitglieder hinzugefügt. Neu für das Segment qualifizierte Profile werden während der täglichen (Profil[Aufnahme) -Aufgaben ](#profile-ingestion) Journey hinzugefügt. Wenn sich ein Profil nicht mehr für das Segment qualifiziert, wird es **_nicht_** von der Journey entfernt.
+* **Profilzielgruppe** - Verwenden Sie in einer CDP definierte Segmentzielgruppen. Alle Profile, die sich für die Zielgruppe qualifizieren, werden der Journey als Mitglieder hinzugefügt. Neu für das Segment qualifizierte Profile werden während der täglichen (Profil[Aufnahme) -Aufgaben &#x200B;](#profile-ingestion) Journey hinzugefügt. Wenn sich ein Profil nicht mehr für das Segment qualifiziert, wird es **_nicht_** von der Journey entfernt.
 
 * **Ereigniszielgruppe** - Verwenden Sie qualifizierende Ereignisse, um die Zielgruppe zu definieren. Diese Ereignisse werden in der Knotenkonfiguration definiert und müssen [XDM-Ereignisse verwenden, die in den Administrationseinstellungen konfiguriert sind](../admin/configure-aep-events.md). Bis zu 10 Ereignisse werden für die ereignisbasierte Zielgruppenzugehörigkeit unterstützt. Ein Profil qualifiziert sich sofort für das Journey, nachdem das erste passende Ereignis eintritt, das sein Profil eingeht.
 
