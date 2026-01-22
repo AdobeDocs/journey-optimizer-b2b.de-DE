@@ -4,26 +4,26 @@ description: Konfigurieren von Ereignisknoten für Konto- und Personen-Trigger -
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 53875f5b1b61b5a4a87e3361eacae80a5c14d878
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1843'
 ht-degree: 12%
 
 ---
 
 # Auf ein Ereignis lauschen
 
-Fügen Sie den Knoten _Auf ein Ereignis_) hinzu, um Ihre Zielgruppe beim Eintreten eines Ereignisses mit dem nächsten Schritt auf der Konto-Journey fortzufahren.
+Fügen Sie den Knoten _Auf ein Ereignis warten_ hinzu, um Ihre Zielgruppe beim Eintreten eines Ereignisses zum nächsten Schritt auf dem Journey zu bewegen.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width=„30“, vertical-align=„Middle“} [Video mit einer Übersicht ansehen](#overview-video)
 
 >[!NOTE]
 >
->Sie können diesen Knotentyp nicht auf dem Pfad „Aufspaltung nach Personen“ hinzufügen.
+>Bei einer Konto-Journey können Sie diesen Knotentyp nicht auf dem Pfad „Aufspaltung nach Personen“ hinzufügen.
 
 ## Kontoereignisse
 
-Lauschen Sie auf ein Ereignis, das auf dem Konto basiert, wenn Sie das Konto auf der Journey entsprechend den durch die Kontoaktivität ausgelösten Ereignissen vorwärts verschieben möchten.
+Auf einer Account-Journey können Sie für ein Account-basiertes Ereignis überwachen, wenn Sie das Account-Konto entsprechend den durch die Account-Aktivität ausgelösten Ereignissen auf der Journey weiterleiten möchten.
 
 ### Ereignisse und Einschränkungen
 
@@ -52,7 +52,7 @@ Lauschen Sie auf ein Ereignis, das auf dem Konto basiert, wenn Sie das Konto auf
 
 ## Personenveranstaltungen
 
-Lauschen Sie auf ein Ereignis, das auf Personen basiert, wenn Sie das Konto auf der Journey entsprechend den durch Personenaktivitäten ausgelösten Ereignissen vorwärts verschieben möchten. Sie können Ereignisse auch nach Personenattributen filtern.
+Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis überwachen, wenn Sie das Konto auf der Journey entsprechend den Ereignissen vorverlegen möchten, die durch die Aktivität Personen ausgelöst wurden. Sie können Ereignisse auch nach Personenattributen filtern.
 
 ### Ereignisse und Einschränkungen
 
@@ -135,7 +135,7 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können S
 
 ### Überwachen eines Erlebnisereignisses
 
-Admins können [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} auswählen, mit denen Marketing-Experten Journey erstellen können, die nahezu in Echtzeit auf die Ereignisse reagieren. Die Verwendung von Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
+Admins können [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} auswählen, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf die Ereignisse reagieren. Die Verwendung von Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
 
 1. Ein Administrator [wählt die Ereignistypen und -felder aus](../admin/configure-aep-events.md#select-an-event) um sie in Journey verfügbar zu machen.
 
@@ -148,19 +148,19 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
 1. Wählen Sie in **[!UICONTROL Journey-Map einen]** Auf ein Ereignis überwachen“ aus.
 
-1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite **[!UICONTROL Ereignistyp]** Personen“ aus.
-
-1. Klicken Sie auf den Pfeil für die **[!UICONTROL Personen auswählen]** und scrollen Sie im Menü zum Abschnitt **[!UICONTROL Adobe Experience Platform]**.
-
-   ![Überwachen eines Erlebnisereignisses](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+1. (Nur Konto-Journey) Wählen Sie in den Knoteneigenschaften auf der rechten Seite **[!UICONTROL Personen]** für den Ereignistyp aus.
 
 1. Wählen Sie das Ereignis aus.
 
-   Der Ereignistyp wird in den Knotendetails als leer angezeigt.
+   Klicken Sie bei **_Account-Journey_** auf den Pfeil für die Auswahl **[!UICONTROL People -Ereignis auswählen]** und scrollen Sie im Menü zum Abschnitt **[!UICONTROL Adobe Experience Platform]**.
 
-   ![Ereignis bearbeiten](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
+   ![Überwachen eines Erlebnisereignisses](./assets/node-listen-events-people-aep-events.png){width="700" zoomable="yes"}
+
+   Klicken Sie bei einer Personen-Journey auf den Pfeil für die **[!UICONTROL Ereignis auswählen]** und wählen Sie das Ereignis aus.
 
 1. Klicken Sie **[!UICONTROL Ereignis bearbeiten]** und definieren Sie eine oder mehrere Einschränkungen für das Ereignis.
+
+   ![Ereignis bearbeiten](./assets/node-listen-events-people-aep-events-edit.png){width="400" zoomable="yes"}
 
    Die verfügbaren Einschränkungen werden als verwaltete Felder für die Ereigniskonfiguration definiert.
 
@@ -182,11 +182,13 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
 1. Fügen Sie in der Journey-Zuordnung den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
 
-1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [&#x200B; Sie ihn &#x200B;](./journey-overview.md).
+1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [ Sie ihn ](./journeys-overview.md).
 
    Wenn die Journey live (veröffentlicht) ist und den Knoten _Auf ein Ereignis warten_ erreicht, beginnt sie mit dem Lauschen auf AEP Experience Events.
 
 ### Hinzufügen von Filtern zum Personen -Ereignis
+
+(Nur Konto-Journey)
 
 1. Nachdem Sie das Ereignis definiert haben, wählen Sie die Registerkarte **[!UICONTROL Filter]** im Dialogfeld _[!UICONTROL Ereignis bearbeiten]_ aus.
 
@@ -222,4 +224,4 @@ Legen Sie bei Bedarf fest, wie lange die Journey auf das Ereignis warten soll. D
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443243/?captions=ger&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

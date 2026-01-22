@@ -1,17 +1,17 @@
 ---
-title: Konto-Zielgruppen
+title: Kontozielgruppen
 description: Erstellen Sie Kontozielgruppen mit Segmentierung, um in Journey Optimizer B2B Edition bestimmte Accounts auszuwählen und personalisierte Account-basierte Journeys zu ermöglichen.
 feature: Audiences
 role: User
 exl-id: f9ba690f-bab2-4c31-9000-f0be1342c8b3
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
-workflow-type: ht
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 100%
 
 ---
 
-# Konto-Zielgruppen
+# Kontozielgruppen
 
 Eine Zielgruppe ist eine Gruppe von Personen, die ähnliche Verhaltensweisen und/oder Merkmale aufweisen. Journey Optimizer B2B Edition verwendet die Kontosegmentierungsfunktionen der B2B- und B2P-Editionen von Adobe Real-Time Customer Data Platform. Mit der Kontosegmentierung können Benutzende Kontozielgruppen generieren, indem sie Daten aus jeder B2B-Entität im System nutzen. Diese Kontozielgruppen dienen als Eingaben für die Konto-Journeys von Journey Optimizer B2B Edition und erleichtern die Fähigkeit zur nahtlosen Aktivierung und Personalisierung.
 
@@ -64,4 +64,4 @@ Definieren Sie die Kontozielgruppe, indem Sie eine Kontosegmentierung erstellen.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Speichern und schließen]**.
 
-Um Ihre Kontozielgruppe für Journey Optimizer B2B Edition zu aktivieren, müssen Sie [sie zu einer Konto-Journey hinzufügen](../journeys/journey-overview.md#add-the-account-audience-for-your-journey) und [die Journey veröffentlichen](../journeys/journey-overview.md).
+Um Ihre Kontozielgruppe für Journey Optimizer B2B Edition zu aktivieren, müssen Sie [sie zu einer Konto-Journey hinzufügen](../journeys/journeys-overview.md#add-the-account-audience-for-your-journey) und [die Journey veröffentlichen](../journeys/journeys-overview.md).

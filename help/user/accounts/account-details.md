@@ -4,7 +4,7 @@ description: Account Insights mit KI-Zusammenfassungen, Absichtserkennung, Konta
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-source-git-commit: 937101d6570a8217ff11037822c414350c6026ae
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 6%
@@ -33,7 +33,7 @@ Der Abschnitt Kontoübersicht enthält die folgenden Kontoinformationen:
 * Anzahl der Personen im Konto
 * Branche
 * Offene Chancen
-* Die drei neuesten Account-Journey, in denen das Account derzeit verwendet wird (klicken Sie auf den Journey-Namen, um die [Journey-Übersicht zu öffnen](../journeys/journey-overview.md))
+* Die drei neuesten Account-Journey, in denen das Account derzeit verwendet wird (klicken Sie auf den Journey-Namen, um die [Journey-Übersicht zu öffnen](../journeys/journeys-overview.md))
 * Generative KI-Zusammenfassung des Kontos, die Informationen zu den aktivsten Einkaufsgruppen enthält.
 
 ### Absichtsdaten
@@ -82,10 +82,10 @@ Im Abschnitt _[!UICONTROL Kontaktüberschneidung]_ werden Kontakte aus dem Konto
 
 Klicken Sie auf _Information_ ( ![Informationssymbol](../assets/do-not-localize/icon-info.svg) ) neben dem Kontaktnamen, um eine Tabelle mit den folgenden Details anzuzeigen:
 
-* Einkaufsgruppe (klicken Sie auf den Namen, um die [Einkaufsgruppendetails) &#x200B;](../buying-groups/buying-group-details.md) öffnen
+* Einkaufsgruppe (klicken Sie auf den Namen, um die [Einkaufsgruppendetails) ](../buying-groups/buying-group-details.md) öffnen
 * Rolle
 * Lösungsinteresse
-* Produktabsicht (falls [&#x200B; konfiguriert](../admin/intent-data.md))
+* Produktabsicht (falls [ konfiguriert](../admin/intent-data.md))
 * Produkt
 
 Klicken Sie oben links auf _Filter_-Symbol ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die Datenanzeige mit einem der folgenden Attribute zu filtern:

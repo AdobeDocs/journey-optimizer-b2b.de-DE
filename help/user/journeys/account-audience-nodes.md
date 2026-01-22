@@ -4,7 +4,7 @@ description: Konfigurieren Sie Konto-Zielgruppenknoten mit Konto-Zielgruppen ode
 feature: Account Journeys, Audiences, Account Lists
 role: User
 exl-id: 288ac5a8-79ed-4654-8ac1-83da2af04f2c
-source-git-commit: a8c2e8e96c5a70032ceba3f0630d1f6c5ae01726
+source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Account Audience Journey Nodes
 
-Der Zielgruppenknoten Konto gibt an, welche Konten in die Journey eintreten. Wenn Sie [Konto-Journey erstellen](./journey-overview.md#create-an-account-journey) beginnt die Journey immer mit einem Konto-Zielgruppenknoten, der die Eingabe definiert.
+Der Zielgruppenknoten Konto gibt an, welche Konten in die Journey eintreten. Wenn Sie [Konto-Journey erstellen](./create-publish-journey.md#create-a-journey) beginnt die Journey immer mit einem Konto-Zielgruppenknoten, der die Eingabe definiert.
 
 Verwenden Sie eine der folgenden Eingabeoptionen für diesen Journey-Knoten:
 

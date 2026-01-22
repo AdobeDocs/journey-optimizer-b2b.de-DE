@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: ef3c33a769bf8f794bbc1a61f77feabc9db961e7
+source-git-commit: 57b248667e9663fa9009eae4771dc97e1f5102a1
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 80%
+source-wordcount: '398'
+ht-degree: 79%
 
 ---
 
@@ -27,12 +27,13 @@ ht-degree: 80%
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [Journey-Build-Agent B2B](./agents/journey-agent.md)
       + [Verkaufskennzeichner](./agents/sales-qualifier.md)
-+ Konto-Journeys {#account-journeys}
-   + [Überblick](./journeys/journey-overview.md)
++ Journey-Verwaltung {#journeys}
+   + [Journey von Konten und Personen](./journeys/journeys-overview.md)
    + [Erstellen und Veröffentlichen einer Journey](./journeys/create-publish-journey.md)
    + [Journey-Knoten](./journeys/journey-nodes.md)
    + Journey-Knoten {#journey-nodes}
       + [Kontozielgruppe](./journeys/account-audience-nodes.md)
+      + [Personen-Zielgruppe (Beta)](./journeys/person-audience-nodes.md)
       + [Durchführen einer Aktion](./journeys/action-nodes.md)
       + [Auf ein Ereignis lauschen](./journeys/listen-for-event-nodes.md)
       + [Aufteilen und Zusammenführen von Pfaden](./journeys/split-merge-paths-nodes.md)

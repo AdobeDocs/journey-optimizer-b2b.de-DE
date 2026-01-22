@@ -4,7 +4,7 @@ description: Personalisierte Web-Erlebnisse für Account Journey erstellen, entw
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
-source-git-commit: 6eae855a1e20b3a4350353940cb3ea82fd84933b
+source-git-commit: e3c00ab4657c7bf05573e049bbcb4bb3628e751e
 workflow-type: tm+mt
 source-wordcount: '1497'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
 * Ein Produktadministrator hat einen oder mehrere Web-Kanäle konfiguriert, um die URLs (Seiten) zu definieren, die für ein Web-Erlebnis eingeschlossen werden sollen. Weitere Informationen finden Sie unter [Webkanalkonfigurationen](../admin/configure-channels-web.md).
 
-* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
+* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
 
 * Sie verfügen über die erforderlichen [Berechtigungen](../admin/user-management.md#b2b-product-permissions) um Web-Erlebnisse auf einer Journey zu erstellen und zu verwalten:
    * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen verwalten]_ - Erforderlich zum Hinzufügen oder Aktualisieren eines Web-Personalisierungsaktionsknotens.
@@ -53,7 +53,7 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
    Wenn Sie [!DNL Microsoft Edge] verwenden, wählen Sie _Erweiterungen zulassen_ aus anderen Stores auf dem oberen Banner aus. Durch Aktivierung dieser Option können Sie Erweiterungen aus der [!DNL Chrome Web Store] zu [!DNL Microsoft Edge] hinzufügen.
 
-1. Suchen Sie die Browser-Erweiterung _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;und navigieren Sie zu ihr.
+1. Suchen Sie die Browser-Erweiterung _[!DNL Adobe Experience Cloud Visual Editing Helper]_und navigieren Sie zu ihr.
 
    ![Erweiterung &quot;Adobe Experience Cloud Visual Editing Helper“ für Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
@@ -77,7 +77,7 @@ Die [!DNL Adobe Experience Cloud Visual Editing Helper] ist jetzt automatisch ak
 
 ## Web-Erlebnis erstellen
 
-Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen &#x200B;](../journeys/action-nodes.md) Folgendes tun:
+Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen ](../journeys/action-nodes.md) Folgendes tun:
 
 1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
 
@@ -105,7 +105,7 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
 1. Klicken Sie auf **[!UICONTROL Aktionen]** und wählen Sie den **[!UICONTROL Web-Kanal]** aus, der für das Web-Erlebnis verwendet werden soll.
 
-   Die Webkanal-Konfiguration bestimmt, wo die Inhaltsänderungen angewendet werden, basierend auf den konfigurierten Regeln zum Seitenabgleich. Weitere Informationen finden [&#x200B; unter &#x200B;](../admin/configure-channels-web.md) von Web-Kanälen .
+   Die Webkanal-Konfiguration bestimmt, wo die Inhaltsänderungen angewendet werden, basierend auf den konfigurierten Regeln zum Seitenabgleich. Weitere Informationen finden [ unter ](../admin/configure-channels-web.md) von Web-Kanälen .
 
    ![Ausgewählte Web-Kanal-Konfiguration](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
 
@@ -120,7 +120,7 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
    ![Eigenschaften für den visuellen Editor und die Umleitungs-URL umschalten](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Webseite bearbeiten]**, um [Ihre Web-Änderungen zu &#x200B;](./web-experience-design.md).
+1. Klicken Sie auf **[!UICONTROL Webseite bearbeiten]**, um [Ihre Web-Änderungen zu ](./web-experience-design.md).
 
 1. Wenn die Änderungen abgeschlossen sind, klicken Sie auf den linken Pfeil über dem Editor, um zur Registerkarte „Inhalt“ und zu den Eigenschaften des personalisierten Web-Erlebnisknotens zurückzukehren.
 
@@ -177,7 +177,7 @@ Nachdem der Inhaltsentwurf für das Web-Erlebnis abgeschlossen ist, können Sie 
 
 ## Web-Erlebnis aktivieren
 
-Ihr Web-Erlebnis wird aktiviert und für die Zielgruppe sichtbar, wenn Sie [die Journey veröffentlichen](../journeys/create-publish-journey.md#publish-an-account-journey). Bevor Sie ein Web-Erlebnis über eine Journey aktivieren, beachten Sie Folgendes:
+Ihr Web-Erlebnis wird aktiviert und für die Zielgruppe sichtbar, wenn Sie [die Journey veröffentlichen](../journeys/create-publish-journey.md#publish-a-journey). Bevor Sie ein Web-Erlebnis über eine Journey aktivieren, beachten Sie Folgendes:
 
 * Wenn Sie eine Journey mit einem Web-Erlebnis veröffentlichen, das sich auf dieselben Seiten auswirkt wie eine andere bereits aktive Journey, werden alle Änderungen auf die Web-Seiten angewendet.
 
@@ -193,9 +193,9 @@ Um die Bereitstellung von Web-Erlebnissen zu aktivieren, müssen die folgenden E
 
 * Achten Sie darauf, dass in Adobe Experience Platform bei einer der Zusammenführungsrichtlinien die Option _[!UICONTROL Active-On-Edge]_ aktiviert ist.
 
-  Wählen Sie im Menü Kunde > Profile > Zusammenführungsrichtlinien Experience Platform eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Wählen Sie im Menü Kunde > Profile > Zusammenführungsrichtlinien Experience Platform eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in Journey Optimizer B2B edition verwendet, um eingehende Web-Erlebnisse auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/ui-guide)
+  Diese Zusammenführungsrichtlinie wird von eingehenden Kanälen in Journey Optimizer B2B edition verwendet, um eingehende Web-Erlebnisse auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Fehlerbehebung
 
