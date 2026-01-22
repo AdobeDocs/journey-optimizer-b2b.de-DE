@@ -3,9 +3,9 @@ title: Verkaufskennzeichner
 description: Automatisieren Sie die B2B-Qualifizierung und Kontaktaufnahme mit dem Sales Qualifier. Es bietet KI-gestützte Forschung, E-Mail-Erstellung, CRM-Integration und Interaktionspläne für BDRs.
 feature: AI Assistant, Sales Insights, Account Journeys
 role: User
-source-git-commit: 467a8d824b9a21ff7b80c3a170265c591fc94f9e
+source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1325'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Verwenden Sie den Browser und die E-Mail-Plug-ins, um Business Intelligence dire
 
 Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Der Verkaufsqualifizierer ist in [!UICONTROL Journey Optimizer B2B edition] enthalten, aber es handelt sich um eine separate App innerhalb der Experience Platform Experience Cloud.
 
@@ -95,7 +95,7 @@ Um einen neuen Interaktionsplan zu erstellen, klicken Sie auf **[!UICONTROL Inte
 
 Im Bedienfeld E-Mail-Postausgang werden alle automatisierten E-Mails aufgelistet, die Sie gesendet haben.
 
-## Besprechungsbuchungen
+## Meeting-Buchungen
 
 In diesem Bedienfeld werden alle durch Automatisierung eingerichteten Meetings angezeigt.
 
@@ -209,17 +209,18 @@ Das _[!UICONTROL Repräsentantenverwaltung]_ zeigt die definierten Repräsentant
 
 In diesem Bedienfeld werden Analysen zu Ihren abgeschlossenen Meetings angezeigt.
 
-## Einrichten des Chrome-Plug-ins
+<!-- SHPHR-24341 remove section 
+## Set up the Chrome plugin
 
-Das KI-Assistenten-Chrome-Plug-in ist im [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en) verfügbar.
+The AI Assistant Chrome plugin is available on the [Google Store](https://chromewebstore.google.com/detail/ai-assistant/hancbabllcmckehonngbdkhilocpdfji?authuser=0&hl=en).
 
-Wenn das Plug-in in Chrome installiert ist, wird das Adobe-Logo in der rechten Mitte angezeigt, wenn Sie sich auf einer integrierten Website befinden:
+When the plugin is installed in Chrome, the Adobe logo appears on the middle right when you are on an integrated site:
 
-* Adobe Web-Anwendungen
+* Adobe web applications
 * Salesforce
 * Outlook
-* Microsoft Dynamics und Web-Anwendungen
-* Google-Programme
+* Microsoft Dynamics and web applications
+* Google applications -->
 
 ## Linke Navigationsleiste bearbeiten
 
