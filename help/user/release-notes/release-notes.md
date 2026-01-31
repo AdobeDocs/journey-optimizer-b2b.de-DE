@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
 workflow-type: tm+mt
-source-wordcount: '3841'
-ht-degree: 91%
+source-wordcount: '4087'
+ht-degree: 86%
 
 ---
 
@@ -24,9 +24,29 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 
 | Agent | Update | Beschreibung |
 | ----- | ------ | ----------- |
-| Journey Build Agent | Neu | Der Journey Build Agent analysiert und konzipiert Journeys und gestaltet diese in Echtzeit mit. Dies versetzt Marketing-Fachleute in die Lage, Launches zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten zu erzielen. [Weitere Informationen](../agents/journey-agent.md) |
+| Journey Build Agent | Neu und aktualisiert | Der Journey Build Agent analysiert und konzipiert Journeys und gestaltet diese in Echtzeit mit. Dies versetzt Marketing-Fachleute in die Lage, Launches zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten zu erzielen. [Weitere Informationen](../agents/journey-agent.md) |
 | Audience Agent | Neu | Audience Agent identifiziert und erstellt Käufergruppen automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
 | Verkaufskennzeichner | Neu | Der Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die den Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und Käuferinteraktion über verschiedene Kanäle hinweg [Weitere Informationen](../agents/sales-qualifier.md) |
+
+## Versionshinweise für 2026.1
+
+**Bereitstellungsdatum**: Dienstag, 3. Februar 2025
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Funktion | Marken-Kits | (Beta) Definieren Sie eine Marke in Journey Optimizer B2B edition, um Ihrem Kreativteam die Datenquelle bereitzustellen, die es beim Erstellen visueller oder schriftlicher Inhalte verwenden soll. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. |
+| Funktion | Marken für die Erstellung von E-Mail-Inhalten | Sie können Ihre Markenrichtlinien definieren und diese Informationen verwenden, um E-Mail-Inhalte zu generieren. Mit dieser Funktion werden E-Mail-Inhalte an Ihre markenspezifischen Copywriting-Richtlinien, -Stile und -Töne angepasst. |
+| Verbesserung | Journey _Warten_ Knoten - Erweiterte Einstellungen | Für einen _Warte_-Knoten in einem Journey können Sie jetzt Beendigungstage und -zeiten angeben und Zeitzonen auswählen. Durch diese Verbesserung erhalten Sie eine bessere Kontrolle über die Orchestrierung und das Timing von Journey-Kampagnen. |
+| Verbesserung | Mitglied des Filters „Einkaufsgruppe“ - wurde entfernt | Bei einem _Aufspaltungspfad nach Personen_-Knoten enthält der _[!UICONTROL Mitglied der Kaufgruppe]_ jetzt die _Ist entfernt_-Beschränkung. Wenn Sie ihn auswählen, kann der Filter das entfernte Mitglied der Einkaufsgruppe einschließen oder ausschließen. Es wird auch in Marketo Engage-Smart-Listen unterstützt, in denen Sie diese neue Einschränkung im Filter _[!UICONTROL Mitglied der Kaufgruppe]_ verwenden können. |
+| Verbesserung | E-Mail-Design - Aufzählungszeichen auf mehreren Ebenen | Die Tools für den Design-Bereich für E-Mail-Inhalte unterstützen jetzt Unter-Aufzählungszeichen (Aufzählungsebenen). |
+
+<!--
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
+| -->
+
+>[!NOTE]
+>
+>Diese Versionsänderungen beginnen mit der Bereitstellung am Dienstag, 3. Februar 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2025.10
 
