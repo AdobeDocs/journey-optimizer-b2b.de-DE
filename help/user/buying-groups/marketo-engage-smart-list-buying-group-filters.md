@@ -4,9 +4,9 @@ description: Filtern Sie Leads, indem Sie Gruppenmitgliedschaften in Marketo Eng
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ Als Marketing-Experte können Sie Kampagnen in Marketo Engage für Personen unte
 * Ist dieser Lead Teil einer Einkaufsgruppe?
 * Ist die Einkaufsgruppe vollständig und engagiert?
 
-Wenn diese Bedingungen erfüllt sind, können Sie den Lead höher bewerten. Andernfalls können Sie ihn nicht als Marketing-qualifizierten Lead (MQL) markieren.
+Wenn diese Bedingungen erfüllt sind, können Sie den Lead mit dem höheren Wert bewerten. Andernfalls können Sie ihn nicht als Marketing-qualifizierten Lead (MQL) markieren.
 
 In Ihrer Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der Kaufgruppe]_ in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren.
 
-1. Nachdem Sie [Smart-Liste in Marketo Engage erstellen](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} wählen Sie die Registerkarte **[!UICONTROL Smart-Liste]** aus, um den Filter-Editor zu öffnen.
+1. Nachdem Sie [Smart-Liste in Marketo Engage erstellen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} wählen Sie die Registerkarte **[!UICONTROL Smart-Liste]** aus, um den Filter-Editor zu öffnen.
 
 1. Scrollen Sie in der Filterliste auf der rechten Seite in der Liste nach unten und erweitern Sie den Ordner **[!UICONTROL Spezielle Filter]**.
 
@@ -50,7 +50,11 @@ In Ihrer Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden
 
    * Wählen Sie die Begrenzung aus, die Sie hinzufügen möchten, z. B _„Vollständigkeitswert_ oder _Lösungsinteresse_.
 
-   * Legen Sie die Auswertung fest, die Sie für eine Übereinstimmung verwenden möchten. Für einen Score können Sie eine exakte Übereinstimmung oder einen Bereich oberhalb oder unterhalb der eingegebenen Zahl verwenden.
+   * Legen Sie die Auswertung fest, die Sie für eine Übereinstimmung verwenden möchten.
+
+     Für einen Score können Sie eine exakte Übereinstimmung oder einen Bereich oberhalb oder unterhalb der eingegebenen Zahl verwenden.
+
+     Um Mitglieder auszuschließen, die aus einer Einkaufsgruppe entfernt wurden, verwenden Sie die Beschränkung _[!UICONTROL Ist entfernt]_, die auf `false` gesetzt ist. Sie können entfernte Mitglieder auch explizit in die Smart-Liste einbeziehen, indem Sie diese Einschränkung auf `true` festlegen.
 
      Für ein diskretes Element, z. B. die in Journey Optimizer B2B edition definierten Lösungsinteressen, können Sie ein oder mehrere Elemente für die Liste auswählen.
 

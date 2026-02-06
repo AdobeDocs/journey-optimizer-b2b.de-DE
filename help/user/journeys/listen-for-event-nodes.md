@@ -4,9 +4,9 @@ description: Konfigurieren von Ereignisknoten für Konto- und Personen-Trigger -
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-source-git-commit: 2a676f3cbeb43616a75fa3fa6eb9106230b9fb40
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1845'
 ht-degree: 12%
 
 ---
@@ -80,7 +80,7 @@ Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis über
 | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Hatte einen interessanten Moment] | Interessante Momentaktivität, die in der zugehörigen Marketo Engage-Instanz definiert ist. Zu den Einschränkungen gehören: <li>Meilenstein<li>E-Mail<li><!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Besuchte Web-Seite] | Web-Seitenaktivität, die für eine oder mehrere Web-Seiten von der zugehörigen Marketo Engage-Instanz verwaltet wird. Zu den Einschränkungen gehören: <li>Webseite (erforderlich)<li>Datum der Aktivität<li>Client-IP-Adresse <li>Querystring <li>Referrer <li>Benutzeragent <li>Suchmaschine <li>Suchabfrage <li>Personalisierte URL <li>Token <li>Browser <li>Plattform <li>Gerät <li>Min. Anzahl der <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
 | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>Rolle</li> |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Liste] | Die Person ist oder ist nicht Mitglied in einer oder mehreren Marketo Engage-Listen. |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied des Programms] | Die Person ist oder ist nicht Mitglied in einem oder mehreren Marketo Engage-Programmen. |
 
@@ -108,7 +108,7 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können S
 
 1. Klicken Sie auf den Pfeil für die **[!UICONTROL Personen auswählen]** und scrollen Sie im Menü zum Abschnitt **[!UICONTROL Marketo Engage]**.
 
-1. Wählen Sie einen Marktaktivitätstyp aus:
+1. Marketo Engage-Aktivitätstyp auswählen:
 
    * **[!UICONTROL Besuche auf Web-Seiten]**.
    * **[!UICONTROL Formular ausfüllen]**
@@ -135,7 +135,7 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können S
 
 ### Überwachen eines Erlebnisereignisses
 
-Admins können [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} auswählen, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf die Ereignisse reagieren. Die Verwendung von Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
+Admins können [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} auswählen, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf die Ereignisse reagieren. Die Verwendung von Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
 
 1. Ein Administrator [wählt die Ereignistypen und -felder aus](../admin/configure-aep-events.md#select-an-event) um sie in Journey verfügbar zu machen.
 
@@ -182,7 +182,7 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
 1. Fügen Sie in der Journey-Zuordnung den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
 
-1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [&#x200B; Sie ihn &#x200B;](./journeys-overview.md).
+1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [ Sie ihn ](./journeys-overview.md).
 
    Wenn die Journey live (veröffentlicht) ist und den Knoten _Auf ein Ereignis warten_ erreicht, beginnt sie mit dem Lauschen auf AEP Experience Events.
 
@@ -224,4 +224,4 @@ Legen Sie bei Bedarf fest, wie lange die Journey auf das Ereignis warten soll. D
 
 <!-- ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443243/?captions=ger&learn=on) -->
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) -->

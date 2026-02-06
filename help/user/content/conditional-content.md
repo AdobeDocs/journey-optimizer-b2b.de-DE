@@ -1,13 +1,13 @@
 ---
-title: Bedingter Inhalt
+title: Bedingte Inhalte
 description: Erstellen Sie dynamische Inhaltsvarianten mit bedingten Regeln, die auf Profilattributen und Ereignissen für personalisierte E-Mails und Fragmente in Journey Optimizer B2B edition basieren.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 12%
+source-wordcount: '1264'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 12%
 
 Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können bedingte Regeln im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
 
-Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) &#x200B;](./fragment-authoring.md).
+Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) ](./fragment-authoring.md).
 
 ## Hinzufügen bedingter Inhalte {#email-fragment-content}
 
@@ -51,7 +51,7 @@ Verwenden Sie beim Erstellen eines Fragments oder einer E-Mail im visuellen Desi
 
    ![Bedingungen für Bibliothekszugriffsbedingungsdetails](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [&#x200B; eine bedingte Regel, &#x200B;](#create-condition) Sie auf **[!UICONTROL Neu erstellen]**.
+   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [ eine bedingte Regel, ](#create-condition) Sie auf **[!UICONTROL Neu erstellen]**.
 
 1. Wählen Sie die bedingte Regel aus und klicken Sie auf **[!UICONTROL Auswählen]**, um sie mit der Variante zu verknüpfen.
 
@@ -108,7 +108,7 @@ Die Regeln werden in der Bedingungsbibliothek gespeichert, wo sie für Ihre Orga
 | | [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Der Filter kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li> |
 | **Person** | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verbundene E-Mail-Aktivitäten: <li>[!UICONTROL Link in E-Mail angeklickt]</li><li>Geöffnete E-Mail</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li> Diese Bedingungen werden mithilfe einer ausgewählten E-Mail-Nachricht aus einem früheren Abschnitt der Journey ausgewertet. |
 |  | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Last name</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Land</li><li>Abbestellt</li><li>Grund für Abmeldung</li> |
-| | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>Rolle</li> |
+| | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
 
 ### Erstellen einer bedingten Regel {#create-condition}
 

@@ -3,9 +3,9 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
+source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
 workflow-type: tm+mt
-source-wordcount: '4087'
+source-wordcount: '4085'
 ht-degree: 86%
 
 ---
@@ -37,7 +37,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 | Funktion | Marken-Kits | (Beta) Definieren Sie eine Marke in Journey Optimizer B2B edition, um Ihrem Kreativteam die Datenquelle bereitzustellen, die es beim Erstellen visueller oder schriftlicher Inhalte verwenden soll. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. |
 | Funktion | Marken für die Erstellung von E-Mail-Inhalten | Sie können Ihre Markenrichtlinien definieren und diese Informationen verwenden, um E-Mail-Inhalte zu generieren. Mit dieser Funktion werden E-Mail-Inhalte an Ihre markenspezifischen Copywriting-Richtlinien, -Stile und -Töne angepasst. |
 | Verbesserung | Journey _Warten_ Knoten - Erweiterte Einstellungen | Für einen _Warte_-Knoten in einem Journey können Sie jetzt Beendigungstage und -zeiten angeben und Zeitzonen auswählen. Durch diese Verbesserung erhalten Sie eine bessere Kontrolle über die Orchestrierung und das Timing von Journey-Kampagnen. |
-| Verbesserung | Mitglied des Filters „Einkaufsgruppe“ - wurde entfernt | Bei einem _Aufspaltungspfad nach Personen_-Knoten enthält der _[!UICONTROL Mitglied der Kaufgruppe]_ jetzt die _Ist entfernt_-Beschränkung. Wenn Sie ihn auswählen, kann der Filter das entfernte Mitglied der Einkaufsgruppe einschließen oder ausschließen. Es wird auch in Marketo Engage-Smart-Listen unterstützt, in denen Sie diese neue Einschränkung im Filter _[!UICONTROL Mitglied der Kaufgruppe]_ verwenden können. |
+| Verbesserung | Mitglied der Einkaufsgruppe Sonderfilter - Ist entfernt Einschränkung | Der _[!UICONTROL Sonderfilter „Mitglied der Einkaufsgruppe]_ enthält jetzt die _Ist entfernt_. Wenn Sie diese Einschränkung zum Filter hinzufügen, können Sie entfernte Mitglieder der Einkaufsgruppe einbeziehen oder ausschließen. Es wird auch in Marketo Engage-Smart-Listen unterstützt, in denen Sie diese neue Einschränkung im Filter _[!UICONTROL Mitglied der Kaufgruppe]_ verwenden können. |
 | Verbesserung | E-Mail-Design - Aufzählungszeichen auf mehreren Ebenen | Die Tools für den Design-Bereich für E-Mail-Inhalte unterstützen jetzt Unter-Aufzählungszeichen (Aufzählungsebenen). |
 
 <!--
