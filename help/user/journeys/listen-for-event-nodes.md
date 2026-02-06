@@ -182,7 +182,7 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
 1. Fügen Sie in der Journey-Zuordnung den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
 
-1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [ Sie ihn ](./journeys-overview.md).
+1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [&#x200B; Sie ihn &#x200B;](./journeys-overview.md).
 
    Wenn die Journey live (veröffentlicht) ist und den Knoten _Auf ein Ereignis warten_ erreicht, beginnt sie mit dem Lauschen auf AEP Experience Events.
 
