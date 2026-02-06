@@ -3,7 +3,7 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: cca9f2faab779b073d3d0801f8ec4b67116a29a5
+source-git-commit: 0ac00da33cd292cb1d18dfc1c916b214f5db639e
 workflow-type: tm+mt
 source-wordcount: '4087'
 ht-degree: 86%
@@ -30,7 +30,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 
 ## Versionshinweise für 2026.1
 
-**Bereitstellungsdatum**: Dienstag, 3. Februar 2025
+**Bereitstellungsdatum**: Mittwoch, 3. Februar 2026
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
@@ -46,7 +46,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 
 >[!NOTE]
 >
->Diese Versionsänderungen beginnen mit der Bereitstellung am Dienstag, 3. Februar 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+>Diese Versionsänderungen beginnen mit der Bereitstellung am Mittwoch, 3. Februar 2026, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2025.10
 
