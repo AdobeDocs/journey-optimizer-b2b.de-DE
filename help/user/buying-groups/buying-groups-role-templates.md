@@ -4,10 +4,10 @@ description: Erstellen Sie Rollenvorlagen mit bedingter automatischer Zuweisung,
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
+source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 5%
+source-wordcount: '1329'
+ht-degree: 6%
 
 ---
 
@@ -64,13 +64,13 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 | ---- | --------- |
 | Personenattribute | <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Faxnummer <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Zweiter Vorname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
 | Spezielle Filter | <li>Mitglied der Liste <li>Mitglied des Programms |
-| Absichtsdaten | Kategoriebedingung <li>Produktzweck <li>Keyword-Intent<br/>[&#x200B; Erfahren Sie mehr über &#x200B;](../admin/intent-data.md). |
+| Absichtsdaten | <li>Kategoriebedingung <li>Produktzweck <li>Keyword Intent<br/>[Erfahren Sie mehr über Intent-Daten](../admin/intent-data.md) |
 
 1. Definieren Sie für die erste Rollenkarte die Rolleneigenschaften.
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert &#x200B;](./default-custom-roles.md#custom-roles).
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#custom-roles).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -115,6 +115,13 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!UICONTROL Spezielle Filter]** und ziehen Sie die **[!UICONTROL Mitglied der Liste]** Bedingung in den Filterbereich. Schließen Sie dann die Filterdefinition ab, um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten.
 
 ![Vorlagenbedingung für Rollen für Marketo Engage-Listenmitgliedschaft](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
+<br/>
+
+>[!NOTE]
+>
+>**Einstellung von Funktionen**</br></br>
+>
+>Mit der [vereinfachten Architektur](../simplified-architecture.md) für Journey Optimizer B2B edition wird das Filtern nach Listen- oder Programmmitgliedschaften in einer Marketo Engage-Instanz nicht unterstützt.
 
 >[!ENDSHADEBOX]
 
@@ -126,7 +133,7 @@ Standardmäßig wird die Vollständigkeit für eine Rolle als ein der Rolle zuge
 
 Wenn Sie beispielsweise ein Geschäft für Ihre Lösung _X_ abschließen möchten, müssen mehrere Marketing-Entscheidungsträger identifiziert und einbezogen werden, da mehrere Marketing-Teams in einem Unternehmen die Lösung verwenden würden. In diesem Fall möchten Sie den Schwellenwert erhöhen, um eine _vollständige_ Einkaufsgruppe zu berechnen, indem Sie mindestens zwei Marketing-Entscheidungsträger benötigen.
 
-Siehe [Vollständigkeitsbewertungen](./completeness-scores.md) für detaillierte Informationen zur Vollständigkeitsbewertung und zu Berechnungen.
+Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte Informationen zur Bewertung und Berechnung der Vollständigkeit.
 
 1. Klicken Sie oben rechts auf der Seite mit der Rollenvorlage auf **[!UICONTROL Vollständigkeitsbewertungseinstellungen]**.
 
@@ -134,7 +141,7 @@ Siehe [Vollständigkeitsbewertungen](./completeness-scores.md) für detaillierte
 
 1. Ändern Sie im Dialogfeld den Wert **[!UICONTROL Mitglieder erforderlich]** für jede definierte Rolle nach Bedarf.
 
-   Sie können den Wert eingeben oder auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   Sie können den Wert eingeben oder auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Schaltfläche „Rollenvorlage - Vollständigkeit der Bewertungseinstellungen“](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -182,4 +189,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
