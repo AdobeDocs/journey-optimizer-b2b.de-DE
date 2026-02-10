@@ -70,7 +70,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#custom-roles).
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert &#x200B;](./default-custom-roles.md#custom-roles).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -141,7 +141,7 @@ Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte
 
 1. Ändern Sie im Dialogfeld den Wert **[!UICONTROL Mitglieder erforderlich]** für jede definierte Rolle nach Bedarf.
 
-   Sie können den Wert eingeben oder auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   Sie können den Wert eingeben oder auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Schaltfläche „Rollenvorlage - Vollständigkeit der Bewertungseinstellungen“](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
