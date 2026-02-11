@@ -45,7 +45,7 @@ Als Administrator können Sie mehrere Interaktionsbewertungsmodelle für Ihre Or
 
 Das System erstellt ein erstes Interaktionsbewertungsmodell mit dem Namen _Aktivitätsgewichtungsmodell 1_. Der Modellstatus und die Interaktionsaktivitäten hängen von der Datenarchitektur Ihrer [!DNL Journey Optimizer B2B Edition] ab:
 
-* **Vereinfachte Architektur** (Beta) - Wenn Ihre Umgebung die [vereinfachte ](../simplified-architecture.md)) verwendet, basieren die Interaktionsaktivitäten auf standardmäßigen und benutzerdefinierten Experience Platform-Ereignissen. Die Gewichtungen für alle Aktivitäten sind standardmäßig 0.
+* **Vereinfachte Architektur** (Beta) - Wenn Ihre Umgebung die [vereinfachte &#x200B;](../simplified-architecture.md)) verwendet, basieren die Interaktionsaktivitäten auf standardmäßigen und benutzerdefinierten Experience Platform-Ereignissen. Die Gewichtungen für alle Aktivitäten sind standardmäßig 0.
 
   ![Standardgewichtungsmodell für den Interaktionswert für die vereinfachte Architektur](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
@@ -92,7 +92,7 @@ Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im
 1. Passen Sie für jedes Gewichtsband den Namen oder die Werte Ihren Anforderungen entsprechend an:
 
    * Ändern Sie den Namen im Feld _[!UICONTROL Gewichtungsband]_.
-   * Einen neuen Wert eingeben. Sie können auch auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   * Einen neuen Wert eingeben. Sie können auch auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Einstellungen für die Interaktionsgewichtung](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
