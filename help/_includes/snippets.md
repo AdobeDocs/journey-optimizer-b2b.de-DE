@@ -1,9 +1,9 @@
 ---
 title: Ausschnitte
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: 9ff6a9ded077ed9556cc01e48341379ff2a1b3c0
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2365'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[&#x200B; dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist. Die Integration ist auf Repositorys der _Bereitstellungsebene“_. Wenn Sie die _Autorenebene_ verwenden und sie konvertieren möchten, wenden Sie sich an den Adobe Experience Manager-Support.<br/>
+>Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[ dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist. Die Integration ist auf Repositorys der _Bereitstellungsebene“_. Wenn Sie die _Autorenebene_ verwenden und sie konvertieren möchten, wenden Sie sich an den Adobe Experience Manager-Support.<br/>
 >Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
 
 ## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
@@ -229,7 +229,7 @@ Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden könne
 
 ## Inhalt - Bildauswahl - AEM Assets {#aem-assets-dam}
 
-Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu durchsuchen und &#x200B;](../user/admin/configure-aem-repositories.md).
+Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu durchsuchen und ](../user/admin/configure-aem-repositories.md).
 
 Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 
@@ -263,15 +263,15 @@ Die Dateinamen der ausgewählten Bilder werden im Dialogfeld angezeigt. Asset-Da
 
 Klicken Sie **[!UICONTROL Importieren]**.
 
-## Engagement Score-Aktivitäten {#engagement-activities}
+## Aktivitäten mit Interaktionswert - Marketo {#engagement-activities-me}
 
-| Aktivitätsname | Beschreibung | Interaktionstyp | Maximale tägliche Frequenzlimitierung | Standardmäßige Aktivitätsgewichtung des Modells |
-| --- | --- | --- | --- | --- |
-| [!UICONTROL An Veranstaltung teilnehmen] | Ein Mitglied nimmt an einem Event teil | Ereignis | 20 | 60 |
-| [!UICONTROL E-Mail angeklickt] | Ein Mitglied klickt auf einen Link in einer E-Mail | E-Mail | 20 | 30 |
-| [!UICONTROL E-Mail geöffnet] | Ein Mitglied öffnet eine E-Mail | E-Mail | 20 | 30 |
-| [!UICONTROL Formular ausgefüllt] | Ein Mitglied füllt ein Formular auf einer Web-Seite aus und sendet es ab | Web | 20 | 40 |
-| [!UICONTROL Interessanter Moment] | Ein Mitglied hat einen interessanten Moment | Kuratiert | 20 | 60 |
-| [!UICONTROL Link-Klicks] | Ein Mitglied klickt auf einen Link auf einer Web-Seite | Web | 20 | 40 |
-| [!UICONTROL Seitenansichten] | Ein Mitglied zeigt eine Web-Seite an | Web | 20 | 40 |
-| [!UICONTROL Für Veranstaltung registrieren] | Ein für ein Ereignis registriertes Mitglied | Ereignis | 20 | 60 |
+| Aktivitätsname | Beschreibung | Maximale tägliche Frequenzlimitierung | Standardmäßige Aktivitätsgewichtung des Modells |
+| --- | --- | --- | --- |
+| [!UICONTROL An Veranstaltung teilnehmen] | Ein Mitglied nimmt an einem Event teil | 20 | 60 |
+| [!UICONTROL E-Mail angeklickt] | Ein Mitglied klickt auf einen Link in einer E-Mail | 20 | 30 |
+| [!UICONTROL E-Mail geöffnet] | Ein Mitglied öffnet eine E-Mail | 20 | 30 |
+| [!UICONTROL Formular ausgefüllt] | Ein Mitglied füllt ein Formular auf einer Web-Seite aus und sendet es ab | 20 | 40 |
+| [!UICONTROL Interessanter Moment] | Ein Mitglied hat einen interessanten Moment | 20 | 60 |
+| [!UICONTROL Link-Klicks] | Ein Mitglied klickt auf einen Link auf einer Web-Seite | 20 | 40 |
+| [!UICONTROL Seitenansichten] | Ein Mitglied zeigt eine Web-Seite an | 20 | 40 |
+| [!UICONTROL Für Veranstaltung registrieren] | Ein für ein Ereignis registriertes Mitglied | 20 | 60 |
