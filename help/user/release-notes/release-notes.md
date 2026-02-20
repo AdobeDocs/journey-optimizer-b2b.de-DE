@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: d9b9b0627a20c49452aef74ae44d506b240aeb1d
+source-git-commit: 7ee4ffdee351efb478ea1faefe6f1d478a75e2f8
 workflow-type: tm+mt
-source-wordcount: '4114'
-ht-degree: 85%
+source-wordcount: '4425'
+ht-degree: 80%
 
 ---
 
@@ -18,15 +18,23 @@ Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] a
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
 
-## Funktionen für Agent-basierte KI
+## Versionshinweise für 2026.2
 
-In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-basierten KI-Funktionen für Journey Optimizer B2B Edition verfügbar:
+**Bereitstellungsdatum**: Samstag, 20. Februar 2026
 
-| Agent | Update | Beschreibung |
-| ----- | ------ | ----------- |
-| Journey Build Agent | Neu und aktualisiert | Der Journey Build Agent analysiert und konzipiert Journeys und gestaltet diese in Echtzeit mit. Dies versetzt Marketing-Fachleute in die Lage, Launches zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten zu erzielen. [Weitere Informationen](../agents/journey-agent.md) |
-| Audience Agent | Neu | Audience Agent identifiziert und erstellt Käufergruppen automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Verkaufskennzeichner | Neu | Der Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die den Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und Käuferinteraktion über verschiedene Kanäle hinweg [Weitere Informationen](../agents/sales-qualifier.md) |
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Funktion | XDM-Felder/relationale Schemata - Unterstützung für benutzerdefinierte Personenobjekte | Admins können jetzt benutzerdefinierte Objekte auswählen, die mit einer Person verbunden sind, indem sie eine Eins-zu-eins-Beziehung auf einer Ebene mit einem Konto verwenden. Mit dieser Funktion kann Ihr Marketing-Unternehmen eine umfassendere Ansicht Ihrer realen Geschäftsdaten darstellen, um Entitäten über die Personen- oder Kontoebene hinaus anzusprechen, zu personalisieren und Berichte dazu zu erstellen. |
+| Funktion | E-Mail-Design - Unterstützung für Firefly und benutzerdefinierte generative KI-Modelle | Sie können jetzt die Integration von standardmäßigen und benutzerdefinierten Firefly-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern (wie NanoBanana) aktivieren. Marketing-Experten können für jeden Anwendungsfall das beste Modell auswählen: standardmäßige Firefly für allgemeine Anforderungen, benutzerdefinierte Firefly für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien. |
+| Verbesserung | E-Mail-Design - Validierung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken.  |
+| Verbesserung | Journey-Wiedereintritt | Sie können jetzt Konten/Personen über einen Journey-Workflow mehrmals senden. Der Wiedereinstieg betrifft mehrere Szenarien, z. B. die Neubewertung von Qualifikationskriterien und wiederverwendbare Nurture-Workflows. |
+| Verbesserung | Für Ziele aktivieren - Wiederverwendbare Zielgruppen | Sie können jetzt virtuelle Zielgruppen in Journey-Aktionen _Für Ziel aktivieren_ innerhalb derselben Journey wiederverwenden und Konten aus virtuellen Zielgruppen entfernen. |
+| Verbesserung | Konto- und Personen-Journey - Unterstützung für benutzerdefinierte Objekte von Personen | Nutzen Sie die relationalen Daten, die mit Accounts verknüpft sind, um Personen innerhalb eines Accounts oder Personen-Journey zu filtern. |
+| Verbesserung | Personalisierung von Inhalten - Unterstützung für benutzerdefinierte Objekte von Personen | Wenn Sie die Personalisierung von Inhalten mithilfe der benutzerdefinierten Objekte definieren, können Sie auf Variablen für die modellbasierten benutzerdefinierten Objekte (relationale Schemata) zugreifen. |
+
+>[!NOTE]
+>
+>Diese Versionsänderungen beginnen mit der Bereitstellung am 20. Februar 2026 mit einem schrittweisen Rollout jeder Funktion und Erweiterung. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 ## Versionshinweise für 2026.1
 
@@ -47,6 +55,16 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 >[!NOTE]
 >
 >Diese Versionsänderungen beginnen mit der Bereitstellung am Mittwoch, 3. Februar 2026, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+
+## Funktionen für Agent-basierte KI
+
+In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-basierten KI-Funktionen für Journey Optimizer B2B Edition verfügbar:
+
+| Agent | Update | Beschreibung |
+| ----- | ------ | ----------- |
+| Journey Build Agent | Neu und aktualisiert | Der Journey Build Agent analysiert und konzipiert Journeys und gestaltet diese in Echtzeit mit. Dies versetzt Marketing-Fachleute in die Lage, Launches zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten zu erzielen. [Weitere Informationen](../agents/journey-agent.md) |
+| Audience Agent | Neu | Audience Agent identifiziert und erstellt Käufergruppen automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
+| Verkaufskennzeichner | Neu | Der Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die den Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und Käuferinteraktion über verschiedene Kanäle hinweg [Weitere Informationen](../agents/sales-qualifier.md) |
 
 ## Versionshinweise für 2025.10
 
