@@ -6,7 +6,8 @@ topic: Personalization
 role: User, Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Start, Personalisierung
-source-git-commit: 5063f9a924aef0a54b05e9bf223fc2d4898bc5a5
+exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
+source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
@@ -54,7 +55,7 @@ Fügen Sie Personalisierung in einem beliebigen Feld oder einer beliebigen Inhal
 
 >[!NOTE]
 >
->Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ &#x200B;](../simplified-architecture.md).
+>Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ ](../simplified-architecture.md).
 
 ### Token und Helper-Funktionen
 
@@ -78,36 +79,14 @@ Wenn der Ausdruck vollständig und fehlerfrei ist, klicken Sie auf **[!UICONTROL
 
 ### Benutzerdefinierte Datensätze
 
-Sie können relationale Schemata (modellbasierte Klassen) zur E-Mail-Personalisierung verwenden. Die benutzerdefinierten Objekte werden in _relationalen Schemata_ definiert und ein Produktadministrator kann [relationale Schemafelder konfigurieren](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. Auf diese Felder kann über den Personalisierungseditor zugegriffen werden. Es sind nur benutzerdefinierte Objekte verfügbar, die eine Eins-zu-Viele-Beziehung (1:M) zu Account <!-- (M1.5 Beta) or Person (M1.5 GA) --> haben.
+[!BADGE Beta]{type=Informative tooltip="Beta-Funktion"}
+
+Sie können relationale Schemata zur E-Mail-Personalisierung verwenden. Die benutzerdefinierten Objekte werden in _relationalen Schemata_ definiert und ein Produktadministrator kann [relationale Schemafelder konfigurieren](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. Auf diese Felder kann über den Personalisierungseditor zugegriffen werden. Es sind nur benutzerdefinierte Objekte verfügbar, die eine Eins-zu-Viele-Beziehung (1:M) zu Personen oder Konto haben.
 
 >[!IMPORTANT]
 >
->Bevor Sie benutzerdefinierte Objekte für die skriptbasierte Personalisierung verwenden, stellen Sie sicher, dass Sie die [Handlebar-Vorlagensprache](https://handlebarsjs.com/guide/), [Personalisierungssyntax](./personalization-syntax.md) und die integrierten [Hilfsfunktionen](./personalization-helper-functions.md).
+>Bevor Sie benutzerdefinierte Objekte für die skriptbasierte Personalisierung verwenden, stellen Sie sicher, dass Sie die [Handlebars-Vorlagensprache](https://handlebarsjs.com/guide/), [Personalisierungssyntax](./personalization-syntax.md) und die integrierten [Hilfsfunktionen](./personalization-helper-functions.md).
 
-Wenn Sie die Personalisierung mithilfe der benutzerdefinierten Objekte definieren, können Sie über die **[!UICONTROL Personalization-Token]** (Person/Lead, Konto, System und Meine Token) und die **[!UICONTROL modellbasierten Klassen]** (relationale Schemata) auf alle Variablen in skriptfähigen Objekten zugreifen. Wenn Modellbasierte Klassen ausgewählt sind, können Sie die Felder anzeigen, indem Sie auf den benutzerdefinierten Objektordner klicken. Klicken Sie für jedes Feld, das Sie dem Ausdruck hinzufügen möchten, auf **+**.
+Wenn Sie die Personalisierung mit benutzerdefinierten Objekten definieren, können Sie in Objekten, auf die über das Skript zugegriffen werden kann, auf alle Variablen in den **[!UICONTROL Personalization-Token]** (Person/Lead, Konto, System und Meine Token) und den **[!UICONTROL Benutzerdefinierte Objekte]** (relationale Schemata) zugreifen. Wenn Sie benutzerdefinierte Objekte ausgewählt haben, können Sie die Felder anzeigen, indem Sie auf den Ordner Benutzerdefinierte Objekte klicken. Klicken Sie für jedes Feld, das Sie dem Ausdruck hinzufügen möchten, auf **+**.
 
-![Personalization-Editor - Modellbasierte Klassen - Hinzufügen benutzerdefinierter Objektfelder](./assets/personalization-editor-custom-object-fields.png){width="800" zoomable="yes"}
-
-<!-- ## Personalization experimentation {#playground}
-
-**[!DNL Adobe Journey Optimizer]** includes an interactive tool designed to help you learn and experiment with personalization capabilities.
-
-This playground provides a simulated environment to write and test personalization code using sample data without requiring live datasets. You can leverage predefined code samples, edit dummy profile payloads, and preview the output of your personalization code in real-time. 
-
-![personalization playground](assets/playground.png)
-
-➡️ [Access the personalization playground](https://experienceleague.adobe.com/de/apps/journey-optimizer/ajo-personalization){target="_blank"} 
-
-## How-to videos{#video-perso}
-
-Learn how to use contextual event information from a journey to personalize a message.
-
->[!VIDEO](https://video.tv.adobe.com/v/3448148?captions=ger&quality=12)
-
-Learn how to add profile-based personalization to a message and how to use audience membership as a pre-condition to a personalization block.
-
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
-
-Learn how to leverage the personalization editor playground to write and test personalization code using sample data.
-
->[!VIDEO](https://video.tv.adobe.com/v/3475961?captions=ger&quality=12) -->
+![Personalization-Editor - Modellbasierte Klassen - Hinzufügen benutzerdefinierter Objektfelder](./assets/personalization-editor-custom-object-fields.png){width="700" zoomable="yes"}

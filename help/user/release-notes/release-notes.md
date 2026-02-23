@@ -3,9 +3,9 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7ee4ffdee351efb478ea1faefe6f1d478a75e2f8
+source-git-commit: fd8b811eb7f4568a92213e7873dc626f572ae519
 workflow-type: tm+mt
-source-wordcount: '4425'
+source-wordcount: '4434'
 ht-degree: 80%
 
 ---
@@ -24,13 +24,13 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | XDM-Felder/relationale Schemata - Unterstützung für benutzerdefinierte Personenobjekte | Admins können jetzt benutzerdefinierte Objekte auswählen, die mit einer Person verbunden sind, indem sie eine Eins-zu-eins-Beziehung auf einer Ebene mit einem Konto verwenden. Mit dieser Funktion kann Ihr Marketing-Unternehmen eine umfassendere Ansicht Ihrer realen Geschäftsdaten darstellen, um Entitäten über die Personen- oder Kontoebene hinaus anzusprechen, zu personalisieren und Berichte dazu zu erstellen. |
+| Funktion | XDM-Felder/relationale Schemata - Unterstützung für benutzerdefinierte Personenobjekte | (Beta) Admins können jetzt benutzerdefinierte Objekte auswählen, die mit einer Person verbunden sind, indem sie eine Eins-zu-eins-Beziehung mit einem Konto verwenden. Mit dieser Funktion kann Ihr Marketing-Unternehmen eine umfassendere Ansicht Ihrer realen Geschäftsdaten darstellen, um Entitäten über die Personen- oder Kontoebene hinaus anzusprechen, zu personalisieren und Berichte dazu zu erstellen. [Weitere Informationen](../admin/xdm-field-management.md#relational-schemas) |
 | Funktion | E-Mail-Design - Unterstützung für Firefly und benutzerdefinierte generative KI-Modelle | Sie können jetzt die Integration von standardmäßigen und benutzerdefinierten Firefly-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern (wie NanoBanana) aktivieren. Marketing-Experten können für jeden Anwendungsfall das beste Modell auswählen: standardmäßige Firefly für allgemeine Anforderungen, benutzerdefinierte Firefly für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien. |
 | Verbesserung | E-Mail-Design - Validierung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken.  |
 | Verbesserung | Journey-Wiedereintritt | Sie können jetzt Konten/Personen über einen Journey-Workflow mehrmals senden. Der Wiedereinstieg betrifft mehrere Szenarien, z. B. die Neubewertung von Qualifikationskriterien und wiederverwendbare Nurture-Workflows. |
 | Verbesserung | Für Ziele aktivieren - Wiederverwendbare Zielgruppen | Sie können jetzt virtuelle Zielgruppen in Journey-Aktionen _Für Ziel aktivieren_ innerhalb derselben Journey wiederverwenden und Konten aus virtuellen Zielgruppen entfernen. |
-| Verbesserung | Konto- und Personen-Journey - Unterstützung für benutzerdefinierte Objekte von Personen | Nutzen Sie die relationalen Daten, die mit Accounts verknüpft sind, um Personen innerhalb eines Accounts oder Personen-Journey zu filtern. |
-| Verbesserung | Personalisierung von Inhalten - Unterstützung für benutzerdefinierte Objekte von Personen | Wenn Sie die Personalisierung von Inhalten mithilfe der benutzerdefinierten Objekte definieren, können Sie auf Variablen für die modellbasierten benutzerdefinierten Objekte (relationale Schemata) zugreifen. |
+| Verbesserung | Konto- und Personen-Journey - Unterstützung für benutzerdefinierte Objekte von Personen | (Beta) Nutzen Sie die relationalen Daten, die mit Konten verknüpft sind, um Personen in einem Konto oder einer Personen-Journey zu filtern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Verbesserung | (Beta) Inhaltspersonalisierung - Unterstützung für benutzerdefinierte Objekte von Personen | Wenn Sie die Personalisierung von Inhalten mithilfe der benutzerdefinierten Objekte definieren, können Sie auf Variablen für die modellbasierten benutzerdefinierten Objekte (relationale Schemata) zugreifen. [Weitere Informationen](../content/personalization.md#custom-datasets) |
 
 >[!NOTE]
 >
