@@ -4,19 +4,19 @@ description: Legen Sie fest, wann und wie oft Konten dieselbe Konto-Journey erne
 feature: Account Journeys
 role: User
 level: Intermediate
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
+source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
-
 
 # Journey-Wiedereintritt
 
 _Nur Konto-Journey_
 
-Wenn Sie die erneute Eingabe für eine Konto-Journey aktivieren, können Sie festlegen, wann und wie oft ein Konto dieselbe Journey erneut eingeben kann. Verwenden Sie die Wiedereinstiegseinstellungen, um Kriterien, Beschränkungen und Wartezeiten festzulegen, damit Konten kontrolliert neu qualifiziert werden.
+Wenn Sie die erneute Eingabe für eine Konto-Journey aktivieren, können Sie festlegen, wann und wie oft ein Konto dieselbe Journey erneut eingeben kann. Verwenden Sie die Wiedereinstiegseinstellungen, um Kriterien, Beschränkungen und Wartezeiten festzulegen, damit die Konten sich kontrolliert für die Journey qualifizieren.
 
 Ein Konto kann sich für eine Journey erneut qualifizieren, wenn die folgenden Elemente zutreffen:
 

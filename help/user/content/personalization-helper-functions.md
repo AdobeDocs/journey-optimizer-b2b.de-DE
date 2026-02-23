@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
+source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
 workflow-type: tm+mt
-source-wordcount: '4857'
-ht-degree: 44%
+source-wordcount: '4853'
+ht-degree: 47%
 
 ---
 
@@ -19,7 +20,7 @@ Verwenden Sie die Helper-Funktionen im Personalisierungseditor, um personalisier
 
 >[!AVAILABILITY]
 >
->Helper-Funktionen sind für Journey Optimizer-B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
+>Helper-Funktionen sind für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
 
 ## Aggregationsfunktionen
 
@@ -634,7 +635,7 @@ Die Funktion `addYears` passt ein bestimmtes Datum um eine angegebene Anzahl von
 
 +++
 
-### Alter {#age}
+### age {#age}
 
 Verwenden Sie die `age`-Funktion, um das Alter zu einem bestimmten Datum abzurufen.
 
@@ -953,13 +954,13 @@ Einige Musterbuchstaben sehen möglicherweise ähnlich aus, stellen jedoch unter
 | Muster | Bedeutung | Beispiel (für `2023-12-31T10:15:30Z`) |
 |---------|---------|--------------------------------------|
 | `y` | Kalenderjahr (Standardjahr) | `2023` |
-| `Y` | Wochenbasiertes Jahr (ISO 8601). Sie kann sich an den Jahresgrenzen unterscheiden. | `2024` (31. Dezember 2023 fällt in die erste Woche des Jahres 2024) |
-| `M` | Monat des Jahres (1-12 oder Text wie `Jan`, `January`) | `12` oder `Dec` |
-| `m` | Minute der Stunde (0-59) | `15` |
-| `d` | Tag des Monats (1-31) | `31` |
-| `D` | Tag des Jahres (1-366) | `365` |
+| `Y` | Wochenbasiertes Jahr (ISO 8601). Sie kann sich an den Jahresgrenzen unterscheiden. | `2024` (31. Dezember 2023 fällt in die erste Woche des Jahres 2024) |
+| `M` | Monat des Jahres (1–12 oder Text wie `Jan`, `January`) | `12` oder `Dec` |
+| `m` | Minute der Stunde (0–59) | `15` |
+| `d` | Tag des Monats (1–31) | `31` |
+| `D` | Tag des Jahres (1–366) | `365` |
 
-#### Formatieren des Datums mit Gebietsschema-Unterstützung {#format-date-locale}
+#### Formatieren des Datums mit Unterstützung für Gebietsschema {#format-date-locale}
 
 Sie können die `formatDate`-Funktion verwenden, um einen Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung zu formatieren, z. B. für ein gewünschtes Gebietsschema. Das Format muss ein gültiges Java-`DateTimeFormat` sein.
 
@@ -975,9 +976,9 @@ Dabei ist die erste Zeichenfolge das Datumsattribut, der zweite Wert ist die Art
 >
 > Wenn ein Datumsmuster ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
 >
-> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation zusammengefasst &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation zusammengefasst ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
+> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
 
 **Beispiel**
 
@@ -1803,7 +1804,7 @@ Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind
 
 **Beispiel**
 
@@ -1979,7 +1980,7 @@ Mit dem folgenden Vorgang wird geprüft, ob die Privatadresse der Person vorhand
 
 +++
 
-## Zeichenfolgenfunktionen {#string-functions}
+## Zeichenfolgen-Funktionen {#string-functions}
 
 Erfahren Sie, wie Sie im Personalisierungseditor Zeichenfolgenfunktionen verwenden können.
 
