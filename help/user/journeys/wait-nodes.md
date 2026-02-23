@@ -45,7 +45,7 @@ Mit einem _erweiterten Warteschritt_ definieren Sie **_wann_** die Person oder d
 
 >[!AVAILABILITY]
 >
->Erweiterte Warteeinstellungen sind für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
+>Erweiterte Warteeinstellungen sind für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
 
 ### Wartetypen
 
