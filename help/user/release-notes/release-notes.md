@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
 workflow-type: tm+mt
-source-wordcount: '4474'
-ht-degree: 80%
+source-wordcount: '4371'
+ht-degree: 81%
 
 ---
 
@@ -26,11 +26,15 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | ---- | ---- | ----------- |
 | Funktion | XDM-Felder/relationale Schemata - Unterstützung für benutzerdefinierte Personenobjekte | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} (Beta)-Administratoren können jetzt benutzerdefinierte Objekte auswählen, die mit einer Person verbunden sind, indem sie eine Eins-zu-eins-Beziehung mit einem Konto verwenden. Mit dieser Funktion kann Ihr Marketing-Unternehmen eine umfassendere Ansicht Ihrer realen Geschäftsdaten darstellen, um Entitäten über die Personen- oder Kontoebene hinaus anzusprechen, zu personalisieren und Berichte dazu zu erstellen. [Weitere Informationen](../admin/xdm-field-management.md#relational-schemas) |
 | Funktion | Journey-Wiedereintritt | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Sie können jetzt Konten/Personen über einen Journey-Workflow mehrmals senden. Der Wiedereinstieg betrifft mehrere Szenarien, z. B. die Neubewertung von Qualifikationskriterien und wiederverwendbare Nurture-Workflows. [Weitere Informationen](../journeys/journey-re-entry.md) |
-| Funktion | E-Mail-Design - Unterstützung für Firefly und benutzerdefinierte generative KI-Modelle | Sie können jetzt die Integration von standardmäßigen und benutzerdefinierten Firefly-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern (wie NanoBanana) aktivieren. Marketing-Experten können für jeden Anwendungsfall das beste Modell auswählen: standardmäßige Firefly für allgemeine Anforderungen, benutzerdefinierte Firefly für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien. |
-| Verbesserung | E-Mail-Design - Validierung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken.  |
 | Verbesserung | Konto- und Personen-Journey - Unterstützung für benutzerdefinierte Objekte von Personen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} (Beta) Nutzen Sie die relationalen Daten, die mit Konten verknüpft sind, um Personen innerhalb eines Kontos oder Personen-Journey zu filtern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Verbesserung | (Beta) Inhaltspersonalisierung - Unterstützung für benutzerdefinierte Objekte von Personen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Wenn Sie die Personalisierung von Inhalten mithilfe der benutzerdefinierten Objekte definieren, können Sie auf Variablen für die modellbasierten Klassen für benutzerdefinierte Objekte (relationale Schemata) zugreifen. [Weitere Informationen](../content/personalization.md#custom-datasets) |
 | Verbesserung | Für Ziele aktivieren - Wiederverwendbare Zielgruppen | Sie können jetzt virtuelle Zielgruppen in Journey-Aktionen _Für Ziel aktivieren_ innerhalb derselben Journey wiederverwenden und Konten aus virtuellen Zielgruppen entfernen. |
+
+<!-- wait for next release
+| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
+| Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
+| Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
+| -->
 
 >[!NOTE]
 >
@@ -47,10 +51,6 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Verbesserung | Journey _Warten_ Knoten - Erweiterte Einstellungen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar für vereinfachte Architektur"} Für einen _Warte_-Knoten auf einer Journey können Sie jetzt Beendigungstage und -zeiten angeben und Zeitzonen auswählen. Durch diese Verbesserung erhalten Sie eine bessere Kontrolle über die Orchestrierung und das Timing von Journey-Kampagnen. [Weitere Informationen](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Verbesserung | Mitglied des Filters „Einkaufsgruppe“ - wurde entfernt | Bei einem _Aufspaltungspfad nach Personen_-Knoten enthält der _[!UICONTROL Mitglied der Kaufgruppe]_ jetzt die _Ist entfernt_-Beschränkung. Wenn Sie ihn auswählen, kann der Filter das entfernte Mitglied der Einkaufsgruppe einschließen oder ausschließen. Es wird auch in Marketo Engage-Smart-Listen unterstützt, in denen Sie diese neue Einschränkung im Filter _[!UICONTROL Mitglied der Kaufgruppe]_ verwenden können. |
 | Verbesserung | E-Mail-Design - Aufzählungszeichen auf mehreren Ebenen | Die Tools für den Design-Bereich für E-Mail-Inhalte unterstützen jetzt Unter-Aufzählungszeichen (Aufzählungsebenen). |
-
-<!--
-| Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. | 
-| -->
 
 >[!NOTE]
 >
