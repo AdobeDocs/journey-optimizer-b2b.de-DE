@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: a624ef4575aaf771af7bfcb301e98fdb615699f6
+source-git-commit: 0215a83066bea181a09050b2ea35899241125a4d
 workflow-type: tm+mt
-source-wordcount: '4371'
-ht-degree: 81%
+source-wordcount: '4343'
+ht-degree: 82%
 
 ---
 
@@ -28,13 +28,12 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | Journey-Wiedereintritt | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Sie können jetzt Konten/Personen über einen Journey-Workflow mehrmals senden. Der Wiedereinstieg betrifft mehrere Szenarien, z. B. die Neubewertung von Qualifikationskriterien und wiederverwendbare Nurture-Workflows. [Weitere Informationen](../journeys/journey-re-entry.md) |
 | Verbesserung | Konto- und Personen-Journey - Unterstützung für benutzerdefinierte Objekte von Personen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} (Beta) Nutzen Sie die relationalen Daten, die mit Konten verknüpft sind, um Personen innerhalb eines Kontos oder Personen-Journey zu filtern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
 | Verbesserung | (Beta) Inhaltspersonalisierung - Unterstützung für benutzerdefinierte Objekte von Personen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Wenn Sie die Personalisierung von Inhalten mithilfe der benutzerdefinierten Objekte definieren, können Sie auf Variablen für die modellbasierten Klassen für benutzerdefinierte Objekte (relationale Schemata) zugreifen. [Weitere Informationen](../content/personalization.md#custom-datasets) |
-| Verbesserung | Für Ziele aktivieren - Wiederverwendbare Zielgruppen | Sie können jetzt virtuelle Zielgruppen in Journey-Aktionen _Für Ziel aktivieren_ innerhalb derselben Journey wiederverwenden und Konten aus virtuellen Zielgruppen entfernen. |
 
-<!-- wait for next release
+<!-- wait for later release
 | Feature | Custom external actions for journeys | [!BADGE Simplfified architecture]{type=Informative tooltip="Available for simplified architecture"} (Beta) Developers can now use APIs to  build integrations with their first-party systems. |
 | Feature | Email design - Support for Firefly and custom Generative AI models | You can now enable integration of standard and custom Firefly models, along with approved third-party image models (such as NanoBanana). Marketers can select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios. |
 | Enhancement | Email design - content quality validation | In addition to brand alignment, you can evaluate overall content quality to uncover potential issues with readability, cohesiveness, and effectiveness (independent of your brand guidelines). These automated checks help identify unclear messaging, inconsistent tone, or structural gaps. |
-| -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 >[!NOTE]
 >
