@@ -4,7 +4,7 @@ description: Generieren von E-Mail-Inhalten mit dem KI-Assistenten - Erstellen S
 feature: AI Assistant, Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
-source-git-commit: d3238fa94f28c6d7e3fc0dce5b59fd70d8e74e34
+source-git-commit: c7c08dc1d9b041bfc83cf8b5766a953fa765f4c9
 workflow-type: tm+mt
 source-wordcount: '3591'
 ht-degree: 2%
@@ -23,9 +23,9 @@ Diese neue Funktion bietet eine sofortige Inhaltsgenerierung für die vollständ
 
 ## Richtlinien und Einschränkungen
 
-Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die [Richtlinien und Einschränkungen](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Die Benutzerzustimmung &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} auch akzeptiert werden, bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die [Richtlinien und Einschränkungen](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Die Benutzerzustimmung ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} auch akzeptiert werden, bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Da sich Adobe verpflichtet hat, die Verwendung generativer KI-Tools bei der Medienerstellung transparenter zu gestalten, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/de/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} für alle Inhalte oder Projekte an, die ein Firefly-generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
+Da sich Adobe verpflichtet hat, die Verwendung generativer KI-Tools bei der Medienerstellung transparenter zu gestalten, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} für alle Inhalte oder Projekte an, die ein Firefly-generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
 
 Die folgenden Einschränkungen und Richtlinien gelten für KI-Assistenten-Funktionen, die für die Erstellung von E-Mail-Inhalten in [!DNL Journey Optimizer B2B Edition] verwendet werden:
 
@@ -116,9 +116,9 @@ Wenn Sie eine zuvor hochgeladene Datei auswählen möchten, erweitern Sie die Li
 
 ## Generieren von E-Mail-Eigenschaften mit dem KI-Assistenten
 
-Wenn Sie [&#x200B; Konto-Journey &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Der KI-Assistent kann dazu beitragen, die E-Mail-Interaktion zu verbessern, indem er empfohlene Inhalte für die E-Mail **_Betreffzeile_** und den **_Preheader_** generiert.
+Wenn Sie [ Konto-Journey ](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Der KI-Assistent kann dazu beitragen, die E-Mail-Interaktion zu verbessern, indem er empfohlene Inhalte für die E-Mail **_Betreffzeile_** und den **_Preheader_** generiert.
 
-Wenn Sie eine E-Mail von einer Journey erstellen oder eine bestehende E-Mail von einem Journey-Knoten aus öffnen, wird die E-Mail-Vorschauseite mit den _[!UICONTROL E-Mail-Eigenschaften]_ auf der rechten Seite angezeigt. Auf der Registerkarte _[!UICONTROL Zusammenfassung]_ können Sie die Inhaltserstellungs-Tools des KI-Assistenten verwenden, um eine Betreffzeile, einen Preheader oder beides zu generieren.
+Wenn Sie eine E-Mail von einer Journey erstellen oder eine bestehende E-Mail von einem Journey-Knoten aus öffnen, wird die E-Mail-Vorschauseite mit den _[!UICONTROL E-Mail-Eigenschaften]_ auf der rechten Seite angezeigt. Auf der Registerkarte _[!UICONTROL Zusammenfassung]_ können Sie die Inhaltsgenerierungs-Tools des KI-Assistenten verwenden, um eine Betreffzeile, einen Preheader oder beides zu generieren.
 
 >[!BEGINTABS]
 
@@ -128,7 +128,7 @@ Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des K
 
 1. Scrollen _im Bedienfeld_ Zusammenfassung“ mit der ausgewählten Registerkarte _Details_ nach unten zum Feld **[!UICONTROL Betreffzeile]**.
 
-1. Klicken Sie auf das Symbol KI![Assistent ( &#x200B;](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}KI-Assistentenzugriffssymbol) rechts neben dem Feld.
+1. Klicken Sie auf das Symbol KI![Assistent ( ](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}KI-Assistentenzugriffssymbol) rechts neben dem Feld.
 
    ![Zugriff des KI-Assistenten für die E-Mail-Betreffzeile](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -232,7 +232,7 @@ Führen Sie die folgenden Schritte entsprechend dem Typ der E-Mail-Inhaltserstel
 
 Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollständige E-Mail-Generierung zu verwenden, indem Sie eine vorhandene E-Mail-Vorlage verfeinern:
 
-1. Klicken [&#x200B; nach dem Erstellen der E](./add-email.md)Mail auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
+1. Klicken [ nach dem Erstellen der E](./add-email.md)Mail auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
 
 1. Wählen Sie eine Vorlage.
 
@@ -240,7 +240,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollstän
 
    Weitere Informationen zur Verwendung einer E-Mail-Vorlage finden Sie unter _[Auswählen einer Vorlage](./email-authoring.md#select-a-template)_.
 
-1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}-Menü ) auf der rechten Seite klicken.
+1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}-Menü ) auf der rechten Seite klicken.
 
    Die Einstellungen des KI-Assistenten auf der rechten Seite spiegeln _E-Mail_) wider.
 
@@ -248,7 +248,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollstän
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
 
-   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ &#x200B;](./brands-overview.md) definieren.
+   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ ](./brands-overview.md) definieren.
 
 1. Geben **[!UICONTROL im Feld &quot;]**&quot; eine Beschreibung dessen ein, was generiert werden soll.
 
@@ -358,7 +358,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu verwenden und d
 
    Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Bilder und Referenzinhalte (falls erforderlich) und zum Neugenerieren der Varianten.
 
-   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [&#x200B; zur Verwendung von Adobe Express zum Verfeinern &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
+   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [ zur Verwendung von Adobe Express zum Verfeinern ](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
 
    ![KI-Assistent - Vorschau von Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
