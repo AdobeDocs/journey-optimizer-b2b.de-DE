@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 696d3a57a1c086a25670ffb41cd095d4da011615
+source-git-commit: b037049c75a83f427185c91dff3a3ffb066e7e20
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 79%
+source-wordcount: '415'
+ht-degree: 76%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 79%
    + [Aktivieren des Zugriffs auf den KI-Assistenten](./ai-assistant/enable-ai-assistant-access.md)
    + [Anleitung zu Fragen](./ai-assistant/question-guidance.md)
    + [Verwenden des KI-Assistenten](./ai-assistant/use-ai-assistant.md)
+   + [Generative KI für Inhalte](./ai-assistant/generative-ai-content.md)
    + Agentinnen bzw. Agenten {#ai-agents}
       + [Audience Agent](./agents/audience-agent-b2b.md)
       + [Journey-Build-Agent B2B](./agents/journey-agent.md)
@@ -116,6 +117,7 @@ ht-degree: 79%
    + Landingpages (Beta) {#landing-pages}
       + [Übersicht](./content/landing-pages.md)
       + [Landingpage-Design](./content/landing-page-design.md)
+      + [KI-Assistent für Landingpage-Inhalte](./content/ai-assistant-landing-pages.md)
    + Tools für das Design von Inhalten {#content-design}
       + [Strukturkomponenten](./content/structure-components.md)
       + [Inhaltskomponenten](./content/content-components.md)
@@ -151,7 +153,7 @@ ht-degree: 79%
       + [Web-Kanalkonfigurationen (Beta)](./admin/configure-channels-web.md)
       + [Landingpage-Einstellungen (Beta)](./admin/landing-page-settings.md)
       + [Konfigurieren von Datenströmen für die Ereignissammlung](./data/aep-event-collection.md)
-   + Konfigurationen  {#configurations}
+   + Konfigurationen {#configurations}
       + [AEM Assets-Repositorys](./admin/configure-aem-repositories.md)
       + [Absichtsdaten](./admin/intent-data.md)
       + [Gewichtung der Interaktionsbewertung](./admin/engagement-score-weighting.md)

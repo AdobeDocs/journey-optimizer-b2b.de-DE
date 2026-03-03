@@ -4,10 +4,10 @@ description: Native Bildbearbeitung mit Adobe Express in Journey Optimizer B2B e
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+source-git-commit: 7e58b0ccb9d9dd0192cb119bec83a1f13e3d5d69
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 4%
+source-wordcount: '860'
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
 
    >[!TIP]
    >
-   >Es empfiehlt sich, in den Bilddetails [&#x200B; Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen &#x200B;](./internal-image-assets.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
+   >Es empfiehlt sich, in den Bilddetails [ Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen ](./internal-image-assets.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
 
 1. Klicken Sie in _[!UICONTROL Abbildung]_ auf der rechten Seite auf **[!UICONTROL Mit Adobe Express bearbeiten]**.
 
@@ -88,7 +88,7 @@ Wenn Sie keine Adobe Express Enterprise-Lizenz haben, haben Sie Zugriff auf den 
 
 1. Wenn Sie zum Adobe Express-Schnellaktionseditor zurückkehren, klicken Sie auf **[!UICONTROL Speichern]**, um die geänderte Bilddatei im Journey Optimizer B2B edition Asset-Repository unter Verwendung desselben Dateinamens zu speichern.
 
-## Bildgröße ändern
+### Bildgröße ändern
 
 1. Verwenden Sie die Größeneinstellungen, um das Bild zu verkleinern oder zu erweitern:
 
@@ -102,13 +102,13 @@ Wenn Sie keine Adobe Express Enterprise-Lizenz haben, haben Sie Zugriff auf den 
 
 1. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
-## Hintergrund entfernen
+### Hintergrund entfernen
 
 ![Mit Adobe Express bearbeiten - Hintergrund entfernen](./assets/assets-edit-adobe-express-remove-background.png){width="600" zoomable="yes"}
 
 Adobe Express führt eine automatische Hintergrundentfernung durch, um das primäre Objekt im Bild zu isolieren. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
-## Bild zuschneiden
+### Bild zuschneiden
 
 1. Ziehen Sie die Griffe auf die Ecken des Bildes, um die äußeren Bereiche zu entfernen, die Sie nicht in das Bild-Asset aufnehmen möchten.
 
@@ -116,7 +116,7 @@ Adobe Express führt eine automatische Hintergrundentfernung durch, um das prim�
 
 1. Wenn Sie mit dem Ergebnis zufrieden sind, klicken Sie auf **[!UICONTROL Übernehmen]**.
 
-## Dateiformat konvertieren
+### Dateiformat konvertieren
 
 * **[!UICONTROL In JPEG konvertieren]** - Bei einem PNG-Bild können Sie das Bild in eine JPEG-Bilddatei konvertieren und als neues Asset speichern.
 * **[!UICONTROL In PNG konvertieren]** - Bei einem JPEG-Bild können Sie das Bild in eine PNG-Bilddatei konvertieren und als neues Asset speichern.

@@ -5,9 +5,9 @@ feature: Landing Pages, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 1a3b4519-e1c0-418a-979a-7ba3e5972edd
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 093deda1fa43f1e699709b0ec96db173fc39c3cd
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2220'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Eine Landingpage ist eine eigenständige Web-Seite, auf der Sie Kontakte und Kunden leiten können, nachdem sie auf ein verknüpftes Element in einer E-Mail, SMS-Nachricht oder einem beliebigen digitalen Ort geklickt haben. Sie können diese Seiten in Ihre Account-Journey integrieren, damit Ihre Interessenten und Kunden Ihre Nachrichten im Internet anzeigen und in Ihren Account-Journey Fortschritte erzielen können. Im visuellen Design-Bereich für Landingpages können Sie Landingpages erstellen, personalisieren und in der Vorschau anzeigen.
 
-Um Ihre Kunden beim Klicken auf einen bestimmten Link zu einer definierten Web-Seite weiterzuleiten, erstellen Sie in Journey Optimizer B2B edition eine Landingpage.
+Um Ihre Kunden beim Klicken auf einen bestimmten Link zu einer definierten Web-Seite weiterzuleiten, erstellen Sie in Journey Optimizer B2B edition eine Landingpage:
 
 * Erstellen der Seite
 * Landingpage gestalten und Inhalte erstellen
@@ -46,7 +46,7 @@ Um nach einer Landingpage anhand des Namens zu suchen, geben Sie eine Textzeiche
 
 ### Spaltenanzeige anpassen
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -114,11 +114,11 @@ Mit Adobe Journey Optimizer B2B edition können Sie vorhandene HTML-Inhalte impo
 
 Sie können den importierten Inhalt nach Bedarf mit dem visuellen Design-Bereich personalisieren.
 
-### Gespeicherte Vorlage auswählen
+### Gespeicherte Vorlage oder Beispielvorlage auswählen
 
 Sie können aus folgenden Optionen wählen:
 
-* **Beispielvorlagen**. Die Journey Optimizer-Benutzeroberfläche bietet eine Sammlung vordefinierter Landingpage-Vorlagen, aus denen Sie wählen können.
+* **Beispielvorlagen**. Die Journey Optimizer B2B edition-Benutzeroberfläche bietet eine Sammlung vordefinierter Landingpage-Vorlagen, die Sie als Ausgangspunkt für Ihr Landingpage-Design verwenden können.
 
 * **Gespeicherte Vorlagen**. Verwenden Sie eine gespeicherte benutzerdefinierte Vorlage, die von einem Mitglied Ihrer Organisation mithilfe des Menüs _[!UICONTROL Vorlagen]_ erstellt wurde<!-- or the _[!UICONTROL Save as content template]_ option when designing a landing page. -->
 
@@ -271,7 +271,7 @@ Es können zwei Arten von Warnhinweisen erkannt werden:
 
 Sie können eine Landingpage mit einer der folgenden Methoden duplizieren:
 
-* Klicken Sie auf der _[!UICONTROL Einstiegsseite]_ auf das Symbol _Mehr_ (**…**) neben dem Namen der Einstiegsseite und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie auf der _[!UICONTROL Landingpage]_ auf das Symbol _Mehr_ (**…**) klicken Sie neben dem Namen der Landingpage auf **[!UICONTROL Duplizieren]**.
 * Klicken Sie oben rechts auf der Detailseite der Landingpage auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
 
 ![Duplizieren Sie die Landingpage](./assets/landing-page-details-duplicate-delete.png){width="600" zoomable="yes"}
@@ -286,7 +286,7 @@ Die duplizierte (neue) Seite wird dann in der Liste _Landingpages_ angezeigt.
 
 Sie können eine Landingpage mit einer der folgenden Methoden löschen:
 
-* Klicken Sie auf der _[!UICONTROL Einstiegsseite]_ auf das Symbol _Mehr_ (**…**) neben dem Namen der Einstiegsseite und wählen Sie **[!UICONTROL Löschen]**.
+* Klicken Sie auf der _[!UICONTROL Landingpage]_ auf das Symbol _Mehr_ (**…**) klicken Sie neben dem Namen der Landingpage auf **[!UICONTROL Löschen]**.
 * Klicken Sie oben rechts auf der Detailseite der Landingpage auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
