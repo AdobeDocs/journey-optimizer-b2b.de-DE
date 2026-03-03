@@ -48,7 +48,7 @@ KI-Assistenten-Tools für die Inhaltserstellung werden von den folgenden Asset-T
 
 ## Allgemeine Richtlinien und Einschränkungen {#general-guidelines-and-limitations}
 
-Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
+Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/de/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
 
 Lesen Sie diese allgemeinen Richtlinien für die Verwendung von generativer KI für Inhalte in [!DNL Journey Optimizer B2B Edition]:
 
