@@ -41,7 +41,7 @@ Sie können einen Einkaufsgruppenauftrag löschen, indem Sie auf die Auslassungs
 
 ## Lösungsinteresse erstellen
 
-Bevor Sie eine Interessenslösung erstellen, müssen Sie über eine Live-Rollenvorlage (veröffentlicht) verfügen, die die Rollen definiert, die Sie ansprechen möchten. Weitere [ zum Erstellen einer Rollenvorlage und ](./buying-groups-role-templates.md) Veröffentlichen einer Rollenvorlage finden Sie unter „Kaufen von Rollenvorlagen für Gruppen“.
+Bevor Sie eine Interessenslösung erstellen, müssen Sie über eine Live-Rollenvorlage (veröffentlicht) verfügen, die die Rollen definiert, die Sie ansprechen möchten. Weitere [&#x200B; zum Erstellen einer Rollenvorlage und &#x200B;](./buying-groups-role-templates.md) Veröffentlichen einer Rollenvorlage finden Sie unter „Kaufen von Rollenvorlagen für Gruppen“.
 
 1. Klicken Sie auf _[!UICONTROL Registerkarte]_ Lösungsinteresse **[!UICONTROL oben rechts auf]** Lösungsinteresse erstellen“.
 
