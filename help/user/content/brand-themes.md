@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Wiederverwendbarkeit, Markenausrichtung, E-Mail-Design
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 6df235bc73066463e5fcfa71dc994f34e13e3ac0
+source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3107'
 ht-degree: 3%
 
 ---
@@ -113,7 +113,11 @@ Wählen Sie die Registerkarte **[!UICONTROL Farben]** und verwenden Sie die Eins
 
   Klicken Sie auf den _Zurück_-Pfeil, um die Farbpalettenwerkzeuge zu schließen.
 
-* Klicken Sie auf **[!UICONTROL Variante hinzufügen]**, um mehrere Farbvarianten zu erstellen, z. B. einen _Hell_- und _Dunkel_-Modus, in dem jede Variante über eine eigene Farbpalette und Nuance-Steuerelemente verfügt. Sie können bis zu sechs Varianten haben.
+* Klicken Sie auf **[!UICONTROL Variante hinzufügen]**, um mehrere Farbvarianten zu erstellen, z. B. einen _Hell_- und _Dunkel_-Modus, in dem jede Variante über eine eigene Farbpalette und Nuance-Steuerelemente verfügt.
+
+  >[!NOTE]
+  >
+  >Für jedes Markendesign können bis zu vier Varianten definiert werden.
 
   Klicken Sie für jede Variante auf das Symbol _Bearbeiten_ ( ![Bearbeiten](../assets/do-not-localize/icon-edit.svg) ). Sie können die Standardpalette oder beliebige benutzerdefinierte Farben verwenden.
 
@@ -286,7 +290,7 @@ Wenn Sie über eine große Liste mit benutzerdefinierten Designs verfügen, verw
 
 ### Löschen oder Duplizieren eines Designs
 
-Wenn Sie das Design gefunden haben, klicken Sie auf das _Mehr Menü_ (**…**) unten rechts auf der Designkarte und wählen Sie die gewünschte Aktion aus:
+Wenn Sie das Design gefunden haben, klicken Sie auf das Menü _Mehr_ (**…**) unten rechts auf der Design-Karte auf und wählen Sie die gewünschte Aktion aus:
 
 ![Bearbeiten eines Designs - Wählen Sie ein benutzerdefiniertes Design aus, das bearbeitet werden soll](./assets/email-theme-edit-more-menu.png){width="220"}
 
