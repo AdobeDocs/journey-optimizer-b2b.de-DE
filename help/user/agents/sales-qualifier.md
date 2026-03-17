@@ -1,15 +1,15 @@
 ---
 title: Verkaufskennzeichner
 description: Automatisieren Sie die B2B-Qualifizierung und Kontaktaufnahme mit dem Sales Qualifier. Es bietet KI-gestützte Forschung, E-Mail-Erstellung, CRM-Integration und Interaktionspläne für BDRs.
-feature: AI Assistant, Sales Insights, Account Journeys
+feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 38c4d68a9c21ca4d6b5f55d59a31becbf73642e7
+exl-id: cc590444-41df-44fe-830b-92241718ee81
+source-git-commit: 51bb47fe4f494095f1c598639f02f273b9a125ae
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1335'
 ht-degree: 1%
 
 ---
-
 
 # Verkaufskennzeichner
 
@@ -24,7 +24,7 @@ Verwenden Sie den Browser und die E-Mail-Plug-ins, um Business Intelligence dire
 
 Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 Der Verkaufsqualifizierer ist in [!UICONTROL Journey Optimizer B2B edition] enthalten, aber es handelt sich um eine separate App innerhalb der Experience Platform Experience Cloud.
 
@@ -54,7 +54,7 @@ Die Account Qualification Agent (AQA) ist das Herzstück des Sales Qualifier. Di
 
 ### Grundlegende Verwendung
 
-Adobe-KI-Agenten verwenden _Abfragen in natürlicher Sprache_ was bedeutet, dass sie in der Textaufforderung dieselbe Sprache verwenden, wie Sie es bei Gesprächen mit einer Person tun würden. Je detaillierter Sie sind, desto besser sind die Ergebnisse.
+Adobe AI-Agenten verwenden _Abfragen in natürlicher Sprache_ was bedeutet, dass sie in der Textaufforderung dieselbe Sprache verwenden, wie Sie es bei Gesprächen mit einer Person tun würden. Je detaillierter Sie sind, desto besser sind die Ergebnisse.
 
 Mit natürlicher Sprache können Sie den Agenten bitten:
 
