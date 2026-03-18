@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Wiederverwendbarkeit, Markenausrichtung, E-Mail-Design
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 0440afada2cb17268ee265c07e4646ca244bf2a6
+source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 3%
@@ -84,7 +84,7 @@ Definieren Sie Ihr eigenes Markendesign, das Sie auf den Inhalt Ihrer E-Mail und
 
 1. Klicken Sie auf **[!UICONTROL Schließen]**, um zur Seite _[!UICONTROL Design erstellen]_ zurückzukehren, und dann auf **[!UICONTROL Abbrechen]**, um zur Seite Design zurückzukehren.
 
-   Sie können dann **[!UICONTROL Von Grund auf gestalten]** wählen, um den visuellen Design-Bereich zu öffnen und [Design zu verwenden](#use-your-theme-for-email-content-authoring) für die E-Mail oder Vorlage.
+   Sie können dann **[!UICONTROL Von Grund auf gestalten]** wählen, um den visuellen Design-Bereich zu öffnen und [Design zu verwenden](#use-email-theme) für die E-Mail oder Vorlage.
 
 ### Allgemeine Einstellungen
 
@@ -152,7 +152,7 @@ Auf der Registerkarte **[!UICONTROL Texteinstellungen]** können Sie die globale
 | ---- | -------- | ----------- |
 | [!UICONTROL Global] | ![Bibliothek für die globalen Texteinstellungen auswählen](./assets/email-theme-text-settings-global-library.png){width="300"} | Legen Sie die **[!UICONTROL Schriftbibliothek]** auf _[!UICONTROL Standard]_ oder _[!UICONTROL Google Fonts]_ fest. Wählen Sie dann die Schriftfamilie aus, die Sie verwenden möchten. Diese globalen Texteinstellungen werden überall angewendet, es sei denn, Sie legen unterschiedliche Textstile für die Überschriftenebenen und Absatztypen fest. |
 | [!UICONTROL Überschriften] | ![Textstile für Überschriften für H1](./assets/email-theme-text-settings-headings.png){width="300"} | Wählen Sie für die einzustellende Überschriftenebene **[!UICONTROL H1]**, **[!UICONTROL H2]** usw. Legen Sie die **[!UICONTROL Schriftbibliothek]** auf _[!UICONTROL Standard]_ oder _[!UICONTROL Google Fonts]_ fest. Wählen Sie dann Schriftfamilie, Größe und Stil aus. Wählen Sie **[!UICONTROL Textausrichtung]** aus: _Links_, _Zentriert_, _Rechts_ oder _Blocksatz_. |
-| [!UICONTROL Absätze] | ![Textstile der Absätze für Typ P1](./assets/email-theme-text-settings-headings.png){width="300"} | Wählen Sie für die einzustellende Überschriftenebene **[!UICONTROL P1]**, **[!UICONTROL HP]** usw. Legen Sie die **[!UICONTROL Schriftbibliothek]** auf _[!UICONTROL Standard]_ oder _[!UICONTROL Google Fonts]_ fest. Wählen Sie dann Schriftfamilie, Größe und Stil aus. Passen Sie die **[!UICONTROL Zeilenhöhe]** nach Bedarf an. Wählen Sie **[!UICONTROL Textausrichtung]** aus: _Links_, _Zentriert_, _Rechts_ oder _Blocksatz_. |
+| [!UICONTROL Absätze] | ![Textstile der Absätze für Typ P1](./assets/email-theme-text-settings-paragraphs.png){width="300"} | Wählen Sie für den Absatztyp, den Sie festlegen möchten, **[!UICONTROL P1]**, **[!UICONTROL P2]** usw. Legen Sie die **[!UICONTROL Schriftbibliothek]** auf _[!UICONTROL Standard]_ oder _[!UICONTROL Google Fonts]_ fest. Wählen Sie dann Schriftfamilie, Größe und Stil aus. Passen Sie die **[!UICONTROL Zeilenhöhe]** nach Bedarf an. Wählen Sie **[!UICONTROL Textausrichtung]** aus: _Links_, _Zentriert_, _Rechts_ oder _Blocksatz_. |
 
 +++
 
@@ -166,8 +166,8 @@ Auf der Registerkarte **[!UICONTROL Abstand]** können Sie den Abstand und den R
 
 | Typ | Einstellungen | Beschreibung |
 | ---- | -------- | ----------- |
-| [!UICONTROL Ränder] | ![Margin-Einstellungen](./assets/email-theme-spacing-settings-margins.png){width="300"} | Wählen Sie das Symbol _Rand_, um Einstellungen anzuzeigen, die den CSS-`margin` replizieren. Dieser steuert den Raum außerhalb eines Komponentenrahmens und trennt ihn von anderen Komponenten/Elementen. Dadurch wird eine Lücke um die Komponente geschaffen, um ihre Positionierung und das Layout des umgebenden Inhalts zu beeinflussen. Legen Sie die Randwerte in Pixeln entsprechend Ihren Design-Anforderungen fest. Sie können den Rand für alle Seiten, die obere Schaltfläche, die linke oder die rechte Seite der Komponente unabhängig voneinander festlegen. Klicken Sie auf _Sperren_ und _Entsperren_, um die Randwerte am oberen unteren und linken rechten Rand zu synchronisieren oder zu deaktivieren. |
-| [!UICONTROL Auffüllung] | ![Auffülleinstellungen](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Wählen Sie das Symbol _Abstand_ aus, um Einstellungen anzuzeigen, die den CSS-`padding` replizieren. Dies ist der Abstand zwischen dem Inhalt einer Komponente/eines Elements und seinem Rahmen. Der Abstand sorgt für einen internen Abstand, mit dem Sie den Abstand zwischen Inhalt und Rahmen der Komponente steuern können. Legen Sie die Abstandswerte entsprechend Ihren Design-Anforderungen in Pixel fest. Sie können den Abstand für alle Seiten, die obere Schaltfläche, die linke rechte Seite oder jede Seite der Komponente unabhängig festlegen. Klicken Sie auf _Sperren_ und _Entsperren_, um die Abstandswerte oben unten und links/rechts zu synchronisieren oder zu deaktivieren. |
+| [!UICONTROL Ränder] | ![Margin-Einstellungen](./assets/email-theme-spacing-settings-margins.png){width="300"} | Wählen Sie das Symbol _Rand_, um Einstellungen anzuzeigen, die den CSS-`margin` replizieren. Dieser steuert den Raum außerhalb eines Komponentenrahmens und trennt ihn von anderen Komponenten/Elementen. Dadurch wird eine Lücke um die Komponente geschaffen, um ihre Positionierung und das Layout des umgebenden Inhalts zu beeinflussen. Legen Sie die Randwerte in Pixeln entsprechend Ihren Design-Anforderungen fest. Sie können den Rand für alle Seiten, für das obere untere, das linke oder das rechte Ende oder für jede Seite der Komponente unabhängig voneinander festlegen. Klicken Sie auf _Sperren_ und _Entsperren_, um die Randwerte am oberen unteren und linken rechten Rand zu synchronisieren oder zu deaktivieren. |
+| [!UICONTROL Auffüllung] | ![Auffülleinstellungen](./assets/email-theme-spacing-settings-paddings.png){width="300"} | Wählen Sie das Symbol _Abstand_ aus, um Einstellungen anzuzeigen, die den CSS-`padding` replizieren. Dies ist der Abstand zwischen dem Inhalt einer Komponente/eines Elements und seinem Rahmen. Der Abstand sorgt für einen internen Abstand, mit dem Sie den Abstand zwischen Inhalt und Rahmen der Komponente steuern können. Legen Sie die Abstandswerte entsprechend Ihren Design-Anforderungen in Pixel fest. Sie können den Abstand für alle Seiten, das obere untere, das linke oder das rechte Ende oder für jede Seite der Komponente unabhängig festlegen. Klicken Sie auf _Sperren_ und _Entsperren_, um die Abstandswerte oben unten und links/rechts zu synchronisieren oder zu deaktivieren. |
 | [!UICONTROL Ecken] | ![Eckeinstellungen](./assets/email-theme-spacing-settings-corners.png){width="300"} | Wählen Sie das _Ecken_, um Einstellungen anzuzeigen, die den CSS-`border-radius` replizieren, der den Radius der Komponenten-/Elementecken definiert. Legen Sie den numerischen Wert entsprechend der Kurve für die Ecken fest. Ein Wert von 0 (Standard) ergibt eine quadratische Ecke. |
 
 +++
@@ -212,7 +212,7 @@ Auf der Registerkarte **[!UICONTROL Trennzeichen]** können Sie die Linienstile 
 
 | Typ | Einstellungen | Beschreibung |
 | ---- | -------- | ----------- |
-| [!UICONTROL Line] | ![Trennlinien-Einstellungen](./assets/email-theme-divider-settings-line.png){width="300"} | Legen Sie den **[!UICONTROL Rahmenstil]** fest, indem Sie einen Wert aus der Liste der standardmäßigen CSS-`border-style` auswählen, z _B. Durchgehend_, _Punkte_ und _Gestrichelt_. |
+| [!UICONTROL Line] | ![Einstellungen für Trennlinien](./assets/email-theme-divider-settings-line.png){width="300"} | Legen Sie den **[!UICONTROL Rahmenstil]** fest, indem Sie einen Wert aus der Liste der standardmäßigen CSS-`border-style` auswählen, z _B. Durchgehend_, _Punkte_ und _Gestrichelt_. |
 | [!UICONTROL Container-Größe] | ![Container-Größeneinstellungen für Trennzeichen](./assets/email-theme-divider-settings-container-size.png){width="300"} | Klicken Sie bei **[!UICONTROL Option]** Höhe“ auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel für die Komponente/das Element zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und passt die Höhe entsprechend dem Inhalt an (Zeilenstil). Verwenden Sie für **[!UICONTROL Breite]** den Umschalter, um die Breite nach Pixel oder Prozentsatz festzulegen. Legen Sie für eine prozentuale Breite mithilfe des Schiebereglers den prozentualen Wert fest. Der Prozentsatz bestimmt die Elementbreite basierend auf dem Inhaltsfeld des enthaltenden Blocks. Bei einem Wert von 50 wird beispielsweise die Breite der Unterteilung auf 50 % der Breite des enthaltenden Blocks festgelegt. Klicken Sie bei einer pixelbasierten Breite auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (_Auto_) ist der Standardwert und skaliert die Breite der Trennlinie entsprechend ihrem Inhalt. |
 | [!UICONTROL Ausrichtung] | ![Einstellungen für Trennlinien](./assets/email-theme-divider-settings-alignment.png){width="300"} | Wählen Sie die horizontale Ausrichtung innerhalb des enthaltenden Blocks aus: __, _Zentriert_ oder _Rechts_. |
 
