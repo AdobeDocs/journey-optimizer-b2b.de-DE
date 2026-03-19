@@ -2,10 +2,10 @@
 title: Adobe Journey Optimizer B2B Edition – Überblick
 description: 'Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition: Orchestrieren Sie Konto-Journeys mit Käufergruppen, KI-Erkenntnisse und Experience Platform-Integration für B2B-Marketing.'
 exl-id: fdfbafdf-826f-44e9-bbb6-5e729d0e18ef
-source-git-commit: d3247a48ff1fbda54c559fa03580865da7252935
+source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 100%
+source-wordcount: '841'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ Mit Adobe Journey Optimizer B2B Edition können Sie Konto- und Käufergruppen-Jo
 
 ## Konto-Journeys mit Käufergruppen
 
-Beim Vergleich von Adobe Journey Optimizer B2B Edition mit Marketo Engage und Adobe Journey Optimizer Standard besteht der Hauptunterschied darin, dass bei Konto-Journeys Konten und nicht Personen die Journey durchlaufen. Eine Person, die einem Konto zugeordnet ist, weist in der Regel einen nicht-linearen Verlauf auf, der auf dem Fortschreiten des Kontos durch die Journey basiert, und nicht auf ihren individuellen Aktionen. Befindet sich ein Konto beispielsweise in einer frühen Phase der Kauf-Journey, können die gesendeten Informationen allgemeine Lösungsfunktionen betreffen. Im weiteren Verlauf des Kaufprozesses können die Inhalte stärker zielgerichtet auf bestimmte Angebote oder andere Artikel ausgerichtet werden, die auf den Abschluss eines Verkaufs abzielen. Nach dem Kauf der Lösung ändern sich die Informationen möglicherweise erneut, um Anleitungen, Best Practices oder Informationen zu bevorstehenden Ereignissen oder Inhalte zu zusätzlichen Upsells bereitzustellen. Selbst wenn eine Person nicht mit dem Inhalt der frühen Phase interagiert hat, liegt es dennoch in Ihrem Interesse, sie in die aktuelle Phase zu führen. Dies basiert jedoch nicht auf ihren eigenen Aktionen, sondern auf den Aktionen der anderen Personen innerhalb ihres Kontos oder ihrer Käufergruppe.
+Beim Vergleich der Account-Journey mit den Journey-Funktionen in Marketo Engage und Adobe Journey Optimizer Standard besteht der Hauptunterschied darin, dass Account-Journey Konten über den Journey verschieben, nicht über Personen. Eine Person, die einem Konto zugeordnet ist, weist in der Regel einen nicht-linearen Verlauf auf, der auf dem Fortschreiten des Kontos durch die Journey basiert, und nicht auf ihren individuellen Aktionen. Befindet sich ein Konto beispielsweise in einer frühen Phase der Kauf-Journey, können die gesendeten Informationen allgemeine Lösungsfunktionen betreffen. Im weiteren Verlauf des Kaufprozesses können die Inhalte stärker zielgerichtet auf bestimmte Angebote oder andere Artikel ausgerichtet werden, die auf den Abschluss eines Verkaufs abzielen. Nach dem Kauf der Lösung ändern sich die Informationen möglicherweise erneut, um Anleitungen, Best Practices oder Informationen zu bevorstehenden Ereignissen oder Inhalte zu zusätzlichen Upsells bereitzustellen. Selbst wenn eine Person nicht mit dem Inhalt der frühen Phase interagiert hat, liegt es dennoch in Ihrem Interesse, sie in die aktuelle Phase zu führen. Dies basiert jedoch nicht auf ihren eigenen Aktionen, sondern auf den Aktionen der anderen Personen innerhalb ihres Kontos oder ihrer Käufergruppe.
 
 ## Allgemeine Architektur
 

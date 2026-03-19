@@ -1,26 +1,26 @@
 ---
-title: Benutzerverwaltung
+title: Benutzerzugriff und Berechtigungen
 description: Verwalten des Benutzerzugriffs mit der Experience Cloud Admin Console - Erstellen Sie Benutzergruppen, weisen Sie Produktprofile zu und konfigurieren Sie rollenbasierte Berechtigungen für Journey Optimizer B2B edition.
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: de509c4c3678fa55584dda4b6d23035de7641c91
+source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 3%
+source-wordcount: '2135'
+ht-degree: 2%
 
 ---
 
-# Benutzerverwaltung
+# Benutzerzugriff und Berechtigungen
 
 Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Sie die folgenden Schritte aus, um Ihrem Team und Ihren Benutzenden Zugriff auf Adobe Journey Optimizer B2B edition zu gewähren.
 
-1. [Erstellen eines Marketo Engage-Produktprofils](#marketo-engage-profile) in der Admin Console (nur neue Marketo Engage-Instanz).
-1. [Erstellen einer Benutzergruppe](#create-user-group) in der Admin Console.
+1. [Erstellen eines Marketo Engage-Produktprofils](#create-the-marketo-engage-product-profile) in der Admin Console (nur neue Marketo Engage-Instanz).
+1. [Hinzufügen einer Benutzergruppe](#add-a-user-group-for-the-profile) in der Admin Console.
 1. [Bearbeiten von integrierten Rollen](#edit-roles-for-product-permissions) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit Berechtigungen für Journey Optimizer B2B edition.
-1. [Benutzer](#add-users) oder &quot;[&quot; &#x200B;](#add-user-groups-to-a-role) Rollen hinzufügen.
+1. [Benutzer](#add-users) oder &quot;[&quot; ](#add-user-groups-to-a-role) Rollen hinzufügen.
 
-Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html) finden Sie auf der Seite Übersicht über Admin Console .
+Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und ](https://helpx.adobe.com/de/enterprise/using/admin-console.html) finden Sie auf der Seite [Übersicht über Admin Console .
 
 ## Die Admin Console aufrufen
 
@@ -56,13 +56,13 @@ Bevor Sie die Admin Console zum Verwalten von Benutzenden in Ihrem Team verwende
 
 Wenn Sie Benutzenden Zugriff auf eine Adobe-Lösung gewähren, möchten Sie ihnen nicht unbedingt uneingeschränkten Zugriff gewähren. Produktprofile ermöglichen es jeder Lösung, über eigene Benutzerberechtigungen zu verfügen. Verwenden Sie die Admin Console, um Produktprofile zuzuweisen.
 
-Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [Verwalten von Produktprofilen für Unternehmensbenutzer](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html){target="_blank"} in der Dokumentation zu Admin Console.
+Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [_Verwalten von Produktprofilen für Unternehmensbenutzer_](https://helpx.adobe.com/de/enterprise/using/manage-product-profiles.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 >[!BEGINSHADEBOX]
 
-Wenn Sie Benutzende zum Marketo Engage-Produktprofil hinzufügen, werden sie anschließend zur Rolle _Standardbenutzende_ im Standardarbeitsbereich des Marketo Engage-Abonnements hinzugefügt. Diese Rolle gewährt allen Benutzenden _Standardbenutzer_ Berechtigungen für Marketo Engage in diesem Arbeitsbereich. Derzeit müssen alle Journey Optimizer B2B edition-Benutzer Marketo Engage-Benutzer sein. Ein Marketo Engage-Administrator kann den Zugriff einschränken, indem er die Berechtigungen für die Rolle _Standardbenutzer_ aktualisiert oder indem er die Benutzerin bzw. den Benutzer in eine andere Benutzerrolle in Marketo Engage mit eingeschränkteren Berechtigungen verschiebt.
+Wenn Sie Benutzende zum Marketo Engage-Produktprofil hinzufügen, werden sie anschließend zur Rolle _Standardbenutzende_ im Standardarbeitsbereich des Marketo Engage-Abonnements hinzugefügt. Diese Rolle gewährt allen Benutzern _x_-Berechtigungen für Marketo Engage in diesem Arbeitsbereich. Derzeit müssen alle Journey Optimizer B2B edition-Benutzer Marketo Engage-Benutzer sein. Ein Marketo Engage-Administrator kann den Zugriff einschränken, indem er die Berechtigungen für die Rolle _Standardbenutzer_ aktualisiert oder indem er die Benutzerin bzw. den Benutzer in eine andere Benutzerrolle in Marketo Engage mit eingeschränkteren Berechtigungen verschiebt.
 
-Weitere Informationen zum Verwalten dieser Berechtigungen in Marketo Engage finden Sie unter [Verwalten von Benutzerrollen und -berechtigungen](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in der Dokumentation zu Marketo Engage.
+Weitere Informationen zum Verwalten dieser Berechtigungen in Marketo Engage finden Sie unter [Verwalten von Benutzerrollen und -berechtigungen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in der Dokumentation zu Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -76,13 +76,17 @@ Weitere Informationen zum Verwalten dieser Berechtigungen in Marketo Engage find
 
    ![Admin Console - Marketo Engage-Instanz - Neues Profil](./assets/admin-console-marketo-engage-instance-new-profile.png){width="700" zoomable="yes"}
 
-1. Geben Sie einen Produktprofilnamen ein, z. B _„Standardbenutzer_.
+1. Geben Sie einen Produktprofilnamen ein, z. B. _B2B-Benutzer_.
 
-1. Klicken Sie **Weiter** und dann **Speichern**.
+1. Klicken Sie **[!UICONTROL Weiter]** und dann **[!UICONTROL Speichern]**.
 
-## Erstellen einer Benutzergruppe {#create-user-group}
+## Hinzufügen einer Benutzergruppe für das Profil {#add-user-group}
 
 Eine Benutzergruppe ist eine Sammlung von Benutzern, denen ein gemeinsamer Berechtigungssatz gewährt wird. Sie können Benutzer in Ihrer Benutzergruppe hinzufügen oder entfernen. Die Gruppenberechtigungen bleiben unverändert, während die Benutzer innerhalb der Gruppe wechseln.
+
+>[!TIP]
+>
+>Wenn Sie zur vereinfachten Architektur migrieren und Ihre bestehenden Journey Optimizer B2B edition-Benutzenden zu Marketo Engage hinzufügen möchten, können Sie die Schritte zur Erstellung von Benutzergruppen überspringen und einfach die bestehende Benutzergruppe öffnen und das Marketo Engage-Produktprofil hinzufügen.
 
 Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html){target="_blank"} in der Dokumentation zu Admin Console.
 
@@ -96,7 +100,7 @@ Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen
 
 1. Klicken **[!UICONTROL oben]** auf „Neue Benutzergruppe“.
 
-1. Geben Sie einen Namen für die Benutzergruppe ein, z. B. _Standardbenutzer_ und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Geben Sie einen Namen für die Benutzergruppe ein, z. B. _B2B-Benutzer_ und klicken Sie auf **[!UICONTROL Speichern]**.
 
 1. Klicken Sie auf die soeben erstellte Benutzergruppe.
 
@@ -113,7 +117,7 @@ Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Benutzer zu einer Gruppe hinzufügen
+## Benutzer zu einer neuen Gruppe hinzufügen
 
 Informationen zur Benutzerverwaltung finden Sie unter [Admin Console-Benutzer](https://helpx.adobe.com/de/enterprise/using/user-groups.html) in der Dokumentation zu Admin Console.
 
@@ -143,7 +147,7 @@ Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewies
 
 Im _Berechtigungen_ von Adobe Experience Platform können Admins Benutzerrollen und Zugriffsrichtlinien definieren, um Zugriffsberechtigungen für Funktionen und Objekte innerhalb einer Produktanwendung zu verwalten. In dieser App können Sie Rollen erstellen und verwalten sowie die gewünschten Ressourcenberechtigungen für diese Rollen zuweisen. Mit Berechtigungen können Sie auch die Sandboxes und die Benutzer verwalten, die einer bestimmten Rolle zugeordnet sind.
 
-Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
+Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
 
 ### B2B-Produktberechtigungen
 
@@ -292,7 +296,7 @@ Informationen zur Benutzerverwaltung finden Sie unter [Admin Console-Benutzer](h
 
 1. B2B-Produktberechtigungen hinzufügen:
 
-   Anhand der Liste der B2B[Produktberechtigungen können Sie &#x200B;](#b2b-product-permissions), welche Produktfunktionen Sie für die Rolle benötigen.
+   Anhand der Liste der B2B[Produktberechtigungen können Sie ](#b2b-product-permissions), welche Produktfunktionen Sie für die Rolle benötigen.
 
    Suchen Sie in der _[!UICONTROL Ressourcen]_-Liste auf der linken Seite die **[!UICONTROL B2B]**-Elemente und klicken Sie auf das _Hinzufügen_-Symbol (**+**), um jedes Attribut hinzuzufügen, das Sie für die Rolle aktivieren möchten.
 

@@ -5,10 +5,10 @@ feature: Data Management, Integrations
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer begrenzten Beta-Version der vereinfachten Architektur"
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
+source-git-commit: 7027e028922dae2a2dff64ab966886af7b6a8c49
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 1%
+source-wordcount: '1230'
+ht-degree: 2%
 
 ---
 
@@ -18,13 +18,13 @@ Experience-Datenmodell (XDM)-Felder sind Schemaelemente, die Daten für das [!DN
 
 Schemata definieren Felder basierend auf standardmäßigen XDM-Klassen. Zu den standardmäßigen XDM-Klassen gehören „Individuelles Profil“, „Geschäftskonto“ und „Erlebnisereignis“. Relationale Schemata definieren auch Felder, mit denen Sie strukturierte Daten ähnlich wie herkömmliche relationale Datenbanken modellieren können.
 
-Adobe Experience Platform (AEP)-Schemata enthalten in der Regel viele Felder in komplexen Hierarchien. Das Durchlaufen von XDM-Schemastrukturen dauert einige Zeit. Die XDM-Feldverwaltung optimiert die Feldauswahl, indem nur Felder angezeigt werden, die für jede Journey relevant sind. Administratoren steuern, welche Felder für Journey-Ersteller angezeigt werden. Admins legen die Felder auch auf „Schreibgeschützt“ oder „Bearbeitbar“ fest. Diese Maßnahmen verbessern die Effizienz beim Journey-Design.
+Adobe Experience Platform (AEP)-Schemata enthalten in der Regel viele Felder in komplexen Hierarchien. Das Durchlaufen von XDM-Schemastrukturen dauert einige Zeit. Die XDM-Feldverwaltung optimiert die Feldauswahl, indem nur die Felder angezeigt werden, die für Ihre Journey, Einkaufsgruppen und Personalisierung relevant sind.  Administratoren aktivieren diese Felder für die Verwendung in Journey Optimizer B2B edition, einschließlich schreibgeschützter oder bearbeitbarer Felder.
 
 Admins, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kundendatenplattform (CDP)-Datenmodellierung zusammenarbeiten, sollten die folgenden Schritte verwenden, um XDM-Klassen für [!DNL Journey Optimizer B2B Edition] zu konfigurieren.
 
 >[!NOTE]
 >
->XDM-Feldverwaltung ist für Journey Optimizer B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
+>XDM-Feldverwaltung ist für Journey Optimizer B2B edition-Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
 
 ## Zugriff auf XDM-Klassen
 
@@ -90,7 +90,9 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 #### Aktualisierbare Felder
 
-Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
+Journey Legen Sie die aktualisierbaren Felder fest, um auszuwählen, welche Felder durch die Aktionen **[!UICONTROL Kontoprofil aktualisieren]** oder **[!UICONTROL Personenprofil aktualisieren]** geändert werden können.
+
+Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
 >[!IMPORTANT]
 >
@@ -117,7 +119,7 @@ Weitere Informationen dazu, wie Sie die ausgewählten Felder für die erweiterte
 
 >[!AVAILABILITY]
 >
->Die [relationalen Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Die [relationalen Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 >[!NOTE]
 >
@@ -125,14 +127,20 @@ Weitere Informationen dazu, wie Sie die ausgewählten Felder für die erweiterte
 
 Sie können relationale Schemata mit dem Schema-Editor erstellen (navigieren Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemata]** in der linken Navigationsleiste).
 
+>[!BEGINSHADEBOX]
+
+**Schemaanforderungen**
+
 Beim Erstellen eines Schemas zur Verwendung mit [!DNL Journey Optimizer B2B Edition] sind die folgenden Konfigurationswerte erforderlich:
 
 * Verhalten: Datensatz
 * Segmentierung: Aktiviert
 * Beziehungstyp: Viele-zu-eins
-* Referenzschema: B2B-Konto
+* Referenzschema: [B2B-Konto](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
 * Erforderliche Felder: Primärer Schlüssel, Fremdschlüssel und Versionsdeskriptor
 * Zugeordneter Datensatz: Definiert und dem Schema zugeordnet
+
+>[!ENDSHADEBOX]
 
 So wählen Sie relationale Schemafelder zur Verwendung in [!DNL Journey Optimizer B2B Edition] aus:
 
@@ -154,7 +162,7 @@ So wählen Sie relationale Schemafelder zur Verwendung in [!DNL Journey Optimize
 
    Sie können den Namespace nur einmal festlegen und diese Aktion nicht rückgängig machen.
 
-   ![Der Standard-Namespace im Dialogfeld Namespace erstellen &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Der Standard-Namespace im Dialogfeld Namespace erstellen ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Überprüfen Sie die Felder des relationalen Schemas.
 

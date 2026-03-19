@@ -3,14 +3,12 @@ title: Konfiguration einer Landingpage
 description: Konfigurieren Sie Landingpage-Subdomains, Einstellungen zum Vorbefüllen von Formularen und Datenströme, um die Veröffentlichung von Campaign-Web-Seiten in Journey Optimizer B2B edition zu ermöglichen.
 feature: Setup, Landing Pages, Content
 role: Admin
-hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: 6719755db59ed79a4bd32e4f0df0ebb8207aecda
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 31%
+source-wordcount: '500'
+ht-degree: 38%
 
 ---
 
@@ -31,7 +29,7 @@ Um die Konfiguration der Landingpage zu überprüfen, gehen Sie zu **[!UICONTROL
 >title="Kontozeichenfolge für Landingpages"
 >abstract="Die Kontozeichenfolge identifiziert die Instanz von Adobe Journey Optimizer B2B Edition, die die Landingpages hostet."
 
-Die Kontozeichenfolge identifiziert die Adobe Journey Optimizer B2B edition-Instanz, die die Landingpages hostet. Stellen Sie sicher, dass Ihr System-Team den DNS-Eintrag hinzufügt und konfiguriert.
+Die Kontozeichenfolge identifiziert die Instanz von Adobe Journey Optimizer B2B Edition, die die Landingpages hostet. Stellen Sie sicher, dass Ihr System-Team den DNS-Eintrag hinzufügt und konfiguriert.
 
 ### Vorbefüllen von Formularen {#form-prefill}
 
@@ -70,9 +68,9 @@ Legen Sie die Option **[!UICONTROL Datenstrom]** fest, um einen Datenstrom für 
 
 Eine Landingpage-Subdomain sollte dabei helfen, den Inhaltstyp, den Produktnamen oder die Kampagne zu identifizieren und die Authentizität der Seite zu stärken. Bevor Sie die Subdomains konfigurieren, definieren Sie einen oder mehrere CNAMEs, die für Ihre Landingpages verwendet werden sollen. Beispiel:
 
-* **Produkt**.[CompanyDomain].com
-* **Los**.[CompanyDomain].com
-* **Anmeldung**.[CompanyDomain].com
+* **product**.[CompanyDomain].com
+* **go**.[CompanyDomain].com
+* **signup**.[CompanyDomain].com
 
 In diesen Beispielen ist der erste Teil (fett gedruckt) der `LandingPageCNAME`.
 

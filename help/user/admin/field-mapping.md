@@ -4,10 +4,10 @@ description: Überprüfen Sie die Standardattributfelder, die zwischen Adobe Exp
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 046d3648c5e482a69719d0095c297a766dd852ea
+source-git-commit: 4af43d4ee2040bbdee85286950db6e3658395198
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 20%
+source-wordcount: '1221'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 
 >[!TIP]
 >
->Sie können XDM Business Person- und XDM Business Account-Klassen in einer Viele-zu-viele-Beziehung modellieren, indem Sie die XDM Business Account Person Relation-Klasse verwenden, wie in der [Experience Platform XDM-Dokumentation beschrieben](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
+>Sie können XDM Business Person- und XDM Business Account-Klassen in einer Viele-zu-viele-Beziehung modellieren, indem Sie die XDM Business Account Person Relation-Klasse verwenden, wie in der [Experience Platform XDM-Dokumentation beschrieben](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b){target="_blank"}.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 ## Personenbeziehungsattribute für XDM Business-Konto
 
 | [Eigenschaft](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Anzeigename | Journey Optimizer B2B-Anzeigename | Datentyp | Beschreibung |
-|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+| --- | --- | --- | --- | --- |
 | `personRoles` | Personenrollen | Rolle | Zeichenfolgen-Array | Ein Array von Rollen, die der Person im Konto zugeordnet sind, z. B. `owner, accountant, designer`. |
 
 ## XDM-Geschäftspersonenattribute
@@ -39,7 +39,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 ><ul><li>Wenn das E-Mail-Attribut in Real-Time CDP B2B null ist und die Person in Journey Optimizer B2B edition vorhanden ist, wird das Attribut in Journey Optimizer B2B edition bei der Synchronisierung mit einem Nullwert überschrieben. Anschließend wird es in Marketo Engage als Null beibehalten.<li>Wenn das E-Mail-Attribut in Real-Time CDP B2B null ist und die Person nicht in Journey Optimizer B2B edition vorhanden ist, wird der Personendatensatz nicht synchronisiert.<ul/>
 
 | [Eigenschaft](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/profile/b2b-person-details.schema.md){target="_blank"} | Anzeigename | Journey Optimizer B2B-Anzeigename | Datentyp | Beschreibung |
-|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+| --- | --- | --- | --- | --- |
 | `b2b.isMarketingSuspended` | Indikator für ausgesetztes Marketing | Marketing eingestellt | Boolesch | Der Wert gibt an, ob das Marketing für die Person ausgesetzt wird. |
 | `b2b.marketingSuspendedCause` | Marketing angehalten – Grund | Marketing angehalten – Grund | String | Wenn das Marketing für die Person ausgesetzt wird, gibt diese Eigenschaft den Grund dafür an. |
 | `b2b.personStatus` | Personen-Status | Lead-Status | String | Feld, das den aktuellen Marketing-/Verkaufsstatus der Person aufzeichnet. |
@@ -69,7 +69,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 >Das Attribut `accountName` ist erforderlich. Wenn es für ein Konto in einer Konto-Zielgruppe leer ist, wird dieses Konto nicht aufgenommen und in den Konto-Journey und Einkaufsgruppen, die auf die Zielgruppe verweisen, weggelassen.
 
 | [Eigenschaft](https://github.com/adobe/xdm/blob/master/docs/reference/mixins/account/account-details.schema.md){target="_blank"} | Anzeigename | Journey Optimizer B2B-Anzeigename | Datentyp | Beschreibung |
-|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
+| --- | --- | --- | --- | --- |
 | `accountBillingAddress.city` | Stadt | Stadt | String | Der Name der Stadt, der in der Rechnungsadresse verwendet wird. |
 | `accountBillingAddress.country` | Land | Land | String | Der Name des von der Regierung verwalteten Gebiets, das in der Rechnungsadresse verwendet wird. Anders als `xdm:countryCode` handelt es sich um ein Freiformfeld, das den Ländernamen in einer beliebigen Sprache enthalten kann. |
 | `accountBillingAddress.postalCode` | Postleitzahl | Adresse Postleitzahl | String | Die Postleitzahl des Standorts der Rechnungsadresse. Postleitzahlen sind nicht für alle Länder verfügbar. In einigen Ländern enthält es nur einen Teil der Postleitzahl. |
@@ -88,26 +88,26 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 
 <!-- ## XDM Business Opportunity attributes
 
-Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Exerience Platform documentation](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
+Additionally, opportunity data is stored as attributes in the XDM Business Opportunity class, which can be associated with the XDM Business Account class through a many-to-one relationship, as described in the [Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/relationship-b2b#relationship-field){target="_blank"}.
 
-|[Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} |Display name |Journey Optimizer B2B display name |Data type |Description |
-|------------------- |---------------------------------- |--------------------------- |-------- |--------------- |
-|`expectedCloseDate` | Expected Close Date  | Expected opportunity close date   | String | Expected date of closure for the opportunity.   |
-|`expectedRevenue.amount` | Expected Revenue  | Total opportunity expected revenue   | String | Calculated revenue based on the Amount and Probability.   |
-|`fiscalQuarter` | Fiscal Quarter   | Opportunity fiscal quarter  | String | The targeted fiscal quarter for the opportunity.   |
-|`fiscalYear` | Fiscal Year   | Opportunity fiscal year   | String | The targeted fiscal year for the opportunity.   |
-|`forecastCategory`|Forecast Category | Opportunity Forecast category | String | Forecast Category determined by the opportunity Stage value. |
-|`forecastCategoryName`|Forecast Category Name | Opportunity forecast category name | String | Forecast category name that is displayed in reports for a particular forecast category. |
-|`isClosed` | Closed Flag  | Opportunity closed   | String | Flag that indicates if the opportunity is closed.   |
-|`isWon` | Won Flag  | Opportunity won   | String | Flag that indicates if the opportunity is won.  |
-|`lastActivityDate` | Last Activity Date  | Last activity date   | String | Last activity date for the opportunity.  |
-|`leadSource` | Lead Source  | Lead source   | String | Source of the opportunity, such as Advertisement, Partner, or Web.   |
-|`nextStep` | Next Step  | Opportunity next step   | String | Description of the next task for closing the opportunity.   |
-|`opportunityAmount.amount` | Opportunity Amount  | Total Opportunity Amount | String | Estimated total sale amount for the opportunity.   |
-|`opportunityDescription` | Opportunity Description   | Opportunity description  |String  | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
-|`opportunityName` | Opportunity Name   | Opportunity name |String  | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
-|`opportunityQuantity` | Opportunity Quantity  | Opportunity quantity   | String | Total of all quantity field values for all products in the related Products list for the opportunity.   |
-|`opportunityStage` | Opportunity Stage   | Opportunity stage   | String | Sales stage of the opportunity to aid the sales team in their efforts to win it.  |
-|`opportunityType` | Opportunity Type   | Opportunity type   | String | Type assigned to the opportunity, such as _Existing Business_ or _New Business_  |
-|`probabilityPercentage` | Probability Percentage  | Opportunity probability percentage  | String | Likelihood of closing the opportunity, stated as a percentage.  |
+| [Property](https://github.com/adobe/xdm/blob/master/docs/reference/adobe/experience/marketo/opportunity-marketo.schema.md){target="_blank"} | Display name | Journey Optimizer B2B display name | Data type | Description |
+| --- | --- | --- | --- | --- |
+| `expectedCloseDate` | Expected Close Date | Expected opportunity close date | String | Expected date of closure for the opportunity. |
+| `expectedRevenue.amount` | Expected Revenue | Total opportunity expected revenue | String | Calculated revenue based on the Amount and Probability. |
+| `fiscalQuarter` | Fiscal Quarter | Opportunity fiscal quarter | String | The targeted fiscal quarter for the opportunity. |
+| `fiscalYear` | Fiscal Year | Opportunity fiscal year | String | The targeted fiscal year for the opportunity. |
+| `forecastCategory` | Forecast Category | Opportunity Forecast category | String | Forecast Category determined by the opportunity Stage value. |
+| `forecastCategoryName` | Forecast Category Name | Opportunity forecast category name | String | Forecast category name that is displayed in reports for a particular forecast category. |
+| `isClosed` | Closed Flag | Opportunity closed | String | Flag that indicates if the opportunity is closed. |
+| `isWon` | Won Flag | Opportunity won | String | Flag that indicates if the opportunity is won. |
+| `lastActivityDate` | Last Activity Date | Last activity date | String | Last activity date for the opportunity. |
+| `leadSource` | Lead Source | Lead source | String | Source of the opportunity, such as Advertisement, Partner, or Web. |
+| `nextStep` | Next Step | Opportunity next step | String | Description of the next task for closing the opportunity. |
+| `opportunityAmount.amount` | Opportunity Amount | Total Opportunity Amount | String | Estimated total sale amount for the opportunity. |
+| `opportunityDescription` | Opportunity Description | Opportunity description | String | Additional information to describe the opportunity, such as possible products to sell or past purchases from the customer. |
+| `opportunityName` | Opportunity Name | Opportunity name | String | Subject or descriptive name, such as the expected order or company name, for the opportunity. |
+| `opportunityQuantity` | Opportunity Quantity | Opportunity quantity | String | Total of all quantity field values for all products in the related Products list for the opportunity. |
+| `opportunityStage` | Opportunity Stage | Opportunity stage | String | Sales stage of the opportunity to aid the sales team in their efforts to win it. |
+| `opportunityType` | Opportunity Type | Opportunity type | String | Type assigned to the opportunity, such as _Existing Business_ or _New Business_ |
+| `probabilityPercentage` | Probability Percentage | Opportunity probability percentage | String | Likelihood of closing the opportunity, stated as a percentage. |
  -->
