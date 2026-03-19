@@ -157,8 +157,8 @@ Feld.
 
 Die Aktivität „E-Mail-Bot“, auch als Nicht-menschliche Interaktionen (NHI) bezeichnet, kann Ihre E-Mail-Daten _Öffnungen_ und _Klicks_ aufblähen, Ihre Interaktionsmetriken verzerren und einen ereignisbasierten Journey-Fortschritt auslösen. Verwenden Sie die E-Mail-Bot-Filterung , um die Integrität von Metriken und Einblicken zu Klick-Interaktionen aufrechtzuerhalten. Es gibt zwei Methoden, um verdächtige Bot-Aktivitäten zu identifizieren:
 
-* _**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
-* _**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
+* _&#x200B;**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**&#x200B;_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
+* _&#x200B;**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**&#x200B;_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
    * Lead-ID (muss gleich sein)
    * E-Mail-Asset (muss dasselbe sein)
    * Link-Klick oder E-Mail öffnen
