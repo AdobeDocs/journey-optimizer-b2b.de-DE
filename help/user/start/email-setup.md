@@ -1,12 +1,13 @@
 ---
 title: E-Mail-Einrichtung
-description: Platzhalter
+description: Konfigurieren Sie Marketo Engage-Optionen für den Journey Optimizer B2B-E-Mail-Versand, einschließlich Standardeinstellungen, Abmeldungen, Web-Ansicht, Velocity-Objektbeschränkungen, Tracking-Kopfzeilen und Bot-Filterung.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 55ffa7995a8d74d352a52f14bed5dd89d7d1c239
+exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 0%
+source-wordcount: '1346'
+ht-degree: 83%
 
 ---
 
@@ -70,7 +71,7 @@ Wenn Sie jemals zum Standardsysteminhalt zurückkehren müssen, kopieren Sie Fol
 
 ### Als Web-Seite anzeigen
 
-E-Mail-Inhalte haben eingeschränkte Anzeigefunktionen (eingeschränktes CSS und keine JavaScript oder Formulare). Marketing-Experten können die Option _Als Web-Seite anzeigen_ verwenden, um ein Cookie für den E-Mail-Empfänger mithilfe der Marketo Munchkin anzuwenden. Als Produkt-Administrator sollten Sie die standardmäßige HTML und den Standardtext konfigurieren, der eingefügt wird, wenn ein Marketer diese Option auswählt.
+E-Mail-Inhalte haben eingeschränkte Anzeigefunktionen (eingeschränktes CSS und keine JavaScript oder Formulare). Marketing-Experten können die Option _Als Web-Seite anzeigen_ verwenden, um mithilfe der Marketo-Munchkin ein Cookie für den E-Mail-Empfänger anzuwenden. Als Produkt-Administrator sollten Sie die standardmäßige HTML und den Standardtext konfigurieren, der eingefügt wird, wenn ein Marketer diese Option auswählt.
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Admin]** in der angehängten Marketo Engage-Instanz und wählen Sie **[!UICONTROL E-Mail]** aus.
 
@@ -157,8 +158,8 @@ Feld.
 
 Die Aktivität „E-Mail-Bot“, auch als Nicht-menschliche Interaktionen (NHI) bezeichnet, kann Ihre E-Mail-Daten _Öffnungen_ und _Klicks_ aufblähen, Ihre Interaktionsmetriken verzerren und einen ereignisbasierten Journey-Fortschritt auslösen. Verwenden Sie die E-Mail-Bot-Filterung , um die Integrität von Metriken und Einblicken zu Klick-Interaktionen aufrechtzuerhalten. Es gibt zwei Methoden, um verdächtige Bot-Aktivitäten zu identifizieren:
 
-* _&#x200B;**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**&#x200B;_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
-* _&#x200B;**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**&#x200B;_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
+* _**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
+* _**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
    * Lead-ID (muss gleich sein)
    * E-Mail-Asset (muss dasselbe sein)
    * Link-Klick oder E-Mail öffnen
@@ -192,7 +193,7 @@ Für die Aktivität E-Mail-Link-Klick und E-Mail-Öffnen werden Attribute mit de
 
    >[!NOTE]
    >
-   >Wenn _Dauer zwischen Aktivitäten_ auf `0` Sekunden eingestellt ist, identifiziert Marketo Engage E-Mail-Aktivitäten, die genau in der gleichen Sekunde stattfinden. Wenn innerhalb der angegebenen Anzahl von Sekunden mehrere E-Mail-Aktivitäten auftreten, wird dies als Bot-Aktivität identifiziert.
+   >Wenn _Dauer zwischen Aktivitäten_ auf `0` Sekunden eingestellt ist, identifiziert Marketo Engage E-Mail-Aktivitäten, die genau in dieser Sekunde stattfinden. Wenn innerhalb der angegebenen Anzahl von Sekunden mehrere E-Mail-Aktivitäten auftreten, wird dies als Bot-Aktivität identifiziert.
 
    Um eine der Filtermethoden zu deaktivieren, schalten Sie den Schieberegler nach links. Andernfalls werden die Daten nicht zurückgesetzt.
 
@@ -256,7 +257,6 @@ Adobe hat eine Liste von IP-Adressen identifiziert, die für die Generierung von
 
 >[!NOTE]
 >
->Jede IP-Adresse wird sorgfältig analysiert und geprüft, bevor sie in diese Liste aufgenommen wird, um sicherzustellen, dass nur die kritischsten und schädlichsten IPs blockiert werden.
+>Jede IP-Adresse wird sorgfältig analysiert und geprüft, bevor sie in diese Liste aufgenommen wird, sodass nur die kritischsten und schädlichsten IPs blockiert werden.
 
 +++
-

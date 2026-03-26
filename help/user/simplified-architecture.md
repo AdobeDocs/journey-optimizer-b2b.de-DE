@@ -4,10 +4,10 @@ description: Richten Sie Journey Optimizer B2B edition auf der vereinfachten Arc
 feature: Setup, Administration
 role: Admin, Data Engineer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-source-git-commit: 38d1794ed30a34dbb34dfaec2d3088bc3a4680ac
+source-git-commit: 53bf3ce685079df16752af49c3b61f583f0b72e7
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 17%
+ht-degree: 100%
 
 ---
 
@@ -273,7 +273,7 @@ Um Marketingexperten dabei zu unterstützen, andere Kanäle in ihre Journey aufz
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Konfigurieren Sie Ihre Business-Website zur Unterstützung der Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview">Weitere Informationen</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Weitere Informationen</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
@@ -336,12 +336,12 @@ Wenn die Bereitstellung abgeschlossen ist, Sandboxes gebunden und die anfänglic
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Erstellen eines Marketo Engage-Produktprofils in der Adobe Admin Console (nur neue Marketo Engage-Instanz)</td>
-<td><a href="./admin/user-management.md#create-the-marketo-engage-product-profile">Weitere Informationen</a></td>
+<td><a href="./admin/user-management.md#marketo-engage-profile">Weitere Informationen</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Hinzufügen einer Benutzergruppe für das Profil</td>
-<td><a href="./admin/user-management.md#add-a-user-group-for-the-profile">Weitere Informationen</a></td>
+<td><a href="./admin/user-management.md#add-user-group">Weitere Informationen</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
