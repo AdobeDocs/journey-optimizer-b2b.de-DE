@@ -41,7 +41,7 @@ Es sind viele **_zukünftige Verbesserungen_** für STO geplant:
 
 ## Konfiguration
 
-Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [ Personen-Journey einen _[!UICONTROL Aktion ausführen]_-](../journeys/action-nodes.md) hinzufügen.
+Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [&#x200B; Personen-Journey einen _[!UICONTROL Aktion ausführen]_-](../journeys/action-nodes.md) hinzufügen.
 
 1. Wählen Sie für _[!UICONTROL Aktion auswählen]_ die Option **[!UICONTROL E-Mail senden]**.
 
