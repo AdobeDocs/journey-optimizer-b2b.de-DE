@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 7ebf73a1cb34143d20a49f5d1ba82568718e0ca4
+source-git-commit: 8113b0a7e081a95b45e46060502fe24263e63364
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '425'
 ht-degree: 99%
 
 ---
@@ -47,13 +47,14 @@ ht-degree: 99%
       + [Personen-Zielgruppe (Beta)](./journeys/person-audience-nodes.md)
       + [Durchführen einer Aktion](./journeys/action-nodes.md)
       + [Auf ein Ereignis lauschen](./journeys/listen-for-event-nodes.md)
-      + [Aufteilen und Zusammenführen von Pfaden](./journeys/split-merge-paths-nodes.md)
+      + [Aufspaltungs- und Zusammenführungspfade](./journeys/split-merge-paths-nodes.md)
       + [Warten](./journeys/wait-nodes.md)
    + [Journey-Details](./journeys/journey-details.md)
 + Journey-Inhalt {#journey-content}
    + [SMS-Kanal](./content/sms-authoring.md)
    + E-Mail-Kanal {#email-channel}
       + [Hinzufügen einer E-Mail](./content/add-email.md)
+      + [Versandzeitoptimierung](./content/email-send-time-optimization.md)
       + [E-Mail-Erstellung](./content/email-authoring.md)
       + [KI-Assistent für E-Mail-Erstellung](./content/ai-assistant-emails.md)
       + [GenStudio-Workflows](./content/genstudio-email-workflow.md)

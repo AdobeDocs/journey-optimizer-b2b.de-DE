@@ -3,9 +3,9 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 5b9cb6554a3d31527a362407b04548ec2961f7ae
+source-git-commit: 34a570a6e998ede7465e30d7ca42f19f268e1943
 workflow-type: tm+mt
-source-wordcount: '4877'
+source-wordcount: '4885'
 ht-degree: 48%
 
 ---
@@ -30,7 +30,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | Unterstützung für [!DNL Firefly] und benutzerdefinierte generative KI-Modelle | Marketing-Teams können jetzt die Integration von standardmäßigen und benutzerdefinierten [!DNL Firefly]-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern (z. B. [!DNL NanoBanana]) aktivieren. E-Mail-Designer können für jeden Anwendungsfall das beste Modell auswählen: Standardmodelle für allgemeine [!DNL Firefly], benutzerdefinierte [!DNL Firefly] für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien. |
 | Funktion | Benutzerdefinierte externe Aktionen für Journey | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Entwickler können jetzt APIs verwenden, um Integrationen mit ihren First-Party-Systemen zu erstellen. Mit diesen benutzerdefinierten Integrationen können Marketing-Experten _Externe Aktion_ und _Externer Aufspaltungspfad_ hinzufügen, um ausgehende Anfragen an externe Services während der Journey-Ausführung des Kontos zu senden. |
 | Funktion | Marken | (Beta) Marketing-Teams können die Markenkonsistenz in ihren E-Mail-Inhalts-Assets gewährleisten, indem sie Markenprofile speichern und verwalten. Durch das Hinzufügen von Assets wie Farben, Schriftarten, Logos, Designs, visuellen Inhalten und Compliance-Richtlinien können sie das Markenprofil für die Erstellung generativer KI-Inhalte verwenden. Sie können auch die Markenausrichtung messen, um die Einhaltung der Vorschriften sicherzustellen. |
-| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. |
+| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | [!BADGE Vereinfachte ]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"}: Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ zur Personalisierung des E-Mail-Versands verwenden, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md)) |
 | Verbesserung | E-Mail-Design-Tools - Expertenmodus | Mit _Expertenmodus_ im E-Mail-Design-Bereich können Benutzende kleinere HTML-/CSS-Änderungen vornehmen und Skript-Tags zu einer E-Mail hinzufügen, um Rendering-Probleme zu beheben. |
 | Verbesserung | Benutzerdefinierte Objekte für Personen - Vorlagen für Gruppenrollen kaufen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Wenn Admins benutzerdefinierte Objekte konfigurieren, die mit einem Geschäftspersonenprofil verknüpft sind, können Marketing-Experten jetzt Käufergruppenrollen mithilfe dieser benutzerdefinierten Objekte definieren. |
 | Verbesserung | Bewertung von E-Mail-Inhalten - Validierung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. |
