@@ -5,9 +5,9 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-source-git-commit: 863265860a59abac4a73971bf923fa4cc1456e8d
+source-git-commit: fd41d620249274fc25228ad3ecf4ca4c63d35e65
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2745'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ Verwenden Sie Split- und Merge-Path-Knoten, um Personen oder Konten gemäß den 
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
-Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, die entweder auf **_- oder Personenfiltern_**. Eine Aufspaltung, die auf einem Personenfilter basiert, wird automatisch mit einem Zusammenführungspfade -Knoten geschlossen, damit alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
+Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, die entweder auf _**- oder Personenfiltern**_. Eine Aufspaltung, die auf einem Personenfilter basiert, wird automatisch mit einem Zusammenführungspfade -Knoten geschlossen, damit alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ _(Nur Konto-Journey_
 
 Pfade, die nach Konten aufgeteilt sind, können sowohl Konto- als auch Personenaktionen und -ereignisse enthalten. Diese Pfade können weiter aufgeteilt werden.
 
-_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
+_**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**_
 
 * Jeder Pfad, den Sie hinzufügen, enthält einen Endknoten mit der Möglichkeit, Knoten zu jedem Edge hinzuzufügen.
 * Aufspaltung nach Kontoknoten kann verschachtelt werden (Sie können den Pfad wiederholt nach Konten aufteilen).
@@ -44,10 +44,10 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
 
 | Pfadbedingungen | Beschreibung |
 | --------------- | ----------- |
-| [!UICONTROL Kontoattribute] | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz <li>Stadt <li>Land <li>Mitarbeiterzahl <li>Branche <li>Name <li>SIC-Code <li>Land |
-| [!UICONTROL Kontoattribute] > Hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering).) |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Konto hat eine passende Einkaufsgruppe] | Dem Konto ist mindestens eine Einkaufsgruppe zugeordnet. Sie kann für eine passende Einkaufsgruppe anhand einer oder mehrerer der folgenden Einschränkungen bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Interaktionsbewertung <li>Vollständigkeitsindex <li> Anzahl der Personen in Käufergruppenrolle |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Sie kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Interaktionsbewertung <li>Vollständigkeitsindex |
+| [!UICONTROL Kontoattribute] | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz <li>Ort <li>Land <li>Mitarbeiterzahl <li>Branche <li>Name <li>SIC-Code <li>Status |
+| [!UICONTROL Kontoattribute] > Hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) ](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering).) |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Konto hat eine passende Einkaufsgruppe] | Dem Konto ist mindestens eine Einkaufsgruppe zugeordnet. Sie kann für eine passende Einkaufsgruppe anhand einer oder mehrerer der folgenden Einschränkungen bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Engagement-Bewertung <li>Vollständigkeitsindex <li> Anzahl der Personen in Käufergruppenrolle |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Sie kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Engagement-Bewertung <li>Vollständigkeitsindex |
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ _(Konto- und Personen-Journey)_
 
 Pfade, die nach Personen aufgeteilt sind, können nur Personenaktionen enthalten. Diese Pfade können nicht erneut aufgeteilt und automatisch wieder verbunden werden.
 
-_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
+_**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**_
 
 * Die Funktion „Aufspaltung nach Personen _Knoten funktioniert in einer Kombination aus_ und Zusammenführung. Die Pfade der Aufspaltung werden automatisch zusammengeführt, sodass alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 * Nach Personen aufgeteilte Knoten können nicht verschachtelt werden (Sie können keinen aufgeteilten Pfad für Personen auf einem Pfad hinzufügen, der sich in diesem gruppierten Knoten befindet).
@@ -141,16 +141,16 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 
 | Filter | Beschreibung |
 | ------------ | ----------- |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | E-Mail-Aktivitäten basierend auf Bedingungen, die mithilfe einer oder mehrerer ausgewählter E-Mail-Nachrichten von zuvor im Journey ausgewertet werden: <li>[!UICONTROL Link in E-Mail angeklickt] <li>Hat E-Mail geöffnet <li>Bekam E-Mail zugestellt <li>Wurde per E<br>**[!UICONTROL Mail gesendet (Zum Inaktivitätsfilter wechseln &#x200B;]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte die E-Mail-Aktivität nicht). |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL SMS-Nachricht] | SMS-Aktivitäten basierend auf Bedingungen, die mithilfe einer oder mehrerer ausgewählter SMS-Nachrichten aus einer früheren Journey ausgewertet werden: <li>[!UICONTROL Link in SMS angeklickt] <li>[!UICONTROL SMS gebounct] <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln &#x200B;]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte die SMS-Aktivität nicht). |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Datenwert geändert] | Für ein ausgewähltes Personenattribut wurde ein Wert geändert. Zu diesen Änderungstypen gehören: <li>Neuer Wert<li>Vorheriger Wert<li>Grund<li>Quelle<li>Datum der Aktivität<li>Min. Anzahl der Fälle <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln &#x200B;]**- Verwenden Sie diese Option, um bei fehlender Aktivität zu filtern (eine Person hatte keine Datenwertänderung). |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Hatte einen interessanten Moment] | Interessante Momentaktivität, die in der zugehörigen [!DNL Marketo Engage] definiert ist. Zu den Einschränkungen gehören: <li>Meilenstein<li>E-Mail<li>Web <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln &#x200B;]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte keinen interessanten Moment). |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Besuchte Web-Seite] | Web-Seitenaktivität, die für eine oder mehrere Web-Seiten verwendet wird, die von der zugehörigen [!DNL Marketo Engage] verwaltet werden. Zu den Einschränkungen gehören: <li>Webseite (erforderlich)<li>Datum der Aktivität<li>Client-IP-Adresse <li>Querystring <li>Referrer <li>Benutzeragent <li>Suchmaschine <li>Suchabfrage <li>Personalisierte URL <li>Token <li>Browser <li>Plattform <li>Gerät <li>Min. Anzahl der Fälle <br>**[!UICONTROL Wechseln zum Inaktivitätsfilter &#x200B;]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hat die Web-Seite nicht besucht). |
-| [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung <li>Hat `<custom object>` (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering).) |
-| [!UICONTROL Personenattribute] > Hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
-| [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Liste] | Die Person ist oder ist nicht Mitglied in einer oder mehreren [!DNL Marketo Engage]. |
-| [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied des Programms] | Die Person ist oder ist nicht Mitglied in einem oder mehreren [!DNL Marketo Engage]. |
+| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | E-Mail-Aktivitäten basierend auf Bedingungen, die mithilfe einer oder mehrerer ausgewählter E-Mail-Nachrichten von zuvor im Journey ausgewertet werden: <li>[!UICONTROL Link in E-Mail angeklickt] <li>Hat E-Mail geöffnet <li>Bekam E-Mail zugestellt <li>Wurde per E<br>**[!UICONTROL Mail gesendet (Zum Inaktivitätsfilter wechseln ]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte die E-Mail-Aktivität nicht). |
+| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL SMS-Nachricht] | SMS-Aktivitäten basierend auf Bedingungen, die mithilfe einer oder mehrerer ausgewählter SMS-Nachrichten aus einer früheren Journey ausgewertet werden: <li>[!UICONTROL Link in SMS angeklickt] <li>[!UICONTROL SMS gebounct] <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln ]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte die SMS-Aktivität nicht). |
+| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Datenwert geändert] | Für ein ausgewähltes Personenattribut wurde ein Wert geändert. Zu diesen Änderungstypen gehören: <li>Neuer Wert<li>Vorheriger Wert<li>Ursache<li>Quelle<li>Datum der Aktivität<li>Min. Anzahl der Fälle <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln ]**- Verwenden Sie diese Option, um bei fehlender Aktivität zu filtern (eine Person hatte keine Datenwertänderung). |
+| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Hatte einen interessanten Moment] | Interessante Momentaktivität, die in der zugehörigen [!DNL Marketo Engage] definiert ist. Zu den Einschränkungen gehören: <li>Meilenstein<li>E-Mail<li>Web <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln ]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte keinen interessanten Moment). |
+| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Besuchte Web-Seite] | Web-Seitenaktivität, die für eine oder mehrere Web-Seiten verwendet wird, die von der zugehörigen [!DNL Marketo Engage] verwaltet werden. Zu den Einschränkungen gehören: <li>Webseite (erforderlich)<li>Datum der Aktivität<li>Client-IP-Adresse <li>Querystring <li>Referrer <li>Benutzeragent <li>Suchmaschine <li>Suchabfrage <li>Personalisierte URL <li>Token <li>Browser <li>Plattform <li>Gerät <li>Min. Anzahl der Fälle <br>**[!UICONTROL Wechseln zum Inaktivitätsfilter ]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hat die Web-Seite nicht besucht). |
+| [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Ort <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Nachname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Status |
+| [!UICONTROL Personenattribute] > Hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) ](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | (Veraltet) Die Person ist oder ist kein kaufendes Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li><li>wird entfernt</li><li>Rolle</li> |
+| [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Liste] | (Veraltet) Die Person ist oder ist nicht Mitglied in einer oder mehreren [!DNL Marketo Engage]. |
+| [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied des Programms] | (Veraltet) Die Person ist oder ist nicht Mitglied in einem oder mehreren [!DNL Marketo Engage]. |
 
 ### Pfadbedingungen für Konto-Person
 
@@ -185,7 +185,7 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 
      >[!NOTE]
      >
-     >Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema in Experience Platform definiert haben, sind diese Felder auch verfügbar, um als Personenattribute in Bedingungen zu verwenden.
+     >Wenn Sie benutzerdefinierte Personenfelder im Kontozielgruppen-Schema in Experience Platform definiert haben, können diese Felder auch als Personenattribute in Bedingungen verwendet werden.
 
    * Passen Sie Ihre Bedingungen durch Anwendung der **[!UICONTROL Filterlogik]** oben an. Sie wählen, ob alle Attributbedingungen oder eine beliebige Bedingung erfüllt werden sollen.
 
@@ -223,7 +223,7 @@ Für einen aufgeteilten Pfad nach Personen können Sie einen Pfad entsprechend d
 
 >[!BEGINSHADEBOX „Inaktivitätsfilterung“]
 
-Für jeden Filter _[!UICONTROL Aktivitätsverlauf]_ können Sie die Option **[!UICONTROL Zu Inaktivitätsfilter wechseln]** aktivieren. Diese Option ändert den Filter in eine Auswertung für eine Abwesenheit dieses Aktivitätstyps. Fügen Sie beispielsweise den Filter _[!UICONTROL E-Mail]_ > _[!UICONTROL Geöffnete E-Mail]_ hinzu, um einen Pfad für Personen zu erstellen, _&#x200B;**eine E-Mail von früher auf der Journey geöffnet**&#x200B;_ (nicht geöffnet). Aktivieren Sie die Option Inaktivität und geben Sie die E-Mail-Adresse an. Es empfiehlt sich, bei der Definition eines Zeitraums für _[!UICONTROL Inaktivität die]_ „Datum der Aktivität“ zu verwenden.
+Für jeden Filter _[!UICONTROL Aktivitätsverlauf]_ können Sie die Option **[!UICONTROL Zu Inaktivitätsfilter wechseln]** aktivieren. Diese Option ändert den Filter in eine Auswertung für eine Abwesenheit dieses Aktivitätstyps. Fügen Sie beispielsweise den Filter _[!UICONTROL E-Mail]_ > _[!UICONTROL Geöffnete E-Mail]_ hinzu, um einen Pfad für Personen zu erstellen, _**eine E-Mail von früher auf der Journey geöffnet**_ (nicht geöffnet). Aktivieren Sie die Option Inaktivität und geben Sie die E-Mail-Adresse an. Es empfiehlt sich, bei der Definition eines Zeitraums für _[!UICONTROL Inaktivität die]_ „Datum der Aktivität“ zu verwenden.
 
 ![Pfad nach Personen aufteilen Bedingung für den Kauf der Gruppenmitgliedschaft](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -313,4 +313,4 @@ Fügen Sie einen _Mergepfade_-Knoten hinzu, um verschiedene _Aufspaltungspfade n
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443265/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

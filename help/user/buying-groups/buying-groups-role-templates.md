@@ -4,16 +4,16 @@ description: Erstellen Sie Rollenvorlagen mit bedingter automatischer Zuweisung,
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: bd6dff55621943dc349b47b99f24afefe5b9a514
+source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 6%
+source-wordcount: '1410'
+ht-degree: 5%
 
 ---
 
 # Vorlagen für Käufergruppenrollen
 
-In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen getroffen. Diese Personen nehmen entsprechend ihrer Rolle in der Organisation am Entscheidungsprozess teil. Erstellen Sie Rollenvorlagen für Einkaufsgruppen, die eine Gruppe von Rollendefinitionen entsprechend jedem Produktangebotstyp oder Account-Anwendungsfall enthalten.
+In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen getroffen. Diese Personen nehmen entsprechend ihrer Rolle in der Organisation am Entscheidungsprozess teil. Erstellen Sie Rollenvorlagen für Käufergruppen, die eine Gruppe von Rollendefinitionen entsprechend jedem Produktanbietungstyp oder Account-Anwendungsfall enthalten.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
@@ -60,17 +60,18 @@ Nachdem Sie die Vorlage erstellt haben, wird sie im Arbeitsbereich geöffnet, un
 
 Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filtern oder _Bedingungen_, um die der Rolle zugewiesenen Mitglieder zu bestimmen. Verwenden Sie die folgenden Filtertypen, um die Bedingungen für eine Rolle zu definieren:
 
-| Typ | Bedingung |
+| Typ | Bedingungen |
 | ---- | --------- |
-| Personenattribute | <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Faxnummer <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Zweiter Vorname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
-| Spezielle Filter | <li>Mitglied der Liste <li>Mitglied des Programms |
-| Absichtsdaten | <li>Kategoriebedingung <li>Produktzweck <li>Keyword Intent<br/>[Erfahren Sie mehr über Intent-Daten](../admin/intent-data.md) |
+| [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Ort <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Nachname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Status |
+| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie in den [XDM-relationalen Schemata](../admin/xdm-field-management.md#relational-schemas) konfiguriert. |
+| Spezielle Filter | <li>Mitglied der Liste (veraltet) <li>Mitglied des Programms (veraltet) |
+| Absichtsdaten | <li>Kategoriebedingung <li>Produktzweck <li>Keyword Intent <br/>(siehe [_Intent-Daten_](../admin/intent-data.md)) |
 
 1. Definieren Sie für die erste Rollenkarte die Rolleneigenschaften.
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert &#x200B;](./default-custom-roles.md#custom-roles).
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#custom-roles).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -92,21 +93,27 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
      >[!NOTE]
      >
-     >Wenn Sie benutzerdefinierte Personenfelder im Konto-Zielgruppenschema in Experience Platform definiert haben, sind diese Felder auch verfügbar, um als Personenattribute in Bedingungen zu verwenden.
+     >Wenn Sie benutzerdefinierte Personenfelder im Geschäftspersonenschema in Experience Platform definiert haben, sind diese Felder auch verfügbar, um als Personenattribute in Bedingungen zu verwenden.
 
-   * Verwenden Sie das -Attribut, um mithilfe eines oder mehrerer Werte einen übereinstimmenden Filter zu erstellen.
+     Verwenden Sie das -Attribut, um mithilfe eines oder mehrerer Werte einen übereinstimmenden Filter zu erstellen.
 
      Im folgenden Beispiel wird das Attribut Auftragstitel verwendet, um eine Übereinstimmung für den Entscheidungsträger zu identifizieren. Jeder Wert für Titel, der mit `Director` oder `Sr Director` beginnt, wird für die Bedingung als „true“ ausgewertet.
 
      ![Beispiel für Rollenvorlagenbedingungen unter Verwendung des Auftragstitels](assets/roles-template-condition-example-job-title.png){width="700" zoomable="yes"}
 
-   * Fügen Sie bei Bedarf ein weiteres Attribut und eine weitere Bedingung hinzu, um die Kriterien für eine Übereinstimmung mit der Rolle weiter zu verfeinern.
+   * Wenn benutzerdefinierte Objekte konfiguriert sind, die sich auf Personen beziehen [in den relationalen XDM-Schemata definiert](../admin/xdm-field-management.md#relational-schemas), erweitern Sie die Liste der **[!UICONTROL benutzerdefinierten Objekte]** um sie in der Rollenbedingung zu verwenden.
+
+     ![Rollenvorlage fügt benutzerdefinierte Objektbedingung hinzu](assets/roles-template-role-condition-custom-object.png){width="700" zoomable="yes"}
+
+   * Fügen Sie bei Bedarf ein weiteres Attribut/Objekt und eine weitere Bedingung hinzu, um die Kriterien für eine Übereinstimmung mit der Rolle weiter zu verfeinern.
 
    * Klicken Sie auf **[!UICONTROL Fertig]**.
 
 1. Klicken Sie für jede zusätzliche Rolle, die Sie in die Vorlage aufnehmen möchten, auf **[!UICONTROL Weitere Rolle hinzufügen]** und wiederholen Sie die Schritte 1 und 2, um die Rolle zu definieren.
 
    ![Rollenvorlage mit mehreren definierten Rollen](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
+
+   Ihre Änderungen werden automatisch im Status _Entwurf_ gespeichert. Wenn Sie die Rollenvorlage nicht veröffentlichen möchten, klicken Sie auf den Pfeil nach links (zurück) oben auf der Seite und kehren Sie zur Liste _[!UICONTROL Rollenvorlagen]_ zurück.
 
 >[!BEGINSHADEBOX &quot;Marketo Engage List Membership“]
 
@@ -125,8 +132,6 @@ Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!
 
 >[!ENDSHADEBOX]
 
-Ihre Änderungen werden automatisch im Status _Entwurf_ gespeichert. Wenn Sie die Rollenvorlage nicht veröffentlichen möchten, klicken Sie auf den Pfeil nach links (zurück) oben auf der Seite und kehren Sie zur Liste _[!UICONTROL Rollenvorlagen]_ zurück.
-
 ### Ändern der Vollständigkeitsbewertungseinstellungen
 
 Standardmäßig wird die Vollständigkeit für eine Rolle als ein der Rolle zugewiesenes Mitglied definiert. Wenn Sie die Vollständigkeit der Einkaufsgruppe als Indikator für die Verkaufsbereitschaft oder den <!-- journey decisioning coming later--> verwenden möchten, können Sie diese Einstellungen verwenden, um die Punktzahl an die Anzahl der Mitglieder pro Rolle anzupassen, die zum Schließen einer Opportunity erforderlich sind.
@@ -141,7 +146,7 @@ Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte
 
 1. Ändern Sie im Dialogfeld den Wert **[!UICONTROL Mitglieder erforderlich]** für jede definierte Rolle nach Bedarf.
 
-   Sie können den Wert eingeben oder auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   Sie können den Wert eingeben oder auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Schaltfläche „Rollenvorlage - Vollständigkeit der Bewertungseinstellungen“](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -189,4 +194,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
