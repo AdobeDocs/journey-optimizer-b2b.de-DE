@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 5824f311da00468b3e85c4e212f81c5d9657c5f7
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 23%
+source-wordcount: '472'
+ht-degree: 26%
 
 ---
 
@@ -46,7 +46,7 @@ Die Bewertung und Bewertungen der Markenausrichtung helfen Ihnen bei der Erstell
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit als private Beta-Version verfügbar, wobei eine progressive Verfügbarkeit für alle Kundinnen und Kunden in zukünftigen Versionen geplant ist.
+>Diese Funktion ist derzeit als öffentliche Betaversion verfügbar.
 >
 >Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 >

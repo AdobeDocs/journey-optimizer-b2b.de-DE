@@ -3,15 +3,13 @@ title: Verwenden von Marken für die Inhaltserstellung und -konsistenz
 description: Definieren Sie Markenrichtlinien für die konsistente Inhaltserstellung - Pflegen Sie visuelle Identität, Messaging-Ausrichtung und authentische Stimme in Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
-hide: true
-hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 9%
+source-wordcount: '868'
+ht-degree: 12%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 9%
 >title="Auswählen Ihrer Marke"
 >abstract="Wählen Sie Ihre Marke, um sicherzustellen, dass alle KI-generierten Inhalte auf die Spezifikationen und Richtlinien Ihrer Marke zugeschnitten sind."
 
-Marken tragen dazu bei, Ihre _Markenidentität_ zu definieren, und spielen eine entscheidende Rolle bei der Sicherstellung einer konsistenten und effektiven Inhaltserstellung, die Ihre Markenidentität, Ihre Werte und Ihre Botschaften korrekt wiedergibt. Durch die Befolgung klar definierter Markenstile können Unternehmen eine kohärente und erkennbare Markenpräsenz über Kanäle und Touchpoints hinweg aufrechterhalten und ihre Markenerkennung, ihr Vertrauen und die Treue ihrer Zielgruppen stärken.
+Marken tragen dazu bei, Ihre _Markenidentität_ zu definieren, und spielen eine entscheidende Rolle bei der Sicherstellung einer konsistenten und effektiven Inhaltserstellung, die Ihre Markenidentität, Ihre Werte und Ihre Botschaften korrekt wiedergibt. Durch die Befolgung klar definierter Markenstile können Unternehmen eine kohärente und erkennbare Markenpräsenz über verschiedene Kanäle und Touchpoints hinweg aufrechterhalten und die Markenbekanntheit, das Vertrauen und die Loyalität ihrer Zielgruppen stärken.
 
 +++Vorteile der Verwendung von Marken
 
@@ -47,7 +45,7 @@ Ihr Unternehmen kann durch die Verwendung einer Marke bei der Erstellung und Bew
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist derzeit als private Beta-Version verfügbar, wobei eine progressive Verfügbarkeit für alle Kundinnen und Kunden in zukünftigen Versionen geplant ist.
+>Diese Funktion ist derzeit als öffentliche Betaversion verfügbar.
 >
 >Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
