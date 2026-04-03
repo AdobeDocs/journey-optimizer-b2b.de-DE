@@ -4,10 +4,10 @@ description: Verbinden Sie SMS-Anbieter wie Sinch, Twilio und Infobip mit API-An
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: ee6000d8527222a246f715de033ee99ea49f47fd
+source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 6%
+source-wordcount: '747'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ Bevor Sie einen SMS-Kanal in Adobe Journey Optimizer B2B edition konfigurieren, 
 >
 >Die beschriebenen Einstellungen sind nur für Benutzer mit SMS-Administratorrechten zugänglich.
 
-1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administrator]** und klicken Sie auf **[!UICONTROL Kanäle]**.
+1. Erweitern Sie in der linken Navigation den Abschnitt **[!UICONTROL Administration]** und klicken Sie auf **[!UICONTROL Kanäle]**.
 
    ![Zugriff auf die Konfiguration von SMS-API-Anmeldeinformationen](./assets/config-sms-api.png){width="800" zoomable="yes"}
 
