@@ -181,7 +181,7 @@ _So verwenden Sie eine vorhandene Zielgruppe :_
 
 +++[!UICONTROL Der Einkaufsgruppe zuweisen]
 
-Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [ und einer ausgewählten Rolle ](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [&#x200B; und einer ausgewählten Rolle &#x200B;](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
 
 ![Aktion ausführen - Zu Einkaufsgruppe hinzufügen](./assets/node-action-add-to-buying-group.png){width="300"}
 
@@ -213,7 +213,7 @@ Verwenden Sie diese Aktion, um [personalisierte Erlebnisse](../content/web-exper
 
 +++[!UICONTROL Aus Einkaufsgruppe entfernen]
 
-Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ ](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
+Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ &#x200B;](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
 
 ![Aktion ausführen - Zu Einkaufsgruppe hinzufügen](./assets/node-action-remove-from-buying-group.png){width="300"}
 
@@ -221,11 +221,11 @@ Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ ](..
 
 +++[!UICONTROL E-Mail senden]
 
-Verwenden Sie diese Aktion, um eine E-Mail zu senden. Nachdem Sie [E-Mail erstellen](../content/add-email.md#add-an-email-to-your-journey) für den Knoten können Sie E-Mail-Nachrichten im E-Mail-Design-Bereich entwerfen, personalisieren und in der Vorschau anzeigen (siehe [E-Mail-Authoring](../content/email-authoring.md)). Sie können auch eine (E[Mail von Marketo Engage aus) ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Wählen Sie den Marketo Engage-Arbeitsbereich und dann die zu sendende E-Mail aus.
+Verwenden Sie diese Aktion, um eine E-Mail zu senden. Nachdem Sie [E-Mail erstellen](../content/add-email.md#add-an-email-to-your-journey) für den Knoten können Sie E-Mail-Nachrichten im E-Mail-Design-Bereich entwerfen, personalisieren und in der Vorschau anzeigen (siehe [E-Mail-Authoring](../content/email-authoring.md)). Sie können auch eine (E[Mail von Marketo Engage aus) &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Wählen Sie den Marketo Engage-Arbeitsbereich und dann die zu sendende E-Mail aus.
 
 ![Aktion durchführen - E-Mail senden](./assets/node-action-send-email-from-marketo.png){width="300"}
 
-Für Personen-Journey können Sie [Sendezeitoptimierung) verwenden, um die ](../content/email-send-time-optimization.md) des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil am ehesten interagieren wird.
+Für Personen-Journey können Sie [Sendezeitoptimierung) verwenden, um die &#x200B;](../content/email-send-time-optimization.md) des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil am ehesten interagieren wird.
 
 >[!NOTE]
 >
@@ -251,7 +251,7 @@ Verwenden Sie diese Aktion, um eine WhatsApp-Nachricht zu senden. Sie können Wh
 
 +++[!UICONTROL Personenprofil aktualisieren]
 
-Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[ zu ](../admin/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
+Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[&#x200B; zu &#x200B;](../admin/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
 
 ![Aktion durchführen - Personenprofil aktualisieren](./assets/node-action-update-person-profile.png){width="300"}
 
@@ -275,7 +275,7 @@ Beispielsweise können Sie Kampagnen in Marketo Engage für Personen unterdrück
 
 +++[!UICONTROL Zu Marketo-Anfragekampagne hinzufügen]
 
-Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne“ in ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} verbundenen Marketo Engage-Instanz hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne“ in &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} verbundenen Marketo Engage-Instanz hinzuzufügen.
 
 Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie als Nächstes den Namen der Anfragekampagne aus.
 

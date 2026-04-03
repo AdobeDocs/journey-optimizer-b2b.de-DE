@@ -14,7 +14,7 @@ ht-degree: 21%
 
 Verwenden Sie Adobe Journey Optimizer B2B edition, um WhatsApp-Nachrichten an Kontomitglieder auf ihren Mobilgeräten zu senden. Sie können Nachrichten mithilfe genehmigter Meta-Nachrichtenvorlagen im WhatsApp-Editor erstellen, personalisieren und in der Vorschau anzeigen. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
-Bevor Sie WhatsApp-Nachrichten für Account-Journey erstellen, stellen Sie sicher, dass Sie den erforderlichen [WhatsApp-Kanal) ](../admin/configure-channels-whatsapp.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert haben.
+Bevor Sie WhatsApp-Nachrichten für Account-Journey erstellen, stellen Sie sicher, dass Sie den erforderlichen [WhatsApp-Kanal) &#x200B;](../admin/configure-channels-whatsapp.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert haben.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Für Ihre WhatsApp-Nachrichten stehen die folgenden call-to-action-Optionen zur 
 
 ## Hinzufügen einer WhatsApp-Aktion auf einer Konto-Journey
 
-Sie können WhatsApp-Nachrichtenversand auf einer Konto-Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen ](../journeys/action-nodes.md) Folgendes tun:
+Sie können WhatsApp-Nachrichtenversand auf einer Konto-Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen &#x200B;](../journeys/action-nodes.md) Folgendes tun:
 
 1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
 
