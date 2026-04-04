@@ -20,7 +20,7 @@ Erweitern Sie Ihre KI-Bilderstellungsfunktionen mit integrierten Modellen, benut
 - **[!UICONTROL Partnermodell]**, unterstützt durch Gemini 2.5 Flash, bietet spezielle Funktionen für bestimmte Anwendungsfälle.
 - **[!UICONTROL Benutzerdefinierte Modelle]** sind markenspezifische Modelle, die auf Ihren eigenen Assets trainiert und von Ihrem Unternehmen hinzugefügt werden.
 
-Erfahren Sie mehr über benutzerdefinierte Modelle in der Dokumentation zu [Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+Erfahren Sie mehr über benutzerdefinierte Modelle in der Dokumentation zu [Adobe Firefly](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 Marketing-Experten können jedes der aktivierten generativen Modelle auswählen, wenn sie Bilder für ihre E-Mail- oder Landingpage-Inhalte generieren.
 
@@ -70,7 +70,7 @@ Erstellen Sie benutzerdefinierte Firefly-Modelle oder verbinden Sie Drittanbiete
 
 1. Geben Sie die **[!UICONTROL Modell-ID]** ein.
 
-   Rufen Sie die Firefly-Website auf und navigieren Sie zu Ihren trainierten Modellen, um Ihre Modell-ID zu finden. Die eindeutige Kennung ist nach der Veröffentlichung im Verwaltungsabschnitt des Modells verfügbar. Weitere Informationen finden Sie in der Dokumentation zu benutzerdefinierten Modellen für [Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+   Rufen Sie die Firefly-Website auf und navigieren Sie zu Ihren trainierten Modellen, um Ihre Modell-ID zu finden. Die eindeutige Kennung ist nach der Veröffentlichung im Verwaltungsabschnitt des Modells verfügbar. Weitere Informationen finden Sie in der Dokumentation zu benutzerdefinierten Modellen für [Firefly](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 1. Geben Sie optional eine **[!UICONTROL Beschreibung]** ein, um das Modell und seine beabsichtigte Verwendung zu identifizieren.
 
