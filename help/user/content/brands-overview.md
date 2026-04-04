@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '875'
 ht-degree: 12%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 12%
 >title="Auswählen Ihrer Marke"
 >abstract="Wählen Sie Ihre Marke, um sicherzustellen, dass alle KI-generierten Inhalte auf die Spezifikationen und Richtlinien Ihrer Marke zugeschnitten sind."
 
-Marken tragen dazu bei, Ihre _Markenidentität_ zu definieren, und spielen eine entscheidende Rolle bei der Sicherstellung einer konsistenten und effektiven Inhaltserstellung, die Ihre Markenidentität, Ihre Werte und Ihre Botschaften korrekt wiedergibt. Durch die Befolgung klar definierter Markenstile können Unternehmen eine kohärente und erkennbare Markenpräsenz über verschiedene Kanäle und Touchpoints hinweg aufrechterhalten und die Markenbekanntheit, das Vertrauen und die Loyalität ihrer Zielgruppen stärken.
+Marken helfen bei der Definition einer _Markenidentität_ und spielen eine entscheidende Rolle bei der Sicherstellung einer konsistenten und effektiven Inhaltserstellung, die Ihre Markenidentität, Ihre Werte und Ihre Botschaften genau darstellt. Durch die Befolgung klar definierter Markenstile können Unternehmen eine kohärente und erkennbare Markenpräsenz über verschiedene Kanäle und Touchpoints hinweg aufrechterhalten und die Markenbekanntheit, das Vertrauen und die Loyalität ihrer Zielgruppen stärken.
 
 +++Vorteile der Verwendung von Marken
 
@@ -64,8 +64,8 @@ Eine definierte Marke stellt die _Quelle der Wahrheit_ bereit, die Ihr Kreativ-T
 1. Wenn es einsatzbereit ist, [veröffentlichen Sie die Marke](./brands-manage-create.md#publish-the-brand).
 
 1. Verwenden Sie die Marke für [Ausrichtung des E-Mail-Inhalts](./brand-alignment.md).
-<!-- 
-1. Use the brand to generate content. -->
+
+1. Verwenden Sie die Marke, um [E-Mail-Inhalt zu generieren](./ai-assistant-emails.md).
 
 >[!BEGINSHADEBOX]
 
