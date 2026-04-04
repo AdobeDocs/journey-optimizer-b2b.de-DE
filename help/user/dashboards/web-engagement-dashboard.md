@@ -4,10 +4,11 @@ description: Analysieren Sie das Verhalten der Web-Besucher mit Seitenansichtsan
 feature: Dashboards, Landing Pages
 level: Beginner
 role: User
-source-git-commit: 8192a9619ca0126125c32c2976482af316c1fc6a
+exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 3%
+source-wordcount: '526'
+ht-degree: 15%
 
 ---
 
@@ -36,7 +37,7 @@ Wählen Sie für jedes Attribut, das Sie zum Filtern der Daten verwenden möchte
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_top_page_views"
 >title="Top-Seitenansichten"
->abstract="Die am häufigsten angezeigten Seiten auf Ihrer Website, damit Sie erkennen können, welche Inhalte den meisten Traffic verursachen."
+>abstract="Die am häufigsten aufgerufenen Seiten auf Ihrer Website, die Ihnen dabei helfen, zu identifizieren, welche Inhalte den meisten Traffic generieren."
 
 Diese Tabelle zeigt die 10 am häufigsten angezeigten Web-Seiten, anhand derer Sie ermitteln können, welche Inhalte bei Besuchern am meisten Anklang finden. Die Daten umfassen:
 
@@ -54,7 +55,7 @@ Diese Tabelle zeigt die 10 am häufigsten angezeigten Web-Seiten, anhand derer S
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_region"
 >title="Seitenansichten nach Kontoregion"
->abstract="Verteilung der Web-Besucher nach geografischer Region der zugehörigen Konten."
+>abstract="Verteilung der Web-Besuchenden, segmentiert nach der geografischen Region der zugehörigen Konten."
 
 Diese Visualisierung zeigt die Besucherzahlen segmentiert nach der Kontoregion an. Es zeigt, wie sich der Web-Traffic in verschiedenen geografischen Regionen unterscheidet, sodass Sie Inhalte und Kampagnen an regionale Zielgruppen anpassen können. Bewegen Sie den Mauszeiger über einen Balken im Diagramm, um die Details anzuzeigen, darunter:
 
@@ -63,23 +64,23 @@ Diese Visualisierung zeigt die Besucherzahlen segmentiert nach der Kontoregion a
 
 ![Seitenansichten nach Kontoregion](./assets/web-engagement-dashboard-page-views-by-account-region.png){width="500" zoomable="yes"}
 
-## [!UICONTROL Seitenansichten nach Kontenindustrie] {#page-views-by-industry}
+## [!UICONTROL Seitenansichten nach Kontobranche] {#page-views-by-industry}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_page_views_by_industry"
 >title="Seitenansichten nach Kontobranche"
->abstract="Verteilung der Web-Besucher segmentiert nach der Branchenklassifizierung der zugehörigen Konten."
+>abstract="Verteilung der Web-Besuchenden, segmentiert nach der Branchenklassifizierung der zugehörigen Konten."
 
 Diese Visualisierung zeigt die Besucherzahlen segmentiert nach der Kontoindustrie an. Verwenden Sie dieses Diagramm, um zu verstehen, wie der Web-Traffic in verschiedenen Branchen variiert, sodass Sie branchenspezifische Inhaltsstrategien entwickeln können. Bewegen Sie den Mauszeiger über einen Balken im Diagramm, um die Details anzuzeigen, darunter:
 
 * Name der Kontoindustrie
 * Anzahl der Seitenansichten
 
-![Seitenansichten nach Kontenindustrie](./assets/web-engagement-dashboard-page-views-by-account-industry.png){width="500" zoomable="yes"}
+![Seitenansichten nach Kontobranche](./assets/web-engagement-dashboard-page-views-by-account-industry.png){width="500" zoomable="yes"}
 
 ## Interagieren mit den Daten
 
-Um mit den Daten zu interagieren, verwenden Sie das Menü _Mehr_ (**…**) oben rechts in jedem Diagramm und wählen Sie **[!UICONTROL Mehr anzeigen]**, um erweiterte Daten und Einblicke anzuzeigen.
+Um mit den Daten zu interagieren, verwenden Sie _Mehr_ (**…**) oben rechts in jedem Diagramm und wählen Sie &quot;**[!UICONTROL anzeigen“,]** erweiterte Daten und Einblicke anzuzeigen.
 
 Das angezeigte Popup enthält ein Diagramm und eine Tabelle, die die Aufschlüsselung der Daten anzeigt.
 

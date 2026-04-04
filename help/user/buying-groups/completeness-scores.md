@@ -3,20 +3,20 @@ title: Vollständigkeits-Scores für Einkaufsgruppen
 description: Berechnen Sie die Vollständigkeit der Einkaufsgruppe mithilfe von rollenbasierten Schwellenwerten, anpassbaren Mitgliedsanforderungen und Vollständigkeitseinstellungen in Journey Optimizer B2B edition.
 feature: Buying Groups
 role: User
-source-git-commit: 1ebc27a709e1b82029c22950897505f3945a507f
+exl-id: 6f54d4ac-9d1a-4009-b9bf-8bc80e4cc63c
+source-git-commit: b369ef39715f327fcff7237e827bebf4e82c27f6
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 4%
+source-wordcount: '895'
+ht-degree: 9%
 
 ---
-
 
 # Vollständigkeitswerte {#completeness-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_completeness_score"
 >title="Vollständigkeitsbewertung"
->abstract="Die Vollständigkeitswerte spiegeln wider, wie gut die Mitgliedschaft in der Einkaufsgruppe für eine verkaufsbereite Einkaufsgruppe abgestimmt ist."
+>abstract="Vollständigkeitsbewertungen geben an, wie gut die Zugehörigkeit zur Käufergruppe auf eine verkaufsbereite Käufergruppe ausgerichtet ist."
 
 Ein Vollständigkeitswert ist ein Prozentsatz, der angibt, wie gut eine Einkaufsgruppe mit den erforderlichen Mitgliedern in ihren definierten Rollen gefüllt ist. Diese Bewertungen basieren auf den Schwellenwerten für Rollenmitglieder, die Sie in der Rollenvorlage konfigurieren, und der tatsächlichen Anzahl der Mitglieder, die jeder Rolle in der Einkaufsgruppe zugewiesen wurden. Die resultierenden Bewertungen helfen Marketing-Experten, die Verkaufsbereitschaft zu bewerten und Lücken in der Zusammensetzung der Einkaufsgruppe zu identifizieren. Die Score-Berechnung erfolgt automatisch, wenn sich die Kauf-Gruppenmitgliedschaft ändert.
 
@@ -64,12 +64,12 @@ The buying group completeness score is available to use for filtering in [journe
 
 >[!ENDSHADEBOX] -->
 
-## Berechnung der Rollenvollständigkeit {#role-completeness-calculation}
+## Vollständigkeitsberechnung der Rolle {#role-completeness-calculation}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_role_completeness_calculation"
->title="Berechnung der Rollenvollständigkeit"
->abstract="Die Rollenvollständigkeitswerte werden als Prozentsatz basierend auf der Anzahl der Mitglieder berechnet, die einer Rolle zugewiesen wurden."
+>title="Vollständigkeitsberechnung der Rolle"
+>abstract="Die Vollständigkeitsbewertungen der Rolle werden als Prozentsatz berechnet, der auf der Anzahl der einer Rolle zugewiesenen Mitglieder basiert."
 
 Journey Optimizer B2B edition berechnet den Vollständigkeitswert für jede einzelne Einkaufsgruppenrolle als Prozentsatz. Stützen Sie diese Bewertung auf die Anzahl der Mitglieder, die der Rolle zugewiesen sind, im Vergleich zu [der in der Rollenvorlage erforderlichen Anzahl](./buying-groups-role-templates.md#change-the-completeness-score-settings) für die Fertigstellung.
 

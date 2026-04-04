@@ -3,7 +3,8 @@ title: Einrichtung des WhatsApp-Kanals
 description: Verbinden Sie Ihr WhatsApp Business-Konto über die Cloud-API von Meta, um WhatsApp-Nachrichten in den Journey des Journey Optimizer B2B edition-Kontos zu aktivieren.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 6313d097634af92450e6dd107fc5ba8040170e88
+exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+source-git-commit: ce039c5e2a7dc836b434d9ab373ebdfe1d19fc3b
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 18%
@@ -71,7 +72,7 @@ Führen Sie die folgenden Aufgaben aus:
    * **[!UICONTROL API-Token]** - Geben Sie Ihr API-Token ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Geschäftskonto-ID]** - Geben Sie die eindeutige Nummer Ihres Geschäftsportfolios ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![WhatsApp-Einstellungen API-Anmeldedaten &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![WhatsApp-Einstellungen API-Anmeldedaten ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
@@ -185,7 +186,7 @@ Wenn die WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, können 
 
 Nachdem der Webhook gesendet wurde, können Sie die Token- und URL-Werte abrufen und in Meta registrieren.
 
-1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![&#x200B; ( &#x200B;](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
+1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![ ( ](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
 
 1. Kopieren Sie die Werte **[!UICONTROL Verifizierungstoken]** und **[!UICONTROL Webhook-URL]**.
 

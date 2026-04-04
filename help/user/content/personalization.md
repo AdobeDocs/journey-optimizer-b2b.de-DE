@@ -1,5 +1,5 @@
 ---
-title: Personalisierung von Inhalten
+title: Content-Personalisierung
 description: Personalisieren von B2B-E-Mails mit Konto-, Personen- und System-Token in Journey Optimizer B2B edition. Erfahren Sie, wie Sie den Personalisierungseditor und die Syntax verwenden.
 feature: Personalization, Content Design Tools, Email Authoring
 topic: Personalization
@@ -9,17 +9,17 @@ keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
 source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 1%
+source-wordcount: '771'
+ht-degree: 9%
 
 ---
 
-# Personalisierung von Inhalten {#add-personalization}
+# Content-Personalisierung {#add-personalization}
 
 >[!CONTEXTUALHELP]
 >id="aj-b2b_personalization"
 >title="Personalisieren von Inhaltserlebnissen"
->abstract="Verwenden Sie **Adobe Journey Optimizer B2B edition**, um Ihre Nachrichten für jeden einzelnen Empfänger anzupassen, indem Sie die vorhandenen Daten und Informationen nutzen. Dabei kann es sich um den Vornamen, die Branche, den Titel und mehr handeln."
+>abstract="Verwenden Sie **Adobe Journey Optimizer B2B Edition**, um Ihre Nachrichten an einzelne Empfängerinnen und Empfänger anzupassen, indem Sie die Daten und Informationen nutzen, die Sie über diese haben. Dabei kann es sich um den Vornamen, die Branche, den Titel und mehr handeln."
 
 [!DNL Adobe Journey Optimizer B2B Edition] Personalisierungsfunktionen ermöglichen es Ihnen, Ihre E-Mail-Nachrichten an jeden einzelnen Empfänger anhand der vorhandenen Daten anzupassen. Dabei kann es sich um den Vornamen, die Branche, den Titel und mehr handeln.
 
@@ -55,7 +55,7 @@ Fügen Sie Personalisierung in einem beliebigen Feld oder einer beliebigen Inhal
 
 >[!NOTE]
 >
->Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ &#x200B;](../simplified-architecture.md).
+>Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ ](../simplified-architecture.md).
 
 ### Token und Helper-Funktionen
 
