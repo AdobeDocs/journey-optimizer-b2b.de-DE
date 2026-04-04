@@ -90,7 +90,7 @@ Der visuelle Editor lädt die Web-Seiten in einem iFrame, in dem Sie Elemente au
 
 1. Wiederholen Sie Schritt 2, um andere Seiten zu laden, die Sie in das Web-Erlebnis einbeziehen möchten, und wiederholen Sie Schritt 3, um die Seitenänderungen zu definieren.
 
-1. [Überprüfen Sie Ihre ](#manage-modifications) und nehmen Sie die erforderlichen Anpassungen vor.
+1. [Überprüfen Sie Ihre &#x200B;](#manage-modifications) und nehmen Sie die erforderlichen Anpassungen vor.
 
 1. Wenn Ihre Änderungen abgeschlossen sind, klicken Sie auf den linken Pfeil über dem Editor, um zu den Eigenschaften des Web-Erlebnisses zurückzukehren.
 
@@ -138,7 +138,7 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
 1. Suchen Sie ein Bild aus Ihrer Asset-Bibliothek und wählen Sie es aus.
 
-1. Verwenden Sie bei [ die Optionen für ](./content-components.md#image) Bildstile im rechten Bedienfeld.
+1. Verwenden Sie bei [&#x200B; die Optionen für &#x200B;](./content-components.md#image) Bildstile im rechten Bedienfeld.
 
 +++
 
@@ -150,7 +150,7 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
    Sie können die Personalisierung verwenden, um den Schaltflächentext mithilfe von Daten aus Konto- oder Personenprofilen zu ändern.
 
-1. Verwenden Sie bei [ die ](./content-components.md#button) im rechten Bedienfeld.
+1. Verwenden Sie bei [&#x200B; die &#x200B;](./content-components.md#button) im rechten Bedienfeld.
 
 +++
 
@@ -166,11 +166,11 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
 Wenn Sie im linken Navigationsbereich für den visuellen Editor im Design auf das Symbol **+** klicken, können Sie die folgenden Komponententypen zur Seite hinzufügen, um das Web-Erlebnis zu ändern:
 
-* **[!UICONTROL Trennlinie]** - Verwenden Sie diese Komponente, um das Layout und den Inhalt Ihrer E-Mail durch eine Trennlinie zu strukturieren. Sie können Stilattribute wie Zeilenfarbe, Stil und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#divider) in _Inhaltskomponenten_.
-* **[!UICONTROL HTML]** - Verwenden Sie diese Komponente, um HTML-Code zu kopieren und in die vorhandene Struktur einzufügen. Damit können Sie kostenlose modulare HTML-Komponenten erstellen, um externe Inhalte wiederzuverwenden. Weitere Informationen finden Sie unter {](./content-components.md#html)}in _Inhaltskomponenten_.[
-* **[!UICONTROL Bild]** - Verwenden Sie diese Komponente, um eine Bilddatei in die Seite einzufügen. Sie können Stilattribute wie Breite und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#image) in _Inhaltskomponenten_.
-* **[!UICONTROL Überschrift]** - Verwenden Sie diese Komponente, um Text für die Überschriftenklasse einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#text) in _Inhaltskomponenten_.
-* **[!UICONTROL Absatz]** - Verwenden Sie diese Komponente, um ein standardmäßiges Textelement einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#text) in _Inhaltskomponenten_.
+* **[!UICONTROL Trennlinie]** - Verwenden Sie diese Komponente, um das Layout und den Inhalt Ihrer E-Mail durch eine Trennlinie zu strukturieren. Sie können Stilattribute wie Zeilenfarbe, Stil und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#divider) in _Inhaltskomponenten_.
+* **[!UICONTROL HTML]** - Verwenden Sie diese Komponente, um HTML-Code zu kopieren und in die vorhandene Struktur einzufügen. Damit können Sie kostenlose modulare HTML-Komponenten erstellen, um externe Inhalte wiederzuverwenden. Weitere Informationen finden Sie unter {[&#128279;](./content-components.md#html)}in _Inhaltskomponenten_.
+* **[!UICONTROL Bild]** - Verwenden Sie diese Komponente, um eine Bilddatei in die Seite einzufügen. Sie können Stilattribute wie Breite und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#image) in _Inhaltskomponenten_.
+* **[!UICONTROL Überschrift]** - Verwenden Sie diese Komponente, um Text für die Überschriftenklasse einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#text) in _Inhaltskomponenten_.
+* **[!UICONTROL Absatz]** - Verwenden Sie diese Komponente, um ein standardmäßiges Textelement einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#text) in _Inhaltskomponenten_.
 * **[!UICONTROL Link]** - Verwenden Sie diese Komponente, um einen freistehenden Text-Link zu einer angegebenen URL einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Ausrichtung und Größe in den Eigenschaften im rechten Bereich anpassen.
 
 Wählen Sie links einen Komponententyp aus und bewegen Sie dann den Mauszeiger über ein Element, das an der Stelle angrenzt, an der Sie es hinzufügen möchten.
@@ -188,7 +188,7 @@ Um die Auswahl eines Komponententyps für das Einfügen aufzuheben, klicken Sie 
 
 Verwenden Sie den nicht visuellen Editor, wenn Sie Änderungen vornehmen müssen, die im visuellen Editor nicht einfach zu erledigen sind. Dieser Code-basierte Ansatz bietet Ihnen präzise Kontrolle über das Targeting und die Änderung von Elementen. Führen Sie die folgenden Schritte aus, um den nicht visuellen Editor zum Entwerfen Ihres Web-Erlebnisses zu verwenden:
 
-1. Klicken Sie auf der _[!UICONTROL „Inhalt]_ auf der Seite mit den Web-Erlebnisdetails ]**Bereich auf**[!UICONTROL &#x200B;Änderung hinzufügen“.
+1. Klicken Sie auf der _[!UICONTROL „Inhalt]_ auf der Seite mit den Web-Erlebnisdetails **Bereich auf**&#x200B;Änderung hinzufügen“.
 
    Der nicht visuelle Editor lädt eine Seite basierend auf der Konfiguration des Web-Kanals.
 
