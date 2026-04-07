@@ -4,9 +4,9 @@ description: Entwerfen von E-Mails, Landingpages und Fragmenten mit Inhaltskompo
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-source-git-commit: 30bb44f9c308cd144a53a60b4f420380df5528e4
+source-git-commit: ab9e6a1d8785ad4f36e1026a8c376abc9c526c9e
 workflow-type: tm+mt
-source-wordcount: '2825'
+source-wordcount: '3057'
 ht-degree: 7%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
 >title="Informationen zu Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine Landingpage gestalten können. "
+>abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine Landingpage gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
@@ -42,13 +42,13 @@ Im **[!UICONTROL Inhalt]** unten in der Komponentenbibliothek werden die verfüg
 | Symbol | Komponente | Beschreibung |
 | --------- | ---- | ----------- |
 | ![Container-Symbol](../../assets/do-not-localize/icon-content-component-container.svg) | [Container](#container) | Fügen Sie diese Komponente zu Ihrem Design hinzu, um einen rechteckigen Container einzuschließen, mit dem Sie Komponenten gruppieren oder Hintergrund- oder Rahmenstile auf einen Bereich anwenden können. |
-| ![Schaltflächensymbol](../../assets/do-not-localize/icon-content-component-button.svg) | [button](#button) | Fügen Sie diese Komponente zu Ihrem Design hinzu, um ein anklickbares Schaltflächenelement einzuschließen. |
+| ![Schaltflächensymbol](../../assets/do-not-localize/icon-content-component-button.svg) | [Schaltfläche](#button) | Fügen Sie diese Komponente zu Ihrem Design hinzu, um ein anklickbares Schaltflächenelement einzuschließen. |
 | ![Text-Symbol](../../assets/do-not-localize/icon-content-component-text.svg) | [Text](#text) | Fügen Sie diese Komponente zu Ihrem Design hinzu, um einen Textkörper einzuschließen. |
 | ![Trennsymbol](../../assets/do-not-localize/icon-content-component-divider.svg) | [Teiler](#divider) | Fügen Sie diese Komponente zu Ihrem Design hinzu, um separate Inhaltsbereiche mit einer horizontalen Linie zu versehen. |
 | ![HTML-Symbol](../../assets/do-not-localize/icon-content-component-html.svg) | [HTML](#html) | Fügen Sie diese Komponente zu Ihrem Design hinzu, um die verschiedenen Teile Ihrer bestehenden HTML zu kopieren und einzufügen. Verwenden Sie diese Komponente, um einen kostenlosen modularen HTML-Block zur Wiederverwendung von externem Inhalt zu erstellen. |
 | ![Bildsymbol](../../assets/do-not-localize/icon-content-component-image.svg) | [Bild](#image) | Fügen Sie diese Komponente zu Ihrem Design hinzu, um eine Bilddatei einzufügen. |
 | ![Soziales Symbol](../../assets/do-not-localize/icon-content-component-social.svg) | [Social](#social) | Fügen Sie diese Komponente zu Ihrem Design hinzu, um Links zu Social-Media-Seiten einzufügen. |
-| ![Formularsymbol](../../assets/do-not-localize/icon-content-component-form.svg) | [Formular](#form) | **_Nur für Landingpages verfügbar._** Fügen Sie diese Komponente zu Ihrem Design hinzu, um ein erstelltes Formular einzufügen. |
+| ![Formularsymbol](../../assets/do-not-localize/icon-content-component-form.svg) | [Formular](#form) | **_Nur für Landingpages verfügbar._** Fügen Sie diese Komponente Ihrem Design hinzu, um ein erstelltes Formular einzufügen. |
 
 ## Inhaltskomponenten-Symbolleisten
 
@@ -212,7 +212,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
    Sie können zu einer einzelnen Strukturkomponente und zu jeder Spalte einer Strukturkomponente mehrere Komponenten hinzufügen.
 
-   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente &#x200B;](./assets/content-components-drag.png){width="600" zoomable="yes"}
+   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente ](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
 1. Passen Sie die Komponentenanzeige mit den Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stil]** auf der rechten Seite oder der auf der Arbeitsfläche angezeigten Kontextsymbolleiste an.
 
@@ -237,7 +237,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 
@@ -299,7 +299,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -345,9 +345,13 @@ Passen Sie den Schaltflächenstil auf der Registerkarte **[!UICONTROL Stile]** a
 
 +++Ausrichtung
 
+{{styles-alignment-h-v}}
+
 +++
 
 +++Rand der Schaltfläche
+
+{{styles-margin}}
 
 +++
 
@@ -423,8 +427,6 @@ Diese Stile werden auf den gesamten Textblock angewendet. Sie können Inline-Sti
 
 Fügen Sie _Komponente_ Trennzeichen“ hinzu, um eine lineare Aufteilung zwischen Inhaltsabschnitten zu ermöglichen.
 
-
-
 +++Hintergrund
 
 {{styles-background}}
@@ -432,6 +434,22 @@ Fügen Sie _Komponente_ Trennzeichen“ hinzu, um eine lineare Aufteilung zwisch
 +++
 
 +++Zeile
+
+Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte]_ den Abschnitt **[!UICONTROL Linie]** und legen Sie die Optionen für die Komponentenhöhe und -breite fest:
+
+* **[!UICONTROL Farbe]** - Klicken Sie auf das Farbfeld, um eine Farbe aus der Auswahl auszuwählen. Sie können eine Farbe auswählen, indem Sie einen bekannten RGB-, HSL-, HSB- oder Hexadezimalwert eingeben. Sie können auch den Farbregler und das Farbfeld verwenden, um die Farbe auszuwählen.
+
+* **[!UICONTROL Höhe]** - Klicken Sie auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und bestimmt die Höhe des Elements entsprechend seinem Inhalt.
+
+* **[!UICONTROL Breite]** - Verwenden Sie den Umschalter, um die Breite nach Pixel oder Prozentsatz festzulegen.
+
+   * Legen Sie für eine prozentuale Breite mithilfe des Schiebereglers den prozentualen Wert fest. Der Prozentsatz bestimmt die Elementgröße anhand des Inhaltsfelds des enthaltenden Blocks, wobei Auffüllung und Rahmen ausgeschlossen sind. Bei einem Wert von 50 wird beispielsweise die Elementbreite auf 50 % der Breite festgelegt, die den Block enthält.
+
+  ![Definieren des Linienstils für eine Trennzeichenkomponente](./assets/component-divider-line-options.png){width="250"}
+
+   * Klicken Sie bei einer pixelbasierten Breite auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und bestimmt die Breite des Elements entsprechend seinem Inhalt.
+
+* **[!UICONTROL Style]** - Wählen Sie den Wert a aus der Liste der standardmäßigen CSS-`line-style` aus, z _B. Solid_, _Dotted_ und _Dashed_.
 
 +++
 
@@ -547,7 +565,7 @@ Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie eine Bild
 
      ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
-* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu &#x200B;](../admin/configure-aem-repositories.md) und auszuwählen.
+* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu ](../admin/configure-aem-repositories.md) und auszuwählen.
 
   Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 
@@ -597,7 +615,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -674,7 +692,7 @@ Verwenden Sie die Komponente _Social_, um Links zu Social-Media-Seiten in Ihre I
 Wenn Sie einen Social-Media-Typ ausgewählt haben, legen Sie die Optionen für diesen Typ fest:
 
 * **[!UICONTROL URL]** - Geben Sie die Social-Media-URL ein, die Sie mit der Social-Media-Grafik oder dem Symbol verknüpfen möchten.
-* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [&#x200B; Bild-Assets finden &#x200B;](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
+* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [ Bild-Assets finden ](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
 * **[!UICONTROL ALT-]**: Geben Sie den ALT-Text für das angezeigte Bild ein.
 
   ![Einstellungen für den ausgewählten Social-Media-Typ](./assets/content-components-social-settings-for-type.png){width="250"}
