@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 4aa4340b17aec143b11d71a2eda64b6b57d14a17
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '868'
 ht-degree: 12%
 
 ---
@@ -63,9 +63,9 @@ Eine definierte Marke stellt die _Quelle der Wahrheit_ bereit, die Ihr Kreativ-T
 
 1. Wenn es einsatzbereit ist, [veröffentlichen Sie die Marke](./brands-manage-create.md#publish-the-brand).
 
-1. Verwenden Sie die Marke für [Ausrichtung des E-Mail-Inhalts](./brand-alignment.md).
-
-1. Verwenden Sie die Marke, um [E-Mail-Inhalt zu generieren](./ai-assistant-emails.md).
+1. Verwenden Sie die Marke für [Ausrichtung des E-Mail-Inhalts](./content-evaluation.md#brand-alignment-score).
+<!-- 
+1. Use the brand to generate content. -->
 
 >[!BEGINSHADEBOX]
 

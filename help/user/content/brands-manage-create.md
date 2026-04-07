@@ -6,9 +6,9 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 2a1d918ff112539901507a7615bcefcadc5623a0
+source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2070'
 ht-degree: 19%
 
 ---
@@ -156,7 +156,7 @@ Um Ihre Markenrichtlinien zu erstellen und zu definieren, können Sie entweder d
 
 Wenn Ihre Marke einen vollständigen Satz von Definitionen enthält und Ihre Anforderungen erfüllt, klicken Sie auf **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinien für die Ausrichtung und Erstellung von Inhalten verfügbar zu machen.
 
-Veröffentlichte Marken sind über die Option **[!UICONTROL Marke]** in den KI-Tools [Markenausrichtung](./brand-alignment.md) und Inhaltserstellung verfügbar. <!-- [Learn more about content generation](gs-generative.md) -->
+Veröffentlichte Marken sind über die Option **[!UICONTROL Marke]** im KI-[Markenausrichtungswert](./content-evaluation.md#brand-alignment-score) und [Tools zur Inhaltserstellung](../ai-assistant/generative-ai-content.md) zugänglich.
 
 ![Markenoptionen für Inhalte](./assets/brand-menu-content-ai-tools.png){width="300"}
 
