@@ -4,9 +4,9 @@ description: Verfolgen Sie den Fortschritt der Einkaufsgruppe mit Abschlussbewer
 feature: Dashboards, Buying Groups
 role: User
 exl-id: 26b1e7fd-2252-4782-8d0f-874720cc7d03
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Diese Visualisierung veranschaulicht die Verteilung der Einkaufsgruppen basieren
 
 Um detailliertere Informationen anzuzeigen, klicken Sie auf das Menüsymbol **…** oben rechts.
 
-![Visualisierung des Punktwerts für Gruppeninteraktionen kaufen](./assets/buying-group-completion-score-chart.png){width="500"}
+![Visualisierung des Punktwerts für Gruppeninteraktionen kaufen](./assets/buying-group-engagement-score-chart.png){width="500"}
 
 ## Käufergruppen nach Lösungsinteresse
 
@@ -74,7 +74,7 @@ Wählen Sie für jedes Attribut, das Sie zum Filtern der Daten verwenden möchte
 
 ## Interagieren mit den Daten
 
-Um mit den Daten zu interagieren _verwenden Sie das Menü_&#x200B;**Mehr…**) oben rechts in jedem Diagramm.
+Um mit den Daten zu interagieren, verwenden Sie _Mehr_ (**…**) Menü oben rechts in jedem Diagramm.
 
 ### [!UICONTROL Drill-Through]
 
@@ -84,7 +84,7 @@ Wählen Sie **[!UICONTROL Drill-Through]** für eine detaillierte Analyse einzel
 
 Die auf das Dashboard angewendeten globalen Filter werden übernommen. Klicken Sie oben links auf _Filter_ ( ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um [die Attributfilter zu ändern](#filter-the-data) für die Drill-Through-Ansicht.
 
-Sie können oben rechts auf das _Mehr_-Menü (**…**) klicken und **[!UICONTROL Mehr anzeigen]** wählen, um [erweiterte Daten anzuzeigen](#view-more).
+Klicken Sie auf _Mehr_ (**…**) oben rechts im Menü und wählen Sie **[!UICONTROL Weitere anzeigen]**, um [erweiterte Daten anzuzeigen](#view-more).
 
 ### [!UICONTROL Mehr anzeigen]
 

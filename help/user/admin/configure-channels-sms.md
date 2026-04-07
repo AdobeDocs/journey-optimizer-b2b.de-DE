@@ -4,7 +4,7 @@ description: Verbinden Sie SMS-Anbieter wie Sinch, Twilio und Infobip mit API-An
 feature: Setup, Channels
 role: Admin
 exl-id: bd41a5ec-929f-489f-a757-0720c1b44ed2
-source-git-commit: 1a764cd8d2187b58ce02fefeeab78b0cd79de037
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 5%
@@ -57,7 +57,7 @@ _So konfigurieren Sie Sinch als SMS-Provider mit Adobe Journey Optimizer B2B edi
 
 1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
-   ![Konfigurieren der Sinch-SMS-API-Anmeldeinformationen](./assets/config-sms-api-sinch.png){width="500"}
+   ![Konfigurieren der Sinch-SMS-API-Anmeldeinformationen](./assets/config-sms-api-sinch.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Sinch` als SMS-Anbieter.
 
@@ -79,7 +79,7 @@ _So konfigurieren Sie Twilio als SMS-Provider mit Adobe Journey Optimizer B2B ed
 
 1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
-   ![Konfigurieren der Twilio SMS-API-Anmeldedaten](./assets/config-sms-api-twilio.png){width="500"}
+   ![Konfigurieren der Twilio SMS-API-Anmeldedaten](./assets/config-sms-api-twilio.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Twilio` als SMS-Anbieter.
 
@@ -101,7 +101,7 @@ _So konfigurieren Sie Infobip als SMS-Provider mit Adobe Journey Optimizer B2B e
 
 1. Konfigurieren Sie Ihre SMS-API-Anmeldedaten:
 
-   ![Konfigurieren der Infobip SMS-API-Anmeldedaten](./assets/config-sms-api-infobip.png){width="500"}
+   ![Konfigurieren der Infobip SMS-API-Anmeldedaten](./assets/config-sms-api-infobip.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL SMS-Anbieter]** - Wählen Sie `Infobip` als SMS-Anbieter.
 

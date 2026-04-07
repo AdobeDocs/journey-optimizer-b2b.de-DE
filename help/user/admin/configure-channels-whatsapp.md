@@ -4,7 +4,7 @@ description: Verbinden Sie Ihr WhatsApp Business-Konto über die Cloud-API von M
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-source-git-commit: ce039c5e2a7dc836b434d9ab373ebdfe1d19fc3b
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 18%
@@ -72,7 +72,7 @@ Führen Sie die folgenden Aufgaben aus:
    * **[!UICONTROL API-Token]** - Geben Sie Ihr API-Token ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Geschäftskonto-ID]** - Geben Sie die eindeutige Nummer Ihres Geschäftsportfolios ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![WhatsApp-Einstellungen API-Anmeldedaten &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![WhatsApp-Einstellungen API-Anmeldedaten ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
@@ -186,7 +186,7 @@ Wenn die WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, können 
 
 Nachdem der Webhook gesendet wurde, können Sie die Token- und URL-Werte abrufen und in Meta registrieren.
 
-1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![&#x200B; ( &#x200B;](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
+1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![ ( ](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
 
 1. Kopieren Sie die Werte **[!UICONTROL Verifizierungstoken]** und **[!UICONTROL Webhook-URL]**.
 
@@ -212,11 +212,11 @@ Eine Kanalkonfiguration definiert die Versandeinstellungen, die beim Senden von 
 
 1. Wählen **[!UICONTROL für &quot;]** auswählen“ `WhatsApp`.
 
-<!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration.
+   <!-- 1. For **[!UICONTROL Marketing action]**, select one or more marketing actions to associate consent policies with this configuration. -->
 
-   Make sure to include all applicable marketing actions to ensure compliance with customer preferences.
+   <!-- Make sure to include all applicable marketing actions to ensure compliance with customer preferences. -->
 
-   All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
+   <!-- All consent policies associated with a selected marketing action are automatically leveraged in order to respect the preferences of your customers. For example, any WhatsApp message using that configuration in a journey is only sent to the profiles who have consented to receive WhatsApp messages from you. Profiles who have not consented to receive these communications are excluded. -->
 
 1. Wählen _[!UICONTROL unter „WhatsApp]_ Einstellungen“ die **[!UICONTROL WhatsApp-Konfiguration]** (API-Anmeldeinformationen) aus, die Sie in der vorherigen Aufgabe erstellt haben.
 

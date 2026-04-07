@@ -3,10 +3,11 @@ title: Persona-Zuordnung
 description: Erfahren Sie, wie Sie ein Persona-Mapping für B2B-Marketing einrichten. Ordnen Sie Personenattribute in Journey Optimizer B2B edition zu, um Rollenvorlagen zu erstellen und das Targeting für Einkaufsgruppen zu optimieren.
 feature: Setup, Buying Groups
 role: Admin
-source-git-commit: 278add74cc8d1aedd7809fd4675627f26501b0df
+exl-id: cb3a57fa-6fe0-4876-87f3-da440f1c6239
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '914'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +30,7 @@ Definition der Persona und Nutzungsbeschränkungen:
 
 Viele Marketing- und Verkaufsteams verwenden Jobtitel als Möglichkeit, verschiedene Rollen innerhalb eines Kontos zu identifizieren. Titel für Kontakte können jedoch inkonsistent sein und zahlreiche Varianten für ähnliche Rollen verwenden. Beim Erstellen von Vorlagen für Einkaufsgruppenrollen kann es erforderlich sein, dass Sie jede mögliche zugehörige Stellenbezeichnung für eine bestimmte Rolle definieren. Sie können diese Definitionen vereinfachen und Personen mit ähnlichen Berufsbezeichnungen unter eine abgeleitete Rolle stellen, die Sie dann in verschiedenen Rollenvorlagen für Einkaufsgruppen nutzen können.
 
-Sie können beispielsweise eine Rolle mit dem Namen _Produktverwaltung_ konfigurieren und sie mithilfe des Attributs „Auftragstitel“ für Werte von _Produkt-Manager_, _definieren. Product Manager_, _Senior Product Manager_, _PM_, _SR. PM_, _Principal PM_ und _Principal Product Manager_. Verwenden Sie diese Rolle dann in einer Rollenvorlage, in der die Bedingung mit übereinstimmt _Persona is Product Management_. Mithilfe der konfigurierten Rolle ist die Erstellung jeder Rollenvorlage optimiert und erfordert keine komplizierte Bedingung, die mit jeder möglichen Stellenbezeichnung abgeglichen werden kann.
+Sie können beispielsweise eine Rolle mit dem Namen _Produktverwaltung_ konfigurieren und sie mithilfe des Attributs für die Auftragstitel für die Werte _Produktmanager_, _Sr. Produktmanager_, _Senior Product Manager_, _PM_, _Sr. PM_, _Prinzipal PM_ und _Prinzipal Product Manager_. Verwenden Sie diese Rolle dann in einer Rollenvorlage, in der die Bedingung mit übereinstimmt _Persona is Product Management_. Mithilfe der konfigurierten Rolle ist die Erstellung jeder Rollenvorlage optimiert und erfordert keine komplizierte Bedingung, die mit jeder möglichen Stellenbezeichnung abgeglichen werden kann.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +46,7 @@ Sie können beispielsweise eine Rolle mit dem Namen _Produktverwaltung_ konfigur
 
    Die Persona-Zuordnungsliste ist als Tabelle organisiert und zeigt oben die zuletzt aktualisierten Personas an (sortiert nach _[!UICONTROL Letzte Aktualisierung]_). Sie können die angezeigte Tabelle anpassen, indem Sie auf das Symbol _Spalteneinstellungen_ ( ![Spalteneinstellungen](../assets/do-not-localize/icon-column-settings.svg) ) in der oberen rechten Ecke klicken und die Kontrollkästchen für die Spalten aktivieren oder deaktivieren.
 
-![Spalten für die Anzeige in der Persona-Zuordnungsliste](./assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![Spalten für die Anzeige in der Persona-Zuordnungsliste](./assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. Um auf die Details einer Rolle zuzugreifen, klicken Sie auf den Namen.
 
@@ -118,6 +119,6 @@ Wenn Sie eine Rolle löschen, wird sie aus der Liste _Persona-Zuordnung_ entfern
 
 1. Suchen Sie auf _[!UICONTROL Seite]_ Persona-Zuordnung“ die Persona, die Sie löschen möchten.
 
-1. Klicken Sie neben dem Namen auf das Symbol mit den Auslassungspunkten (**…**) für und wählen Sie **[!UICONTROL Löschen]**.
+1. Klicken Sie neben dem Namen auf die Auslassungspunkte (**…**) für und wählen Sie **[!UICONTROL Löschen]**.
 
 1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.

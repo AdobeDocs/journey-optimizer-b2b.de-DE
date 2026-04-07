@@ -4,10 +4,10 @@ description: Verbinden von Experience Manager Assets-Repositorys mit Journey Opt
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
-source-git-commit: 9ed2d2a36dbdaf39c107a18632d951003c86197b
+source-git-commit: a6a5fefe75b675c0e0708f5a93be60cb032dc736
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer B2B Edition] lässt sich mit [!DNL Adobe Experience Manager Assets as a Cloud Service] integrieren und ermöglicht die Verwendung von Assets in Ihrem E-Mail-Inhalt. Es sorgt für Transparenz durch den Austausch von Informationen mit [!DNL Experience Manager Assets]. Konfigurieren Sie die zu [!DNL Adobe Experience Assets] Verbindung, um diese Funktion zu aktivieren.
 
-Adobe Experience Manager Cloud Manager ist in Programme unterteilt und jedes Programm verfügt über mehrere Umgebungen und Repositorys ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Wenn Sie Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition konfigurieren, richten Sie Verbindungen zu jedem Repository ein, das Sie für den Zugriff auf digitale Assets verwenden möchten.
+Adobe Experience Manager Cloud Manager ist in Programme unterteilt und jedes Programm verfügt über mehrere Umgebungen und Repositorys ([Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Wenn Sie Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition konfigurieren, richten Sie Verbindungen zu jedem Repository ein, das Sie für den Zugriff auf digitale Assets verwenden möchten.
 
 {{aem-assets-licensing-note}}
 
 ## Voraussetzungen
 
-* Generieren von Service-Anmeldeinformationen für die gewünschte Umgebung auf der AEM Headless-Developer Console ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"})
+* Generieren von Service-Anmeldeinformationen für die gewünschte Umgebung auf der AEM Headless-Developer Console ([Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"})
 * Beschaffen Sie sich die Zertifikate, die für die Verbindung benötigt werden. Als Best Practice hat es sich bewährt, sicherzustellen, dass die Zertifikate mindestens sechs Monate vor ihrem Ablauf verbleiben. Die Zertifikate laufen alle 365 Tage ab.
 * Adobe Journey Optimizer B2B edition unterstützt den Zugriff auf jeweils eine Digital Asset Management-Quelle. Stellen Sie vor dem Wechsel sicher, dass die erforderlichen Assets in Adobe Experience Manager verfügbar sind.
 
@@ -33,13 +33,13 @@ Adobe Experience Manager Cloud Manager ist in Programme unterteilt und jedes Pro
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfiguration]** aus.
 
-1. Klicken Sie im Zwischenbereich **&#x200B;**&#x200B;Assets.
+1. Klicken Sie im Zwischenbereich ]****[!UICONTROL  Assets.
 
    ![Zugriff auf den Assets-Konfigurationsbereich](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
-<!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
--->
-Von hier aus können Sie die Verbindungen zu jedem AEM-Umgebungs-Repository einzeln konfigurieren.
+   <!--   The default digital asset management option is configured as `Adobe Marketo Engage`.
+    -->
+   Von hier aus können Sie die Verbindungen zu jedem AEM-Umgebungs-Repository einzeln konfigurieren.
 
 1. Klicken Sie im Feld _[!UICONTROL Adobe Experience Manager Assets]_ auf den Pfeil neben **[!UICONTROL Repository konfigurieren]** und wählen Sie das Repository aus.
 
@@ -83,7 +83,7 @@ Zertifikate laufen alle 365 Tage ab dem Erstellungsdatum ab. Um sicherzustellen,
 
 1. Klicken Sie auf das gewünschte Repository, um das Zertifikat zu ersetzen.
 
-1. Klicken Sie auf das Symbol mit den Auslassungspunkten (**…**) für die Zertifikatdatei, um die Optionen für die Aktionen anzuzeigen.
+1. Klicken Sie auf die Auslassungspunkte (**…**) Symbol für die Zertifikatdatei, um die Optionen für die Aktionen anzuzeigen.
 
    ![Rufen Sie das Optionsmenü für das AEM Asset Repository-Zertifikat auf](./assets/configuration-assets-aem-repo-menu.png){width="600" zoomable="yes"}
 
@@ -103,7 +103,7 @@ Sie können die JSON-Zertifikatdatei anzeigen, die mit der Repository-Verbindung
 
 1. Klicken Sie auf das verbundene Repository.
 
-1. Klicken Sie auf das Symbol mit den Auslassungspunkten (**…**) für die Zertifikatdatei, um die Optionen für die Aktionen anzuzeigen.
+1. Klicken Sie auf die Auslassungspunkte (**…**) Symbol für die Zertifikatdatei, um die Optionen für die Aktionen anzuzeigen.
 
 1. Wählen Sie **[!UICONTROL Ansicht]**.
 
@@ -119,11 +119,12 @@ Durch das Löschen eines Repositorys wird der Benutzerzugriff auf die Experience
 
 1. Klicken Sie auf den gewünschten Repository-Namen, um die Verbindung zu bearbeiten.
 
-1. Klicken Sie auf das Symbol mit den Auslassungspunkten (**…**) für die Zertifikatdatei, um die Optionen für die Aktionen anzuzeigen.
+1. Klicken Sie auf die Auslassungspunkte (**…**) Symbol für die Zertifikatdatei, um die Optionen für die Aktionen anzuzeigen.
 
 1. Wählen Sie **[!UICONTROL Löschen]**.
 
 1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
+
 <!--
 
 ## Switch back to Adobe Marketo Engage Assets
