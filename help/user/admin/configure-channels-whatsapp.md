@@ -72,7 +72,7 @@ Führen Sie die folgenden Aufgaben aus:
    * **[!UICONTROL API-Token]** - Geben Sie Ihr API-Token ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Geschäftskonto-ID]** - Geben Sie die eindeutige Nummer Ihres Geschäftsportfolios ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![WhatsApp-Einstellungen API-Anmeldedaten ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![WhatsApp-Einstellungen API-Anmeldedaten &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
@@ -186,7 +186,7 @@ Wenn die WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, können 
 
 Nachdem der Webhook gesendet wurde, können Sie die Token- und URL-Werte abrufen und in Meta registrieren.
 
-1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![ ( ](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
+1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![&#x200B; ( &#x200B;](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
 
 1. Kopieren Sie die Werte **[!UICONTROL Verifizierungstoken]** und **[!UICONTROL Webhook-URL]**.
 
