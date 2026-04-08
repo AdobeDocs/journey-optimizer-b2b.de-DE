@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 36bcf61bd7188495e188e408e2faf9b9f24c7724
+source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 96%
+source-wordcount: '439'
+ht-degree: 95%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 96%
       + [Auf ein Ereignis lauschen](./journeys/listen-for-event-nodes.md)
       + [Aufspaltungs- und Zusammenführungspfade](./journeys/split-merge-paths-nodes.md)
       + [Warten](./journeys/wait-nodes.md)
+      + [Externe Knoten](./journeys/external-nodes.md)
    + [Journey-Details](./journeys/journey-details.md)
 + Journey-Inhalt {#journey-content}
    + [SMS-Kanal](./content/sms-authoring.md)
@@ -155,6 +156,11 @@ ht-degree: 96%
 + Administration {#admin}
    + [Governance](./admin/governance.md)
    + [Persona-Mapping](./admin/persona-mapping.md)
+   + Konfigurationen {#configurations}
+      + [AEM Assets-Repositorys](./admin/configure-aem-repositories.md)
+      + [Absichtsdaten](./admin/intent-data.md)
+      + [Gewichtung der Interaktionsbewertung](./admin/engagement-score-weighting.md)
+      + [Externe Politikbereiche](./admin/configure-external-actions.md)
    + Kanäle {#channels}
       + [E-Mail-Konfigurationen](./admin/configure-channels-emails.md)
       + [SMS-Konfigurationen](./admin/configure-channels-sms.md)
@@ -162,7 +168,3 @@ ht-degree: 96%
       + [Web-Kanalkonfigurationen (Beta)](./admin/configure-channels-web.md)
       + [Landingpage-Einstellungen (Beta)](./admin/landing-page-settings.md)
       + [Konfigurieren von Datenströmen für die Ereignissammlung](./data/aep-event-collection.md)
-   + Konfigurationen {#configurations}
-      + [AEM Assets-Repositorys](./admin/configure-aem-repositories.md)
-      + [Absichtsdaten](./admin/intent-data.md)
-      + [Gewichtung der Interaktionsbewertung](./admin/engagement-score-weighting.md)
