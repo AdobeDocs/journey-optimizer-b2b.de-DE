@@ -3,7 +3,7 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 1d63c0a2f595a81fc6cb41e9fac628a2ff72d4a1
+source-git-commit: ab1462bc8f81c6983e8e4a620f0502e799901c1b
 workflow-type: tm+mt
 source-wordcount: '4907'
 ht-degree: 70%
@@ -18,7 +18,7 @@ Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] a
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
 
-## Versionshinweise für 2026.3
+## Versionshinweise für 2026.3 {#rel-2026-3}
 
 **Bereitstellungsdatum:**. März 2026
 
@@ -30,7 +30,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | Unterstützung für [!DNL Firefly] und benutzerdefinierte generative KI-Modelle | Marketing-Teams können jetzt die Integration von standardmäßigen und benutzerdefinierten [!DNL Firefly]-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern (z. B. [!DNL NanoBanana]) aktivieren. E-Mail-Designer können für jeden Anwendungsfall das beste Modell auswählen: Standardmodelle für allgemeine [!DNL Firefly], benutzerdefinierte [!DNL Firefly] für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien. [Weitere Informationen](../content/generative-ai-models.md) |
 | Funktion | Benutzerdefinierte externe Aktionen für Journey | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Entwickler können jetzt APIs verwenden, um Integrationen mit ihren First-Party-Systemen zu erstellen. Mit diesen benutzerdefinierten Integrationen können Marketing-Experten _Externe Aktion_ und _Externer Aufspaltungspfad_ hinzufügen, um ausgehende Anfragen an externe Services während der Journey-Ausführung des Kontos zu senden. [Weitere Informationen](../admin/configure-external-actions.md) |
 | Funktion | Marken | (Beta) Marketing-Teams können die Markenkonsistenz in ihren E-Mail-Inhalts-Assets gewährleisten, indem sie Markenprofile speichern und verwalten. Durch das Hinzufügen von Assets wie Farben, Schriftarten, Logos, Designs, visuellen Inhalten und Compliance-Richtlinien können sie das Markenprofil für die Erstellung generativer KI-Inhalte verwenden. Sie können auch die Markenausrichtung messen, um die Einhaltung der Vorschriften sicherzustellen. [Weitere Informationen](../content/brands-overview.md) |
-| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | [!BADGE Vereinfachte &#x200B;]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"}: Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ zur Personalisierung des E-Mail-Versands verwenden, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
+| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | [!BADGE Vereinfachte ]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"}: Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ zur Personalisierung des E-Mail-Versands verwenden, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
 | Verbesserung | Design-Tools für E-Mail-Vorlagen - Erweiterter HTML-Modus | Mit _Erweiterter HTML_ im Design-Bereich für E-Mail-Vorlagen können Benutzende kleinere HTML-/CSS-Änderungen vornehmen und Skript-Tags zu einer E-Mail-Vorlage hinzufügen, um Rendering-Probleme zu beheben. [Weitere Informationen](../content/email-template-advanced-html.md) |
 | Verbesserung | Benutzerdefinierte Objekte für Personen - Vorlagen für Gruppenrollen kaufen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Wenn Admins benutzerdefinierte Objekte konfigurieren, die mit einem Geschäftspersonenprofil verknüpft sind, können Marketing-Experten jetzt Käufergruppenrollen mithilfe dieser benutzerdefinierten Objekte definieren. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Verbesserung | Bewertung von E-Mail-Inhalten - Bewertung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content/content-evaluation.md) |
@@ -43,7 +43,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 >Diese Versionsänderungen werden ab dem 27. März 2026 bereitgestellt und umfassen einen schrittweisen Rollout der einzelnen Funktionen und Verbesserungen. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 
-## Versionshinweise für 2026.2
+## Versionshinweise für 2026.2 {#rel-2026-2}
 
 **Bereitstellungsdatum:**. Februar 2026
 
@@ -58,7 +58,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 >
 >Diese Versionsänderungen beginnen mit der Bereitstellung am 20. Februar 2026 mit einem schrittweisen Rollout jeder Funktion und Erweiterung. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
-## Versionshinweise für 2026.1
+## Versionshinweise für 2026.1 {#rel-2026-1}
 
 **Bereitstellungsdatum:**. Februar 2026
 
@@ -74,7 +74,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 >
 >Diese Versionsänderungen beginnen mit der Bereitstellung am 3. Februar 2026 mit einem schrittweisen Rollout jeder Funktion. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
-## Funktionen für Agent-basierte KI
+## Funktionen für Agent-basierte KI {#rel-agents}
 
 In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-basierten KI-Funktionen für Journey Optimizer B2B Edition verfügbar:
 
@@ -84,7 +84,7 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 | Audience Agent | Neu | Audience Agent identifiziert und erstellt Käufergruppen automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
 | Verkaufskennzeichner | Neu | Der Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die den Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](../agents/sales-qualifier.md) |
 
-## Versionshinweise für 2025.10
+## Versionshinweise für 2025.10 {#rel-2025-10}
 
 **Bereitstellungsdatum**: 31. Oktober 2025
 
@@ -138,7 +138,7 @@ Mit der vereinfachten Architektur sind die folgenden neuen Funktionen und Verbes
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
 | | | -->
 
-## Versionshinweise für 2025.9
+## Versionshinweise für 2025.9 {#rel-2025-9}
 
 **Bereitstellungsdatum**: 30. September 2025
 
@@ -155,7 +155,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 >
 >Diese Versionsänderungen beginnen mit der Bereitstellung am 30. September 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
-## Versionshinweise für 2025.8
+## Versionshinweise für 2025.8 {#rel-2025-8}
 
 **Bereitstellungsdatum**: 26. August 2025
 
@@ -170,7 +170,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Aktualisierungen der Interaktionsbewertung | Die Logik der Interaktionsbewertungen für Käufergruppen wurde aktualisiert, um die Bewertungen zu normalisieren. Darüber hinaus können Sie mit Interaktionsbewertungen auf Mitgliederebene ebenso wie mit kollektiven Interaktionsbewertungen für die gesamte Käufergruppe arbeiten. [Weitere Informationen](../buying-groups/engagement-scores.md) |
 | Verbesserung | Beobachtbarkeit der aktiven Journeys – Konten an jedem Knoten | Für eine Journey mit aktiven Konten können Sie auf eine Liste der Konten zugreifen, die die jeweiligen Kontoknotenpunkte in der Journey erreicht haben. |
 
-## Versionshinweise für 2025.6
+## Versionshinweise für 2025.6 {#rel-2025-6}
 
 **Bereitstellungsdatum**: 15. Juli 2025
 
@@ -188,7 +188,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Simulieren von Inhalten aus E-Mail-Zusammenfassungen | Sie können jetzt über die E-Mail-Zusammenfassung (Details und Eigenschaften) auf die Tools _Inhalte simulieren_ zugreifen, wenn Sie eine E-Mail aus der E-Mail-Liste öffnen. Diese Methode ist ergänzend zum Zugriff über den E-Mail-Design-Bereich. [Weitere Informationen](../content/email-simulate-content.md#display-the-email-preview) |
 | Verbesserung | Anzeigen der Gesamtzahl für die Liste der Rollenvorlagen | Auf der Seite mit der Liste der _[!UICONTROL Rollenvorlagen]_ wird neben der Suchleiste auch die Gesamtanzahl angezeigt. |
 
-## Versionshinweise für 2025.5
+## Versionshinweise für 2025.5 {#rel-2025-5}
 
 **Bereitstellungsdatum**: 3. Juni 2025
 
@@ -201,7 +201,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Handlebar-Token-Format für E-Mail | Personalisierungs-Token für E-Mail-Inhalte verwenden jetzt ein aktualisiertes Format, das vollständig mit Handlebar-Scripting kompatibel ist. Dieses Format verwendet _Binnenmajuskel-Schreibweise_ oder Unterstriche, wobei Leerzeichen eliminiert werden. [Weitere Informationen](../content/email-authoring.md#content-authoring---personalization) |
 | Verbesserung | Anzeige der Gesamtzahl der Listen | Die Listenseiten für _[!UICONTROL Lösungsinteressen]_ und _[!UICONTROL Konto-Journeys]_ werden durch die Anzeige der Gesamtanzahl neben der Suchleiste erweitert. |
 
-## Versionshinweise für 2025.4
+## Versionshinweise für 2025.4 {#rel-2025-4}
 
 **Bereitstellungsdatum**: 29. April 2025
 
@@ -216,7 +216,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Filter für besuchte Web-Seiten | Orchestrieren Sie Journeys basierend auf der Aktivität für besuchte Web-Seiten, die mit Marketo Engage-Kampagnen und -Programmen verknüpft sind. <a href="../journeys/split-merge-paths-nodes.md#people-path-filters">Weitere Informationen</a> |
 | Verbesserung | E-Mail-Liste | Zeigen Sie eine globale Liste der aktiven E-Mails und der E-Mail-Entwürfe an, um sie in den zugehörigen Konto-Journeys zu suchen, zu überprüfen und zu aktualisieren. <a href="../content/emails-list.md">Weitere Informationen</a> |
 
-## Versionshinweise für 2025.3
+## Versionshinweise für 2025.3 {#rel-2025-3}
 
 **Bereitstellungsdatum**: 1. April 2025
 
@@ -229,7 +229,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Funktion | Löschen von Käufergruppenphasen | Sie können das Modell der Käufergruppenphasen löschen, wenn es sich im Status „Entwurf“ oder „Veröffentlicht“ befindet. Falls es veröffentlicht (live) ist, können Sie es nur löschen, wenn es nicht mit einem Lösungsinteresse verbunden ist. <a href="../buying-groups/buying-group-stages.md#delete-the-buying-group-stages-model">Weitere Informationen</a> |
 | Verbesserung | Journey-Knotenanzahl | Verbesserte Sichtbarkeit der Anzahl der veröffentlichten Journey-Zugehörigkeiten auf Knotenebene. In der _Journey Map_ zeigen Knoten die _[!UICONTROL Gesamtzahl der eingetretenen Konten]_ an. Wenn ein Marketer einen Aktionsknoten auswählt, umfassen die Details auf der rechten Seite auch _[!UICONTROL Konten, für die noch keine Aktion durchgeführt wurde]_. Zu den Details für Knoten vom Typ _Auf ein Ereignis lauschen_ gehören _[!UICONTROL Konten bei diesem Schritt]_. Diese Informationen sind hilfreich, um den Account-Fortschritt in Live-, abgeschlossenen und abgebrochenen Journey zu überprüfen. |
 
-## Versionshinweise für 2025.2
+## Versionshinweise für 2025.2 {#rel-2025-2}
 
 **Bereitstellungsdatum**: 11. März 2025
 
