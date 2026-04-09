@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: ab1462bc8f81c6983e8e4a620f0502e799901c1b
+source-git-commit: 621ada36fac8b5d0796ab4474ac246f86235f798
 workflow-type: tm+mt
-source-wordcount: '4907'
-ht-degree: 70%
+source-wordcount: '4847'
+ht-degree: 71%
 
 ---
 
@@ -18,25 +18,32 @@ Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] a
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
 
+<!-- ## 2026.4 release notes {#rel-2026-4}
+
+**Deployment date**: May 1, 2026
+
+| Type | Item | Description |
+| ---- | ---- | ----------- |
+| Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
+| Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. | -->
+
+<!-- wait for release information
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
+
 ## Versionshinweise für 2026.3 {#rel-2026-3}
 
 **Bereitstellungsdatum:**. März 2026
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Landingpages | Marketing-Experten können jetzt in Journey Optimizer B2B edition Landingpages erstellen und veröffentlichen, um Journey und Programme zu unterstützen _(zuvor eine Beta-Programmfunktion)_. |
-| Funktion | Formulare | Marketing-Experten können jetzt wiederverwendbare Formularkomponenten erstellen und veröffentlichen, um die Datenübermittlung von Landingpages zu ermöglichen, die in Journey Optimizer B2B edition _(früher eine Beta-Programmfunktion) erstellt und veröffentlicht_. |
 | Funktion | WhatsApp-Kanal | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Marketing-Experten können jetzt WhatsApp-Nachrichten direkt von Account-Journey über die [!DNL Meta Cloud API] senden. Diese Funktion ermöglicht die nahtlose Integration von WhatsApp-Nachrichten zur Unterstützung von Journey-Inhaltskanälen. [Weitere Informationen](../admin/configure-channels-whatsapp.md) |
 | Funktion | Unterstützung für [!DNL Firefly] und benutzerdefinierte generative KI-Modelle | Marketing-Teams können jetzt die Integration von standardmäßigen und benutzerdefinierten [!DNL Firefly]-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern (z. B. [!DNL NanoBanana]) aktivieren. E-Mail-Designer können für jeden Anwendungsfall das beste Modell auswählen: Standardmodelle für allgemeine [!DNL Firefly], benutzerdefinierte [!DNL Firefly] für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien. [Weitere Informationen](../content/generative-ai-models.md) |
 | Funktion | Benutzerdefinierte externe Aktionen für Journey | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Entwickler können jetzt APIs verwenden, um Integrationen mit ihren First-Party-Systemen zu erstellen. Mit diesen benutzerdefinierten Integrationen können Marketing-Experten _Externe Aktion_ und _Externer Aufspaltungspfad_ hinzufügen, um ausgehende Anfragen an externe Services während der Journey-Ausführung des Kontos zu senden. [Weitere Informationen](../admin/configure-external-actions.md) |
 | Funktion | Marken | (Beta) Marketing-Teams können die Markenkonsistenz in ihren E-Mail-Inhalts-Assets gewährleisten, indem sie Markenprofile speichern und verwalten. Durch das Hinzufügen von Assets wie Farben, Schriftarten, Logos, Designs, visuellen Inhalten und Compliance-Richtlinien können sie das Markenprofil für die Erstellung generativer KI-Inhalte verwenden. Sie können auch die Markenausrichtung messen, um die Einhaltung der Vorschriften sicherzustellen. [Weitere Informationen](../content/brands-overview.md) |
-| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | [!BADGE Vereinfachte &#x200B;]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"}: Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ zur Personalisierung des E-Mail-Versands verwenden, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
+| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | [!BADGE Vereinfachte ]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"}: Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ zur Personalisierung des E-Mail-Versands verwenden, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
 | Verbesserung | Design-Tools für E-Mail-Vorlagen - Erweiterter HTML-Modus | Mit _Erweiterter HTML_ im Design-Bereich für E-Mail-Vorlagen können Benutzende kleinere HTML-/CSS-Änderungen vornehmen und Skript-Tags zu einer E-Mail-Vorlage hinzufügen, um Rendering-Probleme zu beheben. [Weitere Informationen](../content/email-template-advanced-html.md) |
 | Verbesserung | Benutzerdefinierte Objekte für Personen - Vorlagen für Gruppenrollen kaufen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Wenn Admins benutzerdefinierte Objekte konfigurieren, die mit einem Geschäftspersonenprofil verknüpft sind, können Marketing-Experten jetzt Käufergruppenrollen mithilfe dieser benutzerdefinierten Objekte definieren. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Verbesserung | Bewertung von E-Mail-Inhalten - Bewertung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content/content-evaluation.md) |
-
-<!-- wait for later release
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
 
 >[!NOTE]
 >
