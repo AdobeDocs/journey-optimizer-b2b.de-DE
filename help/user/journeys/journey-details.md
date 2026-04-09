@@ -70,7 +70,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ### Drill-Through
 
-Wählen Sie für das ]__[!UICONTROL  Journey-Status **[!UICONTROL Diagramm „Drill-Through]**, um eine detaillierte Analyse der individuellen Kontostatus durchzuführen.
+Wählen Sie für das __ Journey-Status **[!UICONTROL Diagramm „Drill-Through]**, um eine detaillierte Analyse der individuellen Kontostatus durchzuführen.
 
 ![Der Drill-Through für die Diagrammdaten](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--

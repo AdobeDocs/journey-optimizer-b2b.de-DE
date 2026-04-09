@@ -71,7 +71,7 @@ Um mit den Daten zu interagieren, verwenden Sie das Menü **…** oben rechts in
 
 Wählen Sie für ein Kreisdiagramm **[!UICONTROL Drill-Through]**, um eine detaillierte Analyse der Daten zu einzelnen Gruppeninteraktionen durchzuführen.
 
-Die globalen Filter (Datenbereich und Attribute) werden auf das Dashboard angewendet und übernommen. Klicken Sie oben links auf _Filter_ ( ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um [die Attributfilter zu ändern](#filter-the-data) für die Drill-Through-Ansicht. Verwenden Sie die Datumsbereichsauswahl oben rechts, um [ Drill-Through](#date-range-filter)Ansicht den Datumsbereich zu ändern.
+Die globalen Filter (Datenbereich und Attribute) werden auf das Dashboard angewendet und übernommen. Klicken Sie oben links auf _Filter_ ( ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um [die Attributfilter zu ändern](#filter-the-data) für die Drill-Through-Ansicht. Verwenden Sie die Datumsbereichsauswahl oben rechts, um [&#x200B; Drill-Through](#date-range-filter)Ansicht den Datumsbereich zu ändern.
 
 ![Drillthrough zum Zugriff auf Diagrammdaten](./assets/engagement-buying-groups-drill-through.png){width="700" zoomable="yes"}
 
