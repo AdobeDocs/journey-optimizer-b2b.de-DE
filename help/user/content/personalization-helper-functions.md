@@ -7,10 +7,10 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '4853'
-ht-degree: 47%
+source-wordcount: '4943'
+ht-degree: 48%
 
 ---
 
@@ -20,7 +20,7 @@ Verwenden Sie die Helper-Funktionen im Personalisierungseditor, um personalisier
 
 >[!AVAILABILITY]
 >
->Helper-Funktionen sind für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
+>Helper-Funktionen sind für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt ](../simplified-architecture.md).
 
 ## Aggregationsfunktionen
 
@@ -420,7 +420,9 @@ Mit dem folgenden Vorgang werden Personen definiert, deren Lieblingsfarben minde
 
 +++
 
-<!-- ## Intersection{#intersection}
+<!--
+
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -450,7 +452,7 @@ Die Funktion `bottomN` sortiert ein Array in aufsteigender Reihenfolge basierend
 ```
 
 | Argument | Beschreibung |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | Das zu sortierende Array oder die zu sortierende Liste. |
 | `{VALUE}` | Die -Eigenschaft, die zum Sortieren des Arrays oder der Liste verwendet wird. |
 | `{AMOUNT}` | Die Anzahl der zurückzugebenden Elemente. |
@@ -471,7 +473,7 @@ Verwenden Sie die Funktion `notIn` , um zu bestimmen, ob ein Element nicht Mitgl
 
 >[!NOTE]
 >
-> Die `notIn`-Funktion stellt *außerdem* sicher, dass keiner der Werte null ist. Daher sind die Ergebnisse keine exakte Negation der `in`-Funktion.
+>Die `notIn`-Funktion stellt *außerdem* sicher, dass keiner der Werte null ist. Daher sind die Ergebnisse keine exakte Negation der `in`-Funktion.
 
 +++Syntax
 
@@ -976,9 +978,9 @@ Dabei ist die erste Zeichenfolge das Datumsattribut, der zweite Wert ist die Art
 >
 > Wenn ein Datumsmuster ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
 >
-> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation zusammengefasst &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation zusammengefasst ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
+> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
 
 **Beispiel**
 
@@ -1693,7 +1695,7 @@ Zur Laufzeit wird der Metadatenwert dem vorhandenen **[!UICONTROL Nachrichten-Fe
 
 >[!IMPORTANT]
 >
->Für die Schlüssel-Wert-Paare pro Aktion gibt es eine Obergrenze von 2 KB. Wenn die Grenze von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
+>Die Obergrenze für Schlüssel-Wert-Paare pro Aktion ist 2 KB. Wenn die Grenze von 2 KB überschritten wird, wird die Nachricht weiterhin zugestellt, aber jedes der Schlüssel-Wert-Paare kann abgeschnitten werden.
 
 **Beispiel**
 
@@ -1804,7 +1806,7 @@ Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind
 
 **Beispiel**
 

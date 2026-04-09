@@ -4,9 +4,9 @@ description: Überwachen Sie Echtzeit-Interaktionsmetriken für Konten, Einkaufs
 feature: Dashboards, Engagement
 role: User
 exl-id: 46363ed8-755a-4368-b53c-0b3629b64934
-source-git-commit: ae1885dbe724dcc751a72325d90641decd355a4c
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '561'
 ht-degree: 6%
 
 ---
@@ -71,7 +71,7 @@ Um mit den Daten zu interagieren, verwenden Sie das Menü **…** oben rechts in
 
 Wählen Sie für ein Kreisdiagramm **[!UICONTROL Drill-Through]**, um eine detaillierte Analyse der Daten zu einzelnen Gruppeninteraktionen durchzuführen.
 
-Die globalen Filter (Datenbereich und Attribute) werden auf das Dashboard angewendet und übernommen. Klicken Sie oben links auf _Filter_ ( ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um [die Attributfilter zu ändern](#filter-the-data) für die Drill-Through-Ansicht. Verwenden Sie die Datumsbereichsauswahl oben rechts, um [&#x200B; Drill-Through](#date-range-filter)Ansicht den Datumsbereich zu ändern.
+Die globalen Filter (Datenbereich und Attribute) werden auf das Dashboard angewendet und übernommen. Klicken Sie oben links auf _Filter_ ( ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um [die Attributfilter zu ändern](#filter-the-data) für die Drill-Through-Ansicht. Verwenden Sie die Datumsbereichsauswahl oben rechts, um [ Drill-Through](#date-range-filter)Ansicht den Datumsbereich zu ändern.
 
 ![Drillthrough zum Zugriff auf Diagrammdaten](./assets/engagement-buying-groups-drill-through.png){width="700" zoomable="yes"}
 
@@ -90,7 +90,7 @@ Wählen Sie **[!UICONTROL Mehr anzeigen]**, um erweiterte Daten und Einblicke zu
 Abhängig vom Diagramm gibt es erweiterte Daten für Folgendes:
 
 | Interaktion nach Konten/Einkaufsgruppen/Personen | Konten/Einkaufsgruppen/im Zeitverlauf engagierte Personen |
-| ----------------------------------------------- | -------------------------------------------------- | 
-| <li>Eingebunden <li>Nicht eingestellt | <li>Datum <li>Konten / Einkaufsgruppen / Personen (Zahl) <li>Eingebunden/Nicht eingebunden |
+| ----------------------------------------------- | -------------------------------------------------- |
+| <li>Interaktionen <li>Nicht eingestellt | <li>Datum <li>Konten / Einkaufsgruppen / Personen (Zahl) <li>Eingebunden/Nicht eingebunden |
 
 Um die erweiterten Daten zu kopieren, klicken Sie **[!UICONTROL oben]** auf „CSV herunterladen“.

@@ -4,9 +4,9 @@ description: Verwenden Sie Strukturkomponenten, um Layouts für E-Mails, Landing
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1603'
 ht-degree: 7%
 
 ---
@@ -97,7 +97,7 @@ Sie können die Kopf- oder Fußzeilenbezeichnung entfernen, indem Sie die Kompon
 
 Bei kleineren Bildschirmen oder Anzeigefenstern werden die Spalten in der Strukturkomponente als gestapelt angezeigt, es sei denn, Sie ändern die Standardeinstellung. Wenn Sie die mehrspaltige Strukturkomponente ausgewählt haben, ändern Sie die Einstellung **[!UICONTROL Spalten auf Mobilgeräten nicht stapeln]** indem Sie den Schieberegler nach rechts verschieben.
 
-![Spalten auf mobilen &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"} nicht stapeln
+![Spalten auf mobilen ](./assets/structure-component-settings-stack-columns.png){width="250"} nicht stapeln
 
 ## Komponentenstile
 
@@ -121,7 +121,7 @@ Bewegen Sie den Umschalter, um die Einstellungen für das Hintergrundbild zu akt
 
 Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie die Bilddatei aus:
 
-+++[!UICONTROL Marketo Engage Assets]
++++[!UICONTROL Marketo Engage-Assets]
 
 {{me-dam}}
 
@@ -237,7 +237,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
 ## Navigationsbaum
 
-Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 

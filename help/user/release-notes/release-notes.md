@@ -3,9 +3,9 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 2ecef6ad487570024745693dc0c8ea7d8a3a3375
+source-git-commit: 7eacf9d3951e4d5a393cb2636cee0c6b40ecc050
 workflow-type: tm+mt
-source-wordcount: '4847'
+source-wordcount: '4891'
 ht-degree: 71%
 
 ---
@@ -38,10 +38,16 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | Unterstützung für [!DNL Firefly] und benutzerdefinierte generative KI-Modelle | Marketing-Teams können jetzt die Integration von standardmäßigen und benutzerdefinierten [!DNL Firefly]-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern (z. B. [!DNL NanoBanana]) aktivieren. E-Mail-Designer können für jeden Anwendungsfall das beste Modell auswählen: Standardmodelle für allgemeine [!DNL Firefly], benutzerdefinierte [!DNL Firefly] für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien. [Weitere Informationen](../content/generative-ai-models.md) |
 | Funktion | Benutzerdefinierte externe Aktionen für Journey | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Entwickler können jetzt APIs verwenden, um Integrationen mit ihren First-Party-Systemen zu erstellen. Mit diesen benutzerdefinierten Integrationen können Marketing-Experten _Externe Aktion_ und _Externer Aufspaltungspfad_ hinzufügen, um ausgehende Anfragen an externe Services während der Journey-Ausführung des Kontos zu senden. [Weitere Informationen](../admin/configure-external-actions.md) |
 | Funktion | Marken | (Beta) Marketing-Teams können die Markenkonsistenz in ihren E-Mail-Inhalts-Assets gewährleisten, indem sie Markenprofile speichern und verwalten. Durch das Hinzufügen von Assets wie Farben, Schriftarten, Logos, Designs, visuellen Inhalten und Compliance-Richtlinien können sie das Markenprofil für die Erstellung generativer KI-Inhalte verwenden. Sie können auch die Markenausrichtung messen, um die Einhaltung der Vorschriften sicherzustellen. [Weitere Informationen](../content/brands-overview.md) |
-| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | [!BADGE Vereinfachte &#x200B;]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"}: Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ zur Personalisierung des E-Mail-Versands verwenden, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
+| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | [!BADGE Vereinfachte ]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"}: Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ zur Personalisierung des E-Mail-Versands verwenden, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
 | Verbesserung | Design-Tools für E-Mail-Vorlagen - Erweiterter HTML-Modus | Mit _Erweiterter HTML_ im Design-Bereich für E-Mail-Vorlagen können Benutzende kleinere HTML-/CSS-Änderungen vornehmen und Skript-Tags zu einer E-Mail-Vorlage hinzufügen, um Rendering-Probleme zu beheben. [Weitere Informationen](../content/email-template-advanced-html.md) |
 | Verbesserung | Benutzerdefinierte Objekte für Personen - Vorlagen für Gruppenrollen kaufen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Wenn Admins benutzerdefinierte Objekte konfigurieren, die mit einem Geschäftspersonenprofil verknüpft sind, können Marketing-Experten jetzt Käufergruppenrollen mithilfe dieser benutzerdefinierten Objekte definieren. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Verbesserung | Bewertung von E-Mail-Inhalten - Validierung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. |
 | Verbesserung | Bewertung von E-Mail-Inhalten - Bewertung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content/content-evaluation.md) |
+
+<!--
+ wait for later release
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. |
+-->
 
 >[!NOTE]
 >
@@ -136,12 +142,14 @@ Mit der vereinfachten Architektur sind die folgenden neuen Funktionen und Verbes
 | Verbesserung | Gewichtung der Interaktionswerte - AEP-Ereignisse | Die Gewichtung der Interaktionswerte kann jetzt jedes standardmäßige oder benutzerdefinierte Experience Platform-Ereignis enthalten und entsprechend Ihren Anforderungen gewichtet werden. [Weitere Informationen](../admin/engagement-score-weighting.md) |
 | Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B edition. [Weitere Informationen](../admin/configure-channels-emails.md#communication-limits) |
 
-<!-- There are additional functional changes with the simplified architecture:
+<!--
+ There are additional functional changes with the simplified architecture:
 
 | Item | Description |
 | ---- | ----------- |
 | Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | | -->
+| | |
+-->
 
 ## Versionshinweise für 2025.9 {#rel-2025-9}
 

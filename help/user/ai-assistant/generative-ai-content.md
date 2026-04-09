@@ -5,7 +5,8 @@ feature: AI Assistant, Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
-source-git-commit: d3238fa94f28c6d7e3fc0dce5b59fd70d8e74e34
+exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
 ht-degree: 32%
@@ -35,7 +36,8 @@ Die generative KI für Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] bas
 Verwenden Sie die Funktionen der generativen KI für die Inhaltserstellung, [!DNL Journey Optimizer B2B Edition] die Funktionen der generativen KI von Adobe zu nutzen. Erstellen Sie personalisierten Text und personalisierte Visualisierungen für E-Mails, SMS-Nachrichten, Landingpages und mehr. Wenn Sie eine vollständige Kampagne erstellen oder bestimmte Assets verfeinern, helfen Ihnen diese Funktionen, Inhalte nahtlos an Ihren Markenrichtlinien auszurichten und dabei wertvolle Zeit zu sparen.
 
 <!--
-Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. -->
+Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
+-->
 
 >[!IMPORTANT]
 >
@@ -48,7 +50,7 @@ KI-Assistenten-Tools für die Inhaltserstellung werden von den folgenden Asset-T
 
 ## Allgemeine Richtlinien und Einschränkungen {#general-guidelines-and-limitations}
 
-Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/de/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
+Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
 
 Lesen Sie diese allgemeinen Richtlinien für die Verwendung von generativer KI für Inhalte in [!DNL Journey Optimizer B2B Edition]:
 
@@ -242,7 +244,8 @@ Geben Sie immer den Kontext und das Wertversprechen für die Erstellung relevant
 </tbody>
 </table>
 
-<!-- channels not yet supported
+<!--
+ channels not yet supported
 <tr>
 <td><strong>SMS</strong></td>
 <td>"Alert VIP customers about a 4-hour flash sale on premium electronics with 40% discount, limited to the first 100 customers"</td>
@@ -250,9 +253,11 @@ Geben Sie immer den Kontext und das Wertversprechen für die Erstellung relevant
 <tr>
 <td><strong>Push Notifications</strong></td>
 <td>"Re-engage users who haven't opened the app in 7 days with personalized content recommendations based on their reading history"</td>
-</tr> -->
+</tr> 
+-->
 
-<!-- Wait on more B2B specific examples
+<!--
+ Wait on more B2B specific examples
 
 ### Industry-specific approaches {#industry-approaches}
 
@@ -290,7 +295,8 @@ Geben Sie immer den Kontext und das Wertversprechen für die Erstellung relevant
 </tr>
 </tbody>
 </table>
- -->
+ 
+-->
 
 ### Neue Inhalte vs. Änderung vorhandener Inhalte {#new-vs-modify}
 

@@ -4,10 +4,10 @@ description: 'Konfigurieren Sie E-Mail-Versandprotokolle: Richten Sie in Journey
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2393'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ DMARC-Einträge umfassen mehrere Komponenten, die als _DMARC-Tags_ bezeichnet we
 | Tag-Name | Verwenden | Funktion | Beispiel | Standardwert |
 |-----------|------------------------|-----------|----------|-----------------------------------|
 | `v` | Erforderlich | Gibt die Version an. Es gibt nur eine Version, sodass der feste Wert hier `v=DMARC1` ist. | V=DMARC1 DMARC1 | DMARC1 |
-| `p` | Erforderlich | Gibt die DMARC-Richtlinie an, die die Empfängerin oder den Empfänger anweist, E-Mails mit fehlgeschlagener Authentifizierungsprüfung zu melden, unter Quarantäne zu stellen oder abzulehnen. | `p=none`, `p=quarantine` oder `p=reject` | – |
+| `p` | Erforderlich | Gibt die DMARC-Richtlinie an, die die Empfängerin oder den Empfänger anweist, E-Mails mit fehlgeschlagener Authentifizierungsprüfung zu melden, unter Quarantäne zu stellen oder abzulehnen. | `p=none`, `p=quarantine` oder `p=reject` | - |
 | `fo` | Optional | Ermöglicht der oder dem Domain-Verantwortlichen das Festlegen von Berichtsoptionen. | `0`: Bericht generieren, wenn sowohl SPF als auch DKIM fehlschlagen <br> `1`: Bericht generieren, wenn entweder SPF oder DKIM fehlschlägt <br> `d`: Bericht generieren, wenn DKIM fehlschlägt <br> `s`: Bericht generieren, wenn SPF fehlschlägt | `1` (empfohlen für DMARC-Berichte) |
 | `pct` | Optional | Gibt den Prozentsatz der Nachrichten an, die gefiltert werden. | `pct=20` | `100` |
 | `rua` | Optional (empfohlen) | Gibt an, wohin aggregierte Berichte gesendet werden. | `rua=mailto:aggrep@example.com` | - |
@@ -238,13 +238,15 @@ Ein MX-Eintrag ermöglicht es Ihnen, E-Mails über die Domain zu empfangen, von 
 
 Eine ausgehende Verbindung ist eine Verbindung, die Marketo Engage zu einem Server im Internet in Ihrem Namen herstellt. Ihre IT-Organisation und einige Partner/Anbieter verwenden möglicherweise Zulassungslisten, um den Zugriff auf Server einzuschränken. In diesem Fall müssen Sie ihnen die Blöcke ausgehender Marketo Engage-IP-Adressen bereitstellen, damit sie sie ihren Zulassungslisten hinzufügen können.
 
-<!-- ### Webhooks
+<!--
+ ### Webhooks
 
-Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Marketo Engage webhooks are an outbound integration mechanism. When a Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allowlist on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allowlist. For more information, see [Create a webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [Call Webhook](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. -->
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [Add an Existing Salesforce Field to the Marketo Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [Understanding the Microsoft Dynamics Sync](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+-->
 
 ## Blöcke ausgehender IP-Adressen
 

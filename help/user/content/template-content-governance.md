@@ -4,7 +4,7 @@ description: 'Sperren von E-Mail-Vorlagenkomponenten für die Markenkonformität
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 0cf852cd-491c-4478-8d5e-51fd2cc2625a
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Beispielsweise können Sie die Kopf- und Fußzeile sperren, die für die Kontinu
 
 ## Aktivieren der Content Governance für die Vorlage
 
-Nachdem Sie den visuellen Design-Bereich verwendet haben[&#x200B; um die Struktur- und Inhaltskomponenten für &#x200B;](./email-template-authoring.md) E-Mail-Vorlage zu erstellen, aktivieren Sie die Governance und wenden Sie bei Bedarf eine spezifische Inhaltssperrung an.
+Nachdem Sie den visuellen Design-Bereich verwendet haben[ um die Struktur- und Inhaltskomponenten für ](./email-template-authoring.md) E-Mail-Vorlage zu erstellen, aktivieren Sie die Governance und wenden Sie bei Bedarf eine spezifische Inhaltssperrung an.
 
 1. Greifen Sie im visuellen Entwurfsbereich mithilfe des Navigationsbaums auf die Ebenen/Container _Elemente_.
 
@@ -48,14 +48,15 @@ Nachdem Sie den visuellen Design-Bereich verwendet haben[&#x200B; um die Struktu
    ![Inhaltszusätze aktivieren](./assets/governance-template-content-additions.png){width="600" zoomable="yes"}
 
    Wenn dieser Modus auf der Stammebene festgelegt ist, werden alle Elemente in der Vorlage gesperrt. In der Baumstruktur auf der linken Seite wird das _Schreibgeschützt_-Symbol ( ![Schreibgeschütztes Symbol](../assets/do-not-localize/icon-tree-lock.svg) ) neben dem Stamm und allen untergeordneten Elementen angezeigt.
-<!-- 
+<!--
 
    
 - ![Link icon](../assets/do-not-localize/icon-navigation-tree.svg)
 - ![Read only icon](../assets/do-not-localize/icon-tree-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-content-lock.svg)
 - ![Content edit icon](../assets/do-not-localize/icon-tree-edit-text.svg)
-- ![Edit element](../assets/do-not-localize/icon-edit.svg) -->
+- ![Edit element](../assets/do-not-localize/icon-edit.svg) 
+-->
 
 ## Anwenden von Sperren auf eine Struktur
 

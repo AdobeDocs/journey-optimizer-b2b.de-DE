@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Wiederverwendbarkeit, Markenausrichtung, E-Mail-Design
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-source-git-commit: 5e8dc7e2da8f27950e9c05c66943317669a5361b
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '3107'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Beachten Sie bei der Arbeit mit Designs die folgenden Richtlinien und Einschrän
 * Änderungen an einem benutzerdefinierten Design werden nicht automatisch an alle E-Mails oder E-Mail-Vorlagen weitergegeben, die es bereits verwenden. Bearbeiten Sie den Inhalt für jede Komponente, um das Design zu aktualisieren.
 
 * Wenn Sie ein Design löschen, wirkt sich dies nicht auf E-Mail- oder E-Mail-Vorlagen aus, auf die es bereits angewendet wurde.
-<!-- 
+<!--
 * If using a content created in HTML, you will be in [compatibility mode](existing-content.md) and you cannot apply themes to this content.
 -->
 
@@ -379,4 +379,5 @@ Bei E-Mail- oder E-Mail _Vorlagen, die im_ Design-Modus“ erstellt wurden, kön
 - The theme is saved and reused by marketers to author multiple emails.
 
 ### 2. Switching Themes
-- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.-->
+- A marketer applies a holiday-themed design to an existing email by switching to a pre-designed holiday theme.
+-->

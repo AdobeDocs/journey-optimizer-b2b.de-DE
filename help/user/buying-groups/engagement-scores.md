@@ -4,14 +4,14 @@ description: Berechnen Sie die Werte für Einkaufsgruppen- und Personeninterakti
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-source-git-commit: 859e96ce0d450b52a8216f767c595938c23a9d50
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 29%
+source-wordcount: '1298'
+ht-degree: 30%
 
 ---
 
-# Interaktionsbewertungen {#engagement-scores}
+# Interaktionswerte {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
@@ -30,13 +30,13 @@ Es gibt zwei Arten von Interaktionswerten:
 
 * **Interaktionswert für eine Person** - Der Interaktionswert für eine Person basiert auf den Aktivitäten eines einzelnen kaufenden Gruppenmitglieds.
 
-  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte &#x200B;]_&#x200B;Mitglieder) &#x200B;](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
+  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte ]_Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
 
   ![Die engagiertesten Mitglieder der Einkaufsgruppe](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Der Personeninteraktionswert ist ein Attribut, das zum Filtern in [Rollenvorlagen](./buying-groups-role-templates.md#add-the-template-roles) und [Journey-Knoten, die nach Personen aufgeteilt werden können, &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters).
+Der Personeninteraktionswert ist ein Attribut, das zum Filtern in [Rollenvorlagen](./buying-groups-role-templates.md#add-the-template-roles) und [Journey-Knoten, die nach Personen aufgeteilt werden können, ](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Zugriff auf die konfigurierten Ereignisdefinitionen](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
@@ -61,7 +61,8 @@ Es gibt eine tägliche Frequenzbegrenzung von 20 pro Aktivität. Wenn ein Mitgli
 | Seitenansichten | Ein Mitglied zeigt eine Web-Seite an | Web | 20 | 40 |
 | Für Ereignis registrieren | Ein für ein Ereignis registriertes Mitglied | Ereignis | 20 | 60 |
 
-<!-- old list
+<!--
+ old list
 
 | Activity name | Description | Engagement type | Max daily frequency count | Activity weight |
 | --- | --- | --- | --- | --- |
@@ -99,7 +100,8 @@ Es gibt eine tägliche Frequenzbegrenzung von 20 pro Aktivität. Wenn ein Mitgli
 | [!UICONTROL Interacted with Document in Conversational Flow] | A member interacts with a document in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Engaged with an Agent in Conversational Flow] | A member engages with an Agent in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
-| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 | -->
+| [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
+-->
 
 >[!NOTE]
 >
@@ -112,7 +114,7 @@ Es gibt eine tägliche Frequenzbegrenzung von 20 pro Aktivität. Wenn ein Mitgli
 >title="Rollengewichtung der Interaktionsbewertung"
 >abstract="Verwenden Sie eine Rollengewichtung, um die Berechnung der Interaktionsbewertung anzupassen."
 
-Benutzerinnen und Benutzer können jeder _in der_ Rollenvorlage“ eine [Gewichtung](./buying-groups-role-templates.md) zuweisen, um einer Rolle unterschiedliche Gewichtungen zuzuweisen.
+Benutzerinnen und Benutzer können jeder _in der [Rollenvorlage“ eine_ Gewichtung](./buying-groups-role-templates.md) zuweisen, um einer Rolle unterschiedliche Gewichtungen zuzuweisen.
 
 ![Eine Gewichtung für jede Rolle in der Rollenvorlage festlegen](./assets/roles-templates-weighting.png){width="700" zoomable="yes"}
 

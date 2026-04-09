@@ -6,7 +6,7 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: 80716587f797d3009e6a57f8a20f72f2f982bb37
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 19%
@@ -251,7 +251,8 @@ W채hlen Sie die Registerkarte **[!UICONTROL Schreibstil]** und 체berpr체fen Sie 
 |                            | [!UICONTROL Urheberrechtsnormen] | Geben Sie Urheberrechtsvermerke auf Marketing-Materialen an. | Verwenden Sie Inhalte von Dritten nicht ohne Berechtigung. |
 |                            | [!UICONTROL Haftungsausschluss-Standards] | Zeigen Sie Haftungsausschl체sse deutlich lesbar auf digitalen Assets an. | Verstecken Sie Haftungsausschl체sse nicht in nicht sichtbaren Bereichen. |
 
-<!-- #### Preferred and avoided terms
+<!--
+ #### Preferred and avoided terms
 
 Supplement your work choice guidelines by adding preferred and avoided terms. 
 
@@ -286,14 +287,14 @@ W채hlen Sie die Registerkarte **[!UICONTROL Visueller Inhalt]** aus und 체berpr�
 | [!UICONTROL Symbolstandards] | Verwenden Sie ein konsistentes 24-px-Rastersystem. | Vermischen Sie keine Symbolabmessungen, verwenden Sie keine inkonsistenten Strichst채rken und weichen Sie nicht von Rasterregeln ab. |
 | [!UICONTROL Nutzungsrichtlinien] | W채hlen Sie Lifestyle-Bilder, die reale Kundinnen und Kunden widerspiegeln, die das Produkt in professionellen Umgebungen verwenden. | Verwendne Sie keine Bilder, die dem Ton der Marke widersprechen oder anscheinend aus dem Zusammenhang gerissen sind. |
 
-<!-- #### Styles
+<!--
+ #### Styles
 
 To define the overall style for the category, click **[!UICONTROL Add style]**. In the popup dialog, enter the style type and description. 
 
 ![Add style for visual content category](./assets/brands-visual-content-add-style.png){width="500" zoomable="yes"}
 
 #### Specifications
-
 -->
 
 #### Beispielbilder

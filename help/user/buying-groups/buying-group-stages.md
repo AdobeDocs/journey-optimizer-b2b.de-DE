@@ -4,10 +4,10 @@ description: Erstellen Sie benutzerdefinierte Einkaufsgruppen-Staging-Modelle mi
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 1%
+source-wordcount: '2357'
+ht-degree: 2%
 
 ---
 
@@ -49,7 +49,7 @@ Wenn Sie das Einkaufsgruppenstufenmodell erstellen, befindet es sich automatisch
 
    ![Fügen Sie den Namen und die Beschreibung für das Modell hinzu](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   Wenn Sie in _[!UICONTROL Dialogfeld auf]_&#x200B;_[!UICONTROL Abbrechen“ klicken, kehren Sie in einem]_ leeren _zur Registerkarte_ Phasen“ zurück.
+   Wenn Sie in _[!UICONTROL Dialogfeld auf]__[!UICONTROL Abbrechen“ klicken, kehren Sie in einem_ leeren _zur Registerkarte]_ Phasen“ zurück.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -156,7 +156,7 @@ _Anzeigen des Entwurfsmodells :_
 
 1. Ändern Sie _Dialogfeld &quot;_ bearbeiten“ die Flussoptionen nach Bedarf.
 
-   Weitere [&#x200B; zu diesen Optionen und deren Auswirkungen auf den Modellfluss finden &#x200B;](#configure-the-workflow-and-transition-rules) unter „Konfigurieren des Workflows und der Übergangsregeln“.
+   Weitere [ zu diesen Optionen und deren Auswirkungen auf den Modellfluss finden ](#configure-the-workflow-and-transition-rules) unter „Konfigurieren des Workflows und der Übergangsregeln“.
 
 1. Wenn Sie mit den definierten Übergangsregeln zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -168,7 +168,7 @@ Wenn keine Validierungsfehler vorliegen, kann das Modell veröffentlicht werden.
 
 >[!IMPORTANT]
 >
->**Nachdem das Modell veröffentlicht wurde, kann es weder aktualisiert noch gelöscht werden.** Vergewissern Sie sich vor der Veröffentlichung des Modells, dass Sie über die richtigen Informationen verfügen.
+>**Nachdem das Modell veröffentlicht wurde, kann es nicht mehr aktualisiert oder gelöscht werden.** Vergewissern Sie sich vor dem Veröffentlichen des Modells, dass Sie die richtigen Daten haben.
 
 1. Überprüfen Sie die definierten Stadien und Transitionen sorgfältig.
 
@@ -181,22 +181,24 @@ Wenn keine Validierungsfehler vorliegen, kann das Modell veröffentlicht werden.
    Wenn Sie zur Seite mit Modelldetails zurückkehren, wird das Modell als _[!UICONTROL Live]_ gekennzeichnet. Klicken Sie oben links auf _Zurück_-Pfeil, um zur Registerkarte _[!UICONTROL Phasen]_ zurückzukehren.
 
 ![Das veröffentlichte Modell](assets/stages-tab-model-live.png){width="700" zoomable="yes"}
-<!-- list these later when the Published columns are working correctly
+<!--
+ list these later when the Published columns are working correctly
 
 Columns - Name, Status, Created by, Created date, Last updated by, Last update, Published by, Published on.
 Name - Name of the stage model, hyperlinked. Clicking on it will navigate to the stage inventory page. 
 Info icon beside the name - display the description on click.
-Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. -->
+Status - Live, Draft. If a draft stage model is Published, then its status is updated to Live. 
+-->
 
 ## Löschen des Modells der Einkaufsgruppenstufen
 
-Sie können das Modell der Käufergruppenphasen löschen, wenn es sich im Status „Entwurf“ oder „Veröffentlicht“ befindet. Wenn sie veröffentlicht (live) ist, können Sie sie nur löschen, wenn sie nicht mit einer Interessenslösung verbunden ist.
+Sie können das Modell der Käufergruppenphasen löschen, wenn es sich im Status „Entwurf“ oder „Veröffentlicht“ befindet. Falls es veröffentlicht (live) ist, können Sie es nur löschen, wenn es nicht mit einem Lösungsinteresse verbunden ist.
 
 1. Navigieren Sie in der linken Navigation zu **[!UICONTROL Konten]** > **[!UICONTROL Einkaufsgruppen]**.
 
 1. Wählen Sie auf _Seite_ die Registerkarte **[!UICONTROL Phasen]** aus.
 
-1. Klicken Sie auf das _Mehr_-Menüsymbol (**…**) neben dem Namen des Stadien-Modells und wählen Sie **[!UICONTROL Löschen]**.
+1. Klicken Sie auf das _Mehr_-Menüsymbol (**…**) Wählen Sie neben dem Modellnamen der Phasen die Option **[!UICONTROL Löschen]**.
 
    ![Kaufen von Gruppenphasen-Modell Mehr Menü](./assets/stages-model-list-more-menu.png){width="700"}
 
@@ -215,7 +217,7 @@ Wenn sich das Modell der Kaufphase im Status _Live_ (veröffentlicht) befindet, 
 1. Öffnen Sie die Interessenslösung mit einer der folgenden Methoden, um die Eigenschaften für die Interessenslösung zu öffnen, die Sie bearbeiten möchten:
 
    * Klicken Sie auf den Namen des Lösungsinteresses.
-   * Klicken Sie auf das Auslassungszeichen (**…**) daneben und wählen Sie **[!UICONTROL Bearbeiten]**.
+   * Klicken Sie auf die Auslassungspunkte (**…**) und wählen Sie &quot;**[!UICONTROL &quot;]**.
 
    ![Menü „Lösungsinteresse mehr“](assets/solution-interests-more-menu.png){width="500" zoomable="no"}
 
@@ -365,4 +367,4 @@ Verwenden Sie den Eintritt einer Kaufgruppen-Stadienänderung, um das Konto mit 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448703/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

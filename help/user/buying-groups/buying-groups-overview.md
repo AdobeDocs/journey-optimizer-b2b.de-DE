@@ -4,9 +4,9 @@ description: 'Optimieren Sie Account-basiertes Marketing mit Käufergruppen: Ide
 feature: Buying Groups
 role: User
 exl-id: ddcd7b62-6a76-4f5e-b6d3-a20944ca8332
-source-git-commit: b10d4af2ae69549ab9b7d571afa25548052c6816
-workflow-type: ht
-source-wordcount: '1193'
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+workflow-type: tm+mt
+source-wordcount: '1199'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,8 @@ Um ein fehlerhaftes Überschreiben einer Mitgliederzuweisung in einer Käufergru
 <!--
    * Acquire missing people
    * Send to LinkedIn Destination
-   * Enrich with Zoominfo -->
+   * Enrich with Zoominfo 
+-->
 
 1. Fügen Sie Ihren Konto-Journeys Käufergruppenaktionen hinzu.
 
@@ -116,4 +117,4 @@ Unter [Interaktionsbewertungen](./engagement-scores.md) finden Sie detaillierte 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3452948/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433078/?learn=on)

@@ -4,7 +4,7 @@ description: Erstellen Sie dynamische Inhaltsvarianten mit bedingten Regeln, die
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-source-git-commit: 204b293d3bc526b139f68766ed45ff549a74ed34
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 13%
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können bedingte Regeln im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
 
-Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) &#x200B;](./fragment-authoring.md).
+Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) ](./fragment-authoring.md).
 
 ## Hinzufügen bedingter Inhalte {#email-fragment-content}
 
@@ -47,15 +47,15 @@ Verwenden Sie beim Erstellen eines Fragments oder einer E-Mail im visuellen Desi
 
    Das _[!UICONTROL Bedingung auswählen]_ Dialogfeld wird geöffnet und die Bedingungsbibliothek wird angezeigt.
 
-   Wenn Sie Details zu einer Bedingung anzeigen möchten, um sicherzustellen, dass sie korrekt ist, klicken Sie auf das _Mehr Menü_-Symbol (**…**) und wählen Sie **[!UICONTROL Info anzeigen]**.
+   Wenn Sie Details zu einer Bedingung anzeigen möchten, um sicherzustellen, dass sie wirklich das ist, was Sie möchten, klicken Sie auf das _Mehr Menü_-Symbol (**…**) und wählen Sie **[!UICONTROL Info anzeigen]**.
 
    ![Bedingungen für Bibliothekszugriffsbedingungsdetails](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [&#x200B; eine bedingte Regel, &#x200B;](#create-condition) Sie auf **[!UICONTROL Neu erstellen]**.
+   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [ eine bedingte Regel, ](#create-condition) Sie auf **[!UICONTROL Neu erstellen]**.
 
 1. Wählen Sie die bedingte Regel aus und klicken Sie auf **[!UICONTROL Auswählen]**, um sie mit der Variante zu verknüpfen.
 
-   Sie können die zugehörige Bedingung überprüfen, indem Sie auf das Symbol _Mehr Menü_ (**…**) für die Variante klicken und **[!UICONTROL Bedingung anzeigen]** auswählen.
+   Sie können die zugehörige Bedingung überprüfen, indem Sie auf das Symbol _Mehr Menü_ (**…**) klicken für die Variante und wählen Sie **[!UICONTROL Ansichtsbedingung]**.
 
    ![Die mit der Variante verknüpfte Bedingung anzeigen](./assets/conditions-variant-view-condition.png){width="600" zoomable="yes"}
 
@@ -63,7 +63,7 @@ Verwenden Sie beim Erstellen eines Fragments oder einer E-Mail im visuellen Desi
 
    ![Details für die zugehörige Bedingung anzeigen](./assets/conditions-info-popup.png){width="500"}
 
-1. Um die Lesbarkeit zu verbessern, benennen Sie die Variante um, indem Sie auf das _Mehr Menü_-Symbol (**…**) für die Variante klicken und **[!UICONTROL Umbenennen]** auswählen.
+1. Um die Lesbarkeit zu verbessern, benennen Sie die Variante um, indem Sie auf _Mehr Menü_ Symbol (**…**) klicken für die Variante auf und wählen Sie **[!UICONTROL Umbenennen]**.
 
    Geben Sie einen aussagekräftigen Namen für die Variante ein, der Ihnen bei der Identifizierung der Variante und ihrer Absicht hilft.
 
@@ -87,7 +87,7 @@ Verwenden Sie beim Erstellen eines Fragments oder einer E-Mail im visuellen Desi
    >
    >Wenn keine der definierten Variantenbedingungen beim Senden der E-Mail als „true“ ausgewertet wird, wird die Inhaltskomponente gemäß der **[!UICONTROL Standardvariante]** angezeigt.
 
-1. Um eine Variante zu löschen, klicken Sie auf das _Mehr Menü_-Symbol (**…**) für die Variante und wählen Sie **[!UICONTROL Löschen]**.
+1. Um eine Variante zu löschen, klicken Sie auf _Mehr Menü_ Symbol (**…**) für die Variante und wählen Sie **[!UICONTROL Löschen]**.
 
    Klicken **[!UICONTROL im]** auf „Löschen“.
 
@@ -98,17 +98,18 @@ Die Regeln werden in der Bedingungsbibliothek gespeichert, wo sie für Ihre Orga
 <!--
 >[!NOTE]
 >
->You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.-->
+>You need the [Manage Library Items](../administration/ootb-product-profiles.md) permission to save or delete conditional rules. Saved conditions are available for use by all users within an organization.
+-->
 
 ### Bedingungsfilter {#condition-filters}
 
 | Bedingungstyp | Filter | Beschreibung |
 | -------------- | ------- | ----------- |
-| **Konto** | Kontoattribute | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz</li><li>Stadt</li><li>Land</li><li>Mitarbeiterzahl</li><li>Branche</li><li>Name</li><li>SIC-Code</li><li>Land</li> |
-| | [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Der Filter kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li> |
-| **Person** | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verbundene E-Mail-Aktivitäten: <li>[!UICONTROL Link in E-Mail angeklickt]</li><li>Geöffnete E-Mail</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li> Diese Bedingungen werden mithilfe einer ausgewählten E-Mail-Nachricht aus einem früheren Abschnitt der Journey ausgewertet. |
-|  | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Last name</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Land</li><li>Abbestellt</li><li>Grund für Abmeldung</li> |
-| | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
+| **Konto** | Kontoattribute | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz</li><li>Ort</li><li>Land</li><li>Mitarbeiterzahl</li><li>Branche</li><li>Name</li><li>SIC-Code</li><li>Status</li> |
+| | [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Der Filter kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li> |
+| **Person** | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verbundene E-Mail-Aktivitäten: <li>[!UICONTROL Link in E-Mail angeklickt]</li><li>Hat E-Mail geöffnet</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li> Diese Bedingungen werden mithilfe einer ausgewählten E-Mail-Nachricht aus einem früheren Abschnitt der Journey ausgewertet. |
+|  | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Ort</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Nachname</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Status</li><li>Hat sich abgemeldet</li><li>Grund für Abmeldung</li> |
+| | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li><li>wird entfernt</li><li>Rolle</li> |
 
 ### Erstellen einer bedingten Regel {#create-condition}
 
@@ -151,7 +152,7 @@ Sie können über den E-Mail-Design-Bereich auf den Builder für bedingte Regeln
 
 In der Bibliothek gespeicherte bedingte Regeln können nicht geändert werden. Sie können jedoch eine vorhandene Regel duplizieren und ändern, um eine neue Regel zu erstellen.
 
-1. Klicken Sie auf das _Mehr Menü_-Symbol (**…**) für die Variante und wählen Sie **[!UICONTROL Duplizieren]**.
+1. Klicken Sie auf das _Mehr_) (**…**) für die Variante und wählen Sie **[!UICONTROL Duplizieren]**.
 
    Ein Duplikat der Regel wird im Regel-Builder geöffnet. Verwenden Sie das Duplikat als Ausgangspunkt für die Regel, die Sie erstellen möchten.
 

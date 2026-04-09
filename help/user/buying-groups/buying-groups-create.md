@@ -4,17 +4,17 @@ description: Erstellen Sie automatisierte Einkaufsgruppen, indem Sie Lösungsint
 feature: Buying Groups
 role: User
 exl-id: 60d0a5f3-cd12-4c36-bdc4-c37c4913ac0a
-source-git-commit: 0eaf713deee1ae8bd04c82b6aaab0443bd60e5e7
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 3%
+source-wordcount: '281'
+ht-degree: 4%
 
 ---
 
 
 # Erstellen von Käufergruppen
 
-Nachdem die Einkaufsgruppe erstellt wurde, kann sie über die Option &quot;[&quot; auf einer Account-Journey verwendet &#x200B;](./solution-interests.md).
+Nachdem die Einkaufsgruppe erstellt wurde, kann sie über die Option &quot;[&quot; auf einer Account-Journey verwendet ](./solution-interests.md).
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Gruppen kaufen]**.
 
@@ -56,12 +56,14 @@ Der Erstellungsvorgang erstellt automatisch Einkaufsgruppen für jedes neue Kont
 
 ![Gruppenaufträge nach Lösungsinteresse kaufen](./assets/solution-interest-buying-group-jobs.png){width="700" zoomable="yes"}
 
-<!-- Other buying group activities:
+<!--
+ Other buying group activities:
 
 Member of buying group.
 Assign a member of the buying group.
-Remove a member of the buying group. -->
+Remove a member of the buying group. 
+-->
 
 ## Anleitungsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3451770/?learn=on&captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3433081/?learn=on)

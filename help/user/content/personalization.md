@@ -7,7 +7,7 @@ role: User, Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: 10e02b821609c48b82ea0248501daa60de6daa12
+source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 9%
@@ -55,7 +55,7 @@ Fügen Sie Personalisierung in einem beliebigen Feld oder einer beliebigen Inhal
 
 >[!NOTE]
 >
->Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ &#x200B;](../simplified-architecture.md).
+>Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ ](../simplified-architecture.md).
 
 ### Token und Helper-Funktionen
 
@@ -65,10 +65,12 @@ Klicken Sie auf das Symbol _Mehr_ ( **…** ) (neben dem Symbol _Hinzufügen_ ( 
 
 ![Personalization-Editor - Menü „Mehr Token“](./assets/personalization-editor-token-more-menu.png){width="800" zoomable="yes"}
 
-<!-- >>[!NOTE]
+<!--
+>[!NOTE]
 >
 >By default, the attributes list shows only populated attributes. To display all attributes, click the _Settings_ icon above the search field and toggle off the **[!UICONTROL Show only populated attributes]** option.
 -->
+
 Sie können auch eine standardmäßige Fallback-Textzeichenfolge definieren, die angezeigt wird, wenn ein Profilattribut vom Typ Zeichenfolge leer ist. Klicken Sie auf das Symbol _Mehr_ ( **…** ) für das Attribut und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Geben Sie den Text ein, der angezeigt werden soll, wenn der Wert des Attributs für ein Profil leer ist, und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
 Es empfiehlt sich, den Ausdruck zu validieren, bevor Sie ihn in den Inhalt einfügen. Klicken **[!UICONTROL unten]** Editor auf „Validieren“, um Ihre Syntax zu überprüfen und sicherzustellen, dass keine Fehler auftreten.

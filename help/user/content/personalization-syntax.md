@@ -6,10 +6,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+exl-id: 91bbead6-aca0-4f39-9ab5-798b26ab81ee
+source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 44%
+source-wordcount: '361'
+ht-degree: 49%
 
 ---
 
@@ -48,11 +49,13 @@ Dabei gilt:
 
 * In Handlebars werden den von {\{expression}\} zurückgegebenen Werten _HTML-Escape-Zeichen_. Wenn der Ausdruck `&` enthält, wird die Ausgabe mit HTML-Escape-Zeichen als `&amp;` generiert. Wenn ein Wert nicht mit einem Escape-Zeichen versehen werden soll, verwenden Sie +triple-stash_.
 
-<!-- For example:
+<!--
+ For example:
 
-    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. -->
+    If the value of the field `profile.person.name` is _Mark & Mary_, the `{\{profile.person.name}\}` value generates as `Mark &amp; Mary` and `{\{\{profile.person.name}}}` renders as `Mark & Mary`. 
+-->
 
-* Für Argumente mit literalen Funktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich (`\`) ohne Escape-Zeichen. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) escaped werden. Beispiel :
+* Für Argumente mit literalen Funktionen unterstützt der Sprach-Parser für Vorlagen keinen einfachen umgekehrten Schrägstrich (`\`) ohne Escape-Zeichen. Dieses Zeichen muss mit einem zusätzlichen umgekehrten Schrägstrich (`\`) mit Escape-Sequenz versehen werden. Beispiel :
 
   ```
   {%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}
@@ -68,9 +71,11 @@ Eine Handlebars-Hilfsfunktion ist eine einfache Kennung, die mit Parametern ange
 {{/each }}
 ```
 
-<!-- These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name. 
+<!--
+ These block helpers are identified with a `#` preceding the helper name and require a matching closing `/`, of the same name.
 
-Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). -->
+Blocks are expressions that have a block opening ( {\{# }\} ) and closing ( {\{/} } ). 
+-->
 
 Weitere Informationen zu diesen Funktionen finden Sie unter [Hilfsfunktionen](./personalization-helper-functions.md).
 
@@ -80,7 +85,7 @@ Weitere Informationen zu diesen Funktionen finden Sie unter [Hilfsfunktionen](./
 
 | Literal | Definition |
 | ------- | ---------- |
-| Zeichenfolge | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
+| String | Ein Datentyp, der aus Zeichen besteht, die von doppelten Anführungszeichen umgeben sind. <br>Beispiele: `"prospect"`, `"jobs"`, `"articles"` |
 | Boolesch | Ein Datentyp, der entweder „true“ oder „false“ ist. |
 | Ganzzahl | Ein Datentyp, der eine ganze Zahl darstellt. Sie kann positiv, negativ oder null sein. <br>Beispiele: `-201`, `0`, `412` |
 | Array | Ein Datentyp, der aus einer Gruppe anderer Literalwerte besteht. Zur Gruppierung werden eckige Klammern und Kommas verwendet, um zwischen verschiedenen Werten zu trennen. <br> **Hinweis:** Sie können nicht direkt auf die Eigenschaften von Elementen in einem Array zugreifen. <br> Beispiele: `[1, 4, 7]`, `["US", "FR"]` |
