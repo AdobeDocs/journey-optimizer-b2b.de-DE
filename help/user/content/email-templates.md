@@ -1,12 +1,12 @@
 ---
 title: E-Mail-Vorlagen
-description: Wiederverwendbare E-Mail-Vorlagen von Grund auf neu erstellen, HTML importieren oder vorhandene Designs verwalten - Vorlagen für Account-Journey in Journey Optimizer B2B edition verwalten
+description: Wiederverwendbare E-Mail-Vorlagen von Grund auf neu erstellen, HTML importieren oder vorhandene Designs verwalten - Vorlagen für Account-Journey in Journey Optimizer B2B Edition verwalten
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
-source-git-commit: b27b4485e5d778f0d4cbcad7392ab19c42a79e14
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1538'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Um nach einer Vorlage anhand des Namens zu suchen, geben Sie eine Textzeichenfol
 
 ![Greifen Sie auf die E-Mail-Vorlagenbibliothek zu und filtern Sie nach Name und Datum](./assets/templates-list-search-filter.png){width="800" zoomable="yes"}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken. Wählen Sie die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
 Aus der angezeigten Vorlagenliste können Sie die in den folgenden Abschnitten beschriebenen Aktionen durchführen.
 
@@ -83,7 +83,7 @@ Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu
 
 ### Importieren von HTML
 
-Mit Adobe Journey Optimizer B2B edition können Sie vorhandene HTML-Inhalte importieren, um Ihre E-Mail-Vorlagen zu entwerfen.
+Mit Adobe Journey Optimizer B2B Edition können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mail-Vorlagen zu entwerfen.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -111,7 +111,7 @@ Klicken Sie auf der Seite Vorlagenauflistung auf den Namen einer E-Mail-Vorlage,
 
 * Klicken Sie **[!UICONTROL rechts oben]** „Mehr“, um schnell mit der E-Mail-Vorlage umzugehen, z. B _„Duplizieren_ und _Löschen_.
 
-* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnung für die E-Mail-Vorlage), klicken Sie oben **[!UICONTROL auf]** Warnhinweise), um die Informationen anzuzeigen.
+* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnung für die E-Mail-Vorlage), klicken Sie oben ]**auf**[!UICONTROL  Warnhinweise), um die Informationen anzuzeigen.
 
   Diese Warnhinweise verbieten nicht die Verwendung der E-Mail-Vorlage für die E-Mail-Erstellung. Die Informationen bieten Marketing-Fachleuten in Ihrem Team einen Überblick darüber, was möglicherweise nicht funktioniert, und über die erforderlichen Aktualisierungen, bevor sie für die Bereitstellung verwendet werden können.
 
@@ -121,7 +121,7 @@ Klicken Sie auf der Detailseite für E **[!UICONTROL Mail-Vorlagen auf die Regis
 
 ![Klicken Sie auf die Registerkarte Verwendet von , um die Verwendung der Vorlage zu überprüfen](./assets/template-details-used-by.png){width="400"}
 
-E-Mails in Journey Optimizer B2B edition sind in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die die Vorlage verwendet, als Referenzen angezeigt wird.
+E-Mails in Journey Optimizer B2B Edition sind in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die die Vorlage verwendet, als Verweis angezeigt wird.
 
 * Durch Klicken auf den Link gelangen Sie zu der entsprechenden Journey-E-Mail, in der die E-Mail-Vorlage verwendet wird.
 
@@ -132,9 +132,9 @@ E-Mails in Journey Optimizer B2B edition sind in Journey eingebettet und verfass
 Diese Aktion kann übernommen werden aus:
 
 * Die Detailseite - Klicken Sie auf **[!UICONTROL E-Mail-Vorlage bearbeiten]**.
-* Die Auflistungsseite - Klicken Sie auf die Auslassungspunkte (**…**) neben einer E-Mail-Vorlage und wählen Sie **[!UICONTROL Bearbeiten]**.
+* Die Listenseite - Klicken Sie auf die Auslassungspunkte (**…**) neben einer E-Mail-Vorlage und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der E-Mail-Vorlage). Von hier aus können Sie den Inhalt Ihrer E-Mail-Vorlage nach Bedarf bearbeiten. Weitere [&#x200B; zu den Bearbeitungsoptionen finden Sie &#x200B;](#create-email-templates) „E-Mail-Vorlagen erstellen“.
+Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der E-Mail-Vorlage). Von hier aus können Sie den Inhalt Ihrer E-Mail-Vorlage nach Bedarf bearbeiten. Weitere [ zu den Bearbeitungsoptionen finden Sie ](#create-email-templates) „E-Mail-Vorlagen erstellen“.
 
 ## E-Mail-Vorlagen duplizieren
 
@@ -144,7 +144,7 @@ Sie können eine E-Mail-Vorlage mit einer der folgenden Methoden duplizieren:
 
   ![Klicken Sie auf Mehr , um auf Aktionen zum Löschen und Duplizieren zuzugreifen](./assets/template-details-more-menu.png){width="400"}
 
-* Klicken Sie auf der _[!UICONTROL E]_ Mail-Vorlagen“ auf die Auslassungspunkte (…) neben der Vorlage und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie auf der _[!UICONTROL E]_ Mail-Vorlagen“ auf die Auslassungszeichen (…) neben der Vorlage und wählen Sie **[!UICONTROL Duplizieren]**.
 
 Geben Sie im Dialogfeld einen nützlichen Namen (eindeutig) und eine Beschreibung ein. Klicken Sie **[!UICONTROL Duplizieren]**, um die Aktion abzuschließen.
 
@@ -155,7 +155,7 @@ Die duplizierte (neue) E-Mail-Vorlage wird dann in der Liste _[!UICONTROL E-Mail
 Das Entfernen einer E-Mail-Vorlage kann nicht rückgängig gemacht werden. Überprüfen Sie dies, bevor Sie eine Löschaktion starten. Sie können eine E-Mail-Vorlage mit einer der folgenden Methoden löschen:
 
 * Erweitern Sie in den Vorlagendetails auf der rechten Seite &quot;**[!UICONTROL &quot;]** klicken Sie auf **[!UICONTROL Löschen]**.
-* Klicken Sie auf der _[!UICONTROL E]_ Mail-Vorlagen“ auf die Auslassungspunkte (…) neben der Vorlage und wählen Sie **[!UICONTROL Löschen]**.
+* Klicken Sie auf der _[!UICONTROL E]_ Mail-Vorlagen“ auf die Auslassungszeichen (…) neben der Vorlage und wählen Sie **[!UICONTROL Löschen]**.
 
   ![Klicken Sie auf … , um auf Aktionen zum Duplizieren und Löschen zuzugreifen](./assets/templates-list-more-menu.png){width="500"}
 
@@ -175,7 +175,7 @@ Verwenden Sie auf dem Bildschirm _E-Mail erstellen_ den Abschnitt _Design-Vorlag
 
 Gehen Sie wie folgt vor, um mit der Erstellung Ihres Inhalts mit einer der erstellten E-Mail-Vorlagen zu beginnen:
 
-1. Greifen Sie über die Seite _Inhalt bearbeiten_ auf die E-Mail-Designer zu.
+1. Greifen Sie über die Seite „Inhalt bearbeiten _auf den visuellen_ zu.
 
    Auf der _E-Mail erstellen_ ist die Registerkarte _Beispielvorlagen_ standardmäßig ausgewählt.
 

@@ -4,7 +4,7 @@ description: Erstellen von E-Mails mit visuellen Design-Tools, HTML-Import oder 
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '1175'
 ht-degree: 6%
@@ -17,15 +17,15 @@ Nachdem Sie [ein E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt](./add
 
 Klicken Sie **[!UICONTROL der Registerkarte _[!UICONTROL Details]_ im rechten Bedienfeld auf]** E-Mail-Inhalt bearbeiten“.
 
-![Klicken Sie auf E-Mail-Inhalt bearbeiten &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Klicken Sie auf E-Mail-Inhalt bearbeiten ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Diese Aktion startet die E-Mail-Design-Tools, in denen Sie aus den folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
-* [Erstellen Sie Ihre E-Mail von Grund auf &#x200B;](#design-your-email-from-scratch) mithilfe der Benutzeroberfläche von E-Mail-Designer.
+* [Erstellen Sie Ihre E-Mail von Grund ](#design-your-email-from-scratch) mithilfe der visuellen Design-Oberfläche.
 
 * [Importieren Sie vorhandene HTML-Inhalte](#import-existing-html-content) aus einer Datei oder einem ZIP-Ordner.
 
-* [Wählen Sie eine vorhandene &#x200B;](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus.
+* [Wählen Sie eine vorhandene ](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus.
 
 Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den Inhalt zur Validierung oder zur späteren Verwendung exportieren. Klicken Sie **[!UICONTROL HTML exportieren]**, um den Inhalt als ZIP-Datei zu speichern, die Ihre HTML und Assets enthält.
 
@@ -47,7 +47,7 @@ Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt
 
 1. [Struktur und Inhalt hinzufügen](./email-authoring.md#add-structure-and-content) zur Vorlage hinzufügen.
 
-1. [Links überprüfen und &#x200B;](#preview-and-edit-linked-urls).
+1. [Links überprüfen und ](#preview-and-edit-linked-urls).
 
 1. [Testen Sie die E-Mail](#check-and-test-the-email).
 
@@ -123,7 +123,7 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 
 >[!NOTE]
 >
->Wenn _[!UICONTROL Meine Token]_ für die Konto-Journey definiert sind, können Sie diese Journey-spezifischen Token auch für Ihren E-Mail-Inhalt verwenden. Weitere Informationen finden [&#x200B; unter „Benutzerdefinierte Token &#x200B;](./personalization-my-tokens.md) E-Mail-Personalisierung“.
+>Wenn _[!UICONTROL Meine Token]_ für die Konto-Journey definiert sind, können Sie diese Journey-spezifischen Token auch für Ihren E-Mail-Inhalt verwenden. Weitere Informationen finden [ unter „Benutzerdefinierte Token ](./personalization-my-tokens.md) E-Mail-Personalisierung“.
 
 ### Verknüpftes URL-Tracking bearbeiten
 

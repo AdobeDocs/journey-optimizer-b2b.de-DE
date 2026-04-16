@@ -1,19 +1,19 @@
 ---
-title: Bewertung von Inhalten
+title: Bewertung und Bewertung von Inhalten
 description: Bewerten von E-Mail-Inhalten mit Bewertung der Markenausrichtung - Validieren Sie Farben, Schriftarten, Logos und den Schreibstil anhand der Markenrichtlinien in Journey Optimizer B2B edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-source-git-commit: 37e4a7976d716f24edf2c2e92cbfa4c149aa66ec
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 9%
 
 ---
 
-# Bewertung von Inhalten {#content-scoring}
+# Bewertung und Bewertung von Inhalten {#content-scoring}
 
 Die Inhaltsauswertung und -bewertung helfen Ihnen bei der Erstellung, Überprüfung und Verwaltung von Inhalten, die den Richtlinien [in der ausgewählten Marke definiert](./brands-manage-create.md#brand-definitions) und den allgemeinen Qualitätsstandards entsprechen. Die Durchführung einer Evaluierung gewährleistet die Konsistenz in Ton, Messaging und visueller Identität in Ihren E-Mail-Kampagnen und dient gleichzeitig als Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts.
 
@@ -41,7 +41,7 @@ Die Inhaltsauswertung und -bewertung helfen Ihnen bei der Erstellung, Überprüf
 
    ![Auswertungswerte im rechten Bedienfeld](./assets/brands-alignment-evaluation.png){width="600" zoomable="yes"}
 
-## Markenausrichtungswert {#brand-score}
+## Markenausrichtungswert {#brand-alignment-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
@@ -81,7 +81,7 @@ Die Punktzahl wird anhand der festgestellten Verstöße im ausgewerteten E-Mail-
 * 60-79 = Fair - Einige bedeutende Verstöße
 * Unter 60 = Schlecht - Schwere Verletzungen erfordern Aufmerksamkeit
 
-Sie können die Auswertungsergebnisse detaillierter überprüfen, um Verstöße zu identifizieren und Ihre Kategorieausrichtungswerte (_Hoch_, _Medium_ und _Niedrig_) zu verbessern und die Details zu überprüfen.
+Sie können die Auswertungsergebnisse detaillierter überprüfen, um Verstöße zu identifizieren und Ihre Kategorieausrichtungswerte zu verbessern (_Hoch_, _Medium_ und _Niedrig_).
 
 Klicken Sie für **[!UICONTROL Schreibstil]** oder **[!UICONTROL visueller Inhalt]** auf den _Erweitern_ ( ![Erweiterungspfeil](../assets/do-not-localize/icon-expand-right.svg) ), um die Details für die Auswertung anzuzeigen.
 

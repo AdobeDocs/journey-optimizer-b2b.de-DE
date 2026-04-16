@@ -1,10 +1,10 @@
 ---
 title: Inhaltserstellung - HTML importieren
-description: Wiederverwendeter Abschnitt zum Import aus der HTML-Inhaltserstellung
-source-git-commit: 985b0ac83f21e5ec0bf8d49d3d94deb5035789be
+description: Wiederverwendeter Abschnitt zum Import aus der Inhaltserstellung in HTML
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 17%
+source-wordcount: '141'
+ht-degree: 27%
 
 ---
 
@@ -17,9 +17,9 @@ Importierte Inhalte können:
 
   >[!NOTE]
   >
-  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und zur Baumstruktur des ZIP-Ordners passen. Die Bilder werden immer in das verbundene Marketo Engage-Asset-Repository hochgeladen. Wenn Sie die Bilddateien in Experience Manager Assets verwalten möchten, laden Sie sie separat in diese App-Benutzeroberfläche hoch und ändern Sie die Bild-Links im E-Mail-Designer.
+  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen. Die Bilder werden immer in das verbundene Marketo Engage Assets-Repository hochgeladen. Wenn Sie die Bilddateien in Experience Manager Assets verwalten möchten, laden Sie sie separat in diese App-Oberfläche hoch und ändern Sie die Bild-Links im E-Mail-Design-Bereich.
 
-_So importieren Sie eine Datei mit HTML-Inhalt:_
+_So importieren Sie eine Datei mit HTML-Inhalt :_
 
 1. Wählen Sie auf _[!UICONTROL Startseite]_ Vorlage entwerfen“ die Option **[!UICONTROL HTML importieren]** aus.
 

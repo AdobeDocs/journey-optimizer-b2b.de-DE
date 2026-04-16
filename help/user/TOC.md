@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: e770b40ebe15a9fe8addd2876d34a0f7800affd2
+source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '438'
 ht-degree: 95%
 
 ---
@@ -100,7 +100,6 @@ ht-degree: 95%
 + Content-Management {#content-management}
    + E-Mails {#emails}
       + [Arbeiten mit E-Mail-Inhalten](./content/emails-list.md)
-      + [Gestalten barrierefreier Inhalte](./content/email-accessible-content.md)
       + Vorschau und Validierung {#preview}
          + [Simulieren von Inhalten](./content/email-simulate-content.md)
          + [Testen des E-Mail-Renderings](./content/email-test-rendering.md)
@@ -143,6 +142,7 @@ ht-degree: 95%
    + [Markenthemen](./content/brand-themes.md)
    + [Inhaltsauswertung](./content/content-evaluation.md)
    + [Bedingte Inhalte](./content/conditional-content.md)
+   + [Barrierefreiheit von Inhalten](./content/accessible-content.md)
    + Personalisierung {#personalization}
       + [Überblick](./content/personalization.md)
       + [Personalisierungssyntax](./content/personalization-syntax.md)
