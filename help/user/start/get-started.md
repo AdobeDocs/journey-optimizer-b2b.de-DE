@@ -4,10 +4,10 @@ description: 'Onboarding-Handbuch für Admins und Marketing-Fachleute: Einrichte
 role: User
 level: Beginner
 exl-id: 83f8e666-0b31-4323-9902-4fdf4446424c
-source-git-commit: 632530569c6247ffbd453578fc8561d17d500283
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 72%
 
 Welche Funktionen und Tools Sie in Adobe Journey Optimizer B2B Edition verwenden, hängt von Ihrer Rolle in Ihrem Team ab. Abhängig von Ihrer Organisation können Admins verschiedene Typen von Benutzenden definieren und ihnen je nach deren Berechtigungen Zugriff auf bestimmte Funktionen gewähren.
 
-Nachdem ein Administrator die [Einrichtungsaufgaben](../simplified-architecture.md) abgeschlossen hat, verwenden Sie diese Informationen für das allgemeine Onboarding von Benutzern.
+Nachdem ein Administrator die [Einrichtungsaufgaben](../setup-ultimate.md) abgeschlossen hat, verwenden Sie diese Informationen für das allgemeine Onboarding von Benutzern.
 
 >[!TIP]
 >
@@ -25,13 +25,13 @@ Als Marketing-Fachkraft oder als _Person, die Konto-Journeys nutzt_, sind Sie f�
 
 Anhand der folgenden Abschnitte können Sie Ihre erste Journey einrichten, Assets hinzufügen und Inhalte senden:
 
-1. **Fügen Sie Kontozielgruppen hinzu**. Mit Journey Optimizer B2B edition können Sie Account-Zielgruppen über Segmentdefinitionen direkt im Programm erstellen und diese in Ihren Account-Journey nutzen. [Weitere Informationen](../audiences/account-audience-overview.md)
+1. **Fügen Sie Kontozielgruppen hinzu**. Mit Journey Optimizer B2B Edition können Sie Kontozielgruppen durch Segmentdefinitionen direkt über die Anwendung erstellen und in Ihren Konto-Journeys nutzen. [Weitere Informationen](../audiences/account-audience-overview.md)
 
-1. **Erstellen Sie Käufergruppen**. Definieren Sie die wichtigsten Komponenten, um Ihre Geschäftsziele zu erreichen, und erstellen Sie Einkaufsgruppen, die die Mitglieder für Ihre Target-Kontolisten identifizieren. [Weitere Informationen](../buying-groups/buying-groups-overview.md)
+1. **Erstellen Sie Käufergruppen**. Definieren Sie die wichtigsten Komponenten, um Ihre Geschäftsziele zu erreichen, und erstellen Sie Käufergruppen, die die Mitglieder für Ihre Zielkontolisten identifizieren. [Weitere Informationen](../buying-groups/buying-groups-overview.md)
 
-1. **Erstellen und verwalten Sie Assets**. Adobe Experience Manager Assets bietet ein zentrales Repository mit Assets, die Sie Ihren Nachrichten hinzufügen können. [Weitere Informationen](../content/assets-overview.md)
+1. **Erstellen und verwalten Sie Assets**. Adobe Experience Manager Assets bietet ein zentrales Repository mit Assets, die Sie für Ihre Nachrichten verwenden können. [Weitere Informationen](../content/assets-overview.md)
 
-1. **Fügen Sie personalisierte und dynamische E-Mail-Vorlagen hinzu**. Nutzen Sie die Personalisierungs- und Dynamic Content-Funktionen von Journey Optimizer B2B edition, um Ihre Nachricht an Ihre Audience anzupassen. [Weitere Informationen](../content/email-templates.md)
+1. **Fügen Sie personalisierte und dynamische E-Mail-Vorlagen hinzu**. Nutzen Sie die Journey Optimizer B2B Editio-Funktionen für Personalisierung und dynamische Inhalte, um Nachrichten an Ihre Zielgruppen anzupassen. [Weitere Informationen](../content/email-templates.md)
 
 1. **Entwerfen Sie Konto-Journeys, um personalisierte, kontextuelle Erlebnisse bereitzustellen**. Mit Journey Optimizer B2B Edition können Sie anhand von in Ereignissen oder Datenquellen gespeicherten kontextuellen Daten Echtzeit-Orchestrierungsfälle erstellen. Erstellen Sie mehrstufige fortgeschrittene Szenarien mit den folgenden Funktionen:
 

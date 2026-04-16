@@ -4,9 +4,9 @@ description: Verwenden Sie Warteknoten, um den Journey-Fortschritt anzuhalten un
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-source-git-commit: 7a05e6aed76d15aa6d0d0a7dd244bf299d549782
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,6 @@ Aktivieren Sie die Option **[!UICONTROL Muss enden am]**, um einen _erweiterten_
 Mit einem _erweiterten Warteschritt_ definieren Sie **_wann_** die Person oder das Konto beenden soll, nicht nur, wie lange sie warten soll.
 
 ![Journey-Knoten - erweiterter Warteschritt](./assets/node-wait-advanced.png){width="500"}
-
->[!AVAILABILITY]
->
->Erweiterte Warteeinstellungen sind für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
 
 ### Wartetypen
 

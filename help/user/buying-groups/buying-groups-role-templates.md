@@ -1,10 +1,10 @@
 ---
 title: Einkaufsgruppen-Rollenvorlagen
-description: Erstellen Sie Rollenvorlagen mit bedingter automatischer Zuweisung, um Entscheidungsträger und Stakeholder für Einkaufsgruppen in Journey Optimizer B2B edition zu identifizieren.
+description: Erstellen Sie Rollenvorlagen mit bedingter automatischer Zuweisung, um Entscheidungsträger und Stakeholder für Einkaufsgruppen in Journey Optimizer B2B Edition zu identifizieren.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-source-git-commit: 40043117de44d158f21890ce267790a6ccbc0436
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
 source-wordcount: '1410'
 ht-degree: 5%
@@ -71,7 +71,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert &#x200B;](./default-custom-roles.md#custom-roles).
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#custom-roles).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -128,7 +128,7 @@ Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!
 >
 >**Einstellung von Funktionen**</br></br>
 >
->Mit der [vereinfachten Architektur](../simplified-architecture.md) für Journey Optimizer B2B edition wird das Filtern nach Listen- oder Programmmitgliedschaften in einer Marketo Engage-Instanz nicht unterstützt.
+>In der aktuellen Journey Optimizer B2B Edition-Version wird das Filtern nach Listen- oder Programmmitgliedschaften in einer Marketo Engage-Instanz nicht mehr unterstützt.
 
 >[!ENDSHADEBOX]
 
@@ -146,7 +146,7 @@ Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte
 
 1. Ändern Sie im Dialogfeld den Wert **[!UICONTROL Mitglieder erforderlich]** für jede definierte Rolle nach Bedarf.
 
-   Sie können den Wert eingeben oder auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   Sie können den Wert eingeben oder auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Schaltfläche „Rollenvorlage - Vollständigkeit der Bewertungseinstellungen“](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -194,4 +194,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

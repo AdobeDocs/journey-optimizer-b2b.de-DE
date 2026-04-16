@@ -4,9 +4,9 @@ description: Erstellen Sie benutzerdefinierte Interaktionsbewertungsmodelle mit 
 feature: Setup, Engagement, Buying Groups
 role: Admin
 exl-id: 50d79d31-5ad8-41ed-a62b-4aa2ed9e837f
-source-git-commit: ff635309749cfb7c065522a34b1228e71b144a9f
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1306'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,13 @@ Als Administrator können Sie mehrere Interaktionsbewertungsmodelle für Ihre Or
 
 ### Standard-Bewertungsmodell
 
-Das System erstellt ein erstes Interaktionsbewertungsmodell mit dem Namen _Aktivitätsgewichtungsmodell 1_. Der Modellstatus und die Interaktionsaktivitäten hängen von der Datenarchitektur Ihrer [!DNL Journey Optimizer B2B Edition] ab:
+Das System erstellt ein erstes Interaktionsbewertungsmodell mit dem Namen _Aktivitätsgewichtungsmodell 1_. Interaktionsaktivitäten basieren auf standardmäßigen und benutzerdefinierten Experience Platform-Ereignissen. Die Gewichtungen für alle Aktivitäten sind standardmäßig 0.
 
-* **Vereinfachte Architektur** (Beta) - Wenn Ihre Umgebung die [vereinfachte &#x200B;](../simplified-architecture.md)) verwendet, basieren die Interaktionsaktivitäten auf standardmäßigen und benutzerdefinierten Experience Platform-Ereignissen. Die Gewichtungen für alle Aktivitäten sind standardmäßig 0.
+![Gewichtungsmodell des Standardinteraktionswerts für Experience Platform-Ereignisse](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
 
-  ![Standardgewichtungsmodell für den Interaktionswert für die vereinfachte Architektur](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
+<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
 
-* **Standardarchitektur** - Wenn Ihre Umgebung die Standardarchitektur verwendet, ist die verbundene [!DNL Marketo Engage]-Instanz die Quelle für die Interaktionsaktivitätsdaten. Das Standardmodell ist aktiv, bis Sie eine benutzerdefinierte Version erstellen und aktivieren.
-
-  ![Gewichtungsmodell der Standardinteraktionswerte für die Standardarchitektur](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"}
+<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 Wenn Sie ein benutzerdefiniertes Modell aktivieren, ändert sich das aktive Modell in den Status _Archiviert_. Wenn Sie sich entscheiden, zum standardmäßigen Interaktionsbewertungsmodell zurückzukehren, können Sie das ursprüngliche Standardmodell duplizieren und dann aktivieren oder es als Ausgangspunkt für ein anderes benutzerdefiniertes Modell verwenden.
 
@@ -92,13 +90,13 @@ Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im
 1. Passen Sie für jedes Gewichtsband den Namen oder die Werte Ihren Anforderungen entsprechend an:
 
    * Ändern Sie den Namen im Feld _[!UICONTROL Gewichtungsband]_.
-   * Einen neuen Wert eingeben. Sie können auch auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   * Einen neuen Wert eingeben. Sie können auch auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Einstellungen für die Interaktionsgewichtung](./assets/configuration-engagement-scoring-model-weight-settings.png){width="500"}
 
 1. Fügen Sie bei Bedarf ein weiteres Gewichtsband hinzu:
 
-   Klicken Sie unten **[!UICONTROL der Liste auf]**+ Gewichtungsband hinzufügen . Durch diese Aktion wird ein leeres Gewichtungsband am Ende der Liste eingefügt.
+   Klicken Sie unten ]**der Liste auf**[!UICONTROL + Gewichtungsband hinzufügen . Durch diese Aktion wird ein leeres Gewichtungsband am Ende der Liste eingefügt.
 
    Geben Sie den Namen ein und legen Sie den Wert für das Band fest. Stellen Sie sicher, dass Sie einen eindeutigen Namen und Wert verwenden.
 
@@ -110,9 +108,9 @@ Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im
 
 Jedes Score-Modell enthält die vollständige Liste der unterstützten Interaktionsbewertungsaktivitäten.
 
-+++Aktivitäten für eine vereinfachte Architektur
++++Aktivitäten für Experience Platform-Events
 
-Das Standardmodell für die vereinfachte Architektur umfasst die von Experience Platform verfolgten Aktivitäten. Jede Aktivität hat eine Gewichtung von null (0) (nicht verwendet), bis Sie ihr eine Gewichtung zuweisen. Alle Aktivitäten haben auch eine maximale tägliche Häufigkeit von 20, die Sie nicht ändern können.
+Das Standardmodell für Experience Platform-Ereignisse umfasst die von Experience Platform verfolgten Aktivitäten. Jede Aktivität hat eine Gewichtung von null (0) (nicht verwendet), bis Sie ihr eine Gewichtung zuweisen. Alle Aktivitäten haben auch eine maximale tägliche Häufigkeit von 20, die Sie nicht ändern können.
 
 <table style="table-layout: fixed; width: 100%; border: 0;">
 <tbody>

@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Syntax, Personalisierung
 exl-id: 04f78cdc-af2a-46ad-967d-2e129bd98e06
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4943'
+source-wordcount: '4930'
 ht-degree: 48%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 48%
 # Hilfsfunktionen
 
 Verwenden Sie die Helper-Funktionen im Personalisierungseditor, um personalisierte Inhaltserlebnisse präzise und effizient zu definieren, indem Sie Daten bearbeiten, Berechnungen durchführen und Inhalte formatieren. Erkunden Sie diese Funktionen, Operatoren und Helper und experimentieren Sie mit ihnen, um zu erfahren, wie sie zusammenarbeiten, um Ihnen bei der Erstellung maßgeschneiderter, datengesteuerter Journey zu helfen.
-
->[!AVAILABILITY]
->
->Helper-Funktionen sind für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../simplified-architecture.md).
 
 ## Aggregationsfunktionen
 
@@ -978,9 +974,9 @@ Dabei ist die erste Zeichenfolge das Datumsattribut, der zweite Wert ist die Art
 >
 > Wenn ein Datumsmuster ungültig ist, wird das Datum auf das ISO-Standardformat zurückgesetzt.
 >
-> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation zusammengefasst &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+> Sie können zur Datumsformatierung die Java-Funktionen verwenden, die in der [Oracle-Dokumentation zusammengefasst ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
 >
-> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
+> Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html) zusammengefasst sind.
 
 **Beispiel**
 
@@ -1806,7 +1802,7 @@ Sie akzeptiert eine Zahl und eine Zeichenfolge, die das Gebietsschema darstellt,
 {%= formatNumber(number/double,string) %}: string
 ```
 
-Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind
+Sie können Formatierungen und gültige Gebietsschemata verwenden, die in der [Dokumentation zu Oracle ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) und [Unterstützte Gebietsschemata](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank} zusammengefasst sind
 
 **Beispiel**
 

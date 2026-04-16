@@ -1,30 +1,30 @@
 ---
 title: Inhaltserstellung - Personalisierung
 description: Wiederverwendeter Abschnitt zur Verwendung der Personalisierung für die Inhaltserstellung
-source-git-commit: fee5bddcce11b3035da6ab93b18bcc7006b4b554
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # Inhaltserstellung - Personalisierung
 
-Journey Optimizer B2B edition verwendet eine einfache Inline-Syntax, mit der Sie Ausdrücke mit personalisierten Inhalten erstellen können, die von geschweiften Klammern `{{}}` eingeschlossen sind. Sie können ohne Einschränkungen mehrere Ausdrücke in demselben Inhalt oder Feld hinzufügen.
+Journey Optimizer B2B Edition verwendet eine einfache Inline-Syntax, mit der Sie Ausdrücke mit personalisierten Inhalten erstellen können, die von geschweiften Klammern `{{}}` eingeschlossen sind. Sie können ohne Einschränkungen mehrere Ausdrücke in demselben Inhalt oder Feld hinzufügen.
 
-Sie können beispielsweise einen Personalisierungsausdruck als `Hello {{lead.firstName}} {{lead.lastName}}` hinzufügen. Bei der Verarbeitung des Inhalts ersetzt Journey Optimizer B2B edition den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten. Das erste Beispiel wird also _Hallo, Max Mustermann_.
+Sie können beispielsweise einen Personalisierungsausdruck als `Hello {{lead.firstName}} {{lead.lastName}}` hinzufügen. Bei der Verarbeitung des Inhalts ersetzt Journey Optimizer B2B Edition den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten. Das erste Beispiel wird also _Hallo, Max Mustermann_.
 
-Unter [Personalisierung von Inhalten](../user/content/personalization.md) finden Sie weitere Informationen zur Verwendung von Personalisierungs-Tools in Journey Optimizer B2B edition.
+Unter [Personalisierung von Inhalten](../user/content/personalization.md) finden Sie weitere Informationen zur Verwendung von Personalisierungs-Tools in Journey Optimizer B2B Edition.
 
 >[!NOTE]
 >
->Journey Optimizer B2B edition folgt _Binnenmajuskeln_ Syntax für Personalisierungs-Token in E-Mails, um sie mit den anderen Adobe Experience Platform-Programmen abzustimmen und so ein konsistentes Erlebnis zu gewährleisten. Dieses Token-Format ist vollständig kompatibel mit der [Handlebars-Vorlagensprache](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Alle Token, die vor dieser Änderung hinzugefügt wurden, werden automatisch aktualisiert.
+>Journey Optimizer B2B Edition folgt _Binnenmajuskel-_) für Personalisierungs-Token in E-Mails, um sie mit den anderen Adobe Experience Platform-Programmen abzustimmen und so ein konsistentes Erlebnis zu gewährleisten. Dieses Token-Format ist vollständig kompatibel mit der [Handlebars-Vorlagensprache](https://handlebarsjs.com/guide/#what-is-handlebars){target="_blank"}. Alle Token, die vor dieser Änderung hinzugefügt wurden, werden automatisch aktualisiert.
 
-Im folgenden Beispiel werden die Schritte zum Personalisieren von Inhalten mit Personen- und System-Token beschrieben. Sie spiegelt die Änderungen wider, die für Journey Optimizer B2B edition-Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ bereitgestellt &#x200B;](../user/simplified-architecture.md).
+Im folgenden Beispiel werden die Schritte zum Personalisieren von Inhalten mit Personen- und System-Token beschrieben. Dies entspricht der aktuellen Journey Optimizer B2B Edition-Version.
 
 1. Wählen Sie die Textkomponente aus und klicken Sie auf das Symbol _Personalisierung hinzufügen_ ( ![Personalisierungssymbol hinzufügen](../assets/do-not-localize/icon-personalization-field.svg) ) in der Symbolleiste.
 
-   ![Klicken Sie auf das Symbol Personalisieren &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![Klicken Sie auf das Symbol Personalisieren ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet.
 

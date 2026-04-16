@@ -7,9 +7,9 @@ role: User, Developer
 level: Intermediate
 keywords: Ausdruck, Editor, Start, Personalisierung
 exl-id: 60bf2e06-8d6e-4cc4-8aff-5c5ca11f05ab
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '751'
 ht-degree: 9%
 
 ---
@@ -52,10 +52,6 @@ Der Personalisierungseditor ist in jedem Kontext verfügbar, in dem Sie die Pers
 Fügen Sie Personalisierung in einem beliebigen Feld oder einer beliebigen Inhaltskomponente hinzu, indem Sie auf das Symbol _Personalisierung hinzufügen_ (![Personalisierungssymbol hinzufügen](../../assets/do-not-localize/icon-personalization-field.svg) klicken.
 
 ![Personalization-Editor](./assets/personalization-editor.png){width="800" zoomable="yes"}
-
->[!NOTE]
->
->Die folgenden Informationen zum Personalisierungseditor spiegeln die Änderungen wider, die für [!DNL Journey Optimizer B2B Edition] Umgebungen verfügbar sind, die auf der [vereinfachten Architektur“ &#x200B;](../simplified-architecture.md).
 
 ### Token und Helper-Funktionen
 

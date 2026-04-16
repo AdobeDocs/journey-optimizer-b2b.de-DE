@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 7eacf9d3951e4d5a393cb2636cee0c6b40ecc050
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '4891'
-ht-degree: 71%
+source-wordcount: '4838'
+ht-degree: 70%
 
 ---
 
@@ -34,13 +34,13 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | WhatsApp-Kanal | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Marketing-Experten können jetzt WhatsApp-Nachrichten direkt von Account-Journey über die [!DNL Meta Cloud API] senden. Diese Funktion ermöglicht die nahtlose Integration von WhatsApp-Nachrichten zur Unterstützung von Journey-Inhaltskanälen. [Weitere Informationen](../admin/configure-channels-whatsapp.md) |
+| Funktion | WhatsApp-Kanal | Marketing-Experten können jetzt WhatsApp-Nachrichten direkt von Account-Journey über die [!DNL Meta Cloud API] senden. Diese Funktion ermöglicht die nahtlose Integration von WhatsApp-Nachrichten zur Unterstützung von Journey-Inhaltskanälen. [Weitere Informationen](../admin/configure-channels-whatsapp.md) |
 | Funktion | Unterstützung für [!DNL Firefly] und benutzerdefinierte generative KI-Modelle | Marketing-Teams können jetzt die Integration von standardmäßigen und benutzerdefinierten [!DNL Firefly]-Modellen zusammen mit genehmigten Bildmodellen von Drittanbietern (z. B. [!DNL NanoBanana]) aktivieren. E-Mail-Designer können für jeden Anwendungsfall das beste Modell auswählen: Standardmodelle für allgemeine [!DNL Firefly], benutzerdefinierte [!DNL Firefly] für die Markengenerierung oder genehmigte Drittanbietermodelle für spezialisierte oder experimentelle Szenarien. [Weitere Informationen](../content/generative-ai-models.md) |
-| Funktion | Benutzerdefinierte externe Aktionen für Journey | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Entwickler können jetzt APIs verwenden, um Integrationen mit ihren First-Party-Systemen zu erstellen. Mit diesen benutzerdefinierten Integrationen können Marketing-Experten _Externe Aktion_ und _Externer Aufspaltungspfad_ hinzufügen, um ausgehende Anfragen an externe Services während der Journey-Ausführung des Kontos zu senden. [Weitere Informationen](../admin/configure-external-actions.md) |
+| Funktion | Benutzerdefinierte externe Aktionen für Journey | Entwickler können jetzt APIs verwenden, um Integrationen mit ihren First-Party-Systemen zu erstellen. Mit diesen benutzerdefinierten Integrationen können Marketing-Experten _Externe Aktion_ und _Externer Aufspaltungspfad_ hinzufügen, um ausgehende Anfragen an externe Services während der Journey-Ausführung des Kontos zu senden. [Weitere Informationen](../admin/configure-external-actions.md) |
 | Funktion | Marken | (Beta) Marketing-Teams können die Markenkonsistenz in ihren E-Mail-Inhalts-Assets gewährleisten, indem sie Markenprofile speichern und verwalten. Durch das Hinzufügen von Assets wie Farben, Schriftarten, Logos, Designs, visuellen Inhalten und Compliance-Richtlinien können sie das Markenprofil für die Erstellung generativer KI-Inhalte verwenden. Sie können auch die Markenausrichtung messen, um die Einhaltung der Vorschriften sicherzustellen. [Weitere Informationen](../content/brands-overview.md) |
-| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | [!BADGE Vereinfachte &#x200B;]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"}: Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ zur Personalisierung des E-Mail-Versands verwenden, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
+| Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
 | Verbesserung | Design-Tools für E-Mail-Vorlagen - Erweiterter HTML-Modus | Mit _Erweiterter HTML_ im Design-Bereich für E-Mail-Vorlagen können Benutzende kleinere HTML-/CSS-Änderungen vornehmen und Skript-Tags zu einer E-Mail-Vorlage hinzufügen, um Rendering-Probleme zu beheben. [Weitere Informationen](../content/email-template-advanced-html.md) |
-| Verbesserung | Benutzerdefinierte Objekte für Personen - Vorlagen für Gruppenrollen kaufen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Wenn Admins benutzerdefinierte Objekte konfigurieren, die mit einem Geschäftspersonenprofil verknüpft sind, können Marketing-Experten jetzt Käufergruppenrollen mithilfe dieser benutzerdefinierten Objekte definieren. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
+| Verbesserung | Benutzerdefinierte Objekte für Personen - Vorlagen für Gruppenrollen kaufen | Wenn Admins benutzerdefinierte Objekte konfigurieren, die mit einem Geschäftspersonenprofil verknüpft sind, können Marketing-Experten jetzt Käufergruppenrollen mithilfe dieser benutzerdefinierten Objekte definieren. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
 | Verbesserung | Bewertung von E-Mail-Inhalten - Validierung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. |
 | Verbesserung | Bewertung von E-Mail-Inhalten - Bewertung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content/content-evaluation.md) |
 
@@ -51,7 +51,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 >[!NOTE]
 >
->Diese Versionsänderungen werden ab dem 27. März 2026 bereitgestellt und umfassen einen schrittweisen Rollout der einzelnen Funktionen und Verbesserungen. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+>Diese Versionsänderungen beginnen mit der Bereitstellung am 27. März 2026 mit einem schrittweisen Rollout jeder Funktion und Erweiterung. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
 
 ## Versionshinweise für 2026.2 {#rel-2026-2}
@@ -60,10 +60,10 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | XDM-Felder/relationale Schemata - Unterstützung für benutzerdefinierte Personenobjekte | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} (Beta)-Administratoren können jetzt benutzerdefinierte Objekte auswählen, die mit einer Person verbunden sind, indem sie eine Eins-zu-eins-Beziehung mit einem Konto verwenden. Mit dieser Funktion kann Ihr Marketing-Unternehmen eine umfassendere Ansicht Ihrer realen Geschäftsdaten darstellen, um Entitäten über die Personen- oder Kontoebene hinaus anzusprechen, zu personalisieren und Berichte dazu zu erstellen. [Weitere Informationen](../admin/xdm-field-management.md#relational-schemas) |
-| Funktion | Journey-Wiedereintritt | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Sie können jetzt Konten/Personen über einen Journey-Workflow mehrmals senden. Der Wiedereinstieg betrifft mehrere Szenarien, z. B. die Neubewertung von Qualifikationskriterien und wiederverwendbare Nurture-Workflows. [Weitere Informationen](../journeys/journey-re-entry.md) |
-| Verbesserung | Konto- und Personen-Journey - Unterstützung für benutzerdefinierte Objekte von Personen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} (Beta) Nutzen Sie die relationalen Daten, die mit Konten verknüpft sind, um Personen innerhalb eines Kontos oder Personen-Journey zu filtern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
-| Verbesserung | (Beta) Inhaltspersonalisierung - Unterstützung für benutzerdefinierte Objekte von Personen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Wenn Marketing-Experten die Personalisierung von Inhalten mithilfe der benutzerdefinierten Objekte definieren, können sie auf Variablen für die modellbasierten Klassen für benutzerdefinierte Objekte (relationale Schemata) zugreifen. [Weitere Informationen](../content/personalization.md#custom-datasets) |
+| Funktion | XDM-Felder/relationale Schemata - Unterstützung für benutzerdefinierte Personenobjekte | (Beta) Admins können jetzt benutzerdefinierte Objekte auswählen, die mit einer Person verbunden sind, indem sie eine Eins-zu-eins-Beziehung mit einem Konto verwenden. Mit dieser Funktion kann Ihr Marketing-Unternehmen eine umfassendere Ansicht Ihrer realen Geschäftsdaten darstellen, um Entitäten über die Personen- oder Kontoebene hinaus anzusprechen, zu personalisieren und Berichte dazu zu erstellen. [Weitere Informationen](../admin/xdm-field-management.md#relational-schemas) |
+| Funktion | Journey-Wiedereintritt | Sie können jetzt Konten/Personen über einen Journey-Workflow mehrmals senden. Der Wiedereinstieg betrifft mehrere Szenarien, z. B. die Neubewertung von Qualifikationskriterien und wiederverwendbare Nurture-Workflows. [Weitere Informationen](../journeys/journey-re-entry.md) |
+| Verbesserung | Konto- und Personen-Journey - Unterstützung für benutzerdefinierte Objekte von Personen | (Beta) Nutzen Sie die relationalen Daten, die mit Konten verknüpft sind, um Personen in einem Konto oder einer Personen-Journey zu filtern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#custom-data-filtering) |
+| Verbesserung | (Beta) Inhaltspersonalisierung - Unterstützung für benutzerdefinierte Objekte von Personen | Wenn Marketer die Personalisierung von Inhalten mithilfe der benutzerdefinierten Objekte definieren, können sie auf Variablen für die modellbasierte Klasse benutzerdefinierte Objekte (relationale Schemata) zugreifen. [Weitere Informationen](../content/personalization.md#custom-datasets) |
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | ---- | ---- | ----------- |
 | Funktion | Marken-Kits | (Beta) Definieren Sie eine Marke in Journey Optimizer B2B edition, um Ihrem Kreativteam die Datenquelle bereitzustellen, die es beim Erstellen visueller oder schriftlicher Inhalte verwenden soll. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. [Weitere Informationen](../content/brands-overview.md) |
 | Funktion | Marken für die Erstellung von E-Mail-Inhalten | Sie können Ihre Markenrichtlinien definieren und diese Informationen verwenden, um E-Mail-Inhalte zu generieren. Mit dieser Funktion werden E-Mail-Inhalte an Ihre markenspezifischen Copywriting-Richtlinien, -Stile und -Töne angepasst. [Weitere Informationen](../content/ai-assistant-emails.md) |
-| Verbesserung | Journey _Warten_ Knoten - Erweiterte Einstellungen | [!BADGE Vereinfachte Architektur]{type=Informative tooltip="Verfügbar mit vereinfachter Architektur"} Für einen _Warten_-Knoten in einem Journey können Marketing-Experten jetzt Beendigungstage und -zeiten angeben und Zeitzonen auswählen. Diese Verbesserung ermöglicht eine bessere Kontrolle der Journey-Orchestrierung und des Kampagnenzeitplans. [Weitere Informationen](../journeys/wait-nodes.md#advanced-wait-settings) |
+| Verbesserung | Journey _Warten_ Knoten - Erweiterte Einstellungen | Für einen _Warten_-Knoten in einem Journey können Marketing-Experten jetzt Beendigungstage und -zeiten angeben und Zeitzonen auswählen. Diese Verbesserung ermöglicht eine bessere Kontrolle der Journey-Orchestrierung und des Kampagnenzeitplans. [Weitere Informationen](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Verbesserung | Mitglied des Filters „Einkaufsgruppe“ - wurde entfernt | Bei einem _Aufspaltungspfad nach Personen_-Knoten enthält der _[!UICONTROL Mitglied der Kaufgruppe]_ jetzt die _Ist entfernt_-Beschränkung. Wenn Sie ihn auswählen, kann der Filter das entfernte Mitglied der Einkaufsgruppe einschließen oder ausschließen. Es wird auch in Marketo Engage-Smart-Listen unterstützt, in denen Sie diese neue Einschränkung im Filter _[!UICONTROL Mitglied der Kaufgruppe]_ verwenden können. |
 | Verbesserung | E-Mail-Design - Aufzählungszeichen auf mehreren Ebenen | Die Tools für den Design-Bereich für E-Mail-Inhalte unterstützen jetzt Unter-Aufzählungszeichen (Aufzählungsebenen). |
 
@@ -117,11 +117,15 @@ In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-bas
 >
 >Diese Versionsänderungen beginnen mit der Bereitstellung am 31. Oktober 2025, wobei für jede Funktion ein schrittweiser Rollout erfolgt. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
-### Vereinfachte Architektur
+### Aktualisierte Architektur
 
-Adobe Journey Optimizer B2B Edition ist jetzt in einer vereinfachten Architektur verfügbar. Mit dieser aktualisierten Architektur befinden sich Journey Optimizer B2B Edition und Marketo Engage nicht mehr im selben System und im selben Datenspeicher. Journey Optimizer B2B Edition empfängt Daten nur von Adobe Experience Platform. Es ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Konfigurationsfunktionen angewiesen, um das System bereitzustellen und zu konfigurieren.
+Mit der aktualisierten Architektur befinden sich Journey Optimizer B2B Edition und Marketo Engage nicht auf demselben System und in demselben Datenspeicher. Journey Optimizer B2B Edition empfängt Daten von Adobe Experience Platform. Es ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Konfigurationsfunktionen angewiesen, um das System bereitzustellen und zu konfigurieren.
 
-Diese aktualisierte Architektur bietet mehrere Vorteile:
+>[!NOTE]
+>
+>In früheren Versionshinweisen wurde diese Bereitstellung als &quot;*Architektur“*. Dieses Modell ist jetzt die standardmäßige Journey Optimizer B2B Edition-Implementierung.
+
+Diese Implementierung bietet mehrere Vorteile:
 
 * **Vereinheitlichen und Skalieren Ihrer Daten**: Die aktualisierte Plattform unterstützt komplexe Datenmodelle, einschließlich benutzerdefinierter Objekte, Käufergruppen und Kontoereignisse.
 * **Verbinden mehrerer Adobe Marketo Engage-Instanzen**: Verwalten und vereinheitlichen Sie Daten aus mehreren Adobe Marketo Engage-Umgebungen an einem Ort.
@@ -130,9 +134,9 @@ Diese aktualisierte Architektur bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Wenn Ihre Umgebung auf dieser Architektur bereitgestellt ist, lesen Sie die [Konfigurationsrichtlinien](../simplified-architecture.md).
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
-Mit der vereinfachten Architektur sind die folgenden neuen Funktionen und Verbesserungen in der Version 2025.10 verfügbar:
+Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
@@ -141,15 +145,6 @@ Mit der vereinfachten Architektur sind die folgenden neuen Funktionen und Verbes
 | Funktion | Deduplizierung bei E-Mail-Müdigkeit | Sie können jetzt E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass eine E-Mail im Rahmen einer Journey nicht mehrmals an dieselbe Adresse geschickt wird. Doppelte Adressen werden blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat.  [Weitere Informationen](../content/email-deduplication.md) |
 | Verbesserung | Gewichtung der Interaktionswerte - AEP-Ereignisse | Die Gewichtung der Interaktionswerte kann jetzt jedes standardmäßige oder benutzerdefinierte Experience Platform-Ereignis enthalten und entsprechend Ihren Anforderungen gewichtet werden. [Weitere Informationen](../admin/engagement-score-weighting.md) |
 | Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B edition. [Weitere Informationen](../admin/configure-channels-emails.md#communication-limits) |
-
-<!--
- There are additional functional changes with the simplified architecture:
-
-| Item | Description |
-| ---- | ----------- |
-| Asset management | The system supports an internal asset repository where you can organize folders, edit images, import images, and remove images. It does not support Marketo Engage Design Studio workspaces for asset management. |
-| | |
--->
 
 ## Versionshinweise für 2025.9 {#rel-2025-9}
 

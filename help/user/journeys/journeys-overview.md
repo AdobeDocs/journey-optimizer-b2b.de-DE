@@ -4,9 +4,9 @@ description: Optimieren Sie die Nachfragegenerierung mit Journey - Erstellen, ve
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-source-git-commit: 0e79785bd8baf3914127cc650b8e503a8d461a3d
+source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1520'
 ht-degree: 44%
 
 ---
@@ -66,7 +66,7 @@ Um die angezeigte Liste nach Namen zu filtern, geben Sie im Tool _Suchen_ oben i
 
 >[!TAB Personen-Journey (Beta)]
 
-[!BADGE Beta]{type=Informative tooltip="Verfügbar als Beta-Funktion in der vereinfachten Architektur"}
+[!BADGE Beta]{type=Informative tooltip="Als Beta-Funktion verfügbar"}
 
 Erweitern Sie im linken Navigationsbereich die Option **[!UICONTROL Journey-]** und klicken Sie auf **[!UICONTROL Personen-Journey]**.
 
@@ -103,11 +103,11 @@ Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Ak
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Entwurf**&#x200B;_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-a-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn eine Journey veröffentlicht wird. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
-| _&#x200B;**Für neue Eintritte geschlossen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
-| _&#x200B;**Abgebrochen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Beendet**&#x200B;_ | Wenn alle Mitglieder der Konto- oder Personen-Zielgruppe auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Abgeschlossen_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-a-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Live**_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn eine Journey veröffentlicht wird. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
+| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
+| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Beendet**_ | Wenn alle Mitglieder der Konto- oder Personen-Zielgruppe auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Abgeschlossen_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
 
 ## Journey-Maps
 
@@ -219,4 +219,4 @@ Wenn Sie den Knoten auswählen, klicken Sie auf die Zahl, um eine Liste der Kont
 
 ## Übersichtsvideo zur Account-Journey {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443216/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)
