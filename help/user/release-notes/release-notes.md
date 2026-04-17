@@ -3,10 +3,10 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: fcc2d738bd22b7fd38e4d086f36d675945600520
 workflow-type: tm+mt
-source-wordcount: '4838'
-ht-degree: 70%
+source-wordcount: '4794'
+ht-degree: 71%
 
 ---
 
@@ -18,15 +18,21 @@ Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] a
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
 
-<!-- ## 2026.4 release notes {#rel-2026-4}
+<!--
+## 2026.4/5 release notes {#rel-2026-5}
 
-**Deployment date**: May 1, 2026
+**Deployment date**: May 15, 2026
 
 | Type | Item | Description |
 | ---- | ---- | ----------- |
 | Feature | Landing pages | Marketers can now create and publish landing pages in Journey Optimizer B2B Edition to support journeys and programs _(previously a Beta program feature)_. |
 | Feature | Forms | Marketers can now create and publish re-usable form components to enable data submission from landing pages that are created and published in Journey Optimizer B2B Edition _(previously a Beta program feature)_. |
-| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | -->
+| Enhancement | Activate to destinations - Reusable audiences | You can now reuse virtual audiences in _Activate to destination_ journey actions within the same journey and remove accounts from virtual audiences. | 
+
+>[!NOTE]
+>
+>These release changes begin deployment on May 15, 2026, with a phased rollout of each feature and enhancement. Release dates for features and enhancements are subject to change.
+-->
 
 ## Versionshinweise für 2026.3 {#rel-2026-3}
 
@@ -41,7 +47,6 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Verbesserung | E-Mail senden - Optimierung des Versandzeitpunkts | Für Aktionsknoten _E-Mail senden_ in Personen-Journey können Sie Optionen _Sendezeitoptimierung_ verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil am wahrscheinlichsten interagiert. [Weitere Informationen](../content/email-send-time-optimization.md) |
 | Verbesserung | Design-Tools für E-Mail-Vorlagen - Erweiterter HTML-Modus | Mit _Erweiterter HTML_ im Design-Bereich für E-Mail-Vorlagen können Benutzende kleinere HTML-/CSS-Änderungen vornehmen und Skript-Tags zu einer E-Mail-Vorlage hinzufügen, um Rendering-Probleme zu beheben. [Weitere Informationen](../content/email-template-advanced-html.md) |
 | Verbesserung | Benutzerdefinierte Objekte für Personen - Vorlagen für Gruppenrollen kaufen | Wenn Admins benutzerdefinierte Objekte konfigurieren, die mit einem Geschäftspersonenprofil verknüpft sind, können Marketing-Experten jetzt Käufergruppenrollen mithilfe dieser benutzerdefinierten Objekte definieren. [Weitere Informationen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) |
-| Verbesserung | Bewertung von E-Mail-Inhalten - Validierung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. |
 | Verbesserung | Bewertung von E-Mail-Inhalten - Bewertung der Inhaltsqualität | Zusätzlich zur Markenausrichtung können Sie die allgemeine Inhaltsqualität bewerten, um potenzielle Probleme mit Lesbarkeit, Zusammenhalt und Effektivität aufzudecken (unabhängig von Ihren Markenrichtlinien). Diese automatisierten Prüfungen helfen bei der Erkennung von unklaren Botschaften, inkonsistentem Ton oder strukturellen Lücken. [Weitere Informationen](../content/content-evaluation.md) |
 
 <!--
@@ -134,7 +139,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
