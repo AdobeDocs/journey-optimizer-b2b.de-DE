@@ -17,7 +17,7 @@ Das Journey Optimizer B2B Edition-Setup umfasst die Konfiguration der Experience
 
 >[!AVAILABILITY]
 >
->- Sie müssen Zugriff auf [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} haben, damit Ihre B2B-Schemata im [Echtzeit-Kundenprofil) ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home){target="_blank"} werden können.
+>- Sie müssen Zugriff auf [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} haben, damit Ihre B2B-Schemata im [Echtzeit-Kundenprofil) &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home){target="_blank"} werden können.
 >
 >- Ihre Experience Platform B2B-Entitäten müssen die Standardbeziehungen verwenden, die im Handbuch [B2B-Namespaces und -Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} beschrieben sind.
 
@@ -27,7 +27,7 @@ Das Journey Optimizer B2B Edition-Setup umfasst die Konfiguration der Experience
 
 In den folgenden Ressourcen finden Sie die Voraussetzungen und detaillierte Informationen zum Einrichten Ihrer [!DNL Postman]-Umgebung zur Unterstützung des B2B-Namespace- und des Dienstprogramms zur automatischen Schemaerstellung.
 
-- Laden Sie die Sammlung und Umgebung des Dienstprogramms zur automatischen Schemaerstellung aus dem GitHub[Repository ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
+- Laden Sie die Sammlung und Umgebung des Dienstprogramms zur automatischen Schemaerstellung aus dem GitHub[Repository &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
 - Informationen zur Verwendung von Experience Platform-APIs, einschließlich Details zum Erfassen von Werten für erforderliche Kopfzeilen und zum Lesen von Beispiel-API-Aufrufen, finden [_unter „Erste Schritte mit Adobe Experience Platform-APIs_](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}.
 - Informationen zum Generieren Ihrer Anmeldeinformationen für Experience Platform-APIs finden Sie unter [_Authentifizieren und Zugreifen auf Experience Platform-APIs_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
 - Informationen zum Einrichten von [!DNL Postman] für Experience Platform-APIs finden Sie unter [_[!DNL Postman] in Adobe Experience Platform _](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
@@ -66,7 +66,7 @@ Bei einer erfolgreichen Anfrage werden die erforderlichen B2B-Namespaces und -Sc
 
 ## B2B-Namespaces
 
-Identity-Namespaces sind eine Komponente von Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home){target="_blank"}, die dazu dienen, den Kontext einer Identität zu unterscheiden. Eine vollqualifizierte Identität enthält einen Identitätswert und einen Namespace. Weitere [ finden Sie unter ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} von Namespaces .
+Identity-Namespaces sind eine Komponente von Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home){target="_blank"}, die dazu dienen, den Kontext einer Identität zu unterscheiden. Eine vollqualifizierte Identität enthält einen Identitätswert und einen Namespace. Weitere [&#x200B; finden Sie unter &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} von Namespaces .
 
 B2B-Namespaces werden in der primären Identität der Entität verwendet.
 
