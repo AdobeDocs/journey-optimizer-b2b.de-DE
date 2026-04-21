@@ -4,10 +4,10 @@ description: Verwenden Sie die XDM-Feldverwaltung, um die Daten zu steuern, die 
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 95%
+source-wordcount: '1180'
+ht-degree: 90%
 
 ---
 
@@ -63,7 +63,7 @@ Zu den angezeigten Klasseninformationen gehören:
 * Anzahl der aktualisierbaren Felder
 * Zeitpunkt der letzten Aktualisierung
 
-Um Felder aus dem Vereinigungsschema für Standard-XDM-Klassen auszuwählen, klicken Sie auf den Klassennamen, um das Auswahldialogfeld _Verwaltete Felder_ zu öffnen, oder klicken Sie auf das Symbol _Mehr_ ( **…** ), um zwischen _[!UICONTROL Verwaltete Felder]_ und _[!UICONTROL Aktualisierbare Felder]_ wählen.
+Um Felder aus dem Vereinigungsschema auszuwählen, klicken Sie auf den Klassennamen, um das Auswahldialogfeld Verwaltete Felder zu öffnen. Oder klicken Sie auf das Menü _Mehr_ (**…**) und wählen Sie zwischen verwalteten und aktualisierbaren Feldern.
 
 ![Klicken Sie auf das Menüsymbol Mehr , um zwischen verwalteten Feldern und aktualisierbaren Feldern zu wählen](./assets/xdm-classes-standard-more-menu.png){width="550" zoomable="yes"}
 
@@ -87,7 +87,7 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 Journey Legen Sie die aktualisierbaren Felder fest, um auszuwählen, welche Felder durch die Aktionen **[!UICONTROL Kontoprofil aktualisieren]** oder **[!UICONTROL Personenprofil aktualisieren]** geändert werden können.
 
-Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
+Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
 >[!IMPORTANT]
 >
@@ -108,7 +108,7 @@ Erstellen Sie einen Datensatz für ein individuelles Profil und einen anderen f�
 
 ### Relationale Schemata
 
-Mit relationalen Schemata können Sie benutzerdefinierte Datenklassen erstellen. Mit Zugriff auf mehrere Datensätze können Sie Klassen erstellen, die speziell auf Ihre Datenanforderungen zugeschnitten sind. Verwenden Sie relationale Schemata für Geschäftsentitäten wie Käufe, Lizenzen und Ereignisregistrierungen beim Journey von Entscheidungen und bei der E-Mail-Personalisierung. Sie können bis zu 20 Schemata und bis zu 50 Felder pro Schema auswählen.
+Mit relationalen Schemata können Sie benutzerdefinierte Datenklassen erstellen. Mit Zugriff auf mehrere Datensätze können Sie Klassen erstellen, die speziell auf Ihre Datenanforderungen zugeschnitten sind. Verwenden Sie relationale Schemata für Geschäftsentitäten, z. B. Käufe, Lizenzen und Ereignisregistrierungen, beim Journey von Entscheidungen und bei der E-Mail-Personalisierung. Sie können bis zu 20 Schemata und bis zu 50 Felder pro Schema auswählen.
 
 Es gibt mehrere Funktionen, die die Verwendung der konfigurierten relationalen Schemata und Felder unterstützen:
 
@@ -118,7 +118,7 @@ Es gibt mehrere Funktionen, die die Verwendung der konfigurierten relationalen S
 
 >[!AVAILABILITY]
 >
->Die [relationalen Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Die [relationalen Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ So wählen Sie relationale Schemafelder zur Verwendung in [!DNL Journey Optimize
 
    Sie können den Namespace nur einmal festlegen und diese Aktion nicht rückgängig machen.
 
-   ![Der Standard-Namespace im Dialogfeld Namespace erstellen &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Der Standard-Namespace im Dialogfeld Namespace erstellen ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Überprüfen Sie die Felder des relationalen Schemas.
 

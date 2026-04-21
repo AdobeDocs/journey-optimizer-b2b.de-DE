@@ -4,10 +4,10 @@ description: Konfigurieren Sie Marketo Engage-Optionen für den Journey Optimize
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-source-git-commit: 0a9cff812d0631a34a09cca059ffb8496248c2b4
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 83%
+source-wordcount: '1326'
+ht-degree: 73%
 
 ---
 
@@ -51,14 +51,14 @@ Bei nicht-operativen Marketing-E-Mails werden Text und Links zur Abmeldung unten
 
    >[!CAUTION]
    >
-   >Die folgenden Variablen sind wichtig. **Löschen Sie** nicht.
+   >Die folgenden Variablen sind wichtig. **Nicht löschen**.
    >
    >* `%mkt_opt_out_prefix%`
    >* `mkt_unsubscribe=1&mkt_tok=##MKT_TOK##`
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 
-Wenn Sie jemals zum Standardsysteminhalt zurückkehren müssen, kopieren Sie Folgendes:
+Wenn Sie zum standardmäßigen Systeminhalt zurückkehren müssen, kopieren Sie Folgendes und fügen Sie es ein:
 
 +++ Standardtext zur Abmeldung
 
@@ -81,7 +81,7 @@ E-Mail-Inhalte haben eingeschränkte Anzeigefunktionen (eingeschränktes CSS und
 
    >[!CAUTION]
    >
-   >Die folgenden Variablen sind wichtig. **Löschen Sie** nicht.
+   >Die folgenden Variablen sind wichtig. **Nicht löschen**.
    >
    >`%mkt_webview_url%?mkt_tok=##MKT_TOK##`
    >
@@ -125,26 +125,26 @@ _So ändern Sie das Limit :_
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Admin]** in der angehängten Marketo Engage-Instanz und wählen Sie **[!UICONTROL E-Mail]** aus.
 
-1. Scrollen Sie zum _[!UICONTROL Benutzerdefinierte Objektabrufbeschränkungen]_ und geben Sie einen neuen Wert in das **[!UICONTROL Übergeordnetes Objektabruflimit“]**
+1. Scrollen Sie zum _[!UICONTROL Benutzerdefinierte Objektabrufbeschränkungen]_ und geben Sie einen neuen Wert im **[!UICONTROL Übergeordnetes Objektabruflimit“ ein]**
 Feld.
 
    ![Marketo Engage-E-Mail-Administrator - Standardwerte für benutzerdefinierte Objektabrufe sind begrenzt](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
-   Es werden Werte von 10 bis 100 unterstützt. Das _[!UICONTROL Limit für untergeordnete]_&quot; wird automatisch festgelegt, indem 1.000 durch das übergeordnete Limit geteilt wird. Wenn Sie beispielsweise das übergeordnete Limit auf 50 festlegen, wird das untergeordnete Limit als 20 berechnet (1000 ÷ 50 = 20).
+   Es werden Werte von 10 bis 100 unterstützt. Das System legt automatisch das Limit _[!UICONTROL Untergeordneter Abruf]_ fest, indem 1000 durch das übergeordnete Limit dividiert werden. Wenn Sie beispielsweise das übergeordnete Limit auf 50 festlegen, wird das untergeordnete Limit als 20 berechnet (1000 ÷ 50 = 20).
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 
 ## Benutzerdefinierte Kopfzeilenoptionen
 
-Ändern Sie die _[!UICONTROL Benutzerdefinierte Kopfzeilenoptionen)]_ E-Mail, um E-Mail-Tracking-Link-Kopfzeilen zu konfigurieren. Aktivieren Sie diese Optionen, um sichere Tracking-Links mit HTTPS unter Verwendung des strikten Transports zu implementieren.
+Ändern Sie die _[!UICONTROL Benutzerdefinierte Kopfzeilenoptionen)]_ E-Mail, um E-Mail-Tracking-Link-Kopfzeilen zu konfigurieren. Aktivieren Sie diese Optionen, um sichere Tracking-Links mit HTTPS mit Strict Transport zu implementieren.
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Admin]** in der angehängten Marketo Engage-Instanz und wählen Sie **[!UICONTROL E-Mail]** aus.
 
 1. Scrollen Sie zum Bedienfeld _[!UICONTROL Benutzerdefinierte Kopfzeilenoptionen]_ und ändern Sie die Einstellung entsprechend Ihren Richtlinien zum Tracking von Links:
 
-   ![Marketo Engage-E-Mail-Admin - Standardeinstellungen für benutzerdefinierte Header-Optionen](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
+   ![Marketo Engage-E-Mail-Admin - Standardeinstellungen für benutzerdefinierte Header-Optionen](./assets/me-admin-email-custom-header-options.png){width="500"}
 
-   * **[!UICONTROL Strenge Transportsicherheit]** - Legen Sie diese Option auf Aktiviert fest, um zu gewährleisten, dass Tracking-Links immer über HTTPS bereitgestellt werden (sollte nur für Abonnements mit Tracking-Links festgelegt werden, die über SSL gesichert sind).
+   * **[!UICONTROL Strenge Transportsicherheit]** - Legen Sie diese Option auf _Aktiviert_ fest, um sicherzustellen, dass Tracking-Links immer über HTTPS bereitgestellt werden. Aktivieren Sie diese Option nur für Abonnements mit SSL-gesicherten Tracking-Links.
    * **[!UICONTROL Max-age]** - Dieses Feld unterstützt die obligatorische Anweisung, die Zeit in Sekunden anzugeben, die der Browser daran denken soll, nur auf die Domain über HTTPS zuzugreifen.
    * **[!UICONTROL IncludeSubDomains]** - Verwenden Sie diese Option, um die Direktive einzuschließen, die die HSTS-Richtlinie auf alle Subdomains des Hosts anwendet.
 
@@ -158,8 +158,8 @@ Feld.
 
 Die Aktivität „E-Mail-Bot“, auch als Nicht-menschliche Interaktionen (NHI) bezeichnet, kann Ihre E-Mail-Daten _Öffnungen_ und _Klicks_ aufblähen, Ihre Interaktionsmetriken verzerren und einen ereignisbasierten Journey-Fortschritt auslösen. Verwenden Sie die E-Mail-Bot-Filterung , um die Integrität von Metriken und Einblicken zu Klick-Interaktionen aufrechtzuerhalten. Es gibt zwei Methoden, um verdächtige Bot-Aktivitäten zu identifizieren:
 
-* _&#x200B;**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**&#x200B;_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
-* _&#x200B;**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**&#x200B;_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
+* _**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
+* _**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
    * Lead-ID (muss gleich sein)
    * E-Mail-Asset (muss dasselbe sein)
    * Link-Klick oder E-Mail öffnen
@@ -199,7 +199,7 @@ Für die Aktivität E-Mail-Link-Klick und E-Mail-Öffnen werden Attribute mit de
 
 ### IP-Blockierungsliste
 
-Adobe hat eine Liste von IP-Adressen identifiziert, die für die Generierung von Millionen von gefälschten Interaktionen verantwortlich sind, da solche Interaktionen, die von einer der folgenden IPs empfangen werden, automatisch herausgefiltert und nicht zu Ihrer Marketo Engage-Instanz hinzugefügt werden. Diese Filterung kann zu einer Verringerung der E-Mail-Öffnungen, Klicks und anderer damit verbundener Aktivitäten führen. Diese Liste kann regelmäßig aktualisiert werden.
+Adobe hat IP-Adressen identifiziert, die für die Erstellung gefälschter Interaktionen verantwortlich sind. Die Interaktion mit diesen IPs wird automatisch gefiltert und von Ihrer Marketo Engage-Instanz ausgeschlossen. Diese Filterung kann E-Mail-Öffnungen, Klicks und andere verwandte Aktivitäten reduzieren. Diese Liste kann regelmäßig aktualisiert werden.
 
 +++ Blockierte IP-Adressen
 

@@ -3,10 +3,11 @@ title: Konfigurieren von Branding-Domains
 description: Konfigurieren Sie Ihre Branding-Domains so, dass jede Ihrer Marken über eigene Marken-Tracking-Links verfügt.
 feature: Setup, Channels
 role: Admin
-source-git-commit: 023e44e1ad2baed2a5586d95a26ef8693020667a
+exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 1%
+source-wordcount: '1014'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +23,7 @@ Eine Branding-Domain in Marketo Engage ist eine benutzerdefinierte Subdomain (z.
 
 **Eindeutige CNAMEs für Tracking-Links**
 
-E-Mail-Tracking-Links müssen neu und für die angehängte Marketo Engage-Instanz eindeutig sein. Wenn Sie über CNAMEs für Tracking-Links verfügen, die auf eine bereits vorhandene (Produktions-)Marketo Engage-Instanz verweisen, können diese nicht unverändert _werden_.
+E-Mail-Tracking-Links müssen neu und für die angehängte Marketo Engage-Instanz eindeutig sein. Wenn Sie über CNAMEs für das Tracking von Links verfügen, die auf eine bereits vorhandene (Produktions-)Marketo Engage-Instanz verweisen, können diese nicht ohne Änderung wiederverwendet werden.
 
 Sie können das Domain-Branding für Rückgabepfade zwischen Ihrer Marketo Engage-Produktionsinstanz und der angehängten Instanz freigeben. Dies ist jedoch eine Backend-Änderung. Öffnen Sie ein Support-Ticket und geben Sie Ihr Marketo Engage-Präfix (Munchkin ID) und Ihr neues Journey Optimizer B2B edition-Präfix (Munchkin ID) an, um das freigegebene Domain-Branding für Rückpfade anzufordern.
 
@@ -30,7 +31,7 @@ Sie können das Domain-Branding für Rückgabepfade zwischen Ihrer Marketo Engag
 
 >[!PREREQUISITES]
 >
->Bevor Sie eine Domain in der Benutzeroberfläche bearbeiten oder hinzufügen, müssen Sie über einen [zugeordneten CNAME zu einer von Adobe bereitgestellten Marketo Engage-Domain](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} verfügen.
+>Bevor Sie eine Domain in der Benutzeroberfläche bearbeiten oder hinzufügen, müssen Sie über einen [zugeordneten CNAME zu einer von Adobe bereitgestellten Marketo Engage-Domain](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} verfügen.
 >
 >Beim Hinzufügen einer Domain sucht das System nach bereits vorhandenen SSLs, die möglicherweise zuvor manuell erstellt wurden. Wenn diese Validierung auftritt, erstellen Sie Ihre Domain, ohne die SSL-Erstellung auszuwählen, und verbinden Sie sie dann als separates Verfahren.
 
@@ -70,7 +71,7 @@ Der erste Schritt bei der Arbeit mit Branding-Domains besteht darin, die in Ihre
 
 ## Definieren einer zusätzlichen Domain
 
-Nachdem Sie die Standard-Domain bearbeitet haben, können Sie eine weitere Branding-Domain hinzufügen, wenn Sie mehrere Marken in Ihrer Journey Optimizer B2B edition-Umgebung ausführen möchten, von denen jede über eigene Branding-Tracking-Links verfügt. Beim Hinzufügen einer Domain stehen die folgenden Optionen zur Verfügung:
+Nachdem Sie die Standard-Domain bearbeitet haben, können Sie eine weitere Branding-Domain hinzufügen, um mehrere Marken in Ihrer Journey Optimizer B2B Edition-Umgebung zu unterstützen, wobei jede über eigene Branding-Tracking-Links verfügt. Beim Hinzufügen einer Domain stehen die folgenden Optionen zur Verfügung:
 
 >* _Primäre Domain festlegen_: Wählen Sie diese als primäre Domain für den Arbeitsbereich aus. Wenn Sie diese Option auswählen, werden alle vorhandenen nicht gesendeten E-Mails auf die standardmäßige primäre Domain eingestellt und alle neu erstellten E-Mails werden automatisch auf diese primäre Domain eingestellt. Marketer können bei Bedarf eine alternative Branding-Domain auswählen.
 >
@@ -88,11 +89,11 @@ _Domain hinzufügen :_
 
    ![Dialogfeld „Neue Branding-Domain“](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
-   Bei Bedarf und verfügbar können Sie auch das Kontrollkästchen _Primäre Domain erstellen_ aktivieren.
+   Bei Bedarf und nach Verfügbarkeit können Sie auch das Kontrollkästchen _Primäre Domain erstellen_ aktivieren.
 
    >[!NOTE]
    >
-   >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
+   >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://experienceleague.adobe.com/en/support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
 
 1. Wenn Sie mehrere Arbeitsbereiche für Ihre Marketo Engage-Instanz definiert haben, klicken Sie auf **[!UICONTROL Weiter]**.
 
