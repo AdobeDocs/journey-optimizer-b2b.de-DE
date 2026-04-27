@@ -1,12 +1,12 @@
 ---
 title: Verwenden von Marken für die Inhaltserstellung und -konsistenz
-description: Definieren Sie Markenrichtlinien für die konsistente Inhaltserstellung - Pflegen Sie visuelle Identität, Messaging-Ausrichtung und authentische Stimme in Journey Optimizer B2B edition.
+description: Definieren Sie Markenrichtlinien für die konsistente Inhaltserstellung - Pflegen Sie visuelle Identität, Messaging-Ausrichtung und authentische Stimme in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 83d210bc-a204-4b7e-8b7e-07b0ec5413b9
-source-git-commit: 59236e07cbdd7beb4c960db1a4b0cb63bb123727
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 12%
@@ -47,9 +47,9 @@ Ihr Unternehmen kann durch die Verwendung einer Marke bei der Erstellung und Bew
 >
 >Diese Funktion ist derzeit als öffentliche Betaversion verfügbar.
 >
->Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B Edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Eine definierte Marke stellt die _Quelle der Wahrheit_ bereit, die Ihr Kreativ-Team beim Erstellen visueller oder schriftlicher Inhalte verwenden kann. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. Führen Sie die folgenden Schritte aus, um die Erstellung von markeninternen Inhalten in Journey Optimizer B2B edition zu aktivieren:
+Eine definierte Marke stellt die _Quelle der Wahrheit_ bereit, die Ihr Kreativ-Team beim Erstellen visueller oder schriftlicher Inhalte verwenden kann. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. Führen Sie die folgenden Schritte aus, um die Erstellung von markeninternen Inhalten in Journey Optimizer B2B Edition zu aktivieren:
 
 1. Vorbereiten der Markendefinition.
 
@@ -59,13 +59,14 @@ Eine definierte Marke stellt die _Quelle der Wahrheit_ bereit, die Ihr Kreativ-T
 
 1. Stellen Sie diese Informationen in einer oder mehreren PDF-Dateien zusammen.
 
-1. Verwenden Sie die PDF-Datei, um [Marke zu erstellen](./brands-manage-create.md#create-and-define-a-brand) in Journey Optimizer B2B edition.
+1. Verwenden Sie die PDF-Datei, um [Marke zu erstellen](./brands-manage-create.md#create-and-define-a-brand) in Journey Optimizer B2B Edition.
 
 1. Wenn es einsatzbereit ist, [veröffentlichen Sie die Marke](./brands-manage-create.md#publish-the-brand).
 
 1. Verwenden Sie die Marke für [Ausrichtung des E-Mail-Inhalts](./content-evaluation.md#brand-alignment-score).
 <!-- 
-1. Use the brand to generate content. -->
+1. Use the brand to generate content. 
+-->
 
 >[!BEGINSHADEBOX]
 

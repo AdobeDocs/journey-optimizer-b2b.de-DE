@@ -1,10 +1,11 @@
 ---
 title: Erweiterter HTML-Modus für das Design von E-Mail-Vorlagen
-description: Verwenden Sie den erweiterten HTML-Modus, um die unformatierte HTML-Quelle Ihres Inhalts Ihrer E-Mail-Vorlage direkt im E-Mail-Design-Bereich in Journey Optimizer B2B edition anzuzeigen und zu bearbeiten.
+description: Verwenden Sie den erweiterten HTML-Modus, um die unformatierte HTML-Quelle Ihres Inhalts Ihrer E-Mail-Vorlage direkt im E-Mail-Design-Bereich in Journey Optimizer B2B Edition anzuzeigen und zu bearbeiten.
 feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
-source-git-commit: 95dba963e08125370f998cf3960d51ede94c2fb9
+exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
+source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -15,10 +16,12 @@ ht-degree: 0%
 
 _Erweiterter HTML-Modus_ bietet eine Ansicht, mit der erfahrene Benutzende den Rohcode für den Inhalt von E-Mail-Vorlagen direkt anzeigen und bearbeiten können. Dieser Modus ist ideal, wenn Sie anspruchsvolle Ausdrücke wie bedingte Logik direkt in die Quelle einfügen möchten. Sie ist auch für strukturelle Anpassungen nützlich, die über das hinausgehen, was die visuellen Entwurfswerkzeuge verfügbar machen.
 
-<!-- We don't have the code editor at this point 
+<!-- 
+We don't have the code editor at this point 
 >[!NOTE]
 >
->_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. -->
+>_Advanced HTML mode_ is different from the code editor option that is available when you start a new design. The code editor does not allow you to change to the visual design space. With _advanced HTML mode_, you can toggle back and forth between the HTML source view and the visual design view at any time. 
+-->
 
 >[!AVAILABILITY]
 >
@@ -69,7 +72,7 @@ Der erweiterte HTML-Modus ist über die Symbolleiste oben im visuellen Design-Be
 
    Inhaltssimulation und -speicherung sind im erweiterten HTML-Modus aus Kompatibilitätsgründen nicht verfügbar. Sie können zur Desktop-Ansicht zurückkehren, um eine Vorschau Ihres Inhalts anzuzeigen und die Vorlage zu speichern. Alle vorgenommenen Änderungen bleiben beim Wechseln zwischen der HTML-Quellansicht und der visuellen Entwurfsansicht erhalten.
 
-   Wenn Sie im erweiterten HTML-Modus oben **auf**&#x200B;[!UICONTROL &#x200B; Speichern &#x200B;]&#x200B;**oder** Speichern und schließen klicken, werden Sie in einem Warndialogfeld darüber informiert, dass Sie den erweiterten HTML-Modus beenden müssen, bevor Sie die Vorlage speichern und den Design-Bereich verlassen.
+   Wenn Sie im erweiterten HTML-Modus oben ]**auf**[!UICONTROL  Speichern ]**oder**[!UICONTROL  Speichern und schließen klicken, werden Sie in einem Warndialogfeld darüber informiert, dass Sie den erweiterten HTML-Modus beenden müssen, bevor Sie die Vorlage speichern und den Design-Bereich verlassen.
 
    ![Das Dialogfeld „Warnhinweise“ für das Speichern ist im erweiterten HTML-Modus deaktiviert](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
 
