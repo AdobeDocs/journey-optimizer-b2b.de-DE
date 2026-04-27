@@ -72,7 +72,7 @@ Der erweiterte HTML-Modus ist über die Symbolleiste oben im visuellen Design-Be
 
    Inhaltssimulation und -speicherung sind im erweiterten HTML-Modus aus Kompatibilitätsgründen nicht verfügbar. Sie können zur Desktop-Ansicht zurückkehren, um eine Vorschau Ihres Inhalts anzuzeigen und die Vorlage zu speichern. Alle vorgenommenen Änderungen bleiben beim Wechseln zwischen der HTML-Quellansicht und der visuellen Entwurfsansicht erhalten.
 
-   Wenn Sie im erweiterten HTML-Modus oben ]**auf**[!UICONTROL  Speichern ]**oder**[!UICONTROL  Speichern und schließen klicken, werden Sie in einem Warndialogfeld darüber informiert, dass Sie den erweiterten HTML-Modus beenden müssen, bevor Sie die Vorlage speichern und den Design-Bereich verlassen.
+   Wenn Sie im erweiterten HTML-Modus oben **auf**&#x200B;[!UICONTROL &#x200B; Speichern &#x200B;]&#x200B;**oder** Speichern und schließen klicken, werden Sie in einem Warndialogfeld darüber informiert, dass Sie den erweiterten HTML-Modus beenden müssen, bevor Sie die Vorlage speichern und den Design-Bereich verlassen.
 
    ![Das Dialogfeld „Warnhinweise“ für das Speichern ist im erweiterten HTML-Modus deaktiviert](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
 
