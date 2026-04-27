@@ -4,10 +4,10 @@ description: Verwenden Sie die XDM-Feldverwaltung, um die Daten zu steuern, die 
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+source-git-commit: d07545fbe58d994cf7aa5f4d14deca8d046d1320
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 90%
+source-wordcount: '1189'
+ht-degree: 87%
 
 ---
 
@@ -87,13 +87,13 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 Journey Legen Sie die aktualisierbaren Felder fest, um auszuwählen, welche Felder durch die Aktionen **[!UICONTROL Kontoprofil aktualisieren]** oder **[!UICONTROL Personenprofil aktualisieren]** geändert werden können.
 
-Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
+Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
 >[!IMPORTANT]
 >
 >Leitplanken für aktualisierbare Felder:
 >
->* Schemata : In der Klasse „XDM Individual Profile“ müssen alle erforderlichen Felder im Schema systemdefiniert sein, z. B. `identityMap` oder `personID`.
+>* Schemata : Das Schema muss die primäre Identität für B2B-Personen (`b2b.personKey.sourceKey`) verwenden. In der Klasse „XDM Individual Profile“ müssen alle erforderlichen Felder im Schema systemdefiniert sein, z. B. `identityMap` oder `personID`.
 >* Datensätze : Verwenden Sie keinen Datensatz, der bereits für einen anderen Zweck verwendet wird. Es empfiehlt sich, dedizierte Datensätze speziell zum Speichern aktualisierbarer Felder zu erstellen. Verwenden Sie für jede XDM-Klasse einen separaten Datensatz.
 
 Erstellen Sie einen Datensatz für ein individuelles Profil und einen anderen für ein Geschäftskonto. Wählen Sie während des Konfigurationsprozesses jeden neuen Datensatz aus:
@@ -118,7 +118,7 @@ Es gibt mehrere Funktionen, die die Verwendung der konfigurierten relationalen S
 
 >[!AVAILABILITY]
 >
->Die [relationalen Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Die [relationalen Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ So wählen Sie relationale Schemafelder zur Verwendung in [!DNL Journey Optimize
 
    Sie können den Namespace nur einmal festlegen und diese Aktion nicht rückgängig machen.
 
-   ![Der Standard-Namespace im Dialogfeld Namespace erstellen &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Der Standard-Namespace im Dialogfeld Namespace erstellen ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Überprüfen Sie die Felder des relationalen Schemas.
 
