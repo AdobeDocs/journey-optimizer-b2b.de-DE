@@ -29,7 +29,7 @@ Wenn Sie eine geringfügige Aktualisierung beitragen:
 1. Im _War dieser Inhalt hilfreich?_ -Banner am unteren Rand Ihres Browser-Fensters, klicken Sie auf **Detaillierte Feedback-Optionen**.
 1. Klicken Sie **Bearbeiten vorschlagen** und senden Sie eine Pull-Anfrage (PR) mit Ihren Änderungen in der GitHub-Benutzeroberfläche.
 
-   Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+   Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction).
 
 Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebeispiele in diesem Repository senden, sind durch die Adobe-Nutzungsbedingungen abgedeckt.
 
@@ -43,7 +43,7 @@ Wenn Sie Teil der Adobe-Community sind und ein neues Thema erstellen oder wichti
 
 Community-Mitarbeiter können die GitHub-Benutzeroberfläche zur einfachen Bearbeitung oder zur Abspaltung des Repositorys verwenden, um umfangreiche Beiträge vorzunehmen.
 
-Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction).
 
 ## Interne Mitwirkende
 
