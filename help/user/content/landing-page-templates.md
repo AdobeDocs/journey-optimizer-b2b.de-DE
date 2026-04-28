@@ -1,13 +1,12 @@
 ---
 title: Landingpage-Vorlagen
-description: Landingpage-Vorlagen erstellen, verwalten und wiederverwenden - von Grund auf neu entwerfen, HTML importieren, duplizieren, löschen und die Nutzung für Marketing-Teams in Journey Optimizer B2B Edition verfolgen.
+description: Erstellen, Verwalten und Wiederverwenden von Landingpage-Vorlagen - Erstellen Sie von Grund auf neue Vorlagen, importieren Sie HTML, duplizieren Sie sie, löschen Sie sie und verfolgen Sie die Nutzung durch Marketing-Teams in Journey Optimizer B2B edition.
 feature: Landing Pages, Templates, Content
 role: User
 hide: true
-hidefromtoc: true
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 107879bb-9020-4cf6-897c-75311817899e
-source-git-commit: a99560d6f32222f8912c7711ff1913777a1161b6
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '1290'
 ht-degree: 4%
@@ -20,7 +19,7 @@ Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenstän
 
 ## Zugreifen auf und Verwalten von Landingpage-Vorlagen
 
-Um auf Landingpage-Vorlagen in Adobe Journey Optimizer B2B Edition zuzugreifen, navigieren Sie zu **[!UICONTROL Content-Management]** > **[!UICONTROL Vorlagen]**. Wählen _[!UICONTROL unter]_ im Navigationsbereich die Option **[!UICONTROL Landingpage-Vorlagen]** aus.
+Um auf Landingpage-Vorlagen in Adobe Journey Optimizer B2B edition zuzugreifen, navigieren Sie zu **[!UICONTROL Content-Management]** > **[!UICONTROL Vorlagen]**. Wählen _[!UICONTROL unter]_ im Navigationsbereich die Option **[!UICONTROL Landingpage-Vorlagen]** aus.
 
 Die angezeigte Auflistungsseite enthält alle Landingpage-Vorlagen, die in der im Tabellenformat aufgelisteten Instanz erstellt wurden. Die Tabelle wird standardmäßig nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Vorlagen oben stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
 
@@ -64,7 +63,7 @@ Verwenden Sie den visuellen Design-Bereich, um die Struktur des Inhalts der Land
 
 ### Importieren von HTML
 
-Mit Adobe Journey Optimizer B2B Edition können Sie vorhandene HTML-Inhalte importieren, um Ihre Landingpage-Vorlagen zu gestalten.
+Mit Adobe Journey Optimizer B2B edition können Sie vorhandene HTML-Inhalte importieren, um Ihre Landingpage-Vorlagen zu gestalten.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -140,32 +139,32 @@ Das Entfernen einer Landingpage-Vorlage kann nicht rückgängig gemacht werden. 
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um die Entfernung zu bestätigen.
 
-## Take bulk actions
+## Massenaktionen durchführen
 
-From the landing page templates listing page, select multiple templates at a time by selecting the checkboxes to the left. A banner appears at the bottom when you select multiple templates.
+Wählen Sie auf der Seite mit der Liste der Landingpage-Vorlagen mehrere Vorlagen gleichzeitig aus, indem Sie die Kontrollkästchen links auswählen. Ein Banner wird unten angezeigt, wenn Sie mehrere Vorlagen auswählen.
 
-![A banner displays the number of selected templates and the Delete icon](./assets/templates-multi-select-banner.png){width="600"}
+![Ein Banner zeigt die Anzahl der ausgewählten Vorlagen und das Symbol „Löschen“ an](./assets/templates-multi-select-banner.png){width="600"}
 
-**[!UICONTROL Delete]** -- You can delete up to a maximum of 20 templates at one time. A confirmation dialog allows you to abort the action or confirm the removal of the templates.
+**[!UICONTROL Löschen]** - Sie können bis zu 20 Vorlagen gleichzeitig löschen. In einem Bestätigungsdialogfeld können Sie die Aktion abbrechen oder das Entfernen der Vorlagen bestätigen.
 
-## Author a landing page from a saved template
+## Erstellen einer Landingpage aus einer gespeicherten Vorlage
 
-From the _[!UICONTROL Create your landing page]_ page, use the _Select design template_ section to start building your content from a template.
+Auf der Seite _[!UICONTROL Landingpage erstellen]_ können Sie im Abschnitt _Design-Vorlage auswählen_ mit der Erstellung Ihres Inhalts aus einer Vorlage beginnen.
 
-To start building your content with one of the landing page templates created, use the following steps:
+Um mit der Erstellung Ihres Inhalts mit einer der erstellten Landingpage-Vorlagen zu beginnen, führen Sie die folgenden Schritte aus:
 
-1. Access the visual design space from the _Edit content_ page.
+1. Greifen Sie über die Seite „Inhalt bearbeiten _auf den visuellen_ zu.
 
-   On the _[!UICONTROL Create your landing page]_ page, the _Sample templates_ tab is selected by default.
+   Auf der _[!UICONTROL Landingpage erstellen]_ ist die Registerkarte _Beispielvorlagen_ standardmäßig ausgewählt.
 
-1. To use a custom landing page template, select the **[!UICONTROL Saved templates]** tab.
+1. Um eine benutzerdefinierte Landingpage-Vorlage zu verwenden, wählen Sie die Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** aus.
 
-   This tab displays a list of all landing page templates created on the sandbox. You can sort them _By name_, _Last modified_, and _Last created_.
+   Auf dieser Registerkarte wird eine Liste aller Landingpage-Vorlagen angezeigt, die in der Sandbox erstellt wurden. Sie können sie sortieren _nach_, _Zuletzt geändert_ und _Zuletzt erstellt_.
 
 1. Wählen Sie aus der Liste die gewünschte Vorlage aus.
 
-   After selection, this displays a preview of the template. In preview mode, you can navigate between all the templates of one category (sample or saved, depending on your selection) using the right and left arrows.
+   Nach der Auswahl wird eine Vorschau der Vorlage angezeigt. Im Vorschaumodus können Sie mit den Rechts- und Linkspfeilen zwischen allen Vorlagen einer Kategorie (Beispielvorlage oder gespeicherte Vorlagen, je nach Ihrer Auswahl) navigieren.
 
-1. Click **[!UICONTROL Use this template]** at the top right.
+1. Klicken **[!UICONTROL oben]** auf „Diese Vorlage verwenden“.
 
-1. From the visual content design space, edit your content as needed.
+1. Bearbeiten Sie Ihre Inhalte nach Bedarf im visuellen Inhaltsdesign-Bereich.

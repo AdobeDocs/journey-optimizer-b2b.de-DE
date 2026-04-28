@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 94%
    + [Journey von Konten und Personen](./journeys/journeys-overview.md)
    + [Erstellen und Veröffentlichen einer Journey](./journeys/create-publish-journey.md)
    + [Journey-Wiedereintritt](./journeys/journey-re-entry.md)
-   + [Journey-Knoten](./journeys/journey-nodes.md)
+   + {hide-from-toc}[Journey-Knoten](./journeys/journey-nodes.md)
    + Journey-Knoten {#journey-nodes}
       + [Kontozielgruppe](./journeys/account-audience-nodes.md)
       + [Personen-Zielgruppe (Beta)](./journeys/person-audience-nodes.md)
@@ -119,7 +119,7 @@ ht-degree: 94%
          + [Erweiterte HTML-Bearbeitung](./content/email-template-advanced-html.md)
          + [Konvertieren eines Bilds in eine Vorlage](./content/email-template-image-convert.md)
       + Landingpage-Vorlagen (Beta) {#landing-page-templates}
-         + [Überblick](./content/landing-page-templates.md)
+         + {hide-from-toc}[Übersicht](./content/landing-page-templates.md)
          + [Landingpage-Vorlagen-Design](./content/landing-page-template-design.md)
    + Fragmente {#visual-fragments}
       + [Überblick](./content/fragments.md)
@@ -167,4 +167,4 @@ ht-degree: 94%
       + [WhatsApp-Konfigurationen](./admin/configure-channels-whatsapp.md)
       + [Web-Kanalkonfigurationen (Beta)](./admin/configure-channels-web.md)
       + [Landingpage-Einstellungen (Beta)](./admin/landing-page-settings.md)
-      + [Konfigurieren von Datenströmen für die Ereignissammlung](./data/aep-event-collection.md)
+      + {hide-from-toc}[Konfigurieren von Datenströmen für die Ereignissammlung](./data/aep-event-collection.md)
