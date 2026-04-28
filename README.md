@@ -1,8 +1,8 @@
 ---
 source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 49%
+source-wordcount: '517'
+ht-degree: 46%
 
 ---
 # Artikel beitragen
@@ -11,7 +11,7 @@ Beiträge von der Community und von Adobe-Mitarbeitern außerhalb der Dokumentat
 
 ## Adobe Open Source-Verhaltenskodex
 
-Dieses Projekt beachtet den [Adobe Open Source Code of Conduct](code-of-conduct.md) bzw. den [.NET Foundation Code of Conduct](https://dotnetfoundation.org/about/policies/code-of-conduct). Weitere Informationen finden Sie in [diesem Artikel](contributing.md).
+Für dieses Projekt gilt der [Adobe Open Source-Verhaltenskodex](code-of-conduct.md) oder der [.NET Foundation-Verhaltenskodex](https://dotnetfoundation.org/about/policies/code-of-conduct). Weitere Informationen finden Sie im Artikel [Beitragen](contributing.md).
 
 ## So tragen Sie zu Adobe-Inhalten bei
 
@@ -26,10 +26,10 @@ Dieses Projekt beachtet den [Adobe Open Source Code of Conduct](code-of-conduct.
 Wenn Sie eine geringfügige Aktualisierung beitragen:
 
 1. Navigieren Sie zu dem Thema, das Sie bearbeiten möchten.
-1. In der _War dieser Inhalt hilfreich?_ Banner am unteren Rand Ihres Browser-Fensters klicken Sie auf **Detaillierte Feedback-Optionen**.
+1. Im _War dieser Inhalt hilfreich?_ -Banner am unteren Rand Ihres Browser-Fensters, klicken Sie auf **Detaillierte Feedback-Optionen**.
 1. Klicken Sie **Bearbeiten vorschlagen** und senden Sie eine Pull-Anfrage (PR) mit Ihren Änderungen in der GitHub-Benutzeroberfläche.
 
-   Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction).
+   Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebeispiele in diesem Repository senden, sind durch die Adobe-Nutzungsbedingungen abgedeckt.
 
@@ -43,7 +43,7 @@ Wenn Sie Teil der Adobe-Community sind und ein neues Thema erstellen oder wichti
 
 Community-Mitarbeiter können die GitHub-Benutzeroberfläche zur einfachen Bearbeitung oder zur Abspaltung des Repositorys verwenden, um umfangreiche Beiträge vorzunehmen.
 
-Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/de/docs/contributor/contributor-guide/introduction).
+Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 ## Interne Mitwirkende
 
@@ -56,9 +56,9 @@ Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie m
 * [Markdown-Grundlagen](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 * [GitHub-Dokumente](https://docs.github.com/en)
 
-## Labels
+## Beschriftungen
 
-Im öffentlichen Repository werden automatisierte Labels Pull-Anfragen zugewiesen, damit wir den Workflow für Pull-Anfragen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anfrage passiert:
+Im öffentlichen Repository werden automatisierte Bezeichnungen Pull-Anforderungen zugewiesen, damit wir den Arbeitsablauf für Pull-Anforderungen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anforderung passiert:
 
 * **Change sent to author**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
 * **ready-to-merge**: Bereit zur Überprüfung durch das Überprüfungs-Team für Pull-Anforderungen.
