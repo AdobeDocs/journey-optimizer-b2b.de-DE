@@ -33,7 +33,7 @@ Adobe Experience Manager Cloud Manager ist in Programme unterteilt und jedes Pro
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfiguration]** aus.
 
-1. Klicken Sie im Zwischenbereich ]****[!UICONTROL  Assets.
+1. Klicken Sie im Zwischenbereich **&#x200B;**&#x200B;Assets.
 
    ![Zugriff auf den Assets-Konfigurationsbereich](./assets/configuration-assets-aem.png){width="700" zoomable="yes"}
 
