@@ -4,10 +4,10 @@ description: Verwalten des Benutzerzugriffs mit der Experience Cloud Admin Conso
 feature: Setup, Permissions
 roles: Admin
 exl-id: ddbdc6a5-49bc-46cd-8d9b-1d37223dffe2
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+source-git-commit: 18d38a3e03e1eb275f3aac01c315d0b7e3ddbfab
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 86%
+source-wordcount: '2178'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ Bevor Sie die Admin Console zum Verwalten von Benutzenden in Ihrem Team verwende
 
 1. Als System-Admin sollten Sie im Rahmen des Onboarding-Prozesses mehrere E-Mails von Adobe erhalten.
 
-   Suchen Sie die Begrüßungs-E-Mail mit Informationen zum Namen der Organisation, auf die Sie Zugriff erhalten haben.
+   Suchen Sie nach der Begrüßungs-E-Mail mit Informationen zum Namen der Organisation, auf die Sie Zugriff erhalten haben.
 
 1. Klicken Sie auf **[!UICONTROL Link]** Erste Schritte“ in Ihrer Begrüßungs-E-Mail, um zur Admin Console zu navigieren.
 
@@ -46,11 +46,11 @@ Bevor Sie die Admin Console zum Verwalten von Benutzenden in Ihrem Team verwende
 
    ![Übersicht über Admin Console - auf Administratoren klicken](./assets/admin-console-overview-administrators.png){width="700" zoomable="yes"}
 
-1. Suchen Sie nach Ihrer Adobe ID-E-Mail-Adresse, Ihrem Benutzernamen, Vornamen oder Nachnamen.
+1. Suchen Sie durch Eingabe Ihrer Adobe ID-E-Mail-Adresse, Ihres Benutzernamens, Vor- oder Nachnamens.
 
    * Wenn Ihr Zugriff richtig konfiguriert ist, gibt die Suche Ihren Datensatz zurück.
 
-   * Wenn der Wert in der Spalte **[!UICONTROL ADMIN-]**&quot; `System` anzeigt, ist der angezeigte Benutzer ein Systemadministrator.
+   * Wenn in der Spalte **[!UICONTROL ADMINISTRATORROLLE]** der Wert &quot;`System`&quot; angezeigt wird, bedeutet dies, dass Sie (oder die angezeigte Person) System-Admin sind.
 
 ## Marketo Engage-Produktprofil erstellen {#marketo-engage-profile}
 
@@ -86,7 +86,7 @@ Eine Benutzergruppe ist eine Sammlung von Benutzern, denen ein gemeinsamer Berec
 
 >[!TIP]
 >
->Bei der Migration von einer Legacy-Bereitstellung und beim Hinzufügen von vorhandenen Benutzenden zu Marketo Engage können Sie die Erstellung von Benutzergruppen überspringen und einfach die bestehende Gruppe öffnen und das Marketo Engage-Produktprofil hinzufügen.
+>Wenn Sie Ihre bestehenden Journey Optimizer B2B edition-Benutzenden zu Marketo Engage hinzufügen möchten, können Sie die Schritte zur Erstellung von Benutzergruppen überspringen und einfach die bestehende Benutzergruppe öffnen und das Marketo Engage-Produktprofil hinzufügen.
 
 Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/enterprise/using/user-groups.html){target="_blank"} in der Dokumentation zu Admin Console.
 
@@ -143,7 +143,7 @@ Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benu
 
 ## Rollen für Produktberechtigungen bearbeiten {#edit-roles-for-product-permissions}
 
-Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewiesenen Berechtigungen definieren können. Jede Berechtigung wird unter einer Funktion gruppiert, z. B. _Journey_ oder _Einkaufsgruppen_. Diese Funktionen stellen Funktionen oder Objekte in Journey Optimizer B2B Edition dar.
+Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewiesenen Berechtigungen definieren können. Jede Berechtigung wird unter einer Funktion erfasst, z. B. Journey oder Einkaufsgruppen, die die verschiedenen Funktionen oder Objekte in Journey Optimizer B2B edition darstellt.
 
 Im _Berechtigungen_ von Adobe Experience Platform können Admins Benutzerrollen und Zugriffsrichtlinien definieren, um Zugriffsberechtigungen für Funktionen und Objekte innerhalb einer Produktanwendung zu verwalten. In dieser App können Sie Rollen erstellen und verwalten sowie die gewünschten Ressourcenberechtigungen für diese Rollen zuweisen. Mit Berechtigungen können Sie auch die Sandboxes und die Benutzer verwalten, die einer bestimmten Rolle zugeordnet sind.
 
@@ -157,11 +157,11 @@ Die folgenden Berechtigungen regeln den Zugriff auf Funktionen von Journey Optim
 | -------- | ----------- | ---------- |
 | B2B-Kontolisten | Berechtigungen für B2B-Kontolisten konfigurieren, verwalten, anzeigen und veröffentlichen. Zu diesen Berechtigungen gehören Aktionen wie das Hinzufügen, Entfernen, Importieren und Löschen von Konten aus Kontolisten. | <li>Verwalten von B2B-Kontolisten |
 | B2B-Administratorkonfigurationen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Administrationskonfigurationen. Zu diesen Berechtigungen gehören Verbindungen für Digital Asset Management, Asset-Repositorys und Ereignisse. | <li>Verwalten von B2B-Admin-Konfigurationen |
-| B2B-Assets | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Assets. Zu diesen Berechtigungen gehören E-Mails, SMS, Landingpages, Fragmente, Vorlagen und Bilder. | <li>Verwalten von B2B-Assets <li>B2B-Vorlagen verwalten <li>Verwalten von B2B-Fragmenten |
-| B2B-Einkaufsgruppen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Einkaufsgruppen. Zu diesen Berechtigungen gehören Lösungsinteressen, Rollenvorlagen und der Kaufgruppenstatus. | <li>Verwalten von B2B-Einkaufsgruppen |
+| B2B-Assets | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Assets. Zu diesen Berechtigungen gehören E-Mails, SMS, Landingpages, Fragmente, Vorlagen und Bilder. | <li>Verwalten von B2B-Assets <li>B2B-Vorlagen verwalten <li>Verwalten von B2B-Fragmenten <li>Verwalten von B2B-E-Mails |
+| B2B-Einkaufsgruppen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Einkaufsgruppen. Zu diesen Berechtigungen gehören Lösungsinteressen, Rollenvorlagen und der Kaufgruppenstatus. | <li>Verwalten von B2B-Einkaufsgruppen <li>Interessen an B2B-Lösungen verwalten <li>Vorlagen für B2B-Rollen verwalten <li>B2B-Stadien verwalten <li>B2B-Einkaufsgruppen anzeigen |
 | B2B-Kanal-Konfigurationen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Kanal-Konfigurationen. Zu diesen Berechtigungen gehören Einstellungen für Kommunikationsbeschränkungen, API-Anmeldeinformationen und Sicherheitseinstellungen. | <li>Verwalten von B2B-Kanal-Konfigurationen |
-| B2B-Dashboards | Konfigurieren und Anzeigen von Berechtigungen für B2B-Dashboards. Zu diesen Berechtigungen gehören die Kontointeraktion, der Einkauf von Gruppenphasen, steigende Konten und die Kontaktabdeckung. | <li>B2B-Dashboards verwalten |
-| B2B-Journey | Konfigurieren, Verwalten, Anzeigen und Veröffentlichen von Berechtigungen für B2B-Journey. Zu diesen Berechtigungen gehören Konto- und Personenaktionen, Ereignis-Listener und Aufspaltungspfade. | <li>B2B-Journey verwalten |
+| B2B-Dashboards | Konfigurieren und Anzeigen von Berechtigungen für B2B-Dashboards. Zu diesen Berechtigungen gehören die Kontointeraktion, der Einkauf von Gruppenphasen, steigende Konten und die Kontaktabdeckung. | <li>Dashboard für B2B-Interaktionen anzeigen |
+| B2B-Journey | Konfigurieren, Verwalten, Anzeigen und Veröffentlichen von Berechtigungen für B2B-Journey. Zu diesen Berechtigungen gehören Konto- und Personenaktionen, Ereignis-Listener und Aufspaltungspfade. | <li>Journey der B2B-Konten verwalten |
 | Journey Optimizer-Regeln | Zugreifen auf und Konfigurieren von Häufigkeitsregeln (Kommunikationsbeschränkungen). Diese Berechtigungen sollten auf Produktadministratoren beschränkt sein. | <li>Anzeigen von Häufigkeitsregeln <li>Verwalten von Häufigkeitsregeln |
 
 ### Integrierte B2B-Rollen
@@ -173,13 +173,13 @@ Wenn Ihr Unternehmen Journey Optimizer B2B edition bereitgestellt hat, verfügt 
 | B2B Journey Manager | <li>B2B-Journey verwalten <li>Verwalten von B2B-Einkaufsgruppen <li>Verwalten von B2B-Kontolisten <li>Dashboard für B2B-Interaktionen anzeigen <li>Dashboard für B2B-Insights anzeigen |
 | B2B-Kanal-Manager | <li>Verwalten von B2B-Assets <li>B2B-Vorlagen verwalten <li>Verwalten von B2B-Fragmenten |
 | B2B-Systemadministrator | <li>Verwalten von B2B-Kanal-Konfigurationen <li>Verwalten von B2B-Admin-Konfigurationen |
-| B2B-Verkaufsbenutzer | <li>Dashboard für B2B-Interaktionen anzeigen <li>Zugriff auf CRM-interne Einblicke |
+| B2B-Verkaufsbenutzer | <li>Dashboard für B2B-Interaktionen anzeigen <li>B2B-Einkaufsgruppen anzeigen <li>Zugriff auf CRM-interne Einblicke |
 
 ### Rollenberechtigungen bearbeiten
 
 Für integrierte oder benutzerdefinierte Rollen können Sie sich jederzeit entscheiden, Berechtigungen hinzuzufügen oder zu löschen. Wenn Sie eine standardmäßige oder benutzerdefinierte Rolle ändern, wirkt sich dies auf jeden Benutzer aus, der dieser Rolle zugewiesen ist.
 
-Im folgenden Beispiel möchten Sie Berechtigungen im Zusammenhang mit der B2B-Journey-Ressource für Benutzer hinzufügen, die der Rolle B2B-Kanal-Manager zugewiesen sind. Durch diese Änderung können Benutzende in dieser Rolle auch Account-Journey verwalten.
+Im folgenden Beispiel möchten Sie Berechtigungen im Zusammenhang mit der B2B-Journey-Ressource für Benutzer hinzufügen, die der Rolle B2B-Kanal-Manager zugewiesen sind. Durch diese Änderung können Benutzende für diese Rolle auch Account-Journey verwalten.
 
 >[!NOTE]
 >
