@@ -5,10 +5,10 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-source-git-commit: 5adf65f3c48c17f73e4897fb9ce027631bf196a7
+source-git-commit: 585f98370f6741a5f4854beedd14a69c3a663f3c
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 9%
 
 ---
 
@@ -34,7 +34,7 @@ Sie können die Wiedereinstiegseinstellungen aktivieren und die Wiedereinstiegse
 
    ![Klicken auf „Mehr“ oben rechts](./assets/account-journey-draft-more-menu.png){width="450"}
 
-1. Schalten Sie im Dialogfeld für den erneuten _[!UICONTROL von]_ Journey die Option **[!UICONTROL Erneuten Eintrag aktivieren]** um.
+1. Schalten Sie im Dialogfeld für den erneuten _von_ Journey die Option **[!UICONTROL Erneuten Eintrag aktivieren]** um.
 
    Wenn die Funktion aktiviert ist, werden die Optionen für Timing, Verzögerung und Grenzwerte angezeigt.
 
@@ -60,7 +60,10 @@ Sie können die Wiedereinstiegseinstellungen aktivieren und die Wiedereinstiegse
 
 ## Account Progress and Activity
 
-Bei veröffentlichten Account-Journey zeigt die Journey-Zuordnung [Account-Fortschritt](./journeys-overview.md#review-account-progression) für die Journey-Knoten an. Jeder Knoten in der Zuordnung zeigt die Anzahl der Konten an, die diesen Knoten erreichen, und bei Live-Journey die Anzahl der Konten, die sich derzeit an diesem Knoten befinden. Jedes Mal, wenn ein Konto eine Journey erneut betritt, zählt es als eigenständiger Eintrag.
-<!-- You can see how many times accounts have entered the journey. ?? -->
+Bei veröffentlichten Account-Journey zeigt die Journey-Zuordnung [Account-Fortschritt](./journeys-overview.md#review-account-progression) für die Journey-Knoten an. Jeder Knoten in der Map zeigt die Anzahl der Konten an, die diesen Knoten erreichen, sowie bei Live-Journeys die Anzahl der Konten, die sich aktuell an diesem Knoten befinden. Jedes Mal, wenn ein Konto eine Journey erneut betritt, zählt es als eigenständiger Eintrag.
 
-Wenn Sie einen Drill-in zu [Kontodetails](../accounts/account-details.md) durchführen, wird die Kontoaktivität jedes Mal angezeigt, wenn das Konto auf die Journey gelangt ist. Er enthält eine explizite Aktivität und eine Wiederholungsanzahl, damit Sie die erneuten Einträge deutlich sehen können.
+<!-- 
+You can see how many times accounts have entered the journey. ?? 
+
+When you drill in to [account details](../accounts/account-details.md), the account activity shows each time the account entered the journey. It includes explicit activity and a recurrence count so that you can see re-entries clearly.
+-->
