@@ -9,8 +9,8 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 13f45e8f-9d49-4ec2-90ef-689475c629f1
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 12%
+source-wordcount: '862'
+ht-degree: 16%
 
 ---
 

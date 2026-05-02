@@ -1,6 +1,6 @@
 ---
 title: Dunkler Modus für E-Mail-Inhalte
-description: Erfahren Sie mehr über das Design von E-Mails im Dunkelmodus in Journey Optimizer B2B Edition. Erstellen Sie eine Vorschau des Renderings, passen Sie Einstellungen an, stellen Sie die Barrierefreiheit sicher und testen Sie über E-Mail-Clients hinweg.
+description: Erfahren Sie mehr über das Design von E-Mails im Dunkelmodus in Journey Optimizer B2B edition. Erstellen Sie eine Vorschau des Renderings, passen Sie Einstellungen an, stellen Sie die Barrierefreiheit sicher und testen Sie über E-Mail-Clients hinweg.
 feature: Email Authoring
 topic: Content Management
 role: User

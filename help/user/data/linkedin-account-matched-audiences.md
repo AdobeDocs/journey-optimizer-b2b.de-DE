@@ -6,14 +6,14 @@ role: User, Admin
 exl-id: d2303529-16c4-4b0b-b8c8-404dff8ec63d
 source-git-commit: f50108fa113312c05ded9c09e7d91eeb49fb90ff
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 12%
+source-wordcount: '1015'
+ht-degree: 14%
 
 ---
 
 # Zugeordnete Zielgruppen des LinkedIn-Kontos
 
-[!DNL Journey Optimizer B2B Edition] bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch die Definition eines Satzes von Einkaufsgruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Einkaufsgruppenparametern entsprechen. Sie können eine Zielgruppe auch von einer Konto-Journey aus einem „Aktion _&quot;-_ aktivieren.
+[!DNL Journey Optimizer B2B Edition] bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch die Definition eines Satzes von Käufergruppenfiltern können Sie eine LinkedIn Matched Audience verwalten, um Interessenten anzusprechen, die Ihren Käufergruppenparametern entsprechen. Sie können eine Zielgruppe auch von einer Konto-Journey aus einem „Aktion _&quot;-_ aktivieren.
 
 Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
 
@@ -34,7 +34,7 @@ Bevor Sie einen Datenfluss von Journey Optimizer B2B edition aus initiieren, mü
    >
    >Sie können den Connector schnell finden, indem Sie `LinkedIn` in das Suchfeld eingeben.
 
-1. Klicken Sie auf der Connector-Karte auf das Symbol _Mehr_ (**…**) und wählen Sie **[!UICONTROL Neues Ziel konfigurieren]**.
+1. Klicken Sie auf der Anschlusskarte auf _Mehr_ (**…**) und wählen Sie **[!UICONTROL Neues Ziel konfigurieren]**.
 
    ![Zugriff auf den Connector für abgeglichene Zielgruppen von LinkedIn (Unternehmen)](./assets/aep-destinations-catalog-linkedin.png){width="800" zoomable="yes"}
 
@@ -58,7 +58,7 @@ Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen 
 
 1. Navigieren Sie **[!UICONTROL linken Navigationsbereich zu]** > **[!UICONTROL Ziele]** und wählen Sie die Registerkarte **[!UICONTROL Konten]** aus.
 
-1. Klicken Sie für das neu erstellte Konto auf das Menü _Mehr_ (**…**) und wählen Sie **[!UICONTROL Details bearbeiten]**.
+1. Klicken Sie für das neu erstellte Konto auf _Mehr_ (**…**) und wählen Sie **[!UICONTROL Details bearbeiten]**.
 
    ![Kontodetails bearbeiten](./assets/aep-destinations-accounts-edit-details.png){width="800" zoomable="yes"}
 
