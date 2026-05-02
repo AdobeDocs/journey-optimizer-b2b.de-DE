@@ -46,13 +46,13 @@ Um die Informationen und Erkenntnisse aus dem Intelligent Dashboard nutzen zu k�
 >title="Käufergruppenphasen"
 >abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Käufergruppen in verschiedenen Phasen, basierend auf den konfigurierten Übergangsregeln. Der erste Balken zeigt die Anzahl der Käufergruppen in einer bestimmten Phase am ersten Datum des ausgewählten Zeitrahmens im Vergleich zum letzten Datum des ausgewählten Zeitrahmens."
 
-Das _[!UICONTROL Einkaufsgruppenstadien]_-Diagramm bietet einen Überblick über den Fortschritt der Käufe in verschiedenen Stadien ([ auf der Grundlage von Übergangsregeln, die von einem Administrator eingerichtet ](../buying-groups/buying-group-stages.md)).
+Das _[!UICONTROL Einkaufsgruppenstadien]_-Diagramm bietet einen Überblick über den Fortschritt der Käufe in verschiedenen Stadien ([&#x200B; auf der Grundlage von Übergangsregeln, die von einem Administrator eingerichtet &#x200B;](../buying-groups/buying-group-stages.md)).
 
 >[!NOTE]
 >
->Die Verfügbarkeit von Einkaufsgruppenphasen erfordert die Konfiguration der Einkaufsgruppenphasen. Unter [Kaufen von ](../buying-groups/buying-group-stages.md)) finden Sie detaillierte Informationen zu den Phasen sowie dazu, wie Sie die Phasen für Käufergruppen definieren und aktivieren.
+>Die Verfügbarkeit von Einkaufsgruppenphasen erfordert die Konfiguration der Einkaufsgruppenphasen. Unter [Kaufen von &#x200B;](../buying-groups/buying-group-stages.md)) finden Sie detaillierte Informationen zu den Phasen sowie dazu, wie Sie die Phasen für Käufergruppen definieren und aktivieren.
 
-![Datenvisualisierung für Gruppenstadien ](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
+![Datenvisualisierung für Gruppenstadien &#x200B;](./assets/intelligent-dashboards-buying-group-stages.png){width="800" zoomable="yes"}
 
 Das Diagramm verwendet die Stadien der Einkaufsgruppe aus der zuletzt veröffentlichten Version des Modells der Einkaufsgruppenstadien . Für jede Bühne gibt es zwei Bars. Der erste Balken zeigt die Anzahl der Einkaufsgruppen am ersten Datum des ausgewählten Zeitraums an. Und die zweite (im Vergleich) ist die Anzahl der Einkaufsgruppen am letzten Datum des Zeitrahmens. Sie können den Mauszeiger über jede Leiste bewegen, um die Anzahl der Einkaufsgruppen in jedem Stadium anzuzeigen.
 

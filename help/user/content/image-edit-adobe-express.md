@@ -50,7 +50,7 @@ Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
 
    >[!TIP]
    >
-   >Es empfiehlt sich, in den Bilddetails [ Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen ](./internal-image-assets.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
+   >Es empfiehlt sich, in den Bilddetails [&#x200B; Registerkarte _[!UICONTROL Verwendet von]_ auszuwählen &#x200B;](./internal-image-assets.md#view-asset-used-by-references) den Inhalt zu überprüfen, in dem das Bild derzeit verwendet wird, bevor Sie mit den Änderungen an der Bilddatei fortfahren.
 
 1. Klicken Sie in _[!UICONTROL Abbildung]_ auf der rechten Seite auf **[!UICONTROL Mit Adobe Express bearbeiten]**.
 
