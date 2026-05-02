@@ -7,8 +7,8 @@ role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
 source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 8%
+source-wordcount: '577'
+ht-degree: 7%
 
 ---
 
@@ -43,7 +43,7 @@ Sie können auf die Rendering-Vorschau über den [E-Mail-Design-Bereich](./email
 
    ![Wählen Sie ein Personenprofil aus, um die Simulation zu rendern](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   Wenn die Liste _[!UICONTROL Personen]_ auf der linken Seite leer ist, [&#x200B; Sie „Personen hinzufügen](#add-people-to-the-profiles-list) mithilfe von Kontakten aus der verbundenen Marketo Engage-Instanz.
+   Wenn die Liste _[!UICONTROL Personen]_ auf der linken Seite leer ist, [ Sie „Personen hinzufügen](#add-people-to-the-profiles-list) mithilfe von Kontakten aus der verbundenen Marketo Engage-Instanz.
 
    >[!TIP]
    >
