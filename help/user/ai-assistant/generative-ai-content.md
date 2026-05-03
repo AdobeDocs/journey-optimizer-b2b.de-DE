@@ -9,7 +9,7 @@ exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
 workflow-type: tm+mt
 source-wordcount: '2506'
-ht-degree: 32%
+ht-degree: 38%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
->title="KI-Inhaltserstellung"
->abstract="Nachdem Sie Ihr Layout erstellt haben, können Sie generative KI-Tools in [!DNL Journey Optimizer B2B Edition] verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, indem sie den Inhalt entsprechend Ihrer beschreibenden Eingabeaufforderung optimiert."
+>title="KI-Inhaltsgenerierung"
+>abstract="Nachdem Sie Ihr Layout erstellt haben, können Sie generative KI-Tools in [!DNL Journey Optimizer B2B Edition] verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, indem sie den Inhalt entsprechend Ihres beschreibenden Prompts optimiert."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
@@ -27,8 +27,8 @@ ht-degree: 32%
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
->title="Adobe Generative AI-Begriffe"
->abstract="Der Zugriff auf diese Funktion unterliegt der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Überprüfen Sie alle Ausgaben aus dieser Funktion auf Genauigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
+>title="Bedingungen der generativen KI in Adobe"
+>abstract="Der Zugriff auf diese Funktion unterliegt der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für die generative KI von Adobe"
 
 Die generative KI für Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] basiert auf Microsoft Azure OpenAI und Adobe Firefly und bietet proaktive Vorschläge für Inhaltsvarianten für Text und Bilder. Optimieren Sie die Wirkung Ihrer Inhalte, indem Sie mit verschiedenen Haupttiteln und -bildern experimentieren.
@@ -50,7 +50,7 @@ KI-Assistenten-Tools für die Inhaltserstellung werden von den folgenden Asset-T
 
 ## Allgemeine Richtlinien und Einschränkungen {#general-guidelines-and-limitations}
 
-Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/de/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
+Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
 
 Lesen Sie diese allgemeinen Richtlinien für die Verwendung von generativer KI für Inhalte in [!DNL Journey Optimizer B2B Edition]:
 
@@ -62,12 +62,12 @@ Lesen Sie diese allgemeinen Richtlinien für die Verwendung von generativer KI f
 
 * Achten Sie bei der Auswahl von Varianten darauf, problematische Ausgaben mit den Symbolen „Daumen hoch“, „Daumen runter“ oder „Flag“ zu melden.
 
-## Prompt Best Practices für generative KI {#generative-ai-prompting-guide}
+## Best Practices für Prompts für generative KI {#generative-ai-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai_content_prompt"
 >title="Prompt-Anleitung"
->abstract="In [!DNL Journey Optimizer B2B Edition] Dokumentation erfahren Sie, wie Sie effektive Eingabeaufforderungen erstellen, mit denen hocheffiziente, markeninterne Marketing-Inhalte erstellt werden."
+>abstract="In der [!DNL Journey Optimizer B2B Edition]-Dokumentation erfahren Sie, wie Sie effektive Prompts erstellen, die markenkonforme Marketing-Inhalte mit hoher Konversionsrate generieren."
 
 Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, den Zweck klar und deutlich zu kommunizieren und sicherzustellen, dass die KI-Kommunikation Messaging produziert, die mit Ihren Markenrichtlinien, Zielgruppenanforderungen und Kampagnenzielen übereinstimmt.
 
