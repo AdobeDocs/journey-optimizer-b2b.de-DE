@@ -4,9 +4,22 @@ description: Filtern Sie Leads, indem Sie Gruppenmitgliedschaften in Marketo Eng
 feature: Buying Groups, Integrations
 role: User
 exl-id: b137e787-808e-4d36-8e8b-a1c7b999f8a2
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-03-30T21:39:24.495Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 562
 ht-degree: 1%
 
 ---
@@ -17,18 +30,18 @@ ht-degree: 1%
 >
 >**Einstellung von Funktionen**</br></br>
 >
->In Journey Optimizer B2B Edition sind die Einkaufsgruppenfilter nicht mehr in einer verbundenen Marketo Engage-Instanz verfügbar.</br></br>
+>In Journey Optimizer B2B edition sind die Einkaufsgruppenfilter nicht mehr in einer verbundenen Marketo Engage-Instanz verfügbar.</br></br>
 >
 >Alternativ können Sie für jede gewünschte Lösung eine statische Liste erstellen und dann [die Aktion _Zu Marketo-Liste hinzufügen_ von einem Journey-](../journeys/action-nodes.md#marketo-engage-actions) aus verwenden. Durch diese Aktion werden kaufende Gruppenmitglieder zu einer bestimmten statischen Liste in einer verbundenen Marketo Engage-Instanz hinzugefügt. Verwenden Sie dann die lösungsorientierte statische Liste für einen Smart-Listen-Filter.
 
-Als Marketing-Experte können Sie Kampagnen in Marketo Engage für Personen unterdrücken, die Teil von Einkaufsgruppen in Journey Optimizer B2B Edition sind. Sie können die Lead-Scoring-Workflows in Marketo Engage auch anhand von Informationen zu den Leads informieren, die mit Einkaufsgruppen verbunden sind. Beispiel:
+Als Marketing-Experte können Sie Kampagnen in Marketo Engage für Personen unterdrücken, die Teil von Einkaufsgruppen in Journey Optimizer B2B edition sind. Sie können die Lead-Scoring-Workflows in Marketo Engage auch anhand von Informationen zu den Leads informieren, die mit Einkaufsgruppen verbunden sind. Beispiel:
 
 * Ist dieser Lead Teil einer Einkaufsgruppe?
 * Ist die Einkaufsgruppe vollständig und engagiert?
 
 Wenn diese Bedingungen erfüllt sind, können Sie den Lead mit dem höheren Wert bewerten. Andernfalls können Sie ihn nicht als Marketing-qualifizierten Lead (MQL) markieren.
 
-In Ihrer Marketo Engage-Instanz, die mit Journey Optimizer B2B Edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der Kaufgruppe]_ in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren.
+In Ihrer Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der Kaufgruppe]_ in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren.
 
 1. Nachdem Sie [Smart-Liste in Marketo Engage erstellen](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/creating-a-smart-list/create-a-smart-list){target="_blank"} wählen Sie die Registerkarte **[!UICONTROL Smart-Liste]** aus, um den Filter-Editor zu öffnen.
 
@@ -56,7 +69,7 @@ In Ihrer Marketo Engage-Instanz, die mit Journey Optimizer B2B Edition verbunden
 
      Um Mitglieder auszuschließen, die aus einer Einkaufsgruppe entfernt wurden, verwenden Sie die Beschränkung _[!UICONTROL Ist entfernt]_, die auf `false` gesetzt ist. Sie können entfernte Mitglieder auch explizit in die Smart-Liste einbeziehen, indem Sie diese Einschränkung auf `true` festlegen.
 
-     Für einen diskreten Artikel, z. B. die in Journey Optimizer B2B Edition definierten Lösungsinteressen, können Sie einen oder mehrere Artikel für die Liste auswählen.
+     Für ein diskretes Element, z. B. die in Journey Optimizer B2B edition definierten Lösungsinteressen, können Sie ein oder mehrere Elemente für die Liste auswählen.
 
      ![Wählen Sie einen Wert für die Einschränkung aus der Liste aus](./assets/me-member-of-buying-group-filter-constraint-list.png){width="600" zoomable="yes"}
 

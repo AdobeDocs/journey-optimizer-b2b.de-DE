@@ -2,9 +2,14 @@
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
 description: 'Vollständige Dokumentation für Journey Optimizer B2B Edition: Erkunden Sie die verfügbaren Ressourcen für Onboarding, die Erstellung von Käufergruppen, die Einrichtung von Konto-Journeys und die Verwaltung von Inhalten.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
-source-git-commit: 865963d661c66391e6a234e5655174643003318e
+autotag-review: '2026-03-27T22:18:45.397Z'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: 915
 ht-degree: 26%
 
 ---
@@ -75,7 +80,7 @@ Marketing-Experten können detaillierte Profile einschließlich Hintergrundinfor
 
 Neueste Versionshinweise
 
-Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition auf dem Laufenden.
+Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserungen in Adobe Journey Optimizer B2B edition auf dem Laufenden.
 
 [Versionshinweise anzeigen](./release-notes/release-notes.md)
 :::
@@ -85,7 +90,7 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 
 Erste Schritte
 
-Lesen Sie die Journey Optimizer B2B Edition-Onboarding-Anleitung für Administratoren und Marketing-Fachleute.
+Lesen Sie die Onboarding-Anleitung für Journey Optimizer B2B edition für Administratoren und Marketing-Fachleute.
 
 [Administratoren](./setup-ultimate.md)
 [Benutzer](./start/get-started.md)

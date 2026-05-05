@@ -1,13 +1,26 @@
 ---
 title: Aktion ausführen
-description: Konfigurieren von Aktionsknoten für Konto- und Personenaktionen - Senden von E-Mails, Aktualisieren von Einkaufsgruppen, Ändern der Bewertungen und Integration mit Marketo Engage in Journey Optimizer B2B Edition.
+description: Konfigurieren von Aktionsknoten für Konto- und Personenaktionen - Senden von E-Mails, Aktualisieren von Einkaufsgruppen, Ändern der Bewertungen und Integration mit Marketo Engage in Journey Optimizer B2B edition.
 feature: Account Journeys
 role: User
 exl-id: 167cb627-96ee-42a8-8657-bb8040bb4bfe
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2:
+  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '2037'
-ht-degree: 2%
+source-wordcount: 2037
+ht-degree: 3%
 
 ---
 
@@ -38,7 +51,7 @@ Verwenden Sie auf einer Konto-Journey eine Aktion für Konten, wenn Sie eine Än
 
 >[!NOTE]
 >
->Die _[!UICONTROL Account Change Data Value]_-Aktion wird für die Version 2025.10 nicht mehr unterstützt. _[!UICONTROL Kontoprofil aktualisieren]_ ersetzt diese Aktion in Journey Optimizer B2B Edition.<br/>
+>Die _[!UICONTROL Account Change Data Value]_-Aktion wird für die Version 2025.10 nicht mehr unterstützt. _[!UICONTROL Kontoprofil aktualisieren]_ ersetzt diese Aktion in Journey Optimizer B2B edition.<br/>
 >
 >Ein Administrator kann die verfügbaren Attribute für das XDM Business-Konto konfigurieren, indem er die Felder in _[!UICONTROL XDM-Klassen]_ > _[!UICONTROL Standardklassen]_ aktualisiert. Weitere Informationen finden Sie unter [Standardklassen](../admin/xdm-field-management.md#standard-classes).
 
@@ -110,9 +123,9 @@ Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Pe
 
 >[!NOTE]
 >
->Die Aktionen _[!UICONTROL Change People Partition in Marketo Engage]_ und _[!UICONTROL Change Score]_ werden für die Version 2025.10 nicht mehr unterstützt und sind in Journey Optimizer B2B Edition nicht mehr verfügbar.<br/>
+>Die Aktionen _[!UICONTROL Change People Partition in Marketo Engage]_ und _[!UICONTROL Change Score]_ werden für die Version 2025.10 nicht mehr unterstützt und sind in Journey Optimizer B2B edition nicht mehr verfügbar.<br/>
 >
->Die Aktion _[!UICONTROL Datenwert ändern]_ für die Version 2025.10 wird nicht mehr unterstützt. In der aktuellen Version von _[!UICONTROL wird sie durch &quot;]_ aktualisieren“ ersetzt.
+>Die Aktion _[!UICONTROL Datenwert ändern]_ für die Version 2025.10 wird nicht mehr unterstützt. In der aktuellen Version _[!UICONTROL Journey Optimizer B2B edition wird sie durch]_ Profil aktualisieren“ ersetzt.
 
 ### Hinzufügen einer personenbasierten Aktion
 
@@ -165,7 +178,7 @@ _So erstellen Sie eine externe Zielgruppe :_
 
    >[!NOTE]
    >
-   >Wenn eine neue Zielgruppe eines externen Kunden aus Journey Optimizer B2B Edition erstellt wird, wird sie mit einem Platzhalter-Datensatz (`test@email.com`) vorkonfiguriert. Dieser Eintrag wird überschrieben, sobald das erste echte Profil der externen Audience von der Journey hinzugefügt wird.
+   >Wenn eine neue externe Kundenzielgruppe aus Journey Optimizer B2B edition erstellt wird, wird sie mit einem Platzhalterdatensatz (`test@email.com`) vorkonfiguriert. Dieser Eintrag wird überschrieben, sobald das erste echte Profil der externen Audience von der Journey hinzugefügt wird.
 
 _So verwenden Sie eine vorhandene Zielgruppe :_
 
@@ -257,7 +270,7 @@ Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[&#x200B
 
 >[!NOTE]
 >
->Die _[!UICONTROL Personenprofil aktualisieren]_ ersetzt die Aktion _[!UICONTROL Datenwert ändern]_ in der aktuellen Journey Optimizer B2B Edition-Version.<br/>
+>Die _[!UICONTROL Personenprofil aktualisieren]_ ersetzt die Aktion _[!UICONTROL Datenwert ändern]_ in der aktuellen Version von Journey Optimizer B2B edition.<br/>
 >
 >Admins können die verfügbaren Attribute für das individuelle XDM-Profil konfigurieren, indem sie die Felder in _[!UICONTROL XDM-Klassen]_ > [!UICONTROL Standardklassen] aktualisieren. Weitere Informationen finden Sie unter [Standardklassen](../admin/xdm-field-management.md#standard-classes).
 
@@ -265,13 +278,13 @@ Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[&#x200B
 
 ### Marketo Engage-Aktionen
 
-Die personenbasierten Marketo Engage-Aktionen sind so konzipiert, dass sie Ihre kontobasierte Marketing-Orchestrierung in Journey Optimizer B2B Edition mit Ihren Lead-basierten Marketing-Maßnahmen in Marketo Engage koordinieren. Orchestrieren Sie mithilfe dieser Aktionen die Listenmitgliedschaft und fordern Sie Kampagnen an.
+Die personenbasierten Marketo Engage-Aktionen sind so konzipiert, dass sie Ihre kontobasierte Marketing-Orchestrierung in Journey Optimizer B2B edition mit Ihren Lead-basierten Marketing-Maßnahmen in Marketo Engage koordinieren. Orchestrieren Sie mithilfe dieser Aktionen die Listenmitgliedschaft und fordern Sie Kampagnen an.
 
 >[!NOTE]
 >
 >Die Marketo Engage-Aktionen erfordern eine konfigurierte Integration mit einer oder mehreren externen Marketo Engage-Instanzen. Detaillierte Informationen zu dieser Konfiguration finden Sie unter [_Aktivieren von Marketo Engage-Verbindungen zur Unterstützung von Aktionen_](../admin/marketo-actions-connect.md).
 
-Beispielsweise können Sie Kampagnen in Marketo Engage für Personen unterdrücken, die zu Einkaufsgruppen in Journey Optimizer B2B Edition gehören. In diesem Fall können Sie in Marketo Engage eine statische Liste speziell für die Lösungsinteressen erstellen. Verwenden Sie dann auf einem Aufspaltungspfad durch Kauf der Gruppe die Aktion _Zu Marketo-Liste hinzufügen_ von einem Journey-Knoten aus. Durch diese Aktion werden kaufende Gruppenmitglieder zu einer bestimmten statischen Liste in einer verbundenen Marketo Engage-Instanz hinzugefügt. Verwenden Sie dann die lösungsorientierte statische Liste für einen Smart-Listen-Filter in Marketo Engage.
+Beispielsweise können Sie Kampagnen in Marketo Engage für Personen unterdrücken, die Teil von Einkaufsgruppen in Journey Optimizer B2B edition sind. In diesem Fall können Sie in Marketo Engage eine statische Liste speziell für die Lösungsinteressen erstellen. Verwenden Sie dann auf einem Aufspaltungspfad durch Kauf der Gruppe die Aktion _Zu Marketo-Liste hinzufügen_ von einem Journey-Knoten aus. Durch diese Aktion werden kaufende Gruppenmitglieder zu einer bestimmten statischen Liste in einer verbundenen Marketo Engage-Instanz hinzugefügt. Verwenden Sie dann die lösungsorientierte statische Liste für einen Smart-Listen-Filter in Marketo Engage.
 
 +++[!UICONTROL Zu Marketo-Anfragekampagne hinzufügen]
 

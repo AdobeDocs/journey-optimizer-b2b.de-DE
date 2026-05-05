@@ -4,9 +4,22 @@ description: 'Durchsuchen, Verwalten und Verwenden von Journey Optimizer B2B edi
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-source-git-commit: 1c5a08b293db9287d03b103d794cc17a1c186af0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
+autotag-review: '2026-03-30T22:14:12.746Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: 1765
 ht-degree: 1%
 
 ---
@@ -120,7 +133,7 @@ Sie können ein Asset mit einer der folgenden Methoden herunterladen:
 
 * Gehen Sie zu den Asset-Details und klicken **[!UICONTROL oben]** auf „Herunterladen“.
 
-* Klicken Sie auf der __ Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen.
+* Klicken Sie auf der __ Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen aus.
 
 Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Herunterladen]**, um das Herunterladen des Assets auf Ihr lokales System zu starten. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 

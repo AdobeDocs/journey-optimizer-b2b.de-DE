@@ -4,9 +4,21 @@ description: Konfigurieren Sie Ihre Branding-Domains so, dass jede Ihrer Marken 
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: 1014
 ht-degree: 89%
 
 ---
@@ -71,7 +83,7 @@ Der erste Schritt bei der Arbeit mit Branding-Domains besteht darin, die in Ihre
 
 ## Definieren einer zusätzlichen Domain
 
-Nachdem Sie die Standard-Domain bearbeitet haben, können Sie eine weitere Branding-Domain hinzufügen, um mehrere Marken in Ihrer Journey Optimizer B2B Edition-Umgebung zu unterstützen, wobei jede über eigene Branding-Tracking-Links verfügt. Beim Hinzufügen einer Domain stehen die folgenden Optionen zur Verfügung:
+Nachdem Sie die Standard-Domain bearbeitet haben, können Sie eine weitere Branding-Domain hinzufügen, um mehrere Marken in Ihrer Journey Optimizer B2B edition-Umgebung zu unterstützen, wobei jede über eigene Branding-Tracking-Links verfügt. Beim Hinzufügen einer Domain stehen die folgenden Optionen zur Verfügung:
 
 >* _Primäre Domain festlegen_: Wählen Sie diese als primäre Domain für den Arbeitsbereich aus. Wenn Sie diese Option auswählen, werden alle vorhandenen nicht gesendeten E-Mails auf die standardmäßige primäre Domain eingestellt und alle neu erstellten E-Mails werden automatisch auf diese primäre Domain eingestellt. Marketer können bei Bedarf eine alternative Branding-Domain auswählen.
 >

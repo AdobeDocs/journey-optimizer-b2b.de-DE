@@ -4,9 +4,20 @@ description: Überprüfen Sie die Standardattributfelder, die zwischen Adobe Exp
 feature: Data Management, Integrations
 role: User
 exl-id: 8c65fdec-e32d-4ba8-be7b-48522cc3dace
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+autotag-review: '2026-03-27T22:51:15.469Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: 1221
 ht-degree: 100%
 
 ---
@@ -76,7 +87,7 @@ Konto-Zielgruppendaten werden als Attribute sowohl in der Klasse XDM Business Ac
 | `accountBillingAddress.region` | Region | Adressbereich | String | Die Region, der Kreis oder der Bezirk der Rechnungsadresse. |
 | `accountBillingAddress.state` | Land | Land | String | Der Name des Bundeslandes für die Rechnungsadresse. Es handelt sich um ein Freiformfeld. |
 | `accountBillingAddress.street1` | Straße 1 | Straße 1 | String | Primäre Straßeninformationen für die Rechnungsadresse, die normalerweise die Wohnungsnummer, die Straßennummer und den Straßennamen enthalten würden. |
-| `accountName` | Name | Name | String | **Erforderliches Feld** <br/>Name der Firma. In diesem Feld sind bis zu 255 Zeichen zulässig. |
+| `accountName` | Name | Name | Zeichenfolge | **Erforderliches Feld** <br/>Name der Firma. In diesem Feld sind bis zu 255 Zeichen zulässig. |
 | `accountOrganization.annualRevenue.amount` | Jahresumsatz | Jahresumsatz | Zahl | Geschätzte Höhe des Jahresumsatzes der Organisation. |
 | `accountOrganization.industry` | Branche | Branche | String | Die der Organisation zugeschriebene Branche. Es handelt sich um ein Freiformfeld, und es wird empfohlen, einen strukturierten Wert für Abfragen zu verwenden oder die `xdm:classifier`-Eigenschaft zu verwenden. |
 | `accountOrganization.logoUrl` | Logo-URL | Logo-URL | String | Pfad, der mit der URL einer Salesforce-Instanz (z. B. `https://yourInstance.salesforce.com/`) kombiniert werden soll, um eine URL zu generieren, mit der das mit dem Account verknüpfte Profilbild der Social Media angefordert werden kann. Die generierte URL gibt eine HTTP-Umleitung (Code 302) zum Profilbild der Social Media für das Konto zurück. |

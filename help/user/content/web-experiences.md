@@ -4,10 +4,27 @@ description: Personalisierte Web-Erlebnisse für Account Journey erstellen, entw
 feature: Content, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
-source-git-commit: e3c00ab4657c7bf05573e049bbcb4bb3628e751e
+exl-id: d04079ce-da51-40d3-ab05-75c26584521f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+autotag-review: '2026-03-30T22:04:21.575Z'
+source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 4%
+source-wordcount: 1551
+ht-degree: 7%
 
 ---
 
@@ -37,7 +54,7 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
    * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen anzeigen]_ - Erforderlich zum Anzeigen von Details für Web-Personalisierungsaktionsknoten.
    * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen genehmigen und veröffentlichen]_ - Erforderlich zum Veröffentlichen einer Journey mit einem oder mehreren Web-Personalisierungsaktionsknoten.
 
-* Adobe Experience Cloud Die Browser-Erweiterung [Visual Editing Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Ihre Web-Seiten zuverlässig im Journey Optimizer B2B edition Content Design Space zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
+* Die Browser-Erweiterung [Visual Editing Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Ihre Web-Seiten zuverlässig im Journey Optimizer B2B edition Content Design Space zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
 
   >[!NOTE]
   >
@@ -57,7 +74,7 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
    ![Erweiterung &quot;Adobe Experience Cloud Visual Editing Helper“ für Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** und klicken Sie dann **[!UICONTROL Bestätigungsdialogfeld auf]** Erweiterung hinzufügen“.
+1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** und klicken Sie dann **Bestätigungsdialogfeld auf** Erweiterung hinzufügen“.
 
    Wenn Sie [!DNL Microsoft Edge] verwenden, fügt diese Aktion die Erweiterung zu [!DNL Edge] hinzu.
 
@@ -169,7 +186,7 @@ Nachdem der Inhaltsentwurf für das Web-Erlebnis abgeschlossen ist, können Sie 
 
 1. Klicken **[!UICONTROL oben]** auf „Inhalt simulieren“.
 
-1. Testprofil auswählen.
+1. Wählen Sie ein Testprofil aus.
 
 1. Fügen Sie ein Testprofil hinzu, um Ihre Web-Seite mithilfe der Testprofildaten zu überprüfen.
 

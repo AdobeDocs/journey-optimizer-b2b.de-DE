@@ -4,10 +4,24 @@ description: Erfahren Sie, wie Sie Web-Kanaleinstellungen konfigurieren, um Web-
 feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
-source-git-commit: 2f9b007df233cf8a233c3646bf691b7cff139f86
+exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T23:15:46.632Z'
+source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 3%
+source-wordcount: 1075
+ht-degree: 6%
 
 ---
 
@@ -54,7 +68,7 @@ Die Webkanalkonfiguration in Journey Optimizer B2B edition erfordert die folgend
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um die Änderungen zu speichern.
 
-Nachdem Sie die Konfiguration gespeichert haben, befindet sie sich im Status _Entwurf_ und steht Marketing-Experten zur Verfügung, wenn sie einen Web-Kanal in ihren Journey verwenden. Sie können die Konfiguration weiter bearbeiten, solange sie im Entwurfsstatus verbleibt. Sie können eine Entwurfs-Web-Kanal-Konfiguration auch löschen, indem Sie auf das _Mehr_-Symbol (**…**) neben dem Namen klicken und **[!UICONTROL Löschen]** auswählen.
+Nachdem Sie die Konfiguration gespeichert haben, befindet sie sich im Status _Entwurf_ und steht Marketing-Experten zur Verfügung, wenn sie einen Web-Kanal in ihren Journey verwenden. Sie können die Konfiguration weiter bearbeiten, solange sie im Entwurfsstatus verbleibt. Sie können eine Entwurfs-Webkanal-Konfiguration auch löschen, indem Sie auf das Symbol _Mehr_ klicken (**…**) neben dem Namen auf und wählen Sie **[!UICONTROL Löschen]**.
 
 Sobald der Webkanal auf einer Journey verwendet wird, wechselt er in den Status _Aktiv_. In diesem Status können Sie den Namen und die Beschreibung der Konfiguration bearbeiten. Sie können weder die Web-Einstellungen ändern noch die Konfiguration löschen.
 
@@ -115,7 +129,7 @@ Beispielsweise können Sie Änderungen an einem Hero-Banner auf einer ganzen Web
 
    ![Seiten, die Regeln mit Ausschluss entsprechen](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
-1. Geben Sie die **[!UICONTROL Standard-URL für Authoring und Vorschau]** ein.
+1. Geben Sie die **[!UICONTROL Standard-Authoring- und Vorschau-URL]** ein.
 
    Dieser Schritt stellt sicher, dass die Seiten, die von der Regel generiert oder abgeglichen werden, eine bestimmte URL sowohl für das Design von Web-Erlebnisinhalten als auch für die Vorschau haben.
 
@@ -123,7 +137,7 @@ Beispielsweise können Sie Änderungen an einem Hero-Banner auf einer ganzen Web
 
 Sie können eine vorhandene Web-Kanal-Konfiguration duplizieren und ändern, um einen neuen Web-Kanal basierend auf einer vorhandenen zu erstellen. Eine in der Bibliothek gespeicherte aktive Webkanalkonfiguration kann nicht geändert werden.
 
-1. Klicken Sie auf das _Mehr Menü_-Symbol (**…**) für die Variante und wählen Sie **[!UICONTROL Duplizieren]**.
+1. Klicken Sie auf das _Mehr_) (**…**) für die Variante und wählen Sie **[!UICONTROL Duplizieren]**.
 
    ![Klicken Sie auf das Menüsymbol Mehr , um eine vorhandene Web-Kanal-Konfiguration zu duplizieren](./assets/config-web-channels-more-menu.png){width="450"}
 

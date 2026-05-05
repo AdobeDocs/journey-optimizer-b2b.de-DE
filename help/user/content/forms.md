@@ -5,9 +5,22 @@ feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+autotag-review: '2026-03-30T22:51:56.324Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: 2374
 ht-degree: 1%
 
 ---
@@ -18,7 +31,7 @@ Um Informationen von Web-Seitenbesuchern zu erfassen, erstellen Sie Formulare un
 
 Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des Inhalts oder Angebots ab. Wenn Sie etwas Einfaches anbieten, z. B. ein Whitepaper, sollten Sie nur minimale Informationen wie Namen, E-Mail-Adresse und Firma erfassen. Wenn das Angebot einen höheren Wert aufweist, z. B. eine Demo oder eine kostenlose Testversion, können Sie weitere Informationen erfassen. Das Erfordernis eines übermittelten Formulars, um die Anzeige von Inhalten zu ermöglichen, wird als _-Inhalt_. Ihr Unternehmen entscheidet, welche Inhalte gefiltert werden sollen und welche nicht (_frei_). Es empfiehlt sich, einige Inhalte kostenlos zuzulassen und nur Premium- oder High-Demand-Inhalte zu testen.
 
-## Zugriff und Verwaltung von Formularen
+## Aufrufen und Verwalten von Formularen
 
 Um auf Formulare in Journey Optimizer B2B edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite mit allen in der Instanz erstellten Formularen, die in einer Tabelle aufgeführt sind.
 
