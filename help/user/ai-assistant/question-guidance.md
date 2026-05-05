@@ -5,9 +5,15 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 895
 ht-degree: 1%
 
 ---
@@ -25,7 +31,7 @@ Die folgenden Beispielfragen werden nach Zielen gruppiert, die Sie mit dem KI-As
 | Lernkonzepte und fortlaufende Workflows | Als Anfänger können Sie den KI-Assistenten verwenden, um Real-Time CDP- und Adobe Journey Optimizer B2B edition-Konzepte zu erlernen und sich mit Produkten und Funktionen vertraut zu machen, die Ihnen nicht bekannt sind. <br>Als erfahrener Benutzer können Sie den KI-Assistenten verwenden, um einen Randfall zu lösen, der Ihren Workflow blockieren könnte. | <li>Erzählen Sie mir einige Anwendungsfälle für Real-Time CDP. <li>Erklären Sie mir das Konzept der Einkaufsgruppe. |
 | Fehlerbehebung | Verwenden Sie den KI-Assistenten, um zu erfahren, wie Sie grundlegende Fehler debuggen, auf die Sie in Ihrem Workflow stoßen können. | <li>Was bedeutet dieser Fehler &lt;ERROR_MESSAGE>? <li>Warum kann ich die Zielgruppe mit dem Namen &quot;…“ nicht löschen? |
 | Sandbox-Hygiene | Verwenden Sie den KI-Assistenten, um Duplikate oder nicht verwendete Objekte zu identifizieren, damit Sie Ihre Sandbox effizient verwalten können. | <li>Können Sie mir ähnliche Konto-Zielgruppen zeigen? <li>Gibt es Schemata, denen kein Datensatz zugeordnet ist? |
-| Wertanalyse | Verwenden Sie den KI-Assistenten, um Ihre am häufigsten verwendeten Datenobjekte zu identifizieren und Leistungsindikatoren zu bewerten oder die wertvollsten Datenobjekte zu finden. | <li>Wie viele Konten befinden sich in unserer Segmentdefinition &quot;…“? <li>Wann wurden Zielgruppen für das Experience Cloud-Zielgruppen-Ziel aktiviert? |
+| Wertanalyse | Verwenden Sie den KI-Assistenten, um Ihre am häufigsten verwendeten Datenobjekte zu identifizieren und Leistungsindikatoren zu bewerten oder die wertvollsten Datenobjekte zu finden. | <li>Wie viele Konten befinden sich in unserem &quot;…“ Segmentdefinition? <li>Wann wurden Zielgruppen für das Experience Cloud-Zielgruppen-Ziel aktiviert? |
 | Suche | Verwenden Sie den KI-Assistenten, um unterstützte Experience Platform- und Adobe Journey Optimizer-B2B edition-Objekte zu finden, z. B. Kontozielgruppen, Datensätze, Ziele, Schemata, Quellen, Account-Journey, Einkaufsgruppenvorlagen und Lösungsinteressen | <li>Listen Sie die Zielgruppen auf, die „Luma“ im Namen enthalten und in den Account-Journey verwendet wurden. <li>Welche Attribute enthalten das XDM-Schema „Luma: Custom Actions“? |
 | Wirkungsanalyse | Verwenden Sie den KI-Assistenten, um Datenobjekte zu identifizieren, die in bestimmten Workflows verwendet wurden, damit Sie die Auswirkungen von Änderungen bewerten können. | <li>Welche Konto-Zielgruppen verwenden `workEmail.address` im Schema „B2B-Person“? <li>In welchen Datensätzen sind die … `jobTitle` gespeichert? |
 
@@ -39,13 +45,13 @@ Sie müssen Ihre Fragen an den KI-Assistenten mit Klarheit und Kontext formulier
 
 Die folgenden Tabellen enthalten einige Best Practices, die Sie bei der Verwendung des KI-Assistenten befolgen können:
 
-| tun | Beispiel |
+| Empfohlen | Beispiel |
 | --- | --- |
 | <li>Geben Sie das Objekt oder die Informationen an, die Sie abrufen oder analysieren möchten. <li>Versuchen Sie, Ihre Datenobjektnamen in Anführungszeichen zu setzen. <li>Wenn Sie nur einen Teil des Objektnamens kennen, können Sie diesen auch in der Frage angeben. | <li>Welche Datensätze verwenden das Schema „B2B-Konto“? <li>Anzeigen der aktivierten Zielgruppen, die „Konto“ im Namen haben Sortieren Sie sie nach der Anzahl der Mitglieder. |
 | <li>Vermeiden Sie Mehrdeutigkeiten und verwenden Sie eine klare Sprache. <li>Verwenden Sie eine präzise Terminologie, um eine klarere Abfrage zu ermöglichen. <li>Wenn Sie Fragen zu Adobe Experience Platform und Adobe Journey Optimizer B2B edition stellen, versuchen Sie, eine Experience Platform- oder Adobe Journey Optimizer B2B edition-spezifische Terminologie zu verwenden, um die Relevanz der Antworten zu verbessern. | <li>Wie viele Mitglieder habe ich in „My Account Audience“? <li>Wie viele Account-Journey verwenden die Account-Zielgruppe „My Account Audience“? |
 | <li>Geben Sie den Kontext an oder geben Sie ein Kriterium zum Filtern Ihrer Ergebnisse an. <li>Verwenden Sie in den Fragen ein Filterkriterium, um die Datenmenge in der Antwort zu begrenzen. | <li>Account-Zielgruppen anzeigen, die nicht aktiviert wurden, vor mehr als 6 Monaten erstellt wurden und noch nie geändert wurden. <li>In den letzten 7 Tagen veröffentlichte Account-Journey anzeigen mit einer Account-Zielgruppe mit mehr als 1000 Mitgliedern |
 
-| Tu das nicht | Beispiel |
+| Zu vermeiden | Beispiel |
 | --- | --- |
 | Verwende eine vage oder mehrdeutige Sprache. | <li>Geben Sie mir Informationen zu Datensätzen. <li>Was macht Journey X? <li>Wie viele Benutzer habe ich in „ACME Audience“? <li>Segmente anzeigen. <li>Attribute auflisten. |
 | Unvollständige Anfragen stellen. | <li>„Luma - Treueprogramm-Datensatz“ |

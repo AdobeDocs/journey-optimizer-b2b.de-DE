@@ -5,9 +5,16 @@ feature: Forms, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-source-git-commit: 79012352c3ae4e2f3d38b632b1f523d262f74f96
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+autotag-review: '2026-03-30T22:51:56.324Z'
+source-git-commit: 78593516165b04654ea0894ab619cac7d120e11f
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: 2374
 ht-degree: 1%
 
 ---
@@ -18,7 +25,7 @@ Um Informationen von Web-Seitenbesuchern zu erfassen, erstellen Sie Formulare un
 
 Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des Inhalts oder Angebots ab. Wenn Sie etwas Einfaches anbieten, z. B. ein Whitepaper, sollten Sie nur minimale Informationen wie Namen, E-Mail-Adresse und Firma erfassen. Wenn das Angebot einen höheren Wert aufweist, z. B. eine Demo oder eine kostenlose Testversion, können Sie weitere Informationen erfassen. Das Erfordernis eines übermittelten Formulars, um die Anzeige von Inhalten zu ermöglichen, wird als _-Inhalt_. Ihr Unternehmen entscheidet, welche Inhalte gefiltert werden sollen und welche nicht (_frei_). Es empfiehlt sich, einige Inhalte kostenlos zuzulassen und nur Premium- oder High-Demand-Inhalte zu testen.
 
-## Zugriff und Verwaltung von Formularen
+## Aufrufen und Verwalten von Formularen
 
 Um auf Formulare in Journey Optimizer B2B edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite mit allen in der Instanz erstellten Formularen, die in einer Tabelle aufgeführt sind.
 
@@ -46,7 +53,7 @@ Um nach einem Formular anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 ### Spaltenanzeige anpassen
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -165,7 +172,7 @@ Formulare, die derzeit von einer Landingpage oder Landingpage-Vorlage verwendet 
 Sie können ein Formular mit einer der folgenden Methoden löschen:
 
 * Klicken Sie oben rechts auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
-* Klicken Sie auf der __ Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Löschen]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
@@ -182,7 +189,7 @@ Duplizieren Sie ein Formular, um schnell und einfach ein neues Formular mit eine
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
 * Klicken Sie oben rechts auf der Seite mit den Formulardetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
-* Klicken Sie auf der __ Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Duplizieren]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Duplizieren]**.
 
 ![Duplizieren Sie das Formular](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -280,7 +287,7 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 ## Hinzufügen von Formularen zu einer Landingpage oder Vorlage
 
-Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) &#x200B;](./landing-page-templates.md).
+Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) ](./landing-page-templates.md).
 
 {{$include /help/_includes/content-design-add-forms.md}}
 

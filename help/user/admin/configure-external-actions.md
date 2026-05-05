@@ -3,9 +3,15 @@ title: Konfiguration externer Aktionen
 description: Erfahren Sie, wie Entwickler, Administratoren und Marketing-Fachleute zusammenarbeiten, um externe Aktionen zu implementieren, zu konfigurieren und zu verwenden, die Journey Optimizer B2B edition mit externen Services in den Account Journey verbinden.
 feature: Setup, Integrations
 role: Admin, Developer
-source-git-commit: 6d3967babc1bc868fde0c76ac9068e63156070cd
+exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: 907
 ht-degree: 1%
 
 ---
@@ -114,11 +120,11 @@ Eine Aktion muss konfiguriert und aktiviert werden, bevor sie von Marketing-Expe
 
       * [!UICONTROL Personen im Konto] - Sendet Konten und kontobezogene Personen
 
-   * **[!UICONTROL Ausgehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem [XDM-Feld“ &#x200B;](../admin/xdm-field-management.md). Diese Felder werden im Anfragetext an den externen Service gesendet. Eigenschaften der Dienstdefinition: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
+   * **[!UICONTROL Ausgehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem [XDM-Feld“ ](../admin/xdm-field-management.md). Diese Felder werden im Anfragetext an den externen Service gesendet. Eigenschaften der Dienstdefinition: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
    ![Ausgehende Felder für externe Aktionen zuordnen](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Eingehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem ([&#x200B; XDM-Feld) &#x200B;](../admin/xdm-field-management.md#updatable-fields). Diese Felder werden aus der Antwort des externen Services ausgefüllt. Eigenschaften der Dienstdefinition: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Nach der Erstellung aktualisierbar.
+   * **[!UICONTROL Eingehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem ([ XDM-Feld) ](../admin/xdm-field-management.md#updatable-fields). Diese Felder werden aus der Antwort des externen Services ausgefüllt. Eigenschaften der Dienstdefinition: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Nach der Erstellung aktualisierbar.
 
    * **[!UICONTROL Kopfzeilenparameter]** - Geben Sie einen Wert für jede Zeile ein, die als HTTP-Kopfzeile in der Anfrage übergeben werden soll. Service-Definitionseigenschaft: `invocationPayloadDef.headers`.
 

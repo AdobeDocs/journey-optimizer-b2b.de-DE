@@ -4,22 +4,29 @@ description: Konfigurieren Sie Experience Platform B2B-Namespaces und -Schemata 
 feature: Setup, Data Management
 role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+feature_v2: id: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: 1004
 ht-degree: 96%
 
 ---
 
 # B2B-Namespaces und -Schemata
 
-Das Journey Optimizer B2B Edition-Setup umfasst die Konfiguration der Experience Platform-Namespaces und -Schemata, die mit B2B-Quellen verwendet werden. Das Postman-Automatisierungsdienstprogramm ist für die Generierung von B2B-Namespaces und -Schemata erforderlich.
+Die Einrichtung von Journey Optimizer B2B edition umfasst die Konfiguration der Experience Platform-Namespaces und -Schemata, die mit B2B-Quellen verwendet werden. Das Postman-Automatisierungsdienstprogramm ist für die Generierung von B2B-Namespaces und -Schemata erforderlich.
 
 >[!AVAILABILITY]
 >
->- Sie müssen Zugriff auf [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} haben, damit Ihre B2B-Schemata im [Echtzeit-Kundenprofil) &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home){target="_blank"} werden können.
+>- Sie müssen Zugriff auf [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} haben, damit Ihre B2B-Schemata im [Echtzeit-Kundenprofil) ](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home){target="_blank"} werden können.
 >
->- Ihre Experience Platform B2B-Entitäten müssen die Standardbeziehungen verwenden, die im Handbuch [B2B-Namespaces und -Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} beschrieben sind.
+>- Ihre Experience Platform B2B-Entitäten müssen die Standardbeziehungen verwenden, die im Handbuch [B2B-Namespaces und -Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} beschrieben sind.
 
 Überprüfen Sie die folgenden Informationen zur zugrunde liegenden Einrichtung für die Namespaces und Schemas, die mit B2B-Quellen verwendet werden sollen. Außerdem enthält es Details zum Einrichten Ihres Postman-Automatisierungsprogramms, das zum Generieren von B2B-Namespaces und -Schemata erforderlich ist.
 
@@ -27,10 +34,10 @@ Das Journey Optimizer B2B Edition-Setup umfasst die Konfiguration der Experience
 
 In den folgenden Ressourcen finden Sie die Voraussetzungen und detaillierte Informationen zum Einrichten Ihrer [!DNL Postman]-Umgebung zur Unterstützung des B2B-Namespace- und des Dienstprogramms zur automatischen Schemaerstellung.
 
-- Laden Sie die Sammlung und Umgebung des Dienstprogramms zur automatischen Schemaerstellung aus dem GitHub[Repository &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
+- Laden Sie die Sammlung und Umgebung des Dienstprogramms zur automatischen Schemaerstellung aus dem GitHub[Repository ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
 - Informationen zur Verwendung von Experience Platform-APIs, einschließlich Details zum Erfassen von Werten für erforderliche Kopfzeilen und zum Lesen von Beispiel-API-Aufrufen, finden [_unter „Erste Schritte mit Adobe Experience Platform-APIs_](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}.
-- Informationen zum Generieren Ihrer Anmeldeinformationen für Experience Platform-APIs finden Sie unter [_Authentifizieren und Zugreifen auf Experience Platform-APIs_](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
-- Informationen zum Einrichten von [!DNL Postman] für Experience Platform-APIs finden Sie unter [_[!DNL Postman] in Adobe Experience Platform _](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
+- Informationen zum Generieren Ihrer Anmeldeinformationen für Experience Platform-APIs finden Sie unter [_Authentifizieren und Zugreifen auf Experience Platform-APIs_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
+- Informationen zum Einrichten von [!DNL Postman] für Experience Platform-APIs finden Sie unter [_[!DNL Postman] in Adobe Experience Platform _](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
 
 ### Umgebungswerte
 
@@ -66,7 +73,7 @@ Bei einer erfolgreichen Anfrage werden die erforderlichen B2B-Namespaces und -Sc
 
 ## B2B-Namespaces
 
-Identity-Namespaces sind eine Komponente von Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home){target="_blank"}, die dazu dienen, den Kontext einer Identität zu unterscheiden. Eine vollqualifizierte Identität enthält einen Identitätswert und einen Namespace. Weitere [&#x200B; finden Sie unter &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} von Namespaces .
+Identity-Namespaces sind eine Komponente von Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home){target="_blank"}, die dazu dienen, den Kontext einer Identität zu unterscheiden. Eine vollqualifizierte Identität enthält einen Identitätswert und einen Namespace. Weitere [ finden Sie unter ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} von Namespaces .
 
 B2B-Namespaces werden in der primären Identität der Entität verwendet.
 
@@ -97,7 +104,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Basisklasse</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM-Geschäftskonto</a></td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account" target="_blank">XDM-Geschäftskonto</a></td>
     </tr>
     <tr>
         <td>Feldergruppen</td>
@@ -136,7 +143,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Basisklasse</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/individual-profile">Individuelles XDM-Profil</a>{target=„_blank“}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile">Individuelles XDM-Profil</a>{target=„_blank“}</td>
     </tr>
     <tr>
         <td>Feldergruppen</td>
@@ -177,7 +184,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity">XDM Business Opportunity</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -217,7 +224,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-opportunity-person-relation">XDM Business Opportunity Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -258,7 +265,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign">XDM Business Campaign</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -298,7 +305,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-campaign-members">XDM Business Campaign Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -336,7 +343,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list">XDM Business Marketing List</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -380,7 +387,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-marketing-list-members">XDM Business Marketing List Members</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>
@@ -424,7 +431,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 <table>
     <tr>
         <td style="width: 30%;">Base class</td>
-        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
+        <td style="width: 70%;"><a href="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/b2b/business-account-person-relation">XDM Business Account Person Relation</a>{target="_blank"}</td>
     </tr>
     <tr>
         <td>Field groups</td>

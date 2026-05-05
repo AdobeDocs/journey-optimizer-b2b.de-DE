@@ -6,21 +6,27 @@ role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in der Beta-Version"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
-source-git-commit: 0f34a98753b71b388c822ef4a26dbae6b4c8fb1b
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: adf04a6a-050f-44bc-a52c-db79ccb22ebfid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: ed0d8d0e-04b9-4326-be72-a0fbca265377
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: '2026-03-27T22:58:08.848Z'
+source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: 1476
 ht-degree: 13%
 
 ---
 
 # Erlebnisereignisse und -felder auswählen
 
-Admins können bestimmte [AEP-Erlebnisereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und deren zugehörige Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
+Admins können bestimmte [AEP-Erlebnisereignisse](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und deren zugehörige Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 Die Verwendung von AEP-Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
 
-1. Ein Administrator ([&#x200B; Erlebnisereignisse und -felder von AEP) &#x200B;](#add-an-event) den Journey Optimizer B2B Edition-Konfigurationen.
+1. Ein Administrator ([ Erlebnisereignisse und -felder) ](#add-an-event) den Journey Optimizer B2B edition-Konfigurationen.
 
 2. Auf einer Journey fügt der Marketing-Experte einen _Lauschen auf ein_) hinzu und [wählt ein Erlebnisereignis aus](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
 
@@ -113,7 +119,7 @@ Bearbeiten Sie die Ereignisdetails, um die Felder zu ändern.
 
 1. Klicken Sie auf den Ereignisnamen oder auf das Symbol _Mehr Menü_ ( **…** ) und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   ![Klicken Sie auf das Menüsymbol Mehr &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Klicken Sie auf das Menüsymbol Mehr ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Klicken Sie **[!UICONTROL Felder bearbeiten]**, um im Dialogfeld „Felder _[!UICONTROL &quot; weitere Felder hinzuzufügen oder]_ Auswahl zu entfernen.
 
@@ -465,5 +471,5 @@ Ereignistyp: `leadOperation.interestingMoment `
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448692/?captions=ger&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

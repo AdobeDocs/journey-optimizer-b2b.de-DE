@@ -5,10 +5,17 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
-source-git-commit: 4fdd89bf32cb9d68b4cdc347f1fd09df8eabe24d
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-04-29T23:21:59.633Z'
+source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 1%
+source-wordcount: 971
+ht-degree: 2%
 
 ---
 
@@ -40,7 +47,7 @@ Fragen zu Produktkenntnissen beziehen sich auf Journey Optimizer B2B edition-Kon
 * Wie sende ich eine E-Mail in einer Journey?
 * Wie kann ich meinen E-Mail-Inhalt personalisieren?
 
-Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste. Beispiel: Sie müssen lernen, wie Sie eine Einkaufsgruppe in einem Journey verwenden. In diesem Fall geben Sie _Wie verwende ich eine Einkaufsgruppe auf einer Journey?_ Nachdem Sie die Frage gesendet haben, fragt der KI-Assistent die Wissensdatenbank ab und erstellt in wenigen Sekunden eine Antwort.
+Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste. Beispiel: Sie müssen lernen, wie Sie eine Einkaufsgruppe in einem Journey verwenden. In diesem Fall geben Sie _Wie verwende ich eine Einkaufsgruppe in einem Journey?_ Nachdem Sie die Frage gesendet haben, fragt der KI-Assistent die Wissensdatenbank ab und erstellt in wenigen Sekunden eine Antwort.
 
 ![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -64,17 +71,17 @@ Sie müssen sich in einer aktiven Sandbox für den KI-Assistenten befinden, um e
 >
 >Die einzigen Adobe Journey Optimizer B2B edition-Objekte, die vom KI-Assistenten für operative Insights unterstützt werden, sind in der Tabelle [Domain für operative Insights](./ai-assistant-overview.md#operational-insights) aufgeführt. Es kann nur für die Sandbox auf Daten zugreifen, in der Sie sich derzeit befinden.
 
-Um eine Frage zu operativen Einblicken zu stellen, geben Sie sie in das Feld am unteren Rand des Bedienfelds ein und drücken Sie die Eingabetaste. Beispiel: Sie möchten mehr über die Zielgruppen für Ihre Sandbox erfahren. In diesem Fall geben Sie ein: &quot;_viele Zielgruppen gibt es?_.  Der KI-Assistent listet die Zielgruppen in Ihrer Sandbox auf und erläutert, wie er die Antwort berechnet hat. In der folgenden Beispielantwort stellt der KI-Assistent einen Link bereit, über den auf die Zielgruppen in der Benutzeroberfläche zugegriffen werden kann, und beschreibt die Schritte, die zum Identifizieren der Anzahl der Zielgruppen unternommen wurden.
+Um eine Frage zu operativen Einblicken zu stellen, geben Sie sie in das Feld am unteren Rand des Bedienfelds ein und drücken Sie die Eingabetaste. Beispiel: Sie möchten mehr über die Zielgruppen für Ihre Sandbox erfahren. Geben Sie in diesem Fall &quot;_Zielgruppen gibt es?_ ein.  Der KI-Assistent listet die Zielgruppen in Ihrer Sandbox auf und erläutert, wie er die Antwort berechnet hat. In der folgenden Beispielantwort stellt der KI-Assistent einen Link bereit, über den auf die Zielgruppen in der Benutzeroberfläche zugegriffen werden kann, und beschreibt die Schritte, die zum Identifizieren der Anzahl der Zielgruppen unternommen wurden.
 
 ![Antwort des KI-Assistenten für wie viele Zielgruppen](./assets/ai-assistant-insights-answer.png){width="420"}
 
 Sie können Ihrer anfänglichen Anfrage folgen, indem Sie nach einer Liste von Artefakten fragen, z. B. _Listen Sie die fünf wichtigsten nach Größe auf_. Der KI-Assistent gibt eine Tabelle mit den fünf wichtigsten Elementen in der Abfrage und den entsprechenden IDs zurück. Klicken Sie auf _Herunterladen_-Symbol ![Herunterladen](../assets/do-not-localize/icon-download.svg) , um die Tabelle als CSV-Datei herunterzuladen.
 
-![Antwort des KI-Assistenten für eine Liste der Live-Journey &#x200B;](./assets/ai-assistant-artifacts-query.png){width="420"}
+![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-query.png){width="420"}
 
 Um die gesamte Tabelle im KI-Assistenten anzuzeigen, klicken Sie auf das Symbol _Maximieren_ ( ![Maximieren-Symbol](../assets/do-not-localize/icon-maximize.svg) ). Klicken Sie in der erweiterten Tabellenansicht auf **[!UICONTROL CSV herunterladen]**, um die Informationen als CSV-Datei zu speichern.
 
-![Antwort des KI-Assistenten für eine Liste der Live-Journey &#x200B;](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
+![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
 ## Überprüfen von Antworten
 
