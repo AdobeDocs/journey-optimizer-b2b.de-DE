@@ -4,12 +4,18 @@ description: Verwenden Sie Strukturkomponenten, um Layouts für E-Mails, Landing
 feature: Content Design Tools
 role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: '2026-03-30T22:18:21.301Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -104,7 +110,7 @@ Sie können die Kopf- oder Fußzeilenbezeichnung entfernen, indem Sie die Kompon
 
 Bei kleineren Bildschirmen oder Anzeigefenstern werden die Spalten in der Strukturkomponente als gestapelt angezeigt, es sei denn, Sie ändern die Standardeinstellung. Wenn Sie die mehrspaltige Strukturkomponente ausgewählt haben, ändern Sie die Einstellung **[!UICONTROL Spalten auf Mobilgeräten nicht stapeln]** indem Sie den Schieberegler nach rechts verschieben.
 
-![Spalten auf mobilen ](./assets/structure-component-settings-stack-columns.png){width="250"} nicht stapeln
+![Spalten auf mobilen &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"} nicht stapeln
 
 ## Komponentenstile
 
@@ -244,7 +250,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
 ## Navigationsbaum
 
-Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 

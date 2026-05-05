@@ -4,12 +4,18 @@ description: 'Durchsuchen, Verwalten und Verwenden von Journey Optimizer B2B edi
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: da3860b0-d637-47df-bef0-273751180266
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: '2026-03-30T22:14:12.746Z'
 source-git-commit: 8fe8318d7e1c63cbaa2749fc3928eb0a12967bd9
 workflow-type: tm+mt
@@ -97,7 +103,7 @@ Verwenden Sie eine der folgenden Methoden, um ein Asset zu löschen:
 
   ![Zugriff auf Aktionen für das Asset](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
-* Klicken Sie auf der ]__[!UICONTROL  Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Löschen]** aus den Optionen.
+* Klicken Sie auf der __ Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Löschen]** aus den Optionen.
 
   ![Zugriff auf Aktionen für das Asset](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
@@ -111,7 +117,7 @@ Verwenden Sie eine der folgenden Methoden, um ein Asset im Asset-Repository _[!U
 
 * Gehen Sie zu den Asset-Details und klicken Sie auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
 
-* Klicken Sie auf der ]__[!UICONTROL  Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
+* Klicken Sie auf der __ Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
 
 Ziehen _[!UICONTROL im Dialogfeld]_ Asset ersetzen“ die Ersatzdatei per Drag-and-Drop von Ihrem System in das Feld „Datei“. Sie können auch auf den Link _[!UICONTROL Datei auf Ihrem Computer auswählen]_ klicken, um Ihr lokales Dateisystem zur Auswahl einer Datei zu verwenden. (Wenn Sie mehrere Dateien in Ihrem lokalen System auswählen, wird die erste ausgewählte Datei für den Ersatz verwendet.)
 
@@ -127,7 +133,7 @@ Sie können ein Asset mit einer der folgenden Methoden herunterladen:
 
 * Gehen Sie zu den Asset-Details und klicken **[!UICONTROL oben]** auf „Herunterladen“.
 
-* Klicken Sie auf der ]__[!UICONTROL  Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen aus.
+* Klicken Sie auf der __ Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen aus.
 
 Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Herunterladen]**, um das Herunterladen des Assets auf Ihr lokales System zu starten. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 
@@ -169,7 +175,7 @@ Sie können die folgenden Massenaktionen für ausgewählte Assets durchführen, 
 
 ## Erstellen eines Ordners
 
-1. Klicken Sie auf der ]__[!UICONTROL  Assets **[!UICONTROL oben rechts auf]** Ordner erstellen“.
+1. Klicken Sie auf der __ Assets **[!UICONTROL oben rechts auf]** Ordner erstellen“.
 
 1. Geben Sie im Dialogfeld den Ordnernamen ein und wählen Sie den Ziel-(übergeordneten) Ordner für den neuen Ordner aus.
 

@@ -5,11 +5,16 @@ feature: Email Authoring, Templates, Content Design Tools
 level: Experienced
 role: User
 exl-id: 92af078b-29b4-4507-ae43-55dc4dd4b748
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -78,7 +83,7 @@ Der erweiterte HTML-Modus ist über die Symbolleiste oben im visuellen Design-Be
 
    Inhaltssimulation und -speicherung sind im erweiterten HTML-Modus aus Kompatibilitätsgründen nicht verfügbar. Sie können zur Desktop-Ansicht zurückkehren, um eine Vorschau Ihres Inhalts anzuzeigen und die Vorlage zu speichern. Alle vorgenommenen Änderungen bleiben beim Wechseln zwischen der HTML-Quellansicht und der visuellen Entwurfsansicht erhalten.
 
-   Wenn Sie im erweiterten HTML-Modus oben ]**auf**[!UICONTROL  Speichern ]**oder**[!UICONTROL  Speichern und schließen klicken, werden Sie in einem Warndialogfeld darüber informiert, dass Sie den erweiterten HTML-Modus beenden müssen, bevor Sie die Vorlage speichern und den Design-Bereich verlassen.
+   Wenn Sie im erweiterten HTML-Modus oben **auf**&#x200B;[!UICONTROL &#x200B; Speichern &#x200B;]&#x200B;**oder** Speichern und schließen klicken, werden Sie in einem Warndialogfeld darüber informiert, dass Sie den erweiterten HTML-Modus beenden müssen, bevor Sie die Vorlage speichern und den Design-Bereich verlassen.
 
    ![Das Dialogfeld „Warnhinweise“ für das Speichern ist im erweiterten HTML-Modus deaktiviert](./assets/email-template-advanced-html-save-disabled-alert.png){width="500"}
 
