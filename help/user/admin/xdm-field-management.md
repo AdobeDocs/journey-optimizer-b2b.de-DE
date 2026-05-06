@@ -19,9 +19,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: '2026-03-27T22:30:01.860Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 13e00f66e0ca107857e830aef4cc629f1f7cb027
 workflow-type: tm+mt
-source-wordcount: 1189
+source-wordcount: 1192
 ht-degree: 87%
 
 ---
@@ -145,12 +145,12 @@ Sie können relationale Schemata mit dem Schema-Editor erstellen (navigieren Sie
 
 **Schemaanforderungen**
 
-Beim Erstellen eines Schemas zur Verwendung mit [!DNL Journey Optimizer B2B Edition] sind die folgenden Konfigurationswerte erforderlich:
+Beim [Erstellen eines Schemas zur Verwendung mit [!DNL Journey Optimizer B2B Edition]](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data) sind die folgenden Konfigurationswerte erforderlich:
 
 * Verhalten: Datensatz
 * Segmentierung: Aktiviert
 * Beziehungstyp: Viele-zu-eins
-* Referenzschema: [B2B-Konto](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/schemas/create-schemas-for-b2b-data)
+* Referenzschema: B2B-Konto oder B2B-Person
 * Erforderliche Felder: Primärer Schlüssel, Fremdschlüssel und Versionsdeskriptor
 * Zugeordneter Datensatz: Definiert und dem Schema zugeordnet
 
