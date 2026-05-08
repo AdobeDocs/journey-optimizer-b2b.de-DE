@@ -4,19 +4,12 @@ description: Entwerfen von E-Mails, Landingpages und Fragmenten mit Inhaltskompo
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: '2026-03-30T22:16:05.946Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -226,7 +219,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
    Sie können zu einer einzelnen Strukturkomponente und zu jeder Spalte einer Strukturkomponente mehrere Komponenten hinzufügen.
 
-   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente &#x200B;](./assets/content-components-drag.png){width="600" zoomable="yes"}
+   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente ](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
 1. Passen Sie die Komponentenanzeige mit den Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stil]** auf der rechten Seite oder der auf der Arbeitsfläche angezeigten Kontextsymbolleiste an.
 
@@ -251,7 +244,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 
@@ -313,7 +306,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -579,7 +572,7 @@ Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie eine Bild
 
      ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
-* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu &#x200B;](../admin/configure-aem-repositories.md) und auszuwählen.
+* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu ](../admin/configure-aem-repositories.md) und auszuwählen.
 
   Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 
@@ -629,7 +622,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -706,7 +699,7 @@ Verwenden Sie die Komponente _Social_, um Links zu Social-Media-Seiten in Ihre I
 Wenn Sie einen Social-Media-Typ ausgewählt haben, legen Sie die Optionen für diesen Typ fest:
 
 * **[!UICONTROL URL]** - Geben Sie die Social-Media-URL ein, die Sie mit der Social-Media-Grafik oder dem Symbol verknüpfen möchten.
-* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [&#x200B; Bild-Assets finden &#x200B;](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
+* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [ Bild-Assets finden ](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
 * **[!UICONTROL ALT-]**: Geben Sie den ALT-Text für das angezeigte Bild ein.
 
   ![Einstellungen für den ausgewählten Social-Media-Typ](./assets/content-components-social-settings-for-type.png){width="250"}
