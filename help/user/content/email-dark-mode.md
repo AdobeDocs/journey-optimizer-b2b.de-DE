@@ -7,12 +7,19 @@ role: User
 level: Beginner, Intermediate
 keywords: Dunkler Modus, E-Mail, Farbe, Design
 exl-id: c9ffb883-d37f-48bc-b23d-6eccf7a04d9a
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-03-30T22:06:55.168Z'
 source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
 workflow-type: tm+mt
@@ -37,7 +44,7 @@ _Dunkler Modus_ ermöglicht es einem unterstützenden E-Mail-Client oder einer u
 
 ![Konzeptdiagramm für Hell- und Dunkelmodus, in dem das Rendern von Inhalten sowohl in hellen als auch in dunklen Designs angezeigt wird](../assets/do-not-localize/light-dark-mode.png){width="550"}
 
-Wenn Sie [E-Mail](./email-authoring.md)Inhalt erstellen) im visuellen [!DNL Journey Optimizer B2B Edition]-Design-Bereich wechseln Sie zur Ansicht _**[!UICONTROL Dunkelmodus]**_. In dieser Ansicht können Sie auch spezifische benutzerdefinierte Einstellungen für unterstützende E-Mail-Clients definieren, wenn deren Dunkelmodus aktiviert ist.
+Wenn Sie [E-Mail](./email-authoring.md)Inhalt erstellen) im visuellen [!DNL Journey Optimizer B2B Edition]-Design-Bereich wechseln Sie zur Ansicht _&#x200B;**[!UICONTROL Dunkelmodus]**&#x200B;_. In dieser Ansicht können Sie auch spezifische benutzerdefinierte Einstellungen für unterstützende E-Mail-Clients definieren, wenn deren Dunkelmodus aktiviert ist.
 
 ## Überlegungen zum E-Mail-Client {#email-client-considerations}
 
@@ -157,7 +164,7 @@ _So definieren Sie benutzerdefinierte Einstellungen für den Dunkelmodus :_
 
    ![Einstellungen für den Dunkelmodus mit Anzeige der Option zur Auswahl eines anderen Bild-Assets für den Dunkelmodus](./assets/email-color-mode-dark-image-settings.png){width="700" zoomable="yes"}
 
-   Weitere Informationen [ Auswahl eines Bild-Assets finden ](./email-authoring.md#add-image-assets) unter „Hinzufügen von Bild-Assets“.
+   Weitere Informationen [&#x200B; Auswahl eines Bild-Assets finden &#x200B;](./email-authoring.md#add-image-assets) unter „Hinzufügen von Bild-Assets“.
 
 1. Wählen Sie zu einem beliebigen Zeitpunkt während der Designänderungen **[!UICONTROL Zur Live-Ansicht wechseln]**, um zu überprüfen, wie Ihre Inhalte möglicherweise auf verschiedenen Gerätegrößen gerendert werden.
 
@@ -173,11 +180,11 @@ _So definieren Sie benutzerdefinierte Einstellungen für den Dunkelmodus :_
 
    ![E-Mail-Design-Arbeitsfläche mit hervorgehobener Schaltfläche „Inhalt simulieren“ zum Testen des Dunkelmodus](./assets/email-color-mode-dark-simulate-content.png){width="700" zoomable="yes"}
 
-   Testen Sie Ihr E-Mail-Design mit den Vorschau- und Proofing-Tools. Weitere [ finden Sie unter „Vorschau und Test ](./email-simulate-content.md) E-Mail-Inhalts“.
+   Testen Sie Ihr E-Mail-Design mit den Vorschau- und Proofing-Tools. Weitere [&#x200B; finden Sie unter „Vorschau und Test &#x200B;](./email-simulate-content.md) E-Mail-Inhalts“.
 
 1. Wenn Sie über ein Litmus Enterprise-Konto verfügen, wählen Sie **[!UICONTROL E-Mail rendern]**, um das endgültige Dark-Mode-Rendering für verschiedene E-Mail-Clients in der Litmus-Integration anzuzeigen.
 
-   Weitere Informationen finden [ unter „Testen von E](./email-test-rendering.md)Mail-Rendering mit Litmus“.
+   Weitere Informationen finden [&#x200B; unter „Testen von E](./email-test-rendering.md)Mail-Rendering mit Litmus“.
 
    >[!CAUTION]
    >
