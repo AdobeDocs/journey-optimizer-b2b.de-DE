@@ -1,9 +1,9 @@
 ---
 title: Inhaltserstellung - Komponenten
 description: Wiederverwendbarer Abschnitt über die Verwendung von Komponenten und Inhaltselementen für die Inhaltserstellung
-source-git-commit: 8073984ced07e86a3fa500c5bf0bd393abbe0990
+source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 1. Erweitern Sie **[!UICONTROL Abschnitt]** Inhalte“ und fügen Sie beliebig viele Inhaltskomponenten zu einer oder mehreren Strukturkomponenten hinzu.
 
    ![Ziehen Sie ein Inhaltselement auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
-&lt;!--
-Verweisen Sie auf die Inhaltselemente, wenn Sie für jedes Element einen fertigen Verweis haben.
 
+   <!--
+   reference to the contents elements when we have a completed reference for each.
    -->
 
 1. Bei Bedarf können Sie auf den Registerkarten _[!UICONTROL Einstellungen“ oder „Stil]_ zusätzliche Anpassungen _[!UICONTROL jede Komponente]_.
