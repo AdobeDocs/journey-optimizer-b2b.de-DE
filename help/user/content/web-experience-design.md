@@ -5,11 +5,21 @@ feature: Content Design Tools, Channels
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: '2026-04-29T23:47:13.174Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
@@ -96,7 +106,7 @@ Der visuelle Editor lädt die Web-Seiten in einem iFrame, in dem Sie Elemente au
 
 1. Wiederholen Sie Schritt 2, um andere Seiten zu laden, die Sie in das Web-Erlebnis einbeziehen möchten, und wiederholen Sie Schritt 3, um die Seitenänderungen zu definieren.
 
-1. [Überprüfen Sie Ihre ](#manage-modifications) und nehmen Sie die erforderlichen Anpassungen vor.
+1. [Überprüfen Sie Ihre &#x200B;](#manage-modifications) und nehmen Sie die erforderlichen Anpassungen vor.
 
 1. Wenn Ihre Änderungen abgeschlossen sind, klicken Sie auf den linken Pfeil über dem Editor, um zu den Eigenschaften des Web-Erlebnisses zurückzukehren.
 
@@ -144,7 +154,7 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
 1. Suchen Sie ein Bild aus Ihrer Asset-Bibliothek und wählen Sie es aus.
 
-1. Verwenden Sie bei [ die Optionen für ](./content-components.md#image) Bildstile im rechten Bedienfeld.
+1. Verwenden Sie bei [&#x200B; die Optionen für &#x200B;](./content-components.md#image) Bildstile im rechten Bedienfeld.
 
 +++
 
@@ -156,7 +166,7 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
    Sie können die Personalisierung verwenden, um den Schaltflächentext mithilfe von Daten aus Konto- oder Personenprofilen zu ändern.
 
-1. Verwenden Sie bei [ die ](./content-components.md#button) im rechten Bedienfeld.
+1. Verwenden Sie bei [&#x200B; die &#x200B;](./content-components.md#button) im rechten Bedienfeld.
 
 +++
 
@@ -172,11 +182,11 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
 Wenn Sie im linken Navigationsbereich für den visuellen Editor im Design auf das Symbol **+** klicken, können Sie die folgenden Komponententypen zur Seite hinzufügen, um das Web-Erlebnis zu ändern:
 
-* **[!UICONTROL Trennlinie]** - Verwenden Sie diese Komponente, um das Layout und den Inhalt Ihrer E-Mail durch eine Trennlinie zu strukturieren. Sie können Stilattribute wie Zeilenfarbe, Stil und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#divider) in _Inhaltskomponenten_.
-* **[!UICONTROL HTML]** - Verwenden Sie diese Komponente, um HTML-Code zu kopieren und in die vorhandene Struktur einzufügen. Damit können Sie kostenlose modulare HTML-Komponenten erstellen, um externe Inhalte wiederzuverwenden. Weitere Informationen finden Sie unter {](./content-components.md#html)}in _Inhaltskomponenten_.[
-* **[!UICONTROL Bild]** - Verwenden Sie diese Komponente, um eine Bilddatei in die Seite einzufügen. Sie können Stilattribute wie Breite und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#image) in _Inhaltskomponenten_.
-* **[!UICONTROL Überschrift]** - Verwenden Sie diese Komponente, um Text für die Überschriftenklasse einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#text) in _Inhaltskomponenten_.
-* **[!UICONTROL Absatz]** - Verwenden Sie diese Komponente, um ein standardmäßiges Textelement einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#text) in _Inhaltskomponenten_.
+* **[!UICONTROL Trennlinie]** - Verwenden Sie diese Komponente, um das Layout und den Inhalt Ihrer E-Mail durch eine Trennlinie zu strukturieren. Sie können Stilattribute wie Zeilenfarbe, Stil und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#divider) in _Inhaltskomponenten_.
+* **[!UICONTROL HTML]** - Verwenden Sie diese Komponente, um HTML-Code zu kopieren und in die vorhandene Struktur einzufügen. Damit können Sie kostenlose modulare HTML-Komponenten erstellen, um externe Inhalte wiederzuverwenden. Weitere Informationen finden Sie unter {[&#128279;](./content-components.md#html)}in _Inhaltskomponenten_.
+* **[!UICONTROL Bild]** - Verwenden Sie diese Komponente, um eine Bilddatei in die Seite einzufügen. Sie können Stilattribute wie Breite und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#image) in _Inhaltskomponenten_.
+* **[!UICONTROL Überschrift]** - Verwenden Sie diese Komponente, um Text für die Überschriftenklasse einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#text) in _Inhaltskomponenten_.
+* **[!UICONTROL Absatz]** - Verwenden Sie diese Komponente, um ein standardmäßiges Textelement einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#text) in _Inhaltskomponenten_.
 * **[!UICONTROL Link]** - Verwenden Sie diese Komponente, um einen freistehenden Text-Link zu einer angegebenen URL einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Ausrichtung und Größe in den Eigenschaften im rechten Bereich anpassen.
 
 Wählen Sie links einen Komponententyp aus und bewegen Sie dann den Mauszeiger über ein Element, das an der Stelle angrenzt, an der Sie es hinzufügen möchten.
@@ -194,7 +204,7 @@ Um die Auswahl eines Komponententyps für das Einfügen aufzuheben, klicken Sie 
 
 Verwenden Sie den nicht visuellen Editor, wenn Sie Änderungen vornehmen müssen, die im visuellen Editor nicht einfach zu erledigen sind. Dieser Code-basierte Ansatz bietet Ihnen präzise Kontrolle über das Targeting und die Änderung von Elementen. Führen Sie die folgenden Schritte aus, um den nicht visuellen Editor zum Entwerfen Ihres Web-Erlebnisses zu verwenden:
 
-1. Klicken Sie auf der _[!UICONTROL „Inhalt]_ auf der Seite mit den Web-Erlebnisdetails ]**Bereich auf**[!UICONTROL &#x200B;Änderung hinzufügen“.
+1. Klicken Sie auf der _[!UICONTROL „Inhalt]_ auf der Seite mit den Web-Erlebnisdetails **Bereich auf**&#x200B;Änderung hinzufügen“.
 
    Der nicht visuelle Editor lädt eine Seite basierend auf der Konfiguration des Web-Kanals.
 

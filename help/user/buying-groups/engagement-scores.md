@@ -4,12 +4,19 @@ description: Berechnen Sie die Werte für Einkaufsgruppen- und Personeninterakti
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-subfeature_v2: id: d5e018de-9479-48a8-96a8-176c73166631
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+subfeature_v2:
+  - id: d5e018de-9479-48a8-96a8-176c73166631
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: '2026-03-30T21:43:47.624Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
@@ -37,13 +44,13 @@ Es gibt zwei Arten von Interaktionswerten:
 
 * **Interaktionswert für eine Person** - Der Interaktionswert für eine Person basiert auf den Aktivitäten eines einzelnen kaufenden Gruppenmitglieds.
 
-  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte ]_Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
+  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte &#x200B;]_&#x200B;Mitglieder) &#x200B;](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
 
   ![Die engagiertesten Mitglieder der Einkaufsgruppe](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Der Personeninteraktionswert ist ein Attribut, das zum Filtern in [Rollenvorlagen](./buying-groups-role-templates.md#add-the-template-roles) und [Journey-Knoten, die nach Personen aufgeteilt werden können, ](../journeys/split-merge-paths-nodes.md#people-path-filters).
+Der Personeninteraktionswert ist ein Attribut, das zum Filtern in [Rollenvorlagen](./buying-groups-role-templates.md#add-the-template-roles) und [Journey-Knoten, die nach Personen aufgeteilt werden können, &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Zugriff auf die konfigurierten Ereignisdefinitionen](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
