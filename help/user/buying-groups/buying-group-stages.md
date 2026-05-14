@@ -4,21 +4,14 @@ description: Erstellen Sie benutzerdefinierte Einkaufsgruppen-Staging-Modelle mi
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
-autotag-review: '2026-03-30T21:47:43.205Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+autotag-review: 2026-03-30T21:47:43.205Z
+TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 2357
 ht-degree: 2%
@@ -63,7 +56,7 @@ Wenn Sie das Einkaufsgruppenstufenmodell erstellen, befindet es sich automatisch
 
    ![Fügen Sie den Namen und die Beschreibung für das Modell hinzu](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   Wenn Sie in _[!UICONTROL Dialogfeld auf]_&#x200B;_[!UICONTROL Abbrechen“ klicken, kehren Sie in einem_ leeren _zur Registerkarte]_ Phasen“ zurück.
+   Wenn Sie in _[!UICONTROL Dialogfeld auf]__[!UICONTROL Abbrechen“ klicken, kehren Sie in einem_ leeren _zur Registerkarte]_ Phasen“ zurück.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -170,7 +163,7 @@ _Anzeigen des Entwurfsmodells :_
 
 1. Ändern Sie _Dialogfeld &quot;_ bearbeiten“ die Flussoptionen nach Bedarf.
 
-   Weitere [&#x200B; zu diesen Optionen und deren Auswirkungen auf den Modellfluss finden &#x200B;](#configure-the-workflow-and-transition-rules) unter „Konfigurieren des Workflows und der Übergangsregeln“.
+   Weitere [ zu diesen Optionen und deren Auswirkungen auf den Modellfluss finden ](#configure-the-workflow-and-transition-rules) unter „Konfigurieren des Workflows und der Übergangsregeln“.
 
 1. Wenn Sie mit den definierten Übergangsregeln zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -381,4 +374,4 @@ Verwenden Sie den Eintritt einer Kaufgruppen-Stadienänderung, um das Konto mit 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448703/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

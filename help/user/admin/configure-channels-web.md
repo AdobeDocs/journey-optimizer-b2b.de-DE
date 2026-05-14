@@ -5,20 +5,13 @@ feature: Setup, Channels
 role: Admin
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: '2026-03-27T23:15:46.632Z'
-source-git-commit: 1e7ba951f8cf4d8583a93badc78add4eba503ca6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+autotag-review: 2026-03-27T23:15:46.632Z
+TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
+source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1075
 ht-degree: 6%
@@ -33,7 +26,7 @@ Eine Web-Konfiguration ist eine Web-Eigenschaft, die durch eine URL identifizier
 
 **Voraussetzungen**
 
-Um Web-Kanäle nutzen zu können, muss auf Ihrer Website für die Besucheridentifizierung und Inhaltsbereitstellung der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementiert sein. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
+Um Web-Kanäle nutzen zu können, muss auf Ihrer Website für die Besucheridentifizierung und Inhaltsbereitstellung der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementiert sein. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
 
 Die Webkanalkonfiguration in Journey Optimizer B2B edition erfordert die folgenden [Berechtigungen](../admin/user-management.md#b2b-product-permissions):
 
