@@ -4,10 +4,15 @@ description: Greifen Sie auf Journey Optimizer B2B Edition zu und navigieren Sie
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -34,7 +39,7 @@ Die Startseite wird angezeigt, wenn Sie sich bei Adobe Experience Platform anmel
 
 ![Startseite von Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition verfügt über zwei primäre Benutzer-Personas: _**Marketer**_ und _**Administrator**_. Jede Persona verfügt über eine spezifische Startseite für verschiedene Reifephasen (neu oder erweitert). Der Seiteninhalt basiert darauf, was jede Persona in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt.
+Journey Optimizer B2B Edition verfügt über zwei primäre Benutzer-Personas: _&#x200B;**Marketer**&#x200B;_ und _&#x200B;**Administrator**&#x200B;_. Jede Persona verfügt über eine spezifische Startseite für verschiedene Reifephasen (neu oder erweitert). Der Seiteninhalt basiert darauf, was jede Persona in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt.
 
 * **Marketing-Fachkraft – Neue Benutzende** – Die Startseite _Marketing-Fachkraft_ für neue Benutzende hilft ihnen, sich mit Journey Optimizer B2B und dessen Funktionen vertraut zu machen. Sie enthält eine Anleitung für neue Marketing-Fachleute für das Abrufen einer Onboarding-Anleitung, sodass sie die Feinheiten des Systems verstehen und bei der Entwicklung von B2B-Marketing-Strategien und -Initiativen effizient werden können.
 * **Marketing-Fachkraft – Erfahrene Benutzende** – Die Startseite _Marketing-Fachkraft_ für erfahrene Marketing-Fachkräfte zeigt den Fortschritt der aktuellen Initiative sowie empfohlene nächste Aktionen an und bietet Schnellzugriff auf relevante Abschnitte.

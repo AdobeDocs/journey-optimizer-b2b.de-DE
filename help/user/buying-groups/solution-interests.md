@@ -4,10 +4,14 @@ description: Erstellen Sie Lösungsinteressen für Target-Produkte, automatisier
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: b7dfddac-ed29-4870-b853-5e520a4cdf12
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:38:19.586Z
 TQID: https://experienceleague.adobe.com/X7Tk6XZ3--VpI2DG2GOcF9WZHuXNhdczD-tj4TD0NLA
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -47,7 +51,7 @@ Sie können einen Einkaufsgruppenauftrag löschen, indem Sie auf die Auslassungs
 
 ## Lösungsinteresse erstellen
 
-Bevor Sie eine Interessenslösung erstellen, müssen Sie über eine Live-Rollenvorlage (veröffentlicht) verfügen, die die Rollen definiert, die Sie ansprechen möchten. Weitere [ zum Erstellen einer Rollenvorlage und ](./buying-groups-role-templates.md) Veröffentlichen einer Rollenvorlage finden Sie unter „Kaufen von Rollenvorlagen für Gruppen“.
+Bevor Sie eine Interessenslösung erstellen, müssen Sie über eine Live-Rollenvorlage (veröffentlicht) verfügen, die die Rollen definiert, die Sie ansprechen möchten. Weitere [&#x200B; zum Erstellen einer Rollenvorlage und &#x200B;](./buying-groups-role-templates.md) Veröffentlichen einer Rollenvorlage finden Sie unter „Kaufen von Rollenvorlagen für Gruppen“.
 
 1. Klicken Sie auf _[!UICONTROL Registerkarte]_ Lösungsinteresse **[!UICONTROL oben rechts auf]** Lösungsinteresse erstellen“.
 

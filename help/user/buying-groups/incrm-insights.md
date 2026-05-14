@@ -4,10 +4,17 @@ description: Greifen Sie auf Journey Optimizer B2B edition-Einkaufsgruppen direk
 feature: Sales Insights, Buying Groups
 role: User
 exl-id: c55a1fce-2ddc-481b-9f60-5e67a4bf9633
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: fc1ff3b2-6614-41ad-a113-de48597598fdid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:40:22.011Z
 TQID: https://experienceleague.adobe.com/HfypAUMJxZyWaQlkknyxUn63x5uVqcfJU-pzXcDWYBs
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -47,7 +54,7 @@ Um das In-CRM-Insights-Paket zu installieren, führen Sie die Schritte für Sale
 
 #### Salesforce
 
-1. Laden Sie das [In-CRM Insights-Installationspaket) ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce).
+1. Laden Sie das [In-CRM Insights-Installationspaket) &#x200B;](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce).
 1. Nach der Anmeldung werden Sie zur Seite für die Paketinstallation weitergeleitet.
 1. Wählen Sie die Option **[!UICONTROL Für alle Benutzer installieren]** und klicken Sie auf **[!UICONTROL Installieren]**.
 
@@ -62,9 +69,9 @@ Um das In-CRM-Insights-Paket zu installieren, führen Sie die Schritte für Sale
 
 #### MS Dynamics
 
-1. Laden Sie das [In-CRM Insights-Installationspaket) ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics).
+1. Laden Sie das [In-CRM Insights-Installationspaket) &#x200B;](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics).
 1. Gehen Sie zum [Power Apps-Portal](https://make.powerapps.com/){target=_blank}.
-1. Wählen Sie nach der Anmeldung die Umgebung für das Paket aus und navigieren Sie dann ]**Menü links zu**[!UICONTROL  Lösungen“.
+1. Wählen Sie nach der Anmeldung die Umgebung für das Paket aus und navigieren Sie dann **Menü links zu** Lösungen“.
 1. Klicken Sie **[!UICONTROL Lösung importieren]**.
 1. Navigieren Sie zum Installationspaket, laden Sie es hoch und klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Überprüfen Sie die Paketdetails und klicken Sie auf **[!UICONTROL Weiter]**.
@@ -77,4 +84,4 @@ Um das In-CRM-Insights-Paket zu installieren, führen Sie die Schritte für Sale
 
 Befolgen Sie die Anweisungen, um sich bei Ihrem Adobe-Konto anzumelden. Ihre Einkaufsgruppen werden geladen und können angezeigt werden.
 
-Nachdem Sie eine Einkaufsgruppe ausgewählt haben, können Sie die [Gruppendetails“ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Dies entspricht den in Journey Optimizer B2B edition angezeigten Daten und Erkenntnissen, die Daten sind jedoch über [!DNL In-CRM Insights] schreibgeschützt.
+Nachdem Sie eine Einkaufsgruppe ausgewählt haben, können Sie die [Gruppendetails“ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/accounts/sales-experience/buying-group-details#). Dies entspricht den in Journey Optimizer B2B edition angezeigten Daten und Erkenntnissen, die Daten sind jedoch über [!DNL In-CRM Insights] schreibgeschützt.
