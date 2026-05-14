@@ -195,4 +195,4 @@ Der Status der dynamischen Kontenliste ändert sich in _[!UICONTROL Live]_ und s
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448658/?captions=ger&learn=on)
