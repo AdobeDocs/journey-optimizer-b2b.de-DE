@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
-source-wordcount: 4757
+source-wordcount: 4594
 ht-degree: 1%
 
 ---
@@ -42,24 +42,6 @@ Der Verkaufsqualifizierer ist in [!UICONTROL Journey Optimizer B2B edition] enth
 
 Die Account Qualification Agent (AQA) ist das Herzstück des Sales Qualifier. Die AQA verwendet KI, um Ihre Konten zu lesen und festzustellen, welche für den nächsten Schritt bereit sind. Es unterstützt Sie bei der Recherche, beim Erstellen von E-Mails und beim CRM-informierten Kontext, wenn Ihr Unternehmen eine Verbindung zum CRM hergestellt hat (schreibgeschützt).
 
-![KI-gestütztes Account Qualification Agent-Dashboard für die Untersuchung von Interessenten und Accounts im Vertrieb](./assets/acc-qualification-agent.png){width="800" zoomable="yes"}
-
-* **Prospect Research**
-
-  Führen Sie eine Interessentenanalyse durch, indem Sie wichtige Informationen zum Interessenten automatisch abrufen und anzeigen (z. B. Stellenbezeichnung, aktuelle Interaktionen, Kauf einer Gruppenmitgliedschaft), um in Sekundenschnelle ein vollständiges Bild zu erhalten.
-
-* **Kundenanalyse**
-
-  Durchführen von Account-Recherchen mit automatischem Abrufen und Anzeigen detaillierter Informationen über die Organisation eines potenziellen Kunden. Zu diesen Informationen gehören wichtige Informationen zum Unternehmen, aktuelle Nachrichten, strategische Prioritäten und hochkarätige Mitglieder.
-
-* **E-Mail-Entwürfe**
-
-  Generieren von E-Mail-Entwürfen durch Synthese von Forschungsergebnissen aus Interessenten- und Account-Insights, um relevante, personalisierte E-Mail-Inhalte auf der Grundlage des BDR-Ziels zu erstellen.
-
-* **E-Mails zum Interaktionsplan**
-
-  Erstellen Sie E-Mail-Entwürfe für den Interaktionsplan, die für jeden Schritt einer BDR-definierten Outreach-Kadenz personalisiert werden, um sicherzustellen, dass die gesamte Sequenz personalisiert ist.
-
 <!--
 ## Edit the left navigation bar
 
@@ -72,17 +54,15 @@ Adobe AI-Agenten verwenden _Abfragen in natürlicher Sprache_ was bedeutet, dass
 
 Mit natürlicher Sprache können Sie den Agenten bitten:
 
-* `Show me my assigned leads with no engagement yet`
-* `Show me all my leads that are not part of any autonomous engagement`
-* `Give me a detailed summary on Acme company, including their buying group, recent intent signals, and our past engagement.`
+* `Tell me the latest financial results of Bodea`
+* `Tell me more about hiring at TechNova`
+* `Tell me about the new AI features in Bodea LumaSecure4`
 
-Sie können sofort erkennen, welche Konten und Leads am aktivsten sind und die höchste Absicht zeigen, sodass Sie Ihre Energie dort konzentrieren können, wo sie die größte Wirkung hat.
+Iterieren Sie Ihre ausgehenden Workflows, indem Sie Ihre Eingabeaufforderungen verfeinern, um die benötigten Ergebnisse zu erhalten. Beispiel:
 
-Iterieren Sie über Ihren Journey, indem Sie Ihre Eingabeaufforderungen verfeinern, um die benötigten Ergebnisse zu erhalten. Beispiel:
+* _Entwerfen einer Folge-E-Mail aus dem Kontext wie Einkommensaufrufe oder Berichte._ Bis zu 120 Wörter. Betreffzeile: Fesselnd, mit einem Schlüsselthema. Einführung: Hook mit einem direkten Zitat aus Kontextquellen. Hauptteil: Verbinden Sie sich mit Problembereichen und Wertangeboten. CTA: Schließen Sie eine kurze Aufforderung zur weiteren Untersuchung ein.
 
-* _Entwerfen Sie eine Folgenachricht aus dem Kontext wie Einkommensaufrufe oder Berichte. Bis zu 120 Wörter. Betreffzeile: Fesselnd, mit einem Schlüsselthema. Einführung: Hook mit einem direkten Zitat aus Kontextquellen. Hauptteil: Verbinden Sie sich mit Problembereichen und Wertangeboten. CTA: Schlagen Sie eine kurze Aufforderung vor, um weitere Fragen zu klären._
-
-* _Das Ziel dieser E-Mail ist es, ein Gespräch zu beginnen und Glaubwürdigkeit aufzubauen. Entwerfen Sie eine E-Mail unter 120 Wörtern, die einen beratenden und einfühlsamen Ton hat. Achten Sie darauf, einen allzu vertrauten Ansatz oder Vertriebsansatz zu vermeiden und verwenden Sie nicht die Phrasen „Hoffnung, dass es Ihnen gut geht“, „nur einchecken“ oder „Bitte“_
+* _Das Ziel dieser E-Mail ist es, ein Gespräch zu beginnen und Glaubwürdigkeit aufzubauen._ Entwerfen Sie eine E-Mail unter 120 Wörtern, die einen beratenden und einfühlsamen Ton hat. Achten Sie darauf, einen allzu vertrauten Ansatz oder Vertriebsansatz zu vermeiden und nicht die Phrasen „hoffen Sie, dass es Ihnen gut geht“, „nur einchecken“ oder „bitte“ zu verwenden.
 
 ### Produktzugriff und Benutzergruppen
 
@@ -114,21 +94,6 @@ Wählen Sie **[!UICONTROL linken Navigationsbereich]** Interessenten“ aus, um 
 ![Tabelle mit Interessenten, in der der Lead-Status und die letzte Aktivität für das Interessenten-Management angezeigt werden](./assets/prospects.png){width="800" zoomable="yes"}
 
 Klicken Sie auf _Filter_ ![Filtersymbol](../../assets/do-not-localize/icon_filter-outline.svg), um die angezeigte Liste nach Lead-Status zu filtern.
-
-<!--
-## Engagement plans
-
-This window provides details about any defined Engagement plans.
-
-![Engagement plan dashboard showing plan details, selected leads, and schedule settings](assets/engagement-plans.png)
-
-To make a new Engagement plan, click **[!UICONTROL Create engagement plan]**.
-
-1. In the _Details_ stage, provide a name and optional description. Click **[!UICONTROL Save and Continue]**.
-1. In the _Select prospects_ stage, select the leads that should belong in this plan.
-1. In the _Define cadence_ stage, set the parameters for the plan.
-1. In the _Preview_ stage, ensure that everything is working as expected.
--->
 
 ## Ausgehende Workflows
 
@@ -167,7 +132,7 @@ In den folgenden Abschnitten wird der gesamte Lebenszyklus beschrieben: Erstelle
 
 ### Erstellen eines ausgehenden Workflows
 
-Der Workflow-Assistent umfasst fünf Schritte: **Ziel**, **Targeting**, **Touchpoints generieren**, **Einstellungen** und **Interessenten hinzufügen**. Jeder Schritt baut auf dem letzten auf, mit dem Ziel, dass Sie zuerst jede spätere Entscheidung gestalten.
+Der Workflow-Assistent umfasst fünf Schritte: **Ziel**, **Targeting**, **Touchpoints generieren**, **Einstellungen** und **Interessenten hinzufügen**. Jeder Schritt baut auf dem letzten auf; Ihr anfängliches Ziel formt jede nachfolgende Entscheidung.
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Ausgehender Workflow]** aus.
 
@@ -189,7 +154,7 @@ Ziele funktionieren am besten, wenn sie ein **konkretes Ergebnis** und nicht nur
 
 #### Schritt 2: Zielgruppenbestimmungsfilter konfigurieren
 
-Zielgruppenbestimmungsfilter definieren, welche potenziellen Kunden infrage kommen. Wenn Sie später Interessenten hinzufügen, werden nur die in der Auswahlliste angezeigt, die diesen Filtern entsprechen.
+Zielgruppenbestimmungsfilter definieren, welche potenziellen Kunden infrage kommen. Wenn Sie später Interessenten hinzufügen, werden nur die Interessenten in der Auswahlliste angezeigt, die diesen Filtern entsprechen.
 
 1. Klicken Sie auf den Abwärtspfeil, um die Liste **[!UICONTROL Filter hinzufügen]** anzuzeigen und einen anzuwendenden Filter auszuwählen.
 
@@ -209,7 +174,7 @@ Nachdem das Targeting festgelegt wurde, erstellt die KI **_Kadenz_**: Sie analys
 
 ![Vom ausgehenden Workflow generierte Touchpoint-Kadenz und Eingabeaufforderungen](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Erweitern Sie einen E-Mail-Touchpoint, um die Eingabeaufforderung zu lesen. Dies ist die Anweisung, der die KI beim Schreiben der eigentlichen E-Mail-Adresse jedes Interessenten folgt (Ton, Länge, Fokus und call to action).
+Erweitern Sie einen E-Mail-Touchpoint, um die Eingabeaufforderung zu lesen. Diese Anleitung führt die KI beim Schreiben der E-Mails jedes Interessenten, einschließlich Ton, Länge, Fokus und call to action.
 
 **Kadenz neu erzeugen**
 
@@ -313,7 +278,7 @@ Validierung aktiviert die Kadenz für einen Interessenten. Bis zur Genehmigung u
 
 ![Ausgehender Workflow - Interessenten auswählen und genehmigen](./assets/outbound-workflow-create-approve-enroll-prospects.png){width="700" zoomable="yes"}
 
-Warteschlange genehmigter E-Mails, die während des Workflows **Sendefenster** in der konfigurierten **Zeitzone** an jedem geplanten Touchpoint-Tag relativ zur Registrierung gesendet werden sollen. Interessenten, die Sie nicht genehmigen, verbleiben in **[!UICONTROL Bereit für Überprüfung]** bis Sie handeln. Nach der Genehmigung wird der Workflow entsprechend der von Ihnen definierten Kadenz ausgeführt.
+Genehmigte E-Mails werden während des Workflows **Sendefenster** in der konfigurierten **Zeitzone** an jedem geplanten Touchpoint-Tag relativ zur Registrierung gesendet. Interessenten, die Sie nicht genehmigen, verbleiben in **[!UICONTROL Bereit für Überprüfung]** bis Sie handeln. Nach der Genehmigung wird der Workflow entsprechend der von Ihnen definierten Kadenz ausgeführt.
 
 ### Verwalten vorhandener Workflows
 
@@ -322,10 +287,10 @@ Auf der Seite _[!UICONTROL Ausgehender Workflow]_ werden auf der Registerkarte *
 ### Best Practices für ausgehende Workflows
 
 * **Investieren Sie in das Ziel.** Nachgelagertes Targeting, Kadenz und E-Mails werden alle zum Ziel zurückverfolgt. Konkrete, ergebnisorientierte Ziele übertreffen vage Ziele.
-* **Touchpoint-Eingabeaufforderungen vor der Generierung pro Interessent abschließen.** Nach der Massengenerierung werden Änderungen normalerweise jeweils nur von einem Interessenten vorgenommen.
+* **Touchpoint-Eingabeaufforderungen vor der Generierung pro Interessent abschließen.**&#x200B;** Nach der Massengenerierung werden Änderungen in der Regel einzeln für Interessenten vorgenommen.
 * **Verwenden von Argumentation als Qualitätsprüfung.** Wenn das falsche Signal hervorgehoben wird - oder ein offensichtliches Signal fehlt - bearbeiten Sie die E-Mail oder besuchen Sie die Touchpoint-Eingabeaufforderung erneut und regenerieren Sie die Kadenz.
-* **Passen Sie das Bearbeitungswerkzeug an die Änderung an.** Direkte Bearbeitungen für Wortlaut und Ton; **[!UICONTROL Mit KI generieren]** für Umstrukturierung oder Reframing.
-* **Genehmigen Sie nur, was Sie geprüft haben.** Erweitern Sie Touchpoints, lesen Sie den Inhalt und verfeinern Sie ihn vor der Registrierung nach Bedarf.
+* **Passen Sie das Bearbeitungswerkzeug an die Änderung an.**&#x200B;**&#x200B; Direkte Bearbeitungen für Text und Ton; &#x200B;** [!UICONTROL Mit KI generieren]** für die Neustrukturierung oder Umgestaltung.
+* **Genehmigen Sie nur das, was Sie geprüft haben.**&#x200B;** Erweitern Sie Touchpoints, lesen Sie den Inhalt und verfeinern Sie ihn vor der Registrierung nach Bedarf.
 
 ## E-Mail-Postausgang
 
@@ -348,7 +313,7 @@ You can interact with clients, and see summaries for the contact and the thread 
 
 ## Aufgaben
 
-Der Bereich _Aufgaben_ im Sales Qualifier bietet BDRs (Business Development Representatives) einen speziellen Raum zur Verwaltung und Verarbeitung ihrer ausgehenden Workflow-Aktionen. Aufgaben werden automatisch von der ausgehenden Workflow-Engine generiert und stellen die spezifischen Aktionen dar, die ein BDR bei jedem Interessenten durchführen muss - Telefonanrufe, LinkedInMails und E-Mail-Überprüfungen.
+Der Bereich _Aufgaben_ im Sales Qualifier bietet BDRs (Business Development Representatives) einen speziellen Raum zur Verwaltung und Verarbeitung ihrer ausgehenden Workflow-Aktionen. Die ausgehende Workflow-Engine generiert automatisch Aufgaben, die die spezifischen Aktionen darstellen, die ein BDR bei jedem Interessenten durchführen muss - Telefonanrufe, LinkedInMails und E-Mail-Überprüfungen.
 
 Die Aufgabenverwaltung ist als **Verarbeitungswarteschlange“ konzipiert** nicht nur als Aufgabenliste. Sie können eine Aufgabe öffnen, eine Aktion ausführen, sie als abgeschlossen markieren und mit der nächsten fortfahren - und das alles, ohne die Seite zu verlassen.
 
@@ -393,13 +358,11 @@ Für Telefonanrufe und LinkedInMail-Aufgaben steht im Arbeitsbereich ein Feld In
 
 Verwenden Sie die folgenden Aktionen, um Ihre Aufgaben zu verwalten:
 
-* **[!UICONTROL Als abgeschlossen markieren]** - Die primäre Aktion. Verwenden Sie diese Option, nachdem Sie die Aufgabe ausgeführt haben - den Aufruf durchgeführt, die InMail gesendet oder die E-Mails überprüft und genehmigt haben. Nach Abschluss wird die Aufgabe als **Abgeschlossen“ aufgezeichnet** die Warteschlange wird automatisch fortgesetzt.
+* **[!UICONTROL Als abgeschlossen markieren]** - Die primäre Aktion. Verwenden Sie diese Aktion, nachdem Sie die Aufgabe ausgeführt haben - den Aufruf durchgeführt, die InMail gesendet oder die E-Mails überprüft und genehmigt haben. Nach Abschluss wird die Aufgabe als **Abgeschlossen“ aufgezeichnet** die Warteschlange wird automatisch fortgesetzt.
 
-* **[!UICONTROL Touchpoint überspringen]** - verfügbar über das Menü „Überlauf“ im Arbeitsbereich. Verwenden Sie diese Option, wenn Sie diesen speziellen Schritt nicht abschließen können, der Interessent jedoch weiterhin ein gültiges Ziel ist und im Workflow verbleiben sollte.
-
-  Wenn Sie einen Touchpoint überspringen:
+* **[!UICONTROL Touchpoint überspringen]** - verfügbar über das Menü „Überlauf“ im Arbeitsbereich. Verwenden Sie diese Option, wenn Sie diesen Schritt nicht abschließen können, der Interessent jedoch eine gültige Zielgruppe im Workflow bleibt.
    * Der Interessent geht zum nächsten Schritt der Sequenz über. Zukünftige Aufgaben werden weiterhin planmäßig generiert.
-   * Sie müssen einen Grund auswählen: *Ungültige Kontaktinformationen*, *Fehlerhafte*), *Inhalt nicht relevant* oder *Sonstiges* (mit einem Freitext-Feld).
+   * Wählen Sie einen Grund aus: *Ungültige Kontaktinformationen*, *Fehlerhaftes Timing*, *Inhalt nicht relevant* oder *Sonstiges* (mit einem Freitext-Feld).
    * Der Aufgabenstatus wird auf **Übersprungen** festgelegt und mit dem Grund und dem Zeitstempel protokolliert.
    * Wenn dies der letzte Schritt im Workflow war, endet die Ausführung des Workflows des Interessenten. Die Aufgabe wird weiterhin als Übersprungen (nicht entfernt) protokolliert.
 
@@ -408,13 +371,13 @@ Verwenden Sie die folgenden Aktionen, um Ihre Aufgaben zu verwalten:
   Wenn Sie einen Interessenten aus einem Workflow entfernen:
    * Alle ausstehenden und zukünftigen Aufgaben für diesen potenziellen Kunden innerhalb dieses Workflows werden abgebrochen.
    * Der Registrierungsstatus des Interessenten ändert sich in **Von BDR entfernt**.
-   * Sie müssen einen Grund auswählen: *linke Firma*, *Duplizieren*, *Falsche Anpassung*, *Bereits konvertiert* oder *Sonstige* (mit einem Textfeld).
-   * Ein Bestätigungsdialogfeld wird angezeigt: *„Dadurch werden alle verbleibenden Touchpoints für [Interessent] in [Workflow-Name] gelöscht. Fortfahren?“*
+   * Wählen Sie einen Grund aus: *linke Firma*, *Duplizieren*, *Falsche Anpassung*, *Bereits konvertiert* oder *Sonstige* (mit einem Textfeld).
+   * Ein Bestätigungsdialogfeld wird angezeigt: *„Diese Aktion löscht alle verbleibenden Touchpoints für [Interessent] in [Workflow-Name]. Fortfahren?“*
    * Der Aufgabenstatus wird auf &quot;**&quot;**. Alle abgebrochenen gleichrangigen Aufgaben sind ebenfalls mit **Entfernen** gekennzeichnet.
 
 >[!NOTE]
 >
->Ursachendaten-Feeds in Analytics überspringen und entfernen - Überspringrate nach Kanal, Entfernungsrate nach Workflow und Top-Gründe. Dies trägt zur Verbesserung der Workflow-Qualität bei und fließt in die Leistungsanalyse im Laufe der Zeit ein.
+>Ursachendaten für Überspringen und Entfernen informieren die Analyse, einschließlich Überspringrate nach Kanal, Entfernungsrate nach Workflow und Hauptgründe. Dies trägt zur Verbesserung der Workflow-Qualität bei und fließt in die Leistungsanalyse im Laufe der Zeit ein.
 
 ### Aufgabenstatus
 
@@ -437,9 +400,9 @@ Verwenden Sie die Registerkarten oben in der Aufgabenliste, um zwischen Ansichte
 
 * **Heute** *(Standard)* - Heute fällige Aufgaben, die noch nicht abgeschlossen wurden.
 
-* **Überfällig** - Aufgaben, deren Fälligkeitsdatum überschritten wurde und noch offen sind. Sprechen Sie diese zuerst an.
+* **Überfällig** - Aufgaben, deren Fälligkeitsdatum überschritten wurde und noch offen sind. Befassen Sie sich zuerst mit diesen Aufgaben.
 
-* **Kommend** - Aufgaben mit einem zukünftigen Fälligkeitsdatum, bei denen der vorherige Workflow-Schritt bereits abgeschlossen wurde. Diese sind frühzeitig sichtbar, sodass Sie im Voraus planen oder früher handeln können, wenn der Zeitpunkt richtig ist (z. B. wenn Sie bereits einen Anruf mit einem Interessenten haben). Das geplante Fälligkeitsdatum wird angezeigt, damit Sie den gewünschten Zeitpunkt kennen.
+* **Kommend** - Aufgaben mit einem zukünftigen Fälligkeitsdatum, bei denen der vorherige Workflow-Schritt bereits abgeschlossen wurde. Diese Aufgaben sind frühzeitig sichtbar, sodass Sie im Voraus planen oder früher handeln können, wenn der Zeitpunkt richtig ist (z. B. wenn Sie bereits einen Anruf mit einem Interessenten haben). Das geplante Fälligkeitsdatum wird angezeigt, damit Sie den gewünschten Zeitpunkt kennen.
 
 * **Abgeschlossen** - Ein Datensatz mit Aufgaben, die Sie abgeschlossen, übersprungen oder entfernt haben. Nützlich für Überprüfungs- und Auditzwecke.
 
@@ -477,7 +440,7 @@ Eine Aufgabe ist am Tag nach ihrem Fälligkeitsdatum überfällig, wenn sie nich
 
 ### Anstehende Aufgaben
 
-Anstehende Aufgaben werden erstellt, sobald ein Interessent einen Workflow-Schritt abgeschlossen hat, selbst wenn der nächste Fälligkeitsdatum für den Schritt noch in der Zukunft liegt. Dadurch erhalten Sie einen frühzeitigen Einblick in Ihre Pipeline, sodass Sie vorausplanen oder frühzeitig handeln können, wenn die Gelegenheit auftritt.
+Anstehende Aufgaben werden erstellt, sobald ein Interessent einen Workflow-Schritt abgeschlossen hat, selbst wenn der nächste Fälligkeitsdatum für den Schritt noch in der Zukunft liegt. Durch diese Sichtbarkeit erhalten Sie einen frühzeitigen Einblick in insight in Ihre Pipeline, sodass Sie im Voraus planen oder frühzeitig handeln können, wenn die Gelegenheit auftritt.
 
 Anstehende Aufgaben zeigen ihr geplantes Fälligkeitsdatum an, sodass Sie immer wissen, wann sie gelöst werden sollen. Die frühzeitige Durchführung einer anstehenden Aufgabe wird vollständig unterstützt - die Workflow-Engine zeichnet das tatsächliche Abschlussdatum auf und treibt den potenziellen Kunden normal voran.
 
@@ -500,7 +463,7 @@ Bei Integrationen kann Sales Qualifier Ihr CRM verwenden, sodass die Account Qua
 
 >[!IMPORTANT]
 >
->Der Zugriff auf Integrationen im Sales Qualifier erfordert die Mitgliedschaft in der `Sales Qualifier Admins` Benutzergruppe.
+>Für den Zugriff auf Integrationen im Sales Qualifier ist die Mitgliedschaft in der `Sales Qualifier Admins` Benutzergruppe erforderlich.
 
 ### CRM-Zugriffsbereich
 
@@ -522,7 +485,7 @@ Arbeiten Sie mit Ihrem CRM-Administrator zusammen, bevor Sie den Sales Qualifier
 
 1. Weisen Sie eine Sicherheitsrolle zu, die **Lesezugriff** auf die Anforderungen der Verkaufsqualifizierer-Entitäten gewährt (z. B. Leads, Kontakte, Konten, Chancen und Aktivitäten).
 
-   Ohne eine Rolle kann die App keine Daten lesen.
+   Die App erfordert eine Sicherheitsrolle mit Lesezugriff auf Lesedaten.
 
 **Informationen zum Verbinden von Dynamics:**
 
@@ -533,7 +496,7 @@ Arbeiten Sie mit Ihrem CRM-Administrator zusammen, bevor Sie den Sales Qualifier
 
 #### Salesforce
 
-Erstellen Sie in Salesforce [eine externe Client](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm)App oder eine _verbundene App_) mit aktivierten OAuth-Bereichen, die API-Zugriff auf Identitäten und Daten ermöglichen und den Sicherheitsstandards Ihrer Organisation entsprechen. Der integrierende Benutzer (z. B. bei Verwendung einer Client-Anmeldedaten-Stilkonfiguration) muss Lesezugriff auf Objekte wie Leads, Konten, Kontakte, Aufgaben, Ereignisse, Chancen und verwandte Opportunity-Objekte haben. Für administrative Aufgaben ist es oft erforderlich, dass Benutzende mit **[!UICONTROL Verbundene Apps verwalten]** (neben anderen Berechtigungen) nach der Erstellung einen Kundenschlüssel und ein Kundengeheimnis anzeigen.
+Erstellen Sie in Salesforce [eine externe Client](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5)App oder eine _verbundene App_) mit aktivierten OAuth-Bereichen, die API-Zugriff auf Identitäten und Daten ermöglichen und den Sicherheitsstandards Ihrer Organisation entsprechen. Der integrierende Benutzer (z. B. bei Verwendung einer Client-Anmeldedaten-Stilkonfiguration) muss Lesezugriff auf Objekte wie Leads, Konten, Kontakte, Aufgaben, Ereignisse, Chancen und verwandte Opportunity-Objekte haben. Für administrative Aufgaben ist es oft erforderlich, dass Benutzende mit **[!UICONTROL Verbundene Apps verwalten]** (neben anderen Berechtigungen) nach der Erstellung einen Kundenschlüssel und ein Kundengeheimnis anzeigen.
 
 >[!PREREQUISITES]
 >
