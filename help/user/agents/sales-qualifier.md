@@ -30,7 +30,7 @@ Sales Qualifier ist eine KI-gesteuerte Anwendung, die Sie mit Adobe Journey Opti
 
 BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intelligence direkt in CRMs oder Outlook aufzurufen. Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
 
 ## Programm-Startseite
 
