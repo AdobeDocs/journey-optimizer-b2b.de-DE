@@ -1,7 +1,7 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 230933fe205b565aa55f4a1fb371704f996d1bb3
+source-git-commit: 8be440c86b32a582891f0f30cae259e23028d336
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 93%
@@ -47,7 +47,7 @@ ht-degree: 93%
       + [Personen-Zielgruppe (Beta)](./journeys/person-audience-nodes.md)
       + [Durchführen einer Aktion](./journeys/action-nodes.md)
       + [Auf ein Ereignis lauschen](./journeys/listen-for-event-nodes.md)
-      + [Aufspaltungs- und Zusammenführungspfade](./journeys/split-merge-paths-nodes.md)
+      + [Aufteilen und Zusammenführen von Pfaden](./journeys/split-merge-paths-nodes.md)
       + [Warten](./journeys/wait-nodes.md)
       + [Externe Knoten](./journeys/external-nodes.md)
    + [Journey-Details](./journeys/journey-details.md)
@@ -161,10 +161,10 @@ ht-degree: 93%
       + [Absichtsdaten](./admin/intent-data.md)
       + [Gewichtung der Interaktionsbewertung](./admin/engagement-score-weighting.md)
       + [Externe Politikbereiche](./admin/configure-external-actions.md)
+      + {hide-from-toc}[Konfigurieren von Datenströmen für die Ereignissammlung](./data/aep-event-collection.md)
    + Kanäle {#channels}
       + [E-Mail-Konfigurationen](./admin/configure-channels-emails.md)
       + [SMS-Konfigurationen](./admin/configure-channels-sms.md)
       + [WhatsApp-Konfigurationen](./admin/configure-channels-whatsapp.md)
       + [Web-Kanalkonfigurationen (Beta)](./admin/configure-channels-web.md)
       + [Landingpage-Einstellungen (Beta)](./admin/landing-page-settings.md)
-      + {hide-from-toc}[Konfigurieren von Datenströmen für die Ereignissammlung](./data/aep-event-collection.md)
