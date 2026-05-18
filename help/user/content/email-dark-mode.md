@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJ
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
 workflow-type: tm+mt
 source-wordcount: 1606
-ht-degree: 20%
+ht-degree: 23%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie in den dunklen Modus, um eine Vorschau des Renderings anzuzeigen und bestimmte benutzerdefinierte Einstellungen vorzunehmen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten Dunkelmodus unterstützen."
+>abstract="Wechseln Sie in den dunklen Modus, um eine Vorschau des Renderings anzuzeigen und bestimmte benutzerdefinierte Einstellungen vorzunehmen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten dunklen Modus unterstützen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
@@ -135,7 +135,7 @@ Wenn Sie Ihre E-Mail-Inhalte für den Dunkelmodus in [!DNL Journey Optimizer B2B
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Verwenden eines bestimmten Bildes für den dunklen Modus"
->abstract="Sie können ein anderes Bild auswählen, das angezeigt werden soll, wenn der Dunkelmodus aktiviert ist. <br>Das Hinzufügen eines bestimmten Bildes für den Dunkelmodus garantiert nicht, dass es in allen E-Mail-Clients korrekt gerendert wird. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten dunklen Modus unterstützen."
+>abstract="Sie können ein anderes Bild auswählen, das angezeigt werden soll, wenn der dunkle Modus aktiviert ist. <br>Das Hinzufügen eines bestimmten Bilds für den dunklen Modus garantiert nicht, dass es in allen E-Mail-Clients ordnungsgemäß gerendert wird. Beachten Sie, dass nicht alle E-Mail-Clients den benutzerdefinierten dunklen Modus unterstützen."
 
 Nach dem Wechsel in den dunklen Modus können Sie bestimmte Stilelemente Ihres Inhalts bearbeiten, die nur angezeigt werden, wenn der dunkle Modus im E-Mail-Client des Empfängers aktiviert ist (sofern er diese Funktion unterstützt).
 

@@ -19,7 +19,7 @@ autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 1491
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -138,12 +138,12 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Kategorie des eingehenden Keywords"
->abstract="<b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ein Abonnement abschließen. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ihr Abonnement kündigen. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende Hilfe oder Support anfordern. <br/><b>Standard</b>: sendet Ihre automatische Fallback-Antwort, wenn keine Schlüsselwörter übereinstimmen."
+>abstract="<b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ein Abonnement abschließen. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ihr Abonnement kündigen. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende Hilfe oder Support anfordern. <br/><b>Standard</b>: Sendet Ihre automatische Fallback-Antwort, wenn keine Keywords übereinstimmen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="Eingeben von Keywords"
->abstract="Sie können Keywords zum Auslösen spezifischer automatischer Antworten basierend auf den Nachrichten von Benutzenden definieren. Bei Schlüsselwörtern wird nicht zwischen Groß- und Kleinschreibung unterschieden (Stopp und STOP werden gleich behandelt)."
+>abstract="Sie können Keywords zum Auslösen spezifischer automatischer Antworten basierend auf den Nachrichten von Benutzenden definieren. Bei Keywords wird nicht zwischen Groß- und Kleinschreibung unterschieden („stop“ und „STOP“ werden gleich behandelt)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"
