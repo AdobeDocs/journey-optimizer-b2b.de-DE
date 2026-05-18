@@ -4,22 +4,16 @@ description: Verbinden Sie Ihr WhatsApp Business-Konto über die Cloud-API von M
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2:
-  - id: a7692144-1dc6-426f-b00f-fe187797f61d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2: id: a7692144-1dc6-426f-b00f-fe187797f61d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 1491
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -84,7 +78,7 @@ Führen Sie die folgenden Aufgaben aus:
    * **[!UICONTROL API-Token]** - Geben Sie Ihr API-Token ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Geschäftskonto-ID]** - Geben Sie die eindeutige Nummer Ihres Geschäftsportfolios ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![WhatsApp-Einstellungen API-Anmeldedaten &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![WhatsApp-Einstellungen API-Anmeldedaten ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
@@ -138,12 +132,12 @@ do we have advanced logs? How are they enabled?
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-inbound-keyword-category"
 >title="Kategorie des eingehenden Keywords"
->abstract="<b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ein Abonnement abschließen. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ihr Abonnement kündigen. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende Hilfe oder Support anfordern. <br/><b>Standard</b>: sendet Ihre automatische Fallback-Antwort, wenn keine Schlüsselwörter übereinstimmen."
+>abstract="<b>Opt-in</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ein Abonnement abschließen. <br/><b>Opt-out</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende ihr Abonnement kündigen. <br/><b>Hilfe</b>: Sendet Ihre definierte automatische Antwort, wenn Benutzende Hilfe oder Support anfordern. <br/><b>Standard</b>: Sendet Ihre automatische Fallback-Antwort, wenn keine Keywords übereinstimmen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin_whatsapp-webhook-inbound-keyword"
 >title="Eingeben von Keywords"
->abstract="Sie können Keywords zum Auslösen spezifischer automatischer Antworten basierend auf den Nachrichten von Benutzenden definieren. Bei Schlüsselwörtern wird nicht zwischen Groß- und Kleinschreibung unterschieden (Stopp und STOP werden gleich behandelt)."
+>abstract="Sie können Keywords zum Auslösen spezifischer automatischer Antworten basierend auf den Nachrichten von Benutzenden definieren. Bei Keywords wird nicht zwischen Groß- und Kleinschreibung unterschieden („stop“ und „STOP“ werden gleich behandelt)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_admin-whatsapp-webhook-webhook-url"
@@ -200,7 +194,7 @@ Wenn die WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, können 
 
 Nachdem der Webhook gesendet wurde, können Sie die Token- und URL-Werte abrufen und in Meta registrieren.
 
-1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![&#x200B; ( &#x200B;](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
+1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![ ( ](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
 
 1. Kopieren Sie die Werte **[!UICONTROL Verifizierungstoken]** und **[!UICONTROL Webhook-URL]**.
 

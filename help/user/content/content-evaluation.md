@@ -6,19 +6,15 @@ feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
 workflow-type: tm+mt
 source-wordcount: 755
-ht-degree: 9%
+ht-degree: 16%
 
 ---
 
@@ -60,7 +56,7 @@ Die Inhaltsauswertung und -bewertung helfen Ihnen bei der Erstellung, Überprüf
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Markenausrichtungswert"
->abstract="Die Bewertung Ihrer Markenausrichtung misst, wie gut Ihr Inhalt den Markenrichtlinien entspricht, um Konsistenz in Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
+>abstract="Der Markenausrichtungswert misst, inwieweit Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um Konsistenz bezüglich Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -109,7 +105,7 @@ Sie können Änderungen am Inhalt vornehmen und auf **[!UICONTROL Punktzahl neu 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
 >title="Qualität der Inhalte"
->abstract="Bewertung der allgemeinen Inhaltsqualität zur Identifizierung potenzieller Probleme mit Lesbarkeit, Inhaltskohärenz und Effektivität. Die Qualitätsbewertung ist unabhängig von Ihren Markenrichtlinien."
+>abstract="Bewerten Sie die allgemeine Inhaltsqualität, um potenzielle Probleme mit Lesbarkeit, Inhaltskohärenz und Effektivität zu identifizieren. Die Qualitätsbewertung ist unabhängig von Ihren Markenrichtlinien."
 
 >[!NOTE]
 >
