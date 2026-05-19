@@ -20,9 +20,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: 1522
 ht-degree: 13%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 13%
 Admins können bestimmte [AEP-Erlebnisereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und deren zugehörige Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
+
+>[!PREREQUISITES]
+>
+>Für die Verwendung von Erlebnisereignissen und -feldern in Journey Optimizer B2B edition sind profilaktivierte Erlebnisereignisschemata erforderlich. Weitere Informationen finden Sie unter [Aktivieren von Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/de/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in den Experience Platform-Tutorials.
+
 Die Verwendung von AEP-Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
 
 1. Ein Administrator ([&#x200B; Erlebnisereignisse und -felder) &#x200B;](#add-an-event) den Journey Optimizer B2B edition-Konfigurationen.
