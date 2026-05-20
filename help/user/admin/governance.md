@@ -16,9 +16,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 94a8ed9584459cf85a72448cd698740ef450ddb2
+source-git-commit: d7e971b6d533a173632224baa359f7559b865497
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 419
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Mit Journey Optimizer B2B edition und Zugriff auf Adobe Admin Console können Ad
 
 ## Opt-in/Opt-out für Einverständnis
 
-Journey Optimizer B2B edition liest die in den XDM-Profilen von Adobe Experience Platform gespeicherten Einverständnisvoreinstellungen pro Person und erzwingt diese zum Zeitpunkt des Nachrichtenversands für E-Mail-, SMS- und WhatsApp-Kanäle. Personen, die sich gegen einen Kanal entschieden haben, werden vom Versand ausgeschlossen, bevor Inhalte vom Kanal oder nachgelagerten Messaging-Anbieter gesendet werden.
+Journey Optimizer B2B edition liest die in den XDM-Profilen von Adobe Experience Platform gespeicherten Einverständnisvoreinstellungen pro Person und erzwingt diese zum Zeitpunkt des Nachrichtenversands für E-Mail-, SMS- und WhatsApp-Kanäle. Eine Person, die sich gegen einen Kanal entschieden hat, wird vom Versand ausgeschlossen, bevor Inhalte vom Kanal oder nachgelagerten Messaging-Anbieter gesendet werden.
 
 Das Einverständnis wird zum Zeitpunkt des Versands mithilfe von XDM-Feldern aus der Feldergruppe „Profileinverständnis“ ausgewertet. Das standardmäßige Einverständnisverhalten unterscheidet sich je nach Kanal - E-Mail ist standardmäßig aktiviert, wenn keine Voreinstellung festgelegt ist, während SMS und WhatsApp standardmäßig deaktiviert sind.
 
