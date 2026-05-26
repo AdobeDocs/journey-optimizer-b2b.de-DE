@@ -3,23 +3,16 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 4582cce8bf46ca36c09c830a9a965da1d56b840a
+source-git-commit: 4cc24ff8a19aa1ec6888c7ef35c1a4c6ac93f344
 workflow-type: tm+mt
-source-wordcount: 5092
+source-wordcount: 5096
 ht-degree: 67%
 
 ---
@@ -45,7 +38,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | Mitglied des Kontolistenfilters | Verwenden Sie die Mitgliedschaft von Account-Listen als Orchestrierungspunkt in Account-Journey. Marketing-Experten können Account-Blockierungslisten, Prioritätenlisten oder jede andere Untergruppe ihrer Zielgruppe erstellen und Account-spezifische Erlebnisse in Journey basierend auf ihrer Mitgliedschaft bereitstellen. |
 | Funktion | Filtern des Erlebnisereignisverlaufs | Diese Funktion ermöglicht es der B2B-Journey-Orchestrierung, historische Interaktionen zu verwenden, um verhaltensbasierte Entscheidungen für Zielgruppenmitglieder zu fördern. |
 | Funktion | Journey Split Path Decisioning | Sie können die Split Path-Entscheidungsfindung für Konto- und Personen-Journey optimieren und verfeinern, wie Zielgruppen vor der Journey-Aktivierung oder zur Laufzeit über Pfade hinweg geroutet werden. |
-| Verbesserung | Audience Agent-Kenntnisse | Audience Agent-Kenntnisse werden aktualisiert, einschließlich der KI-gestützten Erstellung von Einkaufsgruppen-Vorlagen. Verwenden Sie die Erstanbieter-Intent- und Persona-Zuordnung, um Einkaufsgruppenvorlagen zu generieren, von KI empfohlene Rollen-zu-Persona-Zuordnungen zu überprüfen und Vorlagen mit natürlicher Sprache zu verfeinern, bevor Sie sie veröffentlichen. |
+| Verbesserung | Audience Agent B2B-Kenntnisse | Audience Agent B2B-Kenntnisse werden aktualisiert, einschließlich der Erstellung von KI-gestützten Einkaufsgruppen-Vorlagen. Verwenden Sie die Erstanbieter-Intent- und Persona-Zuordnung, um Einkaufsgruppenvorlagen zu generieren, von KI empfohlene Rollen-zu-Persona-Zuordnungen zu überprüfen und Vorlagen mit natürlicher Sprache zu verfeinern, bevor Sie sie veröffentlichen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
 | Verbesserung | E-Mail-Interaktionsbericht | Der Bericht zur Leistung von E-Mail-Interaktionen bietet Marketing-Experten eine einheitliche Übersicht über E-Mail-Aktivitäten in allen Journey in Adobe Journey Optimizer B2B edition. |
 | Verbesserung | Übersichts-Dashboard der Personen-Journey | Dieses Dashboard bietet einen umfassenden Überblick über die Journey Ihrer aktiven Personen. |
 | Verbesserung | Unterstützung für relationale AEP-Datensätze | Neue relationale Datensätze werden jetzt zusammen mit vorhandenen Datensätzen in Ihrer AEP-Sandbox angezeigt. |
@@ -159,7 +152,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 

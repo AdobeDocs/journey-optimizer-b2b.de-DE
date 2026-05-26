@@ -4,40 +4,33 @@ description: Audience Agent B2B in Journey Optimizer B2B edition verwendet Inten
 feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
 workflow-type: tm+mt
-source-wordcount: 3099
-ht-degree: 1%
+source-wordcount: 2500
+ht-degree: 2%
 
 ---
 
 # Audience Agent B2B
 
-Mit [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) ist Audience Agent B2B in Journey Optimizer B2B edition verfügbar. Die Verwendung dieses Agenten verbessert die Effizienz und Effektivität beim Erkunden und Skalieren von Zielgruppen, beschleunigt die Erstellung von Einkaufsgruppen und bietet nahtlose Workflows für die Journey-Aktivierung:
+Mit [Adobe Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) ist Audience Agent B2B in Journey Optimizer B2B edition verfügbar. Die Verwendung dieses Agenten verbessert die Effizienz und Effektivität beim Erkunden und Skalieren von Zielgruppen, beschleunigt die Erstellung von Einkaufsgruppen und bietet nahtlose Workflows für die Journey-Aktivierung:
 
 * **_Priorisieren der Zielgruppen nach Intent_**: Ziehen Sie Personas auf der Grundlage des Produktintents für verschiedene Zielgruppen in den Schluss und optimieren Sie die Kampagnenplanung, indem Sie die Zeit für die Audience-Validierung reduzieren.
 
-* **_Nutzen von KI zur Erkennung von Einkaufsgruppen_**: Verwenden Sie KI, strukturierte, unstrukturierte Daten und einheitliche First-Party-Daten, um die Erkennung und Erstellung von Einkaufsgruppen zu optimieren.
+* **_Nutzen von KI zur Erkennung und Erstellung von Einkaufsgruppen_**: Verwenden Sie KI, strukturierte, unstrukturierte Daten und einheitliche First-Party-Daten, um die Erkennung und Erstellung von Einkaufsgruppen zu optimieren.
 
-![Audience Agent für B2B im Vollseitenmodus](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+![Audience Agent B2B im Vollseitenmodus](./assets/audience-agent-full.png){width="700" zoomable="yes"}
 
 >[!PREREQUISITES]
 >
->Um Audience Agent für B2B zu verwenden, sind erforderliche Datendefinitionen und Zuordnungen vorhanden:<br/>
+>Für die Verwendung von Audience Agent B2B sind erforderliche Datendefinitionen und Zuordnungen vorhanden:<br/>
 >
 >* [Intent-Datentaxonomie/Zuordnung](../admin/intent-data.md)
 >* [XDM-Feldtaxonomie/-zuordnung](#xdm-data-prerequisites)
@@ -49,10 +42,15 @@ Mit [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experiencele
 | Absichtsanalyse | <li> Messen Sie die Stärke der Kontoabsicht (z. B. niedrig, mittel und hoch) für bestimmte Produkte. <li>Vergleichen Sie die Trends der Produktzinsen im Zeitverlauf (z. B. die Top-Produkte der letzten _n_ Tage). <li>Identifizieren Sie Konten, die aktiv Interesse an bestimmten Produkten zeigen. <li>Interaktionsmuster, die Kontoaktivität mit persönlicher Abdeckung kombinieren. | <li>Hilft Teams, sich zum richtigen Zeitpunkt auf die richtigen Accounts zu konzentrieren. <li>Verbessert die Pipeline-Qualität, indem Konten mit echten Kaufsignalen priorisiert werden. <li>Ermöglicht proaktive Interaktion, bevor Mitbewerber handeln. |
 | Persona-Mapping | <li>Erkennen und ordnen Sie die wichtigsten Personas nach Produktabsicht. <li>Identifizieren Sie Personen, die am Kauf eines oder mehrerer Produkte beteiligt sind. <li>Ordnen Sie Rollen (z _B._, _Entscheidungsträger_ und _Influencer_ mit einer Begründung zu. <li>Überprüfen, warum eine bestimmte Person als Champion gilt. | <li>Stellt sicher, dass das Vertriebsteam die wahren Entscheidungsträger und Einflussnehmer einbindet. <li>Geringerer Aufwand bei Kontakten mit geringen Auswirkungen. <li>Steigert die Gewinnraten durch Abstimmung der Reichweite auf die Kaufkraftdynamik. |
 | Einkaufsgruppenbewertung | <li>Bewerten Sie die Größe der Einkaufsgruppe (z. B. Gruppen mit mehr als _n_ Mitgliedern). <li>Messen Sie die persönliche Abdeckung aller Konten (z. B. unter _x_%). <li>Verfolgen Sie Rollenverteilungs- und Abdeckungslücken in Einkaufsgruppen. <li>Markieren Sie Konten mit Champions, die in den letzten Angeboten identifiziert wurden. | <li>Zeigt Abdeckungslücken, die Abschlüsse blockieren könnten. <li>Stärkt Multithreading-Strategien durch Sicherstellung einer vollständigen Rollendarstellung. <li>Verbessert die Verfolgung der Angebotsstatus durch Interaktionseinblicke auf Gruppenebene. |
+| Erstellung und Verwertbarkeit von Einkaufsgruppen | <li>Auf beobachteten Rollen- und Rollenmustern basierende Rollen-zu-Rollen-Zuordnungen empfehlen. <li>Generieren Sie eine Vorlage für die Einkaufsgruppenrolle für ein bestimmtes Produkt. <li>Unterstützen Sie die Anpassung von Vorlagen, indem Sie bestimmte Rollen und Personas ein- oder ausschließen. <li>Überprüfen Sie, ob die erforderlichen Rollen definiert sind, bevor Sie Einkaufsgruppen erstellen. | <li>Reduziert manuellen Aufwand und Risiko unvollständiger Einkaufsgruppenvorlagen. <li>Stellt sicher, dass die Rollenabdeckung vor der Erstellung validiert wird, wodurch das Risiko von Abdeckungslücken verringert wird. <li>Wandelt Analyseeinblicke in sofortige, operative nächste Schritte um. |
+
+## Einschränkungen
+
+Audience Agent B2B hängt von der konfigurierten Intent-Taxonomie, den XDM-Feldzuordnungen und Erlebnisereignisdaten ab. Einblicke sind weniger zuverlässig, wenn Opportunity-Daten unvollständig sind, die Intent-Taxonomie fehlt oder veraltet ist oder die erforderlichen Profil- und Account-IDs nicht zugeordnet sind. Für die Absichtsberechnung verarbeitet der Agent nur diese Erlebnisereignisse: `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed` und `web.webpagedetails.pageViews`.
 
 ## Beispiele für Prompts
 
-Diese Eingabeaufforderungsbeispiele zeigen einige Möglichkeiten auf, wie Sie den Agenten verwenden können:
+Diese Eingabeaufforderungsbeispiele zeigen einige der Möglichkeiten auf, wie Sie den Agenten verwenden können:
 
 * Trend-Fenster anzeigen: Früheste und letzte Aktualisierung für die Kontoproduktzielsetzung pro Produkt.
 * Listen Sie `<product>` Einkaufsgruppen mit Produktabsicht und Bewertungen auf.
@@ -60,17 +58,18 @@ Diese Eingabeaufforderungsbeispiele zeigen einige Möglichkeiten auf, wie Sie de
 * Wie ist die durchschnittliche Abdeckung von Account-Personas bei Accounts in `<industry>` für `<product>`?
 * Welche Accounts haben eine geringe Absicht für ein Produkt, haben aber immer noch offene Möglichkeiten (die es wert sind, gepflegt zu werden)?
 * Welche Accounts haben diese Woche neue Absichtssignale für `<account_name>` hinzugefügt?
+* Anzeigen der mit `<product>` verknüpften Rollen
+* Zeigen Sie mir die Empfehlung der Rollenzuordnung zu Persona-Zuordnung für `<product>`.
+* Erstellen Sie eine Einkaufsgruppenvorlage für `<product>`.
+* Erstellen Sie eine Einkaufsgruppenvorlage für `<product>` ohne `<persona>` und entfernen Sie die Rolle `<role>` .
 
 ## Konzepte
 
 | Konzept | Erklärung |
 | ------- | ----------- |
 | Zielgruppenerkennung | Hinter den Kulissen untersucht der Agent Absichtssignale von Erstanbietern, die auf zwei Dingen basieren: Wie stark Leute mit Ihrer Marke interagieren und welche Arten von Personas sie repräsentieren. Die Analyse blickt auf die letzten 18 Monate der Aktivität zurück, um die Produktabsichten für alle Personen im Konto zu erkennen, insbesondere in der Zeit, die zum Abschluss einer Opportunity führte. Diese Analyse hilft dem Agenten, die Personas hervorzuheben, die den Deal am wahrscheinlichsten beeinflussen.<br/><br/>Manchmal haben Konten nicht alle Opportunity-Daten in perfekter Form, was jedoch in Ordnung ist, und der Agent kann die Produktabsicht weiterhin rein aus Interaktionsmustern erkennen. |
-| Persona | Personas stellen die Arten von Personen dar, die mit einem Konto interagieren. Der Agent erstellt die Informationen anhand der Stellenbezeichnung, der Funktion und der Dienstaltersstufe und normalisiert diese Informationen, sodass sie in verschiedenen Konten konsistent sind. Auf diese Weise können Sie schnell erkennen, ob Sie Entscheidungsträger, Influencer oder Support-Rollen erreichen, anstatt sich in unübersichtlichen Titeln zu verlieren. Personas helfen Ihnen zu verstehen, wer Interesse zeigt, nicht nur, wie viel Interesse es gibt. <br/><br/> Wenn der Agent Personas Kaufgruppenrollen zuordnet, verwendet er die Art der identifizierten Personas, basierend auf ihrer Position, Funktion, Dienstalter und jedem anderen Attribut, das Sie hinzufügen möchten, und ordnet sie den Rollen zu, die sie am wahrscheinlichsten bei einer Kaufentscheidung spielen, z. B. _Entscheidungsträger_, _Influencer_ oder _Champion_. Diese Rollen sind für das jeweilige Produkt relevant, sodass Sie sehen können, wer für diese Opportunity am wichtigsten ist. Der Agent zeigt auch die Abdeckung für jede Rolle an, sodass Sie schnell verstehen können, welche Rollen gut vertreten sind und wo Lücken in Ihrer Interaktionsstrategie vorhanden sein können. |
-| Einkaufsgruppenrollen zuordnen | Nachdem Rollen Rollen zugeordnet wurden, fügen Sie sie zu einer Einkaufsgruppe zusammen. Stellen Sie sich das gesamte Team innerhalb des Accounts vor, das den Kauf am ehesten beeinflussen oder entscheiden wird. Jede Rolle (z _B._, _Influencer_ oder _Champion_) fügt ein Bild hinzu, sodass Sie einen klaren Überblick über das gesamte Komitee haben, das den Deal vorantreibt. <br/><br/> Wenn Sie Personen Einkaufsgruppenrollen zuordnen, nehmen Sie die Art der identifizierten Rolle, basierend auf ihrer Position, Funktion, dem Dienstalter und jedem anderen Attribut, das Sie hinzufügen möchten, und ordnen Sie sie der Rolle zu, die sie am wahrscheinlichsten bei einer Kaufentscheidung spielen, z. B. _Entscheidungsträger_, _Influencer_ oder _Champion_. Diese Rollen sind für das jeweilige Produkt relevant, sodass Sie sehen können, wer für diese Opportunity am wichtigsten ist. Der Agent zeigt die Abdeckung für jede Rolle an, sodass Sie schnell verstehen können, welche Rollen gut vertreten sind und wo Lücken in Ihrer Interaktionsstrategie bestehen können. |
-| Käufergruppen | Einkaufsgruppen ermöglichen es Marketing-Experten, die wahre Komplexität von Einkaufsausschüssen zu verwalten, nicht isolierte Leads oder Accounts. Adobe Journey Optimizer B2B edition bietet die Tools (KI-gesteuerte Einblicke, rollenbasierte Journey und Vollständigkeitsverfolgung), um Struktur, Personalisierung und analytische Klarheit in diesen Prozess zu bringen, was dazu führt, dass Marketing und Vertrieb enger an den Umsatzergebnissen ausgerichtet werden.<br/><br/>Beim Erstellen einer Einkaufsgruppe geht es in Wirklichkeit darum, drei Schlüsselelemente zusammenzuführen: die richtige Zielgruppe, den Produktkontext und die Rollen der Einkaufsgruppe. Im Folgenden finden Sie eine schrittweise Vorschau der Funktionsweise: <ol><li>**Zielgruppe identifizieren** <ul><li>Zunächst deckt der Agent die Konten auf, die für Ihr Produkt am relevantesten sind. Diese Entdeckung umfasst Konten, die bereits Zinsen zeigen, und Konten mit Potenzial.<li>Innerhalb dieser Accounts werden die Personen (Ihre Schlüsselpersonen) identifiziert, die die Kaufentscheidung beeinflussen oder Teil der Kaufentscheidung sein könnten.<li>Es wählt aus den darzustellenden Konten eine Kontoliste oder eine Kontozielgruppe aus.</ul><li>**Betrachten Sie den Produktkontext**<ul><li>Als Nächstes wird das Produkt oder die Lösung betrachtet, auf das bzw. die Sie sich konzentrieren, um sicherzustellen, dass die identifizierten Personen tatsächlich für das relevant sind, was Sie verkaufen oder bewerben möchten.<li>Es hilft auch, auf Lücken in der Abdeckung hinzuweisen (vielleicht fehlen bestimmte Rollen für das Produkt), damit Sie wissen, worauf Sie sich konzentrieren müssen.</ul> <li>**Ordnen Sie Personen kaufenden Gruppenrollen zu** <ul><li>Schließlich ordnet der Agent diese Personas bestimmten Rollen in der Einkaufsgruppe zu, z. B. Entscheidungsträgern, Influencern und Champions.<li>Basierend auf dieser Zuordnung kann der Agent eine Einkaufsgruppenkomposition für Sie empfehlen, die Sie überprüfen, anpassen oder bestätigen können.</ul> </ol> Wenn diese drei Komponenten zusammenkommen, wird Ihre Einkaufsgruppe erstellt, die alle Details, Rollen und Einblicke der Mitglieder enthält. |
-| Gruppen in einer Journey kaufen | Innerhalb eines Journey kann eine Einkaufsgruppe als zentrale Organisationseinheit verwendet werden, was es den Marketing-Experten ermöglicht, Erlebnisse zu entwerfen, die sich an die Dynamik der Gruppe anpassen, anstatt die Mitglieder isoliert zu behandeln. Sie können beispielsweise die gesamte Gruppe mit koordiniertem Messaging ansprechen und gleichzeitig rollenspezifische Inhalte auf Entscheidungsträger, Influencer oder Endbenutzer zuschneiden. Wenn Absichtssignale und Interaktionsdaten in fließen, können die Journey auf der Grundlage der Gruppenbereitschaft Verzweigungen erstellen, Warnhinweise für den Vertrieb aufdecken, wenn wichtige Rollen interagieren, oder automatisch Trigger-Nurture-Schritte ausführen, wenn wichtige Rollen fehlen. Dieser Fluss stellt sicher, dass jeder Touchpoint (von E-Mails über Account-basierte Anzeigen bis hin zu Vertriebsmaßnahmen) zusammenarbeitet, um die Gruppe bei ihrem Kaufprozess voranzubringen, wodurch der Konsens beschleunigt und die Reibung auf dem Weg zum Kauf verringert wird. |
-| Journey in Journey Optimizer B2B edition | Eine Journey kann mit oder ohne eine Einkaufsgruppe erstellt werden, aber der Grad der Präzision und Wirkung ändert sich erheblich:<ul><li>**Ohne eine Einkaufsgruppe** basieren Journey normalerweise auf Accounts. Marketing-Experten können weiterhin Signale wie Absicht, Verhalten oder Produktinteresse verwenden, um den Trigger zu fördern, und die Reichweite zu steigern. Diese Methode funktioniert für einfachere Bewegungen oder wenn Sie nur begrenzte Daten über ein Konto haben. Es besteht jedoch die Gefahr, die breitere Palette der Stakeholder zu übersehen, die den Deal beeinflussen, was die Konversionsrate verlangsamen oder Interaktionslücken verursachen kann.<li>**Mit einer Einkaufsgruppe** werden die Journey um die gesamte Gruppe der an einer Kaufentscheidung beteiligten Rollen orchestriert. Sie können die Schritte an Meilensteinen auf Gruppenebene ausrichten (z. B. wenn der Ausschuss einen Vollständigkeitswert erreicht oder kollektive Interaktion anzeigt) und gleichzeitig Touchpoints für jede Rolle personalisieren. Mit dieser Methode können Sie eine koordinierte Multithread-Interaktion entwerfen: Ein Entscheidungsträger erhält möglicherweise strategische ROI-Inhalte, während Einflussnehmer detaillierte Produkteinblicke erhalten, und der Verkauf wird benachrichtigt, wenn kritische Rollen interagieren. Durch die Zuordnung sowohl des individuellen als auch des kollektiven Journey können Marketer und Verkäufer die Konsensbildung beschleunigen und Chancen effizienter voranbringen. </ul> |
+| Persona | Personas stellen die Arten von Personen dar, die mit einem Konto interagieren. Der Agent erstellt sie, indem er sich die Stellenbezeichnung, die Funktion und die Dienstaltersstufe ansieht und diese Informationen dann normalisiert, sodass sie in verschiedenen Konten konsistent sind. Auf diese Weise können Sie schnell erkennen, ob Sie Entscheidungsträger, Influencer oder Support-Rollen erreichen, anstatt sich in unübersichtlichen Titeln zu verlieren. Personas helfen Ihnen zu verstehen, wer Interesse zeigt, nicht nur, wie viel Interesse es gibt. |
+| Einkaufsgruppenrollen zuordnen | Nachdem Rollen Rollen zugeordnet wurden, fügen Sie sie zu einer Einkaufsgruppe zusammen - dem gesamten Team innerhalb des Kontos, das den Kauf am wahrscheinlichsten beeinflusst oder entscheidet. Jede Rolle (z _B._, _Influencer_ oder _Champion_) fügt ein Bild hinzu, damit Sie einen klaren Überblick über das Komitee haben, das den Deal vorantreibt.<br/><br/>Der Agent ordnet jede identifizierte Rolle der Rolle zu, die sie am wahrscheinlichsten für ein bestimmtes Produkt spielen, basierend auf der Stellenbezeichnung, der Funktion, dem Dienstalter und anderen von Ihnen konfigurierten Attributen. Es wird auch die Abdeckung für jede Rolle angezeigt, damit Sie sehen können, welche Rollen gut repräsentiert sind und wo Lücken in Ihrer Interaktionsstrategie verbleiben. |
 | Opportunity-Daten zur Erkennung von Persona verwenden | Um Ihnen einen möglichst genauen Überblick darüber zu geben, wer interagiert und wo seine Interessen liegen, nähert sich der Agent dem Persona-Ranking und der Produktabsicht gemäß den folgenden Kriterien: <ul><li>Best-Case-Szenario: Wenn Sie Daten wie _Opportunity-_, _Opportunity-Abschlussdatum_ und eine klare _Zuordnung von Opportunity zu Produkt_ bereitstellen können, kann der Agent Personas sicher nach Produkt ordnen.<li>Dieses Ranking bietet ein präzises Verständnis von Interaktion und Interesse im gesamten Konto. </ul>Der Agent weiß jedoch, dass die Daten nicht immer vollständig sind, was in Ordnung ist. Es enthält intelligente Fallbacks, um die Dinge in Bewegung zu halten:<ul><li>Der Agent analysiert das Volumen der Aktivitäten und gibt den jüngsten Aktivitäten mehr Gewicht, indem er den Zeitverfall verwendet.<li>Mit dieser Gewichtung kann der Agent Personas differenzieren und ordnen, auch ohne vollständige Opportunity-Daten. </ul>Wenn es um die Verknüpfung von Opportunities mit Produkten geht, sieht der Agent wie folgt aus:<ul><li>_Ideal_: Sie stellen die Zuordnungstabelle bereit oder helfen dem Agenten bei ihrer Erstellung.<li>_Wenn nicht verfügbar_: Der Agent verwendet Fuzzy Matching, um die Punkte zu verbinden.<li>_Keine Verknüpfung_: Der Agent leitet die Produktabsicht auf der Grundlage der letzten Aktivitäten vor dem Abschlussdatum ab.</ul>Dieser mehrschichtige Ansatz stellt sicher, dass der Agent auch dann noch aussagekräftige Einblicke liefern kann, wenn die Daten nicht perfekt sind. |
 | Opportunity-Analyse | Der Agent untersucht historische Opportunity-Daten, um zu verstehen, welche Faktoren am stärksten einen Gewinn vorhersagen. Dazu verwendet er drei Kerndimensionen:<ol><li>Erfolgsquote: Zeigt an, wie oft Angebote erfolgreich abgeschlossen werden, wenn bestimmte Rollen beteiligt sind. Wenn Konten mit einem bestimmten Persona-Muster (z. B. ein technischer Bewerter oder ein Entscheidungsträger auf VP-Ebene) häufiger konvertieren, gewichtet das Modell dieses Muster höher. Diese Informationen sind ein Prozentsatz der Gesamtchancen, z. B. abgeschlossene oder gewonnene Opportunitys.<li>Mitgliedschaftsrate: Misst, wie oft ein Personentyp in verschiedenen Opportunities für ein bestimmtes Produkt angezeigt wird. Wenn bestimmte Rollen durchgängig in erfolgreichen Angeboten erscheinen, deutet dies darauf hin, dass sie eine entscheidende Rolle im Kaufprozess spielen.<li>Personaler Einfluss: Quantifiziert, wie viel eine bestimmte Rolle zum Ergebnis beiträgt, nicht nur, ob sie vorhanden ist, sondern auch, wie ihre Interaktion oder Aktivitätsstufe mit Gewinnen korreliert.</ol>Gemeinsam helfen diese Signale zu entscheiden, welche Personas die stärksten Auswirkungen auf Kaufergebnisse haben, auch wenn die Opportunity-Daten unvollständig sind. Im Laufe der Zeit kann das System so wirkungsvolle Personas und Muster erkennen, die den Geschäftserfolg am ehesten vorhersagen können und dann die Account-Absicht, die Persona-Zuordnung und die Kaufempfehlungen der Gruppe beeinflussen. |
 | Absicht | Wenn jemand eine Web-Seite besucht oder auf einen E-Mail-Link klickt, der sich auf ein Produkt bezieht, ist dies ein Signal, dass er interessiert ist, und das wird als _bezeichnetIntent_.<br/><br/>Der Agent beginnt mit einer Taxonomie, die im Grunde eine Liste der Produkte des Kunden und der Schlüsselwörter ist, die sie beschreiben. Diese Informationen helfen dem Agenten zu verstehen, worum es bei jedem Inhalt oder jeder Interaktion geht.<br/><br/>Anschließend verwendet der Agent diese Taxonomie, um Besucheraktivitäten zu kennzeichnen, z. B. welche Schlüsselwörter oder Produkte ihre Aktionen betreffen.<br/><br/>Anschließend untersucht der Agent, wie stark jemand interagiert, z. B. wie viele Seiten er besucht oder wie oft er interagiert. Anhand dieser Informationen wird der individuelle Intent Score für bestimmte Keywords, Produkte oder Produktkategorien berechnet. Sie fasst jeden Intent-Score in _Hoch_, _Medium_ oder _Niedrig_ Intent zusammen, um die Interessenstärke anzugeben. (Geringe Absicht: `<=0.2`, Medium-Absicht: `0.2 < score <= 0.6`, Hohe Absicht: `0.6 < score <= 1`)<br/><br/>Schließlich kombiniert der Agent die Absichtsbewertungen aller Personen aus demselben Unternehmen (Account), um die allgemeine Absicht auf Kontoebene anzuzeigen, die zeigt, welche Produkte oder Themen das Unternehmen am meisten interessiert zu sein scheint. |
@@ -79,7 +78,7 @@ Diese Eingabeaufforderungsbeispiele zeigen einige Möglichkeiten auf, wie Sie de
 
 ## Voraussetzungen für XDM-Daten
 
-Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Produkte zeigen, und berechnet Persona und Rollen basierend auf den definierten Daten. Stellen Sie sicher, dass die folgenden vorausgesetzten Daten für die Verwendung von Audience Agent-Funktionen konfiguriert sind:
+Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Produkte zeigen, und berechnet Personas und Rollen basierend auf den definierten Daten. Stellen Sie sicher, dass die folgenden vorausgesetzten Daten für die Verwendung von Audience Agent-Funktionen konfiguriert sind:
 
 ### XDM-Feldzuordnung
 
@@ -448,7 +447,7 @@ Audience Agent nutzt die in Journey Optimizer B2B edition erkannte First-Party-A
 1. Bezeichnete Assets (Ereignisdaten) werden mit dem Verhalten der Besucher (Anzahl der besuchten Seiten) kombiniert, um eine Besucherabsicht auf Keyword-, Produkt- und Produktkategorieebene → die Absichtsberechnung zu bestimmen
 1. Absichtsbewertungen auf Besucherprofilebene werden auf Kontoebene aggregiert, um die Kontoabsicht in einem bestimmten Keyword, einer bestimmten Produkt- und Produktkategorie > Absichtskonto-Aggregation zu bestimmen
 
-Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x200B;](../admin/intent-data.md):
+Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder ](../admin/intent-data.md):
 
 <table>
   <tbody>
@@ -550,7 +549,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Nur zur Referenz-/Buchhaltung; Informationen zum Kampagnennamen</td>
+      <td>Nur zur Referenz/Buchhaltung; Informationen zum Kampagnennamen</td>
     </tr>
     <tr>
       <td>
@@ -563,7 +562,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Nur zur Referenz-/Buchhaltung; Informationen zur Quell-ID, an die die E-Mail gerichtet ist</td>
+      <td>Nur zu Referenz-/Buchhaltungszwecken; Informationen zur Quell-ID, an die die E-Mail gerichtet ist</td>
     </tr>
     <tr>
       <td>
@@ -577,7 +576,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Nur zur Referenz-/Buchhaltung; Informationen zur Quellinstanz, an die die E-Mail gerichtet ist</td>
+      <td>Nur zu Referenz-/Buchhaltungszwecken; Informationen zur Quellinstanz, an die die E-Mail gerichtet ist</td>
     </tr>
     <tr>
       <td>
@@ -591,7 +590,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Dient zum Abrufen des E-Mail-Inhalts aus dem Marketo Engage-Rechenzentrum. Er besteht aus (SourceID@SourceInsatceID.SourceType)</td>
+      <td>Dient zum Abrufen des E-Mail-Inhalts aus dem Marketo Engage-Rechenzentrum. Er besteht aus (SourceID@SourceInstanceID.SourceType)</td>
     </tr>
     <tr>
       <td>
@@ -605,7 +604,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Nur für Referenz-/Buchführung; Informationen über die Art der Quelle oder woher die Quelle stammt </td>
+      <td>Nur zur Referenz/Buchführung; Informationen über die Art der Quelle oder woher die Quelle stammt </td>
     </tr>
     <tr>
       <td>
@@ -619,7 +618,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Informationen über die Quelle, an die die E-Mail gesendet wird</td>
+      <td>Informationen zur Herkunft der Quelle für den Web-Seitenbesuch</td>
     </tr>
     <tr>
       <td>
@@ -659,7 +658,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Nur für Referenz-/Buchhaltung</td>
+      <td>Nur für Referenz/Buchhaltung</td>
     </tr>
     <tr>
       <td>
@@ -673,7 +672,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Nur zur Referenz-/Buchhaltung; Informationen zur Quell-ID, an die die E-Mail gerichtet ist</td>
+      <td>Nur zu Referenz-/Buchhaltungszwecken; Informationen zur Quell-ID, an die die E-Mail gerichtet ist</td>
     </tr>
     <tr>
       <td>
@@ -687,7 +686,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Nur zur Referenz-/Buchhaltung; Informationen zur Quellinstanz, an die die E-Mail gerichtet war</td>
+      <td>Nur zu Referenz-/Buchhaltungszwecken; Informationen zur Quellinstanz, an die die E-Mail gerichtet war</td>
     </tr>
     <tr class="">
       <td>
@@ -699,7 +698,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
       <td>
         <span>Erlebnisereignis</span>
       </td>
-      <td>Nur zur Referenz/Buchführung; es besteht aus (SourceID@SourceInsatceID.SourceType)</td>
+      <td>Nur zur Referenz/Buchhaltung; es besteht aus (SourceID@SourceInstanceID.SourceType)</td>
     </tr>
     <tr>
       <td>
@@ -710,7 +709,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
       <td>
         <span>Erlebnisereignis</span>
       </td>
-      <td>Nur für Referenz-/Buchführung; Informationen über die Art der Quelle oder woher die Quelle stammt</td>
+      <td>Nur zur Referenz/Buchführung; Informationen über die Art der Quelle oder woher die Quelle stammt</td>
     </tr>
     <tr>
       <td>
