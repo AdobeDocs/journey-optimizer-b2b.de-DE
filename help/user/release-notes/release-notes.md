@@ -3,24 +3,17 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dd5dae1845686654d2935d9d10b4cd61c5fc502f
+source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
 workflow-type: tm+mt
-source-wordcount: 5099
-ht-degree: 67%
+source-wordcount: 5116
+ht-degree: 66%
 
 ---
 
@@ -47,7 +40,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | Nächstbeste Pfad-Journey-Knoten | Sie können die Split Path-Entscheidungsfindung für Personen-Journey optimieren und verfeinern, wie Zielgruppen über Pfade hinweg vor der Journey-Aktivierung oder zur Laufzeit weitergeleitet werden. [Weitere Informationen](../journeys/next-best-path-node.md) |
 | Verbesserung | Audience Agent B2B-Kenntnisse | Audience Agent B2B-Kenntnisse werden aktualisiert, einschließlich der Erstellung von KI-gestützten Einkaufsgruppen-Vorlagen. Verwenden Sie die Erstanbieter-Intent- und Persona-Zuordnung, um Einkaufsgruppenvorlagen zu generieren, von KI empfohlene Rollen-zu-Persona-Zuordnungen zu überprüfen und Vorlagen mit natürlicher Sprache zu verfeinern, bevor Sie sie veröffentlichen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
 | Verbesserung | E-Mail-Interaktionsbericht | Der Bericht zur Leistung von E-Mail-Interaktionen bietet Marketing-Experten eine einheitliche Übersicht über E-Mail-Aktivitäten in allen Journey in Adobe Journey Optimizer B2B edition. |
-| Verbesserung | Übersichts-Dashboard der Personen-Journey | Dieses Dashboard bietet einen umfassenden Überblick über die Journey Ihrer aktiven Personen. |
+| Verbesserung | Übersichts-Dashboard für Journey - Personen-Journey | Personen-Journey (Beta) enthalten jetzt eine Registerkarte _[!UICONTROL Übersicht]_ mit denselben Analytics-Daten wie die Journey-Konten, einschließlich der Verteilung der Journey-Abschlussrate, der Journey nach Interaktionstyp sowie Drill-Through- und Exportaktionen. <a href="../dashboards/journeys-dashboard.md">Weitere Informationen</a> |
 | Verbesserung | Unterstützung für relationale AEP-Datensätze | Neue relationale Datensätze werden jetzt zusammen mit vorhandenen Datensätzen in Ihrer AEP-Sandbox angezeigt. |
 
 >[!NOTE]
@@ -159,7 +152,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
@@ -288,7 +281,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Funktion | Paid Media-Ziele | Qualifizieren Sie bekannte Personen für Paid Media-Kampagnen von einer Konto-Journey aus, damit Sie auf Werbeplattformen wie LinkedIn weiter mit ihnen interagieren können. Verwenden Sie einen Knoten vom Typ „Pfad aufteilen“, um Kontozielgruppen basierend auf bestimmten Verhaltensweisen zu segmentieren und Konten zu identifizieren, die zusätzliche Interaktionen erfordern. Fügen Sie dann Personen aus diesen Konten über Real-Time CDP zu einer externen Kundenzielgruppe für ein unterstütztes Paid Media-Ziel hinzu. <a href="../journeys/action-nodes.md#journey-optimizer-b2b-actions">Weitere Informationen</a> |
 | Funktion | Intelligentes Dashboard | Sehen Sie sich den Fortschritt von Käufergruppen durch ihre Konto-Journey an, einschließlich KI-generierter Erkenntnisse, um eine intelligentere Analyse und eine genauere Priorisierung von Konten zu erhalten. <a href="../dashboards/intelligent-dashboard.md">Weitere Informationen</a> |
 | Funktion | Details zu Käufergruppen und Konten | Sehen Sie sich Erkenntnisse auf der Käufergruppen- und Kontoebene an, um zu Beginn der Interaktion mit einer Kundin oder einem Kunden mehr Kontext- und historische Daten zu erhalten.<p>Zu den Details der Käufergruppe gehören alle erkannten First-Party-Intent-Daten. <a href="../buying-groups/buying-group-details.md">Weitere Informationen</a><p>Auf der Seite mit den Kontodetails wird der aufgedeckte Interaktionsschub hervorgehoben, sodass Marketing-Experten den Vertrieb über Konten informieren können, die für kundenspezifische verkaufsorientierte Interaktionen bereit sind.  <a href="../accounts/account-details.md">Weitere Informationen</a> |
-| Funktion | Journey-Überblick | Wenn Sie auf Konto-Journeys zugreifen, bietet die Registerkarte „Überblick“ eine umfassende Übersicht über Ihre aktiven Konto-Journeys mit detaillierten Fortschrittsanzeigen zu Konten, in denen Abschlüsse und Interaktionsaktivitäten anhand von Kreis- und Balkendiagrammen kategorisiert und quantifiziert werden.  <a href="../dashboards/journeys-dashboard.md">Weitere Informationen</a> |
+| Funktion | Dashboard für Journey-Übersicht | Für Account-Journey bietet die Registerkarte **[!UICONTROL Übersicht]** eine umfassende Übersicht über Ihre aktiven Journey mit Kreis- und Balkendiagrammen, in denen Abschlüsse und Interaktionsaktivitäten kategorisiert und quantifiziert werden. <a href="../dashboards/journeys-dashboard.md">Weitere Informationen</a> |
 | Funktion | Bildbearbeitung in Adobe Express | Schnellaktionen in Adobe Express ermöglichen Ihnen einfache Bearbeitungen (z. B. Zuschneiden und Ändern der Größe) von Bildern, um das Erscheinungsbild Ihrer Inhalte zu verbessern. <a href="../content/image-edit-adobe-express.md#quick-actions-in-adobe-express">Weitere Informationen</a>  <p>Für einen umfassenderen Satz an Design-Tools ermöglicht diese Integration eine Adobe Express-Volllizenz in Journey Optimizer B2B Edition. Mit dieser Einrichtung wird die gesamte Adobe Express-Benutzeroberfläche im lokalen Asset-Arbeitsbereich verfügbar. <a href="../content/image-edit-adobe-express.md#adobe-express-enterprise-license">Weitere Informationen</a> |
 | Funktion | Absichtsfilter für Käufergruppenrollen | Wenn Sie Ihre Absichtsschlüsselwörter übermitteln, sagt das Absichtserkennungsmodell eine Lösung/ein Produkt von Interesse basierend auf der Aktivität eines Leads mit ausreichend hoher Zuverlässigkeit voraus. <a href="../admin/intent-data.md">Weitere Informationen</a> <p>Diese Absichtsdaten stehen für die Definition der Bedingungen für die Käufergruppenrolle zur Verfügung <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Weitere Informationen</a> |
 | Verbesserung | Marketo Engage-Ereignisunterstützung in Journeys | Der Knoten _Lauschen auf Ereignis_ Journey unterstützt jetzt zwei Marketo Engage-Ereignisse auf Benutzerebene: _Besucht die_ und _Formular ausfüllt_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Weitere Informationen</a> |
