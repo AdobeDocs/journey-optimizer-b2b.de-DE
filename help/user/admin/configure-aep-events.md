@@ -3,7 +3,6 @@ title: Erlebnisereignisse und -felder auswählen
 description: Wählen Sie Experience Platform-Ereignisse und -Felder aus, um die Echtzeit-Entscheidungsfindung in Journey auf Grundlage des Kundenverhaltens in Triggern zu ermöglichen.
 feature: Setup, Integrations
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in der Beta-Version"
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
 product_v2:
@@ -20,9 +19,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
 workflow-type: tm+mt
-source-wordcount: 1608
+source-wordcount: 1605
 ht-degree: 12%
 
 ---
@@ -48,7 +47,7 @@ Die Verwendung von AEP-Erlebnisereignissen in Journey ist ein zweistufiger Proze
 
 >[!BEGINSHADEBOX]
 
-## Richtlinien und Einschränkungen
+## Richtlinien und Einschränkungen {#guidelines-and-limitations}
 
 Beachten Sie bei der Auswahl von Ereignissen zur Erreichung Ihrer Unternehmensziele Folgendes:
 
@@ -62,11 +61,11 @@ Beachten Sie bei der Auswahl von Ereignissen zur Erreichung Ihrer Unternehmenszi
 
 * Wenn Sie ein Erlebnisereignis verwenden und die Journey veröffentlichen, können Sie weitere Felder hinzufügen, zuvor ausgewählte Felder jedoch nicht entfernen.
 
-* Sie können auf ein Erlebnisereignis in mehreren Journey verweisen oder dasselbe Ereignis mehrmals auf derselben Journey verwenden.
+* Sie können ein Erlebnisereignis in mehreren Journey referenzieren oder es mehrmals auf derselben Journey verwenden.
 
 >[!ENDSHADEBOX]
 
-## Verwalten von Erlebnisereignissen
+## Verwalten von Erlebnisereignissen {#manage-experience-events}
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
 
@@ -80,7 +79,7 @@ Beachten Sie bei der Auswahl von Ereignissen zur Erreichung Ihrer Unternehmenszi
 
    Um auf die Details für ein ausgewähltes Ereignis zuzugreifen, klicken Sie auf den Ereignisnamen.
 
-### Filtern der Ereignisliste
+### Filtern der Ereignisliste {#filter-the-event-list}
 
 Geben Sie Text in das _[!UICONTROL Suchen]_-Feld ein, um die angezeigten Ereignisse nach einer Übereinstimmung mit dem Ereignisnamen zu filtern.
 
@@ -89,10 +88,6 @@ Geben Sie Text in das _[!UICONTROL Suchen]_-Feld ein, um die angezeigten Ereigni
 ### Ereignis hinzufügen {#add-an-event}
 
 Um ein Erlebnisereignis für den Knoten _Lauschen auf ein Ereignis_ auf einer Journey verfügbar zu machen, wählen Sie das Ereignis und die unterstützten Felder aus.
-
->[!NOTE]
->
->In der Beta-Version können Sie keine Ereignisse aus der Liste entfernen. Stellen Sie sicher, dass jedes Ereignis, das Sie hinzufügen, eines ist, das Ihr Unternehmen verwenden möchte.
 
 1. Klicken **[!UICONTROL oben]** auf „Erlebnisereignis auswählen“.
 
@@ -142,19 +137,23 @@ Bearbeiten Sie die Ereignisdetails, um die Felder zu ändern.
 
 1. Klicken Sie **[!UICONTROL Auswählen]**, um Ihre Auswahl zu speichern.
 
-### Ereignis entfernen
+### Ereignis entfernen {#remove-an-event}
 
->[!NOTE]
->
->In der Beta-Version dieser Funktion können Sie kein Ereignis aus der Liste der ausgewählten Ereignisse entfernen. Für die GA-Version ist eine Entfernung von Ereignissen geplant.
+Um zu verhindern, dass ein Erlebnisereignis in einem Ereignisknoten _auf ein Ereignis_) auf einer Journey verwendet wird, entfernen Sie das Ereignis . Sie können ein Ereignis nicht entfernen, wenn es von einer Journey im _Geplant_, _Live_ oder _Beendet_ verwendet wird.
 
-## Ereignisse und Felder
+1. Klicken Sie auf das _Mehr_-Symbol ( **…** ) neben dem Ereignisnamen und wählen Sie **[!UICONTROL Entfernen]**.
+
+1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Entfernen]**.
+
+   ![Entfernen des Ereignisses bestätigen](./assets/configurations-xdm-events-remove.png){width="500" zoomable="yes"}
+
+## Ereignisse und Felder {#events-and-fields}
 
 [!DNL Journey Optimizer B2B Edition] werden bestimmte Aktivitäten auf Personenebene als Erlebnisereignisse [!DNL Experience Platform]. Diese Ereignisse werden in einem Systemdatensatz gespeichert, der das XDM-Erlebnisereignisschema verwendet und Journey-spezifische Feldergruppen enthält. Sie können diese Ereignisse in [!UICONTROL Journey Optimizer B2B edition] wie jedes andere Erlebnisereignis verwenden.
 
 Jedes Ereignis zeigt einen definierten Satz von Feldern, die in Journey-Knoten (_eines Ereignisses)_ werden können (Ereignisentscheidung). Überprüfen Sie die verfügbaren Ereignistypen und ihre Felder, um zu bestimmen, welches Ereignis und welche Felder in diesen Journey-Knoten verwendet werden sollen:
 
-### E-Mail gesendet
+### E-Mail gesendet {#email-sent}
 
 Dieses Ereignis verfolgt, wann eine Marketing-E-Mail an eine Person gesendet wurde.
 
@@ -182,7 +181,7 @@ Ereignistyp: `directMarketing.emailSent`
 
 +++
 
-### E-Mail übermittelt
+### E-Mail übermittelt {#email-delivered}
 
 Dieses Ereignis verfolgt, wann eine E-Mail erfolgreich an den E-Mail-Service einer Person zugestellt wurde.
 
@@ -210,7 +209,7 @@ Ereignistyp: `directMarketing.emailDelivered`
 
 +++
 
-### E-Mail geöffnet
+### E-Mail geöffnet {#email-opened}
 
 Dieses Ereignis verfolgt, wann eine Person eine Marketing-E-Mail geöffnet hat.
 
@@ -242,7 +241,7 @@ Ereignistyp: `directMarketing.emailOpened`
 
 +++
 
-### E-Mail angeklickt
+### E-Mail angeklickt {#email-clicked}
 
 Dieses Ereignis verfolgt, wann eine Person auf einen Link in einer Marketing-E-Mail geklickt hat.
 
@@ -275,7 +274,7 @@ Ereignistyp: `directMarketing.emailClicked`
 
 +++
 
-### E-Mail aufgrund eines Bounce-Ereignisses unzustellbar
+### E-Mail aufgrund eines Bounce-Ereignisses unzustellbar {#email-bounced}
 
 Dieses Ereignis verfolgt, wann eine E-Mail an eine Person gebounct hat.
 
@@ -306,7 +305,7 @@ Ereignistyp: `directMarketing.emailBounced`
 
 +++
 
-### E-Mail nicht zugestellt (Soft Bounce)
+### E-Mail nicht zugestellt (Soft Bounce) {#email-bounced-soft}
 
 Dieses Ereignis verfolgt, wann eine E-Mail an eine Person Softbounce erzeugt.
 
@@ -337,7 +336,7 @@ Ereignistyp: `directMarketing.emailBouncedSoft`
 
 +++
 
-### E-Mail abbestellt
+### E-Mail abbestellt {#email-unsubscribed}
 
 Dieses Ereignis verfolgt, wann eine Person sich von einer Marketing-E-Mail abgemeldet hat.
 
@@ -365,7 +364,7 @@ Ereignistyp: `directMarketing.emailUnsubscribed`
 
 +++
 
-### Seitenbesuch
+### Seitenbesuch {#visit-web-page}
 
 Dieser Ereignistyp ist die Standardmethode zum Markieren des Treffers als Seitenansicht.
 
@@ -396,7 +395,7 @@ Ereignistyp: `web.webpagedetails.pageViews`
 
 +++
 
-### Formular ausgefüllt
+### Formular ausgefüllt {#form-filled-out}
 
 Dieses Ereignis verfolgt, wann eine Person ein Formular auf einer Web-Seite ausgefüllt hat.
 
@@ -427,7 +426,7 @@ Ereignistyp: `web.formFilledOut`
 
 +++
 
-### Weblink angeklickt
+### Weblink angeklickt {#web-link-clicked}
 
 Das Ereignis signalisiert, dass die Web-SDK automatisch einen Link-Klick aufgezeichnet hat.
 
@@ -458,7 +457,7 @@ Ereignistyp: `web.webinteraction.linkClicks`
 
 +++
 
-### Interessanter Moment
+### Interessanter Moment {#interesting-moment}
 
 Dieses Ereignis verfolgt, wann ein interessanter Moment für eine Person aufgezeichnet wurde.
 
