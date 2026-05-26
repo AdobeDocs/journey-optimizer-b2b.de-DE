@@ -14,26 +14,50 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
 workflow-type: tm+mt
-source-wordcount: 1412
-ht-degree: 5%
+source-wordcount: 1571
+ht-degree: 4%
 
 ---
 
 # Vorlagen für Käufergruppenrollen
 
-In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen getroffen. Diese Personen nehmen entsprechend ihrer Rolle in der Organisation am Entscheidungsprozess teil. Erstellen Sie Rollenvorlagen für Käufergruppen, die eine Gruppe von Rollendefinitionen entsprechend jedem Produktanbietungstyp oder Account-Anwendungsfall enthalten.
+In einem B2B-Markt treffen normalerweise mehrere Personen Kaufentscheidungen. Diese Personen nehmen entsprechend ihrer Rolle in der Organisation am Entscheidungsprozess teil. Erstellen Sie Rollenvorlagen für Käufergruppen, die eine Gruppe von Rollendefinitionen entsprechend jedem Produktanbietungstyp oder Account-Anwendungsfall enthalten.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
-## Zugreifen auf und Durchsuchen von Rollenvorlagen
+>[!BEGINSHADEBOX]
+
+## Audience Agent B2B
+
+[Audience Agent B2B](../agents/audience-agent-b2b.md) kann aus der Erstanbieter-Absichtserkennung und dem Persona-Mapping eine Vorlage für Einkaufsgruppen-Rollen generieren. Im geführten Fluss können Sie mit einem Produkt verknüpfte Rollen identifizieren, von KI empfohlene Rollen-zu-Rollen-Zuordnungen überprüfen und die Vorlage mit natürlicher Sprache verfeinern, bevor Sie sie veröffentlichen.
+
+**Eingabeaufforderungen zum Versuch:**
+
+* Erstellen einer Einkaufsgruppenvorlage für `<product>`
+* `<role>` hinzufügen, die `<persona>` zugeordnet sind
+* `<role>`/`<persona>` entfernen
+
+![Audience Agent B2B - Erstellen einer Vorlage für Einkaufsgruppenrollen](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+
+>[!ENDSHADEBOX]
+
+>[!PREREQUISITES]
+>
+>Bevor Sie eine Rollenvorlage erstellen, konfigurieren Sie die Daten, die Rollenbedingungen verwenden können:
+>
+>* [Zuordnung von Personenprofilfeldern](../admin/field-mapping.md#xdm-business-person-attributes) für Personenattributfilter
+>* [Absichtsdaten](../admin/intent-data.md) wenn Sie Absichtsfilter in Rollenbedingungen verwenden
+>* [Benutzerdefinierte Einkaufsgruppenrollen](./default-custom-roles.md#custom-roles) (optional), wenn Sie Rollen benötigen, die über die sechs Standardrollen hinausgehen
+
+## Zugreifen auf und Durchsuchen von Rollenvorlagen {#access-and-browse-role-templates}
 
 1. Klicken Sie in der linken Navigation auf **[!UICONTROL Gruppen kaufen]**.
 
 1. Wählen Sie auf _[!UICONTROL Seite]_ die Registerkarte **[!UICONTROL Rollenvorlagen]** aus.
 
-   ![Registerkarte Rollenvorlagen](assets/roles-templates-tab.png){width="800" zoomable="yes"}
+   ![Registerkarte „Rollenvorlagen - Inventar“](assets/roles-templates-tab.png){width="800" zoomable="yes"}
 
    Die Registerkarte bietet eine Bestandsliste aller vorhandenen Rollenvorlagen und zeigt die folgenden Informationen im Spaltenformat an:
 
@@ -64,9 +88,11 @@ In einem B2B-Markt werden Kaufentscheidungen in der Regel von mehreren Personen 
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-### Vorlagenrollen hinzufügen
+### Vorlagenrollen hinzufügen {#add-the-template-roles}
 
 Nachdem Sie die Vorlage erstellt haben, wird sie im Arbeitsbereich geöffnet, und Sie werden aufgefordert, die Rollen hinzuzufügen. Standardmäßig wird die erste Rollenkarte angezeigt.
+
+#### Filtertypen für Rollenbedingungen
 
 Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filtern oder _Bedingungen_, um die der Rolle zugewiesenen Mitglieder zu bestimmen. Verwenden Sie die folgenden Filtertypen, um die Bedingungen für eine Rolle zu definieren:
 
@@ -76,6 +102,8 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 | [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto oder die Person hat oder hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie in den [XDM-relationalen Schemata](../admin/xdm-field-management.md#relational-schemas) konfiguriert. |
 | Spezielle Filter | <li>Mitglied der Liste (veraltet) <li>Mitglied des Programms (veraltet) |
 | Absichtsdaten | <li>Kategoriebedingung <li>Produktzweck <li>Keyword Intent <br/>(siehe [_Intent-Daten_](../admin/intent-data.md)) |
+
+#### Definieren von Rolleneigenschaften
 
 1. Definieren Sie für die erste Rollenkarte die Rolleneigenschaften.
 
@@ -89,11 +117,13 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
      Der Wert für jede Option wird in einen Prozentsatz für die Score-Berechnung umgerechnet: [!UICONTROL Trivial] = 20, [!UICONTROL Minor] = 40, [!UICONTROL Normal] = 60, [!UICONTROL Important] = 80 und [!UICONTROL Vital] = 100.
 
-     Beispiel: Eine Rollenvorlage mit Rollen, die „Wichtig“, „Normal“ und „Wichtig“ verwenden, wird dann in „100/240“, „80/240“ und „60/240“ konvertiert.
+     Beispiel: Eine Rollenvorlage mit den Rollen „Wichtig“, „Wichtig“ und „Normal“ wird in 100, 80 und 60 von 240 konvertiert.
 
    * **[!UICONTROL Bedingungen für automatische Zuweisung hinzufügen]** - Aktivieren Sie dieses Kontrollkästchen, um Bedingungen für die automatische Zuweisung von Mitgliedern zur Einkaufsgruppe hinzuzufügen, die der Bedingung entsprechen. Wenn das Kontrollkästchen nicht aktiviert ist, ist das Hinzufügen von Bedingungen NICHT erforderlich.
 
    * **[!UICONTROL Erforderlich für Vollständigkeitsbewertung]** - Aktivieren Sie dieses Kontrollkästchen für die Rolle, wenn es eine Anforderung für die Berechnung eines Vollständigkeitswerts sein soll.
+
+#### Bedingungen für die automatische Zuweisung hinzufügen
 
 1. Klicken Sie **[!UICONTROL Bedingung hinzufügen]** und definieren Sie die bedingte Regel für die Rolle.
 
@@ -103,7 +133,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
      >[!NOTE]
      >
-     >Wenn Sie benutzerdefinierte Personenfelder im Geschäftspersonenschema in Experience Platform definiert haben, sind diese Felder auch verfügbar, um als Personenattribute in Bedingungen zu verwenden.
+     >Wenn Sie benutzerdefinierte Personenfelder im Experience Platform-Geschäftspersonenschema definiert haben, können Sie diese Felder in Bedingungen als Personenattribute verwenden.
 
      Verwenden Sie das -Attribut, um mithilfe eines oder mehrerer Werte einen übereinstimmenden Filter zu erstellen.
 
@@ -119,7 +149,9 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
    * Klicken Sie auf **[!UICONTROL Fertig]**.
 
-1. Klicken Sie für jede zusätzliche Rolle, die Sie in die Vorlage aufnehmen möchten, auf **[!UICONTROL Weitere Rolle hinzufügen]** und wiederholen Sie die Schritte 1 und 2, um die Rolle zu definieren.
+#### Weitere Rollen hinzufügen
+
+1. Klicken Sie für jede zusätzliche Rolle, die Sie in die Vorlage aufnehmen möchten, auf **[!UICONTROL Weitere Rolle hinzufügen]** und wiederholen Sie die Schritte unter **Rolleneigenschaften definieren** und **Bedingungen für die automatische Zuweisung hinzufügen**, um die Rolle zu definieren.
 
    ![Rollenvorlage mit mehreren definierten Rollen](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
@@ -136,15 +168,15 @@ Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!
 
 >[!NOTE]
 >
->**Einstellung von Funktionen**</br></br>
+>**Einstellung von Funktionen**
 >
 >In der aktuellen Journey Optimizer B2B edition-Version wird das Filtern nach Listen- oder Programmmitgliedschaften in einer Marketo Engage-Instanz nicht mehr unterstützt.
 
 >[!ENDSHADEBOX]
 
-### Ändern der Vollständigkeitsbewertungseinstellungen
+### Ändern der Vollständigkeitsbewertungseinstellungen {#change-the-completeness-score-settings}
 
-Standardmäßig wird die Vollständigkeit für eine Rolle als ein der Rolle zugewiesenes Mitglied definiert. Wenn Sie die Vollständigkeit der Einkaufsgruppe als Indikator für die Verkaufsbereitschaft oder den <!-- journey decisioning coming later--> verwenden möchten, können Sie diese Einstellungen verwenden, um die Punktzahl an die Anzahl der Mitglieder pro Rolle anzupassen, die zum Schließen einer Opportunity erforderlich sind.
+Standardmäßig wird die Vollständigkeit für eine Rolle als ein der Rolle zugewiesenes Mitglied definiert. Wenn Sie die Vollständigkeit der Einkaufsgruppe verwenden, um die Verkaufsbereitschaft anzugeben, verwenden Sie diese Einstellungen, um die Punktzahl an die Anzahl der Mitglieder anzupassen, die zum Schließen einer Opportunity erforderlich sind.
 
 Wenn Sie beispielsweise ein Geschäft für Ihre Lösung _X_ abschließen möchten, müssen mehrere Marketing-Entscheidungsträger identifiziert und einbezogen werden, da mehrere Marketing-Teams in einem Unternehmen die Lösung verwenden würden. In diesem Fall möchten Sie den Schwellenwert erhöhen, um eine _vollständige_ Einkaufsgruppe zu berechnen, indem Sie mindestens zwei Marketing-Entscheidungsträger benötigen.
 
@@ -158,7 +190,7 @@ Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte
 
    Sie können den Wert eingeben oder auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
-   ![Schaltfläche „Rollenvorlage - Vollständigkeit der Bewertungseinstellungen“](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
+   ![Dialogfeld mit den Einstellungen für die Vollständigkeit der Rollenvorlage](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -168,11 +200,13 @@ Wenn die Vorlage einsatzbereit ist, klicken Sie oben **[!UICONTROL auf]** Veröf
 
 Durch das Veröffentlichen der Vorlage wird der Status auf _Live_ gesetzt und für die Verknüpfung mit einer interessanten Lösung verfügbar gemacht. Es muss mindestens eine definierte Rolle vorhanden sein, um die Rollenvorlage zu veröffentlichen.
 
+Nach der Veröffentlichung lautet der Vorlagenstatus _Live_ auf der Registerkarte **[!UICONTROL Rollenvorlagen]** und Sie können ihn auswählen, wenn Sie [Lösungsinteresse erstellen](./solution-interests.md).
+
 ## Bearbeiten einer Vorlage für Aufgabenentwürfe
 
 Wenn sich eine Rollenvorlage im Status _Entwurf_ befindet, können Sie die definierten Rollen weiter bearbeiten. Alle von Ihnen vorgenommenen Änderungen werden automatisch gespeichert.
 
-Ändern Sie alle Einstellungen in der Kopfzeile der Rollenkarte, einschließlich der Rolle der Einkaufsgruppe, der Gewichtung, der automatischen Zuweisung und der Vollständigkeitsbewertung.
+Ändern Sie die Kopfzeileneinstellungen der Rollenkarte, z. B. die Rolle der Einkaufsgruppe, die Gewichtung, die automatische Zuweisung oder die Anforderung zur Vollständigkeitsbewertung.
 
 ![Eigenschaften der Einkaufsgruppenrolle ändern](./assets/roles-template-role-properties.png){width="600"}
 
@@ -198,10 +232,12 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 1. Klicken **[!UICONTROL oben]** auf „Löschen“.
 
-   ![Rollenpriorität ändern](./assets/roles-template-delete.png){width="700"}
+   ![Bestätigungsdialog zum Löschen von Rollenvorlagen](./assets/roles-template-delete.png){width="700"}
 
 1. Klicken Sie im Dialogfeld zur Bestätigung **[!UICONTROL Löschen]**.
 
-## Übersichtsvideo
+   Nachdem Sie bestätigt haben, wird die Rollenvorlage aus der **[!UICONTROL Rollenvorlagen]** entfernt.
+
+## Übersichtsvideo {#overview-video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3453310/?captions=ger&learn=on)
