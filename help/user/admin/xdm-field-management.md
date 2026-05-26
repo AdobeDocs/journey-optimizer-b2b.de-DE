@@ -4,26 +4,16 @@ description: Verwenden Sie die XDM-Feldverwaltung, um die Daten zu steuern, die 
 feature: Data Management, Integrations
 role: User
 exl-id: 4f0f2c79-3831-47ab-b5ed-d5534be000d5
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 87%
+source-wordcount: 1191
+ht-degree: 79%
 
 ---
 
@@ -31,21 +21,21 @@ ht-degree: 87%
 
 Experience-Datenmodell (XDM)-Felder sind Schemaelemente, die Daten für das [!DNL Journey Optimizer B2B Edition]-Programm bereitstellen. Verwenden Sie XDM-Felder als Filter und Einschränkungen beim Journey von Knoten, bei Einkaufsgruppen und für Inhaltsfunktionen wie E-Mail-Personalisierung und bedingte Inhalte.
 
-Schemata definieren Felder basierend auf standardmäßigen XDM-Klassen. Zu den standardmäßigen XDM-Klassen gehören „Individuelles Profil“, „Geschäftskonto“ und „Erlebnisereignis“. Relationale Schemata definieren auch Felder, mit denen Sie strukturierte Daten ähnlich wie herkömmliche relationale Datenbanken modellieren können.
+Schemata definieren Felder basierend auf standardmäßigen XDM-Profilen. Zu den standardmäßigen XDM-Konfigurationen gehören Einzelprofil, Geschäftskonto und Erlebnisereignis. Relationale Schemata definieren auch Felder, mit denen Sie strukturierte Daten ähnlich wie herkömmliche relationale Datenbanken modellieren können.
 
 Adobe Experience Platform (AEP)-Schemata enthalten in der Regel viele Felder in komplexen Hierarchien. Das Durchlaufen von XDM-Schemastrukturen dauert einige Zeit. Die XDM-Feldverwaltung optimiert die Feldauswahl, indem nur die Felder angezeigt werden, die für Ihre Journey, Einkaufsgruppen und Personalisierung relevant sind.  Administratoren aktivieren diese Felder für die Verwendung in Journey Optimizer B2B edition, einschließlich schreibgeschützter oder bearbeitbarer Felder.
 
-Admins, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kundendatenplattform (CDP)-Datenmodellierung zusammenarbeiten, sollten die folgenden Schritte verwenden, um XDM-Klassen für [!DNL Journey Optimizer B2B Edition] zu konfigurieren.
+Admins, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kundendatenplattform (CDP)-Datenmodellierung zusammenarbeiten, sollten die folgenden Schritte verwenden, um XDM-Felder für [!DNL Journey Optimizer B2B Edition] zu konfigurieren.
 
-## Zugriff auf XDM-Klassen
+## Zugriff auf XDM-Konfigurationen
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfiguration]** aus.
 
-1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** XDM-Klassen“.
+1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** XDM-Konfigurationen“.
 
    * Verwenden Sie die Registerkarten **[!UICONTROL Standard]** und **[!UICONTROL Relational]**, um neue Felder hinzuzufügen und sie in Journey Optimizer B2B edition verfügbar zu machen.
 
-   * Verwenden Sie die **Ereignisse**, um [bestimmte AEP Experience Events und ihre zugehörigen Felder auszuwählen](./configure-aep-events.md) die für das Journey von Ereignisknoten verwendet werden sollen.
+   * Verwenden Sie die **[!UICONTROL Ereignisse]**, um [bestimmte AEP Experience Events und ihre zugehörigen Felder auszuwählen](./configure-aep-events.md) die für das Journey von Ereignisknoten verwendet werden sollen.
 
 ## Feldauswahl
 
@@ -66,7 +56,7 @@ Auf der Registerkarte _[!UICONTROL Standard]_ können Sie _verwaltete Felder_ un
 * Verwaltete Felder werden in Journeys, Einkaufsgruppen und Personalisierungsfunktionen angezeigt.
 * Aktualisierbare Felder dienen als Einschränkungen für die Journey-Knoten _Kontoprofil aktualisieren_ und _Personenprofil aktualisieren_.
 
-![Registerkarte „Standardklassen“ mit XDM-Klassenkonfiguration](assets/xdm-standard.png){width="600" zoomable="yes"}
+![Registerkarte „Standardklassen“ mit XDM-Konfiguration](./assets/xdm-standard.png){width="600" zoomable="yes"}
 
 Die Liste umfasst zwei Klassen:
 
@@ -91,11 +81,11 @@ Um Felder aus dem Vereinigungsschema auszuwählen, klicken Sie auf den Klassenna
 
 Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder auswählen_ alle konfigurierbaren Felder aufgelistet.
 
-1. Wählen Sie bis zu 100 Felder für jede XDM-Klasse aus.
+1. Wählen Sie bis zu 100 Felder für jedes XDM-Schema aus.
 
    Filtern Sie _[!UICONTROL angezeigte Liste mithilfe]_ Felds „Suche“ nach Namen. Mit dem Schieberegler **[!UICONTROL Nur ausgewählte Felder anzeigen]** können Sie die aktuellen Auswahlen überprüfen.
 
-   ![Dialogfeld zur Auswahl verwalteter Felder für standardmäßige XDM-Klassen mit konfigurierbaren Feldoptionen](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
+   ![Dialogfeld zur Auswahl verwalteter Felder für Standard-XDM-Schemata mit konfigurierbaren Feldoptionen](assets/xdm-standard-managed-fields.png){width="450" zoomable="yes"}
 
 1. Klicken Sie **[!UICONTROL Speichern]**, um Ihre Auswahl zu bestätigen.
 
@@ -103,14 +93,14 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 Journey Legen Sie die aktualisierbaren Felder fest, um auszuwählen, welche Felder durch die Aktionen **[!UICONTROL Kontoprofil aktualisieren]** oder **[!UICONTROL Personenprofil aktualisieren]** geändert werden können.
 
-Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
+Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
 >[!IMPORTANT]
 >
 >Leitplanken für aktualisierbare Felder:
 >
 >* Schemata : Das Schema muss die primäre Identität für B2B-Personen (`b2b.personKey.sourceKey`) verwenden. In der Klasse „XDM Individual Profile“ müssen alle erforderlichen Felder im Schema systemdefiniert sein, z. B. `identityMap` oder `personID`.
->* Datensätze : Verwenden Sie keinen Datensatz, der bereits für einen anderen Zweck verwendet wird. Es empfiehlt sich, dedizierte Datensätze speziell zum Speichern aktualisierbarer Felder zu erstellen. Verwenden Sie für jede XDM-Klasse einen separaten Datensatz.
+>* Datensätze : Verwenden Sie keinen Datensatz, der bereits für einen anderen Zweck verwendet wird. Es empfiehlt sich, dedizierte Datensätze speziell zum Speichern aktualisierbarer Felder zu erstellen. Verwenden Sie für jedes XDM-Schema einen separaten Datensatz.
 
 Erstellen Sie einen Datensatz für ein individuelles Profil und einen anderen für ein Geschäftskonto. Wählen Sie während des Konfigurationsprozesses jeden neuen Datensatz aus:
 
@@ -134,7 +124,7 @@ Es gibt mehrere Funktionen, die die Verwendung der konfigurierten relationalen S
 
 >[!AVAILABILITY]
 >
->Die [relationalen Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
+>Die [relationalen Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 >[!NOTE]
 >
@@ -177,7 +167,7 @@ So wählen Sie relationale Schemafelder zur Verwendung in [!DNL Journey Optimize
 
    Sie können den Namespace nur einmal festlegen und diese Aktion nicht rückgängig machen.
 
-   ![Der Standard-Namespace im Dialogfeld Namespace erstellen &#x200B;](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
+   ![Der Standard-Namespace im Dialogfeld Namespace erstellen ](./assets/xdm-classes-relational-create-namespace.png){width="400" zoomable="yes"}
 
 1. Überprüfen Sie die Felder des relationalen Schemas.
 
