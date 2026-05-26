@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
+source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
 workflow-type: tm+mt
-source-wordcount: 1522
-ht-degree: 13%
+source-wordcount: 1608
+ht-degree: 12%
 
 ---
 
@@ -39,12 +39,12 @@ Admins können bestimmte [AEP-Erlebnisereignisse](https://experienceleague.adobe
 
 Die Verwendung von AEP-Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
 
-1. Ein Administrator ([&#x200B; Erlebnisereignisse und -felder) &#x200B;](#add-an-event) den Journey Optimizer B2B edition-Konfigurationen.
+1. Ein Administrator [fügt in den Journey Optimizer B2B edition-Konfigurationen AEP Experience &#x200B;](#add-an-event) und -felder hinzu.
 
-2. Auf einer Journey fügt der Marketing-Experte einen _Lauschen auf ein_) hinzu und [wählt ein Erlebnisereignis aus](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event).
+1. In einem Journey verwendet ein Marketer die konfigurierten Ereignisse auf eine dieser zwei Arten:
 
-   * Wählt das im Knoten zu verwendende Ereignis aus.
-   * Wählt die als Einschränkung zu verwendenden Felder aus.
+   * Fügt einen _Lauschen auf ein Ereignis_-Knoten hinzu und [wählt ein Erlebnisereignis aus](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) um den Fortschritt des Trigger-Journey basierend auf der Echtzeit-Ereignisaktivität während des Journey zu ermitteln.
+   * Fügt den Knoten _Pfade nach Personen aufteilen_ hinzu und konfiguriert einen Pfad [Filtern nach einem Ereignis](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) aus dem Ordner **[!UICONTROL Ereignisverlauf]**.
 
 >[!BEGINSHADEBOX]
 
@@ -56,11 +56,13 @@ Beachten Sie bei der Auswahl von Ereignissen zur Erreichung Ihrer Unternehmenszi
 
 * Journey können Erlebnisereignisse überwachen, die über Experience Platform-Streaming-Funktionen aufgenommen werden, z. B. Web-SDK oder HTTP-API.
 
-* Sie können Erlebnisereignisse für Entscheidungszwecke in einem Journey verwenden, sie werden jedoch nicht beibehalten. Daher können Sie keinen historischen Datensatz mit Erlebnisereignissen in Journey Optimizer B2B edition nutzen.
+* Historische Erlebnisereignisdaten werden für eine Person gesammelt, wenn das Ereignis in der Journey Optimizer B2B edition-Datenbank vorhanden ist. Für Personen, die bereits vorhanden sind, wenn ein Ereignistyp zum ersten Mal konfiguriert wird, beginnt die Aufstockung zum Zeitpunkt der Konfiguration. Bei neuen Personen beginnt die Akkumulation, wenn die Person zum ersten Mal hinzugefügt wird (ihre Vorgeschichte ist nicht rückwirkend verfügbar).
+
+* Es gibt derzeit keinen Löschmechanismus für den akkumulierten Ereignisverlauf. Die Richtlinie zur langfristigen Aufbewahrung kann sich ändern.
 
 * Wenn Sie ein Erlebnisereignis verwenden und die Journey veröffentlichen, können Sie weitere Felder hinzufügen, zuvor ausgewählte Felder jedoch nicht entfernen.
 
-* Sie können auf ein Erlebnisereignis in mehreren Journey verweisen oder ein Erlebnisereignis mehrmals auf derselben Journey verwenden.
+* Sie können auf ein Erlebnisereignis in mehreren Journey verweisen oder dasselbe Ereignis mehrmals auf derselben Journey verwenden.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +86,7 @@ Geben Sie Text in das _[!UICONTROL Suchen]_-Feld ein, um die angezeigten Ereigni
 
 ![Filtern Sie die Liste der ausgewählten Ereignisse nach Namen](./assets/configurations-xdm-classes-events-search.png){width="600" zoomable="yes"}
 
-### Ereignis hinzufügen
+### Ereignis hinzufügen {#add-an-event}
 
 Um ein Erlebnisereignis für den Knoten _Lauschen auf ein Ereignis_ auf einer Journey verfügbar zu machen, wählen Sie das Ereignis und die unterstützten Felder aus.
 
@@ -126,7 +128,7 @@ Um ein Erlebnisereignis für den Knoten _Lauschen auf ein Ereignis_ auf einer Jo
 
 Das gespeicherte Ereignis wird in der Liste auf der Registerkarte _[!UICONTROL Ereignisse]_ angezeigt.
 
-### Ereignis bearbeiten
+### Ereignis bearbeiten {#edit-an-event}
 
 Bearbeiten Sie die Ereignisdetails, um die Felder zu ändern.
 
@@ -134,7 +136,9 @@ Bearbeiten Sie die Ereignisdetails, um die Felder zu ändern.
 
    ![Klicken Sie auf das Menüsymbol Mehr &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Felder bearbeiten]**, um im Dialogfeld „Felder _[!UICONTROL &quot; weitere Felder hinzuzufügen oder]_ Auswahl zu entfernen.
+1. Klicken Sie auf **[!UICONTROL Felder bearbeiten]**, um das Dialogfeld _[!UICONTROL Felder auswählen]_ zu öffnen und weitere Felder hinzuzufügen.
+
+   Sie können zuvor ausgewählte Felder nicht entfernen, nachdem eine Journey, die dieses Ereignis verwendet, veröffentlicht wurde.
 
 1. Klicken Sie **[!UICONTROL Auswählen]**, um Ihre Auswahl zu speichern.
 
@@ -170,8 +174,8 @@ Ereignistyp: `directMarketing.emailSent`
 | Ursprungsschlüssel der Person | `personKey.sourceKey` |
 | E-Mail-Quell-ID | `directMarketing.emailSent.mailingKey.sourceID` |
 | E-Mail-Quelltyp | `directMarketing.emailSent.mailingKey.sourceType` |
-| E-Mail-Quellinstanz-ID | `directMarketing.emailSent.mailingKey.sourceInstanceID ` |
-| E-Mail-Quellschlüssel | `directMailing.emailSent.mailingKey.sourceKey` |
+| E-Mail-Quellinstanz-ID | `directMarketing.emailSent.mailingKey.sourceInstanceID` |
+| E-Mail-Quellschlüssel | `directMarketing.emailSent.mailingKey.sourceKey` |
 | Mailing-Name | `directMarketing.emailSent.mailingName` |
 | Journey-ID | `_experience.journeyOrchestration.stepEvents.journeyID` |
 | Knoten-ID | `_experience.journeyOrchestration.stepEvents.nodeID` |
@@ -182,7 +186,7 @@ Ereignistyp: `directMarketing.emailSent`
 
 Dieses Ereignis verfolgt, wann eine E-Mail erfolgreich an den E-Mail-Service einer Person zugestellt wurde.
 
-Ereignistyp: `directMarketing.emailDelivered `
+Ereignistyp: `directMarketing.emailDelivered`
 
 +++Felder
 
@@ -337,7 +341,7 @@ Ereignistyp: `directMarketing.emailBouncedSoft`
 
 Dieses Ereignis verfolgt, wann eine Person sich von einer Marketing-E-Mail abgemeldet hat.
 
-Ereignistyp: `directMarketing.emailUnsubscribed `
+Ereignistyp: `directMarketing.emailUnsubscribed`
 
 +++Felder
 
@@ -458,7 +462,7 @@ Ereignistyp: `web.webinteraction.linkClicks`
 
 Dieses Ereignis verfolgt, wann ein interessanter Moment für eine Person aufgezeichnet wurde.
 
-Ereignistyp: `leadOperation.interestingMoment `
+Ereignistyp: `leadOperation.interestingMoment`
 
 +++Felder
 
