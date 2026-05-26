@@ -1,49 +1,43 @@
 ---
 title: Pfade aufteilen und zusammenführen
-description: Erstellen Sie in Journey Optimizer B2B edition Pfade für die Aufspaltung und Zusammenführung von Pfaden zu Segmentkonten und Personen mit Bedingungslogik, filtern Sie nach Kaufgruppen und kombinieren Sie Pfade neu.
+description: Aufspalten und Zusammenführen von Journey-Pfaden zu Segmentkonten oder Personen nach Bedingungen, Einkaufsgruppen und Ereignisverlauf in Journey Optimizer B2B edition.
 feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
 workflow-type: tm+mt
-source-wordcount: 2744
-ht-degree: 4%
+source-wordcount: 2550
+ht-degree: 3%
 
 ---
 
-# Aufteilen und Zusammenführen von Pfaden
+# Aufteilen und Zusammenführen von Pfaden {#split-paths}
 
 Verwenden Sie Split- und Merge-Path-Knoten, um Personen oder Konten gemäß den von Ihnen definierten Bedingungen zu segmentieren. Erstellen Sie Pfade für die Audience- oder Kontenliste gemäß den Bedingungen, definieren Sie jeden Pfad mit Aktions- und Ereignisknoten für das Segment, kombinieren Sie dann die Pfade und setzen Sie das Journey fort.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
-Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, die entweder auf _&#x200B;**- oder Personenfiltern**&#x200B;_. Eine Aufspaltung, die auf einem Personenfilter basiert, wird automatisch mit einem Zusammenführungspfade -Knoten geschlossen, damit alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
+Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, die entweder auf _**- oder Personenfiltern**_. Eine Aufspaltung, die auf einem Personenfilter basiert, wird automatisch mit einem Zusammenführungspfade -Knoten geschlossen, damit alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 
 >[!NOTE]
 >
 >Es werden maximal 25 Pfade unterstützt.
 
-## Pfade nach Konten aufteilen
+## Pfade nach Konten aufteilen {#split-paths-by-accounts}
 
-_(Nur Konto-Journey_
+**_(Nur Konto-Journey_**
 
 Pfade, die nach Konten aufgeteilt sind, können sowohl Konto- als auch Personenaktionen und -ereignisse enthalten. Diese Pfade können weiter aufgeteilt werden.
 
-_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
+_**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**_
 
 * Jeder Pfad, den Sie hinzufügen, enthält einen Endknoten mit der Möglichkeit, Knoten zu jedem Edge hinzuzufügen.
 * Aufspaltung nach Kontoknoten kann verschachtelt werden (Sie können den Pfad wiederholt nach Konten aufteilen).
@@ -53,18 +47,13 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
 
 ![Journey-Knoten - Pfade nach Konto aufteilen](./assets/node-split-paths-account.png){width="700" zoomable="yes"}
 
-### Pfadbedingungen des Kontos
+### Pfadbedingungen des Kontos {#account-path-filters}
 
 | Pfadbedingungen | Beschreibung |
 | --------------- | ----------- |
 | [!UICONTROL Kontoattribute] | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz <li>Ort <li>Land <li>Mitarbeiterzahl <li>Branche <li>Name <li>SIC-Code <li>Status |
-| [!UICONTROL Kontoattribute] > Hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering).) |
+| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) ](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering).) |
 | [!UICONTROL Sonderfilter] > [!UICONTROL Konto hat eine passende Einkaufsgruppe] | Dem Konto ist mindestens eine Einkaufsgruppe zugeordnet. Sie kann für eine passende Einkaufsgruppe anhand einer oder mehrerer der folgenden Einschränkungen bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Engagement-Bewertung <li>Vollständigkeitsindex <li> Anzahl der Personen in Käufergruppenrolle |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Sie kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Engagement-Bewertung <li>Vollständigkeitsindex |
-
->[!NOTE]
->
->Der _[!UICONTROL Hat Einkaufsgruppe]_-Filter ist für künftige Einstellung markiert. Verwenden Sie für neue Journey den Filter _[!UICONTROL Account has matches buying group]_, der alle gleichen Einschränkungen enthält.
 
 ### Fügen Sie einen aufgeteilten Pfad nach Kontenknoten hinzu
 
@@ -140,7 +129,7 @@ _(Konto- und Personen-Journey)_
 
 Pfade, die nach Personen aufgeteilt sind, können nur Personenaktionen enthalten. Diese Pfade können nicht erneut aufgeteilt und automatisch wieder verbunden werden.
 
-_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
+_**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**_
 
 * Die Funktion „Aufspaltung nach Personen _Knoten funktioniert in einer Kombination aus_ und Zusammenführung. Die Pfade der Aufspaltung werden automatisch zusammengeführt, sodass alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 * Nach Personen aufgeteilte Knoten können nicht verschachtelt werden (Sie können keinen aufgeteilten Pfad für Personen auf einem Pfad hinzufügen, der sich in diesem gruppierten Knoten befindet).
@@ -150,17 +139,13 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 
 ![Konto-Journey-Knoten - Pfade nach Personen aufteilen](./assets/node-split-paths-people.png){width="700" zoomable="yes"}
 
-### Personenpfadfilter
+### Personenpfadfilter {#people-path-filters}
 
 | Filter | Beschreibung |
 | ------------ | ----------- |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | E-Mail-Aktivitäten basierend auf Bedingungen, die mithilfe einer oder mehrerer ausgewählter E-Mail-Nachrichten von zuvor im Journey ausgewertet werden: <li>[!UICONTROL Link in E-Mail angeklickt] <li>Hat E-Mail geöffnet <li>Bekam E-Mail zugestellt <li>Wurde per E<br>**[!UICONTROL Mail gesendet (Zum Inaktivitätsfilter wechseln &#x200B;]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte die E-Mail-Aktivität nicht). |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL SMS-Nachricht] | SMS-Aktivitäten basierend auf Bedingungen, die mithilfe einer oder mehrerer ausgewählter SMS-Nachrichten aus einer früheren Journey ausgewertet werden: <li>[!UICONTROL Link in SMS angeklickt] <li>[!UICONTROL SMS gebounct] <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln &#x200B;]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte die SMS-Aktivität nicht). |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Datenwert geändert] | Für ein ausgewähltes Personenattribut wurde ein Wert geändert. Zu diesen Änderungstypen gehören: <li>Neuer Wert<li>Vorheriger Wert<li>Ursache<li>Quelle<li>Datum der Aktivität<li>Min. Anzahl der Fälle <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln &#x200B;]**- Verwenden Sie diese Option, um bei fehlender Aktivität zu filtern (eine Person hatte keine Datenwertänderung). |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Hatte einen interessanten Moment] | Interessante Momentaktivität, die in der zugehörigen [!DNL Marketo Engage] definiert ist. Zu den Einschränkungen gehören: <li>Meilenstein<li>E-Mail<li>Web <br>**[!UICONTROL Zum Inaktivitätsfilter wechseln &#x200B;]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hatte keinen interessanten Moment). |
-| [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Besuchte Web-Seite] | Web-Seitenaktivität, die für eine oder mehrere Web-Seiten verwendet wird, die von der zugehörigen [!DNL Marketo Engage] verwaltet werden. Zu den Einschränkungen gehören: <li>Webseite (erforderlich)<li>Datum der Aktivität<li>Client-IP-Adresse <li>Querystring <li>Referrer <li>Benutzeragent <li>Suchmaschine <li>Suchabfrage <li>Personalisierte URL <li>Token <li>Browser <li>Plattform <li>Gerät <li>Min. Anzahl der Fälle <br>**[!UICONTROL Wechseln zum Inaktivitätsfilter &#x200B;]**- Verwenden Sie diese Option, um nach fehlender Aktivität zu filtern (eine Person hat die Web-Seite nicht besucht). |
-| [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Ort <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Nachname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Status |
-| [!UICONTROL Personenattribute] > Hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
+| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) ](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
+| [!UICONTROL Ereignisverlauf] | Teilt Personen auf Grundlage von Erlebnisereignissen, die vor dem Journey-Eintritt aufgetreten sind. Erweitern Sie den Ordner , um alle unter „Admin[ > XDM-Ereigniskonfiguration“ konfigurierten Ereignistypen anzuzeigen](../admin/configure-aep-events.md) und wählen Sie einen aus, der als Filter hinzugefügt werden soll. Zu den Einschränkungen gehören Felder aus dem ausgewählten Ereignis, ein Lookback-Zeitfenster, das ab dem Zeitpunkt gemessen wird, zu dem die Person die Journey betritt, und eine optionale Mindestanzahl von Malen. |
+| [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Ort <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Nachname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Bundesland |
 | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | (Veraltet) Die Person ist oder ist kein kaufendes Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li><li>wird entfernt</li><li>Rolle</li> |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Liste] | (Veraltet) Die Person ist oder ist nicht Mitglied in einer oder mehreren [!DNL Marketo Engage]. |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied des Programms] | (Veraltet) Die Person ist oder ist nicht Mitglied in einem oder mehreren [!DNL Marketo Engage]. |
@@ -171,7 +156,7 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 | --------------- | ----------- |
 | [!UICONTROL Rolle im Konto] | Der Person wird eine Rolle im Konto zugewiesen oder ihr wird keine Rolle zugewiesen. Optionale Einschränkungen: <li>Rollenname |
 
-### Fügen Sie einen Pfad für die Aufspaltung nach Personenknoten hinzu
+### Fügen Sie einen Pfad für die Aufspaltung nach Personenknoten hinzu {#add-a-split-path-by-people-node}
 
 >[!NOTE]
 >
@@ -224,21 +209,27 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 
    Wenn Sie für jeden Pfad zur Aufteilung Ihrer Zielgruppe auf Personenebene Bedingungen definiert haben, können Sie Aktionen hinzufügen, die Sie für Personen durchführen möchten.
 
-### Aktivitätsfilterung
+### Filtern des Erlebnisereignisverlaufs {#experience-event-history-filtering}
 
-Für einen aufgeteilten Pfad nach Personen können Sie einen Pfad entsprechend der Aktivität der Person definieren, die mit Folgendem zusammenhängt:
+Für einen aufgeteilten Pfad nach Personen können Sie einen Pfad definieren, der auf Erlebnisereignissen basiert, die vor dem Eintritt der Person in die Journey aufgetreten sind. Erweitern Sie im Bedingungseditor den Ordner **[!UICONTROL Ereignisverlauf]**, um eine Liste aller von Ihrem Administrator konfigurierten Ereignistypen anzuzeigen. Ereignistyp auswählen, um ihn als Filterbedingung hinzuzufügen.
 
-* E-Mail-Nachrichten von früher im Journey
-* SMS-Nachrichten von früher im Journey
-* Änderung des Datenwerts im Personenprofil
-* Ein interessanter Moment (in [!DNL Marketo Engage] verfolgt), der mit einer E-Mail, Web-Seite oder einem Meilenstein verbunden ist
-* Besuch einer Web-Seite (verfolgt in [!DNL Marketo Engage])
+Das Lookback-Zeitfenster für den Ereignisverlauf wird ab dem Zeitpunkt rückwärts gemessen, zu dem die Person die Journey betritt. Beispielsweise wird in einem 30-Tage-Fenster bewertet, ob das qualifizierte Ereignis innerhalb der 30 Tage vor dem Journey-Eintrag aufgetreten ist.
+
+Sie können den Filter mithilfe von spezifischen Einschränkungen für die Felder des ausgewählten Ereignisses weiter verfeinern. Die optionalen Einschränkungen **[!UICONTROL Mindestanzahl von]**) und **[!UICONTROL Datum der Aktivität]** werden beide innerhalb des definierten Lookback-Fensters ausgewertet. Da Ereignisverlaufsdaten mit Adobe Experience Platform synchronisiert werden, kann es zu einer kurzen Verzögerung kommen, bevor ein kürzlich aufgetretenes Ereignis für diesen Filter sichtbar wird.
+
+>[!NOTE]
+>
+>Die im Ordner [!UICONTROL Ereignisverlauf] verfügbaren Ereignisse werden durch die Konfigurationen [Erlebnisereignisse und -felder) ](../admin/configure-aep-events.md).
+
+**Beispiel:** Um Personen, die auf einen Link in einer Marketing-E-Mail geklickt haben, bevor sie die Journey aufrufen, weiterzuleiten, wählen Sie das E-Mail-Klickereignis aus dem Ordner [!UICONTROL Ereignisverlauf] aus, legen Sie das Lookback-Fenster auf den entsprechenden Zeitraum fest und wenden Sie bei Bedarf Einschränkungen auf Feldebene an (z. B. eine bestimmte Link-URL).
+
+![Pfad nach Personenbedingung für Ereignisverlauf aufteilen](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
 >[!BEGINSHADEBOX „Inaktivitätsfilterung“]
 
-Für jeden Filter _[!UICONTROL Aktivitätsverlauf]_ können Sie die Option **[!UICONTROL Zu Inaktivitätsfilter wechseln]** aktivieren. Diese Option ändert den Filter in eine Auswertung für eine Abwesenheit dieses Aktivitätstyps. Fügen Sie beispielsweise den Filter _[!UICONTROL E-Mail]_ > _[!UICONTROL Geöffnete E-Mail]_ hinzu, um einen Pfad für Personen zu erstellen, _&#x200B;**eine E-Mail von früher auf der Journey geöffnet**&#x200B;_ (nicht geöffnet). Aktivieren Sie die Option Inaktivität und geben Sie die E-Mail-Adresse an. Es empfiehlt sich, bei der Definition eines Zeitraums für _[!UICONTROL Inaktivität die]_ „Datum der Aktivität“ zu verwenden.
+Für jeden Filter _[!UICONTROL Ereignisverlauf]_ können Sie die Option **[!UICONTROL Zu Inaktivitätsfilter wechseln]** aktivieren. Diese Option ändert den Filter in eine Auswertung für eine Abwesenheit dieses Aktivitätstyps. Fügen Sie beispielsweise den Filter _[!UICONTROL Direkt-Marketing-E-Mail geöffnet]_ hinzu, um einen Pfad für Personen zu erstellen, _**eine E-Mail**_ geöffnet haben. Aktivieren Sie die Option Inaktivität und geben Sie die E-Mail-Adresse an.
 
-![Pfad nach Personen aufteilen Bedingung für den Kauf der Gruppenmitgliedschaft](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
+![Pfad nach Inaktivitätsbedingung für Personen aufteilen](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -279,39 +270,21 @@ Um die Listenmitgliedschaft in einer aufgeteilten Bedingung zu verwenden, erweit
 
 >[!ENDSHADEBOX]
 
-## Benutzerdefinierte Datenfilterung
+## Benutzerdefinierte Datenfilterung {#custom-data-filtering}
 
 [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"}
 
 Sie können relationale Schemata (modellbasierte Klassen) verwenden, um Pfade nach Konto oder Personen aufzuteilen. Die benutzerdefinierten Objekte werden in _relationalen Schemata_ definiert und ein Produktadministrator kann [relationale Schemafelder konfigurieren](../admin/xdm-field-management.md#relational-schemas) in [!DNL Journey Optimizer B2B Edition]. Die ausgewählten Schemafelder sind im Bedingungseditor für die Verwendung in den Knoten _Pfad nach Konto aufteilen_ und _Pfad nach Personen aufteilen_ verfügbar.
 
-Bei einer Bedingung **[!UICONTROL Pfad nach Konto aufteilen]** verwenden Sie das Suchfeld, um die Liste nach dem benutzerdefinierten Objektnamen unter &quot;_[!UICONTROL &quot;]_ filtern. Fügen Sie die Bedingung hinzu und legen Sie den Wert auf `true` oder `false` fest.
+Erweitern Sie bei **[!UICONTROL Bedingung „Pfad nach Konto]**&quot; oder **[!UICONTROL Pfad nach]** aufteilen _[!UICONTROL „Benutzerdefinierte Objekte]_. Fügen Sie die Bedingung hinzu und legen Sie den Wert auf `true` oder `false` fest. Klicken Sie **[!UICONTROL Einschränkung hinzufügen]**, um die Feldwerte zum Filtern zu verwenden.
 
-![Beispiel für Personenattribut-Bedingungen für ein benutzerdefiniertes Objekt eines relationalen Schemas](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
+![Beispiel für Kontobedingungen für ein benutzerdefiniertes Objekt für ein relationales Schema](./assets/node-split-paths-account-relational-schema.png){width="600" zoomable="yes"}
 
-Bei einer Bedingung **[!UICONTROL Pfad nach Personen aufteilen]** verwenden Sie das Suchfeld, um die Liste nach dem benutzerdefinierten Objektnamen unter &quot;_[!UICONTROL &quot;]_ filtern.
-
-![Beispiel für Personenattribut-Bedingungen für ein benutzerdefiniertes Objekt eines relationalen Schemas](./assets/node-split-paths-people-relational-schema.png){width="600" zoomable="yes"}
-
-<!--
- SPHR-21734
-
-Note: These are currently going under Account Attributes/Person Attributes folder, which is a bug. This will move to Special filters when resolved (? release).
--->
-
-## Pfade zusammenführen
+## Pfade zusammenführen {#merge-paths}
 
 Fügen Sie einen _Mergepfade_-Knoten hinzu, um verschiedene _Aufspaltungspfade nach Konto_ in Ihrem Journey zu kombinieren.
 
-1. Navigieren Sie zur Journey-Karte.
-
-1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Pfade aufteilen]**.
-
-1. Klicken Sie auf den geteilten Knoten, um seine Eigenschaften auf der rechten Seite zu öffnen.
-
-1. Klicken Sie [!UICONTROL Pfad hinzufügen], um drei Pfade zu erstellen.
-
-1. Fügen Sie jedem Pfad eine Kombination aus Aktionen und Ereignissen hinzu.
+1. Fügen Sie in einer Journey-Zuordnung mit einem aufgeteilten Knoten mit drei oder mehr Pfaden eine Kombination aus Aktionen und Ereignissen zu jedem Pfad hinzu.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) für einen dieser Pfade und wählen Sie **[!UICONTROL Zusammenführen]** aus den angezeigten Optionen aus.
 
@@ -325,6 +298,6 @@ Fügen Sie einen _Mergepfade_-Knoten hinzu, um verschiedene _Aufspaltungspfade n
 
 1. Bei Bedarf können Sie die Zusammenführung von Pfaden aufheben, indem Sie zurück zu den Knoteneigenschaften der Zusammenführungspfade navigieren und das Kontrollkästchen für alle Pfade deaktivieren, die Sie entfernen möchten.
 
-## Übersichtsvideo
+## Übersichtsvideo {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443265/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
