@@ -20,7 +20,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 8a0bb99acd71950d1b43732002e9e4d09bfd86b4
+source-git-commit: 56fb0ea71e7f85c91d8faa24719888a5f1b9b780
 workflow-type: tm+mt
 source-wordcount: 1522
 ht-degree: 13%
@@ -68,7 +68,7 @@ Beachten Sie bei der Auswahl von Ereignissen zur Erreichung Ihrer Unternehmenszi
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
 
-1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** XDM-Klassen“ und anschließend auf die Registerkarte **[!UICONTROL Ereignisse]**, um die Liste der verfügbaren Ereignisse anzuzeigen.
+1. Klicken Sie **[!UICONTROL Zwischenbereich auf „XDM]** Konfigurationen“ und anschließend auf die Registerkarte **[!UICONTROL Ereignisse]**, um die Liste der verfügbaren Ereignisse anzuzeigen.
 
    ![Zugriff auf die ausgewählten Erlebnisereignisse](./assets/configurations-xdm-classes-events.png){width="800" zoomable="yes"}
 

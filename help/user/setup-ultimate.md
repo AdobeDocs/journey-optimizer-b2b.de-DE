@@ -21,10 +21,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
 workflow-type: tm+mt
 source-wordcount: 853
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -104,7 +104,7 @@ Verwenden Sie diese Checkliste, um die Einrichtung von Journey Optimizer B2B edi
 </thead>
 <tbody>
 <tr>
-<td colspan="2"><strong>Standard-XDM-Klassen</strong>: Richten Sie Klassen für XDM Individual Profile und XDM Business Account ein.</td>
+<td colspan="2"><strong>Standard-XDM-Konfigurationen</strong>: Richten Sie Schemata für XDM Individual Profile und XDM Business Account ein.</td>
 <td></td>
 </tr>
 <tr>
@@ -118,7 +118,7 @@ Verwenden Sie diese Checkliste, um die Einrichtung von Journey Optimizer B2B edi
 <td><a href="./admin/xdm-field-management.md#updatable-fields">Weitere Informationen</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Relationale Schemata</strong>: Wählen Sie die relationale XDM-Klasse aus (benutzerdefiniertes Konto: Viele-zu-eins-Objekt).</td>
+<td colspan="2"><strong>Relationale Schemata</strong>: Wählen Sie relationale XDM-Felder aus (benutzerdefiniertes Konto-Viele-zu-eins-Objekt).</td>
 <td></td>
 </tr>
 <tr>

@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: effa8e2a45ecc5afbaa5a3f75437735bef89a400
 workflow-type: tm+mt
-source-wordcount: 907
+source-wordcount: 1306
 ht-degree: 1%
 
 ---
@@ -76,9 +76,7 @@ Eine Aktion muss konfiguriert und aktiviert werden, bevor sie von Marketing-Expe
 
    ![Service-URL eingeben](./assets/configuration-external-actions-create-url.png){width="500"}
 
-   >[!NOTE]
-   >
-   >Ihr externer Dienst muss live und erreichbar sein, damit dieser Schritt erfolgreich ist.
+   Der externe Dienst muss live und erreichbar sein, damit dieser Schritt erfolgreich ist. Wenn ein Validierungsfehler auftritt, wird im Dialogfeld eine Meldung angezeigt, die den Fehler beschreibt, und ein Vorschlag zur Behebung des Fehlers. Weitere Informationen finden Sie unter [_Fehlerbehebung_](#troubleshooting).
 
 1. Wenn die URL erfolgreich aufgelöst wird, überprüfen Sie die **[!UICONTROL Service-Details]**.
 
@@ -127,7 +125,7 @@ Eine Aktion muss konfiguriert und aktiviert werden, bevor sie von Marketing-Expe
 
    * **[!UICONTROL Ausgehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem [XDM-Feld“ &#x200B;](../admin/xdm-field-management.md). Diese Felder werden im Anfragetext an den externen Service gesendet. Eigenschaften der Dienstdefinition: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
-   ![Ausgehende Felder für externe Aktionen zuordnen](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
+     ![Ausgehende Felder für externe Aktionen zuordnen](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
    * **[!UICONTROL Eingehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem ([&#x200B; XDM-Feld) &#x200B;](../admin/xdm-field-management.md#updatable-fields). Diese Felder werden aus der Antwort des externen Services ausgefüllt. Eigenschaften der Dienstdefinition: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Nach der Erstellung aktualisierbar.
 
@@ -137,11 +135,50 @@ Eine Aktion muss konfiguriert und aktiviert werden, bevor sie von Marketing-Expe
 
    * **[!UICONTROL Globale Attribute]** - Geben Sie einen Wert für jede Zeile ein, die als statisches Feld in den Anfragetext aufgenommen werden soll. Service-Definitionseigenschaft: `invocationPayloadDef.globalAttributes`.
 
-   ![Header-Parameter für externe Aktionen, Zeitüberschreitung und globale Attribute](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
+     ![Header-Parameter für externe Aktionen, Zeitüberschreitung und globale Attribute](./assets/configuration-external-actions-header-timeout-global.png){width="600" zoomable="yes"}
 
 1. Klicken Sie auf _Rückwärtspfeil_, um zur Liste zurückzukehren und die Aktion in einem _Entwurf_ zu belassen.
 
    Oder klicken Sie auf **[!UICONTROL Aktivieren]**, um die Aktionskonfiguration in den Status _Aktiv_ zu ändern. Die konfigurierte externe Aktion muss aktiv sein, um sie für die Verwendung in Account Journey verfügbar zu machen.
+
+### Fehlerbehebung {#troubleshooting}
+
+Wenn Sie die URL zur OpenAPI-Spezifikation für Ihren externen Service eingeben und auf **[!UICONTROL Erstellen]** klicken, führt das System eine Validierung des Services durch. Wenn ein Fehler auftritt, wird im Dialogfeld eine Meldung zur Beschreibung des Fehlers angezeigt.
+
+![Fehlermeldung zur Validierung des URL-Diensts für externe Aktionen](./assets/configuration-external-actions-create-url-error.png){width="600" zoomable="yes"}
+
+>[!NOTE]
+>
+>Viele der folgenden Fehler erfordern, dass Sie mit dem Entwickler zusammenarbeiten, der den öffentlich zugänglichen Webservice erstellt und veröffentlicht hat, um dies zu beheben.
+
+#### Details zu Validierungsfehlern
+
+| Angezeigter Fehler | Warum es passiert ist | Vorgehensweise |
+|---|---|---|
+| `This URL is already used by another external action` | Diese Spezifikations-URL ist bereits für eine andere Aktion in Ihrer Organisation registriert. | Verwenden Sie eine andere Spezifikations-URL oder löschen Sie die vorhandene Aktion, die sie bereits verwendet. |
+| `An action with this name already exists` | Der `info.title` in Ihrer Spezifikation entspricht einer bereits vorhandenen Aktion | Ändern Sie den Titel im Feld `info.title` Ihrer Spezifikation in etwas Eindeutiges. |
+| `Duplicate operation ID found in the specification` | Zwei oder mehr Vorgänge in Ihrer Spezifikation verwenden dieselbe `operationId`. | Geben Sie jedem Vorgang eine eindeutige `operationId`. |
+| `Field in the specification exceeds the maximum allowed length` | Ein Textfeld in Ihrer Spezifikation (z. B. ein Titel oder eine Beschreibung) ist zu lang. | Kürzen Sie das gekennzeichnete Feld. |
+| `The entity type value is invalid` | Eine Adobe-spezifische `x-` für den Entitätstyp hat einen nicht erkannten Wert | Korrigieren Sie den Entitätstyp auf einen unterstützten Wert. Die gültigen Optionen finden [&#x200B; in &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/) Entwicklerdokumentation . |
+| `The provided document is not a valid OpenAPI specification` | Die Spezifikation kann nicht strukturell analysiert werden. | Validieren Sie Ihre Spezifikation anhand des OpenAPI 3.0-Schemas und beheben Sie etwaige Probleme. |
+| `Required OpenAPI field is missing` | Ein erforderliches OpenAPI-Standardfeld fehlt (z. B. `info` oder `paths`). | Fügen Sie das fehlende Feld hinzu. |
+| `Required endpoint is missing from the specification` | Ein Endpunkt, den Adobe Journey Optimizer B2B edition erfordert, ist nicht in Ihrer Spezifikation definiert. | Fügen Sie den erforderlichen Endpunkt hinzu. In der [Entwicklerdokumentation](https://developer.adobe.com/journey-optimizer-b2b-apis/) finden Sie Informationen dazu, welche Endpunkte benötigt werden. |
+| `Required extension field is missing` | In Ihrer Spezifikation fehlt ein erforderliches Adobe `x-`-Erweiterungsfeld. | Fügen Sie das fehlende Erweiterungsfeld hinzu, wie in der Dokumentation beschrieben. |
+| `Security schemes are missing from the specification` | Für Ihre Spezifikation sind keine `securitySchemes` unter `components` definiert. | Definieren Sie mindestens ein Sicherheitsschema. |
+| `Multiple authentication types are not supported` | Ihre Spezifikation definiert mehr als ein Authentifizierungsschema. | Aktualisieren Sie Ihre -Spezifikation, um einen einzigen Authentifizierungstyp zu verwenden. |
+| `The authentication type is not supported` | Der von Ihnen verwendete Sicherheitsschematyp (z. B. `oauth2` oder `openIdConnect`) wird nicht unterstützt. | Wechseln Sie zu einem unterstützten Authentifizierungstyp. Die unterstützten Optionen finden Sie in der Entwicklerdokumentation . |
+| `The OpenAPI version is not supported` | Versionskonflikt auf Spezifikationsebene | Aktualisieren Sie Ihre Spezifikation für die Verwendung von OpenAPI 3.0.x. |
+| `An unexpected error occurred` | In Ihrer Spezifikation wurde ein nicht klassifiziertes Problem gefunden. | Überprüfen Sie Ihre Spezifikation auf ungewöhnliche Elemente und versuchen Sie es erneut. Wenn der Fehler weiterhin auftritt, wenden Sie sich an den Support. |
+
+<!--
+## Errors you'll see if something goes wrong with the request itself
+
+This error appears below the URL field (not in the alert banner) and means there was a network problem or an unexpected server response — not a problem with your URL or spec.
+
+| What you'll see | Why it happened | What to do |
+|---|---|---|
+| `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
+-->
 
 ## Hinzufügen eines externen Knotens zu einer Journey {#add-journey-node}
 
