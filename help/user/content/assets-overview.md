@@ -4,16 +4,11 @@ description: Verwalten von Bild-Assets aus Journey Optimizer B2B edition und AEM
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -91,7 +86,7 @@ Weitere Informationen zur Verwendung interner Bild-Assets finden Sie unter [Verw
 
 Klicken Sie auf **[!UICONTROL Experience Manager Assets]**, um den Asset-Wähler zu öffnen. Dort können Sie ein Bild aus dem Experience Manager Assets-Repository auswählen.
 
-![Auswählen eines Bild-Assets aus dem AEM Assets-Repository &#x200B;](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
+![Auswählen eines Bild-Assets aus dem AEM Assets-Repository ](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
 
 Sie können die Suche und Filter verwenden, um das gewünschte Bild-Asset zu finden. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Auswählen]**, um es für die Bildkomponente zu verwenden.
 

@@ -4,16 +4,10 @@ description: Zusammenarbeit bei E-Mails in Journey Optimizer B2B edition. Hinzuf
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: 2026-03-30T22:09:19.178Z
 TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -77,7 +71,7 @@ Produktadministratoren können den Zugriff auf die Tools für die E-Mail-Zusamme
 
 Beim Erstellen, Bearbeiten oder Überprüfen von Inhalten im E-Mail-Design können Sie auf das Bedienfeld _Collaboration_ zugreifen, um Kommentare für den E-Mail-Inhalt hinzuzufügen oder zu verwalten.
 
-Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration![&#128279;](../assets/do-not-localize/icon-comments.svg) ( Collaboration-Symbol ).
+Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration](../assets/do-not-localize/icon-comments.svg) ( ![Collaboration-Symbol ).
 
 ![Symbol für das Collaboration-Bedienfeld im rechten Navigationsbereich des E-Mail-Designs](./assets/email-comments-right-nav-icon.png){width="700" zoomable="yes"}
 
@@ -85,9 +79,9 @@ Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration![&#128279;]
 
 Sie können die Collaboration-Tools verwenden, um einem standardmäßigen Inhalts-Workflow zu folgen:
 
-1. [Laden Sie &#x200B;](#invite-collaborators-and-reviewers) Mitarbeiter und Prüfer ein.
+1. [Laden Sie ](#invite-collaborators-and-reviewers) Mitarbeiter und Prüfer ein.
 1. Reviewer [Kommentare hinzufügen](#add-comments).
-1. Lesen Sie Kommentare[&#x200B; fügen Sie Antworten &#x200B;](#reply-to-a-comment), um Feedback zu besprechen, und nehmen Sie die erforderlichen Änderungen vor.
+1. Lesen Sie Kommentare[ fügen Sie Antworten ](#reply-to-a-comment), um Feedback zu besprechen, und nehmen Sie die erforderlichen Änderungen vor.
 1. Reviewer oder Autoren [Kommentare auflösen](#resolve-comments).
 
 >[!BEGINSHADEBOX]
@@ -108,7 +102,7 @@ Sie können die Collaboration-Tools verwenden, um einem standardmäßigen Inhalt
 
 1. Wählen Sie den Textkörper der E-Mail aus.
 
-1. Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration![&#128279;](../assets/do-not-localize/icon-comments.svg) ( Collaboration-Symbol ).
+1. Klicken Sie im rechten Navigationsbereich auf _Symbol_ Collaboration](../assets/do-not-localize/icon-comments.svg) ( ![Collaboration-Symbol ).
 
 1. Geben Sie oben im rechten Bedienfeld Ihren Einladungstext ein, damit Benutzer zusammenarbeiten und Feedback geben können.
 
@@ -194,7 +188,7 @@ Sie können Ihr Kommentar-Protokoll bereinigen, indem Sie ihn entfernen und lös
 
 ### Gelöste Kommentare
 
-Standardmäßig werden aufgelöste Kommentare im Bedienfeld _Collaboration&rbrace;_. Sie können aufgelöste Kommentare jederzeit anzeigen, indem Sie den Filter löschen. Klicken Sie auf _Symbol_ Filtern![&#x200B; ( Symbol „Aufgelöste Kommentare filtern](../assets/do-not-localize/icon-filter.svg) ) und deaktivieren Sie das **[!UICONTROL Aufgelöste Kommentare ausblenden]**.
+Standardmäßig werden aufgelöste Kommentare im Bedienfeld _Collaboration}_. Sie können aufgelöste Kommentare jederzeit anzeigen, indem Sie den Filter löschen. Klicken Sie auf _Symbol_ Filtern![ ( Symbol „Aufgelöste Kommentare filtern](../assets/do-not-localize/icon-filter.svg) ) und deaktivieren Sie das **[!UICONTROL Aufgelöste Kommentare ausblenden]**.
 
 ![Collaboration-Bedienfeld mit Filter zum Anzeigen aufgelöster E-Mail-Kommentare](./assets/email-comments-filter-resolved.png){width="350"}
 

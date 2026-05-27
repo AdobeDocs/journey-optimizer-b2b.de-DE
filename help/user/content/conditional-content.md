@@ -4,17 +4,11 @@ description: Erstellen Sie dynamische Inhaltsvarianten mit bedingten Regeln, die
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:10:29.308Z
 TQID: https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -28,7 +22,7 @@ ht-degree: 13%
 
 Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können bedingte Regeln im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
 
-Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) &#x200B;](./fragment-authoring.md).
+Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) ](./fragment-authoring.md).
 
 ## Hinzufügen bedingter Inhalte {#email-fragment-content}
 
@@ -64,7 +58,7 @@ Verwenden Sie beim Erstellen eines Fragments oder einer E-Mail im visuellen Desi
 
    ![Bedingungen für Bibliothekszugriffsbedingungsdetails](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [&#x200B; eine bedingte Regel, &#x200B;](#create-condition) Sie auf **[!UICONTROL Neu erstellen]**.
+   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [ eine bedingte Regel, ](#create-condition) Sie auf **[!UICONTROL Neu erstellen]**.
 
 1. Wählen Sie die bedingte Regel aus und klicken Sie auf **[!UICONTROL Auswählen]**, um sie mit der Variante zu verknüpfen.
 
@@ -121,7 +115,7 @@ Die Regeln werden in der Bedingungsbibliothek gespeichert, wo sie für Ihre Orga
 | **Konto** | Kontoattribute | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz</li><li>Ort</li><li>Land</li><li>Mitarbeiterzahl</li><li>Branche</li><li>Name</li><li>SIC-Code</li><li>Status</li> |
 | | [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Der Filter kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li> |
 | **Person** | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verbundene E-Mail-Aktivitäten: <li>[!UICONTROL Link in E-Mail angeklickt]</li><li>Hat E-Mail geöffnet</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li> Diese Bedingungen werden mithilfe einer ausgewählten E-Mail-Nachricht aus einem früheren Abschnitt der Journey ausgewertet. |
-|  | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Ort</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Nachname</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Status</li><li>Hat sich abgemeldet</li><li>Grund für Abmeldung</li> |
+|  | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Ort</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Nachname</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Bundesland</li><li>Abbestellt</li><li>Grund für Abmeldung</li> |
 | | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li><li>wird entfernt</li><li>Rolle</li> |
 
 ### Erstellen einer bedingten Regel {#create-condition}
