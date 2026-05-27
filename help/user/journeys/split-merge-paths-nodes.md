@@ -5,17 +5,11 @@ feature: Account Journeys
 solution: Journey Optimizer B2B Edition
 role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
 source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
@@ -31,7 +25,7 @@ Verwenden Sie Split- und Merge-Path-Knoten, um Personen oder Konten gemäß den 
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
-Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, die entweder auf _&#x200B;**- oder Personenfiltern**&#x200B;_. Eine Aufspaltung, die auf einem Personenfilter basiert, wird automatisch mit einem Zusammenführungspfade -Knoten geschlossen, damit alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
+Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, die entweder auf _**- oder Personenfiltern**_. Eine Aufspaltung, die auf einem Personenfilter basiert, wird automatisch mit einem Zusammenführungspfade -Knoten geschlossen, damit alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 
 >[!NOTE]
 >
@@ -43,7 +37,7 @@ Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, di
 
 Pfade, die nach Konten aufgeteilt sind, können sowohl Konto- als auch Personenaktionen und -ereignisse enthalten. Diese Pfade können weiter aufgeteilt werden.
 
-_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
+_**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**_
 
 * Jeder Pfad, den Sie hinzufügen, enthält einen Endknoten mit der Möglichkeit, Knoten zu jedem Edge hinzuzufügen.
 * Aufspaltung nach Kontoknoten kann verschachtelt werden (Sie können den Pfad wiederholt nach Konten aufteilen).
@@ -58,7 +52,7 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
 | Pfadbedingungen | Beschreibung |
 | --------------- | ----------- |
 | [!UICONTROL Kontoattribute] | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz <li>Ort <li>Land <li>Mitarbeiterzahl <li>Branche <li>Name <li>SIC-Code <li>Status |
-| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering).) |
+| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) ](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering).) |
 | [!UICONTROL Sonderfilter] > [!UICONTROL Konto hat eine passende Einkaufsgruppe] | Dem Konto ist mindestens eine Einkaufsgruppe zugeordnet. Sie kann für eine passende Einkaufsgruppe anhand einer oder mehrerer der folgenden Einschränkungen bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Engagement-Bewertung <li>Vollständigkeitsindex <li> Anzahl der Personen in Käufergruppenrolle |
 
 ### Fügen Sie einen aufgeteilten Pfad nach Kontenknoten hinzu
@@ -135,7 +129,7 @@ _(Konto- und Personen-Journey)_
 
 Pfade, die nach Personen aufgeteilt sind, können nur Personenaktionen enthalten. Diese Pfade können nicht erneut aufgeteilt und automatisch wieder verbunden werden.
 
-_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
+_**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**_
 
 * Die Funktion „Aufspaltung nach Personen _Knoten funktioniert in einer Kombination aus_ und Zusammenführung. Die Pfade der Aufspaltung werden automatisch zusammengeführt, sodass alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 * Nach Personen aufgeteilte Knoten können nicht verschachtelt werden (Sie können keinen aufgeteilten Pfad für Personen auf einem Pfad hinzufügen, der sich in diesem gruppierten Knoten befindet).
@@ -149,8 +143,8 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 
 | Filter | Beschreibung |
 | ------------ | ----------- |
-| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
-| [!UICONTROL Ereignisverlauf] | Teilt Personen auf Grundlage von Erlebnisereignissen, die vor dem Journey-Eintritt aufgetreten sind. Erweitern Sie den Ordner , um alle unter „Admin[&#x200B; > XDM-Ereigniskonfiguration“ konfigurierten Ereignistypen anzuzeigen](../admin/configure-aep-events.md) und wählen Sie einen aus, der als Filter hinzugefügt werden soll. Zu den Einschränkungen gehören Felder aus dem ausgewählten Ereignis, ein Lookback-Zeitfenster, das ab dem Zeitpunkt gemessen wird, zu dem die Person die Journey betritt, und eine optionale Mindestanzahl von Malen. |
+| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) ](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
+| [!UICONTROL Ereignisverlauf] | Teilt Personen auf Grundlage von Erlebnisereignissen, die vor dem Journey-Eintritt aufgetreten sind. Erweitern Sie den Ordner , um alle unter „Admin[ > XDM-Ereigniskonfiguration“ konfigurierten Ereignistypen anzuzeigen](../admin/configure-aep-events.md) und wählen Sie einen aus, der als Filter hinzugefügt werden soll. Zu den Einschränkungen gehören Felder aus dem ausgewählten Ereignis, ein Lookback-Zeitfenster, das ab dem Zeitpunkt gemessen wird, zu dem die Person die Journey betritt, und eine optionale Mindestanzahl von Malen. |
 | [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Ort <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Nachname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Bundesland |
 | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | (Veraltet) Die Person ist oder ist kein kaufendes Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li><li>wird entfernt</li><li>Rolle</li> |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Liste] | (Veraltet) Die Person ist oder ist nicht Mitglied in einer oder mehreren [!DNL Marketo Engage]. |
@@ -225,7 +219,7 @@ Sie können den Filter mithilfe von spezifischen Einschränkungen für die Felde
 
 >[!NOTE]
 >
->Die im Ordner [!UICONTROL Ereignisverlauf] verfügbaren Ereignisse werden durch die Konfigurationen [Erlebnisereignisse und -felder) &#x200B;](../admin/configure-aep-events.md).
+>Die im Ordner [!UICONTROL Ereignisverlauf] verfügbaren Ereignisse werden durch die Konfigurationen [Erlebnisereignisse und -felder) ](../admin/configure-aep-events.md).
 
 **Beispiel:** Um Personen, die auf einen Link in einer Marketing-E-Mail geklickt haben, bevor sie die Journey aufrufen, weiterzuleiten, wählen Sie das E-Mail-Klickereignis aus dem Ordner [!UICONTROL Ereignisverlauf] aus, legen Sie das Lookback-Fenster auf den entsprechenden Zeitraum fest und wenden Sie bei Bedarf Einschränkungen auf Feldebene an (z. B. eine bestimmte Link-URL).
 
@@ -233,7 +227,7 @@ Sie können den Filter mithilfe von spezifischen Einschränkungen für die Felde
 
 >[!BEGINSHADEBOX „Inaktivitätsfilterung“]
 
-Für jeden Filter _[!UICONTROL Ereignisverlauf]_ können Sie die Option **[!UICONTROL Zu Inaktivitätsfilter wechseln]** aktivieren. Diese Option ändert den Filter in eine Auswertung für eine Abwesenheit dieses Aktivitätstyps. Fügen Sie beispielsweise den Filter _[!UICONTROL Direkt-Marketing-E-Mail geöffnet]_ hinzu, um einen Pfad für Personen zu erstellen, _&#x200B;**eine E-Mail**&#x200B;_ geöffnet haben. Aktivieren Sie die Option Inaktivität und geben Sie die E-Mail-Adresse an.
+Für jeden Filter _[!UICONTROL Ereignisverlauf]_ können Sie die Option **[!UICONTROL Zu Inaktivitätsfilter wechseln]** aktivieren. Diese Option ändert den Filter in eine Auswertung für eine Abwesenheit dieses Aktivitätstyps. Fügen Sie beispielsweise den Filter _[!UICONTROL Direkt-Marketing-E-Mail geöffnet]_ hinzu, um einen Pfad für Personen zu erstellen, _**eine E-Mail**_ geöffnet haben. Aktivieren Sie die Option Inaktivität und geben Sie die E-Mail-Adresse an.
 
 ![Pfad nach Inaktivitätsbedingung für Personen aufteilen](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -306,4 +300,4 @@ Fügen Sie einen _Mergepfade_-Knoten hinzu, um verschiedene _Aufspaltungspfade n
 
 ## Übersichtsvideo {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443265/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)

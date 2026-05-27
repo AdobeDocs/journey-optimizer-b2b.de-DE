@@ -5,18 +5,11 @@ feature: Audiences
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -32,7 +25,7 @@ Der _Personen-Zielgruppe_-Knoten gibt an, welche Personenprofile in die Journey 
 
 Verwenden Sie eine der folgenden Eingabeoptionen für den Knoten „Zielgruppen-Journey für Personen“:
 
-* **Profilzielgruppe** - Verwenden Sie in einer CDP definierte Segmentzielgruppen. Alle Profile, die sich für die Zielgruppe qualifizieren, werden der Journey als Mitglieder hinzugefügt. Neu für das Segment qualifizierte Profile werden während der täglichen (Profil[Aufnahme) -Aufgaben &#x200B;](#profile-ingestion) Journey hinzugefügt. Wenn sich ein Profil nicht mehr für das Segment qualifiziert, wird es **_nicht_** von der Journey entfernt.
+* **Profilzielgruppe** - Verwenden Sie in einer CDP definierte Segmentzielgruppen. Alle Profile, die sich für die Zielgruppe qualifizieren, werden der Journey als Mitglieder hinzugefügt. Neu für das Segment qualifizierte Profile werden während der täglichen (Profil[Aufnahme) -Aufgaben ](#profile-ingestion) Journey hinzugefügt. Wenn sich ein Profil nicht mehr für das Segment qualifiziert, wird es **_nicht_** von der Journey entfernt.
 
 * **Ereigniszielgruppe** - Verwenden Sie qualifizierende Ereignisse, um die Zielgruppe zu definieren. Diese Ereignisse werden in der Knotenkonfiguration definiert und müssen [XDM-Ereignisse verwenden, die in den Administrationseinstellungen konfiguriert sind](../admin/configure-aep-events.md). Bis zu 10 Ereignisse werden für die ereignisbasierte Zielgruppenzugehörigkeit unterstützt. Ein Profil qualifiziert sich sofort für das Journey, nachdem das erste passende Ereignis eintritt, das sein Profil eingeht.
 
