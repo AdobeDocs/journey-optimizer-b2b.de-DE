@@ -4,14 +4,10 @@ description: Verwenden Sie Kontolisten in der Journey-Orchestrierung, fügen Sie
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-27T22:29:03.719Z
 TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -43,7 +39,7 @@ Alle Account-Journey beginnen mit einem [_Account-Zielgruppe_-Knoten](../journey
 
 **_Nur statische Kontolisten_**
 
-Fügen Sie innerhalb einer Konto-Journey Konten mithilfe eines [einer Aktion _-_ zu einer statischen Kontoliste &#x200B;](../journeys/action-nodes.md).
+Fügen Sie innerhalb einer Konto-Journey Konten mithilfe eines [einer Aktion _-_ zu einer statischen Kontoliste ](../journeys/action-nodes.md).
 
 Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail senden, und einige Konten führen als Antwortaktionen verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey. Mit der Qualifizierung können Sie sie zu einer Kontenliste hinzufügen, die als Zielgruppe für eine andere Journey mit einem anderen Verlauf für qualifizierte Konten verwendet wird.
 
@@ -65,7 +61,7 @@ Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail 
 
 **_Nur statische Kontolisten_**
 
-Entfernen Sie auf einer Konto-Journey Konten mithilfe des Knotens [Aktion ausführen _aus_ statischen &#x200B;](../journeys/action-nodes.md).
+Entfernen Sie auf einer Konto-Journey Konten mithilfe des Knotens [Aktion ausführen _aus_ statischen ](../journeys/action-nodes.md).
 
 Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail senden, und einige Konten führen als Antwortaktionen verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey. Mit dieser Qualifizierung möchten Sie sie aus einer Kontenliste entfernen, die als Audience für eine andere Journey verwendet wird, die zusätzliche E-Mails sendet, damit Sie Ihre Qualifizierungskommunikationen nicht duplizieren.
 
@@ -87,7 +83,7 @@ Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail 
 
 Als Marketing-Experte können Sie Programme in Marketo Engage für Personen unterdrücken, die Teil der Kontolisten in Journey Optimizer B2B edition sind.
 
-In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der]_) in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren. Weitere Informationen zu Smart-Listen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
+In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der]_) in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren. Weitere Informationen zu Smart-Listen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
 
 ### Hinzufügen des Filters zu einer Smart-Liste
 
@@ -105,7 +101,7 @@ In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden i
 
 1. Fügen Sie im Kampagnenfluss den Schritt **[!UICONTROL Zu Liste hinzufügen]** hinzu und wählen Sie die Liste aus, in die Sie die Personen aus der Journey Optimizer B2B edition-Kontoliste einfügen möchten.
 
-   Siehe _[Hinzufügen eines Flussschritts zu einer Smart-Kampagne](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in der Marketo Engage-Dokumentation , um detaillierte Informationen zum Hinzufügen von Schritten zu einem Fluss zu erhalten.
+   Siehe _[Hinzufügen eines Flussschritts zu einer Smart-Kampagne](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in der Marketo Engage-Dokumentation , um detaillierte Informationen zum Hinzufügen von Schritten zu einem Fluss zu erhalten.
 
 ### Mitglieder überprüfen
 

@@ -31,7 +31,7 @@ Im folgenden Beispiel werden Schritte zum Hinzufügen von Fragmenten bei der Ers
 
    >[!TIP]
    >
-   >Um das Fragment so hinzuzufügen, dass es das gesamte horizontale Layout in der E-Mail einnimmt, fügen Sie eine 1:1-Spaltenstruktur hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
+   >Um das Fragment so hinzuzufügen, dass es das gesamte horizontale Layout in der E-Mail einnimmt, fügen Sie eine 1::1-Spaltenstruktur hinzu und ziehen Sie das Fragment dann per Drag-and-Drop hinein.
 
    Der Inhalt des Fragments wird innerhalb der Struktur dynamisch aktualisiert, um anzuzeigen, wie der Inhalt in Ihrem Inhalt angezeigt wird.
 

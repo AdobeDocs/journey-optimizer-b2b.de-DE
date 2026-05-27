@@ -1,8 +1,8 @@
 ---
 source-git-commit: 14ce84c26dc292c33479ca60841dafd1ab20db53
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 53%
+source-wordcount: '448'
+ht-degree: 14%
 
 ---
 # Adobe-Verhaltenskodex
@@ -14,7 +14,8 @@ Ausrichtung.
 
 ## Standards
 
-Beispiele für Verhaltensweisen, die zu einer freundlichen Umgebung betragen:
+Beispiele für Verhaltensweisen, die zu einer positiven Umgebung beitragen
+zählen:
 
 * Freundliche und inklusive Sprache
 * Respektvoller Umgang mit anderen Sichtweisen und Erfahrungen
@@ -24,15 +25,20 @@ Beispiele für Verhaltensweisen, die zu einer freundlichen Umgebung betragen:
 
 Beispiele für inakzeptables Verhalten:
 
-* Verwenden sexualisierter Sprache oder Symbolik sowie unerwünschte sexuelle Annäherung oder Avancen
+* Verwendung sexualisierter Sprache oder Symbolik und unerwünschte sexuelle Annäherung oder
+Vorschüsse
 * Veräppeln, Anbringen beleidigender/abfälliger Kommentare sowie persönliche oder politische Angriffe
 * Öffentliche oder private Belästigung
-* Veröffentlichung von privaten Informationen anderer Personen (z. B. physische oder elektronische Adresse) ohne deren ausdrückliche Zustimmung
-* Andere Verhaltensweisen, die in einer professionellen Umgebung als unangemessen betrachtet werden können
+* Veröffentlichen von privaten Informationen anderer Personen, z. B. physische oder elektronische
+Adresse, ohne ausdrückliche Genehmigung
+* Andere Verhaltensweisen, die in einem Fall vernünftigerweise als unangemessen betrachtet werden könnten
+professioneller Rahmen
 
 ## Zuständigkeiten
 
-Projektverantwortliche sind dafür verantwortlich, die Standards für akzeptables Verhalten zu verdeutlichen. Es wird erwartet, dass sie als Reaktion auf alle Vorfälle von unangemessenem Verhalten geeignete und faire Korrekturmaßnahmen ergreifen.
+Die Projektverantwortlichen sind dafür verantwortlich, die Standards der akzeptablen Umgebung zu verdeutlichen.
+von dem Unternehmen erwartet wird, dass es in folgenden Bereichen angemessene und faire Korrekturmaßnahmen ergreift
+Reaktion auf alle Vorfälle inakzeptablen Verhaltens.
 
 Projektverantwortliche haben das Recht und die Verantwortung, zu entfernen, zu bearbeiten oder
 Kommentare, Commits, Code, Wiki-Bearbeitungen, Probleme und andere Beiträge ablehnen
@@ -40,21 +46,26 @@ die nicht an diesen Verhaltenskodex angepasst sind. Sie haben auch das Recht, vo
 dauerhaft alle Mitwirkenden an anderen Verhaltensweisen, die sie als unangemessen erachten,
 Bedrohlich, beleidigend oder schädlich.
 
-## Umfang
+## Anwendungsbereich
 
-Dieser Verhaltenskodex findet innerhalb von Projektbereichen und in öffentlichen Bereichen Anwendung, wenn Einzelpersonen das Projekt oder die Community repräsentieren. Beispiele für
+Dieser Verhaltenskodex findet sowohl in Projektbereichen als auch in öffentlichen Bereichen Anwendung
+Wenn ein Kontakt das Projekt oder seine Community repräsentiert. Beispiele für
 Darstellen eines Projekts oder einer Community Include mithilfe einer offiziellen Projekt-E-Mail
 Anschrift, Posten über ein offizielles Social-Media-Konto oder Benennung
 Vertreter bei einer Online- oder Offline-Veranstaltung. Projektverantwortliche können die Darstellung eines Projekts näher definieren und erläutern.
 
 ## Durchsetzung
 
-Beleidigendes, belästigendes oder anderweitig unakzeptables Verhalten kann an das Projektteam unter Grp-opensourceoffice@adobe.com gemeldet werden. Alle
+Beleidigendes, belästigendes oder anderweitig inakzeptables Verhalten kann sein
+Meldung durch Kontaktaufnahme mit dem Projektteam unter Grp-opensourceoffice@adobe.com. Alle
 Beschwerden werden geprüft und untersucht und führen dann zu einer Reaktion, die
-für notwendig und den Umständen angemessen erachtet wird. Das Projektteam ist verpflichtet, die Identität der Person, die ein Vorkommnis meldet, vertraulich zu behandeln.
+für notwendig und den Umständen angemessen erachtet wird. Das Projektteam ist
+verpflichtet, die Vertraulichkeit des Melders eines Vorfalls zu wahren.
 Weitere Details zu spezifischen Durchsetzungsrichtlinien können separat veröffentlicht werden.
 
-Gegen Projektverantwortliche, die den Verhaltenskodex nicht nach Treu und Glauben befolgen oder durchsetzen, können vorübergehende oder dauerhafte Sanktionen verhängt werden, die von anderen Mitgliedern der Projektleitung festgelegt werden.
+Projektverantwortliche, die den Verhaltenskodex nicht ordnungsgemäß befolgen oder durchsetzen
+Glaube kann mit vorübergehenden oder dauerhaften Auswirkungen konfrontiert sein, wie durch andere
+Mitglieder der Projektleitung.
 
 ## Attribution
 

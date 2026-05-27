@@ -3,7 +3,7 @@ title: Inhaltserstellung - E-Mail-Vorlage auswählen
 description: Wiederverwendeter Abschnitt zur Auswahl einer E-Mail-Vorlage für die Inhaltserstellung
 source-git-commit: 985b0ac83f21e5ec0bf8d49d3d94deb5035789be
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,6 @@ Durch diese Aktion wird der Inhalt in den visuellen Content Designer kopiert, wo
 
 Adobe Journey Optimizer B2B edition bietet eine Auswahl an _vordefinierten E-Mail-Vorlagen_ die zum Erstellen von E-Mails und E-Mail-Vorlagen verwendet werden können.
 
-![Wählen Sie eine Vorlage aus, die von Adobe bereitgestellt wird](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
+![Wählen Sie eine von Adobe bereitgestellte Vorlage aus](../assets/content-design-shared/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
