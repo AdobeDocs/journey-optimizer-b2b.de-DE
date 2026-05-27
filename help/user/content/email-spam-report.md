@@ -19,16 +19,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:30:57.478Z
 TQID: https://experienceleague.adobe.com/SX8ewAjGolTNim8LeVKhLXne6EntrSMs8aMETVahYaQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 378
 ht-degree: 2%
 
 ---
 
 # Spam-Bericht überprüfen
 
-Viele E-Mail-Posteingangsanbieter und die meisten Unternehmenssysteme verwenden einen Spam-Filterprozess. Das Senden von E-Mails, die diese Filter Trigger enthalten, kann die Zustellbarkeit erheblich beeinträchtigen. In Journey Optimizer B2B edition können Sie die Spam-Bewertung von E-Mail-Inhalten überprüfen, indem Sie einen Spam-Bericht erstellen. Dieser Bericht verwendet [[!DNL SpamAssassin]](https://spamassassin.apache.org/) zum Testen der E-Mail und hilft Ihnen dabei festzustellen, ob eine Nachricht von Anti-Spam-Tools als Spam eingestuft werden könnte. Anhand der im Bericht enthaltenen Informationen können Sie Maßnahmen ergreifen, die die E-Mail-Inhaltsbewertung und die Zustellbarkeit verbessern.
+Viele E-Mail-Posteingangsanbieter und die meisten Unternehmenssysteme verwenden einen Spam-Filterprozess. Das Senden von E-Mails, die diese Filter Trigger enthalten, kann die Zustellbarkeit erheblich beeinträchtigen. In Journey Optimizer B2B edition können Sie die Spam-Bewertung von E-Mail-Inhalten überprüfen, indem Sie einen Spam-Bericht erstellen. Dieser Bericht verwendet [[!DNL SpamAssassin]](https://spamassassin.apache.org/) zum Testen der E-Mail und hilft Ihnen dabei festzustellen, ob eine Nachricht von Anti-Spam-Tools als Spam eingestuft werden könnte. Anhand der im Bericht enthaltenen Informationen können Sie Maßnahmen ergreifen, die die E-Mail-Inhaltsbewertung und die Zustellbarkeit verbessern. Nachdem Sie den Inhalt angepasst haben, verfolgen Sie die Bounce-Rate und den Versand im [E-Mail-Leistungsbericht](../dashboards/email-performance-dashboard.md).
 
 Wenn Sie Ihre E-Mail-Einstellungen überprüfen oder den Inhalt bearbeiten, öffnen Sie die Seite _[!UICONTROL Simulieren]_ und generieren Sie einen _Spam-Bericht_, um die Bewertung und markierte Elemente zu überprüfen, die Trigger bei der Anti-Spam-Filterung sein können.
 

@@ -17,16 +17,16 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
 workflow-type: tm+mt
-source-wordcount: 1387
+source-wordcount: 1403
 ht-degree: 0%
 
 ---
 
 # Hinzufügen einer E-Mail zu Ihrem Journey
 
-Verwenden Sie Adobe Journey Optimizer B2B edition, um E-Mail-Nachrichten über Account Journey an Ihre Kunden zu senden. Sie können im E-Mail-Design-Bereich Nachrichten erstellen, personalisieren und in der Vorschau anzeigen. Alternativ können Sie auch eine E-Mail senden, die bereits in der verbundenen Marketo Engage-Instanz definiert ist.
+Verwenden Sie Adobe Journey Optimizer B2B edition, um E-Mail-Nachrichten über Account Journey an Ihre Kunden zu senden. Sie können im E-Mail-Design-Bereich Nachrichten erstellen, personalisieren und in der Vorschau anzeigen. Alternativ können Sie auch eine E-Mail senden, die bereits in der verbundenen Marketo Engage-Instanz definiert ist. Sobald E-Mails in Journey verfügbar sind, überwachen Sie den Versand, die Zustellung und die Interaktion im [E-Mail-Leistungsbericht](../dashboards/email-performance-dashboard.md).
 
 >[!NOTE]
 >

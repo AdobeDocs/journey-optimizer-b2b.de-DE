@@ -19,16 +19,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a1947a16cde3ba625027b794cd370a0143238e36
+source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: 449
 ht-degree: 2%
 
 ---
 
 # Dashboard für Journey-Übersicht
 
-Das Übersichts-Dashboard für [Konto- und Personen-Journey](../journeys/journeys-overview.md) bietet einen umfassenden Überblick über Ihre aktiven Journey. Kreis- und Balkendiagramme kategorisieren und quantifizieren Abschlüsse und Interaktionsaktivitäten, damit Sie die Effektivität von E-Mail- und SMS-Kanälen anhand wichtiger Versand- und Interaktionsmetriken bewerten können.
+Das Übersichts-Dashboard für [Konto- oder Personen-Journey](../journeys/journeys-overview.md) bietet einen umfassenden Überblick über Ihre aktiven Journey. Kreis- und Balkendiagramme kategorisieren und quantifizieren Abschlüsse und Interaktionsaktivitäten, damit Sie die Effektivität von E-Mail- und SMS-Kanälen anhand wichtiger Versand- und Interaktionsmetriken bewerten können. Eine Journey-übergreifende Ansicht der E-Mail-spezifischen Versand- und Interaktionsdaten finden Sie im [E-Mail-Leistungsbericht](email-performance-dashboard.md).
 
 Diese Übersicht ist für veröffentlichte Journey verfügbar, und es dauert etwa vier Stunden, bis die Daten die Diagramme und Tabellen befüllen.
 
