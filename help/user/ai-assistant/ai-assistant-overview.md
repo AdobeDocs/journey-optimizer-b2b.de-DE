@@ -57,7 +57,7 @@ Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Dokumentati
 | Produktkenntnisse | Beispiele |
 | --- | --- |
 | Punktuelles Lernen | <li>Was ist eine Einkaufsgruppe? <li> Beispiel für eine Vorlage für Einkaufsgruppen-Rollen anzeigen? |
-| Erkennung öffnen | <li>Was sind die Schritte zum Erstellen von Einkaufsgruppen? <li>Wie verwende ich benutzerdefinierte Felder in einer Vorlage für Einkaufsgruppen-Rollen? |
+| Offene Erkennung | <li>Was sind die Schritte zum Erstellen von Einkaufsgruppen? <li>Wie verwende ich benutzerdefinierte Felder in einer Vorlage für Einkaufsgruppen-Rollen? |
 | Fehlerbehebung | <li>Warum wurden keine Gruppen für meinen Journey erstellt? <li>Warum kann ich in der Journey keine Erlebnisereignisse finden, die angehört werden sollen? |
 
 ### Betriebliche Erkenntnisse
