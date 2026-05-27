@@ -4,11 +4,17 @@ description: Zeigen Sie die Details der Einkaufsgruppe mit KI-Einblicken an, ver
 feature: Buying Groups, Intelligent Insights
 role: User
 exl-id: f14301dc-d605-4ed2-8867-6a49675019de
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
 source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
@@ -42,7 +48,7 @@ Der Abschnitt Zusammenfassung der Einkaufsgruppe enthält die folgenden Informat
 * Interaktionsbewertung
 * Vollständigkeitsbewertung
 * Aktuelle Einkaufsgruppenphase
-* Rollenvorlage (auf den Namen klicken, um die [Rollenvorlage) ](buying-groups-role-templates.md#access-and-browse-role-templates).
+* Rollenvorlage (auf den Namen klicken, um die [Rollenvorlage) &#x200B;](buying-groups-role-templates.md#access-and-browse-role-templates).
 * Datum der letzten Änderung/Aktualisierung
 * Generative KI-Zusammenfassung der Einkaufsgruppe
 
