@@ -4,11 +4,16 @@ description: Konfigurieren von Ereignisknoten für Konto- und Personen-Trigger -
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
 source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
@@ -63,7 +68,7 @@ Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis über
 
 >[!TIP]
 >
->Um Personen auf der Grundlage von Erlebnisereignissen, die _vor dem_ auf die Journey aufgetreten sind (z. B. ein vorheriger E-Mail-Klick oder eine Web-Interaktion), weiterzuleiten, verwenden [!UICONTROL  den ] „Ereignisverlauf im Knoten [Pfade nach Personen aufteilen](./split-merge-paths-nodes.md#experience-event-history-filtering).
+>Um Personen auf der Grundlage von Erlebnisereignissen, die _vor dem_ auf die Journey aufgetreten sind (z. B. ein vorheriger E-Mail-Klick oder eine Web-Interaktion), weiterzuleiten, verwenden [!UICONTROL &#x200B; den &#x200B;] „Ereignisverlauf im Knoten [Pfade nach Personen aufteilen](./split-merge-paths-nodes.md#experience-event-history-filtering).
 
 ### Ereignisse und Einschränkungen
 
@@ -194,7 +199,7 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
 1. Fügen Sie in der Journey-Zuordnung den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
 
-1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [ Sie ihn ](./journeys-overview.md).
+1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [&#x200B; Sie ihn &#x200B;](./journeys-overview.md).
 
    Wenn die Journey live (veröffentlicht) ist und den Knoten _Auf ein Ereignis warten_ erreicht, beginnt sie mit dem Lauschen auf AEP Experience Events.
 
