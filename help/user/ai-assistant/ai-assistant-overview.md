@@ -5,12 +5,18 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
 workflow-type: tm+mt
@@ -25,7 +31,7 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 >[!IMPORTANT]
 >
->Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie zusätzliche KI-Assistenten-Funktionen verwenden können, wenn sie in einer Beta-Funktion eingeführt werden.
+>Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie zusätzliche KI-Assistenten-Funktionen verwenden können, wenn sie in einer Beta-Funktion eingeführt werden.
 
 +++Benutzeroberfläche der Benutzervereinbarung anzeigen
 
@@ -37,7 +43,7 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 ## KI-Assistentenfunktionen in Journey Optimizer B2B edition
 
-Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _**_Wissensdiagramm_**_ bezeichnet - ein umfassendes Web aus Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
+Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _&#x200B;**_Wissensdiagramm_**&#x200B;_ bezeichnet - ein umfassendes Web aus Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
 
 * Dokumentation zu Experience League.
 * Operative Artefakte, z. B. Schemata, Felder, Zielgruppen und Journey.
@@ -99,7 +105,7 @@ Der KI-Assistent in Journey Optimizer B2B edition basiert auf Datenschutz, Siche
 
 * Sie müssen explizit die Berechtigung haben, mit dem KI-Assistenten zu interagieren.
 
-   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Benutzer verschiedene Fragenkategorien stellen können (Produktkenntnisse mit dem KI-Assistenten oder Fragen zu betrieblichen Einblicken).
 
