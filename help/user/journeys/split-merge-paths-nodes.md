@@ -306,4 +306,4 @@ Fügen Sie einen _Mergepfade_-Knoten hinzu, um verschiedene _Aufspaltungspfade n
 
 ## Übersichtsvideo {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443265/?captions=ger&learn=on)
