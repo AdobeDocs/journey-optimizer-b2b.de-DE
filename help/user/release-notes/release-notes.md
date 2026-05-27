@@ -3,21 +3,14 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ae856607a1ded85eee6bef6d3fee7e46456e23b3
+source-git-commit: e1d68e75c6bcbab943f3ddf8326f4f9ffb4922c4
 workflow-type: tm+mt
 source-wordcount: 5116
 ht-degree: 66%
@@ -45,8 +38,8 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | Mitglied des Kontolistenfilters | Verwenden Sie die Mitgliedschaft von Account-Listen als Orchestrierungspunkt in Account-Journey. Marketing-Experten können Account-Blockierungslisten, Prioritätenlisten oder jede andere Untergruppe ihrer Zielgruppe erstellen und Account-spezifische Erlebnisse in Journey basierend auf ihrer Mitgliedschaft bereitstellen. |
 | Funktion | Filtern des Erlebnisereignisverlaufs | Diese Funktion ermöglicht es der B2B-Journey-Orchestrierung, historische Interaktionen zu verwenden, um verhaltensbasierte Entscheidungen für Zielgruppenmitglieder zu fördern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Funktion | Nächstbeste Pfad-Journey-Knoten | Sie können die Split Path-Entscheidungsfindung für Personen-Journey optimieren und verfeinern, wie Zielgruppen über Pfade hinweg vor der Journey-Aktivierung oder zur Laufzeit weitergeleitet werden. [Weitere Informationen](../journeys/next-best-path-node.md) |
+| Funktion | E-Mail-Leistungs-Dashboard | Das E-Mail-Leistungs-Dashboard bietet Marketing-Experten eine einheitliche Ansicht der E-Mail-Aktivität in allen Journey in Adobe Journey Optimizer B2B edition. [Weitere Informationen](../dashboards/email-performance-dashboard.md) |
 | Verbesserung | Audience Agent B2B-Kenntnisse | Audience Agent B2B-Kenntnisse werden aktualisiert, einschließlich der Erstellung von KI-gestützten Einkaufsgruppen-Vorlagen. Verwenden Sie die Erstanbieter-Intent- und Persona-Zuordnung, um Einkaufsgruppenvorlagen zu generieren, von KI empfohlene Rollen-zu-Persona-Zuordnungen zu überprüfen und Vorlagen mit natürlicher Sprache zu verfeinern, bevor Sie sie veröffentlichen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Verbesserung | E-Mail-Interaktionsbericht | Der Bericht zur Leistung von E-Mail-Interaktionen bietet Marketing-Experten eine einheitliche Übersicht über E-Mail-Aktivitäten in allen Journey in Adobe Journey Optimizer B2B edition. |
 | Verbesserung | Übersichts-Dashboard für Journey - Personen-Journey | Personen-Journey (Beta) enthalten jetzt eine Registerkarte _[!UICONTROL Übersicht]_ mit denselben Analytics-Daten wie die Journey-Konten, einschließlich der Verteilung der Journey-Abschlussrate, der Journey nach Interaktionstyp sowie Drill-Through- und Exportaktionen. <a href="../dashboards/journeys-dashboard.md">Weitere Informationen</a> |
 | Verbesserung | Unterstützung für relationale AEP-Datensätze | Neue relationale Datensätze werden jetzt zusammen mit vorhandenen Datensätzen in Ihrer AEP-Sandbox angezeigt. |
 
@@ -159,7 +152,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
