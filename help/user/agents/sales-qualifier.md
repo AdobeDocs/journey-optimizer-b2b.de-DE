@@ -5,17 +5,10 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
 autotag-review: 2026-03-30T15:10:20.350Z
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
 source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
 workflow-type: tm+mt
@@ -30,7 +23,7 @@ Sales Qualifier ist eine KI-gesteuerte Anwendung, die Sie mit Adobe Journey Opti
 
 BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intelligence direkt in CRMs oder Outlook aufzurufen. Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Programm-Startseite
 
@@ -287,10 +280,10 @@ Auf der Seite _[!UICONTROL Ausgehender Workflow]_ werden auf der Registerkarte *
 ### Best Practices für ausgehende Workflows
 
 * **Investieren Sie in das Ziel.** Nachgelagertes Targeting, Kadenz und E-Mails werden alle zum Ziel zurückverfolgt. Konkrete, ergebnisorientierte Ziele übertreffen vage Ziele.
-* **Touchpoint-Eingabeaufforderungen vor der Generierung pro Interessent abschließen.**&#x200B;** Nach der Massengenerierung werden Änderungen in der Regel einzeln für Interessenten vorgenommen.
+* **Touchpoint-Eingabeaufforderungen vor der Generierung pro Interessent abschließen.**** Nach der Massengenerierung werden Änderungen in der Regel einzeln für Interessenten vorgenommen.
 * **Verwenden von Argumentation als Qualitätsprüfung.** Wenn das falsche Signal hervorgehoben wird - oder ein offensichtliches Signal fehlt - bearbeiten Sie die E-Mail oder besuchen Sie die Touchpoint-Eingabeaufforderung erneut und regenerieren Sie die Kadenz.
-* **Passen Sie das Bearbeitungswerkzeug an die Änderung an.**&#x200B;**&#x200B; Direkte Bearbeitungen für Text und Ton; &#x200B;** [!UICONTROL Mit KI generieren]** für die Neustrukturierung oder Umgestaltung.
-* **Genehmigen Sie nur das, was Sie geprüft haben.**&#x200B;** Erweitern Sie Touchpoints, lesen Sie den Inhalt und verfeinern Sie ihn vor der Registrierung nach Bedarf.
+* **Passen Sie das Bearbeitungswerkzeug an die Änderung an.**** Direkte Bearbeitungen für Text und Ton; **[!UICONTROL Mit KI generieren]** für die Neustrukturierung oder Umgestaltung.
+* **Genehmigen Sie nur das, was Sie geprüft haben.**** Erweitern Sie Touchpoints, lesen Sie den Inhalt und verfeinern Sie ihn vor der Registrierung nach Bedarf.
 
 ## E-Mail-Postausgang
 
