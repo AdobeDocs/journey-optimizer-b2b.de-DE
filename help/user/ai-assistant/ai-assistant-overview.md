@@ -5,22 +5,17 @@ feature: AI Assistant
 role: User, Admin
 level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2:
-  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-06-05T16:05:30.499Z'
+TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1314
+source-wordcount: 1300
 ht-degree: 9%
 
 ---
@@ -31,7 +26,7 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 >[!IMPORTANT]
 >
->Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie zusätzliche KI-Assistenten-Funktionen verwenden können, wenn sie in einer Beta-Funktion eingeführt werden.
+>Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie zusätzliche KI-Assistenten-Funktionen verwenden können, wenn sie in einer Beta-Funktion eingeführt werden.
 
 +++Benutzeroberfläche der Benutzervereinbarung anzeigen
 
@@ -43,7 +38,7 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 ## KI-Assistentenfunktionen in Journey Optimizer B2B edition
 
-Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _&#x200B;**_Wissensdiagramm_**&#x200B;_ bezeichnet - ein umfassendes Web aus Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
+Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _**_Wissensdiagramm“ bezeichnet_**_ eine umfassende Sammlung von Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
 
 * Dokumentation zu Experience League.
 * Operative Artefakte, z. B. Schemata, Felder, Zielgruppen und Journey.
@@ -77,7 +72,7 @@ Sie können Fragen zum KI-Assistenten zu Ihren betrieblichen Erkenntnissen in de
 | Datenflüsse | <li>Anzahl der Datenflüsse <li>Datenflussstatus <li>Datenfluss - Datensatzbeziehung <li>Datenfluss-Quelle-Beziehung | <li>Erstellung/Änderung <li>Datenfluss-Batch-Beziehungen <li>Anzahl der aufgenommenen Profile |
 | Datensätze | <li>Anzahl der Datensätze <li>Profilaktivierungsstatus <li>Erstellungs-/Änderungsdatum <li>Datensatz - Schemabeziehung <li>Datensatz-Zielgruppen-Beziehung <li>Datensatz - Attributbeziehung <li>Datensatz - Datenflussbeziehung <li>Namenssuche <li>Name- und ID-Suche | <li>Verfolgung <li>Erstellt von <li>Datensatz - Batch-Beziehung <li>Erstellen/Ändern von Datensätzen <li>Datensatzgröße <li>Anzahl der Profile <li>Anzahl Zeilen <li>Wertesuche |
 | Ziele | <li>Konfigurierte Zielzählungen <li>Ziel - Zielgruppenbeziehung <li>Zielattributbeziehung | <li>Konto-Setup <li>Informationen zu Kontoanmeldeinformationen <li>Eindeutige Profile aktiviert |
-| Journey (Account Journey) | <li>Anzahl <li>Name- und ID-Suche <li>Journey-Status <li>Erstellungs-/Änderungsdatum | <li>Attributes - Journey Relations Audit <li>Erstellung/Änderung <li>Erstellt von |
+| Journey (Account Journey) | <li>Count <li>Name- und ID-Suche <li>Journey-Status <li>Erstellungs-/Änderungsdatum | <li>Attributes - Journey Relations Audit <li>Erstellung/Änderung <li>Erstellt von |
 | Schemata | <li>Anzahl der Schemata <li>Erstellungs-/Änderungsdatum <li>Schema - Attributbeziehung <li>Schema - Datensatzbeziehung <li>Schema - Zielgruppenbeziehung <li>Profilaktivierungsstatus <li>Namenssuche <li>Name- und ID-Suche | <li>Verfolgung <li>Erstellung/Änderung <li>Erstellt von <li>Feldergruppen <li>Identitäten <li>Identity-Namespaces <li>Labels <li>Anzahl der Profile |
 | Quellen | <li>Anzahl der Konten <li>Kontostatus <li>Aktive/inaktive Datenflüsse für jedes Konto <li>Source-Connector - Datenflussbeziehung <li>Source-Konto - Datenflussbeziehung | <li>Informationen zu Kontoanmeldeinformationen <li>Konto-SetupDatenaufnahme -Metriken <li>Anzahl der ProfileQuelle - Batch-Beziehungen |
 | Einkaufsgruppenvorlage | <li>Zählungen <li>Status <li>Rollen <li>Name- und ID-Suche | <li>Rollenregeln |
@@ -97,19 +92,19 @@ Derzeit umfasst der KI-Assistent Folgendes:
 
 ### Datenschutz, Sicherheit und Governance
 
-Der KI-Assistent in Journey Optimizer B2B edition basiert auf Datenschutz, Sicherheit und Governance. Lesen Sie die folgenden Informationen, um mehr über die auf das Kundenvertrauen fokussierten Funktionen zu erfahren, die Sie vom KI-Assistenten erwarten können:
+Der KI-Assistent in Journey Optimizer B2B edition legt den Schwerpunkt auf Datenschutz, Sicherheit und Governance. Lesen Sie die folgenden Informationen, um mehr über die auf das Kundenvertrauen fokussierten Funktionen zu erfahren, die Sie vom KI-Assistenten erwarten können:
 
-* KI Assistant verwendet heute keine personenbezogenen Daten, auch nicht zu Trainingszwecken.
+* KI Assistant verwendet heutzutage keine personenbezogenen Daten, auch nicht für Trainingszwecke.
 
-* KI-Assistent kennt keine Kundendaten wie Personen, Konten, Chancen und Einkaufsgruppen.
+* Der KI-Assistent kennt keine Kundendaten wie Personen, Konten, Chancen und Einkaufsgruppen.
 
 * Sie müssen explizit die Berechtigung haben, mit dem KI-Assistenten zu interagieren.
 
-   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Benutzer verschiedene Fragenkategorien stellen können (Produktkenntnisse mit dem KI-Assistenten oder Fragen zu betrieblichen Einblicken).
 
-* Sie können ein Protokoll Ihrer vorherigen Interaktionen mit dem KI-Assistenten mit einer 30-Tage-Aufbewahrungsrichtlinie anzeigen.
+* Sie können ein 30-Tage-Protokoll Ihrer vorherigen Interaktionen mit dem KI-Assistenten anzeigen.
 
 * Der KI-Assistent basiert auf Sandbox-spezifischen Daten und der öffentlichen Adobe-Dokumentation, wenn auf Benutzeraufforderungen reagiert wird. Daten werden nicht über Sandboxes hinweg freigegeben.
 
@@ -129,7 +124,7 @@ Der KI-Assistent kann Fragen zum Adobe-Produktwissen beantworten und Fragen zu o
 
 **Kann der KI-Assistent Informationen zu Kundendaten bereitstellen?**
 
-Nein. Der KI-Assistent hat keinen Zugriff auf Kundendaten und wird daher nicht vom KI-Assistenten angesehen oder verwendet.
+Nein. Der KI-Assistent hat keinen Zugriff auf Kundendaten und wird daher nicht angesehen oder verwendet.
 
 **Werden meine personenbezogenen Daten in den Schulungsdaten des KI-Assistenten verwendet?**
 

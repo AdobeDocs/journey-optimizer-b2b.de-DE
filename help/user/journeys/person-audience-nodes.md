@@ -5,23 +5,16 @@ feature: Audiences
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ff2b9b37-92e0-45fc-b853-379d44c08c89id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 678
 ht-degree: 1%
 
 ---
@@ -32,7 +25,7 @@ Der _Personen-Zielgruppe_-Knoten gibt an, welche Personenprofile in die Journey 
 
 Verwenden Sie eine der folgenden Eingabeoptionen für den Knoten „Zielgruppen-Journey für Personen“:
 
-* **Profilzielgruppe** - Verwenden Sie in einer CDP definierte Segmentzielgruppen. Alle Profile, die sich für die Zielgruppe qualifizieren, werden der Journey als Mitglieder hinzugefügt. Neu für das Segment qualifizierte Profile werden während der täglichen (Profil[Aufnahme) -Aufgaben &#x200B;](#profile-ingestion) Journey hinzugefügt. Wenn sich ein Profil nicht mehr für das Segment qualifiziert, wird es **_nicht_** von der Journey entfernt.
+* **Profilzielgruppe** - Verwenden Sie in einer CDP definierte Segmentzielgruppen. Alle Profile, die sich für die Zielgruppe qualifizieren, werden der Journey als Mitglieder hinzugefügt. Neu für das Segment qualifizierte Profile werden während der täglichen (Profil[Aufnahme) -Aufgaben ](#profile-ingestion) Journey hinzugefügt. Wenn sich ein Profil nicht mehr für das Segment qualifiziert, wird es **_nicht_** von der Journey entfernt.
 
 * **Ereigniszielgruppe** - Verwenden Sie qualifizierende Ereignisse, um die Zielgruppe zu definieren. Diese Ereignisse werden in der Knotenkonfiguration definiert und müssen [XDM-Ereignisse verwenden, die in den Administrationseinstellungen konfiguriert sind](../admin/configure-aep-events.md). Bis zu 10 Ereignisse werden für die ereignisbasierte Zielgruppenzugehörigkeit unterstützt. Ein Profil qualifiziert sich sofort für das Journey, nachdem das erste passende Ereignis eintritt, das sein Profil eingeht.
 
@@ -42,11 +35,11 @@ Verwenden Sie eine der folgenden Eingabeoptionen für den Knoten „Zielgruppen-
 
 ## Profilaufnahme
 
-In Journey Optimizer B2B edition verwaltet eine nächtliche Zielgruppen-Erfassungsaufgabe Profile mit Experience Platform. Während ereignisbasierte Personenprofile Journey-Profile qualifizieren können, die nicht Teil einer Profil- oder Account-Zielgruppe sind, die von Journey Optimizer B2B edition aufgenommen/verwendet wird, führt dies zu aufgenommenen Profilen, die veraltet bleiben, es sei denn, sie sind Teil einer Zielgruppe, die von einer Person auf Journey, Account-Journey oder einer Einkaufsgruppe verwendet wird. Wenn ein Profil aufgenommen und später zu einer Zielgruppe hinzugefügt wird, wird eine Profilzuordnung durchgeführt und das Profil bleibt mit Experience Platform synchronisiert. Verbesserungen an dieser Profildaten-Synchronisierung sind für zukünftige Versionen geplant.
+In Journey Optimizer B2B edition synchronisiert eine Aufgabe zur nächtlichen Zielgruppenaufnahme Profile mit Experience Platform. Ereignisbasierte Personenprofile können Journey-Profile qualifizieren, die nicht zu einer von Journey Optimizer B2B edition verwendeten Zielgruppe gehören. Diese sind jedoch veraltet, es sei denn, sie treten einer Zielgruppe bei, die von einer Person auf Journey, Account-Journey oder einer Einkaufsgruppe verwendet wird. Wenn ein Profil aufgenommen und später zu einer Zielgruppe hinzugefügt wird, wird eine Profilzuordnung durchgeführt und das Profil bleibt mit Experience Platform synchronisiert. Verbesserungen an dieser Profildaten-Synchronisierung sind für zukünftige Versionen geplant.
 
-Ein neu erstelltes Profil, das von einer ereignisbasierten Personen-Journey aufgenommen wurde, verfügt zum Zeitpunkt der Aufnahme möglicherweise nicht über die aktualisierten Profilinformationen. Wenn beispielsweise ein Profil über ein Formularausfüllereignis erstellt wird und eine Person Journey diese Daten vom qualifizierten Formularausfüllereignis erfasst, werden die im Formular übermittelten Daten möglicherweise noch nicht mit dem Profil synchronisiert, wenn die Journey sie aufgenommen hat. Das Ergebnis könnten unvollständige Daten für die Personalisierung sein (z. B. in E-Mail-Inhalten). Verbesserungen an dieser Profilereignisdaten-Synchronisierung sind für zukünftige Versionen geplant.
+Bei einem neu erstellten Profil, das von einer ereignisbasierten Personen-Journey aufgenommen wurde, fehlen zum Zeitpunkt der Aufnahme möglicherweise die aktualisierten Profilinformationen. Wenn beispielsweise ein Profil durch ein Formularausfüllereignis erstellt wird, werden die übermittelten Daten möglicherweise nicht mit dem Profil synchronisiert, wenn die Journey sie aufnimmt. Das Ergebnis könnten unvollständige Daten für die Personalisierung sein (z. B. in E-Mail-Inhalten). Verbesserungen an dieser Profilereignisdaten-Synchronisierung sind für zukünftige Versionen geplant.
 
-Ereignisbasierte Personenprofile, die noch anonym sind/keine E-Mail-Adressen aufweisen und nur ECIDs enthalten, können durch Journey-Ereignisse qualifiziert werden. Dies geschieht am häufigsten, wenn Sie eine Qualifizierungslogik für Web-Seitenaktivitäten haben. Eine zu breite ereignisbasierte Zielgruppenlogik könnte dazu führen, dass die Instanz die 40-Millionen-Profilbegrenzung erreicht, wenn zu viele Profile qualifiziert sind. Beschränken Sie den möglichen Umfang Ihrer Audience, um dieses Szenario zu verhindern.
+Ereignisbasierte Personenprofile, die noch anonym sind/keine E-Mail-Adressen aufweisen und nur ECIDs enthalten, können durch Journey von Personen qualifiziert werden. Dies tritt am häufigsten auf, wenn Sie über eine Qualifizierungslogik für Web-Seitenaktivitäten verfügen. Eine zu breite ereignisbasierte Zielgruppenlogik könnte dazu führen, dass die Instanz die Profilbegrenzung von 40 Millionen erreicht, wenn zu viele Profile qualifiziert sind. Um dieses Szenario zu verhindern, begrenzen Sie den möglichen Umfang Ihrer Audience.
 
 >[!IMPORTANT]
 >

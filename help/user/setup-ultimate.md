@@ -4,33 +4,21 @@ description: Einrichten von Journey Optimizer B2B edition. Konfigurieren Sie XDM
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 80%
+source-wordcount: 849
+ht-degree: 74%
 
 ---
 
 # Checkliste einrichten
 
-Adobe Journey Optimizer B2B edition basiert auf Adobe Experience Platform. Mit dieser Implementierung befinden sich Journey Optimizer B2B edition und Marketo Engage nicht auf demselben System und in demselben Datenspeicher. Journey Optimizer B2B edition empfängt Daten von Adobe Experience Platform. Sie ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Backend-Funktionen wie E-Mail-Versand angewiesen, um das System bereitzustellen und zu konfigurieren.
+Adobe Journey Optimizer B2B edition basiert auf Adobe Experience Platform. Mit dieser Implementierung befinden sich Journey Optimizer B2B edition und Marketo Engage nicht auf demselben System oder im selben Datenspeicher. Journey Optimizer B2B edition empfängt Daten von Adobe Experience Platform. Sie ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Backend-Funktionen wie E-Mail-Versand angewiesen, um das System bereitzustellen und zu konfigurieren.
 
 <!-- 
 >>[!NOTE]
@@ -38,15 +26,15 @@ Adobe Journey Optimizer B2B edition basiert auf Adobe Experience Platform. Mit d
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-Diese Implementierung ist die Grundlage, auf der Funktionen in Journey Optimizer B2B edition freigeschaltet werden:
+Diese Implementierung ist die Grundlage für Funktionen in Journey Optimizer B2B edition:
 
-* **Vereinheitlichen und skalieren Sie Ihre Daten auf einfache Weise:** Die Plattform unterstützt komplexe Datenmodelle, einschließlich benutzerdefinierter Objekte, Einkaufsgruppen und Kontoereignisse.
+* **Vereinheitlichen und Skalieren Ihrer Daten:** Das System unterstützt komplexe Datenmodelle, einschließlich benutzerdefinierter Objekte, Einkaufsgruppen und Kontoereignisse.
 
-* **Mehrere Adobe Marketo Engage-Instanzen verbinden:** Verwalten und Vereinheitlichen von Daten aus mehreren Marketo Engage-Umgebungen an einem Ort.
+* **Mehrere Adobe Marketo Engage-Instanzen verbinden:** Verwalten und Vereinheitlichen von Daten aus mehreren Marketo Engage-Umgebungen.
 
 * **Schützen Sie Ihre Daten:** Erweiterte Datenschutz- und Sicherheitsfunktionen zum Schutz Ihrer Kundendaten. (_in Kürze verfügbar_)
 
-* **Für die Zukunft entwickelt:** Dieses Setup unterstützt laufende Verbesserungen und Innovationen.
+* **Design für Skalierbarkeit:** Dieses Setup unterstützt laufende Verbesserungen und Innovationen.
 
 Verwenden Sie die folgenden Konfigurationsrichtlinien.
 
@@ -262,7 +250,7 @@ Um E-Mails von [!DNL Journey Optimizer B2B Edition] aus zu senden, konfigurieren
 
 ## &#x200B;4. Konfigurieren zusätzlicher Inhaltskanäle
 
-Um Marketingexperten dabei zu unterstützen, andere Kanäle in ihre Journey aufzunehmen, konfigurieren Sie zusätzliche Kanäle.
+Um Marketing-Teams zu unterstützen, die andere Kanäle in ihren Journey einschließen, konfigurieren Sie zusätzliche Kanäle.
 
 <table>
 <thead>
@@ -297,7 +285,7 @@ Um Marketingexperten dabei zu unterstützen, andere Kanäle in ihre Journey aufz
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Konfigurieren Sie Ihre Business-Website zur Unterstützung der Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview">Weitere Informationen</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Weitere Informationen</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>

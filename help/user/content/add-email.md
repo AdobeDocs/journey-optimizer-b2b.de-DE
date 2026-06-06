@@ -4,22 +4,16 @@ description: 'Hinzufügen von E-Mail-Aktionsknoten zu Account-Journey: Erstellen
 feature: Email Authoring, Account Journeys
 role: User
 exl-id: 21a6ce0f-b59d-4be2-abc3-fda5c6a6334f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -36,7 +30,7 @@ Verwenden Sie Adobe Journey Optimizer B2B edition, um E-Mail-Nachrichten über A
 
 ## Hinzufügen eines E-Mail-Aktionsknotens in einer Journey
 
-Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen &#x200B;](../journeys/action-nodes.md) Folgendes tun:
+Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen ](../journeys/action-nodes.md) Folgendes tun:
 
 1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
 
@@ -96,7 +90,7 @@ Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Kno
 
    * Wählen Sie **[!UICONTROL E-Mail aus Adobe Marketo Engage auswählen]**, um eine der vorab erstellten E-Mails in Marketo Engage zu verwenden und als Teil der Journey zu senden.
 
-     Wenn in der verbundenen Market Engage-Instanz mehr als ein Workspace verfügbar ist, wählen Sie den Workspace aus. Wählen Sie dann die genehmigte E-Mail aus, die Sie für den Journey-Knoten senden möchten.
+     Wenn in der verbundenen Marketo Engage-Instanz mehr als ein Workspace verfügbar ist, wählen Sie den Workspace aus. Wählen Sie dann die genehmigte E-Mail aus, die Sie für den Journey-Knoten senden möchten.
 
      ![Marketo Engage-E-Mail auswählen](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -115,9 +109,9 @@ Wenn die Registerkarte **[!UICONTROL Details]** im Bedienfeld _Zusammenfassung_ 
 | [!UICONTROL Antwortadresse] | Die in der E-Mail-Kopfzeile verwendete Absenderadresse. Der Standardwert wird aus den [E-Mail-Kanal-Versandeinstellungen](../admin/configure-channels-emails.md#delivery-settings) ([!UICONTROL From Label]) gefüllt. Geben Sie die E-Mail-Adresse ein, die Sie ausfüllen möchten, wenn der Empfänger die Antwortfunktion verwendet (sie kann anders oder mit der Absenderadresse identisch sein). Klicken Sie auf das _Personalisieren_-Symbol ( ![Personalisieren-Symbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token in diesem Feld zu verwenden. |
 | [!UICONTROL Betreffzeile] | Der Text, der im Feld Betreff für die E-Mail angezeigt wird. Der Standardwert wird aus dem Text gefüllt, den Sie im Dialogfeld _[!UICONTROL Neue E-Mail erstellen]_ eingegeben haben. Sie können den Text bei Bedarf ändern. Klicken Sie auf das _Personalisieren_-Symbol ( ![Personalisieren-Symbol](../assets/do-not-localize/icon-personalize.svg) ), um ein Personalisierungs-Token im Feld zu verwenden.<!-- Click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate the subject line based on the current email content.--> |
 | [!UICONTROL Branding-Domain] | Wenn im System mehr als eine [Branding-Domain](../admin/configure-channels-emails.md#branding-domains) definiert ist, wählen Sie die Branding-Domain aus, die für den E-Mail-Versand verwendet werden soll. Verwenden Sie eine bestimmte Branding-Domain, um E-Mails zu senden, die anscheinend von Ihrer Marke und nicht vom Unternehmen als Ganzem stammen. Es baut Vertrauen in die Marke auf, personalisiert das E-Mail-Erlebnis und erhöht die Öffnungs- und Reaktionsraten. |
-| [!UICONTROL Dedizierte IP] | Wenn mehr als eine dedizierte IP-Adresse definiert ist, wählen Sie eine dedizierte IP-Adresse aus, die für den Versand der E-Mail verwendet werden soll. Wenn Sie eine bestimmte dedizierte IP für Ihre Programme verwenden, können Sie die Zustellbarkeit genauer verfolgen und überwachen und schnell auf Änderungen an Ihren Versandmetriken reagieren. Weitere Informationen zum Hinzufügen einer dedizierten IP für die verbundene Marketo Engage-Instanz finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
+| [!UICONTROL Dedizierte IP] | Wenn mehr als eine dedizierte IP-Adresse definiert ist, wählen Sie eine dedizierte IP-Adresse aus, die für den Versand der E-Mail verwendet werden soll. Wenn Sie eine bestimmte dedizierte IP für Ihre Programme verwenden, können Sie die Zustellbarkeit genauer verfolgen und überwachen und schnell auf Änderungen an Ihren Versandmetriken reagieren. Weitere Informationen zum Hinzufügen einer dedizierten IP für die verbundene Marketo Engage-Instanz finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL Operative E-Mail] | Aktivieren Sie das Kontrollkästchen, wenn Sie die E-Mail als betriebsbereit kennzeichnen möchten. Operative E-Mails sind von Opt-out-/Abmeldelisten und von Kommunikationsbeschränkungen ausgeschlossen. Wählen Sie diese Option nur aus, wenn der Empfänger die E-Mail-Nachricht nicht als unerwünschte Werbenachricht (SPAM) betrachten kann. |
-| [!UICONTROL Als Webseite anzeigen] | Aktivieren Sie das Kontrollkästchen, um einen Link zu einer Web-Seite einzufügen, die aus dem Inhalt der E-Mail-Nachricht generiert wird. E-Mail-Nachrichten verfügen über eingeschränktere Funktionen als Web-Seiten. Daher ist sie für JavaScript, erweitertes CSS und Formulare nützlich. Der Text, der zum Generieren des Links verwendet wird, wird in den [Versandeinstellungen des E-Mail-Kanals](../admin/configure-channels-emails.md#delivery-settings) konfiguriert ([!UICONTROL Als Webseite anzeigen, HTML] und [!UICONTROL Als Webseite anzeigen, Text &#x200B;]). |
+| [!UICONTROL Als Webseite anzeigen] | Aktivieren Sie das Kontrollkästchen, um einen Link zu einer Web-Seite einzufügen, die aus dem Inhalt der E-Mail-Nachricht generiert wird. E-Mail-Nachrichten verfügen über eingeschränktere Funktionen als Web-Seiten. Daher ist sie für JavaScript, erweitertes CSS und Formulare nützlich. Der Text, der zum Generieren des Links verwendet wird, wird in den [Versandeinstellungen des E-Mail-Kanals](../admin/configure-channels-emails.md#delivery-settings) konfiguriert ([!UICONTROL Als Webseite anzeigen, HTML] und [!UICONTROL Als Webseite anzeigen, Text ]). |
 | [!UICONTROL Öffnungs-Tracking deaktivieren] | Aktivieren Sie das Kontrollkästchen, wenn Sie die Aktivität zum Öffnen von E-Mails nicht verfolgen möchten. Wenn die Funktion deaktiviert ist, wird die Anzahl der Öffnungen von E-Mails nur dann erhöht, wenn eine eindeutige Person die E-Mail öffnet. Sie können [Linktracking für E-Mail-Inhalte verwalten](./email-authoring.md#content-authoring---link-tracking) wenn Sie den Inhalt des E-Mail-Textkörpers entwerfen. |
 | [!UICONTROL Preheader] | Aktivieren Sie das Kontrollkästchen, um einen Preheader einzuschließen. Ein Preheader ist der kurze Zusammenfassungstext, der in einigen E-Mail-Clients nach der Betreffzeile angezeigt wird. Sie bietet in der Regel eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem einzigen Satz. Geben Sie den Zusammenfassungstext in das Feld <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
 | [!UICONTROL Felder als CC-Adressen] | Wählen Sie, falls verfügbar, bis zu 25 Lead- oder Firmenfelder aus, die in Marketo Engage mithilfe des `Email` eingerichtet werden. |
@@ -138,7 +132,7 @@ Es können zwei Arten von Warnhinweisen erkannt werden:
      >
      >E-Mail-Nachrichten im Marketing-Stil müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist.
 
-   * `Text version of HTML is empty`: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
+   * `Text version of HTML is empty`: Definieren Sie eine Textversion Ihres E-Mail-Textkörpers, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
 
    * `Empty link is present in email body`: Vergewissern Sie sich, dass alle Links in Ihrer E-Mail korrekt sind.
 

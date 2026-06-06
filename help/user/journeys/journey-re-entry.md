@@ -5,20 +5,14 @@ feature: Account Journeys
 role: User
 level: Intermediate
 exl-id: e5153125-6d5b-4835-bd19-c9b7ce67e46a
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: bb44a295784fbdeab2583cf7c759b15c0808d7d5
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 419
 ht-degree: 9%
@@ -27,7 +21,7 @@ ht-degree: 9%
 
 # Journey-Wiedereintritt
 
-_Nur Konto-Journey_
+_**Nur Konto-Journey**_
 
 Wenn Sie die erneute Eingabe für eine Konto-Journey aktivieren, können Sie festlegen, wann und wie oft ein Konto dieselbe Journey erneut eingeben kann. Verwenden Sie die Wiedereinstiegseinstellungen, um Kriterien, Beschränkungen und Wartezeiten festzulegen, damit die Konten sich kontrolliert für die Journey qualifizieren.
 
@@ -47,7 +41,7 @@ Sie können die Wiedereinstiegseinstellungen aktivieren und die Wiedereinstiegse
 
    ![Klicken auf „Mehr“ oben rechts](./assets/account-journey-draft-more-menu.png){width="450"}
 
-1. Schalten Sie im Dialogfeld für den erneuten _von_ Journey die Option **[!UICONTROL Erneuten Eintrag aktivieren]** um.
+1. Schalten Sie im Dialogfeld für den erneuten ]_von_[!UICONTROL  Journey die Option **[!UICONTROL Erneuten Eintrag aktivieren]** um.
 
    Wenn die Funktion aktiviert ist, werden die Optionen für Timing, Verzögerung und Grenzwerte angezeigt.
 

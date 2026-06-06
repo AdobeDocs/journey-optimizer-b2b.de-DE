@@ -4,19 +4,14 @@ description: Verwenden Sie Warteknoten, um den Journey-Fortschritt anzuhalten un
 feature: Account Journeys, Person Journeys
 role: User
 exl-id: fecab788-4e8e-490a-bcca-bc3ab43411d9
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:11:12.994Z
 TQID: https://experienceleague.adobe.com/a-dPU6YNtDv86OD-i35749QY4HCDFtVIVn9F6jm0zEA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -40,10 +35,10 @@ Es gibt zwei Möglichkeiten, die Wartezeit zu definieren:
 
    ![Journey-Knoten hinzufügen - warten](./assets/add-node-wait.png){width="440"}
 
-1. Legen Sie in den Knoteneigenschaften auf der rechten Seite den **[!UICONTROL Typ]** der Wartezeit fest, bevor die Journey zum nächsten Knoten im Pfad fortgesetzt wird.
+1. Um die Wartezeit festzulegen, bevor das Journey zum nächsten Knoten im Pfad fortgesetzt wird, legen Sie in den Knoteneigenschaften auf der rechten Seite den **[!UICONTROL Typ]** fest.
 
    * **[!UICONTROL Dauer]** - Definiert eine bestimmte Anzahl von Tagen, Stunden oder Minuten, die zwischen dem Eintritt und dem Austritt des Warteknotens vergehen sollen.
-   * **[!UICONTROL Datum]** - Geben Sie ein bestimmtes Datum und eine bestimmte Uhrzeit für den Ausgang an.
+   * **[!UICONTROL Date]** - Geben Sie ein Datum und eine Uhrzeit für den Austritt an.
 
    ![Journey-Knoten - Warten](./assets/node-wait.png){width="500"}
 
@@ -51,7 +46,7 @@ Es gibt zwei Möglichkeiten, die Wartezeit zu definieren:
 
 Aktivieren Sie die Option **[!UICONTROL Muss enden am]**, um einen _erweiterten_&quot; zu konfigurieren und sicherzustellen, dass Ihre Nachrichten Personen und Kontomitglieder zum optimalen Zeitpunkt erreichen. Mit dieser Konfiguration können Sie genau steuern, wann eine Person oder ein Konto einen Warteschritt beendet und zum nächsten Knoten auf der Journey übergeht. Anstatt eine feste Anzahl von Stunden oder Tagen von der Ein- bis zur Ausreise zu definieren, können Sie Aktionen so planen, dass sie zu bestimmten Zeiten und an bestimmten Wochentagen stattfinden.
 
-Mit einem _erweiterten Warteschritt_ definieren Sie **_wann_** die Person oder das Konto beenden soll, nicht nur, wie lange sie warten soll.
+Mit einem _erweiterten Warteschritt_ definieren Sie **_wann_** die Person oder das Konto beendet wird, nicht einfach nur die Wartezeit.
 
 ![Journey-Knoten - erweiterter Warteschritt](./assets/node-wait-advanced.png){width="500"}
 
@@ -66,11 +61,11 @@ Mit einem _erweiterten Warteschritt_ definieren Sie **_wann_** die Person oder d
 
 ### Häufige Szenarien
 
-Die folgenden Szenarien veranschaulichen, wie Sie typische Szenarien auf Ihre Warteknotenkonfiguration anwenden können:
+Die folgenden Szenarien veranschaulichen, wie Sie typische Beispiele auf Ihre Warteknotenkonfiguration anwenden können:
 
 +++E-Mail-Ankunft während der Geschäftszeiten
 
-**Szenario:** vermarkten Sie an B2B-Kunden, die E-Mails bei der Arbeit lesen. Sie möchten, dass alle E-Mails während der Geschäftszeiten eintreffen.
+**Szenario:** vermarkten Sie an B2B-Kunden, die E-Mails an ihrem Arbeitstag lesen. Sie möchten, dass alle E-Mails während der Geschäftszeiten eintreffen.
 
 **Lösung:** Konfigurieren Sie Ihren Warteschritt, um Leads um :00 Uhr an Wochentagen (Montag bis Freitag) freizugeben. Unabhängig davon, wann ein Lead den Warteknoten betritt, erhält er Ihre E-Mail während der Geschäftszeiten.
 
@@ -86,7 +81,7 @@ Die folgenden Szenarien veranschaulichen, wie Sie typische Szenarien auf Ihre Wa
 
 +++SLA-konforme Folgeaufgaben
 
-**Szenario:** Ihr Vertriebsteam verfügt über eine zweitägige SLA, um für Marketing qualifizierte Account-Leads nachzuverfolgen. Wochenenden zählen nicht.
+**Szenario:** Ihr Vertriebsteam verfügt über eine zweitägige SLA, um für Marketing qualifizierte Account-Leads nachzuverfolgen. Wochenenden sind ausgeschlossen.
 
 **Lösung:** Konfigurieren Sie den Warteschritt, um Leads nur an Werktagen freizugeben. Ein am Freitag qualifizierter Lead wird zur Nachverfolgung am Montag oder Dienstag weitergeleitet, nicht über das Wochenende.
 

@@ -4,28 +4,17 @@ description: Konfigurieren Sie Marketo Engage-Optionen für den Journey Optimize
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: f467931a-9b22-4ca8-869f-adfbd64061ceid: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +44,7 @@ Um E-Mail-Standardwerte für die angehängte Marketo Engage-Instanz einzurichten
 
 ### Abmeldung von Nachrichten
 
-Bei nicht-operativen Marketing-E-Mails werden Text und Links zur Abmeldung unten angehängt. Als Produkt-Administrator sollten Sie die standardmäßige HTML und den Standardtext konfigurieren, der verwendet wird, wenn ein Marketer die E-Mail nicht als funktionsfähig markiert.
+Bei nicht-operativen Marketing-E-Mails werden Text und Links zur Abmeldung unten angehängt. Konfigurieren Sie als Produkt-Administrator die standardmäßige HTML und den Text, der eingefügt wird, wenn ein Marketer die E-Mail nicht als funktionsfähig markiert.
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Admin]** in der angehängten Marketo Engage-Instanz und wählen Sie **[!UICONTROL E-Mail]** aus.
 
@@ -89,7 +78,7 @@ Wenn Sie zum standardmäßigen Systeminhalt zurückkehren müssen, kopieren Sie 
 
 ### Als Web-Seite anzeigen
 
-E-Mail-Inhalte haben eingeschränkte Anzeigefunktionen (eingeschränktes CSS und keine JavaScript oder Formulare). Marketing-Experten können die Option _Als Web-Seite anzeigen_ verwenden, um mithilfe der Marketo-Munchkin ein Cookie für den E-Mail-Empfänger anzuwenden. Als Produkt-Administrator sollten Sie die standardmäßige HTML und den Standardtext konfigurieren, der eingefügt wird, wenn ein Marketer diese Option auswählt.
+E-Mail-Inhalte haben eingeschränkte Anzeigefunktionen (eingeschränktes CSS und keine JavaScript oder Formulare). Marketing-Experten können die Option _Als Web-Seite anzeigen_ verwenden, um mithilfe der Marketo-Munchkin ein Cookie für den E-Mail-Empfänger anzuwenden. Konfigurieren Sie als Produkt-Administrator die standardmäßige HTML und den Standardtext, der eingefügt wird, wenn ein Marketer diese Option auswählt.
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Admin]** in der angehängten Marketo Engage-Instanz und wählen Sie **[!UICONTROL E-Mail]** aus.
 
@@ -163,7 +152,7 @@ Feld.
    ![Marketo Engage-E-Mail-Admin - Standardeinstellungen für benutzerdefinierte Header-Optionen](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL Strenge Transportsicherheit]** - Legen Sie diese Option auf _Aktiviert_ fest, um sicherzustellen, dass Tracking-Links immer über HTTPS bereitgestellt werden. Aktivieren Sie diese Option nur für Abonnements mit SSL-gesicherten Tracking-Links.
-   * **[!UICONTROL Max-age]** - Dieses Feld unterstützt die obligatorische Anweisung, die Zeit in Sekunden anzugeben, die der Browser daran denken soll, nur auf die Domain über HTTPS zuzugreifen.
+   * **[!UICONTROL Max-age]** - Dieses Feld unterstützt die obligatorische Anweisung, die Zeit in Sekunden anzugeben, die der Browser speichert, um nur auf die Domain über HTTPS zuzugreifen.
    * **[!UICONTROL IncludeSubDomains]** - Verwenden Sie diese Option, um die Direktive einzuschließen, die die HSTS-Richtlinie auf alle Subdomains des Hosts anwendet.
 
    >[!IMPORTANT]
@@ -176,8 +165,8 @@ Feld.
 
 Die Aktivität „E-Mail-Bot“, auch als Nicht-menschliche Interaktionen (NHI) bezeichnet, kann Ihre E-Mail-Daten _Öffnungen_ und _Klicks_ aufblähen, Ihre Interaktionsmetriken verzerren und einen ereignisbasierten Journey-Fortschritt auslösen. Verwenden Sie die E-Mail-Bot-Filterung , um die Integrität von Metriken und Einblicken zu Klick-Interaktionen aufrechtzuerhalten. Es gibt zwei Methoden, um verdächtige Bot-Aktivitäten zu identifizieren:
 
-* _&#x200B;**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**&#x200B;_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
-* _&#x200B;**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**&#x200B;_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
+* _**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
+* _**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
    * Lead-ID (muss gleich sein)
    * E-Mail-Asset (muss dasselbe sein)
    * Link-Klick oder E-Mail öffnen

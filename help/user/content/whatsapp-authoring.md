@@ -4,17 +4,12 @@ description: Erstellen Sie WhatsApp-Nachrichten für Account-Journey mithilfe ge
 feature: Content, Channels, Account Journeys
 role: User
 exl-id: 36c7e377-1f51-4d68-9e00-c6ce994e9909
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 20%
@@ -25,7 +20,7 @@ ht-degree: 20%
 
 Verwenden Sie Adobe Journey Optimizer B2B edition, um WhatsApp-Nachrichten an Kontomitglieder auf ihren Mobilgeräten zu senden. Sie können Nachrichten mithilfe genehmigter Meta-Nachrichtenvorlagen im WhatsApp-Editor erstellen, personalisieren und in der Vorschau anzeigen. <!-- Test your WhatsApp messages before publishing the account journey to ensure your intended rendering, accurate personalization, and proper configuration of all settings. -->
 
-Bevor Sie WhatsApp-Nachrichten für Account-Journey erstellen, stellen Sie sicher, dass Sie den erforderlichen [WhatsApp-Kanal) &#x200B;](../admin/configure-channels-whatsapp.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert haben.
+Bevor Sie WhatsApp-Nachrichten für Account-Journey erstellen, stellen Sie sicher, dass Sie den erforderlichen [WhatsApp-Kanal) ](../admin/configure-channels-whatsapp.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert haben.
 
 
 >[!NOTE]
@@ -63,7 +58,7 @@ Für Ihre WhatsApp-Nachrichten stehen die folgenden call-to-action-Optionen zur 
 >
 >**Einverständnisverwaltung per WhatsApp**: Gemäß den Richtlinien und geltenden Vorschriften von Meta dürfen alle WhatsApp-Marketing-Nachrichten nur an Empfänger gesendet werden, die sich für den Erhalt von Nachrichten entschieden haben. Empfänger von WhatsApp können sich jederzeit per Opt-out-Keyword abmelden. Opt-out-Antworten werden automatisch berücksichtigt und die entsprechenden Profile werden aus zukünftigen Marketing-Nachrichten-Audiences entfernt. Einzelheiten dazu, wie die Einverständnisvoreinstellungen von WhatsApp zum Zeitpunkt des Versands ausgewertet werden, finden Sie unter [Einverständnisvoreinstellungen](./channels-consent-preferences.md).
 
-Sie können WhatsApp-Nachrichtenversand auf einer Konto-Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen &#x200B;](../journeys/action-nodes.md) Folgendes tun:
+Sie können WhatsApp-Nachrichtenversand auf einer Konto-Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen ](../journeys/action-nodes.md) Folgendes tun:
 
 1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
 
@@ -91,11 +86,11 @@ Sie können WhatsApp-Nachrichtenversand auf einer Konto-Journey einrichten, wenn
 
    ![Erstellen einer WhatsApp - Registerkarte „Aktionen“](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Inhalt bearbeiten]**, um zu den Nachrichtenparametern und zum Text zu wechseln.
+1. Klicken Sie **[!UICONTROL Inhalt bearbeiten]**, um mit den Nachrichtenparametern und dem Text fortzufahren.
 
 ### Nachrichtenvorlage auswählen
 
-WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem Meta WhatsApp Business-Konto gesendet. **Vorlagen müssen von Meta überprüft und genehmigt werden** bevor Sie sie in Journey Optimizer B2B edition verwenden können. Arbeiten Sie mit Ihrem [!DNL Meta Business Manager]-Kontoadministrator zusammen, um Vorlagen zu verwalten und zur Genehmigung einzureichen.
+WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem Meta WhatsApp Business-Konto gesendet. **Vorlagen müssen von Meta überprüft und genehmigt werden** bevor Sie sie in Journey Optimizer B2B edition verwenden können. Wenden Sie sich an Ihren [!DNL Meta Business Manager]-Kontoadministrator, um Vorlagen zu verwalten und zur Genehmigung einzureichen.
 
 1. Wählen **[!UICONTROL für „Vorlagenkategorie]**&quot; eine der folgenden Optionen:
 
@@ -109,7 +104,7 @@ WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem 
 
    ![Ausgewählte WhatsApp-Nachrichtenvorlage mit im Vorschaufenster geladener Nachricht](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   Die Vorlagen sind nach Kategorie (_Marketing_, _Utility_ und _Authentication_) und Status organisiert. Nur **_genehmigte_** Vorlagen sind zur Auswahl verfügbar. Weitere Informationen zum Erstellen von WhatsApp-Vorlagen finden Sie unter [_Erstellen von Nachrichtenvorlagen für Ihr WhatsApp Business-Konto_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in der Dokumentation zu Meta.
+   Das System organisiert Vorlagen nach Kategorie (_Marketing_, _Dienstprogramm_ und _Authentifizierung_) und Status. Nur **_genehmigte_** Vorlagen sind zur Auswahl verfügbar. Weitere Informationen zum Erstellen von WhatsApp-Vorlagen finden Sie unter [_Erstellen von Nachrichtenvorlagen für Ihr WhatsApp Business-Konto_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in der Dokumentation zu Meta.
 
 ### Bild-URL
 

@@ -4,22 +4,17 @@ description: Automatisieren Sie die B2B-Qualifizierung und Kontaktaufnahme mit d
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 exl-id: cc590444-41df-44fe-830b-92241718ee81
-autotag-review: 2026-03-30T15:10:20.350Z
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: fc1ff3b2-6614-41ad-a113-de48597598fd
-  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-TQID: https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs
-source-git-commit: 55d6f156fbeaf27203f15524833b2825832e5dc5
+autotag-review: '2026-06-05T16:42:16.451Z'
+TQID: 'https://experienceleague.adobe.com/VNgs0cTpjCTG7JpFjFErnVMmRtR-gmw-iRRHZanZDUs'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: fc1ff3b2-6614-41ad-a113-de48597598fdid: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2: id: fe583b80-65a2-48c2-b4e1-9ea8fbac0a8a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 4594
+source-wordcount: 4580
 ht-degree: 1%
 
 ---
@@ -30,7 +25,7 @@ Sales Qualifier ist eine KI-gesteuerte Anwendung, die Sie mit Adobe Journey Opti
 
 BDRs können den Browser und die E-Mail-Plug-ins verwenden, um Business Intelligence direkt in CRMs oder Outlook aufzurufen. Im folgenden Video werden der Sales Qualifier und Account Qualification Agent kurz vorgestellt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476570?captions=ger)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## Programm-Startseite
 
@@ -40,7 +35,7 @@ Der Verkaufsqualifizierer ist in [!UICONTROL Journey Optimizer B2B edition] enth
 
 ### Account Qualification Agent
 
-Die Account Qualification Agent (AQA) ist das Herzstück des Sales Qualifier. Die AQA verwendet KI, um Ihre Konten zu lesen und festzustellen, welche für den nächsten Schritt bereit sind. Es unterstützt Sie bei der Recherche, beim Erstellen von E-Mails und beim CRM-informierten Kontext, wenn Ihr Unternehmen eine Verbindung zum CRM hergestellt hat (schreibgeschützt).
+Die Account Qualification Agent (AQA) bildet den Kern des Sales Qualifier. Die AQA verwendet KI, um Ihre Konten zu lesen und festzustellen, welche für den nächsten Schritt bereit sind. Es unterstützt Sie bei der Recherche, beim Erstellen von E-Mails und beim CRM-informierten Kontext, wenn Ihr Unternehmen eine Verbindung zum CRM hergestellt hat (schreibgeschützt).
 
 <!--
 ## Edit the left navigation bar
@@ -50,7 +45,7 @@ At the bottom left of the application, click the _Edit_ ( ![Edit icon](../assets
 
 ### Grundlegende Verwendung des Agenten
 
-Adobe AI-Agenten verwenden _Abfragen in natürlicher Sprache_ was bedeutet, dass sie in der Textaufforderung dieselbe Sprache verwenden, wie Sie es bei Gesprächen mit einer Person tun würden. Je detaillierter Sie sind, desto besser sind die Ergebnisse.
+Adobe AI-Agenten verwenden _Abfragen in natürlicher Sprache_ was bedeutet, dass sie in der Textaufforderung dieselbe Sprache verwenden wie bei einem Gespräch mit einer Person. Je detaillierter Sie sind, desto besser sind die Ergebnisse.
 
 Mit natürlicher Sprache können Sie den Agenten bitten:
 
@@ -62,7 +57,7 @@ Iterieren Sie Ihre ausgehenden Workflows, indem Sie Ihre Eingabeaufforderungen v
 
 * _Entwerfen einer Folge-E-Mail aus dem Kontext wie Einkommensaufrufe oder Berichte._ Bis zu 120 Wörter. Betreffzeile: Fesselnd, mit einem Schlüsselthema. Einführung: Hook mit einem direkten Zitat aus Kontextquellen. Hauptteil: Verbinden Sie sich mit Problembereichen und Wertangeboten. CTA: Schließen Sie eine kurze Aufforderung zur weiteren Untersuchung ein.
 
-* _Das Ziel dieser E-Mail ist es, ein Gespräch zu beginnen und Glaubwürdigkeit aufzubauen._ Entwerfen Sie eine E-Mail unter 120 Wörtern, die einen beratenden und einfühlsamen Ton hat. Achten Sie darauf, einen allzu vertrauten Ansatz oder Vertriebsansatz zu vermeiden und nicht die Phrasen „hoffen Sie, dass es Ihnen gut geht“, „nur einchecken“ oder „bitte“ zu verwenden.
+* _Das Ziel dieser E-Mail ist es, ein Gespräch zu beginnen und Glaubwürdigkeit aufzubauen._ Entwerfen Sie eine E-Mail unter 120 Wörtern, die einen beratenden und einfühlsamen Ton hat. Vermeiden Sie einen allzu vertrauten Ansatz oder Vertriebsansatz und verwenden Sie nicht die Ausdrücke „Ich hoffe, es geht Ihnen gut“, „nur einchecken“ oder „Bitte“.
 
 ### Produktzugriff und Benutzergruppen
 
@@ -89,7 +84,7 @@ Standard-BDR-Benutzer müssen Mitglieder der Benutzergruppe &quot;`Sales Qualifi
 
 ## Prospects
 
-Wählen Sie **[!UICONTROL linken Navigationsbereich]** Interessenten“ aus, um eine Liste aller Leads anzuzeigen, auf die Sie zugreifen können. Er bietet eine schnelle Prüfung von Dingen wie Lead-Status und letzte Aktivität.
+Wählen Sie **[!UICONTROL linken Navigationsbereich]** Interessenten“ aus, um eine Liste aller Leads anzuzeigen, auf die Sie zugreifen können. Er bietet eine schnelle Übersicht mit Informationen wie Lead-Status und letzte Aktivität.
 
 ![Tabelle mit Interessenten, in der der Lead-Status und die letzte Aktivität für das Interessenten-Management angezeigt werden](./assets/prospects.png){width="800" zoomable="yes"}
 
@@ -174,7 +169,7 @@ Nachdem das Targeting festgelegt wurde, erstellt die KI **_Kadenz_**: Sie analys
 
 ![Vom ausgehenden Workflow generierte Touchpoint-Kadenz und Eingabeaufforderungen](./assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
-Erweitern Sie einen E-Mail-Touchpoint, um die Eingabeaufforderung zu lesen. Diese Anleitung führt die KI beim Schreiben der E-Mails jedes Interessenten, einschließlich Ton, Länge, Fokus und call to action.
+Erweitern Sie einen E-Mail-Touchpoint, um die Eingabeaufforderung zu lesen. Diese Anweisung leitet die KI beim Schreiben der E-Mail jedes Interessenten an, einschließlich Ton, Länge, Fokus und _call to action_.
 
 **Kadenz neu erzeugen**
 
@@ -238,7 +233,7 @@ Nach Abschluss der Generierung zeigt die Workflow-Detailansicht ein Banner zur �
 
 #### Lesen der KI-Argumentation
 
-Für jede generierte E **[!UICONTROL Mail wird unter]** erläutert, wie die KI diese Nachricht erstellt hat, einschließlich der Signale, Attribute und Quellen, die den Inhalt und call to action geprägt haben. Überprüfen Sie diese Informationen, um die Personalisierung vor der Genehmigung zu validieren.
+Für jede generierte E **[!UICONTROL Mail wird unter]** erläutert, wie die KI diese Nachricht erstellt hat, einschließlich der Signale, Attribute und Quellen, die den Inhalt und call to action geprägt haben. Überprüfen Sie diese Informationen und validieren Sie die Personalisierung, bevor Sie sie genehmigen.
 
 ![KI-Argumentation für ausgehende Workflows generierte E-Mails](./assets/outbound-workflow-create-review-generated-email-reasoning.png){width="600" zoomable="yes"}
 
@@ -287,10 +282,10 @@ Auf der Seite _[!UICONTROL Ausgehender Workflow]_ werden auf der Registerkarte *
 ### Best Practices für ausgehende Workflows
 
 * **Investieren Sie in das Ziel.** Nachgelagertes Targeting, Kadenz und E-Mails werden alle zum Ziel zurückverfolgt. Konkrete, ergebnisorientierte Ziele übertreffen vage Ziele.
-* **Touchpoint-Eingabeaufforderungen vor der Generierung pro Interessent abschließen.**&#x200B;** Nach der Massengenerierung werden Änderungen in der Regel einzeln für Interessenten vorgenommen.
+* **Touchpoint-Eingabeaufforderungen vor der Generierung pro Interessent abschließen.** Nach der Massengenerierung werden Änderungen normalerweise jeweils nur von einem Interessenten vorgenommen.
 * **Verwenden von Argumentation als Qualitätsprüfung.** Wenn das falsche Signal hervorgehoben wird - oder ein offensichtliches Signal fehlt - bearbeiten Sie die E-Mail oder besuchen Sie die Touchpoint-Eingabeaufforderung erneut und regenerieren Sie die Kadenz.
-* **Passen Sie das Bearbeitungswerkzeug an die Änderung an.**&#x200B;**&#x200B; Direkte Bearbeitungen für Text und Ton; &#x200B;** [!UICONTROL Mit KI generieren]** für die Neustrukturierung oder Umgestaltung.
-* **Genehmigen Sie nur das, was Sie geprüft haben.**&#x200B;** Erweitern Sie Touchpoints, lesen Sie den Inhalt und verfeinern Sie ihn vor der Registrierung nach Bedarf.
+* **Passen Sie das Bearbeitungswerkzeug an die Änderung an.** Direkte Bearbeitungen für Wortlaut und Ton; **[!UICONTROL Mit KI generieren]** für Umstrukturierung oder Reframing.
+* **Genehmigen Sie nur, was Sie geprüft haben.** Erweitern Sie Touchpoints, lesen Sie den Inhalt und verfeinern Sie ihn vor der Registrierung nach Bedarf.
 
 ## E-Mail-Postausgang
 
@@ -317,7 +312,7 @@ Der Bereich _Aufgaben_ im Sales Qualifier bietet BDRs (Business Development Repr
 
 Die Aufgabenverwaltung ist als **Verarbeitungswarteschlange“ konzipiert** nicht nur als Aufgabenliste. Sie können eine Aufgabe öffnen, eine Aktion ausführen, sie als abgeschlossen markieren und mit der nächsten fortfahren - und das alles, ohne die Seite zu verlassen.
 
-Wählen Sie **[!UICONTROL Aufgaben]** in der linken Navigationsleiste aus, um die vollständige Aufgabenseite zu öffnen. Dies ist der primäre Arbeitsbereich für die Bearbeitung von Aufgaben, einzeln.
+Wählen Sie **[!UICONTROL Aufgaben]** in der linken Navigationsleiste aus, um die vollständige Aufgabenseite zu öffnen. Diese Seite ist der primäre Arbeitsbereich für die Bearbeitung von Aufgaben nach und nach.
 
 ![Aufgabenseite mit Aufgabenwarteschlange und Detailbereich](./assets/tasks.png){width="800" zoomable="yes"}
 
@@ -366,7 +361,7 @@ Verwenden Sie die folgenden Aktionen, um Ihre Aufgaben zu verwalten:
    * Der Aufgabenstatus wird auf **Übersprungen** festgelegt und mit dem Grund und dem Zeitstempel protokolliert.
    * Wenn dies der letzte Schritt im Workflow war, endet die Ausführung des Workflows des Interessenten. Die Aufgabe wird weiterhin als Übersprungen (nicht entfernt) protokolliert.
 
-* **[!UICONTROL Aus Workflow entfernen]** - verfügbar über das Menü „Überlauf“ im Arbeitsbereich. Verwenden Sie diese Option, wenn der Interessent überhaupt nicht mehr in diesem Workflow enthalten sein sollte.
+* **[!UICONTROL Aus Workflow entfernen]** - verfügbar über das Menü „Überlauf“ im Arbeitsbereich. Verwenden Sie diese Option, wenn der Interessent nicht mehr zu diesem Workflow gehört.
 
   Wenn Sie einen Interessenten aus einem Workflow entfernen:
    * Alle ausstehenden und zukünftigen Aufgaben für diesen potenziellen Kunden innerhalb dieses Workflows werden abgebrochen.
@@ -463,7 +458,7 @@ Bei Integrationen kann Sales Qualifier Ihr CRM verwenden, sodass die Account Qua
 
 >[!IMPORTANT]
 >
->Für den Zugriff auf Integrationen im Sales Qualifier ist die Mitgliedschaft in der `Sales Qualifier Admins` Benutzergruppe erforderlich.
+>Der Zugriff auf Integrationen in Sales Qualifier erfordert die Mitgliedschaft in `Sales Qualifier Admins` Benutzergruppe.
 
 ### CRM-Zugriffsbereich
 
@@ -500,7 +495,7 @@ Erstellen Sie in Salesforce [eine externe Client](https://help.salesforce.com/s/
 
 >[!PREREQUISITES]
 >
->Um eine externe Client-App zu erstellen, sollten Sie Systemadministrator sein und sicherstellen, dass Folgendes aktiviert ist (über Profil oder Berechtigungssatz):
+>Um eine externe Client-Anwendung zu erstellen, sollte ein Produktadministrator sicherstellen, dass Folgendes aktiviert ist (über Profil oder Berechtigungssatz):
 >
 >* Programm anpassen
 >* Setup und Konfiguration anzeigen
@@ -545,7 +540,7 @@ Stellen Sie sicher, dass der konfigurierte Benutzer Lesezugriff auf die folgende
 
 1. Erweitern Sie in der linken Navigation **[!UICONTROL Administration]** und wählen Sie **[!UICONTROL Integrationen]**.
 
-   Es sollten Karten für Salesforce und Microsoft Dynamics angezeigt werden.
+   Auf der Seite werden Karten für Salesforce und Microsoft Dynamics angezeigt.
 
    ![Seite Integrationen mit Salesforce- und Dynamics-Verbindungskarten](./assets/integrations-crm-connections.png){width="800" zoomable="yes"}
 
@@ -644,7 +639,7 @@ Legen Sie auf **[!UICONTROL Registerkarte]** Kalenderkonfiguration“ Ihre Zeitz
 
 * **[!UICONTROL Besprechungsbestätigungs-E-Mail]** - Wenn ein Kunde ein Meeting mit Ihnen bestätigt, erhält er die Bestätigungs-E-Mail als Antwort. Verwenden Sie diese Einstellungen, um den Betreff und Text der E-Mail zu definieren.
 
-* **[!UICONTROL Voreinstellungen]** - Legen Sie die standardmäßige Länge der Besprechung und die Zeit zwischen Back-to-Back-Besprechungen fest.
+* **[!UICONTROL Voreinstellungen]** - Legen Sie die standardmäßige Länge der Besprechung und die Zeit zwischen aufeinander folgenden Besprechungen fest.
 
 Wenn Sie den Kalender trennen:
 
