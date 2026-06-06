@@ -7,12 +7,20 @@ level: Beginner
 exl-id: 52ff66d2-1969-4e2c-985a-c75e613368de
 autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 1300
@@ -26,7 +34,7 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 >[!IMPORTANT]
 >
->Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie zusätzliche KI-Assistenten-Funktionen verwenden können, wenn sie in einer Beta-Funktion eingeführt werden.
+>Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie zusätzliche KI-Assistenten-Funktionen verwenden können, wenn sie in einer Beta-Funktion eingeführt werden.
 
 +++Benutzeroberfläche der Benutzervereinbarung anzeigen
 
@@ -38,7 +46,7 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 ## KI-Assistentenfunktionen in Journey Optimizer B2B edition
 
-Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _**_Wissensdiagramm“ bezeichnet_**_ eine umfassende Sammlung von Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
+Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _&#x200B;**_Wissensdiagramm“ bezeichnet_**&#x200B;_ eine umfassende Sammlung von Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
 
 * Dokumentation zu Experience League.
 * Operative Artefakte, z. B. Schemata, Felder, Zielgruppen und Journey.
@@ -100,7 +108,7 @@ Der KI-Assistent in Journey Optimizer B2B edition legt den Schwerpunkt auf Daten
 
 * Sie müssen explizit die Berechtigung haben, mit dem KI-Assistenten zu interagieren.
 
-   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
    * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Benutzer verschiedene Fragenkategorien stellen können (Produktkenntnisse mit dem KI-Assistenten oder Fragen zu betrieblichen Einblicken).
 

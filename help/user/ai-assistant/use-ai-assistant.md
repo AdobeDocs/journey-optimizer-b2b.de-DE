@@ -7,12 +7,19 @@ level: Beginner
 exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
 autotag-review: '2026-06-05T16:09:10.773Z'
 TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2:
+  - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 970
@@ -78,11 +85,11 @@ Um eine Frage zu operativen Einblicken zu stellen, geben Sie sie in das Feld am 
 
 Sie können Ihrer anfänglichen Anfrage folgen, indem Sie nach einer Liste von Artefakten fragen, z. B. _Listen Sie die fünf wichtigsten nach Größe auf_. Der KI-Assistent gibt eine Tabelle mit den fünf wichtigsten Elementen in der Abfrage und den entsprechenden IDs zurück. Klicken Sie auf _Herunterladen_-Symbol ![Herunterladen](../assets/do-not-localize/icon-download.svg) , um die Tabelle als CSV-Datei herunterzuladen.
 
-![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-query.png){width="420"}
+![Antwort des KI-Assistenten für eine Liste der Live-Journey &#x200B;](./assets/ai-assistant-artifacts-query.png){width="420"}
 
 Um die gesamte Tabelle im KI-Assistenten anzuzeigen, klicken Sie auf das Symbol _Maximieren_ ( ![Maximieren-Symbol](../assets/do-not-localize/icon-maximize.svg) ). Klicken Sie in der erweiterten Tabellenansicht auf **[!UICONTROL CSV herunterladen]**, um die Informationen als CSV-Datei zu speichern.
 
-![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
+![Antwort des KI-Assistenten für eine Liste der Live-Journey &#x200B;](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
 
 ## Überprüfen von Antworten
 

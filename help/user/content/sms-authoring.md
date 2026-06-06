@@ -4,11 +4,17 @@ description: Erstellen von SMS-Nachrichten für Account-Journey mit Personalisie
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
@@ -22,7 +28,7 @@ ht-degree: 4%
 
 Verwenden Sie Adobe Journey Optimizer B2B edition, um Textnachrichten (SMS) an die Mobilgeräte Ihrer Kunden zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
 
-Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass der [SMS-Service-Provider“ ](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
+Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass der [SMS-Service-Provider“ &#x200B;](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
 
 >[!IMPORTANT]
 >

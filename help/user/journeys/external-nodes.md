@@ -4,11 +4,17 @@ description: Erfahren Sie, wie Sie externe Aktionsknoten und externe Aufspaltung
 feature: Account Journeys, Integrations
 role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2: id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
@@ -97,4 +103,4 @@ Der Knoten Externe Aufspaltungspfade ruft einen externen Service auf und verwend
 
    Der _[!UICONTROL Zeitüberschreitungs- oder Fehlerpfad]_ wird automatisch erstellt. Wenn die maximale Wartezeit (wie im Service konfiguriert) verstrichen ist, bevor eine Antwort empfangen wird, fährt das Konto oder die Person diesen Pfad ab. Dasselbe gilt, wenn eine Fehlerantwort empfangen wird. Um diese Szenarien zu handhaben, können Sie diesem Pfad Journey-Knoten hinzufügen oder die Journey-Enden für das Zielgruppenmitglied.
 
-1. Um zwei oder mehr Pfade nach Bedarf für _Aufspaltung nach Konten_ zu kombinieren, können Sie einen [Knoten „Pfade zusammenführen“ ](./split-merge-paths-nodes.md#merge-paths).
+1. Um zwei oder mehr Pfade nach Bedarf für _Aufspaltung nach Konten_ zu kombinieren, können Sie einen [Knoten „Pfade zusammenführen“ &#x200B;](./split-merge-paths-nodes.md#merge-paths).
