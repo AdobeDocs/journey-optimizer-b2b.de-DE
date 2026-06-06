@@ -6,11 +6,13 @@ level: Beginner
 topic: Artificial Intelligence
 role: User
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
+autotag-review: '2026-06-05T16:07:36.688Z'
+TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
@@ -20,11 +22,13 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 2506
-ht-degree: 38%
+source-wordcount: 2476
+ht-degree: 34%
 
 ---
 
@@ -33,22 +37,22 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="KI-Inhaltsgenerierung"
->abstract="Nachdem Sie Ihr Layout erstellt haben, können Sie generative KI-Tools in [!DNL Journey Optimizer B2B Edition] verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, indem sie den Inhalt entsprechend Ihres beschreibenden Prompts optimiert."
+>abstract="Verwenden Sie nach der Erstellung Ihres Layouts die generativen KI-Tools in [!DNL Journey Optimizer B2B Edition], um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht die Personalisierung und Inhaltsverbesserung, indem sie Inhalte basierend auf Ihrer Eingabeaufforderung optimiert."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Referenzinhalt"
->abstract="Verwenden Sie _Referenzinhalt_ um eine Asset-Datei hochzuladen, die Inhalt enthält, der zusätzlichen Kontext für generative KI in [!DNL Journey Optimizer B2B Edition] bietet, oder um eine zuvor hochgeladene Datei auszuwählen. Mit dieser Option wird sichergestellt, dass alle erforderlichen Materialien verfügbar sind, um die Qualität und Relevanz der generierten Inhalte zu verbessern."
+>abstract="Verwenden Sie _Referenzinhalt_ um eine Asset-Datei hochzuladen oder auszuwählen, die Kontext für generative KI in [!DNL Journey Optimizer B2B Edition] bietet. Dadurch wird sichergestellt, dass Materialien verfügbar sind, um die Qualität und Relevanz der generierten Inhalte zu verbessern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Bedingungen der generativen KI in Adobe"
->abstract="Der Zugriff auf diese Funktion unterliegt der Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
+>abstract="Der Zugriff auf diese Funktion setzt voraus, dass Sie die Benutzerhandbücher für generative KI von Adobe Experience Cloud akzeptieren. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für die generative KI von Adobe"
 
 Die generative KI für Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] basiert auf Microsoft Azure OpenAI und Adobe Firefly und bietet proaktive Vorschläge für Inhaltsvarianten für Text und Bilder. Optimieren Sie die Wirkung Ihrer Inhalte, indem Sie mit verschiedenen Haupttiteln und -bildern experimentieren.
 
-Verwenden Sie die Funktionen der generativen KI für die Inhaltserstellung, [!DNL Journey Optimizer B2B Edition] die Funktionen der generativen KI von Adobe zu nutzen. Erstellen Sie personalisierten Text und personalisierte Visualisierungen für E-Mails, SMS-Nachrichten, Landingpages und mehr. Wenn Sie eine vollständige Kampagne erstellen oder bestimmte Assets verfeinern, helfen Ihnen diese Funktionen, Inhalte nahtlos an Ihren Markenrichtlinien auszurichten und dabei wertvolle Zeit zu sparen.
+Verwenden Sie die Funktionen der generativen KI für die Inhaltserstellung, [!DNL Journey Optimizer B2B Edition] die Funktionen der generativen KI von Adobe zu nutzen. Erstellen Sie personalisierten Text und personalisierte Visualisierungen für E-Mails, SMS-Nachrichten, Landingpages und mehr. Beim Erstellen einer Kampagne oder beim Verfeinern von Assets helfen Ihnen diese Funktionen, Inhalte an Ihren Markenrichtlinien auszurichten und dabei Zeit zu sparen.
 
 <!--
 Generate multiple variants and build an experiment to compare them. Leveraging Journey Optimizer Content Experiment, you can define multiple message treatments to measure which one performs best for your target audience. You can choose to vary the delivery content, or subject. The message audience is randomly allocated to each treatment to determine which one works best in terms of the specified metric. Learn more about Content Experiment in this section. 
@@ -313,7 +317,7 @@ Geben Sie immer den Kontext und das Wertversprechen für die Erstellung relevant
  
 -->
 
-### Neue Inhalte vs. Änderung vorhandener Inhalte {#new-vs-modify}
+### Neuer Inhalt oder Änderung vorhandener Inhalte {#new-vs-modify}
 
 Geben Sie klar an, ob Ihre Anfrage die Erstellung neuer Inhalte oder die Aktualisierung vorhandener Materialien beinhaltet. Diese Unterscheidung ist wichtig, da sie die KI bei der Auswahl des geeigneten Ansatzes anleitet und ein genaueres und hilfreicheres Ergebnis sicherstellt.
 
