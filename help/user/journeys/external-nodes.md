@@ -16,9 +16,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 870
+source-wordcount: 866
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ Der _Externe Aktion_-Knoten ruft einen externen Service auf und fährt unabhäng
 
 1. Fahren Sie mit dem Erstellen des Journey aus den ausgehenden Pfaden des Knotens fort.
 
-   Der _[!UICONTROL Zeitüberschreitungs- oder Fehlerpfad]_ wird automatisch erstellt. Wenn die maximale Wartezeit (wie im Service konfiguriert) verstrichen ist, bevor eine Antwort empfangen wird, fährt das Konto oder die Person diesen Pfad ab. Dies ist dasselbe, wenn eine Fehlerantwort empfangen wird. Sie können diesem Pfad Journey-Knoten hinzufügen, um diese Szenarien zu handhaben, oder die Journey-Enden für das Mitglied der Zielgruppe.
+   Der _[!UICONTROL Zeitüberschreitungs- oder Fehlerpfad]_ wird automatisch erstellt. Wenn die maximale Wartezeit (wie im Service konfiguriert) verstrichen ist, bevor eine Antwort empfangen wird, fährt das Konto oder die Person diesen Pfad ab. Dasselbe gilt, wenn eine Fehlerantwort empfangen wird. Um diese Szenarien zu handhaben, können Sie diesem Pfad Journey-Knoten hinzufügen oder die Journey-Enden für das Zielgruppenmitglied.
 
 ## Knoten für externe Aufspaltungspfade {#external-split-paths}
 
-Der Knoten Externe Aufspaltungspfade ruft einen externen Service auf und verwendet die Antwort, um zu bestimmen, welche Pfadkonten als Nächstes ausgeführt werden. Jeder Pfad wird durch eine Bedingung definiert, die auf einer Variablen (Accessor) basiert, die vom externen Service zurückgegeben wird. Der Journey bewertet die Antwort anhand der definierten Pfadbedingungen und leitet jedes Konto entlang des ersten übereinstimmenden Pfads weiter. Pfadbedingungen werden in der Reihenfolge von oben nach unten ausgewertet. Jedes Konto fährt auf dem ersten Pfad fort, dessen Bedingung mit dem vom externen Service zurückgegebenen Wert übereinstimmt.
+Der Knoten Externe Aufspaltungspfade ruft einen externen Service auf und verwendet die Antwort, um zu bestimmen, welche Pfadkonten als Nächstes ausgeführt werden. Eine Bedingung, die auf einer Variablen (Accessor) basiert, die vom externen Service zurückgegeben wird, definiert jeden Pfad. Der Journey bewertet die Antwort anhand der definierten Pfadbedingungen und leitet jedes Konto entlang des ersten übereinstimmenden Pfads weiter. Pfadbedingungen werden in der Reihenfolge von oben nach unten ausgewertet. Jedes Konto fährt auf dem ersten Pfad fort, dessen Bedingung mit dem vom externen Service zurückgegebenen Wert übereinstimmt.
 
 1. Navigieren Sie zur Konto-Journey-Zuordnung.
 
@@ -101,6 +101,6 @@ Der Knoten Externe Aufspaltungspfade ruft einen externen Service auf und verwend
 
 1. Fahren Sie mit dem Erstellen des Journey aus jedem ausgehenden Pfad des Knotens fort.
 
-   Der _[!UICONTROL Zeitüberschreitungs- oder Fehlerpfad]_ wird automatisch erstellt. Wenn die maximale Wartezeit (wie im Service konfiguriert) verstrichen ist, bevor eine Antwort empfangen wird, fährt das Konto oder die Person diesen Pfad ab. Dies ist dasselbe, wenn eine Fehlerantwort empfangen wird. Sie können diesem Pfad Journey-Knoten hinzufügen, um diese Szenarien zu handhaben, oder die Journey-Enden für das Mitglied der Zielgruppe.
+   Der _[!UICONTROL Zeitüberschreitungs- oder Fehlerpfad]_ wird automatisch erstellt. Wenn die maximale Wartezeit (wie im Service konfiguriert) verstrichen ist, bevor eine Antwort empfangen wird, fährt das Konto oder die Person diesen Pfad ab. Dasselbe gilt, wenn eine Fehlerantwort empfangen wird. Um diese Szenarien zu handhaben, können Sie diesem Pfad Journey-Knoten hinzufügen oder die Journey-Enden für das Zielgruppenmitglied.
 
-1. Für _Aufspaltung nach Konten_ können Sie einen [Zusammenführungspfade-Knoten](./split-merge-paths-nodes.md#merge-paths) hinzufügen, um zwei oder mehr Pfade nach Bedarf zu kombinieren.
+1. Um zwei oder mehr Pfade nach Bedarf für _Aufspaltung nach Konten_ zu kombinieren, können Sie einen [Knoten „Pfade zusammenführen“ &#x200B;](./split-merge-paths-nodes.md#merge-paths).

@@ -4,6 +4,8 @@ description: Erfahren Sie, wie Sie mit der KI-gestützten Journey Agent und ihre
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
+autotag-review: '2026-06-05T16:42:46.785Z'
+TQID: 'https://experienceleague.adobe.com/SgjavYf2Tp5yO8s3f0DQexRCUILQRsD5bM6UwmbcgyE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -16,11 +18,13 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1165
 ht-degree: 0%
 
 ---
@@ -38,7 +42,7 @@ Journey Agent B2B bietet eine Reihe von KI-Fähigkeiten, die sich jeweils auf ei
 
 ## Journey Build-Kenntnisse
 
-Die Journey-Build-Kenntnisse übersetzen Ihre Marketing-Ziele, Interaktionsstrategien und KPIs in vollständige B2B-Kunden-Journey. Es geht drei wichtige Herausforderungen an, vor denen B2B-Marketer heute stehen:
+Die Journey-Build-Kenntnisse übersetzen Ihre Marketing-Ziele, Interaktionsstrategien und KPIs in vollständige B2B-Kunden-Journey. Es geht auf drei wichtige Herausforderungen ein, vor denen B2B-Marketer heute stehen:
 
 * Umgang mit immer komplexeren Kunden-Journey (Komplexität in Zielgruppe, Inhalt und Messaging sowie Omni-Channel)
 * Steigerung der Effizienz angesichts knapper Haushaltsmittel
@@ -59,7 +63,7 @@ Um die Journey Agent-Build-Kenntnisse zu verwenden, geben Sie in das Eingabeauff
 
 ![Journey-Agent-B2B-Eingabeaufforderung für die Build-Kenntnis](./assets/journey-agent-tasks.png)
 
-Je mehr Details Sie angeben können, desto besser ist die Antwort. Wenn Sie über Marketing-Materialien verfügen, die das Ereignis oder Ihr Produkt usw. beschreiben, fügen Sie diese in die Eingabeaufforderung ein, damit der Agent das Ziel besser versteht.
+Je mehr Details Sie angeben, desto besser ist die Antwort. Wenn Sie über Marketing-Materialien verfügen, die das Ereignis oder Ihr Produkt usw. beschreiben, fügen Sie diese in die Eingabeaufforderung ein, damit der Agent das Ziel besser versteht.
 
 „Fungieren Sie als B2B-Journey-Stratege, um eine mehrstufige Kundenkonto-Journey zu erstellen, die Entscheidungsträger und Marketing-Personas in der frühen Explorationsphase von `<Solution Name>` pflegt und einbindet. Ziel ist es, anonyme Besucher in bekannte Kontakte zu konvertieren, die Interaktion mit relevanten Inhalten auf `<domain>`.com zu vertiefen und qualifizierte Leads für `<Product Name>` Vertriebsarbeit zu gewinnen. Verwenden Sie Kanäle wie E-Mail und bezahlte Medien und nutzen Sie vorhandene Zielgruppensegmente und -inhalte. Strukturieren Sie die Journey über die Phasen der Bewusstseinsbildung, der Abwägung und der Bewertung hinweg über einen Zeitraum von 4 bis 6 Wochen mit klaren Triggern, Maßnahmen und Zielen für jedes Stadium. Schließen Sie KPIs wie Konversionsraten, Interaktionswerte und Demoanfragen ein und geben Sie die Ausgabe als strukturierten Journey-Fluss zurück.“
 
@@ -85,8 +89,7 @@ Beispiel für eine End-to-End-Journey-Eingabeaufforderung:
 
 ### Mehrstufige Journey
 
-Sie können als B2B-Journey-Designer eine mehrstufige Kundenkonto-Journey erstellen, die Entscheidungsträger und Marketing-Personas schon früh in der Explorationsphase informiert.
-Ziel ist es, anonyme Besucher in bekannte Kontakte zu konvertieren, die Interaktion mit relevanten Inhalten zu vertiefen und qualifizierte Leads für die Vertriebsarbeit zu gewinnen.
+Sie können als B2B-Journey-Designer eine mehrstufige Kundenkonto-Journey erstellen, die Entscheidungsträger und Marketing-Personas schon früh in der Explorationsphase informiert. Ziel ist es, anonyme Besucher in bekannte Kontakte zu konvertieren, die Interaktion mit relevanten Inhalten zu vertiefen und qualifizierte Leads für die Vertriebsarbeit zu gewinnen.
 
 * Verwenden Sie Kanäle wie `Email`, `Paid media` und `Personalized web experiences`, um vorhandene Zielgruppensegmente und -inhalte zu nutzen.
 * Strukturieren Sie die Journey über `awareness`-, `consideration`- und `evaluation` Stadien hinweg über 4-6 Wochen, mit klaren Triggern, Aktionen und Zielen für jedes Stadium.
@@ -145,7 +148,7 @@ Bei Journey, die auf externe Kanäle wie LinkedIn pushen, können Sie den Aktivi
 
 ### Datensynchronisierung und Pipeline-Beobachtbarkeit
 
-Die Beobachtbarkeits-Qualifikation kann auch Informationen zum Zustand der Datensynchronisation anzeigen, um die Fehlerbehebung zu unterstützen, warum ein Konto oder Lead möglicherweise nicht in einer Journey enthalten ist:
+Die Beobachtbarkeits-Qualifikation kann auch Informationen zum Zustand der Datensynchronisation anzeigen, um die Fehlerbehebung zu erleichtern, warum ein Konto oder Lead nicht in einer Journey enthalten war:
 
 * Auftragsmetriken und Status für externen Zielgruppenexport
 * Batch-Segmentierungspläne und Abschlusszeiten

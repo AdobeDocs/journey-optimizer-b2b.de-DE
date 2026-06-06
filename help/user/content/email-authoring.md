@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 6%
+source-wordcount: 1164
+ht-degree: 7%
 
 ---
 
@@ -44,11 +44,11 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den
 
 >[!TIP]
 >
->Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition, der auf generativer KI basiert, um Ihre Inhalte auf die nächste Ebene zu heben. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails und zielgerichtete Textinhalte generiert und KI-Assistenten-Empfehlungen für Bilder abgibt, die bei Ihrer Audience Anklang finden. [Weitere Informationen](./ai-assistant-emails.md)
+>Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition, der auf generativer KI basiert, um Ihre Inhalte zu verbessern. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails und zielgerichtete Textinhalte generiert und KI-Assistenten-Empfehlungen für Bilder abgibt, die bei Ihrer Audience Anklang finden. [Weitere Informationen](./ai-assistant-emails.md)
 
 ## Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
 
-Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt der E-Mail zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden entwerfen.
+Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt der E-Mail zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie das Layout und die Organisation des E-Mail-Inhalts innerhalb von Sekunden entwerfen.
 
 1. Wählen Sie auf _[!UICONTROL Startseite]_ Vorlage entwerfen“ die Option **[!UICONTROL Erstellen von neuen]** aus.
 
@@ -92,7 +92,7 @@ Sie können den importierten Inhalt nach Bedarf mit den visuellen E-Mail-Editor-
 
 >[!NOTE]
 >
-> Auf gespeicherte Vorlagen können Governance-Einstellungen (Inhaltssperrung) für eine oder mehrere Komponenten angewendet werden. Der visuelle Design-Bereich bietet Richtlinien zu gesperrten Komponenten, wenn Sie [E-Mail aus einer verwalteten Vorlage erstellen](./email-authoring-governance.md).
+> Auf gespeicherte Vorlagen können Einstellungen für die Governance (Inhaltssperrung) auf eine oder mehrere Komponenten angewendet werden. Der visuelle Design-Bereich bietet Richtlinien zu gesperrten Komponenten, wenn Sie [E-Mail aus einer verwalteten Vorlage erstellen](./email-authoring-governance.md).
 
 ## Hinzufügen von Struktur und Inhalten {#structure-content}
 
@@ -156,9 +156,9 @@ Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen E-Mail
 
 * Vergrößern/Verkleinern des Inhalts in allen vordefinierten Zoom-Optionen.
 
-* Wechseln der Anzeige von Inhalten zwischen Desktop, Mobilgerät oder Nur-Text-/Nur-Text-Ansicht.
+* Wechseln Sie zwischen der Anzeige der Inhalte auf dem Desktop, einem Mobilgerät oder einem Nur-Text-/Nur-Text-System.
    * Klicken Sie auf das _Anzeigen_-Symbol für die geräteübergreifende Inhaltsvorschau.
-   * Wählen Sie eines der standardmäßigen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um eine Vorschau des Inhalts anzuzeigen.
+   * Wählen Sie eines der vordefinierten Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um eine Vorschau des Inhalts anzuzeigen.
 
 ## Mehr Optionen
 
@@ -166,7 +166,7 @@ Im Menü _[!UICONTROL Mehr …]_ oben im visuellen Design-Bereich können Sie di
 
 ![Klicken Sie auf Mehr , um auf Vorlagenaktionen zuzugreifen](./assets/email-designer-more-menu.png){width="500"}
 
-* **[!UICONTROL E-Mail zurücksetzen]** - Klicken Sie auf diese Option, um die Arbeitsfläche des E-Mail-Designs zu leeren und die Erstellung Ihres Inhalts neu zu starten.
+* **[!UICONTROL E-Mail zurücksetzen]** - Klicken Sie auf diese Option, um die Arbeitsfläche des E-Mail-Designs zu löschen und mit der Erstellung Ihres Inhalts neu zu beginnen.
 * **[!UICONTROL Als Fragment speichern]** - Speichert die E-Mail ganz oder teilweise als Fragment, das für mehrere E-Mails oder E-Mail-Vorlagen wiederverwendet werden soll. Geben Sie einen Namen und eine Beschreibung für das Fragment ein und speichern Sie es in der Liste der verfügbaren Fragmente.
 * **[!UICONTROL Design ändern]** - Kehren Sie zur Seite _E-Mail gestalten_ zurück. Dort können Sie eine andere Vorlage auswählen, um den Design-Prozess neu zu starten. Sie können den Inhalt auch mit einer leeren Arbeitsfläche (_Classic-Modus_) oder mit einem [Markendesign](./brand-themes.md) (_Design-Modus_) von Grund auf gestalten.
 * **[!UICONTROL Als Inhaltsvorlage speichern]** - Speichern Sie den E-Mail-Textkörper als E-Mail-Vorlage, die für mehrere E-Mails oder E-Mail-Vorlagen wiederverwendet werden kann. Geben Sie einen Namen und eine Beschreibung für die Vorlage ein und speichern Sie sie in der Liste der gespeicherten E-Mail-Vorlagen.
@@ -180,7 +180,7 @@ Um [Vorschau des E-Mail](./email-simulate-content.md)Inhalts anzuzeigen, klicken
 
 ![Simulieren Sie den E-Mail-Inhalt, um Ihr Design zu überprüfen](./assets/email-designer-simulate-content.png){width="700" zoomable="yes"}
 
-Sie können auf zusätzliche Tools zugreifen, um den E-Mail-Inhalt zu validieren und zu überprüfen:
+Um den E-Mail-Inhalt zu validieren und zu überprüfen, greifen Sie auf zusätzliche Tools zu:
 
 * [Durchführen eines Testversands](./email-simulate-content.md#send-proofs)
 * [Testrendering in E-Mail Clients](./email-test-rendering.md)

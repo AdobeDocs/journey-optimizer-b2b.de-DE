@@ -20,10 +20,10 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1004
-ht-degree: 96%
+source-wordcount: 1003
+ht-degree: 88%
 
 ---
 
@@ -33,11 +33,11 @@ Die Einrichtung von Journey Optimizer B2B edition umfasst die Konfiguration der 
 
 >[!AVAILABILITY]
 >
->- Sie müssen Zugriff auf [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"} haben, damit Ihre B2B-Schemata im [Echtzeit-Kundenprofil) &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home){target="_blank"} werden können.
+>- Damit Ihre B2B-Schemata im [Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/profile/home){target="_blank"} qualifiziert werden können, benötigen Sie Zugriff auf [Adobe Real-Time Customer Data Platform B2B edition](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/intro/rtcdpb2b-intro/b2b-overview){target="_blank"}.
 >
 >- Ihre Experience Platform B2B-Entitäten müssen die Standardbeziehungen verwenden, die im Handbuch [B2B-Namespaces und -Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} beschrieben sind.
 
-Überprüfen Sie die folgenden Informationen zur zugrunde liegenden Einrichtung für die Namespaces und Schemas, die mit B2B-Quellen verwendet werden sollen. Außerdem enthält es Details zum Einrichten Ihres Postman-Automatisierungsprogramms, das zum Generieren von B2B-Namespaces und -Schemata erforderlich ist.
+Überprüfen Sie die folgenden Informationen zur zugrunde liegenden Einrichtung für die Namespaces und Schemas, die mit B2B-Quellen verwendet werden sollen. Außerdem enthält es Details zur Konfiguration Ihres Postman-Automatisierungsprogramms, das zum Generieren von B2B-Namespaces und -Schemata erforderlich ist.
 
 ## Einrichten des Dienstprogramms zur automatischen Generierung
 
@@ -104,7 +104,7 @@ B2B-Namespaces werden in der primären Identität der Entität verwendet.
 
 Schemata dienen in Experience Platform zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Durch die systemübergreifende einheitliche Definition von Daten wird es einfacher, deren Bedeutung beizubehalten und somit Wert aus Daten zu ziehen.
 
-Bevor Experience Platform Daten aufnehmen kann, muss ein Schema vorhanden sein, das die Datenstruktur beschreibt und den Datentyp einschränkt, der in den einzelnen Feldern enthalten sein kann. Schemata bestehen aus einer Basisklasse und keiner oder mehreren Schema-Feldergruppen.
+Bevor Experience Platform Daten aufnehmen kann, muss ein Schema vorhanden sein, das die Datenstruktur beschreibt und Einschränkungen hinsichtlich des Datentyps bereitstellt, der in jedem Feld enthalten sein kann. Schemata bestehen aus einer Basisklasse und keiner oder mehreren Schema-Feldergruppen.
 
 Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrundsätzen und Best Practices, finden Sie [_Grundlagen der Schemakomposition_](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
@@ -387,7 +387,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 
 >[!NOTE]
 >
->Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 
@@ -431,7 +431,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
 
 >[!NOTE]
 >
->Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
+>A Static List member in [!UICONTROL Marketo Engage] is not synced from Salesforce and therefore does not have a secondary identity.
 
 +++
 

@@ -18,24 +18,24 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: 2026-03-30T22:08:16.582Z
 TQID: https://experienceleague.adobe.com/aWKXaC6x4Izeh81A6Fpy-Nrf18fHgnq6jUc-82ohErs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 343
+source-wordcount: 327
 ht-degree: 1%
 
 ---
 
 # E-Mail-Deduplizierung
 
-Verwenden Sie die E-Mail-Deduplizierung in den Account-Journeys, um sicherzustellen, dass dieselbe E-Mail nicht mehrmals an dieselbe E-Mail-Adresse innerhalb einer Journey gesendet wird. Wenn Sie diese Funktion aktivieren, werden doppelte E-Mail-Adressen blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. Nachdem ein Konto eine Journey abgeschlossen hat, kann eine Person sich erneut für den Empfang von E-Mails qualifizieren, wenn ein neues Konto auf die Journey zugreift.
+Um sicherzustellen, dass dieselbe E-Mail nicht mehrmals an dieselbe E-Mail-Adresse innerhalb einer Journey gesendet wird, verwenden Sie die E-Mail-Deduplizierung in den Account Journey. Wenn Sie diese Funktion aktivieren, werden doppelte E-Mail-Adressen blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat. Nachdem ein Konto eine Journey abgeschlossen hat, kann eine Person sich erneut für den Empfang von E-Mails qualifizieren, wenn ein neues Konto auf die Journey zugreift.
 
 ## Verwendung der E-Mail-Deduplizierung
 
-Es gibt einige wichtige Szenarien, in denen eine Deduplizierung der E-Mail in Betracht gezogen werden sollte:
+Für die Aktivierung der E-Mail-Deduplizierung sind folgende Schlüsselszenarien zu berücksichtigen:
 
 * **E-Mail wird in Real-Time CDP nicht als Identität verwendet** - Dieselbe E-Mail-Adresse kann in mehreren Personenprofilen angezeigt werden. Wenn diese Profilduplikate für dieselbe Journey qualifiziert sind und Sie verhindern möchten, dass die E-Mail mehrmals gesendet wird, aktivieren Sie diese Funktion.
 
-* **Einzelne Person mit mehreren Konten verknüpft** - Wenn Ihr Real-Time CDP-Datenmodell es ermöglicht, dass eine einzelne Person mehreren Konten zugeordnet werden kann, und Sie vermeiden möchten, dieselbe E-Mail zweimal an diese Person zu senden, wenn mehrere Konten (einschließlich Profilen mit derselben E-Mail-Adresse) für dieselbe Journey qualifiziert sind, aktivieren Sie diese Funktion.
+* **Einzelne Person mit mehreren Konten verknüpft** - Wenn Ihr [!DNL Real-Time CDP]-Datenmodell eine einzelne Person mit mehreren Konten verknüpft, aktivieren Sie diese Funktion, um zu vermeiden, dass dieselbe E-Mail zweimal gesendet wird, wenn mehrere Profile mit derselben E-Mail-Adresse für dieselbe Journey qualifiziert sind.
 
 >[!NOTE]
 >
@@ -59,4 +59,4 @@ So aktivieren Sie die E-Mail-Deduplizierung für eine Konto-Journey:
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Wenn die E-Mail-Deduplizierung aktiviert ist, prüft der Journey jede E-Mail-Adresse, bevor er die E-Mail sendet. Wenn bereits ein Eintrag mit derselben E-Mail-Adresse in diesen Journey-Knoten eingetreten ist, wird der neue Eintrag blockiert, bis der erste Eintrag die Journey abgeschlossen hat.
+Wenn die E-Mail-Deduplizierung aktiviert ist, prüft der Journey jede E-Mail-Adresse, bevor er die E-Mail sendet. Wenn bereits ein Eintrag mit derselben E-Mail-Adresse in diesen Journey-Knoten eingetreten ist, wird der neue Eintrag blockiert, bis der erste Eintrag den Journey beendet.

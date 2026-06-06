@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:48:47.183Z
 TQID: https://experienceleague.adobe.com/nM-Jxcj7wekzRks2xCqshOdlY7W8K0WKCXtWCNSb388
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 81%
+ht-degree: 75%
 
 ---
 
@@ -86,6 +86,6 @@ Wenn ein Marketer eine Marketo Engage-Aktion auf einer Journey verwendet, kann e
 >
 >Von einer Journey ausgeführte Marketo Engage-Aktionen gelten nicht für die REST-API-Beschränkungen für die verbundene Marketo Engage-Instanz.
 
-Nach abgeschlossener Integration sind Marketo Engage-Aktionen unter **Aktionen auf:** in den Knoteneigenschaften verfügbar.
+Nach abgeschlossener Integration sind Marketo Engage-Aktionen unter **_Actions in den:_** verfügbar.
 
 ![Marketo-Aktionsliste](assets/marketo-actions-list.png){width="800" zoomable="yes"}

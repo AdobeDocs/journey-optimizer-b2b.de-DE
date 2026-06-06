@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: f20c8fb32fab59d5bb15017577b75a2358b66b10
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2550
+source-wordcount: 2542
 ht-degree: 3%
 
 ---
@@ -47,7 +47,7 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
 
 * Jeder Pfad, den Sie hinzufügen, enthält einen Endknoten mit der Möglichkeit, Knoten zu jedem Edge hinzuzufügen.
 * Aufspaltung nach Kontoknoten kann verschachtelt werden (Sie können den Pfad wiederholt nach Konten aufteilen).
-* Die Auswertung jedes Pfads erfolgt von oben nach unten. Wenn ein Konto für den ersten und zweiten Pfad übereinstimmt, wird es nur entlang des ersten Pfads fortgesetzt.
+* Die Auswertung jedes Pfads erfolgt von oben nach unten. Wenn ein Konto dem ersten und zweiten Pfad entspricht, wird es nur entlang des ersten Pfads fortgesetzt.
 * Zwei oder mehr Pfade können mithilfe eines Zusammenführungsknotens kombiniert werden.
 * Der Knoten unterstützt die Definition eines Pfads _[!UICONTROL Andere Konten]_, in dem Sie Aktionen oder Ereignisse für Konten hinzufügen können, die nicht mit einem der definierten Segmente/Pfade übereinstimmen.
 
@@ -57,9 +57,9 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
 
 | Pfadbedingungen | Beschreibung |
 | --------------- | ----------- |
-| [!UICONTROL Kontoattribute] | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz <li>Ort <li>Land <li>Mitarbeiterzahl <li>Branche <li>Name <li>SIC-Code <li>Status |
+| [!UICONTROL Kontoattribute] | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz <li>Stadt <li>Land <li>Mitarbeiterzahl <li>Branche <li>Name <li>SIC-Code <li>Status |
 | [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering).) |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Konto hat eine passende Einkaufsgruppe] | Dem Konto ist mindestens eine Einkaufsgruppe zugeordnet. Sie kann für eine passende Einkaufsgruppe anhand einer oder mehrerer der folgenden Einschränkungen bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Engagement-Bewertung <li>Vollständigkeitsindex <li> Anzahl der Personen in Käufergruppenrolle |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Konto hat eine passende Einkaufsgruppe] | Dem Konto ist mindestens eine Einkaufsgruppe zugeordnet. Sie kann für eine passende Einkaufsgruppe anhand einer oder mehrerer der folgenden Einschränkungen bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Interaktionsbewertung <li>Vollständigkeitsindex <li> Anzahl der Personen in Käufergruppenrolle |
 
 ### Fügen Sie einen aufgeteilten Pfad nach Kontenknoten hinzu
 
@@ -75,11 +75,11 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
 
    ![Pfadknoten aufteilen - Bedingung hinzufügen](./assets/node-split-properties-apply-condition.png){width="500" zoomable="yes"}
 
-1. Fügen Sie im Bedingungseditor einen oder mehrere Filter hinzu, um den Aufspaltungspfad zu definieren.
+1. Um den Aufspaltungspfad zu definieren, fügen Sie einen oder mehrere Filter im Bedingungseditor hinzu.
 
    * Ziehen Sie Filterattribute per Drag-and-Drop aus dem linken Navigationsbereich und füllen Sie die Übereinstimmungsdefinition aus.
 
-   * Passen Sie Ihre Bedingungen durch Anwendung der **[!UICONTROL Filterlogik]** oben an. Sie wählen, ob alle Filter oder nur ein beliebiger Filter übereinstimmen sollen.
+   * Verfeinern Sie Ihre Bedingungen, indem Sie oben **[!UICONTROL die]** Filterlogik“ anwenden. Sie wählen, ob alle Filter oder nur ein beliebiger Filter übereinstimmen sollen.
 
      ![Pfadknoten aufteilen - Filterlogik für Bedingungskonten](./assets/node-split-conditions-accounts.png){width="700" zoomable="yes"}
 
@@ -105,7 +105,7 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
 
 Sie können einen Pfad für Konten definieren, die mit Einkaufsgruppen verknüpft sind, und den Pfad mithilfe von Einkaufsgruppenkriterien filtern. Verwenden Sie den Filter **[!UICONTROL Konto hat abgeglichene Einkaufsgruppe]** um das Pfadsegment mithilfe einer abgeglichenen Einkaufsgruppe zu definieren. Dieser Filter enthält auch die Option, Konten anhand der Anzahl der zugewiesenen Rollen innerhalb einer abgeglichenen Einkaufsgruppe zu identifizieren.
 
-Beispielsweise können Sie die Bereitschaft für eine Einkaufsgruppe anhand der Tiefe (Anzahl der Personen) bewerten, die sie in verschiedenen Rollen hat, z. B. drei Entscheidungsträger und zwei Influencer. Legen Sie in diesem Fall die Bedingung fest, um Konten mit mindestens drei (3) Entscheidungsträgern und zwei (2) Einflussnehmern in einer abgeglichenen Einkaufsgruppe anzusprechen:
+Sie können beispielsweise die Bereitschaft für eine Einkaufsgruppe anhand der Tiefe (Anzahl der Personen) bewerten, die sie in verschiedenen Rollen hat, z. B. drei Entscheidungsträger und zwei Influencer. Legen Sie in diesem Fall die Bedingung fest, um Konten mit mindestens drei (3) Entscheidungsträgern und zwei (2) Einflussnehmern in einer abgeglichenen Einkaufsgruppe anzusprechen:
 
 1. Klicken Sie **[!UICONTROL Filter hinzufügen]** und wählen Sie den Filter **[!UICONTROL Anzahl der Personen in der]** aus.
 
@@ -127,7 +127,7 @@ Beispielsweise können Sie die Bereitschaft für eine Einkaufsgruppe anhand der 
 
 1. Klicken Sie **[!UICONTROL Fertig]**, wenn alle Bedingungen für den Pfad definiert sind.
 
-Für die identifizierten Konten können Sie dann einen Aktionsknoten im Pfad hinzufügen, um den Status der Einkaufsgruppe oder des Stadiums zu aktualisieren oder eine E-Mail mit einer Verkaufswarnung zu senden.
+Für die identifizierten Konten können Sie dann einen Aktionsknoten im Pfad hinzufügen, um den Status der Einkaufsgruppe oder des Kaufstadiums zu aktualisieren oder eine E-Mail mit einer Verkaufswarnung zu senden.
 
 ## Pfade nach Personen aufteilen
 
@@ -139,7 +139,7 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 
 * Die Funktion „Aufspaltung nach Personen _Knoten funktioniert in einer Kombination aus_ und Zusammenführung. Die Pfade der Aufspaltung werden automatisch zusammengeführt, sodass alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 * Nach Personen aufgeteilte Knoten können nicht verschachtelt werden (Sie können keinen aufgeteilten Pfad für Personen auf einem Pfad hinzufügen, der sich in diesem gruppierten Knoten befindet).
-* Die Auswertung jedes Pfads erfolgt von oben nach unten. Wenn eine Person für den ersten und zweiten Pfad eine Übereinstimmung findet, fährt sie nur entlang des ersten Pfads fort.
+* Die Auswertung jedes Pfads erfolgt von oben nach unten. Wenn eine Person dem ersten und zweiten Pfad entspricht, fährt sie nur auf dem ersten Pfad fort.
 * Der Knoten unterstützt die Verwendung von _Konto-Personen-Beziehungen_ mit denen Sie Personen nach ihrer Rolle filtern können (z. B. Auftragnehmer oder Vollzeit-Mitarbeiter), wie in der Beziehung definiert.
 * Der Knoten unterstützt die Definition eines Pfads _[!UICONTROL Andere Personen]_, in dem Sie Aktionen oder Ereignisse für Personen hinzufügen können, die nicht mit einem der definierten Segmente/Pfade übereinstimmen.
 
@@ -151,8 +151,8 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 | ------------ | ----------- |
 | [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
 | [!UICONTROL Ereignisverlauf] | Teilt Personen auf Grundlage von Erlebnisereignissen, die vor dem Journey-Eintritt aufgetreten sind. Erweitern Sie den Ordner , um alle unter „Admin[&#x200B; > XDM-Ereigniskonfiguration“ konfigurierten Ereignistypen anzuzeigen](../admin/configure-aep-events.md) und wählen Sie einen aus, der als Filter hinzugefügt werden soll. Zu den Einschränkungen gehören Felder aus dem ausgewählten Ereignis, ein Lookback-Zeitfenster, das ab dem Zeitpunkt gemessen wird, zu dem die Person die Journey betritt, und eine optionale Mindestanzahl von Malen. |
-| [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Ort <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Nachname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Bundesland |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | (Veraltet) Die Person ist oder ist kein kaufendes Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li><li>wird entfernt</li><li>Rolle</li> |
+| [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Stadt <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Bundesland |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | (Veraltet) Die Person ist oder ist kein kaufendes Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Liste] | (Veraltet) Die Person ist oder ist nicht Mitglied in einer oder mehreren [!DNL Marketo Engage]. |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied des Programms] | (Veraltet) Die Person ist oder ist nicht Mitglied in einem oder mehreren [!DNL Marketo Engage]. |
 
@@ -191,7 +191,7 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
      >
      >Wenn Sie benutzerdefinierte Personenfelder im Kontozielgruppen-Schema in Experience Platform definiert haben, können diese Felder auch als Personenattribute in Bedingungen verwendet werden.
 
-   * Passen Sie Ihre Bedingungen durch Anwendung der **[!UICONTROL Filterlogik]** oben an. Sie wählen, ob alle Attributbedingungen oder eine beliebige Bedingung erfüllt werden sollen.
+   * Verfeinern Sie Ihre Bedingungen, indem Sie oben **[!UICONTROL die]** Filterlogik“ anwenden. Sie wählen, ob alle Attributbedingungen oder eine beliebige Bedingung erfüllt werden sollen.
 
      ![Pfadknoten aufteilen - Bedingungen für Personenfilterlogik](./assets/node-split-conditions-people.png){width="700" zoomable="yes"}
 

@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 415
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Journey Optimizer B2B edition bewertet das folgende XDM-Attribut für das E-Mail
 | --- | --- | --- | --- |
 | `consents.marketing.email.val` | Opt-in | Opt-out | Opt-in |
 
-Beachten Sie die folgenden Überlegungen für das Einverständnis per E-Mail:
+Beachten Sie Folgendes für die E-Mail-Zustimmung:
 
 * Personen, die sich global von E-Mails abgemeldet haben, können E-Mails erhalten, die als betriebsbereit markiert sind.
 * Voreinstellungen auf Abonnementebene werden nicht unterstützt.
@@ -58,7 +58,7 @@ Journey Optimizer B2B edition bewertet die folgenden XDM-Attribute für das SMS-
 | `consents.marketing.subscriptions.<senderID>` | Opt-in | Opt-out | Opt-out |
 | `consents.marketing.sms.subscriptions.<senderId>.subscribers.<phoneNumber>` | Opt-in | Opt-out | Opt-out |
 
-Beachten Sie die folgenden Überlegungen für das SMS-Einverständnis:
+Beachten Sie Folgendes für das SMS-Einverständnis:
 
 * Wenn ein Lead-(Personen-)Datensatz von der SMS abgemeldet wird, wird der Datensatz vollständig ausgeschlossen und nicht an nachgelagerte SMS-Anbieter weitergeleitet.
 * Sofern verfügbar, wird das Einverständnis auf Abonnementebene ausgewertet. Die globale Abmeldung wird als Fallback verwendet, wenn die Zustimmung auf Abonnementebene nicht verfügbar ist.
@@ -74,7 +74,7 @@ Journey Optimizer B2B edition wertet die folgenden XDM-Attribute für das WhatsA
 | `consents.marketing.whatsApp.val` | Opt-in | Opt-out | Opt-out |
 | `consents.idSpecific.Phone.<number>.marketing.whatsApp.val` | Opt-in | Opt-out | Opt-out |
 
-Beachten Sie die folgenden Überlegungen für das Einverständnis mit WhatsApp:
+Beachten Sie Folgendes für das WhatsApp-Einverständnis:
 
 * Wenn der globale WhatsApp-Attributwert (`consents.marketing.whatsApp.val`) vorhanden ist, wird er zur Einverständnisbewertung verwendet.
 * Wenn der globale Attributwert nicht vorhanden ist, aber ein absenderspezifischer Eintrag vorhanden ist, wird der absenderspezifische Eintrag zur Einverständnisbewertung verwendet.

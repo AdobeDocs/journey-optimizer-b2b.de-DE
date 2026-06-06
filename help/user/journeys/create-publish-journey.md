@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 78e4ecfbaf8eab98878f9c92dac6524fc8b30c41
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: 861
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Arbeitsbereich. In d
 * [Konto-Zielgruppenknoten](./account-audience-nodes.md)
 * [Zielgruppenknoten Person](./person-audience-nodes.md)
 
-Nachdem Sie eine Konto-Journey erstellt und die Audience hinzugefügt haben, erstellen Sie die Journey mithilfe von -Knoten. Die Journey-Zuordnung bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle mithilfe der folgenden Knotentypen erstellen können, um eine Account-Journey zu erstellen:
+Nachdem Sie eine Konto-Journey erstellt und die Zielgruppe hinzugefügt haben, entwerfen Sie die Journey mit -Knoten. Die Journey-Zuordnung bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle mithilfe der folgenden Knotentypen erstellen können, um eine Account-Journey zu erstellen:
 
 * [Durchführen einer Aktion](./action-nodes.md)
 * [Auf ein Ereignis lauschen](./listen-for-event-nodes.md)
@@ -100,7 +100,7 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 1. Klicken Sie in den Knoteneigenschaften auf der rechten Seite auf das Symbol _Löschen_ ( ![Löschsymbol](../assets/do-not-localize/icon-delete.svg) ).
 
-1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Löschen]**.
+1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.
 
 ## Hinzufügen und Löschen eines Pfads
 

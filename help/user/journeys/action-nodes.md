@@ -17,16 +17,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 2037
+source-wordcount: 2031
 ht-degree: 3%
 
 ---
 
 # Durchführen einer Aktion
 
-In Ihrem Journey können Sie einen Knoten _[!UICONTROL Aktion ausführen]_ hinzufügen, um eine Aktion auszuführen, z. B. eine E-Mail senden, einen Score ändern, einer Einkaufsgruppe zuweisen usw. Aktionen sind in der Regel das, was infolge eines Triggers geschehen soll, z. B. eines Ereignisses oder einer vorherigen Aktion.
+Um eine Aktion auszuführen, z. B. eine E-Mail zu senden, einen Score zu ändern, einer Einkaufsgruppe zuzuweisen usw., können Sie einen Knoten _[!UICONTROL Aktion ausführen]_ in Ihrem Journey hinzufügen. Aktionen sind in der Regel das, was infolge eines Triggers geschehen soll, z. B. eines Ereignisses oder einer vorherigen Aktion.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
@@ -101,7 +101,7 @@ Weitere Informationen zur Verwendung von mit dem Konto übereinstimmenden Zielgr
 
 ## Personenaktionen
 
-Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Personen, wenn Sie eine Änderung auf alle Personen im Knotenpfad anwenden möchten. Bei einer Konto-Journey kann dieser Knotentyp im Pfad „Aufspaltung nach Personen _oder_ Aufspaltungspfad nach Konten _verwendet_.
+Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Personen, wenn Sie eine Änderung auf alle Personen im Knotenpfad anwenden möchten. Bei einer Account-Journey können Sie diesen Knotentyp im Verzeichnis _Pfad aufteilen nach Personen_ oder _Pfad aufteilen nach Konten_ verwenden.
 
 ### Aktionen und Einschränkungen {#people-action-constraints}
 
@@ -109,7 +109,7 @@ Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Pe
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Hinzufügen zur externen Kundenzielgruppe] | <li>Konto-Journey <li>Personen-Journey | <li>Externe Kundenzielgruppe auswählen |
 | | [!UICONTROL Der Einkaufsgruppe zuweisen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen <li>Rolle auswählen |
-| | [!UICONTROL Punktzahl ändern] | <li>Konto-Journey | <li>Score-Name <li>Score-Änderung |
+| | [!UICONTROL Punktzahl ändern] | <li>Konto-Journey | <li>Bewertungsname <li>Score-Änderung |
 | | [!UICONTROL Interessanter Moment der Person] | <li>Konto-Journey <li>Personen-Journey | <li>Typ <li>Beschreibung |
 | | [!UICONTROL Web-Erlebnis personalisieren] (Beta) | <li>Konto-Journey | <li>Web-Erlebnis erstellen/bearbeiten |
 | | [!UICONTROL Aus Einkaufsgruppe entfernen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen |
@@ -238,7 +238,7 @@ Verwenden Sie diese Aktion, um eine E-Mail zu senden. Nachdem Sie [E-Mail erstel
 
 ![Aktion durchführen - E-Mail senden](./assets/node-action-send-email-from-marketo.png){width="300"}
 
-Für Personen-Journey können Sie [Sendezeitoptimierung) verwenden, um die &#x200B;](../content/email-send-time-optimization.md) des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil am ehesten interagieren wird.
+Verwenden Sie für Personen-Journey [Sendezeitoptimierung](../content/email-send-time-optimization.md), um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil am ehesten interagieren wird.
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ Die personenbasierten Marketo Engage-Aktionen sind so konzipiert, dass sie Ihre 
 >
 >Die Marketo Engage-Aktionen erfordern eine konfigurierte Integration mit einer oder mehreren externen Marketo Engage-Instanzen. Detaillierte Informationen zu dieser Konfiguration finden Sie unter [_Aktivieren von Marketo Engage-Verbindungen zur Unterstützung von Aktionen_](../admin/marketo-actions-connect.md).
 
-Beispielsweise können Sie Kampagnen in Marketo Engage für Personen unterdrücken, die Teil von Einkaufsgruppen in Journey Optimizer B2B edition sind. In diesem Fall können Sie in Marketo Engage eine statische Liste speziell für die Lösungsinteressen erstellen. Verwenden Sie dann auf einem Aufspaltungspfad durch Kauf der Gruppe die Aktion _Zu Marketo-Liste hinzufügen_ von einem Journey-Knoten aus. Durch diese Aktion werden kaufende Gruppenmitglieder zu einer bestimmten statischen Liste in einer verbundenen Marketo Engage-Instanz hinzugefügt. Verwenden Sie dann die lösungsorientierte statische Liste für einen Smart-Listen-Filter in Marketo Engage.
+Unterdrücken Sie beispielsweise Kampagnen in Marketo Engage für Personen, die zu Einkaufsgruppen in Journey Optimizer B2B edition gehören. In diesem Fall können Sie in Marketo Engage eine statische Liste speziell für die Lösungsinteressen erstellen. Verwenden Sie dann auf einem Aufspaltungspfad durch Kauf der Gruppe die Aktion _Zu Marketo-Liste hinzufügen_ von einem Journey-Knoten aus. Durch diese Aktion werden kaufende Gruppenmitglieder zu einer bestimmten statischen Liste in einer verbundenen Marketo Engage-Instanz hinzugefügt. Verwenden Sie dann die lösungsorientierte statische Liste für einen Smart-Listen-Filter in Marketo Engage.
 
 +++[!UICONTROL Zu Marketo-Anfragekampagne hinzufügen]
 

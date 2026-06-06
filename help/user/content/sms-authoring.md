@@ -17,9 +17,9 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T22:13:38.262Z
 TQID: https://experienceleague.adobe.com/OdjIx1STDdn3U-iJvotNKYKmuZfao6FYtZTxhRAAdlE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1343
+source-wordcount: 1306
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
 1. Fügen Sie ein Token hinzu, indem Sie auf das Pluszeichen ( **+** ) daneben klicken.
 
-   Wenn Sie das Token mit einem Fallback hinzufügen möchten (Standard, der angezeigt wird, falls dieses Feld für einen Lead nicht verfügbar ist), klicken Sie auf das Symbol _Mehr_ ( **…** ) und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**.
+   Wenn Sie das Token mit einem Fallback hinzufügen möchten, klicken Sie auf das Symbol _Mehr_ ( **…** ) und wählen Sie **[!UICONTROL Einfügen mit Fallback-Text]**. Der Fallback ist der Standard, der angezeigt wird, falls dieses Feld für einen Lead nicht verfügbar ist.
 
    ![Klicken Sie auf die Auslassungszeichen, um ein Fallback für das Token zu verwenden](./assets/sms-message-personalize-ellipsis-fallback.png){width="700" zoomable="yes"}
 
@@ -175,9 +175,9 @@ Wenn der Inhalt Ihrer Nachricht definiert ist, können Sie Testprofile verwenden
 
 ## SMS-Einverständnisverwaltung
 
-Es ist gesetzlich vorgeschrieben, den Empfängern die Möglichkeit zu geben, sich vom Erhalt von Mitteilungen einer Marke abzumelden und diese Entscheidung zu berücksichtigen. Die Nichtbeachtung dieser Vorschriften birgt rechtliche Risiken für Ihre Marke. Mit dieser Funktion vermeiden Sie auch den Versand unerwünschter Nachrichten an Ihre Empfänger, die Ihre Nachrichten als Spam markieren und Ihrer Reputation schaden könnten.
+Es ist gesetzlich vorgeschrieben, den Empfängern die Möglichkeit zu geben, sich vom Erhalt von Mitteilungen einer Marke abzumelden und diese Entscheidung zu berücksichtigen. Die Nichtbeachtung dieser Vorschriften birgt rechtliche Risiken für Ihre Marke. Mit dieser Funktion vermeiden Sie den Versand unerwünschter Nachrichten an Ihre Empfänger, die Ihre Nachrichten als Spam markieren und Ihrer Reputation schaden könnten.
 
-Wenn Sie diese Option bereitstellen, können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. Alle standardmäßigen Opt-in- und Opt-out-Keywords werden unterstützt und berücksichtigt, ebenso alle benutzerdefinierten Keywords, die mit dem SMS-Service-Provider konfiguriert sind. Bei der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
+Wenn Sie diese Option bereitstellen, können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. Alle standardmäßigen Opt-in- und Opt-out-Keywords werden unterstützt und berücksichtigt, ebenso wie alle benutzerdefinierten Keywords, die mit dem SMS-Dienstleister konfiguriert wurden. Bei der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
 
 Journey Optimizer B2B edition bietet die Möglichkeit, das Opt-out in SMS-Nachrichten mithilfe der folgenden Logik zu verwalten:
 

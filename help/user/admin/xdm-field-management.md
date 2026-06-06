@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 0470c300782176414b8af2d3290eb03e76de0665
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 79%
+source-wordcount: 1186
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ Schemata definieren Felder basierend auf standardmäßigen XDM-Profilen. Zu den 
 
 Adobe Experience Platform (AEP)-Schemata enthalten in der Regel viele Felder in komplexen Hierarchien. Das Durchlaufen von XDM-Schemastrukturen dauert einige Zeit. Die XDM-Feldverwaltung optimiert die Feldauswahl, indem nur die Felder angezeigt werden, die für Ihre Journey, Einkaufsgruppen und Personalisierung relevant sind.  Administratoren aktivieren diese Felder für die Verwendung in Journey Optimizer B2B edition, einschließlich schreibgeschützter oder bearbeitbarer Felder.
 
-Admins, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kundendatenplattform (CDP)-Datenmodellierung zusammenarbeiten, sollten die folgenden Schritte verwenden, um XDM-Felder für [!DNL Journey Optimizer B2B Edition] zu konfigurieren.
+Admins, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kundendatenplattform (CDP)-Datenmodellierung zusammenarbeiten, verwenden die folgenden Schritte, um XDM-Felder für [!DNL Journey Optimizer B2B Edition] zu konfigurieren.
 
 ## Zugriff auf XDM-Konfigurationen
 
@@ -101,7 +101,7 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 #### Aktualisierbare Felder
 
-Journey Legen Sie die aktualisierbaren Felder fest, um auszuwählen, welche Felder durch die Aktionen **[!UICONTROL Kontoprofil aktualisieren]** oder **[!UICONTROL Personenprofil aktualisieren]** geändert werden können.
+Um auszuwählen, welche Felder durch die Aktionen **[!UICONTROL Kontoprofil aktualisieren]** oder **[!UICONTROL Personenprofil aktualisieren]** Journey geändert werden, legen Sie die aktualisierbaren Felder fest.
 
 Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
@@ -138,7 +138,7 @@ Es gibt mehrere Funktionen, die die Verwendung der konfigurierten relationalen S
 
 >[!NOTE]
 >
->Diese Funktion unterstützt derzeit kontobezogene und personenbezogene Anwendungsfälle für benutzerdefinierte Objekte, wobei in Zukunft weitere vordefinierte Anwendungsfälle für Objekte unterstützt werden sollen.
+>Diese Funktion unterstützt derzeit kontobezogene und personenbezogene Anwendungsfälle für benutzerdefinierte Objekte, wobei in Zukunft weitere standardmäßige Objektanwendungsfälle unterstützt werden sollen.
 
 Sie können relationale Schemata mit dem Schema-Editor erstellen (navigieren Sie **[!UICONTROL Daten-Management]** > **[!UICONTROL Schemata]** in der linken Navigationsleiste).
 

@@ -22,10 +22,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 73%
+source-wordcount: 1321
+ht-degree: 70%
 
 ---
 
@@ -55,7 +55,7 @@ Um E-Mail-Standardwerte für die angehängte Marketo Engage-Instanz einzurichten
 
 ### Abmeldung von Nachrichten
 
-Bei nicht-operativen Marketing-E-Mails werden Text und Links zur Abmeldung unten angehängt. Als Produkt-Administrator sollten Sie die standardmäßige HTML und den Standardtext konfigurieren, der verwendet wird, wenn ein Marketer die E-Mail nicht als funktionsfähig markiert.
+Bei nicht-operativen Marketing-E-Mails werden Text und Links zur Abmeldung unten angehängt. Konfigurieren Sie als Produkt-Administrator die standardmäßige HTML und den Text, der eingefügt wird, wenn ein Marketer die E-Mail nicht als funktionsfähig markiert.
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Admin]** in der angehängten Marketo Engage-Instanz und wählen Sie **[!UICONTROL E-Mail]** aus.
 
@@ -89,7 +89,7 @@ Wenn Sie zum standardmäßigen Systeminhalt zurückkehren müssen, kopieren Sie 
 
 ### Als Web-Seite anzeigen
 
-E-Mail-Inhalte haben eingeschränkte Anzeigefunktionen (eingeschränktes CSS und keine JavaScript oder Formulare). Marketing-Experten können die Option _Als Web-Seite anzeigen_ verwenden, um mithilfe der Marketo-Munchkin ein Cookie für den E-Mail-Empfänger anzuwenden. Als Produkt-Administrator sollten Sie die standardmäßige HTML und den Standardtext konfigurieren, der eingefügt wird, wenn ein Marketer diese Option auswählt.
+E-Mail-Inhalte haben eingeschränkte Anzeigefunktionen (eingeschränktes CSS und keine JavaScript oder Formulare). Marketing-Experten können die Option _Als Web-Seite anzeigen_ verwenden, um mithilfe der Marketo-Munchkin ein Cookie für den E-Mail-Empfänger anzuwenden. Konfigurieren Sie als Produkt-Administrator die standardmäßige HTML und den Standardtext, der eingefügt wird, wenn ein Marketer diese Option auswählt.
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Admin]** in der angehängten Marketo Engage-Instanz und wählen Sie **[!UICONTROL E-Mail]** aus.
 
@@ -163,7 +163,7 @@ Feld.
    ![Marketo Engage-E-Mail-Admin - Standardeinstellungen für benutzerdefinierte Header-Optionen](./assets/me-admin-email-custom-header-options.png){width="500"}
 
    * **[!UICONTROL Strenge Transportsicherheit]** - Legen Sie diese Option auf _Aktiviert_ fest, um sicherzustellen, dass Tracking-Links immer über HTTPS bereitgestellt werden. Aktivieren Sie diese Option nur für Abonnements mit SSL-gesicherten Tracking-Links.
-   * **[!UICONTROL Max-age]** - Dieses Feld unterstützt die obligatorische Anweisung, die Zeit in Sekunden anzugeben, die der Browser daran denken soll, nur auf die Domain über HTTPS zuzugreifen.
+   * **[!UICONTROL Max-age]** - Dieses Feld unterstützt die obligatorische Anweisung, die Zeit in Sekunden anzugeben, die der Browser speichert, um nur auf die Domain über HTTPS zuzugreifen.
    * **[!UICONTROL IncludeSubDomains]** - Verwenden Sie diese Option, um die Direktive einzuschließen, die die HSTS-Richtlinie auf alle Subdomains des Hosts anwendet.
 
    >[!IMPORTANT]

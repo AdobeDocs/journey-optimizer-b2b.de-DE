@@ -15,9 +15,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T23:21:08.953Z
 TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 566
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 Wenn Sie auf den Namen für eine aktive Konto-Journey klicken, werden die Journey-Details angezeigt. Die Registerkarte _[!UICONTROL Überblick]_ enthält nützliche Informationen zum Journey, einschließlich der Zusammenfassungen der generativen KI.
 
-Dieses Dashboard bietet einen umfassenden Überblick über eine ausgewählte Account-Journey, in dem der Account-Fortschritt anhand von Kreis- und Liniendiagrammen detailliert dargestellt wird, die Abschlüsse, laufende Aktivitäten und Abbrüche im Zeitverlauf kategorisieren und quantifizieren. Es hilft Marketing-Experten, die Effektivität von E-Mail- und SMS-Kanälen durch wichtige Versand- und Interaktionsmetriken zu bewerten. E-Mail-Metriken, die für alle Journey aggregiert sind, finden Sie im [E-Mail-Leistungsbericht](../dashboards/email-performance-dashboard.md).
+Dieses Dashboard bietet einen umfassenden Überblick über eine ausgewählte Account-Journey, in dem der Account-Fortschritt anhand von Kreis- und Liniendiagrammen detailliert dargestellt wird, die Abschlüsse, laufende Aktivitäten und Abbrüche im Zeitverlauf kategorisieren und quantifizieren. Dies hilft Marketing-Teams, die Effektivität von E-Mail- und SMS-Kanälen durch wichtige Versand- und Interaktionsmetriken zu bewerten. E-Mail-Metriken, die für alle Journey aggregiert sind, finden Sie im [E-Mail-Leistungsbericht](../dashboards/email-performance-dashboard.md).
 
 Diese Übersicht ist für veröffentlichte Account-Journey verfügbar und es dauert etwa vier Stunden, bis die Daten die Diagramme und Tabellen befüllen.
 
@@ -41,9 +41,9 @@ Dieser Abschnitt enthält zwei Abschlussmetriken:
 
 ## Journey-Interaktion
 
-Dieser Abschnitt enthält zwei Abschlussmetriken:
+In diesem Abschnitt werden zwei Interaktionsmetriken vorgestellt:
 
-* **[!UICONTROL Interaktion nach Konten]** - Dieses Kreisdiagramm segmentiert die Konten auf einer Journey in _Interagiert_ und _Nicht interagiert_ Kategorien. Die zentrale Zahl zeigt die Gesamtzahl an. Diese Visualisierung bietet einen Überblick über die gesamte Account-Interaktion.
+* **[!UICONTROL Interaktion nach Konten]** - Dieses Kreisdiagramm segmentiert die Konten auf einer Journey in _Interagiert_ und _Nicht interagiert_ Kategorien. Die zentrale Zahl zeigt die Gesamtzahl an. Diese Visualisierung bietet ein schnelles Verständnis der gesamten Account-Interaktion.
 * **Interaktion nach Personen** - Diese Visualisierung zeigt die Gesamtzahl der Personen an, die als _interagiert_ in einer Journey qualifiziert sind.
 
 ## Journey-Performance
@@ -55,7 +55,7 @@ Dieser Abschnitt enthält zwei wichtige Metriken:
 
 ## E-Mail- und SMS-Leistung
 
-Die Leistungstabellen bieten einen detaillierten Überblick über die Effektivität von E-Mail- und SMS-Kanälen. Jede Tabelle enthält Metriken wie Versandraten und Clickthrough-Raten, mit denen Sie die Auswirkungen jedes Kommunikations-Touchpoints bewerten können. Die folgenden Tabellen zeigen E-Mail- und SMS-Metriken nur für diese Journey. Verwenden Sie für dieselben E-Mail-Metriken in allen Journey[s den E-Mail-Leistungsbericht](../dashboards/email-performance-dashboard.md).
+Die Leistungstabellen enthalten detaillierte Informationen zur Effektivität von E-Mail- und SMS-Kanälen. Jede Tabelle enthält Metriken wie Versandraten und Clickthrough-Raten, mit denen Sie die Auswirkungen jedes Kommunikations-Touchpoints bewerten können. Die folgenden Tabellen zeigen E-Mail- und SMS-Metriken nur für diese Journey. Verwenden Sie für dieselben E-Mail-Metriken in allen Journey[s den E-Mail-Leistungsbericht](../dashboards/email-performance-dashboard.md).
 
 **[!UICONTROL E-Mail]** Leistung) Tabellenspalten:
 
@@ -77,7 +77,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## Erweiterte Interaktion
 
-Über das Aktionssymbol (**…**) weiter mit den Daten interagieren oben rechts in jedem Diagramm oder jeder Tabelle.
+Interagieren Sie mit den Daten über das Aktionssymbol (**…**) oben rechts in jedem Diagramm oder jeder Tabelle.
 
 ### Drill-Through
 

@@ -14,7 +14,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 828
 ht-degree: 20%
@@ -91,11 +91,11 @@ Sie können WhatsApp-Nachrichtenversand auf einer Konto-Journey einrichten, wenn
 
    ![Erstellen einer WhatsApp - Registerkarte „Aktionen“](./assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Inhalt bearbeiten]**, um zu den Nachrichtenparametern und zum Text zu wechseln.
+1. Klicken Sie **[!UICONTROL Inhalt bearbeiten]**, um mit den Nachrichtenparametern und dem Text fortzufahren.
 
 ### Nachrichtenvorlage auswählen
 
-WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem Meta WhatsApp Business-Konto gesendet. **Vorlagen müssen von Meta überprüft und genehmigt werden** bevor Sie sie in Journey Optimizer B2B edition verwenden können. Arbeiten Sie mit Ihrem [!DNL Meta Business Manager]-Kontoadministrator zusammen, um Vorlagen zu verwalten und zur Genehmigung einzureichen.
+WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem Meta WhatsApp Business-Konto gesendet. **Vorlagen müssen von Meta überprüft und genehmigt werden** bevor Sie sie in Journey Optimizer B2B edition verwenden können. Wenden Sie sich an Ihren [!DNL Meta Business Manager]-Kontoadministrator, um Vorlagen zu verwalten und zur Genehmigung einzureichen.
 
 1. Wählen **[!UICONTROL für „Vorlagenkategorie]**&quot; eine der folgenden Optionen:
 
@@ -109,7 +109,7 @@ WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem 
 
    ![Ausgewählte WhatsApp-Nachrichtenvorlage mit im Vorschaufenster geladener Nachricht](./assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
-   Die Vorlagen sind nach Kategorie (_Marketing_, _Utility_ und _Authentication_) und Status organisiert. Nur **_genehmigte_** Vorlagen sind zur Auswahl verfügbar. Weitere Informationen zum Erstellen von WhatsApp-Vorlagen finden Sie unter [_Erstellen von Nachrichtenvorlagen für Ihr WhatsApp Business-Konto_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in der Dokumentation zu Meta.
+   Das System organisiert Vorlagen nach Kategorie (_Marketing_, _Dienstprogramm_ und _Authentifizierung_) und Status. Nur **_genehmigte_** Vorlagen sind zur Auswahl verfügbar. Weitere Informationen zum Erstellen von WhatsApp-Vorlagen finden Sie unter [_Erstellen von Nachrichtenvorlagen für Ihr WhatsApp Business-Konto_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343) in der Dokumentation zu Meta.
 
 ### Bild-URL
 

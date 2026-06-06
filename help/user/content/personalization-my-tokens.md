@@ -17,7 +17,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:21:17.156Z
 TQID: https://experienceleague.adobe.com/PhcREmr9HfV-uGyGUB6YRATemaGn0du0VWaGaBHUmxY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 605
 ht-degree: 2%
@@ -100,7 +100,7 @@ Wenn Sie E-Mail-Inhalte für Ihre Konto-Journey erstellen, können Sie eines der
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet. Das Dialogfeld enthält einen Ordner _[!UICONTROL Meine Token]_ in der _[!UICONTROL Personalization Tokens]_-Bibliothek, wenn benutzerdefinierte Token für die Konto-Journey definiert sind.
 
-1. Erweitern Sie den Ordner **[!UICONTROL Meine Token]** und klicken Sie dann auf **+** oder **…**, um eines Ihrer benutzerdefinierten Token zu dem Leerzeichen hinzuzufügen.
+1. Um eines Ihrer benutzerdefinierten Token zu dem Leerzeichen hinzuzufügen, erweitern Sie den Ordner **[!UICONTROL Meine Token]** und klicken Sie dann auf **+** oder **…**.
 
    Sie können bei Bedarf zusätzlichen statischen Text hinzufügen.
 

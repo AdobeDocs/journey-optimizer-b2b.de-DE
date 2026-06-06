@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 5a18693617ebd20fe3d552d9bbc236888348ad57
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 1605
 ht-degree: 12%
@@ -125,7 +125,7 @@ Das gespeicherte Ereignis wird in der Liste auf der Registerkarte _[!UICONTROL E
 
 ### Ereignis bearbeiten {#edit-an-event}
 
-Bearbeiten Sie die Ereignisdetails, um die Felder zu ändern.
+Um die Felder zu ändern, bearbeiten Sie die Ereignisdetails.
 
 1. Klicken Sie auf den Ereignisnamen oder auf das Symbol _Mehr Menü_ ( **…** ) und wählen Sie **[!UICONTROL Bearbeiten]**.
 
@@ -151,7 +151,7 @@ Um zu verhindern, dass ein Erlebnisereignis in einem Ereignisknoten _auf ein Ere
 
 [!DNL Journey Optimizer B2B Edition] werden bestimmte Aktivitäten auf Personenebene als Erlebnisereignisse [!DNL Experience Platform]. Diese Ereignisse werden in einem Systemdatensatz gespeichert, der das XDM-Erlebnisereignisschema verwendet und Journey-spezifische Feldergruppen enthält. Sie können diese Ereignisse in [!UICONTROL Journey Optimizer B2B edition] wie jedes andere Erlebnisereignis verwenden.
 
-Jedes Ereignis zeigt einen definierten Satz von Feldern, die in Journey-Knoten (_eines Ereignisses)_ werden können (Ereignisentscheidung). Überprüfen Sie die verfügbaren Ereignistypen und ihre Felder, um zu bestimmen, welches Ereignis und welche Felder in diesen Journey-Knoten verwendet werden sollen:
+Jedes Ereignis zeigt einen definierten Satz von Feldern, die in Journey-Knoten (_eines Ereignisses)_ werden können (Ereignisentscheidung). Um zu bestimmen, welches Ereignis und welche Felder in diesen Journey-Knoten verwendet werden sollen, überprüfen Sie die verfügbaren Ereignistypen und ihre Felder:
 
 ### E-Mail gesendet {#email-sent}
 

@@ -17,7 +17,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 483
 ht-degree: 0%
@@ -61,7 +61,7 @@ Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [&#x200B; Personen-
 
 1. Verwenden Sie den Umschalter **[!UICONTROL Sendezeitoptimierung]**, um die Funktion zu aktivieren.
 
-1. Legen Sie die STO-Optionen fest, um das Fenster und die Testverteilung anzugeben:
+1. Um das Fenster und die Testverteilung festzulegen, legen Sie die STO-Optionen fest:
 
    * **[!UICONTROL Senden innerhalb der nächsten]** - Dieser Wert bestimmt das Optimierungsfenster (in Tagen), das den Zeitraum angibt, in dem E-Mails zugestellt werden können. Ein Webinar, das beispielsweise in fünf Tagen stattfindet, kann vier oder fünf Tage dauern. STO wählt für jedes Profil in diesem Fenster die beste prognostizierte Versandzeit aus.
 

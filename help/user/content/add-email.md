@@ -17,9 +17,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 8226114f1a34adf85437579ef17a50b80ccfa596
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 1403
+source-wordcount: 1399
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Kno
 
    * Wählen Sie **[!UICONTROL E-Mail aus Adobe Marketo Engage auswählen]**, um eine der vorab erstellten E-Mails in Marketo Engage zu verwenden und als Teil der Journey zu senden.
 
-     Wenn in der verbundenen Market Engage-Instanz mehr als ein Workspace verfügbar ist, wählen Sie den Workspace aus. Wählen Sie dann die genehmigte E-Mail aus, die Sie für den Journey-Knoten senden möchten.
+     Wenn in der verbundenen Marketo Engage-Instanz mehr als ein Workspace verfügbar ist, wählen Sie den Workspace aus. Wählen Sie dann die genehmigte E-Mail aus, die Sie für den Journey-Knoten senden möchten.
 
      ![Marketo Engage-E-Mail auswählen](./assets/email-select-marketo.png){width="500" zoomable="yes"}
 
@@ -138,7 +138,7 @@ Es können zwei Arten von Warnhinweisen erkannt werden:
      >
      >E-Mail-Nachrichten im Marketing-Stil müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist.
 
-   * `Text version of HTML is empty`: Vergessen Sie nicht, eine Textversion Ihres E-Mail-Textkörpers zu definieren, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
+   * `Text version of HTML is empty`: Definieren Sie eine Textversion Ihres E-Mail-Textkörpers, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
 
    * `Empty link is present in email body`: Vergewissern Sie sich, dass alle Links in Ihrer E-Mail korrekt sind.
 

@@ -17,18 +17,18 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:20:15.181Z
 TQID: https://experienceleague.adobe.com/npmmJAOBjGr4QPoK5320jVjN-PDpWZ99aqN1ldljXzk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 531
 ht-degree: 6%
 
 ---
 
 # E-Mail mit Verkaufshinweis
 
-Eine _Benachrichtigungs-E-Mail_ signalisiert die Übergabe von Einkaufsgruppen an den Verkauf. Die E-Mail enthält eine Zusammenfassung der Einkaufsgruppe und Informationen über die Mitglieder der Einkaufsgruppe und ihre Aktivitäten.
+Eine _E-Mail zu Verkaufswarnungen_ signalisiert die Übertragung von Einkaufsgruppen an den Verkauf. Die E-Mail enthält eine Zusammenfassung der Einkaufsgruppe und Informationen über die Mitglieder der Einkaufsgruppe und ihre Aktivitäten.
 
-Als Marketing-Experte können Sie einen E-Mail-Knoten für Verkaufswarnungen in Ihren Account-Journey konfigurieren, um Ihr Sales-Team über den Abschluss der Journey für bestimmte Einkaufsgruppen zu informieren. Innerhalb des Knotens können Sie die E-Mail-Adressen des Vertriebsteams oder einen Verteilungsalias angeben, der eine Reihe von Konten erreicht.
+Um Ihr Verkaufsteam über den Abschluss der Journey für bestimmte Einkaufsgruppen zu informieren, können Sie einen E-Mail-Knoten für die Verkaufswarnung in Ihren Account-Journey konfigurieren. Innerhalb des Knotens können Sie die E-Mail-Adressen des Vertriebsteams oder einen Verteilungsalias angeben, der eine Reihe von Konten erreicht.
 
 >[!IMPORTANT]
 >

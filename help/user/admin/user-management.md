@@ -16,10 +16,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:47:43.575Z
 TQID: https://experienceleague.adobe.com/z1lOoYGq3iK-l-JLA4lkYN-5-PHVTBcbXDbbdvz7ooQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
 source-wordcount: 2267
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -32,7 +32,7 @@ Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Si
 1. [Bearbeiten von integrierten Rollen](#edit-roles-for-product-permissions) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit Berechtigungen für Journey Optimizer B2B edition.
 1. [Benutzer](#add-users) oder &quot;[&quot; &#x200B;](#add-user-groups-to-a-role) Rollen hinzufügen.
 
-Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html) finden Sie auf der Seite Übersicht über Admin Console .
+Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 ## Die Admin Console aufrufen
 
@@ -317,7 +317,7 @@ Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benu
 
 1. B2B-Produktberechtigungen hinzufügen:
 
-   Anhand der Liste der B2B[Produktberechtigungen können Sie &#x200B;](#b2b-product-permissions), welche Produktfunktionen Sie für die Rolle benötigen.
+   Informationen dazu, welche Produktfunktionen Sie für die Rolle verwenden möchten, finden Sie in der Liste der [B2B-Produktberechtigungen](#b2b-product-permissions).
 
    Suchen Sie in der _[!UICONTROL Ressourcen]_-Liste auf der linken Seite die **[!UICONTROL B2B]**-Elemente und klicken Sie auf das _Hinzufügen_-Symbol (**+**), um jedes Attribut hinzuzufügen, das Sie für die Rolle aktivieren möchten.
 

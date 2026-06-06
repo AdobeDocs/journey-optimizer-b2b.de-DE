@@ -21,9 +21,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
-source-wordcount: 848
+source-wordcount: 846
 ht-degree: 2%
 
 ---
@@ -115,9 +115,9 @@ Konfigurieren Sie die Änderungen so, dass sie auf das Vorhandensein der Zielele
 
 1. Die Änderung gilt, sobald das Zielelement im DOM angezeigt wird.
 
-#### Verwenden von Mutationsbeobachtern
+#### Implementieren von Mutationsbeobachtern
 
-Bei hochdynamischen Inhalten enthält Web SDK integrierte Mutationsbeobachter, die erkennen, wenn neue Elemente zur Seite hinzugefügt werden. Diese Beobachter stellen sicher, dass Änderungen auch dann angewendet werden, wenn Elemente asynchron geladen werden.
+Bei hochdynamischen Inhalten enthält Web SDK Mutationsbeobachter, die erkennen, wenn neue Elemente zur Seite hinzugefügt werden. Diese Beobachter stellen sicher, dass Änderungen auch dann angewendet werden, wenn Elemente asynchron geladen werden.
 
 ### SPA-Frameworks
 
@@ -170,12 +170,12 @@ Beim Testen von SPA-Web-Erlebnissen:
 Einige SPAs verwenden Animationen oder Übergänge zwischen Ansichten. Bedenken Sie:
 
 * **Zeitplanung** - Stellen Sie sicher, dass die Änderungen nach Abschluss der Übergangsanimationen angewendet werden.
-* **Element-Sichtbarkeit** - Elemente können vorhanden sein, sind aber bei Übergängen ausgeblendet.
+* **Element-Sichtbarkeit** - Elemente können vorhanden sein, werden jedoch bei Übergängen ausgeblendet.
 * **Flimmern** - Wenden Sie Änderungen früh genug an, um sichtbare Inhaltsänderungen zu vermeiden.
 
 ## Fehlerbehebung
 
-Wenn Sie Änderungen am SPA-Design überprüfen, verwenden Sie die folgenden Empfehlungen, um einige häufige Probleme zu beheben:
+Wenn Sie Änderungen am SPA-Design überprüfen, sollten Sie die folgenden Empfehlungen befolgen, um einige häufige Probleme zu beheben:
 
 * **Änderungen werden nicht angezeigt** - Wenn Änderungen nicht in Ihrer SPA angezeigt werden:
 

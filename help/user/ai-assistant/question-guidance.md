@@ -5,6 +5,8 @@ feature: AI Assistant
 role: User
 level: Beginner
 exl-id: 65541246-7f4f-442f-8293-df036ea1c4ac
+autotag-review: '2026-06-05T16:08:18.792Z'
+TQID: 'https://experienceleague.adobe.com/14sGSyP1nI123o2II9rkVQh-ECcEr6BcyfnMnVlrjlU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -15,10 +17,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
-source-wordcount: 895
+source-wordcount: 889
 ht-degree: 1%
 
 ---
@@ -42,13 +44,13 @@ Die folgenden Beispielfragen werden nach Zielen gruppiert, die Sie mit dem KI-As
 
 ## Formulieren von Fragen
 
-Sie müssen Ihre Fragen an den KI-Assistenten mit Klarheit und Kontext formulieren, um eine möglichst präzise Antwort zu erhalten. Eine Anleitung dazu, wie Sie im Kontext eine klare Frage stellen, finden Sie in der folgenden Liste von Tipps:
+Um eine möglichst präzise Antwort zu erhalten, stellen Sie Ihre Fragen klar und in einem klaren Kontext an den KI-Assistenten. Eine Anleitung dazu, wie Sie im Kontext eine klare Frage stellen, finden Sie in der folgenden Liste von Tipps:
 
 * Geben Sie Ihre Aufgabe und/oder Frage kurz an.
 * Vermeiden Sie mehrdeutige Sprache oder eine übermäßig komplexe Syntax, um das Verständnis zu erleichtern.
 * Geben Sie einen relevanten Kontext zu Ihrer Aufgabe und/oder Frage an, da der Kontext dazu beitragen kann, dass der KI-Assistent relevantere Antworten generiert.
 
-Die folgenden Tabellen enthalten einige Best Practices, die Sie bei der Verwendung des KI-Assistenten befolgen können:
+Die folgenden Tabellen enthalten einige Empfehlungen, denen Sie bei der Verwendung des KI-Assistenten folgen können:
 
 | Empfohlen | Beispiel |
 | --- | --- |
@@ -73,7 +75,7 @@ Die folgende Liste enthält Beispiele für Fragen, die der KI-Assistent in Journ
 * Wer hat das letzte Update auf Account Journey X gemacht?
 * Wie viele aktive Journey fügen Mitglieder der Einkaufsgruppe für Solution Interest x hinzu?
 * Welche aktiven Journey fügen Mitglieder der Einkaufsgruppe für Solution Interest x hinzu?
-* Welcher Titel ist der häufigste Entscheidungsträger bei Käufergruppenvorlagen?
+* Was ist der häufigste Titel für Entscheidungsträger bei Käufergruppenvorlagen?
 * Wer sind die Entscheidungsträger für den Kauf von Gruppenvorlagen x?
 
 ## Nächste Schritte

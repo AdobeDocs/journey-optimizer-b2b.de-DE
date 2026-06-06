@@ -21,16 +21,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 519760a981d5fd52bb5c35f6a512f9eb0ecaa1bb
+source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 80%
+source-wordcount: 849
+ht-degree: 74%
 
 ---
 
 # Checkliste einrichten
 
-Adobe Journey Optimizer B2B edition basiert auf Adobe Experience Platform. Mit dieser Implementierung befinden sich Journey Optimizer B2B edition und Marketo Engage nicht auf demselben System und in demselben Datenspeicher. Journey Optimizer B2B edition empfängt Daten von Adobe Experience Platform. Sie ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Backend-Funktionen wie E-Mail-Versand angewiesen, um das System bereitzustellen und zu konfigurieren.
+Adobe Journey Optimizer B2B edition basiert auf Adobe Experience Platform. Mit dieser Implementierung befinden sich Journey Optimizer B2B edition und Marketo Engage nicht auf demselben System oder im selben Datenspeicher. Journey Optimizer B2B edition empfängt Daten von Adobe Experience Platform. Sie ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Backend-Funktionen wie E-Mail-Versand angewiesen, um das System bereitzustellen und zu konfigurieren.
 
 <!-- 
 >>[!NOTE]
@@ -38,15 +38,15 @@ Adobe Journey Optimizer B2B edition basiert auf Adobe Experience Platform. Mit d
 >Earlier documentation referred to this deployment as the *simplified architecture*. That model is now the Journey Optimizer B2B Edition Ultimate implementation. 
 -->
 
-Diese Implementierung ist die Grundlage, auf der Funktionen in Journey Optimizer B2B edition freigeschaltet werden:
+Diese Implementierung ist die Grundlage für Funktionen in Journey Optimizer B2B edition:
 
-* **Vereinheitlichen und skalieren Sie Ihre Daten auf einfache Weise:** Die Plattform unterstützt komplexe Datenmodelle, einschließlich benutzerdefinierter Objekte, Einkaufsgruppen und Kontoereignisse.
+* **Vereinheitlichen und Skalieren Ihrer Daten:** Das System unterstützt komplexe Datenmodelle, einschließlich benutzerdefinierter Objekte, Einkaufsgruppen und Kontoereignisse.
 
-* **Mehrere Adobe Marketo Engage-Instanzen verbinden:** Verwalten und Vereinheitlichen von Daten aus mehreren Marketo Engage-Umgebungen an einem Ort.
+* **Mehrere Adobe Marketo Engage-Instanzen verbinden:** Verwalten und Vereinheitlichen von Daten aus mehreren Marketo Engage-Umgebungen.
 
 * **Schützen Sie Ihre Daten:** Erweiterte Datenschutz- und Sicherheitsfunktionen zum Schutz Ihrer Kundendaten. (_in Kürze verfügbar_)
 
-* **Für die Zukunft entwickelt:** Dieses Setup unterstützt laufende Verbesserungen und Innovationen.
+* **Design für Skalierbarkeit:** Dieses Setup unterstützt laufende Verbesserungen und Innovationen.
 
 Verwenden Sie die folgenden Konfigurationsrichtlinien.
 
@@ -262,7 +262,7 @@ Um E-Mails von [!DNL Journey Optimizer B2B Edition] aus zu senden, konfigurieren
 
 ## &#x200B;4. Konfigurieren zusätzlicher Inhaltskanäle
 
-Um Marketingexperten dabei zu unterstützen, andere Kanäle in ihre Journey aufzunehmen, konfigurieren Sie zusätzliche Kanäle.
+Um Marketing-Teams zu unterstützen, die andere Kanäle in ihren Journey einschließen, konfigurieren Sie zusätzliche Kanäle.
 
 <table>
 <thead>

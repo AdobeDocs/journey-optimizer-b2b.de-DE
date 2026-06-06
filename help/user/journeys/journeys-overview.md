@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 01ee41d681aa67052f4fd34edc86159b054c6644
+source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 44%
+source-wordcount: 1512
+ht-degree: 42%
 
 ---
 
@@ -110,7 +110,7 @@ Um die in der Tabelle angezeigten Spalten anzupassen (ein-/auszublenden), klicke
 
 ### Journey-Status
 
-Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Aktionen ändern. Je nach Status einer Journey stehen bestimmte Aktionen rechts in der Kopfzeile zur Verfügung oder nicht.
+Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Aktionen ändern. Abhängig vom Status einer Journey stehen bestimmte Aktionen rechts in der Kopfzeile zur Verfügung.
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
@@ -170,7 +170,7 @@ Wenn Sie eine Live-Journey schließen, setzen die derzeit in der Journey befindl
 
 ### Duplizieren einer Journey {#duplicate-journey}
 
-Die Aktion „Duplizieren“ ähnelt einer Klonfunktion, wobei eine duplizierte Journey aber keine erstellten Journey-Inhalts-Assets enthält. Sie können die Details für die Journey oder nur ein einfaches _der Fluss_ und Pfadstruktur duplizieren.
+Die Aktion „Duplizieren“ ähnelt einer Klonfunktion, wobei eine duplizierte Journey aber keine erstellten Journey-Inhalts-Assets enthält. Sie können die Details für die Journey oder eine einfache _Struktur_ der Fluss- und Pfadstruktur duplizieren.
 
 1. Klicken Sie auf das _Mehr_-Symbol (**…**) neben dem Journey-Namen und wählen Sie **[!UICONTROL Duplizieren]**.
 
@@ -194,7 +194,7 @@ Die Aktion „Duplizieren“ ähnelt einer Klonfunktion, wobei eine duplizierte 
 
    * **[!UICONTROL Duplizierung von Teilinhalten]**: Verwenden Sie diesen Typ, um alles in der Journey zu kopieren, ausgenommen alle erstellten E-Mails bzw. SMS-Nachrichten. Knoten, die auf eine Marketo Engage-E-Mail oder -SMS verweisen, sind vollständig intakt.
 
-   * **[!UICONTROL Ohne Details duplizieren]**: Verwenden Sie diesen Typ, um nur die Knotenstruktur und Pfade zu kopieren. Alle Knoteneinstellungen und Pfadbedingungen sind nicht definiert (Standard), sodass Sie den grundlegenden Fluss mit unterschiedlichen Einstellungen für Zielgruppen, Aktionen und Pfadsegmentierungen wiederverwenden können. Alle Knoten vom Typ _Warten_ verwenden den Standardwert von fünf Tagen.
+   * **[!UICONTROL Ohne Details duplizieren]** - Verwenden Sie diesen Typ, um nur die Knotenstruktur und die Pfade zu kopieren. Alle Knoteneinstellungen und Pfadbedingungen sind nicht definiert (Standard), sodass Sie den grundlegenden Fluss mit unterschiedlichen Einstellungen für Zielgruppen, Aktionen und Pfadsegmentierungen wiederverwenden können. Alle Knoten vom Typ _Warten_ verwenden den Standardwert von fünf Tagen.
 
 1. Klicken Sie auf **[!UICONTROL Duplizieren]**.
 
