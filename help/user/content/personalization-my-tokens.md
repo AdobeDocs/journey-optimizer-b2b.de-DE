@@ -6,12 +6,18 @@ role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
 autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 605
@@ -91,7 +97,7 @@ Wenn Sie E-Mail-Inhalte für Ihre Konto-Journey erstellen, können Sie eines der
 
 1. Wählen Sie die Textkomponente aus und klicken Sie auf das Symbol _Personalisierung hinzufügen_ ( ![Personalisierungssymbol hinzufügen](../../assets/do-not-localize/icon-personalization-field.svg) ) in der Symbolleiste.
 
-   ![Klicken Sie auf das Symbol Personalisierung hinzufügen ](./assets/email-personalize-text.png){width="600"}
+   ![Klicken Sie auf das Symbol Personalisierung hinzufügen &#x200B;](./assets/email-personalize-text.png){width="600"}
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet. Das Dialogfeld enthält einen Ordner _[!UICONTROL Meine Token]_ in der _[!UICONTROL Personalization Tokens]_-Bibliothek, wenn benutzerdefinierte Token für die Konto-Journey definiert sind.
 

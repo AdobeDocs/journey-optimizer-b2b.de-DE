@@ -7,12 +7,22 @@ badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
 autotag-review: '2026-05-27T16:20:23.362Z'
 TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2: id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86dbid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2:
+  - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
 source-wordcount: 1544
@@ -46,7 +56,7 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
    * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen anzeigen]_ - Erforderlich, um Details für einen Aktionsknoten der Web-Personalisierung anzuzeigen.
    * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen genehmigen und veröffentlichen]_ - Erforderlich zum Veröffentlichen einer Journey mit einem oder mehreren Web-Personalisierungsaktionsknoten.
 
-* Die Browser-Erweiterung „Visual Editing [ Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Journey Optimizer B2B edition Content Design Space zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
+* Die Browser-Erweiterung „Visual Editing [&#x200B; Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Journey Optimizer B2B edition Content Design Space zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
 
   >[!NOTE]
   >
@@ -62,11 +72,11 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
    Wenn Sie [!DNL Microsoft Edge] verwenden, wählen Sie _Erweiterungen zulassen_ aus anderen Stores auf dem oberen Banner aus. Durch Aktivierung dieser Option können Sie Erweiterungen aus der [!DNL Chrome Web Store] zu [!DNL Microsoft Edge] hinzufügen.
 
-1. Suchen Sie die Browser-Erweiterung _[!DNL Adobe Experience Cloud Visual Editing Helper]_und navigieren Sie zu ihr.
+1. Suchen Sie die Browser-Erweiterung _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;und navigieren Sie zu ihr.
 
    ![Adobe Experience Cloud Visual Editing Helper-Erweiterung für Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** und klicken Sie dann ]**Bestätigungsdialogfeld auf**[!UICONTROL  Erweiterung hinzufügen“.
+1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** und klicken Sie dann **Bestätigungsdialogfeld auf** Erweiterung hinzufügen“.
 
    Wenn Sie [!DNL Microsoft Edge] verwenden, fügt diese Aktion die Erweiterung zu [!DNL Edge] hinzu.
 
@@ -86,7 +96,7 @@ Die [!DNL Adobe Experience Cloud Visual Editing Helper] ist jetzt automatisch ak
 
 ## Web-Erlebnis erstellen
 
-Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen ](../journeys/action-nodes.md) Folgendes tun:
+Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen &#x200B;](../journeys/action-nodes.md) Folgendes tun:
 
 1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
 
@@ -114,7 +124,7 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
 1. Klicken Sie auf **[!UICONTROL Aktionen]** und wählen Sie den **[!UICONTROL Web-Kanal]** aus, der für das Web-Erlebnis verwendet werden soll.
 
-   Die Webkanal-Konfiguration bestimmt, wo die Inhaltsänderungen angewendet werden, basierend auf den konfigurierten Regeln zum Seitenabgleich. Weitere Informationen finden [ unter ](../admin/configure-channels-web.md) von Web-Kanälen .
+   Die Webkanal-Konfiguration bestimmt, wo die Inhaltsänderungen angewendet werden, basierend auf den konfigurierten Regeln zum Seitenabgleich. Weitere Informationen finden [&#x200B; unter &#x200B;](../admin/configure-channels-web.md) von Web-Kanälen .
 
    ![Ausgewählte Web-Kanal-Konfiguration](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
 
@@ -129,7 +139,7 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
    ![Eigenschaften für den visuellen Editor und die Umleitungs-URL umschalten](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Webseite bearbeiten]**, um [Ihre Web-Änderungen zu ](./web-experience-design.md).
+1. Klicken Sie auf **[!UICONTROL Webseite bearbeiten]**, um [Ihre Web-Änderungen zu &#x200B;](./web-experience-design.md).
 
 1. Wenn die Änderungen abgeschlossen sind, klicken Sie auf den linken Pfeil über dem Editor, um zur Registerkarte „Inhalt“ und zu den Eigenschaften des personalisierten Web-Erlebnisknotens zurückzukehren.
 
