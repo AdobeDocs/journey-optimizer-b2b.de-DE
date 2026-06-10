@@ -1,9 +1,9 @@
 ---
 title: Ausschnitte
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2343'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[&#x200B; dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist. Die Integration ist auf Repositorys der _Bereitstellungsebene“_. Wenn Sie die _Autorenebene_ verwenden und sie konvertieren möchten, wenden Sie sich an den Adobe Experience Manager-Support.<br/>
+>Lizenzen für AEM Assets as a Cloud Service und Dynamic Media-Lizenzen sind Voraussetzungen für die Integration. Stellen Sie sicher[ dass „Dynamic Media mit Open API](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} aktiviert ist. Die Integration ist auf Repositorys der _Bereitstellungsebene“_. Wenn Sie die _Autorenebene_ verwenden und sie konvertieren möchten, wenden Sie sich an den Adobe Experience Manager-Support.<br/>
 >Abhängig von Ihrem Vertrag und Ihrer Konfiguration können Sie beim Entwerfen visueller Inhalte direkt über Adobe Journey Optimizer B2B edition auf Adobe Experience Manager Assets as a Cloud Service zugreifen.
 
 ## Inhaltserstellung - Komponenten - Schritt „Strukturen“ {#structures-step}
@@ -141,7 +141,7 @@ Aktivieren Sie das Kontrollkästchen und klicken Sie auf das Farbfeld, um eine F
 
 Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte]_ Stile“ den Abschnitt **[!UICONTROL Rand]** und legen Sie die Optionen für den Randabstand in der Strukturkomponente fest. Dieser Stil repliziert den CSS-`margin`, der den Bereich außerhalb eines Komponentenrahmens steuert und ihn von anderen Komponenten trennt. Dadurch wird eine Lücke um die Komponente geschaffen, um ihre Positionierung und das Layout des umgebenden Inhalts zu beeinflussen.
 
-Legen Sie die Randwerte in Pixeln entsprechend Ihren Design-Anforderungen fest. Sie können den Rand für alle Seiten, die obere Schaltfläche, die linke oder die rechte Seite der Komponente unabhängig voneinander festlegen:
+Legen Sie die Randwerte in Pixeln entsprechend Ihren Design-Anforderungen fest. Sie können den Rand für alle Seiten, für das obere untere, das linke oder das rechte Ende oder für jede Seite der Komponente unabhängig voneinander festlegen:
 
 * **Alle Seiten** - Wenn Sie einen Wert festlegen möchten, der auf alle Seiten angewendet werden soll, deaktivieren **[!UICONTROL das Kontrollkästchen „Unterschiedlicher Rand für jede Seite]**. Klicken Sie auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern.
 
@@ -161,7 +161,7 @@ Legen Sie die Randwerte in Pixeln entsprechend Ihren Design-Anforderungen fest. 
 
 Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte]_ Stile“ den Abschnitt **[!UICONTROL Padding]** und legen Sie die Optionen für den Abstand innerhalb der Strukturkomponente fest. Dieser Stil repliziert den CSS-`padding`, der den Abstand zwischen dem Inhalt einer Komponente und ihrem Rahmen darstellt. Der Abstand sorgt für einen internen Abstand, mit dem Sie den Abstand zwischen Inhalt und Rahmen der Komponente steuern können.
 
-Legen Sie die Abstandswerte entsprechend Ihren Design-Anforderungen in Pixel fest. Sie können den Abstand für alle Seiten, die obere Schaltfläche, die linke oder die rechte Seite der Komponente unabhängig voneinander festlegen:
+Legen Sie die Abstandswerte entsprechend Ihren Design-Anforderungen in Pixel fest. Sie können den Abstand für alle Seiten, das obere untere, das linke oder das rechte Ende oder für jede Seite der Komponente unabhängig festlegen:
 
 * **Alle Seiten** - Wenn Sie einen Wert festlegen möchten, der auf alle Seiten angewendet werden soll, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Unterschiedlicher Abstand für jede Seite]**. Klicken Sie auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern.
 
@@ -231,7 +231,7 @@ Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden könne
 
 ## Inhalt - Bildauswahl - AEM Assets {#aem-assets-dam}
 
-Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu durchsuchen und &#x200B;](../user/admin/configure-aem-repositories.md).
+Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu durchsuchen und ](../user/admin/configure-aem-repositories.md).
 
 Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 

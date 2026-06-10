@@ -1,10 +1,10 @@
 ---
 title: Inhaltserstellung - Komponenten
 description: Wiederverwendbarer Abschnitt über die Verwendung von Komponenten und Inhaltselementen für die Inhaltserstellung
-source-git-commit: 6ff0d61295d46bfc0706e522ff870d99fc48e70d
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -22,13 +22,19 @@ ht-degree: 0%
 
    Die Größe einer Spalte darf nicht kleiner als 10 % der Gesamtbreite der Strukturkomponente sein. Nur leere Spalten können entfernt werden.
 
+   Weitere Informationen zur Verwendung und Formatierung dieser Komponenten finden Sie unter _[Strukturkomponenten](../user/content/structure-components.md)_.
+
 1. Erweitern Sie **[!UICONTROL Abschnitt]** Inhalte“ und fügen Sie beliebig viele Inhaltskomponenten zu einer oder mehreren Strukturkomponenten hinzu.
 
    ![Ziehen Sie ein Inhaltselement auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   <!--
-   reference to the contents elements when we have a completed reference for each.
-   -->
+   * [Container](../user/content/content-components.md#container)
+   * [Schaltfläche](../user/content/content-components.md#button)
+   * [Text](../user/content/content-components.md#text)
+   * [Trennlinie](../user/content/content-components.md#divider)
+   * [Bild](../user/content/content-components.md#image)
+   * [Social](../user/content/content-components.md#social)
+   * [Formular](../user/content/content-components.md#form) (nur Landingpages)
 
 1. Bei Bedarf können Sie auf den Registerkarten _[!UICONTROL Einstellungen“ oder „Stil]_ zusätzliche Anpassungen _[!UICONTROL jede Komponente]_.
 

@@ -1,7 +1,7 @@
 ---
 title: Inhaltserstellung - Formulare hinzufügen
 description: Wiederverwendbarer Abschnitt zum Hinzufügen von Formularen in Landingpages und Vorlagen
-source-git-commit: 97d8e5b366e8786e517c18828236f95304f3f3be
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Im folgenden Beispiel werden Schritte zum Hinzufügen eines Formulars während d
 
      >[!TIP]
      >
-     >Wenn Sie das Formular zum Herunterladen einer Datei verwenden möchten, können Sie eine URL für die gehostete Datei angeben. Mit dieser Konfiguration fungiert die Senden-Schaltfläche als Download-Schaltfläche.
+     >Wenn Sie das Formular zum Herunterladen einer Datei verwenden möchten, können Sie eine URL für die gehostete Datei angeben. Bei dieser Konfiguration fungiert die Senden-Schaltfläche als Download-Schaltfläche.
 
    ![Ändern der Folgeeinstellung](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 

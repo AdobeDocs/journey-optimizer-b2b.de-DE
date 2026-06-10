@@ -4,19 +4,15 @@ description: Erstellen, Verwalten und Wiederverwenden von visuellen Inhaltsfragm
 feature: Fragments, Content
 role: User
 exl-id: 3c1d2ca0-d009-4a2a-9d81-1a838845b7fa
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:25:36.421Z
-TQID: https://experienceleague.adobe.com/uSnmvOt0QVY4GbYxIfC0byCqvCZO8F4rMHmyoo3zIJ0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+autotag-review: '2026-05-27T16:13:50.677Z'
+TQID: 'https://experienceleague.adobe.com/Jvf48iWEQ2aOznKw2QEy33-X-q8cMfUQkbPAjgmgZqw'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 2748
 ht-degree: 3%
@@ -76,7 +72,7 @@ Um nach einem Fragment anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 ### Spaltenanzeige anpassen
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -106,7 +102,7 @@ Sie können neue visuelle Fragmente in Journey Optimizer B2B edition erstellen, 
 
 1. Verwenden Sie die Inhaltserstellungs-Tools, um den visuellen Fragmentinhalt zu erstellen:
 
-   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
+   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#design-fragment)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
@@ -198,7 +194,7 @@ Wenn das Fragment derzeit verwendet wird, wird durch die Aktion ein Informations
 
    Verwenden Sie bei Bedarf visuelle Design-Tools:
 
-   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
+   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#design-fragment)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
@@ -227,7 +223,7 @@ Wenn das Fragment derzeit verwendet wird, wird durch die Aktion ein Informations
 
    Verwenden Sie bei Bedarf visuelle Design-Tools:
 
-   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
+   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#design-fragment)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
@@ -256,7 +252,7 @@ So aktualisieren Sie den Inhalt:
 
 1. Klicken **[!UICONTROL oben]** auf „Fragment bearbeiten“. Verwenden Sie bei Bedarf visuelle Design-Tools:
 
-   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#add-structure-and-content)
+   * [Hinzufügen von Struktur und Inhalten](./fragment-authoring.md#design-fragment)
    * [Assets hinzufügen](./fragment-authoring.md#add-assets)
    * [Navigieren in den Ebenen, Einstellungen und Stilen](./fragment-authoring.md#navigate-the-layers-settings-and-styles)
    * [Personalisieren von Inhalten](./fragment-authoring.md#personalize-content)
@@ -314,7 +310,7 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 1. Navigieren Sie zu **[!UICONTROL Account-Journey]** und öffnen Sie eine bestehende Journey oder erstellen Sie eine neue Journey.
 
-1. Erstellen Sie einen [_[!UICONTROL E-Mail senden &#x200B;]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
+1. Erstellen Sie einen [_[!UICONTROL E-Mail senden ]_-Knoten](./add-email.md#add-an-email-action-node-in-a-journey).
 
 1. Erstellen oder bearbeiten [E-Mail-Inhalt für den Knoten](./email-authoring.md).
 

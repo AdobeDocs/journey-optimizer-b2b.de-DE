@@ -3,23 +3,18 @@ title: Formulare
 description: Wiederverwendbare Formulare für die Erfassung von Geschäftsdaten erstellen und verwalten - Felder entwerfen, Dankeseiten festlegen, veröffentlichen und die Nutzung in Journey Optimizer B2B edition verfolgen.
 feature: Forms, Content
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-autotag-review: 2026-03-30T22:51:56.324Z
-TQID: https://experienceleague.adobe.com/ooUYR3UcoePXYZx3KYMN9jgSXPdkOjEDYZE6-0vDock
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+autotag-review: '2026-05-27T16:11:44.937Z'
+TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 2374
+source-wordcount: 2466
 ht-degree: 1%
 
 ---
@@ -28,17 +23,27 @@ ht-degree: 1%
 
 Um Informationen von Web-Seitenbesuchern zu erfassen, erstellen Sie Formulare und fügen Sie sie Ihren Landingpages hinzu. Ein Formular ist ein Satz von Feldern, die Seitenbesucher ausfüllen und senden, um Inhalte oder Angebote abzurufen, z. B. ein Whitepaper, ein On-Demand-Webinar oder eine kostenlose Testversion.
 
-Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des Inhalts oder Angebots ab. Wenn Sie etwas Einfaches anbieten, z. B. ein Whitepaper, sollten Sie nur minimale Informationen wie Namen, E-Mail-Adresse und Firma erfassen. Wenn das Angebot einen höheren Wert aufweist, z. B. eine Demo oder eine kostenlose Testversion, können Sie weitere Informationen erfassen. Das Erfordernis eines übermittelten Formulars, um die Anzeige von Inhalten zu ermöglichen, wird als _-Inhalt_. Ihr Unternehmen entscheidet, welche Inhalte gefiltert werden sollen und welche nicht (_frei_). Es empfiehlt sich, einige Inhalte kostenlos zuzulassen und nur Premium- oder High-Demand-Inhalte zu testen.
+Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des Inhalts oder Angebots ab. Wenn Sie etwas Einfaches anbieten, z. B. ein Whitepaper, sammeln Sie nur minimale Informationen wie Name, E-Mail und Unternehmen. Wenn das Angebot einen höheren Wert aufweist, z. B. eine Demo oder eine kostenlose Testversion, können Sie weitere Informationen erfassen. Das Erfordernis eines übermittelten Formulars, um die Anzeige von Inhalten zu ermöglichen, wird als _-Inhalt_. Ihr Unternehmen entscheidet, welche Inhalte gefiltert werden sollen und welche nicht (_frei_). Es empfiehlt sich, einige Inhalte kostenlos zuzulassen und nur Premium- oder High-Demand-Inhalte zu testen.
 
-## Aufrufen und Verwalten von Formularen
+>[!PREREQUISITES]
+>
+>Bevor Marketing-Teams Formulare erstellen und verwenden können, um Informationen zu erfassen, muss ein Administrator eine oder mehrere Formularvorgaben definieren. Weitere Informationen finden Sie unter [_Forms-Konfigurationen_](../admin/configure-channels-forms.md).
+>
+>Für die Erstellung von Formularen in Journey Optimizer B2B edition sind die folgenden [Berechtigungen](../admin/user-management.md#b2b-product-permissions) erforderlich:
+>
+>* _[!UICONTROL Journey Optimizer-]_ > _[!UICONTROL B2C-Forms lesen]_ - Erforderlich für den Zugriff auf und die Anzeige von Formularen.
+>* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Verwalten von B2C-Forms]_ - Zum Erstellen, Aktualisieren und Löschen von Formularen erforderlich.
+>* _[!UICONTROL Journey Optimizer-]_ > _[!UICONTROL B2C-Forms veröffentlichen]_ - Zum Veröffentlichen von Formularen erforderlich.
 
-Um auf Formulare in Journey Optimizer B2B edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite mit allen in der Instanz erstellten Formularen, die in einer Tabelle aufgeführt sind.
+## Aufrufen und Verwalten von Formularen {#view-forms}
 
-![Zugriff auf die Forms-Bibliothek](./assets/forms-list.png){width="700" zoomable="yes"}
+Um auf Formulare in Journey Optimizer B2B edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite, auf der alle in der Instanz erstellten Formulare angezeigt werden.
 
-Die Tabelle wird nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Formulare standardmäßig oben stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
+![Zugriff auf die Forms-Bibliothek](./assets/forms-list.png){width="800" zoomable="yes"}
 
-### Formularstatus und -lebenszyklus
+Das System sortiert die Tabelle nach der Spalte _[!UICONTROL Geändert]_ in der die zuletzt aktualisierten Formulare standardmäßig oben angezeigt werden. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
+
+### Formularstatus und -lebenszyklus {#form-status}
 
 Der Formularstatus bestimmt, ob in einer Landingpage- oder Landingpage-Vorlage verfügbar ist und welche Änderungen Sie daran vornehmen können.
 
@@ -50,21 +55,21 @@ Der Formularstatus bestimmt, ob in einer Landingpage- oder Landingpage-Vorlage v
 
 ![Formularstatus-Lebenszyklus](./assets/status-lifecycle-diagram.png){zoomable="yes"}
 
-### Filtern der Formularliste
+### Filtern der Formularliste {#filter-list}
 
 Um nach einem Formular anhand des Namens zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste für eine Übereinstimmung ein. Klicken Sie auf _Filter_-Symbol ( ![Filtersymbol ein- oder ausblenden](../assets/do-not-localize/icon-filter.svg) ), um die verfügbaren Filteroptionen anzuzeigen und die Einstellungen zu ändern, um die angezeigten Elemente entsprechend Ihren angegebenen Kriterien zu filtern.
 
 ![Filtern Sie die angezeigten Formulare](./assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
-### Spaltenanzeige anpassen
+### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
 ![In der Forms-Liste anzuzeigende Spalten](./assets/forms-customize-table-dialog.png){width="300"}
 
-## Erstellen von Formularen
+## Erstellen von Formularen {#create-forms}
 
 Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in Journey Optimizer B2B edition beginnen, sollten Sie mehrere Dinge berücksichtigen:
 
@@ -86,7 +91,7 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in Journey Optimizer B2
 
   Wenn Sie einer bekannten Person, die Ihre Landingpage besucht, eine Umgehung der Formulare erlauben, kann diese einfach direkt auf den Inhalt zugreifen. Die Umgehung des Formulars bietet ein optimiertes Besuchererlebnis.
 
-### Neues Formular hinzufügen
+### Neues Formular hinzufügen {#new-form}
 
 Sie können ein Formular in Journey Optimizer B2B edition erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
 
@@ -104,31 +109,35 @@ Sie können ein Formular in Journey Optimizer B2B edition erstellen, indem Sie *
 
    ![Dialogfeld „Formular erstellen“](./assets/forms-create-dialog.png){width="400"}
 
+1. Klicken Sie **[!UICONTROL Vorgabe]** auf das Symbol _Daten auswählen_ ( ![Datensymbol auswählen](../assets/do-not-localize/icon-select-data.svg) ), um eine konfigurierte Formularvorgabe mit dem Formular zu verknüpfen.
+
+   Die Voreinstellung bestimmt, wo die Formularantworten gespeichert und reflektiert werden. Sie können eine Textzeichenfolge eingeben, um nach einer bestimmten Vorgabe zu suchen, oder sie aus der Liste auswählen.
+
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
    Die Seite mit den Formulardetails wird mit einer standardmäßigen allgemeinen Formulardefinition geöffnet.
 
    ![Standardformularinhalt](./assets/form-new-default-content.png){width="700" zoomable="yes"}
 
-### Ändern des Standardformularentwurfs
+### Ändern des Standardformularentwurfs {#design}
 
 Verwenden Sie die visuellen Design-Tools, um den Formularinhalt nach Bedarf zu ändern:
 
-* [Felder hinzufügen](./form-design.md#add-a-field)
-* [Feldstile ändern](./form-design.md#change-field-styling)
-* [Felder neu anordnen](./form-design.md#reorder-fields)
-* [Ändern des Texts und der Formatierung der Senden-Schaltfläche](./form-design.md#edit-and-style-the-submit-button)
-* [Ändern des Formularstils](./form-design.md#change-form-styling)
+* [Felder hinzufügen](./form-design.md#add-field)
+* [Feldstile ändern](./form-design.md#field-styling)
+* [Felder neu anordnen](./form-design.md#field-reorder)
+* [Ändern des Texts und der Formatierung der Senden-Schaltfläche](./form-design.md#submit-button)
+* [Ändern des Formularstils](./form-design.md#form-styling)
 
 Klicken Sie **[!UICONTROL Speichern und schließen]** um Ihre Änderungen am Formularinhalt zu speichern und zu den Formulardetails zu gelangen.
 
-### Einrichten der Dankeseite
+### Einrichten der Dankeseite {#thank-you-page}
 
 Scrollen Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite zum Abschnitt **[!UICONTROL Dankeseite]** und verwenden Sie die Einstellung **[!UICONTROL Folgenachricht]**, um zu definieren, was passiert, wenn ein Besucher das Formular sendet:
 
 * **[!UICONTROL Auf Seite bleiben]** - Wählen Sie diese Option, um den Besucher beim Senden des Formulars auf der gleichen Seite zu belassen.
 
-* **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige Journey Optimizer B2B edition- oder Marketo Engage-Landingpage als Folgemaßnahme auszuwählen.
+* **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige Journey Optimizer B2B edition-Landingpage als Folgeseite auszuwählen.
 
 * **[!UICONTROL Externe URL]** - Wählen Sie diese Option aus, um eine beliebige URL als Folgeseite anzugeben. Nachdem der Besucher das Formular gesendet hat, lädt der Browser die vorgesehene URL.
 
@@ -136,7 +145,7 @@ Scrollen Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite 
   >
   >Wenn Sie das Formular zum Herunterladen einer Datei verwenden möchten, können Sie eine URL für die gehostete Datei angeben. Bei dieser Konfiguration fungiert die Senden-Schaltfläche als Download-Schaltfläche.
 
-### Veröffentlichen des Formularentwurfs
+### Veröffentlichen des Formularentwurfs {#publish}
 
 Wenn Sie bereit sind, das Formular für eine Landingpage oder Landingpage-Vorlage verfügbar zu machen, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
@@ -144,17 +153,17 @@ Wenn Sie bereit sind, das Formular für eine Landingpage oder Landingpage-Vorlag
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Veröffentlichungsprozess abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder zur Bestätigung auf **[!UICONTROL Veröffentlichen]** klicken.
 
-## Anzeigen von Formulardetails
+## Anzeigen von Formulardetails {#view-details}
 
-Klicken Sie auf den Namen eines Formulars auf der Listenseite, um die Seite mit den Fragmentdetails zu öffnen. Sie können das Formular bearbeiten, das Formular umbenennen oder die Formularbeschreibung aktualisieren. Nehmen Sie Aktualisierungen vor und klicken Sie außerhalb des Namens- oder Beschreibungsfelds, um Änderungen automatisch zu speichern.
+Klicken Sie auf den Namen eines Formulars auf der Listenseite, um die Formulardetailseite zu öffnen. Sie können das Formular bearbeiten, das Formular umbenennen oder die Formularbeschreibung aktualisieren. Nehmen Sie Aktualisierungen vor und klicken Sie außerhalb des Namens- oder Beschreibungsfelds, um Änderungen automatisch zu speichern.
 
 >[!NOTE]
 >
->Wenn ein veröffentlichtes Formular von einer Landingpage- oder Landingpage-Vorlage verwendet wird, können Sie den Inhalt nicht bearbeiten oder die Dankeseite ändern. Sie können eine Entwurfsversion erstellen, wenn Sie Änderungen an den Formularen vornehmen möchten
+>Wenn ein veröffentlichtes Formular von einer Landingpage- oder Landingpage-Vorlage verwendet wird, können Sie den Inhalt nicht bearbeiten oder die Dankeseite ändern. Sie können eine Entwurfsversion erstellen, wenn Sie Änderungen am Formular vornehmen möchten.
 
 ![Anzeigen von Details für ein veröffentlichtes Formular](./assets/form-details-published.png){width="600" zoomable="yes"}
 
-Klicken Sie **[!UICONTROL Formular bearbeiten]**, um das Fragment im visuellen Design-Bereich zu öffnen.
+Klicken Sie **[!UICONTROL Formular bearbeiten]**, um das Formular im visuellen Design-Bereich zu öffnen.
 
 Sie können die Ansicht jederzeit verlassen, indem Sie oben links auf _Zurück_-Pfeil klicken, der Sie zur Listenseite _[!UICONTROL Forms]_ zurückbringt.
 
@@ -170,14 +179,14 @@ Klicken Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite a
 
 Verweise werden nach Kategorie angezeigt: _Landingpage_ oder _Landingpage-Vorlage_. Klicken Sie auf den Link, um die entsprechende Seite oder Vorlage zu öffnen, in der das Formular verwendet wird.
 
-## Formulare löschen
+## Formulare löschen {#delete-forms}
 
 Formulare, die derzeit von einer Landingpage oder Landingpage-Vorlage verwendet werden, können nicht gelöscht werden. Sie können die &quot;_-by“-Verweise überprüfen_ bevor Sie mit dem Entfernen eines Formulars beginnen. Außerdem kann eine Entfernung nicht rückgängig gemacht werden. Überprüfen Sie dies, bevor Sie eine Löschaktion starten.
 
 Sie können ein Formular mit einer der folgenden Methoden löschen:
 
 * Klicken Sie oben rechts auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
-* Klicken Sie auf der __ Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Löschen]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
@@ -187,14 +196,14 @@ Wenn das Formular derzeit verwendet wird, wird durch die Aktion ein Informations
 
 ![Dialogfeld „Formular löschen“ - Das verwendete Formular kann nicht gelöscht werden](./assets/form-delete-dialog-in-use.png){width="400"}
 
-## Formulare duplizieren
+## Formulare duplizieren {#duplicate-forms}
 
 Duplizieren Sie ein Formular, um schnell und einfach ein neues Formular mit einem vorhandenen Formular als Ausgangspunkt für Ihren Formularentwurf zu erstellen.
 
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
 * Klicken Sie oben rechts auf der Seite mit den Formulardetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
-* Klicken Sie auf der __ Forms **[!UICONTROL auf das Auslassungszeichen neben dem Formularnamen und wählen Sie „Duplizieren]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
 
 ![Duplizieren Sie das Formular](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -204,7 +213,7 @@ Geben Sie im Dialogfeld einen nützlichen Namen (eindeutig) und eine Beschreibun
 
 Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und das Formular für den vorgesehenen Zweck zu ändern.
 
-## Formulare bearbeiten
+## Formulare bearbeiten {#edit-forms}
 
 Änderungen an einem Formular hängen von seinem aktuellen Status ab:
 
@@ -222,17 +231,17 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 1. Ändern Sie alle Details, z. B. Namen und Beschreibung.
 
-   ![Details für Fragment mit Entwurfsstatus](./assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![Details für Formular mit Entwurfsstatus](./assets/form-details-draft.png){width="600" zoomable="yes"}
 
 1. Um Änderungen am Formular im visuellen Design vorzunehmen, klicken Sie auf **[!UICONTROL Formular bearbeiten]**.
 
    Verwenden Sie bei Bedarf visuelle Design-Tools:
 
-   * [Felder hinzufügen](./form-design.md#add-a-field)
-   * [Feldstile ändern](./form-design.md#change-field-styling)
-   * [Felder neu anordnen](./form-design.md#reorder-fields)
+   * [Felder hinzufügen](./form-design.md#add-field)
+   * [Feldstile ändern](./form-design.md#field-styling)
+   * [Felder neu anordnen](./form-design.md#field-reorder)
    * [Ändern des Texts und der Formatierung der Senden-Schaltfläche](./form-design.md#submit-button)
-   * [Ändern des Formularstils](./form-design.md#change-form-styling)
+   * [Ändern des Formularstils](./form-design.md#form-styling)
 
    Klicken Sie **[!UICONTROL Speichern und schließen]** um zu den Formulardetails zurückzukehren.
 
@@ -252,11 +261,11 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 1. Verwenden Sie die visuellen Design-Tools nach Bedarf, um den Formularinhalt zu aktualisieren:
 
-   * [Felder hinzufügen](./form-design.md#add-a-field)
-   * [Feldstile ändern](./form-design.md#change-field-styling)
-   * [Felder neu anordnen](./form-design.md#reorder-fields)
+   * [Felder hinzufügen](./form-design.md#add-field)
+   * [Feldstile ändern](./form-design.md#field-styling)
+   * [Felder neu anordnen](./form-design.md#field-reorder)
    * [Ändern des Texts und der Formatierung der Senden-Schaltfläche](./form-design.md#submit-button)
-   * [Ändern des Formularstils](./form-design.md#change-form-styling)
+   * [Ändern des Formularstils](./form-design.md#form-styling)
 
    Klicken Sie **[!UICONTROL Speichern und schließen]** um zu den Formulardetails zurückzukehren.
 
@@ -276,11 +285,11 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 1. Klicken Sie **[!UICONTROL Formular bearbeiten]** im Bereich _[!UICONTROL Zusammenfassung]_ auf der rechten Seite und verwenden Sie bei Bedarf die visuellen Design-Tools:
 
-   * [Felder hinzufügen](./form-design.md#add-a-field)
-   * [Feldstile ändern](./form-design.md#change-field-styling)
-   * [Felder neu anordnen](./form-design.md#reorder-fields)
+   * [Felder hinzufügen](./form-design.md#add-field)
+   * [Feldstile ändern](./form-design.md#field-styling)
+   * [Felder neu anordnen](./form-design.md#field-reorder)
    * [Ändern des Texts und der Formatierung der Senden-Schaltfläche](./form-design.md#submit-button)
-   * [Ändern des Formularstils](./form-design.md#change-form-styling)
+   * [Ändern des Formularstils](./form-design.md#form-styling)
 
    Klicken Sie **[!UICONTROL Speichern und schließen]** um zu den Formulardetails zurückzukehren.
 
@@ -290,18 +299,18 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 >[!ENDTABS]
 
-## Hinzufügen von Formularen zu einer Landingpage oder Vorlage
+## Hinzufügen von Formularen zu einer Landingpage oder Vorlage {#insert-forms}
 
-Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) &#x200B;](./landing-page-templates.md).
+Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) ](./landing-page-templates.md).
 
 {{$include /help/_includes/content-design-add-forms.md}}
 
-## Formularaktionen für die Seiten- und Vorlagenbearbeitung
+## Formularaktionen für die Seiten- und Vorlagenbearbeitung {#form-actions}
 
 Wenn ein Formular in einer Landingpage oder Landingpage-Vorlage enthalten ist, kann der Formularinhalt innerhalb der Seite oder Vorlage nicht geändert werden. Sie können jedoch die folgenden Aktionen anwenden:
 
-* **[!UICONTROL Löschen]** - Mit dieser Aktion wird das Formular aus dem aktuellen Seiten- oder Vorlageninhalt entfernt (die Fragmentquelle ist nicht betroffen).
-* **[!UICONTROL Duplizieren]** - Mit dieser Aktion wird das Formular innerhalb derselben Seite oder Vorlage im Editor mit denselben Dimensionen dupliziert und direkt darunter hinzugefügt.
+* **[!UICONTROL Löschen]** - Mit dieser Aktion wird das Formular aus dem aktuellen Seiten- oder Vorlageninhalt entfernt (die Formularquelle ist nicht betroffen).
+* **[!UICONTROL Duplizieren]** - Mit dieser Aktion wird das Formular im Editor dupliziert, wobei dieselben Dimensionen beibehalten werden.
 * **[!UICONTROL HTML anzeigen]** - Diese Aktion öffnet ein Popup mit der HTML für das Formular. Sie können die HTML bearbeiten oder sie zur Verwendung in anderen Web-Inhalten kopieren.
 * **[!UICONTROL Formular bearbeiten]** - Diese Aktion öffnet eine neue Browser-Registerkarte mit der Seite und den Details des Formular-Editors.
 

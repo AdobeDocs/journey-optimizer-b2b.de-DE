@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 5cc19ac1fd737b852717f069a78d5087f7fcab87
+source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 92%
+source-wordcount: '449'
+ht-degree: 89%
 
 ---
 
@@ -76,6 +76,7 @@ ht-degree: 92%
    + [Externe Zielgruppen ansprechen](./audiences/target-external-audience.md)
    + [Zugeordnete Zielgruppen des LinkedIn-Kontos](./data/linkedin-account-matched-audiences.md)
    + [XDM-Standardfelder](./admin/field-mapping.md)
+   + [Testprofile](./audiences/test-profiles.md)
 + Konten {#accounts}
    + Käufergruppen {#buying-groups}
       + [Überblick](./buying-groups/buying-groups-overview.md)
@@ -121,16 +122,17 @@ ht-degree: 92%
          + [Erweiterte HTML-Bearbeitung](./content/email-template-advanced-html.md)
          + [Konvertieren eines Bilds in eine Vorlage](./content/email-template-image-convert.md)
       + Landingpage-Vorlagen (Beta) {#landing-page-templates}
-         + {hide-from-toc}[Übersicht](./content/landing-page-templates.md)
+         + [Überblick](./content/landing-page-templates.md)
          + [Landingpage-Vorlagen-Design](./content/landing-page-template-design.md)
    + Fragmente {#visual-fragments}
       + [Überblick](./content/fragments.md)
       + [Erstellen von Fragmenten](./content/fragment-authoring.md)
-   + Formulare (Beta) {#forms}
+   + Formulare {#forms}
       + [Überblick](./content/forms.md)
       + [Formular-Design](./content/form-design.md)
-   + Landingpages (Beta) {#landing-pages}
-      + [Übersicht](./content/landing-pages.md)
+   + Landingpages {#landing-pages}
+      + [Überblick](./content/landing-pages.md)
+      + [Erstellen und Veröffentlichen](./content/landing-pages-create-publish.md)
       + [Landingpage-Design](./content/landing-page-design.md)
       + [KI-Assistent für Landingpage-Inhalte](./content/ai-assistant-landing-pages.md)
    + Tools für das Design von Inhalten {#content-design}
@@ -170,4 +172,5 @@ ht-degree: 92%
       + [SMS-Konfigurationen](./admin/configure-channels-sms.md)
       + [WhatsApp-Konfigurationen](./admin/configure-channels-whatsapp.md)
       + [Web-Kanalkonfigurationen (Beta)](./admin/configure-channels-web.md)
-      + [Landingpage-Einstellungen (Beta)](./admin/landing-page-settings.md)
+      + [Landingpage-Konfigurationen](./admin/configure-channels-landing-pages.md)
+      + [Forms-Konfigurationen](./admin/configure-channels-forms.md)

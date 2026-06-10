@@ -3,32 +3,24 @@ title: Landingpage-Design
 description: Entwerfen von Landingpages mit visuellen Tools - Hinzufügen von Inhaltskomponenten, Formularen, benutzerdefiniertem CSS, Personalisierung und Gerätevorschau für Account-Journey in Journey Optimizer B2B edition.
 feature: Landing Pages, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 9297cfb0-ec77-4b20-8f62-d50578bb4d59
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T23:18:56.836Z
 TQID: https://experienceleague.adobe.com/SXG2FrjpMlsGnofiUj1WeJ4NN3EVe1ZrcRpNdFfHwqA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: 387
-ht-degree: 6%
+source-wordcount: 411
+ht-degree: 3%
 
 ---
 
 # Landingpage-Design
 
-Nachdem Sie [Landingpage erstellt haben](./landing-pages.md#create-a-landing-page) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer Seite zu erstellen.
+Nachdem Sie [Landingpage erstellt haben](./landing-pages-create-publish.md#create-landing-page) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer Seite zu erstellen.
 
 ## Hinzufügen von Struktur und Inhalten {#structure-content-landing-page}
 
@@ -64,6 +56,18 @@ Wählen Sie bei mindestens einer Inhaltskomponente auf der Arbeitsfläche die Ko
 
 {{$include /help/_includes/content-design-links.md}}
 
+![Klicken Sie auf das Symbol Bearbeiten , um auf das Linktracking zuzugreifen](./assets/landing-page-link-tracking.png){width="400"}
+
+Verwenden Sie den **[!UICONTROL Tracking-Typ]**, um das Tracking für den Link zu steuern:
+
+* **[!UICONTROL Verfolgt]** - Aktiviert das Tracking der Link-URL.
+<!-- 
+* External Opt-out - Considers the link URL as an opt-out or unsubscription URL.
+
+* Mirror page - Considers the link URL as a mirror page URL.
+-->
+* **[!UICONTROL Nie]** - Das Tracking der Link-URL wird nie aktiviert.
+
 ### Speichern Sie Ihre Arbeit
 
 Klicken Sie **[!UICONTROL auf]**, um den Entwurf der Landingpage zu speichern.
@@ -84,7 +88,7 @@ Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen Design
 
 Im Menü _[!UICONTROL Mehr …]_ oben im visuellen Design-Bereich können Sie die folgenden Aktionen ausführen:
 
-![Klicken Sie auf Mehr , um auf Vorlagenaktionen zuzugreifen](./assets/landing-page-designer-more-menu.png){width="500"}
+![Klicken Sie auf Mehr , um auf Landingpage-Aktionen zuzugreifen](./assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL Landingpage zurücksetzen]** - Klicken Sie auf diese Option, um die visuelle Design-Arbeitsfläche zu leeren und die Erstellung Ihres Seiteninhalts neu zu starten.
 * **[!UICONTROL Design ändern]** - Kehren Sie zur Startseite von _[!UICONTROL Erstellen]_ primären Landingpage“ zurück. Dort können Sie eine andere Vorlage auswählen, um den Design-Prozess neu zu starten, oder die Seite von Grund auf auf auf einer leeren Arbeitsfläche entwerfen.

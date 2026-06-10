@@ -6,16 +6,15 @@ feature: Generative AI, Brand Identity, Content
 role: User
 level: Beginner, Intermediate
 exl-id: 9f69320e-8603-4343-80e0-052d820ba61f
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 0216cf3b1cbc1124b50ad99e649778aef71f5aca
+autotag-review: '2026-05-27T16:14:57.623Z'
+TQID: 'https://experienceleague.adobe.com/LCYTDtFTLBqRjafMWrRZI6TWfJFxRDhxWGdgBBTHYDk'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a509712a-4df0-4095-9c79-78116d8e3311
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
 source-wordcount: 497
 ht-degree: 0%
@@ -30,7 +29,7 @@ Erweitern Sie Ihre KI-Bilderstellungsfunktionen mit integrierten Modellen, benut
 - **[!UICONTROL Partnermodell]**, unterstützt durch Gemini 2.5 Flash, bietet spezielle Funktionen für bestimmte Anwendungsfälle.
 - **[!UICONTROL Benutzerdefinierte Modelle]** sind markenspezifische Modelle, die auf Ihren eigenen Assets trainiert und von Ihrem Unternehmen hinzugefügt werden.
 
-Erfahren Sie mehr über benutzerdefinierte Modelle in der Dokumentation zu [Adobe Firefly](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+Erfahren Sie mehr über benutzerdefinierte Modelle in der Dokumentation zu [Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 Marketing-Experten können jedes der aktivierten generativen Modelle auswählen, wenn sie Bilder für ihre E-Mail- oder Landingpage-Inhalte generieren.
 
@@ -80,7 +79,7 @@ Erstellen Sie benutzerdefinierte Firefly-Modelle oder verbinden Sie Drittanbiete
 
 1. Geben Sie die **[!UICONTROL Modell-ID]** ein.
 
-   Rufen Sie die Firefly-Website auf und navigieren Sie zu Ihren trainierten Modellen, um Ihre Modell-ID zu finden. Die eindeutige Kennung ist nach der Veröffentlichung im Verwaltungsabschnitt des Modells verfügbar. Weitere Informationen finden Sie in der Dokumentation zu benutzerdefinierten Modellen für [Firefly](https://helpx.adobe.com/de/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
+   Rufen Sie die Firefly-Website auf und navigieren Sie zu Ihren trainierten Modellen, um Ihre Modell-ID zu finden. Die eindeutige Kennung ist nach der Veröffentlichung im Verwaltungsabschnitt des Modells verfügbar. Weitere Informationen finden Sie in der Dokumentation zu benutzerdefinierten Modellen für [Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html){target="_blank"}.
 
 1. Geben Sie optional eine **[!UICONTROL Beschreibung]** ein, um das Modell und seine beabsichtigte Verwendung zu identifizieren.
 
