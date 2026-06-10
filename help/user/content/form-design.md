@@ -3,12 +3,16 @@ title: Formular-Design
 description: Entwerfen Sie Formulare mit Feldtypen, Validierung, Stilen und XDM-Schemaattributen für die Geschäftsdatenerfassung in Journey Optimizer B2B edition.
 feature: Forms, Content Design Tools
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
+autotag-review: '2026-05-27T16:10:55.800Z'
+TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
+  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -16,12 +20,10 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-autotag-review: 2026-03-30T22:15:18.544Z
-TQID: https://experienceleague.adobe.com/xUMPdHtj6Z4LQjGZm-R0QtJXoEXkXbbl3L49ysIZBo0
-source-git-commit: 3830e7474e7d3be9f43782dff35820563cfd9cb4
+source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 2066
-ht-degree: 1%
+source-wordcount: 2190
+ht-degree: 2%
 
 ---
 
@@ -29,31 +31,37 @@ ht-degree: 1%
 
 Nach dem [Erstellen eines Formulars](./forms.md#create-forms) wird im visuellen Design-Bereich ein Entwurf mit einer standardmäßigen allgemeinen Formulardefinition geöffnet. Klicken Sie im _[!UICONTROL Zusammenfassungsbereich]_ auf der rechten Seite auf **[!UICONTROL Formular bearbeiten]** und verwenden Sie den visuellen Design-Bereich, um die Formularstile und Feldkomponenten zu definieren.
 
-![Zugriff auf die Forms-Bibliothek](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+![Formularentwurfsbereich](./assets/form-new-design-space.png){width="700" zoomable="yes"}
+
+Die _&#x200B;**Senden**&#x200B;_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
 
 ## Felder
 
-Formularfelder werden verwendet, um Personenprofildaten zu erfassen, mit denen Personen angesprochen und mit Konten und Einkaufsgruppen verknüpft werden können. Alle neuen Formulare beginnen mit den folgenden Feldern in einem einspaltigen Layout:
-
-* Vorname
-* Last name
-* E-Mail-Adresse
-
-Verwenden Sie die Tools für den Feldentwurf, um die Felder und das Layout zu erstellen, die Sie zum Erfassen der Daten benötigen, die für Ihre Account-basierten Marketing-Aktivitäten erforderlich sind.
+Formularfelder werden verwendet, um Personenprofildaten zu erfassen, mit denen Personen angesprochen und mit Konten und Einkaufsgruppen verknüpft werden können. Verwenden Sie die Tools für den Feldentwurf, um die Felder und das Layout zu erstellen, die Sie zum Erfassen der Daten benötigen, die für Ihre Account-basierten Marketing-Aktivitäten erforderlich sind.
 
 ### Feld hinzufügen {#add-field}
 
 1. Ziehen Sie _[!UICONTROL Bedienfeld]_ Komponenten“ auf der linken Seite die Inhaltskomponente **[!UICONTROL Feld]** und legen Sie sie auf der Arbeitsfläche ab.
 
-   ![Fügen Sie eine Feldkomponente zum Formular hinzu](./assets/form-content-add-field.png){width="700" zoomable="yes"}
+   ![Fügen Sie eine Feldkomponente zum Formular hinzu](./assets/form-content-add-field.png){width="800" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Feldattribut auswählen]**.
+1. Wählen _[!UICONTROL für „Feldattribut auswählen]_ eine Option aus und legen Sie das Attribut für das Feld fest.
 
-1. Aktivieren _[!UICONTROL im Dialogfeld]_ Feldattribut auswählen“ das Kontrollkästchen für das Personenprofilattribut, das Sie für das Feld verwenden möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
+   * **[!UICONTROL Feldattribut auswählen]** - Verwenden Sie diese Option, um ein Attribut basierend auf dem Datensatzschema auszuwählen, das in der Voreinstellung für Ihr Formular definiert ist.
 
-   Die [XDM-Geschäftsschemata](../admin/field-mapping.md#xdm-business-person-attributes) bestimmen die verfügbaren Attribute.  Alle benutzerdefinierten Felder, die für Ihre Journey Optimizer B2B edition-Instanz definiert sind, sind ebenfalls verfügbar. Verwenden Sie das Textfeld Suchen , um die Liste nach Namen zu filtern, oder klicken Sie auf das Symbol Filtern , um die Liste nach Schema/Datentyp zu filtern.
+     Aktivieren _[!UICONTROL im Dialogfeld]_ Feldattribut auswählen“ das Kontrollkästchen für das Attribut, das Sie für das Feld verwenden möchten, und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-   ![Fügen Sie eine Feldkomponente zum Formular hinzu](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+     ![Fügen Sie eine ausgewählte Attributfeldkomponente zum Formular hinzu](./assets/form-field-select-attribute-filtered.png){width="700" zoomable="yes"}
+
+     Sie können beispielsweise „E-Mail“ und „Firma“ festlegen. Wenn Benutzer das Formular ausfüllen und senden, werden die eingegebenen Informationen im ausgewählten Datensatz gespeichert.
+
+     Um die erfassten Daten einem Profil zuzuordnen, wählen Sie ein Profilidentitätsfeld aus. Die Identitätsfelder sind in der Attributliste mit **[!UICONTROL Erforderlich]** gekennzeichnet, sodass Sie nach ihnen filtern können.
+
+   * **[!UICONTROL Hinzufügen eines benutzerdefinierten Felds]**
+
+     Mit dieser Option können Sie ein freies Feld definieren, ohne es einem Feld im verknüpften Datensatz zuzuordnen.
+
+     ![Hinzufügen einer benutzerdefinierten Feldkomponente zum Formular](./assets/form-field-add-custom-field.png){width="600" zoomable="yes"}
 
    Auf der Arbeitsfläche wird die Standardfeldbeschriftung für das ausgewählte Attribut auf der Arbeitsfläche eingefügt. Die **[!UICONTROL Felddetails]** werden im Bedienfeld auf der rechten Seite angezeigt.
 
@@ -63,26 +71,28 @@ Verwenden Sie die Tools für den Feldentwurf, um die Felder und das Layout zu er
 
 1. Legen Sie **[!UICONTROL Feldtyp]** entsprechend dem Datentyp für das Feld fest:
 
-   | Feldtyp | Nutzung | Beispiel |
-   | ---------- | ----- | ------- |
-   | **[!UICONTROL checkbox]** | Verwenden Sie diesen Typ, damit Besucher einen Wert _true_ (aktiviert) oder _false_ (deaktiviert) auswählen können. | |
-   | **[!UICONTROL Kontrollkästchen-Gruppe]** | Verwenden Sie diesen Typ, damit Besucher einen Wert _true_ (aktiviert) oder _false_ (deaktiviert) für mehrere Elemente auswählen können. | |
-   | **[!UICONTROL Währung]** | Verwenden Sie diesen Typ, um ein schwebendes Feld zuzulassen, das den für die Journey Optimizer B2B edition-Instanz ausgewählten Standardwährungstyp darstellt. | |
-   | **[!UICONTROL Datum]** | Verwenden Sie diesen Typ, um die Eingabe auf ein Datumsformat zu beschränken und einen Kalenderselektor in das Feld einzugeben. | |
-   | **[!UICONTROL Double]** |  | |
-   | **[!UICONTROL E-Mail]** | Verwenden Sie diesen Typ, um die Eingabe auf das Format einer E-Mail-Adresse zu beschränken. | |
-   | **[!UICONTROL Zahl]** | Verwenden Sie diesen Typ, um das Feld auf einen numerischen Wert zu beschränken. | |
-   | **[!UICONTROL Optionsfeldgruppe]** | Verwenden Sie diesen Typ, damit Besucher aus einer Reihe von Optionen auswählen können. | |
-   | **[!UICONTROL Auswählen]** | Verwenden Sie diesen Typ, damit Besucher mithilfe einer Dropdown-Liste eine aus einer Reihe von Optionen auswählen können. | |
-   | **[!UICONTROL Schieberegler]** | Verwenden Sie diesen Typ, damit Besucher einen numerischen Wert mithilfe eines Schiebereglers festlegen können. | |
-   | **[!UICONTROL Telefon]** | Verwenden Sie diesen Typ für ein Telefonnummerneingabefeld. | |
-   | **[!UICONTROL Text]** | Verwenden Sie diesen Typ für ein Eingabefeld mit Standardtext (Zeichenfolge). | |
-   | **[!UICONTROL Textarea]** | Verwenden Sie diesen Typ, um eine längere Texteingabe zu unterstützen. | |
-   | **[!UICONTROL URL]** | Verwenden Sie diesen Typ, um die Texteingabe auf eine URL zu beschränken, einschließlich des standardmäßigen URL-Protokolls. | |
+   | Feldtyp | Nutzung |
+   | ---------- | ----- |
+   | **[!UICONTROL checkbox]** | Verwenden Sie diesen Typ, damit Besucher einen Wert _true_ (aktiviert) oder _false_ (deaktiviert) auswählen können. |
+   | **[!UICONTROL Kontrollkästchen-Gruppe]** | Verwenden Sie diesen Typ, damit Besucher einen Wert _true_ (aktiviert) oder _false_ (deaktiviert) für mehrere Elemente auswählen können. |
+   | **[!UICONTROL Währung]** | Verwenden Sie diesen Typ, um ein schwebendes Feld zuzulassen, das den für die Journey Optimizer B2B edition-Instanz ausgewählten Standardwährungstyp darstellt. |
+   | **[!UICONTROL Datum]** | Verwenden Sie diesen Typ, um die Eingabe auf ein Datumsformat zu beschränken und einen Kalenderselektor in das Feld einzugeben. |
+   | **[!UICONTROL Double]** | Variable Double (Double-Precision Floating-Point), gespeichert als IEEE-64-Bit-Gleitkommazahlen (8 Byte). |
+   | **[!UICONTROL E-Mail]** | Verwenden Sie diesen Typ, um die Eingabe auf das Format einer E-Mail-Adresse zu beschränken. |
+   | **[!UICONTROL Zahl]** | Verwenden Sie diesen Typ, um das Feld auf einen numerischen Wert zu beschränken. |
+   | **[!UICONTROL Optionsfeldgruppe]** | Verwenden Sie diesen Typ, damit Besucher aus einer Reihe von Optionen auswählen können. |
+   | **[!UICONTROL Auswählen]** | Verwenden Sie diesen Typ, damit Besucher mithilfe einer Dropdown-Liste eine aus einer Reihe von Optionen auswählen können. |
+   | **[!UICONTROL Schieberegler]** | Verwenden Sie diesen Typ, damit Besucher einen numerischen Wert mithilfe eines Schiebereglers festlegen können. |
+   | **[!UICONTROL Telefon]** | Verwenden Sie diesen Typ für ein Telefonnummerneingabefeld. |
+   | **[!UICONTROL Text]** | Verwenden Sie diesen Typ für ein Eingabefeld mit Standardtext (Zeichenfolge). |
+   | **[!UICONTROL Textarea]** | Verwenden Sie diesen Typ, um eine längere Texteingabe zu unterstützen. |
+   | **[!UICONTROL URL]** | Verwenden Sie diesen Typ, um die Texteingabe auf eine URL zu beschränken, einschließlich des standardmäßigen URL-Protokolls. |
 
-1. Legen Sie je nach ausgewähltem Feldtyp die anderen Optionen für die Feldeingabe und -validierung fest:
+1. Legen Sie je nach ausgewähltem Feldtyp die anderen Optionen für die Feldeingabe und -validierung fest.
 
-   ![Legen Sie Optionen für das Feld entsprechend dem ausgewählten Feldtyp fest](./assets//form-field-details-text-type.png){width="400" zoomable="yes"}
+   ![Legen Sie Optionen für das Feld entsprechend dem ausgewählten Feldtyp fest](./assets/form-field-details-text-type.png){width="800" zoomable="yes"}
+
+   Beispielsweise hat der Feldtyp _Text_ die folgenden Optionen für die Feldeingabe und -validierung:
 
    * **[!UICONTROL Platzhalter]** - Der Platzhalterwert für das Feld, der dem Besucher ein Beispiel dafür gibt, was für das Feld erwartet wird.
 
@@ -98,15 +108,21 @@ Verwenden Sie die Tools für den Feldentwurf, um die Felder und das Layout zu er
 
    * **[!UICONTROL Validierungsmeldung]** - Verwenden Sie diese Option, um eine Validierungsmeldung für das Feld anzugeben. Diese Meldung wird angezeigt, wenn der Besucher einen ungültigen Wert für das Feld eingibt. Die _[!UICONTROL Standard]_-Nachricht ist standardmäßig festgelegt. Wählen Sie **[!UICONTROL Benutzerdefiniert]** und geben Sie Ihre eigene Nachricht ein.
 
-   * **Maximale Länge** - Geben Sie die maximale Anzahl von Zeichen ein, die in das Feld eingegeben werden können.
+   * **[!UICONTROL Maximale Länge]** - Geben Sie die maximale Anzahl von Zeichen ein, die in das Feld eingegeben werden können.
 
 1. Legen Sie **[!UICONTROL Feldverhalten]** nach Bedarf fest:
 
-   * **Erforderlich** - Aktivieren Sie das Kontrollkästchen, um die Feldeingabe durchzuführen, die zum Senden des Formulars erforderlich ist.
+   * **[!UICONTROL Erforderlich]** - Aktivieren Sie das Kontrollkästchen, um die Feldeingabe durchzuführen, die zum Senden des Formulars erforderlich ist.
 
-   * **Eingabemaske aktivieren** - Aktivieren Sie das Kontrollkästchen, um die Eingabe Ihres Besuchers mithilfe einer Eingabemaske einzuschränken. Beispielsweise können Sie möchten, dass Besuchende Telefonnummern in einem bestimmten Format eingeben. Geben Sie im Dialogfeld die Maske mithilfe von `9` für eine beliebige Zahl, `a` für einen beliebigen Buchstaben und `*` für eine dieser Zahlen ein. Klicken Sie auf Speichern , um die angegebene Eingabemaske zu aktivieren.
+   * **[!UICONTROL Groß]**/Kleinschreibung: Aktivieren Sie das Kontrollkästchen, um bei dem Feld die Groß-/Kleinschreibung zu berücksichtigen.
 
-     ![Definieren Sie eine Eingabemaske für das Feld](./assets/form-field-mask-input-dialog.png){width="500" zoomable="yes"}
+   * **[!UICONTROL Vorbefüllt aktiviert]** - Aktivieren Sie das Kontrollkästchen, um das Feld ggf. aus den Profilinformationen auszufüllen.
+
+   * **[!UICONTROL Eingabemaske aktivieren]** - Aktivieren Sie das Kontrollkästchen, um die Eingabe Ihres Besuchers mithilfe einer Eingabemaske einzuschränken. Beispielsweise können Sie möchten, dass Besuchende Telefonnummern in einem bestimmten Format eingeben. Geben Sie im Dialogfeld die Maske mithilfe von `9` für eine beliebige Zahl, `a` für einen beliebigen Buchstaben und `*` für eine dieser Zahlen ein.
+
+     ![Definieren Sie eine Eingabemaske für das Feld](./assets/form-field-mask-input-dialog.png){width="550" zoomable="yes"}
+
+     Klicken Sie **[!UICONTROL Speichern]**, um das angegebene Eingabemaske zu aktivieren.
 
 ### Feldstile ändern {#field-styling}
 
@@ -128,7 +144,7 @@ Wählen Sie die **[!UICONTROL Stile]** im rechten Bedienfeld aus, um den Stil f�
 
 * **[!UICONTROL Spanne]**: Legt Ränder (in Pixeln) um das Feld fest. Sie können denselben Rand auf allen vier Seiten festlegen oder das Kontrollkästchen **[!UICONTROL Unterschiedlicher Rand für jede Seite]** aktivieren, um die horizontalen und vertikalen Ränder separat festzulegen.
 
-* **[!UICONTROL Abstand]**: Abstand (in Pixeln) um das Feld festlegen. Sie können denselben Rand auf allen vier Seiten festlegen oder das Kontrollkästchen **[!UICONTROL Unterschiedlicher Abstand für jede Seite]** aktivieren, um die horizontalen und vertikalen Ränder separat festzulegen.
+* **[!UICONTROL Abstand]**: Abstand (in Pixeln) um das Feld festlegen. Sie können denselben Abstand auf allen vier Seiten festlegen oder das Kontrollkästchen **[!UICONTROL Unterschiedlicher Abstand für jede Seite]** aktivieren, um den horizontalen und vertikalen Abstand separat festzulegen.
 
   ![Legen Sie die Stile für Größe, Rand und Abstand für das Formularfeld fest](./assets/form-field-styles-size-margin-padding.png){width="600" zoomable="yes"}
 
@@ -150,13 +166,13 @@ Klicken Sie auf _Duplizieren_-Symbol ( ![Duplizieren-Symbol](../assets/do-not-lo
 
 ## Senden-Schaltfläche
 
-Die Senden-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Wählen Sie die Schaltflächen-/Fußzeilenkomponente im Formular aus, um Text und Stil für die Schaltfläche zu ändern.
+Die Senden-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Wählen Sie die Schaltflächen-/Fußzeilenkomponente im Formular aus, um den Text und die Formatierung für die Schaltfläche zu ändern.
 
 ### Inhalt der Schaltfläche bearbeiten {#button-content}
 
-Ändern Sie den Text im Textfeld **[!UICONTROL Schaltfläche &#x200B;]_, während die Registerkarte_[!UICONTROL Inhalt]** im rechten Bereich angezeigt wird. Die Schaltflächengröße wird an die Länge des Textes angepasst.
+Wenn die _[!UICONTROL Inhalt]_ im rechten Bereich angezeigt wird, ändern Sie den Text im Textfeld **[!UICONTROL Schaltfläche]**. Die Schaltflächengröße wird an die Länge des Textes angepasst.
 
-![Ändern des Schaltflächentextes im Formular](./assets//form-field-button-text.png){width="600" zoomable="yes"}
+![Ändern des Schaltflächentextes im Formular](./assets/form-field-button-text.png){width="600" zoomable="yes"}
 
 ### Gestalten der Senden-Schaltfläche {#button-styles}
 
@@ -176,15 +192,15 @@ Wählen Sie die **[!UICONTROL Stile]** im rechten Bedienfeld aus, um den Stil f�
 
 * **[!UICONTROL Schaltflächenausrichtung]** - Wenn Sie eine _halbe Breite_ oder _Auto_ für die Schaltfläche auswählen, legen Sie die Ausrichtung auf links, rechts oder zentriert fest. Der Abstand wird entsprechend den Größen- und Ausrichtungseinstellungen angepasst.
 
-* **[!UICONTROL Spanne]**: Legt Ränder (in Pixeln) um das Feld fest. Sie können denselben Rand auf allen vier Seiten festlegen oder das Kontrollkästchen **[!UICONTROL Unterschiedlicher Rand für jede Seite]** aktivieren, um die horizontalen und vertikalen Ränder separat festzulegen.
+* **[!UICONTROL Spanne]** - Legt Ränder (in Pixeln) um die Schaltfläche fest. Sie können denselben Rand auf allen vier Seiten festlegen oder das Kontrollkästchen **[!UICONTROL Unterschiedlicher Rand für jede Seite]** aktivieren, um die horizontalen und vertikalen Ränder separat festzulegen.
 
-* **[!UICONTROL Abstand]**: Abstand (in Pixeln) um das Feld festlegen. Sie können denselben Rand auf allen vier Seiten festlegen oder das Kontrollkästchen **[!UICONTROL Unterschiedlicher Abstand für jede Seite]** aktivieren, um die horizontalen und vertikalen Ränder separat festzulegen. Der Abstand wird angepasst, wenn Sie die Größe und die Ausrichtungseinstellungen ändern.
+* **[!UICONTROL Padding]** - Abstand (in Pixeln) um die Schaltfläche festlegen. Sie können denselben Abstand auf allen vier Seiten festlegen oder das Kontrollkästchen **[!UICONTROL Unterschiedlicher Abstand für jede Seite]** aktivieren, um den horizontalen und vertikalen Abstand separat festzulegen. Der Abstand wird angepasst, wenn Sie die Größe und die Ausrichtungseinstellungen ändern.
 
   ![Festlegen der Stile für Ausrichtung, Rand und Abstand für die Formularschaltfläche](./assets/form-button-styles-alignment-margin-padding.png){width="600" zoomable="yes"}
 
 ## Formularstil {#form-styling}
 
-Sie können die Stile für den Formularbereich ändern, wenn Sie außerhalb der Struktur- oder Formularkomponenten klicken. Die Formularkomponenten (Felder und Schaltflächen) übernehmen die _Textkörper_-Stile, die in den Stilen der obersten Ebene definiert sind, es sei denn, andere Stile werden auf Feld- oder Schaltflächen-/Fußzeilenebene definiert.
+Sie können die Stile für den Formularbereich ändern, wenn Sie außerhalb der Struktur- oder Formularkomponenten klicken. Die Formularkomponenten (Felder und Schaltflächen) übernehmen die _Textkörper_-Stile, die auf der obersten Ebene definiert sind, es sei denn, andere Stile werden auf Feld- oder Schaltflächen-/Fußzeilenebene definiert.
 
 ![Festlegen der Stile der obersten Ebene für den Formularhauptteil](./assets/form-body-styles.png){width="600" zoomable="yes"}
 
@@ -196,7 +212,7 @@ _So definieren Sie eine benutzerdefinierte CSS für das Formular :_
 
 1. Klicken Sie **[!UICONTROL rechten Bedienfeld auf]** CSS anzeigen“, um den CSS-Code zu überprüfen.
 
-   ![Legen Sie die Hintergrundfarben für das Formular fest](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
+   ![Anzeigen von CSS für das Formular](./assets/form-body-styles-view-css.png){width="450" zoomable="yes"}
 
 1. Wählen Sie den CSS-Code im Bildlauffenster aus und kopieren Sie ihn in die Zwischenablage.
 
@@ -208,7 +224,7 @@ _So definieren Sie eine benutzerdefinierte CSS für das Formular :_
 
 1. Fügen Sie den CSS-Code in das Fenster ein.
 
-   ![Legen Sie die Hintergrundfarben für das Formular fest](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
+   ![Benutzerdefiniertes CSS für das Formular hinzufügen](./assets/form-body-styles-custom-css.png){width="450" zoomable="yes"}
 
    Sie können den eingefügten Text in diesem Fenster bearbeiten.
 

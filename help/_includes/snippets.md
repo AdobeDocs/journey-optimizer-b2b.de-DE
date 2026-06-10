@@ -1,9 +1,9 @@
 ---
 title: Ausschnitte
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: cc9427f08e8231ed6250df8d7c1c95dfe08937bc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2343'
 ht-degree: 5%
 
 ---
@@ -141,7 +141,7 @@ Aktivieren Sie das Kontrollkästchen und klicken Sie auf das Farbfeld, um eine F
 
 Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte]_ Stile“ den Abschnitt **[!UICONTROL Rand]** und legen Sie die Optionen für den Randabstand in der Strukturkomponente fest. Dieser Stil repliziert den CSS-`margin`, der den Bereich außerhalb eines Komponentenrahmens steuert und ihn von anderen Komponenten trennt. Dadurch wird eine Lücke um die Komponente geschaffen, um ihre Positionierung und das Layout des umgebenden Inhalts zu beeinflussen.
 
-Legen Sie die Randwerte in Pixeln entsprechend Ihren Design-Anforderungen fest. Sie können den Rand für alle Seiten, die obere Schaltfläche, die linke oder die rechte Seite der Komponente unabhängig voneinander festlegen:
+Legen Sie die Randwerte in Pixeln entsprechend Ihren Design-Anforderungen fest. Sie können den Rand für alle Seiten, für das obere untere, das linke oder das rechte Ende oder für jede Seite der Komponente unabhängig voneinander festlegen:
 
 * **Alle Seiten** - Wenn Sie einen Wert festlegen möchten, der auf alle Seiten angewendet werden soll, deaktivieren **[!UICONTROL das Kontrollkästchen „Unterschiedlicher Rand für jede Seite]**. Klicken Sie auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern.
 
@@ -161,7 +161,7 @@ Legen Sie die Randwerte in Pixeln entsprechend Ihren Design-Anforderungen fest. 
 
 Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte]_ Stile“ den Abschnitt **[!UICONTROL Padding]** und legen Sie die Optionen für den Abstand innerhalb der Strukturkomponente fest. Dieser Stil repliziert den CSS-`padding`, der den Abstand zwischen dem Inhalt einer Komponente und ihrem Rahmen darstellt. Der Abstand sorgt für einen internen Abstand, mit dem Sie den Abstand zwischen Inhalt und Rahmen der Komponente steuern können.
 
-Legen Sie die Abstandswerte entsprechend Ihren Design-Anforderungen in Pixel fest. Sie können den Abstand für alle Seiten, die obere Schaltfläche, die linke oder die rechte Seite der Komponente unabhängig voneinander festlegen:
+Legen Sie die Abstandswerte entsprechend Ihren Design-Anforderungen in Pixel fest. Sie können den Abstand für alle Seiten, das obere untere, das linke oder das rechte Ende oder für jede Seite der Komponente unabhängig festlegen:
 
 * **Alle Seiten** - Wenn Sie einen Wert festlegen möchten, der auf alle Seiten angewendet werden soll, deaktivieren Sie das Kontrollkästchen **[!UICONTROL Unterschiedlicher Abstand für jede Seite]**. Klicken Sie auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern.
 

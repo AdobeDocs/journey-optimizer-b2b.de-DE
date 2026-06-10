@@ -1,10 +1,10 @@
 ---
 title: Inhaltserstellung - Navigation
 description: Wiederverwendeter Abschnitt zur Verwendung des Navigationsbaums für die Inhaltserstellung
-source-git-commit: 323b2d781e9ee46b71e3ea01853f6c1321739de0
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ Im folgenden Beispiel werden Schritte zum Anpassen des Abstands und der vertikal
 
 1. Klicken Sie in der Spalten-Symbolleiste auf _[!UICONTROL Spalte auswählen]_ und wählen Sie das Tool aus, das Sie bearbeiten möchten.
 
-   Sie können sie auch aus dem Strukturbaum auswählen. Die bearbeitbaren Parameter für diese Spalte werden auf den Registerkarten _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stile]_ auf der rechten Seite angezeigt.
+   Sie können sie auch im Strukturbaum auswählen. Die bearbeitbaren Parameter für diese Spalte werden auf den Registerkarten _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stile]_ auf der rechten Seite angezeigt.
 
    ![Spaltenkomponenten, die im visuellen Designer angezeigt werden](../assets/content-design-shared/content-design-layers-column-select.png){width="800" zoomable="yes"}
 

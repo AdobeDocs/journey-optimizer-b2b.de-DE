@@ -17,9 +17,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
 workflow-type: tm+mt
-source-wordcount: 3057
+source-wordcount: 3064
 ht-degree: 7%
 
 ---
@@ -165,7 +165,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
         <th style="width: 20%;">Komponenten</th>
     </tr>
     <tr>
-        <td><img width="160px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Schriftfarbe-Tool"></td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-font-color.png" alt="Schriftfarbe-Tool"></td>
         <td>Anwenden der Schriftfarbe auf den ausgewählten Text. Wählen Sie eine Farbe aus der Auswahl und verwenden Sie den Farbregler und das Farbfeld, um die Farbe auszuwählen. Sie können auch einen bekannten RGB-, HSL-, HSB- oder Hexadezimalwert eingeben. </td>
         <td><li>Schaltfläche <li>Text</td>
     </tr>
@@ -182,8 +182,8 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
         <th style="width: 20%;">Komponenten</th>
     </tr>
     <tr>
-        <td><img width="120px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Link-Tool einfügen"></td>
-        <td>Erstellen Sie einen anklickbaren Link (externe URL oder Landingpage) für den ausgewählten Text oder das ausgewählte Element.</td>
+        <td><img width="200px" src="../assets/do-not-localize/toolbar-button-insert-link.png" alt="Link-Tool einfügen"></td>
+        <td>Erstellen Sie einen anklickbaren Link für den ausgewählten Text oder das ausgewählte Element. <li>E-Mail-Inhalt - Geben Sie eine externe URL oder Landingpage an.<li>Inhalt der Landingpage - Geben Sie einen externen Link an.</td>
         <td><li>Schaltfläche <li>Text <li>Bild </td>
     </tr>
 </table>
@@ -200,7 +200,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
     </tr>
     <tr>
         <td><img width="80px" src="../assets/do-not-localize/toolbar-button-remove-link.png" alt="Link-Tool entfernen"></td>
-        <td> Entfernen Sie den anklickbaren Link (externe URL oder Landingpage) für den ausgewählten Text oder das ausgewählte Element.</td>
+        <td> Entfernen Sie den anklickbaren Link für den ausgewählten Text oder das ausgewählte Element.</td>
         <td><li>Schaltfläche <li>Text <li>Bild </td>
     </tr>
 </table>
@@ -312,7 +312,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -628,7 +628,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](/help/assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -756,7 +756,7 @@ Sie können die folgenden Stiloptionen für die Komponente _Social_ festlegen:
 
 +++
 
-### Formular (Landingpages)
+### Formular (nur Landingpages) {#form}
 
 [!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta-Funktion"}
 

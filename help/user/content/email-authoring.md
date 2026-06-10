@@ -17,10 +17,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
 workflow-type: tm+mt
-source-wordcount: 1164
-ht-degree: 7%
+source-wordcount: 1381
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt
 
    * **[!UICONTROL Manueller Stil]** - Wählen Sie diese Option, um die E-Mail im _manuellen Modus_ zu erstellen. In diesem Modus legen Sie die Formatierung für alle Struktur- und Inhaltskomponenten, die Sie der leeren Arbeitsfläche hinzufügen, manuell fest.
 
-1. [Struktur und Inhalt hinzufügen](./email-authoring.md#add-structure-and-content) zur Vorlage hinzufügen.
+1. [Struktur und Inhalt hinzufügen](./email-authoring.md#structure-content) zur Vorlage hinzufügen.
 
 1. [Links überprüfen und &#x200B;](#preview-and-edit-linked-urls).
 
@@ -141,6 +141,20 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 ### Verknüpftes URL-Tracking bearbeiten
 
 {{$include /help/_includes/content-design-links.md}}
+
+![Klicken Sie auf das Symbol Bearbeiten , um auf das Linktracking zuzugreifen](./assets/email-link-tracking.png){width="400"}
+
+Das E-Mail-Versandsystem (über Marketo Engage) verpackt beim Versand automatisch alle URLs in HTML-E-Mails mit einer eindeutigen Tracking-Umleitung. Verwenden Sie den **[!UICONTROL Tracking-Typ]**, um das Tracking für den Link zu steuern:
+
+* **[!UICONTROL Ohne Token verfolgen]** - Das System registriert den Klick, verfolgt aber, was der Benutzer als Nächstes auf der Web-Seite tut. Dies kann in bestimmten technischen Fällen wichtig sein, z. B. beim Umgang mit Drittanbietersystemen, die mkt_tok möglicherweise nicht korrekt verarbeiten. Das nachfolgende Webtracking ist jedoch eingeschränkt.
+
+* **[!UICONTROL Tracking mit mkt-tok]** - Verwenden Sie das Tracking-Token (mkt_tok), um nachfolgende Web-Aktivitäten über Munchkin zu verfolgen. Wenn ein Empfänger auf den Link klickt, registriert er ein _Klick-E-Mail_-Ereignis im Aktivitätsprotokoll, verfolgt seine Aktivitäten sicher und wendet ein Cookie an, um zukünftige Site-Interaktionen zu überwachen.
+
+* **[!UICONTROL Nicht verfolgen]** - Das System verfolgt keine mit dem Link verbundenen Aktivitäten. Dies ist nützlich, wenn die Zielseite URL-Parameter nicht unterstützt und zu einem fehlerhaften Link führen kann.
+
+  >[!NOTE]
+  >
+  >Wenn eine E-Mail vor mehr als 365 Tagen gesendet wurde und in den letzten 180 Tagen niemand auf einen ihrer Links geklickt hat, bereinigt das System die Route zur URL aus der Datenbank. Durch dieses Entfernen wird der Link unterbrochen. Wenn der Link dauerhaft sein soll, sollten Sie das Tracking deaktivieren.
 
 ### Anwenden des Dunkelmodus-Stils
 

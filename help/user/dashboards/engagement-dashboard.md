@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:44:41.871Z
 TQID: https://experienceleague.adobe.com/kPDEmNYLphx3OIt8Q7LmK3Ofjsj9Gl8giNQ2aTh9H-0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 7b884e313f584252aecc25ee813dfb6c7f5d8f15
 workflow-type: tm+mt
 source-wordcount: 561
 ht-degree: 6%
@@ -57,7 +57,7 @@ Verwenden Sie den _[!UICONTROL Datumsbereichsfilter]_ oben rechts, um die Daten 
 
 ![Filtern der angezeigten Daten nach Datumsbereich](./assets/engagement-date-filter.png){width="380"}
 
-Für den Bereich **[!UICONTROL Benutzerdefiniert]** können Sie mit dem Kalenderwerkzeug ein Start- und Enddatum angeben. Das Enddatum wird standardmäßig auf den aktuellen Tag festgelegt.
+Klicken Sie für **[!UICONTROL Bereich]** Benutzerdefiniert) auf das Symbol _Kalender_ ( ![Kalendersymbol](../assets/do-not-localize/icon-calendar.svg) ), um ein Start- und Enddatum anzugeben. Das Enddatum wird standardmäßig auf den aktuellen Tag festgelegt.
 
 ![Filtern der angezeigten Daten nach Attributen](./assets/engagement-date-filter-custom.png){width="380"}
 
@@ -105,6 +105,6 @@ Abhängig vom Diagramm gibt es erweiterte Daten für Folgendes:
 
 | Interaktion nach Konten/Einkaufsgruppen/Personen | Konten/Einkaufsgruppen/im Zeitverlauf engagierte Personen |
 | ----------------------------------------------- | -------------------------------------------------- |
-| <li>Interaktionen <li>Nicht eingestellt | <li>Datum <li>Konten / Einkaufsgruppen / Personen (Zahl) <li>Eingebunden/Nicht eingebunden |
+| <li>Eingebunden <li>Nicht eingestellt | <li>Datum <li>Konten / Einkaufsgruppen / Personen (Zahl) <li>Eingebunden/Nicht eingebunden |
 
 Um die erweiterten Daten zu kopieren, klicken Sie **[!UICONTROL oben]** auf „CSV herunterladen“.

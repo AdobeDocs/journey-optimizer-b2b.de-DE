@@ -17,7 +17,7 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:17:40.055Z
 TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1538
 ht-degree: 4%
@@ -90,7 +90,7 @@ Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu
 
    Wenn Sie außerhalb der Liste klicken, werden die Stile vom ausgewählten Design angewendet. Sie können zwischen den Farbvarianten wechseln.
 
-1. [Struktur und Inhalt hinzufügen](./email-authoring.md#add-structure-and-content) zur Vorlage hinzufügen.
+1. [Struktur und Inhalt hinzufügen](./email-authoring.md#structure-content) zur Vorlage hinzufügen.
 
    Wenn ein Design angewendet wird, erben die hinzugefügten Komponenten automatisch die im Design definierten Stile.
 
