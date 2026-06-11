@@ -18,9 +18,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 06b214f486571275d723e7a67fdf352263990b79
 workflow-type: tm+mt
-source-wordcount: 2542
+source-wordcount: 2541
 ht-degree: 3%
 
 ---
@@ -152,7 +152,7 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 | [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
 | [!UICONTROL Ereignisverlauf] | Teilt Personen auf Grundlage von Erlebnisereignissen, die vor dem Journey-Eintritt aufgetreten sind. Erweitern Sie den Ordner , um alle unter „Admin[&#x200B; > XDM-Ereigniskonfiguration“ konfigurierten Ereignistypen anzuzeigen](../admin/configure-aep-events.md) und wählen Sie einen aus, der als Filter hinzugefügt werden soll. Zu den Einschränkungen gehören Felder aus dem ausgewählten Ereignis, ein Lookback-Zeitfenster, das ab dem Zeitpunkt gemessen wird, zu dem die Person die Journey betritt, und eine optionale Mindestanzahl von Malen. |
 | [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Stadt <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Bundesland |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | (Veraltet) Die Person ist oder ist kein kaufendes Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Liste] | (Veraltet) Die Person ist oder ist nicht Mitglied in einer oder mehreren [!DNL Marketo Engage]. |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied des Programms] | (Veraltet) Die Person ist oder ist nicht Mitglied in einem oder mehreren [!DNL Marketo Engage]. |
 
