@@ -18,10 +18,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+source-git-commit: aee98a6556736490878bac00607952fa0f3b0480
 workflow-type: tm+mt
-source-wordcount: 2466
-ht-degree: 1%
+source-wordcount: 2504
+ht-degree: 2%
 
 ---
 
@@ -98,6 +98,12 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in Journey Optimizer B2
   Wenn Sie einer bekannten Person, die Ihre Landingpage besucht, eine Umgehung der Formulare erlauben, kann diese einfach direkt auf den Inhalt zugreifen. Die Umgehung des Formulars bietet ein optimiertes Besuchererlebnis.
 
 ### Neues Formular hinzufügen {#new-form}
+
+>[!CONTEXTUALHELP]
+>id="ajo-b2b_lp_form_preset"
+>title="Auswählen einer Voreinstellung"
+>abstract="Wählen Sie eine vordefinierte Voreinstellung aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Erstellen einer Formularvoreinstellung"
 
 Sie können ein Formular in Journey Optimizer B2B edition erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
 
