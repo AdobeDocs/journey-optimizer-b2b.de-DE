@@ -4,12 +4,21 @@ description: Konfigurieren Sie Experience Platform B2B-Namespaces und -Schemata 
 feature: Setup, Data Management
 role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bdid: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
-feature_v2: id: f2da1b69-6919-4386-a5d2-9c7b5c9033dbid: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+  - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+feature_v2:
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
@@ -34,7 +43,7 @@ Die Einrichtung von Journey Optimizer B2B edition umfasst die Konfiguration der 
 
 In den folgenden Ressourcen finden Sie die Voraussetzungen und detaillierte Informationen zum Einrichten Ihrer [!DNL Postman]-Umgebung zur Unterstützung des B2B-Namespace- und des Dienstprogramms zur automatischen Schemaerstellung.
 
-- Laden Sie die Sammlung und Umgebung des Dienstprogramms zur automatischen Schemaerstellung aus dem GitHub[Repository ](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
+- Laden Sie die Sammlung und Umgebung des Dienstprogramms zur automatischen Schemaerstellung aus dem GitHub[Repository &#x200B;](https://github.com/adobe/experience-platform-postman-samples/tree/master/Postman%20Collections/CDP%20Namespaces%20and%20Schemas%20Utility){target="_blank"}.
 - Informationen zur Verwendung von Experience Platform-APIs, einschließlich Details zum Erfassen von Werten für erforderliche Kopfzeilen und zum Lesen von Beispiel-API-Aufrufen, finden [_unter „Erste Schritte mit Adobe Experience Platform-APIs_](https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-guide){target="_blank"}.
 - Informationen zum Generieren Ihrer Anmeldeinformationen für Experience Platform-APIs finden Sie unter [_Authentifizieren und Zugreifen auf Experience Platform-APIs_](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication){target="_blank"}.
 - Informationen zum Einrichten von [!DNL Postman] für Experience Platform-APIs finden Sie unter [_[!DNL Postman] in Adobe Experience Platform _](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/postman){target="_blank"}.
@@ -73,7 +82,7 @@ Bei einer erfolgreichen Anfrage werden die erforderlichen B2B-Namespaces und -Sc
 
 ## B2B-Namespaces
 
-Identity-Namespaces sind eine Komponente von Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home){target="_blank"}, die dazu dienen, den Kontext einer Identität zu unterscheiden. Eine vollqualifizierte Identität enthält einen Identitätswert und einen Namespace. Weitere [ finden Sie unter ](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} von Namespaces .
+Identity-Namespaces sind eine Komponente von Experience Platform [[!DNL Identity Service]](https://experienceleague.adobe.com/de/docs/experience-platform/identity/home){target="_blank"}, die dazu dienen, den Kontext einer Identität zu unterscheiden. Eine vollqualifizierte Identität enthält einen Identitätswert und einen Namespace. Weitere [&#x200B; finden Sie unter &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces){target="_blank"} von Namespaces .
 
 B2B-Namespaces werden in der primären Identität der Entität verwendet.
 
