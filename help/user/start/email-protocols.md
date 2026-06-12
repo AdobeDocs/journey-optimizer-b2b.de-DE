@@ -18,10 +18,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 2362
-ht-degree: 80%
+source-wordcount: 2333
+ht-degree: 81%
 
 ---
 
@@ -55,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um das Tracking und den E-Mail-Versand s
 
 ## DNS-Einträge für Landingpages und E-Mails erstellen
 
-Durch Verbinden eines CNAME-Eintrags können Marketing-Fachleute Web-Versionen von E-Mails, Landingpages und Blogs mit konsistentem Branding hosten. Dadurch werden Traffic und Konversionen optimiert. Es wird dringend empfohlen, die CNAME-Einträge zu Ihrem Stamm-Domain-Host hinzuzufügen, damit Marketo Engage Ihre Marketing-orientierten Web-Assets hosten kann. Um einen CNAME-Eintrag für die Tracking-Links zu planen und zu implementieren, die in den über Marketo Engage gesendeten E-Mails enthalten sind, wenden Sie sich an Ihr Marketing-Team als Administrator.
+Durch Verbinden eines CNAME-Eintrags können Marketing-Fachleute Web-Versionen von E-Mails, Landingpages und Blogs mit konsistentem Branding hosten. Dadurch werden Traffic und Konversionen optimiert. Es wird dringend empfohlen, die CNAME-Einträge zu Ihrem Stamm-Domain-Host hinzuzufügen, damit Marketo Engage Ihre Marketing-orientierten Web-Assets hosten kann.
 
 Um zwei CNAME-Einträge zu planen und zu implementieren, wenden Sie sich als Administrator an Ihr Marketing-Team. Die erste Option ist für Landingpage-URLs gedacht, damit die Landingpages in URLs angezeigt werden, die Ihre Domain widerspiegeln, und nicht in Adobe Marketo Engage (der eigentliche Host). Die zweite Option ist für Tracking-Links vorgesehen, die in den über Marketo Engage gesendeten E-Mails enthalten sind.
 

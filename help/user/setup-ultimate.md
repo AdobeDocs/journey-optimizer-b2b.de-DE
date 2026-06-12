@@ -21,16 +21,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 848
 ht-degree: 74%
 
 ---
 
 # Checkliste einrichten
 
-Adobe Journey Optimizer B2B edition basiert auf Adobe Experience Platform. Mit dieser Implementierung befinden sich Journey Optimizer B2B edition und Marketo Engage nicht auf demselben System oder im selben Datenspeicher. Journey Optimizer B2B edition empfängt Daten von Adobe Experience Platform. Sie ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Backend-Funktionen wie E-Mail-Versand angewiesen, um das System bereitzustellen und zu konfigurieren.
+Adobe Journey Optimizer B2B edition basiert auf Adobe Experience Platform. Mit dieser Implementierung befinden sich Journey Optimizer B2B edition und Marketo Engage nicht auf demselben System oder im selben Datenspeicher. Journey Optimizer B2B edition empfängt Daten von Experience Platform. Sie ist jedoch weiterhin auf Marketo Engage-Berechtigungen und einige Backend-Funktionen wie E-Mail-Versand angewiesen, um das System bereitzustellen und zu konfigurieren.
 
 <!-- 
 >>[!NOTE]

@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1186
-ht-degree: 72%
+source-wordcount: 1185
+ht-degree: 71%
 
 ---
 
@@ -55,7 +55,7 @@ Admins, die XDM verstehen und mit Dateningenieuren oder Stakeholdern der B2B-Kun
 
 Verwenden Sie die folgende Richtlinie für die Auswahl von Feldern:
 
-* Sie können neue Felder erst hinzufügen, nachdem ein Schema aktiv auf einer Journey verwendet wurde.
+* Sie können neue Felder erst hinzufügen, nachdem ein Schema auf einer Journey verwendet wurde.
 * Das Löschen, Umbenennen oder Ändern von Feldtypen kann zu Problemen mit der Journey-Funktionalität führen. Seien Sie beim Bearbeiten von Schemata vorsichtig.
 * Umbenennen oder löschen Sie keine Schemata und ändern Sie keine Schlüssel in relationalen Schemata.
 

@@ -16,10 +16,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -144,7 +144,7 @@ Führen Sie diese Schritte aus, um SSL für Ihre bestehenden Domains zu aktivier
 
 >[!NOTE]
 >
->Wenn Sie die primäre Branding-Domain (in einem oder mehreren Arbeitsbereichen) löschen möchten, müssen Sie zunächst eine andere Branding-Domain auswählen, die als primäre Domain für jeden Arbeitsbereich fungieren soll.
+>Wenn Sie die primäre Branding-Domain (in einem oder mehreren Arbeitsbereichen) löschen möchten, wählen Sie zunächst eine andere Branding-Domain als primäre Domain für jeden Arbeitsbereich aus.
 >
 >Beim Löschen einer Domain **_nicht_** das SSL-Zertifikat gelöscht. Diese Schutzmaßnahme verhindert Benutzerfehler, die dazu führen, dass eine Website ohne SSL-Zertifikate ist. Wenn Sie die SSL-Zertifikate entfernen möchten, wenden Sie sich an den Adobe-Support.
 
