@@ -4,24 +4,17 @@ description: 'Konfigurieren Sie E-Mail-Versandprotokolle: Richten Sie in Journey
 feature: Setup, Channels
 role: Admin
 exl-id: 3d56f147-ad0a-4686-b14e-375c2eca8806
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cad51180-f8ce-4cb7-aefc-437847b5d6d6
 autotag-review: 2026-03-30T23:06:01.153Z
 TQID: https://experienceleague.adobe.com/jqvpHJeGo0BIO5N2OqLdarEOQM--etQvEoKjkNvMETs
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 2362
-ht-degree: 80%
+source-wordcount: 2333
+ht-degree: 81%
 
 ---
 
@@ -55,7 +48,7 @@ Führen Sie die folgenden Schritte aus, um das Tracking und den E-Mail-Versand s
 
 ## DNS-Einträge für Landingpages und E-Mails erstellen
 
-Durch Verbinden eines CNAME-Eintrags können Marketing-Fachleute Web-Versionen von E-Mails, Landingpages und Blogs mit konsistentem Branding hosten. Dadurch werden Traffic und Konversionen optimiert. Es wird dringend empfohlen, die CNAME-Einträge zu Ihrem Stamm-Domain-Host hinzuzufügen, damit Marketo Engage Ihre Marketing-orientierten Web-Assets hosten kann. Um einen CNAME-Eintrag für die Tracking-Links zu planen und zu implementieren, die in den über Marketo Engage gesendeten E-Mails enthalten sind, wenden Sie sich an Ihr Marketing-Team als Administrator.
+Durch Verbinden eines CNAME-Eintrags können Marketing-Fachleute Web-Versionen von E-Mails, Landingpages und Blogs mit konsistentem Branding hosten. Dadurch werden Traffic und Konversionen optimiert. Es wird dringend empfohlen, die CNAME-Einträge zu Ihrem Stamm-Domain-Host hinzuzufügen, damit Marketo Engage Ihre Marketing-orientierten Web-Assets hosten kann.
 
 Um zwei CNAME-Einträge zu planen und zu implementieren, wenden Sie sich als Administrator an Ihr Marketing-Team. Die erste Option ist für Landingpage-URLs gedacht, damit die Landingpages in URLs angezeigt werden, die Ihre Domain widerspiegeln, und nicht in Adobe Marketo Engage (der eigentliche Host). Die zweite Option ist für Tracking-Links vorgesehen, die in den über Marketo Engage gesendeten E-Mails enthalten sind.
 
@@ -251,11 +244,11 @@ Ein MX-Eintrag ermöglicht es Ihnen, E-Mails über die Domain zu empfangen, von 
 Marketo Engage stellt in Ihrem Auftrag eine ausgehende Verbindung zu einem Internetserver her. Ihr IT-Unternehmen und einige Partner/Anbieter können Zulassungslisten verwenden, um den Zugriff auf Server einzuschränken. Wenn ja, stellen Sie ihnen ausgehende IP-Adressblöcke für Marketo Engage zur Verfügung, die zu ihren Zulassungslisten hinzugefügt werden können.
 
 <!--
-Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
+Smart Campaign executes a _Call Webhook_ flow action, it makes an HTTP request to an external web service. If the web service publisher uses an allow list on the firewall of the network where the external web service is located, the publisher must add the IP address blocks listed below to their allow list. For more information, see [_Create a webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/additional-integrations/create-a-webhook){target="_blank"} and [_Call Webhook_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/call-webhook){target="_blank"} in the Marketo Engage documentation.
 
 ### CRM sync
 
-Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
+Marketo Engage Salesforce CRM Sync and Microsoft Dynamics Sync are integration mechanisms that make outbound HTTP requests to APIs published by your CRM vendor. Ensure that your IT organization does not block any of the IP address blocks below from accessing your CRM vendor APIs. For more information, see [_Add an Existing Salesforce Field to the Marketo Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/salesforce-sync/sfdc-sync-details/add-an-existing-salesforce-field-to-the-marketo-sync){target="_blank"} and [_Understanding the Microsoft Dynamics Sync_](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/crm-sync/microsoft-dynamics/understanding-the-microsoft-dynamics-sync){target="_blank"} in the Marketo Engage documentation. 
 -->
 
 ## Blöcke ausgehender IP-Adressen

@@ -4,22 +4,16 @@ description: Konfigurieren Sie Ihre Branding-Domains so, dass jede Ihrer Marken 
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-subfeature_v2:
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+subfeature_v2: id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
 workflow-type: tm+mt
-source-wordcount: 1015
-ht-degree: 83%
+source-wordcount: 1013
+ht-degree: 80%
 
 ---
 
@@ -43,7 +37,7 @@ Sie können das Domain-Branding für Rückgabepfade zwischen Ihrer Marketo Engag
 
 >[!PREREQUISITES]
 >
->Bevor Sie eine Domain in der Benutzeroberfläche bearbeiten oder hinzufügen, müssen Sie über einen [zugeordneten CNAME zu einer von Adobe bereitgestellten Marketo Engage-Domain](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} verfügen.
+>Bevor Sie eine Domain in der Benutzeroberfläche bearbeiten oder hinzufügen, müssen Sie über einen [zugeordneten CNAME zu einer von Adobe bereitgestellten Marketo Engage-Domain](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} verfügen.
 >
 >Beim Hinzufügen einer Domain sucht das System nach bereits vorhandenen SSLs, die zuvor manuell erstellt wurden. Wenn diese Validierung auftritt, erstellen Sie Ihre Domain, ohne die SSL-Erstellung auszuwählen, und verbinden Sie sie dann als separates Verfahren.
 
@@ -105,7 +99,7 @@ _Domain hinzufügen :_
 
    >[!NOTE]
    >
-   >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://experienceleague.adobe.com/de/support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
+   >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://experienceleague.adobe.com/en/support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
 
 1. Wenn Sie mehrere Arbeitsbereiche für Ihre Marketo Engage-Instanz definiert haben, klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -144,7 +138,7 @@ Führen Sie diese Schritte aus, um SSL für Ihre bestehenden Domains zu aktivier
 
 >[!NOTE]
 >
->Wenn Sie die primäre Branding-Domain (in einem oder mehreren Arbeitsbereichen) löschen möchten, müssen Sie zunächst eine andere Branding-Domain auswählen, die als primäre Domain für jeden Arbeitsbereich fungieren soll.
+>Wenn Sie die primäre Branding-Domain (in einem oder mehreren Arbeitsbereichen) löschen möchten, wählen Sie zunächst eine andere Branding-Domain als primäre Domain für jeden Arbeitsbereich aus.
 >
 >Beim Löschen einer Domain **_nicht_** das SSL-Zertifikat gelöscht. Diese Schutzmaßnahme verhindert Benutzerfehler, die dazu führen, dass eine Website ohne SSL-Zertifikate ist. Wenn Sie die SSL-Zertifikate entfernen möchten, wenden Sie sich an den Adobe-Support.
 
