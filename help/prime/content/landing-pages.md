@@ -36,7 +36,6 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
-
 ## Zugreifen auf und Verwalten von Landingpages
 
 Um auf die Landingpages in Journey Optimizer B2B Prime zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Landingpages]**. Diese Aktion zeigt eine Liste aller in der Instanz erstellten Landingpages an.
