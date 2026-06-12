@@ -1,10 +1,11 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B edition Prime und wie Sie damit ?.
-source-git-commit: 8971313434bffc57472c11a3879b683a50686db9
+hide: true
+source-git-commit: b806577e0eeb57445809e33076a0c30689ecb5ab
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 37%
+source-wordcount: '114'
+ht-degree: 40%
 
 ---
 
@@ -31,11 +32,13 @@ ht-degree: 37%
    + [Dynamische Zielgruppen-Qualifizierung](./audiences/dynamic-audience-qualification.md)
    + [Ereignisbasierte Zielgruppen](./audiences/event-based-audiences.md)
 + Inhalt {#content}
-   + [E-Mails](./content/email-authoring.md)
+   + E-Mails {#emails}
+      + [Erstellung von E-Mails](./content/email-authoring.md)
+      + [Dunkler Modus](./content/email-dark-mode.md)
    + Vorlagen {#templates}
-      + [Vorlagen - Übersicht](./content/templates.md)
+      + [Überblick](./content/templates.md)
       + [Erstellen von Vorlagen](./content/templates-create.md)
-      + [Sperren von Inhalten](./content/template-content-locking.md)
+      + [Content-Governance](./content/template-content-governance.md)
    + [Landingpages](./content/landing-pages.md)
    + [Formulare](./content/forms.md)
 + {hide-from-toc}[Verkaufskennzeichner](./sales-qualifier/sales-qualifier.md)

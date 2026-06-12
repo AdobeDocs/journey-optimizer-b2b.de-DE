@@ -1,30 +1,42 @@
 ---
 title: Erstellung von E-Mails
-description: Verwenden Sie die E-Mail-Design-Tools in Journey Optimizer B2B Prime, einschließlich E-Mail-Vorlagen, Fragmenten, Personalisierung, Designs, Dunkelmodus und Validierung.
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+description: Verwenden Sie die E-Mail-Design-Tools in Journey Optimizer B2B Prime, einschließlich E-Mail-Vorlagen, Fragmenten, Personalisierung, Dunkelmodus und Validierung.
+autotag-review: '2026-06-12T22:51:19.543Z'
+TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: 2775
 ht-degree: 2%
 
 ---
 
 # Erstellung von E-Mails
 
-In [!DNL Adobe Journey Optimizer B2B Edition] Prime bietet der E-Mail-Design-Bereich eine visuelle Arbeitsfläche, auf der Marketing-Fachleute E-Mails erstellen. Die E-Mail-Design-Tools im linken und oberen Bereich (Strukturen, Inhaltskomponenten, Vorlagen, Fragmente usw.) unterstützen die Erstellung von Grund auf per Drag-and-Drop. Sie können auch mit einer Vorlage beginnen, unformatierte HTML einfügen oder Nachrichten aus wiederverwendbaren visuellen Fragmenten zusammenstellen.
+[!DNL Adobe Journey Optimizer B2B Prime] bietet der E-Mail-Design-Bereich eine visuelle Arbeitsfläche, auf der Marketing-Experten E-Mails erstellen. Die E-Mail-Design-Tools im linken und oberen Bereich (Strukturen, Inhaltskomponenten, Vorlagen, Fragmente usw.) unterstützen die Erstellung von Grund auf per Drag-and-Drop. Sie können auch mit einer Vorlage beginnen, unformatierte HTML einfügen oder Nachrichten aus wiederverwendbaren visuellen Fragmenten zusammenstellen.
 
 >[!IMPORTANT]
 >
 >Informationen zum Einrichten von Subdomains, Authentifizierung, IP-Pools und E-Mail-Kanal-Konfigurationen durch Administratoren finden Sie unter [E-Mail-Zustellbarkeit und Kanalkonfiguration](../admin/configuration-email-deliverability.md).
 
-In [!DNL Journey Optimizer B2B Edition] Prime ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [&#x200B; Knoten _E-Mail senden_ zu &#x200B;](../marketing/person-journey-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Design-Prozess für E-Mail-Inhalte zu starten.
+[!DNL Journey Optimizer B2B Prime] ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [&#x200B; Knoten _E-Mail senden_ zu &#x200B;](../marketing/person-journey-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Design-Prozess für E-Mail-Inhalte zu starten.
 
-
-
-Diese Aktion startet die E-Mail-Design-Tools, in denen Sie aus den folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
+Diese Aktion startet den E-Mail-Design-Bereich, in dem Sie anhand der folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
 * [Erstellen Sie Ihre E-Mail von Grund &#x200B;](#design-your-email-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
 
-* [Codieren Sie oder fügen Sie Ihre rohe &#x200B;](#html)-Datei in den Code-Editor ein oder arbeiten Sie Seite an Seite mit der visuellen Arbeitsfläche.
+* [Importieren Sie HTML](#html) in den Code-Editor oder arbeiten Sie nebeneinander mit der visuellen Arbeitsfläche.
 
   <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
 
@@ -38,6 +50,20 @@ Diese Aktion startet die E-Mail-Design-Tools, in denen Sie aus den folgenden Opt
 * **Linke Leiste:** (Spaltenlayouts), Inhalte (Text, Schaltfläche, Bild, Trennlinie, Social, HTML), Fragmente, Vorlagen, Navigationsbaum (DOM-Hierarchie der E-Mail).
 * **Arbeitsfläche zentrieren:** WYSIWYG-Editor mit Desktop- und Mobile-Vorschau.
 * **Rechte Leiste** Einstellungen und Stile für die aktuell ausgewählte Komponente, einschließlich Inhaltseigenschaften, Hintergrund, Rahmen, Abstand und Personalisierung.
+
+## Best Practices für das E-Mail-Design {#design-best-practices}
+
+Die Befolgung der Best Practices für HTML und CSS hilft bei der Sicherstellung eines konsistenten Renderings auf allen E-Mail-Clients.
+
+| Ansatz | Leitlinien |
+| -------- | -------- |
+| **Empfohlen** | Statische, tabellenbasierte Layouts ・ HTML-Tabellen und verschachtelte Tabellen ・ Vorlagenbreiten von 600-800 px ・ Einfaches Inline-CSS ・ Web-sichere Schriftarten |
+| **Vorsicht bei der Anwendung** | Hintergrundbilder (eingeschränkte Client-Unterstützung) ・ Benutzerdefinierte Webschriftarten (immer eine Ersatzschriftart definieren) ・ Layouts mit mehr als 800 Pixel ・ Imagemaps |
+| **Vermeiden** | JavaScript, iFrames oder Flash ・ Eingebettete Audio- oder Videodateien ・ HTML-Formulare ・ Div-basierte Layouts |
+
+>[!NOTE]
+>
+>E-Mail-Inhalte müssen außerdem die entsprechenden Anforderungen an die digitale Barrierefreiheit erfüllen. Strukturüberschriften sind logisch, bieten alternativen Text für alle Bilder und überprüfen den Farbkontrast sowohl im hellen als auch im dunklen Modus.
 
 ## Erstellen einer E-Mail von einer Journey {#email-from-journey}
 
@@ -119,7 +145,7 @@ Vorlagen sind wiederverwendbare E-Mail-Layouts. Sie beschleunigen die E-Mail-Ers
 * **Beispielvorlagen (Out-of-the-Box).** Rund 20 vorgefertigte Vorlagen für gängige Anwendungsfälle (Account-basierte Kontaktaufnahme, Ereigniseinladungen, Pflege, Produktankündigungen). Sofort für jeden Kunden verfügbar.
 * **Gespeicherte Vorlagen (benutzerdefiniert).** Von Ihrem Team erstellte Vorlagen - entweder von Grund auf neu unter **[!UICONTROL Content-Management]** → **[!UICONTROL Vorlagen]** oder über eine vorhandene E-Mail mithilfe der Option „Als Vorlage speichern“ gespeichert.
 
-### Schritt für Schritt: Erstellen einer E-Mail aus einer Vorlage {#create-from-template}
+### Erstellen einer E-Mail aus einer Vorlage {#create-from-template}
 
 1. Klicken Sie im E-Mail-Knoten Journey auf **[!UICONTROL Inhalt bearbeiten]** → **[!UICONTROL E-Mail-Textkörper]**.
 1. Auf dem Bildschirm E-Mail erstellen ist **[!UICONTROL Registerkarte]** Beispielvorlagen“ standardmäßig ausgewählt.
@@ -130,7 +156,7 @@ Vorlagen sind wiederverwendbare E-Mail-Layouts. Sie beschleunigen die E-Mail-Ers
 1. Text, Bilder und Links anpassen. Die von der Vorlage geerbte Struktur kann wie eine neue E-Mail geändert werden.
 1. Klicken Sie auf **[!UICONTROL Speichern]** → **[!UICONTROL Zurück]**, um zu den E-Mail-Eigenschaften zurückzukehren.
 
-### Schritt für Schritt: Erstellen einer wiederverwendbaren Vorlage {#create-reusable-template}
+### Erstellen einer wiederverwendbaren Vorlage {#create-reusable-template}
 
 1. Navigieren Sie zu **[!UICONTROL Content-]**→ **[!UICONTROL Vorlagen]**.
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**.
@@ -142,7 +168,7 @@ Vorlagen sind wiederverwendbare E-Mail-Layouts. Sie beschleunigen die E-Mail-Ers
    * Spezifische Komponenten sperren - Machen Sie einzelne Komponenten bei Verwendung in einer E-Mail schreibgeschützt.
 1. Klicken Sie auf **[!UICONTROL Speichern]**. Die Vorlage ist jetzt für alle Benutzer im Katalog Gespeicherte Vorlagen verfügbar.
 
-### Schritt für Schritt: E-Mail als Vorlage speichern {#save-as-template}
+### Speichern einer E-Mail als Vorlage {#save-as-template}
 
 1. Öffnen Sie eine vorhandene E-Mail im E-Mail-Design-Bereich.
 1. Klicken Sie im Dropdown **[!UICONTROL Menü]** Speichern“ auf **[!UICONTROL Als Vorlage speichern]**.
@@ -158,7 +184,7 @@ Vorlagen sind wiederverwendbare E-Mail-Layouts. Sie beschleunigen die E-Mail-Ers
 
 Ein visuelles Fragment ist ein wiederverwendbarer Inhaltsblock - eine Kopfzeile, eine Fußzeile, eine CTA, ein Haftungsausschluss, eine Reihe von Social-Media-Links -, der in viele E-Mails eingefügt werden kann. Wenn Sie ein Fragment aktualisieren, wird die Änderung automatisch auf jede E-Mail übertragen, die es verwendet. Fragmente sind die empfohlene Methode, um Markenkonsistenz zu erzwingen und Inhaltsaktualisierungen zu zentralisieren.
 
-### Schritt für Schritt: Erstellen eines visuellen Fragments {#create-fragment}
+### Erstellen eines visuellen Fragments {#create-fragment}
 
 1. Navigieren Sie zu **[!UICONTROL Content-]**→ **[!UICONTROL Fragments]**.
 1. Klicken Sie **[!UICONTROL Fragment erstellen]**.
@@ -171,7 +197,7 @@ Ein visuelles Fragment ist ein wiederverwendbarer Inhaltsblock - eine Kopfzeile,
    * E-Mail-Autoren, die das Fragment verwenden, können diese Felder überschreiben, ohne die Struktur des Fragments aufzuheben.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-### Schritt für Schritt: Einfügen eines Fragments in eine E-Mail {#insert-fragment}
+### Einfügen eines Fragments in eine E-Mail {#insert-fragment}
 
 1. Öffnen Sie die E-Mail im E-Mail-Design-Bereich.
 1. Klicken Sie in der linken Leiste auf **[!UICONTROL Fragmente]**.
@@ -199,7 +225,7 @@ Prime verwendet die Handlebars-Syntax für die Personalisierung. Token werden zu
 >
 >In dieser Version sind nur Profilattribute im Personalization-Editor verfügbar.
 
-### Schritt für Schritt: Einfügen eines Personalisierungs-Tokens {#insert-token}
+### Einfügen eines Personalisierungs-Tokens {#insert-token}
 
 1. Klicken Sie im Bereich „E-Mail-Design“ (oder im Bildschirm mit den E-Mail-Eigenschaften für die Betreffzeile) auf das Feld, in das Sie ein Token einfügen möchten.
 1. Klicken Sie auf das Personalisierungssymbol (häufig mit **[!UICONTROL Personalisierungsdialog öffnen]** oder **[!UICONTROL Ausdruck hinzufügen]**).
@@ -217,6 +243,18 @@ Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwende
 * **`{{profile.firstName}}, ready to take the next step?`** - Kombinieren Sie Token und statischen Text inline.
 
 Für eine Grußformel mit Vorname und einem Fallback, wenn der Wert fehlt, verwenden Sie den `default` Helper, wie in den vorherigen Personalisierungsschritten gezeigt (z. B. Vorname mit `"there"`).
+
+### Handlebars-Helfer {#handlebars-helpers}
+
+Über `default` hinaus enthält der Personalisierungseditor integrierte Handlebars-Helfer für bedingte Logik, Textumwandlung und Datumsformatierung. Verwenden Sie den Funktions-Browser des Editors, um verfügbare Helper zu erkunden und sie mit der richtigen Syntax einzufügen.
+
+>[!TIP]
+>
+>Geben Sie im E-Mail-Design-Bereich `{{` direkt in ein beliebiges Textfeld ein, um eine Dropdown-Liste mit automatischer Inline-Vervollständigung mit verfügbaren Profilattributen zu erstellen. Es ist nicht erforderlich, das vollständige Personalisierungsdialogfeld für Schnelleinfügungen zu öffnen.
+
+### KI-unterstützte Ausdrücke {#ai-personalization}
+
+Der KI-Assistent im Personalisierungseditor kann Handlebars-Ausdrücke aus einer einfachen Beschreibung generieren, die Funktion eines vorhandenen Ausdrucks erklären und potenzielle Probleme identifizieren. Verwenden Sie sie, um die Erstellung von Ausdrücken zu beschleunigen, insbesondere für bedingte Logik oder Helper zur Datumsformatierung.
 
 ## Hinzufügen von Assets aus Marketo Design Studio {#marketo-assets}
 
@@ -245,29 +283,11 @@ Prime stellt Ihre vorhandenen Marketo Design Studio-Assets im E-Mail-Design-Bere
    * Link-Ziel - Das Bild kann angeklickt werden.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Designs und Dunkelmodus {#themes-dark-mode}
+## Dunkler Modus {#dark-mode}
 
-### Designs {#themes}
+Das Dark-Mode-Rendering wird über CSS- `prefers-color-scheme` Medienabfragen unterstützt. Die E-Mail-Design-Tools umfassen eine Vorschau des Dunkelmodus und Optionen zum Definieren benutzerdefinierter Stile für unterstützende E-Mail-Clients. So können Sie überprüfen, ob der Text lesbar bleibt, Logos sichtbar sind und Markenfarben einen dunklen Hintergrund aufweisen.
 
-Ein Design ist eine wiederverwendbare Stilvorgabe, die Farben, Typografie, Abstände, Schaltflächenstile und Trennlinien definiert. Wenden Sie ein Design auf eine E-Mail an, um Markenstile für alle Komponenten sofort durchzusetzen.
-
-So wenden Sie Designs an bzw. bearbeiten sie:
-
-1. Klicken Sie im E-Mail-Design auf **[!UICONTROL Designs]** (in der oberen Symbolleiste oder in der rechten Leiste, je nach Ansicht).
-1. Wählen Sie **[!UICONTROL Design anwenden]**, um ein vorhandenes Design auszuwählen, oder **[!UICONTROL Neues Design erstellen]**, um eine Markenpalette zu definieren.
-1. Anpassen von Farben, Schriftarten und Stilen auf Komponentenebene. Es werden sowohl helle als auch dunkle Varianten unterstützt.
-1. Globale Anwendung; lokale Überschreibungen pro Komponente bleiben möglich.
-1. Wechseln Sie das Design später zu einem Rebranding ohne erneute Bearbeitung.
-
-### Dunkler Modus {#dark-mode}
-
-Das Dark-Mode-Rendering wird über CSS- `prefers-color-scheme` Medienabfragen unterstützt. Die E-Mail-Design-Tools enthalten eine Vorschau im Dunkelmodus pro E-Mail-Client, damit Autoren überprüfen können, ob der Text lesbar bleibt, Logos nicht verschwinden und Markenfarben vor dunklem Hintergrund angezeigt werden.
-
-Um den Dunkelmodus in der Vorschau anzuzeigen, klicken Sie in den Vorschausteuerelementen der Arbeitsfläche auf den Umschalter Dunkelmodus .
-
->[!TIP]
->
->Häufige Fehler im Dunkelmodus: Dunkle Logos verschwinden auf dunklem Hintergrund, kontrastarmer Text und invertierte Farben auf transparenten Bildern. Zeigen Sie Ihre E-Mail immer im Dunkelmodus an, bevor Sie die endgültige Version speichern.
+Ausführliche Anleitungen zur Vorschau, zur Konfiguration benutzerdefinierter Einstellungen für den Dunkelmodus, zur Unterstützung des E-Mail-Clients und zu Best Practices für Tests finden Sie unter [Dunkelmodus für E-Mail-Inhalte](./email-dark-mode.md).
 
 ## Validieren von E-Mail-Inhalten {#validation}
 
@@ -285,7 +305,7 @@ Bevor Ihr Journey aktiviert werden kann, muss der E-Mail-Inhalt gültig sein. Pr
 | **Nicht aufgelöstes Personalisierungs-Token** | Ein Handlebars-Token verweist auf ein Profilattribut ohne Fallback, und bei einigen Empfängern kann das Attribut fehlen. | Fügen Sie ein Fallback mit dem Handlebars-`default`-Helper hinzu, wie in [Personalization beschrieben](#personalization). Alternativ können Sie die Journey-Zielgruppe auf Profile beschränken, bei denen das Attribut garantiert ist. |
 | **Bild nicht geladen** | Eine Bildkomponente verweist auf ein Asset, das nicht mehr verfügbar ist. | Klicken Sie auf das Bild, öffnen Sie die Asset-Auswahl und wählen Sie das Asset in Marketo Design Studio erneut aus. |
 
-### Schritt für Schritt: Überprüfen und Auflösen von Warnhinweisen {#resolve-alerts}
+### Überprüfen und Auflösen von Warnhinweisen {#resolve-alerts}
 
 1. Öffnen Sie die Journey mit dem E-Mail-Knoten. E-Mail-Knoten mit nicht aufgelösten Warnhinweisen werden auf der Arbeitsfläche mit einem roten Badge gekennzeichnet.
 1. Klicken Sie auf den E-Mail-Knoten, um die Eigenschaftenleiste zu öffnen.

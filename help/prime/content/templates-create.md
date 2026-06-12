@@ -1,10 +1,22 @@
 ---
 title: E-Mail-Vorlagen erstellen
-description: Erfahren Sie, wie Sie E-Mail-Vorlagen in Journey Optimizer B2B Prime erstellen - von Grund auf neu entwerfen, eine E-Mail von einer Journey als Vorlage speichern oder ein Design-Bild in eine E-Mail-Vorlage konvertieren.
+description: Erfahren Sie, wie Sie E-Mail-Vorlagen in Journey Optimizer B2B Prime erstellen - erstellen Sie neue, speichern Sie eine E-Mail von einer Journey als Vorlage oder konvertieren Sie ein Design-Bild in eine E-Mail-Vorlage.
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
-source-git-commit: 2f19137465c71f2292d37bea5786533b1df6e286
+autotag-review: '2026-06-12T22:55:41.432Z'
+TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: 875
 ht-degree: 1%
 
 ---
@@ -14,42 +26,55 @@ ht-degree: 1%
 
 Sie haben drei Möglichkeiten, um eine E-Mail-Vorlage in [!DNL Journey Optimizer B2B Edition Prime] zu erstellen:
 
-* **Von Grund auf gestalten** - Erstellen Sie eine neue Vorlage in der Vorlagenbibliothek mithilfe des visuellen E-Mail-Design-Bereichs.
+* **Neue Vorlage erstellen** - Erstellen Sie eine Vorlage in der Vorlagenbibliothek mithilfe des visuellen E-Mail-Design-Bereichs.
 * **Von einer Journey-E-Mail speichern** - Speichern Sie eine E-Mail, die Sie auf einer Journey verfasst haben, als wiederverwendbare Vorlage.
 * **Bild konvertieren** - Laden Sie ein Designbild hoch und verwenden Sie generative KI, um es in eine bearbeitbare E-Mail-Vorlage zu konvertieren.
 
->[!NOTE]
->
->In dieser Beta-Version werden nur E-Mail-Vorlagen unterstützt.
-
-## Erstellen einer neuen Vorlage {#design-from-scratch}
+## Neue Vorlage erstellen {#build-new}
 
 1. Navigieren Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Vorlagen]**.
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**.
 1. Geben Sie einen **[!UICONTROL Vorlagennamen“]** optional &quot;**[!UICONTROL &quot;]**.
-1. Optional können Sie Tags hinzufügen, um die Vorlage zu kategorisieren.
+1. Legen Sie den **[!UICONTROL Kanal]** (Typ) für die Vorlage fest.
+
+   >[!NOTE]
+   >
+   >In dieser Beta-Version werden nur E-Mail-Vorlagen unterstützt.
+
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 1. Klicken Sie **[!UICONTROL Erstellen]**, um den E-Mail-Design-Bereich zu öffnen.
-1. Entwerfen Sie das E-Mail-Layout mit Strukturen und Inhaltskomponenten. Eine vollständige Übersicht der verfügbaren Tools finden Sie unter [E-Mail-Authoring](email-authoring.md).
-1. Optional können Sie [Inhaltssperre](template-content-locking.md) konfigurieren, um zu beschränken, welche Teile der Vorlagen von Vorlagenautoren bearbeitet werden können, wenn sie auf einer Journey verwendet werden.
+
+1. Klicken Sie **[!UICONTROL E-Mail-Text bearbeiten]**, um auf den Bereich für das Inhalts-Design zuzugreifen.
+
+   Siehe [E-Mail-Authoring](email-authoring.md) für detaillierte Informationen zur Inhaltserstellung.
+
+1. Aktivieren Sie optional **[!UICONTROL Governance]** und konfigurieren Sie [Inhaltssperrung](template-content-governance.md), um festzulegen, welche Teile der Vorlagen von Vorlagenautoren beim Anwenden der Vorlage bearbeitet werden können.
+
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Speichern einer Journey-E-Mail als Vorlage {#save-as-template}
+## Speichern einer E-Mail als Vorlage {#save-as-template}
 
-Wenn Sie eine E-Mail auf einer Journey entwerfen, die Sie wiederverwenden möchten, speichern Sie sie direkt im E-Mail-Design-Bereich in der Vorlagenbibliothek.
+Wenn Sie den E-Mail-Inhalt öffnen, den Sie wiederverwenden möchten, speichern Sie ihn direkt in der Vorlagenbibliothek auf der E-Mail-Inhaltsseite.
 
-1. Öffnen Sie im E-Mail-Design das **[!UICONTROL Speichern]** Dropdown-Menü oben im Editor.
+1. Klicken Sie **[!UICONTROL oben]** der Seite auf „Inhaltsvorlage“.
 1. Wählen **[!UICONTROL Als Inhaltsvorlage speichern]**.
-1. Geben Sie einen **[!UICONTROL Vorlagennamen“]** optional &quot;**[!UICONTROL &quot;]**.
-1. Fügen Sie optional Tags hinzu und konfigurieren Sie [Inhaltssperrung](template-content-locking.md).
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Geben Sie einen **[!UICONTROL Namen]** und optional **[!UICONTROL Beschreibung]** ein.
+1. Fügen Sie optional **[!UICONTROL Tags]** hinzu.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-Die ursprüngliche Journey-E-Mail ist nicht betroffen. Die gespeicherte Vorlage ist in der Vorlagenbibliothek für alle Benutzer in der Sandbox verfügbar.
+Die ursprüngliche Journey-E-Mail ist nicht betroffen. Die gespeicherte Vorlage ist in der Vorlagenbibliothek für alle Benutzer in der Sandbox verfügbar. Sie können die erstellte Vorlage aktualisieren, um die Wiederverwendung zu optimieren:
+
+* Bearbeiten von Text und Hinzufügen [Personalisierungs](email-authoring.md#personalization)Token.
+* Bilder aktualisieren oder ersetzen und Links hinzufügen.
+* Konfigurieren Sie [Inhaltssperrung](template-content-governance.md).
 
 ## Konvertieren eines Bildes in eine Vorlage {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime] können ein statisches Bild - z. B. ein Mockup aus Figma oder Photoshop - mithilfe von generativer KI in eine bearbeitbare E-Mail-Vorlage konvertieren. Dadurch entfällt die Notwendigkeit, Layouts aus Design-Dateien manuell neu zu erstellen.
+[!DNL Journey Optimizer B2B Edition Prime] können ein statisches Bild - z. B. ein Mockup aus Figma oder Photoshop - mithilfe von generativer KI in eine bearbeitbare E-Mail-Vorlage konvertieren. Dadurch entfällt die Notwendigkeit, Layouts aus Design-Dateien manuell neu zu erstellen, und es ist ideal für die Migration vorhandener E-Mail-Designs von anderen Plattformen. Diese Funktion ist nur für E-Mail-Inhaltsvorlagen verfügbar.
 
-### Anforderungen
+>[!BEGINSHADEBOX]
+
+### Voraussetzungen
 
 Bevor Sie beginnen:
 
@@ -65,34 +90,57 @@ Bevor Sie beginnen:
 >
 >Das Bild darf keine personenbezogenen oder vertraulichen Daten enthalten.
 
-### Konvertieren eines Bildes
+>[!ENDSHADEBOX]
+
+### Erstellen der Vorlage
 
 1. Navigieren Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Vorlagen]**.
-1. Klicken Sie **[!UICONTROL der Kopfzeile auf]** Bild in Vorlage konvertieren“.
+1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**.
 1. Geben Sie einen **[!UICONTROL Vorlagennamen“]** optional &quot;**[!UICONTROL &quot;]**.
-1. Wählen Sie optional ein **[!UICONTROL Markendesign]**, um die Farben, Schriftarten und Abstände Ihrer Marke auf die generierte Ausgabe anzuwenden.
-1. Laden Sie das Bild per Drag-and-Drop oder im Datei-Browser hoch.
-1. Vergewissern Sie sich, dass das Bild keine personenbezogenen Daten enthält.
-1. Lesen und akzeptieren Sie die Adobe Generative AI-Benutzerrichtlinien (nur beim ersten Mal).
-1. Klicken Sie **[!UICONTROL Konvertieren]**.
+1. Setzen Sie **[!UICONTROL Kanal]** auf E-Mail.
 
-   Die Konvertierung wird in der Regel innerhalb von fünf Minuten abgeschlossen. Komplexe oder große Bilder können bis zu zehn Minuten dauern. Sie können die Seite verlassen. Der Vorgang wird im Hintergrund fortgesetzt.
+<!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Wenn die Konvertierung abgeschlossen ist, klicken Sie auf den Namen der Vorlage, um die generierten Inhalte in der Vorschau anzuzeigen und zu bearbeiten.
+### Generieren des Vorlageninhalts
 
->[!NOTE]
->
->Das Ergebnis wird nicht automatisch angezeigt. Aktualisieren Sie die Seite oder kehren Sie zur Vorlagenbibliothek zurück, um die fertige Vorlage anzuzeigen.
+1. Im Abschnitt **[!UICONTROL Bild in Vorlage konvertieren]**:
 
-### Nach Konvertierung bearbeiten
+   * Wählen Sie optional ein **[!UICONTROL Markendesign]**, um die Farben, Schriftarten und Abstände Ihrer Marke auf die generierte Ausgabe anzuwenden.
+   * Aktivieren Sie das Kontrollkästchen Bestätigung , um zu bestätigen, dass Ihr Bild keine personenbezogenen oder anderen sensiblen Daten enthält.
+   * Klicken Sie **[!UICONTROL Bild hochladen]** und wählen Sie Ihre Bilddatei aus.
 
-Die konvertierte Vorlage wird im E-Mail-Design-Bereich als vollständig bearbeitbare E-Mail geöffnet. Verwenden Sie die standardmäßigen Design-Tools für Folgendes:
+   >[!CAUTION]
+   >
+   >Beim Hochladen eines Bildes wird der gesamte aktuell in der E-Mail enthaltene Inhalt gelöscht und durch die generierte Vorlage ersetzt.
+
+1. Überprüfen und akzeptieren Sie bei Aufforderung die Benutzerhandbücher für die generative KI von Adobe.
+
+1. Klicken Sie **[!UICONTROL Öffnen]**, um den Konvertierungsprozess zu starten.
+
+   Die Konvertierung wird in der Regel innerhalb von etwa fünf Minuten abgeschlossen. Komplexe oder große Bilder können bis zu zehn Minuten dauern. Die Konvertierung wird im Hintergrund ausgeführt - Sie können die Seite verlassen und die Entwurfsvorlage wird nach Abschluss der Konvertierung automatisch gespeichert.
+
+1. Aktualisieren Sie die Seite, um die fertige Vorlage anzuzeigen.
+
+   >[!NOTE]
+   >
+   >Das Ergebnis wird nicht automatisch angezeigt. Aktualisieren Sie die Seite oder kehren Sie zur Vorlagenbibliothek zurück, um die fertige Vorlage anzuzeigen.
+
+1. Optional können Sie den Abschnitt **[!UICONTROL Feedback zur Konvertierung von Bildern in Vorlagen]** verwenden, um Vorschläge für Adobe freizugeben.
+
+1. Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um die konvertierte Vorlage im E-Mail-Design-Bereich zur Bearbeitung zu öffnen.
+
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+### Bearbeiten des konvertierten Inhalts
+
+Der konvertierte Vorlageninhalt wird im Design-Bereich als vollständig bearbeitbare E-Mail-Vorlage geöffnet. Verwenden Sie die standardmäßigen Inhaltserstellungs-Tools für Folgendes:
 
 * Bearbeiten von Text und Hinzufügen [Personalisierungs](email-authoring.md#personalization)Token.
 * Bilder aktualisieren oder ersetzen und Links hinzufügen.
 * Farben, Schriftarten und Abstände anpassen.
 * Hinzufügen, Entfernen oder Neuanordnen von Inhaltskomponenten.
-* Konfigurieren Sie [Inhaltssperrung](template-content-locking.md).
+* Aktivieren Sie Governance und konfigurieren Sie [Inhaltssperrung](template-content-governance.md).
 
 >[!IMPORTANT]
 >
