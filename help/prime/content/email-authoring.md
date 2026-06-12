@@ -16,19 +16,19 @@ In [!DNL Adobe Journey Optimizer B2B Edition] Prime bietet der E-Mail-Design-Ber
 >
 >Informationen zum Einrichten von Subdomains, Authentifizierung, IP-Pools und E-Mail-Kanal-Konfigurationen durch Administratoren finden Sie unter [E-Mail-Zustellbarkeit und Kanalkonfiguration](../admin/configuration-email-deliverability.md).
 
-In [!DNL Journey Optimizer B2B Edition] Prime ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [ Knoten _E-Mail senden_ zu ](../marketing/person-journey-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Design-Prozess für E-Mail-Inhalte zu starten.
+In [!DNL Journey Optimizer B2B Edition] Prime ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [&#x200B; Knoten _E-Mail senden_ zu &#x200B;](../marketing/person-journey-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Design-Prozess für E-Mail-Inhalte zu starten.
 
 
 
 Diese Aktion startet die E-Mail-Design-Tools, in denen Sie aus den folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
-* [Erstellen Sie Ihre E-Mail von Grund ](#design-your-email-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
+* [Erstellen Sie Ihre E-Mail von Grund &#x200B;](#design-your-email-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
 
-* [Codieren Sie oder fügen Sie Ihre rohe ](#html)-Datei in den Code-Editor ein oder arbeiten Sie Seite an Seite mit der visuellen Arbeitsfläche.
+* [Codieren Sie oder fügen Sie Ihre rohe &#x200B;](#html)-Datei in den Code-Editor ein oder arbeiten Sie Seite an Seite mit der visuellen Arbeitsfläche.
 
   <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
 
-* [Wählen Sie eine vorhandene ](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus. Diese Methode eignet sich am besten für wiederholbare E-Mail-Anwendungsfälle.
+* [Wählen Sie eine vorhandene &#x200B;](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus. Diese Methode eignet sich am besten für wiederholbare E-Mail-Anwendungsfälle.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
@@ -210,7 +210,7 @@ Prime verwendet die Handlebars-Syntax für die Personalisierung. Token werden zu
 
 ### Häufige Personalisierungsmuster {#personalization-patterns}
 
-Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwendet dieselbe Syntax, die unter [Schritt für Schritt: Einfügen eines Personalisierungs-Tokens) beschrieben ](#insert-token):
+Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwendet dieselbe Syntax, die unter [Schritt für Schritt: Einfügen eines Personalisierungs-Tokens) beschrieben &#x200B;](#insert-token):
 
 * **`{{profile.lastName}}`** - Fügen Sie den Nachnamen der Empfängerin bzw. des Empfängers ein.
 * **`{{profile.jobTitle}}`** - Referenzieren Sie die Stellenbezeichnung des Empfängers in der Textkörper-Kopie.
