@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
 workflow-type: tm+mt
 source-wordcount: 2476
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
 >title="KI-Inhaltsgenerierung"
->abstract="Verwenden Sie nach der Erstellung Ihres Layouts die generativen KI-Tools in [!DNL Journey Optimizer B2B Edition], um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht die Personalisierung und Inhaltsverbesserung, indem sie Inhalte basierend auf Ihrer Eingabeaufforderung optimiert."
+>abstract="Nachdem Sie Ihr Layout erstellt haben, können Sie generative KI-Tools in [!DNL Journey Optimizer B2B Edition] verwenden, um Ihre Inhalte zu verbessern. Diese Funktion vereinfacht den Prozess der Personalisierung und Inhaltsverbesserung, indem sie den Inhalt basierend auf Ihrem Prompt optimiert."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-reference-context"
 >title="Referenzinhalt"
->abstract="Verwenden Sie _Referenzinhalt_ um eine Asset-Datei hochzuladen oder auszuwählen, die Kontext für generative KI in [!DNL Journey Optimizer B2B Edition] bietet. Dadurch wird sichergestellt, dass Materialien verfügbar sind, um die Qualität und Relevanz der generierten Inhalte zu verbessern."
+>abstract="Verwenden Sie _Referenzinhalt_, um eine Asset-Datei hochzuladen oder auszuwählen, die Kontext für generative KI [!DNL Journey Optimizer B2B Edition] liefert. Damit wird sichergestellt, dass alle erforderlichen Materialien verfügbar sind, um die Qualität und Relevanz der generierten Inhalte zu verbessern."
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-start"
 >title="Bedingungen der generativen KI in Adobe"
->abstract="Der Zugriff auf diese Funktion setzt voraus, dass Sie die Benutzerhandbücher für generative KI von Adobe Experience Cloud akzeptieren. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
+>abstract="Für den Zugriff auf diese Funktion ist Ihre Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud erforderlich. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für die generative KI von Adobe"
 
 Die generative KI für Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] basiert auf Microsoft Azure OpenAI und Adobe Firefly und bietet proaktive Vorschläge für Inhaltsvarianten für Text und Bilder. Optimieren Sie die Wirkung Ihrer Inhalte, indem Sie mit verschiedenen Haupttiteln und -bildern experimentieren.

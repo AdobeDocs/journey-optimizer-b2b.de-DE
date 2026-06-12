@@ -23,7 +23,7 @@ TQID: https://experienceleague.adobe.com/keDJRv3orgjwthNQl1DHNnjKCre5BndRlivvMRJ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 1564
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie in den Dunkelmodus, um das Rendering in der Vorschau anzuzeigen und benutzerdefinierte Einstellungen zu definieren. <br>Rendering hängt vom E-Mail-Client des Empfängers ab. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
+>abstract="Wechseln Sie in den dunklen Modus, um das Rendering in der Vorschau anzuzeigen und benutzerdefinierte Einstellungen zu definieren. <br>Das Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Nicht alle E-Mail-Clients unterstützen den benutzerdefinierten dunklen Modus."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_preview"
 >title="Wechseln zum dunklen Modus"
->abstract="Wechseln Sie in den Dunkelmodus, um das Rendering auf unterstützenden E-Mail-Clients in der Vorschau anzuzeigen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Beachten Sie, dass nicht alle E-Mail-Clients den Dunkelmodus unterstützen."
+>abstract="Wechseln Sie zum dunklen Modus, um eine Vorschau des Renderings in unterstützenden E-Mail-Clients anzuzeigen. <br>Das endgültige Rendering hängt vom E-Mail-Client der Empfängerinnen und Empfänger ab. Beachten Sie, dass nicht alle E-Mail-Clients den dunklen Modus unterstützen."
 
 _Dunkler Modus_ ermöglicht es einem unterstützenden E-Mail-Client oder einer unterstützenden App, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere visuelle Elemente anzuzeigen. Diese Art von Display reduziert die Belastung der Augen, spart Akkulaufzeit und verbessert die Lesbarkeit in schwach beleuchteten Umgebungen für ein angenehmeres Betrachtungserlebnis. Aufgrund des wachsenden Trends bei den wichtigsten Betriebssystemen und Apps ist es jetzt eine wichtige Überlegung im modernen E-Mail-Design, sicherzustellen, dass Inhalte für alle Benutzer lesbar und visuell ansprechend bleiben.
 
@@ -135,7 +135,7 @@ Wenn Sie Ihre E-Mail-Inhalte für den Dunkelmodus in [!DNL Journey Optimizer B2B
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_dark_mode_image"
 >title="Verwenden eines bestimmten Bildes für den dunklen Modus"
->abstract="Ein anderes Bild für den Dunkelmodus auswählen. <br>Das Hinzufügen eines bestimmten Bildes garantiert nicht das korrekte Rendering in allen E-Mail-Clients. Nicht alle E-Mail-Clients unterstützen einen benutzerdefinierten dunklen Modus."
+>abstract="Wählen Sie ein anderes Bild für den dunklen Modus aus. <br>Das Hinzufügen eines bestimmten Bilds garantiert nicht, dass es in allen E-Mail-Clients ordnungsgemäß gerendert wird. Nicht alle E-Mail-Clients unterstützen den benutzerdefinierten dunklen Modus."
 
 Nach dem Wechsel in den dunklen Modus können Sie bestimmte Stilelemente Ihres Inhalts bearbeiten, die nur angezeigt werden, wenn der dunkle Modus im E-Mail-Client des Empfängers aktiviert ist (sofern er diese Funktion unterstützt).
 

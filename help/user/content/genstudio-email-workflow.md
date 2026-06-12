@@ -26,7 +26,7 @@ TQID: https://experienceleague.adobe.com/lFx0KVsrjM7aGFX8-N3lSvqWKvsd2JaK2tOa7QJ
 source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
 workflow-type: tm+mt
 source-wordcount: 857
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_genstudio_button"
 >title="Verwenden einer mit GenStudio erstellten Vorlage"
->abstract="Verwenden Sie die Integration mit Adobe GenStudio for Performance Marketing, um eine GenStudio-Vorlage zu importieren, die mit Adobe AI-Technologie erweitert wurde."
+>abstract="Nutzen Sie die Integration mit Adobe GenStudio for Performance Marketing, um eine mit KI-Technologie von Adobe erweiterte GenStudio-Vorlage zu importieren."
 
 >[!AVAILABILITY]
 >
