@@ -1,21 +1,21 @@
 ---
-user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
-user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 59fb0015ada5e28e5575cf57159c9be44bc66f18
+user-guide-title: Dokumentation zu Journey Optimizer B2B Ultimate
+user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B edition Ultimate und wie Sie damit Account- und Buying-Group-Journey mit integrierter Generative AI und branchenführender Automatisierung koordinieren können.
+source-git-commit: b686ab778c1640cc76f098aa18b8f2bdb1e24a32
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 89%
+source-wordcount: '450'
+ht-degree: 79%
 
 ---
 
 
-# Benutzerhandbuch für Journey Optimizer B2B Edition {#user}
+# Journey Optimizer B2B Ultimate-Benutzerhandbuch {#user}
 
-+ [Dokumentation zu Adobe Journey Optimizer B2B Edition](guide-overview.md)
++ [Dokumentation zu Adobe Journey Optimizer B2B Ultimate](guide-overview.md)
 + [Versionshinweise](./release-notes/release-notes.md)
 + Erste Schritte {#get-started}
    + [Journey Optimizer B2B Edition – Überblick](about-journey-optimizer-b2b-edition.md)
-   + Einrichten der Umgebung {#admin-setup}
+   + Ultimate-Setup {#ultimate}
       + [Checkliste einrichten](./setup-ultimate.md)
       + [Namespaces und Schemata](./data/namespaces-schemas.md)
       + [XDM-Feldauswahl](./admin/xdm-field-management.md)
