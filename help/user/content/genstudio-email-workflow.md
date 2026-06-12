@@ -51,7 +51,7 @@ Ein technischer Marketing-Experte, der Journey Optimizer B2B edition zum Entwick
 
 ## GenStudio-Funktionen zur Inhaltserstellung
 
-[Adobe GenStudio for Performance Marketing](https://business.adobe.com/products/genstudio/performance-marketing.html){target="_blank"} ist eine generative KI-First-Anwendung, mit der Marketing-Teams wirkungsvolle, personalisierte Anzeigen und E-Mails erstellen können, die den Markenstandards entsprechen und den Unternehmensrichtlinien entsprechen. Durch die Nutzung der Adobe AI-Technologie bietet es eine umfassende Palette von Tools, die die komplexe Erstellung und Verwaltung von Inhalten vereinfachen, sodass sich die Ersteller von Inhalten auf Innovationen konzentrieren können.
+[Adobe GenStudio for Performance Marketing](https://business.adobe.com/de/products/genstudio/performance-marketing.html){target="_blank"} ist eine generative KI-First-Anwendung, mit der Marketing-Teams wirkungsvolle, personalisierte Anzeigen und E-Mails erstellen können, die den Markenstandards entsprechen und den Unternehmensrichtlinien entsprechen. Durch die Nutzung der Adobe AI-Technologie bietet es eine umfassende Palette von Tools, die die komplexe Erstellung und Verwaltung von Inhalten vereinfachen, sodass sich die Ersteller von Inhalten auf Innovationen konzentrieren können.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Erstellen von markeninternen Marketing-E-Mails](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing-learn/tutorials/creating-experiences/creating-on-brand-emails){target="_blank"}
 
@@ -89,7 +89,7 @@ GenStudio for Performance Marketing erkennt bestimmte Elemente innerhalb der imp
 
 Verwenden Sie die HTML-Datei, um eine Vorlage in GenStudio for Performance Marketing zu erstellen.
 
-Weitere Informationen zum Hochladen einer HTML-Vorlage in Adobe GenStudio for Performance Marketing finden Sie unter [Hinzufügen einer Vorlage](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template) in der Dokumentation zu GenStudio for Performance Marketing.
+Weitere Informationen zum Hochladen einer HTML-Vorlage in Adobe GenStudio for Performance Marketing finden Sie unter [Hinzufügen einer Vorlage](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/templates/use-templates#add-a-template) in der Dokumentation zu GenStudio for Performance Marketing.
 
 Wenn Sie die exportierte HTML als Vorlage hochladen, überprüft GenStudio for Performance Marketing die HTML-Datei auf erkannte Felder. Verwenden Sie die Vorschau, um Ihre Vorlagenelemente zu überprüfen und sicherzustellen, dass Sie sie ordnungsgemäß mit den erkannten Feldnamen identifiziert haben.
 
