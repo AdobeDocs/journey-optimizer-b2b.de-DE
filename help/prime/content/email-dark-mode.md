@@ -3,10 +3,18 @@ title: Dunkler Modus für E-Mail-Inhalte
 description: Erfahren Sie mehr über das Design von E-Mails im Dunkelmodus in Journey Optimizer B2B Prime. Vorschau des Renderings, Anpassen von Einstellungen und Testen über E-Mail-Clients hinweg.
 autotag-review: '2026-06-12T22:52:18.591Z'
 TQID: 'https://experienceleague.adobe.com/RelbNk1wrLqx3G6UGmOFu-AXJUudJgXPAt9DVmyQ-6c'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: f01b5556-e951-40ba-8625-2e3001864f2b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
 workflow-type: tm+mt
 source-wordcount: 1478
@@ -28,7 +36,7 @@ ht-degree: 19%
 
 _Dunkler Modus_ ermöglicht es einem unterstützenden E-Mail-Client oder einer unterstützenden App, E-Mails mit dunkleren Hintergründen und helleren Farben für Text, Schaltflächen und andere visuelle Elemente anzuzeigen. Diese Art von Display reduziert die Belastung der Augen, spart Akkulaufzeit und verbessert die Lesbarkeit in schwach beleuchteten Umgebungen für ein angenehmeres Betrachtungserlebnis. Aufgrund des wachsenden Trends bei den wichtigsten Betriebssystemen und Apps ist es jetzt eine wichtige Überlegung im modernen E-Mail-Design, sicherzustellen, dass Inhalte für alle Benutzer lesbar und visuell ansprechend bleiben.
 
-Wenn Sie [E-Mail](./email-authoring.md)Inhalt erstellen) im visuellen [!DNL Journey Optimizer B2B Prime]-Design-Bereich wechseln Sie zur Ansicht _**[!UICONTROL Dunkelmodus]**_. In dieser Ansicht können Sie auch spezifische benutzerdefinierte Einstellungen für unterstützende E-Mail-Clients definieren, wenn deren Dunkelmodus aktiviert ist.
+Wenn Sie [E-Mail](./email-authoring.md)Inhalt erstellen) im visuellen [!DNL Journey Optimizer B2B Prime]-Design-Bereich wechseln Sie zur Ansicht _&#x200B;**[!UICONTROL Dunkelmodus]**&#x200B;_. In dieser Ansicht können Sie auch spezifische benutzerdefinierte Einstellungen für unterstützende E-Mail-Clients definieren, wenn deren Dunkelmodus aktiviert ist.
 
 ## Überlegungen zum E-Mail-Client {#email-client-considerations}
 
@@ -133,7 +141,7 @@ _So definieren Sie benutzerdefinierte Einstellungen für den Dunkelmodus :_
 
    Wählen Sie ein beliebiges Bild aus und wechseln Sie **[!UICONTROL Dunkelmodus]** mithilfe des entsprechenden Umschalters im Bereich **[!UICONTROL Einstellungen]**. Wählen Sie dann in der Asset-Auswahl von Marketo Design Studio ein anderes Bild-Asset aus.
 
-   Weitere [ zur Auswahl eines Bild-Assets finden Sie ](./email-authoring.md#insert-image) „Einfügen eines Bildes aus Marketo Design Studio“.
+   Weitere [&#x200B; zur Auswahl eines Bild-Assets finden Sie &#x200B;](./email-authoring.md#insert-image) „Einfügen eines Bildes aus Marketo Design Studio“.
 
 1. Wählen Sie zu einem beliebigen Zeitpunkt während der Designänderungen **[!UICONTROL Zur Live-Ansicht wechseln]**, um zu überprüfen, wie Ihre Inhalte möglicherweise auf verschiedenen Gerätegrößen gerendert werden.
 
