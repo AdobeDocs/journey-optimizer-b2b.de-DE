@@ -3,17 +3,11 @@ title: Landingpages
 description: Landingpages für Personen-Journey erstellen, entwerfen und veröffentlichen - von Grund auf neu erstellen, HTML importieren, Formulare hinzufügen, Inhalte personalisieren und Links aus E-Mails in Journey Optimizer B2B Prime erstellen.
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
 workflow-type: tm+mt
 source-wordcount: 1461
 ht-degree: 6%
@@ -48,7 +42,6 @@ For example, you can create and design landing pages to direct your users to onl
 
 You can create, personalize, and preview landing pages in the visual design space.
 -->
-
 ## Zugreifen auf und Verwalten von Landingpages
 
 Um auf die Landingpages in Journey Optimizer B2B Prime zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Landingpages]**. Diese Aktion zeigt eine Liste aller in der Instanz erstellten Landingpages an.
@@ -137,16 +130,6 @@ TBD
 
 1. Um Änderungen am Inhalt im visuellen Design-Bereich vorzunehmen, klicken Sie auf **[!UICONTROL Landingpage bearbeiten]**.
 
-   <!-- 
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.
 
 1. Wenn die Seite Ihren Kriterien entspricht und Sie sie zur Anzeige bereitstellen möchten, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
@@ -165,18 +148,6 @@ TBD
 
    Klicken Sie **[!UICONTROL Dialogfeld auf]** Entwurfsversion erstellen“, um die Entwurfsversion im visuellen Entwurfsbereich zu öffnen.
 
-   <!-- 
-   ![Create draft version dialog](./assets/landing-page-create-draft-version.png){width="300"} 
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-   -->
-
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.
 
 1. Wenn die Landingpage Ihren Kriterien entspricht und Sie die Änderungen auf der veröffentlichten Seite verfügbar machen möchten, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
@@ -192,18 +163,6 @@ Beim Öffnen der Landingpage wird die Entwurfsversion angezeigt. Mit den Registe
 So aktualisieren Sie den Inhalt:
 
 1. Klicken **[!UICONTROL oben]** auf „Landingpage bearbeiten“.
-
-   <!--
-
-   Use the visual design tools as needed:
-
-   * [Add structure and content](./landing-page-design.md#structure-content-landing-page)
-   * [Add Assets](./landing-page-design.md#add-assets)
-   * [Navigate the layers, settings, and styles](./landing-page-design.md#navigate-the-layers-settings-and-styles)
-   * [Personalize content](./landing-page-design.md#personalize-content)
-   * [Edit linked URL tracking](./landing-page-design.md#edit-linked-url-tracking)
-
-   -->
 
 1. Klicken Sie **[!UICONTROL Speichern]** oder **[!UICONTROL Speichern und schließen]** um zu den Landingpage-Details zurückzukehren.
 
