@@ -3,26 +3,20 @@ title: Landingpages
 description: Landingpages für Personen-Journey erstellen, entwerfen und veröffentlichen - von Grund auf neu erstellen, HTML importieren, Formulare hinzufügen, Inhalte personalisieren und Links aus E-Mails in Journey Optimizer B2B Prime erstellen.
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 90d0cdfd37de3ee961cac64db3da87a042a26697
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 21f0ab524176df40128212fef920e10b06b5c317
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: 2180
 ht-degree: 6%
 
 ---
 
 # Landingpages
 
-Eine Landingpage ist eine eigenständige Web-Seite, auf der Sie Kontakte und Kunden leiten können, nachdem sie auf ein verknüpftes Element in einer E-Mail, SMS-Nachricht oder einem beliebigen digitalen Ort geklickt haben. Sie können diese Seiten in Ihre Account-Journey integrieren, damit Ihre Interessenten und Kunden Ihre Nachrichten im Internet anzeigen und in Ihren Account-Journey Fortschritte erzielen können. Im visuellen Design-Bereich für Landingpages können Sie Landingpages erstellen, personalisieren und in der Vorschau anzeigen.
+Eine Landingpage ist eine eigenständige Web-Seite, auf der Sie Kontakte und Kunden leiten können, nachdem sie auf ein verknüpftes Element in einer E-Mail, SMS-Nachricht oder einem beliebigen digitalen Ort geklickt haben. Sie können diese Seiten in Ihre Journey einbinden, damit Ihre Interessenten und Kunden Ihre Nachrichten im Internet sehen und in Ihren Journey vorankommen. Im visuellen Design-Bereich für Landingpages können Sie Landingpages erstellen, personalisieren und in der Vorschau anzeigen.
 
 Häufige Anwendungsfälle für Landingpages:
 
@@ -40,7 +34,7 @@ To direct members of a journey audience to a defined web page when they click a 
 
 1. [Create the page](./landing-pages-create-publish.md) - Select a preset, set up the primary page, and add any required subpages.
 1. [Design the landing page content](./landing-page-design.md) - Build the page content using drag-and-drop visual design components.
-1. [Test and publish the landing page](./landing-pages-create-publish.md) - Preview the page, test form behavior, and then publish to make it live.
+1. [Test the landing page](./landing-pages-create.md) - Preview the page, test form behavior, and then publish to make it live.
 1. [Link to the page from your journey](#link-to-a-landing-page) - Add the landing page URL to an email, SMS, or journey action so that recipients can reach it.
 
 
@@ -49,15 +43,15 @@ For example, you can create and design landing pages to direct your users to onl
 You can create, personalize, and preview landing pages in the visual design space.
 -->
 
-## Zugreifen auf und Verwalten von Landingpages
+## Zugreifen auf und Verwalten von Landingpages {#access-manage-landing-pages}
 
 Um auf die Landingpages in Journey Optimizer B2B Prime zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Landingpages]**. Diese Aktion zeigt eine Liste aller in der Instanz erstellten Landingpages an.
 
 Die Liste ist nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Elemente oben stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
 
-### Filtern der Landingpage-Liste
+### Filtern der Landingpage-Liste {#filter-list}
 
-Um nach einer Landingpage anhand des Namens zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste für eine Übereinstimmung ein. Klicken Sie auf das _Filter_-Symbol <!-- ( ![Show or hide filters icon](../assets/do-not-localize/icon-filter.svg) ) -->, um die verfügbaren Filteroptionen anzuzeigen und die Einstellungen zu ändern, um die angezeigten Elemente entsprechend Ihren angegebenen Kriterien zu filtern.
+Um nach einer Landingpage anhand des Namens zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste für eine Übereinstimmung ein. Klicken Sie auf _Filter_-Symbol ( ![Filtersymbol ein- oder ausblenden](../../user/assets/do-not-localize/icon-filter.svg) ), um die verfügbaren Filteroptionen anzuzeigen und die Einstellungen zu ändern, um die angezeigten Elemente entsprechend Ihren angegebenen Kriterien zu filtern.
 
 ![Filtern Sie die angezeigten Landingpages](./assets/landing-pages-list-filtered.png){width="800" zoomable="yes"}
 
@@ -71,15 +65,15 @@ In the dialog, select the columns to display and click **[!UICONTROL Apply]**.
 ![Select the columns that you want to display](./assets/landing-pages-customize-table-dialog.png){width="300"} 
 -->
 
-### Status und Lebenszyklus der Landingpage
+### Status und Lebenszyklus der Landingpage {#landing-page-status}
 
 Der Landingpage-Status bestimmt, ob Links in Ihren E-Mail- und SMS-Inhalten verfügbar sind und welche Änderungen Sie daran vornehmen können.
 
 | Status | Beschreibung |
 | -------------------- | ----------- |
-| Entwurf | Wenn Sie eine Landingpage erstellen, befindet sie sich im Status Entwurf . Er bleibt in diesem Status, bis Sie den visuellen Inhalt definieren oder bearbeiten und bis Sie ihn als gehostete Seite veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>Bearbeiten im visuellen Design-Bereich<li>Veröffentlichen<li>Duplizieren<li>Löschen |
-| Veröffentlicht | Wenn Sie eine Landingpage veröffentlichen, wird sie auf der Journey Optimizer B2B Prime-Instanz gehostet und steht dann für die Verknüpfung in E-Mail- oder SMS-Nachrichteninhalten zur Verfügung. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>Link im Inhalt von E-Mail- oder SMS-Nachrichten hinzufügen<li>Versionsentwurf erstellen<li>Duplizieren<li>Löschen |
-| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einer veröffentlichten Landingpage erstellen, bleibt die veröffentlichte Version erhalten, und der Entwurfsinhalt kann im visuellen Design-Bereich geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuell veröffentlichte Version, und der Inhalt wird auf der gehosteten Seite aktualisiert. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten<li>Link-URL bearbeiten<li>Link im Inhalt von E-Mail- oder SMS-Nachrichten hinzufügen<li>Bearbeiten der Entwurfsversion im visuellen Entwurfsbereich<li>Entwurfsversion veröffentlichen<li>Duplizieren<li>Löschen (löscht beide Versionen)<li>Entwurf verwerfen (kehrt zum Status „Veröffentlicht“ zurück) |
+| Entwurf | Wenn Sie eine Landingpage erstellen, befindet sie sich im Status Entwurf . Er bleibt in diesem Status, bis Sie den visuellen Inhalt definieren oder bearbeiten und bis Sie ihn als gehostete Seite veröffentlichen. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten</li><li>Link-URL bearbeiten</li><li>Bearbeiten im visuellen Design-Bereich</li><li>Veröffentlichen</li><li>Duplizieren</li><li>Löschen</li></ul> |
+| Veröffentlicht | Wenn Sie eine Landingpage veröffentlichen, wird sie auf der Journey Optimizer B2B Prime-Instanz gehostet und steht dann für die Verknüpfung in E-Mail- oder SMS-Nachrichteninhalten zur Verfügung. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten</li><li>Link-URL bearbeiten</li><li>Link im Inhalt von E-Mail- oder SMS-Nachrichten hinzufügen</li><li>Versionsentwurf erstellen</li><li>Duplizieren</li><li>Löschen</li></ul> |
+| Mit Entwurf veröffentlicht | Wenn Sie einen Entwurf aus einer veröffentlichten Landingpage erstellen, bleibt die veröffentlichte Version erhalten, und der Entwurfsinhalt kann im visuellen Design-Bereich geändert werden. Wenn Sie die Entwurfsversion veröffentlichen, ersetzt sie die aktuell veröffentlichte Version, und der Inhalt wird auf der gehosteten Seite aktualisiert. Verfügbare Aktionen:<br/><ul><li>Name oder Beschreibung bearbeiten</li><li>Link-URL bearbeiten</li><li>Link im Inhalt von E-Mail- oder SMS-Nachrichten hinzufügen</li><li>Bearbeiten der Entwurfsversion im visuellen Entwurfsbereich</li><li>Entwurfsversion veröffentlichen</li><li>Duplizieren</li><li>Löschen (löscht beide Versionen)</li><li>Entwurf verwerfen (kehrt zum Status „Veröffentlicht“ zurück)</li></ul> |
 
 <!-- ![Landing page status lifecycle](./assets/status-lifecycle-diagram.png){zoomable="yes"} -->
 
@@ -90,7 +84,46 @@ Der Landingpage-Status bestimmt, ob Links in Ihren E-Mail- und SMS-Inhalten verf
 >title="Definition und Konfiguration Ihrer Landingpage"
 >abstract="Um eine Landingpage zu erstellen, müssen Sie eine Voreinstellung auswählen, dann die primäre Seite und die untergeordneten Seiten konfigurieren und Ihre Seite schließlich testen, bevor Sie sie veröffentlichen."
 
-TBD
+Um Mitglieder einer Person, die eine Zielgruppe auf dem Journey erstellt, zu einer definierten Web-Seite weiterzuleiten, wenn sie auf einen bestimmten Link klicken, erstellen Sie in [!DNL Journey Optimizer B2B Prime] eine Landingpage. Sie wählen eine Vorgabe aus, konfigurieren die Primärseite und alle Unterseiten, [testen die Seite](#test-landing-page) und veröffentlichen sie.
+
+>[!IMPORTANT]
+>
+>Bevor Sie Ihre erste Landingpage erstellen, schließen Sie die Einrichtung der Landingpage ab. Dazu gehört das Konfigurieren einer Subdomain zum Hosten Ihrer Landingpages und das Definieren mindestens einer Voreinstellung, die die Subdomain und andere Kanaleinstellungen angibt. Sie wählen beim Erstellen der Landingpage eine Voreinstellung aus. Informationen zum Administrator-Setup finden Sie unter [Landingpage-Konfiguration](../admin/configuration-presets-landing-pages.md).
+>
+>Erstellen Sie für Anwendungsfälle der Datenerfassung ein [Formular](./forms.md) bevor Sie es in eine Landingpage einbetten.
+
+Gehen Sie wie folgt vor, um eine Landingpage zu erstellen:
+
+1. Navigieren Sie zur linken Navigation und wählen Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Landingpages]**.
+
+1. Klicken Sie in der Landingpage-Liste auf **[!UICONTROL Landingpage erstellen]**.
+
+1. Geben Sie **[!UICONTROL Titel]** (erforderlich) und **[!UICONTROL Beschreibung]** (optional) ein.
+
+   Titel- und Beschreibungskriterien:
+
+   * **Titel** - Maximal 100 Zeichen. Muss eindeutig sein (ignoriert Groß- und Kleinschreibung).
+   * **Beschreibung** - Maximal 300 Zeichen.
+   * Alpha-, numerische und Sonderzeichen sind zulässig.
+   * Reservierte Zeichen sind **_nicht zulässig_**: `\ / : * ? " < > |`
+
+1. Wählen Sie eine **[!UICONTROL Voreinstellung]** aus.
+
+   Ein Administrator [erstellt Landingpage-Voreinstellungen](../admin/configuration-presets-landing-pages.md#lp-presets) um die Subdomain und andere Einstellungen für Landingpages zu definieren. Wählen Sie eine Vorgabe aus und klicken Sie dann auf **[!UICONTROL Vorgabe anzeigen]**, um ihre Einstellungen zu überprüfen und zu bestätigen, dass sie Ihren Landingpage-Anforderungen entsprechen.
+
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+
+   Die Primärseite und ihre Eigenschaften werden angezeigt. Erfahren Sie, wie [die Einstellungen der Primärseite konfigurieren](#configure-primary-page).
+
+1. Um eine Unterseite hinzuzufügen (z. B. eine Danksagungs- oder Fehlerseite), klicken Sie auf das Symbol **+** .
+
+   Pro Landingpage können bis zu zwei Unterseiten hinzugefügt werden.
+
+Nachdem Sie die Primärseite und alle Unterseiten konfiguriert und gestaltet haben, [ Sie Ihre Landingpage ](#test-landing-page), bevor Sie sie veröffentlichen.
+
+>[!CAUTION]
+>
+>Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die definierte URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie die Seite mit der Vorschaufunktion, wie unter [ der Landingpage beschrieben](#test-landing-page).
 
 ## Konfigurieren der Primärseite {#configure-primary-page}
 
@@ -104,7 +137,30 @@ TBD
 >title="Definieren Ihrer Landingpage-URL"
 >abstract="Definieren Sie in diesem Abschnitt eine eindeutige Landingpage-URL. Für den ersten Teil der URL müssen Sie zuvor eine Landingpage-Subdomain als Teil der von Ihnen ausgewählten Voreinstellung eingerichtet haben."
 
-TBD
+Die Primärseite ist die Seite, die sofort angezeigt wird, wenn ein Empfänger auf den Landingpage-Link klickt, z. B. in einer E-Mail oder auf einer Website.
+
+Gehen Sie wie folgt vor, um die Einstellungen der Primärseite zu definieren:
+
+1. Ändern Sie den **[!UICONTROL Seitennamen]** entsprechend Ihren Anforderungen, der standardmäßig _Primär_ ist.
+
+1. Definieren Sie den Endteil der Seiten-URL.
+
+   Die von Ihnen ausgewählte Voreinstellung bestimmt den ersten Teil der URL. Ein Administrator konfiguriert die [Landingpage-Subdomain](../admin/configuration-presets-landing-pages.md#lp-subdomains) als Teil der Voreinstellung.
+
+   >[!CAUTION]
+   >
+   >Die Landingpage-URL muss eindeutig sein.
+   >
+   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie sie mithilfe der Vorschaufunktion, wie unter [ der Landingpage beschrieben](#test-landing-page).
+
+1. Wenn Sie eine anonyme Landingpage verwenden möchten, deaktivieren Sie die Option **[!UICONTROL Identifizierte Benutzer]**.
+
+1. Klicken Sie auf das _Kalender_-Symbol, um den **[!UICONTROL Seitenablauf]** festzulegen.
+
+   Nachdem Sie ein Ablaufdatum ausgewählt haben, wählen Sie die Aktion nach Ablauf der Seite aus:
+
+   * **[!UICONTROL Umleitungs-URL]** - Geben Sie die URL der Seite ein, die als Umleitung verwendet werden soll.
+   * **[!UICONTROL Browser-Fehler]** - Geben Sie den Fehlertext ein, der anstelle der Seite angezeigt werden soll.
 
 ## Testen der Landingpage {#test-landing-page}
 
@@ -113,9 +169,39 @@ TBD
 >title="Erstellen einer Vorschau und Testen Ihrer Landingpage"
 >abstract="Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, können Sie mithilfe von Testprofilen eine Vorschau der Seite anzeigen."
 
-TBD
+Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie Testprofile verwenden, um eine Vorschau der Seite anzuzeigen. Wenn Sie [personalisierten Inhalt](email-authoring.md#personalization) eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt auf der Landingpage angezeigt wird.
 
-## Bearbeiten einer Landingpage
+>[!PREREQUISITES]
+>
+>Um Landingpages in der Vorschau anzuzeigen und zu testen, benötigen Sie die Berechtigung **[!UICONTROL Nachrichten veröffentlichen]** und einen definierten Datensatz, der Testprofile enthält.
+
+1. Klicken Sie **[!UICONTROL Vorschau und Test]**, um die Auswahl der Testprofile zu öffnen.
+
+   >[!NOTE]
+   >
+   >Sie können auch **[!UICONTROL Inhalt simulieren]** verwenden, wenn Sie sich im visuellen Design-Bereich befinden.
+
+1. Wählen Sie auf dem _[!UICONTROL Simulieren]_ ein Testprofil aus.
+
+   Wenn die benötigten Profile nicht aufgelistet sind, klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um eine bekannte E-Mail-Adresse für Testprofile zu verwenden und sie der Liste hinzuzufügen.
+
+   +++Hinzufügen von Testprofilen
+
+   Klicken **[!UICONTROL für]** Identity-Namespace _auf das Symbol Auswählen_ ( ![Auswählen-Symbol](../../user/assets/do-not-localize/icon-select-data.svg) ) und wählen Sie den `Email`-Namespace aus, der zum Testen von Profilen verwendet werden soll.
+
+   Geben Sie im Feld **[!UICONTROL Identitätswert]** die E-Mail-Adresse ein, um das Testprofil zu identifizieren, und klicken Sie auf **[!UICONTROL Profil hinzufügen]**. Sie können dies wiederholen, um mehrere Profile hinzuzufügen.
+
+   Klicken Sie oben links auf den Rückwärtspfeil, um zur Seite _[!UICONTROL Simulieren]_ zurückzukehren.
+
+   +++
+
+1. Wählen Sie **[!UICONTROL Vorschau öffnen]**, um Ihre Landingpage zu testen.
+
+   Die Landingpage-Vorschau wird auf einer neuen Registerkarte geöffnet. Die ausgewählten Testprofildaten ersetzen personalisierte Elemente.
+
+1. Wählen Sie für jede Variante Ihrer Landingpage andere Testprofile zum Rendern von Vorschauen aus.
+
+## Bearbeiten einer Landingpage {#edit-landing-page}
 
 Änderungen an einer Landingpage hängen vom aktuellen Status ab:
 
@@ -179,7 +265,7 @@ So aktualisieren Sie den Inhalt:
 
 >[!ENDTABS]
 
-## Duplizieren einer Landingpage
+## Duplizieren einer Landingpage {#duplicate-landing-page}
 
 Sie können eine Landingpage mit einer der folgenden Methoden duplizieren:
 
@@ -194,7 +280,7 @@ Geben Sie im Dialogfeld einen nützlichen Namen (eindeutig) und eine Beschreibun
 
 Die duplizierte (neue) Seite wird dann in der Liste _Landingpages_ angezeigt.
 
-## Löschen einer Landingpage
+## Löschen einer Landingpage {#delete-landing-page}
 
 Sie können eine Landingpage mit einer der folgenden Methoden löschen:
 
@@ -205,7 +291,7 @@ Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrec
 
 <!-- ![Delete landing page dialog](./assets/landing-page-delete-dialog.png){width="400"} -->
 
-## Link zu einer Landingpage
+## Link zu einer Landingpage {#link-to-landing-page}
 
 Als Marketing-Experte oder Kreativschaffender, der E-Mail-, Fragment- und Seiteninhalte erstellt, können Sie Links zu den veröffentlichten (Live-)Landingpages einbetten, die in Ihrer Journey Optimizer B2B-Prime-Instanz erstellt werden.
 
@@ -217,7 +303,7 @@ Als Marketing-Experte oder Kreativschaffender, der E-Mail-, Fragment- und Seiten
 
    <!-- ![Link options for a landing page](/help/assets/content-design-shared/content-design-link-settings.png){width="700" zoomable="yes"} -->
 
-1. Klicken Sie für die **[!UICONTROL Landingpage]**-Option auf das Symbol _Seite auswählen_ <!-- ( ![Show links icon](/help/assets/do-not-localize/icon-landing-page-select.svg) ) -->.
+1. Klicken Sie für die **[!UICONTROL Landingpage]**-Option auf das Symbol _Seite auswählen_ ( ![Symbol „Links anzeigen](../../user/assets/do-not-localize/icon-landing-page-select.svg) ).
 
 1. Legen Sie im Dialogfeld „Landingpage auswählen **[!UICONTROL als]** **[!UICONTROL Journey Optimizer B2B edition]** fest, aktivieren Sie das Kontrollkästchen für die Landingpage in der Liste der veröffentlichten Seiten und klicken Sie auf **[!UICONTROL Auswählen]**.
 

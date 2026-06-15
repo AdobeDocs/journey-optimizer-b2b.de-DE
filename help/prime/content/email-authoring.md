@@ -3,21 +3,13 @@ title: Erstellung von E-Mails
 description: Verwenden Sie die E-Mail-Design-Tools in Journey Optimizer B2B Prime, einschließlich E-Mail-Vorlagen, Fragmenten, Personalisierung, Dunkelmodus und Validierung.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 2f4929e4fadeee87b9e31298d2a1de269fc007d5
 workflow-type: tm+mt
-source-wordcount: 2775
+source-wordcount: 2789
 ht-degree: 2%
 
 ---
@@ -30,21 +22,19 @@ ht-degree: 2%
 >
 >Informationen zum Einrichten von Subdomains, Authentifizierung, IP-Pools und E-Mail-Kanal-Konfigurationen durch Administratoren finden Sie unter [E-Mail-Zustellbarkeit und Kanalkonfiguration](../admin/configuration-email-deliverability.md).
 
-[!DNL Journey Optimizer B2B Prime] ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [&#x200B; Knoten _E-Mail senden_ zu &#x200B;](../marketing/person-journey-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Design-Prozess für E-Mail-Inhalte zu starten.
+[!DNL Journey Optimizer B2B Prime] ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [ Knoten _E-Mail senden_ zu ](../marketing/person-journey-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Design-Prozess für E-Mail-Inhalte zu starten.
 
 Diese Aktion startet den E-Mail-Design-Bereich, in dem Sie anhand der folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
-* [Erstellen Sie Ihre E-Mail von Grund &#x200B;](#design-your-email-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
+* [Erstellen Sie Ihre E-Mail von Grund ](#build-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
 
-* [Importieren Sie HTML](#html) in den Code-Editor oder arbeiten Sie nebeneinander mit der visuellen Arbeitsfläche.
+* Importieren Sie HTML in den Code-Editor oder arbeiten Sie nebeneinander mit der visuellen Arbeitsfläche. Der vollständige HTML-Import-Workflow mit HTML- und ZIP-Uploads steht auf der Beta-Roadmap.
 
-  <!-- Full HTML import workflow with .html and .zip uploads is on the Beta roadmap. -->
-
-* [Wählen Sie eine vorhandene &#x200B;](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus. Diese Methode eignet sich am besten für wiederholbare E-Mail-Anwendungsfälle.
+* [Wählen Sie eine vorhandene ](#create-from-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus. Diese Methode eignet sich am besten für wiederholbare E-Mail-Anwendungsfälle.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
-## E-Mail-Design-Tools
+## E-Mail-Design-Tools {#email-design-tools}
 
 * **Top-Symbolleiste** Speichern, Zurück, Zum Code-Editor wechseln, Steuerelemente in der Vorschau anzeigen.
 * **Linke Leiste:** (Spaltenlayouts), Inhalte (Text, Schaltfläche, Bild, Trennlinie, Social, HTML), Fragmente, Vorlagen, Navigationsbaum (DOM-Hierarchie der E-Mail).
@@ -140,7 +130,7 @@ Der Preheader ist der Textabschnitt, der in der Vorschau des Posteingangs nach d
 
 Vorlagen sind wiederverwendbare E-Mail-Layouts. Sie beschleunigen die E-Mail-Erstellung, erzwingen die Markenkonsistenz und erleichtern die Zusammenarbeit im Team.
 
-### Vorlagentypen
+### Vorlagentypen {#template-types}
 
 * **Beispielvorlagen (Out-of-the-Box).** Rund 20 vorgefertigte Vorlagen für gängige Anwendungsfälle (Account-basierte Kontaktaufnahme, Ereigniseinladungen, Pflege, Produktankündigungen). Sofort für jeden Kunden verfügbar.
 * **Gespeicherte Vorlagen (benutzerdefiniert).** Von Ihrem Team erstellte Vorlagen - entweder von Grund auf neu unter **[!UICONTROL Content-Management]** → **[!UICONTROL Vorlagen]** oder über eine vorhandene E-Mail mithilfe der Option „Als Vorlage speichern“ gespeichert.
@@ -214,7 +204,7 @@ Ein visuelles Fragment ist ein wiederverwendbarer Inhaltsblock - eine Kopfzeile,
 
 Prime verwendet die Handlebars-Syntax für die Personalisierung. Token werden zum Zeitpunkt des Versands durch Werte aus den Profildaten jedes Empfängers ersetzt.
 
-### Wo Sie personalisieren können
+### Wo Sie personalisieren können {#where-you-can-personalize}
 
 * **Betreffzeile** - Häufigster Personalisierungspunkt.
 * **Preheader** - auf der visuellen Arbeitsfläche festgelegt; unterstützt Profilattribut-Token.
@@ -236,7 +226,7 @@ Prime verwendet die Handlebars-Syntax für die Personalisierung. Token werden zu
 
 ### Häufige Personalisierungsmuster {#personalization-patterns}
 
-Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwendet dieselbe Syntax, die unter [Schritt für Schritt: Einfügen eines Personalisierungs-Tokens) beschrieben &#x200B;](#insert-token):
+Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwendet dieselbe Syntax, die unter [Schritt für Schritt: Einfügen eines Personalisierungs-Tokens) beschrieben ](#insert-token):
 
 * **`{{profile.lastName}}`** - Fügen Sie den Nachnamen der Empfängerin bzw. des Empfängers ein.
 * **`{{profile.jobTitle}}`** - Referenzieren Sie die Stellenbezeichnung des Empfängers in der Textkörper-Kopie.
