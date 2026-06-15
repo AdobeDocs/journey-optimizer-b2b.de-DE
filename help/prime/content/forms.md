@@ -105,7 +105,7 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in Journey Optimizer B2
 
 <!--
 Add to context help when available
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
 Sie können ein Formular in Journey Optimizer B2B edition erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
