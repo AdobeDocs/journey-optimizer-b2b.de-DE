@@ -15,10 +15,10 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: ce49389601416e7acefb9f948c052a1d840d8854
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 23%
+source-wordcount: 541
+ht-degree: 22%
 
 ---
 
@@ -65,7 +65,7 @@ Beim Erstellen einer Voreinstellung:
    * _Zielverbindung_: Wo die Daten gespeichert oder genutzt werden.
    * _Source-Fluss_ - die Pipeline, die Daten von der Quellverbindung nach Experience Platform verschiebt. Es übernimmt die Zuordnung, Umwandlung und Validierung.
 
-## Erstellen einer Formularvoreinstellung
+## Erstellen einer Formularvoreinstellung {#create-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_connection"
@@ -96,7 +96,7 @@ Beim Erstellen einer Voreinstellung:
 
    Diese Verbindung ist der Streaming-Endpunkt, der zum Senden der Daten verwendet wird, wenn ein Web-Viewer ein Formular sendet. Wenn die erforderliche Streaming-Verbindung nicht in der Liste angezeigt wird, überprüfen Sie, ob die Anforderungen erfüllt sind.
 
-1. Klicken Sie auf das _Datensatz auswählen_<!-- ( ![Select dataset icon](../assets/do-not-localize/icon-select-data.svg) ) -->, um einen Datensatz mit dem Formular zu verknüpfen.
+1. Klicken Sie auf das _Datensatz auswählen_ ( ![Datensatzsymbol auswählen](../../user/assets/do-not-localize/icon-select-data.svg) ), um einen Datensatz mit dem Formular zu verknüpfen.
 
    Der Datensatz ist der Ort, an dem die Formularantworten gespeichert und dargestellt werden. Sie können eine Textzeichenfolge eingeben, um nach einem bestimmten Datensatz zu suchen, oder ihn aus der Liste auswählen.
 
@@ -104,7 +104,7 @@ Beim Erstellen einer Voreinstellung:
 
    >[!NOTE]
    >
-   >Derzeit stehen nur profilaktivierte und nicht profilaktivierte [Adobe Experience Platform-Datensätze](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview) zur Auswahl. Es kann jeweils nur ein Datensatz ausgewählt werden. Systemdatensätze können nicht zum Speichern von Formulardaten verwendet werden.
+   >Derzeit stehen nur profilaktivierte und nicht profilaktivierte [Adobe Experience Platform-Datensätze](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/overview) zur Auswahl. Sie können jeweils einen Datensatz auswählen. Systemdatensätze können nicht zum Speichern von Formulardaten verwendet werden.
 
    Aktivieren Sie das Kontrollkästchen für den Datensatz und klicken Sie auf **[!UICONTROL Auswählen]**.
 
