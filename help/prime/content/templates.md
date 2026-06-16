@@ -14,7 +14,7 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 2%
@@ -55,7 +55,7 @@ Erstellen Sie Ordner, um Vorlagen nach Team, Kampagne, Marke oder einer beliebig
 
 **So verschieben Sie eine Vorlage in einen Ordner:**
 
-1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol (⋯) neben der Vorlage.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ( … ) neben der Vorlage.
 1. Wählen Sie **[!UICONTROL In Ordner verschieben]** aus.
 1. Wählen Sie den Zielordner aus und klicken Sie auf **[!UICONTROL Verschieben]**.
 
@@ -67,15 +67,15 @@ Klicken Sie auf einen Vorlagennamen, um die zugehörige Detailseite zu öffnen. 
 
 ### Bearbeiten einer Vorlage
 
-Klicken Sie auf einen Vorlagennamen, um die Detailseite zu öffnen, und dann auf **[!UICONTROL E-Mail-Vorlage bearbeiten]**. Sie können auch auf das Symbol **[!UICONTROL Mehr]** (⋯) in der Vorlagenliste klicken und **[!UICONTROL Bearbeiten]** auswählen.
+Klicken Sie auf einen Vorlagennamen, um die Detailseite zu öffnen, und dann auf **[!UICONTROL E-Mail-Vorlage bearbeiten]**. Sie können auch auf das Symbol **[!UICONTROL Mehr]** ( … ) in der Vorlagenliste klicken und **[!UICONTROL Bearbeiten]** auswählen.
 
 ### Duplizieren einer Vorlage
 
-Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol (⋯) neben der Vorlage und wählen Sie **[!UICONTROL Duplizieren]**. Die Kopie wird geöffnet, sodass Sie sie umbenennen und Anpassungen vornehmen können.
+Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ( … ) neben der Vorlage und wählen Sie **[!UICONTROL Duplizieren]**. Die Kopie wird geöffnet, sodass Sie sie umbenennen und Anpassungen vornehmen können.
 
 ### Löschen einer Vorlage
 
-Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol (⋯) neben der Vorlage und wählen Sie **[!UICONTROL Löschen]**. Bestätigen Sie den Löschvorgang bei Aufforderung.
+Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ( … ) neben der Vorlage und wählen Sie **[!UICONTROL Löschen]**. Bestätigen Sie den Löschvorgang bei Aufforderung.
 
 >[!NOTE]
 >

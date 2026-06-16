@@ -16,10 +16,10 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
 workflow-type: tm+mt
-source-wordcount: 2205
-ht-degree: 0%
+source-wordcount: 1528
+ht-degree: 1%
 
 ---
 
@@ -114,119 +114,11 @@ KI-gesteuerte Pfadzuweisungen werden erst wirksam, wenn Sie die Journey veröffe
 
 Die folgenden Beispiele zeigen, wie effektive Pfadaufforderungen in gängigen B2B-Marketing-Anwendungsfällen geschrieben werden. Verwenden Sie sie als Ausgangspunkte und passen Sie die Sprache an Ihren Journey-Kontext und Ihre Zielgruppendaten an.
 
-+++Aktive Forschungs- und Kaufsignale
+* „Identifizieren Sie Personen, die in den letzten 30 Tagen Interaktionen auf HR-Sites (shrm.org, hbr.org/topic/human-resource-management) hatten und sich für Journey Optimizer interessierten, die wahrscheinlich an einem Webinar über KI im HR-Betrieb teilnehmen werden. Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen müssen.“
 
-**Path 1 - Aktive Produktforscher**
-*Identifizieren Sie Personen, die aktiv an CRM-Software forschen. Suchen Sie nach wiederholten Produktseitenbesuchen, Interaktionen mit Vergleichsinhalten, häufigen Rückkehrbesuchen und erhöhten Absichtssignalen von Drittanbietern in den letzten 30 Tagen.*
+* Identifizieren Sie Personen, die in den letzten 30 Tagen Interaktionen auf Finanz-Sites (wsj.com/finance,investopedia.com) hatten und an Marketo interessiert waren, die wahrscheinlich an einem Webinar über KI in der Finanzplanung teilnehmen werden. Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen müssen.“
 
-**Pfad 2 - Preisvergleichsverhalten**
-*Ermitteln Sie Benutzer, die in den letzten 14 Tagen mehrmals Preis- oder Planvergleichsseiten angezeigt haben, insbesondere diejenigen, die zwischen Preis- und Funktionsdokumentationsseiten wechseln.*
-
-**Pfad 3 - Hohe Absicht, keine Konversion**
-*Identifizieren Sie Besucherinnen und Besucher, die in den letzten 21 Tagen mit Produktdemos, Preisseiten oder Integrationsdokumenten interagiert, aber kein Formular gesendet oder konvertiert haben.*
-
-**Pfad 4 - zögerliches Checkout-Verhalten**
-*Identifizieren Sie Benutzer, die den Checkout- oder Demobuchungsfluss gestartet, aber nicht abgeschlossen haben und mindestens einmal danach ohne Konvertierung zurückgekehrt sind.*
-
-+++
-
-+++Abwanderungs- und Kundenbindungsrisiko
-
-**Pfad 1 - Risikosignale für Abwanderung**
-*Identifizieren Sie Kunden mit Anzeichen einer Abwanderung, die auf einer rückläufigen Produktnutzung, einer reduzierten Anmeldefrequenz, Support-Ticket-Spitzen und einer verringerten Marketing-Interaktion in den letzten 60 Tagen basieren.*
-
-**Pfad 2 - Trennung von Power-Benutzern**
-*Ermitteln Sie zuvor engagierte Benutzende, deren Interaktionsgeschwindigkeit in den letzten 30 Tagen im Vergleich zu ihrer historischen Baseline signifikant gesunken ist.*
-
-+++
-
-+++Bildung und Evaluierungslücken
-
-**Pfad 1 - Recherche zur Preisreihenfolge**
-*Identifizieren Sie Benutzer, die ein eBook heruntergeladen und dann innerhalb von 7 Tagen die Preisseite besucht haben, aber keine Demo angefordert haben.*
-
-**Pfad 2 - Webinar ohne Follow-up**
-*Personen identifizieren, die an einem Webinar teilgenommen und anschließend zu den Produktseiten zurückgekehrt sind, aber noch nie eine Demo gebucht oder den Vertrieb kontaktiert haben.*
-
-**Pfad 3 - Vergleichsgestützte Auswertung**
-*Ermitteln Sie Besucherinnen und Besucher, die einen Artikel zum Vergleich mit Mitbewerbern angesehen und dann innerhalb von 14 Tagen die Dokumentation zu Integration oder Migration besucht haben.*
-
-+++
-
-+++E-Mail-Interaktionssequenzen
-
-**Pfad 1 - Wird ohne Klicks geöffnet**
-*Identifizieren Sie Leads, die innerhalb von 30 Tagen drei oder mehr Marketing-E-Mails geöffnet, aber nie auf die Website geklickt haben.*
-
-**Pfad 2 - Angeklickt, aber keine vertiefte Interaktion**
-*Identifizieren Sie Benutzer, die von einer E-Mail zu einer Produktseite geklickt haben, aber keine zusätzlichen Seiten erkundet haben oder innerhalb von 7 Tagen zurückkehrten.*
-
-+++
-
-+++Test- und Konversionsmuster
-
-**Path 1 - Schnelle Konverter**
-*Ermitteln Sie Kunden, die innerhalb von 30 Tagen nach Beginn einer Testversion ein Upgrade durchgeführt haben und während des Testzeitraums ein hohes Maß an Interaktionen mit dem Produkt zeigten.*
-
-**Pfad 2 - Benutzer der Testversion angehalten**
-*Ermitteln Sie Testbenutzer, die sich während der ersten Woche angemeldet haben, danach jedoch nur minimale Aktivität gezeigt haben und vor Ablauf der Testversion nicht konvertiert haben.*
-
-+++
-
-+++Multi-Channel-Käufer
-
-**Pfad 1: Konvergenz von Werbung und organischer Produktion**
-*Identifizieren Sie Benutzer, die zuerst über bezahlte Anzeigen interagiert und später innerhalb von 14 Tagen über direkte oder organische Kanäle zurückgegeben haben.*
-
-**Pfad 2 - Ereignis-zu-Produkt-Evaluierung**
-*Ermitteln Sie Konten, die an einer persönlichen oder virtuellen Veranstaltung teilgenommen haben, und steigerten Sie danach das Verhalten bei der Produktforschung innerhalb von 30 Tagen.*
-
-**Path 3 - Social-to-Site-Forscher**
-*Identifizieren Sie Benutzer, die mit Social-Media-Inhalten interagiert haben und später Seiten mit hohen Absichten wie Preise oder Demobuchung besucht haben.*
-
-+++
-
-+++Regionale Kaufsignale
-
-**Pfad 1 - Anstieg in einer bestimmten Region**
-*Ermitteln Sie Konten in Nordamerika, die in den letzten 30 Tagen eine erhöhte Produktforschungsaktivität und erhöhte Absichtserklärungen von Drittanbietern im Vergleich zu ihren historischen Ausgangswerten aufwiesen.*
-
-**Pfad 2 - Dynamik in Schwellenländern**
-*Ermitteln Sie Konten in APAC, bei denen die Interaktionsgeschwindigkeit in den letzten 14 Tagen erheblich gestiegen ist, auch wenn das gesamte Interaktionsvolumen immer noch moderat ist.*
-
-**Pfad 3 - Regionsspezifisches Unternehmensinteresse**
-*Ermitteln Sie Konten im Unternehmensbereich in EMEA, die in den letzten 21 Tagen Compliance-, Datenresidenz- oder Sicherheitsdokumentationen durchgeführt haben.*
-
-**Pfad 4 - Unterwandertes Gebiet**
-*Identifizieren Sie Konten mit hoher Anpassungsfähigkeit in zugewiesenen Verkaufsgebieten, die Absichtssignale gezeigt haben, aber noch nicht mit dem Verkauf Kontakt aufgenommen haben.*
-
-+++
-
-+++Zielgruppen-Targeting für Webinare
-
-**Path 1 - HR-Leiter, die an KI interessiert sind**
-*Identifizieren Sie Personen, die in den letzten 30 Tagen Interaktionen auf HR-Sites (shrm.org, hbr.org/topic/human-resource-management) hatten und sich für Journey Optimizer interessierten, die wahrscheinlich an einem Webinar zum Thema „KI im HR-Betrieb“ teilnehmen werden. Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen sollen.*
-
-**Path 2 - Finanzexperten, die sich für KI interessieren**
-*Identifizieren Sie Personen, die in den letzten 30 Tagen auf Finanzwebsites (wsj.com/finance, investopedia.com) Interaktionen mit Marketo hatten und an einem Webinar zum Thema „KI in der Finanzplanung“ teilnehmen dürften. Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen sollen.*
-
-**Pfad 3 - An KI interessierte Risiko- und Forschungspersonen**
-*Identifizieren Sie Personen, die in den letzten 30 Tagen an GenStudio interessiert waren und an einem Webinar zum Thema „KI im Risikomanagement“ teilnehmen werden, auf Risiko-/Forschungswebsites (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research). Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen sollen.*
-
-+++
-
-+++Verhaltens-Timing-Signale
-
-**Pfad 1 - Nachmittagsforscher**
-*Identifizieren Sie Benutzer, die außerhalb der normalen Geschäftszeiten in ihrer lokalen Zeitzone wiederholt mit Produkt- und Preisseiten interagieren.*
-
-**Pfad 2 - Komprimiertes Forschungsfenster**
-*Ermitteln Sie Konten mit ungewöhnlich hoher Interaktionsdichte innerhalb eines kurzen 72-Stunden-Fensters in mehreren Produktbereichen.*
-
-**Pfad 3 - Aktivitätsspitze zum Quartalsende**
-*Identifizieren Sie Konten mit einem Anstieg der Aktivität in der Auswertungsphase in den letzten 30 Tagen des Geschäftsquartals.*
-
-+++
+* „Identifizieren Sie Personen, die in den letzten 30 Tagen an GenStudio interessiert waren und die wahrscheinlich an einem Webinar über KI im Risikomanagement teilnehmen werden. Diese Personen haben Kontakte zu Risiko-/Forschungssites (mckinsey.com/capabilities/risk-and-resilience, forrester.com/research). Sie hätten auch ein gewisses Interesse an KI-Produkten zeigen müssen.“
 
 ## Simulieren der Entscheidungsfindung vor der Veröffentlichung {#simulate}
 
