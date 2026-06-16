@@ -3,25 +3,18 @@ title: Zielgruppen-Management
 description: Platzhalterseite für Zielgruppen.
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c844cb4fb520f802c18a9988461c39106000b778
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: 474
 ht-degree: 4%
 
 ---
 
 # Zielgruppen-Management
-
-Wie können Audiences in AJO B2B Prime gespielt werden?
 
 Klicken Sie im rechten Navigationsbereich im Marketing **[!UICONTROL Management-Hub auf]** Personenlisten“.
 
@@ -74,9 +67,9 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 ## Erstellen einer Personenliste
 
 
-Erstellen einer neuen dynamischen oder statischen Liste:
+Erstellen einer dynamischen oder statischen Liste:
 
-1. Klicken **oben rechts** der Seite &quot;_[!UICONTROL &quot; auf „Liste]_&quot;.
+1. Klicken **[!UICONTROL oben rechts]** der Seite &quot;_[!UICONTROL &quot; auf „Liste]_&quot;.
 1. Wählen Sie ein Programm als **[!UICONTROL Übergeordnetes Element]** für die Liste aus.
 1. Geben Sie die Liste als **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** (optional) ein.
 1. Wählen Sie dann Liste **[!UICONTROL Typ]**:
@@ -93,6 +86,10 @@ Erstellen einer neuen dynamischen oder statischen Liste:
 ## Statische Listen
 
 Die statische Mitgliedschaft in Listen wird durch einfache Filter definiert, die auf Personenattribute und Aktivitäten verweisen. Die Mitgliedschaft ändert sich nur, wenn Sie Mitglieder manuell qualifizieren oder disqualifizieren.
+
+>[!NOTE]
+>
+>Statische Listenfilterdefinitionen werden nur einmal angewendet, wenn Sie Mitglieder zur Liste hinzufügen oder daraus entfernen. Der definierte Filter ist danach nicht mehr verfügbar. Wenn Sie eine konsistente Zielgruppendefinition mithilfe von Filtern beibehalten möchten, verwenden Sie stattdessen eine dynamische Liste.
 
 ### Mitglieder hinzufügen
 
