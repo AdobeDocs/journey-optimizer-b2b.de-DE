@@ -1,28 +1,22 @@
 ---
 title: Aufspalten und Zusammenführen von Pfadknoten
-description: Platzhalter
+description: Erfahren Sie, wie Sie mithilfe von Knotenpunkten für Aufspaltungs- und Zusammenführungspfade in Personen-Journeys Personen basierend auf definierten Bedingungen in verschiedene Pfade segmentieren und dann an einem gemeinsamen, nachgelagerten Punkt zusammenführen können.
 autotag-review: '2026-06-12T23:04:27.208Z'
 TQID: 'https://experienceleague.adobe.com/TZlkuuES1Q2ZlG-ND-tIu6cVBRA65hIfotDcroER9Mc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf2854a777f62ba2f74f79942ee3336b6e8ab9dd
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 658
 ht-degree: 0%
 
 ---
 
 # Aufspalten und Zusammenführen von Pfadknoten
 
-
+Verwenden Sie Split-Pfade und Zusammenführungsknoten in Personen-Journey, um Personen basierend auf von Ihnen definierten Bedingungen in verschiedene Pfade zu segmentieren, und bringen Sie diese Pfade dann wieder zusammen, damit die Journey fortgesetzt werden kann. Mit Pfaden für die Aufspaltung können Sie Aktionen und Ereignisse auf bestimmte Zielgruppensegmente anpassen, während Pfade für die Zusammenführung diese Segmente an einem gemeinsamen nachgelagerten Punkt zusammenführen.
 
 ## Pfade von Knoten teilen
 
@@ -32,8 +26,7 @@ Ein Knoten für aufgeteilte Pfade definiert einen oder mehrere segmentierte Pfad
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-
-_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
+_**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**_
 
 * Die Auswertung jedes Pfads erfolgt von oben nach unten. Wenn eine Person für den ersten und zweiten Pfad eine Übereinstimmung findet, fährt sie nur entlang des ersten Pfads fort.
 * Der Knoten unterstützt die Definition eines Pfads _Andere Personen_, in dem Sie Aktionen oder Ereignisse für Personen hinzufügen können, die nicht mit einem der definierten Segmente/Pfade übereinstimmen.
@@ -51,17 +44,11 @@ Verwenden Sie für jeden Pfad, den Sie für den Knoten definieren, die folgenden
 
 ### Hinzufügen eines Knotens mit aufgeteilten Pfaden
 
-<!--
->[!NOTE]
->
->When you split paths by people, a _Close split paths_ node is automatically inserted to end the split. A split-by-people path allows only _Take an action_ on people nodes.
--->
-
-1. Navigieren Sie zur Journey-Karte.
+1. Navigieren Sie zur Journey-Arbeitsfläche.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Pfade aufteilen]**.
 
-   <!-- ![Add journey node - split paths](./assets/add-node-split.png){width="300" zoomable="no"} -->
+   ![Klicken Sie auf das Symbol zum Hinzufügen auf dem Journey-Pfad](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Um eine Bedingung zu definieren, die für _[!UICONTROL Pfad 1]_ gilt, klicken Sie auf **[!UICONTROL Bedingung anwenden]**.
 
@@ -95,13 +82,11 @@ Wenn Sie für jeden Pfad Bedingungen definiert haben, können Sie Aktions- oder 
 
 ## Zusammenführen von Pfadknoten
 
-1. Navigieren Sie zur Journey-Zuordnung und suchen Sie den aufgeteilten Pfadknoten mit zwei oder mehr Pfaden.
+1. Navigieren Sie zur Journey-Arbeitsfläche und suchen Sie den aufgeteilten Pfadknoten mit zwei oder mehr Pfaden.
 
    Jeder Pfad sollte eine Kombination aus Aktionen und Ereignissen auf jedem Pfad enthalten.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) am Ende eines dieser Pfade und wählen Sie **[!UICONTROL Zusammenführungspfade]** aus den angezeigten Optionen aus.
-
-   <!-- ![Journey node - merge paths](./assets/node-plus-icon-merge-paths.png){width="400" zoomable="no"} -->
 
 1. Wählen Sie in den Knoteneigenschaften rechts die Pfade aus, die Sie zusammenführen möchten.
 

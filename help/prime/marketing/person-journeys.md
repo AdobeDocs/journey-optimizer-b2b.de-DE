@@ -3,19 +3,14 @@ title: Personen-Journeys
 description: Erstellen, Veröffentlichen und Verwalten von Personen-Journey in Journey Optimizer B2B edition Prime - Durchsuchen Sie die Journey-Liste, entwerfen Sie mehrstufige Flüsse und duplizieren oder löschen Sie Journey.
 autotag-review: '2026-06-12T23:03:17.139Z'
 TQID: 'https://experienceleague.adobe.com/MhkAuypbebo-n9uwxFPUKbNgyHijaTnaVsqhs9-lXC0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1426
-ht-degree: 21%
+source-wordcount: 1422
+ht-degree: 19%
 
 ---
 
@@ -30,7 +25,7 @@ In der [!DNL Adobe Journey Optimizer B2B Edition Prime] sind Personen-Journey au
 _So erstellen Sie eine neue Personen-Journey :_
 
 1. Erstellen Sie die Personen-Journey.
-1. Fügen Sie die Knoten hinzu und definieren Sie den Journey-Fluss in der Journey-Zuordnung.
+1. Fügen Sie die Knoten hinzu und definieren Sie den Journey-Ablauf auf der Journey-Arbeitsfläche.
 1. [Veröffentlichen der Journey](#publish-a-journey).
 
 ## Zugreifen auf und Durchsuchen von Journey-Personen {#access-and-browse-person-journeys}
@@ -47,7 +42,7 @@ _So erstellen Sie eine neue Personen-Journey :_
 
 1. Verwenden Sie die Listen-Tools, um die angezeigte Liste anzupassen:
 
-   * Klicken Sie auf _Symbol_ Filtern![&#x200B; ( &#x200B;](../../assets/do-not-localize/icon-react-filter.svg)Filtersymbol), um die Liste nach Status zu filtern.
+   * Klicken Sie auf _Symbol_ Filtern![ ( ](../../assets/do-not-localize/icon-react-filter.svg)Filtersymbol), um die Liste nach Status zu filtern.
    * Klicken Sie auf _Tabelle anpassen_ ( ![Symbol Tabelle anpassen](../../assets/do-not-localize/icon-falco-customize-table.svg) ), um die angezeigten Spalten zu steuern.
    * Klicken Sie auf _Symbol „Spalten zurücksetzen_ ( ![Symbol „Spaltenbreite zurücksetzen](../../assets/do-not-localize/icon-falco-reset-columns.svg) ), um die Spaltenbreiten zurückzusetzen.
 
@@ -55,7 +50,7 @@ _So erstellen Sie eine neue Personen-Journey :_
 
 Die Listenseite Journey enthält die folgenden Spalten:
 
-* [!UICONTROL Name] (klicken Sie auf den Namen, um die Journey-Zuordnung zur Bearbeitung zu öffnen)
+* [!UICONTROL Name] (klicken Sie auf den Namen, um die Journey-Arbeitsfläche zur Bearbeitung zu öffnen)
 * [!UICONTROL Status]
 * [!UICONTROL Erstellungsdatum]
 * [!UICONTROL Erstellt von]
@@ -74,11 +69,11 @@ Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Ak
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Entwurf**&#x200B;_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | [Veröffentlichen](#publish-a-journey), [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
-| _&#x200B;**Live**&#x200B;_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn Sie eine Journey veröffentlichen. In diesem Status kann sie nicht mehr bearbeitet werden. | [Duplicate](#duplicate-a-journey), [Close to new entries](#close-to-new-entries), [Abort](#abort-a-journey) |
-| _&#x200B;**Für neue Eintritte geschlossen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ zu _Geschlossen zu neuen Einträgen_ wenn Sie im Journey-Header auf **[!UICONTROL Für neue Einträge schließen]** klicken. | [Duplizieren](#duplicate-a-journey), [Abbrechen](#abort-a-journey) |
-| _&#x200B;**Abgebrochen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
-| _&#x200B;**Beendet**&#x200B;_ | Wenn alle Personen-Zielgruppenmitglieder auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Beendet_. | [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
+| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | [Veröffentlichen](#publish-a-journey), [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
+| _**Live**_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn Sie eine Journey veröffentlichen. In diesem Status kann sie nicht mehr bearbeitet werden. | [Duplicate](#duplicate-a-journey), [Close to new entries](#close-to-new-entries), [Abort](#abort-a-journey) |
+| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Geschlossen zu neuen Einträgen_ wenn Sie im Journey-Header auf **[!UICONTROL Für neue Einträge schließen]** klicken. | [Duplizieren](#duplicate-a-journey), [Abbrechen](#abort-a-journey) |
+| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
+| _**Beendet**_ | Wenn alle Personen-Zielgruppenmitglieder auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Beendet_. | [Duplizieren](#duplicate-a-journey), [Löschen](#delete-a-journey) |
 
 ## Erstellen einer Personen-Journey {#create-a-person-journey}
 
@@ -98,20 +93,20 @@ Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Ak
 
 ### Journey-Header {#journey-header}
 
-Die Kopfzeile jeder Journey-Zuordnung enthält den Journey-Namen, den Status und den Zeitplan.
+Die Kopfzeile jeder Journey-Arbeitsfläche enthält den Journey-Namen, den Status und den Zeitplan.
 
 ![Kopfzeile für Personen-Journey](./assets/person-journey-header.png){width="600" zoomable="yes"}
 
 * Klicken Sie auf _Bearbeiten_-Symbol ( ![Bearbeiten-Symbol](../../assets/do-not-localize/icon-react-edit.svg) ), um den Journey-Namen oder die Beschreibungsinformationen zu ändern.
 * Klicken Sie auf **[!UICONTROL Journey-Einstellungen]**, um den Journey-Start und die Wiederholung zu ändern.
-* Klicken Sie auf **[!UICONTROL Mehr]**, um eine Journey-Aktion anzuwenden oder die Traffic-Steuerung und den erneuten Eintritt zu aktivieren/deaktivieren.
+* Klicken Sie auf **[!UICONTROL … Mehr]** um eine Journey-Aktion anzuwenden oder um Traffic-Steuerung und Wiedereintritt zu aktivieren/deaktivieren.
 * Wenn alle Fehler behoben sind und Sie die Journey aktivieren möchten, klicken Sie auf &quot;**[!UICONTROL &quot;]**.
 
 ### Journey-Design {#journey-design}
 
-Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Arbeitsbereich. Hier können Sie Journey-Knoten hinzufügen und konfigurieren. Klicken Sie auf einen Knoten, um seine Eigenschaften im Bedienfeld rechts neben dem Layout zu öffnen und sie entsprechend Ihrem Design festzulegen. Eine Personen-Journey beginnt immer mit einem [_[!UICONTROL Personen-Zielgruppe &#x200B;]_-](./person-audience-node.md), in dem Sie die Eingabe für die Journey definieren können.
+Die _Journey-Arbeitsfläche_ ist der zentrale Bereich im Journey-Arbeitsbereich. Hier können Sie Journey-Knoten hinzufügen und konfigurieren. Klicken Sie auf einen Knoten, um seine Eigenschaften im Bedienfeld rechts neben dem Layout zu öffnen und sie entsprechend Ihrem Design festzulegen. Eine Personen-Journey beginnt immer mit einem [_[!UICONTROL Personen-Zielgruppe ]_-](./person-audience-node.md), in dem Sie die Eingabe für die Journey definieren können.
 
-Nachdem Sie eine Personen-Journey erstellt und die Personen-Audience definiert haben, erstellen Sie die Journey mithilfe von -Knoten. Die Journey-Zuordnung bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle erstellen können, indem Sie die folgenden Knotentypen verwenden, um die Journey zu erstellen:
+Nachdem Sie eine Personen-Journey erstellt und die Personen-Audience definiert haben, erstellen Sie die Journey mithilfe von -Knoten. Die Journey-Arbeitsfläche bietet einen visuellen Design-Bereich, in dem Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle erstellen können, indem Sie die folgenden Knotentypen verwenden, um die Journey zu erstellen:
 
 * [Durchführen einer Aktion](./action-nodes.md)
 * [Auf ein Ereignis lauschen](./listen-for-event-nodes.md)
@@ -134,7 +129,7 @@ Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. 
 
 1. Öffnen Sie die Entwurfs-Journey über die Liste _[!UICONTROL Personen-Journey]_ .
 
-1. Klicken Sie oben rechts in der Journey-Zuordnung auf **[!UICONTROL Veröffentlichen]**.
+1. Klicken Sie oben rechts auf der Journey-Arbeitsfläche auf &quot;**[!UICONTROL &quot;]**.
 
 1. Legen Sie _[!UICONTROL Dialogfeld &quot;Journey-Einstellungen überprüfen]_ die Journey-Startoptionen fest.
 
@@ -147,7 +142,7 @@ Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. 
 
 1. Geben Sie bei Bedarf das **[!UICONTROL Enddatum]** für die Journey an.
 
-   ![Dialogfeld &quot;Journey-Einstellungen überprüfen“](./assets/journey-settings.png){width="400" zoomable="no"}
+   ![Dialogfeld &quot;Journey-Einstellungen überprüfen“](./assets/journey-publish-review-settings.png){width="400" zoomable="no"}
 
    Sie kann maximal drei Jahre vom Startdatum entfernt sein. Dieses Feld ist für die Veröffentlichung erforderlich.
 
@@ -161,7 +156,7 @@ Wenn Sie eine Live-Journey oder eine Journey, die für ein künftiges Startdatum
 
 1. Öffnen Sie die Journey über die Liste _[!UICONTROL Personen-Journey]_.
 
-1. Klicken Sie oben rechts auf das Menü **[!UICONTROL Mehr...]** und wählen Sie **[!UICONTROL Abbrechen]** aus.
+1. Klicken Sie auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Abbrechen]**.
 
    ![Live-Personen-Journey-Header](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
 
@@ -173,7 +168,7 @@ Wenn Sie eine Live-Journey für neue Einträge schließen, setzen Personen, die 
 
 1. Öffnen Sie die Journey über die Liste _[!UICONTROL Personen-Journey]_.
 
-1. Klicken Sie oben rechts auf das Menü **[!UICONTROL Mehr...]** und wählen Sie **[!UICONTROL Für neue Eintritte schließen]** aus.
+1. Klicken Sie auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Für neue Einträge schließen]**.
 
 1. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Für neue Einträge schließen]**.
 
@@ -185,9 +180,9 @@ Die Aktion „Duplizieren“ ähnelt einer Klonfunktion, wobei eine duplizierte 
 
    ![Menü „Personen-Journey mehr entwerfen“](./assets/person-journey-draft-more-menu.png){width="400"}
 
-   Abhängig vom Status der Journey können Sie über die Journey-Details oder die Journey-Zuordnung auch auf die Duplikataktion zugreifen:
+   Abhängig vom Status der Journey können Sie über die Journey-Details oder die Journey-Arbeitsfläche auch auf die Duplikataktion zugreifen:
 
-   * Klicken Sie bei einer Journey mit Entwurf oben rechts auf das **[!UICONTROL Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
+   * Klicken Sie für eine Entwurfs-Journey auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Duplizieren]**.
    * Klicken Sie bei Journeys mit anderen Status oben rechts auf **[!UICONTROL Duplizieren]**.
 
 1. Wählen Sie im Dialogfeld das **[!UICONTROL Parent]**-Programm für die duplizierte Journey aus.
@@ -220,7 +215,7 @@ Verwenden Sie die Aktion „Löschen“, um eine Journey dauerhaft zu löschen. 
 
    Je nach Status der Journey können Sie auch über den Journey-Header auf die Löschaktion zugreifen:
 
-   * Klicken Sie bei einer Journey oben rechts auf **[!UICONTROL Mehr…]** und wählen Sie **[!UICONTROL Löschen]**.
+   * Klicken Sie für eine Entwurfs-Journey auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Löschen]**.
    * Klicken Sie bei anderen Journeys mit anderen Status wie _Abgeschlossen_ oder _Abgebrochen_ oben rechts auf **[!UICONTROL Löschen]**.
 
 1. Klicken Sie im Bestätigungsdialog auf **[!UICONTROL Löschen]**.

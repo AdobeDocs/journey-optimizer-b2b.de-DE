@@ -1,21 +1,16 @@
 ---
 title: Warteknoten
-description: Platzhalter
+description: Konfigurieren von Warteknoten in Journey Optimizer B2B edition Prime - Pausieren des Journey-Fortschritts nach Dauer, Datum oder erweiterter Tages- und Zeitplanung.
 autotag-review: '2026-06-12T23:04:57.946Z'
 TQID: 'https://experienceleague.adobe.com/XTJRC-qc9xKVYuwAGgDpA97sPJinNGe7OCvATFfwXFU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c10cdff01356ff3dbce906416f86dd2fd11c6b5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 1%
+source-wordcount: 690
+ht-degree: 0%
 
 ---
 
@@ -28,30 +23,30 @@ Es gibt zwei Möglichkeiten, die Wartezeit zu definieren:
 * Ein bestimmtes Datum, an dem Sie zum nächsten Knoten auf der Journey wechseln möchten
 * Eine relative Dauer (Anzahl der Minuten, Stunden, Tage, Wochen oder Monate)
 
-## Warteknoten hinzufügen
+## Warteknoten hinzufügen {#add-wait-node}
 
-1. Navigieren Sie zur Journey-Karte.
+1. Navigieren Sie zur Journey-Arbeitsfläche.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) in einem Pfad und wählen Sie **[!UICONTROL Warten]** aus.
 
-<!-- ![Add journey node - wait](./assets/add-node-wait.png){width="440"} -->
+   ![Klicken Sie auf das Symbol zum Hinzufügen auf dem Journey-Pfad](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. Um die Wartezeit festzulegen, bevor das Journey zum nächsten Knoten im Pfad fortgesetzt wird, legen Sie in den Knoteneigenschaften auf der rechten Seite den **[!UICONTROL Typ]** fest.
 
    * **[!UICONTROL Dauer]** - Definiert eine bestimmte Anzahl von Tagen, Stunden oder Minuten, die zwischen dem Eintritt und dem Austritt des Warteknotens vergehen sollen.
    * **[!UICONTROL Date]** - Geben Sie ein Datum und eine Uhrzeit für den Austritt an.
 
-<!-- ![Journey node - wait](./assets/node-wait.png){width="500"} -->
+   ![Journey-Knoten - Warten](./assets/wait-node.png){width="500"}
 
-## Erweiterte Warteeinstellungen
+## Erweiterte Warteeinstellungen {#advanced-wait-settings}
 
 Aktivieren Sie die Option **[!UICONTROL Muss enden am]**, um einen _erweiterten_&quot; zu konfigurieren und sicherzustellen, dass Ihre Nachrichten Personen und Kontomitglieder zum optimalen Zeitpunkt erreichen. Mit dieser Konfiguration können Sie genau steuern, wann eine Person oder ein Konto einen Warteschritt beendet und zum nächsten Knoten auf der Journey übergeht. Anstatt eine feste Anzahl von Stunden oder Tagen von der Ein- bis zur Ausreise zu definieren, können Sie Aktionen so planen, dass sie zu bestimmten Zeiten und an bestimmten Wochentagen stattfinden.
 
 Mit einem _erweiterten Warteschritt_ definieren Sie **_wann_** die Person oder das Konto beendet wird, nicht einfach nur die Wartezeit.
 
-<!-- ![Journey node - advanced wait step](./assets/node-wait-advanced.png){width="500"} -->
+![Journey-Knoten - erweiterter Warteschritt](./assets/wait-node-advanced.png){width="500"}
 
-### Wartetypen
+### Wartetypen {#wait-types}
 
 | Wartetyp | Beschreibung | Konfiguration |
 | --------- | ----------- | ------------- |
@@ -60,7 +55,7 @@ Mit einem _erweiterten Warteschritt_ definieren Sie **_wann_** die Person oder d
 | **Tagesbereich oder Kombination** | Anhalten bis zu einem beliebigen Tag innerhalb eines Bereichs (z. B. Montag bis Freitag) oder an einem der angegebenen Tage | Zieltage auswählen. Wenn keine Uhrzeit angegeben ist, erfolgt der Austritt um Mitternacht (für die ausgewählte Zeitzone) am nächsten übereinstimmenden Tag. |
 | **Zeit + Tag-Kombination** | Kombinieren Sie beide für eine präzise Planung (z. B. Dienstag um 10 :00 Uhr) | Wählen Sie Ihre Zieltage und legen Sie die Zielzeit fest. Beendet am nächsten Tag/zur nächsten Uhrzeit (für die ausgewählte Zeitzone). |
 
-### Häufige Szenarien
+### Häufige Szenarien {#common-scenarios}
 
 Die folgenden Szenarien veranschaulichen, wie Sie typische Beispiele auf Ihre Warteknotenkonfiguration anwenden können:
 
@@ -88,7 +83,7 @@ Die folgenden Szenarien veranschaulichen, wie Sie typische Beispiele auf Ihre Wa
 
 +++
 
-### Beispiele für Ein- und Austritte
+### Beispiele für Ein- und Austritte {#entry-exit-examples}
 
 | Wartekonfiguration | Konto-/Lead-Eintritte | Konto-/Lead-Ausstiege |
 | ------------------ | ------------------- | ------------------ |
