@@ -14,9 +14,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: 197
 ht-degree: 0%
 
 ---
@@ -25,19 +25,23 @@ ht-degree: 0%
 
 Der _Personen-Zielgruppe_-Knoten gibt an, welche Personenprofile in die Journey eintreten. Wenn Sie [Personen-Journey erstellen](./person-journeys.md) beginnt die Journey immer mit einem Personen-Zielgruppenknoten, der die Eingabe definiert. Der Knoten „Zielgruppe“ kann einen von zwei Arten von Zielgruppeneingaben aufweisen: eine statische Personenliste oder eine dynamische Personenliste.
 
-Wenn die Personenliste, die Sie für den Personen-Journey benötigen, nicht bereits vorhanden ist, erstellen [die Personenliste](../audiences/audience-management.md#create-a-people-list) und konfigurieren Sie dann den Zielgruppenknoten Person .
+Wenn die Personenliste, die Sie für den Personen-Journey benötigen, nicht bereits vorhanden ist, erstellen [die Personenliste](../audiences/people-lists.md#create-a-people-list) und konfigurieren Sie dann den Zielgruppenknoten Person .
 
-## Festlegen der Zielgruppe für den Zielgruppenknoten „Person“
+## Festlegen der Audience
 
 1. Klicken Sie auf **[!UICONTROL Knoten]** Zielgruppe“.
 
    Diese Aktion zeigt die Knoteneigenschaften rechts an.
 
-   <!-- ![Person audience journey node](./assets/person-journey-person-audience-node.png){width="700" zoomable="yes"} -->
+   ![Zielgruppen-Journey-Knoten für Person](./assets/person-audience-node-properties.png){width="500" zoomable="yes"}
 
-1. Verwenden Sie im Bedienfeld Knoteneigenschaften auf der rechten Seite eine der folgenden Eingabeoptionen für den Knoten „Zielgruppen-Journey für Personen“:
+1. Verwenden Sie eine der folgenden Zielgruppen-Konfigurationsoptionen für die Zielgruppe der Person:
 
    * **[!UICONTROL Dynamische Liste]** - Verwenden Sie eine dynamische, regelbasierte Personenliste. Die Listenregeln werden zur Journey-Laufzeit ausgewertet, um Mitglieder der Journey zu qualifizieren. Personen, die sich zu einem späteren Zeitpunkt für die dynamische Liste disqualifizieren, werden nicht von der Journey entfernt.
 
-   * **[!UICONTROL Statische Liste]** - Verwenden Sie eine statische Liste von Personen als Mitglied Ihres Journey. Die aktuelle Listenmitgliedschaft wird zur Journey-Laufzeit ausgewertet, um Mitglieder für die Journey zu qualifizieren. Personen, die später aus der statischen Liste entfernt werden, werden nicht von der Journey entfernt.
+   * **[!UICONTROL Ereigniszielgruppe]** - Verwenden Sie eine Ereigniszielgruppe, um die Journey-Zielgruppe basierend auf qualifizierten Ereignissen zu definieren. Definieren Sie Zielgruppenmitglieder mithilfe der Personenprofilfilterung und des Trigger-Journey-Eintrags mithilfe von Ereigniskriterien.
+
+## Definieren einer Ereignis-Zielgruppe
+
+Hinzufügen, wenn Informationen von PM kommen.
 

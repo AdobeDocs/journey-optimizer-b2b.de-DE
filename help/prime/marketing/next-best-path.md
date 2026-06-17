@@ -16,7 +16,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 342218380ccd06c072a7195ab37790c82cc1de01
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1528
 ht-degree: 1%
@@ -62,7 +62,7 @@ Wenn kein Pfad eine starke Übereinstimmung aufweist oder die Eingabeaufforderun
 
 ## Hinzufügen eines Knotens mit dem nächsten besten Pfad {#add-node}
 
-1. Öffnen Sie die Personen-Journey und navigieren Sie zur Journey-Karte.
+1. Öffnen Sie die Personen-Journey und navigieren Sie zur Journey-Arbeitsfläche.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **Nächster bester Pfad**.
 
@@ -169,7 +169,7 @@ Nach Validierung der Simulationsergebnisse:
 
 Nach der Live-Schaltung des Journey wird der nächstbeste Pfadknoten zur Ausführungszeit ausgeführt. Wenn jede Person den Knoten erreicht, bewertet die KI sie in Echtzeit anhand der neuesten Signale und leitet sie zum relevantesten Pfad.
 
-Öffnen Sie für eine veröffentlichte Journey die Journey-Zuordnung und wählen Sie den nächstbesten Pfadknoten aus, um den Abschnitt **_[!UICONTROL Live-]_**&quot; im rechten Bedienfeld anzuzeigen. Live-Ergebnisse zeigen:
+Bei einer veröffentlichten Journey öffnen Sie die Journey-Arbeitsfläche und wählen Sie den nächstbesten Pfadknoten aus, um den Abschnitt **_[!UICONTROL Live-Ergebnisse]_** im rechten Bedienfeld anzuzeigen. Live-Ergebnisse zeigen:
 
 * Die prozentuale Verteilung der Profile über jeden Pfad
 * Der Konfidenzwert für jede Pfadzuweisung

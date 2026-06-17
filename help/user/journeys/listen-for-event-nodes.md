@@ -16,7 +16,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
 source-wordcount: 1880
 ht-degree: 12%
@@ -50,7 +50,7 @@ Auf einer Account-Journey können Sie für ein Account-basiertes Ereignis überw
 
 ### Hinzufügen eines Kontoereignisses
 
-1. Navigieren Sie zur Journey-Karte.
+1. Navigieren Sie zur Journey-Arbeitsfläche.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) in einem Pfad und wählen Sie **[!UICONTROL Auf ein Ereignis überwachen]**.
 
@@ -102,7 +102,7 @@ Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis über
 
 ### Personen-Ereignis hinzufügen
 
-1. Navigieren Sie zur Journey-Karte.
+1. Navigieren Sie zur Journey-Arbeitsfläche.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) in einem Pfad und wählen Sie **[!UICONTROL Auf ein Ereignis überwachen]**.
 
@@ -118,7 +118,7 @@ Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis über
 
 Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können Sie ein Ereignis auf der Grundlage eines Triggers/Kein Besuch dieser Web-Seiten sowie von Marketo Engage-Formularen, die nicht ausgefüllt wurden/waren, erstellen.
 
-1. Wählen Sie in **[!UICONTROL Journey-Map einen]** Auf ein Ereignis überwachen“ aus.
+1. Wählen Sie auf der **[!UICONTROL -Arbeitsfläche einen]** aus, um auf ein Ereignis zu warten.
 
 1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite **[!UICONTROL Ereignistyp]** Personen“ aus.
 
@@ -147,7 +147,7 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können S
 
 1. Legen Sie bei Bedarf die Option **[!UICONTROL Timeout]** fest, um den Zeitraum zu begrenzen, für den das Ereignis überwacht werden soll (siehe [Hinzufügen einer Zeitüberschreitung zu einem Ereignisknoten](#add-a-timeout-to-an-event-node)).
 
-1. Fügen Sie in der Journey-Zuordnung den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
+1. Fügen Sie auf der Arbeitsfläche &quot;Journey&quot; den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
 
 ### Überwachen eines Erlebnisereignisses {#listen-for-an-experience-event}
 
@@ -163,7 +163,7 @@ Admins können [Adobe Experience Platform (AEP) Experience Events](https://exper
 
 _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
-1. Wählen Sie in **[!UICONTROL Journey-Map einen]** Auf ein Ereignis überwachen“ aus.
+1. Wählen Sie auf der **[!UICONTROL -Arbeitsfläche einen]** aus, um auf ein Ereignis zu warten.
 
 1. (Nur Konto-Journey) Wählen Sie in den Knoteneigenschaften auf der rechten Seite **[!UICONTROL Personen]** für den Ereignistyp aus.
 
@@ -197,7 +197,7 @@ _So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
 
 1. Legen Sie bei Bedarf die Option **[!UICONTROL Timeout]** fest, um den Zeitraum zu begrenzen, für den das Ereignis überwacht werden soll (siehe [Hinzufügen einer Zeitüberschreitung zu einem Ereignisknoten](#add-a-timeout-to-an-event-node)).
 
-1. Fügen Sie in der Journey-Zuordnung den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
+1. Fügen Sie auf der Arbeitsfläche &quot;Journey&quot; den nächsten Knoten hinzu, der ausgeführt werden soll, wenn das Ereignis eintritt.
 
 1. Schließen Sie die verbleibenden Knoten für Ihren Journey ab und [&#x200B; Sie ihn &#x200B;](./journeys-overview.md).
 
