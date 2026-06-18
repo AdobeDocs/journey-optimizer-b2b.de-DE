@@ -12,7 +12,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: 951d9ceaa95656952e36b6d8f238348b08c796ca
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 19%
@@ -128,7 +128,7 @@ Nachdem Sie eine Personen-Journey erstellt und die Personen-Audience definiert h
 
 Die Journey-Listenseite enthält alle Journey von Personen in Ihrer Journey Optimizer B2B Prime-Instanz. Auf der Listenseite können Sie eine Reihe von Aktionen auf eine Journey anwenden.
 
-#### Veröffentlichen einer Journey {#publish-a-journey}
+#### Veröffentlichen einer Journey {#publish}
 
 Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. Nach der Veröffentlichung ändert sich der Journey-Status in _Live_. Wenn der Journey Fehler aufweist, ist **[!UICONTROL Schaltfläche]** Veröffentlichen“ mit der `Resolve errors before publishing` abgeblendet.
 

@@ -2,10 +2,10 @@
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B edition Prime und wie Sie damit ?.
 hide: true
-source-git-commit: 1cb68e8933d6b1abba3cc82f154344d1dde51818
+source-git-commit: f471a870b1e54b4588317d495eb7f7625051ac65
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 41%
+source-wordcount: '128'
+ht-degree: 42%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 41%
 # Journey Optimizer B2B Prime-Benutzerhandbuch {#prime}
 
 + [Dokumentation zu Adobe Journey Optimizer B2B Prime](guide-overview.md)
-+ [Einrichten](./start/setup-prime.md)
++ Erste Schritte {#start}
+   + [Checkliste einrichten](./start/setup-prime.md)
+   + [Benutzerverwaltung](./start/user-management.md)
 + [Startseite und Erkenntnisse](./home-insights/home-insights.md)
 + [Agentinnen bzw. Agenten](./agents/agents.md)
 + Marketing-Management {#marketing-management}
@@ -28,6 +30,7 @@ ht-degree: 41%
       + [Warten](./marketing/wait-nodes.md)
       + [Aufteilen und Zusammenführen von Pfaden](./marketing/split-merge-paths-nodes.md)
       + [Nächster bester Pfad](./marketing/next-best-path.md)
+   + [Optimierung des E-Mail-Versandzeitpunkts](./marketing/email-send-time-optimization.md)
 + Zielgruppen {#audiences}
    + [Personenlisten](./audiences/people-lists.md)
    + [Ziele](./audiences/destinations.md)
