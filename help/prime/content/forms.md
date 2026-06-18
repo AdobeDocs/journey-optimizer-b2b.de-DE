@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 2281
 ht-degree: 2%
@@ -349,3 +349,4 @@ Wenn ein Formular in einer Landingpage oder Landingpage-Vorlage enthalten ist, k
 Wenn Sie das Formular im Design-Bereich der Landingpage auswählen, sind diese Aktionen in der Kontextsymbolleiste und im Bedienfeld Eigenschaften auf der rechten Seite verfügbar.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
+<!-- -->

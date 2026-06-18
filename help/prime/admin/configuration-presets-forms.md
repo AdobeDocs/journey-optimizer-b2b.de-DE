@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e849c9406dc83c6dc7c22ff56de32d6a73fed07d
+source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
 workflow-type: tm+mt
 source-wordcount: 541
 ht-degree: 22%
@@ -119,3 +119,4 @@ Beim Erstellen einer Voreinstellung:
 1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
    Wenn die Formularvorgabe mit dem Status _Veröffentlicht_ aufgeführt wird, kann sie für die Formularerstellung verwendet werden.
+<!-- -->
