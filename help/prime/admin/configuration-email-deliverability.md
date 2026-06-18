@@ -3,57 +3,32 @@ title: E-Mail-Zustellbarkeit und Kanalkonfiguration
 description: Konfigurieren Sie die Zuweisung von Subdomains, DMARC, SPF, DKIM, IP-Pools und E-Mail-Kanalkonfigurationen für Journey Optimizer B2B Prime.
 autotag-review: '2026-06-12T22:43:42.799Z'
 TQID: 'https://experienceleague.adobe.com/RKZSQkjSRvHixOm2faRT5D-yB00IykXfPO06vvIUQ6k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
-source-wordcount: 3414
+source-wordcount: 3095
 ht-degree: 1%
 
 ---
 
 # E-Mail-Zustellbarkeit und Kanalkonfiguration
 
-[!DNL Adobe Journey Optimizer B2B Edition] Prime bietet B2B-Marketern ein modernes, für Unternehmen geeignetes Erlebnis für E-Mail-Authoring und -Versand. Diese Version führt neu gestaltete E-Mail-Design-Tools und einen kompletten Satz von E-Mail-Zustellbarkeitssteuerelementen ein.
-
 Die folgenden Informationen richten sich an Administratoren, die die Versandinfrastruktur so konfigurieren, dass Marketing-Experten und E-Mail-Autoren unterstützt werden. Es beschreibt Zustellbarkeitsfunktionen, Rollen und Berechtigungen und beschreibt, wie Subdomains, Authentifizierung, IP-Pools und Kanalkonfigurationen konfiguriert werden.
 
 Detaillierte Informationen zum Erstellen von E-Mails und Verfassen von E-Mail-Inhalten im E-Mail-Design-Bereich finden Sie unter [E-Mail-Authoring](../content/email-authoring.md).
 
-## E-Mail-Kanal - Übersicht {#overview}
-
-* **Visuelle E-Mail-Design-Tools per Drag-and-Drop** - Entwerfen Sie Ihren E-Mail-Inhalt mit Strukturen, Inhaltskomponenten, Designs, Unterstützung für den Dunkelmodus und wiederverwendbaren visuellen Fragmenten.
-* **E-Mail** Kanalkonfigurationen - Verwalten der Absenderidentität, des Antwortverhaltens, des Marketing- vs. Transaktionsnachrichtentyps und des Trackings.
-* **E-Mail-Zustellbarkeitskontrollen** - Richten Sie Ihren E-Mail-Zustellbarkeitskanal ein, einschließlich der Zuweisung von Subdomains (vollständig delegierte und CNAME-Methoden), der automatischen Konfiguration von DMARC, SPF/DKIM und der Unterstützung eines freigegebenen IP-Pools.
-* **Aktion „E-Mail senden** - Fügen Sie von einer Journey die Aktion „E-Mail senden“ hinzu, einschließlich Personalisierung mithilfe von Profilattributen (Handlebars-Syntax).
-* **Marketo Design Studio-Assets** - Wählen Sie Bilder und Assets aus einer einmaligen Kopie Ihrer Marketo Engage-Asset-Bibliothek direkt auf der E-Mail-Arbeitsfläche.
-* **Wiederverwendbare Vorlagen und Fragmente** - Speichern Sie allgemeine Kopf- und Fußzeilen, CTAs und vollständige E-Mail-Layouts und verwenden Sie sie in allen Journey.
-* **Rollenbasierte Zugriffssteuerung (RBAC)** - Wenden Sie granulare Berechtigungen zum Erstellen, Bearbeiten, Genehmigen und Senden von E-Mails an.
-
 ## Schlüsselkonzepte {#key-concepts}
 
-Bevor Sie E-Mails konfigurieren, lesen Sie diese Konzepte, die für E-Mail-Kanal-Funktionen im gesamten Produkt gelten.
+Überprüfen Sie vor dem Konfigurieren von E-Mails die folgenden Konzepte, die für die Zustellbarkeitsfunktionen des E-Mail-Kanals gelten:
 
 | Konzept | Was es in [!DNL Journey Optimizer B2B Edition] Prime bedeutet |
 | ------- | ---------------------- |
 | **_Kanalkonfiguration_** | Ein wiederverwendbarer Satz von E-Mail-Sendeeinstellungen - einschließlich Absenderidentität, Antwortadresse, Subdomain, IP-Pool, E-Mail-Typ (Marketing oder Transaktion) und Tracking -, die Sie an E-Mail-Aktionen in Journey anhängen. Sie können mehrere benannte Kanalkonfigurationen für verschiedene Marken, Geschäftseinheiten oder Versandtypen haben. |
 | **_Subdomain_** | Ein delegierter Teil Ihrer Versand-Domain (z. B. `mail.contoso.com`), der zum Senden von E-Mails über Prime verwendet wird. Subdomains isolieren Ihre B2B-Marketing-Reputation von Unternehmens- oder Transaktions-E-Mails. |
 | **_IP-Pool_** | Eine Gruppe von IP-Adressen, die mit einer oder mehreren Subdomains verknüpft sind. Prime unterstützt in dieser Version einen gemeinsamen IP-Pool, der von Adobe verwaltet wird. Dedizierte IP-Pools sind in der GA-Roadmap enthalten. |
-| **_E-Mail-Design-Bereich_** | Die visuelle Arbeitsfläche und Design-Tools, die zum Erstellen von E-Mail-Inhalten verwendet werden. Es enthält Layout-Komponenten, Vorlagen, Fragmente und Designs per Drag-and-Drop und einen Personalisierungseditor. |
-| **_Vorlage_** | Ein wiederverwendbares E-Mail-Layout, das zum Erstellen einer neuen E-Mail verfügbar ist. Dabei kann es sich entweder um eine integrierte Beispielvorlage handeln, die von Adobe bereitgestellt wird, oder um eine benutzerdefinierte Vorlage, die von Ihrem Team erstellt wurde. |
-| **_Visuelles Fragment_** | Ein wiederverwendbarer Inhaltsblock (z. B. Kopf- und Fußzeile, CTA, Haftungsausschluss), der in mehrere E-Mails eingefügt werden kann. Beim Aktualisieren eines Fragments wird die Änderung an jede E-Mail weitergegeben, die es verwendet. |
-| **_Design_** | Eine wiederverwendbare Stilvorgabe (Farben, Typografie, Abstände, Schaltflächenstile), die auf eine E-Mail angewendet wird. |
-| **_Personalization-Token_** | Ein Handlebars-Ausdruck, z. B. `{{profile.firstName}}`, wird zum Sendezeitpunkt mithilfe der Profildaten jedes Empfängers aufgelöst. |
-| **_Aktion „E-Mail senden“_** | Der Journey-Aktionsknoten, der eine Kanalkonfiguration und E-Mail-Inhalt zum Versand einer E-Mail verwendet. |
 
 ## Rollen und Berechtigungen {#roles-permissions}
 
@@ -84,7 +59,7 @@ Die meisten E-Mail-Funktionen folgen einem `view-*`- (Lese-) und `manage-*`- (Sc
 | **Verwalten von Assets** | `manage-b2b-assets` | Alle Lesezugriffe sowie zukünftige Asset-Management-Aktionen (Beta-Umfang). |
 | **Exportieren von Nachrichtendaten** | `manage-b2b-message-export` | Exportieren Sie Nachrichtendaten und Berichte auf E-Mail-Ebene. |
 
-Innerhalb einer Journey erfordert die Aktion **E-Mail senden** `manage-b2b-person-journeys` (um die Aktion hinzuzufügen und die Journey zu aktivieren). Benutzende, die nur über E-Mail-Berechtigungen verfügen, können Inhalte erstellen, aber keine E-Mail zu einer Journey hinzufügen.
+Innerhalb einer Personen-Journey ist für die **E-Mail senden** Aktion `manage-b2b-person-journeys` erforderlich (um die Aktion hinzuzufügen und die Journey zu aktivieren). Benutzende, die nur über E-Mail-Berechtigungen verfügen, können Inhalte erstellen, aber keine E-Mail zu einer Journey hinzufügen.
 
 ### E-Mail-Zustellbarkeitsberechtigungen {#email-deliverability-permissions}
 

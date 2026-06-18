@@ -4,19 +4,13 @@ description: Erfahren Sie, wie Sie E-Mail-Vorlagen in Journey Optimizer B2B Prim
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-06-12T22:55:41.432Z'
 TQID: 'https://experienceleague.adobe.com/Msxr9hadBPax4r7tLi-UFZuUgZC3a0A9vc-Tjyaf4B4'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 880
 ht-degree: 1%
 
 ---
@@ -32,7 +26,7 @@ Sie haben drei Möglichkeiten, um eine E-Mail-Vorlage in [!DNL Journey Optimizer
 
 ## Neue Vorlage erstellen {#build-new}
 
-1. Navigieren Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Vorlagen]**.
+1. Erweitern Sie in der linken Navigation **[!UICONTROL Content-Management]** und wählen Sie **[!UICONTROL Vorlagen]**.
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**.
 1. Geben Sie einen **[!UICONTROL Vorlagennamen“]** optional &quot;**[!UICONTROL &quot;]**.
 1. Legen Sie den **[!UICONTROL Kanal]** (Typ) für die Vorlage fest.
