@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: beb843b812f6398d342f52f7fcfdd387e916d2f6
+source-git-commit: 6be2e3e71e297ec1498a6252e878cd8c9c7f0894
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 880
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Sie haben drei Möglichkeiten, um eine E-Mail-Vorlage in [!DNL Journey Optimizer
 
 ## Neue Vorlage erstellen {#build-new}
 
-1. Navigieren Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Vorlagen]**.
+1. Erweitern Sie in der linken Navigation **[!UICONTROL Content-Management]** und wählen Sie **[!UICONTROL Vorlagen]**.
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**.
 1. Geben Sie einen **[!UICONTROL Vorlagennamen“]** optional &quot;**[!UICONTROL &quot;]**.
 1. Legen Sie den **[!UICONTROL Kanal]** (Typ) für die Vorlage fest.

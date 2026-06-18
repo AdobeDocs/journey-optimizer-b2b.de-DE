@@ -13,7 +13,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1d0093ad5298593d291372d838794fe8cab5f646
+source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
 workflow-type: tm+mt
 source-wordcount: 821
 ht-degree: 2%
@@ -155,7 +155,7 @@ Verwenden Sie diese Aktion, um eine E-Mail an angemeldete Personen zu senden. Pe
 
 ![Aktion durchführen - E-Mail senden](./assets/person-action-node-send-email.png){width="450"}
 
-Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Authoring](../content/email-authoring.md).
+Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Kanal](../marketing/email-channel.md).
 
 Sie können die [Optimierung des Versandzeitpunkts](../marketing/email-send-time-optimization.md) verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil mit der größten Wahrscheinlichkeit interagieren wird.
 
