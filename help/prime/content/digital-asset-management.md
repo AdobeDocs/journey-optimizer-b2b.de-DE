@@ -3,7 +3,7 @@ title: Assets
 description: Verwalten von Bild-Assets aus Journey Optimizer B2B edition für E-Mails, Vorlagen und visuelle Fragmente.
 feature: Assets, Content
 role: User
-badge: label="Beta" type="Informative"
+badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-06-18T20:11:57.611Z'
 TQID: 'https://experienceleague.adobe.com/Xsl4zqpk4xqXuOS85Z5U08tnbv8GWm3FXdqsegPCBI4'
 product_v2:
@@ -16,22 +16,26 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 3%
+source-wordcount: 524
+ht-degree: 5%
 
 ---
 
 # Assets
 
-In der [!DNL Adobe Journey Optimizer B2B Prime] sind Assets normalerweise die Bilder, die beim Entwerfen von Inhalten zur Unterstützung von Journey verwendet werden. Sie können diese Bilder in Ihren E-Mails, E-Mail-Vorlagen und visuellen Fragmenten über den Asset-Wähler oder eine einfache Drag-and-Drop-Oberfläche im visuellen Design-Bereich verwenden.
+In der [!DNL Adobe Journey Optimizer B2B Prime] sind Assets normalerweise die Bilder, die beim Entwerfen von Inhalten zur Unterstützung von Journey verwendet werden. Sie können diese Bilder in Ihren [E-Mails](email-authoring.md), [E-Mail-Vorlagen](templates.md) und [visuellen Fragmenten](email-authoring.md#visual-fragments) über den Asset-Wähler oder eine einfache Drag-and-Drop-Oberfläche im visuellen Design-Bereich verwenden.
 
 Folgende Dateiformate werden unterstützt: JPG, JPEG, GIF, PNG, EPS, SVG und RGB.
 
-
-&#x200B;>>
-Der Import von Assets aus externen Systemen wie dem Marketo Engage-DAM und der Zugriff auf eine vorausgefüllte Asset-Bibliothek sind noch nicht verfügbar. Künftige Versionen werden voraussichtlich Asset-Importe aus vorhandenen Systemen, Ordnerunterstützung und erweiterte Asset-Management-Funktionen umfassen.
+>[!NOTE]
+>
+>In dieser Beta-Version können Sie Bilder und Assets aus einer einmaligen Kopie Ihrer Marketo Engage-Asset-Bibliothek direkt auf der E-Mail-Arbeitsfläche auswählen. Das Ändern von Assets in Marketo Engage nach der ersten Kopie wird **nicht** in [!DNL Journey Optimizer B2B Prime] angezeigt.
+>
+>Sie können zusätzliche Bild-Assets aus der _[!UICONTROL Assets]_-Bibliothek oder dem Inhaltsdesign-Bereich hochladen. Diese hochgeladenen Assets sind nur für die Verwendung in der [!DNL Journey Optimizer B2B Prime] verfügbar.
+>
+>Der Import von Assets aus externen Systemen und der Zugriff auf eine vorausgefüllte Asset-Bibliothek sind noch nicht verfügbar. Künftige Versionen werden voraussichtlich Asset-Importe aus vorhandenen Systemen, Ordnerunterstützung und erweiterte Asset-Management-Funktionen umfassen.
 
 <!-- You can [edit these assets using Adobe Express](./image-edit-adobe-express.md), and move them into folders to organize them for use across your emails, templates, and fragments. -->
 
@@ -39,17 +43,13 @@ Die **Assets**-Bibliothek bietet Zugriff auf das zentrale Repository zum Speiche
 
 Erweitern Sie in der linken Navigationsleiste **[!UICONTROL Content-Management]** und wählen Sie **[!UICONTROL Assets]**.
 
->[!NOTE]
->
->In dieser Beta-Version können Sie Bilder und Assets aus einer einmaligen Kopie Ihrer Marketo Engage-Asset-Bibliothek direkt auf der E-Mail-Arbeitsfläche auswählen. Sie können auch zusätzliche Bild-Assets aus der _[!UICONTROL Assets]_-Bibliothek oder dem Inhaltsdesign-Bereich hochladen. Diese hochgeladenen Assets sind nur für die Verwendung in der [!DNL Adobe Journey Optimizer B2B Prime] verfügbar.
-
-![Assets-Bibliothek](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
+![Listenansicht der Assets-Bibliothek mit sortierbaren Metadatenspalten](./assets/dam-asset-library-list-view.png){width="800" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Wenn Sie das erste Mal auf die Bibliothek _[!UICONTROL Assets]_ zugreifen, lesen Sie die _[!UICONTROL Nutzungsbedingungen für Generative AI]_ und klicken Sie auf **[!UICONTROL Zustimmen und fortfahren]**.
+Wenn Sie das erste Mal auf die Bibliothek _[!UICONTROL Assets]_ zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI &#x200B;]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html) und bestätigen Sie Ihr Einverständnis.
 
-![Assets-Bibliothek](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+![Dialogfeld der Nutzungsbedingungen für Generative KI in der Assets-Bibliothek](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
 >[!ENDSHADEBOX]
 
@@ -72,11 +72,9 @@ Verwenden Sie das Feld _[!UICONTROL Suche]_, um Assets zu finden, indem Sie besc
 
 ## Asset-Details anzeigen {#view-details}
 
-Wählen Sie ein Asset aus, um seine Detailansicht zu öffnen. In der Detailansicht werden eine KI-generierte Beschreibung, Tags und Keywords sowie zusätzliche Metadatenfelder angezeigt. Diese Informationen werden beim Hochladen des Assets automatisch generiert.
+Wählen Sie ein Asset in der Listen- oder Galerieansicht aus, um seine Detailansicht auf der rechten Seite zu öffnen, in der eine KI-generierte Beschreibung, Tags, Keywords und zusätzliche Metadatenfelder angezeigt werden. Diese Informationen werden beim Hochladen des Assets automatisch generiert. Wählen Sie die Registerkarte **[!UICONTROL KI-]**) aus, um die generierte Beschreibung, die Tags und die Metadaten zu überprüfen.
 
-Wählen Sie ein Asset in der Listen- oder Galerieansicht aus, um seine Detailansicht auf der rechten Seite zu öffnen. Wählen Sie die Registerkarte KI-Metadaten aus, um die von der KI generierte Beschreibung, die Tags und die Metadaten anzuzeigen.
-
-![Ausgewähltes Bild aus Suchergebnissen in der Assets-Bibliothek](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
+![Asset-Detailansicht mit KI-generierten Metadaten und Tags](./assets/dam-asset-library-select-image-metadata.png){width="700" zoomable="yes"}
 
 ## Hochladen eines Assets {#upload}
 
@@ -93,4 +91,3 @@ Wählen Sie ein Asset in der Listen- oder Galerieansicht aus, um seine Detailans
 Nach Abschluss des Uploads generiert das System automatisch eine Beschreibung, weist Tags und Keywords zu und extrahiert visuelle Attribute wie Betreff und Einstellung. Es ist kein manuelles Tagging erforderlich. Das neue Bild wird mit dem Status _[!UICONTROL VERARBEITUNG“ angezeigt]_ bis dieser Vorgang abgeschlossen ist.
 
 ![Neues Bild-Asset im Verarbeitungsstatus](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
-<!-- -->

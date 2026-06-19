@@ -14,7 +14,7 @@ subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e90250101eef0572af0382cc7d24bca727d2b75
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
 source-wordcount: 190
 ht-degree: 55%
@@ -42,22 +42,22 @@ Wenn die Bereitstellung abgeschlossen ist, Sandboxes gebunden und die anfänglic
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Erstellen eines Marketo Engage-Produktprofils in der Adobe Admin Console (nur neue Marketo Engage-Instanz)</td>
 <td><a href="./user-management.md#create-profile">Weitere Informationen</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Hinzufügen einer Benutzergruppe für das Profil</td>
 <td><a href="./user-management.md#add-user-group">Weitere Informationen</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>B2B-Benutzerrollen konfigurieren</td>
 <td><a href="./user-management.md#edit-roles-for-product-permissions">Weitere Informationen</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
+<td><img src=".../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Hinzufügen von Benutzenden oder Gruppen zu den Rollen</td>
 <td><a href="./user-management.md#add-users-to-a-role">Weitere Informationen</a></td>
 </tr>
@@ -81,26 +81,25 @@ Bevor Marketer E-Mails von Journey-Benutzern senden können, müssen Sie die Ver
 <td></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Delegieren einer Subdomain an Adobe</td>
 <td><a href="./admin/configuration-email-deliverability.md#delegate-fully-delegated">Vollständig delegiert</a> oder <a href="./admin/configuration-email-deliverability.md#delegate-cname">CNAME</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Konfigurieren von DMARC für die Subdomain</td>
 <td><a href="./admin/configuration-email-deliverability.md#configure-dmarc">Weitere Informationen</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>IP-Pool überprüfen und zuweisen</td>
 <td><a href="./admin/configuration-email-deliverability.md#review-ip-pool">Weitere Informationen</a></td>
 </tr>
 <tr>
-<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
+<td><img src="../../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Erstellen einer E-Mail-Kanal-Konfiguration</td>
 <td><a href="./admin/configuration-email-deliverability.md#create-email-channel-configuration">Weitere Informationen</a></td>
 </tr>
 </tbody>
 </table>
-<!-- -->
 

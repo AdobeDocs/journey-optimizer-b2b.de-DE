@@ -15,9 +15,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b7cb8c2a43b8a562e55923d709f518b8f1d74b2a
+source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
 workflow-type: tm+mt
-source-wordcount: 2789
+source-wordcount: 2753
 ht-degree: 2%
 
 ---
@@ -260,7 +260,7 @@ Prime stellt Ihre vorhandenen Marketo Design Studio-Assets im E-Mail-Design-Bere
 
 >[!IMPORTANT]
 >
->Die Asset-Verfügbarkeit in Prime basiert auf einer **Kopie** Assets aus Marketo Design Studio. Das erneute Hochladen oder Ändern von Assets in Marketo nach der ersten Kopie **nicht** in Prime angezeigt. Bild-Uploads direkt in Prime werden in dieser Version ebenfalls nicht unterstützt. Die native Verwaltung digitaler Assets in Prime - einschließlich Hochladen, Ordnernavigation, Suche und Bildbearbeitung - ist Teil des Beta-Umfangs.
+>Die Asset-Verfügbarkeit in Prime basiert auf einer **Kopie** Assets aus Marketo Design Studio. Das Ändern von Assets in Marketo Engage nach der ersten Kopie wird **nicht** in [!DNL Journey Optimizer B2B Prime] angezeigt.
 
 ### Unterstützte Dateitypen {#asset-file-types}
 
