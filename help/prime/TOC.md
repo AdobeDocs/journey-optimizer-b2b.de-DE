@@ -2,10 +2,10 @@
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B edition Prime und wie Sie damit ?.
 hide: true
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 45%
+ht-degree: 44%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 45%
 + Erste Schritte {#start}
    + [Checkliste einrichten](./start/setup-prime.md)
    + [Benutzerverwaltung](./start/user-management.md)
+   + [Zustellbarkeit von E-Mails](./start/email-deliverability.md)
 + [Startseite und Erkenntnisse](./home-insights/home-insights.md)
 + [Agentinnen bzw. Agenten](./agents/agents.md)
 + Marketing-Management {#marketing-management}
@@ -33,7 +34,7 @@ ht-degree: 45%
    + E-Mail-Kanal {#email-channel}
       + [Überblick](./marketing/email-channel.md)
       + [Optimierung des E-Mail-Versandzeitpunkts](./marketing/email-send-time-optimization.md)
-      + [Erstellung von E-Mails](./content/email-authoring.md)
+      + [Inhaltserstellung](./content/email-authoring.md)
       + [Design im Dunkelmodus](./content/email-dark-mode.md)
    + [WhatsApp-Kanal](./content/whatsapp-authoring.md)
 + Zielgruppen {#audiences}
@@ -54,9 +55,9 @@ ht-degree: 45%
 + Administration {#admin}
    + {hide-from-toc}[Administration](./admin/admin.md)
    + Kanäle {#channels}
-      + [E-Mail-Zustellbarkeit und Kanalkonfiguration](./admin/configuration-email-deliverability.md)
-      + [SMS-Kanalkonfiguration](./admin/configuration-channels-sms.md)
-      + [Konfiguration von Web-Kanälen](./admin/configuration-channels-web.md)
+      + [E-Mail-Kanalkonfiguration](./admin/email-channel-configuration.md)
+      + {hide-from-toc}[SMS-Kanalkonfiguration](./admin/configuration-channels-sms.md)
+      + {hide-from-toc}[Webkanal-Konfiguration](./admin/configuration-channels-web.md)
       + [WhatsApp-Kanalkonfiguration](./admin/configuration-channels-whatsapp.md)
       + [Konfiguration einer Landingpage](./admin/configuration-presets-landing-pages.md)
       + [Konfiguration von Formularvorgaben](./admin/configuration-presets-forms.md)

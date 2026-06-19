@@ -1,44 +1,36 @@
 ---
-title: Erstellung von E-Mails
+title: E-Mail-Inhalt
 description: Verwenden Sie die E-Mail-Design-Tools in Journey Optimizer B2B Prime, einschließlich E-Mail-Vorlagen, Fragmenten, Personalisierung, Dunkelmodus und Validierung.
 autotag-review: '2026-06-12T22:51:19.543Z'
 TQID: 'https://experienceleague.adobe.com/-mtyiJ98caCTuTKaZbzYrYKiQoxolq-hMw7p5h7bNpY'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
 workflow-type: tm+mt
-source-wordcount: 2753
+source-wordcount: 2738
 ht-degree: 2%
 
 ---
 
-# Erstellung von E-Mails
+# Inhaltserstellung in E-Mails
 
 [!DNL Adobe Journey Optimizer B2B Prime] bietet der E-Mail-Design-Bereich eine visuelle Arbeitsfläche, auf der Marketing-Experten E-Mails erstellen. Die E-Mail-Design-Tools im linken und oberen Bereich (Strukturen, Inhaltskomponenten, Vorlagen, Fragmente usw.) unterstützen die Erstellung von Grund auf per Drag-and-Drop. Sie können auch mit einer Vorlage beginnen, unformatierte HTML einfügen oder Nachrichten aus wiederverwendbaren visuellen Fragmenten zusammenstellen.
 
 >[!IMPORTANT]
 >
->Informationen zum Einrichten von Subdomains, Authentifizierung, IP-Pools und E-Mail-Kanal-Konfigurationen durch Administratoren finden Sie unter [E-Mail-Zustellbarkeit und Kanalkonfiguration](../admin/configuration-email-deliverability.md).
+>Informationen zum Einrichten von Subdomains, Authentifizierung, IP-Pools und E-Mail-Kanal-Konfigurationen durch Admins finden Sie unter [E](../start/email-deliverability.md)Mail-Zustellbarkeit und [E-Mail-Kanal-Konfiguration](../admin/email-channel-configuration.md).
 
-[!DNL Journey Optimizer B2B Prime] ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [&#x200B; Knoten _E-Mail senden_ zu &#x200B;](../marketing/action-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Design-Prozess für E-Mail-Inhalte zu starten.
+[!DNL Adobe Journey Optimizer B2B Prime] ist jede E-Mail mit einer Aktion _[!UICONTROL E-Mail senden]_ innerhalb einer Journey verknüpft. Der vollständige Workflow vom Journey-Design bis zur E-Mail-Definition erfolgt in einem kontinuierlichen Erlebnis. Wenn Sie [ Knoten _E-Mail senden_ zu ](../marketing/action-nodes.md#add-an-action-node) Personen-Journey hinzufügen, klicken Sie auf **[!UICONTROL E-Mail erstellen]**, um den Design-Prozess für E-Mail-Inhalte zu starten.
 
 Diese Aktion startet den E-Mail-Design-Bereich, in dem Sie anhand der folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
-* [Erstellen Sie Ihre E-Mail von Grund &#x200B;](#build-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
+* [Erstellen Sie Ihre E-Mail von Grund ](#build-from-scratch) mithilfe der visuellen Design-Oberfläche. Erstellen Sie die E-Mail-Layout-Komponente per Drag-and-Drop auf einer leeren Arbeitsfläche. Diese Methode eignet sich am besten zum Erstellen neuer Vorlagen oder einmaliger E-Mails.
 
 * Importieren Sie HTML in den Code-Editor oder arbeiten Sie nebeneinander mit der visuellen Arbeitsfläche. Der vollständige HTML-Import-Workflow mit HTML- und ZIP-Uploads steht auf der Beta-Roadmap.
 
-* [Wählen Sie eine vorhandene &#x200B;](#create-from-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus. Diese Methode eignet sich am besten für wiederholbare E-Mail-Anwendungsfälle.
+* [Wählen Sie eine vorhandene ](#create-from-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus. Diese Methode eignet sich am besten für wiederholbare E-Mail-Anwendungsfälle.
 
 <!-- * Upload a design prototype (JPG, PNG, PDF, or Figma export) and have AI Assitant convert it into a responsive HTML email. (Image to HTML (Img2HTML) -->
 
@@ -65,16 +57,13 @@ Die Befolgung der Best Practices für HTML und CSS hilft bei der Sicherstellung 
 
 ## Erstellen einer E-Mail von einer Journey {#email-from-journey}
 
-1. Klicken Sie auf **[!UICONTROL E-Mail bearbeiten]**, um mit dem Schritt E-Mail-Konfiguration fortzufahren.
-1. Wählen Sie im nächsten Bildschirm aus der Dropdown-Liste **[!UICONTROL E-Mail-Konfiguration]** eine zuvor erstellte Kanalkonfiguration aus. Es werden nur aktive Konfigurationen aufgelistet.
-1. Geben Sie einen Titel für die Aktion (auf der Journey-Arbeitsfläche sichtbar) und einen internen E-Mail-Namen ein.
-1. Geben Sie die Betreffzeile ein.
-1. Schalten Sie optional **[!UICONTROL URL-Tracking aktivieren]** für diesen E-Mail-Knoten um.
-1. Klicken Sie auf **[!UICONTROL Inhalt bearbeiten]**, um den E-Mail-Design-Bereich zu öffnen.
+Um eine Aktion _[!UICONTROL E-Mail senden]_ zu einer Personen-Journey hinzuzufügen, erstellen Sie die E-Mail und konfigurieren Sie Kanaleinstellungen auf der Registerkarte **[!UICONTROL Aktionen]**, siehe [Hinzufügen von E-Mails an Journey](../marketing/email-channel.md).
+
+Nachdem Sie die E-Mail auf den Registerkarten **[!UICONTROL Eigenschaften]**, **[!UICONTROL Aktionen]** und **[!UICONTROL Inhalt]** konfiguriert haben, verwenden Sie die Abschnitte in diesem Thema, um den Textkörper der E-Mail im E-Mail-Design-Bereich zu gestalten.
 
 ### Der Bildschirm Inhalt bearbeiten . {#edit-content-screen}
 
-In diesem Bildschirm bestätigen Sie die Absenderdetails (übernommen von der Kanalkonfiguration), legen die Betreffzeile fest und öffnen den E-Mail-Design-Bereich, um den Textkörper zu erstellen. Der Preheader wird im E-Mail-Design-Bereich konfiguriert (siehe [Festlegen des Preheaders](#preheader)).
+Auf der Registerkarte **[!UICONTROL Inhalt]** bestätigen Sie die Absenderdetails (übernommen von der [E-Mail-Kanalkonfiguration](../admin/email-channel-configuration.md)), legen die Betreffzeile fest und öffnen den E-Mail-Design-Bereich, um den Textkörper zu erstellen. Der Preheader wird im E-Mail-Design-Bereich konfiguriert (siehe [Festlegen des Preheaders](#preheader)).
 
 * **Absendername, Absender-E-Mail, BCC:** von der Kanalkonfiguration übernommen. Schreibgeschützt auf diesem Bildschirm.
 * **Betreffzeile:** erforderlich. Personalization wird unterstützt.
@@ -234,7 +223,7 @@ Prime verwendet die Handlebars-Syntax für die Personalisierung. Token werden zu
 
 ### Häufige Personalisierungsmuster {#personalization-patterns}
 
-Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwendet dieselbe Syntax, die unter [Schritt für Schritt: Einfügen eines Personalisierungs-Tokens) beschrieben &#x200B;](#insert-token):
+Verwenden Sie Handlebars-Ausdrücke wie den folgenden (Personalisierung verwendet dieselbe Syntax, die unter [Schritt für Schritt: Einfügen eines Personalisierungs-Tokens) beschrieben ](#insert-token):
 
 * **`{{profile.lastName}}`** - Fügen Sie den Nachnamen der Empfängerin bzw. des Empfängers ein.
 * **`{{profile.jobTitle}}`** - Referenzieren Sie die Stellenbezeichnung des Empfängers in der Textkörper-Kopie.
@@ -295,10 +284,10 @@ Bevor Ihr Journey aktiviert werden kann, muss der E-Mail-Inhalt gültig sein. Pr
 
 | Warnhinweis | Bedeutung | Beheben von Problemen |
 | ----- | ------------- | -------------- |
-| **Betreffzeile fehlt** | Das Feld Betreffzeile ist leer. | Öffnen Sie die E-Mail und geben Sie eine Betreffzeile auf dem Bildschirm Inhalt bearbeiten ein. Personalization-Token sind zulässig, das Feld darf jedoch nicht leer sein. |
+| **Betreffzeile fehlt** | Das Feld Betreffzeile ist leer. | Öffnen Sie die E-Mail und geben Sie eine Betreffzeile auf der Registerkarte **[!UICONTROL Inhalt]** ein. Personalization-Token sind zulässig, das Feld darf jedoch nicht leer sein. |
 | **E-Mail-Text ist leer** | Die Arbeitsfläche im E-Mail-Design-Bereich enthält keinen Inhalt. | Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um den E-Mail-Design-Bereich zu öffnen. Ziehen Sie mindestens eine Struktur - und eine Inhaltskomponente auf die Arbeitsfläche und klicken Sie dann auf Speichern . |
-| **Kanalkonfiguration nicht ausgewählt** | Für den E-Mail-Knoten wurde keine E-Mail-Konfiguration ausgewählt. | Wählen Sie im E-Mail-Eigenschaftenbildschirm in der Dropdown-Liste **[!UICONTROL E-Mail-Konfiguration]** eine Konfiguration für den aktiven Kanal aus. |
-| **Kanalkonfiguration gelöscht** | Die zuvor ausgewählte Kanalkonfiguration wurde gelöscht oder ist nicht mehr aktiv. | Öffnen Sie die E-Mail-Eigenschaften und wählen Sie eine andere aktive Kanalkonfiguration aus. Wenn keine verfügbar sind, muss ein Administrator eine erstellen oder reaktivieren. |
+| **Kanalkonfiguration nicht ausgewählt** | Für den E-Mail-Knoten wurde keine E-Mail-Kanalkonfiguration ausgewählt. | Wählen Sie auf der Registerkarte **[!UICONTROL Aktionen]** eine aktive **[!UICONTROL E-Mail-Kanalkonfiguration]**. |
+| **Kanalkonfiguration gelöscht** | Die zuvor ausgewählte Kanalkonfiguration wurde gelöscht oder ist nicht mehr aktiv. | Wählen Sie auf der Registerkarte **[!UICONTROL Aktionen]** eine andere aktive **[!UICONTROL E-Mail-Kanalkonfiguration]** aus. Wenn keine verfügbar sind, muss ein Administrator eine in der Konfiguration des E-[-Kanals erstellen oder ](../admin/email-channel-configuration.md). |
 | **E-Mail-Größe überschreitet 100 KB** | Die Gesamtgröße der E-Mails (HTML, Inline-CSS, kodierte Inhalte) ist größer als die Obergrenze von 100 KB für Best Practices beim ISP. | Verringern der E-Mail-Größe: Ersetzen Sie große Inline-Bilder durch extern gehostete Bilder aus Marketo Design Studio, entfernen Sie nicht verwendetes Inline-CSS und vereinfachen Sie verschachtelte Strukturen. |
 | **Nicht aufgelöstes Personalisierungs-Token** | Ein Handlebars-Token verweist auf ein Profilattribut ohne Fallback, und bei einigen Empfängern kann das Attribut fehlen. | Fügen Sie ein Fallback mit dem Handlebars-`default`-Helper hinzu, wie in [Personalization beschrieben](#personalization). Alternativ können Sie die Journey-Zielgruppe auf Profile beschränken, bei denen das Attribut garantiert ist. |
 | **Bild nicht geladen** | Eine Bildkomponente verweist auf ein Asset, das nicht mehr verfügbar ist. | Klicken Sie auf das Bild, öffnen Sie die Asset-Auswahl und wählen Sie das Asset in Marketo Design Studio erneut aus. |
