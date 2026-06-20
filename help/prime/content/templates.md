@@ -4,19 +4,13 @@ description: Erfahren Sie, wie Sie in Journey Optimizer B2B Prime auf E-Mail-Vor
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-06-12T22:56:19.345Z'
 TQID: 'https://experienceleague.adobe.com/TTr-0Pm7Jb0LLCHt6hZb8mkXdeC7PUqteYVDuyanfs0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c8c11e14e295eb594bc291f554978a92baf4c56
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 492
 ht-degree: 2%
 
 ---
@@ -24,7 +18,7 @@ ht-degree: 2%
 
 # E-Mail-Vorlagen
 
-E-Mail-Vorlagen in [!DNL Journey Optimizer B2B Edition Prime] ermöglichen es Inhaltsspezialisten, wiederverwendbare E-Mail-Layouts unabhängig zu erstellen, sodass Marketing-Teams sie auf alle Account-Journey anwenden können, ohne jedes Mal Designs neu erstellen zu müssen.
+E-Mail-Vorlagen in [!DNL Adobe Journey Optimizer B2B Prime] ermöglichen es Inhaltsspezialisten, wiederverwendbare E-Mail-Layouts unabhängig zu erstellen, sodass Marketing-Teams sie auf alle Account-Journey anwenden können, ohne jedes Mal Designs neu erstellen zu müssen.
 
 >[!NOTE]
 >
@@ -87,4 +81,4 @@ Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie entfernen möc
 
 ## Verwenden einer Vorlage in einer E-Mail {#use-in-journey}
 
-Beim Verfassen einer E-Mail auf einer Journey können **[!UICONTROL im Abschnitt]** Design-Vorlage auswählen“ aus gespeicherten Vorlagen oder Beispielvorlagen auswählen. Klicken Sie auf eine Vorlagenminiatur, um sie in der Vorschau anzuzeigen, und klicken Sie dann auf **[!UICONTROL Diese Vorlage verwenden]**, um sie anzuwenden. Siehe [E-Mail-Authoring](email-authoring.md#templates) für den vollständigen Workflow.
+Beim Verfassen einer E-Mail auf einer Journey können **[!UICONTROL im Abschnitt]** Design-Vorlage auswählen“ aus gespeicherten Vorlagen oder Beispielvorlagen auswählen. Klicken Sie auf eine Vorlagenminiatur, um sie in der Vorschau anzuzeigen, und klicken Sie dann auf **[!UICONTROL Diese Vorlage verwenden]**, um sie anzuwenden. Informationen dazu, wo die Vorlagenauswahl in den allgemeinen E-Mail-Workflow passt, finden Sie unter [E-Mail-Inhaltserstellung](./email-authoring.md).

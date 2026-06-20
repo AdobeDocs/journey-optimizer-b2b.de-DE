@@ -3,34 +3,27 @@ title: WhatsApp-Authoring
 description: Erstellen Sie WhatsApp-Nachrichten für Personen-Journey mithilfe genehmigter Meta-Vorlagen, Personalisierungs-Token und Versandeinstellungen in Journey Optimizer B2B Prime.
 autotag-review: '2026-06-17T03:12:08.373Z'
 TQID: 'https://experienceleague.adobe.com/HijiC-uJ1rz5yl6bzsZRuFLJb7VWE38f-aqAGWLd2rQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 803
 ht-degree: 20%
 
 ---
 
 # WhatsApp-Authoring
 
-Verwenden Sie Journey Optimizer B2B Prime, um WhatsApp-Nachrichten an Personen auf deren Mobilgeräten zu senden. Sie können Nachrichten mithilfe genehmigter Meta-Nachrichtenvorlagen im WhatsApp-Editor erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie [!DNL Adobe Journey Optimizer B2B Prime], um WhatsApp-Nachrichten an Personen auf ihren Mobilgeräten zu senden. Sie können Nachrichten mithilfe genehmigter Meta-Nachrichtenvorlagen im WhatsApp-Editor erstellen, personalisieren und in der Vorschau anzeigen.
 
 Bevor Sie WhatsApp-Nachrichten für Personen-Journey erstellen, stellen Sie sicher, dass Sie in den Einstellungen [Administrator](../admin/configuration-channels-whatsapp.md) einen _[!UICONTROL WhatsApp-Kanal]_ haben.
 
 >[!NOTE]
 >
->In _B2B_ Prime werden nur WhatsApp-Nachrichtenelemente unterstützt.
+>In _werden nur_ Outbound-)WhatsApp-Nachrichtenelemente unterstützt[!DNL Journey Optimizer B2B Prime].
 
 +++ Unterstützte Nachrichtenelemente und call-to-action-Optionen
 
@@ -91,7 +84,7 @@ Sie können den WhatsApp-Nachrichtenversand auf einer Personen-Journey einrichte
 
 ### Nachrichtenvorlage auswählen {#select-message-template}
 
-WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem Meta WhatsApp Business-Konto gesendet. **Vorlagen müssen von Meta überprüft und genehmigt werden** bevor Sie sie in Journey Optimizer B2B Prime verwenden können. Wenden Sie sich an Ihren [!DNL Meta Business Manager]-Kontoadministrator, um Vorlagen zu verwalten und zur Genehmigung einzureichen.
+WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem Meta WhatsApp Business-Konto gesendet. **Vorlagen müssen von Meta überprüft und genehmigt werden** bevor sie in [!DNL Journey Optimizer B2B Prime] verwendet werden können. Wenden Sie sich an Ihren [!DNL Meta Business Manager]-Kontoadministrator, um Vorlagen zu verwalten und zur Genehmigung einzureichen.
 
 1. Wählen **[!UICONTROL für „Vorlagenkategorie]**&quot; eine der folgenden Optionen:
 
