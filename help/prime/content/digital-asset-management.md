@@ -1,6 +1,6 @@
 ---
 title: Assets
-description: Verwalten von Bild-Assets aus Journey Optimizer B2B edition für E-Mails, Vorlagen und visuelle Fragmente.
+description: Verwalten von Bild-Assets aus Journey Optimizer B2B Prime für E-Mails, Vorlagen und visuelle Fragmente.
 feature: Assets, Content
 role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 579f36911af99308294726e91e80c5d08015d5cf
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 524
-ht-degree: 5%
+source-wordcount: 786
+ht-degree: 18%
 
 ---
 
@@ -91,3 +91,29 @@ Wählen Sie ein Asset in der Listen- oder Galerieansicht aus, um seine Detailans
 Nach Abschluss des Uploads generiert das System automatisch eine Beschreibung, weist Tags und Keywords zu und extrahiert visuelle Attribute wie Betreff und Einstellung. Es ist kein manuelles Tagging erforderlich. Das neue Bild wird mit dem Status _[!UICONTROL VERARBEITUNG“ angezeigt]_ bis dieser Vorgang abgeschlossen ist.
 
 ![Neues Bild-Asset im Verarbeitungsstatus](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+
+## Verwenden von Assets für die Inhaltserstellung {#assets-authoring}
+
+Verwenden Sie Assets beim Erstellen von E-Mails, E-Mail-Vorlagen und visuellen Fragmenten. Der Visual Content Editor bietet Zugriff auf die Bilder in der Bibliothek _Assets_. Sie können auch ein Bild-Asset hochladen, wodurch es im internen Assets-Repository abgelegt wird.
+
+Sie können das Bild-Asset auswählen, wenn Sie die Einstellungen für eine Bildkomponente oder direkt auf der Arbeitsfläche bearbeiten:
+
+* **_Leere Komponente_** - Wenn Sie eine Bildkomponente zur Arbeitsfläche hinzufügen, ist sie leer und bietet einfachen Zugriff zum Auswählen oder Importieren einer Bilddatei.
+
+  ![Auswählen einer Quelle, um eine Bilddatei für die leere Bildkomponente festzulegen](./assets/dam-assets-image-component-empty.png){width="500"}
+
+* **_Bildkomponenten-Symbolleiste_** - Wenn Sie eine Bildkomponente auf der Arbeitsfläche ausgewählt haben, bietet die Symbolleiste einfachen Zugriff, um eine Quelle und die Bilddatei auszuwählen.
+
+  ![Auswählen einer Quelle und einer Bilddatei für die Bildkomponente mithilfe der Symbolleiste](./assets/dam-assets-image-toolbar-settings.png){width="500"}
+
+* **_Einstellungen der Bildkomponente_** - Wenn Sie eine Bildkomponente auf der Arbeitsfläche ausgewählt haben, können Sie die Einstellungen im rechten Bedienfeld anzeigen und bearbeiten. Um die in der Komponente angezeigte Bilddatei hinzuzufügen oder zu ändern, wählen Sie den Quelltyp und dann eine Bilddatei aus.
+
+  ![Bearbeiten der Einstellungen der Bildkomponente im rechten Panel](./assets/dam-assets-image-settings.png){width="350"}
+
+Klicken Sie **[!UICONTROL Asset auswählen]**, um den Asset-Wähler zu öffnen, in dem Sie ein Bild aus dem [!DNL Journey Optimizer B2B Prime] Asset-Repository auswählen können.
+
+![Bild-Asset auswählen](./assets/dam-assets-internal-image-selected.png){width="700" zoomable="yes"}
+
+Sie können die Suche und Filter verwenden, um das gewünschte Bild-Asset zu finden. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Auswählen]**, um es für die Bildkomponente zu verwenden.
+
+Sie können ein Bild-Asset auch in den Hintergrundeinstellungen für eine Strukturkomponente auswählen.

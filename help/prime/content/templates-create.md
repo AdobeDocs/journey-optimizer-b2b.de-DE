@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 880
+source-wordcount: 885
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 # E-Mail-Vorlagen erstellen
 
-Sie haben drei Möglichkeiten, um eine E-Mail-Vorlage in [!DNL Journey Optimizer B2B Edition Prime] zu erstellen:
+Sie haben drei Möglichkeiten, um eine E-Mail-Vorlage in [!DNL Adobe Journey Optimizer B2B Prime] zu erstellen:
 
 * **Neue Vorlage erstellen** - Erstellen Sie eine Vorlage in der Vorlagenbibliothek mithilfe des visuellen E-Mail-Design-Bereichs.
 * **Von einer Journey-E-Mail speichern** - Speichern Sie eine E-Mail, die Sie auf einer Journey verfasst haben, als wiederverwendbare Vorlage.
@@ -65,13 +65,13 @@ Wenn Sie den E-Mail-Inhalt öffnen, den Sie wiederverwenden möchten, speichern 
 
 Die ursprüngliche Journey-E-Mail ist nicht betroffen. Die gespeicherte Vorlage ist in der Vorlagenbibliothek für alle Benutzer in der Sandbox verfügbar. Sie können die erstellte Vorlage aktualisieren, um die Wiederverwendung zu optimieren:
 
-* Bearbeiten von Text und Hinzufügen [Personalisierungs](email-authoring.md#personalization)Token.
+* Bearbeiten von Text und Hinzufügen [Personalisierungs](email-authoring.md#personalize-content)Token.
 * Bilder aktualisieren oder ersetzen und Links hinzufügen.
 * Konfigurieren Sie [Inhaltssperrung](template-content-governance.md).
 
 ## Konvertieren eines Bildes in eine Vorlage {#image-to-template}
 
-[!DNL Journey Optimizer B2B Edition Prime] können ein statisches Bild - z. B. ein Mockup aus Figma oder Photoshop - mithilfe von generativer KI in eine bearbeitbare E-Mail-Vorlage konvertieren. Dadurch entfällt die Notwendigkeit, Layouts aus Design-Dateien manuell neu zu erstellen, und es ist ideal für die Migration vorhandener E-Mail-Designs von anderen Plattformen. Diese Funktion ist nur für E-Mail-Inhaltsvorlagen verfügbar.
+[!DNL Adobe Journey Optimizer B2B Prime] können ein statisches Bild - z. B. ein Mockup aus Figma oder Photoshop - mithilfe von generativer KI in eine bearbeitbare E-Mail-Vorlage konvertieren. Dadurch entfällt die Notwendigkeit, Layouts aus Design-Dateien manuell neu zu erstellen, und es ist ideal für die Migration vorhandener E-Mail-Designs von anderen Plattformen. Diese Funktion ist nur für E-Mail-Inhaltsvorlagen verfügbar.
 
 >[!BEGINSHADEBOX]
 
@@ -95,7 +95,7 @@ Bevor Sie beginnen:
 
 ### Erstellen der Vorlage
 
-1. Navigieren Sie **[!UICONTROL Content-Management]** > **[!UICONTROL Vorlagen]**.
+1. Erweitern Sie in der linken Navigation **[!UICONTROL Content-Management]** und wählen Sie **[!UICONTROL Vorlagen]**.
 1. Klicken Sie auf **[!UICONTROL Vorlage erstellen]**.
 1. Geben Sie einen **[!UICONTROL Vorlagennamen“]** optional &quot;**[!UICONTROL &quot;]**.
 1. Setzen Sie **[!UICONTROL Kanal]** auf E-Mail.
@@ -138,7 +138,7 @@ Bevor Sie beginnen:
 
 Der konvertierte Vorlageninhalt wird im Design-Bereich als vollständig bearbeitbare E-Mail-Vorlage geöffnet. Verwenden Sie die standardmäßigen Inhaltserstellungs-Tools für Folgendes:
 
-* Bearbeiten von Text und Hinzufügen [Personalisierungs](email-authoring.md#personalization)Token.
+* Bearbeiten von Text und Hinzufügen [Personalisierungs](email-authoring.md#personalize-content)Token.
 * Bilder aktualisieren oder ersetzen und Links hinzufügen.
 * Farben, Schriftarten und Abstände anpassen.
 * Hinzufügen, Entfernen oder Neuanordnen von Inhaltskomponenten.

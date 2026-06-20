@@ -15,22 +15,22 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 21a905201c3fc49f2e825dea2a0f0cc76f7b285f
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 803
 ht-degree: 20%
 
 ---
 
 # WhatsApp-Authoring
 
-Verwenden Sie Journey Optimizer B2B Prime, um WhatsApp-Nachrichten an Personen auf deren Mobilgeräten zu senden. Sie können Nachrichten mithilfe genehmigter Meta-Nachrichtenvorlagen im WhatsApp-Editor erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie [!DNL Adobe Journey Optimizer B2B Prime], um WhatsApp-Nachrichten an Personen auf ihren Mobilgeräten zu senden. Sie können Nachrichten mithilfe genehmigter Meta-Nachrichtenvorlagen im WhatsApp-Editor erstellen, personalisieren und in der Vorschau anzeigen.
 
 Bevor Sie WhatsApp-Nachrichten für Personen-Journey erstellen, stellen Sie sicher, dass Sie in den Einstellungen [Administrator](../admin/configuration-channels-whatsapp.md) einen _[!UICONTROL WhatsApp-Kanal]_ haben.
 
 >[!NOTE]
 >
->In _B2B_ Prime werden nur WhatsApp-Nachrichtenelemente unterstützt.
+>In _werden nur_ Outbound-)WhatsApp-Nachrichtenelemente unterstützt[!DNL Journey Optimizer B2B Prime].
 
 +++ Unterstützte Nachrichtenelemente und call-to-action-Optionen
 
@@ -91,7 +91,7 @@ Sie können den WhatsApp-Nachrichtenversand auf einer Personen-Journey einrichte
 
 ### Nachrichtenvorlage auswählen {#select-message-template}
 
-WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem Meta WhatsApp Business-Konto gesendet. **Vorlagen müssen von Meta überprüft und genehmigt werden** bevor Sie sie in Journey Optimizer B2B Prime verwenden können. Wenden Sie sich an Ihren [!DNL Meta Business Manager]-Kontoadministrator, um Vorlagen zu verwalten und zur Genehmigung einzureichen.
+WhatsApp-Nachrichten werden mit vorab genehmigten Nachrichtenvorlagen von Ihrem Meta WhatsApp Business-Konto gesendet. **Vorlagen müssen von Meta überprüft und genehmigt werden** bevor sie in [!DNL Journey Optimizer B2B Prime] verwendet werden können. Wenden Sie sich an Ihren [!DNL Meta Business Manager]-Kontoadministrator, um Vorlagen zu verwalten und zur Genehmigung einzureichen.
 
 1. Wählen **[!UICONTROL für „Vorlagenkategorie]**&quot; eine der folgenden Optionen:
 

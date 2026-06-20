@@ -1,10 +1,10 @@
 ---
 title: Inhaltserstellung - HTML importieren
 description: Wiederverwendeter Abschnitt zum Import aus der Inhaltserstellung in HTML
-source-git-commit: bbdbf74b2fb0003b84ed4d7f84dce9aa3b796aea
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 27%
+source-wordcount: '139'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,6 @@ Importierte Inhalte können:
 
 _So importieren Sie eine Datei mit HTML-Inhalt :_
 
-1. Wählen Sie auf _[!UICONTROL Startseite]_ Vorlage entwerfen“ die Option **[!UICONTROL HTML importieren]** aus.
+1. Wählen Sie auf der Startseite des Designs die Option **[!UICONTROL HTML importieren]** aus.
 
 1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf **[!UICONTROL Importieren]**.

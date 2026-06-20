@@ -1,20 +1,25 @@
 ---
 title: Formulare
 description: Erstellen und verwalten Sie wiederverwendbare Formulare für die Erfassung von Geschäftsdaten - Entwerfen Sie Felder, legen Sie Dankeseiten fest, veröffentlichen Sie und verfolgen Sie die Nutzung in Journey Optimizer B2B Prime.
-autotag-review: '2026-06-12T22:53:03.357Z'
+autotag-review: '2026-06-19T23:02:49.150Z'
 TQID: 'https://experienceleague.adobe.com/iwrvFvR6amcRnXyPd3PoDZ8FU9zITH9i3B172QDTAn0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
 workflow-type: tm+mt
-source-wordcount: 2281
+source-wordcount: 2261
 ht-degree: 2%
 
 ---
@@ -31,7 +36,7 @@ Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des 
 >
 
 <!-- 
->Form creation in Journey Optimizer B2B Edition requires the following [permissions](../start/user-management.md#b2b-product-permissions):
+>Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
@@ -40,7 +45,7 @@ Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des 
 
 ## Aufrufen und Verwalten von Formularen {#view-forms}
 
-Um auf Formulare in Journey Optimizer B2B edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite, auf der alle in der Instanz erstellten Formulare angezeigt werden.
+Um auf Formulare in [!DNL Journey Optimizer B2B Prime] zuzugreifen, navigieren Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite, auf der alle in der Instanz erstellten Formulare angezeigt werden.
 
 <!-- ![Access the forms library](./assets/forms-list.png){width="800" zoomable="yes"} -->
 
@@ -74,7 +79,7 @@ Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!
 
 ## Erstellen von Formularen {#create-forms}
 
-Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in Journey Optimizer B2B edition beginnen, sollten Sie mehrere Dinge berücksichtigen:
+Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in [!DNL Journey Optimizer B2B Prime] beginnen, sollten Sie mehrere Dinge berücksichtigen:
 
 * Bestimmen Sie, welche Formulare Sie benötigen.
 
@@ -108,7 +113,7 @@ Add to context help when available
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Create a form preset"
 -->
 
-Sie können ein Formular in Journey Optimizer B2B edition erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
+Sie können ein Formular in [!DNL Journey Optimizer B2B Prime] erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
 
 1. Geben _[!UICONTROL im Dialogfeld „Formular erstellen]_ einen nützlichen **[!UICONTROL Name]** (erforderlich) und **[!UICONTROL Beschreibung]** (optional) ein.
 
@@ -156,7 +161,7 @@ Scrollen Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite 
 
 * **[!UICONTROL Auf Seite bleiben]** - Wählen Sie diese Option, um den Besucher beim Senden des Formulars auf der gleichen Seite zu belassen.
 
-* **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige Journey Optimizer B2B edition-Landingpage als Folgeseite auszuwählen.
+* **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige [!DNL Journey Optimizer B2B Prime] Landingpage als Folgeseite auszuwählen.
 
 * **[!UICONTROL Externe URL]** - Wählen Sie diese Option aus, um eine beliebige URL als Folgeseite anzugeben. Nachdem der Besucher das Formular gesendet hat, lädt der Browser die vorgesehene URL.
 
@@ -188,7 +193,7 @@ Sie können die Ansicht jederzeit verlassen, indem Sie oben links auf _Zurück_-
 
 ## Anzeigen von durch Verweise verwendeten Formularen
 
-Klicken Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite auf die Registerkarte **[!UICONTROL Verwendet von]**, um Details zur aktuellen Verwendung des Formulars in Journey Optimizer B2B edition sowie zu Landingpages und Landingpage-Vorlagen anzuzeigen.
+Klicken Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite auf die Registerkarte **[!UICONTROL Verwendet von]**, um Details zur aktuellen Verwendung des Formulars in [!DNL Journey Optimizer B2B Prime] sowie zu Landingpages und Landingpage-Vorlagen anzuzeigen.
 
 >[!IMPORTANT]
 >
