@@ -6,19 +6,13 @@ feature: Content Design Tools
 role: User
 autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +39,7 @@ ht-degree: 5%
 >title="Informationen zu Strukturkomponenten"
 >abstract="Strukturkomponenten sind Layout-Elemente, mit denen Sie die Struktur einer Vorlage gestalten können."
 
-Verwenden Sie die _Strukturkomponenten_ im visuellen Design-Bereich, um die Struktur Ihrer Inhalte zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie die Form Ihres Inhalts-Layouts schnell definieren. Jede Strukturkomponente erstreckt sich über den horizontalen Bereich und Sie können sie stapeln, um das Layout vertikal zu erstellen. Unterteilen Sie jede Komponente in Spalten, um jeden benötigten Inhaltsblock zu bilden, und fügen Sie dann darin [Inhaltskomponenten](./content-components.md) hinzu, um das Layout zu befüllen.
+Verwenden Sie die _Strukturkomponenten_ im visuellen Design-Bereich, um die Struktur Ihrer Inhalte zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie die Form Ihres Inhalts-Layouts schnell definieren. Jede Strukturkomponente erstreckt sich über den horizontalen Bereich und Sie können sie stapeln, um das Layout vertikal zu erstellen. <!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## Strukturbibliothek {#structure-library}
 
@@ -231,7 +225,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
 ## Navigationsbaum {#navigation-tree}
 
-Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../../user/assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../../user/assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
