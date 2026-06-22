@@ -3,21 +3,16 @@ title: Hinzufügen von benutzerdefiniertem CSS für Inhalte
 description: Hinzufügen von benutzerdefiniertem CSS zu E-Mails und Landingpages für erweiterte Formatierung und präzise Designkontrolle über die Standardkomponenten in Journey Optimizer B2B Prime hinaus.
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
+badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-06-19T22:00:56.704Z'
 TQID: 'https://experienceleague.adobe.com/z0vACEVhY2WZcSgeO3Kbx7ceSNsf4Se3DZut36xnN4E'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: c9ba0bd460bf68ea46c2641b8044f23c9656334b
 workflow-type: tm+mt
-source-wordcount: 557
+source-wordcount: 567
 ht-degree: 9%
 
 ---
@@ -200,7 +195,7 @@ body {
 
 Wenn Sie benutzerdefiniertes CSS mit Inhalten verwenden möchten, die in den Design-Bereich für E-Mails oder Landingpages importiert wurden, sollten Sie Folgendes beachten:
 
-* Wenn Sie externen HTML-Inhalt einschließlich CSS importieren, <!-- unless converting that content, -->wird dieser im [!UICONTROL Kompatibilitätsmodus] ausgefüllt und der Abschnitt [!UICONTROL CSS-]&quot; ist nicht verfügbar.
+* Wenn Sie externe HTML-Inhalte einschließlich CSS importieren, werden diese im [!UICONTROL Kompatibilitätsmodus] aufgefüllt und der Abschnitt [!UICONTROL CSS-]&quot; ist nicht verfügbar.
 
 * Wenn Sie Inhalte importieren, die ursprünglich im Design-Bereich der E-Mail oder Landingpage mit der Option [!UICONTROL Benutzerdefiniertes CSS hinzufügen] erstellt wurden, ist die angewendete CSS-Datei von derselben Option aus sichtbar und bearbeitbar.
 
