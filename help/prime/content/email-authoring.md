@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 2209
+source-wordcount: 2192
 ht-degree: 3%
 
 ---
@@ -136,7 +136,9 @@ Ausführliche Anleitungen zur Vorschau, zur Konfiguration benutzerdefinierter Ei
 
 ### Hinzufügen von Struktur- und Inhaltskomponenten {#components}
 
-Erstellen Sie Ihr E-Mail[Layout, indem Sie &#x200B;](./structure-components.md)Strukturkomponenten“ und [Inhaltskomponenten](./content-components.md) zur Arbeitsfläche hinzufügen. Ziehen Sie Elemente aus den Abschnitten **[!UICONTROL Strukturen]** und **[!UICONTROL Inhalte]** im linken Bereich und konfigurieren Sie dann jede Komponente auf den Registerkarten _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stile]_ auf der rechten Seite.
+<!-- Build your email layout by adding [structure components](./structure-components.md) and [content components](./content-components.md) to the canvas. -->
+
+Ziehen Sie Elemente aus den Abschnitten **[!UICONTROL Strukturen]** und **[!UICONTROL Inhalte]** im linken Bereich und konfigurieren Sie dann jede Komponente auf den Registerkarten _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stile]_ auf der rechten Seite.
 
 ### Hinzufügen von benutzerdefiniertem CSS {#custom-css}
 
@@ -219,7 +221,7 @@ Weitere Informationen zur Verwendung von Assets finden Sie unter [_Verwenden von
 
 ### Navigieren in den Ebenen, Einstellungen und Stilen {#navigation-layers}
 
-Verwenden Sie den Navigationsbaum, um Komponenten und Spalten auszuwählen und dann ihre Einstellungen und Stile im rechten Bedienfeld anzupassen. Siehe [Navigationsbaum](./structure-components.md#navigation-tree).
+Verwenden Sie den Navigationsbaum, um Komponenten und Spalten auszuwählen und dann ihre Einstellungen und Stile im rechten Bedienfeld anzupassen. <!-- See [Navigation tree](./structure-components.md#navigation-tree). -->
 
 ### Personalisieren von Inhalten {#personalize-content}
 
@@ -281,7 +283,7 @@ Weitere Informationen zu den Tools und der Syntax des Ausdruckseditors finden Si
 
 Verwenden Sie vor dem Speichern die Steuerelemente Vorschau für Desktops und Mobilgeräte in der Symbolleiste des E-Mail-Designs, um das E-Mail-Layout zu überprüfen. Wechseln Sie in die Vorschau des Dunkelmodus, um die Lesbarkeit und den Kontrast zu überprüfen (siehe [Dunkelmodus für E-Mail-Inhalte](./email-dark-mode.md)).
 
-Testprofile, **[!UICONTROL Inhalt simulieren]** und Testversand-Workflows sind in dieser Beta-Version nicht verfügbar. Siehe [Aktuelle Einschränkungen](../marketing/email-channel.md#limitations) in der Übersicht zum E-Mail-Kanal.
+Testprofile, [!UICONTROL Inhalt simulieren] und Testversand-Workflows sind in dieser Beta-Version nicht verfügbar. Siehe [Aktuelle Einschränkungen](../marketing/email-channel.md#limitations) in der Übersicht zum E-Mail-Kanal.
 
 Überprüfen Sie [Validieren von E-Mail](#validation) auf Warnungen, die vor dem Journey der Aktivierung aufgelöst werden müssen.
 

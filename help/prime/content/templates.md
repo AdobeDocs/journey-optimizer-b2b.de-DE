@@ -14,9 +14,9 @@ subfeature_v2:
   - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 224d6a6f8ca33d2f0d675254bf010f76a5c30e99
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: 495
 ht-degree: 2%
 
 ---
@@ -87,4 +87,4 @@ Aktivieren Sie das Kontrollkästchen neben jeder Vorlage, die Sie entfernen möc
 
 ## Verwenden einer Vorlage in einer E-Mail {#use-in-journey}
 
-Beim Verfassen einer E-Mail auf einer Journey können **[!UICONTROL im Abschnitt]** Design-Vorlage auswählen“ aus gespeicherten Vorlagen oder Beispielvorlagen auswählen. Klicken Sie auf eine Vorlagenminiatur, um sie in der Vorschau anzuzeigen, und klicken Sie dann auf **[!UICONTROL Diese Vorlage verwenden]**, um sie anzuwenden. Informationen dazu, wo die Vorlagenauswahl in den allgemeinen E-Mail-Workflow passt, finden Sie unter [E-Mail-Inhaltserstellung](./email-authoring.md).
+Beim Verfassen einer E-Mail auf einer Journey können **[!UICONTROL im Abschnitt]** Design-Vorlage auswählen“ aus gespeicherten Vorlagen oder Beispielvorlagen auswählen. Klicken Sie auf eine Vorlagenminiatur, um sie in der Vorschau anzuzeigen, und klicken Sie dann auf **[!UICONTROL Diese Vorlage verwenden]**, um sie anzuwenden. Weitere Informationen dazu, wie Sie Vorlagen in Ihrem E-Mail-Authoring-Workflow verwenden können, finden Sie unter [E-Mail-Inhaltserstellung](./email-authoring.md#templates).

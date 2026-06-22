@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: 91557d057553e2223c13cc0fa3d3270ed13f58a4
 workflow-type: tm+mt
-source-wordcount: 1656
+source-wordcount: 1633
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 5%
 >title="Informationen zu Strukturkomponenten"
 >abstract="Strukturkomponenten sind Layout-Elemente, mit denen Sie die Struktur einer Vorlage gestalten können."
 
-Verwenden Sie die _Strukturkomponenten_ im visuellen Design-Bereich, um die Struktur Ihrer Inhalte zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie die Form Ihres Inhalts-Layouts schnell definieren. Jede Strukturkomponente erstreckt sich über den horizontalen Bereich und Sie können sie stapeln, um das Layout vertikal zu erstellen. Unterteilen Sie jede Komponente in Spalten, um jeden benötigten Inhaltsblock zu bilden, und fügen Sie dann darin [Inhaltskomponenten](./content-components.md) hinzu, um das Layout zu befüllen.
+Verwenden Sie die _Strukturkomponenten_ im visuellen Design-Bereich, um die Struktur Ihrer Inhalte zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie die Form Ihres Inhalts-Layouts schnell definieren. Jede Strukturkomponente erstreckt sich über den horizontalen Bereich und Sie können sie stapeln, um das Layout vertikal zu erstellen. <!-- Divide each component into columns to form each content block that you need, then add [content components](./content-components.md) inside them to populate the layout. -->
 
 ## Strukturbibliothek {#structure-library}
 
