@@ -2,10 +2,10 @@
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Prime und wie Sie damit ?.
 hide: true
-source-git-commit: 6bfe5d2e2fbcfcf8004922acfa4b7181d5a0ab8e
+source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 51%
+ht-degree: 53%
 
 ---
 
@@ -17,10 +17,11 @@ ht-degree: 51%
    + [Checkliste einrichten](./start/setup-prime.md)
    + [Benutzerverwaltung](./start/user-management.md)
    + [Zustellbarkeit von E-Mails](./start/email-deliverability.md)
-+ [Startseite und Erkenntnisse](./home-insights/home-insights.md)
-+ [Agentinnen bzw. Agenten](./agents/agents.md)
++ [Startseite](./home-insights/home-page.md)
++ [Chat-Oberfläche](./agents/chat-interface.md)
++ [Verkaufskennzeichner](./sales-qualifier/sales-qualifier.md)
 + Marketing-Management {#marketing-management}
-   + {hide-from-toc}[Übersicht](./marketing/marketing-management.md)
+   + [Überblick](./marketing/marketing-management.md)
    + [Programme](./marketing/programs.md)
    + [Personen-Journey](./marketing/person-journeys.md)
    + Journey-Knoten {#journey-nodes}
@@ -55,7 +56,6 @@ ht-degree: 51%
       + [Strukturkomponenten](./content/structure-components.md)
       + [Inhaltskomponenten](./content/content-components.md)
       + [Benutzerdefiniertes CSS](./content/design-custom-css.md)
-+ {hide-from-toc}[Verkaufskennzeichner](./sales-qualifier/sales-qualifier.md)
 + Administration {#admin}
    + Kanäle {#channels}
       + [E-Mail-Kanalkonfiguration](./admin/email-channel-configuration.md)
