@@ -7,21 +7,15 @@ badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich
 exl-id: 54b812cb-0129-4253-8e9e-538c25fc4709
 autotag-review: '2026-05-27T16:08:42.537Z'
 TQID: 'https://experienceleague.adobe.com/yYJUH3-uiNxk-lT4S6hpuMmntMg267ezc-gbsegu7vI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
 source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
 workflow-type: tm+mt
 source-wordcount: 1034
-ht-degree: 26%
+ht-degree: 38%
 
 ---
 
@@ -37,17 +31,17 @@ Admins sollten sicherstellen, dass die Landingpage-Konfigurationen für die Mark
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_subdomain_lp_header"
 >title="Delegieren einer Subdomain der Landingpage"
->abstract="Einrichten einer Subdomain für die Verwendung auf einer Landingpage. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfiguriert werden."
+>abstract="Richten Sie eine Subdomain für eine Landingpage ein. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfiguriert werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_subdomain_lp"
 >title="Delegieren einer Subdomain der Landingpage"
->abstract="Sie müssen eine Landingpage-Subdomain konfigurieren, bevor Sie eine Landingpage-Voreinstellung erstellen. Es kann eine Subdomain verwendet werden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfiguriert werden."
+>abstract="Sie müssen eine Landingpage-Subdomain konfigurieren, bevor Sie eine Landingpage-Voreinstellung erstellen. Sie können eine Subdomain verwenden, die bereits an Adobe delegiert ist, oder eine andere Subdomain konfigurieren."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_config_lp_subdomain"
 >title="Erstellen einer Landingpage-Voreinstellung"
->abstract="Um eine Landingpage-Voreinstellung zu erstellen, stellen Sie sicher, dass Sie mindestens eine Landingpage-Subdomain konfiguriert haben, die aus der Liste „Name der Subdomain“ ausgewählt werden kann."
+>abstract="Um eine Landingpage-Voreinstellung zu erstellen, müssen Sie zuvor mindestens eine Landingpage-Subdomain konfiguriert haben, die aus der Liste „Name der Subdomain“ ausgewählt werden kann."
 
 Um die konfigurierten Landingpage-Subdomains zu überprüfen, gehen Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]**. Wählen _[!UICONTROL im]_ unter „Landingpages“ die Option **[!UICONTROL Landingpage-Subdomains]** aus.
 
@@ -121,7 +115,7 @@ To use a subdomain that is already delegated to Adobe:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_lp_subdomain_dns"
 >title="Erstellen des passenden DNS-Eintrags"
->abstract="Um eine neue Landingpage-Subdomain zu konfigurieren, müssen Sie die auf der Journey Optimizer B2B-Benutzeroberfläche angezeigten Adobe-Nameserver-Informationen kopieren und in Ihre Domain-Hosting-Lösung einfügen, um den entsprechenden DNS-Eintrag zu generieren. Wenn die Prüfungen erfolgreich waren, kann die Subdomain zur Erstellung von Landingpage-Voreinstellungen verwendet werden."
+>abstract="Um eine neue Landingpage-Subdomain zu konfigurieren, müssen Sie die auf der Journey Optimizer-B2B-Benutzeroberfläche angezeigten Adobe-Nameserver-Informationen kopieren und in Ihre Domain-Hosting-Lösung einfügen, um den passenden DNS-Eintrag zu generieren. Wenn die Prüfungen erfolgreich waren, kann die Subdomain zur Erstellung von Landingpage-Voreinstellungen verwendet werden."
 
 1. Klicken Sie **[!UICONTROL Landingpage-Subdomain einrichten]**.
 
@@ -221,7 +215,7 @@ _To add a landing page subdomain:_
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_admin_config_lp_subdomain_header"
 >title="Erstellen einer Landingpage-Voreinstellung"
->abstract="Um eine Landingpage zu erstellen und über Journey Optimizer B2B edition zu nutzen, müssen Sie eine Landingpage-Voreinstellung erstellen, die die zu verwendende Subdomain enthält."
+>abstract="Um eine Landingpage erstellen und über Journey Optimizer B2B Edition nutzen zu können, müssen Sie eine Landingpage-Voreinstellung erstellen, die die zu verwendende Subdomain enthält."
 
 Wenn Marketing[Experten eine Landingpage erstellen](../content/landing-pages-create-publish.md#create-landing-page) müssen sie eine Landingpage-Voreinstellung auswählen, damit sie die Landingpage erstellen und über [!DNL Journey Optimizer B2B Edition] nutzen können. Die Voreinstellung enthält die Subdomain, die für die Landingpage verwendet werden soll.
 
@@ -269,4 +263,4 @@ Klicken Sie auf einen beliebigen Voreinstellungsnamen, um auf die Voreinstellung
 
    <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   Wenn die Landingpage-Voreinstellung erstellt wird, wird sie in der Liste mit dem Status _[!UICONTROL Aktiv]_ angezeigt und kann für die Erstellung [&#x200B; Landingpages verwendet &#x200B;](../content/landing-pages-create-publish.md#create-landing-page).
+   Wenn die Landingpage-Voreinstellung erstellt wird, wird sie in der Liste mit dem Status _[!UICONTROL Aktiv]_ angezeigt und kann für die Erstellung [ Landingpages verwendet ](../content/landing-pages-create-publish.md#create-landing-page).
