@@ -5,12 +5,19 @@ feature: Landing Pages, Content
 role: User
 autotag-review: '2026-05-27T16:10:09.537Z'
 TQID: 'https://experienceleague.adobe.com/e-tguY-9v6CPOehYL7vI22fzQBk3L0h1EOpa-e54q7A'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
@@ -64,7 +71,7 @@ Bevor Marketer Landingpages zur Unterstützung ihrer Journey und Kampagnen erste
 
 1. Wählen Sie eine **[!UICONTROL Voreinstellung]** aus.
 
-   Ein Produktadministrator [konfiguriert eine Voreinstellung), ](../admin/configure-channels-landing-pages.md#lp-presets) die Subdomain und andere Einstellungen zu definieren, die für Landingpages verwendet werden. Sie können eine Vorgabe auswählen und dann auf **[!UICONTROL Vorgabe anzeigen]** klicken, um die Vorgabendetails zu öffnen und die Einstellungen zu überprüfen, um sicherzustellen, dass sie Ihren Landingpage-Anforderungen entspricht.
+   Ein Produktadministrator [konfiguriert eine Voreinstellung), &#x200B;](../admin/configure-channels-landing-pages.md#lp-presets) die Subdomain und andere Einstellungen zu definieren, die für Landingpages verwendet werden. Sie können eine Vorgabe auswählen und dann auf **[!UICONTROL Vorgabe anzeigen]** klicken, um die Vorgabendetails zu öffnen und die Einstellungen zu überprüfen, um sicherzustellen, dass sie Ihren Landingpage-Anforderungen entspricht.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -124,7 +131,7 @@ Um den _[!UICONTROL Inhalt]_ für die Seite hinzuzufügen, klicken Sie auf **[!U
 
 ![Wählen Sie aus, wie Sie mit dem Design Ihrer Landingpage beginnen möchten](./assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-Nachdem Sie Ihre bevorzugte Methode zum Starten des Landingpage-Designs ausgewählt haben, verwenden Sie die visuellen Design-Tools, [ den Seiteninhalt ](./landing-page-design.md).
+Nachdem Sie Ihre bevorzugte Methode zum Starten des Landingpage-Designs ausgewählt haben, verwenden Sie die visuellen Design-Tools, [&#x200B; den Seiteninhalt &#x200B;](./landing-page-design.md).
 
 ### Von Grund auf gestalten {#design-from-scratch}
 
@@ -245,7 +252,7 @@ Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie T
 
 >[!PREREQUISITES]
 >
->Um Landingpages in der Vorschau anzuzeigen und zu testen, benötigen Sie die Berechtigung **[!UICONTROL Nachrichten veröffentlichen]** und einen definierten Datensatz, der &quot;[&quot; ](../audiences/test-profiles.md).
+>Um Landingpages in der Vorschau anzuzeigen und zu testen, benötigen Sie die Berechtigung **[!UICONTROL Nachrichten veröffentlichen]** und einen definierten Datensatz, der &quot;[&quot; &#x200B;](../audiences/test-profiles.md).
 
 1. Klicken Sie **[!UICONTROL Vorschau und Test]**, um die Auswahl der Testprofile zu öffnen.
 
@@ -257,7 +264,7 @@ Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie T
 
    ![Inhalt der Landingpage für ausgewähltes Profil simulieren](./assets/landing-page-simulate.png){width="700" zoomable="yes"}
 
-   Wenn die benötigten Profile nicht aufgelistet sind, klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um eine bekannte E-[-Mail-Adresse ](../audiences/test-profiles.md)Testprofil“ zu verwenden und sie der Liste hinzuzufügen.
+   Wenn die benötigten Profile nicht aufgelistet sind, klicken Sie auf **[!UICONTROL Testprofile verwalten]**, um eine bekannte E-[-Mail-Adresse &#x200B;](../audiences/test-profiles.md)Testprofil“ zu verwenden und sie der Liste hinzuzufügen.
 
    +++Hinzufügen von Testprofilen
 
@@ -285,7 +292,7 @@ Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie T
 
 >[!PREREQUISITES]
 >
->Zum Veröffentlichen von Landingpages benötigen Sie die Berechtigung **[!UICONTROL Veröffentlichen von Nachrichten]**.  Prüfen [ vor dem Veröffentlichen (alle Warnhinweise überprüfen und auflösen](#check-alerts).
+>Zum Veröffentlichen von Landingpages benötigen Sie die Berechtigung **[!UICONTROL Veröffentlichen von Nachrichten]**.  Prüfen [&#x200B; vor dem Veröffentlichen (alle Warnhinweise überprüfen und auflösen](#check-alerts).
 
 Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie die Seite für Links aus Journey-Nachrichten verfügbar machen möchten, klicken Sie oben rechts **[!UICONTROL Veröffentlichen]**. Klicken Sie dann im Bestätigungsdialogfeld auf **[!UICONTROL Veröffentlichen]**.
 
@@ -293,6 +300,6 @@ Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie die Seite für Links a
 
 Wenn die Landingpage veröffentlicht wird, wird sie in der Landingpage-Liste mit dem Status **_[!UICONTROL Veröffentlicht]_** angezeigt. Das bedeutet, dass sie live ist und in einer E-Mail-, SMS- oder WhatsApp-Nachricht verwendet werden kann, die über eine Journey gesendet wird.
 
-Sie können nicht auf die veröffentlichte Landingpage zugreifen, indem Sie die URL in einen Webbrowser kopieren. Sie können sie jederzeit mit der &quot;[&quot; ](#test-landing-page).
+Sie können nicht auf die veröffentlichte Landingpage zugreifen, indem Sie die URL in einen Webbrowser kopieren. Sie können sie jederzeit mit der &quot;[&quot; &#x200B;](#test-landing-page).
 
 Sie können die Wirkung Ihrer Landingpage mithilfe spezifischer Berichte überwachen.
