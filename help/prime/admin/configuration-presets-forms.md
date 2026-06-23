@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 63d3583081b6581af9475505174142b0bbde9d81
 workflow-type: tm+mt
 source-wordcount: 541
-ht-degree: 22%
+ht-degree: 26%
 
 ---
 
@@ -76,7 +76,7 @@ Beim Erstellen einer Voreinstellung:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_dataset"
 >title="Auswählen eines Datensatzes"
->abstract="Definieren Sie einen Datensatz, in dem die Formularantworten gespeichert und dargestellt werden. Geben Sie Text ein, um einen bestimmten Datensatz zu durchsuchen oder ihn aus der Liste auszuwählen."
+>abstract="Definieren Sie einen Datensatz, in dem die Formularantworten gespeichert und widergespiegelt werden. Geben Sie Text ein, um nach einem bestimmten Datensatz zu suchen oder ihn in der Liste auszuwählen."
 
 1. Navigieren Sie in der linken Navigation zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]**.
 

@@ -101,7 +101,7 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in [!DNL Journey Optimi
 
   Wenn Sie einer bekannten Person, die Ihre Landingpage besucht, eine Umgehung der Formulare erlauben, kann diese einfach direkt auf den Inhalt zugreifen. Die Umgehung des Formulars bietet ein optimiertes Besuchererlebnis.
 
-### Neues Formular hinzufügen {#new-form}
+### Hinzufügen eines neuen Formulars {#new-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_lp_form_preset"

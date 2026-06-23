@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 144848cff6a37691ccbe7a83b78f9db33d8a2b3d
 workflow-type: tm+mt
 source-wordcount: 1719
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -84,7 +84,7 @@ Bevor Marketer Landingpages zur Unterstützung ihrer Journey und Kampagnen erste
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_primary_page"
 >title="Definieren der primären Seiteneinstellungen"
->abstract="Definieren Sie die Primärseite, die sofort angezeigt wird, wenn ein Empfänger auf den Landingpage-Link klickt, z. B. in einer E-Mail oder auf einer Website."
+>abstract="Definieren Sie die Hauptseite, die sofort angezeigt wird, wenn ein Empfänger bzw. eine Empfängerin auf den Landingpage-Link klickt, beispielsweise in einer E-Mail oder auf einer Website."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_lp_access_settings"
@@ -246,7 +246,7 @@ Es gibt zwei Arten von Warnhinweisen:
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_preview_lp_profiles"
 >title="Erstellen einer Vorschau und Testen Ihrer Landingpage"
->abstract="Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, können Sie mithilfe von Testprofilen eine Vorschau der Seite anzeigen."
+>abstract="Nachdem Sie die Einstellungen und den Inhalt Ihrer Landingpage definiert haben, verwenden Sie Testprofile, um eine Vorschau der Seite anzuzeigen."
 
 Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie Testprofile verwenden, um eine Vorschau der Seite anzuzeigen. Wenn Sie [personalisierten Inhalt](./personalization.md) eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt auf der Landingpage angezeigt wird.
 
