@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: 650
 ht-degree: 2%
 
 ---
@@ -53,15 +53,15 @@ Für die Beta-Version von Journey Optimizer B2B Prime werden die folgenden Stand
 
 ## Nach abgeleiteter Persona filtern {#derived-persona-filter}
 
-Journey Optimizer B2B Prime leitet für jeden Personendatensatz eine Rolle ab, indem die Attribute des Datensatzes mit den definierten Rollen verglichen werden. Sie können das abgeleitete Ergebnis - die _abgeleitete Persona_ - als Filter verwenden, wenn Sie die Audience für eine Personen-Liste oder eine Personen-Journey definieren.
+Journey Optimizer B2B Prime leitet für jeden Personendatensatz eine Rolle ab, indem die Attribute des Datensatzes mit den definierten Rollen verglichen werden. Sie können das abgeleitete Ergebnis - die _abgeleitete Persona_ - als Filter verwenden, wenn Sie die Audience für eine Personenliste definieren oder eine Personen-Journey segmentieren.
 
 Der _[!UICONTROL Abgeleitete Persona]_-Filter wird im Filterbedienfeld unter der Kategorie **[!UICONTROL Personenattribute]** angezeigt.
-
-![Zugriff auf die konfigurierten Personas](../../user/admin/assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
 ### Personenlisten {#people-lists}
 
 Wenn Sie Mitglieder zu einer [statischen Personenliste](./people-lists.md#static-list) hinzufügen oder daraus entfernen oder wenn Sie die Mitgliedschaftsregeln für eine [dynamische Personenliste](./people-lists.md#dynamic-lists) definieren, können Sie nach abgeleiteter Persona filtern, um alle Personen anzusprechen, deren Attribute einer bestimmten konfigurierten Persona entsprechen.
+
+![Abgeleitete Rollenfilterung für eine Personenliste](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
 
 **Statische Liste - Mitglieder hinzufügen**
 
@@ -90,6 +90,8 @@ Wenn Sie Mitglieder zu einer [statischen Personenliste](./people-lists.md#static
 ### Personen-Journey {#person-journeys}
 
 Wenn Sie die Segmentierung für eine Personen-Journey in einem [_Aufspaltungs-_-Knoten](../marketing/split-merge-paths-nodes.md) konfigurieren, können Sie eine abgeleitete Rolle als Personenprofilfilter verwenden, um zu steuern, welche Personen in den Journey-Pfad eintreten.
+
+![Abgeleitete Rollenfilterung für eine Bedingung eines aufgeteilten Pfads](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Arbeitsfläche Journey auf]** Knoten „Pfade aufteilen“.
 
