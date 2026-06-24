@@ -2,10 +2,10 @@
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Prime und wie Sie damit ?.
 hide: true
-source-git-commit: 47afe74615b02c805ef0a931e54899cbc2f30a05
+source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 50%
+source-wordcount: '145'
+ht-degree: 47%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 50%
       + [Überblick](./marketing/programs.md)
       + [Benutzerdefinierte Token für die Personalisierung](./marketing/personalization-my-tokens.md)
    + [Personen-Journey](./marketing/person-journeys.md)
-   + Journey-Knoten {#journey-nodes}
+   + Journey-Arbeitsfläche und -Knoten {#journey-nodes}
       + [Knoten - Übersicht](./marketing/person-journey-nodes.md)
       + [Personenzielgruppe](./marketing/person-audience-node.md)
       + [Durchführen einer Aktion](./marketing/action-nodes.md)
@@ -43,6 +43,7 @@ ht-degree: 50%
 + Zielgruppen {#audiences}
    + [Personenlisten](./audiences/people-lists.md)
    + [Ereignisbasierte Zielgruppen](./audiences/event-based-audiences.md)
+   + [Personeninteraktionswerte](./audiences/engagement-scores.md)
    + [Abgeleitete Personas](./audiences/personas.md)
    + [Ziele](./audiences/destinations.md)
    + [Dynamische Zielgruppen-Qualifizierung](./audiences/dynamic-audience-qualification.md)

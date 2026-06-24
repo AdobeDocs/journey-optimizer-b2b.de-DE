@@ -3,33 +3,27 @@ title: Personen-Journey-Knoten
 description: Erfahren Sie mehr über Personen-Journey-Knoten in Journey Optimizer B2B edition Prime - Zielgruppe, Aktionen, Ereignisse, Wartezeiten, Pfadaufteilungen und KI-gesteuertes Routing des nächstbesten Pfades.
 autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
 workflow-type: tm+mt
-source-wordcount: 358
+source-wordcount: 365
 ht-degree: 2%
 
 ---
 
 # Personen-Journey-Knoten
 
-Nachdem Sie eine Personen-Journey erstellt haben, fügen Sie die Audience hinzu und erstellen Sie die Journey mithilfe von -Knoten. Die Journey-Arbeitsfläche bietet einen visuellen Design-Bereich, in dem Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle erstellen können.
+Nachdem Sie eine Personen-Journey erstellt haben, verwenden Sie die Tools auf der Arbeitsfläche, um die Audience hinzuzufügen und die Journey mithilfe von Knoten zu erstellen. Die Journey-Arbeitsfläche bietet einen visuellen Design-Bereich, in dem Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle erstellen können.
 
 Der Knoten _[!UICONTROL Person]_ Zielgruppe ist automatisch der erste Knoten auf der Journey. Nachdem Sie die Audience ausgewählt haben, erstellen Sie Ihren Journey, indem Sie die verschiedenen Aktions-, Ereignis- und Entscheidungsknoten als mehrstufiges, kanalübergreifendes Szenario kombinieren. Jeder Knoten einer Journey stellt einen Schritt entlang eines logischen Pfads dar.
 
 :::: landing-cards-container
 
 :::
-![Zielgruppenknoten Person](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
+![Zielgruppenknoten Person](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Zielgruppenknoten Person
 
@@ -39,7 +33,7 @@ Die Journey beginnt immer mit dem Zielgruppenknoten Person . Legen Sie die Einga
 :::
 
 :::
-![Aktionsknoten](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![Aktionsknoten](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Aktionsknoten
 
@@ -49,7 +43,7 @@ Wenden Sie Änderungen auf alle Personen in einem Pfad an, z. B. beim Senden ein
 :::
 
 :::
-![Ereignisknoten](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de)
+![Ereignisknoten](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Ereignisknoten
 
@@ -59,7 +53,7 @@ Fahren Sie mit dem nächsten Journey-Schritt fort, wenn eine bestimmte Aktivitä
 :::
 
 :::
-![Knoten warten](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
+![Knoten warten](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Warteknoten
 
@@ -69,7 +63,7 @@ Den Journey-Fortschritt für eine bestimmte Dauer oder bis zu einem bestimmten D
 :::
 
 :::
-![Pfade aufteilen und zusammenführen](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![Pfade aufteilen und zusammenführen](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aufspalten und Zusammenführen von Pfadknoten
 
@@ -79,7 +73,7 @@ Personen basierend auf Bedingungen in separate Pfade unterteilen, unterschiedlic
 :::
 
 :::
-![Nächster bester Pfadknoten](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=de)
+![Nächster bester Pfadknoten](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 Nächster bester Pfadknoten
 
