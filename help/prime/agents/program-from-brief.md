@@ -4,18 +4,13 @@ description: Verwenden Sie die Fähigkeit zur Programmerstellung in Journey Opti
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 autotag-review: '2026-06-24T21:24:16.095Z'
 TQID: 'https://experienceleague.adobe.com/lR07HqB--U57eYKgiPWMf9EQx4IfHe3yitffwN7FqRs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b92782904da5c01c3dc1b3fb44ef02729723015a
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: 1119
 ht-degree: 4%
 
 ---
@@ -134,7 +129,7 @@ Programme sind bei **Erstellung** einem vom Mandanten definierten Programmtyp ge
 | Fall | Verhalten |
 |---|---|
 | **Mehrere Typen verfügbar** | Passt kurze Formulierungen an einen Typ an (z. B. Messe/Stand/Ausstellung = *Messe*/*Event*; Webinar = *Webinar*/*Event*; Nurture/Drip = *Nurture*; kein klares Signal = *Default*). Wenn keine Übereinstimmung gefunden wird, listet der Assistent verfügbare Typen und Aufgaben auf. |
-| **Nur-Standard-Mandant** | Verwendet *Standard* und merkt an, dass ein Administrator benutzerdefinierte [Programmtypen“ hinzufügen &#x200B;](../admin/program-types.md). |
+| **Nur-Standard-Mandant** | Verwendet *Standard* und merkt an, dass ein Administrator benutzerdefinierte [Programmtypen“ hinzufügen ](../admin/program-types.md). |
 | **Keine Typen konfiguriert** | Stoppt — die Erstellung würde fehlschlagen. fordert einen Administrator auf, Programmtypen bereitzustellen, bevor es erneut versucht wird. |
 
 ## Standardwerte
@@ -158,7 +153,7 @@ Programme sind bei **Erstellung** einem vom Mandanten definierten Programmtyp ge
 | **Async list membership** | Statische Listen (aus Kriterien) werden über mehrere Minuten hinweg gefüllt - nicht sofort |
 | **Fehlerbehandlung** | Tool-Fehler werden mit dem exakten Fehler gemeldet. Der Assistent fordert dazu auf, die Eingabe zu bestätigen und es erneut zu versuchen |
 | **Namenskollisionen** | Nicht automatisch aufgelöst — es wird ein anderer Name angefordert |
-| **Perimeter** | Nur Journey Optimizer B2B Prime; Marketo-Benutzer sollten die separaten Fähigkeiten zur Programmerstellung/Programmplanung verwenden |
+| **Perimeter** | Nur Journey Optimizer B2B Prime; [!DNL Marketo Engage] sollten die separaten Fähigkeiten zur Programmerstellung/Programmplanung verwenden |
 
 
 ## QA-Prüfung
