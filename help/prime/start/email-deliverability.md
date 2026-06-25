@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 1918
+source-wordcount: 1920
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Sie verwendet die folgenden Bausteine, die von einem Administrator konfiguriert 
 
 ## Aktuelle Einschränkungen {#limitations}
 
-* **Methode der benutzerdefinierten Delegierung** für die Subdomain-Delegierung ist noch nicht verfügbar. Verwenden Sie „Vollständig delegiert“ oder CNAME. Benutzerdefinierte Delegierung ist für allgemeine Verfügbarkeit vorgesehen.
+* **Methode der benutzerdefinierten Delegierung** für die Subdomain-Delegierung ist noch nicht verfügbar. Verwenden Sie „Vollständig delegiert“ oder CNAME. Benutzerdefinierte Delegierung ist für die GA-Version vorgesehen.
 * **Dedizierte IP-Pools** sind bei Beta nicht verfügbar. Der freigegebene IP-Pool ist die einzige Option. Dedizierte IPs werden bei GA ausgeliefert, einschließlich IP-Aufwärmplanung und PTR-Eintragsverwaltung.
 
 ## Schlüsselkonzepte {#key-concepts}

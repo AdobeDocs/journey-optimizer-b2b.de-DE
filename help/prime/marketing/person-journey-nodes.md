@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # Personen-Journey-Knoten
 
-Nachdem Sie eine Personen-Journey erstellt haben, verwenden Sie die Tools auf der Arbeitsfläche, um die Audience hinzuzufügen und die Journey mithilfe von Knoten zu erstellen. Die Journey-Arbeitsfläche bietet einen visuellen Design-Bereich, in dem Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle erstellen können.
+Nachdem Sie eine [Personen-Journey](./person-journeys.md) erstellt haben, verwenden Sie die Tools auf der Arbeitsfläche, um die Audience hinzuzufügen und die Journey mithilfe von -Knoten zu erstellen. Die Journey-Arbeitsfläche bietet einen visuellen Design-Bereich, in dem Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle erstellen können.
 
 Der Knoten _[!UICONTROL Person]_ Zielgruppe ist automatisch der erste Knoten auf der Journey. Nachdem Sie die Audience ausgewählt haben, erstellen Sie Ihren Journey, indem Sie die verschiedenen Aktions-, Ereignis- und Entscheidungsknoten als mehrstufiges, kanalübergreifendes Szenario kombinieren. Jeder Knoten einer Journey stellt einen Schritt entlang eines logischen Pfads dar.
 

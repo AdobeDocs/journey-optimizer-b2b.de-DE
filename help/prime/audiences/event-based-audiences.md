@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a48a12635d2ba4f14dda49e25e79a5496ebbdecf
+source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 Mit _ereignisbasierten Zielgruppen_ können Sie [!DNL Adobe Journey Optimizer B2B Prime] Zielgruppenmitglieder nahezu in Echtzeit zu einer Live-[Personen-Journey](../marketing/person-journeys.md) hinzufügen, wenn eine [!DNL Marketo Engage] stattfindet. Sie konfigurieren ereignisbasierte Zielgruppen auf dem Zielgruppenknoten der Journey-Arbeitsfläche:
 
-* Wählen Sie mindestens eine Marketo-Aktivität (Standard oder benutzerdefiniert) als qualifizierendes Ereignis aus.
+* Wählen Sie eine oder mehrere [!DNL Marketo Engage] Aktivitäten (Standard oder benutzerdefiniert) als qualifizierende Ereignisse aus.
 * Fügen Sie optional Personenprofilfilter hinzu (z. B. Branche, Region oder Lebenszyklusphase), um einzugrenzen, welche Personen eintreten können.
 * Definieren Sie optional Aktivitätsattribut-Einschränkungen (z. B. ein bestimmtes Formular, eine bestimmte URL oder ein bestimmtes Programm), um einzugrenzen, welche Vorkommen jeder Aktivität qualifiziert sind.
 
