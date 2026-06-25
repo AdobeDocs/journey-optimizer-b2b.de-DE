@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9c476854d4c6543c93cbbdd7d53b9a2323f28602
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 1910
+source-wordcount: 1918
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Sie verwendet die folgenden Bausteine, die von einem Administrator konfiguriert 
 1. [Konfigurieren Sie DMARC-, SPF- und DKIM](#dmarc-spf-dkim)Einträge für jede Subdomain.
 1. [Bestätigen Sie den IP-Pool](#ip-pools) der zum Senden von E-Mails für Ihre Subdomain verwendet wird.
 1. [Erstellen Sie eine oder mehrere E-Mail](../admin/email-channel-configuration.md#create-email-channel-configuration)Kanalkonfigurationen, die eine Subdomain, einen IP-Pool und eine Absenderidentität verbinden.
+
+![Einrichtung der E-Mail-Zustellbarkeit für Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
 
 >[!TIP]
 >

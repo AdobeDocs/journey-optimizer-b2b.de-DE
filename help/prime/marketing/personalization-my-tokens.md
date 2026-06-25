@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 9eb18693341e5a194cb3c4922e2af760f6b0130c
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 641
 ht-degree: 5%
 
 ---
@@ -31,6 +31,10 @@ Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die 
 Wenn Sie einer E-Mail ein benutzerdefiniertes Token hinzufügen, wird es als `{{my.TokenName}}` angezeigt. Beispielsweise könnten Sie `{{my.EventDate}}` oder `{{my.WebinarSpeaker}}` Token erstellen, um E-Mail-Inhalte im Zusammenhang mit kommenden Webinaren zu verwalten.
 
 Zusätzlich zu _Meine Token_ die spezifisch für das Programm oder den Ordner sind, können Sie jedes der standardmäßigen (integrierten) Token für die Personalisierung verwenden.
+
+>[!NOTE]
+>
+>_Meine Token_ sind derzeit im Personalization-Editor für diese Beta-Version nicht aktiviert.
 
 ## Zugriffstoken
 
