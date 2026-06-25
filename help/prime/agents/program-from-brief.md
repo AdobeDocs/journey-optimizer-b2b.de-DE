@@ -13,9 +13,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b92782904da5c01c3dc1b3fb44ef02729723015a
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: 1119
 ht-degree: 4%
 
 ---
@@ -158,7 +158,7 @@ Programme sind bei **Erstellung** einem vom Mandanten definierten Programmtyp ge
 | **Async list membership** | Statische Listen (aus Kriterien) werden über mehrere Minuten hinweg gefüllt - nicht sofort |
 | **Fehlerbehandlung** | Tool-Fehler werden mit dem exakten Fehler gemeldet. Der Assistent fordert dazu auf, die Eingabe zu bestätigen und es erneut zu versuchen |
 | **Namenskollisionen** | Nicht automatisch aufgelöst — es wird ein anderer Name angefordert |
-| **Perimeter** | Nur Journey Optimizer B2B Prime; Marketo-Benutzer sollten die separaten Fähigkeiten zur Programmerstellung/Programmplanung verwenden |
+| **Perimeter** | Nur Journey Optimizer B2B Prime; [!DNL Marketo Engage] sollten die separaten Fähigkeiten zur Programmerstellung/Programmplanung verwenden |
 
 
 ## QA-Prüfung

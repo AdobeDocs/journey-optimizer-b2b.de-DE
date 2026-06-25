@@ -2,10 +2,10 @@
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Prime und wie Sie damit ?.
 hide: true
-source-git-commit: f96698d0d3931be9206245d44131d06c998304ca
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 47%
+source-wordcount: '152'
+ht-degree: 46%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 47%
 + [Startseite](./home-insights/home-page.md)
 + KI-Assistent {#ai-assistant}
    + [Chat-Oberfläche](./agents/chat-interface.md)
+   + [Kenntnisse](./agents/skills.md)
    + [Erstellen eines Programms aus einer Zusammenfassung](./agents/program-from-brief.md)
 + [Verkaufskennzeichner](./sales-qualifier/sales-qualifier.md)
 + Marketing-Management {#marketing-management}

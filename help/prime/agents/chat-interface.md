@@ -14,9 +14,9 @@ subfeature_v2:
   - id: a30218bb-f80a-4410-8ac4-b039e99a15b4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 29d33656b0bd05e9fdf2cbdeb1f6e89d13c3d20e
+source-git-commit: 9433a1e86767e4504cb238ba8f3fae6e5c098a86
 workflow-type: tm+mt
-source-wordcount: 869
+source-wordcount: 878
 ht-degree: 1%
 
 ---
@@ -85,9 +85,11 @@ Connectoren öffnen ein modales Fenster, anstatt Text einzufügen. Über Navigat
 
 Eine Qualifikation ist ein gepackter Workflow, den der Agent ausführen kann - die Bausteine hinter dem `/` und den Anforderungen in natürlicher Sprache. Jede Qualifikation umfasst schrittweise Anweisungen und die spezifischen Tools, die für einen Auftrag erforderlich sind (z. B. „Veröffentlichen eines Journey&quot;, „Vergleichen von zwei Personenlisten“, „Erstellen eines Bewertungsmodells„).
 
+Siehe _[KI-Assistenzfertigkeiten](./skills.md)_ für eine vollständige Liste der derzeit unterstützten Fertigkeiten.
+
 Wichtige Informationen zu Kenntnissen über Fähigkeiten:
 
-* **Kenntnisse beziehen sich auf das Produkt.** In AJO B2B Prime sehen Sie AJO B2B-Kenntnisse (Journey, Personenlisten, Punktzahl, Kanäle, Sendezeitoptimierung usw.). Einige wenige Kenntnisse sind nur Marketo und ein paar arbeiten in beiden Produkten (Leadimport, Produktwissen). Sie sehen nur Fähigkeiten, die für Ihren aktuellen Standort relevant sind.
+* **Kenntnisse beziehen sich auf das Produkt.** In [!DNL Journey Optimizer B2B Prime] sehen Sie verschiedene produktspezifische Fertigkeiten (Journey, Personenlisten, Bewertung, Kanäle, Sendezeitoptimierung usw.). Einige Fähigkeiten sind nur [!DNL Marketo Engage] und ein paar arbeiten in beiden Produkten (Leadimport, Produktwissen). Sie sehen nur Fähigkeiten, die für Ihren aktuellen Standort relevant sind.
 * **Sie müssen sich die Namen von Kenntnissen nicht merken.** Beschreiben Sie Ihr Ziel, und der Agent wählt die passende Qualifikation aus. Das `/` ist eine schnellere, auffindbare Verknüpfung zu denselben Workflows.
 * **Manche Fähigkeiten lesen nur; andere ändern Dinge.** Investigative Fähigkeiten und Berichtsfähigkeiten (z. B. Lead-Ermittlung, Absichtsabfrage, Sendezeitbericht) lesen nur Daten. Erstellen und konfigurieren Sie Fertigkeiten (z. B. Journey-Erstellung, Bewertung), um Daten zu erstellen oder zu ändern.
 
