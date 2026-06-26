@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
-source-wordcount: 259
-ht-degree: 20%
+source-wordcount: 494
+ht-degree: 12%
 
 ---
 
@@ -37,6 +37,7 @@ Erste Schritte
 Schließen Sie die Ersteinrichtung und -konfiguration ab, und erfahren Sie dann, wie Sie in der Anwendung navigieren und die Startseite verwenden.
 
 [Administrator-Setup](./start/setup-prime.md)
+
 [Startseite](./home-insights/home-page.md)
 :::
 
@@ -48,6 +49,7 @@ KI-Assistent
 Verwenden Sie natürliche Sprache, um Programme zu planen, Journey zu erstellen, Zielgruppen zu verwalten und Inhalte mit agenten KI-Fähigkeiten zu erstellen.
 
 [Chat-Oberfläche](./agents/chat-interface.md)
+
 [Verfügbare Fähigkeiten](./agents/skills.md)
 :::
 
@@ -69,7 +71,8 @@ Marketing-Management
 Organisieren Sie Kampagnen in Programmen, entwerfen Sie Personen-Journey mit kanalübergreifenden Inhalten und personalisieren Sie sie mit benutzerdefinierten Token.
 
 [Marketing-Übersicht](./marketing/marketing-management.md)
-[Personen-Journey &#x200B;](./marketing/person-journeys.md)
+
+[Personen-Journey](./marketing/person-journeys.md)
 :::
 
 :::
@@ -80,6 +83,7 @@ Zielgruppen
 Erstellen und verwalten Sie Personenlisten, definieren Sie ereignisbasierte Zielgruppen und verfolgen Sie die Interaktion mit der personalbasierten Bewertung.
 
 [Personenlisten](./audiences/people-lists.md)
+
 [Interaktionswerte](./audiences/engagement-scores.md)
 :::
 
@@ -90,8 +94,10 @@ Inhalt
 
 Verfassen Sie E-Mails und WhatsApp-Nachrichten, verwalten Sie Vorlagen und Assets, erstellen Sie Landingpages und Formulare und wenden Sie die Personalisierung an.
 
-[E-Mail-Erstellung](./content/email-authoring.md)
-[templates](./content/templates.md)
+[Erstellung von E-Mails](./content/email-authoring.md)
+
+[Vorlagen](./content/templates.md)
+
 [Landingpages](./content/landing-pages.md)
 :::
 

@@ -15,7 +15,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
 source-wordcount: 225
 ht-degree: 4%
@@ -41,4 +41,3 @@ _So konfigurieren Sie die Journey-Zielgruppe :_
    * **[!UICONTROL Dynamische Liste]** - Verwenden Sie eine dynamische, regelbasierte Personenliste. Die Listenregeln werden zur Journey-Laufzeit ausgewertet, um Mitglieder der Journey zu qualifizieren. Personen, die sich zu einem späteren Zeitpunkt für die dynamische Liste disqualifizieren, werden nicht von der Journey entfernt. Siehe _[Dynamische](../audiences/people-lists.md#dynamic-lists)_.
 
    * **[!UICONTROL Ereigniszielgruppe]** - Verwenden Sie eine Ereigniszielgruppe, um die Journey-Zielgruppe basierend auf qualifizierten Ereignissen zu definieren. Definieren Sie Zielgruppenmitglieder mithilfe der Personenprofilfilterung und des Trigger-Journey-Eintrags mithilfe von Ereigniskriterien. Siehe _[Ereignisbasierte Zielgruppen](../audiences/event-based-audiences.md)_.
-

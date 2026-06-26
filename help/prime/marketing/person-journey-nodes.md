@@ -13,10 +13,10 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 0%
+source-wordcount: 365
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Der Knoten _[!UICONTROL Person]_ Zielgruppe ist automatisch der erste Knoten auf
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de) -->
+![Zielgruppenknoten Person](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
 
 Zielgruppenknoten Person
 
@@ -39,7 +39,7 @@ Die Journey beginnt immer mit dem Zielgruppenknoten Person . Legen Sie die Einga
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de) -->
+![Aktionsknoten](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
 
 Aktionsknoten
 
@@ -49,7 +49,7 @@ Wenden Sie Änderungen auf alle Personen in einem Pfad an, z. B. beim Senden ein
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de) -->
+![Ereignisknoten](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de) —>
 
 Ereignisknoten
 
@@ -59,7 +59,7 @@ Fahren Sie mit dem nächsten Journey-Schritt fort, wenn eine bestimmte Aktivitä
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de) -->
+![Knoten warten](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de)
 
 Warteknoten
 
@@ -69,7 +69,7 @@ Den Journey-Fortschritt für eine bestimmte Dauer oder bis zu einem bestimmten D
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de) -->
+![Pfade aufteilen und zusammenführen](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
 
 Aufspalten und Zusammenführen von Pfadknoten
 
@@ -79,7 +79,7 @@ Personen basierend auf Bedingungen in separate Pfade unterteilen, unterschiedlic
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=de) -->
+![Nächster bester Pfadknoten](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=de)
 
 Nächster bester Pfadknoten
 
