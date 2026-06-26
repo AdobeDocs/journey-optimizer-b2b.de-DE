@@ -3,17 +3,11 @@ title: Personen-Journey-Knoten
 description: Erfahren Sie mehr über Personen-Journey-Knoten in Journey Optimizer B2B edition Prime - Zielgruppe, Aktionen, Ereignisse, Wartezeiten, Pfadaufteilungen und KI-gesteuertes Routing des nächstbesten Pfades.
 autotag-review: '2026-06-16T21:21:16.531Z'
 TQID: 'https://experienceleague.adobe.com/sTnrOvrGIrgboPqOMrrkUvNU1y6zZJX42zEJxuUInKQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6227b7f64baf307e3778e73bcceabb140ab65fb8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
 workflow-type: tm+mt
 source-wordcount: 320
 ht-degree: 0%
@@ -29,7 +23,7 @@ Der Knoten _[!UICONTROL Person]_ Zielgruppe ist automatisch der erste Knoten auf
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 Zielgruppenknoten Person
 
@@ -39,7 +33,7 @@ Die Journey beginnt immer mit dem Zielgruppenknoten Person . Legen Sie die Einga
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 Aktionsknoten
 
@@ -49,7 +43,7 @@ Wenden Sie Änderungen auf alle Personen in einem Pfad an, z. B. beim Senden ein
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=de) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 Ereignisknoten
 
@@ -59,7 +53,7 @@ Fahren Sie mit dem nächsten Journey-Schritt fort, wenn eine bestimmte Aktivitä
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=de) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 Warteknoten
 
@@ -69,7 +63,7 @@ Den Journey-Fortschritt für eine bestimmte Dauer oder bis zu einem bestimmten D
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 Aufspalten und Zusammenführen von Pfadknoten
 
@@ -79,7 +73,7 @@ Personen basierend auf Bedingungen in separate Pfade unterteilen, unterschiedlic
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=de) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 Nächster bester Pfadknoten
 
@@ -89,3 +83,4 @@ Verwenden Sie KI-gesteuerte Entscheidungsfindung , um jede Person zum relevantes
 :::
 
 ::::
+
