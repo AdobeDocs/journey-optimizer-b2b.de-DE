@@ -14,10 +14,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3368f815edc0ce817cb7ed371157b63fa548d848
+source-git-commit: d6c6691525c1fcfc695d109ef55dc2133f67c671
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 8%
+source-wordcount: 357
+ht-degree: 5%
 
 ---
 
@@ -27,11 +27,17 @@ Fügen Sie den Knoten _Auf ein Ereignis warten_ hinzu, um Ihre Zielgruppe beim E
 
 ## Ereignis-Trigger {#event-triggers}
 
-Liste von PM abrufen
+Sie können Trigger um [!DNL Marketo Engage] Aktivitäten herum erstellen, z. B.:
+
+* Formular ausfüllen - Wird ausgelöst, wenn eine Person ein [!DNL Marketo Engage] Formular auf Ihrer Landingpage ausfüllt.
+* Besuche Web-Seite - Wird ausgelöst, wenn ein Lead eine verfolgte Web-Seite anzeigt (Sie können exakte URLs angeben oder Platzhalter verwenden).
+* Klicks auf Link - Wird ausgelöst, wenn auf einen verfolgten Link in einer Marketing-E-Mail geklickt wird.
+* Änderungen der Datenwerte - Wird ausgelöst, wenn ein bestimmtes Feld (z. B. Lead-Status, Bewertung oder Branche) im Datensatz einer Person aktualisiert wird.
+* Campaign wird angefordert - Wird häufig für API- oder Webhook-Integrationen verwendet, startet dieser Trigger eine Kampagne, wenn sie von einem anderen Programm oder Webservice aufgerufen wird.
+* Bewertung wird geändert - Wird ausgelöst, wenn der Lead-Score eines Kontakts über einen bestimmten Schwellenwert hinaus ansteigt oder abnimmt.
+* Mobile Push-Benachrichtigung getippt - Wird in Smart-Kampagnen für Mobile-Marketing ausgelöst, wenn auf einem Gerät mit einer Push-Benachrichtigung interagiert wird.
 
 ## Ereignisfilter {#event-filters}
-
-Aktualisierte Liste von PM abrufen
 
 | Filter | Beschreibung |
 | ------- | ----------- |

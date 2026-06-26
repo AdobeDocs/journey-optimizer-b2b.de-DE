@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: 1940cd62ab63243382637c1e60bb4df02ba2d56e
 workflow-type: tm+mt
-source-wordcount: 494
-ht-degree: 12%
+source-wordcount: 505
+ht-degree: 10%
 
 ---
 
@@ -36,8 +36,7 @@ Erste Schritte
 
 Schließen Sie die Ersteinrichtung und -konfiguration ab, und erfahren Sie dann, wie Sie in der Anwendung navigieren und die Startseite verwenden.
 
-[Administrator-Setup](./start/setup-prime.md)
-
+[Administrator-Setup](./start/setup-prime.md) <br/>
 [Startseite](./home-insights/home-page.md)
 :::
 
@@ -48,8 +47,7 @@ KI-Assistent
 
 Verwenden Sie natürliche Sprache, um Programme zu planen, Journey zu erstellen, Zielgruppen zu verwalten und Inhalte mit agenten KI-Fähigkeiten zu erstellen.
 
-[Chat-Oberfläche](./agents/chat-interface.md)
-
+[Chat-Oberfläche](./agents/chat-interface.md) <br/>
 [Verfügbare Fähigkeiten](./agents/skills.md)
 :::
 
@@ -70,9 +68,8 @@ Marketing-Management
 
 Organisieren Sie Kampagnen in Programmen, entwerfen Sie Personen-Journey mit kanalübergreifenden Inhalten und personalisieren Sie sie mit benutzerdefinierten Token.
 
-[Marketing-Übersicht](./marketing/marketing-management.md)
-
-[Personen-Journey](./marketing/person-journeys.md)
+[Marketing-Übersicht](./marketing/marketing-management.md) <br/>
+[Personen-Journey &#x200B;](./marketing/person-journeys.md)
 :::
 
 :::
@@ -82,8 +79,7 @@ Zielgruppen
 
 Erstellen und verwalten Sie Personenlisten, definieren Sie ereignisbasierte Zielgruppen und verfolgen Sie die Interaktion mit der personalbasierten Bewertung.
 
-[Personenlisten](./audiences/people-lists.md)
-
+[Personenlisten](./audiences/people-lists.md) <br/>
 [Interaktionswerte](./audiences/engagement-scores.md)
 :::
 
@@ -94,10 +90,8 @@ Inhalt
 
 Verfassen Sie E-Mails und WhatsApp-Nachrichten, verwalten Sie Vorlagen und Assets, erstellen Sie Landingpages und Formulare und wenden Sie die Personalisierung an.
 
-[Erstellung von E-Mails](./content/email-authoring.md)
-
-[Vorlagen](./content/templates.md)
-
+[E-Mail-Authoring](./content/email-authoring.md) <br/>
+[Vorlagen](./content/templates.md) <br/>
 [Landingpages](./content/landing-pages.md)
 :::
 
@@ -113,7 +107,7 @@ Verfassen Sie E-Mails und WhatsApp-Nachrichten, verwalten Sie Vorlagen und Asset
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-gen-ai-blue.svg" width="35px" alt="KI-Assistent"><br/>
-      <strong>KI-Assistent</strong><br/><a href="./agents/chat-interface.md">Chat-Schnittstelle</a><br/><a href="./agents/skills.md">Fähigkeiten</a><br/><a href="./agents/program-from-brief.md">Programm aus einer Zusammenfassung erstellen</a>
+      <strong>KI-Assistent</strong><br/><a href="./agents/chat-interface.md">Chat-Schnittstelle</a><br/><a href="./agents/skills.md">Fähigkeiten</a><br/><a href="./agents/program-from-brief.md">Programm aus Brief erstellen</a><br/><a href="./agents/audience-creation.md">Audiences für Programme erstellen</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Marketing-Management"><br/>

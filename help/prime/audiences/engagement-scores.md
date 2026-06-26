@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 30b2d9f95b45a94d2ba42c23cd1d59952fb61720
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1548
 ht-degree: 7%
@@ -157,9 +157,7 @@ Hintergrundinformationen zu Interaktionsbewertungsmodellen, Gewichtungsbändern 
 
 1. Geben Sie im Eingabefeld Chat den Befehl für einen Schrägstrich ein, gefolgt von Ihrer Absicht. Beispiel:
 
-   ```text
-   /engagement-configuration Configure activity weights for the person engagement score model
-   ```
+   `/engagement-configuration Configure activity weights for the person engagement score model`
 
    Während der Eingabe von `/` zeigt der KI-Assistent eine Liste der verfügbaren Schrägstrichbefehle und Fähigkeiten an. Der Befehl für die Interaktionskonfiguration wird direkt zur Seite mit der Gewichtung der Interaktionsbewertung weitergeleitet.
 

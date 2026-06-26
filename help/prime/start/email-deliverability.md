@@ -15,7 +15,7 @@ subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4c3919d0f2d0c5c12236f3ced1b0e9674ef9567e
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1920
 ht-degree: 1%
@@ -39,7 +39,7 @@ Sie verwendet die folgenden Bausteine, die von einem Administrator konfiguriert 
 1. [Bestätigen Sie den IP-Pool](#ip-pools) der zum Senden von E-Mails für Ihre Subdomain verwendet wird.
 1. [Erstellen Sie eine oder mehrere E-Mail](../admin/email-channel-configuration.md#create-email-channel-configuration)Kanalkonfigurationen, die eine Subdomain, einen IP-Pool und eine Absenderidentität verbinden.
 
-![Einrichtung der E-Mail-Zustellbarkeit für Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="450" zoomable="yes"}
+![Einrichtung der E-Mail-Zustellbarkeit für Journey Optimizer B2B Prime](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
 >[!TIP]
 >

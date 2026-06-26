@@ -15,7 +15,7 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 6ba70fe8d56bc35829649948c89356327042bf3f
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 650
 ht-degree: 2%
@@ -61,7 +61,7 @@ Der _[!UICONTROL Abgeleitete Persona]_-Filter wird im Filterbedienfeld unter der
 
 Wenn Sie Mitglieder zu einer [statischen Personenliste](./people-lists.md#static-list) hinzufügen oder daraus entfernen oder wenn Sie die Mitgliedschaftsregeln für eine [dynamische Personenliste](./people-lists.md#dynamic-lists) definieren, können Sie nach abgeleiteter Persona filtern, um alle Personen anzusprechen, deren Attribute einer bestimmten konfigurierten Persona entsprechen.
 
-![Abgeleitete Rollenfilterung für eine Personenliste](./assets/derived-persona-filter-people-list.png){width="700" zoomable="yes"}
+![Abgeleitete Rollenfilterung für eine Personenliste](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 
 **Statische Liste - Mitglieder hinzufügen**
 
@@ -91,7 +91,7 @@ Wenn Sie Mitglieder zu einer [statischen Personenliste](./people-lists.md#static
 
 Wenn Sie die Segmentierung für eine Personen-Journey in einem [_Aufspaltungs-_-Knoten](../marketing/split-merge-paths-nodes.md) konfigurieren, können Sie eine abgeleitete Rolle als Personenprofilfilter verwenden, um zu steuern, welche Personen in den Journey-Pfad eintreten.
 
-![Abgeleitete Rollenfilterung für eine Bedingung eines aufgeteilten Pfads](./assets/derived-persona-filter-split-path.png){width="700" zoomable="yes"}
+![Abgeleitete Rollenfilterung für eine Bedingung eines aufgeteilten Pfads](./assets/derived-persona-filter-split-path.png){width="750" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Arbeitsfläche Journey auf]** Knoten „Pfade aufteilen“.
 

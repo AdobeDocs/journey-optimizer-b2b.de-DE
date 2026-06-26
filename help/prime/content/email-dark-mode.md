@@ -15,7 +15,7 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cb3217c9fd7beb712d0c61638d143b798010d2b7
+source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
 workflow-type: tm+mt
 source-wordcount: 1478
 ht-degree: 19%
@@ -53,7 +53,7 @@ Wenn Sie benutzerdefinierte Einstellungen für den Dunkelmodus im E-Mail-Design 
 
 +++
 
-+++Clients, die ihre eigene Dunkelmodus-{#default-support} anwenden
++++Clients, die ihren eigenen dunklen Modus anwenden
 
 Einige E-Mail-Clients wenden ihren eigenen standardmäßigen Dunkelmodus systematisch auf alle empfangenen E-Mails an. Sie passen Farben, Hintergründe, Bilder und andere Elemente automatisch an die Einstellungen im Dunkelmodus an, und externe Einstellungen sind nicht möglich. Zu diesen Clients gehören:
 
