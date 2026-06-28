@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 263e15040990a48475ffdd2b0b25d1cb557d5abf
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: 2261
 ht-degree: 2%
@@ -33,7 +33,6 @@ Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des 
 >[!PREREQUISITES]
 >
 >Bevor Marketing-Teams Formulare erstellen und verwenden können, um Informationen zu erfassen, muss ein Administrator eine oder mehrere Formularvorgaben definieren. Weitere Informationen finden Sie unter [_Forms-Konfigurationen_](../admin/configuration-presets-forms.md)
->
 
 <!-- 
 >Form creation in [!DNL Journey Optimizer B2B Prime] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
@@ -120,11 +119,8 @@ Sie können ein Formular in [!DNL Journey Optimizer B2B Prime] erstellen, indem 
    Formularanforderungen:
 
    * Name - Maximal 100 Zeichen, muss eindeutig sein, Groß-/Kleinschreibung wird nicht beachtet
-
    * Beschreibung - Maximal 300 Zeichen
-
    * Alpha-, numerische und Sonderzeichen sind zulässig
-
    * Reservierte Zeichen sind **_nicht zulässig_**: `\ / : * ? " < > |`
 
    <!-- ![Create form dialog](./assets/forms-create-dialog.png){width="400"} -->
@@ -160,9 +156,7 @@ Klicken Sie **[!UICONTROL Speichern und schließen]** um Ihre Änderungen am For
 Scrollen Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite zum Abschnitt **[!UICONTROL Dankeseite]** und verwenden Sie die Einstellung **[!UICONTROL Folgenachricht]**, um zu definieren, was passiert, wenn ein Besucher das Formular sendet:
 
 * **[!UICONTROL Auf Seite bleiben]** - Wählen Sie diese Option, um den Besucher beim Senden des Formulars auf der gleichen Seite zu belassen.
-
 * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige [!DNL Journey Optimizer B2B Prime] Landingpage als Folgeseite auszuwählen.
-
 * **[!UICONTROL Externe URL]** - Wählen Sie diese Option aus, um eine beliebige URL als Folgeseite anzugeben. Nachdem der Besucher das Formular gesendet hat, lädt der Browser die vorgesehene URL.
 
   >[!TIP]
@@ -259,7 +253,7 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 1. Um Änderungen am Formular im visuellen Design vorzunehmen, klicken Sie auf **[!UICONTROL Formular bearbeiten]**.
 
-<!--
+   <!--
    Use the visual design tools as needed:
 
    * [Add fields](./form-design.md#add-field)
@@ -270,7 +264,7 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
    -->
 
-Klicken Sie **[!UICONTROL Speichern und schließen]** um zu den Formulardetails zurückzukehren.
+   Klicken Sie **[!UICONTROL Speichern und schließen]** um zu den Formulardetails zurückzukehren.
 
 1. Wenn das Formular Ihren Kriterien entspricht und Sie es in einer Landingpage oder Landingpage-Vorlage verfügbar machen möchten, klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
@@ -307,7 +301,6 @@ Klicken Sie **[!UICONTROL Speichern und schließen]** um zu den Formulardetails 
 >[!TAB Veröffentlicht mit Entwurf]
 
 1. Klicken Sie auf den Namen des Formulars, um es zu öffnen.
-
 1. Wählen Sie die **[!UICONTROL Entwurf]** aus.
 
    Eine Vorschau des Formularinhalts der Entwurfsversion wird mit den Formulardetails auf der rechten Seite angezeigt.
@@ -354,4 +347,3 @@ Wenn ein Formular in einer Landingpage oder Landingpage-Vorlage enthalten ist, k
 Wenn Sie das Formular im Design-Bereich der Landingpage auswählen, sind diese Aktionen in der Kontextsymbolleiste und im Bedienfeld Eigenschaften auf der rechten Seite verfügbar.
 
 <!-- ![Apply actions to the selected form](./assets/form-actions-page-authoring.png){width="600" zoomable="yes"} -->
-

@@ -1,7 +1,7 @@
 ---
 title: Inhaltserstellung - Formulare hinzufügen
 description: Wiederverwendbarer Abschnitt zum Hinzufügen von Formularen in Landingpages und Vorlagen
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Im folgenden Beispiel werden Schritte zum Hinzufügen eines Formulars während d
      >
      >Wenn Sie das Formular zum Herunterladen einer Datei verwenden möchten, können Sie eine URL für die gehostete Datei angeben. Bei dieser Konfiguration fungiert die Senden-Schaltfläche als Download-Schaltfläche.
 
-   ![Ändern der Folgeeinstellung](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
+     ![Ändern der Folgeeinstellung](../assets/content-design-shared/content-design-add-form-follow-up.png){width="280"}
 
 1. Wenn Sie die Anzeige des Formulars nach Gerätetyp beschränken möchten, ändern Sie die Einstellung **[!UICONTROL Anzeigeoptionen]**:
 
