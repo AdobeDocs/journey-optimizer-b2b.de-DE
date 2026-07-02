@@ -20,7 +20,7 @@ role_v2:
 source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
 workflow-type: tm+mt
 source-wordcount: 1037
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -117,7 +117,7 @@ Die E-Mail-Seite wird geöffnet, wenn Sie eine E-Mail für einen _[!UICONTROL E-
 
 1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Größe der HTML optimieren]**, um die Größe Ihrer E-Mail-HTML während des Veröffentlichungsprozesses zu reduzieren.
 
-   Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden. Weitere Informationen finden [_unter „Optimieren der E_](#optimize-html-size) Mail-HTML-Größe“.
+   Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden. Weitere Informationen finden [_unter „Optimieren der E_](#optimize-html-size) Mail-HTML-Größe“.
 
 1. Klicken Sie auf **[!UICONTROL E-Mail-]** bearbeiten), um auf die visuellen Design-Tools zuzugreifen und mit der [Erstellung Ihres Inhalts](../content/email-authoring.md) zu beginnen.
 
@@ -140,12 +140,12 @@ Die E-Mail-Seite wird geöffnet, wenn Sie eine E-Mail für einen _[!UICONTROL E-
 * Leere Links erkannt
 * E-Mail überschreitet 100 KB
 
-## Größe von E-Mail-HTML optimieren {#optimize-html-size}
+## Optimieren der HTML-Größe von E-Mails {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
->title="Verringern der Größe von HTML"
->abstract="Aktivieren Sie diese Option, um Ihre E-Mail-HTML während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden."
+>title="HTML-Größe reduzieren"
+>abstract="Aktivieren Sie diese Option, um den HTML-Code Ihrer E-Mail während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden."
 
 Mit [!DNL Journey Optimizer B2B Prime] können Sie Ihre E-Mail-HTML-Version während des Veröffentlichungsprozesses komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Wenn Sie die Größe von HTML klein halten, hilft Ihnen Folgendes:
 
