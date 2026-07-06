@@ -14,7 +14,7 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 2%
@@ -61,11 +61,11 @@ Das erstellte Modell ist in _Dimensionen_ und _Signale_ organisiert. Sie können
 * **Aktivität oder Attribut** - Das spezifische Element, das bewertet werden soll
 * **Signalparameter** — Einstellbare Einstellungen für das Signal
 
-Sie können Modelle vollständig über den Agenten in natürlicher Sprache erstellen und konfigurieren oder direkt mit den Benutzeroberflächen-Steuerelementen interagieren.
+Sie können Modelle vollständig über den KI-Assistenten in natürlicher Sprache erstellen und konfigurieren oder direkt mit den Benutzeroberflächen-Steuerelementen interagieren.
 
 ## Scoring-Modell veröffentlichen {#publish-model}
 
-Weisen Sie nach Fertigstellung Ihres Modells den Agenten an, es zu veröffentlichen. Der Veröffentlichungsprozess verarbeitet automatisch Folgendes:
+Weisen Sie nach Fertigstellung des Modells den KI-Assistenten an, es zu veröffentlichen. Der Veröffentlichungsprozess verarbeitet automatisch Folgendes:
 
 | Schritt | Was passiert? |
 |---|---|
