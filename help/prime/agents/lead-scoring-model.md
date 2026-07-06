@@ -4,17 +4,11 @@ description: Erstellen, Anzeigen und Veröffentlichen benutzerdefinierter Lead-B
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 autotag-review: '2026-06-25T21:20:26.754Z'
 TQID: 'https://experienceleague.adobe.com/-D5EaJ-3GQ5iwaE6hChscZGEdflKmZ3tdp6VUNuPjWk'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d8f352c636ebd8980614922099701de8f755e8e4
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2cid: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
 ht-degree: 2%
@@ -28,7 +22,7 @@ ht-degree: 2%
 >title="Scoring-Studio"
 >abstract="Verwenden Sie die Scoring Studio-Kenntnisse zum Erstellen, Konfigurieren und Veröffentlichen benutzerdefinierter Lead-Scoring-Modelle über die Chat-Oberfläche des KI-Assistenten."
 
-Die [_Scoring Studio_-](./skills.md#scoring-signals) in [!DNL Adobe Journey Optimizer B2B Prime] bietet eine KI-native Lead-Scoring-Lösung, mit der Sie Lead-Scoring-Modelle erstellen, konfigurieren und veröffentlichen können. Das Studio kombiniert einen agentengesteuerten Workflow mit einer visuellen Benutzeroberfläche. Sie können Bewertungsmodelle durch natürliche Spracheingaben in der [KI-Assistenten-Chat-Oberfläche &#x200B;](./chat-interface.md) durch direkte Interaktion mit den Benutzeroberflächen-Steuerelementen erstellen.
+Die [_Scoring Studio_-](./skills.md#scoring-signals) in [!DNL Adobe Journey Optimizer B2B Prime] bietet eine KI-native Lead-Scoring-Lösung, mit der Sie Lead-Scoring-Modelle erstellen, konfigurieren und veröffentlichen können. Das Studio kombiniert einen agentengesteuerten Workflow mit einer visuellen Benutzeroberfläche. Sie können Bewertungsmodelle durch natürliche Spracheingaben in der [KI-Assistenten-Chat-Oberfläche ](./chat-interface.md) durch direkte Interaktion mit den Benutzeroberflächen-Steuerelementen erstellen.
 
 * **Kenntnisse** - `scoring-studio`
 * **Aufruf** - Verwenden Sie einen Schrägstrich, um Scoring Studio zu öffnen. Beispiel: _„Open Scoring Studio.“_
@@ -61,11 +55,11 @@ Das erstellte Modell ist in _Dimensionen_ und _Signale_ organisiert. Sie können
 * **Aktivität oder Attribut** - Das spezifische Element, das bewertet werden soll
 * **Signalparameter** — Einstellbare Einstellungen für das Signal
 
-Sie können Modelle vollständig über den Agenten in natürlicher Sprache erstellen und konfigurieren oder direkt mit den Benutzeroberflächen-Steuerelementen interagieren.
+Sie können Modelle vollständig über den KI-Assistenten in natürlicher Sprache erstellen und konfigurieren oder direkt mit den Benutzeroberflächen-Steuerelementen interagieren.
 
 ## Scoring-Modell veröffentlichen {#publish-model}
 
-Weisen Sie nach Fertigstellung Ihres Modells den Agenten an, es zu veröffentlichen. Der Veröffentlichungsprozess verarbeitet automatisch Folgendes:
+Weisen Sie nach Fertigstellung des Modells den KI-Assistenten an, es zu veröffentlichen. Der Veröffentlichungsprozess verarbeitet automatisch Folgendes:
 
 | Schritt | Was passiert? |
 |---|---|
