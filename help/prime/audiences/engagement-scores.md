@@ -19,16 +19,16 @@ role_v2:
 source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1548
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# Personeninteraktionswerte {#engagement-scores}
+# Personeninteraktionsbewertungen {#engagement-scores}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_person_engagement_score"
->title="Engagement-Score einer Person"
->abstract="Die Interaktionswerte der Personen spiegeln den Grad der Interaktion für einzelne Leads basierend auf ihren letzten Aktivitäten wider."
+>title="Personeninteraktionsbewertung"
+>abstract="Personeninteraktionsbewertungen spiegeln den Grad der Interaktion für einzelne Leads basierend auf ihren letzten Aktivitäten wider."
 
 Ein Personen-Interaktionswert ist eine Zahl, die den Grad der Interaktion für einen einzelnen Lead widerspiegelt. Die Bewertungen basieren auf den Aktivitäten einer Person, wobei jeder Aktivitätstyp einen gewichteten Wert aufweist. Die Bewertungen werden innerhalb Ihrer Instanz (Mandant) normalisiert, um einen konsistenten Vergleich zu ermöglichen und umsetzbare Einblicke zu ermöglichen.
 

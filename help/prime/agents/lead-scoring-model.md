@@ -17,16 +17,16 @@ role_v2:
 source-git-commit: 95f506e5ec59996bf4af53151cd0553d23b19082
 workflow-type: tm+mt
 source-wordcount: 489
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# Erstellen benutzerdefinierter Bewertungsmodelle
+# Erstellen benutzerdefinierter Scoring-Modelle
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_scoring_studio"
->title="Scoring-Studio"
->abstract="Verwenden Sie die Scoring Studio-Kenntnisse zum Erstellen, Konfigurieren und Veröffentlichen benutzerdefinierter Lead-Scoring-Modelle über die Chat-Oberfläche des KI-Assistenten."
+>title="Scoring Studio"
+>abstract="Verwenden Sie Scoring Studio zum Erstellen, Konfigurieren und Veröffentlichen benutzerdefinierter Lead-Scoring-Modelle über die Chat-Oberfläche des KI-Assistenten."
 
 Die [_Scoring Studio_-](./skills.md#scoring-signals) in [!DNL Adobe Journey Optimizer B2B Prime] bietet eine KI-native Lead-Scoring-Lösung, mit der Sie Lead-Scoring-Modelle erstellen, konfigurieren und veröffentlichen können. Das Studio kombiniert einen agentengesteuerten Workflow mit einer visuellen Benutzeroberfläche. Sie können Bewertungsmodelle durch natürliche Spracheingaben in der [KI-Assistenten-Chat-Oberfläche &#x200B;](./chat-interface.md) durch direkte Interaktion mit den Benutzeroberflächen-Steuerelementen erstellen.
 
