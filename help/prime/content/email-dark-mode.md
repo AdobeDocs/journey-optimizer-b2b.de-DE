@@ -15,7 +15,7 @@ subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: af10a912422f1736fdc86e0609aee76f5d4daa46
+source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
 workflow-type: tm+mt
 source-wordcount: 1478
 ht-degree: 19%
@@ -173,3 +173,4 @@ Der dunkle Modus kann Farben, Hintergründe und Bilder verändern – und manchm
 | Ihre Hintergründe ansehen | Checkliste:<ul><li>Stellen Sie einen ausreichenden Kontrast zwischen Text- und Hintergrundfarben sicher, damit die Lesbarkeit sowohl im hellen als auch im dunklen Modus gewahrt bleibt. <li>Vermeiden Sie es, sich bei kritischen Inhalten allein auf Hintergrundfarben zu verlassen. Einige Clients überschreiben Hintergrundfarben im Dunkelmodus, sodass wichtige Informationen weiterhin sichtbar sind. |
 | Entwerfen barrierefreier Inhalte im Dunkelmodus | Checkliste:<ul><li>Verwenden Sie Farbkombinationen, die für Menschen mit Farbenblindheit leicht zu unterscheiden sind. <li>Verwenden Sie eine Mitteltonpalette, um sowohl vor hellen als auch vor dunklen Hintergründen einen Kontrast sicherzustellen. <li>Verwenden Sie barrierefreie Farbkombinationen mit hohem Kontrast, um die Lesbarkeit zu verbessern und [!DNL Web Content Accessibility Guidelines (WCAG)] Standards zu erfüllen. Verwenden Sie Tools wie [!DNL WebAIM Contrast Checker], um den Farbkontrast zu überprüfen. <li>Vermeiden Sie dünne Schriftarten, da sie die Lesbarkeit beeinträchtigen können. Wenn für Ihre Marke eine dünne Schriftart erforderlich ist, verwenden Sie sie für den dunklen Modus eine Fettformatierung. <li>Überspringen Sie reines Weiß auf reinem Schwarz, was zu Augenbelastungen führen kann und in einigen E-Mail-Clients automatisch invertiert werden könnte. <li>Wenn der dunkle Modus nicht unterstützt wird, können Sie barrierefreie Fallback-Stile bereitstellen. |
 | Testen von E-Mails in einer Umgebung mit dunklem Modus | Checkliste:<ul><li>Verwenden Sie die [Dunkelmodusvorschau](#preview-dark-mode) im E-Mail-Design-Bereich, der invertierte Farbschemata verwendet, um Probleme frühzeitig zu erkennen. <li>Wenn Sie über ein Litmus Enterprise-Konto verfügen, verwenden Sie die Option **[!UICONTROL E-Mail rendern]**, um Ihre Designs auf wichtigen E-Mail-Clients (wie Apple Mail, Gmail und Outlook) zu simulieren und zu sehen, wie sich Farben und Bilder im Dunkelmodus verhalten. |
+
