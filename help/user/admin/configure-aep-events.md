@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 73acecac0a17215eec885108521e86225ca54d49
+source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 12%
@@ -63,13 +63,13 @@ Beachten Sie bei der Auswahl von Ereignissen zur Erreichung Ihrer Unternehmenszi
 
 * Sie können ein Erlebnisereignis in mehreren Journey referenzieren oder es mehrmals auf derselben Journey verwenden.
 
+>[!NOTE]
+>
+>Bei der Auswahl von XDM-Feldern für _[!UICONTROL Standard]_, _[!UICONTROL relationale]_ oder _[!UICONTROL Ereignisse]_ werden nur grundlegende Datentypen unterstützt (Zeichenfolge, Ganzzahl, Double und Boolesch). Arrays und Objekte sind nicht zulässig.
+
 >[!ENDSHADEBOX]
 
 ## Verwalten von Erlebnisereignissen {#manage-experience-events}
-
->[!NOTE]
->
->Bei der Auswahl von XDM-Feldern für _[!UICONTROL Standard]_, [!UICONTROL relationale] oder [!UICONTROL Ereignisse] werden nur grundlegende Datentypen unterstützt (Zeichenfolge, Ganzzahl, Double und Boolesch). Arrays und Objekte sind nicht zulässig.
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
 
