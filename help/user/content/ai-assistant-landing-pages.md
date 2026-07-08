@@ -6,12 +6,21 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
 source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
@@ -130,7 +139,7 @@ Führen Sie die folgenden Schritte entsprechend dem Typ der Inhaltserstellung f�
 
 Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollständige Generierung von Landingpages zu verwenden, indem Sie eine vorhandene Landingpage-Vorlage verfeinern:
 
-1. Klicken [ nach dem Erstellen der ](./landing-pages-create-publish.md#create-landing-page) auf **[!UICONTROL Landingpage bearbeiten]**.
+1. Klicken [&#x200B; nach dem Erstellen der &#x200B;](./landing-pages-create-publish.md#create-landing-page) auf **[!UICONTROL Landingpage bearbeiten]**.
 
 1. Wählen Sie eine Vorlage.
 
@@ -138,7 +147,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollstän
 
    Weitere Informationen zur Verwendung einer Landingpage-Vorlage finden Sie unter _[Auswählen einer gespeicherten oder Beispielvorlage](./landing-pages.md#select-a-saved-or-sample-template)_.
 
-1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
+1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
 
    ![KI-Assistenten-Umschalter im Design-Bereich der Landingpage](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
@@ -146,7 +155,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollstän
 
 1. (Beta) Wählen Sie Ihre **[!UICONTROL Marke]**, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
 
-   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ ](./brands-overview.md) definieren.
+   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ &#x200B;](./brands-overview.md) definieren.
 
 1. Geben **[!UICONTROL im Feld &quot;]**&quot; eine Beschreibung dessen ein, was generiert werden soll.
 
@@ -184,7 +193,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zur Verfeinerung o
 
 1. Wählen Sie im Design-Bereich der Landingpage eine _Text_-Komponente aus, um auf die spezifischen Inhalte zuzugreifen.
 
-1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
+1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
 
    ![KI-Assistenten-Umschalter im Design-Bereich der Landingpage](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -226,7 +235,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu verwenden und d
 
 1. Wählen Sie im Design-Bereich der Landingpage eine Komponente _Bild_ aus, um auf die spezifischen Inhalte zuzugreifen.
 
-1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
+1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
 
    ![KI-Assistenten-Umschalter im Design-Bereich der Landingpage](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -260,7 +269,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu verwenden und d
 
    Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Bilder und Referenzinhalte (falls erforderlich) und zum Neugenerieren der Varianten.
 
-   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [ zur Verwendung von Adobe Express zum Verfeinern ](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
+   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [&#x200B; zur Verwendung von Adobe Express zum Verfeinern &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
 
    ![KI-Assistent - Vorschau von Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
@@ -282,7 +291,7 @@ Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse optimie
 
 1. Ermitteln Sie die Variante, die Ihren Zielen am besten entspricht, und klicken Sie auf das Symbol _Vollbild_ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld zu öffnen.
 
-   ![Rufen Sie das Dialogfeld „Generieren“ ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+   ![Rufen Sie das Dialogfeld „Generieren“ &#x200B;](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 1. Wenn Sie mit der ausgewählten Variante zufrieden sind, klicken Sie auf **[!UICONTROL Auswählen]**, um sie auf die Arbeitsfläche anzuwenden.
 
