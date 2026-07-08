@@ -4,10 +4,16 @@ description: Erfahren Sie mehr über Governance-Funktionen, die derzeit in Journ
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
 source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
@@ -27,13 +33,13 @@ Es gibt verschiedene Vorschriften, die für [!DNL Journey Optimizer B2B Edition]
 
 ### DSGVO
 
-Die Datenschutz-Grundverordnung (DSGVO) ist das Datenschutzrecht der Europäischen Union (EU), das die [Datenschutzanforderungen) für ](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} EU-Länder harmonisiert und modernisiert.
+Die Datenschutz-Grundverordnung (DSGVO) ist das Datenschutzrecht der Europäischen Union (EU), das die [Datenschutzanforderungen) für &#x200B;](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} EU-Länder harmonisiert und modernisiert.
 
 [!DNL Journey Optimizer B2B Edition] verwendet die vorhandenen Marketo Engage-DSGVO-Governance-Funktionen, die von Privacy Service und Marketo Privacy Broker Service bereitgestellt werden.
 
 ### CNIL
 
-Am 14. April 2026 veröffentlichte die Commission nationale de l&#39;informatique et des libertés ([) eine Empfehlung ](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) die Verwendung von Tracking-Pixeln in E-Mails. In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie wirkt sich auf alle Entitäten aus, die E-Mails an Abonnentinnen und Abonnenten mit Sitz in Frankreich senden.
+Am 14. April 2026 veröffentlichte die Commission nationale de l&#39;informatique et des libertés ([) eine Empfehlung &#x200B;](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) die Verwendung von Tracking-Pixeln in E-Mails. In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie wirkt sich auf alle Entitäten aus, die E-Mails an Abonnentinnen und Abonnenten mit Sitz in Frankreich senden.
 
 CNIL räumte Unternehmen ab dem Datum der Empfehlung einen Zeitraum von drei Monaten ein, um ihre E-Mail-Empfänger über das Vorhandensein der Tracking-Pixel, ihren Zweck und das Recht der Empfänger auf Opt-out zu informieren. Während dieser Übergangsphase wird von Marketo Engage-Benutzenden erwartet, dass sie ihre Empfängerinnen und Empfänger über das Pixel-Tracking informieren und bei Bedarf eine Abmeldung ermöglichen. CNIL wird voraussichtlich nach dem 14. Juli 2026 mit Durchsetzungsmaßnahmen beginnen.
 
