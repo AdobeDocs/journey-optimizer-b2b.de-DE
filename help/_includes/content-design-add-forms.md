@@ -1,7 +1,7 @@
 ---
 title: Inhaltserstellung - Formulare hinzufügen
 description: Wiederverwendbarer Abschnitt zum Hinzufügen von Formularen in Landingpages und Vorlagen
-source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
+source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Im folgenden Beispiel werden die Schritte zum Hinzufügen eines Formulars beim E
 
    >[!TIP]
    >
-   >Um das Formular so hinzuzufügen, dass es das gesamte horizontale Layout in der E-Mail einnimmt, fügen Sie eine 1::1-Spaltenstruktur hinzu und ziehen Sie das Formular dann per Drag-and-Drop hinein.
+   >Um das Formular so hinzuzufügen, dass es das gesamte horizontale Layout auf der Seite einnimmt, fügen Sie eine 1::1-Spaltenstruktur hinzu und ziehen Sie das Formular dann per Drag-and-Drop hinein.
 
 1. Klicken Sie auf das _Formular_-Symbol in der Komponenten-Symbolleiste oder verwenden Sie die Eigenschaften **[!UICONTROL Formular einbetten]** rechts, um das veröffentlichte Formular auszuwählen.
 
