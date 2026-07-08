@@ -3,23 +3,16 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
+source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
 workflow-type: tm+mt
-source-wordcount: 5271
+source-wordcount: 5232
 ht-degree: 65%
 
 ---
@@ -40,13 +33,17 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Verbesserung | Aufspaltungspfad Journey-Knoten - Varianten | Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. |
-| Verbesserung | External Split Path Journey-Knoten - Personen-Journey | Unterstützung für externe Split Path-Journey-Knoten ist jetzt für Personen-Journey verfügbar. |
-| Verbesserung | Externe Aktion - Journey-Knoten - Personen-Journey | Unterstützung für externe Aktions-Journey-Knoten ist jetzt für Personen-Journey verfügbar. |
+| Funktion | Aufspaltungspfad Journey-Knoten - Varianten | (Beta) Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. |
 
 >[!NOTE]
 >
 >Diese Versionsänderungen beginnen mit der Bereitstellung am 10. Juli 2026 mit einem schrittweisen Rollout jeder Funktion und Erweiterung. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+
+<!-- 
+Add for 2026.8 release
+| Enhancement | External split path journey nodes - Person journeys | Support for external split path journey nodes is now available for person journeys. |
+| Enhancement | External action journey nodes - Person journeys | Support for external action journey nodes is now available for person journeys. |
+-->
 
 ## Versionshinweise für 2026.5 {#rel-2026-5}
 
@@ -175,7 +172,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
