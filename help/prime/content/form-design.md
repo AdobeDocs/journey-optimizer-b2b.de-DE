@@ -4,10 +4,17 @@ description: Entwerfen Sie Formulare mit Feldtypen, Validierung, Stilen und XDM-
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 autotag-review: '2026-07-08T17:41:12.101Z'
 TQID: 'https://experienceleague.adobe.com/xtqYbREEcVklT0ElH2jYnwN6IshqhbBdfrUZTw74Yfk'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: d57c4909-c813-470d-ac87-cdd2d6b5f9dcid: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+  - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+  - id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
 source-wordcount: 2189
@@ -21,7 +28,7 @@ Nach dem [Erstellen eines Formulars](./forms.md#create-forms) wird im visuellen 
 
 ![Formularentwurfsbereich](../../user/content/assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Die _**Senden**_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
+Die _&#x200B;**Senden**&#x200B;_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
 
 ## Felder {#fields}
 
@@ -140,7 +147,7 @@ Wählen Sie die **[!UICONTROL Stile]** im rechten Bedienfeld aus, um den Stil f�
 
 Sie können Formularfelder direkt im visuellen Arbeitsbereich verschieben. Klicken Sie auf _Verschieben_-Tool am rechten Rand des ausgewählten Felds und ziehen Sie es an eine neue Position.
 
-Fügen Sie [ Formular „Strukturkomponenten](./structure-components.md) hinzu und verschieben Sie Felder in Spalten, um sie zu gruppieren und das Layout zu ändern. Klicken Sie auf _Verschieben_ am linken Rand der ausgewählten Spaltenkomponente und ziehen Sie sie an eine neue Position im Formular.
+Fügen Sie [&#x200B; Formular „Strukturkomponenten](./structure-components.md) hinzu und verschieben Sie Felder in Spalten, um sie zu gruppieren und das Layout zu ändern. Klicken Sie auf _Verschieben_ am linken Rand der ausgewählten Spaltenkomponente und ziehen Sie sie an eine neue Position im Formular.
 
 ![Verschieben Sie Felder im Formular und verwenden Sie Strukturkomponenten für Gruppierung und Layout](../../user/content/assets/form-field-move-tool.png){width="500"}
 
