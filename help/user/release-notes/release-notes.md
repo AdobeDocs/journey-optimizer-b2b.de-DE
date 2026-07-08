@@ -3,24 +3,17 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c556fb63675dfd1d6e03f6b0143b3d3bd619557e
+source-git-commit: d67c4bf990aeafe801186f2daacf34c5d39b2d41
 workflow-type: tm+mt
-source-wordcount: 5167
-ht-degree: 66%
+source-wordcount: 5271
+ht-degree: 65%
 
 ---
 
@@ -32,6 +25,22 @@ Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] a
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
 
+## Versionshinweise für 2026.6 {#rel-2026-6}
+
+**Bereitstellungsdatum:**. Juli 2026
+
+<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Verbesserung | Aufspaltungspfad Journey-Knoten - Varianten | Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. |
+| Verbesserung | External Split Path Journey-Knoten - Personen-Journey | Unterstützung für externe Split Path-Journey-Knoten ist jetzt für Personen-Journey verfügbar. |
+| Verbesserung | Externe Aktion - Journey-Knoten - Personen-Journey | Unterstützung für externe Aktions-Journey-Knoten ist jetzt für Personen-Journey verfügbar. |
+
+>[!NOTE]
+>
+>Diese Versionsänderungen beginnen mit der Bereitstellung am 10. Juli 2026 mit einem schrittweisen Rollout jeder Funktion und Erweiterung. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+
 ## Versionshinweise für 2026.5 {#rel-2026-5}
 
 **Bereitstellungsdatum:**. Mai 2026
@@ -42,7 +51,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | ---- | ---- | ----------- |
 | Funktion | Landingpages | Landingpages sind in Journey Optimizer B2B edition verfügbar, um Journey und Programme zu unterstützen _(zuvor eine Beta-Programmfunktion)_. <ul><li>Admins können Landingpage-Subdomains und Voreinstellungen konfigurieren, um die Veröffentlichung der Landingpage zu aktivieren. [Weitere Informationen](../admin/configure-channels-landing-pages.md)</li><li>Marketing-Experten können Landingpages erstellen, entwerfen und veröffentlichen, um ihre Journey mit personalisierten Web-Inhalten zu unterstützen. [Weitere Informationen](../content/landing-pages.md)</li></ul> |
 | Funktion | Formulare | Journey Optimizer B2B edition unterstützt jetzt wiederverwendbare Formularkomponenten, um die Datenübermittlung von Landingpages aus zu ermöglichen _(zuvor eine Beta-Programmfunktion)_. <ul><li>Admins können mehrere Formularvorgaben mit verschiedenen Kombinationen von Datensätzen und Streaming-Verbindungen konfigurieren. [Weitere Informationen](../admin/configure-channels-forms.md)</li><li>Marketing-Experten können jetzt wiederverwendbare Formularkomponenten definieren, um Informationen von Web-Seitenbesuchern zu erfassen. [Weitere Informationen](../content/forms.md)</li></ul> |
-| Funktion | Mitglied des Kontolistenfilters | Verwenden Sie die Mitgliedschaft von Account-Listen als Orchestrierungspunkt in Account-Journey. Marketing-Experten können Account-Blockierungslisten, Prioritätenlisten oder jede andere Untergruppe ihrer Zielgruppe erstellen und Account-spezifische Erlebnisse in Journey basierend auf ihrer Mitgliedschaft bereitstellen. |
+| Funktion | Filter „Mitglied der Kontoliste“ | Verwenden Sie die Mitgliedschaft in der Kontoliste als Orchestrierungspunkt in den Account Journey. Marketing-Experten können Account-Blockierungslisten, Prioritätenlisten oder jede andere Untergruppe ihrer Zielgruppe erstellen und Account-spezifische Erlebnisse in Journey basierend auf ihrer Mitgliedschaft bereitstellen. |
 | Funktion | Filtern des Erlebnisereignisverlaufs | Diese Funktion ermöglicht es der B2B-Journey-Orchestrierung, historische Interaktionen zu verwenden, um verhaltensbasierte Entscheidungen für Zielgruppenmitglieder zu fördern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Funktion | Nächstbeste Pfad-Journey-Knoten | Sie können die Split Path-Entscheidungsfindung für Personen-Journey optimieren und verfeinern, wie Zielgruppen über Pfade hinweg vor der Journey-Aktivierung oder zur Laufzeit weitergeleitet werden. [Weitere Informationen](../journeys/next-best-path-node.md) |
 | Funktion | E-Mail-Leistungs-Dashboard | Das E-Mail-Leistungs-Dashboard bietet Marketing-Experten eine einheitliche Ansicht der E-Mail-Aktivität in allen Journey in Adobe Journey Optimizer B2B edition. [Weitere Informationen](../dashboards/email-performance-dashboard.md) |
@@ -159,7 +168,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
