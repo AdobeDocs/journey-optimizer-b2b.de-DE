@@ -21,18 +21,26 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 884e430e7dadd400a132ec261b146ebbb27f0909
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 712
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Öffnungs-Tracking für E-Mails verwalten
 
-Ihre Organisation ist für die Festlegung Ihrer eigenen Compliance-Verpflichtungen gemäß den geltenden Richtlinien und Gesetzen zur Rechtsprechung verantwortlich, Sie können jedoch die folgenden [!DNL Journey Optimizer B2B Edition]-Funktionen verwenden, um Ihre Compliance-Bemühungen zu unterstützen.
-
 Sie können das Öffnungs-Tracking für eine einzelne E-Mail deaktivieren oder die Tracking-Voreinstellungen jeder Person in Adobe Experience Platform erfassen und einen aufgeteilten Pfad verwenden, um Personen zu Tracking- und Nicht-Tracking-E-Mail-Varianten zu leiten.
+
+>[!BEGINSHADEBOX „CNIL Guidance on Email Tracking Pixels“]
+
+Am 14. April 2026 veröffentlichte die *Commission Nationale de l&#39;Informatique et des Libertés* (CNIL) eine [Empfehlung zur Verwendung von Tracking-Pixeln in E-Mails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie könnte sich auf die Versandpraktiken von Entitäten auswirken, die E-Mails an Abonnenten mit Sitz in Frankreich versenden.
+
+Ein E-Mail-Tracking-Pixel ist ein 1 x 1 transparentes Bild, das in die HTML einer E-Mail eingebettet ist. Wenn der E-Mail-Client des Empfängers dieses Bild lädt, pingt das Pixel einen Server an, der Daten wie Zeitstempel, Gerätetyp, E-Mail-Client und manchmal eine IP-Adresse als ungefähren Speicherort aufzeichnet. Dieses Protokoll wird dann an den Datensatz eines Empfängers gebunden, sodass Marketer wissen können, ob eine E-Mail geöffnet wurde.
+
+Die hier beschriebenen [!UICONTROL Journey Optimizer B2B edition]-Produktfunktionen sind Bausteine, die entsprechend konfiguriert und betrieben werden und eine konforme Implementierung unterstützen können. Jeder Kunde ist dafür verantwortlich, seine Verpflichtungen nach geltendem Recht zu bestimmen und zu erfüllen.
+
+>[!ENDSHADEBOX]
 
 ## Tracking für einzelne E-Mail deaktivieren {#disable-tracking-single-email}
 
