@@ -2,10 +2,10 @@
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Prime und wie Sie damit ?.
 hide: true
-source-git-commit: 7ad94f63f181d3e51c00c9629f3b2347c0eba04f
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 45%
+source-wordcount: '160'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 45%
    + [Kenntnisse](./agents/skills.md)
    + [Erstellen eines Programms aus einer Zusammenfassung](./agents/program-from-brief.md)
    + [Erstellen von Zielgruppen für Programme](./agents/audience-creation.md)
-   + [Erstellen benutzerdefinierter Bewertungsmodelle](./agents/lead-scoring-model.md)
+   + [Erstellen benutzerdefinierter Scoring-Modelle](./agents/lead-scoring-model.md)
 + [Verkaufskennzeichner](./sales-qualifier/sales-qualifier.md)
 + Marketing-Management {#marketing-management}
    + [Überblick](./marketing/marketing-management.md)
@@ -48,7 +48,7 @@ ht-degree: 45%
 + Zielgruppen {#audiences}
    + [Personenlisten](./audiences/people-lists.md)
    + [Ereignisbasierte Zielgruppen](./audiences/event-based-audiences.md)
-   + [Personeninteraktionswerte](./audiences/engagement-scores.md)
+   + [Personeninteraktionsbewertungen](./audiences/engagement-scores.md)
    + [Abgeleitete Personas](./audiences/personas.md)
    + [Ziele](./audiences/destinations.md)
 + Inhalt {#content}
@@ -58,7 +58,9 @@ ht-degree: 45%
       + [Erstellen von Vorlagen](./content/templates-create.md)
       + [Content-Governance](./content/template-content-governance.md)
    + [Landingpages](./content/landing-pages.md)
-   + [Formulare](./content/forms.md)
+   + Formulare {#forms}
+      + [Überblick](./content/forms.md)
+      + [Formular-Design](./content/form-design.md)
    + [Personalisierung](./content/personalization-expressions.md)
    + Tools für das Design von Inhalten {#content-design}
       + [Strukturkomponenten](./content/structure-components.md)

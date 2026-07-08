@@ -1,18 +1,18 @@
 ---
 title: Inhaltserstellung - Formulare hinzufügen
 description: Wiederverwendbarer Abschnitt zum Hinzufügen von Formularen in Landingpages und Vorlagen
-source-git-commit: 1b0738b00d493529e2619ecec201d59c6ae8a8f6
+source-git-commit: ce91efe52071d580a13c0811954ed33d77fa2bd4
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Inhaltserstellung - Formulare hinzufügen
 
-Ein Formular ist eine wiederverwendbare Komponente, die von mehreren Landingpages und Landingpage-Vorlagen in Adobe Journey Optimizer B2B edition referenziert werden kann. Es handelt sich dabei um einen Block von Feldern und eine Senden-Schaltfläche, die vorab erstellt und schnell eingefügt werden können, um den Seitenentwurf schneller und konsistenter zu machen.
+Ein Formular ist eine wiederverwendbare Komponente, die von mehreren Landingpages und Landingpage-Vorlagen referenziert werden kann. Es handelt sich dabei um einen Block von Feldern und eine Senden-Schaltfläche, die vorab erstellt und schnell eingefügt werden können, um den Seitenentwurf schneller und konsistenter zu machen.
 
-Im folgenden Beispiel werden Schritte zum Hinzufügen eines Formulars während des Designs Ihrer Seite beschrieben.
+Im folgenden Beispiel werden die Schritte zum Hinzufügen eines Formulars beim Entwerfen einer Landingpage beschrieben.
 
 1. Ziehen Sie **[!UICONTROL Abschnitt]** Inhalte“ das Element **[!UICONTROL Formular]** und legen Sie es in einer Strukturkomponente im Seitendesign-Bereich ab.
 
@@ -28,11 +28,11 @@ Im folgenden Beispiel werden Schritte zum Hinzufügen eines Formulars während d
 
 1. Wenn Sie den standardmäßigen **[!UICONTROL Follow-up-Typ]** für das Formular überschreiben möchten, ändern Sie die Einstellung entsprechend den Anforderungen für Ihre Seite oder Vorlage.
 
-   Dies wird auch als &quot;_-Seite“_ das Formular bezeichnet. Diese Einstellung bestimmt, was passiert, wenn ein Besucher das Formular sendet:
+   Dies wird auch als &quot;_-Seite“ für_ Formular bezeichnet. Diese Einstellung bestimmt, was passiert, wenn ein Besucher das Formular sendet:
 
    * **[!UICONTROL Auf Seite bleiben]** - Wählen Sie diese Option, um den Besucher beim Senden des Formulars auf der gleichen Seite zu belassen.
 
-   * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige Journey Optimizer B2B edition- oder Marketo Engage-Landingpage als Folgemaßnahme auszuwählen.
+   * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige andere Landingpage als Folgeseite auszuwählen.
 
    * **[!UICONTROL Externe URL]** - Wählen Sie diese Option aus, um eine beliebige URL als Folgeseite anzugeben. Nachdem der Besucher das Formular gesendet hat, lädt der Browser die vorgesehene URL.
 
