@@ -1,35 +1,45 @@
 ---
-title: Governance-Funktionen
+title: Governance- und Datenschutzfunktionen
 description: Erfahren Sie mehr über Governance-Funktionen, die derzeit in Journey Optimizer B2B edition verfügbar sind.
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: 2026-03-27T23:18:44.352Z
 TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: d7e971b6d533a173632224baa359f7559b865497
+source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
 workflow-type: tm+mt
-source-wordcount: 419
-ht-degree: 3%
+source-wordcount: 697
+ht-degree: 2%
 
 ---
 
-# Governance-Funktionen
+# Governance- und Datenschutzfunktionen
 
-Journey Optimizer B2B edition ist eine integrierte Adobe Experience Platform-App. Sie verwendet mehrere Tools und Services, die die Kontrolle über Ihre erfassten Erlebnisdaten in Übereinstimmung mit Ihren Geschäftspraktiken, rechtlichen Verpflichtungen und Entwicklungsprozessen ermöglichen. Die folgenden Abschnitte enthalten eine Zusammenfassung jeder dieser Governance-Funktionen.
+[!DNL Journey Optimizer B2B Edition] ist eine integrierte Adobe Experience Platform-App. Sie verwendet mehrere Tools und Services, die die Kontrolle über Ihre erfassten Erlebnisdaten in Übereinstimmung mit Ihren Geschäftspraktiken, rechtlichen Verpflichtungen und Entwicklungsprozessen ermöglichen. Die folgenden Abschnitte enthalten eine Zusammenfassung jeder dieser Governance-Funktionen.
 
-## Datenschutz - DSGVO
+## Datenschutz
 
-Journey Optimizer B2B edition verwendet die vorhandenen Marketo Engage-DSGVO-Governance-Funktionen, die von Privacy Service und Marketo Privacy Broker Service bereitgestellt werden.
+Es gibt verschiedene Vorschriften, die für [!DNL Journey Optimizer B2B Edition] Kunden gelten, die Daten von betroffenen Personen besitzen, die in den oben genannten Regionen oder Ländern (EU, Kalifornien, Thailand, Brasilien, Neuseeland) ansässig sind. Diese Informationen auf dieser Seite sind keine Rechtsberatung und garantieren nicht die Einhaltung des geltenden Rechts.
+
+### DSGVO
+
+Die Datenschutz-Grundverordnung (DSGVO) ist das Datenschutzrecht der Europäischen Union (EU), das die [Datenschutzanforderungen) für ](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} EU-Länder harmonisiert und modernisiert.
+
+[!DNL Journey Optimizer B2B Edition] verwendet die vorhandenen Marketo Engage-DSGVO-Governance-Funktionen, die von Privacy Service und Marketo Privacy Broker Service bereitgestellt werden.
+
+### CNIL
+
+Am 14. April 2026 veröffentlichte die Commission nationale de l&#39;informatique et des libertés ([) eine Empfehlung ](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) die Verwendung von Tracking-Pixeln in E-Mails. In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie wirkt sich auf alle Entitäten aus, die E-Mails an Abonnentinnen und Abonnenten mit Sitz in Frankreich senden.
+
+CNIL räumte Unternehmen ab dem Datum der Empfehlung einen Zeitraum von drei Monaten ein, um ihre E-Mail-Empfänger über das Vorhandensein der Tracking-Pixel, ihren Zweck und das Recht der Empfänger auf Opt-out zu informieren. Während dieser Übergangsphase wird von Marketo Engage-Benutzenden erwartet, dass sie ihre Empfängerinnen und Empfänger über das Pixel-Tracking informieren und bei Bedarf eine Abmeldung ermöglichen. CNIL wird voraussichtlich nach dem 14. Juli 2026 mit Durchsetzungsmaßnahmen beginnen.
+
+Während die CNIL und andere Regulierungsbehörden die Richtlinien zur Verfolgung von Pixeln und damit zusammenhängenden Problemen erläutern, wird Adobe weiterhin Aktualisierungen überwachen und Sie über sich ändernde technische Möglichkeiten informieren.
+
+[!DNL Journey Optimizer B2B Edition] bietet Steuerelemente, mit denen Sie das Öffnungs-Tracking auf E-Mail-Ebene verwalten können. Benutzer sind dafür verantwortlich, ihre eigenen Compliance-Verpflichtungen gemäß den geltenden CNIL-Leitlinien und anderen Gesetzen zu bestimmen. Informationen zur Verwendung dieser Funktionen zum Verwalten des Öffnungs-Trackings von E-Mails finden Sie unter [_Verwalten des E-Mail-Trackings_](../content/email-tracking-manage.md).
 
 ## Rollenbasierte Zugriffskontrolle (RBAC)
 
