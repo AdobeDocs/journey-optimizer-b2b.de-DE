@@ -107,7 +107,7 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in [!DNL Journey Optimi
 >id="ajo-b2b-prime_lp_form_preset"
 >title="Auswählen einer Voreinstellung"
 >abstract="Wählen Sie eine vordefinierte Voreinstellung aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Erstellen einer Formularvoreinstellung"
+>additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/prime/admin/channels/configuration-presets-forms#create-preset" text="Erstellen einer Formularvoreinstellung"
 
 Sie können ein Formular in [!DNL Journey Optimizer B2B Prime] erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
 
