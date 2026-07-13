@@ -4,10 +4,16 @@ description: Erstellen, Verwalten und Wiederverwenden visueller Inhaltsfragmente
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-07-13T16:38:41.335Z'
 TQID: 'https://experienceleague.adobe.com/XJWDq9xAv-9JvHshU834bcEcbG57zWymQcdZ36nOFmU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2: id: e1663313-7961-4100-bea9-fa9f4edf8493id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 5206ed7bc0ce24e65700da28b023d76c68cb6419
 workflow-type: tm+mt
 source-wordcount: 2644
@@ -67,7 +73,7 @@ Klicken Sie auf _Filter_-Symbol ( ![Filtersymbol ein- oder ausblenden](../../use
 
 ### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../../user/assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../../user/assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -315,7 +321,7 @@ Fragmente sind zur Wiederverwendung konzipiert und können für die Erstellung v
 
 >[!TAB Hinzufügen von Fragmenten zu einer E-Mail]
 
-1. Navigieren Sie zu einer Personen-Journey und öffnen Sie einen vorhandenen Aktionsknoten _[!UICONTROL E-Mail]_ senden[ oder fügen Sie einen neuen hinzu](../marketing/action-nodes.md#add-an-action-node).
+1. Navigieren Sie zu einer Personen-Journey und öffnen Sie einen vorhandenen Aktionsknoten _[!UICONTROL E-Mail]_ senden[&#x200B; oder fügen Sie einen neuen hinzu](../marketing/action-nodes.md#add-an-action-node).
 
 1. Klicken Sie auf **[!UICONTROL E-Mail-Text bearbeiten]**, um den E-Mail[Inhalt zu öffnen oder fortzusetzen](./email-authoring.md).
 
