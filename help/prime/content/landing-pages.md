@@ -4,19 +4,13 @@ description: Landingpages für Personen-Journey erstellen, entwerfen und veröff
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 autotag-review: '2026-06-12T22:53:39.337Z'
 TQID: 'https://experienceleague.adobe.com/BvtB0i5CzlVutPA6HAzZy-Gfymw7ppZwthyBauyciLc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 415cfd2d9bdeee87364fa8935bc8a2a8259174ba
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1601
 ht-degree: 3%
 
 ---
@@ -47,7 +41,7 @@ Sie können beispielsweise Landingpages erstellen und gestalten, um Ihre Benutze
 
 ## Zugreifen auf und Verwalten von Landingpages {#access-manage-landing-pages}
 
-Um auf Landingpages in [!DNL Journey Optimizer B2B Prime] zuzugreifen, gehen Sie zur linken Navigation und klicken Sie auf **[!UICONTROL Content-]** > **[!UICONTROL Landingpages]**. Diese Aktion zeigt eine Liste aller in der Instanz erstellten Landingpages an.
+Um auf Landingpages in [!DNL Journey Optimizer B2B Prime] zuzugreifen, gehen Sie zur linken Navigation und erweitern Sie **[!UICONTROL Content-Management]**. Wählen Sie dann **[!UICONTROL Landingpages]** aus. Diese Aktion zeigt eine Liste aller in der Instanz erstellten Landingpages an.
 
 ![Zugriff auf die Landingpage-Bibliothek](./assets/landing-pages-list.png){width="800" zoomable="yes"}
 
