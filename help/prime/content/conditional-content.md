@@ -4,18 +4,10 @@ description: Erstellen Sie dynamische Inhaltsvarianten mit bedingten Regeln, die
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-07-13T21:02:30.764Z'
 TQID: 'https://experienceleague.adobe.com/wIrQj4XBtWxHoru-GwZrRkvbakm5xA9FgWHTjvnM9w0'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: e1663313-7961-4100-bea9-fa9f4edf8493
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37id: f01b5556-e951-40ba-8625-2e3001864f2b
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: e1663313-7961-4100-bea9-fa9f4edf8493id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: edb7bf983c8eba432604cf9bffc65e0be1ddee99
 workflow-type: tm+mt
 source-wordcount: 1093
@@ -28,7 +20,7 @@ ht-degree: 8%
 
 Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können im Regel-Builder bedingte Regeln erstellen und diese zur Wiederverwendung in Ihren Personen-Journey speichern.
 
-Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit [!DNL Journey Optimizer B2B Prime] bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie beim Erstellen (E-Mail[Inhalt oder Fragment](./email-authoring.md) bedingte Regeln [&#x200B; visuellen Design-Bereich &#x200B;](./fragment-authoring.md).
+Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit [!DNL Journey Optimizer B2B Prime] bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie beim Erstellen (E-Mail[Inhalt oder Fragment](./email-authoring.md) bedingte Regeln [ visuellen Design-Bereich ](./fragment-authoring.md).
 
 ## Hinzufügen bedingter Inhalte {#add-conditional-content}
 
@@ -42,7 +34,7 @@ Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, könn
 >title="Bedingte Inhalte"
 >abstract="Verwenden Sie eine in der Bibliothek gespeicherte Regel mit Bedingung oder erstellen Sie eine neue."
 
-Verwenden Sie beim Erstellen [&#x200B; (](./fragment-authoring.md)) oder [E-Mail](./email-authoring.md) im visuellen Design-Bereich bedingte Regeln, um mehrere Varianten für eine Inhaltskomponente zu definieren.
+Verwenden Sie beim Erstellen [ (](./fragment-authoring.md)) oder [E-Mail](./email-authoring.md) im visuellen Design-Bereich bedingte Regeln, um mehrere Varianten für eine Inhaltskomponente zu definieren.
 
 1. Wählen Sie eine Inhaltskomponente aus und klicken Sie auf das Symbol **[!UICONTROL Bedingten Inhalt aktivieren]** in der Komponenten-Symbolleiste.
 
@@ -66,7 +58,7 @@ Verwenden Sie beim Erstellen [&#x200B; (](./fragment-authoring.md)) oder [E-Mail
 
    ![Bedingungen für Bibliothekszugriffsbedingungsdetails](../../user/content/assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [&#x200B; eine bedingte Regel, &#x200B;](#create-conditional-rule) Sie auf **[!UICONTROL Neu erstellen]**.
+   Wenn die benötigte Bedingung nicht vorhanden ist, erstellen [ eine bedingte Regel, ](#create-conditional-rule) Sie auf **[!UICONTROL Neu erstellen]**.
 
 1. Wählen Sie die bedingte Regel aus und klicken Sie auf **[!UICONTROL Auswählen]**, um sie mit der Variante zu verknüpfen.
 
