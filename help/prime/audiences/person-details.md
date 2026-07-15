@@ -4,10 +4,15 @@ description: Zeigen Sie die KI-generierte Persona, die Interaktion und die Absic
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 autotag-review: '2026-07-15T18:38:26.025Z'
 TQID: 'https://experienceleague.adobe.com/pPq1KsFRDCjVUB5yYXeEXa1HFrIzF7etLI-vLHe-mE4'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: aed878b8-11d0-487c-828b-d23b2051ec37id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: aed878b8-11d0-487c-828b-d23b2051ec37
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+subfeature_v2:
+  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
 workflow-type: tm+mt
 source-wordcount: 710
@@ -18,7 +23,7 @@ ht-degree: 9%
 
 # Personendetails
 
-Wenn Sie [!DNL Adobe Journey Optimizer B2B Prime] auf der Registerkarte _[!UICONTROL Mitglieder]_ einer (Personenliste](./people-lists.md) auf den Namen einer Person klicken, [ die Seite mit den Personendetails mit einer konsolidierten Ansicht dieser Person geöffnet. Diese Seite bietet:
+Wenn Sie [!DNL Adobe Journey Optimizer B2B Prime] auf der Registerkarte _[!UICONTROL Mitglieder]_ einer (Personenliste[&#128279;](./people-lists.md) auf den Namen einer Person klicken,  die Seite mit den Personendetails mit einer konsolidierten Ansicht dieser Person geöffnet. Diese Seite bietet:
 
 * Eine von KI generierte Rolle, Interaktion und Absichtserklärung
 * Vollständiger Aktivitätsverlauf
@@ -62,7 +67,7 @@ Drei Karten geben eine KI-generierte Bewertung der Person ab:
 
 | Karte | Inhalt |
 |---|---|
-| **[!UICONTROL Persona]** | Die [abgeleitete ](./personas.md) für die Person sowie eine kurze Erzählung, die ihre Rolle, ihr Unternehmen und ihre Branche beschreibt. Klicken Sie auf das Infosymbol, um weitere Details anzuzeigen. |
+| **[!UICONTROL Persona]** | Die [abgeleitete &#x200B;](./personas.md) für die Person sowie eine kurze Erzählung, die ihre Rolle, ihr Unternehmen und ihre Branche beschreibt. Klicken Sie auf das Infosymbol, um weitere Details anzuzeigen. |
 | **[!UICONTROL Interaktion]** | Der [Interaktionswert für Personen](./engagement-scores.md) der Trend (z. B _„steigend_) und die Ebene (_niedrig_, _Medium_, _hoch_). |
 | **[!UICONTROL Intent]** | Erkannte Kaufabsicht oder _Keine erkannt_ mit kontextueller Anleitung und einem Link, der Ihnen hilft, die Produktabsicht zu erhöhen. |
 
