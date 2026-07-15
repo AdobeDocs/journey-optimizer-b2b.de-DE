@@ -6,20 +6,13 @@ feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: 1060
 ht-degree: 7%
 
 ---
@@ -65,7 +58,7 @@ Bevor Sie E-Mails für Personen-Journey erstellen und E-Mail-Inhalte verfassen, 
 
 ## Hinzufügen einer E-Mail von einer Journey
 
-Um E-Mails von einer Journey zu senden[&#x200B; fügen Sie &quot;_Aktion durchführen“_ Knoten &#x200B;](action-nodes.md#add-an-action-node) und konfigurieren Sie ihn so, dass E-Mails gesendet werden.
+Um E-Mails von einer Journey zu senden[ fügen Sie &quot;_Aktion durchführen“_ Knoten ](action-nodes.md#add-an-action-node) und konfigurieren Sie ihn so, dass E-Mails gesendet werden.
 
 1. Klicken Sie auf der Journey-Arbeitsfläche auf das Symbol **+** und wählen Sie **[!UICONTROL Aktion ausführen]**.
 
@@ -103,7 +96,9 @@ Die E-Mail-Seite wird geöffnet, wenn Sie eine E-Mail für einen _[!UICONTROL E-
 
      Administratoren erstellen Konfigurationen in [E-Mail-Kanalkonfiguration](../admin/email-channel-configuration.md).
 
-   * **[!UICONTROL Geschäftsregeln]** - (Optional) Wenden Sie Begrenzungsregeln auf Ihre E-Mail-Aktion an, indem Sie einen Regelsatz auswählen.
+   * **[!UICONTROL Geschäftsregeln]** - (Optional) Wenden Sie Begrenzungs- oder Ruhezeitenregeln auf Ihre E-Mail-Aktion an, indem Sie einen Regelsatz auswählen.
+
+     Weitere Informationen zu Geschäftsregeln und zum Definieren und Aktivieren von Regelsätzen für die Kanalkommunikation finden Sie unter [_Geschäftsregeln_](../admin/business-rules.md).
 
    * **[!UICONTROL Aktions-Tracking]** - Aktivieren Sie die Kontrollkästchen für die Aktionen, die Sie für die E-Mail verfolgen möchten.
 
