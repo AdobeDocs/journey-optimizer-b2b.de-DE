@@ -103,7 +103,7 @@ Bei Auswahl von **[!UICONTROL Verwaltete Felder]** werden im Dialogfeld _Felder 
 
 Um auszuwählen, welche Felder durch die Aktionen **[!UICONTROL Kontoprofil aktualisieren]** oder **[!UICONTROL Personenprofil aktualisieren]** Journey geändert werden, legen Sie die aktualisierbaren Felder fest.
 
-Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
+Bevor Sie aktualisierbare Felder konfigurieren, müssen sie sich in einem benutzerdefinierten Datensatz befinden. Eine exemplarische Vorgehensweise des benutzerdefinierten Datensatz-Workflows finden Sie unter [Erstellen von Datensätzen und Aufnehmen von Daten](https://experienceleague.adobe.com/de/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data#){target="_blank"} und verwenden Sie die Option **[!UICONTROL Erstellen eines Datensatzes aus einem Schema]**. Mit diesem Datensatz werden aktualisierbare Felder isoliert. Alle aktualisierbaren Felder müssen sich in diesem Datensatz befinden.
 
 >[!IMPORTANT]
 >
@@ -124,7 +124,7 @@ Erstellen Sie einen Datensatz für ein individuelles Profil und einen anderen f�
 
 ### Relationale Schemata
 
-Mit relationalen Schemata können Sie benutzerdefinierte Datenklassen erstellen. Mit Zugriff auf mehrere Datensätze können Sie Klassen erstellen, die speziell auf Ihre Datenanforderungen zugeschnitten sind. Verwenden Sie [relationale Schemata](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#) für Geschäftsentitäten wie Käufe, Lizenzen und Ereignisregistrierungen, um Entscheidungen und E-Mail-Journey zu personalisieren. Sie können bis zu 20 Schemata und bis zu 50 Felder pro Schema auswählen.
+Mit relationalen Schemata können Sie benutzerdefinierte Datenklassen erstellen. Mit Zugriff auf mehrere Datensätze können Sie Klassen erstellen, die speziell auf Ihre Datenanforderungen zugeschnitten sind. Verwenden Sie [relationale Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) für Geschäftsentitäten wie Käufe, Lizenzen und Ereignisregistrierungen, um Entscheidungen und E-Mail-Journey zu personalisieren. Sie können bis zu 20 Schemata und bis zu 50 Felder pro Schema auswählen.
 
 Es gibt mehrere Funktionen, die die Verwendung der konfigurierten relationalen Schemata und Felder unterstützen:
 
