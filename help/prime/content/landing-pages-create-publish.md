@@ -6,20 +6,14 @@ feature: Landing Pages, Content Design Tools
 role: User
 autotag-review: '2026-07-08T20:35:24.091Z'
 TQID: 'https://experienceleague.adobe.com/wj4r5EUW-tvZDVa6eZZw-tETc0kkcGZVCGSjxHk-dAs'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 15%
+source-wordcount: 1562
+ht-degree: 16%
 
 ---
 
@@ -87,11 +81,11 @@ _So erstellen Sie eine Landingpage :_
 
    Pro Landingpage können bis zu zwei Unterseiten hinzugefügt werden.
 
-Nachdem Sie die Primärseite und alle Unterseiten konfiguriert und gestaltet haben, [&#x200B; Sie Ihre Landingpage &#x200B;](#test-landing-page), bevor Sie sie veröffentlichen.
+Nachdem Sie die Primärseite und alle Unterseiten konfiguriert und gestaltet haben, [ Sie Ihre Landingpage ](#test-landing-page), bevor Sie sie veröffentlichen.
 
 >[!CAUTION]
 >
->Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die definierte URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie die Seite mit der Vorschaufunktion, wie unter [&#x200B; der Landingpage beschrieben](#test-landing-page).
+>Sie können nicht auf Ihre Landingpage zugreifen, indem Sie die definierte URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie die Seite mit der Vorschaufunktion, wie unter [ der Landingpage beschrieben](#test-landing-page).
 
 ## Konfigurieren der Primärseite {#configure-primary-page}
 
@@ -119,7 +113,7 @@ _So definieren Sie die Einstellungen der Primärseite :_
    >
    >Die Landingpage-URL muss eindeutig sein.
    >
-   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie sie mithilfe der Vorschaufunktion, wie unter [&#x200B; der Landingpage beschrieben](#test-landing-page).
+   >Sie können nicht auf Ihre Landingpage zugreifen, indem Sie diese URL kopieren und in einen Webbrowser einfügen, selbst wenn die Seite veröffentlicht ist. Testen Sie sie mithilfe der Vorschaufunktion, wie unter [ der Landingpage beschrieben](#test-landing-page).
 
 1. Wenn Sie eine anonyme Landingpage verwenden möchten, deaktivieren Sie die Option **[!UICONTROL Identifizierte Benutzer]**.
 
@@ -144,7 +138,7 @@ Um den _[!UICONTROL Inhalt]_ für die Seite hinzuzufügen, klicken Sie auf **[!U
 
 ![Wählen Sie aus, wie Sie mit dem Design Ihrer Landingpage beginnen möchten](../../user/content/assets/landing-page-create-design.png){width="800" zoomable="yes"}
 
-Nachdem Sie Ihre bevorzugte Methode zum Starten des Landingpage-Designs ausgewählt haben, verwenden Sie die visuellen Design-Tools, [&#x200B; den Seiteninhalt &#x200B;](./landing-page-design.md).
+Nachdem Sie Ihre bevorzugte Methode zum Starten des Landingpage-Designs ausgewählt haben, verwenden Sie die visuellen Design-Tools, [ den Seiteninhalt ](./landing-page-design.md).
 
 ### Von Grund auf gestalten {#design-from-scratch}
 
@@ -162,7 +156,22 @@ Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]
 
 ### Importieren von HTML {#import-html}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+Importierte Inhalte können:
+
+* Eine HTML-Datei mit integriertem Stylesheet
+* Eine ZIP-Datei, die eine HTML-Datei, das Stylesheet (.css) und Bilder enthält
+
+  >[!NOTE]
+  >
+  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen. Die Bilder werden immer in das [Assets-Repository“ ](./digital-asset-management.md).
+
+_So importieren Sie eine Datei mit HTML-Inhalt :_
+
+1. Wählen Sie auf der Startseite des Designs die Option **[!UICONTROL HTML importieren]** aus.
+
+1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf **[!UICONTROL Importieren]**.
 
 ![Importieren Sie HTML-Inhalte in eine ZIP-Datei](../../user/content/assets/templates-import-zip-file.png){width="500"}
 
@@ -170,7 +179,7 @@ Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]
 >
 >Einen `<table>`-Tag als erste Ebene in einer HTML-Datei zu verwenden kann zum Verlust des Stils führen, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
 
-Sie können den importierten Inhalt nach Bedarf mit dem visuellen Design-Bereich personalisieren.
+Sie können den importierten Inhalt nach Bedarf mit den visuellen Design-Tools personalisieren.
 
 ## Prüfen von Warnhinweisen {#check-alerts}
 
@@ -245,7 +254,7 @@ Wenn die Einstellungen und Inhalte der Landingpage definiert sind, können Sie T
 
 >[!PREREQUISITES]
 >
->Zum Veröffentlichen von Landingpages benötigen Sie die Berechtigung **[!UICONTROL Veröffentlichen von Nachrichten]**. Prüfen [&#x200B; vor dem Veröffentlichen (alle Warnhinweise überprüfen und auflösen](#check-alerts).
+>Zum Veröffentlichen von Landingpages benötigen Sie die Berechtigung **[!UICONTROL Veröffentlichen von Nachrichten]**. Prüfen [ vor dem Veröffentlichen (alle Warnhinweise überprüfen und auflösen](#check-alerts).
 
 Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie sie für Verknüpfungen in Ihren Journey-Nachrichten verfügbar machen möchten, klicken Sie oben rechts **[!UICONTROL Veröffentlichen]**. Klicken Sie im Bestätigungsdialogfeld erneut **[!UICONTROL Veröffentlichen]** zur Bestätigung.
 
@@ -253,4 +262,4 @@ Wenn die Entwurfsseite Ihren Kriterien entspricht und Sie sie für Verknüpfunge
 
 Wenn die Landingpage veröffentlicht wird, wird sie in der Landingpage-Liste mit dem Status **_[!UICONTROL Veröffentlicht]_** angezeigt. Das bedeutet, dass sie live ist und in einer E-Mail oder SMS-Nachricht verwendet werden kann, die über eine Journey gesendet wird.
 
-Sie können nicht auf die veröffentlichte Landingpage zugreifen, indem Sie die URL kopieren und in einen Webbrowser einfügen. Sie können sie jederzeit mit der &quot;[&quot; &#x200B;](#test-landing-page).
+Sie können nicht auf die veröffentlichte Landingpage zugreifen, indem Sie die URL kopieren und in einen Webbrowser einfügen. Sie können sie jederzeit mit der &quot;[&quot; ](#test-landing-page).
