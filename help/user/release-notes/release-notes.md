@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: c4fdf10fda4dd2066fe96c9804cd9aa27266fbde
+source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
 workflow-type: tm+mt
-source-wordcount: 5232
+source-wordcount: 5234
 ht-degree: 65%
 
 ---
@@ -36,11 +36,9 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 **Bereitstellungsdatum:**. Juli 2026
 
-<!-- Learn more links omitted for 2026.6 items until updated feature documentation is published. -->
-
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Aufspaltungspfad Journey-Knoten - Varianten | (Beta) Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. |
+| Funktion | Aufspaltungspfad Journey-Knoten - Varianten | (Beta) Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
 
 >[!NOTE]
 >

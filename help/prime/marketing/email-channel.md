@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4476be8909fb8f3918763de6b281756446c444f0
+source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
-source-wordcount: 1037
+source-wordcount: 1060
 ht-degree: 7%
 
 ---
@@ -103,7 +103,9 @@ Die E-Mail-Seite wird geöffnet, wenn Sie eine E-Mail für einen _[!UICONTROL E-
 
      Administratoren erstellen Konfigurationen in [E-Mail-Kanalkonfiguration](../admin/email-channel-configuration.md).
 
-   * **[!UICONTROL Geschäftsregeln]** - (Optional) Wenden Sie Begrenzungsregeln auf Ihre E-Mail-Aktion an, indem Sie einen Regelsatz auswählen.
+   * **[!UICONTROL Geschäftsregeln]** - (Optional) Wenden Sie Begrenzungs- oder Ruhezeitenregeln auf Ihre E-Mail-Aktion an, indem Sie einen Regelsatz auswählen.
+
+     Weitere Informationen zu Geschäftsregeln und zum Definieren und Aktivieren von Regelsätzen für die Kanalkommunikation finden Sie unter [_Geschäftsregeln_](../admin/business-rules.md).
 
    * **[!UICONTROL Aktions-Tracking]** - Aktivieren Sie die Kontrollkästchen für die Aktionen, die Sie für die E-Mail verfolgen möchten.
 

@@ -20,10 +20,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:30:01.860Z
 TQID: https://experienceleague.adobe.com/csxH8-xWFB4SJT7s5Omra8tNnz4VsiJuNr3Ujzt-YC4
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: d7237ad4dfb17b8177315d942bb273422153ce23
 workflow-type: tm+mt
-source-wordcount: 1185
-ht-degree: 71%
+source-wordcount: 1140
+ht-degree: 70%
 
 ---
 
@@ -124,17 +124,13 @@ Erstellen Sie einen Datensatz für ein individuelles Profil und einen anderen f�
 
 ### Relationale Schemata
 
-Mit relationalen Schemata können Sie benutzerdefinierte Datenklassen erstellen. Mit Zugriff auf mehrere Datensätze können Sie Klassen erstellen, die speziell auf Ihre Datenanforderungen zugeschnitten sind. Verwenden Sie relationale Schemata für Geschäftsentitäten, z. B. Käufe, Lizenzen und Ereignisregistrierungen, beim Journey von Entscheidungen und bei der E-Mail-Personalisierung. Sie können bis zu 20 Schemata und bis zu 50 Felder pro Schema auswählen.
+Mit relationalen Schemata können Sie benutzerdefinierte Datenklassen erstellen. Mit Zugriff auf mehrere Datensätze können Sie Klassen erstellen, die speziell auf Ihre Datenanforderungen zugeschnitten sind. Verwenden Sie [relationale Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) für Geschäftsentitäten wie Käufe, Lizenzen und Ereignisregistrierungen, um Entscheidungen und E-Mail-Journey zu personalisieren. Sie können bis zu 20 Schemata und bis zu 50 Felder pro Schema auswählen.
 
 Es gibt mehrere Funktionen, die die Verwendung der konfigurierten relationalen Schemata und Felder unterstützen:
 
 * [Content-Personalisierung](../content/personalization.md#custom-datasets)
 * [Journey Decisioning (geteilte Pfade)](../journeys/split-merge-paths-nodes.md#custom-data-filtering)
 * [Gruppenrollen kaufen](../buying-groups/buying-groups-role-templates.md#add-the-template-roles) (nur B2B-Person)
-
->[!AVAILABILITY]
->
->Die [relationalen Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/relational#) sind für [!DNL Journey Optimizer B2B Edition] als eingeschränkte Verfügbarkeitsversion verfügbar. Data Mirror und relationale Schemata stehen [!DNL Journey Optimizer Orchestrated Campaigns] Lizenzinhabern zur Verfügung. Relationale Schemata sind auch als eingeschränkte Version für [!DNL Customer Journey Analytics] verfügbar, abhängig von Ihrer Lizenz und der Aktivierung von Funktionen. Wenden Sie sich an den Adobe-Support, um Zugang zu erhalten.
 
 >[!NOTE]
 >
