@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 1471
-ht-degree: 15%
+source-wordcount: 1562
+ht-degree: 16%
 
 ---
 
@@ -162,7 +162,22 @@ Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]
 
 ### Importieren von HTML {#import-html}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+Importierte Inhalte können:
+
+* Eine HTML-Datei mit integriertem Stylesheet
+* Eine ZIP-Datei, die eine HTML-Datei, das Stylesheet (.css) und Bilder enthält
+
+  >[!NOTE]
+  >
+  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen. Die Bilder werden immer in das [Assets-Repository“ &#x200B;](./digital-asset-management.md).
+
+_So importieren Sie eine Datei mit HTML-Inhalt :_
+
+1. Wählen Sie auf der Startseite des Designs die Option **[!UICONTROL HTML importieren]** aus.
+
+1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf **[!UICONTROL Importieren]**.
 
 ![Importieren Sie HTML-Inhalte in eine ZIP-Datei](../../user/content/assets/templates-import-zip-file.png){width="500"}
 
@@ -170,7 +185,7 @@ Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]
 >
 >Einen `<table>`-Tag als erste Ebene in einer HTML-Datei zu verwenden kann zum Verlust des Stils führen, einschließlich der Einstellungen für Hintergrund und Breite im Tag der obersten Ebene.
 
-Sie können den importierten Inhalt nach Bedarf mit dem visuellen Design-Bereich personalisieren.
+Sie können den importierten Inhalt nach Bedarf mit den visuellen Design-Tools personalisieren.
 
 ## Prüfen von Warnhinweisen {#check-alerts}
 

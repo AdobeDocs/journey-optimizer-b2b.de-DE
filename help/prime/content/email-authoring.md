@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+source-git-commit: 9b286221420c4f8db24ab1d8f2f8ca29828f65e4
 workflow-type: tm+mt
-source-wordcount: 2209
-ht-degree: 3%
+source-wordcount: 2300
+ht-degree: 5%
 
 ---
 
@@ -68,7 +68,7 @@ Die Befolgung der Best Practices für HTML und CSS hilft bei der Sicherstellung 
 
 >[!ENDSHADEBOX]
 
-## Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
+## Neugestaltung einer E-Mail von Grund auf {#design-from-scratch}
 
 Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt der E-Mail zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie das Layout und die Organisation des E-Mail-Inhalts innerhalb von Sekunden entwerfen.
 
@@ -94,7 +94,22 @@ Wenn Sie mit dem Inhalt zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]
 
 ## Vorhandenen HTML-Inhalt importieren {#import-html-content}
 
-{{$include /help/_includes/content-design-import.md}}
+<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
+
+Importierte Inhalte können:
+
+* Eine HTML-Datei mit integriertem Stylesheet
+* Eine ZIP-Datei, die eine HTML-Datei, das Stylesheet (.css) und Bilder enthält
+
+  >[!NOTE]
+  >
+  >Die Dateistruktur des komprimierten Ordners ist freigestellt. Verweise müssen jedoch relativ sein und mit der Baumstruktur des ZIP-Ordners übereinstimmen. Die Bilder werden immer in das [Assets-Repository“ &#x200B;](./digital-asset-management.md).
+
+_So importieren Sie eine Datei mit HTML-Inhalt :_
+
+1. Wählen Sie auf der Startseite des Designs die Option **[!UICONTROL HTML importieren]** aus.
+
+1. Ziehen Sie die HTML- oder ZIP-Datei mit Ihrem HTML-Inhalt per Drag-and-Drop und klicken Sie auf **[!UICONTROL Importieren]**.
 
 ![Importieren Sie HTML-Inhalte in eine ZIP-Datei](../../user/content/assets/email-import-zip-file.png){width="500"}
 
@@ -112,7 +127,7 @@ Wenn Sie den E-Mail-Design-Bereich öffnen **[!UICONTROL verwenden Sie den Absch
 >
 >Auf gespeicherte Vorlagen können Einstellungen für die Governance (Inhaltssperrung) auf eine oder mehrere Komponenten angewendet werden. Der visuelle Design-Bereich bietet Richtlinien zu gesperrten Komponenten, wenn Sie [E-Mail aus einer verwalteten Vorlage erstellen](./template-content-governance.md).
 
-## Hinzufügen von Struktur und Inhalten {#structure-content}
+## Hinzufügen von Struktur und Content {#structure-content}
 
 Verwenden Sie den visuellen E-Mail-Editor, um Ihre E-Mail-Nachricht zu erstellen. Fügen Sie eine Preheader -Struktur hinzu, strukturieren Sie das Layout mit Spalten und Trennlinien und füllen Sie diese Strukturen dann mit Inhaltskomponenten wie Bildern, Schaltflächen und Text. Sie können auch benutzerdefiniertes CSS für erweiterte Formatierungen anwenden und eine Vorschau davon anzeigen, wie das Design im dunklen Modus gerendert wird.
 

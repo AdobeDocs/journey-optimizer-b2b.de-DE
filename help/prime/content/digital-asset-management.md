@@ -16,10 +16,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 1894dc537653c08a3e8d10cde14bd651f206d946
+source-git-commit: fac47361b0a597e26ca31b0901634fc00f20ae61
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 18%
+source-wordcount: 746
+ht-degree: 19%
 
 ---
 
@@ -29,11 +29,15 @@ In der [!DNL Adobe Journey Optimizer B2B Prime] sind Assets normalerweise die Bi
 
 Folgende Dateiformate werden unterstützt: JPG, JPEG, GIF, PNG, EPS, SVG und RGB.
 
+<!--
+
+>In this Beta release, you can choose images and assets from a one-time copy of your Marketo Engage asset library directly inside the email canvas. Modifying assets in Marketo Engage after the initial copy is **not** reflected in [!DNL Journey Optimizer B2B Prime].
+
+-->
+
 >[!NOTE]
 >
->In dieser Beta-Version können Sie Bilder und Assets aus einer einmaligen Kopie Ihrer Marketo Engage-Asset-Bibliothek direkt auf der E-Mail-Arbeitsfläche auswählen. Das Ändern von Assets in Marketo Engage nach der ersten Kopie wird **nicht** in [!DNL Journey Optimizer B2B Prime] angezeigt.
->
->Sie können zusätzliche Bild-Assets aus der _[!UICONTROL Assets]_-Bibliothek oder dem Inhaltsdesign-Bereich hochladen. Diese hochgeladenen Assets sind nur für die Verwendung in der [!DNL Journey Optimizer B2B Prime] verfügbar.
+>Sie können Bild-Assets aus der _[!UICONTROL Assets]_-Bibliothek oder dem Inhaltsdesign-Bereich hochladen. Diese hochgeladenen Assets sind nur für die Verwendung in der [!DNL Journey Optimizer B2B Prime] verfügbar.
 >
 >Der Import von Assets aus externen Systemen und der Zugriff auf eine vorausgefüllte Asset-Bibliothek sind noch nicht verfügbar. Künftige Versionen werden voraussichtlich Asset-Importe aus vorhandenen Systemen, Ordnerunterstützung und erweiterte Asset-Management-Funktionen umfassen.
 
@@ -92,7 +96,7 @@ Nach Abschluss des Uploads generiert das System automatisch eine Beschreibung, w
 
 ![Neues Bild-Asset im Verarbeitungsstatus](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
 
-## Verwenden von Assets für die Inhaltserstellung {#assets-authoring}
+## Verwenden von Assets für das Content-Authoring {#assets-authoring}
 
 Verwenden Sie Assets beim Erstellen von E-Mails, E-Mail-Vorlagen und visuellen Fragmenten. Der Visual Content Editor bietet Zugriff auf die Bilder in der Bibliothek _Assets_. Sie können auch ein Bild-Asset hochladen, wodurch es im internen Assets-Repository abgelegt wird.
 
