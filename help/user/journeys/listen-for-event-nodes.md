@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
+source-git-commit: e369d695d565c361738b045211c5012d20b1a1a0
 workflow-type: tm+mt
-source-wordcount: 1880
+source-wordcount: 1834
 ht-degree: 12%
 
 ---
@@ -27,7 +27,9 @@ ht-degree: 12%
 
 Um Ihre Audience beim Eintreten eines Ereignisses im Journey mit dem nächsten Schritt fortzuführen, fügen Sie den Knoten _Auf ein Ereignis_&quot; hinzu.
 
-![Video](../../assets/do-not-localize/icon-video.svg){width=„30“, vertical-align=„Middle“} [Video mit einer Übersicht ansehen](#overview-video)
+<!--
+![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
+-->
 
 >[!NOTE]
 >
@@ -95,7 +97,7 @@ Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis über
 | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Datenwert geändert] | Für ein ausgewähltes Personenattribut wurde ein Wert geändert. Zu diesen Änderungstypen gehören: <li>Neuer Wert<li>Vorheriger Wert<li>Grund<li>Quelle<li>Datum der Aktivität<li>Min. Anzahl der <!--  <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have a data value change). --> |
 | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Hatte einen interessanten Moment] | Interessante Momentaktivität, die in der zugehörigen Marketo Engage-Instanz definiert ist. Zu den Einschränkungen gehören: <li>Meilenstein<li>E-Mail<li><!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not have an interesting moment).--> |
 | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL Besuchte Web-Seite] | Web-Seitenaktivität, die für eine oder mehrere Web-Seiten von der zugehörigen Marketo Engage-Instanz verwaltet wird. Zu den Einschränkungen gehören: <li>Webseite (erforderlich)<li>Datum der Aktivität<li>Client-IP-Adresse <li>Querystring <li>Referrer <li>Benutzeragent <li>Suchmaschine <li>Suchabfrage <li>Personalisierte URL <li>Token <li>Browser <li>Plattform <li>Gerät <li>Min. Anzahl der <!-- <br>**[!UICONTROL Switch to inactivity filter]** - Use this option to filter based on lack of activity (a person did not visit the web page). --> |
-| [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Bundesland <li>Abbestellt <li>Grund für Abmeldung |
+| [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Bundesland <li>Abbestellt <li>Grund für Abmeldung |
 | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Liste] | Die Person ist oder ist nicht Mitglied in einer oder mehreren Marketo Engage-Listen. |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied des Programms] | Die Person ist oder ist nicht Mitglied in einem oder mehreren Marketo Engage-Programmen. |
@@ -151,17 +153,11 @@ Wenn Sie Web-Seiten in Ihrer verbundenen Marketo Engage-Instanz haben, können S
 
 ### Überwachen eines Erlebnisereignisses {#listen-for-an-experience-event}
 
-Admins können [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} auswählen, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf die Ereignisse reagieren. Die Verwendung von Erlebnisereignissen in Journey ist ein zweistufiger Prozess:
-
-1. Ein Administrator [fügt die Ereignistypen und -felder hinzu](../admin/configure-aep-events.md#add-an-event) um sie in Journey verfügbar zu machen.
-
-2. Fügen Sie auf einer Journey den _Auf ein Ereignis_ lauschen“ hinzu und wählen Sie einen Experience Platform-Ereignistyp für ein personenbasiertes Ereignis aus.
-
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the video overview](../admin/configure-aep-events.md#overview-video) 
--->
-
-_So fügen Sie ein Erlebnisereignis in Ihren Journey ein :_
+>[!PREREQUISITES]
+>
+>Administratoren konfigurieren [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf Ereignisse reagieren.
+>
+>Um Erlebnisereignisse für Journey-Benutzer verfügbar zu machen, muss zunächst ein Produktadministrator [die Ereignistypen und -felder von Interesse hinzufügen](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
 
 1. Wählen Sie auf der **[!UICONTROL -Arbeitsfläche einen]** aus, um auf ein Ereignis zu warten.
 

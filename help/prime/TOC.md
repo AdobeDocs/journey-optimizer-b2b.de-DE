@@ -2,10 +2,10 @@
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Prime und wie Sie damit ?.
 hide: true
-source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 55%
+source-wordcount: '182'
+ht-degree: 54%
 
 ---
 
@@ -14,75 +14,75 @@ ht-degree: 55%
 
 + [Dokumentation zu Adobe Journey Optimizer B2B Prime](guide-overview.md)
 + Erste Schritte {#start}
-   + [Checkliste einrichten](./start/setup-prime.md)
-   + [Benutzerverwaltung](./start/user-management.md)
-   + [Zustellbarkeit von E-Mails](./start/email-deliverability.md)
+  + [Checkliste einrichten](./start/setup-prime.md)
+  + [Benutzerverwaltung](./start/user-management.md)
+  + [Zustellbarkeit von E-Mails](./start/email-deliverability.md)
 + [Startseite](./home-insights/home-page.md)
 + KI-Assistent {#ai-assistant}
-   + [Chat-Oberfläche](./agents/chat-interface.md)
-   + [Kenntnisse](./agents/skills.md)
-   + [Erstellen eines Programms aus einer Zusammenfassung](./agents/program-from-brief.md)
-   + [Erstellen von Zielgruppen für Programme](./agents/audience-creation.md)
-   + [Erstellen benutzerdefinierter Scoring-Modelle](./agents/lead-scoring-model.md)
-+ [Verkaufskennzeichner](./sales-qualifier/sales-qualifier.md)
+  + [Chat-Oberfläche](./agents/chat-interface.md)
+  + [Kenntnisse](./agents/skills.md)
+  + [Erstellen eines Programms aus einer Zusammenfassung](./agents/program-from-brief.md)
+  + [Erstellen von Zielgruppen für Programme](./agents/audience-creation.md)
+  + [Erstellen benutzerdefinierter Scoring-Modelle](./agents/lead-scoring-model.md)
 + Marketing-Management {#marketing-management}
-   + [Überblick](./marketing/marketing-management.md)
-   + Programme {#programs}
-      + [Überblick](./marketing/programs.md)
-      + [Benutzerdefinierte Token für die Personalisierung](./marketing/personalization-my-tokens.md)
-   + [Personen-Journey](./marketing/person-journeys.md)
-   + Journey-Arbeitsfläche und -Knoten {#journey-nodes}
-      + [Knoten - Übersicht](./marketing/person-journey-nodes.md)
-      + [Personenzielgruppe](./marketing/person-audience-node.md)
-      + [Durchführen einer Aktion](./marketing/action-nodes.md)
-      + [Auf ein Ereignis lauschen](./marketing/listen-for-event-nodes.md)
-      + [Warten](./marketing/wait-nodes.md)
-      + [Aufteilen und Zusammenführen von Pfaden](./marketing/split-merge-paths-nodes.md)
-      + [Nächster bester Pfad](./marketing/next-best-path.md)
-   + E-Mail-Kanal {#email-channel}
-      + [Überblick](./marketing/email-channel.md)
-      + [Optimierung des E-Mail-Versandzeitpunkts](./marketing/email-send-time-optimization.md)
-      + [Inhaltserstellung](./content/email-authoring.md)
-      + [Dunkler Modus](./content/email-dark-mode.md)
-   + [WhatsApp-Kanal](./content/whatsapp-authoring.md)
+  + [Überblick](./marketing/marketing-management.md)
+  + Programme {#programs}
+    + [Überblick](./marketing/programs.md)
+    + [Benutzerdefinierte Token für die Personalisierung](./marketing/personalization-my-tokens.md)
+  + [Personen-Journey](./marketing/person-journeys.md)
+  + Journey-Arbeitsfläche und -Knoten {#journey-nodes}
+    + [Knoten - Übersicht](./marketing/person-journey-nodes.md)
+    + [Personenzielgruppe](./marketing/person-audience-node.md)
+    + [Durchführen einer Aktion](./marketing/action-nodes.md)
+    + [Auf ein Ereignis lauschen](./marketing/listen-for-event-nodes.md)
+    + [Warten](./marketing/wait-nodes.md)
+    + [Aufteilen und Zusammenführen von Pfaden](./marketing/split-merge-paths-nodes.md)
+    + [Nächster bester Pfad](./marketing/next-best-path.md)
+  + E-Mail-Kanal {#email-channel}
+    + [Überblick](./marketing/email-channel.md)
+    + [Optimierung des E-Mail-Versandzeitpunkts](./marketing/email-send-time-optimization.md)
+    + [Inhaltserstellung](./content/email-authoring.md)
+    + [Dunkler Modus](./content/email-dark-mode.md)
+  + [WhatsApp-Kanal](./content/whatsapp-authoring.md)
++ [Journey-Traffic-Steuerung](./marketing/journey-traffic-control.md)
 + Zielgruppen {#audiences}
-   + [Personenlisten](./audiences/people-lists.md)
-   + [Personendetails](./audiences/person-details.md)
-   + [Ereignisbasierte Zielgruppen](./audiences/event-based-audiences.md)
-   + [Personeninteraktionsbewertungen](./audiences/engagement-scores.md)
-   + [Abgeleitete Personas](./audiences/personas.md)
-   + [Ziele](./audiences/destinations.md)
+  + [Personenlisten](./audiences/people-lists.md)
+  + [Personendetails](./audiences/person-details.md)
+  + [Ereignisbasierte Zielgruppen](./audiences/event-based-audiences.md)
+  + [Personeninteraktionsbewertungen](./audiences/engagement-scores.md)
+  + [Abgeleitete Personas](./audiences/personas.md)
+  + [Ziele](./audiences/destinations.md)
 + Inhalt {#content}
-   + [Assets](./content/digital-asset-management.md)
-   + Vorlagen {#templates}
-      + [Überblick](./content/templates.md)
-      + [Erstellen von Vorlagen](./content/templates-create.md)
-      + [Content-Governance](./content/template-content-governance.md)
-   + Fragmente {#visual-fragments}
-      + [Überblick](./content/fragments.md)
-      + [Erstellen von Fragmenten](./content/fragment-authoring.md)
-   + Landingpages {#landing-pages}
-      + [Überblick](./content/landing-pages.md)
-      + [Erstellen und Veröffentlichen von Landingpages](./content/landing-pages-create-publish.md)
-      + [Landingpage-Design](./content/landing-page-design.md)
-   + Formulare {#forms}
-      + [Überblick](./content/forms.md)
-      + [Formular-Design](./content/form-design.md)
-   + [Personalisierung](./content/personalization-expressions.md)
-   + [Bedingte Inhalte](./content/conditional-content.md)
-   + Tools für das Design von Inhalten {#content-design}
-      + [Strukturkomponenten](./content/structure-components.md)
-      + [Inhaltskomponenten](./content/content-components.md)
-      + [Benutzerdefiniertes CSS](./content/design-custom-css.md)
+  + [Assets](./content/digital-asset-management.md)
+  + Vorlagen {#templates}
+    + [Überblick](./content/templates.md)
+    + [Erstellen von Vorlagen](./content/templates-create.md)
+    + [Content-Governance](./content/template-content-governance.md)
+  + Fragmente {#visual-fragments}
+    + [Überblick](./content/fragments.md)
+    + [Erstellen von Fragmenten](./content/fragment-authoring.md)
+  + Landingpages {#landing-pages}
+    + [Überblick](./content/landing-pages.md)
+    + [Erstellen und Veröffentlichen von Landingpages](./content/landing-pages-create-publish.md)
+    + [Landingpage-Design](./content/landing-page-design.md)
+  + Formulare {#forms}
+    + [Überblick](./content/forms.md)
+    + [Formular-Design](./content/form-design.md)
+  + [Personalisierung](./content/personalization-expressions.md)
+  + [Bedingte Inhalte](./content/conditional-content.md)
+  + Tools für das Design von Inhalten {#content-design}
+    + [Strukturkomponenten](./content/structure-components.md)
+    + [Inhaltskomponenten](./content/content-components.md)
+    + [Benutzerdefiniertes CSS](./content/design-custom-css.md)
 + Administration {#admin}
-   + Kanäle {#channels}
-      + [E-Mail-Kanalkonfiguration](./admin/email-channel-configuration.md)
-      + [WhatsApp-Kanalkonfiguration](./admin/configuration-channels-whatsapp.md)
-      + [Konfiguration einer Landingpage](./admin/configuration-presets-landing-pages.md)
-      + [Konfiguration von Formularvorgaben](./admin/configuration-presets-forms.md)
-   + [Geschäftsregeln](./admin/business-rules.md)
-   + [Programmtypen](./admin/program-types.md)
-
+  + Kanäle {#channels}
+    + [E-Mail-Kanalkonfiguration](./admin/email-channel-configuration.md)
+    + [WhatsApp-Kanalkonfiguration](./admin/configuration-channels-whatsapp.md)
+    + [Konfiguration einer Landingpage](./admin/configuration-presets-landing-pages.md)
+    + [Konfiguration von Formularvorgaben](./admin/configuration-presets-forms.md)
+  + [Geschäftsregeln](./admin/business-rules.md)
+  + [Programmtypen](./admin/program-types.md)
++ [Verkaufskennzeichner](./sales-qualifier/sales-qualifier.md)
 <!--
    + [Persona mapping](./admin/persona-mapping.md)
 

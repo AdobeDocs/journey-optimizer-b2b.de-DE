@@ -13,9 +13,9 @@ subfeature_v2:
   - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad5a67d291ffef797bb93f8b06f1bd8657efb67f
+source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1433
 ht-degree: 20%
 
 ---
@@ -105,7 +105,7 @@ Die Kopfzeile jeder Journey-Arbeitsfläche enthält den Journey-Namen, den Statu
 
 * Klicken Sie auf _Bearbeiten_-Symbol ( ![Bearbeiten-Symbol](../../assets/do-not-localize/icon-react-edit.svg) ), um den Journey-Namen oder die Beschreibungsinformationen zu ändern.
 * Klicken Sie auf **[!UICONTROL Journey-Einstellungen]**, um den Journey-Start und die Wiederholung zu ändern.
-* Klicken Sie auf **[!UICONTROL … Mehr]** um eine Journey-Aktion anzuwenden oder um Traffic-Steuerung und Wiedereintritt zu aktivieren/deaktivieren.
+* Klicken Sie auf **[!UICONTROL … Mehr]** Zum Anwenden einer Journey-Aktion oder Aktivieren/Deaktivieren der [Journey-Traffic-Steuerung](./journey-traffic-control.md) und erneuten Eingabe.
 * Wenn alle Fehler behoben sind und Sie die Journey aktivieren möchten, klicken Sie auf &quot;**[!UICONTROL &quot;]**.
 
 ### Journey-Design {#journey-design}
