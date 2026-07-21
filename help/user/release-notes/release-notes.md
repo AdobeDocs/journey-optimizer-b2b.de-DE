@@ -3,24 +3,17 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
+source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
 workflow-type: tm+mt
-source-wordcount: 5234
-ht-degree: 65%
+source-wordcount: 5349
+ht-degree: 64%
 
 ---
 
@@ -38,7 +31,10 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Aufspaltungspfad Journey-Knoten - Varianten | (Beta) Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
+| Funktion | _Split path_ Journey-Knoten - Varianten | (Beta) Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
+| Verbesserung | _Auf ein Ereignis überwachen_ Journey-Knoten | In Personen-Journeys können die Ereignis-Listener-Knoten jetzt mit mehreren Ereignissen konfiguriert werden, die an den Trigger gesendet werden. Das erste Qualifying-Ereignis bringt den Datensatz auf der Journey voran. (Geplante Unterstützung in Account Journey für bevorstehende Version.) [Weitere Informationen](../journeys/listen-for-event-nodes.md#person-journeys) |
+| Verbesserung | _Auf ein Ereignis überwachen_ Journey-Knoten | Die _[!UICONTROL Filter]_ für Personen-/Personen-Ereignisse wurde von einem einzelnen Aktionsselektor in eine Benutzeroberfläche des Regel-Builders geändert. Dies bietet Unterstützung für mehrere Aktivitätskonfigurationen mithilfe konfigurierter Erlebnisereignisse. [Weitere Informationen](../journeys/listen-for-event-nodes.md#filters-people-event) |
+| Verbesserung | _Aktion ausführen_ Journey-Knoten | Zusätzliche Aktionen sind jetzt für den Personen-Kontext der Account-Journey und von einer Personen-Journey verfügbar: _Zu Personen-Journey hinzufügen_ und _Aus Personen-Journey entfernen_. |
 
 >[!NOTE]
 >
@@ -177,7 +173,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
