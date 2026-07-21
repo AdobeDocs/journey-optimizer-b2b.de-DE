@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: cbb8062b529e230bc2e2a8d8f80307eeb15e5f7e
+source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
 workflow-type: tm+mt
-source-wordcount: 5234
-ht-degree: 65%
+source-wordcount: 5349
+ht-degree: 64%
 
 ---
 
@@ -38,7 +38,10 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Aufspaltungspfad Journey-Knoten - Varianten | (Beta) Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
+| Funktion | _Split path_ Journey-Knoten - Varianten | (Beta) Marketing-Experten können jetzt Varianten innerhalb eines Journey testen, indem sie Konten oder Personen basierend auf definierten Prozentsätzen verschiedenen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
+| Verbesserung | _Auf ein Ereignis überwachen_ Journey-Knoten | In Personen-Journeys können die Ereignis-Listener-Knoten jetzt mit mehreren Ereignissen konfiguriert werden, die an den Trigger gesendet werden. Das erste Qualifying-Ereignis bringt den Datensatz auf der Journey voran. (Geplante Unterstützung in Account Journey für bevorstehende Version.) [Weitere Informationen](../journeys/listen-for-event-nodes.md#person-journeys) |
+| Verbesserung | _Auf ein Ereignis überwachen_ Journey-Knoten | Die _[!UICONTROL Filter]_ für Personen-/Personen-Ereignisse wurde von einem einzelnen Aktionsselektor in eine Benutzeroberfläche des Regel-Builders geändert. Dies bietet Unterstützung für mehrere Aktivitätskonfigurationen mithilfe konfigurierter Erlebnisereignisse. [Weitere Informationen](../journeys/listen-for-event-nodes.md#filters-people-event) |
+| Verbesserung | _Aktion ausführen_ Journey-Knoten | Zusätzliche Aktionen sind jetzt für den Personen-Kontext der Account-Journey und von einer Personen-Journey verfügbar: _Zu Personen-Journey hinzufügen_ und _Aus Personen-Journey entfernen_. |
 
 >[!NOTE]
 >
