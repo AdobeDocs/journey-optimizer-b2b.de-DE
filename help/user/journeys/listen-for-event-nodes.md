@@ -4,11 +4,16 @@ description: Konfigurieren von Ereignisknoten für Konto- und Personen-Trigger -
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
 source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
@@ -20,7 +25,7 @@ ht-degree: 5%
 
 # Auf ein Ereignis lauschen
 
-Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu ](./journeys-overview.md), wenn ein Ereignis eintritt, fügen Sie den Knoten _Auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
+Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu &#x200B;](./journeys-overview.md), wenn ein Ereignis eintritt, fügen Sie den Knoten _Auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -42,7 +47,7 @@ Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu ](./journeys-ove
 
 1. Wählen Sie ein Ereignis aus der Liste aus.
 
-   * Wählen Sie für _Ereignistyp_ Personen[ den Ereignistyp „Personen](#people-events) aus, den Sie für den Trigger verwenden möchten.
+   * Wählen Sie für _Ereignistyp_ Personen[&#x200B; den Ereignistyp „Personen](#people-events) aus, den Sie für den Trigger verwenden möchten.
 
      ![Journey-Knoten - Überwachen von Ereignissen auf Personen](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
@@ -239,7 +244,7 @@ Sie können Erlebnisereignisse verwenden, um den Trigger in den Journey des Benu
 
 1. Stellen Sie den Operator und die Werte ein, die für das Ereignisfeld übereinstimmen sollen.
 
-1. (Optional) Fügen Sie ein weiteres Erlebnisereignis oder eine [Personenprofiländerung“ ](#person-profile-changes).
+1. (Optional) Fügen Sie ein weiteres Erlebnisereignis oder eine [Personenprofiländerung“ &#x200B;](#person-profile-changes).
 
    Beim Hinzufügen mehrerer passender Ereignisse. Das erste Qualifizierungsereignis bringt das Personenprofil auf der Journey voran.
 
@@ -251,7 +256,7 @@ Sie können Erlebnisereignisse verwenden, um den Trigger in den Journey des Benu
 
 Sie können eine Änderung der B2B-Personenprofilattribute verwenden, um den Trigger in den Journey des Benutzers im Dialogfeld _[!UICONTROL Ereignis bearbeiten]_ zu ändern.
 
-1. ** Ziehen Sie **[!UICONTROL Personenprofiländerung] aus der Liste _[!UICONTROL Trigger]_ in den Bereich des Ereignisabgleichs-Builders.
+1. **&#x200B; Ziehen Sie &#x200B;** [!UICONTROL Personenprofiländerung] aus der Liste _[!UICONTROL Trigger]_ in den Bereich des Ereignisabgleichs-Builders.
 
 1. Klicken Sie **[!UICONTROL Einschränkung hinzufügen]** und wählen Sie die Attributänderung aus, die Sie für den Ereignis-Trigger verwenden möchten.
 
@@ -259,7 +264,7 @@ Sie können eine Änderung der B2B-Personenprofilattribute verwenden, um den Tri
 
    ![Personen-Journey - Überwachen eines Personenprofiländerungsereignisses](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
 
-1. (Optional) Fügen Sie ein weiteres _Personenprofiländerung_ -Attribut hinzu, das Sie als Ereignis-Trigger oder [Erlebnisereignis“ ](#experience-events-person) möchten.
+1. (Optional) Fügen Sie ein weiteres _Personenprofiländerung_ -Attribut hinzu, das Sie als Ereignis-Trigger oder [Erlebnisereignis“ &#x200B;](#experience-events-person) möchten.
 
    Beim Hinzufügen mehrerer passender Ereignisse. Das erste Qualifizierungsereignis bringt das Personenprofil auf der Journey voran.
 
