@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 3e87f5782e798e5e3dede97fbae7f7b9485c947b
 workflow-type: tm+mt
-source-wordcount: 2031
+source-wordcount: 2190
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Um eine Aktion auszuführen, z. B. eine E-Mail zu senden, einen Score zu ändern
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
-## Kontoaktionen
+## Kontoaktionen {#account-actions}
 
 Verwenden Sie auf einer Konto-Journey eine Aktion für Konten, wenn Sie eine Änderung auf alle Personen anwenden möchten, die Teil von Konten im Knotenpfad sind.
 
@@ -53,7 +53,7 @@ Verwenden Sie auf einer Konto-Journey eine Aktion für Konten, wenn Sie eine Än
 >
 >Die _[!UICONTROL Account Change Data Value]_-Aktion wird für die Version 2025.10 nicht mehr unterstützt. _[!UICONTROL Kontoprofil aktualisieren]_ ersetzt diese Aktion in Journey Optimizer B2B edition.<br/>
 >
->Ein Administrator kann die verfügbaren Attribute für das XDM Business-Konto konfigurieren, indem er die Felder in _[!UICONTROL XDM-Konfigurationen]_ > _[!UICONTROL Standardklassen]_ aktualisiert. Weitere Informationen finden Sie unter [Standardklassen](../admin/xdm-field-management.md#standard-classes).
+>Ein Administrator kann die verfügbaren Attribute für das XDM Business-Konto konfigurieren, indem er die Felder in _[!UICONTROL XDM-Konfigurationen]_ > _[!UICONTROL Standardklassen]_ aktualisiert. Weitere Informationen finden Sie unter [Standardschemata](../admin/xdm-field-management.md#standard-schemas).
 
 ### Hinzufügen einer kontobasierten Aktion
 
@@ -73,13 +73,11 @@ Verwenden Sie auf einer Konto-Journey eine Aktion für Konten, wenn Sie eine Än
 
 ### Für ein LinkedIn-Ziel aktivieren
 
-Verwenden Sie die Aktion _Für Ziel aktivieren_ für Konten, um Konten für Experience Platform-Ziele direkt von Ihrem Journey aus zu aktivieren. Diese Aktion ermöglicht es Ihnen, qualifizierte Konten (basierend auf Kaufgruppenfiltern, Interaktionswerten und anderen Kriterien) in übereinstimmende Zielgruppen in unterstützten Zielen zu übertragen. IT
+Verwenden Sie die Aktion _Für Ziel aktivieren_, um Konten für Experience Platform-Ziele direkt von Ihrem Journey aus zu aktivieren. Diese Aktion ermöglicht es Ihnen, qualifizierte Konten (basierend auf Kaufgruppenfiltern, Interaktionswerten und anderen Kriterien) in übereinstimmende Zielgruppen in unterstützten Zielen zu übertragen.
 
 Ab Version 2025.10 ist **_LinkedIn_** der erste unterstützte Zieltyp. Verwenden Sie die Aktion für ein LinkedIn-Ziel, um die Kampagnenausführung zu optimieren, indem Sie Übergaben an mehrere Systeme eliminieren und die Latenz reduzieren. Als Marketing-Experte können Sie beispielsweise automatisch Konten mit hohen Absichten für das Retargeting aktivieren, wenn wichtige Kaufrollen fehlen, oder inaktive Konten basierend auf Inaktivitätsfiltern erneut aktivieren.
 
 Weitere Informationen zur Verwendung von mit dem Konto übereinstimmenden Zielgruppen für ein LinkedIn-Ziel finden Sie unter [Mit dem Konto übereinstimmende Zielgruppen](../data/linkedin-account-matched-audiences.md).
-
-+++ Festlegen der Aktivierung von Konten für ein LinkedIn-Ziel
 
 1. Wenn der Knoten _Aktion ausführen_ auf der Arbeitsfläche &quot;Journey&quot; ausgewählt ist, legen Sie **[!UICONTROL Aktion für Konten]** auf **[!UICONTROL Für Ziel aktivieren]** fest.
 
@@ -89,17 +87,15 @@ Weitere Informationen zur Verwendung von mit dem Konto übereinstimmenden Zielgr
 
 1. Wählen Sie im Dialogfeld das konfigurierte LinkedIn-Ziel aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
-![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren - Dialogfeld „Ziel auswählen“](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
+   ![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren - Dialogfeld „Ziel auswählen“](./assets/node-activate-destination-select-destination-dialog.png){width="700" zoomable="yes"}
 
 1. Geben Sie den **[!UICONTROL Zielgruppennamen]** ein, der zur Identifizierung der aktivierten Zielgruppe im Ziel verwendet wird.
 
    ![Journey-Knoten - Aktion bei Konten durchführen - Für Ziel aktivieren - Abgeschlossene Einstellungen](./assets/node-activate-destination-settings.png){width="550" zoomable="yes"}
 
-+++
-
 >[!ENDSHADEBOX]
 
-## Personenaktionen
+## Personenaktionen {#people-actions}
 
 Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Personen, wenn Sie eine Änderung auf alle Personen im Knotenpfad anwenden möchten. Bei einer Account-Journey können Sie diesen Knotentyp im Verzeichnis _Pfad aufteilen nach Personen_ oder _Pfad aufteilen nach Konten_ verwenden.
 
@@ -107,7 +103,8 @@ Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Pe
 
 | Kontext | Aktion | Journey-Typ | Begrenzungen |
 | ------- | ------ | ------------ | ----------- |
-| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Hinzufügen zur externen Kundenzielgruppe] | <li>Konto-Journey <li>Personen-Journey | <li>Externe Kundenzielgruppe auswählen |
+| [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Person zum (anderen) Journey hinzufügen] | <li>Konto-Journey (Aktion für Personen) <li>Personen-Journey | <li>Live-Personen-Journey auswählen |
+| | [!UICONTROL Hinzufügen zur externen Kundenzielgruppe] | <li>Konto-Journey <li>Personen-Journey | <li>Externe Kundenzielgruppe auswählen |
 | | [!UICONTROL Der Einkaufsgruppe zuweisen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen <li>Rolle auswählen |
 | | [!UICONTROL Punktzahl ändern] | <li>Konto-Journey | <li>Bewertungsname <li>Score-Änderung |
 | | [!UICONTROL Interessanter Moment der Person] | <li>Konto-Journey <li>Personen-Journey | <li>Typ <li>Beschreibung |
@@ -133,15 +130,25 @@ Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Pe
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Aktion ausführen]**.
 
-1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite **[!UICONTROL Personen]** für die Aktion aus.
+1. (_Nur Konto-Journey_) Wählen Sie in den Knoteneigenschaften rechts **[!UICONTROL Personen]** für den Aktionskontext aus.
 
 1. Wählen Sie eine Aktion aus der Liste aus und legen Sie beliebige Werte für die Aktion fest.
 
-![Journey-Knoten - Eine Aktion auf Personen durchführen](./assets/node-take-action-people.png){width="700" zoomable="yes"}
+   ![Journey-Knoten - Eine Aktion auf Personen durchführen](./assets/node-take-action-people.png){width="700" zoomable="yes"}
 
 ### Journey Optimizer B2B-Aktionen
 
 Die personenbasierten Aktionen von Journey Optimizer B2B dienen der Verwaltung der Kommunikation über die konfigurierten Kanäle und der Kategorisierung von Personen in Ihren Einkaufsgruppen und Konten. Der Journey wendet die Aktion an, wenn ein qualifizierendes Konto mit Personenprofilen den Knoten erreicht.
+
++++[!UICONTROL Person zum (anderen) Journey hinzufügen]
+
+Mit dieser Aktion können Sie ein Personenprofil zu einer Live-Personen-Journey hinzufügen. Wenn eine Person in den Aktionsknoten eintritt, wird sie vom System als Zielgruppenmitglied für die angegebene Personen-Journey hinzugefügt.
+
+Verwenden Sie den **[!UICONTROL Live-Personen-Journey auswählen]**, um die Personen-Journey anzugeben, der Sie das Personenprofil hinzufügen möchten. Sie können Text in das Feld eingeben, um die Liste zu filtern.
+
+![Aktion durchführen - Person zum (anderen) Journey hinzufügen](./assets/node-action-add-to-person-journey.png){width="300"}
+
++++
 
 +++[!UICONTROL Hinzufügen zur externen Kundenzielgruppe]
 
@@ -232,9 +239,19 @@ Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ &#x2
 
 +++
 
++++[!UICONTROL Person von Journey entfernen]
+
+Mit dieser Aktion können Sie ein Personenprofil von einer Personen-Journey entfernen. Wenn eine Person in den Aktionsknoten eintritt, entfernt das System sie als Zielgruppenmitglied für die angegebene Personen-Journey.
+
+Verwenden Sie den **[!UICONTROL Personen-Journey auswählen]**, um die Personen-Journey anzugeben, von der Sie das Personenprofil entfernen möchten. Sie können Text in das Feld eingeben, um die Liste zu filtern.
+
+![Aktion ausführen - Person vom Journey entfernen](./assets/node-action-remove-from-person-journey.png){width="300"}
+
++++
+
 +++[!UICONTROL E-Mail senden]
 
-Verwenden Sie diese Aktion, um eine E-Mail zu senden. Nachdem Sie [E-Mail erstellen](../content/add-email.md#add-an-email-to-your-journey) für den Knoten können Sie E-Mail-Nachrichten im E-Mail-Design-Bereich entwerfen, personalisieren und in der Vorschau anzeigen (siehe [E-Mail-Authoring](../content/email-authoring.md)). Sie können auch eine (E[Mail von Marketo Engage aus) &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Wählen Sie den Marketo Engage-Arbeitsbereich und dann die zu sendende E-Mail aus.
+Verwenden Sie diese Aktion, um eine E-Mail zu senden. Nachdem Sie [E-Mail erstellen](../content/add-email.md#add-an-email-action-node-in-a-journey) für den Knoten können Sie E-Mail-Nachrichten im E-Mail-Design-Bereich entwerfen, personalisieren und in der Vorschau anzeigen (siehe [E-Mail-Authoring](../content/email-authoring.md)). Sie können auch eine (E[Mail von Marketo Engage aus) &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/email-marketing/general/creating-an-email/create-an-email){target="_blank"}. Wählen Sie den Marketo Engage-Arbeitsbereich und dann die zu sendende E-Mail aus.
 
 ![Aktion durchführen - E-Mail senden](./assets/node-action-send-email-from-marketo.png){width="300"}
 
@@ -256,7 +273,7 @@ Verwenden Sie diese Aktion, um eine SMS-Nachricht zu senden. Sie können SMS-Nac
 
 +++[!UICONTROL WhatsApp senden]
 
-Verwenden Sie diese Aktion, um eine WhatsApp-Nachricht zu senden. Sie können WhatsApp-Nachrichten im visuellen Design-Bereich erstellen, personalisieren und in der Vorschau anzeigen (siehe [WhatsApp-Authoring](../content/whatsapp-authoring.md).
+Verwenden Sie diese Aktion, um eine WhatsApp-Nachricht zu senden. Sie können WhatsApp-Nachrichten im visuellen Design erstellen, personalisieren und in der Vorschau anzeigen (siehe [WhatsApp-Authoring](../content/whatsapp-authoring.md)).
 
 ![Aktion durchführen - WhatsApp senden](./assets/node-action-send-whatsapp.png){width="300"}
 
@@ -272,7 +289,7 @@ Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[&#x200B
 >
 >Die _[!UICONTROL Personenprofil aktualisieren]_ ersetzt die Aktion _[!UICONTROL Datenwert ändern]_ in der aktuellen Version von Journey Optimizer B2B edition.<br/>
 >
->Admins können die verfügbaren Attribute für das individuelle XDM-Profil konfigurieren, indem sie die Felder in _[!UICONTROL XDM-Konfigurationen]_ > [!UICONTROL Standardklassen] aktualisieren. Weitere Informationen finden Sie unter [Standardklassen](../admin/xdm-field-management.md#standard-classes).
+>Admins können die verfügbaren Attribute für das individuelle XDM-Profil konfigurieren, indem sie die Felder in _[!UICONTROL XDM-Konfigurationen]_ > [!UICONTROL Standardklassen] aktualisieren. Weitere Informationen finden Sie unter [Standardschemata](../admin/xdm-field-management.md#standard-schemas).
 
 +++
 
