@@ -4,19 +4,14 @@ description: Erstellen und verwalten Sie Personenlisten in Journey Optimizer B2B
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 autotag-review: '2026-06-12T22:47:10.727Z'
 TQID: 'https://experienceleague.adobe.com/KWT9-Lr6358MQ0sLQyKAlb4SLERnBl-QQL7Cj1iXCZM'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c7c9b6044716d0014ea2b0dda86aa69c762ca30
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: beb5f4be-cec3-471a-9db6-831a77dd3ac9id: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: f57eec2bd5c00d508d83b6ecb872162edb35094c
 workflow-type: tm+mt
-source-wordcount: 891
-ht-degree: 3%
+source-wordcount: 1157
+ht-degree: 2%
 
 ---
 
@@ -24,7 +19,7 @@ ht-degree: 3%
 
 In [!DNL Adobe Journey Optimizer B2B Prime] sind Personenlisten die Container auf Personenebene für Targeting und Personen-Journey-Einträge mit dynamischen Listen für die regelbasierte Live-Qualifizierung und statischen Listen für feste oder Journey-verwaltete Mitgliedschaften.
 
-## Aufrufen und Durchsuchen von Personenlisten {#access-and-browse}
+## Aufrufen und Durchsuchen von Personenlisten {#access-browse}
 
 1. Erweitern Sie in der linken Navigation **[!UICONTROL Marketing-Verwaltung]**.
 
@@ -32,7 +27,7 @@ In [!DNL Adobe Journey Optimizer B2B Prime] sind Personenlisten die Container au
 
    ![Zugreifen auf Personenlisten zur Verwaltung Ihrer Zielgruppen](./assets/people-lists.png){width="800" zoomable="yes"}
 
-Es gibt zwei Registerkarten für die Seite, auf denen Sie (dynamische Listen **[!UICONTROL und (statische Listen]** anzeigen **[!UICONTROL verwalten]**. Klicken Sie auf die Registerkarte, um die Listenansicht zwischen den einzelnen Typen zu wechseln.
+Es gibt zwei Registerkarten für die Seite, auf denen Sie „Dynamische Listen **[!UICONTROL und „Statische Listen]** anzeigen **[!UICONTROL verwalten]**. Klicken Sie auf die Registerkarte, um die Listenansicht zwischen den beiden Typen zu wechseln.
 
 Um die angezeigte Liste nach Namen zu filtern _können Sie oben in der Liste_ Text in das Tool „Suchen“ eingeben. Verwenden Sie die Listen-Tools, um die angezeigte Liste anzupassen:
 
@@ -86,12 +81,12 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 
 1. Wählen Sie im Dialogfeld ein Programm als **[!UICONTROL Übergeordnetes Element]** für die Liste aus.
 
-1. Geben Sie die Liste als **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** (optional) ein.
+1. Geben Sie **[!UICONTROL (Name]** (erforderlich) und **[!UICONTROL Beschreibung]** (optional) für die Liste ein.
 
-1. Wählen Sie dann Liste **[!UICONTROL Typ]**:
+1. Wählen Sie die Liste **[!UICONTROL Typ]**:
 
-   * **[!UICONTROL Statisch]** - Die Mitgliedschaft wird durch qualifizierte Filter bestimmt, die beim Erstellen der Liste ausgewertet werden. Die Listenmitgliedschaft wird nur aktualisiert, wenn Datensätze manuell qualifiziert oder disqualifiziert werden.
-***[!UICONTROL Dynamisch]** - Die Mitgliedschaft wird durch qualifizierte Filter dynamisch bestimmt. Die Mitgliedschaft in der Liste wird automatisch aktualisiert.
+   * [**[!UICONTROL Statisch]**](#static-lists) - Die Mitgliedschaft wird durch qualifizierte Filter bestimmt, die beim Erstellen der Liste ausgewertet werden. Die Listenmitgliedschaft wird nur aktualisiert, wenn Datensätze manuell qualifiziert oder disqualifiziert werden.
+   * [**[!UICONTROL Dynamisch]**](#dynamic-lists) - Die Mitgliedschaft wird durch qualifizierte Filter dynamisch bestimmt. Die Mitgliedschaft in der Liste wird automatisch aktualisiert.
 
    ![Dialogfeld „Personenliste erstellen“](./assets/people-list-create-dialog.png){width="450"}
 
@@ -101,7 +96,7 @@ AI insights unavailable - Provide a graceful fallback with a clear explanation, 
 >
 >„Löschen“ und „Duplizieren“ werden derzeit für Personenlisten in dieser Beta-Version nicht unterstützt.
 
-## Statische Listen {#static-list}
+## Statische Listen {#static-lists}
 
 Die statische Mitgliedschaft in Listen wird durch einfache Filter definiert, die auf Personenattribute und Aktivitäten verweisen. Die Mitgliedschaft ändert sich nur, wenn Sie Mitglieder manuell qualifizieren oder disqualifizieren.
 
@@ -133,23 +128,31 @@ So far, activating to a destination is the only thing that they are used for tha
    * Personenattribute
    * Spezielle Filter wie Journey-Mitgliedschaft
 
+   Klicken Sie für jeden hinzugefügten Filter auf **[!UICONTROL Beschränkungen hinzufügen]**, um die entsprechenden Kriterien für den Filter zu verfeinern.
+
+   ![Filter mit Einschränkungen hinzufügen, um Personen zur statischen Liste hinzuzufügen](./assets/people-list-static-add-people-filters.png){width="700" zoomable="yes"}
+
 1. Klicken Sie auf „Fertig“, um **[!UICONTROL Änderungen]** speichern.
 
 1. Wählen Sie die **[!UICONTROL Mitglieder]** aus.
 
    Nach kurzer Zeit werden qualifizierte Mitglieder in der Liste aufgeführt.
 
+   ![Mitglieder für statische Liste](./assets/people-list-static-members.png){width="700" zoomable="yes"}
+
 ### Mitglieder entfernen {#static-list-remove-members}
 
 1. Öffnen Sie die statische Liste und klicken Sie **[!UICONTROL oben]** auf „Personen entfernen“.
 
-1. Fügen Sie im Dialogfeld die Filter hinzu, um Mitglieder zu finden, die Sie nicht qualifizieren möchten.
+1. Fügen Sie im _[!UICONTROL Personen entfernen]_ die Filter hinzu, um Mitglieder zuzuordnen, die Sie disqualifizieren möchten.
+
+   ![Filter hinzufügen, um Personen aus der statischen Liste zu entfernen](./assets/people-list-static-members-remove-people-filters.png){width="700" zoomable="yes"}
 
 1. Klicken Sie auf „Fertig“, um **[!UICONTROL Änderungen]** speichern.
 
 1. Wählen Sie die **[!UICONTROL Mitglieder]** aus.
 
-   Nach kurzer Zeit verlassen disqualifizierte Mitglieder die Liste.
+   Nach kurzer Zeit verlassen die disqualifizierten Mitglieder die Liste.
 
 ### Für ein Ziel aktivieren {#static-list-activate}
 
@@ -166,11 +169,21 @@ Da das Aktivierungsmodell persistent sein soll, d. h. kein einmaliger Export:
 * Marketing-Experten vermeiden wiederholte CSV-Exporte und manuelle Uploads.
 * Journeys können die Zielgruppe im Laufe der Zeit aktualisieren, um eine fortlaufende Orchestrierung sicherzustellen.
 
+>[!PREREQUISITES]
+>
+>Sie müssen mindestens ein [konfiguriertes Ziel](./destinations.md) für Ihre [!DNL Journey Optimizer B2B Prime]-Sandbox haben, bevor Sie eine statische Liste für ein Ziel aktivieren können.
+
 1. Wählen Sie die **[!UICONTROL Statische Listen]** aus.
 
 1. Suchen Sie die statische Liste, die Sie für ein Ziel aktivieren möchten.
 
-1. Klicken Sie auf _Aktivieren_ ( ![Symbol „Tabelle anpassen](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) neben dem Namen der statischen Liste.
+1. Klicken Sie auf das Symbol _Mehr_ ( **…** ) neben der Liste und wählen Sie **[!UICONTROL Für Ziel aktivieren]**.
+
+   ![Rufen Sie das Menü Mehr für eine statische Liste auf](./assets/people-lists-static-more-menu.png){width="450"}
+
+   Sie können auch die statische Liste öffnen und das Menü _[!UICONTROL Mehr]_ oben rechts verwenden.
+
+   <!-- which UI is it?  _Activate_ ( ![Customize table icon](../../assets/do-not-localize/icon-falco-activate-dest.svg) ) icon next to the static list name. -->
 
 1. Aktivieren Sie das Kontrollkästchen für die konfigurierte Zielverbindung.
 
@@ -178,15 +191,33 @@ Da das Aktivierungsmodell persistent sein soll, d. h. kein einmaliger Export:
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
+1. Bestätigen Sie die Aktivierung im Dialogfeld _[!UICONTROL Liste für Ziel aktivieren]_ durch Klicken auf **[!UICONTROL Aktivieren]**.
+
+Nach Abschluss der Aktivierung wird eine Bestätigung angezeigt _Das Ziel wurde aktiviert._) und das Ziel als **[!UICONTROL Aktiv]** auf der Registerkarte **[!UICONTROL Ziele]** der Liste aufgeführt ist. Eine statische Liste kann für mehr als ein Ziel gleichzeitig aktiviert werden. Die Mitgliedschaft synchronisiert alle Ziele.
+
+Um die Ziele zu überprüfen, für die eine statische Liste aktiviert ist, öffnen Sie die Liste und wählen Sie die Registerkarte **[!UICONTROL Ziele]** aus. Standardmäßig sind für eine neue Liste keine Ziele verbunden.
+
+#### Deaktivieren eines Ziels {#deactivate-destination}
+
+1. Öffnen Sie die statische Liste und wählen Sie die Registerkarte **[!UICONTROL Ziele]** aus.
+
+1. Klicken Sie auf _Minus_-Symbol ( **-** ) in der Zeile des Ziels, das Sie entfernen möchten.
+
+1. Bestätigen Sie dies im _[!UICONTROL Ziel deaktivieren]_.
+
+Durch Deaktivieren wird das Ziel aus der Liste entfernt. Die Personen in der Liste werden auch aus der verbundenen Zielgruppe entfernt.
+
 ## Dynamische Listen {#dynamic-lists}
 
 Die Zugehörigkeit zu einer dynamischen Liste wird mithilfe einfacher Filter definiert, die auf Personenattribute und Aktivitäten verweisen. Die Mitgliedschaft wird automatisch aufrechterhalten, indem Leads entsprechend der Filterlogik qualifiziert und disqualifiziert werden.
 
-### Festlegen von Mitgliedschaftsregeln
+### Festlegen von Mitgliedschaftsregeln {#set-membership-rules}
 
 1. Öffnen Sie die dynamische Liste und wählen Sie die Registerkarte **[!UICONTROL Regeln]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Regeln bearbeiten]**.
+
+   ![Zugriffsregeln zum Erstellen einer dynamischen Personenliste](./assets/people-list-dynamic-rules-edit.png){width="550" zoomable="yes"}
 
 1. Definieren Sie im Dialogfeld die Regeln für die Qualifizierung Ihrer Leads, indem Sie Filter von links ziehen und ablegen.
 
@@ -197,21 +228,27 @@ Die Zugehörigkeit zu einer dynamischen Liste wird mithilfe einfacher Filter def
    * Personenattribute
    * Spezielle Filter wie Journey-Mitgliedschaft
 
+   Klicken Sie für jeden hinzugefügten Filter auf **[!UICONTROL Beschränkungen hinzufügen]**, um die entsprechenden Kriterien für den Filter zu verfeinern.
+
+   ![Filter mit Einschränkungen hinzufügen, um die dynamische Liste zu füllen](./assets/people-list-dynamic-rules-edit-filters.png){width="700" zoomable="yes"}
+
 1. Klicken Sie auf „Fertig“, um **[!UICONTROL Änderungen]** speichern.
 
 1. Wählen Sie die **[!UICONTROL Mitglieder]** aus.
 
    Nach kurzer Zeit werden qualifizierte Mitglieder in der Liste aufgeführt.
 
-Um die Seite [Personendetails“ zu öffnen](./person-details.md) auf der Sie die Zusammenfassung und die letzten Aktivitäten anzeigen können, klicken Sie auf den Namen einer Person in der Liste.
+   ![Generierte Mitglieder für dynamische Liste](./assets/people-list-dynamic-rules-members.png){width="700" zoomable="yes"}
 
-### Dynamische Liste duplizieren
+   Um die Seite [Personendetails“ zu öffnen](./person-details.md) auf der Sie die Zusammenfassung und die letzten Aktivitäten anzeigen können, klicken Sie auf den Namen einer Person in der Liste.
+
+### Dynamische Liste duplizieren {#duplicate-dynamic-list}
 
 Bei einer dynamischen Liste ähnelt eine doppelte Aktion einer Klonfunktion. Verwenden Sie diese Funktion, um die Mitgliedschaftsfilterung zu replizieren und sie einem anderen Programm hinzuzufügen.
 
-1. Klicken Sie auf _[!UICONTROL Registerkarte]_ Dynamische Listen“ auf das Symbol _Duplizieren_ ( **…** ) neben der Liste, die Sie duplizieren möchten.
+1. Klicken Sie auf _[!UICONTROL Registerkarte]_ Dynamische Listen“ auf das Symbol _Mehr_ ( **…** ) neben der Liste und wählen Sie **[!UICONTROL Duplizieren]**.
 
-1. Wählen Sie im Dialogfeld das **[!UICONTROL Parent]**-Programm für die duplizierte Journey aus.
+1. Wählen Sie im Dialogfeld das **[!UICONTROL Übergeordnet]**-Programm für die duplizierte Liste aus.
 
 1. Geben Sie einen eindeutigen **[!UICONTROL Name]** (erforderlich) und **[!UICONTROL Beschreibung]** (optional) ein.
 
