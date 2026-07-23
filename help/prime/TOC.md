@@ -2,9 +2,9 @@
 user-guide-title: Dokumentation zu Journey Optimizer B2B Prime
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Prime und wie Sie damit ?.
 hide: true
-source-git-commit: 5239170ff139aab47d3fb017a6f0204ef027b9bb
+source-git-commit: 120afb1109e550fc65c2fc5a01680f2d7d2e2345
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 54%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 54%
   + [Erstellen eines Programms aus einer Zusammenfassung](./agents/program-from-brief.md)
   + [Erstellen von Zielgruppen für Programme](./agents/audience-creation.md)
   + [Erstellen benutzerdefinierter Scoring-Modelle](./agents/lead-scoring-model.md)
++ [KI-Entscheidung](./agents/ai-decisioning.md)
 + Marketing-Management {#marketing-management}
   + [Überblick](./marketing/marketing-management.md)
   + Programme {#programs}
@@ -34,7 +35,7 @@ ht-degree: 54%
     + [Knoten - Übersicht](./marketing/person-journey-nodes.md)
     + [Personenzielgruppe](./marketing/person-audience-node.md)
     + [Durchführen einer Aktion](./marketing/action-nodes.md)
-    + [Auf ein Ereignis lauschen](./marketing/listen-for-event-nodes.md)
+    + [Warten auf ein Ereignis](./marketing/listen-for-event-nodes.md)
     + [Warten](./marketing/wait-nodes.md)
     + [Aufteilen und Zusammenführen von Pfaden](./marketing/split-merge-paths-nodes.md)
     + [Nächster bester Pfad](./marketing/next-best-path.md)
