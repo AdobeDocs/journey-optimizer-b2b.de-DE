@@ -16,7 +16,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Intent-Daten sind enthalten, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Es sind auch eine oder mehrere veröffentlichte Journey (**)** Einkaufsgruppen erforderlich. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
+>Intent-Daten sind enthalten, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Es sind auch eine oder mehrere veröffentlichte Journey (**)** Einkaufsgruppen erforderlich. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## AEM Assets-Lizenzhinweis {#aem-assets-licensing-note}
 
