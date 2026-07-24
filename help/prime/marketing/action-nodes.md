@@ -1,6 +1,6 @@
 ---
 title: Durchführen eines Aktionsknotens
-description: Platzhalter
+description: Konfigurieren Sie einen Aktionsknoten in Journey Optimizer B2B edition Prime, um Personen, Listen, Programme und Ziele hinzuzufügen, zu entfernen oder zu aktualisieren oder Nachrichten zu senden, wenn sie den Knoten auf einer Personen-Journey erreichen.
 autotag-review: '2026-06-12T22:58:21.806Z'
 TQID: 'https://experienceleague.adobe.com/uR-WvNz3gA6V7yyN3RRXH-MggrmGb1qvu1CBhMZRuAc'
 product_v2:
@@ -13,10 +13,10 @@ subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 0a877cc1fc0dfd9c3d8271c8f7be6a5e34a69a9a
+source-git-commit: 7a954ba7ade748d5d51cae82a0cddb64449fa2a2
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 2%
+source-wordcount: 1125
+ht-degree: 1%
 
 ---
 
@@ -28,8 +28,8 @@ Verwenden Sie auf einer Personen-Journey eine Aktion für Personen, wenn Sie ein
 
 | Aktion | Begrenzungen |
 | ------ | ----------- |
-| **[!UICONTROL Für Ziel aktivieren]** | <li>Statische Liste auswählen oder erstellen <li>Wenn für die Liste kein Ziel aktiviert ist, aktivieren Sie die Liste |
-| **[!UICONTROL Person zum Journey hinzufügen]** | <li>Geplante oder Live-Journey auswählen <li>Zielgruppenkriterien der Ziel-Journey nicht angewendet |
+| **[!UICONTROL Für Ziel aktivieren]** | <li>Statische Liste auswählen oder erstellen <li>Wenn die Liste kein aktiviertes Ziel hat, aktivieren Sie die Liste für ein oder mehrere Ziele |
+| **[!UICONTROL Person zum Journey hinzufügen]** | <li>Geplante oder Live-Journey auswählen <li>Zielgruppenkriterien der Ziel-Journey werden nicht angewendet |
 | **[!UICONTROL Zu Liste hinzufügen]** | <li>Erstellen einer neuen statischen Liste oder Auswählen einer vorhandenen Liste |
 | **[!UICONTROL Zu Marketo-Liste hinzufügen]** | <li>Auswählen einer statischen Liste in Marketo Engage |
 | **[!UICONTROL Ändern des Datenwerts]** | <li>Personenattribut auswählen <li>Neuen Wert festlegen |
@@ -54,15 +54,44 @@ Verwenden Sie auf einer Personen-Journey eine Aktion für Personen, wenn Sie ein
 
 +++Für Ziel aktivieren
 
-Verwenden Sie diese Aktion, um Personen direkt von Ihrem Journey aus für Experience Platform-Ziele zu aktivieren. Wählen Sie das Ziel aus und geben Sie einen Zielgruppennamen ein, um die aktivierte Zielgruppe im Ziel zu identifizieren.
+Mit dieser Aktion können Sie Personen zu einer statischen Liste hinzufügen und diese Liste direkt von Ihrem Journey aus für ein Ziel aktivieren. Sie können eine bestehende statische Liste verwenden oder eine speziell für die Journey erstellen.
+
+>[!PREREQUISITES]
+>
+>Sie müssen mindestens ein [konfiguriertes Ziel](../audiences/destinations.md) für Ihre [!DNL Journey Optimizer B2B Prime]-Sandbox haben, bevor Sie einen Journey-Knoten _Für Ziel aktivieren_ einrichten.
 
 ![Aktion ausführen - Für Ziel aktivieren](./assets/person-action-node-activate-to-destination.png){width="450"}
+
+Wählen **[!UICONTROL unter „Zu Liste]**&quot; eine der folgenden Optionen:
+
+* **[!UICONTROL Erstellen]** - Erstellen Sie eine neue statische Liste und fügen Sie Personen hinzu. Die Liste ist sofort unter &quot;**[!UICONTROL &quot;]**.
+
+  Wählen Sie ein übergeordnetes Programm für die Liste aus und geben Sie einen **[!UICONTROL Namen]** (erforderlich) und **[!UICONTROL Beschreibung]** (optional) ein. Klicken Sie **[!UICONTROL Erstellen]**, um die neue Liste für den Knoten hinzuzufügen.
+
+  ![Erstellen Sie eine statische Liste für den Journey-Knoten](./assets/person-action-node-destination-create-list.png){width="375"}
+
+* **[!UICONTROL Auswählen]** - Wählen Sie eine vorhandene statische Liste aus, in der Sie Personen hinzufügen möchten, die den Knoten erreichen.
+
+  Aktivieren Sie das Kontrollkästchen für die vorhandene statische Liste und klicken Sie auf **[!UICONTROL Speichern]**.
+
+  ![Wählen Sie eine statische Liste für den Journey-Knoten aus](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+
+Jeder, der den Knoten erreicht, wird der ausgewählten statischen Liste hinzugefügt, die Aktion ist jedoch erst abgeschlossen, wenn die Liste für ein Ziel aktiviert wird:
+
+* Wenn die ausgewählte Liste bereits aktiviert ist, werden ihre Ziele unter **[!UICONTROL Ziele]** angezeigt und die Aktion ist bereit.
+* Andernfalls wird die Meldung _Mindestens ein Ziel ist erforderlich_ angezeigt. Klicken Sie **[!UICONTROL Liste für Ziel aktivieren]** wählen Sie das Ziel aus und klicken Sie auf **[!UICONTROL Speichern]**. Klicken **[!UICONTROL im]** auf „Aktivieren“.
+
+![Konfigurierte Ziele zur Aktivierung verfügbar](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+
+Nach Abschluss der Aktivierung wird das Ziel unter **[!UICONTROL Ziele]** angezeigt und die Aktion ist bereit. Sie können die Liste bei Bedarf für weitere Ziele aktivieren.
+
+Jeder, der den Knoten erreicht, wird der ausgewählten statischen Liste hinzugefügt, die für das ausgewählte Ziel aktiviert wird, sodass er zu dieser Zielgruppe und wiederum zu jeder Kampagne, die von der Zielgruppe befüllt wird, hinzugefügt wird.
 
 +++
 
 +++[!UICONTROL Person zum Journey hinzufügen]
 
-Verwenden Sie diese Aktion, um Personen zu anderen geplanten oder Live-Journey hinzuzufügen. Personen, die durch diese Aktion hinzugefügt wurden, werden sofort zur Audience der Ziel-Journey hinzugefügt; die Audience-Kriterien der Journey werden nicht angewendet.
+Verwenden Sie diese Aktion, um Personen zu anderen geplanten oder Live-Journey hinzuzufügen. Personen, die durch diese Aktion hinzugefügt wurden, werden sofort zur Audience der Ziel-Journey hinzugefügt; die Audience-Kriterien der Ziel-Journey werden nicht angewendet.
 
 ![Aktion durchführen - Person zum Journey hinzufügen](./assets/person-action-node-add-to-journey.png){width="450"}
 
@@ -77,7 +106,7 @@ Mit dieser Aktion können Sie Personen zu einer statischen Liste in Journey Opti
 Wählen Sie eine der folgenden Optionen:
 
 * **[!UICONTROL Erstellen]** - Erstellen Sie ein neues statisches Listen-Asset und fügen Sie Personen hinzu. Die Liste ist sofort für die Verwendung durch andere Assets in Journey Optimizer B2B Prime verfügbar.
-* **[!UICONTROL Auswählen]** - Wählt ein vorhandenes statisches Listen-Asset aus, zu dem Sie Personen hinzufügen möchten, die den Knoten erreichen.
+* **[!UICONTROL Auswählen]** - Wählen Sie ein vorhandenes statisches Listen-Asset aus, dem Sie Personen hinzufügen möchten, die den Knoten erreichen.
 
 +++
 
@@ -155,9 +184,9 @@ Verwenden Sie diese Aktion, um eine E-Mail an angemeldete Personen zu senden. Pe
 
 ![Aktion durchführen - E-Mail senden](./assets/person-action-node-send-email.png){width="450"}
 
-Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Kanal](../marketing/email-channel.md).
+Sie können eine E-Mail erstellen, eine vorhandene E-Mail bearbeiten oder eine mit KI personalisierte E-Mail verwenden. Informationen zum Erstellen und Bearbeiten von E-Mails finden Sie unter [E-Mail-Kanal](./email-channel.md).
 
-Sie können die [Optimierung des Versandzeitpunkts](../marketing/email-send-time-optimization.md) verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil mit der größten Wahrscheinlichkeit interagieren wird.
+Sie können die [Optimierung des Versandzeitpunkts](./email-send-time-optimization.md) verwenden, um den Zeitpunkt des E-Mail-Versands zu personalisieren, indem Sie vorhersagen, wann jedes Profil mit der größten Wahrscheinlichkeit interagieren wird.
 
 +++
 
