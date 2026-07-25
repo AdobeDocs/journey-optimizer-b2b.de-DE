@@ -1,9 +1,9 @@
 ---
 title: Ausschnitte
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2355'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Intent-Daten sind enthalten, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Es sind auch eine oder mehrere veröffentlichte Journey (**)** Einkaufsgruppen erforderlich. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](../user/admin/intent-data.md).
+>Intent-Daten sind enthalten, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Es sind auch eine oder mehrere veröffentlichte Journey (**)** Einkaufsgruppen erforderlich. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## AEM Assets-Lizenzhinweis {#aem-assets-licensing-note}
 
@@ -185,13 +185,13 @@ Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte
 
 * **[!UICONTROL Breite]** - Verwenden Sie den Umschalter, um die Breite nach Pixel oder Prozentsatz festzulegen.
 
-   * Legen Sie für eine prozentuale Breite mithilfe des Schiebereglers den prozentualen Wert fest. Der Prozentsatz bestimmt die Elementgröße anhand des Inhaltsfelds des enthaltenden Blocks, wobei Auffüllung und Rahmen ausgeschlossen sind. Bei einem Wert von 50 wird beispielsweise die Elementbreite auf 50 % der Breite festgelegt, die den Block enthält.
+  * Legen Sie für eine prozentuale Breite mithilfe des Schiebereglers den prozentualen Wert fest. Der Prozentsatz bestimmt die Elementgröße anhand des Inhaltsfelds des enthaltenden Blocks, wobei Auffüllung und Rahmen ausgeschlossen sind. Bei einem Wert von 50 wird beispielsweise die Elementbreite auf 50 % der Breite festgelegt, die den Block enthält.
 
-     ![Breitenstil mit Prozentsatz](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
+    ![Breitenstil mit Prozentsatz](../assets/content-design-shared/content-components-styles-size-width-percent.png){width="250"}
 
-   * Klicken Sie bei einer pixelbasierten Breite auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und bestimmt die Breite des Elements entsprechend seinem Inhalt.
+  * Klicken Sie bei einer pixelbasierten Breite auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und bestimmt die Breite des Elements entsprechend seinem Inhalt.
 
-     ![Breitenstil mit Pixeln](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
+    ![Breitenstil mit Pixeln](../assets/content-design-shared/content-components-styles-size-width-pixels.png){width="250"}
 
 ## Inhaltskomponenten - Textstile {#styles-text}
 
@@ -267,9 +267,9 @@ Klicken Sie **[!UICONTROL Importieren]**.
 
 ## Aktivitäten mit Interaktionswert - Marketo {#engagement-activities-me}
 
-| Aktivitätsname | Beschreibung | Maximale tägliche Frequenzlimitierung | Standardmäßige Aktivitätsgewichtung des Modells |
+| Aktivitätsname | Beschreibung | Maximale tägliche Häufigkeit | Standardmäßige Aktivitätsgewichtung des Modells |
 | --- | --- | --- | --- |
-| [!UICONTROL An Veranstaltung teilnehmen] | Ein Mitglied nimmt an einem Event teil | 20 | 60 |
+| [!UICONTROL An Veranstaltung teilnehmen] | Ein Mitglied nimmt an einem Ereignis teil | 20 | 60 |
 | [!UICONTROL E-Mail angeklickt] | Ein Mitglied klickt auf einen Link in einer E-Mail | 20 | 30 |
 | [!UICONTROL E-Mail geöffnet] | Ein Mitglied öffnet eine E-Mail | 20 | 30 |
 | [!UICONTROL Formular ausgefüllt] | Ein Mitglied füllt ein Formular auf einer Web-Seite aus und sendet es ab | 20 | 40 |

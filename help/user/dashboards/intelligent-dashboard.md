@@ -18,7 +18,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T22:43:58.948Z
 TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
 workflow-type: tm+mt
 source-wordcount: 1682
 ht-degree: 16%
@@ -27,7 +27,7 @@ ht-degree: 16%
 
 # Intelligentes Dashboard
 
-Das intelligente Dashboard bietet eine umfassende Ansicht von Einkaufsgruppen- und Kontometriken, mit denen Sie Ihre Marketing-Maßnahmen effektiver überwachen und strategischer gestalten können.
+Das intelligente Dashboard bietet eine umfassende Ansicht von [Einkaufsgruppe](../buying-groups/buying-groups-overview.md) und Kontometriken, mit denen Sie Ihre Marketing-Maßnahmen effektiver überwachen und strategischer gestalten können.
 
 Um auf das _Intelligente Dashboard_ zuzugreifen, wählen Sie **[!UICONTROL linken Navigationsbereich das]** Dashboard“ aus.
 
@@ -58,7 +58,7 @@ Um die Informationen und Erkenntnisse aus dem Intelligent Dashboard nutzen zu k�
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_stages"
 >title="Käufergruppenphasen"
->abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Käufergruppen in verschiedenen Phasen, basierend auf den konfigurierten Übergangsregeln. Der erste Balken zeigt die Anzahl der Käufergruppen in einer bestimmten Phase am ersten Datum des ausgewählten Zeitrahmens im Vergleich zum letzten Datum des ausgewählten Zeitrahmens."
+>abstract="Dieses Diagramm bietet einen Überblick über den Fortschritt der Käufergruppen in verschiedenen Phasen, basierend auf den konfigurierten Transitionsregeln. Der erste Balken zeigt die Anzahl der Käufergruppen in einem bestimmten Schritt am ersten Datum des ausgewählten Zeitrahmens im Vergleich zum letzten Datum des ausgewählten Zeitrahmens."
 
 Das _[!UICONTROL Einkaufsgruppenstadien]_-Diagramm bietet einen Überblick über den Fortschritt der Käufe in verschiedenen Stadien ([&#x200B; auf der Grundlage von Übergangsregeln, die von einem Administrator eingerichtet &#x200B;](../buying-groups/buying-group-stages.md)).
 
@@ -100,18 +100,18 @@ Klicken Sie oben links auf _Filter_-Symbol ![Bearbeiten](../assets/do-not-locali
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_engagement"
->title="Die fünf Käufergruppen mit der stärksten Interaktion"
+>title="Top 5 der Käufergruppen nach Interaktion"
 >abstract="Die am stärksten interagierenden Käufergruppen basierend auf ihrem normalisierten Interaktionswert."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_velocity"
->title="Die fünf Käufergruppen mit der höchsten Geschwindigkeit"
->abstract="Käufergruppen basierend auf der Geschwindigkeit, mit der sie die Phasen durchlaufen."
+>title="Top 5 der Käufergruppen mit hoher Geschwindigkeit"
+>abstract="Käufergruppen basierend auf der Geschwindigkeit, mit der sie die Schritte durchlaufen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_intelligent_dashboard_buying_group_highlights_stagnant"
->title="Die fünf am stärksten stagnierenden Käufergruppen"
->abstract="Stagnierende Käufergruppen, die trotz hoher Vollständigkeitsbewertung nicht die Phasen durchlaufen."
+>title="Top 5 der stagnierenden Käufergruppen"
+>abstract="Stagnierende Käufergruppen, die trotz hoher Vollständigkeitsbewertung nicht durch die Schritte vorankommen."
 
 Der _[!UICONTROL Kaufgruppen-Highlights]_ ist in drei Zeilen unterteilt, um Informationen über die für Ihr Unternehmen interessanten Einkaufsgruppen anzuzeigen.
 
@@ -132,9 +132,9 @@ Jede Karte enthält die folgenden Daten:
 
   ![Daten zur Gruppenabsicht kaufen](./assets/intelligent-dashboard-buying-group-intent-details.png){width="500" zoomable="yes"}
 
-   * Im Popup Details wird der Kategoriename mit Absichtsebene oben angezeigt.
-   * Die Daten für jede Zeile sind in Spalten angeordnet: der Produktname, die Stärke der Produktzeit und die wichtigsten Schlüsselwörter nach der Stärke der Absicht.
-   * Die Sortierreihenfolge für Kategorie, Produkt und Schlüsselwörter ist hoch bis niedrig. Wenn ein oder mehrere Typen dieselbe Intent-Stärke aufweisen, verwendet die Sortierung eine alphabetische Reihenfolge.
+  * Im Popup Details wird der Kategoriename mit Absichtsebene oben angezeigt.
+  * Die Daten für jede Zeile sind in Spalten angeordnet: der Produktname, die Stärke der Produktzeit und die wichtigsten Schlüsselwörter nach der Stärke der Absicht.
+  * Die Sortierreihenfolge für Kategorie, Produkt und Schlüsselwörter ist hoch bis niedrig. Wenn ein oder mehrere Typen dieselbe Intent-Stärke aufweisen, verwendet die Sortierung eine alphabetische Reihenfolge.
 
   {{intent-data-note}}
 
@@ -226,9 +226,9 @@ Jede Karte enthält die folgenden Daten:
 
   ![Account Intent Data](./assets/intelligent-dashboard-account-intent-details.png){width="500" zoomable="yes"}
 
-   * Im Popup Details wird der Kategoriename mit Absichtsebene oben angezeigt.
-   * Die Daten für jede Zeile sind in Spalten angeordnet: der Produktname, die Stärke der Produktzeit und die wichtigsten Schlüsselwörter nach der Stärke der Absicht.
-   * Die Sortierreihenfolge für Kategorie, Produkt und Schlüsselwörter ist hoch bis niedrig. Wenn ein oder mehrere Typen dieselbe Intent-Stärke aufweisen, verwendet die Sortierung eine alphabetische Reihenfolge.
+  * Im Popup Details wird der Kategoriename mit Absichtsebene oben angezeigt.
+  * Die Daten für jede Zeile sind in Spalten angeordnet: der Produktname, die Stärke der Produktzeit und die wichtigsten Schlüsselwörter nach der Stärke der Absicht.
+  * Die Sortierreihenfolge für Kategorie, Produkt und Schlüsselwörter ist hoch bis niedrig. Wenn ein oder mehrere Typen dieselbe Intent-Stärke aufweisen, verwendet die Sortierung eine alphabetische Reihenfolge.
 
   {{intent-data-note}}
 <!--
