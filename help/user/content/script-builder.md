@@ -6,12 +6,19 @@ role: User, Developer
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 autotag-review: '2026-07-27T16:18:02.498Z'
 TQID: 'https://experienceleague.adobe.com/JWnXAAbCuZVLv4ZhWubpNsZ61xbYU7xtdOXkG9uoWis'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2:
+  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0004f8fba0c3d4ae89063418e4d3ef8fea22b0c3
 workflow-type: tm+mt
 source-wordcount: 1074
@@ -57,7 +64,7 @@ Script Builder ist im [Personalisierungseditor](./personalization.md) verfügbar
 
    >[!BEGINSHADEBOX]
 
-   Wenn Sie das erste Mal auf Script Builder zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI ]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} und bestätigen Sie Ihre Zustimmung.
+   Wenn Sie das erste Mal auf Script Builder zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI &#x200B;]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} und bestätigen Sie Ihre Zustimmung.
 
    ![Dialogfeld der Vereinbarung über die Nutzungsbedingungen für Generative KI in Script Builder](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 
@@ -100,7 +107,7 @@ Verwenden Sie Script Builder, um ein vorhandenes [!DNL Marketo Engage] Velocity-
 
    Script Builder analysiert die Velocity-Konstrukte, gleicht die Token-Verweise auf XDM-Profilattribute ab und generiert das entsprechende Handlebars-Skript.
 
-1. Überprüfen Sie den [Konversionsbericht](#review-conversion-report) und [ Sie alle Token auf, die manuelles Mapping benötigen](#resolve-tokens-without-mapping).
+1. Überprüfen Sie den [Konversionsbericht](#review-conversion-report) und [&#x200B; Sie alle Token auf, die manuelles Mapping benötigen](#resolve-tokens-without-mapping).
 
 1. [Vorschau und Validierung](#preview-validate-script) das generierte Skript anzeigen und es dann direkt in der E-Mail speichern.
 
