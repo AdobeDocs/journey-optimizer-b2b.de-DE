@@ -1,25 +1,17 @@
 ---
 title: Benutzerzugriff und Berechtigungen
 description: 'Verwalten des Benutzerzugriffs in der Adobe Admin Console: Erstellen Sie Benutzergruppen, weisen Sie Produktprofile zu und legen Sie rollenbasierte Berechtigungen für Journey Optimizer B2B Prime fest.'
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-06-22T20:31:37.404Z'
 TQID: 'https://experienceleague.adobe.com/Z9U-dtvCzs73d6WhsfFNKAeYL2YgRi1hrwcqnfZj4-k'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
-  - id: bd42eee1-e206-4826-91ea-88dc726d858e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: b5c78cc54f46f47809b80bb6df1066f0f35c52e8
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: f6df9def-cdf7-4728-9ec8-3f65716828c7id: bd42eee1-e206-4826-91ea-88dc726d858e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a2fcdae381cba44c7f1458be3e851628e7e11b26
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 58%
+source-wordcount: 2294
+ht-degree: 46%
 
 ---
 
@@ -32,11 +24,11 @@ Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Si
 1. [Zuweisen des Produktprofils](#assign-profile) zur Benutzergruppe in der Admin Console.
 1. [Benutzer zur neuen Gruppe hinzufügen](#add-users) in der Admin Console.
 1. [Bearbeiten von integrierten Rollen](#edit-role-permissions) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit [!DNL Journey Optimizer B2B Edition] Berechtigungen in Adobe Experience Platform.
-1. [Hinzufügen von &#x200B;](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
+1. [Hinzufügen von ](#add-users-to-a-role) oder [Gruppen](#add-user-groups-to-a-role) zu Rollen in Adobe Experience Platform.
 
 ## Produktprofil konfigurieren {#config-profile}
 
-Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [&#128279;](https://helpx.adobe.com/de/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
+Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html).
 
 ### Die Admin Console aufrufen {#admin-console}
 
@@ -64,7 +56,7 @@ Bevor Sie die Admin Console zum Verwalten von Benutzenden in Ihrem Team verwende
 
 1. Suchen Sie durch Eingabe Ihrer Adobe ID-E-Mail-Adresse, Ihres Benutzernamens, Vor- oder Nachnamens.
 
-   * Wenn Ihr Zugriff richtig konfiguriert ist, gibt die Suche Ihren Datensatz zurück.
+   * Wenn Ihr Zugriff richtig konfiguriert ist, gibt die Suche Ihren Eintrag zurück.
 
    * Wenn in der Spalte **[!UICONTROL ADMINISTRATORROLLE]** der Wert &quot;`System`&quot; angezeigt wird, bedeutet dies, dass Sie (oder die angezeigte Person) System-Admin sind.
 
@@ -72,7 +64,7 @@ Bevor Sie die Admin Console zum Verwalten von Benutzenden in Ihrem Team verwende
 
 Wenn Sie Benutzenden Zugriff auf eine Adobe-Lösung gewähren, möchten Sie ihnen nicht unbedingt uneingeschränkten Zugriff gewähren. Produktprofile ermöglichen es jeder Lösung, über eigene Benutzerberechtigungen zu verfügen. Verwenden Sie die Admin Console, um Produktprofile zuzuweisen.
 
-Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [_Verwalten von Produktprofilen für Unternehmensbenutzer_](https://helpx.adobe.com/de/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} in der Dokumentation zu Admin Console.
+Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigungen finden Sie unter [_Verwalten von Produktprofilen für Unternehmensbenutzer_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Anforderungen an die Administratorrolle](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein Systemadministrator oder [!DNL Experience Platform] Produktadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen.
 
@@ -90,7 +82,7 @@ Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigu
 
 Eine Benutzergruppe ist eine Sammlung von Benutzern, denen ein gemeinsamer Berechtigungssatz gewährt wird. Sie können Benutzer in Ihrer Benutzergruppe hinzufügen oder entfernen. Die Gruppenberechtigungen bleiben unverändert, während die Benutzer innerhalb der Gruppe wechseln.
 
-Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/de/business/enterprise/manage-users/user-groups.html){target="_blank"} in der Dokumentation zu Admin Console.
+Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen verwendet werden, finden Sie unter [Verwalten von Benutzergruppen](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Anforderungen an die Administratorrolle](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein Systemadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen.
 
@@ -125,7 +117,7 @@ Weitere Informationen dazu, wie Benutzergruppen zum Verwalten von Berechtigungen
 
 ### Benutzer zur neuen Gruppe hinzufügen {#add-users}
 
-Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/de/business/enterprise/manage-users/users.html){target="_blank"} in der Dokumentation zu Admin Console.
+Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Anforderungen an die Administratorrolle](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein System- oder Produktadministrator kann die folgenden Schritte unter [https://adminconsole.adobe.com](https://adminconsole.adobe.com) ausführen. Ein Produktadministrator kann nur Benutzer hinzufügen, die bereits in seiner Organisation vorhanden sind.
 
@@ -157,11 +149,11 @@ Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benu
 
 ## Zuweisen von Produktberechtigungen {#assign-product-permissions}
 
-Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewiesenen Berechtigungen definieren können. Jede Berechtigung wird unter einer Funktion gruppiert, z. B. Journey oder Einkaufsgruppen, die Funktionen in [!DNL Journey Optimizer B2B Prime] darstellen.
+Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewiesenen Berechtigungen definieren können. Jede Berechtigung wird unter einer Funktion gruppiert, z. B. Journey oder Inhalte von Personen, die Funktionen in [!DNL Journey Optimizer B2B Prime] darstellen.
 
 Im _Berechtigungen_ von Adobe Experience Platform können Admins Benutzerrollen und Zugriffsrichtlinien definieren, um Zugriffsberechtigungen für Funktionen und Objekte innerhalb einer Produktanwendung zu verwalten. In dieser App können Sie Rollen erstellen und verwalten sowie die gewünschten Ressourcenberechtigungen für diese Rollen zuweisen. Mit Berechtigungen können Sie auch die Sandboxes und die Benutzer verwalten, die einer bestimmten Rolle zugeordnet sind.
 
-Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
+Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
 
 1. Navigieren Sie zu [experience.adobe.com](https://experience.adobe.com/).
 
@@ -173,22 +165,51 @@ Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie 
 
    ![Experience Platform - Zugriffsberechtigungen](./assets/aep-permissions.png){width="700" zoomable="yes"}
 
-<!--
+### Berechtigungen {#permissions}
 
-### B2B product permissions {#b2b-product-permissions}
+Die folgenden Berechtigungen steuern den Zugriff auf die Funktionen Kanalkonfiguration, Inhaltsverwaltung und Personen-Journey in [!DNL Journey Optimizer B2B Prime]:
 
-The following permissions govern access to [!DNL Journey Optimizer B2B Edition] capabilities:
-
-| Category | Description | Permissions |
+| Kategorie | Berechtigung | Beschreibung |
 | -------- | ----------- | ---------- |
-| B2B Account Lists | Configure, manage, view, and publish permissions for B2B account lists. These permissions include actions such as add, remove, import, and delete accounts from account lists. | <li>Manage B2B Account Lists |
-| B2B Admin Configurations | Configure, manage, and view permissions for B2B administrative configurations. These permissions include digital asset management connections, asset repositories, and events. | <li>Manage B2B Admin Configurations |
-| B2B Assets | Configure, manage, and view permissions for B2B assets. These permissions include emails, SMS, landing pages, fragments, templates, and images. | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments <li>Manage B2B Emails |
-| B2B Buying Groups | Configure, manage, and view permissions for B2B buying groups. These permissions include solution interests, roles templates, and buying group status. | <li>Manage B2B Buying Groups <li>Manage B2B Solution Interests <li>Manage B2B Role Templates <li>Manage B2B Stages <li>View B2B Buying Groups |
-| B2B Channel Configurations | Configure, manage, and view permissions for B2B channel configurations. These permissions include settings for communication limits, API credentials, and security settings. | <li>Manage B2B Channels Configurations |
-| B2B Dashboards | Configure and view permissions for B2B dashboards. These permissions include account engagement, buying group stages, surging accounts, and contact coverage. | <li>View B2B Engagement Dashboard |
-| B2B Journeys | Configure, manage, view, and publish permissions for B2B journeys. These permissions include account and person actions, event listeners, and split paths. | <li>Manage B2B Account Journeys |
-| Journey Optimizer Rules | Access and configure frequency rules (communication limits). These permissions should be limited to product administrators. | <li>View Frequency Rules <li>Manage Frequency Rules |
+| B2B-Kanal-Konfigurationen | B2B-E-Mail-Einstellungen anzeigen | E-Mail-Einstellungen anzeigen (Subdomains, PTR-Einträge, IP-Pools, Unterdrückungslisten, Seed-Listen, IP-Aufwärmpläne). |
+| | B2B-E-Mail-Einstellungen verwalten | Konfigurieren Sie E-Mail-Einstellungen (Subdomains, PTR-Einträge, IP-Pools, Unterdrückungslisten, Seed-Listen, IP-Aufwärmpläne). Diese Einstellungen sind erforderlich, damit Benutzer E-Mails senden können. |
+| | Verwalten von B2B-Kanalkonfigurationen | Zugriff auf den _Kanäle_ im linken Navigationsbereich und alle Kanalkonfigurationsvorgänge. |
+| | Verwalten von B2B-WhatsApp-Voreinstellungen | Erstellen, Anzeigen und Löschen von WhatsApp-Nachrichtenvoreinstellungen und zugehörigen SMS-Einstellungen. |
+| B2B-Journey | Verwalten von B2B-Personen-Journey | Zugriff auf die _Personen-Journey_-Liste und alle Personen-Journey-Vorgänge. |
+| B2B-Assets | Anzeigen von Inhaltsvorlagen | Anzeigen der Liste der Inhaltsvorlagen und Details. |
+| | B2B-Vorlagen verwalten | Erstellen, Bearbeiten und Löschen von Inhaltsvorlagen. |
+| | Anzeigen von B2B-Fragmenten | Anzeigen der Liste und Details von Inhaltsfragmenten. |
+| | Verwalten von B2B-Fragmenten | Erstellen, Bearbeiten und Löschen von Inhaltsfragmenten. |
+| | Veröffentlichen von B2B-Fragmenten | Veröffentlichen Sie Inhaltsfragmente zur Verwendung in Vorlagen, E-Mails und Landingpages. |
+| | B2B-Assets anzeigen | Zeigen Sie Details zur Assets-Bibliothek und Asset-Datei an. |
+| | Verwalten von B2B-Assets | Erstellen, Bearbeiten und Löschen von Asset-Dateien. |
+| | B2B-E-Mails anzeigen | E-Mail-Nachrichten anzeigen. |
+| | Verwalten von B2B-E-Mails | Erstellen, Bearbeiten und Löschen von E-Mail-Nachrichten. |
+| | Export von B2B-Nachrichten verwalten | Exportieren Sie Nachrichtenberichte unter dem Abschnitt E-Mail . |
+| Journey Optimizer-Bibliothek | Verwalten von B2B-Bibliothekselementen | Hinzufügen und Löschen gespeicherter Ausdrücke in der Bibliothek. |
+| Data Governance | Verwalten von B2B-Löschkennzeichnungen | Anzeigen, Erstellen und Löschen von Datennutzungskennzeichnungen (Data Usage Labels, DULE), die auf Datensätze und Schemata angewendet werden. |
+| Sandbox-Verwaltung | Verwalten von B2B-Paketen | Erstellen, exportieren, importieren, kopieren und löschen Sie Sandbox-Pakete. |
+
+Um Unterstützung für externe Ziele in [!DNL Journey Optimizer B2B Prime] bereitzustellen, sind die folgenden Berechtigungen erforderlich:
+
+| Kategorie | Berechtigung | Beschreibung |
+| -------- | ----------- | ---------- |
+| Dashboards | Standard-Dashboards anzeigen | Schreibgeschützter Zugriff auf die Dashboards _Profile_, _Ziele_ und _Segmente_. Ermöglicht auch den Zugriff auf _Dashboards_ im linken Navigationsbereich und auf die Registerkarte _Dashboards_ Inventar und Integrationen . |
+| | Standard-Dashboards verwalten | Fügen Sie benutzerdefinierte Attribute hinzu, die sich noch nicht im Data Warehouse befinden. |
+| Ziele | Anzeigen von Zielen | Schreibgeschützter Zugriff zum Anzeigen verfügbarer Ziele auf der Registerkarte _Katalog_ und authentifizierter Ziele auf der Registerkarte _Durchsuchen_. |
+| | Verwalten von Zielen | Anzeigen, Erstellen und Löschen von Zielverbindungen und Zielkonten. |
+| | Aktivieren von Zielen | Aktivieren von Daten für aktive Ziele. Entweder _Ziele anzeigen_ oder _Ziele verwalten_ ist auch erforderlich, um auf diese Funktion zuzugreifen. |
+| | Segment ohne Zuordnung aktivieren | Aktivieren Sie Zielgruppen für vorhandene Ziele, ohne den Zuordnungsschritt anzuzeigen. Benutzende können Zielgruppen zu Aktivierungs-Workflows hinzufügen und welche daraus entfernen, jedoch keine zugeordneten Attribute oder Identitäten. Die _Ziele anzeigen_-Berechtigung ist auch erforderlich, um auf diese Funktion zuzugreifen. |
+| | Verwalten und Aktivieren des Datensatzziels | Datensatz-Exportflüsse anzeigen, erstellen, bearbeiten und deaktivieren sowie Daten für aktive Datensätze aktivieren. Die _Ziele anzeigen_-Berechtigung ist auch erforderlich, um auf diese Funktion zuzugreifen. |
+| | Ziel-Authoring | Möglichkeit, Ziele mithilfe der Adobe Experience Platform Destination SDK zu erstellen. |
+| Data Governance | Anzeigen von Datennutzungsrichtlinien | Schreibgeschützter Zugriff auf Datennutzungsrichtlinien Ihrer Organisation. |
+| | Verwalten von Datennutzungsrichtlinien | Anzeigen, Erstellen, Bearbeiten und Löschen von Datennutzungsrichtlinien. |
+| Datenaufnahme | Anzeigen von Quellen | Schreibgeschützter Zugriff auf verfügbare Quellen auf der Registerkarte _Katalog_ und authentifizierte Quellen auf der Registerkarte _Durchsuchen_. |
+| | Verwalten von Quellen | Anzeigen, Erstellen, Bearbeiten und Deaktivieren von Quellen. |
+| Profilverwaltung | Profileinstellungen anzeigen | Schreibgeschützter Zugriff auf alle Profileinstellungen. |
+| | Profileinstellungen verwalten | Alle Profileinstellungen anzeigen und bearbeiten. |
+
+<!--
 
 ### B2B built-in roles {#b2b-built-in-roles}
 
@@ -259,7 +280,7 @@ _So ändern Sie die Berechtigungen für eine Rolle :_
 
    * Sie können das Suchwerkzeug verwenden, um die Benutzerliste zu filtern.
 
-   * Aktivieren Sie das Kontrollkästchen für jeden Benutzer.
+   * Wählen Sie das Kontrollkästchen für jede Person aus.
 
    ![Experience Platform - Dialogfeld „Benutzer hinzufügen“](../../user/admin/assets/aep-permissions-role-add-users-dialog.png){width="600" zoomable="yes"}
 
@@ -267,7 +288,7 @@ _So ändern Sie die Berechtigungen für eine Rolle :_
 
 ### Hinzufügen von Benutzergruppen zu einer Rolle {#add-user-groups-to-a-role}
 
-Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/de/business/enterprise/manage-users/users.html){target="_blank"} in der Dokumentation zu Admin Console.
+Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benutzer_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"} in der Dokumentation zu Admin Console.
 
 ![Anforderungen an die Administratorrolle](../../assets/do-not-localize/icon-admin-user.svg){width="30"} Ein System- oder Experience Platform-Administrator kann die folgenden Schritte ausführen.
 
@@ -305,11 +326,11 @@ Informationen zur Benutzerverwaltung finden Sie unter [_Adobe Admin Console-Benu
 
 1. B2B-Produktberechtigungen hinzufügen:
 
-   <!-- To determine which product capabilities that you want for the role, refer to the list of [B2B product permissions](#b2b-product-permissions). -->
+   Informationen dazu, welche Produktfunktionen Sie für die Rolle verwenden möchten, finden Sie in der Liste der [Produktberechtigungen](#permissions).
 
    Suchen Sie in der _[!UICONTROL Ressourcen]_-Liste auf der linken Seite die B2B-Elemente und klicken Sie auf das _Hinzufügen_-Symbol (**+**), um jedes Attribut hinzuzufügen, das Sie für die Rolle aktivieren möchten.
 
-   Sie können im Suchwerkzeug _B2B_ eingeben, um die Liste nach den B2B-Produktberechtigungen zu filtern.
+   Sie können im Suchwerkzeug _B2B_ eingeben, um die Liste nach vielen der B2B-Produktberechtigungen zu filtern.
 
    ![Experience Platform - B2B-Berechtigungen](./assets/aep-permissions-b2b-list.png){width="700" zoomable="yes"}
 
