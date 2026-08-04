@@ -6,27 +6,20 @@ role: User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-07-31T22:31:06.899Z'
 TQID: 'https://experienceleague.adobe.com/fBPnAmupve3xMSw5fZPQBDTUfr-rwiH2-R3wbKvox-E'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212ababid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: d270a788-eb1d-40ed-b74e-9158ed975b1fid: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: 562
 ht-degree: 1%
 
 ---
 
 # Content Credentials
 
-Marketing-Organisationen sind mehr denn je besorgt über Inhaltstransparenz, KI-Offenlegung und die Verhinderung von Manipulationen an Assets. Die Content Authenticity Initiative (CAI) von Adobe erstellt Tools, die dem technischen Standard [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) entsprechen. _Content Credentials_, verschlüsselte, manipulationssichere Metadaten, können Betrachtern dabei helfen, die Herkunft von Inhalten zu verstehen und die Integrität von Marken-Assets sicherzustellen. Zu diesen Informationen gehören:
+Marketing-Organisationen sind mehr denn je besorgt über Inhaltstransparenz, KI-Offenlegung und die Verhinderung von Manipulationen an Assets. Die Content Authenticity Initiative (CAI) von Adobe erstellt Tools, die dem technischen Standard [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) entsprechen. _Content Credentials_ ist ein Satz verschlüsselter, manipulationssicherer Metadaten, die Betrachtern helfen, die Herkunft von Inhalten zu verstehen und die Integrität von Marken-Assets sicherzustellen. Zu diesen Informationen gehören:
 
 * Aussteller oder Unterzeichner — Informationen über die Entität oder das Unternehmen, die bzw. das die digitale Signatur zum Zertifizieren oder Signieren des Assets ausgestellt hat.
 * Anfragedatum - Das Datum, an dem die Content Credential auf das Asset angewendet wurde.
@@ -34,9 +27,9 @@ Marketing-Organisationen sind mehr denn je besorgt über Inhaltstransparenz, KI-
 * Prozess - Aufzeichnungen aller Bearbeitungen oder Änderungen am Asset.
 * Gerätedetails - Informationen zu der App oder dem Gerät, die bzw. das zum Erstellen oder Bearbeiten des Assets verwendet wird.
 * Verwendetes KI-Tool — Wenn generative KI zum Erstellen des Assets verwendet wurde, kann der Name des verwendeten Modells einbezogen werden.
-* Weitere relevante Informationen - Es können auch zusätzliche Daten aufgenommen werden, um mehr Kontext über den Verlauf eines Assets anzubieten.
+* Weitere relevante Informationen - Es sind auch zusätzliche Daten enthalten, um mehr Kontext über den Verlauf eines Assets anzubieten.
 
-Ausführliche Informationen zum Asset-Verlauf erhalten Sie mit dem Adobe Content Authenticity [Inspektions-Tool](https://contentauthenticity.adobe.com/inspect).
+Umfassende Informationen zum Asset-Verlauf erhalten Sie mit dem Adobe Content Authenticity [Inspektions-Tool](https://contentauthenticity.adobe.com/inspect).
 
 Content Credentials wird mit der Bilddatei beibehalten. Wenn ein Bild, das mit Generative AI generiert oder bearbeitet wurde, in [!DNL Adobe Journey Optimizer B2B Prime] hochgeladen oder aus exportiert wird, bleibt sein Content Credentials erhalten.
 
@@ -51,7 +44,7 @@ Content Credentials wird mit der Bilddatei beibehalten. Wenn ein Bild, das mit G
 Wenn Sie Bilder in Ihre E-Mail- oder WhatsApp-Nachrichten einfügen, wird die Content Credentials für die bereitgestellten Bilder ebenfalls beibehalten:
 
 * **E-**: Wenn Sie die Aktion _E-Mail senden_ Journey verwenden, fügen Sie das Bild aus der _Assets_ Bibliothek zu Ihrem E-Mail-Inhalt hinzu. Wenn die E-Mail zugestellt wird, kann der Empfänger das Bild aus der Nachricht herunterladen und die Content Credentials ist intakt.
-* **WhatsApp** - Fügen Sie das Bild zu Ihrer WhatsApp-Nachrichtenvorlage in Ihrem Meta-Geschäftskonto hinzu. Sie können sie direkt von Ihrem eigenen System hinzufügen oder eine Bilddatei aus der Bibliothek _Assets_ herunterladen. Verwenden Sie die Vorlage für eine Aktion _WhatsApp senden_ Journey. Wenn die WhatsApp-Nachricht zugestellt wird, kann der Empfänger das Bild aus der Nachricht herunterladen und die Content Credentials ist intakt.
+* **WhatsApp** - Fügen Sie das Bild zu Ihrer WhatsApp-Nachrichtenvorlage in Ihrem Meta-Geschäftskonto hinzu. Sie können sie direkt von Ihrem System hinzufügen oder eine Bilddatei aus der Bibliothek _Assets_ herunterladen. Verwenden Sie die Vorlage für eine Aktion _WhatsApp senden_ Journey. Wenn die WhatsApp-Nachricht zugestellt wird, kann der Empfänger das Bild aus der Nachricht herunterladen und die Content Credentials ist intakt.
 
 >[!ENDSHADEBOX]
 

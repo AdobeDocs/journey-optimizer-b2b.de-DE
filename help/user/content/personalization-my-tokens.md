@@ -6,28 +6,22 @@ role: User
 exl-id: 05d4f446-6348-4555-9c46-316c2857f01d
 autotag-review: '2026-05-27T16:17:44.938Z'
 TQID: 'https://experienceleague.adobe.com/Jhx5DqeSOi5oTIyBNXw04RagSUFiNx-OPig-vTdFWfU'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: bd3c685c-6c92-4a4a-becb-535cc25215de
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: bd3c685c-6c92-4a4a-becb-535cc25215de
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # Benutzerdefinierte Token für die E-Mail-Personalisierung
 
-Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die beim Generieren des Inhaltsartefakts aufgefüllt werden. Standard-Personalisierungs-Token sind für E-Mails, Landingpages, Fragmente und Vorlagen verfügbar. Sie können auch einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als &quot;_Token“ bezeichnet_ und jedes dieser benutzerdefinierten Token dient zur Personalisierung beim [Verfassen von Journey-E-Mails](./email-authoring.md#content-authoring---personalization).
+Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die beim Generieren des Inhaltsartefakts aufgefüllt werden. Standard-Personalisierungs-Token sind für E-Mails, Landingpages, Fragmente und Vorlagen verfügbar. Sie können auch einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als _Meine Token_ bezeichnet. Jedes dieser benutzerdefinierten Token kann zur Personalisierung beim Verfassen [ Journey-E-Mails verwendet ](./email-authoring.md#personalize-content).
 
 Zusätzlich zu _Meine Token_ die speziell für die Account-Journey gelten, können Sie jedes der standardmäßigen (integrierten) Token für die E-Mail-Personalisierung verwenden.
 
@@ -35,7 +29,7 @@ Zusätzlich zu _Meine Token_ die speziell für die Account-Journey gelten, könn
 
 Die _Meine Token_ sind benutzerdefinierte Variablen, die Sie für eine Konto-Journey im Entwurfsstatus erstellen oder ändern. Dieser benutzerdefinierte Token-Satz unterstützt derzeit Text- und Zahlen-Token-Definitionen.
 
-Wenn Sie einer E-Mail ein benutzerdefiniertes Token hinzufügen, wird es als `{{my.TokenName}}` angezeigt. Beispielsweise könnten Sie `{{my.EventDate}}` oder `{{my.WebinarSpeaker}}` Token erstellen, um E-Mail-Inhalte im Zusammenhang mit kommenden Webinaren zu verwalten.
+Wenn Sie einer E-Mail ein benutzerdefiniertes Token hinzufügen, wird es als `{{my.TokenName}}` angezeigt. Sie haben beispielsweise `{{my.EventDate}}` oder `{{my.WebinarSpeaker}}` Token erstellt, um E-Mail-Inhalte im Zusammenhang mit kommenden Webinaren zu verwalten.
 
 _Zugreifen auf die benutzerdefinierten Token für eine Konto-Journey :_
 
@@ -61,7 +55,7 @@ _Zugreifen auf die benutzerdefinierten Token für eine Konto-Journey :_
 
    ![Geben Sie einen Namen und einen Wert für das Text-Token ein](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   Sie können im Token-Namen keine Leerzeichen oder Sonderzeichen verwenden. Sie können _Binnenmajuskel-Schreibweise_ wie `EventType` verwenden, um einen Namen mit mehreren Wörtern zu verwenden, der leicht zu identifizieren ist.
+   Sie können im Token-Namen keine Leerzeichen oder Sonderzeichen verwenden. Sie können Binnenmajuskeln wie `EventType` verwenden, um einen Namen mit mehreren Wörtern zu verwenden, der leicht zu identifizieren ist.
 
    Wenn Sie ein Token _Zahl_ definieren, darf der Wert nur numerische Zeichen enthalten. Sie können einen Dezimalwert verwenden.
 
@@ -97,7 +91,7 @@ Wenn Sie E-Mail-Inhalte für Ihre Konto-Journey erstellen, können Sie eines der
 
 1. Wählen Sie die Textkomponente aus und klicken Sie auf das Symbol _Personalisierung hinzufügen_ ( ![Personalisierungssymbol hinzufügen](../../assets/do-not-localize/icon-personalization-field.svg) ) in der Symbolleiste.
 
-   ![Klicken Sie auf das Symbol Personalisierung hinzufügen &#x200B;](./assets/email-personalize-text.png){width="600"}
+   ![Klicken Sie auf das Symbol Personalisierung hinzufügen ](./assets/email-personalize-text.png){width="600"}
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet. Das Dialogfeld enthält einen Ordner _[!UICONTROL Meine Token]_ in der _[!UICONTROL Personalization Tokens]_-Bibliothek, wenn benutzerdefinierte Token für die Konto-Journey definiert sind.
 

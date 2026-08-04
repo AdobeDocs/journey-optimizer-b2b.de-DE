@@ -7,32 +7,26 @@ role: User
 level: Beginner, Intermediate
 keywords: E-Mail-Designs, Wiederverwendbarkeit, Markenausrichtung, E-Mail-Design
 exl-id: 8bdba8e3-d463-46fe-a206-f10ae7884b67
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 autotag-review: 2026-03-30T21:49:24.359Z
 TQID: https://experienceleague.adobe.com/d3dPmwhMxG9ARxbIzw-lHl1vHbPB1xHazCLEVZbTJAY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3107
-ht-degree: 3%
+source-wordcount: 3111
+ht-degree: 4%
 
 ---
 
-# Verwenden von Marken-Designs für E-Mail-Inhalte {#email-brand-themes}
+# Verwenden von Markenthemen für E-Mail-Content {#email-brand-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_email_brand_theme"
->title="Anwenden eines Marken-Designs auf Ihre E-Mail oder E-Mail-Vorlage"
->abstract="Wählen Sie ein Design für Ihre E-Mail oder E-Mail-Vorlage aus, um einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt."
+>title="Anwenden eines Markenthemas auf Ihre E-Mail oder E-Mail-Vorlage"
+>abstract="Wählen Sie ein Thema für Ihre E-Mail oder E-Mail-Vorlage, um einen Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt."
 
 Mit Designs können nicht-technische Designer wiederverwendbare Richtlinien für das Design von E-Mail-Inhalten erstellen, die an eine bestimmte Marke und ein bestimmtes Styling angepasst sind. Designs ermöglichen es Marketing-Experten, visuell ansprechende, markenkonsistente E-Mails schneller und mit weniger Aufwand zu nutzen und erweiterte Anpassungsoptionen für individuelle Design-Anforderungen bereitzustellen.
 
@@ -40,11 +34,11 @@ Mit Designs können nicht-technische Designer wiederverwendbare Richtlinien für
 
 Beachten Sie bei der Arbeit mit Designs die folgenden Richtlinien und Einschränkungen:
 
-* Wenn Sie eine E-Mail- oder E-Mail-Vorlage auf einer leeren Arbeitsfläche erstellen (_Design von Grund auf_), können Sie _Design-Modus_ auswählen, um Ihren Inhalt mithilfe eines Designs zu erstellen und einen bestimmten Stil anzuwenden, der zu Ihrer Marke und Ihrem Design passt. Wenn Sie _Manueller Modus_ auswählen, können Sie ein Design nur anwenden, wenn Sie das Design für die E-Mail- oder E-Mail-Vorlage zurücksetzen.
+* Wenn Sie eine E-Mail- oder E-Mail-Vorlage auf einer leeren Arbeitsfläche erstellen (_von Grund auf neu_), können Sie _Design-Modus_ auswählen, um Inhalte mithilfe eines Designs zu erstellen, das zu Ihrer Marke passt. Um ein Design anzuwenden, wenn Sie _Manueller Modus_ auswählen, müssen Sie das Design der E-Mail oder E-Mail-Vorlage zurücksetzen.
 
 * [Fragmente](./fragments.md) sind nicht kreuzkompatibel zwischen dem _Design-Modus_ und dem _Manueller Modus_ im E-Mail-Inhalt. Um ein Fragment in E-Mail-Inhalten zu verwenden, auf die ein Design angewendet wird, muss das Fragment auch im _Design-Modus_ erstellt werden.
 
-* Änderungen an einem benutzerdefinierten Design werden nicht automatisch an alle E-Mails oder E-Mail-Vorlagen weitergegeben, die es bereits verwenden. Bearbeiten Sie den Inhalt für jede Komponente, um das Design zu aktualisieren.
+* Änderungen an einem benutzerdefinierten Design werden nicht automatisch an alle E-Mails oder E-Mail-Vorlagen weitergegeben, die es bereits verwenden. Um das Design zu aktualisieren, bearbeiten Sie den Inhalt für jedes Design.
 
 * Wenn Sie ein Design löschen, wirkt sich dies nicht auf E-Mail- oder E-Mail-Vorlagen aus, auf die es bereits angewendet wurde.
 <!--
@@ -53,7 +47,7 @@ Beachten Sie bei der Arbeit mit Designs die folgenden Richtlinien und Einschrän
 
 ## Erstellen eines Markendesigns {#create-theme}
 
-Definieren Sie Ihr eigenes Markendesign, das Sie auf den Inhalt Ihrer E-Mail und E-Mail-Vorlage in Ihrem zukünftigen E-Mail-Inhalt anwenden können.
+Definieren Sie Ihr eigenes Markendesign, das Sie auf Ihre E-Mail- und E-Mail-Vorlageninhalte anwenden können.
 
 1. Greifen Sie mit einer der folgenden Methoden auf die Design-Tools zu:
 
@@ -87,7 +81,7 @@ Definieren Sie Ihr eigenes Markendesign, das Sie auf den Inhalt Ihrer E-Mail und
    * [Farben](#colors)
    * [Texteinstellungen](#text-settings)
    * [Abstand und Rahmen](#spacing-and-border)
-   * [Schaltfläche](#button)
+   * [Schaltfläche](#buttons)
    * [Trennlinie](#divider)
    * [Raster](#grid)
 
@@ -126,7 +120,7 @@ Wählen Sie die Registerkarte **[!UICONTROL Farben]** und verwenden Sie die Eins
 
   Klicken Sie auf den _Zurück_-Pfeil, um die Farbpalettenwerkzeuge zu schließen.
 
-* Klicken Sie auf **[!UICONTROL Variante hinzufügen]**, um mehrere Farbvarianten zu erstellen, z. B. einen _Hell_- und _Dunkel_-Modus, in dem jede Variante über eine eigene Farbpalette und Nuance-Steuerelemente verfügt.
+* Klicken Sie auf **[!UICONTROL Variante hinzufügen]**, um mehrere Farbvarianten wie _Hell_ und _Dunkel_ zu erstellen, die jeweils eine eigene Palette und Steuerelemente aufweisen.
 
   >[!NOTE]
   >
@@ -253,7 +247,7 @@ Verwenden Sie die Leiste auf der rechten Seite, um durch die verschiedenen Regis
 * [Farben](#colors)
 * [Texteinstellungen](#text-settings)
 * [Abstand und Rahmen](#spacing-and-border)
-* [Schaltfläche](#button)
+* [Schaltfläche](#buttons)
 * [Trennlinie](#divider)
 * [Raster](#grid)
 
@@ -265,7 +259,7 @@ Wenn Ihre Design-Änderungen abgeschlossen sind, klicken Sie auf **[!UICONTROL S
 
 >[!NOTE]
 >
->Die gespeicherten Änderungen werden nicht automatisch an alle E-Mails oder E-Mail-Vorlagen weitergeleitet, die derzeit das Design verwenden. Bearbeiten Sie die Inhalte für jedes Design, um es zu aktualisieren und den aktualisierten Stilen anzupassen.
+>Die gespeicherten Änderungen werden nicht automatisch an alle E-Mails oder E-Mail-Vorlagen weitergeleitet, die derzeit das Design verwenden. Um das Design zu aktualisieren und den aktualisierten Stilen anzupassen, bearbeiten Sie den Inhalt für jede Seite.
 
 ## Verwalten benutzerdefinierter Designs
 
@@ -287,7 +281,7 @@ Wenn Sie über eine große Liste mit benutzerdefinierten Designs verfügen, verw
    * [Farben](#colors)
    * [Texteinstellungen](#text-settings)
    * [Abstand und Rahmen](#spacing-and-border)
-   * [Schaltfläche](#button)
+   * [Schaltfläche](#buttons)
    * [Trennlinie](#divider)
    * [Raster](#grid)
 
@@ -299,7 +293,7 @@ Wenn Sie über eine große Liste mit benutzerdefinierten Designs verfügen, verw
 
 >[!NOTE]
 >
->Die gespeicherten Design-Änderungen werden nicht automatisch an alle E-Mails oder E-Mail-Vorlagen weitergeleitet, die derzeit das Design verwenden. Bearbeiten Sie die Inhalte für jedes Design, um es zu aktualisieren und den aktualisierten Stilen anzupassen.
+>Die gespeicherten Design-Änderungen werden nicht automatisch an alle E-Mails oder E-Mail-Vorlagen weitergeleitet, die derzeit das Design verwenden. Um das Design zu aktualisieren und den aktualisierten Stilen anzupassen, bearbeiten Sie den Inhalt für jede Seite.
 
 ### Löschen oder Duplizieren eines Designs
 
@@ -317,7 +311,7 @@ Wenn Sie das Design gefunden haben, klicken Sie auf das Menü _Mehr_ (**…**) u
 
 ## Design für die Inhaltserstellung in E-Mails verwenden {#use-email-theme}
 
-Wenn Sie eine neue E-Mail- oder E-Mail-Vorlage erstellen, können Sie ein Markendesign verwenden, das den Inhaltserstellungsprozess optimiert und sicherstellt, dass das Design den definierten Standards entspricht. Für ein neues Fragment können Sie vor dem Speichern des Fragments auch ein Design anwenden. Das Fragment verbleibt von diesem Zeitpunkt an _Design-Modus_ und ist kompatibel, um es zu E-Mails und E-Mail-Vorlagen hinzuzufügen, die sich auch im _Design-Modus_ befinden.
+Wenn Sie eine neue E-Mail- oder E-Mail-Vorlage erstellen, können Sie ein Markendesign verwenden, das den Inhaltserstellungsprozess optimiert und sicherstellt, dass das Design den definierten Standards entspricht. Für ein neues Fragment können Sie vor dem Speichern des Fragments auch ein Design anwenden. Das Fragment verbleibt von diesem Zeitpunkt an _Design-Modus_ und ist zum Hinzufügen zu E-Mails und E-Mail-Vorlagen kompatibel, die sich auch im _Design-Modus_ befinden.
 
 1. Eine der folgenden Aktionen auswählen:
 
@@ -361,7 +355,7 @@ Wenn Sie eine neue E-Mail- oder E-Mail-Vorlage erstellen, können Sie ein Marken
 
 ## Ändern des Designs für Ihren E-Mail-Inhalt
 
-Bei E-Mail- oder E-Mail _Vorlagen, die im_ Design-Modus“ erstellt wurden, können Sie das Design jederzeit ändern. Der E-Mail-Inhalt bleibt unverändert, aber die Stile werden aktualisiert, um das neue Design widerzuspiegeln.
+Bei E-Mail- oder E-Mail _Vorlagen, die im_ Design-Modus“ erstellt wurden, können Sie das Design jederzeit ändern. Der E-Mail-Content bleibt unverändert, aber die Stile werden aktualisiert, sodass sie das neue Thema widerspiegeln.
 
 1. Öffnen Sie die E-Mail- oder E-Mail-Vorlage im Design-Bereich.
 

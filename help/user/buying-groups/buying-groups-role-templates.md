@@ -4,20 +4,16 @@ description: Erstellen Sie Rollenvorlagen mit bedingter automatischer Zuweisung,
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 97417ae1fcb017d4fcb7128e3fc0b61c829f867e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 4%
+source-wordcount: 1577
+ht-degree: 5%
 
 ---
 
@@ -49,7 +45,7 @@ In einem B2B-Markt treffen normalerweise mehrere Personen Kaufentscheidungen. Di
 >
 >* [Zuordnung von Personenprofilfeldern](../admin/field-mapping.md#xdm-business-person-attributes) für Personenattributfilter
 >* [Absichtsdaten](../admin/intent-data.md) wenn Sie Absichtsfilter in Rollenbedingungen verwenden
->* [Benutzerdefinierte Einkaufsgruppenrollen](./default-custom-roles.md#custom-roles) (optional), wenn Sie Rollen benötigen, die über die sechs Standardrollen hinausgehen
+>* [Benutzerdefinierte Einkaufsgruppenrollen](./default-custom-roles.md#create-a-custom-role) (optional), wenn Sie Rollen benötigen, die über die sechs Standardrollen hinausgehen
 
 ## Zugreifen auf und Durchsuchen von Rollenvorlagen {#access-and-browse-role-templates}
 
@@ -70,7 +66,7 @@ In einem B2B-Markt treffen normalerweise mehrere Personen Kaufentscheidungen. Di
    * [!UICONTROL Veröffentlicht auf]
    * [!UICONTROL Veröffentlicht von]
 
-   Die Liste ist standardmäßig nach der _[!UICONTROL Letzte Aktualisierung]_ sortiert. Alle Rollenvorlagen haben den Status `Draft` oder `Live`.
+   Die Liste wird standardmäßig nach _[!UICONTROL Letzte Aktualisierung]_ sortiert. Alle Rollenvorlagen haben den Status `Draft` oder `Live`.
 
 1. Um die Liste nach Namen zu filtern, verwenden Sie das Suchfeld oben in der Liste.
 
@@ -98,7 +94,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
 | Typ | Bedingungen |
 | ---- | --------- |
-| [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Ort <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Nachname <li>Mobiltelefonnummer <li>Engagement-Score einer Person <li>Telefonnummer <li>Postleitzahl <li>Status |
+| [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Stadt <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Status |
 | [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto oder die Person hat oder hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie in den [XDM-relationalen Schemata](../admin/xdm-field-management.md#relational-schemas) konfiguriert. |
 | Spezielle Filter | <li>Mitglied der Liste (veraltet) <li>Mitglied des Programms (veraltet) |
 | Absichtsdaten | <li>Kategoriebedingung <li>Produktzweck <li>Keyword Intent <br/>(siehe [_Intent-Daten_](../admin/intent-data.md)) |
@@ -109,7 +105,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert &#x200B;](./default-custom-roles.md#custom-roles).
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#create-a-custom-role).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -161,7 +157,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
 Überprüfen Sie in Marketo Engage _Smart_ Kampagnen) die Programmmitgliedschaft, um sicherzustellen, dass Leads keine doppelten E-Mails erhalten und nicht gleichzeitig Mitglieder mehrerer E-Mail-Streams sind. In Journey Optimizer B2B können Sie die Marketo Engage-Listenmitgliedschaft als Bedingung für Ihre Rollenvorlage überprüfen, um doppelte Käufe von Gruppenmitgliedschaft und Journey-Aktivitäten zu vermeiden.
 
-Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!UICONTROL Spezielle Filter]** und ziehen Sie die **[!UICONTROL Mitglied der Liste]** Bedingung in den Filterbereich. Schließen Sie dann die Filterdefinition ab, um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten.
+Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!UICONTROL Spezielle Filter]** und ziehen Sie die **[!UICONTROL Mitglied der Liste]** Bedingung in den Filterbereich. Um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten, füllen Sie die Filterdefinition aus.
 
 ![Vorlagenbedingung für Rollen für Marketo Engage-Listenmitgliedschaft](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
 <br/>
@@ -178,7 +174,7 @@ Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!
 
 Standardmäßig wird die Vollständigkeit für eine Rolle als ein der Rolle zugewiesenes Mitglied definiert. Wenn Sie die Vollständigkeit der Einkaufsgruppe verwenden, um die Verkaufsbereitschaft anzugeben, verwenden Sie diese Einstellungen, um die Punktzahl an die Anzahl der Mitglieder anzupassen, die zum Schließen einer Opportunity erforderlich sind.
 
-Wenn Sie beispielsweise ein Geschäft für Ihre Lösung _X_ abschließen möchten, müssen mehrere Marketing-Entscheidungsträger identifiziert und einbezogen werden, da mehrere Marketing-Teams in einem Unternehmen die Lösung verwenden würden. In diesem Fall möchten Sie den Schwellenwert erhöhen, um eine _vollständige_ Einkaufsgruppe zu berechnen, indem Sie mindestens zwei Marketing-Entscheidungsträger benötigen.
+Wenn Sie beispielsweise ein Geschäft für Ihre Lösung _X_ abschließen möchten, müssen Sie mehrere Marketing-Entscheidungsträger identifizieren und kontaktieren, da mehrere Marketing-Teams in einem Unternehmen die Lösung verwenden. In diesem Fall möchten Sie den Schwellenwert erhöhen, um eine _vollständige_ Einkaufsgruppe zu berechnen, indem Sie mindestens zwei Marketing-Entscheidungsträger benötigen.
 
 Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte Informationen zur Bewertung und Berechnung der Vollständigkeit.
 
@@ -188,7 +184,7 @@ Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte
 
 1. Ändern Sie im Dialogfeld den Wert **[!UICONTROL Mitglieder erforderlich]** für jede definierte Rolle nach Bedarf.
 
-   Sie können den Wert eingeben oder auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   Sie können den Wert eingeben oder auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Dialogfeld mit den Einstellungen für die Vollständigkeit der Rollenvorlage](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -198,7 +194,7 @@ Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte
 
 Wenn die Vorlage einsatzbereit ist, klicken Sie oben **[!UICONTROL auf]** Veröffentlichen“.
 
-Durch das Veröffentlichen der Vorlage wird der Status auf _Live_ gesetzt und für die Verknüpfung mit einer interessanten Lösung verfügbar gemacht. Es muss mindestens eine definierte Rolle vorhanden sein, um die Rollenvorlage zu veröffentlichen.
+Um die Vorlage für die Verknüpfung mit einer gewünschten Lösung verfügbar zu machen, veröffentlichen Sie sie, um den Status auf &quot;_&quot;_. Es muss mindestens eine definierte Rolle vorhanden sein, um die Rollenvorlage zu veröffentlichen.
 
 Nach der Veröffentlichung lautet der Vorlagenstatus _Live_ auf der Registerkarte **[!UICONTROL Rollenvorlagen]** und Sie können ihn auswählen, wenn Sie [Lösungsinteresse erstellen](./solution-interests.md).
 
@@ -206,13 +202,13 @@ Nach der Veröffentlichung lautet der Vorlagenstatus _Live_ auf der Registerkart
 
 Wenn sich eine Rollenvorlage im Status _Entwurf_ befindet, können Sie die definierten Rollen weiter bearbeiten. Alle von Ihnen vorgenommenen Änderungen werden automatisch gespeichert.
 
-Ändern Sie die Kopfzeileneinstellungen der Rollenkarte, z. B. die Rolle der Einkaufsgruppe, die Gewichtung, die automatische Zuweisung oder die Anforderung zur Vollständigkeitsbewertung.
+Ändern Sie die Kopfzeileneinstellungen der Rollenkarte, z. B. Rollen-, Gewichtungs-, automatische Zuweisungs- oder Vollständigkeitsanforderungen.
 
 ![Eigenschaften der Einkaufsgruppenrolle ändern](./assets/roles-template-role-properties.png){width="600"}
 
 ### Bedingungen für eine Rolle ändern
 
-Um die Bedingungs-/Filterlogik für eine der Rollen zu ändern, klicken Sie auf _Bearbeiten_ ( ![Bearbeiten-Symbol](../assets/do-not-localize/icon-edit.svg) ) oben rechts in der Rollenkarte. Diese Aktion öffnet den Arbeitsbereich _[!UICONTROL Bedingungen]_ in dem Sie einen vorhandenen Filter ändern, einen Filter hinzufügen oder entfernen oder die Filterlogik ändern können.
+Um die Bedingungs-/Filterlogik für eine der Rollen zu ändern, klicken Sie auf _Symbol „Bearbeiten_ ( ![Symbol „Bearbeiten](../assets/do-not-localize/icon-edit.svg) ) oben rechts in der Rollenkarte. Diese Aktion öffnet den Arbeitsbereich _[!UICONTROL Bedingungen]_ in dem Sie einen vorhandenen Filter ändern, einen Filter hinzufügen oder entfernen oder die Filterlogik ändern können.
 
 ### Löschen einer Rollenkarte
 
@@ -240,4 +236,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

@@ -4,22 +4,16 @@ description: Erstellen Sie benutzerdefinierte Einkaufsgruppen-Staging-Modelle mi
 feature: Buying Groups, Account Journeys
 role: User
 exl-id: 3067e51d-4cbe-47da-aed1-ec58496ca6d0
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d9b663ab-b785-4c49-8fc3-d3dda520c908
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d9b663ab-b785-4c49-8fc3-d3dda520c908
 autotag-review: 2026-03-30T21:47:43.205Z
 TQID: https://experienceleague.adobe.com/sacgNlKYTxgMkdbXTgqIDJIzhL68LcdUoWbd2-OFFUw
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2357
+source-wordcount: 2326
 ht-degree: 2%
 
 ---
@@ -28,7 +22,7 @@ ht-degree: 2%
 
 Die Stadien der Einkaufsgruppen verfolgen den Fortschritt der Einkaufsgruppen bei der Konvertierung von Opportunities in Kunden. Verwenden Sie diese Funktion, um den Fortschritt der Einkaufsgruppe zu verfolgen und die nächsten besten Aktionen für Mitglieder der Einkaufsgruppe zu identifizieren.
 
-Definieren Sie die Phasen innerhalb eines einzelnen Staging-Modells, indem Sie mehrere Phasen und den Übergangsfluss zwischen ihnen definieren. Eine oder mehrere Phasen sind für den Eintritt in den Lebenszyklus vorgesehen. Das Modell ermöglicht auch eine nichtlineare Progression, bei der Sie Übergänge von einem Stadium zu einem anderen angeben können, z. B. von Stadium A zu Stadium B, C oder D. Es ist erforderlich, dass ein Schritt als Erfolgsschritt gekennzeichnet wird, z. B. ein Kauf oder ein unterzeichneter Vertrag. Es ist optional, dass eine weitere Phase als Ausfallphase eingestuft wird, z. B. ein abgelehnter Vertrag oder der Kauf einer konkurrierenden Lösung von einem anderen Anbieter. Überwachen Sie diese Phasen über [intelligente Dashboards](../dashboards/intelligent-dashboard.md) die zeigen, wie Einkaufsgruppen in Bezug auf den Abschluss einer Verkaufschance oder die Umwandlung einer Opportunity in einen Kunden vorankommen.
+Definieren Sie die Phasen innerhalb eines einzelnen Staging-Modells, indem Sie mehrere Phasen und den Übergangsfluss zwischen ihnen definieren. Eine oder mehrere Phasen sind für den Eintritt in den Lebenszyklus vorgesehen. Das Modell ermöglicht eine nichtlineare Progression, z. B. von Stufe A zu Stufe B, C oder D. Eine Stufe muss als Erfolgsstufe bezeichnet werden, z. B. ein Kauf oder ein unterzeichneter Vertrag. Optional kann eine weitere Stufe als Fehlerstufe eingestuft werden, z. B. ein abgelehnter Vertrag oder der Kauf einer konkurrierenden Lösung von einem anderen Anbieter. Überwachen Sie diese Phasen über [intelligente Dashboards](../dashboards/intelligent-dashboard.md) die zeigen, wie Einkaufsgruppen in Bezug auf den Abschluss einer Verkaufschance oder die Umwandlung einer Opportunity in einen Kunden vorankommen.
 
 ![Beispiel für den Kauf von Gruppenstadien](assets/buying-group-stages-lifecycle-diagram.png){width="800" zoomable="yes"}
 
@@ -42,7 +36,7 @@ Sie erstellen und konfigurieren ein Einkaufsgruppenstufenmodell, indem Sie:
 * Transitionsflüsse definieren
 * Bestimmung der Eingangs- und Zielstadien
 
-Es wird nur ein Modell unterstützt. Daher ist es wichtig, dass Sie in allen Marketing- und Vertriebsteams an der Planung des optimalen Modells für Ihr Unternehmen arbeiten, bevor Sie es in Journey Optimizer B2B edition erstellen und veröffentlichen.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
+Es wird nur ein Modell unterstützt. Um das optimale Modell zu planen, wenden Sie sich an Ihre Marketing- und Vertriebsteams, bevor Sie es in Journey Optimizer B2B edition erstellen und veröffentlichen.<!-- Initially, only one stage model can be created, but future releases will support multiple stage models, allowing users to select which model to use in a journey. -->
 
 Wenn Sie das Einkaufsgruppenstufenmodell erstellen, befindet es sich automatisch im Status _Entwurf_ und kann nicht gelöscht oder umbenannt werden. Er verbleibt in diesem Status, wenn Sie die Phasen definieren und den Übergangsfluss zwischen den Phasen konfigurieren. Wenn sich das Modell im Status Veröffentlicht _Live_ befindet, kann es nicht geändert werden.
 
@@ -62,7 +56,7 @@ Wenn Sie das Einkaufsgruppenstufenmodell erstellen, befindet es sich automatisch
 
    ![Fügen Sie den Namen und die Beschreibung für das Modell hinzu](assets/stages-create-model-dialog.png){width="700" zoomable="yes"}
 
-   Wenn Sie in _[!UICONTROL Dialogfeld auf]_&#x200B;_[!UICONTROL Abbrechen“ klicken, kehren Sie in einem_ leeren _zur Registerkarte]_ Phasen“ zurück.
+   Wenn Sie in _[!UICONTROL Dialogfeld auf]__[!UICONTROL Abbrechen“ klicken, kehren Sie in einem_ leeren _zur Registerkarte]_ Phasen“ zurück.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
@@ -94,7 +88,7 @@ Nachdem Sie das Modell erstellt haben, wird es im Arbeitsbereich geöffnet, und 
 
 ### Konfigurieren des Workflows und der Übergangsregeln
 
-Nachdem Sie die Stadien gespeichert haben, werden Sie zum Modellarbeitsbereich zurückgeleitet. Die Spalte _[!UICONTROL Zulässiger Transit an]_ ist leer. Dies bedeutet, dass die Übergangsregeln für die Modellphasen noch nicht definiert sind.
+Nachdem Sie die Stadien gespeichert haben, kehren Sie zum Modellarbeitsbereich zurück. Die Spalte _[!UICONTROL Zulässiger Transit an]_ ist leer. Dies bedeutet, dass die Übergangsregeln für die Modellphasen noch nicht definiert sind.
 
 ![Übergangsregeln sind noch nicht definiert](assets/stages-model-stages-empty-rules.png){width="700" zoomable="yes"}
 
@@ -118,11 +112,11 @@ Nachdem Sie die Stadien gespeichert haben, werden Sie zum Modellarbeitsbereich z
 
 1. Definieren Sie für jede Nicht-Ziel-Phase eine oder mehrere Phasen, die im Fluss (Übergang) als Nächstes kommen.
 
-   Für alle Nicht-Zielphasen muss mindestens eine Phase **[!UICONTROL Zulässiger Transit zu]** ausgewählt sein. Andernfalls ist die Modelllogik nicht gültig und Konten können in diesem Stadium _stecken_ ohne Möglichkeit, zu Erfolg oder Misserfolg zu gelangen.
+   Für alle Nicht-Zielphasen muss mindestens eine Phase **[!UICONTROL Zulässiger Transit zu]** ausgewählt sein. Andernfalls ist die Modelllogik nicht gültig und Konten können in diesem Stadium bleiben, ohne dass ein Fortschritt zu Erfolg oder Misserfolg möglich ist.
 
    ![Konfigurieren von Übergängen zwischen Nicht-Ziel-Stadien](./assets/stages-model-edit-stage-rules-transitons.png){width="700" zoomable="yes"}
 
-   Sie können optional eine Transition aus einer Fehlerphase angeben. Beispielsweise können Sie eine Phase mit dem Namen _Keine Antwort_ als Fehlerphase festlegen. Bestimmen Sie jedoch auch eine Phase mit dem Namen _Resurgence_ als möglichen Übergang, um Fälle zu identifizieren, in denen ein inaktives Konto reaktiviert wird.
+   Sie können optional eine Transition aus einer Fehlerphase angeben. Definieren Sie beispielsweise eine Phase mit dem Namen _Keine Antwort_ als Fehlerphase. Bestimmen Sie jedoch auch eine Phase mit dem Namen _Resurgence_ als möglichen Übergang, um Fälle zu identifizieren, in denen ein inaktives Konto reaktiviert wird.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -169,7 +163,7 @@ _Anzeigen des Entwurfsmodells :_
 
 1. Ändern Sie _Dialogfeld &quot;_ bearbeiten“ die Flussoptionen nach Bedarf.
 
-   Weitere [&#x200B; zu diesen Optionen und deren Auswirkungen auf den Modellfluss finden &#x200B;](#configure-the-workflow-and-transition-rules) unter „Konfigurieren des Workflows und der Übergangsregeln“.
+   Weitere [ zu diesen Optionen und deren Auswirkungen auf den Modellfluss finden ](#configure-the-workflow-and-transition-rules) unter „Konfigurieren des Workflows und der Übergangsregeln“.
 
 1. Wenn Sie mit den definierten Übergangsregeln zufrieden sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -205,7 +199,7 @@ Status - Live, Draft. If a draft stage model is Published, then its status is up
 
 ## Löschen des Modells der Einkaufsgruppenstufen
 
-Sie können das Modell der Käufergruppenphasen löschen, wenn es sich im Status „Entwurf“ oder „Veröffentlicht“ befindet. Falls es veröffentlicht (live) ist, können Sie es nur löschen, wenn es nicht mit einem Lösungsinteresse verbunden ist.
+Sie können das Modell der Käufergruppenschritte löschen, wenn es sich im Status „Entwurf“ oder „veröffentlicht“ befindet. Falls es veröffentlicht (live) ist, können Sie es nur löschen, wenn es nicht mit einem Lösungsinteresse verbunden ist.
 
 1. Navigieren Sie in der linken Navigation zu **[!UICONTROL Konten]** > **[!UICONTROL Einkaufsgruppen]**.
 
@@ -227,7 +221,7 @@ Wenn sich das Modell der Kaufphase im Status _Live_ (veröffentlicht) befindet, 
 
 1. Wählen Sie die Registerkarte _[!UICONTROL Lösungsinteresse]_ aus.
 
-1. Öffnen Sie die Interessenslösung mit einer der folgenden Methoden, um die Eigenschaften für die Interessenslösung zu öffnen, die Sie bearbeiten möchten:
+1. Verwenden Sie eine der folgenden Methoden, um die Eigenschaften für die Projektmappe zu öffnen, die Sie bearbeiten möchten:
 
    * Klicken Sie auf den Namen des Lösungsinteresses.
    * Klicken Sie auf die Auslassungspunkte (**…**) und wählen Sie &quot;**[!UICONTROL &quot;]**.
@@ -246,7 +240,7 @@ Wenn sich das Modell der Kaufphase im Status _Live_ (veröffentlicht) befindet, 
 
 ### Pfade aufteilen
 
-Mit einem [Split-Pfadknoten](../journeys/journey-nodes.md#split-paths) können Sie nach Kaufgruppenschritten auf Konto- oder Personenebene filtern. Fügen Sie beispielsweise eine Einkaufsgruppenstufe als Pfadbedingung hinzu, wenn Sie Pfade durch ein gekauftes Gruppenmitglied aufteilen.
+Mit einem [Split-Pfadknoten](../journeys/split-merge-paths-nodes.md#split-paths) können Sie nach Kaufgruppenschritten auf Konto- oder Personenebene filtern. Fügen Sie beispielsweise eine Einkaufsgruppenstufe als Pfadbedingung hinzu, wenn Sie Pfade durch ein gekauftes Gruppenmitglied aufteilen.
 
 >[!BEGINTABS]
 
@@ -264,7 +258,7 @@ Mit einem [Split-Pfadknoten](../journeys/journey-nodes.md#split-paths) können S
 
    ![Pfadknoten aufteilen - Bedingung hinzufügen](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. Fügen Sie im Bedingungseditor den Filter Einkaufsgruppe hinzu, um den Aufspaltungspfad zu definieren.
+1. Um den Aufspaltungspfad zu definieren, fügen Sie den Filter Einkaufsgruppe im Bedingungseditor hinzu.
 
    * Erweitern Sie auf der linken Seite unten **[!UICONTROL Sonderfilter]** und ziehen Sie das Attribut **[!UICONTROL Hat Einkaufsgruppe]** in den Filterarbeitsbereich.
 
@@ -298,7 +292,7 @@ Mit einem [Split-Pfadknoten](../journeys/journey-nodes.md#split-paths) können S
 
    ![Pfadknoten aufteilen - Bedingung hinzufügen](../journeys/assets/node-split-properties-apply-condition.png){width="500"}
 
-1. Fügen Sie im Bedingungseditor den Filter Einkaufsgruppe hinzu, um den Aufspaltungspfad zu definieren.
+1. Um den Aufspaltungspfad zu definieren, fügen Sie den Filter Einkaufsgruppe im Bedingungseditor hinzu.
 
    * Erweitern Sie auf der linken Seite unten **[!UICONTROL Sonderfilter]** und ziehen Sie das **[!UICONTROL Mitglied der Kaufgruppe]** auf den Filterarbeitsbereich.
 
@@ -320,7 +314,7 @@ Mit einem [Split-Pfadknoten](../journeys/journey-nodes.md#split-paths) können S
 
 ### Aktion für Einkaufsgruppen-Staging-Konto aktualisieren
 
-Mit einem [Kontoaktionsknoten](../journeys/journey-nodes.md#add-an-account-action) können Sie die Phase der Einkaufsgruppe aktualisieren. Die Definition dieses Knotens umfasst die Auswahl des Lösungsinteresses und die Definition der neuen Phase für die Einkaufsgruppe.
+Mit einem [Kontoaktionsknoten](../journeys/action-nodes.md#add-an-account-based-action) können Sie die Phase der Einkaufsgruppe aktualisieren. Die Definition dieses Knotens umfasst die Auswahl des Lösungsinteresses und die Definition der neuen Phase für die Einkaufsgruppe.
 
 >[!NOTE]
 >
@@ -334,7 +328,7 @@ Mit einem [Kontoaktionsknoten](../journeys/journey-nodes.md#add-an-account-actio
 
 1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite **[!UICONTROL Konten]** für die Aktion aus.
 
-1. Definieren Sie die Aktion, um die Einkaufsgruppenphase zu aktualisieren.
+1. Um die Phase der Einkaufsgruppe zu aktualisieren, definieren Sie die Aktion.
 
    * Wählen Sie **[!UICONTROL Aktion für Konten]** die Option **[!UICONTROL Einkaufsgruppenstufe aktualisieren]**.
 
@@ -380,4 +374,4 @@ Verwenden Sie den Eintritt einer Kaufgruppen-Stadienänderung, um das Konto mit 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448703/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448634/?learn=on)

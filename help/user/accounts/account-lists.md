@@ -4,24 +4,16 @@ description: Erstellen Sie statische und dynamische Account-Listen mit benutzerd
 feature: Account Lists
 role: User
 exl-id: 7d7f5612-f0fe-4bb8-ae16-29aa3552f0f9
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e935834c-48b7-43d8-b754-a815196a1b05
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e935834c-48b7-43d8-b754-a815196a1b05
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1358
+source-wordcount: 1339
 ht-degree: 2%
 
 ---
@@ -31,7 +23,7 @@ ht-degree: 2%
 In Journey Optimizer B2B edition ist eine Kontenliste eine Sammlung benannter Konten, die Marketing-Experten für die gezielte Journey-Orchestrierung verwenden können. Eine Account-Liste kann benannte Accounts nach Ihren definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auswählen. Es gibt zwei Arten von Kontolisten:
 
 * **Statisch** - Bei einer statischen Kontoliste ändert sich die Liste nur, wenn Sie die Konten hinzufügen. Sie können Konten manuell hinzufügen, indem Sie einen Filtersatz anwenden, um die Liste auf der Grundlage der aktuellen Kontodaten zu füllen, oder Konten über eine Konto-Journey hinzufügen und entfernen.
-* **Dynamisch** - Mit einer dynamischen Kontenliste definieren Sie einen Filtersatz, mit dem die Liste automatisch kuratiert wird. Das System verwendet diesen Filtersatz, um Konten entsprechend den Änderungen in den Kontoinformationen hinzuzufügen und zu entfernen. Diese Listenverwaltung ähnelt der [Zielgruppensegmentierung in Real-time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
+* **Dynamisch** - Mit einer dynamischen Kontenliste definieren Sie einen Filtersatz, mit dem die Liste automatisch kuratiert wird. Das System verwendet diesen Filtersatz, um Konten entsprechend den Änderungen in den Kontoinformationen hinzuzufügen und zu entfernen. Diese Listenverwaltung ähnelt der [Zielgruppensegmentierung in Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
 Wenn sich eine Kontoliste im _Live_-Status (veröffentlicht) befindet, ist sie für die [Verwendung in Account-Journey- und Marketo Engage-Programmen](./account-lists-journeys.md) verfügbar.
 
@@ -69,7 +61,7 @@ Um die Beschreibung einer Kontoliste anzuzeigen, klicken Sie auf das Symbol _Inf
 
 Wenn Sie eine Kontoliste erstellen, definieren Sie einen Satz von Filtern, um die Liste zu generieren. Sie können damit beispielsweise eine Liste von Konten generieren, bei denen die Branche das Gesundheitswesen ist und der Umsatz über 100 Millionen Dollar beträgt.
 
-1. Klicken Sie _[!UICONTROL der Seite]_ Kontolisten“ oben rechts auf **Seite auf** Kontoliste erstellen“.
+1. Klicken Sie _[!UICONTROL der Seite]_ Kontolisten **[!UICONTROL oben rechts auf]** Kontoliste erstellen“.
 
    ![Klicken Sie auf Kontoliste erstellen](./assets/account-lists-create.png){width="700" zoomable="yes"}
 
@@ -85,27 +77,27 @@ Wenn Sie eine Kontoliste erstellen, definieren Sie einen Satz von Filtern, um di
 
 ## Hinzufügen von Konten zur Kontoliste
 
-Für eine statische Liste können Sie mit der Veröffentlichung der leeren Kontoliste fortfahren und Konten über eine Konto-Journey hinzufügen. Sie können Konten auch manuell hinzufügen, indem Sie einen Filtersatz anwenden, bevor Sie ihn veröffentlichen.
+Bei einer statischen Liste können Sie mit der Veröffentlichung der leeren Kontoliste fortfahren und Konten über eine Konto-Journey hinzufügen. Sie können Konten auch manuell hinzufügen, indem Sie einen Filtersatz anwenden, bevor Sie ihn veröffentlichen.
 
-Für eine dynamische Kontoliste müssen Sie vor der Veröffentlichung den Filtersatz hinzufügen, mit dem Sie die Liste automatisch verwalten möchten.
+Um die Liste für eine dynamische Kontoliste automatisch zu verwalten, fügen Sie den Filtersatz hinzu, bevor Sie ihn veröffentlichen.
 
 >[!BEGINTABS]
 
 >[!TAB Statische Kontoliste]
 
-Nachdem Sie die Liste der statischen Konten erstellt haben, können Sie sie durch Anwenden eines Filtersatzes auffüllen. Sie können auch einen Filtersatz anwenden, um Konten zu einer statischen Kontoliste hinzuzufügen, nachdem sie veröffentlicht wurde (_Live_).
+Nachdem Sie die Liste der statischen Konten erstellt haben, können Sie sie durch Anwenden eines Filtersatzes auffüllen. Um Konten zu einer statischen Kontoliste hinzuzufügen, nachdem sie veröffentlicht wurde _Live_, wenden Sie einen Filtersatz an.
 
 >[!NOTE]
 >
->Wenn Sie möchten, dass die Kontoliste als leer beginnt, wählen Sie keine Filter aus und veröffentlichen Sie einfach die Kontoliste. Es ist nützlich, mit einer leeren Liste zu beginnen, wenn Sie planen, Mitglieder über eine Konto-Journey-Aktion hinzuzufügen (siehe [Aktionsknoten ausführen - Zum Konto hinzufügen](#take-an-action-node---add-to-account)).
+>Wenn Sie möchten, dass die Kontoliste als leer beginnt, wählen Sie keine Filter aus und veröffentlichen Sie die Kontoliste. Es ist nützlich, mit einer leeren Liste zu beginnen, wenn Sie planen, Mitglieder über eine Konto-Journey-Aktion hinzuzufügen (siehe [Aktionsknoten ausführen - Zum Konto hinzufügen](../journeys/action-nodes.md#account-action-constraints)).
 
-1. Klicken Sie auf **[!UICONTROL Konten hinzufügen]**.
+1. Klicken Sie **[!UICONTROL Konten hinzufügen]**.
 
-   ![Hinzufügen eines Kontofilters zum Ausfüllen der Liste &#x200B;](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
+   ![Hinzufügen eines Kontofilters zum Ausfüllen der Liste ](./assets/account-lists-static-new-add-accounts.png){width="700" zoomable="yes"}
 
    Sie können auf diese Funktion in der leeren Listenseite oder oben rechts zugreifen.
 
-1. Fügen Sie im Dialogfeld _[!UICONTROL Konten nach Filter hinzufügen]_ im Menü **[!UICONTROL Kontofilter]** die Attribute und Aktivitäten hinzu, die Sie zum Erstellen des Filtersatzes verwenden möchten:
+1. Fügen Sie im Dialogfeld _[!UICONTROL Konten nach Filter hinzufügen]_ im Menü **[!UICONTROL Kontofilter]** die erforderlichen Attribute und Aktivitäten hinzu, um den Filtersatz zu erstellen:
 
    Die Filter werden in Kategorieordnern verschachtelt. Sie können jeden Ordner erweitern und durch die Listen der verfügbaren Filter scrollen. Oder verwenden Sie das _Suchen_-Tool oben, um den benötigten Filter zu finden.
 
@@ -121,13 +113,13 @@ Nachdem Sie die Liste der statischen Konten erstellt haben, können Sie sie durc
 
 1. Wenn der Filtersatz und die Logik abgeschlossen sind, klicken Sie auf **[!UICONTROL Konten]**.
 
-   Der Populationsprozess kann einige Zeit in Anspruch nehmen, je nach der Anzahl der auszuwertenden und auszufüllenden Konten (die Größe Ihrer Datenbank und die ausgewählten Filterkriterien). Es kann bis zu zwei Stunden dauern, bis Konten in Ihrer Liste ausgefüllt sind.
+   Der Populationsprozess dauert je nach der Anzahl der auszuwertenden und auszufüllenden Konten (Größe der Datenbank und ausgewählte Filterkriterien) etwas Zeit. Es kann bis zu zwei Stunden dauern, bis Konten in Ihrer Liste ausgefüllt sind.
 
 Sie können mit der Veröffentlichung der Liste fortfahren, um sie für das Hinzufügen und Entfernen von Aktionen auf einer Konto-Journey verfügbar zu machen.
 
 >[!TAB Dynamische Kontoliste]
 
-Nachdem Sie eine dynamische Kontoliste erstellt haben, definieren Sie den Filtersatz, mit dem die Liste (Konten hinzufügen/entfernen) verwaltet wird, wenn sie _Live_ (veröffentlicht) ist. Sie können keine Konten über die Konto-Journey hinzufügen/entfernen, aber es ist eine veröffentlichte dynamische Kontoliste für den Zielgruppenknoten des Startkontos verfügbar.
+Nachdem Sie eine dynamische Kontoliste erstellt haben, definieren Sie den Filtersatz, mit dem die Liste (Konten hinzufügen/entfernen) verwaltet wird, wenn sie _Live_ (veröffentlicht) ist. Sie können keine Konten über die Konto-Journey hinzufügen/entfernen, aber eine veröffentlichte dynamische Kontoliste ist für den Zielgruppenknoten des Startkontos verfügbar.
 
 1. Klicken Sie **[!UICONTROL Filter auswählen]**.
 
@@ -149,7 +141,7 @@ Nachdem Sie eine dynamische Kontoliste erstellt haben, definieren Sie den Filter
 
 1. Klicken Sie nach Abschluss des Filtersatzes und der Logik auf **[!UICONTROL Fertig]**.
 
-   Wenn Sie mit dem Filtersatz zufrieden sind, können Sie mit dem Schritt [Liste veröffentlichen](#publish-an-account-list) fortfahren, um sie für den ersten [Konto-Zielgruppenknoten](#account-audience-node) auf einer Konto-Journey verfügbar zu machen.
+   Wenn Sie mit dem Filtersatz zufrieden sind, können Sie mit dem Schritt [Liste veröffentlichen](#publish-an-account-list) fortfahren, um sie für den ersten [Konto-Zielgruppenknoten](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node) auf einer Konto-Journey verfügbar zu machen.
 
    >[!NOTE]
    >
@@ -169,13 +161,13 @@ Sie können mit dem Veröffentlichen einer Kontoliste fortfahren, sobald der Fil
 
 1. Klicken **[!UICONTROL oben]** auf „Veröffentlichen“.
 
-   ![Klicken Sie oben rechts auf Veröffentlichen &#x200B;](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
+   ![Klicken Sie oben rechts auf Veröffentlichen ](./assets/account-lists-static-publish.png){width="700" zoomable="yes"}
 
 1. Klicken Sie im Dialogfeld _[!UICONTROL Statische Kontoliste veröffentlichen]_ zur Bestätigung auf **[!UICONTROL Veröffentlichen]**.
 
    ![Bestätigen der Veröffentlichung für eine statische Kontoliste](./assets/account-lists-static-publish-confirm.png){width="400"}
 
-Der Status der statischen Kontoliste ändert sich in _[!UICONTROL Live]_ und sie ist für die [Verwendung auf einer Konto-Journey) &#x200B;](#account-list-usage-in-account-journeys).
+Der Status der statischen Kontoliste ändert sich in _[!UICONTROL Live]_ und sie ist für die [Verwendung auf einer Konto-Journey) ](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!TAB Dynamische Kontoliste]
 
@@ -183,16 +175,16 @@ Sie können mit dem Veröffentlichen einer dynamischen Kontoliste fortfahren, so
 
 1. Klicken **[!UICONTROL oben]** auf „Veröffentlichen“.
 
-   ![Klicken Sie oben rechts auf Veröffentlichen &#x200B;](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
+   ![Klicken Sie oben rechts auf Veröffentlichen ](./assets/account-lists-dynamic-publish.png){width="700" zoomable="yes"}
 
 1. Klicken Sie im Dialogfeld _[!UICONTROL Dynamische Kontoliste veröffentlichen]_ zur Bestätigung auf **[!UICONTROL Veröffentlichen]**.
 
    ![Bestätigen der Veröffentlichung für eine dynamische Kontoliste](./assets/account-lists-dynamic-publish-confirm.png){width="400"}
 
-Der Status der dynamischen Kontenliste ändert sich in _[!UICONTROL Live]_ und sie kann auf [&#x200B; Konto-Journey verwendet &#x200B;](#account-list-usage-in-account-journeys).
+Der Status der dynamischen Kontenliste ändert sich in _[!UICONTROL Live]_ und sie kann auf [ Konto-Journey verwendet ](../journeys/account-audience-nodes.md#set-the-audience-for-the-account-audience-node).
 
 >[!ENDTABS]
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448658/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3448636/?learn=on)

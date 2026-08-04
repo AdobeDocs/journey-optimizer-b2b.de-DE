@@ -5,26 +5,20 @@ feature: Assets, Content
 role: User
 autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ad794b50f6c6f3b59e853e99f7983136ee098e18
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: c8402946-ff35-44c5-ab98-74c1bba0975f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: edb796d131c2b058215b73519b845125432d84f8
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: 916
 ht-degree: 0%
 
 ---
 
 # Content Credentials
 
-Marketing-Organisationen sind mehr denn je besorgt über Inhaltstransparenz, KI-Offenlegung und die Verhinderung von Manipulationen an Assets. Die Content Authenticity Initiative (CAI) von Adobe erstellt Tools, die dem technischen Standard [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) entsprechen. _Content Credentials_, verschlüsselte, manipulationssichere Metadaten, können Betrachtern dabei helfen, die Herkunft von Inhalten zu verstehen und die Integrität von Marken-Assets sicherzustellen. Zu diesen Informationen gehören:
+Marketing-Organisationen sind mehr denn je besorgt über Inhaltstransparenz, KI-Offenlegung und die Verhinderung von Manipulationen an Assets. Die Content Authenticity Initiative (CAI) von Adobe erstellt Tools, die dem technischen Standard [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) entsprechen. _Content Credentials_ ist ein Satz verschlüsselter, manipulationssicherer Metadaten, die Betrachtern helfen, die Herkunft von Inhalten zu verstehen und die Integrität von Marken-Assets sicherzustellen. Zu diesen Informationen gehören:
 
 * Aussteller oder Unterzeichner - Informationen über die Entität oder das Unternehmen, die bzw. das die digitale Signatur zum Zertifizieren oder Signieren des Assets ausgestellt hat.
 * Anfragedatum - Das Datum, an dem die Content Credential auf das Asset angewendet wurde.
@@ -34,7 +28,7 @@ Marketing-Organisationen sind mehr denn je besorgt über Inhaltstransparenz, KI-
 * Verwendetes KI-Tool : Wenn zum Bearbeiten oder Erstellen des Assets generative KI verwendet wurde, kann der Name des verwendeten Modells einbezogen werden.
 * Weitere relevante Informationen - Es können auch zusätzliche Daten aufgenommen werden, um mehr Kontext über den Verlauf eines Assets anzubieten.
 
-Ausführliche Informationen zum Asset-Verlauf erhalten Sie mit dem Adobe Content Authenticity [Inspektions-Tool](https://contentauthenticity.adobe.com/inspect).
+Umfassende Informationen zum Asset-Verlauf erhalten Sie mit dem Adobe Content Authenticity [Inspektions-Tool](https://contentauthenticity.adobe.com/inspect).
 
 Content Credentials wird mit der Bilddatei beibehalten. Wenn ein Bild, das mit Generative AI generiert oder bearbeitet wurde, in [!DNL Adobe Journey Optimizer B2B Edition] hochgeladen oder aus exportiert wird, bleibt sein Content Credentials erhalten.
 

@@ -6,32 +6,23 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e4bd5f48-22a4-465d-a046-5ffb52e27856
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 75a4fec07c880f52ac1e8981b5f4416a2f69afe9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 2690
-ht-degree: 3%
+source-wordcount: 2626
+ht-degree: 1%
 
 ---
 
 # KI-Assistent für Landingpage-Inhalte {#generative-full-content}
 
-Der KI-Assistent für Landingpage-Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] verwendet die KI-gestützten Inhaltsgenerierungsfunktionen von Adobe und revolutioniert die Art und Weise, wie Marketing-Experten professionelle und markenkonsistente Landingpage-Inhalte erstellen. Mit fortschrittlichen generativen KI-Modellen und einem tiefen Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte. Es verwendet Ihr Marketing-Ziel und optimiert den Inhalt für Markenstile, Layouts, Ton und mehr. Der KI-Assistent macht die Erstellung und Ausführung von Kampagnen und Programmen intuitiver, einfacher und unkomplizierter. Durch das Hinzufügen dieser Funktion zu Ihren Workflows können Sie Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
+Der KI-Assistent für Landingpage-Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] verwendet die KI-gestützten Inhaltsgenerierungsfunktionen von Adobe und revolutioniert die Art und Weise, wie Marketing-Experten professionelle und markenkonsistente Landingpage-Inhalte erstellen. Mit fortschrittlichen generativen KI-Modellen und einem tiefen Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte. Es verwendet Ihr Marketing-Ziel und optimiert den Inhalt für Markenstile, Layouts, Ton und mehr. Der KI-Assistent macht die Erstellung und Ausführung von Kampagnen und Programmen intuitiver, einfacher und effizienter. Durch das Hinzufügen dieser Funktion zu Ihren Workflows können Sie Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
 
 Sie können vollständige Inhaltserlebnisse für Ihre Landingpages generieren, einschließlich Text und Bildern. Mit dieser robusten Funktion können Sie ansprechende, markeninterne Inhalte erstellen, die mit Ihrer Audience verbunden sind.
 
@@ -45,9 +36,9 @@ Sie können vollständige Inhaltserlebnisse für Ihre Landingpages generieren, e
 
 ## Richtlinien und Einschränkungen
 
-Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die [Richtlinien und Einschränkungen](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Benutzerzustimmung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist auch eine Akzeptanz erforderlich, bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die [Richtlinien und Einschränkungen](../ai-assistant/generative-ai-content.md#general-guidelines-and-limitations). [Benutzerzustimmung](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} ist auch eine Akzeptanz erforderlich, bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
-Da sich Adobe verpflichtet hat, die Verwendung generativer KI-Tools bei der Medienerstellung transparenter zu gestalten, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/de/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} für alle Inhalte oder Projekte an, die ein Firefly-generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
+Um die Transparenz bei generativer KI zu fördern, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} beim Herunterladen oder Exportieren auf Firefly-generierte Assets an.
 
 Die folgenden Einschränkungen und Richtlinien gelten für KI-Assistenten-Funktionen, die für die Erstellung von Landingpage-Inhalten in [!DNL Journey Optimizer B2B Edition] verwendet werden:
 
@@ -59,11 +50,11 @@ Die folgenden Einschränkungen und Richtlinien gelten für KI-Assistenten-Funkti
 
 ## Eingabe und Einstellungen für die Inhaltserstellung
 
-Sie können vollständige Inhalte für eine Landingpage oder für ausgewählte Komponenten auf der Seite generieren. Wenn Sie die Tools des KI-Assistenten verwenden, um die benötigten Inhalte zu generieren, geben Sie die Eingabe einschließlich der Eingabeaufforderungen und Referenzinhalte sowie die Einstellungen für Text und Bilder an.
+Sie können vollständige Inhalte für eine Landingpage oder für ausgewählte Komponenten auf der Seite generieren. Geben Sie bei Verwendung des KI-Assistenten Eingabe, Eingabeaufforderungen, Referenzinhalte und Einstellungen für Text und Bilder an.
 
-### Eingabeaufforderungen
+### Prompts
 
-Verwenden Sie klar definierte Eingabeaufforderungen für das generative KI-Modell, um die Interpretation präzise durchzuführen. Das von Ihnen angegebene Marketing-Ziel bzw. die von Ihnen angegebene Eingabeaufforderung wirkt sich stark auf die Qualität des generierten Inhalts aus.
+Verwenden Sie klar definierte Eingabeaufforderungen für das generative KI-Modell, um die Interpretation präzise durchzuführen. Das von Ihnen angegebene Marketing-Ziel/die von Ihnen angegebene Eingabeaufforderung wirkt sich auf die Qualität des generierten Inhalts aus.
 
 ![Aufforderungsfeld](./assets/gen-ai-prompt.png){width="320"}
 
@@ -77,7 +68,7 @@ Eine effektive Eingabeaufforderung ist für die Erstellung des bestmöglichen In
 
 ![KI-Assistent - Zugriff auf die Eingabeaufforderungsbibliothek](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Wählen Sie die Eingabeaufforderung aus, die Ihren Zielen am besten entspricht, und klicken Sie auf **[!UICONTROL Diese Eingabeaufforderung ausprobieren]**. Ersetzen Sie im _[!UICONTROL Eingabeaufforderung]_ alle Platzhalter (z. B. `[Key Feature/Information]`) durch die erforderlichen Werte, die Ihre Marke, Ihr Angebot, Ihre Kampagne und Ihre Anwendungsfälle angeben.
+Wählen Sie die Eingabeaufforderung aus, die Ihren Zielen am besten entspricht, und klicken Sie auf **[!UICONTROL Diese Eingabeaufforderung ausprobieren]**. Ersetzen Sie im _[!UICONTROL Eingabeaufforderung]_ die Platzhalter (z. B. `[Key Feature/Information]`) durch Ihre Marken-, Angebots-, Kampagnen- und Anwendungsfalldetails.
 
 >[!ENDSHADEBOX]
 
@@ -89,7 +80,7 @@ Erweitern Sie die **[!UICONTROL Texteinstellungen]** im rechten Bereich und lege
 * **[!UICONTROL Marketing-Journey]**-Schritt: Wählen Sie den [Gruppen-](../buying-groups/buying-group-stages.md)) aus, der für das Targeting der Nachricht verwendet werden soll.
 * **[!UICONTROL Kommunikationsstrategie]** - Wählen Sie den am besten geeigneten Kommunikationsstil für Ihren generierten Text.
 * **[!UICONTROL Language]** - Wählen Sie die Sprache Ihrer generierten Inhalte aus.
-* **[!UICONTROL Tone]** - Der Ton sollte bei Ihrer Zielgruppe Anklang finden. Sie können die Nachricht zum Beispiel so anpassen, dass sie informativ, verspielt oder überzeugend klingt.
+* **[!UICONTROL Tone]** - Der Ton, der bei Ihrer Zielgruppe Anklang findet. Sie können die Nachricht zum Beispiel so anpassen, dass sie informativ, verspielt oder überzeugend klingt.
 
 ![Bedienfeld Texteinstellungen mit Optionen für Kauf-Gruppen, Marketing-Journey, Kommunikationsstrategie, Sprache und Ton](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
 
@@ -99,10 +90,10 @@ Klicken Sie auf den Pfeil nach links, um zur Hauptseite (_[!UICONTROL )]_.
 
 Um Bilder in Ihren generierten Inhalt aufzunehmen, erweitern Sie **[!UICONTROL Bereich „Bildeinstellungen]** und legen Sie die Optionen fest.
 
-Die **[!UICONTROL Generieren von Bildern mit KI]** ist standardmäßig deaktiviert. Aktivieren Sie diese Funktion und legen Sie die folgenden Optionen fest, um generierte Bilder in die vorgeschlagenen Inhaltsvarianten aufzunehmen:
+Das System deaktiviert standardmäßig die Option **[!UICONTROL Generieren von Bildern mithilfe]** KI . Aktivieren Sie diese Funktion und legen Sie die folgenden Optionen fest, um generierte Bilder in die vorgeschlagenen Inhaltsvarianten aufzunehmen:
 
 * **[!UICONTROL Generatives Modell]**: Wählen Sie aus dem einsatzbereiten, von Adobe bereitgestellten Modell, dem Partnermodell für spezielle Funktionen oder konfigurierten benutzerdefinierten Modellen, die für Ihre Marken-Assets trainiert wurden. Weitere Informationen zu generativen Modellen finden Sie unter _[Generative KI-Modelle für die Markenausrichtung](generative-ai-models.md)_.
-* **[!UICONTROL Seitenverhältnis]**: Wenn eine Bildkomponente ausgewählt wird, bestimmt diese Einstellung die Breite und Höhe des Assets. Sie können aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 wählen oder eine benutzerdefinierte Größe eingeben.
+* **[!UICONTROL Seitenverhältnis]**: Wenn eine Bildkomponente ausgewählt wird, bestimmt diese Einstellung die Breite und Höhe des Assets. Wählen Sie aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 oder geben Sie eine benutzerdefinierte Größe ein.
 * **[!UICONTROL Inhaltstyp]**: Der Typ kategorisiert die Art des visuellen Elements, wobei zwischen verschiedenen Formen visueller Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
 * **[!UICONTROL Visuelle Intensität]**: Kontrollieren Sie die Wirkung des Bildes, indem Sie seine Intensität anpassen. Eine niedrigere Einstellung (z. B. 2) erzeugt ein weicheres, zurückhaltenderes Erscheinungsbild, während eine höhere Einstellung (z. B. 10) das Bild lebendiger und visuell leistungsfähiger macht.
 * **[!UICONTROL Farbe und Ton]**: Das Gesamtbild der Farben innerhalb eines Bildes und die Stimmung oder Atmosphäre, die es vermittelt.
@@ -137,17 +128,17 @@ Führen Sie die folgenden Schritte entsprechend dem Typ der Inhaltserstellung f�
 
 >[!TAB Vollständige Seite]
 
-Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollständige Generierung von Landingpages zu verwenden, indem Sie eine vorhandene Landingpage-Vorlage verfeinern:
+Gehen Sie wie folgt vor, um eine vollständige Landingpage zu generieren, indem Sie eine vorhandene Vorlage verfeinern:
 
-1. Klicken [&#x200B; nach dem Erstellen der &#x200B;](./landing-pages-create-publish.md#create-landing-page) auf **[!UICONTROL Landingpage bearbeiten]**.
+1. Klicken [ nach dem Erstellen der ](./landing-pages-create-publish.md#create-landing-page) auf **[!UICONTROL Landingpage bearbeiten]**.
 
 1. Wählen Sie eine Vorlage.
 
    Die vollständige Inhaltserstellung erfordert eine Vorlage. Dabei kann es sich um eine von Adobe bereitgestellte Standardvorlage oder um eine gespeicherte Vorlage handeln. Sie können auch die Option _[!UICONTROL HTML importieren]_ zum Importieren einer Vorlage verwenden.
 
-   Weitere Informationen zur Verwendung einer Landingpage-Vorlage finden Sie unter _[Auswählen einer gespeicherten oder Beispielvorlage](./landing-pages.md#select-a-saved-or-sample-template)_.
+   Weitere Informationen zur Verwendung einer Landingpage-Vorlage finden Sie unter _[Auswählen einer Vorlage](./landing-pages-create-publish.md#select-template)_.
 
-1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
+1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
 
    ![KI-Assistenten-Umschalter im Design-Bereich der Landingpage](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
 
@@ -155,11 +146,11 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollstän
 
 1. (Beta) Wählen Sie Ihre **[!UICONTROL Marke]**, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
 
-   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ &#x200B;](./brands-overview.md) definieren.
+   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ ](./brands-overview.md) definieren.
 
 1. Geben **[!UICONTROL im Feld &quot;]**&quot; eine Beschreibung dessen ein, was generiert werden soll.
 
-   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompt-library), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
+   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompts), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
 
    ![KI-Assistent - Bibliothek mit Eingabeaufforderungen zum Generieren von Landingpage-Inhalten](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
 
@@ -167,7 +158,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollstän
    >
    >Wenn Sie mit der Einholung von generierten Inhalten noch nicht vertraut sind, lesen Sie den Abschnitt _[Best Practices zur Einholung von](../ai-assistant/generative-ai-content.md#generative-ai-prompting-guide)_&quot;.
 
-1. Füllen Sie die Einstellungen für Inhaltsanleitungen aus, um den generierten Inhalt anzupassen:
+1. Um den generierten Inhalt anzupassen, füllen Sie die Einstellungen für Inhaltsanleitungen aus:
 
    * [**[!UICONTROL Texteinstellungen]**](#text-settings) - Anleitung für den generierten Textinhalt.
    * [**[!UICONTROL Bildeinstellungen]**](#image-settings) - Wenn Sie Bilder in den generierten Inhalt aufnehmen möchten, aktivieren Sie die Bildgenerierung und geben Sie eine Anleitung an.
@@ -179,7 +170,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollstän
 
    * Klicken Sie auf _Symbol_ Vollbild“ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld _[!UICONTROL Landingpage generieren]_ zu öffnen
 
-   * Verwenden Sie bei Bedarf die [Verfeinerungsaktionen](#refine-a-variation) um die Varianz so anzupassen, dass sie genau Ihren Anforderungen entspricht.
+   * Verwenden Sie bei Bedarf die [Verfeinerungsaktionen](#refine-a-variation) um die Variante so anzupassen, dass sie genau Ihren Anforderungen entspricht.
 
    * [Feedback senden](#submit-variation-feedback) für die generierten Varianten, indem Sie auf das Symbol _Daumen hoch_, _Daumen runter_ oder _Flag_ klicken und den Grund auswählen, der Ihr Feedback am besten zusammenfasst.
 
@@ -189,11 +180,11 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten für die vollstän
 
 >[!TAB Nur Text]
 
-Führen Sie die folgenden Schritte aus, um den KI-Assistenten zur Verfeinerung oder Verbesserung des Textinhalts für eine vorhandene Landingpage zu verwenden:
+Gehen Sie wie folgt vor, um den Textinhalt für eine vorhandene Landingpage zu verfeinern oder zu verbessern:
 
 1. Wählen Sie im Design-Bereich der Landingpage eine _Text_-Komponente aus, um auf die spezifischen Inhalte zuzugreifen.
 
-1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
+1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
 
    ![KI-Assistenten-Umschalter im Design-Bereich der Landingpage](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -207,9 +198,9 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zur Verfeinerung o
 
    ![KI-Assistent - Texteinstellungen](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
 
-   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompt-library), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
+   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompts), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
 
-1. Füllen Sie die Einstellungen für Inhaltsanleitungen aus, um den generierten Inhalt anzupassen:
+1. Um den generierten Inhalt anzupassen, füllen Sie die Einstellungen für Inhaltsanleitungen aus:
 
    * [**[!UICONTROL Texteinstellungen]**](#text-settings) - Anleitung für den generierten Textinhalt.
 
@@ -221,7 +212,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zur Verfeinerung o
 
    * Klicken Sie auf das _Vollbild_-Symbol ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld _[!UICONTROL Text generieren]_ zu öffnen
 
-   * Verwenden Sie bei Bedarf die [Verfeinerungsaktionen](#refine-a-variation) um die Varianz so anzupassen, dass sie genau Ihren Anforderungen entspricht.
+   * Verwenden Sie bei Bedarf die [Verfeinerungsaktionen](#refine-a-variation) um die Variante so anzupassen, dass sie genau Ihren Anforderungen entspricht.
 
    * [Feedback senden](#submit-variation-feedback) für die generierten Varianten, indem Sie auf das Symbol _Daumen hoch_, _Daumen runter_ oder _Flag_ klicken und den Grund auswählen, der Ihr Feedback am besten zusammenfasst.
 
@@ -231,11 +222,11 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zur Verfeinerung o
 
 >[!TAB Nur Bild]
 
-Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu verwenden und den Bildinhalt für eine vorhandene Landingpage zu verfeinern oder zu verbessern:
+Gehen Sie wie folgt vor, um den Bildinhalt für eine vorhandene Landingpage zu verfeinern oder zu verbessern:
 
 1. Wählen Sie im Design-Bereich der Landingpage eine Komponente _Bild_ aus, um auf die spezifischen Inhalte zuzugreifen.
 
-1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
+1. Wählen Sie in der äußeren Leiste des rechten Bedienfelds das Symbol _KI-Assistent_ aus (![KI-Assistent für ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"}).
 
    ![KI-Assistenten-Umschalter im Design-Bereich der Landingpage](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
 
@@ -249,9 +240,9 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu verwenden und d
 
    ![KI-Assistent - Texteinstellungen](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
 
-   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompt-library), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
+   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompts), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
 
-1. Füllen Sie die Einstellungen für Inhaltsanleitungen aus, um den generierten Inhalt anzupassen:
+1. Um den generierten Inhalt anzupassen, füllen Sie die Einstellungen für Inhaltsanleitungen aus:
 
    * [**[!UICONTROL Bildeinstellungen]**](#image-settings) - Wenn Sie Bilder in den generierten Inhalt aufnehmen möchten, aktivieren Sie die Bildgenerierung und geben Sie eine Anleitung an.
 
@@ -269,7 +260,7 @@ Führen Sie die folgenden Schritte aus, um den KI-Assistenten zu verwenden und d
 
    Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Bilder und Referenzinhalte (falls erforderlich) und zum Neugenerieren der Varianten.
 
-   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [&#x200B; zur Verwendung von Adobe Express zum Verfeinern &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
+   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [ zur Verwendung von Adobe Express zum Verfeinern ](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
 
    ![KI-Assistent - Vorschau von Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
 
@@ -291,7 +282,7 @@ Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse optimie
 
 1. Ermitteln Sie die Variante, die Ihren Zielen am besten entspricht, und klicken Sie auf das Symbol _Vollbild_ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld zu öffnen.
 
-   ![Rufen Sie das Dialogfeld „Generieren“ &#x200B;](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+   ![Rufen Sie das Dialogfeld „Generieren“ ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 1. Wenn Sie mit der ausgewählten Variante zufrieden sind, klicken Sie auf **[!UICONTROL Auswählen]**, um sie auf die Arbeitsfläche anzuwenden.
 
@@ -301,7 +292,7 @@ Klicken Sie auf die **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsf
 
 * **[!UICONTROL Entwickeln]** - Der KI-Assistent kann Ihnen dabei helfen, bestimmte Themen zu vertiefen und zusätzliche Details bereitzustellen, um das Verständnis und die Interaktion zu verbessern.
 
-* **[!UICONTROL Zusammenfassen]** - Lange Informationen können Seitenbetrachter überlasten. Nutzen Sie den KI-Assistenten, um die wichtigsten Punkte in klaren, prägnanten Aussagen zusammenzufassen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen anregen.
+* **[!UICONTROL Zusammenfassen]** - Lange Informationen können Seitenbetrachter überlasten. Verwenden Sie den KI-Assistenten, um wichtige Punkte in klaren, knappen Zusammenfassungen zu verdichten, die Aufmerksamkeit erregen und Empfänger zum weiteren Lesen ermutigen.
 
 * **[!UICONTROL Umformulieren]** - Die Nachricht wird neu geschrieben, wobei ihre Bedeutung erhalten bleibt. Mit dieser Option können Sie alternative Formulierungen generieren, den Lesefluss verbessern oder die Ausdrucksweise anpassen, ohne die Kernbotschaft zu ändern.
 

@@ -4,27 +4,22 @@ description: Account Insights mit KI-generierten Zusammenfassungen, Absichtserke
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bcid: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 7%
 
 ---
 
 # Kontodetails
 
-Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Kontonamen klicken _wird die_ „Kontodetails“ angezeigt. Auf dieser Seite finden Sie nützliche Informationen zum -Konto, einschließlich der Zusammenfassungen der generativen KI. Es gibt auch [Aktionen](#account-actions) die Sie für Kontakte ausführen können, die mit dem Konto verknüpft sind.
+Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Kontonamen klicken _wird die_ „Kontodetails“ angezeigt. Diese Seite enthält Informationen zum -Konto, einschließlich Zusammenfassungen zur generativen KI. Es gibt auch [Aktionen](#send-email) die Sie für Kontakte ausführen können, die mit dem Konto verknüpft sind.
 
 ![Zugriff auf Kontodetails](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -63,7 +58,7 @@ In Journey Optimizer B2B edition prognostiziert das Absichtserkennungsmodell bas
 
 ![Konto-Kontaktabdeckung](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-Im Abschnitt _[!UICONTROL Kontaktabdeckung]_ wird die Anzahl der Kontakte aus dem Konto mit einer bestimmten Rolle angezeigt, die mit einem Lösungsinteresse verbunden ist. Die Zuweisung von Rollen und Lösungsinteressen basiert auf der Vorlage „Einkaufsgruppenrollen“. Klicken Sie auf eine Zelle, um die folgenden Details anzuzeigen:
+Im Abschnitt _[!UICONTROL Kontaktabdeckung]_ wird die Anzahl der Account-Kontakte mit einer bestimmten Rolle angezeigt, die mit einem Lösungsinteresse verbunden ist. Die Zuweisung von Rollen und Lösungsinteressen basiert auf der Vorlage „Einkaufsgruppenrollen“. Klicken Sie auf eine Zelle, um die folgenden Details anzuzeigen:
 
 * Beschreibung, im folgenden Format: _x Personen haben meine Rolle für ein Lösungsinteresse_
 * Spalten
@@ -93,10 +88,10 @@ Im Abschnitt _[!UICONTROL Kontaktüberschneidung]_ werden Kontakte aus dem Konto
 
 Klicken Sie auf _Information_ ( ![Informationssymbol](../assets/do-not-localize/icon-info.svg) ) neben dem Kontaktnamen, um eine Tabelle mit den folgenden Details anzuzeigen:
 
-* Einkaufsgruppe (klicken Sie auf den Namen, um die [Einkaufsgruppendetails) &#x200B;](../buying-groups/buying-group-details.md) öffnen
+* Einkaufsgruppe (klicken Sie auf den Namen, um die [Einkaufsgruppendetails) ](../buying-groups/buying-group-details.md) öffnen
 * Rolle
 * Lösungsinteresse
-* Produktabsicht (falls [&#x200B; konfiguriert](../admin/intent-data.md))
+* Produktabsicht (falls [ konfiguriert](../admin/intent-data.md))
 * Produkt
 
 Klicken Sie oben links auf _Filter_-Symbol ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die Datenanzeige mit einem der folgenden Attribute zu filtern:

@@ -6,21 +6,15 @@ role: User
 exl-id: e1272f97-e46d-4751-82b8-5b2565c4b180
 autotag-review: '2026-05-27T16:19:08.483Z'
 TQID: 'https://experienceleague.adobe.com/Y3QgxZVcu76zBWJp9Ky7dUWjSOGg5JoPcPzPFrNsDXo'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: e7bdffdc-2950-4be5-8c23-84240a995090
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: e7bdffdc-2950-4be5-8c23-84240a995090
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: 1625
 ht-degree: 7%
 
 ---
@@ -47,7 +41,7 @@ ht-degree: 7%
 >title="Informationen zu Strukturkomponenten"
 >abstract="Strukturkomponenten sind Layout-Elemente, mit denen Sie die Struktur einer Vorlage gestalten können."
 
-Verwenden Sie die _Strukturkomponenten_ im visuellen Design-Bereich, um die Struktur Ihrer Inhalte zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie die Form Ihres Inhalts-Layouts schnell definieren. Jede Strukturkomponente erstreckt sich über den horizontalen Bereich und Sie können sie stapeln, um das Layout vertikal zu erstellen. Unterteilen Sie jede Komponente in Spalten, um jeden benötigten Inhaltsblock zu bilden.
+Verwenden Sie die _Strukturkomponenten_ im visuellen Design-Bereich, um die Struktur Ihrer Inhalte zu definieren. Durch das Hinzufügen und Verschieben von strukturellen Elementen mit einfachem Drag-and-Drop können Sie die Struktur Ihres Inhalts-Layouts schnell definieren. Jede Strukturkomponente erstreckt sich über den horizontalen Bereich und Sie können sie stapeln, um das Layout vertikal zu erstellen. Um jeden benötigten Inhaltsblock zu bilden, unterteilen Sie jede Komponente in Spalten.
 
 ## Strukturbibliothek
 
@@ -55,14 +49,14 @@ Oben in der _[!UICONTROL Komponenten]_ werden im Abschnitt **[!UICONTROL Struktu
 
 | Symbol | Komponente. | Beschreibung |
 | ----- | ----------- | ----------- |
-| ![1:1 Spaltensymbol](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 Spalte] | Ein einspaltiger Container, der die Breite des Raums ausfüllt. |
-| ![1:2 Spaltensymbol](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 Spalte Links] | Ein zweispaltiger Container, der ein Verhältnis von 1:2 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Drittel der Breite ein, die zweite Spalte (rechts) die restlichen zwei Drittel. |
-| ![1:3 Spaltensymbol](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 Spalte Links] | Ein zweispaltiger Container, der ein Verhältnis von 1:3 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Viertel der Breite ein, die zweite Spalte (rechts) die restlichen drei Viertel. |
-| ![2:1 Spaltensymbol](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 Spalte rechts] | Ein zweispaltiger Container, der ein Verhältnis von 2:1 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt zwei Drittel der Breite ein, die zweite Spalte (rechts) das restliche Drittel. |
-| ![2:2 Spaltensymbol](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 Spalte] | Ein zweispaltiger Container, der ein Verhältnis von 2:2 verwendet, um die Breite des Raums auszufüllen. Die linken und rechten Spalten haben die gleiche Breite. |
-| ![3:1 Spaltensymbol](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 Spalte rechts] | Ein zweispaltiger Container, der ein Verhältnis von :1 zu nutzt, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Viertel (75 %) der Breite ein, die zweite Spalte (rechts) das verbleibende Viertel (25 %). |
-| ![3:3 Spaltensymbol](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 Spalte] | Ein dreispaltiger Container, der ein Verhältnis von :3 zu nutzt, um die Breite des Raums auszufüllen. Alle drei Spalten haben die gleiche Breite. |
-| ![4:4 Spaltensymbol](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 Spalte] | Ein vierspaltiger Container, der ein 4::4-Verhältnis verwendet, um die Breite des Raums auszufüllen. Alle vier Spalten haben die gleiche Breite. |
+| ![1:1-Spaltensymbol](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1-Spalte] | Ein einspaltiger Container, der die Breite des Raums ausfüllt. |
+| ![1:2-Spaltensymbol](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 Spalte Links] | Ein zweispaltiger Container, der ein Verhältnis von 1:2 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Drittel der Breite ein, die zweite Spalte (rechts) die restlichen zwei Drittel. |
+| ![1:3-Spaltensymbol](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 Spalte Links] | Ein zweispaltiger Container, der ein Verhältnis von 1:3 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Viertel der Breite ein, die zweite Spalte (rechts) die restlichen drei Viertel. |
+| ![2:1-Spaltensymbol](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 Spalte Rechts] | Ein zweispaltiger Container, der ein Verhältnis von 2:1 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt zwei Drittel der Breite ein, die zweite Spalte (rechts) das restliche Drittel. |
+| ![2:2-Spaltensymbol](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 Spalte] | Ein zweispaltiger Container, der ein Verhältnis von 2:2 verwendet, um die Breite des Raums auszufüllen. Die linken und rechten Spalten haben die gleiche Breite. |
+| ![3:1-Spaltensymbol](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 Spalte Rechts] | Ein zweispaltiger Container, der ein Verhältnis von 3:1 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Viertel (75 %) der Breite ein, die zweite Spalte (rechts) das verbleibende Viertel (25 %). |
+| ![3:3-Spaltensymbol](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL :3 Spalte] | Ein dreispaltiger Container, der ein Verhältnis von 3:3 verwendet, um die Breite des Raums auszufüllen. Alle drei Spalten haben die gleiche Breite. |
+| ![4:4-Spaltensymbol](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL :4 Spalte] | Ein vierspaltiger Container, der ein Verhältnis von 4:4 verwendet, um die Breite des Raums auszufüllen. Alle vier Spalten haben die gleiche Breite. |
 | ![n:n Spaltensymbol](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n Spalte] | Eine anpassbare Spaltenstruktur, die den Raum entsprechend den von Ihnen definierten Spalten ausfüllt. Sie legen die Anzahl der Spalten (zwischen zwei und zehn) und die Breite jeder Spalte einzeln fest. [Weitere Informationen](#change-nn-columns) |
 
 ## Hinzufügen von Strukturkomponenten
@@ -86,7 +80,7 @@ Die Symbolleiste wird auf der Arbeitsfläche angezeigt, wenn Sie sie auf der Arb
 
 ### Einstellungen der Komponente
 
-Nachdem Sie eine Komponente hinzugefügt haben, wird sie im visuellen Design-Bereich ausgewählt und ihre Eigenschaften werden im rechten Bedienfeld angezeigt. Die _[!UICONTROL Einstellungen]_ wird standardmäßig angezeigt. Sie können auch jederzeit eine Strukturkomponente auswählen, um die Einstellungen zu ändern.
+Nachdem Sie eine Komponente hinzugefügt haben, wird sie im visuellen Design-Bereich ausgewählt und ihre Eigenschaften werden im rechten Bedienfeld angezeigt. Das System zeigt standardmäßig _[!UICONTROL Registerkarte]_ Einstellungen“ an. Sie können auch jederzeit eine Strukturkomponente auswählen, um die Einstellungen zu ändern.
 
 #### Anzeigeoptionen
 
@@ -111,7 +105,7 @@ Sie können die Kopf- oder Fußzeilenbezeichnung entfernen, indem Sie die Kompon
 
 Bei kleineren Bildschirmen oder Anzeigefenstern werden die Spalten in der Strukturkomponente als gestapelt angezeigt, es sei denn, Sie ändern die Standardeinstellung. Wenn Sie die mehrspaltige Strukturkomponente ausgewählt haben, ändern Sie die Einstellung **[!UICONTROL Spalten auf Mobilgeräten nicht stapeln]** indem Sie den Schieberegler nach rechts verschieben.
 
-![Spalten auf mobilen &#x200B;](./assets/structure-component-settings-stack-columns.png){width="250"} nicht stapeln
+![Spalten auf mobilen ](./assets/structure-component-settings-stack-columns.png){width="250"} nicht stapeln
 
 ## Komponentenstile
 
@@ -127,9 +121,9 @@ Aktivieren Sie das Kontrollkästchen und klicken Sie auf das Farbfeld, um eine F
 
 ![Hintergrundfarbauswahl](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-#### [!UICONTROL Hintergrundbild]
+#### [!UICONTROL Hintergrundbild] {#background-image}
 
-Bewegen Sie den Umschalter, um die Einstellungen für das Hintergrundbild zu aktivieren.
+Um die Einstellungen für das Hintergrundbild zu aktivieren, verschieben Sie den Umschalter.
 
 ![Einstellungen für Hintergrundbilder](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -159,7 +153,7 @@ Verwenden Sie die Option **[!UICONTROL Bildplatzierung]**, um festzulegen, wie d
 
 ### Andere Stile
 
-Sie können andere Strukturkomponentenstile anwenden, um ihre Anzeige in der E-Mail-Nachricht oder Landingpage anzupassen.
+Um die Anzeige in der E-Mail-Nachricht oder Landingpage anzupassen, können Sie andere Strukturkomponentenstile anwenden.
 
 +++Rahmen
 
@@ -209,7 +203,7 @@ Verschieben Sie auf der Arbeitsfläche das Symbol für die Spaltengröße, um di
 
 ### Spaltenstile
 
-Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festlegen, die auf diese Spalte angewendet werden.
+Um Stile festzulegen, die auf diese Spalte angewendet werden sollen, wählen Sie die Spalte auf der Arbeitsfläche aus.
 
 +++Hintergrund
 
@@ -217,7 +211,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
   ![Hintergrundfarbauswahl](../../assets/content-design-shared/content-components-styles-background-color.png){width="300"}
 
-* **[!UICONTROL Hintergrundbild]** - Verschieben Sie den Umschalter, um die Einstellungen für das Hintergrundbild zu aktivieren.
+* **[!UICONTROL Hintergrundbild]** - Um die Einstellungen für das Hintergrundbild zu aktivieren, verschieben Sie die Umschaltauswahl.
 
   ![Einstellungen für Hintergrundbilder](./assets/structure-components-background-image-settings.png){width="250"}
 
@@ -251,7 +245,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
 ## Navigationsbaum
 
-Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 
