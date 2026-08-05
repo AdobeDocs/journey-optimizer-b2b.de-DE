@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1075
+source-wordcount: 1077
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ Die Webkanalkonfiguration in Journey Optimizer B2B edition erfordert die folgend
 
    >[!NOTE]
    >
-   >Namen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-`.
+   >Namen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich (`_`), Punkt (`.`) und Bindestrich (`-`) verwenden.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Web-Einstellungen]** eine der folgenden Optionen aus:
 
@@ -63,7 +63,7 @@ Die Webkanalkonfiguration in Journey Optimizer B2B edition erfordert die folgend
 
      ![Auswählen einer Seiten-URL für eine einseitige Web-Kanal-Konfiguration](./assets/config-web-channel-create-single-page.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Matching-Regel für Seiten]** - Um mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen, erstellen Sie eine [Matching-Regel für Seiten](#build-a-pages-matching-rule) und geben Sie eine **[!UICONTROL Standard-Autoren- und Vorschau-URL]** ein.
+   * **[!UICONTROL Matching-Regel für Seiten]** - Um mehrere URLs als Ziel auszuwählen, die derselben Regel entsprechen, erstellen Sie eine [Matching-Regel für Seiten](#build-a-rule) und geben Sie eine **[!UICONTROL Standard-Autoren- und Vorschau-URL]** ein.
 
 1. Klicken Sie auf **[!UICONTROL Senden]**, um die Änderungen zu speichern.
 
@@ -75,7 +75,7 @@ Sobald der Webkanal auf einer Journey verwendet wird, wechselt er in den Status 
 
 Beim Erstellen einer Web-Konfiguration können Sie eine Regel _[!UICONTROL Seitenabgleich“ erstellen]_ um mehrere URLs auszuwählen, die derselben Regel entsprechen. Diese Regeln ermöglichen es Ihnen, dieselben Inhaltsänderungen auf mehrere Seiten anzuwenden.
 
-Beispielsweise können Sie Änderungen an einem Hero-Banner auf einer ganzen Website anwenden oder oben ein Bild hinzufügen, das auf allen Produktseiten angezeigt wird.
+Wenden Sie beispielsweise Änderungen auf ein Hero-Banner auf einer gesamten Website an oder fügen Sie oben ein Bild hinzu, das auf allen Produktseiten angezeigt wird.
 
 ### Erstellen einer Regel
 
@@ -122,9 +122,9 @@ Beispielsweise können Sie Änderungen an einem Hero-Banner auf einer ganzen Web
 
    * Verwenden Sie die Operatoren **[!UICONTROL Oder]** oder **[!UICONTROL Ausschließen]** zwischen den verschiedenen Regeln.
 
-     _[!UICONTROL Oder]_ ist der Standardoperator zum Definieren mehrerer Regeln und ist nützlich, um mehrere Kriteriendefinitionen hinzuzufügen, die abgeglichen werden können.
+     _[!UICONTROL Oder]_ Der [!UICONTROL Oder]-Operator ist der Standardoperator zum Definieren mehrerer Regeln und ist nützlich, um mehrere Kriteriendefinitionen hinzuzufügen, die abgeglichen werden können.
 
-     _[!UICONTROL Ausschließen]_ ist nützlich, wenn eine der Seiten, die der definierten Regel entsprechen, nicht als Ziel ausgewählt werden soll. Sie können beispielsweise alle `bodea.com` Seiten ansprechen, die `lumasecure` enthalten, aber ausschließlich Blog-Seiten (z. B. `bodea.com/blogs/lumasecure/latest-release`).
+     _[!UICONTROL Ausschließen]_ Der [!UICONTROL Ausschließen]-Operator ist nützlich, wenn eine der Seiten, die der definierten Regel entsprechen, nicht als Ziel ausgewählt werden sollte. Sie können beispielsweise alle `bodea.com` Seiten ansprechen, die `lumasecure` enthalten, aber Blog-Seiten (z. B. `bodea.com/blogs/lumasecure/latest-release`) ausschließen.
 
    ![Seiten, die Regeln mit Ausschluss entsprechen](./assets/config-web-channel-pages-matching-rules-exclude.png){width="600" zoomable="yes"}
 
@@ -144,7 +144,7 @@ Sie können eine vorhandene Web-Kanal-Konfiguration duplizieren und ändern, um 
 
 1. Klicken Sie auf den Namen des duplizierten Web-Kanals, um die Parameter zu bearbeiten.
 
-   * Ändern Sie den Namen und die Beschreibung entsprechend dem Zweck oder den Elementen in der Regel.
+   * Um dem Zweck oder den Elementen in der Regel zu entsprechen, ändern Sie den Namen und die Beschreibung.
    * Ändern Sie bei Bedarf die Einzelseiten-URL.
    * Ändern Sie bei Bedarf die Matching-Regel für Seiten entsprechend Ihren Anforderungen.
 

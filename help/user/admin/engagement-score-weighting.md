@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1306
+source-wordcount: 1298
 ht-degree: 0%
 
 ---
@@ -35,13 +35,13 @@ Als Administrator können Sie mehrere Interaktionsbewertungsmodelle für Ihre Or
 
 ## Zugriff auf die Gewichtungsmodelle für Interaktionsbewertungen
 
-Öffnen Sie die Liste _[!UICONTROL Interaktionsbewertung]_, um aktive, Entwurfs- und archivierte Modelle anzuzeigen:
+Um aktive, entworfene und archivierte Modelle anzuzeigen, öffnen Sie die Liste _[!UICONTROL Interaktionsbewertung -]_:
 
 1. Wählen Sie in der linken Navigation **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
 
 1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** Engagement Score-Gewichtung“, um die Liste der Scoring-Modelle anzuzeigen.
 
-   Auf dieser Seite können Sie [Interaktionsbewertungsmodelle erstellen (duplizieren](#create-an-engagement-score-model), [aktivieren](#activate-a-score-model) und [bearbeiten](#change-the-engagement-weighting-settings).
+   Auf dieser Seite können Sie [Interaktionsbewertungsmodelle erstellen (duplizieren](#create-a-custom-engagement-scoring-model), [aktivieren](#activate-a-score-model) und [bearbeiten](#change-the-engagement-weighting-settings).
 
    ![Zugriff auf die definierten Interaktionsbewertungsmodelle](./assets/configuration-engagement-scoring-list.png){width="800" zoomable="yes"}
 
@@ -93,7 +93,7 @@ Um ein benutzerdefiniertes Interaktionsbewertungsmodell zu erstellen, dupliziere
 
 ### Ändern der Einstellungen für die Interaktionsgewichtung
 
-Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im Modell zuweisen können. Sie können die Bands ändern, um die Strategien Ihres Unternehmens zur Bewertung der Interaktion widerzuspiegeln. Sie können beispielsweise die _&quot;_&quot; auf einen Wert von 65 anpassen, wenn Sie den normalen Aktivitäten einen höheren Wert zuweisen möchten. Sie können auch ein Gewichtungsband hinzufügen, das Aktivitäten erfasst, die zwischen &quot;_&quot;_ &quot;_&quot;_. In diesem Fall können Sie ein Band hinzufügen und es mit &quot;_&quot;_ und einen Gewichtungsbandwert von 75 zuweisen.
+Die Gewichtungseinstellungen definieren die Bänder, die Sie jeder Aktivität im Modell zuweisen können. Ändern Sie die Bänder, um die Strategien Ihrer Organisation zur Bewertung der Interaktion widerzuspiegeln. Passen Sie beispielsweise das _Normal_ Gewichtungsband auf einen Wert von 65 an, wenn Sie normalen Aktivitäten einen höheren Wert zuweisen möchten. Sie können auch ein Gewichtungsband hinzufügen, das Aktivitäten erfasst, die zwischen &quot;_&quot;_ &quot;_&quot;_. Fügen Sie in diesem Fall ein Band hinzu, beschriften Sie es mit _Signifikant_ und weisen Sie einen Gewichtungsbandwert von 75 zu.
 
 1. Klicken Sie auf der Detailseite des Score **[!UICONTROL Modells oben auf]** Einstellungen für Interaktionsgewichtung“.
 
@@ -161,7 +161,7 @@ Ihre Änderungen werden automatisch gespeichert.
 
 Wenn Sie ein Entwurfsbewertungsmodell aktivieren, ersetzt es das derzeit aktive Modell. Das aktuell aktive Modell wird automatisch archiviert.
 
-1. Öffnen Sie ein Bewertungsmodell für einen Entwurf, um die Detailseite anzuzeigen.
+1. Um die Detailseite anzuzeigen, öffnen Sie ein Entwurfsbewertungsmodell.
 
 1. Klicken Sie auf **[!UICONTROL Aktivieren]**.
 

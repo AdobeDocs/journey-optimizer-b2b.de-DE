@@ -17,9 +17,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1381
+source-wordcount: 1380
 ht-degree: 5%
 
 ---
@@ -44,11 +44,11 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den
 
 >[!TIP]
 >
->Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition, der auf generativer KI basiert, um Ihre Inhalte zu verbessern. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er ganze E-Mails und zielgerichtete Textinhalte generiert und KI-Assistenten-Empfehlungen für Bilder abgibt, die bei Ihrer Audience Anklang finden. [Weitere Informationen](./ai-assistant-emails.md)
+>Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition auf der Basis von generativer KI, um Ihre Inhalte zu verbessern. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails und zielgerichtete Textinhalte generiert und Empfehlungen für Bilder bereitstellt, die bei Ihrer Audience Anklang finden. [Weitere Informationen](./ai-assistant-emails.md)
 
-## Gestalten Ihrer E-Mail von Grund auf neu {#design-from-scratch}
+## Neugestaltung einer E-Mail von Grund auf {#design-from-scratch}
 
-Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt der E-Mail zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie das Layout und die Organisation des E-Mail-Inhalts innerhalb von Sekunden entwerfen.
+Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt der E-Mail zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie das Layout und die Organisation des E-Mail-Inhalts schnell gestalten.
 
 1. Wählen Sie auf _[!UICONTROL Startseite]_ Vorlage entwerfen“ die Option **[!UICONTROL Erstellen von neuen]** aus.
 
@@ -60,7 +60,7 @@ Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt
 
 1. [Struktur und Inhalt hinzufügen](./email-authoring.md#structure-content) zur Vorlage hinzufügen.
 
-1. [Links überprüfen und &#x200B;](#preview-and-edit-linked-urls).
+1. [Links überprüfen und &#x200B;](#edit-linked-url-tracking).
 
 1. [Testen Sie die E-Mail](#check-and-test-the-email).
 
@@ -146,11 +146,11 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 
 Das E-Mail-Versandsystem (über Marketo Engage) verpackt beim Versand automatisch alle URLs in HTML-E-Mails mit einer eindeutigen Tracking-Umleitung. Verwenden Sie den **[!UICONTROL Tracking-Typ]**, um das Tracking für den Link zu steuern:
 
-* **[!UICONTROL Ohne Token verfolgen]** - Das System registriert den Klick, verfolgt aber, was der Benutzer als Nächstes auf der Web-Seite tut. Dies kann in bestimmten technischen Fällen wichtig sein, z. B. beim Umgang mit Drittanbietersystemen, die mkt_tok möglicherweise nicht korrekt verarbeiten. Das nachfolgende Webtracking ist jedoch eingeschränkt.
+* **[!UICONTROL Ohne Token verfolgen]** - Das System registriert den Klick, verfolgt jedoch nicht, was der Benutzer als Nächstes auf der Web-Seite tut. Dieses Verhalten ist in bestimmten technischen Fällen wichtig, z. B. beim Umgang mit Drittanbietersystemen, die mkt_tok nicht korrekt verarbeiten. Das nachfolgende Webtracking ist jedoch eingeschränkt.
 
 * **[!UICONTROL Tracking mit mkt-tok]** - Verwenden Sie das Tracking-Token (mkt_tok), um nachfolgende Web-Aktivitäten über Munchkin zu verfolgen. Wenn ein Empfänger auf den Link klickt, registriert er ein _Klick-E-Mail_-Ereignis im Aktivitätsprotokoll, verfolgt seine Aktivitäten sicher und wendet ein Cookie an, um zukünftige Site-Interaktionen zu überwachen.
 
-* **[!UICONTROL Nicht verfolgen]** - Das System verfolgt keine mit dem Link verbundenen Aktivitäten. Dies ist nützlich, wenn die Zielseite URL-Parameter nicht unterstützt und zu einem fehlerhaften Link führen kann.
+* **[!UICONTROL Nicht verfolgen]** - Das System verfolgt keine mit dem Link verbundenen Aktivitäten. Diese Option ist nützlich, wenn die Zielseite URL-Parameter nicht unterstützt und zu einem fehlerhaften Link führt.
 
   >[!NOTE]
   >
@@ -171,8 +171,8 @@ Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen E-Mail
 * Vergrößern/Verkleinern des Inhalts in allen vordefinierten Zoom-Optionen.
 
 * Wechseln Sie zwischen der Anzeige der Inhalte auf dem Desktop, einem Mobilgerät oder einem Nur-Text-/Nur-Text-System.
-   * Klicken Sie auf das _Anzeigen_-Symbol für die geräteübergreifende Inhaltsvorschau.
-   * Wählen Sie eines der vordefinierten Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um eine Vorschau des Inhalts anzuzeigen.
+  * Klicken Sie auf das _Anzeigen_-Symbol für die geräteübergreifende Inhaltsvorschau.
+  * Wählen Sie eines der vordefinierten Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um eine Vorschau des Inhalts anzuzeigen.
 
 ## Mehr Optionen
 

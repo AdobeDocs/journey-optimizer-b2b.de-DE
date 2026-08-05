@@ -1,7 +1,7 @@
 ---
 title: Abgeleitete Personas
 description: Verwenden Sie abgeleitete Personas in Journey Optimizer B2B Prime, um Personenlisten und Journey-Pfade auszuwählen. Erfahren Sie mehr über die standardmäßigen Rollenzuordnungen und den Filter „Abgeleitete Rolle“.
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version&#x200B;"
 autotag-review: '2026-06-23T22:01:21.605Z'
 TQID: 'https://experienceleague.adobe.com/OZ4GDkaqg9a5Aikic-m-f0MtHSpc3BO0h41fTAL1Rww'
 product_v2:
@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 650
+source-wordcount: 639
 ht-degree: 2%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 2%
 Die Persona-Klassifizierung transformiert Kundenrohdaten in semantisches Käuferverständnis, mit dem KI Kontext generieren und personalisierte Entscheidungen über jeden Kanal und jede Journey hinweg fördern kann. Dieses einheitliche Profil bietet folgende Möglichkeiten:
 
 * _Journey-Verzweigung_ - Aufspaltung von Routenleitern nach Rolle, Interaktionstiefe und Rolle
-* _Journey-Schlichtung_ - Bestimmt, zu welchem Pflegeheim ein Lead derzeit gehört, wodurch Nachrichtenkollisionen über gleichzeitige Programme hinweg vermieden werden
-* _Inhaltspersonalisierung_ - Inhalte, die rollenspezifische Erzählungen sind („für einen ausführenden Benutzer“ vs. „für einen Fachmann„)
-* _Sales Qualifier Context_ - BDRs erhalten eine Zusammenfassung auf einem Bildschirm, die zeigt, „wer diese Person ist, was ihnen wichtig ist und wo sie sich auf der Kauf-Journey befinden“
+* _Journey-Schlichtung_ - Bestimmt, zu welchem Nurture-Journey ein Lead derzeit gehört, wodurch Nachrichtenkollisionen über gleichzeitige Programme hinweg vermieden werden
+* _Inhaltspersonalisierung_ - Inhalte, die rollenspezifische Erzählungen sind („für einen Manager“ oder „für einen Anwender„)
+* _Sales Qualifier Context_ - Business Development Representatives (BDRs) erhalten eine Zusammenfassung auf einem Bildschirm, in der die Identität der Person, ihre Interessen und ihre aktuelle Phase auf der Käufer-Journey angezeigt werden
 
 ## Standard-Personas {#default-ersonas}
 
@@ -49,17 +49,17 @@ Für die Beta-Version von Journey Optimizer B2B Prime werden die folgenden Stand
 
 >[!NOTE]
 >
->In der Version zur allgemeinen Verfügbarkeit können Sie jede dieser Standardrollen entsprechend den Anforderungen Ihres Unternehmens bearbeiten. Es unterstützt auch benutzerdefinierte Persona-Definitionen und -Zuordnungen.
+>In der kommenden Version zur allgemeinen Verfügbarkeit können Sie jede dieser Standardrollen entsprechend den Anforderungen Ihres Unternehmens bearbeiten. Es unterstützt auch benutzerdefinierte Persona-Definitionen und -Zuordnungen.
 
 ## Nach abgeleiteter Persona filtern {#derived-persona-filter}
 
-Journey Optimizer B2B Prime leitet für jeden Personendatensatz eine Rolle ab, indem die Attribute des Datensatzes mit den definierten Rollen verglichen werden. Sie können das abgeleitete Ergebnis - die _abgeleitete Persona_ - als Filter verwenden, wenn Sie die Audience für eine Personenliste definieren oder eine Personen-Journey segmentieren.
+[!DNL Journey Optimizer B2B Prime] leitet für jeden Personendatensatz eine Rolle ab, indem die Datensatzattribute mit den definierten Rollen verglichen werden. Sie können das abgeleitete Ergebnis - die _abgeleitete Persona_ - als Filter verwenden, wenn Sie die Audience für eine Personenliste definieren oder eine Personen-Journey segmentieren.
 
 Der _[!UICONTROL Abgeleitete Persona]_-Filter wird im Filterbedienfeld unter der Kategorie **[!UICONTROL Personenattribute]** angezeigt.
 
 ### Personenlisten {#people-lists}
 
-Wenn Sie Mitglieder zu einer [statischen Personenliste](./people-lists.md#static-list) hinzufügen oder daraus entfernen oder wenn Sie die Mitgliedschaftsregeln für eine [dynamische Personenliste](./people-lists.md#dynamic-lists) definieren, können Sie nach abgeleiteter Persona filtern, um alle Personen anzusprechen, deren Attribute einer bestimmten konfigurierten Persona entsprechen.
+Beim Verwalten von Mitgliedern in einer [statischen Personenliste](./people-lists.md#static-lists) oder Definieren von Regeln für eine [dynamische Personenliste](./people-lists.md#dynamic-lists) können Sie nach _Abgeleitete Persona_ filtern, um alle Personen anzusprechen, deren Attribute mit einer bestimmten konfigurierten Persona übereinstimmen.
 
 ![Abgeleitete Rollenfilterung für eine Personenliste](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 

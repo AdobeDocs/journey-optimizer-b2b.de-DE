@@ -15,16 +15,16 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:20:55.565Z
 TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: 640
 ht-degree: 7%
 
 ---
 
 # Kontodetails
 
-Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Kontonamen klicken _wird die_ „Kontodetails“ angezeigt. Auf dieser Seite finden Sie nützliche Informationen zum -Konto, einschließlich der Zusammenfassungen der generativen KI. Es gibt auch [Aktionen](#account-actions) die Sie für Kontakte ausführen können, die mit dem Konto verknüpft sind.
+Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Kontonamen klicken _wird die_ „Kontodetails“ angezeigt. Diese Seite enthält Informationen zum -Konto, einschließlich Zusammenfassungen zur generativen KI. Es gibt auch [Aktionen](#send-email) die Sie für Kontakte ausführen können, die mit dem Konto verknüpft sind.
 
 ![Zugriff auf Kontodetails](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -63,7 +63,7 @@ In Journey Optimizer B2B edition prognostiziert das Absichtserkennungsmodell bas
 
 ![Konto-Kontaktabdeckung](./assets/details-page-contact-coverage.png){width="800" zoomable="yes"}
 
-Im Abschnitt _[!UICONTROL Kontaktabdeckung]_ wird die Anzahl der Kontakte aus dem Konto mit einer bestimmten Rolle angezeigt, die mit einem Lösungsinteresse verbunden ist. Die Zuweisung von Rollen und Lösungsinteressen basiert auf der Vorlage „Einkaufsgruppenrollen“. Klicken Sie auf eine Zelle, um die folgenden Details anzuzeigen:
+Im Abschnitt _[!UICONTROL Kontaktabdeckung]_ wird die Anzahl der Account-Kontakte mit einer bestimmten Rolle angezeigt, die mit einem Lösungsinteresse verbunden ist. Die Zuweisung von Rollen und Lösungsinteressen basiert auf der Vorlage „Einkaufsgruppenrollen“. Klicken Sie auf eine Zelle, um die folgenden Details anzuzeigen:
 
 * Beschreibung, im folgenden Format: _x Personen haben meine Rolle für ein Lösungsinteresse_
 * Spalten

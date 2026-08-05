@@ -17,9 +17,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T22:45:21.856Z
 TQID: https://experienceleague.adobe.com/sp2xFXNnYT5zOjsQC6R53SsGudsYmF8EYq4RIIzqYH0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 594
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ Die Übergabe an den Verkauf umfasst:
 * **Datenübergabe**: Marketing identifiziert _fertige_ Zieldaten und macht sie für den Vertrieb im CSV-Format zugänglich. 
 * **Verkaufsakzeptanz**: Der Vertrieb überprüft manuell _einsatzbereite_ Ziele in seine Pipeline.
 
-Um auf dieses Dashboard zuzugreifen, erweitern Sie **[!UICONTROL Konten]** im linken Navigationsbereich und wählen Sie dann **[!UICONTROL Einkaufsgruppen]**. Wählen Sie die **[!UICONTROL Übersicht]** aus, wenn sie nicht standardmäßig angezeigt wird.
+Um auf dieses Dashboard zuzugreifen, erweitern Sie **[!UICONTROL Konten]** im linken Navigationsbereich und wählen Sie dann **[!UICONTROL Einkaufsgruppen]**. Wählen Sie die **[!UICONTROL Übersicht]** aus, wenn das System sie nicht standardmäßig anzeigt.
 
 ![Einkaufsgruppen - Übersicht](./assets/buying-groups-overview.png){width="800" zoomable="yes"}
 <!--
@@ -51,7 +51,7 @@ To generate a shareable PDF of your current view, click **[!UICONTROL Export]** 
 
 ## Verteilung der Abschlussbewertung der Käufergruppe
 
-Diese Visualisierung veranschaulicht die Verteilung der Einkaufsgruppen basierend auf den Abschlussbewertungen und ist in vier verschiedene Bewertungsbänder unterteilt. Die zentrale Zahl gibt die Gesamtzahl der Einkaufsgruppen an und gibt einen schnellen Überblick über den Gesamtfortschritt. Die segmentierten Farben geben den Anteil der Einkaufsgruppen innerhalb jedes Bewertungsbereichs an, sodass Sie Abschlusstrends auf einen Blick beurteilen können.
+Diese Visualisierung veranschaulicht die Verteilung der Einkaufsgruppen basierend auf den Abschlussbewertungen und ist in vier verschiedene Bewertungsbänder unterteilt. Die zentrale Zahl gibt die Gesamtzahl der Einkaufsgruppen an und gibt einen Überblick über den Gesamtfortschritt. Die segmentierten Farben geben den Anteil der Einkaufsgruppen innerhalb jedes Bewertungsbereichs an, sodass Sie Abschlusstrends auf einen Blick beurteilen können.
 
 Um detailliertere Informationen anzuzeigen, klicken Sie auf das Menüsymbol **…** oben rechts.
 
@@ -84,7 +84,7 @@ Klicken Sie oben links auf _Filter_-Symbol ![Filtersymbol](../assets/do-not-loca
 
 ![Filtern der angezeigten Daten nach Attributen](./assets/buying-group-overview-filters.png){width="500"}
 
-Wählen Sie für jedes Attribut, das Sie zum Filtern der Daten verwenden möchten, so viele Werte aus und klicken Sie auf **[!UICONTROL Anwenden]**.
+Wählen Sie für jedes Attribut so viele Werte aus, wie Sie zum Filtern der Daten verwenden möchten, und klicken Sie auf **[!UICONTROL Anwenden]**.
 
 ## Interagieren mit den Daten
 
@@ -100,7 +100,7 @@ Die auf das Dashboard angewendeten globalen Filter werden übernommen. Klicken S
 
 Klicken Sie auf _Mehr_ (**…**) oben rechts im Menü und wählen Sie **[!UICONTROL Weitere anzeigen]**, um [erweiterte Daten anzuzeigen](#view-more).
 
-### [!UICONTROL Mehr anzeigen]
+### [!UICONTROL Mehr anzeigen] {#view-more}
 
 Wählen Sie **[!UICONTROL Mehr anzeigen]**, um erweiterte Daten und Einblicke anzuzeigen.
 

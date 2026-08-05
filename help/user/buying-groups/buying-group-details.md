@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-30T21:46:01.279Z
 TQID: https://experienceleague.adobe.com/dxEYWXZyj5kiOAqjRj6TGUG5V43q8Wd-mPlLFbarq64
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 789
 ht-degree: 4%
@@ -26,7 +26,7 @@ ht-degree: 4%
 
 # Käufergruppendetails
 
-Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Einkaufsgruppennamen klicken, werden die Details der Einkaufsgruppe angezeigt. Diese Übersicht enthält nützliche Informationen zur Einkaufsgruppe, einschließlich der Zusammenfassungen zur generativen KI. Es gibt auch [Aktionen](#buying-group-actions) die Sie für Kontakte ausführen können, die mit dem Konto verknüpft sind.
+Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Einkaufsgruppennamen klicken, werden die Details der Einkaufsgruppe angezeigt. Diese Übersicht enthält nützliche Informationen zur Einkaufsgruppe, einschließlich der Zusammenfassungen zur generativen KI. Es gibt auch [Aktionen](#members-tab) die Sie für Kontakte ausführen können, die mit dem Konto verknüpft sind.
 
 ![Auf Details der Einkaufsgruppe zugreifen](./assets/buying-group-details.png){width="800" zoomable="yes"}
 
@@ -67,7 +67,7 @@ Der Abschnitt Kontoübersicht enthält die folgenden Kontoinformationen:
 
 ### Absichtsdaten
 
-In Journey Optimizer B2B edition prognostiziert das Modell der Absichtserkennung eine Lösung/ein Produkt von Interesse mit ausreichend hoher Zuverlässigkeit, basierend auf der Aktivität der kaufenden Gruppenmitglieder. Die Absicht, Gruppenmitglieder zu kaufen, kann als die Wahrscheinlichkeit interpretiert werden, dass sie Interesse an einem Produkt haben.
+In Journey Optimizer B2B edition prognostiziert das Modell der Absichtserkennung eine Lösung/ein Produkt von Interesse mit ausreichender Sicherheit, basierend auf der Aktivität der kaufenden Gruppenmitglieder. Die Absicht, Gruppenmitglieder zu kaufen, kann als die Wahrscheinlichkeit interpretiert werden, dass sie Interesse an einem Produkt haben.
 
 {{intent-data-note}}
 

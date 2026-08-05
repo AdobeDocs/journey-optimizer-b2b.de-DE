@@ -17,24 +17,24 @@ topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 autotag-review: 2026-03-30T22:17:40.055Z
 TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 508524bce6cdf1e5c4ad8c8916332666252472d1
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: 1522
 ht-degree: 4%
 
 ---
 
 # E-Mail-Vorlagen
 
-Für einen beschleunigten und verbesserten Design-Prozess können Sie eigenständige E-Mail-Vorlagen erstellen, um Ihre benutzerdefinierten Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] Account-Journey wiederzuverwenden. Mithilfe von Vorlagen können Ihre inhaltsorientierten Team-Mitglieder an E-Mail-Inhalten außerhalb von Journey arbeiten. Marketing-Strategen können diese eigenständigen Vorlagen dann in ihren Journey wiederverwenden und anpassen. Beispielsweise ist ein Teammitglied nur für den Inhalt verantwortlich, es hat jedoch keinen Zugriff auf die Journey des Kontos. Sie können jedoch eine E-Mail-Vorlage erstellen, die Marketing-Experten als Ausgangspunkt für E-Mail-Nachrichten auswählen und entsprechend den Anforderungen für den Journey anpassen können.
+Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie eigenständige E-Mail-Vorlagen erstellen, um Ihre benutzerdefinierten Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] Account-Journey wiederzuverwenden. Mithilfe von Vorlagen können Ihre inhaltsorientierten Team-Mitglieder an E-Mail-Inhalten außerhalb von Journey arbeiten. Marketing-Strategen können diese eigenständigen Vorlagen dann in ihren Journey wiederverwenden und anpassen. Beispielsweise verwaltet ein Teammitglied nur Inhalte, ohne Zugriff auf die Journey des Kontos. Sie können jedoch eine E-Mail-Vorlage erstellen, die Marketing-Experten als Ausgangspunkt für E-Mail-Nachrichten auswählen und entsprechend den Anforderungen für den Journey anpassen können.
 
 ## Zugreifen auf und Verwalten von E-Mail-Vorlagen
 
 Um auf E-Mail-Vorlagen in [!DNL Journey Optimizer B2B Edition] zuzugreifen, navigieren Sie zur linken Navigationsleiste und klicken Sie auf **[!UICONTROL Content-]** > **[!UICONTROL Vorlagen]**. Wählen Sie im seitlichen Bedienfeld die Option **[!UICONTROL E-Mail-Vorlagen]** aus.
 
-Diese Aktion öffnet eine Listenseite mit allen in der Instanz erstellten E-Mail-Vorlagen im Tabellenformat.
+Diese Aktion öffnet eine Listenseite mit allen in der Instanz erstellten E-Mail-Vorlagen als Tabelle.
 
-Die Liste ist standardmäßig nach der Spalte _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Vorlagen oben stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
+Die Liste wird standardmäßig nach _[!UICONTROL Geändert]_ sortiert, wobei die zuletzt aktualisierten Vorlagen oben stehen. Klicken Sie auf den Spaltentitel, um zwischen aufsteigender und absteigender Reihenfolge zu wechseln.
 
 Um nach einer Vorlage anhand des Namens zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste ein. Klicken Sie _oben links auf_ Symbol „Filtern“, um die Liste nach Erstellungs- oder Änderungsdatum und nach Vorlagen zu filtern, die Sie erstellt oder geändert haben.
 
@@ -58,11 +58,11 @@ Die Seite _[!UICONTROL Vorlage entwerfen]_ wird geöffnet und bietet mehrere Opt
 
 ![Wählen Sie aus, wie Sie mit dem Design Ihrer E-Mail-Vorlage beginnen möchten](./assets/templates-create-design.png){width="800" zoomable="yes"}
 
-Nachdem Sie die Methode ausgewählt haben, mit der Sie mit dem Design Ihrer E-Mail-Vorlage beginnen möchten, verwenden Sie den visuellen Design-Bereich, um [Inhalt Ihrer E-Mail-Vorlage zu erstellen](./email-template-authoring.md).
+Wählen Sie die Methode aus, um mit dem Entwurf Ihrer E-Mail-Vorlage zu beginnen. Verwenden Sie dann den visuellen Design-Bereich, um [Inhalt Ihrer E-Mail-Vorlage zu erstellen](./email-template-authoring.md).
 
 ### Von Grund auf gestalten
 
-Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie die Form des wiederverwendbaren E-Mail-Inhalts innerhalb von Sekunden entwerfen.
+Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu definieren. Durch das Hinzufügen und Verschieben von Strukturkomponenten mit einfachen Drag-and-Drop-Aktionen können Sie den wiederverwendbaren E-Mail-Inhalt schnell entwerfen.
 
 >[!NOTE]
 >
@@ -124,9 +124,9 @@ Klicken Sie auf der Seite Vorlagenauflistung auf den Namen einer E-Mail-Vorlage,
 
 * Klicken Sie **[!UICONTROL rechts oben]** „Mehr“, um schnell mit der E-Mail-Vorlage umzugehen, z. B _„Duplizieren_ und _Löschen_.
 
-* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnung für die E-Mail-Vorlage), klicken Sie oben **auf** Warnhinweise), um die Informationen anzuzeigen.
+* Wenn aktive Warnhinweise vorhanden sind (Fehler und Warnungen für die E-Mail-Vorlage), klicken Sie oben **auf** Warnhinweise), um die Informationen anzuzeigen.
 
-  Diese Warnhinweise verbieten nicht die Verwendung der E-Mail-Vorlage für die E-Mail-Erstellung. Die Informationen bieten Marketing-Fachleuten in Ihrem Team einen Überblick darüber, was möglicherweise nicht funktioniert, und über die erforderlichen Aktualisierungen, bevor sie für die Bereitstellung verwendet werden können.
+  Diese Warnhinweise verbieten nicht die Verwendung der E-Mail-Vorlage für die E-Mail-Erstellung. Die Informationen bieten Marketing-Experten in Ihrem Team Einblicke in nicht funktionierende Komponenten und die erforderlichen Aktualisierungen, bevor diese für die Bereitstellung verwendet werden.
 
 ## Anzeigen der von Verweisen verwendeten E-Mail-Vorlage
 
@@ -147,7 +147,7 @@ Diese Aktion kann übernommen werden aus:
 * Die Detailseite - Klicken Sie auf **[!UICONTROL E-Mail-Vorlage bearbeiten]**.
 * Die Listenseite - Klicken Sie auf die Auslassungspunkte (**…**) neben einer E-Mail-Vorlage und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der E-Mail-Vorlage). Von hier aus können Sie den Inhalt Ihrer E-Mail-Vorlage nach Bedarf bearbeiten. Weitere [&#x200B; zu den Bearbeitungsoptionen finden Sie &#x200B;](#create-email-templates) „E-Mail-Vorlagen erstellen“.
+Diese Aktion führt Sie zur Seite _Vorlage entwerfen_ oder zur Seite des visuellen Inhaltseditors (basierend auf dem zuletzt gespeicherten Status der E-Mail-Vorlage). Von hier aus können Sie den Inhalt Ihrer E-Mail-Vorlage nach Bedarf bearbeiten. Weitere [&#x200B; zu den Bearbeitungsoptionen finden Sie &#x200B;](#create-an-email-template) „Erstellen einer E-Mail-Vorlage“.
 
 ## E-Mail-Vorlagen duplizieren
 
@@ -190,7 +190,7 @@ Gehen Sie wie folgt vor, um mit der Erstellung Ihres Inhalts mit einer der erste
 
 1. Greifen Sie über die Seite „Inhalt bearbeiten _auf den visuellen_ zu.
 
-   Auf der _E-Mail erstellen_ ist die Registerkarte _Beispielvorlagen_ standardmäßig ausgewählt.
+   Auf der _E-Mail erstellen_ wählt das System standardmäßig die Registerkarte _Beispielvorlagen_ aus.
 
 1. Um eine benutzerdefinierte E-Mail-Vorlage zu verwenden, wählen Sie die Registerkarte **[!UICONTROL Gespeicherte Vorlagen]** aus.
 

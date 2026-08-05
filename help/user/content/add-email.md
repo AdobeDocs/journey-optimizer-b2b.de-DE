@@ -17,7 +17,7 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
 autotag-review: 2026-03-30T22:38:56.688Z
 TQID: https://experienceleague.adobe.com/8poXn9D7fkr-5yQBUn3dAxV0izKGfW-U8Qf0gG4aRWw
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1399
 ht-degree: 0%
@@ -54,17 +54,17 @@ Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Kno
 
      Wenn Sie eine E-Mail mit einer leeren Arbeitsfläche oder einer E-Mail-Vorlage erstellen möchten, verwenden Sie die Option _[!UICONTROL Neue E-Mail]_.
 
-      1. Wählen Sie im Dialogfeld die Option **[!UICONTROL Neue E-Mail]**.
+     1. Wählen Sie im Dialogfeld die Option **[!UICONTROL Neue E-Mail]**.
 
-      1. Geben Sie einen eindeutigen **[!UICONTROL Namen]** für die E-Mail und eine **[!UICONTROL Betreffzeile]** ein.
+     1. Geben Sie einen eindeutigen **[!UICONTROL Namen]** für die E-Mail und eine **[!UICONTROL Betreffzeile]** ein.
 
-         ![Dialogfeld „Neue E-Mail erstellen“ - neue E-Mail](assets/create-new-email.png){width="400"}
+        ![Dialogfeld „Neue E-Mail erstellen“ - neue E-Mail](assets/create-new-email.png){width="400"}
 
-      1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+     1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-         Im Abschnitt _[!UICONTROL E]_ Mail-Eigenschaften“ der E-Mail-Inhaltsseite sind die Felder _[!UICONTROL Von E-Mail]_ und _[!UICONTROL Antwort an Adresse]_ bereits konfiguriert. Sie können Werte für die Felder _[!UICONTROL Absendername]_ und _[!UICONTROL Beschreibung]_ (optional) eingeben.
+        Im Abschnitt _[!UICONTROL E]_ Mail-Eigenschaften“ der E-Mail-Inhaltsseite sind die Felder _[!UICONTROL Von E-Mail]_ und _[!UICONTROL Antwort an Adresse]_ bereits konfiguriert. Sie können Werte für die Felder _[!UICONTROL Absendername]_ und _[!UICONTROL Beschreibung]_ (optional) eingeben.
 
-      1. Klicken Sie auf **[!UICONTROL E-Mail bearbeiten]**, um die E-Mail [Einstellungen](#define-the-email-settings) zu definieren und den [Inhalt](./email-authoring.md) zu gestalten.
+     1. Klicken Sie auf **[!UICONTROL E-Mail bearbeiten]**, um die E-Mail [Einstellungen](#define-the-email-settings) zu definieren und den [Inhalt](./email-authoring.md) zu gestalten.
 
      +++
 
@@ -72,25 +72,25 @@ Sie können den E-Mail-Versand auf einer Journey einrichten, wenn Sie [einen Kno
 
      Wenn Sie eine E-Mail mit einer bestehenden E-Mail von der aktuellen Journey oder einer anderen Journey erstellen möchten, verwenden Sie die Option _[!UICONTROL Duplizieren einer bestehenden E-Mail]_. Sie können die duplizierte E-Mail entsprechend Ihrem Ziel für den Journey-Knoten ändern.
 
-      1. Wählen Sie im _[!UICONTROL Neue E-Mail erstellen]_ die Option **[!UICONTROL Duplizieren einer bestehenden E-Mail]**.
+     1. Wählen Sie im _[!UICONTROL Neue E-Mail erstellen]_ die Option **[!UICONTROL Duplizieren einer bestehenden E-Mail]**.
 
-      1. Klicken Sie zum **[!UICONTROL Duplizieren vorhandener E-Mails]** auf das Symbol _Auswahl_ ( ![Auswahlsymbol](../assets/do-not-localize/icon-email-select.svg) ) und wählen Sie die E-Mail aus, die Sie duplizieren und für den Journey-Knoten verwenden möchten.
+     1. Klicken Sie zum **[!UICONTROL Duplizieren vorhandener E-Mails]** auf das Symbol _Auswahl_ ( ![Auswahlsymbol](../assets/do-not-localize/icon-email-select.svg) ) und wählen Sie die E-Mail aus, die Sie duplizieren und für den Journey-Knoten verwenden möchten.
 
-         Sie können die Liste der E-Mails filtern, indem Sie eine Textzeichenfolge in das Suchfeld eingeben, die dem E-Mail-Namen entspricht.
+        Sie können die Liste der E-Mails filtern, indem Sie eine Textzeichenfolge in das Suchfeld eingeben, die dem E-Mail-Namen entspricht.
 
-         ![E-Mail auswählen](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
+        ![E-Mail auswählen](assets/create-new-email-duplicate-select-email.png){width="600" zoomable="yes"}
 
-         Aktivieren Sie das Kontrollkästchen für die zu duplizierende E-Mail und klicken Sie auf **[!UICONTROL Auswählen]**.
+        Aktivieren Sie das Kontrollkästchen für die zu duplizierende E-Mail und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-      1. Geben Sie einen eindeutigen **[!UICONTROL Namen]** für die E-Mail und eine **[!UICONTROL Betreffzeile]** ein.
+     1. Geben Sie einen eindeutigen **[!UICONTROL Namen]** für die E-Mail und eine **[!UICONTROL Betreffzeile]** ein.
 
-         ![Dialogfeld „Neue E-Mail erstellen“ - Duplizieren vorhandener E-Mails](assets/create-new-email-duplicate.png){width="400"}
+        ![Dialogfeld „Neue E-Mail erstellen“ - Duplizieren vorhandener E-Mails](assets/create-new-email-duplicate.png){width="400"}
 
-      1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+     1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-         Im Abschnitt _[!UICONTROL E]_ Mail-Eigenschaften“ der E-Mail-Inhaltsseite sind die Felder _[!UICONTROL Von E-Mail]_ und _[!UICONTROL Antwort an Adresse]_ bereits konfiguriert. Sie können Werte für die Felder _[!UICONTROL Absendername]_ und _[!UICONTROL Beschreibung]_ (optional) eingeben.
+        Im Abschnitt _[!UICONTROL E]_ Mail-Eigenschaften“ der E-Mail-Inhaltsseite sind die Felder _[!UICONTROL Von E-Mail]_ und _[!UICONTROL Antwort an Adresse]_ bereits konfiguriert. Sie können Werte für die Felder _[!UICONTROL Absendername]_ und _[!UICONTROL Beschreibung]_ (optional) eingeben.
 
-      1. Klicken Sie bei Bedarf auf **[!UICONTROL E-Mail bearbeiten]**, um die E-Mail [Einstellungen](#define-the-email-settings) und [Inhalt](./email-authoring.md) ändern.
+     1. Klicken Sie bei Bedarf auf **[!UICONTROL E-Mail bearbeiten]**, um die E-Mail [Einstellungen](#define-the-email-settings) und [Inhalt](./email-authoring.md) ändern.
 
      +++
 
@@ -118,7 +118,7 @@ Wenn die Registerkarte **[!UICONTROL Details]** im Bedienfeld _Zusammenfassung_ 
 | [!UICONTROL Dedizierte IP] | Wenn mehr als eine dedizierte IP-Adresse definiert ist, wählen Sie eine dedizierte IP-Adresse aus, die für den Versand der E-Mail verwendet werden soll. Wenn Sie eine bestimmte dedizierte IP für Ihre Programme verwenden, können Sie die Zustellbarkeit genauer verfolgen und überwachen und schnell auf Änderungen an Ihren Versandmetriken reagieren. Weitere Informationen zum Hinzufügen einer dedizierten IP für die verbundene Marketo Engage-Instanz finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/email-marketing/deliverability/use-your-dedicated-ip-addresses-to-send-emails){target="_blank"}. |
 | [!UICONTROL Operative E-Mail] | Aktivieren Sie das Kontrollkästchen, wenn Sie die E-Mail als betriebsbereit kennzeichnen möchten. Operative E-Mails sind von Opt-out-/Abmeldelisten und von Kommunikationsbeschränkungen ausgeschlossen. Wählen Sie diese Option nur aus, wenn der Empfänger die E-Mail-Nachricht nicht als unerwünschte Werbenachricht (SPAM) betrachten kann. |
 | [!UICONTROL Als Webseite anzeigen] | Aktivieren Sie das Kontrollkästchen, um einen Link zu einer Web-Seite einzufügen, die aus dem Inhalt der E-Mail-Nachricht generiert wird. E-Mail-Nachrichten verfügen über eingeschränktere Funktionen als Web-Seiten. Daher ist sie für JavaScript, erweitertes CSS und Formulare nützlich. Der Text, der zum Generieren des Links verwendet wird, wird in den [Versandeinstellungen des E-Mail-Kanals](../admin/configure-channels-emails.md#delivery-settings) konfiguriert ([!UICONTROL Als Webseite anzeigen, HTML] und [!UICONTROL Als Webseite anzeigen, Text &#x200B;]). |
-| [!UICONTROL Öffnungs-Tracking deaktivieren] | Aktivieren Sie das Kontrollkästchen, wenn Sie die Aktivität zum Öffnen von E-Mails nicht verfolgen möchten. Wenn die Funktion deaktiviert ist, wird die Anzahl der Öffnungen von E-Mails nur dann erhöht, wenn eine eindeutige Person die E-Mail öffnet. Sie können [Linktracking für E-Mail-Inhalte verwalten](./email-authoring.md#content-authoring---link-tracking) wenn Sie den Inhalt des E-Mail-Textkörpers entwerfen. |
+| [!UICONTROL Öffnungs-Tracking deaktivieren] | Aktivieren Sie das Kontrollkästchen, wenn Sie die Aktivität zum Öffnen von E-Mails nicht verfolgen möchten. Wenn die Funktion deaktiviert ist, wird die Anzahl der Öffnungen von E-Mails nur dann erhöht, wenn eine eindeutige Person die E-Mail öffnet. Sie können [Linktracking für E-Mail-Inhalte verwalten](./email-authoring.md#edit-linked-url-tracking) wenn Sie den Inhalt des E-Mail-Textkörpers entwerfen. |
 | [!UICONTROL Preheader] | Aktivieren Sie das Kontrollkästchen, um einen Preheader einzuschließen. Ein Preheader ist der kurze Zusammenfassungstext, der in einigen E-Mail-Clients nach der Betreffzeile angezeigt wird. Sie bietet in der Regel eine kurze Zusammenfassung der E-Mail und besteht normalerweise aus einem einzigen Satz. Geben Sie den Zusammenfassungstext in das Feld <!-- , or click the AI Assistant button ( ![AI Assistant icon](../../assets/do-not-localize/icon-gen-ai.svg){width="30" zoomable="no"} ) to generate summary text based on the current email content -->. |
 | [!UICONTROL Felder als CC-Adressen] | Wählen Sie, falls verfügbar, bis zu 25 Lead- oder Firmenfelder aus, die in Marketo Engage mithilfe des `Email` eingerichtet werden. |
 
@@ -132,22 +132,22 @@ Es können zwei Arten von Warnhinweisen erkannt werden:
 
 * **_Warnhinweise_** die auf Empfehlungen und Best Practices verweisen, z. B.:
 
-   * `The opt-out link is not present in the email body`: Es wird empfohlen, einen Abmelde-Link in Ihren E-Mail-Textkörper einzufügen.
+  * `The opt-out link is not present in the email body`: Es wird empfohlen, einen Abmelde-Link in Ihren E-Mail-Textkörper einzufügen.
 
-     >[!NOTE]
-     >
-     >E-Mail-Nachrichten im Marketing-Stil müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist.
+    >[!NOTE]
+    >
+    >E-Mail-Nachrichten im Marketing-Stil müssen einen Ausschluss-Link enthalten, der für Transaktionsnachrichten nicht erforderlich ist.
 
-   * `Text version of HTML is empty`: Definieren Sie eine Textversion Ihres E-Mail-Textkörpers, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
+  * `Text version of HTML is empty`: Definieren Sie eine Textversion Ihres E-Mail-Textkörpers, die verwendet wird, wenn HTML-Inhalte nicht angezeigt werden können.
 
-   * `Empty link is present in email body`: Vergewissern Sie sich, dass alle Links in Ihrer E-Mail korrekt sind.
+  * `Empty link is present in email body`: Vergewissern Sie sich, dass alle Links in Ihrer E-Mail korrekt sind.
 
-   * `Email size has exceeded the limit of 100KB`: Stellen Sie sicher, dass die Größe Ihrer E-Mail 100 KB nicht überschreitet, um einen optimalen Versand zu erzielen.
+  * `Email size has exceeded the limit of 100KB`: Stellen Sie sicher, dass die Größe Ihrer E-Mail 100 KB nicht überschreitet, um einen optimalen Versand zu erzielen.
 
 * **_Fehler_** die verhindern, dass Sie die Journey/Kampagne testen oder aktivieren, solange nicht alle Fehler behoben sind, z. B.:
 
-   * `From name is empty`: Das Feld _E-Mail_ Absender“ (erforderlich) ist nicht definiert.
+  * `From name is empty`: Das Feld _E-Mail_ Absender“ (erforderlich) ist nicht definiert.
 
-   * `The subject line is missing`: Die Betreffzeile der E-Mail (erforderlich) wurde nicht definiert.
+  * `The subject line is missing`: Die Betreffzeile der E-Mail (erforderlich) wurde nicht definiert.
 
-   * `The email version of the message is empty`: Der E-Mail-Inhalt wurde nicht definiert.
+  * `The email version of the message is empty`: Der E-Mail-Inhalt wurde nicht definiert.

@@ -1,7 +1,7 @@
 ---
 title: Personeninteraktionswerte
 description: Berechnen Sie die Interaktionswerte für Leads mithilfe von gewichteten Aktivitäten und einem 30-tägigen Bewertungsfenster in Journey Optimizer B2B edition Prime.
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version&#x200B;"
 autotag-review: '2026-06-24T19:48:49.647Z'
 TQID: 'https://experienceleague.adobe.com/FTUV9Bh9LmcWcKDd8yR5EYTlZDB-6Pz57M4KuyPrrFQ'
 product_v2:
@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4632a06ce5a17713fdcaecf6eac8c051bc984e28
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1548
+source-wordcount: 1533
 ht-degree: 8%
 
 ---
@@ -38,7 +38,7 @@ Interaktionsbewertungsdaten finden Sie unter **[!UICONTROL Berichte]**.
 
 ![Score-Berichtsdaten zur Personeninteraktion](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-Der Personeninteraktionswert ist ein Attribut, das Sie als [Filterbedingung](#engagement-score-filter) in Personenlisten und in Pfadeunterteilungsknoten innerhalb von Journeys von Personen verwenden können.
+Der Personeninteraktionswert ist ein Attribut, das Sie als [Filterbedingung](#engagement-score-filter) in Personenlisten und Pfadeknoten in Personenlisten verwenden können.
 
 ## Für die Interaktionsbewertung verwendete Aktivitäten {#activities}
 
@@ -61,7 +61,7 @@ Für jeden Aktivitätstyp gibt es eine tägliche Häufigkeitsbegrenzung von 20. 
 | Marketo-E-Mail öffnen | Eingehend | Passive Interaktion; niedriger als Klick | 30 |
 | Verkaufs-E-Mail öffnen | Eingehend | Passive Interaktion; niedriger als Klick | 30 |
 | WhatsApp-Nachricht lesen | Eingehend | Passives Lesen; Kanal mit niedrigerem Gewicht | 30 |
-| Weiterleitung an E-Mail-Adresse eines Freundes wurde empfangen | Eingehend | Virales Signal; leicht positiv | 30 |
+| Hat E-Mail „An einen Freund weiterleiten“ erhalten | Eingehend | Virales Signal; leicht positiv | 30 |
 | Antwort auf Verkaufs-E-Mail | Eingehend | Direkte Antwort = starkes Kaufsignal | 40 |
 | Anfordern von Kampagne | Eingehend | Selbstinitiierte Aktion - hohe Absicht | 30 |
 | Marketo-Kampagne anfordern | Eingehend | Selbstinitiierte Aktion - hohe Absicht | 30 |
@@ -89,11 +89,11 @@ Das System wendet einen mehrstufigen Normalisierungsprozess an, um eine konsiste
 
 1. Berechnen Sie den unformatierten Interaktionswert, indem Sie die tägliche Aktivität pro Aktivitätstyp addieren, sie mit der zugehörigen Gewichtung multiplizieren und dann im Lookback-Fenster die Ergebnisse für alle Tage addieren.
 
-1. Wenden Sie eine _Leistungstransformation_ (Quadratwurzel) an, um die Varianz zu stabilisieren, indem Sie die Auswirkungen von Ausreißern reduzieren.
+1. Um die Varianz durch Reduzierung der Auswirkungen von Ausreißern zu stabilisieren, wenden Sie eine _Leistungstransformation_ (Quadratwurzel) an.
 
    Diese Transformation reduziert die Verzerrung und macht die Muster in den Daten linearer.
 
-1. Wenden Sie eine _Skalierte Normalisierung_ an, um sicherzustellen, dass die Bewertungen den gesamten Bereich von 0 bis 100 verwenden.
+1. Um sicherzustellen, dass die Scores den gesamten Bereich von 0 bis 100 verwenden, wenden Sie eine _Skalierte Normalisierung_ Transformation an.
 
 ## Nach Interaktionswert filtern {#engagement-score-filter}
 
@@ -103,7 +103,7 @@ Der _[!UICONTROL Wert der Personeninteraktion]_ Filter wird im Filterbedienfeld 
 
 ### Personenlisten {#people-lists}
 
-Wenn Sie Mitglieder zu einer [statischen Personenliste](./people-lists.md#static-list) hinzufügen oder daraus entfernen oder wenn Sie die Mitgliedschaftsregeln für eine [dynamische Personenliste](./people-lists.md#dynamic-lists) definieren, können Sie nach dem Interaktionswert der Person filtern, um alle Personen anzusprechen, deren Attribute Ihren Scoring-Kriterien entsprechen.
+Beim Verwalten von Mitgliedern in einer [statischen Personenliste](./people-lists.md#static-lists) oder Definieren von Regeln für eine [dynamische Personenliste](./people-lists.md#dynamic-lists) können Sie nach dem Engagement der Person filtern, um Personen anzusprechen, die Ihren Kriterien entsprechen.
 
 ![Filterung des Punktwerts der Personeninteraktion für eine Personenliste](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
@@ -211,7 +211,7 @@ Entwurfsmodelle verfügen für jede Interaktionsaktivität über _[!UICONTROL Op
 
 >[!NOTE]
 >
->Um ein aktives oder archiviertes Modell zu bearbeiten, können Sie es duplizieren, um ein neues Entwurfsmodell zu erstellen, und dann das Duplikat bearbeiten und aktivieren. Ein aktives Modell kann nicht im Kontext bearbeitet werden.
+>Um ein aktives oder archiviertes Modell zu bearbeiten, duplizieren Sie es, um ein neues Entwurfsmodell zu erstellen, und bearbeiten und aktivieren Sie dann das Duplikat. Ein aktives Modell kann nicht im Kontext bearbeitet werden.
 
 ### Aktivieren eines Entwurfsmodells {#activate-weighting-model}
 

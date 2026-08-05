@@ -18,16 +18,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 605
+source-wordcount: 606
 ht-degree: 2%
 
 ---
 
 # Benutzerdefinierte Token für die E-Mail-Personalisierung
 
-Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die beim Generieren des Inhaltsartefakts aufgefüllt werden. Standard-Personalisierungs-Token sind für E-Mails, Landingpages, Fragmente und Vorlagen verfügbar. Sie können auch einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als &quot;_Token“ bezeichnet_ und jedes dieser benutzerdefinierten Token dient zur Personalisierung beim [Verfassen von Journey-E-Mails](./email-authoring.md#content-authoring---personalization).
+Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die beim Generieren des Inhaltsartefakts aufgefüllt werden. Standard-Personalisierungs-Token sind für E-Mails, Landingpages, Fragmente und Vorlagen verfügbar. Sie können auch einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als _Meine Token_ bezeichnet. Jedes dieser benutzerdefinierten Token kann zur Personalisierung beim Verfassen [&#x200B; Journey-E-Mails verwendet &#x200B;](./email-authoring.md#personalize-content).
 
 Zusätzlich zu _Meine Token_ die speziell für die Account-Journey gelten, können Sie jedes der standardmäßigen (integrierten) Token für die E-Mail-Personalisierung verwenden.
 
@@ -35,7 +35,7 @@ Zusätzlich zu _Meine Token_ die speziell für die Account-Journey gelten, könn
 
 Die _Meine Token_ sind benutzerdefinierte Variablen, die Sie für eine Konto-Journey im Entwurfsstatus erstellen oder ändern. Dieser benutzerdefinierte Token-Satz unterstützt derzeit Text- und Zahlen-Token-Definitionen.
 
-Wenn Sie einer E-Mail ein benutzerdefiniertes Token hinzufügen, wird es als `{{my.TokenName}}` angezeigt. Beispielsweise könnten Sie `{{my.EventDate}}` oder `{{my.WebinarSpeaker}}` Token erstellen, um E-Mail-Inhalte im Zusammenhang mit kommenden Webinaren zu verwalten.
+Wenn Sie einer E-Mail ein benutzerdefiniertes Token hinzufügen, wird es als `{{my.TokenName}}` angezeigt. Sie haben beispielsweise `{{my.EventDate}}` oder `{{my.WebinarSpeaker}}` Token erstellt, um E-Mail-Inhalte im Zusammenhang mit kommenden Webinaren zu verwalten.
 
 _Zugreifen auf die benutzerdefinierten Token für eine Konto-Journey :_
 
@@ -61,7 +61,7 @@ _Zugreifen auf die benutzerdefinierten Token für eine Konto-Journey :_
 
    ![Geben Sie einen Namen und einen Wert für das Text-Token ein](./assets/my-tokens-create-text-token-dialog.png){width="400"}
 
-   Sie können im Token-Namen keine Leerzeichen oder Sonderzeichen verwenden. Sie können _Binnenmajuskel-Schreibweise_ wie `EventType` verwenden, um einen Namen mit mehreren Wörtern zu verwenden, der leicht zu identifizieren ist.
+   Sie können im Token-Namen keine Leerzeichen oder Sonderzeichen verwenden. Sie können Binnenmajuskeln wie `EventType` verwenden, um einen Namen mit mehreren Wörtern zu verwenden, der leicht zu identifizieren ist.
 
    Wenn Sie ein Token _Zahl_ definieren, darf der Wert nur numerische Zeichen enthalten. Sie können einen Dezimalwert verwenden.
 

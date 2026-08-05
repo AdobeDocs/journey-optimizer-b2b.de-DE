@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T22:58:08.848Z
 TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: 0006aa457b010f30226ac9b0fd8d7c52fd9187e9
+source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
 workflow-type: tm+mt
 source-wordcount: 1632
 ht-degree: 12%
@@ -42,7 +42,7 @@ Die Verwendung von AEP Experience Events in Journey erfolgt in zwei Schritten:
 
 1. In einem Journey verwendet ein Marketer die konfigurierten Ereignisse auf eine dieser zwei Arten:
 
-   * Fügt einen _Lauschen auf ein Ereignis_-Knoten hinzu und [wählt ein Erlebnisereignis aus](../journeys/listen-for-event-nodes.md#listen-for-an-experience-event) um den Fortschritt des Trigger-Journey basierend auf der Echtzeit-Ereignisaktivität während des Journey zu ermitteln.
+   * Fügt einen _Lauschen auf ein Ereignis_-Knoten hinzu und [wählt ein Erlebnisereignis aus](../journeys/listen-for-event-nodes.md#experience-events-account-people) um den Fortschritt des Trigger-Journey basierend auf der Echtzeit-Ereignisaktivität während des Journey zu ermitteln.
    * Fügt den Knoten _Pfade nach Personen aufteilen_ hinzu und konfiguriert einen Pfad [Filtern nach einem Ereignis](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) aus dem Ordner **[!UICONTROL Ereignisverlauf]**.
 
 >[!BEGINSHADEBOX]

@@ -21,10 +21,10 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
 autotag-review: 2026-03-30T19:48:50.374Z
 TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 720
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 3%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 2%
 
 Sie können Erlebnisse für externe Zielgruppen in [!DNL Adobe Target] über Account Journey aktivieren und personalisieren. Verwenden Sie diese Integration, um eine erweiterte und maßgeschneiderte Personalisierung zu erzielen, die die Interaktion erhöht, und um die plattformübergreifende Konsistenz über [!DNL Target] und [!DNL Journey Optimizer B2B Edition] hinweg aufrechtzuerhalten. Diese Konsistenz stellt sicher, dass Teams Web-Kanäle für Einkaufsgruppen im gesamten B2B-Käufer-Journey abstimmen und personalisieren.
 
-Es handelt sich um einen zweistufigen Workflow zur Aktivierung einer externen Zielgruppe über Adobe Target:
+Es gibt einen zweistufigen Workflow zum Aktivieren einer externen Zielgruppe über Adobe Target:
 
 1. [Hinzufügen zur externen Kundenzielgruppe](#add-to-customer-external-audience-from-a-journey) von einer Journey.
 2. [Aktivieren Sie die externe Zielgruppe](#activate-the-external-audience-to-target-as-a-destination) um als Ziel in Experience Platform zu [!DNL Target].
 
 ## Hinzufügen von Daten von einer Journey zur externen Zielgruppe des Kunden
 
-Fügen Sie in Ihrem Journey [Knoten _Aktion ausführen_ hinzu](../journeys/action-nodes.md) um die Aktion _[!UICONTROL Hinzufügen zur externen Kundenzielgruppe]_ auszuführen. Aktionen sind in der Regel das, was infolge eines Triggers geschehen soll, z. B. eines Ereignisses oder einer vorherigen Aktion. Der Journey führt die Aktion aus, wenn ein passendes Konto mit Personenprofilen den Knoten erreicht.
+Fügen Sie in Ihrem Journey [Knoten _Aktion ausführen_ hinzu](../journeys/action-nodes.md) um die Aktion _[!UICONTROL Hinzufügen zur externen Kundenzielgruppe]_ auszuführen. Aktionen sind normalerweise das Ergebnis eines Triggers, z. B. eines Ereignisses oder einer vorherigen Aktion. Der Journey führt die Aktion aus, wenn ein passendes Konto mit Personenprofilen den Knoten erreicht.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Fügen Sie in Ihrem Journey [Knoten _Aktion ausführen_ hinzu](../journeys/actio
 
 1. Legen Sie in den Knoteneigenschaften auf der rechten Seite die externe Zielgruppe fest.
 
-   * Wenn bereits mindestens eine externe Zielgruppe erstellt wurde, können Sie **[!UICONTROL Vorhandene auswählen]** und [die Zielgruppe auswählen, die Sie verwenden möchten](#choose-an-external-audience).
+   * Wenn bereits mindestens eine externe Zielgruppe erstellt wurde, können Sie **[!UICONTROL Vorhandene auswählen]** und [die Zielgruppe auswählen, die Sie verwenden möchten](#select-an-external-audience).
 
    * Wenn Sie eine Zielgruppe [&#x200B; möchten, &#x200B;](#create-an-external-audience) Sie für den Knoten verwenden möchten, wählen Sie **[!UICONTROL Neu erstellen]**.
 

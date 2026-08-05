@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
 source-wordcount: 1544
 ht-degree: 7%
@@ -37,7 +37,7 @@ Der Web-Kanal in Adobe Journey Optimizer B2B edition ermöglicht es Ihnen, perso
 Web-Erlebnisse ermöglichen Ihnen Folgendes:
 
 * Bereitstellen personalisierter Inhaltsänderungen für ausgewählte Website-Besucher
-* Website-Elemente wie Banner, Text, Bilder und Schaltflächen mithilfe von Kontoattributen anpassen
+* Website-Elemente wie Banner, Text, Bilder und Schaltflächen mit Kontoattributen anpassen
 * Targeting bestimmter Seiten oder Anwenden von Änderungen auf mehrere Seiten mithilfe von URL-Abgleichregeln
 * Interaktion verfolgen und die Wirkung Ihrer Web-Personalisierungsmaßnahmen überwachen
 
@@ -52,9 +52,9 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 * Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
 
 * Sie verfügen über die erforderlichen [Berechtigungen](../admin/user-management.md#b2b-product-permissions) um Web-Erlebnisse auf einer Journey zu erstellen und zu verwalten:
-   * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen verwalten]_ - Erforderlich zum Hinzufügen oder Aktualisieren eines Web-Personalisierungsaktionsknotens.
-   * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen anzeigen]_ - Erforderlich, um Details für einen Aktionsknoten der Web-Personalisierung anzuzeigen.
-   * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen genehmigen und veröffentlichen]_ - Erforderlich zum Veröffentlichen einer Journey mit einem oder mehreren Web-Personalisierungsaktionsknoten.
+  * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen verwalten]_ - Erforderlich zum Hinzufügen oder Aktualisieren eines Web-Personalisierungsaktionsknotens.
+  * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen anzeigen]_ - Erforderlich, um Details für einen Aktionsknoten der Web-Personalisierung anzuzeigen.
+  * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen genehmigen und veröffentlichen]_ - Erforderlich zum Veröffentlichen einer Journey mit einem oder mehreren Web-Personalisierungsaktionsknoten.
 
 * Die Browser-Erweiterung „Visual Editing [&#x200B; Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Journey Optimizer B2B edition Content Design Space zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
 
@@ -134,7 +134,7 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
 1. Legen Sie im rechten Bedienfeld die Eigenschaften des Web-Erlebnisses entsprechend Ihrer Definition und Verwaltung fest.
 
-   * **[!UICONTROL Visual Editor]** - Wechseln Sie zwischen dem [visuellen und nicht visuellen Editor](./web-experience-design.md#web-design-tools) für das Design zur Bearbeitung von Web-Erlebnissen.
+   * **[!UICONTROL Visual Editor]** - Wechseln Sie zwischen dem [visuellen und nicht visuellen Editor](./web-experience-design.md#web-experience-editors) für das Design zur Bearbeitung von Web-Erlebnissen.
    * **[!UICONTROL Besucherumleitung]** - Aktivieren Sie diese Option, um [Besucher zu einer anderen vorhandenen URL umzuleiten](#redirect-to-url) anstatt eine neue Variante auf der Registerkarte „Inhalt“ zu erstellen.
 
    ![Eigenschaften für den visuellen Editor und die Umleitungs-URL umschalten](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}

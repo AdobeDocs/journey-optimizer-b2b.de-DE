@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 1512
+source-wordcount: 1504
 ht-degree: 42%
 
 ---
@@ -33,7 +33,7 @@ Journey Optimizer B2B edition unterstützt zwei Journey-Typen:
 
   ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo zur Account-Journey ansehen](#overview-video)
 
-* **Personen-Journey** - (Beta) Orchestrieren Sie Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten. Bei Personen-Journey sind Ihre Marketing-Vorgänge nicht auf Marketo Engage oder Problemumgehungen für Adobe Campaign/B2C-Toolketten angewiesen, damit sie mit B2B-Anwendungsfällen arbeiten können.
+* **Personen-Journey** - (Beta) Orchestrieren Sie Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten. Bei Personen-Journey sind Ihre Marketing-Vorgänge nicht auf Marketo Engage oder Problemumgehungen für Adobe Campaign/B2C-Toolketten angewiesen, damit sie B2B-Anwendungsfälle unterstützen können.
 
   Bei Verwendung in Kombination mit Account-Journeys und Einkaufsgruppen kann eine Personen-Journey Marketing-Fachleuten die Möglichkeit bieten, die Kauf-Journey vollständig zu orchestrieren.
 
@@ -41,17 +41,17 @@ Journey Optimizer B2B edition unterstützt zwei Journey-Typen:
 
   Es gibt Einschränkungen, die bestimmte Anwendungsfälle blockieren oder Schwierigkeiten bei der Erstellung von Personen-Journey verursachen können. Viele Probleme sind das Ergebnis der ersten Implementierung des Beta-Programms, die in Zukunft angegangen werden muss.
 
-   * Ereignisse können nicht mit Profilattributen kombiniert werden, um Zielgruppendefinitionen einzugrenzen.
-   * Der Kontext des Ereignisses, das ein Profil für eine Journey qualifiziert, kann nicht für Personalisierung oder Orchestrierung verwendet werden.
-   * Journey können derzeit nicht sowohl über ein Ereignis- als auch über ein Profilsegmenteinstiegskriterium verfügen.
-   * Ereignis-Listener können nicht auf mehrere Ereignisse warten.
-   * Warteknoten verfügen derzeit nicht über eine vollständige Suite von Optionen für die Ausstiegskriterien für den Wochentag oder die Tageszeit.
-   * Der E-Mail-Editor verweist fälschlicherweise auf Funktionen und Attribute, die nur für Account-Journey verfügbar sind
-   * Unterstützung für benutzerdefinierte Journey-Token (_Meine Token_) ist noch nicht verfügbar.
-   * Das Hinzufügen und Entfernen von Personen-Journey-Knoten ist derzeit in keinem der Journey-Typen verfügbar.
-   * Der Ereignisverlauf kann nicht für die Orchestrierung oder Personalisierung verwendet werden.
-   * Zugehörige Objekte (z. B. Konto, Einkaufsgruppe, Opportunity und benutzerdefinierte Objekte) können nicht für die Orchestrierung oder Personalisierung verwendet werden.
-   * Web-, SMS- und Anzeigenplattformkanäle werden derzeit nicht unterstützt.
+  * Ereignisse können nicht mit Profilattributen kombiniert werden, um Zielgruppendefinitionen einzugrenzen.
+  * Der Kontext des Ereignisses, das ein Profil für eine Journey qualifiziert, kann nicht für Personalisierung oder Orchestrierung verwendet werden.
+  * Journey können derzeit nicht sowohl über ein Ereignis- als auch über ein Profilsegmenteinstiegskriterium verfügen.
+  * Ereignis-Listener können nicht auf mehrere Ereignisse warten.
+  * Warteknoten verfügen derzeit nicht über eine vollständige Suite von Optionen für die Ausstiegskriterien für den Wochentag oder die Tageszeit.
+  * Der E-Mail-Editor verweist fälschlicherweise auf Funktionen und Attribute, die nur für Account-Journey verfügbar sind
+  * Unterstützung für benutzerdefinierte Journey-Token (_Meine Token_) ist noch nicht verfügbar.
+  * Das Hinzufügen und Entfernen von Personen-Journey-Knoten ist derzeit in keinem der Journey-Typen verfügbar.
+  * Der Ereignisverlauf kann nicht für die Orchestrierung oder Personalisierung verwendet werden.
+  * Zugehörige Objekte (Konto, Einkaufsgruppe, Opportunity und benutzerdefinierte Objekte) können nicht für die Orchestrierung oder Personalisierung verwendet werden.
+  * Web-, SMS- und Anzeigenplattformkanäle werden derzeit nicht unterstützt.
 
   +++
 
@@ -200,7 +200,7 @@ Die Aktion „Duplizieren“ ähnelt einer Klonfunktion, wobei eine duplizierte 
 
    Die duplizierte Journey wird in der Journey-Zuordnung geöffnet, wo Sie die Details festlegen und Journey-Inhalte nach Bedarf erstellen können.
 
-### Löschen einer Journey
+### Löschen einer Journey {#delete-journey}
 
 Verwenden Sie die Aktion „Löschen“, um eine Journey dauerhaft zu löschen. Live-Journeys oder geplante Journeys können nicht gelöscht werden.
 
@@ -216,7 +216,7 @@ Verwenden Sie die Aktion „Löschen“, um eine Journey dauerhaft zu löschen. 
 
 ## Überprüfen des Kontofortschritts
 
-Für eine veröffentlichte Account-Journey mit dem Status _Live_, _Geschlossen für neue Einträge_, _Abgebrochen_ oder _Abgeschlossen_ können Sie die Journey-Zuordnung öffnen, um den Kontofortschritt für die Journey-Knoten zu überprüfen. Jeder Knoten in der Map zeigt die Anzahl der Konten an, die diesen Knoten erreichen, sowie bei Live-Journeys die Anzahl der Konten, die sich aktuell an diesem Knoten befinden.
+Für eine veröffentlichte Account-Journey mit dem _Live_-, _Closed to new entries_-, _Aborted_- oder _Finished_-Status öffnen Sie die Journey-Map, um den Account-Fortschritt für die Journey-Knoten zu überprüfen. Jeder Knoten in der Map zeigt die Anzahl der Konten an, die diesen Knoten erreichen, sowie bei Live-Journeys die Anzahl der Konten, die sich aktuell an diesem Knoten befinden.
 
 ![Informationen zum Kontofortschritt an den Journey-Knoten](./assets/node-account-progression-observability.png){width="400"}
 

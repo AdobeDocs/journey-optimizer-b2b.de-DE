@@ -17,9 +17,9 @@ topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
 workflow-type: tm+mt
-source-wordcount: 3064
+source-wordcount: 3074
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_email"
 >title="Informationen zu Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine E-Mail gestalten können."
+>abstract="Content-Komponenten sind leere Content-Platzhalter, mit denen Sie eine E-Mail gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_landing_page"
@@ -39,12 +39,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_fragment"
 >title="Informationen zu Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie ein Fragment gestalten können."
+>abstract="Content-Komponenten sind leere Content-Platzhalter, mit denen Sie ein Fragment gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_content_components_template"
 >title="Informationen zu Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine Vorlage gestalten können."
+>abstract="Content-Komponenten sind leere Content-Platzhalter, mit denen Sie eine Vorlage gestalten können."
 
 Verwenden Sie beim Entwerfen von Inhalten für E-Mails, Landingpages, Vorlagen und visuelle Fragmente die [!UICONTROL Inhaltskomponenten], um visuelle Design-Elemente hinzuzufügen. Sie können beliebig viele Inhaltskomponenten zu einer oder mehreren Strukturkomponenten hinzufügen, die das Layout definieren.
 
@@ -207,7 +207,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
 +++
 
-### Funktionale Tools
+### Funktionale Tools {#functional-tools}
 
 | Tool | Name | Nutzung |
 | ---- | ---- | ----- |
@@ -221,7 +221,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
 1. Verwenden Sie im visuellen Design eine vorhandene Vorlage oder fügen Sie die erforderlichen Strukturkomponenten zu einer leeren Arbeitsfläche hinzu, um das Layout zu definieren.
 
-1. Greifen Sie in der **[!UICONTROL Komponenten]**-Bibliothek _Ziehgriff_ ![Ziehgriff](../../assets/do-not-localize/icon-drag-handle.svg) für die Inhaltskomponente Ihrer Wahl und ziehen Sie sie dann auf die Strukturkomponenten.
+1. Wählen Sie in **[!UICONTROL Komponenten]**-Bibliothek _Ziehgriff_ ![Ziehgriff](../../assets/do-not-localize/icon-drag-handle.svg) für die Inhaltskomponente Ihrer Wahl aus und ziehen Sie sie dann auf die Strukturkomponenten.
 
    Sie können zu einer einzelnen Strukturkomponente und zu jeder Spalte einer Strukturkomponente mehrere Komponenten hinzufügen.
 
@@ -233,7 +233,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
    ![Definieren Sie die Einstellungen und Stile für die Inhaltskomponente](./assets/content-components-settings-styles.png){width="600" zoomable="yes"}
 
-Während Sie mit Ihrem Design arbeiten, können Sie eine Komponente auch [entfernen](#remove-a-content-component) oder [duplizieren](#duplicate-a-content-component).
+Während Sie mit Ihrem Design arbeiten, können Sie eine Komponente auch mit den Tools **Löschen** und **Duplizieren** im Abschnitt [Funktionstools](#functional-tools) entfernen oder duplizieren.
 
 ## Einstellungen und Stile der Inhaltskomponenten
 
@@ -318,7 +318,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
 1. Geben **[!UICONTROL unter]** den Text ein, der in der Schaltfläche angezeigt werden soll.
 
-   Die Größe der Schaltfläche wird entsprechend dem Text und dem Stil angepasst, der festgelegt ist.
+   Die Größe der Schaltfläche wird entsprechend dem Text und dem festgelegten Stil angepasst.
 
 1. Wählen Sie für **[!UICONTROL Target**] aus, wie das verknüpfte Ziel von der E-Mail oder Seite umgeleitet werden soll:
 
@@ -438,7 +438,7 @@ Diese Stile werden auf den gesamten Textblock angewendet. Sie können Inline-Sti
 
 ### Trennlinie
 
-Fügen Sie _Komponente_ Trennzeichen“ hinzu, um eine lineare Aufteilung zwischen Inhaltsabschnitten zu ermöglichen.
+Um eine lineare Unterteilung zwischen Abschnitten Ihres Inhalts zu integrieren, fügen Sie eine _Divider_ hinzu.
 
 +++Hintergrund
 
@@ -456,13 +456,13 @@ Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte
 
 * **[!UICONTROL Breite]** - Verwenden Sie den Umschalter, um die Breite nach Pixel oder Prozentsatz festzulegen.
 
-   * Legen Sie für eine prozentuale Breite mithilfe des Schiebereglers den prozentualen Wert fest. Der Prozentsatz bestimmt die Elementgröße anhand des Inhaltsfelds des enthaltenden Blocks, wobei Auffüllung und Rahmen ausgeschlossen sind. Bei einem Wert von 50 wird beispielsweise die Elementbreite auf 50 % der Breite festgelegt, die den Block enthält.
+  * Legen Sie für eine prozentuale Breite mithilfe des Schiebereglers den prozentualen Wert fest. Der Prozentsatz bestimmt die Elementgröße anhand des Inhaltsfelds des enthaltenden Blocks, wobei Auffüllung und Rahmen ausgeschlossen sind. Bei einem Wert von 50 wird beispielsweise die Elementbreite auf 50 % der Breite festgelegt, die den Block enthält.
 
   ![Definieren des Linienstils für eine Trennzeichenkomponente](./assets/component-divider-line-options.png){width="250"}
 
-   * Klicken Sie bei einer pixelbasierten Breite auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und bestimmt die Breite des Elements entsprechend seinem Inhalt.
+  * Klicken Sie bei einer pixelbasierten Breite auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und bestimmt die Breite des Elements entsprechend seinem Inhalt.
 
-* **[!UICONTROL Style]** - Wählen Sie den Wert a aus der Liste der standardmäßigen CSS-`line-style` aus, z _B. Solid_, _Dotted_ und _Dashed_.
+* **[!UICONTROL Style]** - Wählen Sie einen Wert aus der Liste der standardmäßigen CSS-`line-style` aus, z _B. Solid_, _Dotted_ und _Dashed_.
 
 +++
 
@@ -502,7 +502,7 @@ Verwenden Sie die HTML-Komponente, um Teile Ihrer bestehenden HTML hinzuzufügen
 
 1. Wählen Sie die Komponente auf der Arbeitsfläche aus und klicken Sie auf _Symbolleiste auf das Symbol_ Quellcode anzeigen“.
 
-   [Öffnen Sie den Code-Editor, um die HTML hinzuzufügen](./assets/content-components-html-show-code.png){width="450"}
+   [Um die HTML hinzuzufügen, öffnen Sie den Code-Editor](./assets/content-components-html-show-code.png){width="450"}
 
 1. Fügen Sie die HTML in das Textfeld ein und klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -564,7 +564,7 @@ Verwenden Sie die [!UICONTROL Bild]-Komponente, um ein Bild-Asset in Ihren Inhal
 
 Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie eine Bilddatei aus:
 
-* **[!UICONTROL Marketo Engage Assets]** - Wählen Sie diesen Typ, um ein Bild-Asset aus der Journey Optimizer B2B edition-Bibliothek oder der verbundenen Market Engage-Instanz zu durchsuchen und auszuwählen.
+* **[!UICONTROL Marketo Engage Assets]** - Wählen Sie diesen Typ, um ein Bild-Asset aus der Journey Optimizer B2B edition-Bibliothek oder der verbundenen Marketo Engage-Instanz zu durchsuchen und auszuwählen.
 
   ![Durchsuchen der verfügbaren Bild-Assets](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 
@@ -572,31 +572,31 @@ Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie eine Bild
 
   Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden können:
 
-   * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
+  * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
 
-   * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
+  * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
 
-     ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
+    ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
 
 * **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu &#x200B;](../admin/configure-aem-repositories.md) und auszuwählen.
 
   Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 
-   * Ändern Sie **[!UICONTROL Repository]** oben rechts.
+  * Ändern Sie **[!UICONTROL Repository]** oben rechts.
 
-   * Klicken Sie **[!UICONTROL oben rechts auf]** Assets verwalten“, um das Assets-Repository in einer anderen Browser-Registerkarte zu öffnen und AEM Assets-Verwaltungstools zu verwenden.
+  * Klicken Sie **[!UICONTROL oben rechts auf]** Assets verwalten“, um das Assets-Repository in einer anderen Browser-Registerkarte zu öffnen und AEM Assets-Verwaltungstools zu verwenden.
 
-   * Klicken Sie oben rechts auf _Ansichtstyp_, um die Anzeige in **[!UICONTROL Listenansicht]**, **[!UICONTROL Rasteransicht]**, **[!UICONTROL Galerieansicht]** oder **[!UICONTROL Wasserfallansicht]** zu ändern.
+  * Klicken Sie oben rechts auf _Ansichtstyp_, um die Anzeige in **[!UICONTROL Listenansicht]**, **[!UICONTROL Rasteransicht]**, **[!UICONTROL Galerieansicht]** oder **[!UICONTROL Wasserfallansicht]** zu ändern.
 
-   * Klicken Sie auf _Symbol „Sortierreihenfolge_, um die Sortierreihenfolge zwischen aufsteigender und absteigender Reihenfolge zu ändern.
+  * Klicken Sie auf _Symbol „Sortierreihenfolge_, um die Sortierreihenfolge zwischen aufsteigender und absteigender Reihenfolge zu ändern.
 
-     ![Verwenden Sie Tools im Dialogfeld &quot;Assets auswählen“, um ein Bild-Asset zu suchen und auszuwählen](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
+    ![Verwenden Sie Tools im Dialogfeld &quot;Assets auswählen“, um ein Bild-Asset zu suchen und auszuwählen](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
 
-   * Klicken Sie auf **[!UICONTROL Menüpfeil]** Sortieren nach“, um die Sortierkriterien in **[!UICONTROL Name]**, **[!UICONTROL Size]** oder **[!UICONTROL Modified]** zu ändern.
+  * Klicken Sie auf **[!UICONTROL Menüpfeil]** Sortieren nach“, um die Sortierkriterien in **[!UICONTROL Name]**, **[!UICONTROL Size]** oder **[!UICONTROL Modified]** zu ändern.
 
-   * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
+  * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
 
-   * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
+  * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
 
   ![Verwenden Sie das Filter- und Suchfeld, um das Asset zu finden](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
 
@@ -705,7 +705,7 @@ Verwenden Sie die Komponente _Social_, um Links zu Social-Media-Seiten in Ihre I
 Wenn Sie einen Social-Media-Typ ausgewählt haben, legen Sie die Optionen für diesen Typ fest:
 
 * **[!UICONTROL URL]** - Geben Sie die Social-Media-URL ein, die Sie mit der Social-Media-Grafik oder dem Symbol verknüpfen möchten.
-* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie und Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [&#x200B; Bild-Assets finden &#x200B;](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
+* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie ein Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [&#x200B; Bild-Assets finden &#x200B;](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
 * **[!UICONTROL ALT-]**: Geben Sie den ALT-Text für das angezeigte Bild ein.
 
   ![Einstellungen für den ausgewählten Social-Media-Typ](./assets/content-components-social-settings-for-type.png){width="250"}
