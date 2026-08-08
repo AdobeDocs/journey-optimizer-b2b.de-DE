@@ -4,22 +4,17 @@ description: Optimieren Sie die Nachfragegenerierung mit Journey - Erstellen, ve
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +28,9 @@ Journey Optimizer B2B edition unterstützt zwei Journey-Typen:
 
   ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo zur Account-Journey ansehen](#overview-video)
 
-* **Personen-Journey** - (Beta) Orchestrieren Sie Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten. Bei Personen-Journey sind Ihre Marketing-Vorgänge nicht auf Marketo Engage oder Problemumgehungen für Adobe Campaign/B2C-Toolketten angewiesen, damit sie B2B-Anwendungsfälle unterstützen können.
+* **Personen-Journey** - Orchestrieren Sie Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten. Bei Personen-Journey sind Ihre Marketing-Vorgänge nicht von Marketo Engage oder Problemumgehungen für Adobe Campaign/B2C-Toolketten abhängig, damit sie B2B-Anwendungsfälle unterstützen können.
 
   Bei Verwendung in Kombination mit Account-Journeys und Einkaufsgruppen kann eine Personen-Journey Marketing-Fachleuten die Möglichkeit bieten, die Kauf-Journey vollständig zu orchestrieren.
-
-  +++Aktuelle Einschränkungen für Personen-Journey
-
-  Es gibt Einschränkungen, die bestimmte Anwendungsfälle blockieren oder Schwierigkeiten bei der Erstellung von Personen-Journey verursachen können. Viele Probleme sind das Ergebnis der ersten Implementierung des Beta-Programms, die in Zukunft angegangen werden muss.
-
-  * Ereignisse können nicht mit Profilattributen kombiniert werden, um Zielgruppendefinitionen einzugrenzen.
-  * Der Kontext des Ereignisses, das ein Profil für eine Journey qualifiziert, kann nicht für Personalisierung oder Orchestrierung verwendet werden.
-  * Journey können derzeit nicht sowohl über ein Ereignis- als auch über ein Profilsegmenteinstiegskriterium verfügen.
-  * Ereignis-Listener können nicht auf mehrere Ereignisse warten.
-  * Warteknoten verfügen derzeit nicht über eine vollständige Suite von Optionen für die Ausstiegskriterien für den Wochentag oder die Tageszeit.
-  * Der E-Mail-Editor verweist fälschlicherweise auf Funktionen und Attribute, die nur für Account-Journey verfügbar sind
-  * Unterstützung für benutzerdefinierte Journey-Token (_Meine Token_) ist noch nicht verfügbar.
-  * Das Hinzufügen und Entfernen von Personen-Journey-Knoten ist derzeit in keinem der Journey-Typen verfügbar.
-  * Der Ereignisverlauf kann nicht für die Orchestrierung oder Personalisierung verwendet werden.
-  * Zugehörige Objekte (Konto, Einkaufsgruppe, Opportunity und benutzerdefinierte Objekte) können nicht für die Orchestrierung oder Personalisierung verwendet werden.
-  * Web-, SMS- und Anzeigenplattformkanäle werden derzeit nicht unterstützt.
-
-  +++
 
 ## Erste Schritte mit einer Journey
 
@@ -75,9 +52,7 @@ Um die angezeigte Liste nach Namen zu filtern, geben Sie im Tool _Suchen_ oben i
 
 ![Filtern der Liste der Konto-Journeys](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB Personen-Journey (Beta)]
-
-[!BADGE Beta]{type=Informative tooltip="Als Beta-Funktion verfügbar"}
+>[!TAB Personen-Journey ]
 
 Erweitern Sie im linken Navigationsbereich die Option **[!UICONTROL Journey-]** und klicken Sie auf **[!UICONTROL Personen-Journey]**.
 
@@ -114,11 +89,11 @@ Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Ak
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Entwurf**&#x200B;_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-a-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn eine Journey veröffentlicht wird. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
-| _&#x200B;**Für neue Eintritte geschlossen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
-| _&#x200B;**Abgebrochen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Beendet**&#x200B;_ | Wenn alle Mitglieder der Konto- oder Personen-Zielgruppe auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Abgeschlossen_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-a-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Live**_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn eine Journey veröffentlicht wird. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
+| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
+| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Beendet**_ | Wenn alle Mitglieder der Konto- oder Personen-Zielgruppe auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Abgeschlossen_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
 
 ## Journey-Maps
 
@@ -194,7 +169,7 @@ Die Aktion „Duplizieren“ ähnelt einer Klonfunktion, wobei eine duplizierte 
 
    * **[!UICONTROL Duplizierung von Teilinhalten]**: Verwenden Sie diesen Typ, um alles in der Journey zu kopieren, ausgenommen alle erstellten E-Mails bzw. SMS-Nachrichten. Knoten, die auf eine Marketo Engage-E-Mail oder -SMS verweisen, sind vollständig intakt.
 
-   * **[!UICONTROL Ohne Details duplizieren]** - Verwenden Sie diesen Typ, um nur die Knotenstruktur und die Pfade zu kopieren. Alle Knoteneinstellungen und Pfadbedingungen sind nicht definiert (Standard), sodass Sie den grundlegenden Fluss mit unterschiedlichen Einstellungen für Zielgruppen, Aktionen und Pfadsegmentierungen wiederverwenden können. Alle Knoten vom Typ _Warten_ verwenden den Standardwert von fünf Tagen.
+   * **[!UICONTROL Ohne Details duplizieren]** - Verwenden Sie diesen Typ, um nur die Knotenstruktur und die Pfade zu kopieren. Alle Knoteneinstellungen und Pfadbedingungen sind nicht definiert (Standard), sodass Sie den grundlegenden Fluss erneut mit verschiedenen Zielgruppen-, Aktionen- und Pfadsegmentierungseinstellungen verwenden können. Alle Knoten vom Typ _Warten_ verwenden den Standardwert von fünf Tagen.
 
 1. Klicken Sie auf **[!UICONTROL Duplizieren]**.
 
@@ -226,4 +201,4 @@ Wenn Sie den Knoten auswählen, klicken Sie auf die Zahl, um eine Liste der Kont
 
 ## Übersichtsvideo zur Account-Journey {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443216/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

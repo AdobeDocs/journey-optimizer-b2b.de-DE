@@ -1,30 +1,18 @@
 ---
 title: Checkliste einrichten
-description: Einrichten von Journey Optimizer B2B edition. Konfigurieren Sie XDM-Schemata, E-Mail-/SMS-Kanäle, Marketo Engage-Journey-Aktionen und Benutzende.
+description: Einrichten von Journey Optimizer B2B edition. Konfigurieren Sie XDM-Schemata, E-Mail-/SMS-Kanäle, Marketo Engage Journey-Aktionen und Benutzer.
 feature: Setup, Administration
 role: Admin, Developer
 exl-id: 81232976-09d6-4e10-a034-5c193a63b7df
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: c8f3fb27-3167-48ac-a66a-fa4bc3f58ddaid: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 autotag-review: '2026-03-27T22:15:07.682Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 848
-ht-degree: 74%
+source-wordcount: 847
+ht-degree: 73%
 
 ---
 
@@ -73,7 +61,7 @@ Verwenden Sie diese Checkliste, um die Einrichtung von Journey Optimizer B2B edi
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Sammeln Sie Experience Platform-API-Anmeldeinformationen und erforderliche Kopfzeilen.</td>
+<td>Sammeln Sie die Adobe Experience Platform API-Anmeldedaten und die erforderlichen Header.</td>
 <td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/platform-apis/api-guide">Weitere Informationen</a></td>
 </tr>
 <tr>
@@ -109,7 +97,7 @@ Verwenden Sie diese Checkliste, um die Einrichtung von Journey Optimizer B2B edi
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Wählen Sie verwaltete Felder aus, die für Journey, Einkaufsgruppen und E-Mail-Personalisierung verfügbar gemacht werden sollen.</td>
+<td>Verwaltete Felder auswählen, die für Journeys, Einkaufsgruppen und E-Mail-Personalisierung verfügbar gemacht werden sollen.</td>
 <td><a href="./admin/xdm-field-management.md#standard-classes">Weitere Informationen</a></td>
 </tr>
 <tr>
@@ -132,13 +120,13 @@ Verwenden Sie diese Checkliste, um die Einrichtung von Journey Optimizer B2B edi
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Konfigurieren Sie jeden Experience Platform-Ereignistyp mit Feldern, die in Journey-Entscheidungs-/Aufspaltungspfaden unterstützt werden sollen.</td>
+<td>Konfigurieren Sie jeden Ereignistyp in Adobe Experience Platform mit Feldern, die in Journey-Entscheidungs- und -Verzweigungspfaden unterstützt werden sollen.</td>
 <td><a href="./admin/configure-aep-events.md">Weitere Informationen</a></td>
 </tr>
 </tbody>
 </table>
 
-## &#x200B;3. Tracking und E-Mail-Zustellbarkeit konfigurieren
+## &#x200B;3. Konfigurieren Sie Tracking und E-Mail-Zustellbarkeit
 
 Um E-Mails von [!DNL Journey Optimizer B2B Edition] aus zu senden, konfigurieren Sie das E-Mail-Tracking und die Zustellbarkeit in der angehängten [!DNL Marketo Engage]-Produktionsinstanz und in der [!DNL Journey Optimizer B2B Edition]-App.
 
@@ -161,12 +149,12 @@ Um E-Mails von [!DNL Journey Optimizer B2B Edition] aus zu senden, konfigurieren
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Konfigurieren von Branding-Domains für die angehängte Marketo Engage-Instanz</td>
+<td>Branding-Domains für die angehängte Marketo Engage-Instanz konfigurieren</td>
 <td><a href="./start/branding-domains.md">Weitere Informationen</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Konfigurieren von DKIM und SPF für die angeschlossene Marketo Engage-Instanz</td>
+<td>DKIM und SPF für die angeschlossene Marketo Engage-Instanz konfigurieren</td>
 <td><a href="./start/email-protocols.md#set-up-spf-and-dkim">Weitere Informationen</a></td>
 </tr>
 <tr>
@@ -260,7 +248,7 @@ Um E-Mails von [!DNL Journey Optimizer B2B Edition] aus zu senden, konfigurieren
 </tr>
 -->
 
-## &#x200B;4. Konfigurieren zusätzlicher Inhaltskanäle
+## &#x200B;4. Zusätzliche Inhaltskanäle konfigurieren
 
 Um Marketing-Teams zu unterstützen, die andere Kanäle in ihren Journey einschließen, konfigurieren Sie zusätzliche Kanäle.
 
@@ -282,12 +270,12 @@ Um Marketing-Teams zu unterstützen, die andere Kanäle in ihren Journey einschl
 <td><a href="./admin/configure-channels-sms.md">Weitere Informationen</a></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Landingpages</strong> (Beta)-Kanalkonfiguration für Journey Optimizer B2B edition</td>
+<td colspan="2"><strong>Landingpages</strong> Kanalkonfiguration für Journey Optimizer B2B edition.</td>
 <td></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Füllen Sie die Einstellungen der Landingpage aus, um Marketing-Experten zu unterstützen, die diese Seiten erstellen und veröffentlichen</td>
+<td>Füllen Sie die Einstellungen der Landingpage aus, um Marketingexperten zu unterstützen, die diese Seiten erstellen und veröffentlichen.</td>
 <td><a href="./admin/configure-channels-landing-pages.md">Weitere Informationen</a></td>
 </tr>
 <tr>
@@ -297,7 +285,7 @@ Um Marketing-Teams zu unterstützen, die andere Kanäle in ihren Journey einschl
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
 <td>Konfigurieren Sie Ihre Business-Website zur Unterstützung der Adobe Experience Platform Web SDK.</td>
-<td><a href="https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview">Weitere Informationen</a></td>
+<td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview">Weitere Informationen</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
@@ -312,9 +300,9 @@ Um Marketing-Teams zu unterstützen, die andere Kanäle in ihren Journey einschl
 </tbody>
 </table>
 
-## &#x200B;5. Marketo Engage-Instanz verbinden, um Journey-Aktionen zu unterstützen (optional)
+## &#x200B;5. Verbinden Sie die Marketo Engage-Instanz, um Journey-Aktionen zu unterstützen (optional)
 
-Wenn Sie planen, die Journey Optimizer B2B edition-Funktionen durch Kampagnen und Programme in Marketo Engage zu ergänzen, richten Sie die Unterstützung für Marketo Engage-Aktionen ein. Diese Aktionen ermöglichen es Ihren Marketing-Teams _ihr (Account-basiertes_ Marketing in Journey Optimizer B2B edition und _Lead-basiertes_ Marketing in Marketo Engage zu koordinieren.
+Wenn Sie planen, die Journey Optimizer B2B Edition-Funktionen durch Kampagnen und Programme in Marketo Engage zu ergänzen, richten Sie die Unterstützung für Marketo Engage-Aktionen ein. Diese Aktionen ermöglichen es Ihren Marketing-Teams _ihr (Account-basiertes_ Marketing in Journey Optimizer B2B edition und _Lead-basiertes_ Marketing in Marketo Engage zu koordinieren.
 
 <table>
 <thead>
@@ -330,12 +318,12 @@ Wenn Sie planen, die Journey Optimizer B2B edition-Funktionen durch Kampagnen un
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Erstellen des benutzerdefinierten Marketo Engage-Service</td>
+<td>Erstellen Sie den benutzerdefinierten Marketo Engage-Service</td>
 <td><a href="./admin/marketo-actions-connect.md#create-the-marketo-engage-custom-service">Weitere Informationen</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Hinzufügen der Integration in Journey Optimizer B2B edition</td>
+<td>Fügen Sie die Integration in Journey Optimizer B2B Edition hinzu</td>
 <td><a href="./admin/marketo-actions-connect.md#add-the-integration">Weitere Informationen</a></td>
 </tr>
 </tbody>
@@ -343,7 +331,7 @@ Wenn Sie planen, die Journey Optimizer B2B edition-Funktionen durch Kampagnen un
 
 ## &#x200B;6. Benutzerzugriff aktivieren
 
-Wenn die Bereitstellung abgeschlossen ist, Sandboxes gebunden und die anfänglichen Einrichtungsaufgaben abgeschlossen sind, konfigurieren Sie den Zugriff auf Journey Optimizer B2B edition und Marketo Engage für Ihr Team und Ihre Benutzerinnen und Benutzer.
+Wenn die Bereitstellung abgeschlossen ist, Sandboxes gebunden und die anfänglichen Einrichtungsaufgaben abgeschlossen sind, konfigurieren Sie den Zugriff auf Journey Optimizer B2B Edition und Marketo Engage für Ihr Team und Ihre Benutzerinnen und Benutzer.
 
 <table>
 <thead>
@@ -359,12 +347,12 @@ Wenn die Bereitstellung abgeschlossen ist, Sandboxes gebunden und die anfänglic
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Erstellen eines Marketo Engage-Produktprofils in der Adobe Admin Console (nur neue Marketo Engage-Instanz)</td>
+<td>Erstellen Sie ein Marketo Engage-Produktprofil in der Adobe Admin Console (nur neue Marketo Engage-Instanz)</td>
 <td><a href="./admin/user-management.md#marketo-engage-profile">Weitere Informationen</a></td>
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Hinzufügen einer Benutzergruppe für das Profil</td>
+<td>Fügen Sie eine Benutzergruppe für das Profil hinzu</td>
 <td><a href="./admin/user-management.md#add-user-group">Weitere Informationen</a></td>
 </tr>
 <tr>
@@ -374,7 +362,7 @@ Wenn die Bereitstellung abgeschlossen ist, Sandboxes gebunden und die anfänglic
 </tr>
 <tr>
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="Kontrollkästchen"/></td>
-<td>Hinzufügen von Benutzenden oder Gruppen zu den Rollen</td>
+<td>Hinzufügen von Benutzerinnen und Benutzern oder Gruppen zu den Rollen</td>
 <td><a href="./admin/user-management.md#add-users-to-a-role">Weitere Informationen</a></td>
 </tr>
 </tbody>

@@ -4,21 +4,16 @@ description: Erstellen Sie Konto- und Personen-Journey in der visuellen Arbeitsf
 feature: Account Journeys
 role: User
 exl-id: f536b1a1-8dfe-437f-a84d-b66879529621
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 6%
 
 ---
@@ -34,7 +29,7 @@ Um mit einer Journey zu beginnen, erstellen Sie die Journey und erstellen Sie da
 Wählen Sie unter **[!UICONTROL Journey]** Verwaltung im linken Navigationsbereich den Journey-Typ aus, den Sie erstellen möchten:
 
 * **[!UICONTROL Account Journey]**
-* **[!UICONTROL Personen-Journey]** (Beta)
+* **[!UICONTROL Personen-Journey]**
 
 _So fügen Sie eine neue Journey hinzu :_
 
@@ -50,7 +45,7 @@ _So fügen Sie eine neue Journey hinzu :_
 
 +++
 
-+++Personen-Journey (Beta)
++++Personen-Journey
 
 1. Klicken **[!UICONTROL oben rechts]** der Seite auf &quot;Journey erstellen“.
 
@@ -72,7 +67,7 @@ Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Arbeitsbereich. In d
 Nachdem Sie eine Konto-Journey erstellt und die Zielgruppe hinzugefügt haben, entwerfen Sie die Journey mit -Knoten. Die Journey-Zuordnung bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle mithilfe der folgenden Knotentypen erstellen können, um eine Account-Journey zu erstellen:
 
 * [Durchführen einer Aktion](./action-nodes.md)
-* [Auf ein Ereignis lauschen](./listen-for-event-nodes.md)
+* [Warten auf ein Ereignis](./listen-for-event-nodes.md)
 * [Pfade aufteilen](./split-merge-paths-nodes.md)
 * [Pfade für aufgeteilte Varianten](./variant-split-paths-nodes.md)
 * [Nächster bester Pfad](./next-best-path-node.md)
@@ -107,7 +102,7 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Klicken Sie auf das Pluszeichen ( **+** ) auf dem Pfad und fügen Sie den [Pfadknoten aufteilen“ &#x200B;](./split-merge-paths-nodes.md#split-paths).
+1. Klicken Sie auf das Pluszeichen ( **+** ) auf dem Pfad und fügen Sie den [Pfadknoten aufteilen“ ](./split-merge-paths-nodes.md#split-paths).
 
 1. Klicken Sie in den Knoteneigenschaften auf der rechten Seite auf **[!UICONTROL Konto]**.
 
@@ -129,7 +124,7 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen&rbrace; klicken.
+1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen} klicken.
 
 1. Legen Sie im Dialogfeld die Zeitplanoptionen fest:
 
@@ -179,4 +174,4 @@ Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443228/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)
