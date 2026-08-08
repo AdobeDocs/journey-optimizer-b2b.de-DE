@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:09:32.398Z
 TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 1504
-ht-degree: 42%
+source-wordcount: 1312
+ht-degree: 46%
 
 ---
 
@@ -33,27 +33,9 @@ Journey Optimizer B2B edition unterstützt zwei Journey-Typen:
 
   ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo zur Account-Journey ansehen](#overview-video)
 
-* **Personen-Journey** - (Beta) Orchestrieren Sie Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten. Bei Personen-Journey sind Ihre Marketing-Vorgänge nicht auf Marketo Engage oder Problemumgehungen für Adobe Campaign/B2C-Toolketten angewiesen, damit sie B2B-Anwendungsfälle unterstützen können.
+* **Personen-Journey** - Orchestrieren Sie Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten. Bei Personen-Journey sind Ihre Marketing-Vorgänge nicht von Marketo Engage oder Problemumgehungen für Adobe Campaign/B2C-Toolketten abhängig, damit sie B2B-Anwendungsfälle unterstützen können.
 
   Bei Verwendung in Kombination mit Account-Journeys und Einkaufsgruppen kann eine Personen-Journey Marketing-Fachleuten die Möglichkeit bieten, die Kauf-Journey vollständig zu orchestrieren.
-
-  +++Aktuelle Einschränkungen für Personen-Journey
-
-  Es gibt Einschränkungen, die bestimmte Anwendungsfälle blockieren oder Schwierigkeiten bei der Erstellung von Personen-Journey verursachen können. Viele Probleme sind das Ergebnis der ersten Implementierung des Beta-Programms, die in Zukunft angegangen werden muss.
-
-  * Ereignisse können nicht mit Profilattributen kombiniert werden, um Zielgruppendefinitionen einzugrenzen.
-  * Der Kontext des Ereignisses, das ein Profil für eine Journey qualifiziert, kann nicht für Personalisierung oder Orchestrierung verwendet werden.
-  * Journey können derzeit nicht sowohl über ein Ereignis- als auch über ein Profilsegmenteinstiegskriterium verfügen.
-  * Ereignis-Listener können nicht auf mehrere Ereignisse warten.
-  * Warteknoten verfügen derzeit nicht über eine vollständige Suite von Optionen für die Ausstiegskriterien für den Wochentag oder die Tageszeit.
-  * Der E-Mail-Editor verweist fälschlicherweise auf Funktionen und Attribute, die nur für Account-Journey verfügbar sind
-  * Unterstützung für benutzerdefinierte Journey-Token (_Meine Token_) ist noch nicht verfügbar.
-  * Das Hinzufügen und Entfernen von Personen-Journey-Knoten ist derzeit in keinem der Journey-Typen verfügbar.
-  * Der Ereignisverlauf kann nicht für die Orchestrierung oder Personalisierung verwendet werden.
-  * Zugehörige Objekte (Konto, Einkaufsgruppe, Opportunity und benutzerdefinierte Objekte) können nicht für die Orchestrierung oder Personalisierung verwendet werden.
-  * Web-, SMS- und Anzeigenplattformkanäle werden derzeit nicht unterstützt.
-
-  +++
 
 ## Erste Schritte mit einer Journey
 
@@ -75,9 +57,7 @@ Um die angezeigte Liste nach Namen zu filtern, geben Sie im Tool _Suchen_ oben i
 
 ![Filtern der Liste der Konto-Journeys](./assets/account-journeys-list-search-filter.png){width="800" zoomable="yes"}
 
->[!TAB Personen-Journey (Beta)]
-
-[!BADGE Beta]{type=Informative tooltip="Als Beta-Funktion verfügbar"}
+>[!TAB Personen-Journey ]
 
 Erweitern Sie im linken Navigationsbereich die Option **[!UICONTROL Journey-]** und klicken Sie auf **[!UICONTROL Personen-Journey]**.
 
@@ -194,7 +174,7 @@ Die Aktion „Duplizieren“ ähnelt einer Klonfunktion, wobei eine duplizierte 
 
    * **[!UICONTROL Duplizierung von Teilinhalten]**: Verwenden Sie diesen Typ, um alles in der Journey zu kopieren, ausgenommen alle erstellten E-Mails bzw. SMS-Nachrichten. Knoten, die auf eine Marketo Engage-E-Mail oder -SMS verweisen, sind vollständig intakt.
 
-   * **[!UICONTROL Ohne Details duplizieren]** - Verwenden Sie diesen Typ, um nur die Knotenstruktur und die Pfade zu kopieren. Alle Knoteneinstellungen und Pfadbedingungen sind nicht definiert (Standard), sodass Sie den grundlegenden Fluss mit unterschiedlichen Einstellungen für Zielgruppen, Aktionen und Pfadsegmentierungen wiederverwenden können. Alle Knoten vom Typ _Warten_ verwenden den Standardwert von fünf Tagen.
+   * **[!UICONTROL Ohne Details duplizieren]** - Verwenden Sie diesen Typ, um nur die Knotenstruktur und die Pfade zu kopieren. Alle Knoteneinstellungen und Pfadbedingungen sind nicht definiert (Standard), sodass Sie den grundlegenden Fluss erneut mit verschiedenen Zielgruppen-, Aktionen- und Pfadsegmentierungseinstellungen verwenden können. Alle Knoten vom Typ _Warten_ verwenden den Standardwert von fünf Tagen.
 
 1. Klicken Sie auf **[!UICONTROL Duplizieren]**.
 

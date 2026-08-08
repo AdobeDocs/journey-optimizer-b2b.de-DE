@@ -16,9 +16,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:14:46.843Z
 TQID: https://experienceleague.adobe.com/-emMaxlrae40JXP0tThacD3xA27d5OzO8tX6o-mOnfg
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 864
+source-wordcount: 862
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ Um mit einer Journey zu beginnen, erstellen Sie die Journey und erstellen Sie da
 Wählen Sie unter **[!UICONTROL Journey]** Verwaltung im linken Navigationsbereich den Journey-Typ aus, den Sie erstellen möchten:
 
 * **[!UICONTROL Account Journey]**
-* **[!UICONTROL Personen-Journey]** (Beta)
+* **[!UICONTROL Personen-Journey]**
 
 _So fügen Sie eine neue Journey hinzu :_
 
@@ -50,7 +50,7 @@ _So fügen Sie eine neue Journey hinzu :_
 
 +++
 
-+++Personen-Journey (Beta)
++++Personen-Journey
 
 1. Klicken **[!UICONTROL oben rechts]** der Seite auf &quot;Journey erstellen“.
 
@@ -72,7 +72,7 @@ Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Arbeitsbereich. In d
 Nachdem Sie eine Konto-Journey erstellt und die Zielgruppe hinzugefügt haben, entwerfen Sie die Journey mit -Knoten. Die Journey-Zuordnung bietet eine Arbeitsfläche, auf der Sie Ihre mehrstufigen B2B-Marketing-Anwendungsfälle mithilfe der folgenden Knotentypen erstellen können, um eine Account-Journey zu erstellen:
 
 * [Durchführen einer Aktion](./action-nodes.md)
-* [Auf ein Ereignis lauschen](./listen-for-event-nodes.md)
+* [Warten auf ein Ereignis](./listen-for-event-nodes.md)
 * [Pfade aufteilen](./split-merge-paths-nodes.md)
 * [Pfade für aufgeteilte Varianten](./variant-split-paths-nodes.md)
 * [Nächster bester Pfad](./next-best-path-node.md)

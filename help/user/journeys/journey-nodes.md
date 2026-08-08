@@ -16,10 +16,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-30T23:13:57.315Z
 TQID: https://experienceleague.adobe.com/lCgk8CKl9LMaN-YBSlnN0oGn5a3NiwGiXcs3pH480VE
-source-git-commit: 800becf15eb0020f5e8799207b6bf91a52549157
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 136
-ht-degree: 16%
+source-wordcount: 135
+ht-degree: 18%
 
 ---
 
@@ -30,12 +30,12 @@ Fügen Sie nach dem Erstellen einer Journey (Konto-Journey oder Personen-Journey
 Zielgruppenknoten sind automatisch der erste Knoten im Journey:
 
 * [Kontozielgruppe](./account-audience-nodes.md)
-* [Personen-Zielgruppe](./person-audience-nodes.md) (Beta)
+* [Personenzielgruppe](./person-audience-nodes.md)
 
 Erstellen Sie Ihren Journey, indem Sie die verschiedenen Aktions-, Ereignis- und Orchestrierungsknoten als mehrstufiges kanalübergreifendes Szenario kombinieren. Jeder Knoten einer Journey stellt einen Schritt entlang eines logischen Pfads dar. Verwenden Sie die folgenden Knotentypen, um eine Konto-Journey zu erstellen:
 
 * [Durchführen einer Aktion](./action-nodes.md)
-* [Auf ein Ereignis lauschen](./listen-for-event-nodes.md)
+* [Warten auf ein Ereignis](./listen-for-event-nodes.md)
 * [Pfade aufteilen](./split-merge-paths-nodes.md)
 * [Pfade für aufgeteilte Varianten](./variant-split-paths-nodes.md)
 * [Nächster bester Pfad](./next-best-path-node.md)

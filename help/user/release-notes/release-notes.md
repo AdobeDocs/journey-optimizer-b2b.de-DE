@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: bce16a7b1230a14d8742688ffe3f0c9c2c70fa20
+source-git-commit: 65e9f965a8878bea1266b8da0a3869178f4e822a
 workflow-type: tm+mt
-source-wordcount: 5552
+source-wordcount: 5580
 ht-degree: 62%
 
 ---
@@ -38,6 +38,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
+| Funktion | Personen-Journey | (Zuvor Beta, frühe Bereitstellung für allgemeine Verfügbarkeit) Sie können jetzt Journey erstellen, um Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten zu orchestrieren. [Weitere Informationen](../journeys/journeys-overview.md) |
 | Funktion | Personenlisten | Statische und dynamische Personenlisten sind jetzt verfügbar, damit Sie Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Erlebnisereignisverlauf auswählen können. |
 | Funktion | _Aufspaltungspfade_ Journey-Knoten | (Zuvor Beta für Account Journey) Marketing-Experten können jetzt Varianten innerhalb eines Accounts oder Personen-Journey testen, indem sie Accounts oder Personen auf der Grundlage definierter Prozentsätze unterschiedlichen Journey-Pfaden zuweisen. |
 | Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
