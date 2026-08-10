@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
 workflow-type: tm+mt
-source-wordcount: 4902
+source-wordcount: 4937
 ht-degree: 47%
 
 ---
@@ -131,7 +131,7 @@ Verwenden Sie die Funktion `sum` , um die Summe aller ausgewählten Werte im Arr
 
 **Beispiel**
 
-Durch den folgenden Vorgang wird die Summe aller Bestellungen zurückgegeben.
+Durch den folgenden Vorgang wird die Summe aller Bestellpreise zurückgegeben.
 
 ```sql
  {%=sum(orders.order.price)%}
@@ -175,7 +175,7 @@ Verwenden Sie die Funktion `*` (Multiplikation), um das Produkt zweier Argumenta
 
 **Beispiel**
 
-Die folgende Operation ermittelt das Produkt im Bestand sowie den Preis eines Produkts, um den Bruttowert des Produkts zu berechnen.
+Die folgende Operation ermittelt das Produkt aus Bestand und Preis eines Produkts, um den Bruttowert des Produkts zu berechnen.
 
 ```sql
 {%= product.inventory * product.price %}
@@ -299,7 +299,7 @@ Verwenden Sie die Funktion `distinct` , um Werte aus einem Array oder einer List
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die Bestellungen in mehr als einem Geschäft aufgegeben haben.
+Mit dem folgenden Vorgang werden Personen ermittelt, die Bestellungen in mehr als einem Geschäft aufgegeben haben.
 
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
@@ -339,7 +339,7 @@ Verwenden Sie die Funktion `head` , um das erste Element in einem Array oder ein
 
 **Beispiel**
 
-Mit dem folgenden Vorgang wird die erste der fünf häufigsten Bestellungen mit dem höchsten Preis zurückgegeben. Weiterführende Informationen zur Funktion `topN` finden Sie im Abschnitt [Erste `n` in Array](#first-n).
+Mit dem folgenden Vorgang wird die erste der fünf Bestellungen mit dem höchsten Preis zurückgegeben. Weiterführende Informationen zur Funktion `topN` finden Sie im Abschnitt [Erste `n` in Array](#first-n).
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -516,7 +516,7 @@ Verwenden Sie die Funktion `subsetOf` , um zu bestimmen, ob ein bestimmtes Array
 
 **Beispiel**
 
-Mit dem folgenden Vorgang werden Personen definiert, die alle ihrer Lieblingsstädte besucht haben.
+Mit dem folgenden Vorgang werden Personen definiert, die alle ihre Lieblingsstädte besucht haben.
 
 ```sql
 {%= subsetOf(person.favoriteCities,person.visitedCities) %}
@@ -684,7 +684,7 @@ Die `ageInDays` berechnet die Anzahl der Tage zwischen dem angegebenen Datum und
 
 **Beispiel**
 
-currentDate = 2025-01-07T12:17:10.720122+05:30 (Asien/Kolkata)
+currentDate = 2025-01-07T12:17:10.720122+05:30 (Asia/Kolkata)
 
 * Eingabe: `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * Ausgabe: `5`
@@ -703,7 +703,7 @@ Die `ageInMonths` berechnet die Anzahl der Monate zwischen dem angegebenen Datum
 
 **Beispiel**
 
-currentDate = 2025-01-07T12:22:46.993748+05:30(Asien/Kolkata)
+currentDate = 2025-01-07T12:22:46.993748+05:30(Asia/Kolkata)
 
 * Eingabe: `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Ausgabe: `12`
@@ -975,7 +975,7 @@ Einige Musterbuchstaben sehen möglicherweise ähnlich aus, stellen jedoch unter
 | `d` | Tag des Monats (1–31) | `31` |
 | `D` | Tag des Jahres (1–366) | `365` |
 
-#### Formatieren des Datums mit Unterstützung für Gebietsschema {#format-date-locale}
+#### Datum mit Unterstützung für Gebietsschemata formatieren {#format-date-locale}
 
 Sie können die `formatDate`-Funktion verwenden, um einen Datums-/Uhrzeitwert in die entsprechende sprachabhängige Darstellung zu formatieren, z. B. für ein gewünschtes Gebietsschema. Das Format muss ein gültiges Java-`DateTimeFormat` sein.
 
@@ -1158,7 +1158,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### truncateToStartOfDay {#truncate-day}
 
-Verwenden Sie die `truncateToStartOfDay`, um eine bestimmte Datums-/Uhrzeitangabe zu ändern, indem Sie sie auf den Beginn des Tages mit der Zeit 00:00 festlegen.
+Verwenden Sie die `truncateToStartOfDay`, um eine bestimmte Datums-/Uhrzeitangabe zu ändern, indem Sie sie auf den Beginn des Tages mit der Zeit um 00:00 Uhr festlegen.
 
 +++Syntax
 
@@ -1175,7 +1175,7 @@ Verwenden Sie die `truncateToStartOfDay`, um eine bestimmte Datums-/Uhrzeitangab
 
 ### truncateToStartOfQuarter {#truncate-quarter}
 
-Verwenden Sie die Funktion `truncateToStartOfQuarter` , um eine Datums-/Uhrzeitangabe auf den ersten Tag des Quartals zu kürzen (z. B. 1. Januar, 1. April, 1. Juli, 1. Oktober) um 00 :00.
+Verwenden Sie die Funktion `truncateToStartOfQuarter` , um eine Datums-/Uhrzeitangabe auf den ersten Tag des Quartals (z. B. 1. Januar, 1. April, 1. Juli, 1. Oktober) um 0:00 Uhr zu kürzen.
 
 +++Syntax
 
@@ -1192,7 +1192,7 @@ Verwenden Sie die Funktion `truncateToStartOfQuarter` , um eine Datums-/Uhrzeita
 
 ### truncateToStartOfWeek {#truncate-week}
 
-Die `truncateToStartOfWeek`-Funktion ändert eine bestimmte Datums-/Uhrzeitangabe, indem sie sie auf den Beginn der Woche (Montag um 00 Uhr) :00.
+Die `truncateToStartOfWeek`-Funktion ändert eine bestimmte Datums-/Uhrzeitangabe, indem sie sie auf den Beginn der Woche (Montag um 00:00 Uhr) setzt.
 
 +++Syntax
 
@@ -1209,7 +1209,7 @@ Die `truncateToStartOfWeek`-Funktion ändert eine bestimmte Datums-/Uhrzeitangab
 
 ### truncateToStartOfYear {#truncate-year}
 
-Verwenden Sie die `truncateToStartOfYear`, um eine bestimmte Datums-/Uhrzeitangabe zu ändern, indem Sie sie auf 00 :00 auf den ersten Tag des Jahres (1. Januar) kürzen.
+Verwenden Sie die `truncateToStartOfYear`, um eine bestimmte Datums-/Uhrzeitangabe zu ändern, indem Sie sie auf den ersten Tag des Jahres (1. Januar) um 0:00 Uhr kürzen.
 
 +++Syntax
 
@@ -1469,7 +1469,7 @@ In diesem Beispiel wird der Wert `there` angezeigt, wenn das Attribut `firstName
 ### if (conditions) {#if-function}
 
 Der Helper `if` wird zum Definieren eines bedingten Blocks verwendet.
-Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block gerendert, andernfalls wird er übersprungen.
+Wenn die Auswertung des Ausdrucks den Wert „wahr“ zurückgibt, wird der Block dargestellt, andernfalls wird er übersprungen.
 
 +++Syntax
 
@@ -1478,7 +1478,7 @@ Wenn die Auswertung des Ausdrucks „true“ zurückgibt, wird der Block gerende
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Nach dem Helper `if` können Sie eine `else` eingeben, um einen Code-Block auszuführen, wenn die Bedingung „false“ ist.
+Nach dem Helper `if` können Sie eine `else`-Anweisung einfügen, um einen Code-Block auszuführen, wenn die Auswertung „false“ zurückgibt.
 Die `elseif`-Anweisung gibt eine neue Bedingung an, die geprüft wird, wenn die erste Anweisung „false“ zurückgibt.
 
 
@@ -1664,7 +1664,7 @@ Im folgenden Beispiel können Sie die Gesamtsumme der Preise für Produkte im Wa
 
 >[!AVAILABILITY]
 >
->Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an den Adobe-Support, um Zugriff zu erhalten.
+>Diese Funktion ist nur eingeschränkt verfügbar. Wenden Sie sich an Ihre Adobe-Ansprechperson, um Zugriff zu erhalten.
 
 Verwenden Sie den `executionMetadata`, um benutzerdefinierte Schlüssel-Wert-Paare dynamisch im Ausführungskontext der Nachricht zu erfassen und zu speichern.
 
@@ -1793,7 +1793,7 @@ Mit dem folgenden Vorgang werden alle Werte für die `identityMap` abgerufen.
 
 ## Mathematische Funktionen {#math}
 
-Erfahren Sie, wie Sie im Personalisierungseditor mathematische Funktionen verwenden.
+Erfahren Sie, wie Sie im Personalisierungseditor arithmetische Funktionen verwenden.
 
 ### absolut {#absolute}
 
@@ -2073,7 +2073,7 @@ Verwenden Sie die Funktion `contains` , um zu bestimmen, ob eine Zeichenfolge ei
 | --------- | ----------- |
 | `STRING_1` | Die Zeichenfolge, die überprüft werden soll. |
 | `STRING_2` | Die Zeichenfolge, nach der in der ersten Zeichenfolge gesucht werden soll. |
-| `CASE_SENSITIVE` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: true (Standard)/false. |
+| `CASE_SENSITIVE` | Ein optionaler Parameter, mit dem bestimmt wird, ob bei der Prüfung die Groß-/Kleinschreibung beachtet wird. Mögliche Werte: wahr (Standard)/falsch. |
 
 **Beispiele**
 
@@ -2394,7 +2394,7 @@ Verwenden Sie die Funktion `isEmpty` , um zu bestimmen, ob eine Zeichenfolge lee
 
 **Beispiel**
 
-Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des Profils leer ist. Andernfalls wird `false` zurückgegeben.
+Die folgende Funktion gibt „wahr“ zurück, wenn die Mobiltelefonnummer des Profils leer ist. Andernfalls wird `false` zurückgegeben.
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
@@ -2414,7 +2414,7 @@ Verwenden Sie die Funktion `isNotEmpty` , um zu bestimmen, ob eine Zeichenfolge 
 
 **Beispiel**
 
-Die folgende Funktion gibt „true“ zurück, wenn die Mobiltelefonnummer des Profils nicht leer ist. Andernfalls wird `false` zurückgegeben.
+Die folgende Funktion gibt „wahr“ zurück, wenn die Mobiltelefonnummer des Profils nicht leer ist. Andernfalls wird `false` zurückgegeben.
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
@@ -2675,7 +2675,7 @@ Verwenden Sie die Funktion `replace` , um eine bestimmte Unterzeichenfolge in ei
 | Argument | Beschreibung |
 | --------- | ----------- |
 | `{STRING_1}` | Die Zeichenfolge, in der die Teilzeichenfolge ersetzt werden muss. |
-| `{STRING_2}` | Die zu ersetzende Teilzeichenfolge. |
+| `{STRING_2}` | Die zu ersetzende Unterzeichenfolge. |
 | `{STRING_3}` | Die als Ersatz dienende Teilzeichenfolge. |
 
 **Beispiel**
@@ -2779,7 +2779,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 
 ### stringToDate {#string-to-date}
 
-Die Funktion `stringToDate` konvertiert einen Zeichenfolgenwert in einen Datums-/Uhrzeitwert. Es gibt zwei Argumente: Zeichenfolgendarstellung eines Datums/Uhrzeit und Zeichenfolgendarstellung des Formatierers.
+Die Funktion `stringToDate` konvertiert einen Zeichenfolgenwert in einen Datums-/Uhrzeitwert. Sie verwendet zwei Argumente: die Zeichenfolgendarstellung eines Datums/Uhrzeit und die Zeichenfolgendarstellung des Formatierers.
 
 +++Syntax
 
