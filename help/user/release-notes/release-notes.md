@@ -3,23 +3,16 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 9ffa5baa0a8967957d5e243e199d6f41da4ab417
+source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
 workflow-type: tm+mt
-source-wordcount: 5597
+source-wordcount: 5599
 ht-degree: 62%
 
 ---
@@ -40,7 +33,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | ---- | ---- | ----------- |
 | Funktion | Personen-Journey | (Zuvor Beta, frühe Bereitstellung für allgemeine Verfügbarkeit) Sie können jetzt Journey erstellen, um Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten zu orchestrieren. [Weitere Informationen](../journeys/journeys-overview.md) |
 | Funktion | Personenlisten | Statische und dynamische Personenlisten sind jetzt verfügbar, damit Sie Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Erlebnisereignisverlauf auswählen können. |
-| Funktion | _Aufspaltungspfade von Varianten_ Journey-Knoten | (Zuvor Beta für Account Journey) Marketing-Experten können jetzt Varianten innerhalb eines Accounts oder Personen-Journey testen, indem sie Accounts oder Personen auf der Grundlage definierter Prozentsätze unterschiedlichen Journey-Pfaden zuweisen. |
+| Funktion | _Aufspaltungspfade von Varianten_ Journey-Knoten | (Zuvor Beta für Account Journey) Marketing-Experten können jetzt Varianten innerhalb eines Accounts oder Personen-Journey testen, indem sie Accounts oder Personen auf der Grundlage definierter Prozentsätze unterschiedlichen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
 | Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
 | Verbesserung | Überwachen von Ereignis-Triggern und -Filtern - Account-Journey | Unterstützung für mehrere Trigger und Filter in einem _Lauschen auf_) ist jetzt für Account-Journey verfügbar. |
 | Verbesserung | Externe Pfadknoten für Aufspaltung - Personen-Journey | Die Unterstützung für _externe Aufspaltungspfade_-Knoten ist jetzt für Personen-Journey verfügbar. |
@@ -194,7 +187,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
