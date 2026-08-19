@@ -1,9 +1,9 @@
 ---
 title: Inhaltserstellung - benutzerdefiniertes CSS
 description: Wiederverwendeter Abschnitt zur Verwendung von benutzerdefiniertem CSS für die Inhaltserstellung
-source-git-commit: 9b053f81e3074f03740fe1f3b69f632219ad269a
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. Geben Sie Ihren CSS-Code im Editor ein.
 
-   Stellen Sie sicher, dass das benutzerdefinierte CSS gültig ist und der richtigen Syntax folgt. Wenn die eingegebene CSS-Datei ungültig ist, wird eine Fehlermeldung angezeigt und die CSS-Datei kann nicht gespeichert werden. Weitere Informationen finden Sie unter [CSS-Gültigkeit](../user/content/design-custom-css.md#css-validity).
+   Stellen Sie sicher, dass das benutzerdefinierte CSS gültig ist und der richtigen Syntax folgt. Wenn die eingegebene CSS-Datei ungültig ist, wird eine Fehlermeldung angezeigt und die CSS-Datei kann nicht gespeichert werden. Weitere Informationen finden Sie unter [CSS-Gültigkeit](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity).
 
 1. Klicken Sie **[!UICONTROL Speichern]**, um das benutzerdefinierte CSS zu speichern.
 
-   Das benutzerdefinierte Stylesheet wird auf den vorhandenen Inhalt angewendet. Sie können überprüfen, ob Ihr benutzerdefiniertes CSS Ihren Anforderungen entspricht. Informationen zum Vornehmen von Änderungen und Anpassen der Stylesheet-Anwendung finden Sie unter [Fehlerbehebung](../user/content/design-custom-css.md#troubleshooting).
+   Das benutzerdefinierte Stylesheet wird auf den vorhandenen Inhalt angewendet. Sie können überprüfen, ob Ihr benutzerdefiniertes CSS Ihren Anforderungen entspricht. Informationen zum Vornehmen von Änderungen und Anpassen der Stylesheet-Anwendung finden Sie unter [Fehlerbehebung](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting).
 
 >[!NOTE]
 >

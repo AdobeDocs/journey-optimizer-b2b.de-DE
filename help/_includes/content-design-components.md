@@ -1,10 +1,10 @@
 ---
 title: Inhaltserstellung - Komponenten
 description: Wiederverwendbarer Abschnitt über die Verwendung von Komponenten und Inhaltselementen für die Inhaltserstellung
-source-git-commit: 3250910a729786bf536c55a48bf96a75b05852f6
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 2%
+source-wordcount: '373'
+ht-degree: 1%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 2%
 
    Die Größe einer Spalte darf nicht kleiner als 10 % der Gesamtbreite der Strukturkomponente sein. Nur leere Spalten können entfernt werden.
 
-   Weitere Informationen zur Verwendung und Formatierung dieser Komponenten finden Sie unter _[Strukturkomponenten](../user/content/structure-components.md)_.
+   Weitere Informationen zur Verwendung und Formatierung dieser Komponenten finden Sie unter _[Strukturkomponenten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/structure-components)_.
 
 1. Erweitern Sie **[!UICONTROL Abschnitt]** Inhalte“ und fügen Sie beliebig viele Inhaltskomponenten zu einer oder mehreren Strukturkomponenten hinzu.
 
    ![Ziehen Sie ein Inhaltselement auf die Arbeitsfläche und passen Sie die Einstellungen an](../assets/content-design-shared/content-design-add-content.png){width="800" zoomable="yes"}
 
-   * [Container](../user/content/content-components.md#container)
-   * [Schaltfläche](../user/content/content-components.md#button)
-   * [Text](../user/content/content-components.md#text)
-   * [Trennlinie](../user/content/content-components.md#divider)
-   * [Bild](../user/content/content-components.md#image)
-   * [Social](../user/content/content-components.md#social)
-   * [Formular](../user/content/content-components.md#form) (nur Landingpages)
+   * [Container](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#container)
+   * [Schaltfläche](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#button)
+   * [Text](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#text)
+   * [Trennlinie](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#divider)
+   * [Bild](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#image)
+   * [Social](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#social)
+   * [Formular](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components#form) (nur Landingpages)
 
 1. Bei Bedarf können Sie auf den Registerkarten _[!UICONTROL Einstellungen“ oder „Stil]_ zusätzliche Anpassungen _[!UICONTROL jede Komponente]_.
 
@@ -42,4 +42,4 @@ ht-degree: 2%
 
 1. Um bedingte Inhalte hinzuzufügen und den Inhalt auf der Grundlage von bedingten Regeln an die Zielprofile anzupassen, wählen Sie eine Inhaltskomponente aus und klicken Sie in der Komponenten **[!UICONTROL Symbolleiste auf das Symbol]** Bedingten Inhalt aktivieren“.
 
-   Weitere Informationen finden Sie unter [_Bedingter Inhalt_](../user/content/conditional-content.md).
+   Weitere Informationen finden Sie unter [_Bedingter Inhalt_](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/content-components).
