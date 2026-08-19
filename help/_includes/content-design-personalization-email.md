@@ -24,7 +24,7 @@ Im folgenden Beispiel werden die Schritte zum Personalisieren von Inhalten mit P
 
 1. Wählen Sie die Textkomponente aus und klicken Sie auf das Symbol _Personalisierung hinzufügen_ ( ![Personalisierungssymbol hinzufügen](../assets/do-not-localize/icon-personalization-field.svg) ) in der Symbolleiste.
 
-   ![Klicken Sie auf das Symbol Personalisieren ](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
+   ![Klicken Sie auf das Symbol Personalisieren &#x200B;](../assets/content-design-shared/visual-designer-personalize-icon.png){width="600"}
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet.
 
