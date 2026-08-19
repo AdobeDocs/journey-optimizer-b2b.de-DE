@@ -14,7 +14,7 @@ Journey Optimizer B2B edition verwendet eine einfache Inline-Syntax, mit der Sie
 
 Sie können beispielsweise einen Personalisierungsausdruck als `Hello {{lead.firstName}} {{lead.lastName}}` hinzufügen. Bei der Verarbeitung des Inhalts ersetzt Journey Optimizer B2B edition den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten. Das erste Beispiel wird also _Hallo, Max Mustermann_.
 
-Unter [Personalisierung von Inhalten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/personalization/personalization) finden Sie weitere Informationen zur Verwendung von Personalisierungs-Tools in Journey Optimizer B2B edition.
+Unter [Personalisierung von Inhalten](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/content-management/personalization/personalization) finden Sie weitere Informationen zur Verwendung von Personalisierungs-Tools in Journey Optimizer B2B edition.
 
 >[!NOTE]
 >

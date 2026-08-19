@@ -20,11 +20,11 @@ ht-degree: 0%
 
 1. Geben Sie Ihren CSS-Code im Editor ein.
 
-   Stellen Sie sicher, dass das benutzerdefinierte CSS gültig ist und der richtigen Syntax folgt. Wenn die eingegebene CSS-Datei ungültig ist, wird eine Fehlermeldung angezeigt und die CSS-Datei kann nicht gespeichert werden. Weitere Informationen finden Sie unter [CSS-Gültigkeit](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity).
+   Stellen Sie sicher, dass das benutzerdefinierte CSS gültig ist und der richtigen Syntax folgt. Wenn die eingegebene CSS-Datei ungültig ist, wird eine Fehlermeldung angezeigt und die CSS-Datei kann nicht gespeichert werden. Weitere Informationen finden Sie unter [CSS-Gültigkeit](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#css-validity).
 
 1. Klicken Sie **[!UICONTROL Speichern]**, um das benutzerdefinierte CSS zu speichern.
 
-   Das benutzerdefinierte Stylesheet wird auf den vorhandenen Inhalt angewendet. Sie können überprüfen, ob Ihr benutzerdefiniertes CSS Ihren Anforderungen entspricht. Informationen zum Vornehmen von Änderungen und Anpassen der Stylesheet-Anwendung finden Sie unter [Fehlerbehebung](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting).
+   Das benutzerdefinierte Stylesheet wird auf den vorhandenen Inhalt angewendet. Sie können überprüfen, ob Ihr benutzerdefiniertes CSS Ihren Anforderungen entspricht. Informationen zum Vornehmen von Änderungen und Anpassen der Stylesheet-Anwendung finden Sie unter [Fehlerbehebung](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/content-management/content-design/design-custom-css#troubleshooting).
 
 >[!NOTE]
 >

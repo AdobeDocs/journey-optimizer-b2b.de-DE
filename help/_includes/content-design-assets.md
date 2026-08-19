@@ -24,4 +24,4 @@ Wählen Sie im Visual Content Editor das Symbol _Assets_ ( ![Assets-Symbol](../.
 
   ![Asset aus der Quellbibliothek auswählen](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-Weitere Informationen zur Verwendung von Assets aus Ihrem Quelltyp finden Sie unter [Verwenden von Assets für die Inhaltserstellung](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).
+Weitere Informationen zur Verwendung von Assets aus Ihrem Quelltyp finden Sie unter [Verwenden von Assets für die Inhaltserstellung](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).
