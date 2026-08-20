@@ -1,9 +1,9 @@
 ---
 title: Inhaltserstellung - Assets
 description: Wiederverwendeter Abschnitt zur Verwendung von Assets für die Inhaltserstellung
-source-git-commit: f80f0ac96f730833473e0a3e17035dac0fb5f3ce
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '197'
 ht-degree: 4%
 
 ---
@@ -24,4 +24,4 @@ Wählen Sie im Visual Content Editor das Symbol _Assets_ ( ![Assets-Symbol](../.
 
   ![Asset aus der Quellbibliothek auswählen](../assets/content-design-shared/visual-designer-select-an-asset.png){width="600" zoomable="yes"}
 
-Weitere Informationen zur Verwendung von Assets aus Ihrem Quelltyp finden Sie unter [Verwenden von Assets für die Inhaltserstellung](../user/content/assets-overview.md#use-assets-for-content-authoring).
+Weitere Informationen zur Verwendung von Assets aus Ihrem Quelltyp finden Sie unter [Verwenden von Assets für die Inhaltserstellung](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/content-management/assets/assets-overview#use-assets-for-content-authoring).

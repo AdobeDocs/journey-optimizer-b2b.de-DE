@@ -1,9 +1,9 @@
 ---
 title: Inhaltserstellung - Personalisierung
 description: Wiederverwendeter Abschnitt zur Verwendung der Personalisierung für die Inhaltserstellung
-source-git-commit: 944d2616fa21e7f8d2f8c439eaa2f5e529dacb84
+source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ Journey Optimizer B2B edition verwendet eine einfache Inline-Syntax, mit der Sie
 
 Sie können beispielsweise einen Personalisierungsausdruck als `Hello {{lead.firstName}} {{lead.lastName}}` hinzufügen. Bei der Verarbeitung des Inhalts ersetzt Journey Optimizer B2B edition den Ausdruck durch die in der Experience Platform-Datenbank enthaltenen Daten. Das erste Beispiel wird also _Hallo, Max Mustermann_.
 
-Unter [Personalisierung von Inhalten](../user/content/personalization.md) finden Sie weitere Informationen zur Verwendung von Personalisierungs-Tools in Journey Optimizer B2B edition.
+Unter [Personalisierung von Inhalten](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/content-management/personalization/personalization) finden Sie weitere Informationen zur Verwendung von Personalisierungs-Tools in Journey Optimizer B2B edition.
 
 >[!NOTE]
 >
