@@ -17,10 +17,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 969f071ea3f01251cc16fe68584089a7588ba20e
+source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
 workflow-type: tm+mt
-source-wordcount: 5599
-ht-degree: 62%
+source-wordcount: 5628
+ht-degree: 61%
 
 ---
 
@@ -41,6 +41,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | Personen-Journey | (Zuvor Beta, frühe Bereitstellung für allgemeine Verfügbarkeit) Sie können jetzt Journey erstellen, um Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten zu orchestrieren. [Weitere Informationen](../journeys/journeys-overview.md) |
 | Funktion | Personenlisten | Statische und dynamische Personenlisten sind jetzt verfügbar, damit Sie Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Erlebnisereignisverlauf auswählen können. |
 | Funktion | _Aufspaltungspfade von Varianten_ Journey-Knoten | (Zuvor Beta für Account Journey) Marketing-Experten können jetzt Varianten innerhalb eines Accounts oder Personen-Journey testen, indem sie Accounts oder Personen auf der Grundlage definierter Prozentsätze unterschiedlichen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
+| Funktion | C2PA-Metadaten | Bilder, die mit generativen KI-Tools generiert oder bearbeitet wurden, werden jetzt automatisch mit C2PA-Metadaten signiert, sodass Sie die Anforderungen an Inhaltstransparenz und KI-Offenlegung erfüllen können. [Weitere Informationen](../content/c2pa-metadata.md) |
 | Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
 | Verbesserung | Überwachen von Ereignis-Triggern und -Filtern - Account-Journey | Unterstützung für mehrere Trigger und Filter in einem _Lauschen auf_) ist jetzt für Account-Journey verfügbar. |
 | Verbesserung | Externe Pfadknoten für Aufspaltung - Personen-Journey | Die Unterstützung für _externe Aufspaltungspfade_-Knoten ist jetzt für Personen-Journey verfügbar. |
@@ -329,7 +330,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Verbesserung | Unterstützung von Adobe Marketo Engage-Ereignissen in Journeys | Der Knoten _Lauschen auf Ereignis_ Journey unterstützt jetzt zwei Marketo Engage-Ereignisse auf Benutzerebene: _Besucht die_ und _Formular ausfüllt_. <a href="../journeys/listen-for-event-nodes.md#listen-for-marketo-engage-event">Weitere Informationen</a> |
 | Verbesserung | Käufergruppenfilter für intelligente Listen in Marketo Engage | Sie können in Marketo Engage intelligente Listen mit Käufergruppenfiltern anzeigen und erstellen. Mit diesen hinzugefügten Filtern können Sie Mitglieder von Käufergruppen in allen Marketo Engage-Kampagnen und -Programmen aus Account-Journeys in Journey Optimizer B2B Edition heraus unterdrücken und einbeziehen. <a href="../buying-groups/marketo-engage-smart-list-buying-group-filters.md">Weitere Informationen</a> |
 | Verbesserung | Marketo Engage-Listen-Zugehörigkeitsfilter für Journeys und Rollen | Aktivieren Sie die Marketo Engage-Listenzugehörigkeit in Journey Optimizer B2B als Bedingung für einen Knoten _Pfad nach Personen aufteilen_, um doppelte Journey-Aktivitäten zu vermeiden. <a href="../journeys/split-merge-paths-nodes.md#add-a-split-path-by-people-node">Weitere Informationen</a> <p> Verwenden Sie die Listenzugehörigkeit als Rollenbedingung für Käufergruppen-Rollenvorlagen. <a href="../buying-groups/buying-groups-role-templates.md#add-the-template-roles">Weitere Informationen</a> |
-| Verbesserung | Dashboard für den Überblick über die Interaktion | Dieses Dashboard wurde aktualisiert, um eine umfassende Ansicht des Engagements zu bieten. Es zeigt Echtzeitmetriken zu Interaktionen von Konten und Kontakten anhand von Kreisdiagrammen mit Momentaufnahmen und Liniendiagrammen, die Trends im Zeitverlauf aufzeigen. <a href="../dashboards/engagement-dashboard.md">Weitere Informationen</a> |
+| Verbesserung | Dashboard für den Überblick über die Interaktion | Dieses Dashboard wurde aktualisiert, um eine umfassende Ansicht des Engagements zu bieten. Es zeigt Echtzeitmetriken der Interaktionen von Konten und Einzelpersonen durch Kreisdiagramme von Momentaufnahmen und Liniendiagramme, die Trends aufzeigen, im Zeitverlauf an. <a href="../dashboards/engagement-dashboard.md">Weitere Informationen</a> |
 
 ## Versionen 2024 {#2024-releases}
 

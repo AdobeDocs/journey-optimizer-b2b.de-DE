@@ -16,9 +16,9 @@ subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c1e8e03ccd6f2d132ca1bc1a27c0d9ea18dcdcac
+source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: 952
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Marketing-Organisationen sind mehr denn je besorgt über Inhaltstransparenz, KI-
 Umfassende Informationen zum Asset-Verlauf erhalten Sie mit dem Adobe Content Authenticity [Inspektions-Tool](https://contentauthenticity.adobe.com/inspect).
 
 C2PA-Metadaten bleiben in der Bilddatei erhalten. Wenn ein Bild, das mit generativer KI generiert oder bearbeitet wurde, in [!DNL Adobe Journey Optimizer B2B Edition] hochgeladen oder aus exportiert wird, bleiben seine C2PA-Metadaten erhalten.
+
+Weitere Informationen zum automatischen Anhängen von C2PA-Metadaten an Adobe CX Enterprise-Anwendungen finden Sie unter [_Generative KI-Inhaltstransparenz_](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"} im Handbuch zu KI in CX Enterprise .
 
 >[!NOTE]
 >
