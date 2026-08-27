@@ -1,6 +1,6 @@
 ---
-title: KI-Assistent in Journey Optimizer B2B edition
-description: Beschleunigen von Workflows mit dem KI-Assistenten – erhalten Sie Produktkenntnisse, Hilfe zur Fehlerbehebung und betriebliche Erkenntnisse für Journey Optimizer B2B Edition.
+title: KI-Funktionen in Journey Optimizer B2B edition
+description: Beschleunigen Sie Workflows mit dem KI-Assistenten – erhalten Sie Produktkenntnisse, Hilfe zur Fehlerbehebung und betriebliche Erkenntnisse für Journey Optimizer B2B Edition.
 feature: AI Assistant
 role: User, Admin
 level: Beginner
@@ -21,20 +21,20 @@ topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 1300
+source-wordcount: 1385
 ht-degree: 9%
 
 ---
 
-# KI-Assistent in Journey Optimizer B2B edition
+# KI-Funktionen in Journey Optimizer B2B edition
 
-Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologiestiftung erstellt wie [KI-Assistent in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}. Dabei handelt es sich um ein Gesprächserlebnis, mit dem Sie Ihre Workflows in Adobe Journey Optimizer B2B edition beschleunigen können. Sie können den KI-Assistenten verwenden, um mehr über die Produktfunktionen zu erfahren, Probleme zu beheben oder Informationen zu durchsuchen und operative Erkenntnisse für Journey Optimizer B2B edition zu erhalten.
+Die Chat-Oberfläche in Adobe Journey Optimizer B2B edition basiert auf derselben Technologie-Foundation wie [KI-Assistent in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}. Dabei handelt es sich um ein Gesprächserlebnis, mit dem Sie Ihre Workflows in Journey Optimizer B2B edition beschleunigen können. Sie können die Chat-Oberfläche verwenden, um mehr Verständnis für die Produktfunktionen zu erhalten, Probleme zu beheben oder Informationen zu durchsuchen und betriebliche Einblicke für Journey Optimizer B2B edition zu erhalten. Sie können diese Schnittstelle auch verwenden, um die [Journey Agent](../agents/journey-agent.md) und [Audience Agent](../agents/audience-agent-b2b.md) aufzurufen.
 
 >[!IMPORTANT]
 >
->Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie zusätzliche KI-Assistenten-Funktionen verwenden können, wenn sie in einer Beta-Funktion eingeführt werden.
+>Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden &#x200B;](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie beim Rollout zusätzliche KI-Assistenten-Funktionen verwenden können.
 
 +++Benutzeroberfläche der Benutzervereinbarung anzeigen
 
@@ -44,11 +44,21 @@ Der KI-Assistent in Journey Optimizer B2B edition wird aus derselben Technologie
 
 +++
 
+>[!BEGINSHADEBOX]
+
+## Verkaufskennzeichner
+
+Sales Qualifier ist ein KI-gesteuertes Programm, das Sie mit Journey Optimizer B2B edition verwenden können. Es implementiert die Account Qualification Agent und optimiert die Workflows für Business Development Representatives (BDRs). Sales Qualifier automatisiert Workflows für die Qualifizierung von Interessenten, Kontaktaufnahme und Käuferinteraktion kanalübergreifend. Dies reduziert die manuelle BDR-Belastung und beschleunigt die Pipeline-Geschwindigkeit für B2B-Unternehmen.
+
+Weitere Informationen finden Sie in der Dokumentation zu [Sales Qualifier](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## KI-Assistentenfunktionen in Journey Optimizer B2B edition
 
-Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten und wird auch als _&#x200B;**_Wissensdiagramm“ bezeichnet_**&#x200B;_ eine umfassende Sammlung von Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
+Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten, _&#x200B;**Wissensdiagramm**&#x200B;_, und bietet eine umfassende Sammlung von Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
 
-* Dokumentation zu Experience League.
+* Dokumentation zu Adobe Experience League.
 * Operative Artefakte, z. B. Schemata, Felder, Zielgruppen und Journey.
 
 Überlegen Sie, welche Art von Anfrage Sie benötigen, bevor Sie eine Abfrage des KI-Assistenten senden:
@@ -88,7 +98,7 @@ Sie können Fragen zum KI-Assistenten zu Ihren betrieblichen Erkenntnissen in de
 
 {style="table-layout:fixed"}
 
-Bei Fragen zu operativen Einblicken spiegeln die Antworten möglicherweise nicht den aktuellen Status der Benutzeroberfläche wider. Die Daten, die diese Fragen stützen, werden alle 24 Stunden einmal aktualisiert. Änderungen, die Benutzende tagsüber in Real-Time CDP vornehmen, werden beispielsweise nachts mit den Datenspeichern synchronisiert und stehen dann morgens für Benutzerfragen zur Verfügung. Melden Sie sich bei einer Sandbox an, um spezifische Daten zu Objekten abzufragen.
+Bei Fragen zu operativen Einblicken spiegeln die Antworten möglicherweise nicht den aktuellen Status der Benutzeroberfläche wider. Die Daten, die diese Fragen stützen, werden alle 24 Stunden einmal aktualisiert. Änderungen, die Benutzende tagsüber in Real-Time CDP vornehmen, werden beispielsweise nachts mit den Datenspeichern synchronisiert und stehen dann morgens für Benutzerfragen zur Verfügung. Um bestimmte Daten im Zusammenhang mit -Objekten abzufragen, melden Sie sich bei einer Sandbox an.
 
 ### Funktionsumfang
 
@@ -108,9 +118,9 @@ Der KI-Assistent in Journey Optimizer B2B edition legt den Schwerpunkt auf Daten
 
 * Sie müssen explizit die Berechtigung haben, mit dem KI-Assistenten zu interagieren.
 
-   * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+  * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
-   * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Benutzer verschiedene Fragenkategorien stellen können (Produktkenntnisse mit dem KI-Assistenten oder Fragen zu betrieblichen Einblicken).
+  * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Benutzer verschiedene Fragenkategorien stellen können (Produktkenntnisse mit dem KI-Assistenten oder Fragen zu betrieblichen Einblicken).
 
 * Sie können ein 30-Tage-Protokoll Ihrer vorherigen Interaktionen mit dem KI-Assistenten anzeigen.
 
@@ -132,7 +142,7 @@ Der KI-Assistent kann Fragen zum Adobe-Produktwissen beantworten und Fragen zu o
 
 **Kann der KI-Assistent Informationen zu Kundendaten bereitstellen?**
 
-Nein. Der KI-Assistent hat keinen Zugriff auf Kundendaten und wird daher nicht angesehen oder verwendet.
+Nein. Der KI-Assistent hat keinen Zugriff auf Kundendaten und ist daher nicht zugänglich oder verwendbar.
 
 **Werden meine personenbezogenen Daten in den Schulungsdaten des KI-Assistenten verwendet?**
 

@@ -20,22 +20,22 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: ea4fbd8696cfd3b60e7ff032843d290abca6ae4d
 workflow-type: tm+mt
-source-wordcount: 970
+source-wordcount: 954
 ht-degree: 2%
 
 ---
 
-# Verwenden des KI-Assistenten in Journey Optimizer B2B edition
+# Verwenden der Chat-Oberfläche
 
-In Journey Optimizer B2B edition ist der KI-Assistent eine Funktion der Benutzeroberfläche, mit der Sie Produktkonzepte verstehen, schnell zu den Produktfunktionen navigieren und sie kennenlernen und operative Einblicke in Ihre Umgebung erhalten können. Es ist auch in mehreren Produkten in Adobe Experience Cloud verfügbar.
+In Journey Optimizer B2B edition bietet der KI-Assistent eine Chat-Oberfläche, mit der Sie Produktkonzepte verstehen, schnell zu den Produktfunktionen navigieren und sie kennenlernen und praktische Einblicke in Ihre Umgebung erhalten können. Es ist auch in mehreren Produkten von Adobe Experience Cloud verfügbar.
 
 >[!IMPORTANT]
 >
->Bevor Sie den KI-Assistenten verwenden können, ist eine Vereinbarung für die Adobe Experience Cloud Generative AI-Benutzerrichtlinien erforderlich. Weitere Informationen zu dieser Vereinbarung und den Nutzungsrichtlinien finden Sie unter [Adobe Experience Cloud-Richtlinien für die generative KI](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+>Bevor Sie den KI-Assistenten verwenden können, ist eine Vereinbarung für die Adobe Experience Cloud-Benutzerrichtlinien für generative KI erforderlich. Weitere Informationen zu dieser Vereinbarung und den Nutzungsrichtlinien finden Sie unter [Adobe Experience Cloud-Richtlinien für die generative KI](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
 
-Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der Kopfzeile. Der KI-Assistent wird in einem Bedienfeld auf der rechten Seite geöffnet.
+Um auf die Chat-Oberfläche zuzugreifen, klicken Sie auf das Symbol in der Kopfzeile.
 
 ![Klicken Sie auf das Symbol, um auf den KI-Assistenten zuzugreifen](./assets/ai-assistant-icon-displayed.png){width="420"}
 
@@ -55,7 +55,7 @@ Fragen zu Produktkenntnissen beziehen sich auf Journey Optimizer B2B edition-Kon
 * Wie sende ich eine E-Mail in einer Journey?
 * Wie kann ich meinen E-Mail-Inhalt personalisieren?
 
-Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste. Beispiel: Sie müssen lernen, wie Sie eine Einkaufsgruppe in einem Journey verwenden. In diesem Fall geben Sie _Wie verwende ich eine Einkaufsgruppe in einem Journey?_ Nachdem Sie die Frage gesendet haben, fragt der KI-Assistent die Wissensdatenbank ab und generiert in wenigen Sekunden eine Antwort.
+Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste. Beispiel: Sie müssen lernen, wie Sie eine Einkaufsgruppe in einem Journey verwenden. In diesem Fall geben Sie _Wie verwende ich eine Einkaufsgruppe in einem Journey?_ Nachdem Sie die Frage gesendet haben, fragt der KI-Assistent die Wissensdatenbank ab und generiert innerhalb von Sekunden eine Antwort.
 
 ![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-ask-question.png){width="420"}
 
@@ -67,7 +67,7 @@ Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld e
 
 ## Stellen von Fragen zu betrieblichen Insights
 
-Fragen zu betrieblichen Insights beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Sie können Fragen zu operativen Artefakten stellen, z. B. Konto-Zielgruppen, Journey, Lösungsinteressen und Kaufgruppenvorlagen. Einige Beispiele für Fragen oder Eingabeaufforderungen zu betrieblichen Insights sind:
+Fragen zu betrieblichen Insights beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Sie können Fragen zu operativen Artefakten stellen, z. B. Zielgruppen, Journey, Lösungsinteressen und Kaufgruppenvorlagen. Einige Beispiele für Fragen oder Eingabeaufforderungen zu betrieblichen Insights sind:
 
 * Wie viele lebende Journey habe ich in Adobe Journey Optimizer B2B edition?
 * Erstelle eine Liste aller geplanten Journeys
@@ -93,7 +93,7 @@ Um die gesamte Tabelle im KI-Assistenten anzuzeigen, klicken Sie auf das Symbol 
 
 ## Überprüfen von Antworten
 
-Der KI-Assistent enthält Tools, mit denen Sie Antworten überprüfen und validieren können.
+Die Chat-Oberfläche enthält Tools, mit denen Sie Antworten überprüfen und validieren können.
 
 ### Quellen zum Produktwissen
 

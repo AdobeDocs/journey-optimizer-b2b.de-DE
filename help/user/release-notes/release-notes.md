@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ac5a40546e91c20de9e9beacacd5a0079e11dc6b
+source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
 workflow-type: tm+mt
-source-wordcount: 5628
+source-wordcount: 5635
 ht-degree: 61%
 
 ---
@@ -148,13 +148,13 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 ## Funktionen für Agent-basierte KI {#rel-agents}
 
-In der Benutzeroberfläche des KI-Assistenten sind jetzt die folgenden Agent-basierten KI-Funktionen für Journey Optimizer B2B Edition verfügbar:
+Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B edition in der Chat-Oberfläche verfügbar:
 
 | Agent | Update | Beschreibung |
 | ----- | ------ | ----------- |
 | Journey Build Agent | Neu und aktualisiert | Der Journey Build Agent analysiert, konzipiert und erstellt Journeys in Echtzeit gemeinsam mit Ihnen. Dies versetzt Marketingteams in die Lage, Starts zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten voranzutreiben. [Weitere Informationen](../agents/journey-agent.md) |
 | Audience Agent | Neu | Der Audience Agent identifiziert und erstellt Zielgruppen (Käufergruppen) automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](../agents/sales-qualifier.md) |
+| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Versionshinweise für 2025.10 {#rel-2025-10}
 

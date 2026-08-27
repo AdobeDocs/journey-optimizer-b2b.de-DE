@@ -1,6 +1,6 @@
 ---
 title: Dokumentation zu Adobe Journey Optimizer B2B Edition
-description: 'Vollständige Dokumentation für Journey Optimizer B2B Edition: Erkunden Sie die verfügbaren Ressourcen für Onboarding, die Erstellung von Käufergruppen, die Einrichtung von Konto-Journeys und die Verwaltung von Inhalten.'
+description: 'Vollständige Dokumentation für Journey Optimizer B2B Edition: Erkunden Sie die verfügbaren Ressourcen für das Onboarding, die Erstellung von Käufergruppen, die Einrichtung von Konto-Journeys und die Verwaltung von Content.'
 exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
 product_v2:
@@ -8,10 +8,10 @@ product_v2:
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 5379682b79bd5a455a8eb15bcfaf5985e7ecdeb4
 workflow-type: tm+mt
-source-wordcount: 915
-ht-degree: 26%
+source-wordcount: 1163
+ht-degree: 34%
 
 ---
 
@@ -27,13 +27,13 @@ Sehen Sie sich dieses Sampling der neuesten Ergänzungen und Verbesserungen in d
 
 >[!BEGINTABS]
 
->[!TAB KI-Agenten]
+>[!TAB AI Agents]
 
 Mit der [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kann die Benutzeroberfläche des KI-Assistenten automatisch spezialisierte Agenten aufrufen, um Ihnen die richtigen Antworten und Erkenntnisse zu liefern. Agent Orchestrator speichert Ihren Gesprächsverlauf, sodass Sie auf natürliche Weise auf früheren Fragen aufbauen können, ohne den Kontext zu wiederholen, und kombiniert Einblicke aus mehreren Agenten, um Ihnen klare, einheitliche Antworten zu bieten. Im [!DNL Journey Optimizer B2B Edition] Kontext gibt es drei speziell entwickelte Agenten für bestimmte B2B-Aufgaben und -Domains:
 
 * [Audience Agent B2B](./agents/audience-agent-b2b.md)
 * [Journey Agent B2B](./agents/journey-agent.md)
-* [Account Qualification Agent](./agents/sales-qualifier.md#account-qualification-agent)
+* [Account Qualification Agent](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"}
 
 >[!TAB WhatsApp-Kanal]
 
@@ -155,7 +155,7 @@ Learn how to author and manage content for personalized customer experiences orc
 
 ## Demo zum Überblick
 
-Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über die Grundlagen zum Erstellen einer Konto-Journey.
+Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über die Grundlagen des Aufbaus einer Konto-Journey.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432054?quality=12)
 
