@@ -6,21 +6,14 @@ feature: Email Authoring, Person Journeys
 role: User
 autotag-review: '2026-06-18T20:30:25.418Z'
 TQID: 'https://experienceleague.adobe.com/K3OZnLvtSdwSq6AT4JlRQ62t32d6smIJ4K9EEnK-QUc'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 9d2d1e90d7576f28f70c2c301c6acb1c294d1fe2
 workflow-type: tm+mt
 source-wordcount: 1060
-ht-degree: 7%
+ht-degree: 20%
 
 ---
 
@@ -65,7 +58,7 @@ Bevor Sie E-Mails für Personen-Journey erstellen und E-Mail-Inhalte verfassen, 
 
 ## Hinzufügen einer E-Mail von einer Journey
 
-Um E-Mails von einer Journey zu senden[&#x200B; fügen Sie &quot;_Aktion durchführen“_ Knoten &#x200B;](action-nodes.md#add-an-action-node) und konfigurieren Sie ihn so, dass E-Mails gesendet werden.
+Um E-Mails von einer Journey zu senden[ fügen Sie &quot;_Aktion durchführen“_ Knoten ](action-nodes.md#add-an-action-node) und konfigurieren Sie ihn so, dass E-Mails gesendet werden.
 
 1. Klicken Sie auf der Journey-Arbeitsfläche auf das Symbol **+** und wählen Sie **[!UICONTROL Aktion ausführen]**.
 
@@ -147,13 +140,13 @@ Die E-Mail-Seite wird geöffnet, wenn Sie eine E-Mail für einen _[!UICONTROL E-
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_email_minification"
 >title="HTML-Größe reduzieren"
->abstract="Aktivieren Sie diese Option, um den HTML-Code Ihrer E-Mail während der Veröffentlichung zu komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden."
+>abstract="Diese Option aktivieren, um die E-Mail-HTML während der Veröffentlichung zu komprimieren, indem unnötige Leerzeichen und Einzüge entfernt werden. Dadurch wird verhindert, dass E-Mails in Clients wie Gmail abgeschnitten werden, wodurch Nachrichten mit einer Größe von mehr als 100 KB gekürzt werden."
 
-Mit [!DNL Journey Optimizer B2B Prime] können Sie Ihre E-Mail-HTML-Version während des Veröffentlichungsprozesses komprimieren, indem Sie unnötige Leerzeichen, Einzüge und nicht erforderliche Kommentare entfernen. Wenn Sie die Größe von HTML klein halten, hilft Ihnen Folgendes:
+[!DNL Journey Optimizer B2B Prime] ermöglicht das Komprimieren der HTML-Version Ihrer E-Mail während des Veröffentlichungsprozesses durch Entfernen unnötiger Leerzeichen, Einrückungen und nicht erforderlicher Kommentare. Eine geringe HTML-Größe bietet folgende Vorteile:
 
-* Vermeiden Sie **E-Mail-Clipping** - einige Clients wie Gmail kürzen Nachrichten, die größer als ~100 KB sind, und verhindern so, dass Empfänger den gesamten Inhalt anzeigen können.
-* Verbesserung **E-Mail** Ladezeit) im Posteingang des Empfängers.
-* Verbessern **Zustellbarkeit** und reduzieren Sie die Bandbreitennutzung.
+* Verhindern des **Abschneidens von E-Mails** – einige E-Mail-Clients wie Gmail kürzen Nachrichten mit einer Größe von mehr als ca. 100 KB, sodass Empfangende den vollständigen Inhalt nicht sehen können.
+* Verbessern der **Ladezeit von E-Mails** im Posteingang der Empfangenden.
+* Verbessern der **Zustellbarkeit** und Reduzieren der Bandbreitennutzung.
 
 Diese Optimierung wird nicht automatisch angewendet - Sie müssen sie auf der Registerkarte _[!UICONTROL Inhalt]_ aktivieren.
 

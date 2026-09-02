@@ -4,25 +4,14 @@ description: Erstellen und verwalten Sie Regelsätze zur Anwendung von Frequenzl
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion ist Teil einer eingeschränkten Beta-Version."
 autotag-review: '2026-07-15T17:39:19.276Z'
 TQID: 'https://experienceleague.adobe.com/eYmcE-8rD5-KJe-hGlUo3I34JYJsK2Hj4x4alFTTqwQ'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-  - id: aed878b8-11d0-487c-828b-d23b2051ec37
-subfeature_v2:
-  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
-  - id: af7eab5e-3580-4254-9f56-3c20b4f6ef42
-  - id: f09c7f30-c554-44cf-884c-7557ed69d0c6
-  - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059id: d6e625c1-468f-4d73-9f32-fd1edb87f96bid: f01b5556-e951-40ba-8625-2e3001864f2bid: aed878b8-11d0-487c-828b-d23b2051ec37
+subfeature_v2: id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6id: af7eab5e-3580-4254-9f56-3c20b4f6ef42id: f09c7f30-c554-44cf-884c-7557ed69d0c6id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 945c02e4edb6f38dbc8a1ec6b6c97f7825ef4af9
 workflow-type: tm+mt
 source-wordcount: 2975
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
@@ -39,8 +28,8 @@ Es können zwei Arten von Regelsätzen erstellt werden:
 
 * Regelsätze des Typs **Kanal** wenden Begrenzungsregeln auf Kommunikationskanäle an. Sie ermöglichen es Ihnen, Folgendes festzulegen:
 
-   * **Regeln zur Frequenzlimitierung** - Beispiel: *Senden Sie nicht mehr als eine E-Mail-, SMS-, Push-, Briefpost- oder WhatsApp-Kommunikation pro Tag.*
-   * **Regeln für ruhige Stunden** - Beispiel: *Senden Sie keine E-Mail-Nachrichten außerhalb des Zeitfensters von 8:00 bis 21:00 Uhr.*
+  * **Regeln zur Frequenzlimitierung** - Beispiel: *Senden Sie nicht mehr als eine E-Mail-, SMS-, Push-, Briefpost- oder WhatsApp-Kommunikation pro Tag.*
+  * **Regeln für ruhige Stunden** - Beispiel: *Senden Sie keine E-Mail-Nachrichten außerhalb des Zeitfensters von 8:00 bis 21:00 Uhr.*
 
 * **Journey**-Regelsätze wenden Regeln für Eintritts- und Gleichzeitigkeitsbegrenzung auf eine Journey an. (In der Beta-Version noch nicht unterstützt.)
 
@@ -83,7 +72,7 @@ Um eine Regel zu deaktivieren, klicken Sie auf das Symbol _Deaktivieren_ ( ![Dea
 >
 >Das Deaktivieren eines Regelsatzes wirkt sich weder auf die Zählung für einzelne Profile aus, noch wird die Zählung zurückgesetzt.
 
-## Erstellen und Aktivieren benutzerdefinierter Regelsätze {#create}
+## Erstellen und Aktivieren von benutzerdefinierten Regelsätzen {#create}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_set_domain"
@@ -98,11 +87,11 @@ Um eine Regel zu deaktivieren, klicken Sie auf das Symbol _Deaktivieren_ ( ![Dea
 >[!CONTEXTUALHELP]
 >id="ajob2b-prime_rule_type"
 >title="Regeltyp"
->abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Kommunikation pro Tag. Wählen Sie **Ruhezeiten** aus, um zeitbasierte Ausschlüsse zu definieren, damit während bestimmter Zeiträume keine Nachrichten gesendet werden."
+>abstract="Wählen Sie den gewünschten Regeltyp für Ihren Kanalregelsatz aus: Verwenden Sie den Typ **Frequenzbegrenzung**, um Begrenzungsregeln auf Kommunikationskanäle anzuwenden. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag. Wählen Sie **Ruhezeiten** aus, um zeitbasierte Ausschlüsse zu definieren, damit während bestimmter Zeiträume keine Nachrichten gesendet werden."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_duration"
->title="Begrenzungsfrequenz zurücksetzen"
+>title="Zurücksetzen der Begrenzungsfrequenz"
 >abstract="Wählen Sie den Kalenderzeitraum aus, der zum Zurücksetzen des Begrenzungszählers verwendet wird: stündlich, täglich, wöchentlich oder monatlich. Der Zähler wird zu Beginn jedes neuen Zeitraums automatisch auf 0 zurückgesetzt."
 
 >[!CONTEXTUALHELP]
@@ -117,7 +106,7 @@ Um eine Regel zu deaktivieren, klicken Sie auf das Symbol _Deaktivieren_ ( ![Dea
 
 >[!NOTE]
 >
->Sie können bis zu 10 Regelsätze für die Kanaldomäne und 10 Regelsätze für die Journey-Domain erstellen, also insgesamt 20 Regelsätze.
+>Sie können bis zu 10 Regelsätze für die Kanal-Domain und 10 Regelsätze für die Journey-Domain erstellen, also insgesamt 20 Regelsätze.
 
 1. Erweitern Sie **[!UICONTROL Administration]** im linken Navigationsbereich und wählen Sie **[!UICONTROL Geschäftsregeln]**.
 
@@ -192,7 +181,7 @@ Sie können den aktiven Regelsatz auf eine Nachricht oder eine Journey anwenden,
 
 ## Frequenzlimitierung nach Kanal {#frequency-capping}
 
-Legen Sie Häufigkeitsbegrenzungen nach Kanal und Kommunikationstyp fest, um zu begrenzen, wie viele Nachrichten ein Profil erhält, und um zu vermeiden, dass Kunden mit ähnlichen Nachrichten überfordert werden. Kanalregelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Kommunikation pro Tag.
+Legen Sie Häufigkeitsbegrenzungen nach Kanal und Kommunikationstyp fest, um zu begrenzen, wie viele Nachrichten ein Profil erhält, und um zu vermeiden, dass Kunden mit ähnlichen Nachrichten überfordert werden. Kanalregelsätze wenden Begrenzungsregeln auf Kommunikationskanäle an. Senden Sie beispielsweise nicht mehr als eine E-Mail- oder SMS-Nachricht pro Tag.
 
 Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunikationstyp festlegen, um zu verhindern, dass Kundinnen und Kunden zu viele ähnliche Nachrichten erhalten. Sie können zum Beispiel eine Regel festlegen, um die Anzahl der _Werbemitteilungen_ zu begrenzen, die an Ihre Kundinnen und Kunden gesendet werden, und eine andere Regel, um die Anzahl der _Newsletter_ zu begrenzen, die an sie gesendet werden. Sie können dann entweder den Regelsatz Werbekommunikation oder Newsletter anwenden.
 
@@ -204,7 +193,7 @@ Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunika
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_rule_sets_channel"
->title="Kanäle definieren, für die die Regel gilt"
+>title="Definieren der Kanäle, für die die Regel gilt"
 >abstract="Wählen Sie mindestens einen Kanal aus. Die Begrenzung gilt als Gesamtanzahl für alle Kanäle."
 
 1. Wählen Sie den Kanalregelsatz aus, dem Sie die Begrenzungsregel hinzufügen möchten, oder erstellen Sie einen neuen Kanalregelsatz.
@@ -256,7 +245,7 @@ Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunika
 
    Wählen Sie mehrere Kanäle aus, wenn Sie eine Begrenzung auf alle ausgewählten Kanäle als Gesamtanzahl anwenden möchten.
 
-   Legen Sie beispielsweise die Begrenzung auf 5 fest und wählen Sie dann den E-Mail- und SMS-Kanal aus. Wenn ein Profil für den ausgewählten Zeitraum bereits drei Marketing-E-Mails und zwei Marketing-SMS-Nachrichten erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder SMS-Nachricht ausgeschlossen.
+   Legen Sie beispielsweise eine Begrenzung von 5 fest und wählen Sie die Kanäle „E-Mail“ und „SMS“ aus. Wenn ein Profil für den ausgewählten Zeitraum bereits drei Marketing-E-Mails und zwei Marketing-SMS-Nachrichten erhalten hat, wird dieses Profil vom nächsten Versand einer Marketing-E-Mail oder SMS-Nachricht ausgeschlossen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen.
 
@@ -268,7 +257,7 @@ Mithilfe von Kanalregelsätzen können Sie die Frequenzbegrenzung nach Kommunika
 
 ### Anwenden des Regelsatzes für die Kanalbegrenzung {#apply-capping-rule}
 
-1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für &#x200B;](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für ](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
 1. Legen Sie auf _[!UICONTROL Registerkarte]_ die Option **[!UICONTROL Geschäftsregeln]** auf die Regel fest, die mit der Frequenzlimitierungsregel festgelegt wurde.
 
@@ -352,9 +341,9 @@ Sie können in Journey für eine präzise Steuerung ruhige Stunden über Regels�
 
    * Klicken Sie auf _Kalender_ und geben Sie den Zeitraum an, in dem ruhige Stunden gelten sollen.
 
-      * **[!UICONTROL Wöchentlich]**: Wählen Sie bestimmte Wochentage und ein Zeitfenster aus. Sie können die Regel auch &quot;**[!UICONTROL Tag“]**.
+     * **[!UICONTROL Wöchentlich]**: Wählen Sie bestimmte Wochentage und ein Zeitfenster aus. Sie können auch die Regel **[!UICONTROL Ganztägig]** anwenden.
 
-      * **[!UICONTROL Benutzerdefiniertes Datum]**: Wählen Sie bestimmte Daten im Kalender und ein Zeitfenster aus. Sie können die Regel auch &quot;**[!UICONTROL Tag“]**.
+     * **[!UICONTROL Benutzerdefiniertes Datum]**: Wählen Sie bestimmte Daten im Kalender und ein Zeitfenster aus. Sie können auch die Regel **[!UICONTROL Ganztägig]** anwenden.
 
      ![Dialogfeld „Kalender“ zum Definieren von ruhigen Stunden, Daten und Zeiten](./assets/business-rules-quiet-hours-dates-times-calendar.png){width="450"}
 
@@ -368,13 +357,13 @@ Sie können in Journey für eine präzise Steuerung ruhige Stunden über Regels�
 
      >[!NOTE]
      >
-     >Wenn eine Nachricht länger als 7 Tage in der Warteschlange für ein Profil bleibt, wird die Nachricht verworfen.
+     >Wenn eine Nachricht für ein Profil länger als 7 Tage in einem Warteschlangenstatus verbleibt, wird die Nachricht verworfen.
 
    * **[!UICONTROL Nachricht verwerfen]**: Nachrichten werden nie gesendet.
 
      >[!NOTE]
      >
-     >Wenn Sie **[!UICONTROL Verwerfen]** auswählen und diese Regel auf eine Journey-Aktion anwenden, wird das Profil aus dem Nachrichtenversand entfernt und von der Journey beendet.
+     >Wenn Sie **[!UICONTROL Verwerfen]** auswählen und diese Regel auf eine Journey-Aktion anwenden, wird das Profil aus dem Nachrichtenversand entfernt und steigt aus der Journey aus.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Erstellung der Regel zu bestätigen.
 
@@ -388,7 +377,7 @@ Sie können in Journey für eine präzise Steuerung ruhige Stunden über Regels�
 
 Nachdem die Regel gespeichert und der Regelsatz aktiviert wurde, können Sie ihn auf Kanalaktionen in Journey anwenden.
 
-1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für &#x200B;](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
+1. Fügen Sie beim Erstellen einer Journey einen der [Aktionsknoten) für ](../marketing/action-nodes.md) Kanal hinzu, den Sie für Ihre Regel ausgewählt haben, und bearbeiten Sie den Inhalt Ihrer Nachricht.
 
 1. Legen Sie auf _[!UICONTROL Registerkarte]_ die Option **[!UICONTROL Geschäftsregeln]** auf die Regel fest, die mit der Regel für ruhige Stunden festgelegt wurde.
 
