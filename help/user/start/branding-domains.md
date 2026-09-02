@@ -41,7 +41,7 @@ E-Mail-Tracking-Links müssen neu und für die angehängte Marketo Engage-Instan
 
 >[!PREREQUISITES]
 >
->Bevor Sie eine Domain in der Benutzeroberfläche bearbeiten oder hinzufügen, müssen Sie über einen [zugeordneten CNAME zu einer von Adobe bereitgestellten Marketo Engage-Domain](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} verfügen.
+>Bevor Sie eine Domain in der Benutzeroberfläche bearbeiten oder hinzufügen, müssen Sie über einen [zugeordneten CNAME zu einer von Adobe bereitgestellten Marketo Engage-Domain](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} verfügen.
 >
 >Beim Hinzufügen einer Domain sucht das System nach bereits vorhandenen SSLs, die zuvor manuell erstellt wurden. Wenn diese Validierung auftritt, erstellen Sie Ihre Domain, ohne die SSL-Erstellung auszuwählen, und verbinden Sie sie dann als separates Verfahren.
 
@@ -106,7 +106,7 @@ _Domain hinzufügen :_
 
    >[!NOTE]
    >
-   >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://experienceleague.adobe.com/en/support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
+   >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://experienceleague.adobe.com/de/support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
 
 <!-- 
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
