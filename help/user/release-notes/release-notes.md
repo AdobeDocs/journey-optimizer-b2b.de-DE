@@ -3,21 +3,14 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
 source-wordcount: 5635
 ht-degree: 61%
@@ -154,7 +147,7 @@ Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B edition 
 | ----- | ------ | ----------- |
 | Journey Build Agent | Neu und aktualisiert | Der Journey Build Agent analysiert, konzipiert und erstellt Journeys in Echtzeit gemeinsam mit Ihnen. Dies versetzt Marketingteams in die Lage, Starts zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten voranzutreiben. [Weitere Informationen](../agents/journey-agent.md) |
 | Audience Agent | Neu | Der Audience Agent identifiziert und erstellt Zielgruppen (Käufergruppen) automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"} |
+| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Versionshinweise für 2025.10 {#rel-2025-10}
 
@@ -195,7 +188,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
@@ -254,7 +247,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Funktion | Zugriff auf Detailseiten im CRM | Sie können jetzt in Ihrem CRM-Tool (Customer Relationship Management), z. B. Salesforce oder Microsoft Dynamics, direkte Links zu den Detailseiten für Konten, Kontakte und Leads in Journey Optimizer B2B Edition konfigurieren. [Weitere Informationen](../accounts/crm-linking.md) |
 | Funktion | Unterstützung für benutzerdefiniertes CSS beim Design von Inhalten | Bei der Erstellung von E-Mail- und Landingpage-Inhalten im Design-Bereich können Sie jetzt eigenes, benutzerdefiniertes CSS hinzufügen. [Weitere Informationen](../content/design-custom-css.md) |
 | Funktion | Konfiguration des Intent-Keyword-Mappings | Um das Modell der Absichtserkennung zu aktivieren und zu verwalten, können Admins jetzt eine Tabelle hochladen, um eine Absichtsdaten-Zuordnungskategorie zu definieren. [Weitere Informationen](../admin/intent-data.md) |
-| Verbesserung | Simulieren von Inhalten aus E-Mail-Zusammenfassungen | Sie können jetzt über die E-Mail-Zusammenfassung (Details und Eigenschaften) auf die Tools _Inhalte simulieren_ zugreifen, wenn Sie eine E-Mail aus der E-Mail-Liste öffnen. Dieser Zugriff erfolgt zusätzlich zum E-Mail-Design-Bereich. [Weitere Informationen](../content/email-simulate-content.md#display-the-email-preview) |
+| Verbesserung | Simulieren von Inhalten aus E-Mail-Zusammenfassungen | Sie können jetzt über die E-Mail-Zusammenfassung (Details und Eigenschaften) auf die Tools _Inhalte simulieren_ zugreifen, wenn Sie eine E-Mail aus der E-Mail-Liste öffnen. Dieser Zugriff erfolgt zusätzlich zum E-Mail-Design-Bereich. [Weitere Informationen](../content/email-simulate-content.md#display-preview) |
 | Verbesserung | Anzeigen der Gesamtzahl für die Liste der Rollenvorlagen | Auf der Seite mit der Liste der _[!UICONTROL Rollenvorlagen]_ wird neben der Suchleiste auch die Gesamtanzahl angezeigt. |
 
 ## Versionshinweise für 2025.5 {#rel-2025-5}

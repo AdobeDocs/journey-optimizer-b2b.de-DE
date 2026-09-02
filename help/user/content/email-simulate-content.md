@@ -5,22 +5,16 @@ feature: Email Authoring
 level: Beginner
 role: User
 exl-id: cf9d7716-b54d-430a-8102-72f9d35cc694
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-  - id: f01b5556-e951-40ba-8625-2e3001864f2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212ababid: f01b5556-e951-40ba-8625-2e3001864f2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 autotag-review: 2026-03-30T22:31:50.715Z
 TQID: https://experienceleague.adobe.com/pwS-mF-KluJnQgXWXyxrflSsC8LuEoJm-eku9IHqgyQ
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 574
+source-wordcount: 568
 ht-degree: 8%
 
 ---
@@ -38,7 +32,7 @@ Verwenden Sie die Funktion _Inhalt simulieren_, um eine Vorschau des E-Mail-Inha
 >
 >Bei Fehlern können Sie die E-Mail nicht in der Vorschau anzeigen. Um sicherzustellen, dass keine Fehler die Vorschaufunktionen blockieren, überprüfen Sie die _Warnhinweise_. Warnungen blockieren nicht die Vorschau, sondern richten sich an sie, bevor Sie die Journey veröffentlichen, die den E-Mail-Versand Trigger.
 
-## E-Mail-Vorschau anzeigen
+## E-Mail-Vorschau anzeigen {#display-preview}
 
 Sie können auf die Rendering-Vorschau über den [E-Mail-Design-Bereich](./email-authoring.md) oder über die _[!UICONTROL Zusammenfassung]_ zugreifen, wenn Sie [eine E-Mail über die E-Mail-Liste öffnen](./emails-list.md#open-and-edit-emails).
 
@@ -56,13 +50,13 @@ Sie können auf die Rendering-Vorschau über den [E-Mail-Design-Bereich](./email
 
    ![Wählen Sie ein Personenprofil aus, um die Simulation zu rendern](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   Wenn die Liste _[!UICONTROL Personen]_ auf der linken Seite leer ist, [&#x200B; Sie „Personen hinzufügen](#add-people-to-the-profiles-list) mithilfe von Kontakten aus der verbundenen Marketo Engage-Instanz.
+   Wenn die _[!UICONTROL Personen]_ Liste auf der linken Seite leer ist, [ Sie „Personen hinzufügen](#add-people) mithilfe von Kontakten.
 
    >[!TIP]
    >
    >Sie können auch die [Litmus Test Rendering-Integration](./email-test-rendering.md) verwenden, um das Rendering von E-Mail-Nachrichten in gängigen Desktop-, Mobile- und Web-basierten Clients zu überprüfen.
 
-## Anpassen der Anzeigeoptionen
+## Anpassen der Anzeigeoptionen {#display-options}
 
 Verwenden Sie die Anzeigewerkzeuge, um die Vorschau je nach Gerätetyp oder Zoomstufe zu ändern:
 
@@ -72,7 +66,7 @@ Verwenden Sie die Anzeigewerkzeuge, um die Vorschau je nach Gerätetyp oder Zoom
 
 ![Vorschauanzeige anpassen](assets/email-simulate-content-preview-display-options.png){width="600" zoomable="yes"}
 
-## Versenden von Testsendungen
+## Versenden von Testsendungen {#send-proofs}
 
 Ein Testversand ist eine gesendete Testnachricht, mit der Sie und Ihre Team-Mitglieder eine E-Mail-Nachricht überprüfen können, bevor sie sie an Mitglieder einer Zielgruppe senden. Die Empfängerinnen und Empfänger des Testversands können das Rendering, den Inhalt, die Personalisierungseinstellungen und die Konfiguration der Nachricht überprüfen. Testsendungen können mit einem ausgewählten Testprofil durchgeführt werden.
 
@@ -92,7 +86,7 @@ Ein Testversand ist eine gesendete Testnachricht, mit der Sie und Ihre Team-Mitg
 
 1. Klicken Sie auf **[!UICONTROL Testversand durchführen]**.
 
-## Personen zur Profilliste hinzufügen
+## Personen zur Profilliste hinzufügen {#add-people}
 
 1. Klicken Sie oben in der _[!UICONTROL Personen]_-Liste auf **[!UICONTROL Personen hinzufügen]**.
 
@@ -100,7 +94,7 @@ Ein Testversand ist eine gesendete Testnachricht, mit der Sie und Ihre Team-Mitg
 
 1. Geben _[!UICONTROL im Dialogfeld „Personen zum Testen hinzufügen]_ die vollständige E-Mail-Adresse für den Kontakt ein.
 
-   Um mehrere Kontakte hinzuzufügen, geben Sie mehrere Adressen ein, die durch Kommas getrennt sind.
+   Um mehrere Kontakte hinzuzufügen, geben Sie die durch Kommas getrennten Adressen ein.
 
 1. Aktivieren Sie das Kontrollkästchen für jeden passenden Kontakt, den Sie der Liste der Testprofile hinzufügen möchten.
 
