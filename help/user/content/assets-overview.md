@@ -4,22 +4,17 @@ description: Verwalten von Bild-Assets aus Journey Optimizer B2B edition und AEM
 feature: Assets, Content
 role: User
 exl-id: f3848e65-3196-4d1f-90cf-7aa6ceeafabb
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: da3860b0-d637-47df-bef0-273751180266
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: da3860b0-d637-47df-bef0-273751180266
 autotag-review: 2026-03-30T22:17:01.501Z
 TQID: https://experienceleague.adobe.com/urL1pGKG420-cPjDUkCQaYBV3HC8BM6lp3ni6M1b0oc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 867
-ht-degree: 61%
+source-wordcount: 848
+ht-degree: 62%
 
 ---
 
@@ -35,7 +30,7 @@ Wenn Sie über [!DNL Adobe Experience Manager as a Cloud Services] verfügen und
 
 ### Interne Assets
 
-Das interne Asset-Repository wird standardmäßig bei jedem [!DNL Journey Optimizer B2B Edition]-Abonnement bereitgestellt. Das bedeutet, dass Sie Zugriff auf alle Bild-Assets haben, die im verbundenen [!DNL Adobe Marketo Engage]-Asset-Dateisystem gespeichert sind. Sie können dieses Repository als lokale Asset-Bibliothek verwenden, also auch die Funktionen zum Hoch- und Herunterladen von Assets. Sie können diese Assets auch in Ihren Journey-Inhalten einsetzen.
+Das interne Asset-Repository wird standardmäßig bei jedem [!DNL Journey Optimizer B2B Edition]-Abonnement bereitgestellt. Sie können dieses Repository als lokale Asset-Bibliothek verwenden, einschließlich der Funktionen zum Hochladen und Herunterladen von Assets. Sie können diese Assets auch in Ihrem Journey-Content einsetzen.
 
 Sie können [diese Assets mit Adobe Express bearbeiten](./image-edit-adobe-express.md) und sie in Ordner verschieben, um sie für die Verwendung in Ihren E-Mails, Vorlagen und Fragmenten zu organisieren.
 
@@ -43,7 +38,7 @@ Folgende Dateiformate werden unterstützt: JPG, JPEG, GIF, PNG, EPS, SVG und RGB
 
 ### Adobe Experience Manager Assets as a Cloud Service
 
-Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von [!DNL Adobe Experience Manager Assets]. Diese Lösung ist nativ mit [!DNL Journey Optimizer B2B Edition] integriert, sodass Sie einfach auf Assets as a Cloud Service zugreifen können, um digitale Assets zu entdecken und zu verwenden. Sie bietet Zugriff auf Ihr Repository für Assets, das Sie für Ihre Nachrichten verwenden können.
+Zusammenführen von Marketing- und Kreativ-Workflows mithilfe von [!DNL Adobe Experience Manager Assets]. Diese Lösung ist nativ mit [!DNL Journey Optimizer B2B Edition] integriert, sodass Sie einfach auf Assets as a Cloud Service zugreifen können, um digitale Assets zu entdecken und zu verwenden. Sie bietet Zugriff auf Ihr Assets-Repository mit Assets, die Sie zum Befüllen Ihrer Nachrichten verwenden können.
 
 [!DNL Adobe Journey Optimizer B2B Edition] kann mit [!DNL Adobe Experience Manager Assets as a Cloud Service] verbunden werden, um eine zentralisierte Asset-Verwaltung zu ermöglichen, die Ihr Kreativsystem erweitert und digitale Assets für die Bereitstellung von Erlebnissen vereinheitlicht. [!DNL Adobe Experience Manager Assets as a Cloud Service] bietet eine benutzerfreundliche Cloud-Lösung für effiziente Vorgänge im Bereich Digital Asset Management und Dynamic Media. Es integriert nahtlos fortschrittliche Funktionen, darunter künstliche Intelligenz und maschinelles Lernen.
 
@@ -55,7 +50,7 @@ Greifen Sie über das Element **[!UICONTROL Experience Manager Assets]** im link
 
 Derzeit können in Adobe Journey Optimizer B2B Edition nur Bilder aus Adobe Experience Manager Assets verwendet werden.
 
-## Verwenden von Assets für die Inhaltserstellung
+## Verwenden von Assets für das Content-Authoring
 
 Verwenden Sie Assets beim Erstellen von E-Mails, E-Mail-Vorlagen und visuellen Fragmenten. Der visuelle Content-Editor bietet Zugriff auf die Bilder in Ihren verbundenen Asset-Repositorys. Wenn Sie auch über ein Abonnement für Experience Manager Assets as a Cloud Service verfügen, können Sie Bild-Assets aus beiden Quellen auswählen. Sie können auch ein Bild-Asset hochladen, wodurch es im internen Assets-Repository abgelegt wird.
 
@@ -73,7 +68,7 @@ Sie können die Bildquelle auswählen, wenn Sie die Einstellungen für eine Bild
 
   ![Auswählen einer Quelle und einer Bilddatei für die Bildkomponente mithilfe der Symbolleiste](./assets/content-assets-image-toolbar-settings.png){width="500"}
 
-Sie können ein Bild-Asset hinzufügen, während Sie Inhalte erstellen, je nach Quelle des Bild-Assets. Sie können ein Bild-Asset auch in den Hintergrundeinstellungen für eine Strukturkomponente auswählen.
+Sie können ein Bild-Asset hinzufügen, während Sie Content erstellen, je nach Quelle des Bild-Assets. Sie können ein Bild-Asset auch in den Hintergrundeinstellungen für eine Strukturkomponente auswählen.
 
 >[!BEGINTABS]
 
@@ -91,7 +86,7 @@ Weitere Informationen zur Verwendung interner Bild-Assets finden Sie unter [Verw
 
 Klicken Sie auf **[!UICONTROL Experience Manager Assets]**, um den Asset-Wähler zu öffnen. Dort können Sie ein Bild aus dem Experience Manager Assets-Repository auswählen.
 
-![Auswählen eines Bild-Assets aus dem AEM Assets-Repository &#x200B;](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
+![Auswählen eines Bild-Assets aus dem AEM Assets-Repository ](./assets/content-assets-image-aem-selected.png){width="700" zoomable="yes"}
 
 Sie können die Suche und Filter verwenden, um das gewünschte Bild-Asset zu finden. Wählen Sie das Asset aus und klicken Sie auf **[!UICONTROL Auswählen]**, um es für die Bildkomponente zu verwenden.
 

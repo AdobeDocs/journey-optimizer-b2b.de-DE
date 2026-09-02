@@ -4,23 +4,17 @@ description: Entwerfen von E-Mails, Landingpages und Fragmenten mit Inhaltskompo
 feature: Content Design Tools
 role: User
 exl-id: 58f2dae4-4cfb-4fe4-9c9e-1bfd41824f33
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: e666e996-b2cf-4c45-8fc2-1c625212abab
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
 autotag-review: 2026-03-30T22:16:05.946Z
 TQID: https://experienceleague.adobe.com/21uPsZnMqZq75vwzlZbyseav6s-P93-HY0pYgl7QsMs
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: 3074
-ht-degree: 7%
+source-wordcount: 2658
+ht-degree: 8%
 
 ---
 
@@ -225,7 +219,7 @@ Jeder Inhaltskomponententyp zeigt eine Symbolleiste an, wenn Sie ihn auf der Arb
 
    Sie können zu einer einzelnen Strukturkomponente und zu jeder Spalte einer Strukturkomponente mehrere Komponenten hinzufügen.
 
-   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente &#x200B;](./assets/content-components-drag.png){width="600" zoomable="yes"}
+   ![Ziehen Sie die Inhaltskomponente in die Strukturkomponente ](./assets/content-components-drag.png){width="600" zoomable="yes"}
 
 1. Passen Sie die Komponentenanzeige mit den Registerkarten **[!UICONTROL Einstellungen]** und **[!UICONTROL Stil]** auf der rechten Seite oder der auf der Arbeitsfläche angezeigten Kontextsymbolleiste an.
 
@@ -250,7 +244,7 @@ Wenn Sie die Komponente von der Desktop- oder Mobilgeräteanzeige ausschließen 
 
 ### Container
 
-Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL &#x200B; Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
+Verwenden Sie einen Container, um bestimmte Stile auf eine Gruppe von Inhaltskomponenten anzuwenden. Fügen Sie [!UICONTROL  Komponente &quot;]&quot; hinzu und fügen Sie dann darin weitere Inhaltskomponenten hinzu. Diese Komponente ähnelt der Verwendung eines `div` in HTML. Sie können einen eigenen Stil auf den Container anwenden, der sich von dem Stil unterscheidet, der auf die darin enthaltenen Inhaltskomponenten angewendet wurde.
 
 Fügen Sie beispielsweise die Komponente _[!UICONTROL Container]_ hinzu, und fügen Sie anschließend die Komponente _[!UICONTROL Schaltfläche]_ innerhalb dieses Containers hinzu. Sie können einen bestimmten Bereichsstil für den Container verwenden und die Schaltfläche und ihren Hintergrund nach Bedarf gestalten.
 
@@ -312,7 +306,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="200"}
 
@@ -564,51 +558,23 @@ Verwenden Sie die [!UICONTROL Bild]-Komponente, um ein Bild-Asset in Ihren Inhal
 
 Wählen Sie den [Asset-Quelltyp](./assets-overview.md) und wählen Sie eine Bilddatei aus:
 
-* **[!UICONTROL Marketo Engage Assets]** - Wählen Sie diesen Typ, um ein Bild-Asset aus der Journey Optimizer B2B edition-Bibliothek oder der verbundenen Marketo Engage-Instanz zu durchsuchen und auszuwählen.
++++[!UICONTROL Asset auswählen]
 
-  ![Durchsuchen der verfügbaren Bild-Assets](./assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
+{{internal-dam}}
 
-  Im Dialogfeld können Sie ein Bild aus dem ausgewählten Repository auswählen. Klicken Sie auf **[!UICONTROL Auswählen]**, um das Asset hinzuzufügen.
++++
 
-  Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden können:
++++[!UICONTROL Medien importieren]
 
-  * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
+{{image-upload}}
 
-  * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
++++
 
-    ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}
++++[!UICONTROL Experience Manager Assets]
 
-* **[!UICONTROL Experience Manager Assets]** - Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu &#x200B;](../admin/configure-aem-repositories.md) und auszuwählen.
+{{aem-assets-dam}}
 
-  Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
-
-  * Ändern Sie **[!UICONTROL Repository]** oben rechts.
-
-  * Klicken Sie **[!UICONTROL oben rechts auf]** Assets verwalten“, um das Assets-Repository in einer anderen Browser-Registerkarte zu öffnen und AEM Assets-Verwaltungstools zu verwenden.
-
-  * Klicken Sie oben rechts auf _Ansichtstyp_, um die Anzeige in **[!UICONTROL Listenansicht]**, **[!UICONTROL Rasteransicht]**, **[!UICONTROL Galerieansicht]** oder **[!UICONTROL Wasserfallansicht]** zu ändern.
-
-  * Klicken Sie auf _Symbol „Sortierreihenfolge_, um die Sortierreihenfolge zwischen aufsteigender und absteigender Reihenfolge zu ändern.
-
-    ![Verwenden Sie Tools im Dialogfeld &quot;Assets auswählen“, um ein Bild-Asset zu suchen und auszuwählen](./assets/content-select-assets-dialog-aem.png){width="700" zoomable="yes"}
-
-  * Klicken Sie auf **[!UICONTROL Menüpfeil]** Sortieren nach“, um die Sortierkriterien in **[!UICONTROL Name]**, **[!UICONTROL Size]** oder **[!UICONTROL Modified]** zu ändern.
-
-  * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
-
-  * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
-
-  ![Verwenden Sie das Filter- und Suchfeld, um das Asset zu finden](./assets/content-select-assets-dialog-aem-filter.png){width="700" zoomable="yes"}
-
-* **[!UICONTROL Medien importieren]** - Wählen Sie diesen Typ aus, um eine Datei aus Ihrem System auszuwählen und in die Journey Optimizer B2B edition Asset-Bibliothek zu importieren.
-
-  Ziehen _[!UICONTROL im Dialogfeld]_ Bild hochladen“ eine Datei aus dem System per Drag-and-Drop in das Feld „Datei“. Die maximale Dateigröße beträgt 100 MB.
-
-  ![Importieren Sie eine Bilddatei in den](./assets/email-designer-image-upload.png){width="450"}
-
-  Die Dateinamen der ausgewählten Bilder werden im Dialogfeld angezeigt. Asset-Dateinamen müssen eindeutig sein (in allen Ordnern). Wenn bereits eine Datei mit dem Namen vorhanden ist, wird eine Meldung angezeigt. Namen dürfen maximal 100 Zeichen lang sein und keine Sonderzeichen enthalten (beispielsweise `;`, `:`, `\` und `|`).
-
-  Klicken Sie **[!UICONTROL Importieren]**.
++++
 
 Sie können einen Bildtitel und alternativen Text für das Bild im rechten Bereich hinzufügen.
 
@@ -628,7 +594,7 @@ Verwenden Sie auf _[!UICONTROL Registerkarte]_ die Optionen **[!UICONTROL Link]*
 
    * **Landingpage** - Wählen Sie diesen Typ, um eine veröffentlichte Landingpage in der <!-- Journey Optimizer B2B Edition (_Beta_) or --> Marketo Engage-Instanz auszuwählen.
 
-     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol &#x200B;](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
+     Wählen Sie für **[!UICONTROL Option]** die veröffentlichte Landingpage aus. Klicken Sie auf das _Seite auswählen_-Symbol ( ![Link-Symbol ](../assets/do-not-localize/icon-landing-page-select.svg) ) und [wählen Sie die veröffentlichte Landingpage aus](./landing-pages.md#link-to-a-landing-page).
 
      ![Definieren eines Links zu einer Landingpage für eine Schaltflächenkomponente](./assets/component-button-link-options-landing-page.png){width="250"}
 
@@ -705,7 +671,7 @@ Verwenden Sie die Komponente _Social_, um Links zu Social-Media-Seiten in Ihre I
 Wenn Sie einen Social-Media-Typ ausgewählt haben, legen Sie die Optionen für diesen Typ fest:
 
 * **[!UICONTROL URL]** - Geben Sie die Social-Media-URL ein, die Sie mit der Social-Media-Grafik oder dem Symbol verknüpfen möchten.
-* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie ein Bild-Asset aus. Sie können ein Bild aus dem verbundenen Marketo Engage Asset-Repository, einem Experience Manager Assets-Repository (falls konfiguriert) auswählen oder eine Bilddatei aus Ihrem System importieren. Weitere Informationen zum Auswählen und Importieren [&#x200B; Bild-Assets finden &#x200B;](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
+* **[!UICONTROL Source]** - Wenn Sie Ihr eigenes Bild anstelle des Standardbilds verwenden möchten, wählen Sie ein Bild-Asset aus oder importieren Sie eine Bilddatei aus Ihrem System. Weitere Informationen zum Auswählen und Importieren [ Bild-Assets finden ](#add-the-image-asset) unter „Informationen zur Bild-Komponente“.
 * **[!UICONTROL ALT-]**: Geben Sie den ALT-Text für das angezeigte Bild ein.
 
   ![Einstellungen für den ausgewählten Social-Media-Typ](./assets/content-components-social-settings-for-type.png){width="250"}
@@ -758,8 +724,6 @@ Sie können die folgenden Stiloptionen für die Komponente _Social_ festlegen:
 
 ### Formular (nur Landingpages) {#form}
 
-[!BADGE Beta]{type=Informative url="/help/user/content/forms.md" tooltip="Beta-Funktion"}
-
 Verwenden Sie die _Formular_-Komponente, um ein veröffentlichtes Formular zu einer Landingpage oder Landingpage-Vorlage hinzuzufügen. Weitere Informationen zum Erstellen und Veröffentlichen von Formularen finden Sie unter [Forms](./forms.md).
 
 1. Klicken Sie auf das _Formular_-Tool in der Komponenten-Symbolleiste oder verwenden Sie die Eigenschaften **[!UICONTROL Formular einbetten]** auf der rechten Seite, um das veröffentlichte Formular auszuwählen.
@@ -772,7 +736,7 @@ Verwenden Sie die _Formular_-Komponente, um ein veröffentlichtes Formular zu ei
 
    * **[!UICONTROL Auf Seite bleiben]** - Wählen Sie diese Option, um den Besucher beim Senden des Formulars auf der gleichen Seite zu belassen.
 
-   * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige Journey Optimizer B2B edition- oder Marketo Engage-Landingpage als Folgemaßnahme auszuwählen.
+   * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige Journey Optimizer B2B edition-Landingpage als Folgeseite auszuwählen.
 
    * **[!UICONTROL Externe URL]** - Wählen Sie diese Option aus, um eine beliebige URL als Folgeseite anzugeben. Nachdem der Besucher das Formular gesendet hat, lädt der Browser die vorgesehene URL.
 
