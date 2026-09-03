@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '450'
 ht-degree: 85%
 
 ---
@@ -91,7 +91,6 @@ ht-degree: 85%
     + [Käufergruppenphasen](./buying-groups/buying-group-stages.md)
     + [Erstellen von Käufergruppen](./buying-groups/buying-groups-create.md)
     + [Exportieren von Konten](./audiences/account-list-export.md)
-    + [Käufergruppenfilter in Marketo Engage](./buying-groups/marketo-engage-smart-list-buying-group-filters.md)
     + [In-CRM-Einblicke](./buying-groups/incrm-insights.md)
   + Kontolisten {#account-lists}
     + [Überblick](./accounts/account-lists.md)

@@ -4,23 +4,17 @@ description: Berechnen Sie die Werte für Einkaufsgruppen- und Personeninterakti
 feature: Buying Groups, Engagement
 role: User
 exl-id: 424d9598-92dd-42de-8447-3c7cebc71a73
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-30T21:43:47.624Z
 TQID: https://experienceleague.adobe.com/hbqnc4zInCOzKx4UwW4lBY1LDDy-NZEV9wA1BTzhsD8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
-ht-degree: 30%
+source-wordcount: 1229
+ht-degree: 29%
 
 ---
 
@@ -29,7 +23,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_buying_group_engagement_score"
 >title="Interaktionsbewertung"
->abstract="Interaktionsbewertungen bestimmen den Grad der Interaktion für Käufergruppenmitglieder."
+>abstract="Interaktionsbewertungen bestimmen den Grad der Interaktion für Mitglieder von Käufergruppen."
 
 Ein Interaktionswert ist eine Zahl, die den Grad der Interaktion der Mitglieder einer Einkaufsgruppe angibt. Diese Bewertungen basieren auf den Aktivitäten der Mitglieder der Einkaufsgruppe, gewichteten Aktionen und gewichteten Rollen. Die resultierenden Bewertungen werden innerhalb eines Mandanten (einer Instanz) normalisiert, um einen konsistenten Vergleich zu ermöglichen und umsetzbare Einblicke zu ermöglichen. Die Berechnung des Punktwerts beginnt, sobald Sie die Einkaufsgruppe erstellen. Das Journey Optimizer B2B edition-Daten-Hub-System berechnet die Bewertungen täglich und lädt sie mithilfe des Aufnahme-Service in das MySQL-System des Multi-Level Marketing (MLM) hoch.
 
@@ -43,13 +37,13 @@ Es gibt zwei Arten von Interaktionswerten:
 
 * **Interaktionswert für eine Person** - Der Interaktionswert für eine Person basiert auf den Aktivitäten eines einzelnen kaufenden Gruppenmitglieds.
 
-  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte &#x200B;]_&#x200B;Mitglieder) &#x200B;](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
+  Der Interaktionswert der Person für jedes kaufende Gruppenmitglied wird auf der Seite mit den Details zur kaufenden Gruppe [_[!UICONTROL Registerkarte ]_Mitglieder) ](./buying-group-details.md#buying-group-members). Diese Bewertungen werden auch auf Seiten und in Dashboards angezeigt, die hochmotivierte Mitglieder und sich überschneidende Kontaktinformationen enthalten.
 
   ![Die engagiertesten Mitglieder der Einkaufsgruppe](./assets/top-engaged-buying-group-members.png){width="550" zoomable="yes"}
 
 >[!BEGINSHADEBOX]
 
-Der Personeninteraktionswert ist ein Attribut, das zum Filtern in [Rollenvorlagen](./buying-groups-role-templates.md#add-the-template-roles) und [Journey-Knoten, die nach Personen aufgeteilt werden können, &#x200B;](../journeys/split-merge-paths-nodes.md#people-path-filters).
+Der Personeninteraktionswert ist ein Attribut, das zum Filtern in [Rollenvorlagen](./buying-groups-role-templates.md#add-the-template-roles) und [Journey-Knoten, die nach Personen aufgeteilt werden können, ](../journeys/split-merge-paths-nodes.md#people-path-filters).
 
 ![Zugriff auf die konfigurierten Ereignisdefinitionen](./assets/most-engaged-buying-groups.png){width="550" zoomable="yes"}
 
@@ -65,7 +59,7 @@ Es gibt eine tägliche Frequenzbegrenzung von 20 pro Aktivität. Wenn ein Mitgli
 
 | Aktivitätsname | Beschreibung | Interaktionstyp | Maximale tägliche Frequenzlimitierung | Standardmäßige Aktivitätsgewichtung des Modells |
 |---------------|-------------|-----------------|---------------------------|-------------------------------|
-| An Ereignis teilnehmen | Ein Mitglied nimmt an einem Event teil | Ereignis | 20 | 60 |
+| An Ereignis teilnehmen | Ein Mitglied hat an einem Ereignis teilgenommen | Ereignis | 20 | 60 |
 | E-Mail angeklickt | Ein Mitglied klickt auf einen Link in einer E-Mail | E-Mail | 20 | 30 |
 | E-Mail geöffnet | Ein Mitglied öffnet eine E-Mail | E-Mail | 20 | 30 |
 | Formular ausgefüllt | Ein Mitglied füllt ein Formular auf einer Web-Seite aus und sendet es ab | Web | 20 | 40 |
@@ -115,10 +109,6 @@ Es gibt eine tägliche Frequenzbegrenzung von 20 pro Aktivität. Wenn ein Mitgli
 | [!UICONTROL Clicked Link in Chat in Conversational Flow] | A member clicks a link in a Dynamic Chat conversational flow | Chat | 20 | 90 |
 | [!UICONTROL Click Link in SMS V2] | A member clicks a link in an SMS message | SMS | 20 | 90 |
 -->
-
->[!NOTE]
->
->Aktivitäten mit dem Interaktionswert werden im Aktivitätsprotokoll von Marketo Engage für eine Person aufgezeichnet. Sie können auf dieses Protokoll in der verbundenen Marketo Engage-Instanz zugreifen. Weitere Informationen finden Sie unter [Suchen des Aktivitätsprotokolls für eine Person](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"} in der Dokumentation zu Marketo Engage.
 
 ## Rollengewichtung der Vorlage {#engagement-score-weighting}
 
@@ -176,7 +166,7 @@ Das folgende Beispiel veranschaulicht die Berechnung des Interaktionswerts. Es v
 |               |          | Heruntergeladene Veröffentlichung | 1 | 2 | 1 + 2 | 3 |
 | **Gesamtpunktzahl der Praktizierenden** |         |             |                 |             |      | **17** |
 
-Die endgültige Interaktionsbewertung wird durch Anwenden der Gewichtung für jeden Rollenwert berechnet:
+Die endgültige Interaktionsbewertung wird berechnet, indem die Gewichtung für jede Rollenbewertung angewendet wird:
 
 | Rolle | Gesamtbewertung der Rolle | Rollengewichtung % | Bewertung x Gewichtung % |
 |-------------- |---------------- |------------- |---------------- |
