@@ -1,6 +1,6 @@
 ---
-title: Verwenden von Kontolisten in Journey und Programmen
-description: Verwenden Sie Kontolisten in der Journey-Orchestrierung, fügen Sie Konten dynamisch hinzu bzw. entfernen Sie sie und filtern Sie Marketo Engage-Smart-Listen in Journey Optimizer B2B edition.
+title: Verwenden von Kontolisten in Journey
+description: Verwenden Sie Kontolisten in der Journey-Orchestrierung und fügen Sie in Journey Optimizer B2B edition Konten dynamisch hinzu bzw. entfernen Sie diese.
 feature: Account Lists, Account Journeys
 role: User
 exl-id: 7cda080d-6263-4ccd-b144-432e4e78c298
@@ -14,14 +14,14 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: 2026-03-27T22:29:03.719Z
 TQID: https://experienceleague.adobe.com/FokJGxTj7abTN01WCcrVLDEuNLW0oI-i-8z0j-rFBO4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 731
+source-wordcount: 417
 ht-degree: 0%
 
 ---
 
-# Verwenden von Kontolisten in Journey und Programmen
+# Verwenden von Kontolisten in Journey
 
 Es gibt mehrere Möglichkeiten, Live (veröffentlichte)-Account-Listen in die Account-Journey zu integrieren.
 
@@ -45,7 +45,7 @@ Alle Account-Journey beginnen mit einem [_Account-Zielgruppe_-Knoten](../journey
 
 Fügen Sie innerhalb einer Konto-Journey Konten mithilfe eines [einer Aktion _-_ zu einer statischen Kontoliste &#x200B;](../journeys/action-nodes.md).
 
-Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail senden, und einige Konten führen als Antwortaktionen verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey. Mit der Qualifizierung können Sie sie zu einer Kontenliste hinzufügen, die als Zielgruppe für eine andere Journey mit einem anderen Verlauf für qualifizierte Konten verwendet wird.
+Sie haben beispielsweise einen Journey-Pfad, über den Sie eine E-Mail senden, und einige Konten führen als Antwort verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey. Mit der Qualifizierung können Sie sie zu einer Kontenliste hinzufügen, die als Zielgruppe für eine andere Journey mit einem anderen Fluss für qualifizierte Konten verwendet wird.
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail 
 
 Entfernen Sie auf einer Konto-Journey Konten mithilfe des Knotens [Aktion ausführen _aus_ statischen &#x200B;](../journeys/action-nodes.md).
 
-Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail senden, und einige Konten führen als Antwortaktionen verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey. Mit dieser Qualifizierung möchten Sie sie aus einer Kontenliste entfernen, die als Audience für eine andere Journey verwendet wird, die zusätzliche E-Mails sendet, damit Sie Ihre Qualifizierungskommunikationen nicht duplizieren.
+Sie haben beispielsweise einen Journey-Pfad, über den Sie eine E-Mail senden, und einige Konten führen als Antwort verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey. Mit dieser Qualifizierung möchten Sie sie aus einer Kontoliste entfernen. Diese Liste wird als Audience für eine andere Journey verwendet, die zusätzliche E-Mails sendet, damit Sie Ihre Qualifizierungskommunikationen nicht duplizieren.
 
 >[!NOTE]
 >
@@ -77,38 +77,8 @@ Sie könnten beispielsweise einen Journey-Pfad haben, über den Sie eine E-Mail 
 
 1. Wählen Sie _[!UICONTROL Aktion für Konten]_ die Option **[!UICONTROL Aus Kontoliste entfernen]** aus.
 
-   ![Wählen Sie Zur Kontoliste hinzufügen aus](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
+   ![Wählen Sie Aus Kontenliste entfernen &#x200B;](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
 1. Wählen **[!UICONTROL unter „Live-]**-Kontoliste auswählen“ die Kontoliste aus, aus der Sie Konten entfernen möchten.
 
-   ![Wählen Sie Zur Kontoliste hinzufügen aus](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
-
-## Marketo Engage-Programm - Liste der Mitglieder eines Kontos
-
-Als Marketing-Experte können Sie Programme in Marketo Engage für Personen unterdrücken, die Teil der Kontolisten in Journey Optimizer B2B edition sind.
-
-In der Marketo Engage-Instanz, die mit Journey Optimizer B2B edition verbunden ist, können Sie den Filter _[!UICONTROL Mitglied der]_) in Ihren Smart Lists verwenden, um diese Leads entsprechend Ihrer Kampagnenstrategie zu identifizieren. Weitere Informationen zu Smart-Listen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/understanding-smart-lists){target="_blank"}.
-
-### Hinzufügen des Filters zu einer Smart-Liste
-
-1. Wählen Sie in Marketo Engage eine Kampagne aus und klicken Sie auf die Registerkarte **[!UICONTROL Smart-Liste]**.
-
-1. Geben Sie in der rechts angezeigten Filterliste `Member` ein und suchen Sie den Filter **[!UICONTROL Mitglied der Kontenliste]**.
-
-1. Ziehen Sie den Filter auf die Arbeitsfläche Smart List .
-
-1. Legen Sie auf der Arbeitsfläche „Smart List **[!UICONTROL den Listenwert]** Mitglied des Kontos“ fest.
-
-   Klicken Sie auf den Abwärtspfeil, um alle Kontolisten anzuzeigen, oder geben Sie einen Teil des Namens der Kontoliste ein, um die benötigte Kontoliste zu finden.
-
-   ![Marketo Engage-Smart-List-Filter für die Mitgliedschaft in der Kontoliste](./assets/account-lists-marketo-engage-smart-list.png){width="800" zoomable="yes"}
-
-1. Fügen Sie im Kampagnenfluss den Schritt **[!UICONTROL Zu Liste hinzufügen]** hinzu und wählen Sie die Liste aus, in die Sie die Personen aus der Journey Optimizer B2B edition-Kontoliste einfügen möchten.
-
-   Siehe _[Hinzufügen eines Flussschritts zu einer Smart-Kampagne](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/add-a-flow-step-to-a-smart-campaign){target="_blank"}_ in der Marketo Engage-Dokumentation , um detaillierte Informationen zum Hinzufügen von Schritten zu einem Fluss zu erhalten.
-
-### Mitglieder überprüfen
-
-Nach der Ausführung des Flusses können Sie die Liste der Personen anzeigen, die in der Liste aufgeführt sind. Öffnen Sie die Liste und wählen Sie die Registerkarte Personen aus.
-
-![Marketo Engage-Kampagnenliste, die aus einer Kontoliste gefüllt wird](./assets/account-lists-marketo-engage-smart-list-people.png){width="800" zoomable="yes"}
+   ![Wählen Sie Aus Kontenliste entfernen &#x200B;](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

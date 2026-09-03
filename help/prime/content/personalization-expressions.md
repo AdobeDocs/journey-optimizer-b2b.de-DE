@@ -27,7 +27,7 @@ ht-degree: 55%
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_personalization_editor"
->title="Über den Personalisierungseditor"
+>title="Informationen zum Personalisierungseditor"
 >abstract="Mit dem Personalisierungseditor können Sie Profilattribute auswählen, anordnen, anpassen und validieren, um personalisierte Inhalte zu erstellen."
 
 Der Personalisierungseditor ist das Herzstück der Personalisierung in [!DNL Journey Optimizer B2B Prime]. Verwenden Sie sie überall dort, wo Sie dynamische Inhalte benötigen - in E-Mails, WhatsApp-Nachrichten, Landingpages und URL-Feldern.

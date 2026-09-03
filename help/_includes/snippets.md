@@ -1,9 +1,9 @@
 ---
 title: Ausschnitte
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2423'
 ht-degree: 5%
 
 ---
@@ -213,9 +213,9 @@ Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte
 
   ![Schriftartauswahl](../assets/content-design-shared/content-components-styles-text-font-color.png){width="300"}
 
-## Inhalt - Bildauswahl - Marketo DAM {#me-dam}
+## Inhalt - Bildauswahl - Internes DAM {#internal-dam}
 
-Wählen Sie diesen Typ aus, um ein Bild-Asset aus der Journey Optimizer B2B edition-Bibliothek oder der verbundenen Market Engage-Instanz zu durchsuchen und auszuwählen.
+Wählen Sie diesen Typ aus, um ein Bild-Asset aus der Journey Optimizer B2B edition-Bibliothek zu durchsuchen und auszuwählen.
 
 ![Durchsuchen der verfügbaren Bild-Assets](../user/content/assets/assets-select-dialog-marketo.png){width="700" zoomable="yes"}
 

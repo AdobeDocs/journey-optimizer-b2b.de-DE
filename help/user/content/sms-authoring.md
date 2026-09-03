@@ -22,10 +22,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1306
-ht-degree: 4%
+source-wordcount: 1207
+ht-degree: 5%
 
 ---
 
@@ -41,7 +41,7 @@ Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass
 >
 >In Übereinstimmung mit den Branchenstandards und -vorschriften müssen alle SMS-Marketing-Nachrichten eine Möglichkeit für die Empfänger enthalten, ihr Abonnement einfach zu kündigen. Zu diesem Zweck können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. Alle standardmäßigen Keywords zum Opt-in und Opt-out werden unterstützt und berücksichtigt. Darüber hinaus werden alle benutzerdefinierten Keywords, die für Ihr SMS-Service-Provider-Konto konfiguriert sind, unterstützt und berücksichtigt. Einzelheiten dazu, wie die Voreinstellungen für das Einverständnis von SMS zum Zeitpunkt des Versands ausgewertet werden, finden Sie unter [Voreinstellungen für das Einverständnis](./channels-consent-preferences.md).
 
-## Hinzufügen einer SMS-Aktion auf einer Konto-Journey
+## Hinzufügen einer SMS-Aktion auf einer Konto-Journey {#add-action}
 
 Sie können einen Textnachrichten-Versand auf einer Konto-Journey einrichten, wenn Sie einen Knoten _[!UICONTROL Aktion ausführen]_ hinzufügen und dann Folgendes ausführen:
 
@@ -61,7 +61,7 @@ Sie können einen Textnachrichten-Versand auf einer Konto-Journey einrichten, we
 
    Die _Journey-Zuordnung_ wird geöffnet. Sie können die Nachricht erstellen und die SMS-Eigenschaften für den Nachrichtenversand festlegen.
 
-### SMS-Nachricht erstellen
+### SMS-Nachricht erstellen {#create-message}
 
 Geben Sie den zu sendenden Text in das Feld **[!UICONTROL Nachricht]** ein.
 
@@ -69,7 +69,7 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
 ![Erstellen der SMS-Nachricht](./assets/sms-message-compose.png){width="800" zoomable="yes"}
 
-#### Textnachricht personalisieren
+#### Textnachricht personalisieren {#personalize}
 
 1. Platzieren Sie den Cursor an der Stelle in der Nachricht, an der Sie das Personalisierungs-Token hinzufügen möchten.
 
@@ -91,36 +91,39 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
    Sie können die Nachricht weiterhin nach Bedarf mit den Token bearbeiten.
 
-#### Hinzufügen von Links (URLs) zur Textnachricht
+#### Hinzufügen von Links (URLs) zur Textnachricht {#add-links}
 
 1. Klicken Sie nach der Eingabe Ihres Nachrichtentextes auf _Link_-Symbol ( ![Link-Symbol](../assets/do-not-localize/icon-link.svg) ) rechts neben dem Textnachrichtenfeld.
 
 1. Geben Sie die **[!UICONTROL URL]** für den Link ein.
 
+
+1. Wählen Sie im Dialogfeld den Typ der zu verknüpfenden URLs aus:
+
+   * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine der veröffentlichten Landingpages auszuwählen.
+
+   * **[!UICONTROL Externe URL]** - Dieser Typ ist jede externe URL, die Sie in das Textfeld eingeben.
+
 <!--
-1. In the dialog, choose the type of URLs to link:
 
-   * **[!UICONTROL Landing Page]** - Choose this option to select any of the approved Adobe Marketo Engage landing pages from your Marketo Engage instance. Select the workspace, and then select the landing page.
+1. If you choose to use a Marketo Engage landing page, set the tracking options.
 
-   * **[!UICONTROL External URL]** - This type is any external URL that you enter in the text box. 
+   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
+
+   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
+
+      >[!NOTE] 
+      >
+      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
+
 -->
 
-1. Wenn Sie eine Marketo Engage-Landingpage verwenden möchten, legen Sie die Tracking-Optionen fest.
-
-   * **[!UICONTROL Tracking aktivieren]** - Aktivieren Sie dieses Kontrollkästchen, um das Tracking zu aktivieren. Dazu muss _URL_ werden. Für eine Landingpage wird die Marketo Engage-Subdomain als gekürzte URL verwendet. Ein Beispiel für das gekürzte URL-Format wird angezeigt. Die eigentliche URL wird erstellt, wenn die SMS an den Empfänger gesendet wird.
-
-   * **[!UICONTROL mkt_tok einschließen]** - Aktivieren Sie dieses Kontrollkästchen, um die Aktivität in Bezug auf einen Benutzer zu verfolgen.</br>
-
-     >[!NOTE]
-     >
-     >Wenn Sie Tracking zulassen, aber _[!UICONTROL Include mkt_tok]_ deaktivieren, enthält die Ziel-URL nach der Umleitung den `mkt_tok` Abfragezeichenfolgenparameter nicht. Dieser Parameter wird von Marketo Engage-Landingpages und Munchkin verwendet, um sicherzustellen, dass das Tracking von Personenaktivitäten erfolgt (z. B. wenn eine Person sich von einer E-Mail abmeldet). Deaktivieren Sie diese Option nur, wenn der Parameter Probleme auf Ihrer Website verursacht.<br/>
-     >Weitere Informationen zur Verwendung von Munchkin-Trackingcodes auf Ihrer Website finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
-
-   ![Dialogfeld „Link hinzufügen“ für SMS-Nachricht](./assets/sms-add-link-dialog.png){width="470"}
+![Dialogfeld „Link hinzufügen“ für SMS-Nachricht](./assets/sms-add-link-dialog.png){width="470"}
 
 1. Wenn die Link-Optionen abgeschlossen sind, klicken Sie auf **[!UICONTROL Hinzufügen]**, um die Änderungen zu speichern und den URL-Link zur SMS-Nachricht hinzuzufügen.
 
-### SMS-Eigenschaften festlegen
+### SMS-Eigenschaften festlegen {#sms-properties}
 
 1. Geben Sie im Abschnitt _[!UICONTROL SMS]_ einen **[!UICONTROL Name]** (erforderlich, maximal 100 Zeichen) und **[!UICONTROL Beschreibung]** (optional, maximal 300 Zeichen) für Ihre Nachricht ein.
 
@@ -141,12 +144,12 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
    Die Empfängernummer wird immer dem `profile.mobilePhone.number` in Experience Platform zugeordnet.
 
-### Simulieren des Inhalts der Textnachricht {#preview-test}
+### Simulieren des Contents der Textnachricht {#preview-test}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_sms_preview_simulate"
->title="Überprüfen des Inhalts-Renderings"
->abstract="Wenn Ihr Inhalt definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
+>title="Überprüfen des Content-Renderings"
+>abstract="Wenn Ihr Content definiert wurde, können Sie ihn in der Vorschau anzeigen und überprüfen, ob das Rendering entsprechend dem verwendeten Kanal korrekt ist."
 
 Wenn der Inhalt Ihrer Nachricht definiert ist, können Sie Testprofile verwenden, um den Inhalt zu simulieren (eine Vorschau anzuzeigen). Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie dieser Inhalt in der Nachricht angezeigt wird.
 
@@ -160,7 +163,7 @@ Wenn der Inhalt Ihrer Nachricht definiert ist, können Sie Testprofile verwenden
 
 1. Verwenden Sie die _Inhalt simulieren_, um die Leads zu verwalten, die für Ihr Testprofil verwendet werden.
 
-   In der angezeigten Liste können Sie nach allen Leads (bis zu 10 Leads gleichzeitig) in der Marketo Engage-Lead-Datenbank suchen und diese hinzufügen.
+   In der angezeigten Liste können Sie nach allen Leads suchen und diese hinzufügen (bis zu 10 Leads gleichzeitig).
 
    Geben Sie zum Suchen die gesamte E-Mail-Adresse ein und drücken Sie _Eingabe_. Das entsprechende Lead-Profil wird zur Auswahl angezeigt.
 
@@ -178,9 +181,9 @@ Wenn der Inhalt Ihrer Nachricht definiert ist, können Sie Testprofile verwenden
 
 1. Um die Seite _[!UICONTROL Inhalt simulieren]_ zu verlassen und zum Arbeitsbereich für die SMS-Bearbeitung zurückzukehren, klicken **[!UICONTROL oben rechts auf]** Schließen“.
 
-## SMS-Einverständnisverwaltung
+## SMS-Einverständnisverwaltung {#consent-management}
 
-Es ist gesetzlich vorgeschrieben, den Empfängern die Möglichkeit zu geben, sich vom Erhalt von Mitteilungen einer Marke abzumelden und diese Entscheidung zu berücksichtigen. Die Nichtbeachtung dieser Vorschriften birgt rechtliche Risiken für Ihre Marke. Mit dieser Funktion vermeiden Sie den Versand unerwünschter Nachrichten an Ihre Empfänger, die Ihre Nachrichten als Spam markieren und Ihrer Reputation schaden könnten.
+Es ist gesetzlich vorgeschrieben, Empfängerinnen und Empfängern die Möglichkeit zu geben, sich vom Erhalt von Mitteilungen einer Marke abzumelden und diese Entscheidung zu berücksichtigen. Die Nichtbeachtung dieser Vorschriften birgt rechtliche Risiken für Ihre Marke. Mit dieser Funktion vermeiden Sie den Versand von unerwünschten Nachrichten an Ihre Empfänger. Dadurch wird verhindert, dass sie Ihre Nachrichten als Spam kennzeichnen und Ihren Ruf schädigen.
 
 Wenn Sie diese Option bereitstellen, können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. Alle standardmäßigen Opt-in- und Opt-out-Keywords werden unterstützt und berücksichtigt, ebenso wie alle benutzerdefinierten Keywords, die mit dem SMS-Dienstleister konfiguriert wurden. Bei der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
 
@@ -188,4 +191,4 @@ Journey Optimizer B2B edition bietet die Möglichkeit, das Opt-out in SMS-Nachri
 
 * Wenn sich ein Lead vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden SMS-Sendungen ausgeschlossen
 
-* Dieses Lead-Einverständnis aus verschiedenen Quellen (z. B. AEP oder der SMS-Dienstleister) wird mit Journey Optimizer B2B edition synchronisiert. Derzeit wird pro Lead auf Instanzebene nur ein einziger Einverständnisstatus unterstützt (ein Lead &#39;Martin Müller&#39; hat alle Werbe-SMS in der Instanz entweder abonniert oder abgemeldet). Derzeit wird kein Double-Opt-in auf der Ebene der Marke/der individuellen Abonnement-Liste unterstützt.
+* Dieses Lead-Einverständnis, das aus verschiedenen Quellen (z. B. AEP oder dem SMS-Dienstleister) stammt, wird mit Journey Optimizer B2B edition synchronisiert. Derzeit wird pro Lead auf Instanzebene nur ein einziger Einverständnisstatus unterstützt (ein Lead &#39;Martin Müller&#39; hat alle Werbe-SMS in der Instanz entweder abonniert oder abgemeldet). Derzeit wird kein Double-Opt-in auf der Ebene der Marke/der individuellen Abonnement-Liste unterstützt.

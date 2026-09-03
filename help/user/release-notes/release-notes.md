@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 77daccdacfbc62e51be67ef2b68953692591505a
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -162,7 +162,7 @@ Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B edition 
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | „Für Ziel aktivieren“ für Journeys | Verwenden Sie die neue Firmenkontoaktion _Für Ziel aktivieren_, um die Aktivierung direkt für Unternehmen statt für Kontakte durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) [Weitere Informationen](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Funktion | „Für Ziel aktivieren“ für Journeys | Verwenden Sie die neue Firmenkontoaktion _Für Ziel aktivieren_, um die Aktivierung direkt für Unternehmen statt für Kontakte durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) [Weitere Informationen](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Funktion | Markenthemen | Mit Markenthemen können technisch nicht versierte Benutzerinnen und Benutzer jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Design-Sprache passen, indem sie zusätzlich zu den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
 | Funktion | E-Mail-Vorlagen – Bild in HTML konvertieren | Sie können jetzt Ihre als JPG- oder PNG-Bilddateien gespeicherten Design-Dateien verwenden und automatisch E-Mail-Vorlagen generieren. [Weitere Informationen](../content/email-template-image-convert.md) |
 | Funktion | Persona-Mapping | Verknüpfen Sie Kontomitglieder mithilfe von Attributzuordnungen mit etablierten Personas. [Weitere Informationen](../admin/persona-mapping.md) |
@@ -254,7 +254,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | Funktion | Zugriff auf Detailseiten im CRM | Sie können jetzt in Ihrem CRM-Tool (Customer Relationship Management), z. B. Salesforce oder Microsoft Dynamics, direkte Links zu den Detailseiten für Konten, Kontakte und Leads in Journey Optimizer B2B Edition konfigurieren. [Weitere Informationen](../accounts/crm-linking.md) |
 | Funktion | Unterstützung für benutzerdefiniertes CSS beim Design von Inhalten | Bei der Erstellung von E-Mail- und Landingpage-Inhalten im Design-Bereich können Sie jetzt eigenes, benutzerdefiniertes CSS hinzufügen. [Weitere Informationen](../content/design-custom-css.md) |
 | Funktion | Konfiguration des Intent-Keyword-Mappings | Um das Modell der Absichtserkennung zu aktivieren und zu verwalten, können Admins jetzt eine Tabelle hochladen, um eine Absichtsdaten-Zuordnungskategorie zu definieren. [Weitere Informationen](../admin/intent-data.md) |
-| Verbesserung | Simulieren von Inhalten aus E-Mail-Zusammenfassungen | Sie können jetzt über die E-Mail-Zusammenfassung (Details und Eigenschaften) auf die Tools _Inhalte simulieren_ zugreifen, wenn Sie eine E-Mail aus der E-Mail-Liste öffnen. Dieser Zugriff erfolgt zusätzlich zum E-Mail-Design-Bereich. [Weitere Informationen](../content/email-simulate-content.md#display-the-email-preview) |
+| Verbesserung | Simulieren von Inhalten aus E-Mail-Zusammenfassungen | Sie können jetzt über die E-Mail-Zusammenfassung (Details und Eigenschaften) auf die Tools _Inhalte simulieren_ zugreifen, wenn Sie eine E-Mail aus der E-Mail-Liste öffnen. Dieser Zugriff erfolgt zusätzlich zum E-Mail-Design-Bereich. [Weitere Informationen](../content/email-simulate-content.md#display-preview) |
 | Verbesserung | Anzeigen der Gesamtzahl für die Liste der Rollenvorlagen | Auf der Seite mit der Liste der _[!UICONTROL Rollenvorlagen]_ wird neben der Suchleiste auch die Gesamtanzahl angezeigt. |
 
 ## Versionshinweise für 2025.5 {#rel-2025-5}
@@ -280,7 +280,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | Kontolisten | Sie können nun eine statische oder dynamische Kontoliste erstellen, um benannte Konten anhand der von Ihnen definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auszuwählen. <a href="../accounts/account-lists.md">Weitere Informationen</a> |
 | Funktion | Journey-Orchestrierung für Account-Listen | Verwenden Sie den Knoten „Journey-Aktion“, um Konten für statische Kontolisten hinzuzufügen und zu entfernen. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Weitere Informationen</a> |
-| Verbesserung | Filtern der Journey-Zugehörigkeit in Marketo Engage | Verwenden Sie Kontolisten in Adobe Journey Optimizer B2B Edition für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer Kontoliste_ in intelligenten Listen in Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Weitere Informationen</a> |
+| Verbesserung | Filtern der Journey-Zugehörigkeit in Marketo Engage | Verwenden Sie Kontolisten in Adobe Journey Optimizer B2B Edition für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer Kontoliste_ in intelligenten Listen in Marketo Engage. |
 | Funktion | Inaktivitätsfilter | Orchestrieren Sie Journeys auf der Grundlage von Inaktivität innerhalb von Adobe Marketo Engage-Kampagnen und -Programmen, einschließlich E-Mail-Inaktivität, interessanten Momenten, Datenwertänderungen und besuchten Webseiten. |
 | Verbesserung | Filter für besuchte Web-Seiten | Orchestrieren Sie Journeys auf Grundlage der Aktivität auf besuchten Webseiten, die mit Adobe Marketo Engage-Kampagnen und -Programmen verknüpft sind. |
 | Verbesserung | E-Mail-Liste | Anzeige einer globalen Liste der aktiven E-Mails und E-Mail-Entwürfe, um sie in den zugehörigen Konto-Journeys zu suchen, zu prüfen und zu aktualisieren. <a href="../content/emails-list.md">Weitere Informationen</a> |

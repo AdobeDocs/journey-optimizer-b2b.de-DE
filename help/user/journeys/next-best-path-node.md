@@ -17,9 +17,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1913
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ Definieren Sie für jeden Pfad einen Namen und eine Eingabeaufforderung in natü
 
      **Beispiel fordert zu einer Aufteilung auf drei Pfade auf:**
 
-      * _Path 1 - HR Leaders :_Identifizieren Sie Personen in HR-Führungsrollen, die am ehesten mit dem Talent-Management und Mitarbeitererlebnisinhalten zu tun haben.
-      * _Path 2 - Technische Gutachter :_Identifizieren Sie technische Stakeholder, die mit größter Wahrscheinlichkeit mit Produktarchitektur, Integrationen und Implementierungs-Content interagieren.
-      * _Path 3 - Entscheidungsträger aus dem :_: Ermitteln Sie die Stakeholder aus dem Unternehmen, die am ehesten mit ROI, Geschäftsergebnissen und Fallstudieninhalten zu tun haben.
+     * _Path 1 - HR Leaders :_Identifizieren Sie Personen in HR-Führungsrollen, die am ehesten mit dem Talent-Management und Mitarbeitererlebnisinhalten zu tun haben.
+     * _Path 2 - Technische Gutachter :_Identifizieren Sie technische Stakeholder, die mit größter Wahrscheinlichkeit mit Produktarchitektur, Integrationen und Implementierungs-Content interagieren.
+     * _Path 3 - Entscheidungsträger aus dem :_: Ermitteln Sie die Stakeholder aus dem Unternehmen, die am ehesten mit ROI, Geschäftsergebnissen und Fallstudieninhalten zu tun haben.
 
 1. Ordnen Sie die Pfade bei Bedarf neu an, um die Prioritätsreihenfolge für den Abgleich festzulegen.
 
@@ -274,7 +274,7 @@ Verwenden Sie eine Simulation, um zu testen, wie die KI Ihre Eingabeaufforderung
 1. Wählen Sie im Dialogfeld die Zielgruppe aus, die für die Simulation verwendet werden soll:
 
    * **[!UICONTROL Ursprüngliche Personenlisten]** - Verwenden Sie die Zielgruppe aus dem Zielgruppenknoten. Geben Sie eine Stichprobengröße an, wenn die vollständige Zielgruppe den Simulationsschwellenwert überschreitet.
-   * **[!UICONTROL Dynamische und statische Listen]** - Verwenden Sie eine [!DNL Marketo Engage] statische oder dynamische Liste.
+   * **[!UICONTROL Dynamische und statische Listen]** - Verwenden Sie eine statische oder dynamische Personenliste.
    * **[!UICONTROL Testdatensätze]** - Verwenden von von KI vorgeschlagenen Testprofilen.
 
    ![Nächster bester Pfad - Simulieren - Zielgruppe wählen](./assets/node-next-best-path-simulate-dialog.png){width="300"}

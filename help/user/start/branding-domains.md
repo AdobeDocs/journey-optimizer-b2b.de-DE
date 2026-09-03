@@ -16,28 +16,26 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 80%
+source-wordcount: 913
+ht-degree: 75%
 
 ---
 
 # Konfigurieren von Branding-Domains
 
-Eine Branding-Domain in Marketo Engage ist eine benutzerdefinierte Subdomain (z. B. `links.yourcompany.com`), mit der Links umgeschrieben und E-Mail-Klicks verfolgt werden können, um sicherzustellen, dass sie Ihre Marke widerspiegeln statt einer generischen Domain. Jede Branding-Domain fungiert als Klick-Tracking-Domain, um die Zustellbarkeit und das Vertrauen zu verbessern, indem Ihre E-Mail- und Landingpage-Links mit Ihrer Domain abgeglichen werden.
+Eine Branding-Domain in Marketo Engage ist eine benutzerdefinierte Subdomain (z. B. `links.yourcompany.com`), mit der Links umgeschrieben und E-Mail-Klicks verfolgt werden können, um sicherzustellen, dass sie Ihre Marke widerspiegeln statt einer generischen Domain. Jede Branding-Domain fungiert als Klick-Tracking-Domain, um die Zustellbarkeit und das Vertrauen zu verbessern, indem Ihre E-Mail-Links und Landingpage-Links mit Ihrer Domain abgeglichen werden.
 
 * Es ersetzt generische Links durch Ihr eigenes Branding in E-Mail-Hyperlinks.
-* Wenn ein Lead-Konto auf einen Link klickt, wird es über diese benutzerdefinierte Domain weitergeleitet, um die Leistungsverfolgung zu ermöglichen, während es als legitim für E-Mail-Filter erscheint.
+* Wenn ein Lead auf einen Link klickt, wird er über diese benutzerdefinierte Domain weitergeleitet, um die Leistungsverfolgung zu ermöglichen, während er E-Mail-Filtern als legitim erscheint.
 * Um verschiedene Geschäftsbereiche oder Marken zu unterstützen, können Sie zusätzliche Branding-Domains konfigurieren, wenn Sie mehrere Marken haben.
 
 >[!BEGINSHADEBOX]
 
 **Eindeutige CNAMEs für Tracking-Links**
 
-E-Mail-Tracking-Links müssen neu und für die angehängte Marketo Engage-Instanz eindeutig sein. Wenn Sie über CNAMEs für das Tracking von Links verfügen, die auf eine bereits vorhandene (Produktions-)Marketo Engage-Instanz verweisen, müssen diese geändert werden, bevor sie wiederverwendet werden können.
-
-Sie können das Domain-Branding für Rückgabepfade zwischen Ihrer Marketo Engage-Produktionsinstanz und der angehängten Instanz freigeben. Diese Änderung stellt jedoch eine Backend-Änderung dar. Öffnen Sie ein Support-Ticket und geben Sie Ihr Marketo Engage-Präfix (Munchkin ID) und Ihr neues Journey Optimizer B2B edition-Präfix (Munchkin ID) an, um das freigegebene Domain-Branding für Rückpfade anzufordern.
+E-Mail-Tracking-Links müssen neu und für die angehängte Marketo Engage-Instanz eindeutig sein. Sie können das Branding für zurückgegebene Pfade zwischen Ihrer Marketo Engage-Produktionsinstanz und der angeschlossenen Instanz freigeben. Diese Änderung stellt jedoch eine interne Systemänderung dar. Öffnen Sie ein Support-Ticket und geben Sie Ihr Marketo Engage-Präfix (Munchkin ID) und Ihr neues Journey Optimizer B2B Edition-Präfix (Munchkin ID) an, um das freigegebene Domain-Branding für Rückkehrpfade zu beantragen.
 
 >[!ENDSHADEBOX]
 
@@ -73,19 +71,22 @@ Der erste Schritt bei der Arbeit mit Branding-Domains besteht darin, die in Ihre
 
    ![Dialogfeld „Branding-Domain bearbeiten“](./assets/me-admin-email-branding-domains-edit-default-name.png){width="400"}
 
-1. Wenn Sie mehrere Arbeitsbereiche für Ihre Marketo Engage-Instanz definiert haben, klicken Sie auf **[!UICONTROL Weiter]**.
+<!--
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   Wählen Sie jeden der Arbeitsbereiche aus, auf den Sie die aktualisierte primäre Domain anwenden möchten.
+   Select each of the workspaces where you want to apply the updated primary domain.
 
-   ![Dialogfeld „Branding-Domain bearbeiten“ mit Workspace-Auswahl für primäre Domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
+   ![Edit Branding Domain dialog with workspace selection for primary domain](./assets/me-admin-email-branding-domains-edit-default-workspaces.png){width="400"}
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+-->
+
+1. Klicken Sie **[!UICONTROL Weiter]** und dann **[!UICONTROL Speichern]**.
 
 ## Definieren einer zusätzlichen Domain
 
-Nachdem Sie die Standard-Domain bearbeitet haben, können Sie eine weitere Branding-Domain hinzufügen, um mehrere Marken in Ihrer Journey Optimizer B2B edition-Umgebung zu unterstützen, wobei jede über eigene Branding-Tracking-Links verfügt. Beim Hinzufügen einer Domain stehen die folgenden Optionen zur Verfügung:
+Um mehrere Marken in Ihrer Journey Optimizer B2B edition-Umgebung zu unterstützen, von denen jede über eigene Marken-Tracking-Links verfügt, können Sie nach der Bearbeitung der Standard-Domain eine weitere Branding-Domain hinzufügen. Beim Hinzufügen einer Domain stehen die folgenden Optionen zur Verfügung:
 
->* _Primäre Domain festlegen_: Wählen Sie diese als primäre Domain für den Arbeitsbereich aus. Wenn Sie diese Option auswählen, werden alle vorhandenen nicht gesendeten E-Mails auf die standardmäßige primäre Domain eingestellt und alle neu erstellten E-Mails werden automatisch auf diese primäre Domain eingestellt. Marketer können bei Bedarf eine alternative Branding-Domain auswählen.
+>* _Primäre Domain festlegen_: Wählen Sie diese als primäre Domain für den Arbeitsbereich aus. Wenn Sie diese Option auswählen, werden alle vorhandenen nicht gesendeten E-Mails auf die standardmäßige primäre Domain festgelegt und alle neu erstellten E-Mails verwenden automatisch diese primäre Domain. Marketer können bei Bedarf eine alternative Branding-Domain auswählen.
 >
 >* _SSL-Zertifikat generieren_: Erstellen Sie eine Secure Sockets Layer (SSL) mit der Erstellung der Domain. Die erste Tracking-Domain startet eine einmalige Einrichtung der Infrastruktur, die einige Stunden dauern kann. Das System sendet nach Abschluss eine Benachrichtigung.
 
@@ -97,7 +98,7 @@ _Domain hinzufügen :_
 
 1. Geben Sie im Dialogfeld _[!UICONTROL Neue Branding]_ Domain) im Feld **[!UICONTROL Domain]** den Namen der Branding-Domain ein.
 
-1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL SSL-Zertifikat generieren]**, um automatisch eine SSL für die Domain zu generieren.
+1. (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL SSL-Zertifikat generieren]**, um automatisch ein SSL für die Domain zu generieren.
 
    ![Dialogfeld „Neue Branding-Domain“](assets/me-admin-email-branding-domains-add-name.png){width="400"}
 
@@ -107,17 +108,19 @@ _Domain hinzufügen :_
    >
    >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://experienceleague.adobe.com/de/support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
 
-1. Wenn Sie mehrere Arbeitsbereiche für Ihre Marketo Engage-Instanz definiert haben, klicken Sie auf **[!UICONTROL Weiter]**.
+<!-- 
+1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.
 
-   Wählen Sie bei Bedarf jeden der Arbeitsbereiche aus, auf die Sie die neue Domain als primäre Domain anwenden möchten.
+   If needed, select each of the workspaces where you want to apply the new domain as the primary domain.
 
-   ![Dialogfeld „Neue Branding-Domain“ mit Workspace-Auswahl zum Anwenden der primären Domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+    ![New Branding Domain dialog with workspace selection for applying the primary domain](assets/me-admin-email-branding-domains-add-workspaces.png){width="400"}
+-->
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie **[!UICONTROL Weiter]** und dann **[!UICONTROL Speichern]**.
 
 ## SSLs für bestehende Branding-Domains bearbeiten
 
-Führen Sie diese Schritte aus, um SSL für Ihre bestehenden Domains zu aktivieren.
+Gehen Sie wie folgt vor, um SSL für Ihre bestehenden Domains zu aktivieren:
 
 1. Wählen Sie im Bereich _[!UICONTROL Admin]_ die Option **[!UICONTROL E-Mail]** aus.
 
@@ -133,7 +136,7 @@ Führen Sie diese Schritte aus, um SSL für Ihre bestehenden Domains zu aktivier
 
 | Fehler | Details |
 | ----- | ------- |
-| `Domain already exists.` | Eine Domain mit demselben Namen ist bereits vorhanden. |
+| `Domain already exists.` | Eine Domain mit dem gleichen Namen ist bereits vorhanden. |
 | `Domain is not mapped to the default domain.` | Die benutzerdefinierte Domain wird nicht korrekt der Standard-Domain zugeordnet. Überprüfen Sie die Einstellungen für die Domain-Zuordnung und stellen Sie sicher, dass die DNS-Konfiguration auf die richtige Standard-Domain verweist. |
 | `SSL certificates could not be issued due to unsupported CAA records. Request your IT to update your CAA records.` | Die CAA-Einträge sind nicht aktuell. Für Benutzer, die von Adobe verwaltete SSL-Zertifikate verwenden, müssen CAA-Einträge auf vom Anbieter empfohlene Zertifikate aktualisiert werden. |
 | `SSL certificate has already been issued.` | Für diese benutzerdefinierte Domain ist bereits ein SSL-Zertifikat vorhanden. Es sind keine weiteren Maßnahmen erforderlich, es sei denn, das Zertifikat ist abgelaufen oder muss erneut ausgestellt werden. |
