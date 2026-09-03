@@ -19,9 +19,9 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 autotag-review: 2026-04-29T23:21:59.633Z
 TQID: https://experienceleague.adobe.com/OTZomb88zmI9zN9B6ehKSLuBqi5OOP8zoHSodwcjjs8
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1339
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
@@ -33,13 +33,9 @@ In Journey Optimizer B2B edition ist eine Kontenliste eine Sammlung benannter Ko
 * **Statisch** - Bei einer statischen Kontoliste ändert sich die Liste nur, wenn Sie die Konten hinzufügen. Sie können Konten manuell hinzufügen, indem Sie einen Filtersatz anwenden, um die Liste auf der Grundlage der aktuellen Kontodaten zu füllen, oder Konten über eine Konto-Journey hinzufügen und entfernen.
 * **Dynamisch** - Mit einer dynamischen Kontenliste definieren Sie einen Filtersatz, mit dem die Liste automatisch kuratiert wird. Das System verwendet diesen Filtersatz, um Konten entsprechend den Änderungen in den Kontoinformationen hinzuzufügen und zu entfernen. Diese Listenverwaltung ähnelt der [Zielgruppensegmentierung in Real-time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/segmentation/b2b){target="_blank"}.
 
-Wenn sich eine Kontoliste im _Live_-Status (veröffentlicht) befindet, ist sie für die [Verwendung in Account-Journey- und Marketo Engage-Programmen](./account-lists-journeys.md) verfügbar.
+Wenn sich eine Kontoliste im Status _Live_ (veröffentlicht) befindet, ist sie für die [Verwendung in Account-Journey](./account-lists-journeys.md) verfügbar.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
-
->[!NOTE]
->
->Account-Listen nutzen Account-Daten aus Marketo Engage, um Account-Segmente und -Listen zu erstellen. Wenn also ein Kontosegment aus Adobe Experience Platform nicht aktiv mit Marketo Engage synchronisiert wird, sind Konten in diesem Experience Platform-Segment möglicherweise nicht in Journey Optimizer B2B edition-Kontolisten verfügbar. Anschließend werden nur Personen aus Konten in Experience Platform-Segmenten, die mit Marketo Engage synchronisiert werden, in die Anzahl der Personenmitgliedschaften und in Trigger-Ereignissen einbezogen.
 
 ## Zugreifen auf und Durchsuchen von Kontolisten
 

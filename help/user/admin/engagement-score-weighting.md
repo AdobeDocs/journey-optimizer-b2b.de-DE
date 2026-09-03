@@ -16,9 +16,9 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
 autotag-review: 2026-03-27T23:14:34.224Z
 TQID: https://experienceleague.adobe.com/HjznFXjpIFCdmlylJCVxErYsjxn3lYxOMA-mP0wkjCI
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1257
 ht-degree: 0%
 
 ---
@@ -58,10 +58,6 @@ Um aktive, entworfene und archivierte Modelle anzuzeigen, öffnen Sie die Liste 
 Das System erstellt ein erstes Interaktionsbewertungsmodell mit dem Namen _Aktivitätsgewichtungsmodell 1_. Interaktionsaktivitäten basieren auf standardmäßigen und benutzerdefinierten Experience Platform-Ereignissen. Die Gewichtungen für alle Aktivitäten sind standardmäßig 0.
 
 ![Gewichtungsmodell des Standardinteraktionswerts für Experience Platform-Ereignisse](./assets/configuration-engagement-scoring-model-default.png){width="600" zoomable="yes"}
-
-<!-- **Standard architecture (legacy)** - If your environment still uses the standard architecture, the connected [!DNL Marketo Engage] instance is the source for the engagement activity data. The default model is active until you create a custom version and activate it. -->
-
-<!-- ![Default engagement score weighting model for the standard architecture](./assets/configuration-engagement-scoring-model-default-me.png){width="600" zoomable="yes"} -->
 
 Wenn Sie ein benutzerdefiniertes Modell aktivieren, ändert sich das aktive Modell in den Status _Archiviert_. Wenn Sie sich entscheiden, zum standardmäßigen Interaktionsbewertungsmodell zurückzukehren, können Sie das ursprüngliche Standardmodell duplizieren und dann aktivieren oder es als Ausgangspunkt für ein anderes benutzerdefiniertes Modell verwenden.
 
@@ -138,14 +134,6 @@ Das Standardmodell für Experience Platform-Ereignisse umfasst die von Experienc
 </td>
 </tbody>
 </table>
-
-+++
-
-+++Aktivitäten für die Standardarchitektur
-
-Das Standardmodell für die Standardarchitektur umfasst die [!DNL Marketo Engage] verfolgten Aktivitäten mit zugehöriger Standardgewichtung. Wenn Sie dieses Modell duplizieren, können Sie die Gewichtung entsprechend Ihren Anforderungen ändern. Die maximale tägliche Häufigkeit kann nicht geändert werden.
-
-{{engagement-activities-me}}
 
 +++
 

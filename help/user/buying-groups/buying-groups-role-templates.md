@@ -14,9 +14,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: 1432
 ht-degree: 5%
 
 ---
@@ -156,23 +156,6 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
    ![Rollenvorlage mit mehreren definierten Rollen](assets/roles-template-multiple-roles.png){width="700" zoomable="yes"}
 
    Ihre Änderungen werden automatisch im Status _Entwurf_ gespeichert. Wenn Sie die Rollenvorlage nicht veröffentlichen möchten, klicken Sie auf den Pfeil nach links (zurück) oben auf der Seite und kehren Sie zur Liste _[!UICONTROL Rollenvorlagen]_ zurück.
-
->[!BEGINSHADEBOX &quot;Marketo Engage List Membership“]
-
-Überprüfen Sie in Marketo Engage _Smart_ Kampagnen) die Programmmitgliedschaft, um sicherzustellen, dass Leads keine doppelten E-Mails erhalten und nicht gleichzeitig Mitglieder mehrerer E-Mail-Streams sind. In Journey Optimizer B2B können Sie die Marketo Engage-Listenmitgliedschaft als Bedingung für Ihre Rollenvorlage überprüfen, um doppelte Käufe von Gruppenmitgliedschaft und Journey-Aktivitäten zu vermeiden.
-
-Um die Listenmitgliedschaft als Rollenbedingung zu verwenden, erweitern Sie **[!UICONTROL Spezielle Filter]** und ziehen Sie die **[!UICONTROL Mitglied der Liste]** Bedingung in den Filterbereich. Um die Zugehörigkeit zu einer oder mehreren Marketo Engage-Listen zu bewerten, füllen Sie die Filterdefinition aus.
-
-![Vorlagenbedingung für Rollen für Marketo Engage-Listenmitgliedschaft](assets/roles-template-conditions-member-of-list.png){width="700" zoomable="yes"}
-<br/>
-
->[!NOTE]
->
->**Einstellung von Funktionen**
->
->In der aktuellen Journey Optimizer B2B edition-Version wird das Filtern nach Listen- oder Programmmitgliedschaften in einer Marketo Engage-Instanz nicht mehr unterstützt.
-
->[!ENDSHADEBOX]
 
 ### Ändern der Vollständigkeitsbewertungseinstellungen {#change-the-completeness-score-settings}
 

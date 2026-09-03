@@ -1,10 +1,10 @@
 ---
 title: Ausschnitte
 description: Wiederverwendete Notizen und visuelle Elemente zur Notiz eines Features oder einer Seite, die auf eine bestimmte Bearbeitung angewendet wird
-source-git-commit: 3529e8e35237ec7c1fd533fbda166201e877061e
+source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
 workflow-type: tm+mt
-source-wordcount: '2423'
-ht-degree: 5%
+source-wordcount: '2318'
+ht-degree: 2%
 
 ---
 
@@ -264,16 +264,3 @@ Ziehen _[!UICONTROL im Dialogfeld]_ Bild hochladen“ eine Datei aus dem System 
 Die Dateinamen der ausgewählten Bilder werden im Dialogfeld angezeigt. Asset-Dateinamen müssen eindeutig sein (in allen Ordnern). Wenn bereits eine Datei mit dem Namen vorhanden ist, wird eine Meldung angezeigt. Namen dürfen maximal 100 Zeichen lang sein und keine Sonderzeichen enthalten (beispielsweise `;`, `:`, `\` und `|`).
 
 Klicken Sie **[!UICONTROL Importieren]**.
-
-## Aktivitäten mit Interaktionswert - Marketo {#engagement-activities-me}
-
-| Aktivitätsname | Beschreibung | Maximale tägliche Häufigkeit | Standardmäßige Aktivitätsgewichtung des Modells |
-| --- | --- | --- | --- |
-| [!UICONTROL An Veranstaltung teilnehmen] | Ein Mitglied nimmt an einem Ereignis teil | 20 | 60 |
-| [!UICONTROL E-Mail angeklickt] | Ein Mitglied klickt auf einen Link in einer E-Mail | 20 | 30 |
-| [!UICONTROL E-Mail geöffnet] | Ein Mitglied öffnet eine E-Mail | 20 | 30 |
-| [!UICONTROL Formular ausgefüllt] | Ein Mitglied füllt ein Formular auf einer Web-Seite aus und sendet es ab | 20 | 40 |
-| [!UICONTROL Interessanter Moment] | Ein Mitglied hat einen interessanten Moment | 20 | 60 |
-| [!UICONTROL Link-Klicks] | Ein Mitglied klickt auf einen Link auf einer Web-Seite | 20 | 40 |
-| [!UICONTROL Seitenansichten] | Ein Mitglied zeigt eine Web-Seite an | 20 | 40 |
-| [!UICONTROL Für Veranstaltung registrieren] | Ein für ein Ereignis registriertes Mitglied | 20 | 60 |

@@ -17,9 +17,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 2193
+source-wordcount: 2184
 ht-degree: 3%
 
 ---
@@ -125,7 +125,6 @@ Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Pe
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Person zum (anderen) Journey hinzufügen] | <li>Konto-Journey (Aktion für Personen) <li>Personen-Journey | <li>Live-Personen-Journey auswählen |
 | | [!UICONTROL Hinzufügen zur externen Kundenzielgruppe] | <li>Konto-Journey <li>Personen-Journey | <li>Externe Kundenzielgruppe auswählen |
 | | [!UICONTROL Der Einkaufsgruppe zuweisen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen <li>Rolle auswählen |
-| | [!UICONTROL Punktzahl ändern] | <li>Konto-Journey | <li>Bewertungsname <li>Score-Änderung |
 | | [!UICONTROL Interessanter Moment der Person] | <li>Konto-Journey <li>Personen-Journey | <li>Typ <li>Beschreibung |
 | | [!UICONTROL Web-Erlebnis personalisieren] (Beta) | <li>Konto-Journey | <li>Web-Erlebnis erstellen/bearbeiten |
 | | [!UICONTROL Aus Einkaufsgruppe entfernen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen |

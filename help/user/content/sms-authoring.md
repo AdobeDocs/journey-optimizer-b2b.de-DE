@@ -22,10 +22,10 @@ topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
 workflow-type: tm+mt
-source-wordcount: 1207
-ht-degree: 5%
+source-wordcount: 1251
+ht-degree: 4%
 
 ---
 
@@ -95,33 +95,29 @@ Sie können eine Nachricht mit bis zu 1.600 Zeichen erstellen, wobei alle 160 Ze
 
 1. Klicken Sie nach der Eingabe Ihres Nachrichtentextes auf _Link_-Symbol ( ![Link-Symbol](../assets/do-not-localize/icon-link.svg) ) rechts neben dem Textnachrichtenfeld.
 
-1. Geben Sie die **[!UICONTROL URL]** für den Link ein.
-
-
 1. Wählen Sie im Dialogfeld den Typ der zu verknüpfenden URLs aus:
 
    * **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine der veröffentlichten Landingpages auszuwählen.
 
-   * **[!UICONTROL Externe URL]** - Dieser Typ ist jede externe URL, die Sie in das Textfeld eingeben.
+   * **[!UICONTROL Externe URL]** - Wählen Sie diese Option, um eine beliebige externe URL zu verknüpfen. Geben Sie die **[!UICONTROL URL]** für den Link ein.
+
+     ![Dialogfeld „Link hinzufügen“ für SMS-Nachricht](./assets/sms-add-link-dialog.png){width="470"}
+
+1. (Optional) Legen Sie die Tracking-Optionen fest.
+
+   * **[!UICONTROL Linktracking aktivieren]** - Aktivieren Sie dieses Kontrollkästchen, um das Tracking zu aktivieren. Dazu muss _URL_ werden. Ein Beispiel für das gekürzte URL-Format wird angezeigt. Die eigentliche URL wird erstellt, wenn die SMS an den Empfänger gesendet wird.
+
+   * **[!UICONTROL Lead-Tracking aktivieren]** - Aktivieren Sie dieses Kontrollkästchen, um die Aktivität in Bezug auf einen Benutzer zu verfolgen.</br>
 
 <!--
-
-1. If you choose to use a Marketo Engage landing page, set the tracking options.
-
-   * **[!UICONTROL Enable tracking]** - Select this checkbox to enable tracking, which requires _shortening_ the URL. For a landing page, it uses the Marketo Engage subdomain for the shortened URL. A sample of the shortened URL format is displayed. The actual URL is created when the SMS is sent to the recipient.
-
-   * **[!UICONTROL Include mkt_tok]** - Select this checkbox to track activity against a user.</br>
-
       >[!NOTE] 
       >
-      >When you allow tracking but disable _[!UICONTROL Include mkt_tok]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
+      >When you allow tracking but disable _[!UICONTROL Enable Lead Tracking]_, the destination URL does not include the `mkt_tok` query string parameter after redirect. This parameter is used by Marketo Engage landing pages and Munchkin to ensure that tracking of person activities (such as when a person unsubscribes from an email). Do not disable this option unless the parameter is causing issues on your website.<br/>
       >For more information about using Munchkin tracking codes on your website, refer to the [Marketo Engage documentation](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/additional-integrations/add-munchkin-tracking-code-to-your-website){target="_blank"}.
 
 -->
 
-![Dialogfeld „Link hinzufügen“ für SMS-Nachricht](./assets/sms-add-link-dialog.png){width="470"}
-
-1. Wenn die Link-Optionen abgeschlossen sind, klicken Sie auf **[!UICONTROL Hinzufügen]**, um die Änderungen zu speichern und den URL-Link zur SMS-Nachricht hinzuzufügen.
+1. Wenn die Link-Optionen abgeschlossen sind, klicken Sie auf **[!UICONTROL Hinzufügen]**, um den URL-Link zur SMS-Nachricht hinzuzufügen.
 
 ### SMS-Eigenschaften festlegen {#sms-properties}
 
@@ -183,7 +179,7 @@ Wenn der Inhalt Ihrer Nachricht definiert ist, können Sie Testprofile verwenden
 
 ## SMS-Einverständnisverwaltung {#consent-management}
 
-Es ist gesetzlich vorgeschrieben, Empfängerinnen und Empfängern die Möglichkeit zu geben, sich vom Erhalt von Mitteilungen einer Marke abzumelden und diese Entscheidung zu berücksichtigen. Die Nichtbeachtung dieser Vorschriften birgt rechtliche Risiken für Ihre Marke. Mit dieser Funktion vermeiden Sie den Versand von unerwünschten Nachrichten an Ihre Empfänger. Dadurch wird verhindert, dass sie Ihre Nachrichten als Spam kennzeichnen und Ihren Ruf schädigen.
+Es ist gesetzlich vorgeschrieben, Empfängerinnen und Empfängern die Möglichkeit zu geben, sich vom Erhalt von Mitteilungen einer Marke abzumelden und diese Entscheidung zu berücksichtigen. Die Nichtbeachtung dieser Vorschriften birgt rechtliche Risiken für Ihre Marke. Mit dieser Funktion vermeiden Sie den Versand von unerwünschten Nachrichten an Ihre Empfänger. Dadurch wird verhindert, dass Ihre Nachrichten als Spam gekennzeichnet und Ihr Ruf beschädigt wird.
 
 Wenn Sie diese Option bereitstellen, können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. Alle standardmäßigen Opt-in- und Opt-out-Keywords werden unterstützt und berücksichtigt, ebenso wie alle benutzerdefinierten Keywords, die mit dem SMS-Dienstleister konfiguriert wurden. Bei der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
 
