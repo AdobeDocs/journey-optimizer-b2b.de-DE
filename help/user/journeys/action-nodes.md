@@ -175,7 +175,7 @@ Verwenden Sie diese Aktion, um Personen zu einer externen Zielgruppe zu pushen, 
 Wenn Sie diese personenbasierte Aktion auswählen, können Sie eine neue externe Zielgruppe erstellen oder aus der Liste der vorhandenen externen Zielgruppen auswählen.
 
 * Bei bestehenden Zielgruppen können Sie aus externen Kundenzielgruppen wählen, die nur in [!DNL Journey Optimizer B2B Edition] erstellt wurden.
-* Wenn Sie eine Zielgruppe erstellen und für diese Journey-Aktion verwenden, stellen Sie sicher, dass Sie eine Verbindung mit dem Ziel herstellen. Weitere Informationen finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} und [Aktivierung - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in der [!DNL Experience Platform].
+* Wenn Sie eine Zielgruppe erstellen und für diese Journey-Aktion verwenden, stellen Sie sicher, dass Sie eine Verbindung mit dem Ziel herstellen. Weitere Informationen finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} und [Aktivierung - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in der [!DNL Experience Platform].
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoübersicht über die Orchestrierung bezahlter Medien ansehen](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -309,7 +309,7 @@ Unterdrücken Sie beispielsweise Kampagnen in Marketo Engage für Personen, die 
 
 +++[!UICONTROL Zu Marketo-Anfragekampagne hinzufügen]
 
-Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne“ in &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} verbundenen Marketo Engage-Instanz hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne“ in &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} verbundenen Marketo Engage-Instanz hinzuzufügen.
 
 Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie als Nächstes den Namen der Anfragekampagne aus.
 
@@ -319,7 +319,7 @@ Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie al
 
 +++[!UICONTROL Zur Marketo-Liste hinzufügen]
 
-Mit dieser Aktion können Sie Personen zu einer [statischen Liste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in einer verbundenen Marketo Engage-Instanz hinzufügen.
+Mit dieser Aktion können Sie Personen zu einer [statischen Liste](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in einer verbundenen Marketo Engage-Instanz hinzufügen.
 
 Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie anschließend den Listennamen aus.
 
@@ -329,7 +329,7 @@ Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie an
 
 +++[!UICONTROL Aus Marketo-Liste entfernen]
 
-Mit dieser Aktion können Sie Personen aus einer [statischen Liste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage entfernen.
+Mit dieser Aktion können Sie Personen aus einer [statischen Liste](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage entfernen.
 
 Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie anschließend den Listennamen aus.
 
