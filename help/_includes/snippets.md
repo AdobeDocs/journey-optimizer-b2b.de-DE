@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Intent-Daten sind enthalten, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Es sind auch eine oder mehrere veröffentlichte Journey (**)** Einkaufsgruppen erforderlich. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
+>Intent-Daten sind enthalten, wenn sie für Ihre Journey Optimizer B2B edition-Instanz konfiguriert sind. Es sind auch eine oder mehrere veröffentlichte Journey (**)** Einkaufsgruppen erforderlich. Weitere Informationen zum Modell zur Absichtserkennung und zum Senden von Schlüsselwörtern, Produkten und Kategorien finden Sie unter [Absichtsdaten](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/configurations/intent-data).
 
 ## AEM Assets-Lizenzhinweis {#aem-assets-licensing-note}
 
@@ -231,7 +231,7 @@ Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden könne
 
 ## Inhalt - Bildauswahl - AEM Assets {#aem-assets-dam}
 
-Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu durchsuchen und &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
+Wählen Sie diesen Typ aus, um ein Bild-Asset aus einem [konfigurierten Experience Manager Assets-Repository“ zu durchsuchen und &#x200B;](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/configurations/configure-aem-repositories).
 
 Wählen Sie im Dialogfeld _[!UICONTROL Assets auswählen]_ ein Bild mit den verfügbaren Tools aus, um das benötigte Asset zu finden, und klicken Sie auf **[!UICONTROL Auswählen]**.:
 
