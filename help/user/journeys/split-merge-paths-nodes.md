@@ -288,4 +288,4 @@ Um verschiedene (_Pfade nach Konto zu kombinieren_ fügen Sie in Ihrem Journey e
 
 ## Übersichtsvideo {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443231/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443265/?captions=ger&learn=on)
