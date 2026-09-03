@@ -5,21 +5,15 @@ feature: Account Journeys, AI Assistant
 role: User
 autotag-review: '2026-05-20T18:52:08.227Z'
 TQID: 'https://experienceleague.adobe.com/idPaG-ZNnNwJjN8yVC3Ay1FZ2XPgtQgrSMNIus4fReI'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
-subfeature_v2:
-  - id: ba367494-9862-4596-bd6f-299c7e10a46b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+subfeature_v2: id: ba367494-9862-4596-bd6f-299c7e10a46b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1913
 ht-degree: 0%
 
 ---
@@ -77,9 +71,9 @@ Definieren Sie für jeden Pfad einen Namen und eine Eingabeaufforderung in natü
 
      **Beispiel fordert zu einer Aufteilung auf drei Pfade auf:**
 
-      * _Path 1 - HR Leaders :_Identifizieren Sie Personen in HR-Führungsrollen, die am ehesten mit dem Talent-Management und Mitarbeitererlebnisinhalten zu tun haben.
-      * _Path 2 - Technische Gutachter :_Identifizieren Sie technische Stakeholder, die mit größter Wahrscheinlichkeit mit Produktarchitektur, Integrationen und Implementierungs-Content interagieren.
-      * _Path 3 - Entscheidungsträger aus dem :_: Ermitteln Sie die Stakeholder aus dem Unternehmen, die am ehesten mit ROI, Geschäftsergebnissen und Fallstudieninhalten zu tun haben.
+     * _Path 1 - HR Leaders :_Identifizieren Sie Personen in HR-Führungsrollen, die am ehesten mit dem Talent-Management und Mitarbeitererlebnisinhalten zu tun haben.
+     * _Path 2 - Technische Gutachter :_Identifizieren Sie technische Stakeholder, die mit größter Wahrscheinlichkeit mit Produktarchitektur, Integrationen und Implementierungs-Content interagieren.
+     * _Path 3 - Entscheidungsträger aus dem :_: Ermitteln Sie die Stakeholder aus dem Unternehmen, die am ehesten mit ROI, Geschäftsergebnissen und Fallstudieninhalten zu tun haben.
 
 1. Ordnen Sie die Pfade bei Bedarf neu an, um die Prioritätsreihenfolge für den Abgleich festzulegen.
 
@@ -267,14 +261,14 @@ Verwenden Sie eine Simulation, um zu testen, wie die KI Ihre Eingabeaufforderung
 
 ### Simulation ausführen {#run-simulation}
 
-1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben _rechten Bedienfeld auf_ Simulieren![&#x200B; ((](../../assets/do-not-localize/icon-simulate-outline.svg)) ).
+1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben _rechten Bedienfeld auf_ Simulieren![ ((](../../assets/do-not-localize/icon-simulate-outline.svg)) ).
 
    ![Nächster bester Pfad - Klicken Sie auf das Symbol „Simulieren“](./assets/node-next-best-path-simulate-select.png){width="500"}
 
 1. Wählen Sie im Dialogfeld die Zielgruppe aus, die für die Simulation verwendet werden soll:
 
    * **[!UICONTROL Ursprüngliche Personenlisten]** - Verwenden Sie die Zielgruppe aus dem Zielgruppenknoten. Geben Sie eine Stichprobengröße an, wenn die vollständige Zielgruppe den Simulationsschwellenwert überschreitet.
-   * **[!UICONTROL Dynamische und statische Listen]** - Verwenden Sie eine [!DNL Marketo Engage] statische oder dynamische Liste.
+   * **[!UICONTROL Dynamische und statische Listen]** - Verwenden Sie eine statische oder dynamische Personenliste.
    * **[!UICONTROL Testdatensätze]** - Verwenden von von KI vorgeschlagenen Testprofilen.
 
    ![Nächster bester Pfad - Simulieren - Zielgruppe wählen](./assets/node-next-best-path-simulate-dialog.png){width="300"}

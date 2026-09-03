@@ -3,23 +3,16 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
 workflow-type: tm+mt
-source-wordcount: 5635
+source-wordcount: 5633
 ht-degree: 61%
 
 ---
@@ -154,7 +147,7 @@ Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B edition 
 | ----- | ------ | ----------- |
 | Journey Build Agent | Neu und aktualisiert | Der Journey Build Agent analysiert, konzipiert und erstellt Journeys in Echtzeit gemeinsam mit Ihnen. Dies versetzt Marketingteams in die Lage, Starts zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten voranzutreiben. [Weitere Informationen](../agents/journey-agent.md) |
 | Audience Agent | Neu | Der Audience Agent identifiziert und erstellt Zielgruppen (Käufergruppen) automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"} |
+| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Versionshinweise für 2025.10 {#rel-2025-10}
 
@@ -162,7 +155,7 @@ Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B edition 
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | „Für Ziel aktivieren“ für Journeys | Verwenden Sie die neue Firmenkontoaktion _Für Ziel aktivieren_, um die Aktivierung direkt für Unternehmen statt für Kontakte durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) [Weitere Informationen](../journeys/action-nodes.md#activate-to-a-linkedin-destination) |
+| Funktion | „Für Ziel aktivieren“ für Journeys | Verwenden Sie die neue Firmenkontoaktion _Für Ziel aktivieren_, um die Aktivierung direkt für Unternehmen statt für Kontakte durchzuführen. (Für diese Version auf LinkedIn-Unternehmen beschränkt.) [Weitere Informationen](../journeys/action-nodes.md#activate-deactivate-destination) |
 | Funktion | Markenthemen | Mit Markenthemen können technisch nicht versierte Benutzerinnen und Benutzer jetzt wiederverwendbare Inhalte erstellen, die zu einer bestimmten Marke und Design-Sprache passen, indem sie zusätzlich zu den Standardvorlagen benutzerdefinierte Stile hinzufügen. [Weitere Informationen](../content/brand-themes.md) |
 | Funktion | E-Mail-Vorlagen – Bild in HTML konvertieren | Sie können jetzt Ihre als JPG- oder PNG-Bilddateien gespeicherten Design-Dateien verwenden und automatisch E-Mail-Vorlagen generieren. [Weitere Informationen](../content/email-template-image-convert.md) |
 | Funktion | Persona-Mapping | Verknüpfen Sie Kontomitglieder mithilfe von Attributzuordnungen mit etablierten Personas. [Weitere Informationen](../admin/persona-mapping.md) |
@@ -195,7 +188,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
@@ -280,7 +273,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 | ---- | ---- | ----------- |
 | Funktion | Kontolisten | Sie können nun eine statische oder dynamische Kontoliste erstellen, um benannte Konten anhand der von Ihnen definierten Kriterien wie Branche, Standort oder Größe des Unternehmens auszuwählen. <a href="../accounts/account-lists.md">Weitere Informationen</a> |
 | Funktion | Journey-Orchestrierung für Account-Listen | Verwenden Sie den Knoten „Journey-Aktion“, um Konten für statische Kontolisten hinzuzufügen und zu entfernen. <a href="../accounts/account-lists-journeys.md#take-an-action-node---add-to-account">Weitere Informationen</a> |
-| Verbesserung | Filtern der Journey-Zugehörigkeit in Marketo Engage | Verwenden Sie Kontolisten in Adobe Journey Optimizer B2B Edition für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer Kontoliste_ in intelligenten Listen in Marketo Engage. <a href="../accounts/account-lists-journeys.md#marketo-engage-program---member-of-account-list">Weitere Informationen</a> |
+| Verbesserung | Filtern der Journey-Zugehörigkeit in Marketo Engage | Verwenden Sie Kontolisten in Adobe Journey Optimizer B2B Edition für die Journey-Zielgruppe und verwenden Sie dann den Filter _Mitglied einer Kontoliste_ in intelligenten Listen in Marketo Engage. |
 | Funktion | Inaktivitätsfilter | Orchestrieren Sie Journeys auf der Grundlage von Inaktivität innerhalb von Adobe Marketo Engage-Kampagnen und -Programmen, einschließlich E-Mail-Inaktivität, interessanten Momenten, Datenwertänderungen und besuchten Webseiten. |
 | Verbesserung | Filter für besuchte Web-Seiten | Orchestrieren Sie Journeys auf Grundlage der Aktivität auf besuchten Webseiten, die mit Adobe Marketo Engage-Kampagnen und -Programmen verknüpft sind. |
 | Verbesserung | E-Mail-Liste | Anzeige einer globalen Liste der aktiven E-Mails und E-Mail-Entwürfe, um sie in den zugehörigen Konto-Journeys zu suchen, zu prüfen und zu aktualisieren. <a href="../content/emails-list.md">Weitere Informationen</a> |
