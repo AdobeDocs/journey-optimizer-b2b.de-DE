@@ -3,10 +3,14 @@ title: Datenschutzverwaltung
 description: Erfahren Sie, wie Sie die DSGVO, den CCPA und andere Datenschutzbestimmungen in Journey Optimizer B2B edition einhalten und Anfragen mit Adobe Privacy Service senden können.
 feature: Setup, Permissions
 role: Admin
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
 workflow-type: tm+mt
 source-wordcount: 634
@@ -17,7 +21,7 @@ ht-degree: 3%
 
 # Datenschutzverwaltung {#privacy-management}
 
-[Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/home){target="_blank"} stellt eine RESTful-API und eine Benutzeroberfläche bereit, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. Mit [!DNL Adobe Privacy Service] können Sie Anfragen für den Zugriff auf und die Löschung von personenbezogenen oder vertraulichen Kundendaten aus Adobe CX Enterprise-Anwendungen stellen, was die automatische Einhaltung gesetzlicher und unternehmensinterner Datenschutzbestimmungen erleichtert.
+[Adobe Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/home){target="_blank"} stellt eine RESTful-API und eine Benutzeroberfläche bereit, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. Mit [!DNL Adobe Privacy Service] können Sie Anfragen für den Zugriff auf und die Löschung von personenbezogenen oder vertraulichen Kundendaten aus Adobe CX Enterprise-Anwendungen stellen, was die automatische Einhaltung gesetzlicher und unternehmensinterner Datenschutzbestimmungen erleichtert.
 
 [!DNL Adobe Journey Optimizer B2B Edition] bietet diese Datenschutztools, mit denen Sie die globalen Datenschutzanforderungen erfüllen können. Verwenden Sie [!DNL Privacy Service], um Zugriffs- und Löschanfragen für Daten, die [!DNL Journey Optimizer B2B Edition] erfasst und speichert, zu senden und zu verwalten.
 
@@ -43,7 +47,7 @@ Eine aktuelle Liste der unterstützten Richtlinien finden Sie unter [_Übersicht
 
 >[!BEGINSHADEBOX]
 
-![Berechtigungssymbol](../assets/do-not-localize/icon_permissions-outline.svg) Für diese Schritte sind das Produktprofil [!DNL Privacy Service] und die folgenden [Berechtigungen für die zugewiesene Benutzerrolle in Experience Platform&quot; ](./user-management.md):
+![Berechtigungssymbol](../assets/do-not-localize/icon_permissions-outline.svg) Für diese Schritte sind das Produktprofil [!DNL Privacy Service] und die folgenden [Berechtigungen für die zugewiesene Benutzerrolle in Experience Platform&quot; &#x200B;](./user-management.md):
 
 * **[!UICONTROL Privacy Service-Berechtigungen]** - `Privacy Read Permission` und `Privacy Write Permission`
 * **[!UICONTROL Data Governance]** - `View Privacy Console`
@@ -111,7 +115,7 @@ Verwenden Sie die folgenden Feldwerte in Ihrer Anfrage:
 | `users.action` | `access` oder `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo`, um sowohl [!DNL Journey Optimizer B2B Edition]- als auch [!DNL Marketo Engage] einzuschließen |
-| `regulation` | Beispiel: `ccpa` <br/>Einige Regulierungswerte ändern sich, sodass sie eine Bundesstaatsabkürzung enthalten (z. B. `ucpa_ut_usa`). Ältere Werte bleiben für einen Übergangszeitraum gültig. Die aktuelle Liste [ Sie unter „Übersicht über ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}&quot;, bevor Sie Integrationen mit diesen Werten erstellen. |
+| `regulation` | Beispiel: `ccpa` <br/>Einige Regulierungswerte ändern sich, sodass sie eine Bundesstaatsabkürzung enthalten (z. B. `ucpa_ut_usa`). Ältere Werte bleiben für einen Übergangszeitraum gültig. Die aktuelle Liste [&#x200B; Sie unter „Übersicht über &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}&quot;, bevor Sie Integrationen mit diesen Werten erstellen. |
 
 Im folgenden Beispiel wird eine DSGVO-Löschanfrage mit [!DNL Journey Optimizer B2B Edition] Daten gesendet.
 
