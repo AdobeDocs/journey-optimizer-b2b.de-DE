@@ -3,23 +3,16 @@ title: Versionshinweise zu Journey Optimizer B2B Edition
 description: Entdecken Sie die neuesten Funktionen, Verbesserungen und Fehlerbehebungen in Adobe Journey Optimizer B2B Edition. Bleiben Sie mit neuen Funktionen und Produktverbesserungen auf dem Laufenden.
 role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-  - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ceid: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +37,8 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | C2PA-Metadaten | Bilder, die mit generativen KI-Tools generiert oder bearbeitet wurden, werden jetzt automatisch mit C2PA-Metadaten signiert, sodass Sie die Anforderungen an Inhaltstransparenz und KI-Offenlegung erfüllen können. [Weitere Informationen](../content/c2pa-metadata.md) |
 | Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
 | Verbesserung | Überwachen von Ereignis-Triggern und -Filtern - Account-Journey | Unterstützung für mehrere Trigger und Filter in einem _Lauschen auf_) ist jetzt für Account-Journey verfügbar. |
-| Verbesserung | Externe Pfadknoten für Aufspaltung - Personen-Journey | Die Unterstützung für _externe Aufspaltungspfade_-Knoten ist jetzt für Personen-Journey verfügbar. |
-| Verbesserung | Externe Aktionsknoten - Personen-Journey | Die Unterstützung für _Externe Aktion_-Knoten ist jetzt für Personen-Journey verfügbar. |
+| Verbesserung | Externe Pfadknoten für Aufspaltung - Personen-Journey | Die Unterstützung für _externe Aufspaltungspfade_-Knoten ist jetzt für Personen-Journey verfügbar. [Weitere Informationen](../journeys/external-nodes.md#external-action) |
+| Verbesserung | Externe Aktionsknoten - Personen-Journey | Die Unterstützung für _Externe Aktion_-Knoten ist jetzt für Personen-Journey verfügbar. [Weitere Informationen](../journeys/external-nodes.md#external-split-paths) |
 | Verbesserung | Relationale AEP-Datensätze | Neue relationale Datensätze werden jetzt zusammen mit vorhandenen Datensätzen in Ihrer AEP-Sandbox angezeigt. |
 | Verbesserung | Produktberechtigungen - WhatsApp-Kanal | Produktadministratoren können jetzt die `Manage B2B WhatsApp Settings` und `Manage B2B WhatsApp Presets` Berechtigungen für B2B _[!UICONTROL Kanal-Konfigurationen]_. |
 
@@ -154,7 +147,7 @@ Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B edition 
 | ----- | ------ | ----------- |
 | Journey Build Agent | Neu und aktualisiert | Der Journey Build Agent analysiert, konzipiert und erstellt Journeys in Echtzeit gemeinsam mit Ihnen. Dies versetzt Marketingteams in die Lage, Starts zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten voranzutreiben. [Weitere Informationen](../agents/journey-agent.md) |
 | Audience Agent | Neu | Der Audience Agent identifiziert und erstellt Zielgruppen (Käufergruppen) automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"} |
+| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Versionshinweise für 2025.10 {#rel-2025-10}
 
@@ -195,7 +188,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
