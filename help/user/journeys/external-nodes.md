@@ -1,9 +1,11 @@
 ---
 title: Externe Knoten
-description: Erfahren Sie, wie Sie externe Aktionsknoten und externe Aufspaltungspfadknoten in den Account-Journey verwenden, um eine Verbindung mit externen Services herzustellen und Konten und Personen basierend auf der Service-Antwort zu routen.
-feature: Account Journeys, Integrations
+description: Erfahren Sie, wie Sie externe Aktionsknoten und externe Split Path-Journey-Knoten verwenden, um eine Verbindung mit externen Services herzustellen und Konten und Personen basierend auf der Service-Antwort zu routen.
+feature: Account Journeys, Person Journeys, Integrations
 role: User
 exl-id: fc0d6baa-d2e9-4a28-9d78-c74b99282ec1
+autotag-review: '2026-08-05T21:23:02.338Z'
+TQID: 'https://experienceleague.adobe.com/SM3jr1AuPhUHuSHFUpf35omVUPOdubXbOrC8ZnJYdWE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
 feature_v2:
@@ -11,44 +13,42 @@ feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
 subfeature_v2:
   - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+  - id: ba367494-9862-4596-bd6f-299c7e10a46b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 860
 ht-degree: 0%
 
 ---
 
 # Externe Knoten
 
-Verwenden Sie externe Knoten, um Ihre Konto-Journey mit einem externen Service zu verbinden. Wenn eine Konto-Zielgruppe einen dieser Knoten erreicht, sendet Journey Optimizer B2B edition Zielgruppenattributdaten asynchron an den externen Service. Der Service verarbeitet die Daten und antwortet mithilfe eines Callbacks, wobei Zielgruppeninformationen und Metadaten zurückgegeben werden, die die Journey zum Fortsetzen verwendet.
+Verwenden Sie externe Knoten, um Ihren Journey mit einem externen Service zu verbinden. Wenn eine Zielgruppe einen dieser Knoten erreicht, sendet [!DNL Journey Optimizer B2B Edition] asynchron Zielgruppenattributdaten an den externen Service. Der Service verarbeitet die Daten und antwortet mithilfe eines Callbacks, wobei Zielgruppeninformationen und Metadaten zurückgegeben werden, die die Journey zum Fortfahren verwendet.
 
 >[!NOTE]
 >
->Externe Aktionsknoten sind nur in den Account-Journey verfügbar. Sie werden in persönlichen Journey nicht unterstützt.
->
->Ein Administrator muss [die externe Aktion konfigurieren und aktivieren](../admin/configure-external-actions.md) bevor Marketer diese Knoten auf einer Journey hinzufügen und implementieren können.
+>Ein Administrator muss [die externe Aktion konfigurieren und aktivieren](../admin/configure-external-actions.md) bevor Marketer diese Knoten in einer Journey hinzufügen und implementieren können.
 
 Es gibt zwei Knotentypen für externe Aktionen:
 
 * **[Externe Aktion](#external-action)** - Ruft einen externen Service auf und fährt über einen einzelnen ausgehenden Pfad fort. Verwenden Sie diesen Knoten, wenn Sie einen externen Prozess ohne Verzweigungslogik Trigger erstellen möchten, z. B. wenn Sie einen Datensatz in einem externen System aktualisieren oder ein Signal an einen nachgelagerten Service senden möchten.
-* **[Externe Aufspaltungspfade](#external-split-paths)** - Ruft einen externen Service auf und bewertet die Antwort auf Routing-Konten entlang eines von mehreren definierten Pfaden. Verwenden Sie diesen Knoten, wenn der externe Service einen Wert zurückgibt, z. B. einen Score, eine Stufe oder eine Klassifizierung, die den nächsten Schritt im Journey bestimmt.
+* **[Externe Aufspaltungspfade](#external-split-paths)** - Ruft einen externen Service auf und bewertet die Antwort auf Routing-Konten oder Personen entlang eines von mehreren definierten Pfaden. Verwenden Sie diesen Knoten, wenn der externe Service einen Wert zurückgibt, z. B. eine Bewertung oder eine Ebene, die den nächsten Schritt im Journey bestimmt.
 
 ## Externer Aktionsknoten {#external-action}
 
 Der _Externe Aktion_-Knoten ruft einen externen Service auf und fährt unabhängig vom Antwortinhalt über einen einzelnen ausgehenden Pfad fort. Verwenden Sie sie für Integrationen, bei denen nach dem externen Aufruf keine Verzweigung erforderlich ist.
 
-1. Navigieren Sie zur Konto-Journey-Zuordnung.
+1. Navigieren Sie zur Arbeitsfläche für das Konto oder die Personen-Journey.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Externe Aktion]** aus.
 
    ![Externen Aktionsknoten hinzufügen](./assets/node-external-action.png){width="400"}
 
-1. Legen Sie in den Knoteneigenschaften auf der rechten Seite den Kontext **[!UICONTROL Aktion ein]** für die externe Aktion fest:
+1. (Nur Konto-Journey) Legen Sie in den Knoteneigenschaften auf der rechten Seite den **[!UICONTROL Aktion ein]**-Kontext für die externe Aktion fest:
 
    * Wählen Sie **[!UICONTROL Konten]** aus, wenn Sie die externe Aktion auf alle Personen anwenden möchten, die Teil von Konten im Knotenpfad sind.
    * Wählen Sie **[!UICONTROL Personen]** aus, wenn Sie eine Änderung auf alle Personen im Knotenpfad anwenden möchten.
@@ -63,19 +63,19 @@ Der _Externe Aktion_-Knoten ruft einen externen Service auf und fährt unabhäng
 
 1. Fahren Sie mit dem Erstellen des Journey aus den ausgehenden Pfaden des Knotens fort.
 
-   Der _[!UICONTROL Zeitüberschreitungs- oder Fehlerpfad]_ wird automatisch erstellt. Wenn die maximale Wartezeit (wie im Service konfiguriert) verstrichen ist, bevor eine Antwort empfangen wird, fährt das Konto oder die Person diesen Pfad ab. Dasselbe gilt, wenn eine Fehlerantwort empfangen wird. Um diese Szenarien zu handhaben, können Sie diesem Pfad Journey-Knoten hinzufügen oder die Journey-Enden für das Zielgruppenmitglied.
+   Der _[!UICONTROL Zeitüberschreitungs- oder Fehlerpfad]_ wird automatisch erstellt. Wenn die maximale Wartezeit (wie im Service konfiguriert) verstrichen ist, bevor eine Antwort empfangen wird, fährt das Konto oder die Person diesen Pfad ab. Dasselbe gilt, wenn eine Fehlerantwort empfangen wird. Um diese Szenarien zu handhaben, können Sie diesem Pfad Journey-Knoten hinzufügen, oder der Journey wird für das Mitglied der Zielgruppe beendet.
 
 ## Knoten für externe Aufspaltungspfade {#external-split-paths}
 
-Der Knoten Externe Aufspaltungspfade ruft einen externen Service auf und verwendet die Antwort, um zu bestimmen, welche Pfadkonten als Nächstes ausgeführt werden. Eine Bedingung, die auf einer Variablen (Accessor) basiert, die vom externen Service zurückgegeben wird, definiert jeden Pfad. Der Journey bewertet die Antwort anhand der definierten Pfadbedingungen und leitet jedes Konto entlang des ersten übereinstimmenden Pfads weiter. Pfadbedingungen werden in der Reihenfolge von oben nach unten ausgewertet. Jedes Konto fährt auf dem ersten Pfad fort, dessen Bedingung mit dem vom externen Service zurückgegebenen Wert übereinstimmt.
+Der Knoten Externe Aufspaltungspfade ruft einen externen Service auf und verwendet die Antwort, um zu bestimmen, welche Pfadkonten oder Personen als Nächstes ausführen. Eine Bedingung, die auf einer Variablen (Accessor) basiert, die vom externen Service zurückgegeben wird, definiert jeden Pfad. Der Journey bewertet die Antwort anhand der definierten Pfadbedingungen und leitet jedes Konto oder jede Person entlang des ersten übereinstimmenden Pfads weiter. Pfadbedingungen werden in der Reihenfolge von oben nach unten ausgewertet. Jedes Konto oder jede Person folgt dem ersten Pfad, dessen Bedingung mit dem vom externen Service zurückgegebenen Wert übereinstimmt.
 
-1. Navigieren Sie zur Konto-Journey-Zuordnung.
+1. Navigieren Sie zur Arbeitsfläche für das Konto oder die Personen-Journey.
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) auf einem Pfad und wählen Sie **[!UICONTROL Externe Aufspaltungspfade]**.
 
    ![Fügen Sie einen externen Pfad-Teilungsknoten hinzu](./assets/node-external-split-path.png){width="400"}
 
-1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite den Typ **[!UICONTROL Pfade aufteilen nach]** aus:
+1. (Nur Konto-Journey) Wählen Sie in den Knoteneigenschaften auf der rechten Seite einen **[!UICONTROL Pfade aufteilen nach]** Typ:
 
    * **[!UICONTROL Konten]** - Bei aufgeteilten Pfaden nach Konten können Sie innerhalb der definierten Pfade sowohl Konto- als auch Personenknoten hinzufügen.
    * **[!UICONTROL Personen]** - Bei aufgeteilten Pfaden nach Personen können Sie nur Personen-Aktionsknoten innerhalb der definierten Pfade hinzufügen. Eine personenbasierte Aufspaltung wird automatisch mit dem Knoten _[!UICONTROL Zusammenführungspfade]_ geschlossen, sodass alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.

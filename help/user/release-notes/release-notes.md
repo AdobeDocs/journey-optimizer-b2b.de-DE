@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: d8425054daea287d21419911158908035c1314f6
 workflow-type: tm+mt
-source-wordcount: 5633
+source-wordcount: 5637
 ht-degree: 61%
 
 ---
@@ -44,8 +44,8 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | C2PA-Metadaten | Bilder, die mit generativen KI-Tools generiert oder bearbeitet wurden, werden jetzt automatisch mit C2PA-Metadaten signiert, sodass Sie die Anforderungen an Inhaltstransparenz und KI-Offenlegung erfüllen können. [Weitere Informationen](../content/c2pa-metadata.md) |
 | Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
 | Verbesserung | Überwachen von Ereignis-Triggern und -Filtern - Account-Journey | Unterstützung für mehrere Trigger und Filter in einem _Lauschen auf_) ist jetzt für Account-Journey verfügbar. |
-| Verbesserung | Externe Pfadknoten für Aufspaltung - Personen-Journey | Die Unterstützung für _externe Aufspaltungspfade_-Knoten ist jetzt für Personen-Journey verfügbar. |
-| Verbesserung | Externe Aktionsknoten - Personen-Journey | Die Unterstützung für _Externe Aktion_-Knoten ist jetzt für Personen-Journey verfügbar. |
+| Verbesserung | Externe Pfadknoten für Aufspaltung - Personen-Journey | Die Unterstützung für _externe Aufspaltungspfade_-Knoten ist jetzt für Personen-Journey verfügbar. [Weitere Informationen](../journeys/external-nodes.md#external-action) |
+| Verbesserung | Externe Aktionsknoten - Personen-Journey | Die Unterstützung für _Externe Aktion_-Knoten ist jetzt für Personen-Journey verfügbar. [Weitere Informationen](../journeys/external-nodes.md#external-split-paths) |
 | Verbesserung | Relationale AEP-Datensätze | Neue relationale Datensätze werden jetzt zusammen mit vorhandenen Datensätzen in Ihrer AEP-Sandbox angezeigt. |
 | Verbesserung | Produktberechtigungen - WhatsApp-Kanal | Produktadministratoren können jetzt die `Manage B2B WhatsApp Settings` und `Manage B2B WhatsApp Presets` Berechtigungen für B2B _[!UICONTROL Kanal-Konfigurationen]_. |
 
