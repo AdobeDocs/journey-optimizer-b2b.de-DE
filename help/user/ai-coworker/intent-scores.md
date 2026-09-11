@@ -5,12 +5,20 @@ feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
-product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2: id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
-subfeature_v2: id: e388c29d-df1e-4b47-ad27-1b14ae45776e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2:
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+subfeature_v2:
+  - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
 source-wordcount: 1445
@@ -23,7 +31,7 @@ ht-degree: 0%
 
 Ein Intent Score misst, wie interessiert eine Person oder ein Konto an einem Keyword, einem Produkt oder einer Produktkategorie ist. Adobe Journey Optimizer B2B edition berechnet den Score anhand von maschinellem Lernen, das die Ähnlichkeit der Bedeutung misst, und nicht anhand manueller Regeln oder eines Festpunktsystems. Jeder Score wird von 0 auf 1 normalisiert, wobei höhere Zahlen eine stärkere Absicht anzeigen.
 
-Die Inhaltsrelevanz wird etwa alle 12 Stunden aktualisiert, und die Intent-Scores werden täglich neu berechnet. Scores aggregieren sich von Keyword zu Produkt und von Person zu Konto. Absichtsbewertungen werden im gesamten [Intelligent Dashboard](../dashboards/intelligent-dashboard.md) und auf den [Kontodetails](../accounts/account-details.md), [_Einkaufsgruppendetails_, ](../buying-groups/buying-group-details.md) und [Personendetails](../accounts/person-details.md) angezeigt.
+Die Inhaltsrelevanz wird etwa alle 12 Stunden aktualisiert, und die Intent-Scores werden täglich neu berechnet. Scores aggregieren sich von Keyword zu Produkt und von Person zu Konto. Absichtsbewertungen werden im gesamten [Intelligent Dashboard](../dashboards/intelligent-dashboard.md) und auf den [Kontodetails](../accounts/account-details.md), [_Einkaufsgruppendetails_, &#x200B;](../buying-groups/buying-group-details.md) und [Personendetails](../accounts/person-details.md) angezeigt.
 
 ![Intent-Datenvisualisierung](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
@@ -151,7 +159,7 @@ Verwenden Sie die Ansicht auf Produktebene , um zu sehen, welche Produkte insges
 
 Die meiste Scoring-Logik ist darauf ausgelegt, die Ergebnisse im Zeitverlauf zuverlässig und vergleichbar zu halten. Ein Produktadministrator kann zwei Einstellungen an Ihre Anforderungen anpassen:
 
-* **Aktivitätsgewichte** - Erhöhen Sie die Gewichtung von hochwertigen Aktivitäten wie einer Demoanfrage oder einem Seitenbesuch, um eine größere Wirkung auf die Absichtsergebnisse zu erzielen. Um eine Aktivität vollständig auszuschließen, setzen Sie ihre Gewichtung auf null, was für Aktionen wie Abmeldungen nützlich ist, die nicht zur Absicht beitragen. Die Aktivitätsgewichte für die Absichtsberechnung verwenden dasselbe Gewichtungsmodell, das auch zu den [ (Interaktionsbewertungen](../buying-groups/engagement-scores.md) führt. Informationen [_Ändern der Aktivitätsgewichtung finden_](../admin/engagement-score-weighting.md) unter „Konfigurieren der“.
+* **Aktivitätsgewichte** - Erhöhen Sie die Gewichtung von hochwertigen Aktivitäten wie einer Demoanfrage oder einem Seitenbesuch, um eine größere Wirkung auf die Absichtsergebnisse zu erzielen. Um eine Aktivität vollständig auszuschließen, setzen Sie ihre Gewichtung auf null, was für Aktionen wie Abmeldungen nützlich ist, die nicht zur Absicht beitragen. Die Aktivitätsgewichte für die Absichtsberechnung verwenden dasselbe Gewichtungsmodell, das auch zu den [&#x200B; (Interaktionsbewertungen](../buying-groups/engagement-scores.md) führt. Informationen [_Ändern der Aktivitätsgewichtung finden_](../admin/engagement-score-weighting.md) unter „Konfigurieren der“.
 
 * **Taxonomiezuordnungen** - Die Schlüsselwörter, Produkte und Kategorien, auf denen die Bewertung basiert, können verwendet werden. Überprüfen und aktualisieren Sie sie jederzeit auf der Seite _[!UICONTROL Intent Mapping]_. Siehe [_Absichtsdaten_](../admin/intent-data.md) für den Einrichtungsprozess.
 
