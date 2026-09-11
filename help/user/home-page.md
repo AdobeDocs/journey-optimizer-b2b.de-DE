@@ -4,18 +4,13 @@ description: Greifen Sie auf Journey Optimizer B2B Edition zu und navigieren Sie
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: f467931a-9b22-4ca8-869f-adfbd64061ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: 2026-03-27T22:19:43.813Z
 TQID: https://experienceleague.adobe.com/GjEJsGSThzDVqWTjFyTijmazYCaV2mSJoFgAH7G5-8s
-source-git-commit: ca0c6b10cf6a979249901d514116f373014544ad
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 83%
@@ -24,7 +19,7 @@ ht-degree: 83%
 
 # Anmelde- und Startseite
 
-Mit Adobe Journey Optimizer B2B Edition können Sie Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung koordinieren, um die Nachfrage nach spezifischen Angeboten mithilfe Marketing-qualifizierter Käufergruppen zu maximieren.
+Mit Adobe Journey Optimizer B2B Edition können Sie Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und einer branchenführenden Automatisierung orchestrieren, um die Nachfrage nach spezifischen Angeboten mithilfe Marketing-qualifizierter Käufergruppen zu maximieren.&#x200B;
 
 <!--
  Requirements?
@@ -34,12 +29,12 @@ Um auf [!DNL Adobe Journey Optimizer B2B Edition] zuzugreifen, verbinden Sie sic
 
 ![Adobe Experience Platform-Anwendungen](./assets/experience-cloud-apps.png){width="800" zoomable="yes"}
 
-Die Startseite wird angezeigt, wenn Sie sich bei Adobe Experience Platform anmelden und die Anwendung Adobe Journey Optimizer B2B Edition auswählen. Auf dieser Seite finden Sie einen Überblick über den aktuellen Status Ihrer Journey Optimizer B2B-Initiativen in Form von <!-- refined insights and-->-Links zu den entsprechenden Ressourcen.
+Wenn Sie sich bei Adobe Experience Platform anmelden und die Adobe Journey Optimizer B2B Edition auswählen, wird die Startseite angezeigt. Auf dieser Seite finden Sie einen Überblick über den aktuellen Status Ihrer Journey Optimizer B2B-Initiativen in Form von <!-- refined insights and-->-Links zu den entsprechenden Ressourcen.
 <!-- It also provides information about the ideal next action to take and where to find the comprehensive set of tutorials and documentation. -->
 
 ![Startseite von Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition verfügt über zwei primäre Benutzer-Personas: _&#x200B;**Marketer**&#x200B;_ und _&#x200B;**Administrator**&#x200B;_. Jede Persona verfügt über eine spezifische Startseite für verschiedene Reifephasen (neu oder erweitert). Der Seiteninhalt basiert darauf, was jede Persona in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt.
+Journey Optimizer B2B Edition verfügt über zwei primäre Benutzer-Personas: _**Marketer**_ und _**Administrator**_. Jede Persona verfügt über eine spezifische Startseite für verschiedene Reifephasen (neu oder erweitert). Der Seiten-Content basiert darauf, was jede Persona in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt.
 
 * **Marketing-Fachkraft – Neue Benutzende** – Die Startseite _Marketing-Fachkraft_ für neue Benutzende hilft ihnen, sich mit Journey Optimizer B2B und dessen Funktionen vertraut zu machen. Es enthält eine Anleitung für den neuen Marketing-Experten, damit er die Feinheiten des Systems versteht und B2B-Marketing-Strategien und -Initiativen effizient entwickeln kann.
 * **Marketing-Fachkraft – Erfahrene Benutzende** – Die Startseite _Marketing-Fachkraft_ für erfahrene Marketing-Fachkräfte zeigt den Fortschritt der aktuellen Initiative sowie empfohlene nächste Aktionen an und bietet Schnellzugriff auf relevante Abschnitte.
@@ -48,7 +43,7 @@ Journey Optimizer B2B Edition verfügt über zwei primäre Benutzer-Personas: _&
 
 Der Abschnitt _[!UICONTROL Zuletzt aufgerufen]_ enthält eine Liste der zuletzt aufgerufenen Assets für die Marketing-Fachkraft oder die Admins. Verwenden Sie diese Liste, um direkt zu dem Asset zu gelangen, an dem Sie kürzlich gearbeitet haben, ohne erst durch eine Reihe von Asset-Seiten navigieren oder danach suchen zu müssen.
 
-Die Seite bietet auch Zugriff auf den [KI-Assistenten](./ai-assistant/ai-assistant-overview.md), der Benutzenden dabei hilft, schnell benötigte Informationen zu bestimmten Fragen oder Themen zu erhalten.<!-- and to obtain specific recommendations for their challenges or objectives-->
+Die Seite bietet auch Zugriff auf den [KI-Assistenten](./ai-coworker/ai-assistant-overview.md), der Benutzenden dabei hilft, schnell benötigte Informationen zu bestimmten Fragen oder Themen zu erhalten.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

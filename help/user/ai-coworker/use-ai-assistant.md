@@ -1,0 +1,133 @@
+---
+title: Verwenden des KI-Assistenten
+description: Stellen Sie Fragen zum KI-Assistenten-Produktwissen und erhalten Sie operative Einblicke in Journey, Zielgruppen und Einkaufsgruppen in Journey Optimizer B2B edition.
+feature: AI Assistant
+role: User
+level: Beginner
+exl-id: 2d642c34-6f6d-4a0f-98c5-4b9ea1cdaa29
+autotag-review: '2026-06-05T16:09:10.773Z'
+TQID: 'https://experienceleague.adobe.com/QymVRUVL4cH9q-rqovifqh4oSH9YHLlf-o2M0uNQqiA'
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+subfeature_v2: id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+workflow-type: tm+mt
+source-wordcount: 954
+ht-degree: 2%
+
+---
+
+# Verwenden der Chat-Oberfläche
+
+In Journey Optimizer B2B edition bietet der KI-Assistent eine Chat-Oberfläche, mit der Sie Produktkonzepte verstehen, schnell zu den Produktfunktionen navigieren und sie kennenlernen und praktische Einblicke in Ihre Umgebung erhalten können. Es ist auch in mehreren Produkten von Adobe Experience Cloud verfügbar.
+
+>[!IMPORTANT]
+>
+>Bevor Sie den KI-Assistenten verwenden können, ist eine Vereinbarung für die Adobe Experience Cloud-Benutzerrichtlinien für generative KI erforderlich. Weitere Informationen zu dieser Vereinbarung und den Nutzungsrichtlinien finden Sie unter [Adobe Experience Cloud-Richtlinien für die generative KI](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html).
+
+Um auf die Chat-Oberfläche zuzugreifen, klicken Sie auf das Symbol in der Kopfzeile.
+
+![Klicken Sie auf das Symbol, um auf den KI-Assistenten zuzugreifen](./assets/ai-assistant-icon-displayed.png){width="420"}
+
+Die Benutzeroberfläche des KI-Assistenten wird angezeigt und stellt Ihnen sofort Informationen zum Einstieg bereit. Sie können die unter „Ideen _[!UICONTROL bereitgestellten Optionen verwenden, um]_ zu beantworten, z. B.:
+
+* Welche Journey wurden veröffentlicht?
+* Welche Lösungsinteressen wurden geschaffen?
+* Erzählen Sie mir die wichtigsten Vorteile von Journey Optimizer B2B edition.
+
+In Adobe Journey Optimizer B2B edition unterstützt der KI-Assistent die folgenden Anwendungsfälle:
+
+## Fragen zum Produktwissen stellen
+
+Fragen zu Produktkenntnissen beziehen sich auf Journey Optimizer B2B edition-Konzepte und Anleitungsinformationen. Einige Beispiele für Fragen zum Produktwissen:
+
+* Wie richte ich SMS-Provider-Konten ein?
+* Wie sende ich eine E-Mail in einer Journey?
+* Wie kann ich meinen E-Mail-Inhalt personalisieren?
+
+Um eine Produktfrage zu stellen, geben Sie sie in das Feld unten im Bedienfeld ein und drücken Sie die Eingabetaste. Beispiel: Sie müssen lernen, wie Sie eine Einkaufsgruppe in einem Journey verwenden. In diesem Fall geben Sie _Wie verwende ich eine Einkaufsgruppe in einem Journey?_ Nachdem Sie die Frage gesendet haben, fragt der KI-Assistent die Wissensdatenbank ab und generiert innerhalb von Sekunden eine Antwort.
+
+![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-ask-question.png){width="420"}
+
++++Beispielantwort anzeigen
+
+![Geben Sie eine Frage in das Textfeld ein](./assets/ai-assistant-product-answer.png){width="420"}
+
++++
+
+## Stellen von Fragen zu betrieblichen Insights
+
+Fragen zu betrieblichen Insights beziehen sich auf die Journey-Objekte in der Sandbox Ihres Unternehmens. Sie können Fragen zu operativen Artefakten stellen, z. B. Zielgruppen, Journey, Lösungsinteressen und Kaufgruppenvorlagen. Einige Beispiele für Fragen oder Eingabeaufforderungen zu betrieblichen Insights sind:
+
+* Wie viele lebende Journey habe ich in Adobe Journey Optimizer B2B edition?
+* Erstelle eine Liste aller geplanten Journeys
+* Wie viele Journey wurden in den letzten 7 Tagen erstellt?
+
+Stellen Sie sicher, dass Sie sich in einer aktiven Sandbox für den KI-Assistenten befinden, um eine ausreichende Antwort auf eine Frage zu Ihren operativen Einblicken zu liefern.
+
+>[!NOTE]
+>
+>Die einzigen Adobe Journey Optimizer B2B edition-Objekte, die vom KI-Assistenten für operative Insights unterstützt werden, sind in der Tabelle [Domain für operative Insights](./ai-assistant-overview.md#operational-insights) aufgeführt. Es kann nur für die Sandbox auf Daten zugreifen, in der Sie sich derzeit befinden.
+
+Um eine Frage zu operativen Einblicken zu stellen, geben Sie sie in das Feld am unteren Rand des Bedienfelds ein und drücken Sie die Eingabetaste. Beispiel: Sie möchten mehr über die Zielgruppen für Ihre Sandbox erfahren. Geben Sie in diesem Fall &quot;_Zielgruppen gibt es?_ ein.  Der KI-Assistent listet die Zielgruppen in Ihrer Sandbox auf und erläutert, wie er die Antwort berechnet hat. In der folgenden Beispielantwort stellt der KI-Assistent einen Link bereit, über den auf die Zielgruppen in der Benutzeroberfläche zugegriffen werden kann, und beschreibt die Schritte, die zum Identifizieren der Anzahl der Zielgruppen unternommen wurden.
+
+![Antwort des KI-Assistenten für wie viele Zielgruppen](./assets/ai-assistant-insights-answer.png){width="420"}
+
+Sie können Ihrer anfänglichen Anfrage folgen, indem Sie nach einer Liste von Artefakten fragen, z. B. _Listen Sie die fünf wichtigsten nach Größe auf_. Der KI-Assistent gibt eine Tabelle mit den fünf wichtigsten Elementen in der Abfrage und den entsprechenden IDs zurück. Klicken Sie auf _Herunterladen_-Symbol ![Herunterladen](../assets/do-not-localize/icon-download.svg) , um die Tabelle als CSV-Datei herunterzuladen.
+
+![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-query.png){width="420"}
+
+Um die gesamte Tabelle im KI-Assistenten anzuzeigen, klicken Sie auf das Symbol _Maximieren_ ( ![Maximieren-Symbol](../assets/do-not-localize/icon-maximize.svg) ). Klicken Sie in der erweiterten Tabellenansicht auf **[!UICONTROL CSV herunterladen]**, um die Informationen als CSV-Datei zu speichern.
+
+![Antwort des KI-Assistenten für eine Liste der Live-Journey ](./assets/ai-assistant-artifacts-maximize.png){width="600" zoomable="yes"}
+
+## Überprüfen von Antworten
+
+Die Chat-Oberfläche enthält Tools, mit denen Sie Antworten überprüfen und validieren können.
+
+### Quellen zum Produktwissen
+
+Nachdem Sie eine Antwort auf eine Produktfrage erhalten haben, wählen Sie **[!UICONTROL Quelle anzeigen]**, um die Zitate aus der Quelle für Produktwissen anzuzeigen, die zum Generieren der Antwort des KI-Assistenten verwendet werden.
+
+Der KI-Assistent enthält Links zur Dokumentation, die die ursprüngliche Antwort bestätigt. Außerdem werden der Antwort Fußnoten hinzugefügt, um die spezifischen Teile der Antwort anzugeben, die auf die verknüpften Dokumentationsquellen verweisen.
+
+![Ergebnisse aus der Abfrage des KI-Assistenten](./assets/ai-assistant-product-answer-sources.png){width="420"}
+
+### Operative Insights-Quellen
+
+Nachdem Sie eine Antwort auf eine operative Insights-Frage erhalten haben, klicken Sie auf **[!UICONTROL Quelle anzeigen]** und wählen Sie dann **[!UICONTROL Quellabfrage anzeigen]** aus.
+
+Sie können jede Antwort im Zusammenhang mit Fragen zu operativen Einblicken mithilfe einer SQL-Abfrage überprüfen, die der KI-Assistent bereitstellt. Bei der Abfrage mit einer operativen Insights-Frage stellt der KI-Assistent eine SQL-Abfrage bereit. Sie können damit den Prozess überprüfen, der zur Berechnung der Antwort erforderlich war. Diese Quellabfrage dient nur zu Verifizierungszwecken und wird vom Abfrage-Service nicht unterstützt.
+
+![Ergebnisse aus der Abfrage des KI-Assistenten](./assets/ai-assistant-artifacts-query-source.png){width="550" zoomable="yes"}
+
+## Feedback geben
+
+Verwenden Sie die Symbole _Positive Bewertung_ ( ![Daumen hoch](../assets/do-not-localize/icon-thumb-up.svg) ) oder _Negative Bewertung_ ( ![Daumen runter](../assets/do-not-localize/icon-thumb-down.svg) ), um die Nützlichkeit und Qualität der Antwort zu bewerten. Füllen Sie entsprechend Ihren Erfahrungen das kurze Umfrageformular aus und klicken Sie auf **[!UICONTROL Senden]**. Die von Ihnen bereitgestellten Informationen werden verwendet, um Verbesserungen am KI-Assistenten vorzunehmen.
+
+Wenn Sie in der Antwort etwas Problematisches feststellen, klicken Sie auf das Symbol _Flag_ ( ![Flag-Symbol](../assets/do-not-localize/icon-flag.svg) ). Beschreiben Sie das Problem im Formular und klicken Sie auf **[!UICONTROL Senden]** um das Problem zu melden.
+
+![Antwort des KI-Assistenten - Feedback-Symbole](./assets/ai-assistant-response-feedback-icons.png){width="420"}
+
++++Formulare anzeigen
+
+>[!BEGINTABS]
+
+>[!TAB Daumen hoch]
+
+![KI-Assistentenantwort - Positives Feedback-Formular auflösen](./assets/ai-assistant-response-feedback-positive-form.png){width="600" zoomable="yes"}
+
+>[!TAB Daumen runter]
+
+![Antwort des KI-Assistenten - Negatives Feedback-Formular abblättern](./assets/ai-assistant-response-feedback-negative-form.png){width="600" zoomable="yes"}
+
+>[!TAB Markierung]
+
+![Antwort des KI-Assistenten - Feedback-Formular für Probleme kennzeichnen](./assets/ai-assistant-response-feedback-flagged-form.png){width="600" zoomable="yes"}
+
+>[!ENDTABS]
+
++++
