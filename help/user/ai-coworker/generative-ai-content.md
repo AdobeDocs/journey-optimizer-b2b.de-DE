@@ -9,23 +9,12 @@ nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 autotag-review: '2026-06-05T16:07:36.688Z'
 TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
-product_v2:
-  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
-feature_v2:
-  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
-  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+feature_v2: id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0bid: bef5003b-cad2-4f40-bdb2-a80426d52ef5id: e666e996-b2cf-4c45-8fc2-1c625212abab
+subfeature_v2: id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
 workflow-type: tm+mt
 source-wordcount: 2476
@@ -70,7 +59,7 @@ KI-Assistenten-Tools für die Inhaltserstellung werden von den folgenden Asset-T
 
 ## Allgemeine Richtlinien und Einschränkungen {#general-guidelines-and-limitations}
 
-Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/de/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
+Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
 
 Lesen Sie diese allgemeinen Richtlinien für die Verwendung von generativer KI für Inhalte in [!DNL Journey Optimizer B2B Edition]:
 
