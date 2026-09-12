@@ -1,10 +1,11 @@
 ---
-title: Generative KI für Inhalte
+title: Generative KI für Content
 description: Erfahren Sie, wie Sie personalisierte E-Mails und Landingpages mit generativer KI in  [!DNL Journey Optimizer B2B Edition] erstellen, einschließlich Best Practices für die Eingabeaufforderung.
 feature: AI Assistant, Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
+nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
 autotag-review: '2026-06-05T16:07:36.688Z'
 TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
@@ -25,14 +26,14 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 37%
 
 ---
 
-# Generative KI für Inhalte {#generative-ai-content}
+# Generative KI für Content {#generative-ai-content}
 
 >[!CONTEXTUALHELP]
 >id="ajo_b2b_ai-generation-settings"
@@ -48,7 +49,7 @@ ht-degree: 37%
 >id="ajo_b2b_ai-generation-start"
 >title="Bedingungen der generativen KI in Adobe"
 >abstract="Für den Zugriff auf diese Funktion ist Ihre Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud erforderlich. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für die generative KI von Adobe"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für generative KI von Adobe"
 
 Die generative KI für Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] basiert auf Microsoft Azure OpenAI und Adobe Firefly und bietet proaktive Vorschläge für Inhaltsvarianten für Text und Bilder. Optimieren Sie die Wirkung Ihrer Inhalte, indem Sie mit verschiedenen Haupttiteln und -bildern experimentieren.
 
@@ -101,7 +102,7 @@ Um die besten Ergebnisse mit den generierten Inhalten zu erzielen, sollten Sie d
 | **C – Kontext** | Hintergrund zur Kampagne, zum Produkt oder zur Situation | Bietet Verständnis für das Gesamtbild |
 | **O – Ziel** | Ihr spezifisches Marketing-Ziel | Gibt an, was mit dem Inhalt erreicht werden soll |
 | **S – Stil** | Gewünschte Art der Kommunikation | Legt den Ansatz fest |
-| **T – Ton** | Die Emotion von Stil und Sprache | Gestaltet das Gefühl Ihrer Nachricht |
+| **T – Ton** | Emotionaler Stil und Tonfall | Gestaltet das Gefühl Ihrer Nachricht |
 | **A – Zielgruppe** | Die Audience, auf die Sie abzielen | Stellt sicher, dass die Botschaft bei den richtigen Menschen Anklang findet |
 | **R – Anforderungen** | Spezifische Einschränkungen oder unverzichtbare Komponenten | Definiert Grenzen und kritische Elemente |
 
@@ -123,7 +124,7 @@ Um die besten Ergebnisse mit den generierten Inhalten zu erzielen, sollten Sie d
 <li>Scharf zwischen neuen und vorhandenen Inhalten trennen
 <li>Fokus auf die Dokumentverwendung mit spezifischer Extraktionsanleitung
 <li>Auswahl für Ton, Strategie und Gebietsschema treffen
-<li>Marketing-Ziele auf die Funktionalität der Inhaltstypen abstimmen
+<li>Abstimmen von Marketing-Zielen auf die Funktionen der Content-Typen
 <li>Mehrere Varianten für A/B-Tests generieren</ul>
 </td>
 <td>
@@ -137,7 +138,7 @@ Um die besten Ergebnisse mit den generierten Inhalten zu erzielen, sollten Sie d
 </tbody>
 </table>
 
-### In Prompts nicht unterstützte Inhalte
+### In Prompts nicht unterstützter Content
 
 >[!TIP]
 >
@@ -368,13 +369,13 @@ Ihre Kommunikationsstrategie bestimmt, wie Sie Ihre Botschaft präsentieren, um 
 | **Strategie** | **Geeignet für** | **Nachrichtenstil** | **Beispiele** |
 | ------------ | ------------ | ------------------- | ------------ |
 | **Dringlich** | Zeitkritische Angebote, Fristen, sofortiges Handeln | Erstellt unmittelbaren Druck durch zeitbasierte Sprache | <li>„Jetzt handeln: Angebot läuft um Mitternacht ab“ <li>„Melden Sie sich noch heute an, bevor sich die Plätze füllen.“ <li>„Der 48-Stunden-Flash-Verkauf beginnt jetzt“ |
-| **FOMO (Angst, etwas zu verpassen)** | Zeitlich begrenzte Angebote, Veranstaltungen, exklusiver Zugriff | Verwendet Signale, die Dringlichkeit, begrenzte Stückzahlen und Zeitdruck vermitteln | <li>„Nur noch 24 Stunden! Limitierte Lagerbestände mit 40% Rabatt“ <li>„Letzte Chance: Early Bird Preise enden morgen“ <li>„Nur noch 100 Beta-Spots“ |
+| **FOMO (Angst, etwas zu verpassen)** | Zeitlich begrenzte Angebote, Ereignisse, exklusiver Zugriff | Verwendet Signale, die Dringlichkeit, begrenzte Stückzahlen und Zeitdruck vermitteln | <li>„Nur noch 24 Stunden! Limitierte Lagerbestände mit 40% Rabatt“ <li>„Letzte Chance: Early Bird Preise enden morgen“ <li>„Nur noch 100 Beta-Spots“ |
 | **Social Proof** | Vertrauensbildung, Erfahrungsberichte, beliebte Produkte | Nutzt die Erfahrungen und Bewertungen anderer Benutzerinnen und Benutzer | <li>„Nehmen Sie an mehr als 50.000 zufriedenen Kunden teil“ <li>„Bewertet mit 4,9/5 Sternen von Branchenexperten“ <li>„Vertrauenswürdig durch Fortune 500-Unternehmen“ |
 | **Begrenzte Stückzahlen** | Begrenzter Bestand, exklusive Versionen, stark nachgefragte Artikel | Betont begrenzte Verfügbarkeit und Exklusivität | <li>„Nur noch 5 auf Lager“ <li>„Limitierte Auflage: 100 Stück verfügbar“ <li>„Exklusive Version: Wer zuerst kommt, mahlt zuerst“ |
 | **Incentive** | Promotions, Prämienprogramme, Sonderangebote | Hebt konkrete Vorteile und Prämien hervor | <li>„Erhalten Sie 20 % Rabatt auf Ihre erste Bestellung“ <li>„An diesem Wochenende doppelte Punkte sammeln“ <li>„Kostenloser Versand bei Bestellungen über 50 $&quot; |
 | **Exklusivität** | Premium-Produkte, VIP-Erlebnisse, Angebote nur für Mitglieder | Verwendet Premium-Positionierung und Sprache für speziellen Zugang | <li>„Exklusive Einladung zu einer privaten Vorschau“ <li>„Elite-Mitgliedschaft entsperrt erweiterte Analysen“ <li>„Werden Sie Mitglied bei ausgewählten Fortune 500-Unternehmen, die bereits mit uns arbeiten“ |
-| **Gamification** | Interaktionskampagnen, Treueprogramme, interaktive Inhalte | Verwendet Spielmechanik und auf Erfolge bezogene Sprache | <li>„Entsperren Sie Ihre nächste Belohnungsstufe“ <li>„Challenges erledigen, um Abzeichen zu erwerben“ <li>„Besteige die Rangliste für exklusive Preise“ |
-| **Information** | Bildung, Forschung, komplexe Produkte, Innovationen | Verwendet Fakten, Daten, Erkenntnisse und Erklärungen | <li>„5 Erkenntnisse aus der Analyse von über 10.000 Interaktionen“ <li>„Neue Forschung zeigt 3 bahnbrechende Ansätze“ <li>„Vollständige Anleitung zur Implementierung von KI im Marketing“ |
+| **Gamification** | Interaktionskampagnen, Treueprogramme, interaktiver Content | Verwendet Spielmechanik und auf Erfolge bezogene Sprache | <li>„Entsperren Sie Ihre nächste Belohnungsstufe“ <li>„Challenges erledigen, um Abzeichen zu erwerben“ <li>„Besteige die Rangliste für exklusive Preise“ |
+| **Information** | Bildung, Forschung, komplexe Produkte, Thought Leadership | Verwendet Fakten, Daten, Erkenntnisse und Erklärungen | <li>„5 Erkenntnisse aus der Analyse von über 10.000 Interaktionen“ <li>„Neue Forschung zeigt 3 bahnbrechende Ansätze“ <li>„Vollständige Anleitung zur Implementierung von KI im Marketing“ |
 | **Bildung und Erkenntnisse** | Lerninhalte, Branchen-Trends, Best Practices | Bietet wertvolles Wissen und umsetzbare Erkenntnisse | <li>„Lernen Sie fortschrittliche Techniken mit einem Expertenführer kennen“ <li>„Entdecken Sie 7 Strategien, die Top-Marketing-Experten verwenden“ <li>„Erfahren Sie in fünf Schritten, wie Sie Ihren Workflow optimieren können“ |
 
 ### Festlegen des passenden Tons {#tone}
@@ -387,16 +388,16 @@ Der Ton bestimmt, wie Ihre Zielgruppe Ihre Nachricht wahrnimmt und darauf reagie
 | ---- | ----- | ----- |
 | Professionell | B2B-Kommunikation, formelle Ankündigungen | „Wir freuen uns, unsere strategische Partnerschaft mit … bekannt geben zu können“ |
 | Einfühlsam | Kunden-Support, sensible Themen | „Wir verstehen, wie frustrierend dieses Thema für Sie sein muss…“ |
-| Humorvoll | Ansprechende Kampagnen, heitere Inhalte | „Warnung: Kann zu erheblichen Produktivitätssteigerungen führen!“ |
-| Spannend | Produkteinführungen, Veranstaltungswerbung | „Das ist der Moment, auf den du gewartet hast!“ |
+| Humorvoll | Ansprechende Kampagnen, heiterer Content | „Warnung: Kann zu erheblichen Produktivitätssteigerungen führen!“ |
+| Spannend | Produkteinführungen, Ereignis-Promotions | „Das ist der Moment, auf den du gewartet hast!“ |
 | Inspirierend | Motivationskampagnen, Markenzweck | „Gemeinsam können wir die Welt verändern …“ |
 | Überzeugend | Verkaufskampagnen, Konversionen | „Verpassen Sie nicht diese befristete Gelegenheit, um …“ |
 | Freundlich | Kundeninteraktion, Begrüßungsnachrichten | „Schön, dass du hier bei uns bist!“ |
 | Förmlich | Rechtliche Kommunikation, amtliche Mitteilungen | „Dies ist eine Benachrichtigung über die folgenden Änderungen…“ |
 | Entschuldigend | Service-Wiederherstellung, Problembehebung | „Bodea entschuldigt sich aufrichtig für jegliche Unannehmlichkeiten…“ |
 | Bestimmt | Inhalt für Führungskräfte, verbindliches Messaging | „Das müssen Sie jetzt tun …“ |
-| Storytelling | Markenerzählungen, emotionale Verknüpfungen | „Alles fing mit einer einfachen Frage an …“ |
-| Dialogorientiert | Nurturing-Kampagnen, Aufbau von Beziehungen | „Sprechen wir darüber, wie dieses Programm Ihnen helfen kann…“ |
+| Storytelling | Markenerzählungen, emotionale Verbindungen | „Alles fing mit einer einfachen Frage an …“ |
+| Dialogorientiert | Nurture-Kampagnen, Beziehungsaufbau | „Sprechen wir darüber, wie dieses Programm Ihnen helfen kann…“ |
 
 ## Optimierter Referenzinhalt {#reference-content}
 

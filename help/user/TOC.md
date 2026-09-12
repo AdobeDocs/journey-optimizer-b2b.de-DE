@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: cdc9cc5c55d961d1f685c32a5e55f755ad1cdd57
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 86%
 
 ---
@@ -28,14 +28,22 @@ ht-degree: 86%
   + [Onboarding von Benutzern](./start/get-started.md)
   + [Anmeldung und Startseite](home-page.md)
 + KI-Funktionen {#ai-assistant}
-  + [Überblick](./ai-assistant/ai-assistant-overview.md)
-  + [Aktivieren des Zugriffs auf den KI-Assistenten](./ai-assistant/enable-ai-assistant-access.md)
-  + [Anleitung zu Fragen](./ai-assistant/question-guidance.md)
-  + [Chat-Oberfläche](./ai-assistant/use-ai-assistant.md)
-  + [Generative KI für Inhalte](./ai-assistant/generative-ai-content.md)
+  + [Übersicht](./ai-coworker/ai-assistant-overview.md)
+  + [Aktivieren des Zugriffs auf den KI-Assistenten](./ai-coworker/enable-ai-assistant-access.md)
+  + [Anleitung zu Fragen](./ai-coworker/question-guidance.md)
+  + [Chat-Oberfläche](./ai-coworker/use-ai-assistant.md)
+  + [Generative KI für Content](./ai-coworker/generative-ai-content.md)
+  + [Absichtswerte](./ai-coworker/intent-scores.md)
   + Agentinnen bzw. Agenten {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
     + [Journey Agent B2B](./agents/journey-agent.md)
++ Intelligente Dashboards {#dashboards}
+  + [Insights-Dashboard](./dashboards/intelligent-dashboard.md)
+  + [Interaktions-Dashboard](./dashboards/engagement-dashboard.md)
+  + [Web-Interaktions-Dashboard](./dashboards/web-engagement-dashboard.md)
+  + [E-Mail-Leistungsbericht](./dashboards/email-performance-dashboard.md)
+  + [Dashboard für Einkaufsgruppen](./dashboards/buying-groups-dashboard.md)
+  + [Journey-Dashboard](./dashboards/journeys-dashboard.md)
 + Journey-Verwaltung {#journeys}
   + [Journeys von Konten und Personen](./journeys/journeys-overview.md)
   + [Erstellen und Veröffentlichen einer Journey&#x200B;](./journeys/create-publish-journey.md)
@@ -93,7 +101,7 @@ ht-degree: 86%
     + [Exportieren von Konten](./audiences/account-list-export.md)
     + [In-CRM-Einblicke](./buying-groups/incrm-insights.md)
   + Kontolisten {#account-lists}
-    + [Überblick](./accounts/account-lists.md)
+    + [Übersicht](./accounts/account-lists.md)
     + [Verwendung in Journey](./accounts/account-lists-journeys.md)
   + Vertriebserlebnis {#sales-experience}
     + [Kontodetails](./accounts/account-details.md)
@@ -109,7 +117,7 @@ ht-degree: 86%
       + [Spam-Bericht](./content/email-spam-report.md)
     + [E-Mail-Zusammenarbeit](./content/email-collaboration-tools.md)
   + Assets {#assets}
-    + [Überblick](./content/assets-overview.md)
+    + [Übersicht](./content/assets-overview.md)
     + [C2PA-Metadaten](./content/c2pa-metadata.md)
     + Interne Assets {#internal-dam}
       + [Arbeiten mit internen Assets](./content/internal-image-assets.md)
@@ -129,10 +137,10 @@ ht-degree: 86%
     + [Überblick](./content/fragments.md)
     + [Erstellen von Fragmenten](./content/fragment-authoring.md)
   + Formulare {#forms}
-    + [Überblick](./content/forms.md)
+    + [Übersicht](./content/forms.md)
     + [Formular-Design](./content/form-design.md)
   + Landingpages {#landing-pages}
-    + [Überblick](./content/landing-pages.md)
+    + [Übersicht](./content/landing-pages.md)
     + [Erstellen und Veröffentlichen](./content/landing-pages-create-publish.md)
     + [Landingpage-Design](./content/landing-page-design.md)
     + [KI-Assistent für Landingpage-Inhalte](./content/ai-assistant-landing-pages.md)
@@ -153,13 +161,6 @@ ht-degree: 86%
     + [Personalisierungssyntax](./content/personalization-syntax.md)
     + [Liste der Hilfsfunktionen](./content/personalization-helper-functions.md)
     + [Script Builder (Beta)](./content/script-builder.md)
-+ Intelligente Dashboards {#dashboards}
-  + [Insights-Dashboard](./dashboards/intelligent-dashboard.md)
-  + [Interaktions-Dashboard](./dashboards/engagement-dashboard.md)
-  + [Web-Interaktions-Dashboard](./dashboards/web-engagement-dashboard.md)
-  + [E-Mail-Leistungsbericht](./dashboards/email-performance-dashboard.md)
-  + [Dashboard für Einkaufsgruppen](./dashboards/buying-groups-dashboard.md)
-  + [Journey-Dashboard](./dashboards/journeys-dashboard.md)
 + Administration {#admin}
   + [Governance](./admin/governance.md)
   + [Datenschutzverwaltung](./admin/privacy-management.md)

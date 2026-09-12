@@ -1,5 +1,5 @@
 ---
-title: Absichtsdaten
+title: Konfiguration der Absichtsdaten
 description: Konfigurieren Sie Intent-Daten mit Keyword-Mapping, um Kundeninteressen und Kaufsignale für Account-basiertes Marketing in Journey Optimizer B2B edition vorherzusagen.
 feature: Setup, Intent, Account Insights
 roles: Admin
@@ -16,23 +16,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 autotag-review: 2026-03-27T23:18:01.223Z
 TQID: https://experienceleague.adobe.com/uQMmGedQfU8IPyoHRJzYHnYjIl7jxlG8hj8hhSBrwR4
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: 578
 ht-degree: 1%
 
 ---
 
-# Absichtsdaten
+# Konfiguration der Absichtsdaten
 
-In Journey Optimizer B2B edition sagt das Modell der Absichtserkennung basierend auf der Aktivität eines Leads eine Lösung/ein Produkt von Interesse mit ausreichend hoher Zuverlässigkeit voraus. Außerdem werden die Aktivitäten anderer Account-Co-Mitglieder sowie getaggte Inhalte genutzt. Die Absicht einer Person kann als die Wahrscheinlichkeit interpretiert werden, dass sie Interesse an einem Produkt hat.
+[!DNL Adobe Journey Optimizer B2B Edition] prognostiziert das Modell der Absichtserkennung eine Lösung/ein Produkt von Interesse mit ausreichend hoher Konfidenz, basierend auf der Aktivität eines Leads. Außerdem werden die Aktivitäten anderer Account-Co-Mitglieder sowie getaggte Inhalte genutzt. Die Absicht einer Person kann als die Wahrscheinlichkeit interpretiert werden, dass sie Interesse an einem Produkt hat.
 
-* Absichtsebenen - Verfügbar auf bekannter Lead-, Konto- und Einkaufsgruppenebene.
-* Arten von Intent-Signalen - Schlüsselwörter, Produkt und Lösung
+Weitere Informationen zur Berechnung des Intent-Scores finden Sie unter [_Intent-Scores_](../ai-coworker/intent-scores.md).
 
 Die Absichtsdaten werden auf der Seite [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Kontodetails_, &#x200B;](../accounts/account-details.md), [_Einkaufsgruppendetails_ und &#x200B;](../buying-groups/buying-group-details.md) [_Personendetails_ verwendet](../accounts/person-details.md).
-
-![Intent-Datenvisualisierung](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
 ## Vorbereiten der Intent-Mapping-Daten
 

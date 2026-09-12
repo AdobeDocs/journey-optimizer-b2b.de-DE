@@ -19,7 +19,7 @@ topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
 workflow-type: tm+mt
 source-wordcount: 2070
 ht-degree: 19%
@@ -169,7 +169,7 @@ Um Ihre Markenrichtlinien zu erstellen und zu definieren, können Sie entweder d
 
 Wenn Ihre Marke einen vollständigen Satz von Definitionen enthält und Ihre Anforderungen erfüllt, klicken Sie auf **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinien für die Ausrichtung und Erstellung von Inhalten verfügbar zu machen.
 
-Veröffentlichte Marken sind über die Option **[!UICONTROL Marke]** im KI-[Markenausrichtungswert](./content-evaluation.md#brand-alignment-score) und [Tools zur Inhaltserstellung](../ai-assistant/generative-ai-content.md) zugänglich.
+Veröffentlichte Marken sind über die Option **[!UICONTROL Marke]** im KI-[Markenausrichtungswert](./content-evaluation.md#brand-alignment-score) und [Tools zur Inhaltserstellung](../ai-coworker/generative-ai-content.md) zugänglich.
 
 ![Markenoptionen für Inhalte](./assets/brand-menu-content-ai-tools.png){width="300"}
 
@@ -211,13 +211,13 @@ Verwenden Sie die **[!UICONTROL Über die Marke]**, um die zentrale Identität I
 
      ![Über die Marke - Leitprinzipien - Kernwert hinzufügen](./assets/brands-about-guiding-principles-add-core-values.png){width="500" zoomable="yes"}
 
-      * **[!UICONTROL Wert]** - Geben Sie den Namen für den Kern-Markenwert ein.
+     * **[!UICONTROL Wert]** - Geben Sie den Namen für den Kern-Markenwert ein.
 
-      * **[!UICONTROL Beschreibung]** - Erklären Sie, was dieser Wert für Ihre Marke bedeutet.
+     * **[!UICONTROL Beschreibung]** - Erklären Sie, was dieser Wert für Ihre Marke bedeutet.
 
-      * **[!UICONTROL Verhaltensweisen]** - Beschreiben Sie die Aktionen oder Einstellungen, die diesen Wert in der Praxis widerspiegeln.
+     * **[!UICONTROL Verhaltensweisen]** - Beschreiben Sie die Aktionen oder Einstellungen, die diesen Wert in der Praxis widerspiegeln.
 
-      * **[!UICONTROL Manifestationen]** - Geben Sie Beispiele, wie dieser Wert in der realen Markendarstellung ausgedrückt wird.
+     * **[!UICONTROL Manifestationen]** - Geben Sie Beispiele, wie dieser Wert in der realen Markendarstellung ausgedrückt wird.
 
    * Um einen Kernwert zu ändern oder zu löschen, klicken Sie auf das Symbol _Bearbeiten_ ( ![Bearbeiten-Symbol](../assets/do-not-localize/icon-edit.svg) ), um einen Kernmarkenwert zu aktualisieren oder zu löschen.
 
@@ -241,7 +241,7 @@ Sie können mit der Verfeinerung der [Schreibstil](#writing-style) oder [visuell
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Ausrichtungswert für den Schreibstil"
->abstract="Im Abschnitt „Schreibstil“ werden Standards für Sprache, Formatierung und Struktur definiert, um klare, konsistente Inhalte sicherzustellen. Der Ausrichtungswert (von hoch bis niedrig) zeigt, inwieweit Ihr Inhalt diesen Richtlinien entspricht, und hebt Bereiche hervor, die verbessert werden müssen."
+>abstract="Im Abschnitt „Schreibstil“ werden Standards für Sprache, Formatierung und Struktur definiert, um klaren, konsistenten Content sicherzustellen. Der Ausrichtungswert (von hoch bis niedrig) zeigt, inwieweit Ihr Content diesen Richtlinien entspricht, und hebt Bereiche hervor, die verbessert werden müssen."
 
 Die _[!UICONTROL Schreibstil]_-Definitionen beschreiben die Standards für das Schreiben von Inhalten und beschreiben, wie Sprache, Formatierung und Struktur verwendet werden sollten, um Klarheit, Kohärenz und Konsistenz über alle Materialien hinweg zu gewährleisten.
 
@@ -284,8 +284,8 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
->title="Ausrichtungswert für den visuellen Inhalt"
->abstract="Der Ausrichtungswert für den visuellen Inhalt gibt an, inwieweit Ihr Inhalt Ihren konfigurierten Markenrichtlinien entspricht. Anhand dieses Werts (von hoch bis niedrig) können Sie die Ausrichtung auf einen Blick beurteilen. Sehen Sie sich die verschiedenen Kategorien an, um Bereiche mit Verbesserungspotenzial zu ermitteln und Elemente zu identifizieren, die möglicherweise nicht markenkonform sind."
+>title="Ausrichtungswert für visuellen Content"
+>abstract="Der Ausrichtungswert für visuellen Content gibt an, inwieweit Ihr Content Ihren konfigurierten Markenrichtlinien entspricht. Anhand dieses Werts (von hoch bis niedrig) können Sie die Ausrichtung auf einen Blick beurteilen. Sehen Sie sich die verschiedenen Kategorien an, um Bereiche mit Verbesserungspotenzial zu ermitteln und Elemente zu identifizieren, die möglicherweise nicht markenkonform sind."
 
 Die _[!UICONTROL Visual Content]_-Definitionen beschreiben die Standards für Bild und Design und erläutern die Spezifikationen, die für die Aufrechterhaltung eines einheitlichen und konsistenten Markenlooks erforderlich sind.
 
