@@ -1,0 +1,336 @@
+---
+title: Inhalt der Landingpage generieren
+description: 'Generieren von Landingpage-Inhalten : Erstellen Sie Seitentext und Bilder mit Ihren Referenz-Assets und der Zielgruppenbestimmung für Käufergruppen in Journey Optimizer B2B edition.'
+feature: Generative AI, Landing Pages, Content
+topic: Artificial Intelligence
+role: User
+level: Beginner
+exl-id: d1e818fb-7450-4c13-bc6c-24da5fb71285
+autotag-review: '2026-08-06T18:46:13.525Z'
+TQID: 'https://experienceleague.adobe.com/TopyHYvXF86q4VFnuV2lDP007QpQJbnRWweZioXa7d0'
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+feature_v2:
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: e4bd5f48-22a4-465d-a046-5ffb52e27856
+    internal-label: Content production
+source-git-commit: d8451ab306de70decd11909676d6d9aaf667d466
+workflow-type: tm+mt
+source-wordcount: '2599'
+ht-degree: 1%
+---
+# Landingpage-Inhalte generieren
+
+Die generative KI für Landingpage-Inhalte in [!DNL Adobe Journey Optimizer B2B Edition], unterstützt von Microsoft Azure OpenAI und Adobe Firefly, revolutioniert die Art und Weise, wie Marketing-Experten professionelle und markenkonsistente Landingpage-Inhalte erstellen. Optimieren Sie die Wirkung Ihrer Inhalte, indem Sie mit verschiedenen Haupttiteln und -bildern experimentieren. Mit fortschrittlichen generativen KI-Modellen und einem tiefen Verständnis der Markenrichtlinien können diese Tools automatisch personalisierte, ansprechende und effektive Inhalte generieren. Diese generativen KI-Tools machen die Erstellung und Ausführung von Kampagnen und Programmen intuitiver, einfacher und effizienter. Durch das Hinzufügen dieser Funktion zu Ihren Workflows können Sie Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
+
+Sie können vollständige Inhaltserlebnisse für Ihre Landingpages generieren, einschließlich Text und Bildern. Mit dieser robusten Funktion können Sie ansprechende, markeninterne Inhalte erstellen, die mit Ihrer Audience verbunden sind.
+
+>[!NOTE]
+>
+>Diese Funktion ist in der Beta-Version verfügbar und kann ohne vorherige Ankündigung geändert werden.
+
+>[!IMPORTANT]
+>
+>Um auf diese Funktionen in [!DNL Journey Optimizer B2B Edition] zugreifen zu können, benötigen Sie die Berechtigung _[!UICONTROL KI-Assistent]_ > _[!UICONTROL Inhalt generieren]_. Weitere Informationen dazu, wie ein Produktadministrator Funktionsberechtigungen erteilen kann, finden Sie unter [Rollen für Produktberechtigungen bearbeiten](../admin/user-management.md#edit-roles-for-product-permissions).
+
+## Richtlinien und Einschränkungen
+
+Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die [Richtlinien und Einschränkungen](./generative-ai-content.md#general-guidelines-and-limitations). [Benutzerzustimmung](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} ist auch eine Akzeptanz erforderlich, bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+
+Um die Transparenz bei generativer KI zu fördern, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} beim Herunterladen oder Exportieren auf Firefly-generierte Assets an.
+
+Die folgenden Einschränkungen und Richtlinien gelten für Funktionen zur Inhaltserstellung, die für Landingpages in [!DNL Journey Optimizer B2B Edition] verwendet werden:
+
+* Englisch ist die einzige unterstützte Sprache.
+* Der generierte Inhalt ist möglicherweise nicht korrekt. Geben Sie Ihr Feedback, damit Adobe-Techniker die Modelle verfeinern können.
+* Sie können mehrere Inhaltsreferenz-Assets hochladen, aber nur eines für eine bestimmte Generation verwenden.
+* Verwenden Sie eine markenspezifische oder benutzerdefinierte Vorlage zum Generieren von Inhalten für eine vollständige Landingpage. Es werden Landingpage-Vorlagen mit bis zu 8-10 Bildern empfohlen.
+* Achten Sie bei der Auswahl generierter Varianten darauf, problematische Ausgaben mit den Symbolen „Daumen hoch“, „Daumen runter“ oder „Flag“ zu melden.
+
+## Eingabe und Einstellungen für die Inhaltserstellung
+
+Sie können vollständige Inhalte für eine Landingpage oder für ausgewählte Komponenten auf der Seite generieren. Geben Sie bei Verwendung dieser Tools Eingabe, Eingabeaufforderungen, Referenzinhalte und Einstellungen für Text und Bilder an.
+
+### Prompts
+
+Verwenden Sie klar definierte Eingabeaufforderungen für das generative KI-Modell, um die Interpretation präzise durchzuführen. Das von Ihnen angegebene Marketing-Ziel/die von Ihnen angegebene Eingabeaufforderung wirkt sich auf die Qualität des generierten Inhalts aus.
+
+![Aufforderungsfeld](./assets/gen-ai-prompt.png){width="320"}
+
+Weitere Informationen zum Erstellen effektiver Eingabeaufforderungen finden Sie unter _[Best Practices für Eingabeaufforderungen](./generative-ai-content.md#generative-ai-prompting-guide)_.
+
+>[!BEGINSHADEBOX]
+
+**Eingabeaufforderungsbibliothek**
+
+Eine effektive Eingabeaufforderung ist für die Erstellung des bestmöglichen Inhalts unerlässlich. Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, klicken Sie auf das Symbol _Bibliothek auffordern_ ![Bibliothek auffordern](../assets/do-not-localize/icon-library.svg), um auf eine Bibliothek mit Eingabeaufforderungsideen zuzugreifen, die nach Zielen organisiert sind. Geben Sie Text in das Suchfeld ein, um eine Eingabeaufforderung basierend auf einer Keyword-Zeichenfolge zu finden.
+
+![Inhalt generieren - Zugriff auf die Eingabeaufforderungsbibliothek](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
+
+Wählen Sie die Eingabeaufforderung aus, die Ihren Zielen am besten entspricht, und klicken Sie auf **[!UICONTROL Diese Eingabeaufforderung ausprobieren]**. Ersetzen Sie im _[!UICONTROL Eingabeaufforderung]_ die Platzhalter (z. B. `[Key Feature/Information]`) durch Ihre Marken-, Angebots-, Kampagnen- und Anwendungsfalldetails.
+
+>[!ENDSHADEBOX]
+
+### Texteinstellungen
+
+Erweitern Sie die **[!UICONTROL Texteinstellungen]** im rechten Bereich und legen Sie die Optionen für den generierten Text fest.
+
+* **[!UICONTROL Einkaufsgruppe]** - Wählen Sie die [Einkaufsgruppenrolle](../buying-groups/buying-groups-role-templates.md) aus, die für das Targeting Ihrer Nachrichten verwendet werden soll.
+* **[!UICONTROL Marketing-Journey]**-Schritt: Wählen Sie den [Gruppen-](../buying-groups/buying-group-stages.md)) aus, der für das Targeting der Nachricht verwendet werden soll.
+* **[!UICONTROL Kommunikationsstrategie]** - Wählen Sie den am besten geeigneten Kommunikationsstil für Ihren generierten Text.
+* **[!UICONTROL Language]** - Wählen Sie die Sprache Ihrer generierten Inhalte aus.
+* **[!UICONTROL Tone]** - Der Ton, der bei Ihrer Zielgruppe Anklang findet. Sie können die Nachricht zum Beispiel so anpassen, dass sie informativ, verspielt oder überzeugend klingt.
+
+![Bedienfeld Texteinstellungen mit Optionen für Kauf-Gruppen, Marketing-Journey, Kommunikationsstrategie, Sprache und Ton](./assets/gen-ai-text-settings.png){width="350" zoomable="yes"}
+
+Klicken Sie auf den Pfeil nach links, um zur Hauptseite (_[!UICONTROL )]_.
+
+### Bildeinstellungen
+
+Um Bilder in Ihren generierten Inhalt aufzunehmen, erweitern Sie **[!UICONTROL Bereich „Bildeinstellungen]** und legen Sie die Optionen fest.
+
+Das System deaktiviert standardmäßig die Option **[!UICONTROL Generieren von Bildern mithilfe]** KI . Aktivieren Sie diese Funktion und legen Sie die folgenden Optionen fest, um generierte Bilder in die vorgeschlagenen Inhaltsvarianten aufzunehmen:
+
+* **[!UICONTROL Generatives Modell]**: Wählen Sie aus dem einsatzbereiten, von Adobe bereitgestellten Modell, dem Partnermodell für spezielle Funktionen oder konfigurierten benutzerdefinierten Modellen, die für Ihre Marken-Assets trainiert wurden. Weitere Informationen zu generativen Modellen finden Sie unter _[Generative KI-Modelle für die Markenausrichtung](generative-ai-models.md)_.
+* **[!UICONTROL Seitenverhältnis]**: Wenn eine Bildkomponente ausgewählt wird, bestimmt diese Einstellung die Breite und Höhe des Assets. Wählen Sie aus gängigen Verhältnissen wie 16:9, 4:3, 3:2 oder 1:1 oder geben Sie eine benutzerdefinierte Größe ein.
+* **[!UICONTROL Inhaltstyp]**: Der Typ kategorisiert die Art des visuellen Elements, wobei zwischen verschiedenen Formen visueller Darstellung wie Fotos, Grafiken oder Kunst unterschieden wird.
+* **[!UICONTROL Visuelle Intensität]**: Kontrollieren Sie die Wirkung des Bildes, indem Sie seine Intensität anpassen. Eine niedrigere Einstellung (z. B. 2) erzeugt ein weicheres, zurückhaltenderes Erscheinungsbild, während eine höhere Einstellung (z. B. 10) das Bild lebendiger und visuell leistungsfähiger macht.
+* **[!UICONTROL Farbe und Ton]**: Das Gesamtbild der Farben innerhalb eines Bildes und die Stimmung oder Atmosphäre, die es vermittelt.
+* **[!UICONTROL Beleuchtung]**: Der für das Bild verwendete Beleuchtungsstil, der seine Atmosphäre formt und bestimmte Elemente hervorhebt.
+* **[!UICONTROL Komposition]**: Die Anordnung der Elemente innerhalb des Rahmens eines Bildes.
+
+![Bedienfeld Bildeinstellungen mit Optionen für generatives Modell, Inhaltstyp, visuelle Intensität, Farbe und Ton, Beleuchtung und Komposition](./assets/gen-ai-image-settings.png){width="350" zoomable="yes"}
+
+Klicken Sie auf den Pfeil nach links, um zur Hauptseite (_[!UICONTROL )]_.
+
+### Referenzinhalt
+
+Laden Sie Referenz-Content-Assets hoch, um genaue, markeninterne Inhalte zu generieren. Andernfalls basiert der generierte Inhalt auf öffentlich verfügbaren Informationen. Referenzinhalte dienen als Quelle für die Inhaltserstellung und Bildempfehlungen. Richtlinien und Best Practices finden Sie unter _[Optimierte Referenzinhalte](./generative-ai-content.md#reference-content)_.
+
+Klicken Sie in den **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Asset hinzuzufügen, das Inhalte enthält, die Sie für zusätzlichen Kontext verwenden möchten.
+
+![Datei hochladen, die als Referenzinhalt verwendet werden soll](./assets/gen-ai-reference-content-upload.png){width="350" zoomable="yes"}
+
+Die hochzuladende Datei kann die folgenden Formate aufweisen: PDF-, JPEG-, PNG- oder ZIP-Dateien (mit unterstützten Dateiformaten). Die maximale Größe für ein hochgeladenes Marken-Asset beträgt 50 MB. Größere Dateien oder eine große Anzahl von Bildern können funktionieren, aber das erhöht die Verarbeitungszeit.
+
+Wenn Sie eine zuvor hochgeladene Datei auswählen möchten, erweitern Sie die Liste **[!UICONTROL Hochgeladener Referenzinhalt]** und aktivieren Sie das Asset, das Sie für die Inhaltserstellung verwenden möchten.
+
+![Vorhandenen Referenzinhalt aktivieren, um ihn zu verwenden](./assets/gen-ai-reference-content-select.png){width="350" zoomable="yes"}
+
+## Verwenden der generativen KI-Tools {#gen-ai-tools}
+
+Um mit der Erstellung Ihres Inhalts zu beginnen, öffnen Sie den Inhaltseditor für die Landingpage und rufen Sie die Tools für generative KI in der äußeren Leiste des rechten Bedienfelds auf. Wählen Sie die _Inhalt generieren_ ( ![Umschalter Inhalt für Inhalt generieren](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) aus, um die Tools zur Inhaltserstellung anzuzeigen, die für die aktuelle Inhaltsauswahl verfügbar sind.
+
+Führen Sie die folgenden Schritte entsprechend dem Typ der Inhaltserstellung für Landingpages aus, die Sie verwenden möchten:
+
+>[!BEGINTABS]
+
+>[!TAB Vollständige Seite]
+
+Gehen Sie wie folgt vor, um eine vollständige Landingpage zu generieren, indem Sie eine vorhandene Vorlage verfeinern:
+
+1. Klicken [ nach dem Erstellen der ](./landing-pages-create-publish.md#create-landing-page) auf **[!UICONTROL Landingpage bearbeiten]**.
+
+1. Wählen Sie eine Vorlage.
+
+   Die vollständige Inhaltserstellung erfordert eine Vorlage. Dabei kann es sich um eine von Adobe bereitgestellte Standardvorlage oder um eine gespeicherte Vorlage handeln. Sie können auch die Option _[!UICONTROL HTML importieren]_ zum Importieren einer Vorlage verwenden.
+
+   Weitere Informationen zur Verwendung einer Landingpage-Vorlage finden Sie unter _[Auswählen einer Vorlage](./landing-pages-create-publish.md#select-template)_.
+
+1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Umschalter Inhalt für Inhalt generieren](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
+
+   ![Umschalter „Inhalt generieren“ im Design-Bereich der Landingpage](./assets/gen-ai-full-landing-page-ai-panel.png){width="600" zoomable="yes"}
+
+   Die Einstellungen auf der rechten Seite spiegeln die Generierungseinstellungen für die vollständige Landingpage wider.
+
+1. (Beta) Wählen Sie Ihre **[!UICONTROL Marke]**, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
+
+   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ ](./brands-overview.md) definieren.
+
+1. Geben **[!UICONTROL im Feld &quot;]**&quot; eine Beschreibung dessen ein, was generiert werden soll.
+
+   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompts), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
+
+   >[!TIP]
+   >
+   >Wenn Sie mit der Einholung von generierten Inhalten noch nicht vertraut sind, lesen Sie den Abschnitt _[Best Practices zur Einholung von](./generative-ai-content.md#generative-ai-prompting-guide)_&quot;.
+
+1. Um den generierten Inhalt anzupassen, füllen Sie die Einstellungen für Inhaltsanleitungen aus:
+
+   * [**[!UICONTROL Texteinstellungen]**](#text-settings) - Anleitung für den generierten Textinhalt.
+   * [**[!UICONTROL Bildeinstellungen]**](#image-settings) - Wenn Sie Bilder in den generierten Inhalt aufnehmen möchten, aktivieren Sie die Bildgenerierung und geben Sie eine Anleitung an.
+   * [**[!UICONTROL Referenzinhalt]**](#reference-content) - Stellen Sie das Inhalts-Asset bereit, das als Quelle für die Inhaltserstellung dient.
+
+1. Wenn Ihre Eingabeaufforderung und die Einstellungen fertig sind, klicken Sie auf **[!UICONTROL Generieren]**.
+
+1. Scrollen Sie im Bedienfeld Inhalt generieren nach unten und durchsuchen Sie die generierten Varianten, um zu bestimmen, welche am besten geeignet ist.
+
+   * Klicken Sie auf _Symbol_ Vollbild“ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld _[!UICONTROL Landingpage generieren]_ zu öffnen
+
+   * Verwenden Sie bei Bedarf die [Verfeinerungsaktionen](#refine-a-variation) um die Variante so anzupassen, dass sie genau Ihren Anforderungen entspricht.
+
+   * [Feedback senden](#submit-variation-feedback) für die generierten Varianten, indem Sie auf das Symbol _Daumen hoch_, _Daumen runter_ oder _Flag_ klicken und den Grund auswählen, der Ihr Feedback am besten zusammenfasst.
+
+1. Klicken Sie **[!UICONTROL Auswählen]**, um die Vorlageninhalte durch die ausgewählte Variante zu ersetzen und zum Design-Bereich der Landingpage zurückzukehren.
+
+   Sie können die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um den generierten Inhalt sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
+
+>[!TAB Nur Text]
+
+Gehen Sie wie folgt vor, um den Textinhalt für eine vorhandene Landingpage zu verfeinern oder zu verbessern:
+
+1. Wählen Sie im Design-Bereich der Landingpage eine _Text_-Komponente aus, um auf die spezifischen Inhalte zuzugreifen.
+
+1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Umschalter Inhalt für Inhalt generieren](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
+
+   ![Umschalter „Inhalt generieren“ im Design-Bereich der Landingpage - Textkomponente ausgewählt](./assets/gen-ai-landing-page-text-ai-panel.png){width="600" zoomable="yes"}
+
+   Die Einstellungen auf der rechten Seite spiegeln die Einstellungen zur Inhaltserstellung für die Textkomponente wider.
+
+1. (Beta) Wählen Sie Ihre **[!UICONTROL Marke]**, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
+
+   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um [Ihre wiederverwendbaren Markenrichtlinien zu definieren](./brands-overview.md).
+
+1. Geben **[!UICONTROL im Feld &quot;]**&quot; eine Beschreibung dessen ein, was generiert werden soll.
+
+   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompts), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
+
+1. Um den generierten Inhalt anzupassen, füllen Sie die Einstellungen für Inhaltsanleitungen aus:
+
+   * [**[!UICONTROL Texteinstellungen]**](#text-settings) - Anleitung für den generierten Textinhalt.
+
+   * [**[!UICONTROL Referenzinhalt]**](#reference-content) - Bereitstellung der Inhalts-Assets, die als Quelle für die Inhaltserstellung dienen.
+
+1. Wenn Ihre Eingabeaufforderung und die Einstellungen fertig sind, klicken Sie auf **[!UICONTROL Generieren]**.
+
+1. Scrollen Sie im Bedienfeld Inhalt generieren nach unten und durchsuchen Sie die generierten Varianten, um zu bestimmen, welche am besten geeignet ist.
+
+   * Klicken Sie auf das _Vollbild_-Symbol ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld _[!UICONTROL Text generieren]_ zu öffnen
+
+   * Verwenden Sie bei Bedarf die [Verfeinerungsaktionen](#refine-a-variation) um die Variante so anzupassen, dass sie genau Ihren Anforderungen entspricht.
+
+   * [Feedback senden](#submit-variation-feedback) für die generierten Varianten, indem Sie auf das Symbol _Daumen hoch_, _Daumen runter_ oder _Flag_ klicken und den Grund auswählen, der Ihr Feedback am besten zusammenfasst.
+
+1. Wenn Sie über die gewünschten Inhalte verfügen, klicken Sie auf **[!UICONTROL Auswählen]**, um den Text durch die ausgewählte Variante zu ersetzen und zum Design-Bereich der Landingpage zurückzukehren.
+
+   Sie können die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um den Text sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
+
+>[!TAB Nur Bild]
+
+Gehen Sie wie folgt vor, um den Bildinhalt für eine vorhandene Landingpage zu verfeinern oder zu verbessern:
+
+1. Wählen Sie im Design-Bereich der Landingpage eine Komponente _Bild_ aus, um auf die spezifischen Inhalte zuzugreifen.
+
+1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Umschalter Inhalt für Inhalt generieren](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ).
+
+   ![Umschalter „Inhalt generieren“ im Design-Bereich der Landingpage - Bildkomponente ausgewählt](./assets/gen-ai-landing-page-image-ai-panel.png){width="600" zoomable="yes"}
+
+   Die Einstellungen auf der rechten Seite spiegeln die Erzeugungseinstellungen für die Bildkomponente wider.
+
+1. (Beta) Wählen Sie Ihre **[!UICONTROL Marke]**, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
+
+   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um [Ihre wiederverwendbaren Markenrichtlinien zu definieren](./brands-overview.md).
+
+1. Geben Sie im Feld „Eingabeaufforderung“ eine Beschreibung **[!UICONTROL gewünschten]** ein.
+
+   Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompts), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
+
+1. Um den generierten Inhalt anzupassen, füllen Sie die Einstellungen für Inhaltsanleitungen aus:
+
+   * [**[!UICONTROL Bildeinstellungen]**](#image-settings) - Wenn Sie Bilder in den generierten Inhalt aufnehmen möchten, aktivieren Sie die Bildgenerierung und geben Sie eine Anleitung an.
+
+   * [**[!UICONTROL Referenzinhalt]**](#reference-content) - Bereitstellung der Inhalts-Assets, die als Quelle für die Inhaltserstellung dienen.
+
+1. Wenn Sie mit Ihrer Eingabeaufforderung und den Einstellungen zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
+
+   „Inhalt generieren“ verarbeitet die Anfrage und generiert die am besten geeigneten Bilder basierend auf der Eingabeaufforderung und anderen Eingaben.
+
+   >[!IMPORTANT]
+   >
+   >Wenn der Referenzinhalt keine Bilder enthält oder für die Eingabeaufforderung keine Bilder relevant sind, ist die Ausgabe leer.
+
+1. Durchsuchen Sie die generierten Varianten oder klicken Sie auf das Symbol _Vollbild_ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld _[!UICONTROL Bild generieren]_ zu öffnen.
+
+   Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Bilder und Referenzinhalte (falls erforderlich) und zum Neugenerieren der Varianten.
+
+   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [ zur Verwendung von Adobe Express zum Verfeinern ](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
+
+   ![Inhaltsvorschau von Textvarianten- und Verfeinerungsoptionen generieren](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
+
+   Sie können auch [Feedback senden](#submit-variation-feedback) für die generierten Varianten einreichen.
+
+1. Markieren Sie das gewünschte Bild und klicken Sie auf **[!UICONTROL Auswählen]**, um das Bild oder den Platzhalter durch das ausgewählte Element zu ersetzen und zum Design-Bereich der Landingpage zurückzukehren.
+
+   Sie können die Bearbeitungs- und Formatierungswerkzeuge auf der Arbeitsfläche verwenden, um das Bild sowie die Optionen _[!UICONTROL Einstellungen]_ und _[!UICONTROL Stil]_ auf der rechten Seite zu ändern.
+
+>[!ENDTABS]
+
+## Vorschau und Inhaltsverfeinerung {#refine-finalize}
+
+Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse optimieren, um sicherzustellen, dass sie genau Ihren Anforderungen entsprechen. Überprüfen Sie die Markenausrichtung, passen Sie Ton und Sprache an und bereiten Sie den Inhalt für einen überprüfbaren Entwurf vor. Sie können auch Feedback für eine Variante senden, um die generativen KI-Tools zu trainieren und die zukünftige Ausgabe zu verbessern.
+
+### Vollbildansicht öffnen
+
+1. Navigieren Sie nach der ersten Inhaltserstellung durch die **[!UICONTROL Varianten]**.
+
+1. Ermitteln Sie die Variante, die Ihren Zielen am besten entspricht, und klicken Sie auf das Symbol _Vollbild_ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld zu öffnen.
+
+   ![Rufen Sie das Dialogfeld „Generieren“ ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+
+1. Wenn Sie mit der ausgewählten Variante zufrieden sind, klicken Sie auf **[!UICONTROL Auswählen]**, um sie auf die Arbeitsfläche anzuwenden.
+
+### Verfeinern einer Variante
+
+Klicken Sie auf die **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen für Landingpage- und Textvarianten zuzugreifen:
+
+* **[!UICONTROL Ausarbeiten]** - Erweitern Sie Ihre Kenntnisse zu bestimmten Themen und liefern Sie zusätzliche Details, um das Verständnis und die Interaktion zu verbessern.
+
+* **[!UICONTROL Zusammenfassen]** - Lange Informationen können für Seitenbetrachter schwierig zu verarbeiten sein. Verwenden Sie diese Option, um wichtige Punkte in klaren, knappen Zusammenfassungen zu verdichten, die die Empfänger zum weiteren Lesen ermutigen.
+
+* **[!UICONTROL Umformulieren]** - Die Nachricht wird neu geschrieben, wobei ihre Bedeutung erhalten bleibt. Mit dieser Option können Sie alternative Formulierungen generieren, den Lesefluss verbessern oder die Ausdrucksweise anpassen, ohne die Kernbotschaft zu ändern.
+
+* **[!UICONTROL Einfachere Sprache verwenden]** - Vereinfachen Sie die Sprache, indem Sie für ein breiteres Publikum Klarheit und Barrierefreiheit gewährleisten.
+
+* **[!UICONTROL Übersetzen]** - Übersetzen Sie den Text in eine andere Sprache. (Derzeit wird nur Englisch unterstützt.)
+
+* **[!UICONTROL Ton ändern]** - Passen Sie den Ton der Nachricht an Ihren Kommunikationsstil an, z. B. freundlicher, professioneller, dringender oder inspirierender.
+
+* **[!UICONTROL Kommunikationsstrategie ändern]** - Ändern Sie den Messaging-Ansatz basierend auf Ihren Zielen, z. B. der Schaffung von Dringlichkeit oder der Betonung aufregender Attraktivität.
+
+<!-- * **[!UICONTROL Use as reference content]** - Select this option to use the variant as the reference content for generating other results. -->
+
+![Menü „Verfeinern“ mit Optionen zur Inhaltsverfeinerung](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+
+### Feedback zu Varianten senden
+
+Geben Sie Feedback für die generierten Varianten, indem Sie auf das Symbol _Daumen hoch_, _Daumen runter_ oder _Flag_ klicken und den Grund auswählen, der Ihr Feedback am besten zusammenfasst.
+
+![Inhalt generieren - Vorschau der generierten Varianten](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
+
+### Überprüfen der Markenausrichtung (Beta)
+
+<!-- Are we surfacing scoring here in the future, or will it be a separate post-creation task? 1. Click the percentage icon to view your **[!UICONTROL Brand Alignment Score]** and identify any misalignments with your brand. -->
+
+Die Bewertung und Bewertung der Markenausrichtung helfen Ihnen, die Konsistenz in Ton, Botschaft und visueller Identität in Ihren Kampagnen sicherzustellen und gleichzeitig eine Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts durchzuführen. Wenn der Inhalt der Einstiegsseite fertig ist, klicken Sie auf das Symbol _Markenausrichtung_ ( ![Markenausrichtungssymbol](../assets/do-not-localize/icon-brand-compliance.svg) ) auf der rechten Seite, um das rechte Bedienfeld _Markenausrichtung_ im Design-Bereich der Einstiegsseite zu öffnen.
+
+![Zugriff auf die Bewertungswerkzeuge für die Markenausrichtung](./assets/brands-alignment-sidebar.png){width="600" zoomable="yes"}
+
+Ausführliche Informationen finden Sie unter [_Bewertung der Markenausrichtung_](./content-evaluation.md#brand-alignment-score).

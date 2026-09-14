@@ -8,24 +8,28 @@ level: Beginner, Intermediate
 exl-id: 5ae7d50e-762b-48f2-a1a5-9a68ebfc291b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: fc314d1d-7cb9-4a38-8dbd-8f9b6478f40d
+    internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2070
-ht-degree: 19%
-
+source-wordcount: '2039'
+ht-degree: 15%
 ---
-
 # Marken erstellen und verwalten {#brand-library}
 
 Definieren Sie eine Marke, um einen detaillierten Satz von Regeln und Standards bereitzustellen, die eine visuelle und verbale Identität festlegen. Diese Richtlinien bieten eine Referenz zur Aufrechterhaltung einer konsistenten Markendarstellung auf allen Marketing- und Kommunikationsplattformen. Mithilfe klar definierter Markenrichtlinien können Unternehmen sicherstellen, dass alle Maßnahmen zur Inhaltserstellung mit den strategischen Zielen und der allgemeinen Markenidentität im Einklang stehen. Diese Konsistenz verbessert nicht nur die Erkennung und das Vertrauen der Marke, sondern trägt auch zu einem kohärenteren und wirkungsvolleren Kundenerlebnis über alle Touchpoints hinweg bei.
@@ -38,7 +42,7 @@ In Journey Optimizer B2B edition können Sie Ihre Markendefinitionen und Assets 
 >
 ><br>
 >
->Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Eine [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 >
 ><br>
 >
@@ -68,7 +72,7 @@ Klicken Sie für jede Karte auf das Symbol _Mehr Menü_ ( ![Mehr Menüsymbol](..
 
 ### Standardmarke
 
-Sie können eine Standardmarke festlegen, die bei der Inhaltserstellung und der Berechnung der Alignment-Bewertungen automatisch angewendet wird. Standardmäßig kann nur eine veröffentlichte _Live_-Marke verwendet werden.
+Um eine Marke beim Generieren von Inhalten und Berechnen der Alignment-Bewertungen während der Inhaltserstellung automatisch anzuwenden, bestimmen Sie eine Standardmarke. Standardmäßig kann nur eine veröffentlichte _Live_-Marke verwendet werden.
 
 In der Markenbibliothek wird die Standardmarkenkarte mit einem Flag angezeigt.
 
@@ -93,7 +97,7 @@ Um Ihre Markenrichtlinien zu erstellen und zu definieren, können Sie entweder d
 
 1. Geben Sie einen **[!UICONTROL Namen]** für Ihre Marke ein.
 
-1. Ziehen Sie Ihre Datei per Drag-and-Drop oder wählen Sie sie aus, um Ihre Markenrichtlinien hochzuladen und relevante Markeninformationen automatisch zu extrahieren.
+1. Datei per Drag-and-Drop ziehen oder auswählen, um Ihre Markenrichtlinien hochzuladen und automatisch relevante Markeninformationen zu extrahieren.
 
    ![Neue Marke definieren](./assets/brands-create-new.png){width="500"}
 
@@ -111,7 +115,7 @@ Um Ihre Markenrichtlinien zu erstellen und zu definieren, können Sie entweder d
 
 ### Verfeinern und Aktualisieren der Markenrichtlinien
 
-1. Durchsuchen Sie die verschiedenen Registerkarten, um die Informationen nach Bedarf anzupassen und detaillierter zu definieren.
+1. Um die Informationen nach Bedarf anzupassen und detaillierter zu definieren, navigieren Sie durch die verschiedenen Registerkarten.
 
    * [!UICONTROL Übersicht]
 
@@ -163,7 +167,7 @@ Um Ihre Markenrichtlinien zu erstellen und zu definieren, können Sie entweder d
 
 1. Wenn Sie alles definiert haben, klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Sie können mit den Änderungen am Markenentwurf fortfahren, bis Sie ihn für die Veröffentlichung bereit halten.
+   Sie können weitere Änderungen am Markenentwurf vornehmen. Fahren Sie fort, bis Sie entschieden haben, dass sie zur Veröffentlichung bereit ist.
 
 ### Veröffentlichen der Marke
 
@@ -241,9 +245,9 @@ Sie können mit der Verfeinerung der [Schreibstil](#writing-style) oder [visuell
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Ausrichtungswert für den Schreibstil"
->abstract="Im Abschnitt „Schreibstil“ werden Standards für Sprache, Formatierung und Struktur definiert, um klaren, konsistenten Content sicherzustellen. Der Ausrichtungswert (von hoch bis niedrig) zeigt, inwieweit Ihr Content diesen Richtlinien entspricht, und hebt Bereiche hervor, die verbessert werden müssen."
+>abstract="Im Abschnitt Schreibstil werden Standards für Sprache, Formatierung und Struktur definiert. Der Alignment-Score zeigt, wie gut Ihr Inhalt diesen Richtlinien entspricht, und hebt Bereiche hervor, die verbessert werden müssen."
 
-Die _[!UICONTROL Schreibstil]_-Definitionen beschreiben die Standards für das Schreiben von Inhalten und beschreiben, wie Sprache, Formatierung und Struktur verwendet werden sollten, um Klarheit, Kohärenz und Konsistenz über alle Materialien hinweg zu gewährleisten.
+Die _[!UICONTROL Schreibstil]_-Definitionen beschreiben die Standards für das Schreiben von Inhalten und erläutern, wie Sprache, Formatierung und Struktur verwendet werden sollten, um Klarheit, Kohärenz und Konsistenz über alle Materialien hinweg zu gewährleisten.
 
 Wählen Sie die Registerkarte **[!UICONTROL Schreibstil]** und überprüfen Sie jede Kategorie.
 
@@ -285,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Ausrichtungswert für visuellen Content"
->abstract="Der Ausrichtungswert für visuellen Content gibt an, inwieweit Ihr Content Ihren konfigurierten Markenrichtlinien entspricht. Anhand dieses Werts (von hoch bis niedrig) können Sie die Ausrichtung auf einen Blick beurteilen. Sehen Sie sich die verschiedenen Kategorien an, um Bereiche mit Verbesserungspotenzial zu ermitteln und Elemente zu identifizieren, die möglicherweise nicht markenkonform sind."
+>abstract="Der Ausrichtungswert für visuellen Content gibt an, inwieweit Ihr Content Ihren konfigurierten Markenrichtlinien entspricht. Dies hilft Ihnen, die Ausrichtung zu bewerten und Bereiche zu identifizieren, die verbessert werden müssen."
 
 Die _[!UICONTROL Visual Content]_-Definitionen beschreiben die Standards für Bild und Design und erläutern die Spezifikationen, die für die Aufrechterhaltung eines einheitlichen und konsistenten Markenlooks erforderlich sind.
 
@@ -326,9 +330,9 @@ Sie können keine Änderungen an einer veröffentlichten (Live-)Marke vornehmen,
 
    Diese Aktion erstellt einen Entwurf der Marke.
 
-1. Durchsuchen Sie die verschiedenen Registerkarten, um die Markeninformationen nach Bedarf zu aktualisieren.
+1. Durchsuchen Sie die verschiedenen Registerkarten und aktualisieren Sie die Markeninformationen nach Bedarf.
 
-   * Überblick
+   * Übersicht
 
    * [Informationen zur Marke](#about-the-brand)
 

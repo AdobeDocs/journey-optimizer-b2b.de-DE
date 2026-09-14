@@ -1,13 +1,11 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 86%
-
+source-wordcount: '448'
+ht-degree: 84%
 ---
-
 
 # Benutzerhandbuch für Journey Optimizer B2B Edition {#user}
 
@@ -32,7 +30,6 @@ ht-degree: 86%
   + [Aktivieren des Zugriffs auf den KI-Assistenten](./ai-coworker/enable-ai-assistant-access.md)
   + [Anleitung zu Fragen](./ai-coworker/question-guidance.md)
   + [Chat-Oberfläche](./ai-coworker/use-ai-assistant.md)
-  + [Generative KI für Content](./ai-coworker/generative-ai-content.md)
   + [Absichtswerte](./ai-coworker/intent-scores.md)
   + Agentinnen bzw. Agenten {#ai-agents}
     + [Audience Agent B2B](./agents/audience-agent-b2b.md)
@@ -67,7 +64,7 @@ ht-degree: 86%
     + [Hinzufügen einer E-Mail](./content/add-email.md)
     + [Versandzeitoptimierung](./content/email-send-time-optimization.md)
     + [E-Mail-Erstellung](./content/email-authoring.md)
-    + [KI-Assistent für E-Mail-Erstellung](./content/ai-assistant-emails.md)
+    + [E-Mail-Inhalt generieren](./content/generate-content-emails.md)
     + [GenStudio-Workflows](./content/genstudio-email-workflow.md)
     + [Dunkler Modus für E-Mail-Design](./content/email-dark-mode.md)
     + [Geregelte Vorlagen](./content/email-authoring-governance.md)
@@ -143,7 +140,7 @@ ht-degree: 86%
     + [Übersicht](./content/landing-pages.md)
     + [Erstellen und Veröffentlichen](./content/landing-pages-create-publish.md)
     + [Landingpage-Design](./content/landing-page-design.md)
-    + [KI-Assistent für Landingpage-Inhalte](./content/ai-assistant-landing-pages.md)
+    + [Landingpage-Inhalte generieren](./content/generate-content-landing-pages.md)
   + Tools für das Design von Inhalten {#content-design}
     + [Strukturkomponenten](./content/structure-components.md)
     + [Inhaltskomponenten](./content/content-components.md)
@@ -153,6 +150,7 @@ ht-degree: 86%
     + [Verwalten und Erstellen](./content/brands-manage-create.md)
     + [Generative KI-Modelle](./content/generative-ai-models.md)
   + [Markenthemen](./content/brand-themes.md)
+  + [Generative KI für Content](./content/generative-ai-content.md)
   + [Inhaltsauswertung](./content/content-evaluation.md)
   + [Bedingte Inhalte](./content/conditional-content.md)
   + [Barrierefreiheit von Inhalten](./content/accessible-content.md)
