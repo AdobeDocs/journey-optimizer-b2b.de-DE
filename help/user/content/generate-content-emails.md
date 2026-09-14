@@ -146,7 +146,7 @@ Wenn Sie eine zuvor hochgeladene Datei auswählen möchten, erweitern Sie die Li
 
 ## E-Mail-Eigenschaften generieren
 
-Wenn Sie [ Konto-Journey ](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Die Tools für generative KI können dazu beitragen, die E-Mail-Interaktion zu verbessern, indem empfohlene Inhalte für die E-Mail **_Betreffzeile_** und **_preheader)_**.
+Wenn Sie [&#x200B; Konto-Journey &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Die Tools für generative KI können dazu beitragen, die E-Mail-Interaktion zu verbessern, indem empfohlene Inhalte für die E-Mail **_Betreffzeile_** und **_preheader)_**.
 
 Wenn Sie eine E-Mail von einer Journey erstellen oder eine bestehende E-Mail von einem Journey-Knoten aus öffnen, wird die E-Mail-Vorschauseite mit den _[!UICONTROL E-Mail-Eigenschaften]_ auf der rechten Seite angezeigt. Auf der Registerkarte _[!UICONTROL Zusammenfassung]_ können Sie die Tools zur Inhaltserstellung verwenden, um eine Betreffzeile, einen Preheader oder beides zu generieren.
 
@@ -158,7 +158,7 @@ Die folgenden Schritte beschreiben die Aufgabensequenz zum Generieren einer opti
 
 1. Scrollen _im Bedienfeld_ Zusammenfassung“ mit der ausgewählten Registerkarte _Details_ nach unten zum Feld **[!UICONTROL Betreffzeile]**.
 
-1. Klicken Sie auf _Symbol_ Inhalt generieren![ ( Symbol ](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}Inhaltszugriff generieren) rechts neben dem Feld.
+1. Klicken Sie auf _Symbol_ Inhalt generieren![&#x200B; ( Symbol &#x200B;](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}Inhaltszugriff generieren) rechts neben dem Feld.
 
    ![Generativer KI-Zugriff für E-Mail-Betreffzeile](./assets/email-properties-generate-content-subject-line-icon.png){width="600" zoomable="yes"}
 
@@ -250,7 +250,7 @@ Ein E-Mail-Preheader ist der kurze Zusammenfassungstext, der auf die Betreffzeil
 
 Nachdem Sie [E-Mail erstellt und personalisiert haben](./email-authoring.md) verwenden Sie die generativen KI-Tools von Adobe, um den Inhalt Ihres E-Mail-Textkörpers zu verbessern.
 
-Im Bereich des E-Mail-Designs können Sie mit KI-Tools die Wirkung Ihrer Sendungen optimieren, indem Sie den vollständigen E-Mail-Textkörper, zielgerichtete Textinhalte und Bilder generieren, die bei Ihrer Audience Anklang finden. Diese Optimierung Ihrer E-Mail-Kampagnen sorgt für eine bessere Interaktion. Wählen Sie _Inhalt generieren_ aus (![Umschalter für das Inhaltsmenü ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ), um die Inhaltsgenerierungs-Tools anzuzeigen, die für die aktuelle Inhaltsauswahl verfügbar sind.
+Im Bereich des E-Mail-Designs können Sie mit KI-Tools die Wirkung Ihrer Sendungen optimieren, indem Sie den vollständigen E-Mail-Textkörper, zielgerichtete Textinhalte und Bilder generieren, die bei Ihrer Audience Anklang finden. Diese Optimierung Ihrer E-Mail-Kampagnen sorgt für eine bessere Interaktion. Wählen Sie _Inhalt generieren_ aus (![Umschalter für das Inhaltsmenü &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ), um die Inhaltsgenerierungs-Tools anzuzeigen, die für die aktuelle Inhaltsauswahl verfügbar sind.
 
 ![Umschalter „Inhalt generieren“ im E-Mail-Design-Bereich](./assets/email-designer-generate-content-button.png){width="600" zoomable="yes"}
 
@@ -262,7 +262,7 @@ Führen Sie die folgenden Schritte entsprechend dem Typ der E-Mail-Inhaltserstel
 
 Gehen Sie wie folgt vor, um eine vollständige E-Mail zu generieren, indem Sie eine vorhandene E-Mail-Vorlage verfeinern:
 
-1. Klicken [ nach dem Erstellen der E](./add-email.md)Mail auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
+1. Klicken [&#x200B; nach dem Erstellen der E](./add-email.md)Mail auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
 
 1. Wählen Sie eine Vorlage.
 
@@ -270,7 +270,7 @@ Gehen Sie wie folgt vor, um eine vollständige E-Mail zu generieren, indem Sie e
 
    Weitere Informationen zur Verwendung einer E-Mail-Vorlage finden Sie unter _[Auswählen einer Vorlage](./email-authoring.md#select-a-template)_.
 
-1. Klicken Sie im E-Mail-Design auf das Symbol _Inhalt generieren_ (![Menüumschalter für ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} generieren) auf der rechten Seite.
+1. Klicken Sie im E-Mail-Design auf das Symbol _Inhalt generieren_ (![Menüumschalter für &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} generieren) auf der rechten Seite.
 
    Die Einstellungen auf der rechten Seite spiegeln &quot;_generieren_ wider.
 
@@ -278,7 +278,7 @@ Gehen Sie wie folgt vor, um eine vollständige E-Mail zu generieren, indem Sie e
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
 
-   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ ](./brands-overview.md) definieren.
+   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ &#x200B;](./brands-overview.md) definieren.
 
 1. Geben **[!UICONTROL im Feld &quot;]**&quot; eine Beschreibung dessen ein, was generiert werden soll.
 
@@ -316,7 +316,7 @@ Gehen Sie wie folgt vor, um den Textinhalt für eine vorhandene E-Mail zu verfei
 
 1. Wählen Sie im E-Mail-Design-Bereich eine _Text_-Komponente aus, um den spezifischen Inhalt anzusprechen.
 
-1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Menüumschalter für Inhalt ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}).
+1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Menüumschalter für Inhalt &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}).
 
    Die Einstellungen auf der rechten Seite spiegeln die Einstellungen zur Inhaltserstellung für die Textkomponente wider.
 
@@ -356,7 +356,7 @@ Gehen Sie wie folgt vor, um den Bildinhalt für eine vorhandene E-Mail zu verfei
 
 1. Wählen Sie im Bereich „E-Mail-Design“ eine Komponente _Bild_ aus, um auf den spezifischen Inhalt zuzugreifen.
 
-1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Menüumschalter für Inhalt ](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}).
+1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Menüumschalter für Inhalt &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}).
 
    Die Einstellungen auf der rechten Seite spiegeln die Erzeugungseinstellungen für die Bildkomponente wider.
 
@@ -388,7 +388,7 @@ Gehen Sie wie folgt vor, um den Bildinhalt für eine vorhandene E-Mail zu verfei
 
    Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Bilder und Referenzinhalte (falls erforderlich) und Neugenerieren der Varianten.
 
-   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [ zur Verwendung von Adobe Express zum Verfeinern ](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
+   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [&#x200B; zur Verwendung von Adobe Express zum Verfeinern &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
 
    ![Vorschau der erzeugten Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 

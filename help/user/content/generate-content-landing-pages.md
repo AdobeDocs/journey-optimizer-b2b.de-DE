@@ -147,7 +147,7 @@ Führen Sie die folgenden Schritte entsprechend dem Typ der Inhaltserstellung f�
 
 Gehen Sie wie folgt vor, um eine vollständige Landingpage zu generieren, indem Sie eine vorhandene Vorlage verfeinern:
 
-1. Klicken [ nach dem Erstellen der ](./landing-pages-create-publish.md#create-landing-page) auf **[!UICONTROL Landingpage bearbeiten]**.
+1. Klicken [&#x200B; nach dem Erstellen der &#x200B;](./landing-pages-create-publish.md#create-landing-page) auf **[!UICONTROL Landingpage bearbeiten]**.
 
 1. Wählen Sie eine Vorlage.
 
@@ -163,7 +163,7 @@ Gehen Sie wie folgt vor, um eine vollständige Landingpage zu generieren, indem 
 
 1. (Beta) Wählen Sie Ihre **[!UICONTROL Marke]**, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
 
-   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ ](./brands-overview.md) definieren.
+   Wenn keine veröffentlichten Marken vorhanden sind, klicken Sie auf **[!UICONTROL Marke erstellen]**, um Ihre [wiederverwendbaren Markenrichtlinien“ &#x200B;](./brands-overview.md) definieren.
 
 1. Geben **[!UICONTROL im Feld &quot;]**&quot; eine Beschreibung dessen ein, was generiert werden soll.
 
@@ -271,7 +271,7 @@ Gehen Sie wie folgt vor, um den Bildinhalt für eine vorhandene Landingpage zu v
 
    Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Bilder und Referenzinhalte (falls erforderlich) und zum Neugenerieren der Varianten.
 
-   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [ zur Verwendung von Adobe Express zum Verfeinern ](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
+   Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [&#x200B; zur Verwendung von Adobe Express zum Verfeinern &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
 
    ![Inhaltsvorschau von Textvarianten- und Verfeinerungsoptionen generieren](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 
@@ -293,7 +293,7 @@ Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse optimie
 
 1. Ermitteln Sie die Variante, die Ihren Zielen am besten entspricht, und klicken Sie auf das Symbol _Vollbild_ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld zu öffnen.
 
-   ![Rufen Sie das Dialogfeld „Generieren“ ](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
+   ![Rufen Sie das Dialogfeld „Generieren“ &#x200B;](./assets/gen-ai-preview-text-refine.png){width="700" zoomable="yes"}
 
 1. Wenn Sie mit der ausgewählten Variante zufrieden sind, klicken Sie auf **[!UICONTROL Auswählen]**, um sie auf die Arbeitsfläche anzuwenden.
 
