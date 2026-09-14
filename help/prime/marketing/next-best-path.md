@@ -1,28 +1,34 @@
 ---
 title: Nächster bester Pfadknoten
 description: Verwenden Sie den nächstbesten Pfadknoten in Journey Optimizer B2B Prime für KI-gesteuertes Journey-Routing mit Eingabeaufforderungen in natürlicher Sprache, Pfadsimulation, Konfidenzwerten und Live-Pfadergebnissen für die Aufspaltung.
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version​"
 autotag-review: '2026-06-12T23:02:18.769Z'
 TQID: 'https://experienceleague.adobe.com/OCsqXogJ7C1u2iKrmI9O2ZCPi3FC9xKSU-uIa-Ngki8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
   - id: c3d6e661-d372-4e98-9fd9-eac771e7e4ee
+    internal-label: Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 source-git-commit: c39d30f23d200988804dc5c9fe12b9f58242a1e6
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1528'
 ht-degree: 1%
-
 ---
-
 # Nächster bester Pfadknoten
 
 In Journey Optimizer B2B Prime bringt der Knoten *Nächster bester Pfad* die KI-gesteuerte Split Path-Entscheidungsfindung direkt in die Journey-Arbeitsfläche. Anstatt Filterbedingungen auf einem [Split-Pfade](./split-merge-paths-nodes.md)-Knoten zu konfigurieren, beschreiben Sie Ihre Absicht in natürlicher Sprache und lassen Sie das System den relevantesten Pfad für jede Person bestimmen.
@@ -84,9 +90,9 @@ Definieren Sie für jeden Pfad einen Namen und eine Eingabeaufforderung in natü
 
      **Beispiel fordert zu einer Aufteilung auf drei Pfade auf:**
 
-      * *Pfad 1 - Personalverantwortliche:* Identifizieren Sie Personen in Personalführungsrollen, die am ehesten mit dem Talent-Management und Mitarbeitererlebnisinhalten interagieren.
-      * *Pfad 2 - Technische Gutachter:* Identifizieren Sie technische Stakeholder, die mit größter Wahrscheinlichkeit mit Produktarchitektur, Integrationen und Implementierungs-Content interagieren.
-      * *Pfad 3 - Entscheidungsträger in Unternehmen:* Ermitteln Sie die Stakeholder, die am ehesten mit ROI, Geschäftsergebnissen und Fallstudieninhalten zu tun haben.
+     * *Pfad 1 - Personalverantwortliche:* Identifizieren Sie Personen in Personalführungsrollen, die am ehesten mit dem Talent-Management und Mitarbeitererlebnisinhalten interagieren.
+     * *Pfad 2 - Technische Gutachter:* Identifizieren Sie technische Stakeholder, die mit größter Wahrscheinlichkeit mit Produktarchitektur, Integrationen und Implementierungs-Content interagieren.
+     * *Pfad 3 - Entscheidungsträger in Unternehmen:* Ermitteln Sie die Stakeholder, die am ehesten mit ROI, Geschäftsergebnissen und Fallstudieninhalten zu tun haben.
 
 1. Ordnen Sie die Pfade bei Bedarf neu an, um die Prioritätsreihenfolge für den Abgleich festzulegen.
 
