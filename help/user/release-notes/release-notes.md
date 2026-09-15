@@ -5,25 +5,30 @@ role: User, Admin
 exl-id: 7d3f1c26-d8a6-4065-a70f-5b30cb975dc8
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: d8425054daea287d21419911158908035c1314f6
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 5637
+source-wordcount: '5637'
 ht-degree: 61%
-
 ---
-
 # Versionshinweise zu Journey Optimizer B2B Edition
 
 Adobe Journey Optimizer B2B Edition bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen.
@@ -137,7 +142,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Marken-Kits | (Beta) Definieren Sie eine Marke in Journey Optimizer B2B edition, um Ihrem Kreativteam die Datenquelle bereitzustellen, die es beim Erstellen visueller oder schriftlicher Inhalte verwenden soll. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. [Weitere Informationen](../content/brands-overview.md) |
-| Funktion | Marken für die Erstellung von E-Mail-Inhalten | Sie können Ihre Markenrichtlinien definieren und diese Informationen verwenden, um E-Mail-Inhalte zu generieren. Mit dieser Funktion werden E-Mail-Inhalte an Ihre markenspezifischen Copywriting-Richtlinien, -Stile und -Töne angepasst. [Weitere Informationen](../content/ai-assistant-emails.md) |
+| Funktion | Marken für die Erstellung von E-Mail-Inhalten | Sie können Ihre Markenrichtlinien definieren und diese Informationen verwenden, um E-Mail-Inhalte zu generieren. Mit dieser Funktion werden E-Mail-Inhalte an Ihre markenspezifischen Copywriting-Richtlinien, -Stile und -Töne angepasst. [Weitere Informationen](../content/generate-content-emails.md) |
 | Verbesserung | Journey _Warten_ Knoten - Erweiterte Einstellungen | Für einen _Warten_-Knoten in einem Journey können Marketing-Experten jetzt Beendigungstage und -zeiten angeben und Zeitzonen auswählen. Diese Verbesserung ermöglicht eine bessere Kontrolle der Journey-Orchestrierung und des Kampagnenzeitplans. [Weitere Informationen](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Verbesserung | Mitglied des Filters „Einkaufsgruppe“ - wurde entfernt | Bei einem _Aufspaltungspfad nach Personen_-Knoten enthält der _[!UICONTROL Mitglied der Kaufgruppe]_ jetzt die _Ist entfernt_-Beschränkung. Wenn Sie ihn auswählen, kann der Filter das entfernte Mitglied der Einkaufsgruppe einschließen oder ausschließen. Es wird auch in Marketo Engage-Smart-Listen unterstützt, in denen Sie diese neue Einschränkung im Filter _[!UICONTROL Mitglied der Kaufgruppe]_ verwenden können. |
 | Verbesserung | E-Mail-Design - Aufzählungszeichen auf mehreren Ebenen | Die Tools für den Design-Bereich für E-Mail-Inhalte unterstützen jetzt Unter-Aufzählungszeichen (Aufzählungsebenen). |

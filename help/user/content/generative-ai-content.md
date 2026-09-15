@@ -1,38 +1,44 @@
 ---
 title: Generative KI für Content
-description: Erfahren Sie, wie Sie personalisierte E-Mails und Landingpages mit generativer KI in  [!DNL Journey Optimizer B2B Edition] erstellen, einschließlich Best Practices für die Eingabeaufforderung.
-feature: AI Assistant, Generative AI, Content
+description: Erfahren Sie, wie Sie in [!DNL Journey Optimizer B2B Edition] personalisierte E-Mails und Landingpages mit generativer KI erstellen und zu Best Practices auffordern können.
+feature: Generative AI, Content
 level: Beginner
 topic: Artificial Intelligence
 role: User
 nudge: true
 exl-id: 36baf7f9-2fff-4c33-bca0-7d43ec48e74a
-autotag-review: '2026-06-05T16:07:36.688Z'
-TQID: 'https://experienceleague.adobe.com/W-BpOy-U5Be3BJxbcWpnNheZs06sLHRAdvQJca3t--o'
+autotag-review: '2026-08-06T18:42:03.734Z'
+TQID: 'https://experienceleague.adobe.com/oqAvHYWEVJQVQDOPWcZHuxlTmKJqAKtRp71pfbYcgys'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
-subfeature_v2:
-  - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Content management
+  - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7664c0a08f45698266c72dea229a340eeb596945
+    internal-label: Accessibility
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 2476
-ht-degree: 37%
-
+source-wordcount: '2430'
+ht-degree: 32%
 ---
-
 # Generative KI für Content {#generative-ai-content}
 
 >[!CONTEXTUALHELP]
@@ -49,9 +55,9 @@ ht-degree: 37%
 >id="ajo_b2b_ai-generation-start"
 >title="Bedingungen der generativen KI in Adobe"
 >abstract="Für den Zugriff auf diese Funktion ist Ihre Zustimmung zu den Benutzerrichtlinien für generative KI in Adobe Experience Cloud erforderlich. Überprüfen Sie alle Ausgaben dieser Funktion auf ihre Richtigkeit und stellen Sie sicher, dass sie für Ihren Anwendungsfall geeignet sind."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für generative KI von Adobe"
+>additional-url="https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Benutzerrichtlinien für generative KI von Adobe"
 
-Die generative KI für Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] basiert auf Microsoft Azure OpenAI und Adobe Firefly und bietet proaktive Vorschläge für Inhaltsvarianten für Text und Bilder. Optimieren Sie die Wirkung Ihrer Inhalte, indem Sie mit verschiedenen Haupttiteln und -bildern experimentieren.
+Die generative KI für Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] basiert auf Microsoft Azure OpenAI und Adobe Firefly und bietet proaktive Vorschläge für Inhaltsvarianten für Text und Bilder. Verbessern Sie die Wirkung Ihres Inhalts, indem Sie mit verschiedenen Haupttiteln und -bildern experimentieren.
 
 Verwenden Sie die Funktionen der generativen KI für die Inhaltserstellung, [!DNL Journey Optimizer B2B Edition] die Funktionen der generativen KI von Adobe zu nutzen. Erstellen Sie personalisierten Text und personalisierte Visualisierungen für E-Mails, SMS-Nachrichten, Landingpages und mehr. Beim Erstellen einer Kampagne oder beim Verfeinern von Assets helfen Ihnen diese Funktionen, Inhalte an Ihren Markenrichtlinien auszurichten und dabei Zeit zu sparen.
 
@@ -63,18 +69,18 @@ Generate multiple variants and build an experiment to compare them. Leveraging J
 >
 >Um auf diese Funktionen in [!DNL Journey Optimizer B2B Edition] zugreifen zu können, benötigen Sie die Berechtigung _[!UICONTROL KI-Assistent]_ > _[!UICONTROL Inhalt generieren]_. Weitere Informationen dazu, wie ein Produktadministrator Funktionsberechtigungen erteilen kann, finden Sie unter [Rollen für Produktberechtigungen bearbeiten](../admin/user-management.md#edit-roles-for-product-permissions).
 
-KI-Assistenten-Tools für die Inhaltserstellung werden von den folgenden Asset-Typen unterstützt:
+Tools zur Inhaltserstellung werden von den folgenden Asset-Typen unterstützt:
 
-* [E-Mails](../content/ai-assistant-emails.md)
-* [!BADGE Beta] [Landingpages](../content/ai-assistant-landing-pages.md)
+* [E-Mails](./generate-content-emails.md)
+* [!BADGE Beta] [Landingpages](./generate-content-landing-pages.md)
 
 ## Allgemeine Richtlinien und Einschränkungen {#general-guidelines-and-limitations}
 
-Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Da sich Adobe bei der Verwendung von generativen KI-Tools für die Medienerstellung zu Transparenz verpflichtet hat, wendet Adobe [Inhaltsanmeldeinformationen](https://helpx.adobe.com/de/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
+Ihre Verwendung von Funktionen der generativen KI unterliegt den [Benutzerrichtlinien für die generative KI von Adobe Experience Cloud](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}. Aufgrund der Bemühungen von Adobe, die Verwendung generativer KI-Tools für die Medienerstellung transparent zu gestalten, wendet Adobe [C2PA-Metadaten](./c2pa-metadata.md) auf alle Inhalte oder Projekte an, die ein [!DNL Firefly] generiertes Asset enthalten, wenn es heruntergeladen oder exportiert wird.
 
 Lesen Sie diese allgemeinen Richtlinien für die Verwendung von generativer KI für Inhalte in [!DNL Journey Optimizer B2B Edition]:
 
-* Verwenden Sie klar definierte Eingabeaufforderungen für das generative KI-Modell, um die Interpretation präzise durchzuführen. Das von Ihnen angegebene Marketing-Ziel oder die von Ihnen angegebene Eingabeaufforderung wirkt sich stark auf die Qualität des generierten Inhalts aus.
+* Verwenden Sie klar definierte Eingabeaufforderungen für das generative KI-Modell, um die Interpretation präzise durchzuführen. Das von Ihnen angegebene Marketing-Ziel oder die von Ihnen angegebene Eingabeaufforderung wirkt sich auf die Qualität des generierten Inhalts aus.
 
 * Laden Sie Inhaltsreferenzdateien hoch, um genaue markeninterne Inhalte zu erhalten. Andernfalls basiert der Inhalt auf öffentlich verfügbaren Informationen. Der hochgeladene Inhalt kann in den folgenden Dateiformaten vorliegen: PDF, JPEG, PNG oder ZIP (mit unterstützten Dateiformaten). Die maximale Größe für eine hochgeladene Datei beträgt 50 MB. Größere Dateien oder eine große Anzahl von Bildern können funktionieren, aber das erhöht die Verarbeitungszeit.
 
@@ -91,7 +97,7 @@ Lesen Sie diese allgemeinen Richtlinien für die Verwendung von generativer KI f
 
 Dieser Leitfaden hilft Ihnen, Ihre Anfragen zu strukturieren, den Zweck klar und deutlich zu kommunizieren und sicherzustellen, dass die KI-Kommunikation Messaging produziert, die mit Ihren Markenrichtlinien, Zielgruppenanforderungen und Kampagnenzielen übereinstimmt.
 
-Erfahren Sie, wie Sie effektive Prompts schreiben, mit denen der KI-Assistent hochwertige markenkonforme Marketing-Inhalte generieren kann, die auf Ihre Ziele abgestimmt sind.
+Erfahren Sie, wie Sie effektive Eingabeaufforderungen schreiben, die zu hochwertigen, auf Ihre Ziele zugeschnittenen markeninternen Marketing-Inhalten führen.
 
 ### Verwenden des CO-STAR-Frameworks {#costar-framework}
 
@@ -324,7 +330,7 @@ Geben Sie klar an, ob Ihre Anfrage die Erstellung neuer Inhalte oder die Aktuali
 
 #### Erstellen neuer Inhalte
 
-Wenden Sie diese Strategie an, wenn Sie Marketing-Kampagnen starten, neue Lösungen vorstellen oder eine aktualisierte/aktualisierte Kommunikation starten. Dadurch wird sichergestellt, dass Ihre Botschaft stark beginnt und mit Ihren Zielen übereinstimmt.
+Wenden Sie diese Strategie an, wenn Sie Marketing-Kampagnen starten, neue Lösungen vorstellen oder eine aktualisierte/aktualisierte Kommunikation starten. Dadurch wird sichergestellt, dass Ihre Botschaft effektiv ist und Ihren Zielen entspricht.
 
 **So formulieren Sie Prompts** ➤ Konzentrieren Sie sich bei der Erstellung neuer Inhalte auf Ihr Marketing-Ziel, ohne auf vorhandene Inhalte zu verweisen.
 
@@ -342,7 +348,7 @@ Wenden Sie diese Strategie an, wenn Sie Marketing-Kampagnen starten, neue Lösun
 >
 >Bei Standardänderungen, wie z. B. „Aufbereiten“, „Zusammenfassen“ oder „Vereinfachen“, wählen Sie **_Verfeinern_** anstatt benutzerdefinierte Eingabeaufforderungen zu schreiben.
 
-Verwenden Sie eine Änderungsaufforderung, wenn Sie Ihre aktuellen Marketing-Kampagnen aktualisieren, aktualisieren oder anpassen müssen. Diese Methode unterstützt inkrementelle Verbesserungen, um sicherzustellen, dass Ihr Messaging relevant bleibt, ohne dass Sie von Grund auf neu beginnen müssen.
+Verwenden Sie eine Änderungsaufforderung, wenn Sie Ihre aktuellen Marketing-Kampagnen aktualisieren, aktualisieren oder anpassen müssen. Diese Methode unterstützt inkrementelle Verbesserungen, um sicherzustellen, dass Ihr Messaging relevant bleibt, ohne den Prozess erneut zu starten.
 
 **So formulieren Sie Prompts** ➤ Geben Sie beim Ändern vorhandener Inhalte klar an, was Sie ändern möchten und wie dies erfolgen soll.
 
@@ -356,7 +362,7 @@ Verwenden Sie eine Änderungsaufforderung, wenn Sie Ihre aktuellen Marketing-Kam
 
 ## Erweiterte Texteinstellungen {#text-settings}
 
-Neben der Verwendung einer klaren und wohlgeformten Eingabeaufforderung enthalten die Texteinstellungen in den Content-Tools des KI-Assistenten Texteinstellungen, mit denen Sie die generierten Ausgaben optimieren können.
+Verwenden Sie nicht nur eine klare und wohlgeformte Eingabeaufforderung, sondern auch die Texteinstellungen, um die generierten Ausgaben zu optimieren.
 
 >[!TIP]
 >
@@ -405,21 +411,21 @@ Der Ton bestimmt, wie Ihre Zielgruppe Ihre Nachricht wahrnimmt und darauf reagie
 >
 >Wenn Sie ein Asset bereits über das Menü **[!UICONTROL Referenzinhalt]** hochgeladen haben, müssen Sie in der Eingabeaufforderung nicht darauf verweisen. Das System verwendet automatisch alle ausgewählten Dokumente.
 
-Referenzinhaltsdateien enthalten Fakten, die Ihre generierten Inhalte mit spezifischen, präzisen Details anreichern. Wenn Sie Dokumente wie Produktbroschüren oder Whitepapers hochladen, ändern Sie die Eingabeaufforderung, um anzugeben, welche Teile im Fokus sind:
+Referenzinhaltsdateien enthalten Fakten, die Ihre generierten Inhalte mit spezifischen, präzisen Details anreichern. Um festzulegen, welche Teile im Fokus sind, ändern Sie die Eingabeaufforderung beim Hochladen von Dokumenten, z. B. Produktbroschüren oder Whitepapers:
 
-* **Anstelle von** _„Verwende die Produktbroschüre“_ **sollten Sie** _„Lege den Fokus auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf die SOC 2-Konformität und die Datenverschlüsselung“_ verwenden
+* **anstelle von** _„Verwenden Sie die Produktbroschüre“_&#x200B;**verwenden**&quot;_„Konzentrieren Sie sich auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf SOC 2-Compliance und Datenverschlüsselung“_
 
-* **Anstelle von** _„Verweise auf die Fallstudien“_ **sollten Sie** _„Hebe die ROI-Ergebnisse von Kundinnen und Kunden im Gesundheitswesen hervor, insbesondere die Kostenreduzierung um 40 % im regionalen Medizinzentrum“_ verwenden
+* **Statt** _„Referenzieren Sie die Fallstudien“_ **verwenden** _„Markieren Sie die ROI-Ergebnisse von Kundinnen und Kunden im Gesundheitswesen, insbesondere die Kostenreduzierung um 40 % im regionalen medizinischen Zentrum“_
 
-* **Anstelle von** _„Beziehe technische Details ein“_ **sollten Sie** _„Betone die API-Integrationsfunktionen und die Entwicklervorteile und lege den Fokus auf REST-API-Endpunkte und den SLA-Wert von 99,9 %&quot;_ verwenden
+* **anstelle von** _„Technische Details einbeziehen“_ **Verwenden** _„Hervorheben der API-Integrationsfunktionen und der Entwicklervorteile mit Fokus auf REST-API-Endpunkte und 99,9 % Verfügbarkeit von SLA&quot;_
 
 ### Inhaltsverfeinerung
 
 Nachdem der Inhalt generiert wurde, verwenden Sie die Funktion **_[!UICONTROL Verfeinern]_** , um ihn zu iterieren und mit den folgenden Optionen zu erweitern:
 
-* **[!UICONTROL Entwickeln]** - Der KI-Assistent kann Ihnen dabei helfen, bestimmte Themen zu vertiefen und zusätzliche Details bereitzustellen, um das Verständnis und die Interaktion zu verbessern.
+* **[!UICONTROL Ausarbeiten]** - Erweitern Sie Ihre Kenntnisse zu bestimmten Themen und liefern Sie zusätzliche Details, um das Verständnis und die Interaktion zu verbessern.
 
-* **[!UICONTROL Zusammenfassen]** - Lange Informationen können Seitenbetrachter überlasten. Nutzen Sie den KI-Assistenten, um die wichtigsten Punkte in klaren, prägnanten Aussagen zusammenzufassen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen anregen.
+* **[!UICONTROL Zusammenfassen]** - Lange Informationen können die Leser überlasten. Ändern Sie die wichtigsten Punkte, um sie in klaren, knappen Zusammenfassungen zu verdichten, die Aufmerksamkeit erregen und sie zum weiteren Lesen ermutigen.
 
 * **[!UICONTROL Umformulieren]** - Die Nachricht wird neu geschrieben, wobei ihre Bedeutung erhalten bleibt. Mit dieser Option können Sie alternative Formulierungen generieren, den Lesefluss verbessern oder die Ausdrucksweise anpassen, ohne die Kernbotschaft zu ändern.
 

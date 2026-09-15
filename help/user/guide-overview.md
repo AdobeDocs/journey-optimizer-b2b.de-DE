@@ -5,16 +5,16 @@ exl-id: 3d7b6c82-95c3-4d89-b3dc-7fd5b0aef615
 autotag-review: 2026-03-27T22:18:45.397Z
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1163
-ht-degree: 34%
-
+source-wordcount: '1162'
+ht-degree: 30%
 ---
-
 # Dokumentation zu Adobe Journey Optimizer B2B Edition
 
 [!DNL Adobe Journey Optimizer B2B Edition] ist eine erstklassige Anwendung, mit der Marketing- und Vertriebsteams Account-basierte Erlebnisse orchestrieren und Einkaufsgruppen für bestimmte Produkte über den gesamten Kundenlebenszyklus hinweg qualifizieren können. Es nutzt KI, um Einkaufsgruppen innerhalb von Zielkonten anzusprechen und zu qualifizieren, und hilft Ihren Teams so, eine Pipeline mit höherer Qualität zu generieren, bessere Akquise-, Expansions- und Aufbewahrungsstrategien zu entwerfen. Darüber hinaus ermöglicht es gemeinsame Einblicke durch Vertriebs- und Marketing-Teams.
@@ -185,7 +185,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px" alt="Journey-Inhalt"><br/>
-      <strong>Journey-Inhalt</strong><br/><a href="./content/add-email.md">E-Mail-Kanal</a><br/><a href="./content/ai-assistant-emails.md">KI-Assistent für E-Mail</a><br/><a href="./content/genstudio-email-workflow.md">E-Mail-Erlebnisse in GenStudio</a><br/><a href="./content/sales-alert-email.md">E-Mail mit Verkaufshinweis</a><br/><a href="./content/sms-authoring.md">SMS-Kanal</a>
+      <strong>Journey-Inhalt</strong><br/><a href="./content/add-email.md">E-Mail-Kanal</a><br/><a href="./content/generate-content-emails.md">E-Mail-Inhalt generieren</a><br/><a href="./content/genstudio-email-workflow.md">GenStudio-E-Mail-Erlebnisse</a><br/><a href="./content/sales-alert-email.md">E-Mail-</a><br/><a href="./content/sms-authoring.md">-Kanal für Verkaufswarnungen</a>
     </td>
         <td>
       <img src="../assets/do-not-localize/icon_assets.svg" width="35px" alt="Content-Management"><br/>

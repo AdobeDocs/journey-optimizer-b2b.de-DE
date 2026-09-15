@@ -1,29 +1,34 @@
 ---
 title: Verfassen von E-Mail-Nachrichten
-description: Erstellen von E-Mails mit visuellen Design-Tools, HTML-Import oder Vorlagen - Verwenden Sie die Inhaltserstellung mit dem KI-Assistenten, benutzerdefiniertes CSS und Personalisierung in Journey Optimizer B2B edition.
+description: Erstellen von E-Mails mit visuellen Design-Tools, HTML-Import oder Vorlagen - Verwenden von Inhaltserstellung, benutzerdefiniertem CSS und Personalisierung in Journey Optimizer B2B edition.
 feature: Email Authoring, Content Design Tools
 role: User
 exl-id: 0f4ae644-ade7-49a0-935c-7f4779c25ffb
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 autotag-review: 2026-03-30T22:32:53.691Z
 TQID: https://experienceleague.adobe.com/q5kzHE8tCBO1lfmliiIV22WgTxXIubMRFNT-1mK7ZrE
-source-git-commit: b4c00d88eda8f96897118de84982a4c51eb511d1
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 1380
+source-wordcount: '1371'
 ht-degree: 5%
-
 ---
-
 # Verfassen von E-Mail-Nachrichten
 
 Nachdem Sie [ein E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt](./add-email.md) können Sie den Inhalt für die E-Mail-Nachricht definieren.
@@ -44,7 +49,7 @@ Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den
 
 >[!TIP]
 >
->Verwenden Sie den KI-Assistenten in Adobe Journey Optimizer B2B edition auf der Basis von generativer KI, um Ihre Inhalte zu verbessern. Der KI-Assistent kann Ihnen dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er komplette E-Mails und zielgerichtete Textinhalte generiert und Empfehlungen für Bilder bereitstellt, die bei Ihrer Audience Anklang finden. [Weitere Informationen](./ai-assistant-emails.md)
+>Verwenden Sie die Tools zur Inhaltserstellung, um Ihre Inhalte zu verbessern. Mit diesen Tools können Sie die Wirkung Ihrer Sendungen optimieren, indem Sie komplette E-Mails und zielgerichtete Textinhalte generieren und Empfehlungen für Bilder bereitstellen, die für Ihre Audience relevant sind. [Weitere Informationen](./generate-content-emails.md)
 
 ## Neugestaltung einer E-Mail von Grund auf {#design-from-scratch}
 

@@ -1,36 +1,49 @@
 ---
-title: KI-Assistent für E-Mail-Inhalte
-description: Generieren von E-Mail-Inhalten mit dem KI-Assistenten - Erstellen Sie Nachrichteninhalte, Betreffzeilen und Preheader mit Marken-Assets und der Zielgruppenbestimmung für Käufe in [!DNL Journey Optimizer B2B Edition].
-feature: AI Assistant, Generative AI, Email Authoring
+title: E-Mail-Inhalt generieren
+description: Erfahren Sie, wie Sie E-Mail-Inhalte, Betreffzeilen und Preheader mit Marken-Assets und Gruppen-Targeting für Käufe in [!DNL Journey Optimizer B2B Edition] generieren.
+feature: Generative AI, Email Authoring
 role: User
 exl-id: b66d72e4-3afc-49ad-9bc2-bedc047ecca4
+autotag-review: '2026-08-06T18:39:02.013Z'
+TQID: 'https://experienceleague.adobe.com/XglTgYwjWyZg5gntuvPZwccIU2r0IUrL0iXy1S6oQOw'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
-  - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+  - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+subfeature_v2:
+  - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: 2026-03-30T21:53:30.297Z
-TQID: https://experienceleague.adobe.com/r6LXhsac6WcX015k3NIm-MOIvtqG7EUf1XK4p1adhAo
-source-git-commit: 982f4978dd009c5f51285775b82595b292ad6eb9
+    internal-label: Optimization
+source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
 workflow-type: tm+mt
-source-wordcount: 3582
+source-wordcount: '3509'
 ht-degree: 1%
-
 ---
+# E-Mail-Inhalt generieren
 
-# KI-Assistent für E-Mail-Inhalte
-
-Da die Marketing-Branche wettbewerbsfähiger wird, suchen Marken nach effizienten Möglichkeiten, schnell und effizient wirkungsvolle Inhalte zu generieren. Der KI-Assistent für das E-Mail-Authoring in [!DNL Adobe Journey Optimizer B2B Edition] ist die KI-gestützte Inhaltsgenerierungsfunktion von Adobe, die die Art und Weise revolutioniert, wie Marketing-Experten professionelle und markenkonsistente E-Mail-Inhalte erstellen. Mit fortschrittlichen generativen KI-Modellen und einem tiefen Verständnis der Markenrichtlinien generiert der KI-Assistent automatisch personalisierte, ansprechende und effektive Inhalte. Es verwendet Ihr Marketing-Ziel und optimiert den Inhalt für Markenstile, Layouts, Ton und mehr. Der KI-Assistent macht die Erstellung und Ausführung von E-Mail-Marketing-Kampagnen intuitiv, einfach und effizient. Durch das Hinzufügen dieser Funktion zu Ihren Workflows können Sie Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
+Da die Marketing-Branche wettbewerbsfähiger wird, suchen Marken nach effizienten Möglichkeiten, um wirkungsvolle Inhalte zu generieren. [!DNL Adobe Journey Optimizer B2B Edition] umfasst eine KI-gestützte Inhaltserstellung, mit der Marketing-Experten professionelle, markenkonsistente E-Mail-Inhalte erstellen können. Mit fortschrittlichen generativen KI-Modellen und einem tiefen Verständnis der Markenrichtlinien generiert er automatisch personalisierte, ansprechende und effektive Inhalte. Es verwendet Ihr Marketing-Ziel und optimiert den Inhalt für Markenstile, Layouts, Ton und mehr. Die Verwendung dieser Tools macht die Erstellung und Ausführung von E-Mail-Marketing-Kampagnen intuitiv, einfach und effizient. Durch das Hinzufügen dieser Funktion zu Ihren Workflows können Sie Zeit sparen, die Effizienz verbessern und bessere Ergebnisse erzielen.
 
 Diese neue Funktion bietet eine sofortige Inhaltsgenerierung für die vollständige oder zielgerichtete E-Mail-Generierung in E-Mail-Strukturkomponenten. Für Bilder können Sie neue Bild-Assets generieren oder Empfehlungen aus dem Bildkatalog im Eingabe-Marken-Asset generieren. Mit dieser Funktion können Sie auch optimale Betreffzeilen und Preheader generieren, um die Öffnungsrate der E-Mail zu beeinflussen.
 
@@ -40,11 +53,11 @@ Diese neue Funktion bietet eine sofortige Inhaltsgenerierung für die vollständ
 
 ## Richtlinien und Einschränkungen
 
-Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die [Richtlinien und Einschränkungen](../ai-coworker/generative-ai-content.md#general-guidelines-and-limitations). [Benutzerzustimmung](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} ist auch eine Akzeptanz erforderlich, bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+Bevor Sie mit der Verwendung dieser Funktion beginnen, lesen Sie die [Richtlinien und Einschränkungen](./generative-ai-content.md#general-guidelines-and-limitations). [Benutzerzustimmung](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} ist auch eine Akzeptanz erforderlich, bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Adobe wendet [Inhaltsanmeldeinformationen](https://helpx.adobe.com/de/firefly/web/get-started/learn-the-basics/content-credentials-overview.html){target="_blank"} beim Herunterladen oder Exportieren auf Firefly-generierte Assets an, um die Transparenz zu erhöhen.
 
-Die folgenden Einschränkungen und Richtlinien gelten für KI-Assistenten-Funktionen, die für die Erstellung von E-Mail-Inhalten in [!DNL Journey Optimizer B2B Edition] verwendet werden:
+Die folgenden Einschränkungen und Richtlinien gelten für die Erstellung von E-Mail-Inhalten in [!DNL Journey Optimizer B2B Edition]:
 
 * Englisch ist die einzige unterstützte Sprache.
 * Der generierte Inhalt ist möglicherweise nicht korrekt. Geben Sie Ihr Feedback, damit Adobe-Techniker die Modelle verfeinern können.
@@ -54,7 +67,7 @@ Die folgenden Einschränkungen und Richtlinien gelten für KI-Assistenten-Funkti
 
 ## Eingabe und Einstellungen für die Inhaltserstellung
 
-Sie können den vollständigen Inhalt für eine E-Mail oder für ausgewählte Komponenten in der E-Mail generieren. Wenn Sie die KI-Assistenten-Tools verwenden, geben Sie Eingabeaufforderungen, Referenzinhalte und Einstellungen für Text und Bilder an.
+Sie können den vollständigen Inhalt für eine E-Mail oder für ausgewählte Komponenten in der E-Mail generieren. Wenn Sie die Tools zur Inhaltserstellung verwenden, geben Sie Eingabeaufforderungen, Referenzinhalte und Einstellungen für Text und Bilder an.
 
 ### Prompts
 
@@ -62,7 +75,7 @@ Verwenden Sie klar definierte Eingabeaufforderungen für das generative KI-Model
 
 ![Aufforderungsfeld](./assets/gen-ai-prompt.png){width="320"}
 
-Weitere Informationen zum Erstellen effektiver Eingabeaufforderungen finden Sie unter _[Best Practices für Eingabeaufforderungen](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_.
+Weitere Informationen zum Erstellen effektiver Eingabeaufforderungen finden Sie unter _[Best Practices für Eingabeaufforderungen](./generative-ai-content.md#generative-ai-prompting-guide)_.
 
 >[!BEGINSHADEBOX]
 
@@ -70,9 +83,9 @@ Weitere Informationen zum Erstellen effektiver Eingabeaufforderungen finden Sie 
 
 Eine effektive Eingabeaufforderung ist für die Erstellung des bestmöglichen Inhalts unerlässlich. Wenn Sie Hilfe bei der Erstellung Ihrer Eingabeaufforderung benötigen, klicken Sie auf das Symbol _Bibliothek auffordern_ ![Bibliothek auffordern](../assets/do-not-localize/icon-library.svg), um auf eine Bibliothek mit Eingabeaufforderungsideen zuzugreifen, die nach Zielen organisiert sind. Geben Sie Text in das Suchfeld ein, um eine Eingabeaufforderung basierend auf einer Keyword-Zeichenfolge zu finden.
 
-![KI-Assistent - Zugriff auf die Eingabeaufforderungsbibliothek](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
+![Inhalt generieren - Zugriff auf die Eingabeaufforderungsbibliothek](./assets/gen-ai-prompt-library.png){width="600" zoomable="no"}
 
-Wählen Sie die Eingabeaufforderung aus, die Ihren Zielen am besten entspricht, und klicken Sie auf **[!UICONTROL Diese Eingabeaufforderung ausprobieren]**. Ersetzen Sie im _[!UICONTROL Eingabeaufforderung]_ alle Platzhalter (z. B. `[Key Feature/Information]`) durch Werte, die Ihre Marke, Ihr Angebot, Ihre Kampagne und Ihre Anwendungsfälle angeben.
+Wählen Sie die Eingabeaufforderung aus, die Ihren Zielen am besten entspricht, und klicken Sie auf **[!UICONTROL Diese Eingabeaufforderung ausprobieren]**. Ersetzen Sie im _[!UICONTROL Eingabeaufforderung]_ die Platzhalter (z. B. `[Key Feature/Information]`) durch Ihre Marken-, Angebots-, Kampagnen- und Anwendungsfalldetails.
 
 >[!ENDSHADEBOX]
 
@@ -119,7 +132,7 @@ Klicken Sie auf den Pfeil nach links, um zur Hauptseite (_[!UICONTROL )]_.
 
 ### Referenzinhalt
 
-Laden Sie Referenz-Content-Assets hoch, um genaue, markeninterne Inhalte zu generieren. Andernfalls basiert der generierte Inhalt auf öffentlich verfügbaren Informationen. Referenzinhalte dienen als Quelle für die Inhaltserstellung und Bildempfehlungen. Richtlinien und Best Practices finden Sie unter _[Optimierte Referenzinhalte](../ai-coworker/generative-ai-content.md#reference-content)_.
+Laden Sie Referenz-Content-Assets hoch, um genaue, markeninterne Inhalte zu generieren. Andernfalls basiert der generierte Inhalt auf öffentlich verfügbaren Informationen. Referenzinhalte dienen als Quelle für die Inhaltserstellung und Bildempfehlungen. Richtlinien und Best Practices finden Sie unter _[Optimierte Referenzinhalte](./generative-ai-content.md#reference-content)_.
 
 Klicken Sie in den **[!UICONTROL Referenzinhalt]** auf **[!UICONTROL Datei hochladen]**, um jedes Asset hinzuzufügen, das Inhalte enthält, die Sie für zusätzlichen Kontext verwenden möchten.
 
@@ -131,23 +144,23 @@ Wenn Sie eine zuvor hochgeladene Datei auswählen möchten, erweitern Sie die Li
 
 ![Vorhandenen Referenzinhalt aktivieren, um ihn zu verwenden](./assets/gen-ai-reference-content-select.png){width="350" zoomable="yes"}
 
-## Generieren von E-Mail-Eigenschaften mit dem KI-Assistenten
+## E-Mail-Eigenschaften generieren
 
-Wenn Sie [&#x200B; Konto-Journey &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Der KI-Assistent kann dazu beitragen, die E-Mail-Interaktion zu verbessern, indem er empfohlene Inhalte für die E-Mail **_Betreffzeile_** und den **_Preheader_** generiert.
+Wenn Sie [&#x200B; Konto-Journey &#x200B;](./add-email.md#add-an-email-action-node-in-a-journey)Aktion „E-Mail hinzufügen“ hinzufügen, definieren Sie eine Reihe von E-Mail-Eigenschaften, die zum Senden der E-Mail verwendet werden. Die Tools für generative KI können dazu beitragen, die E-Mail-Interaktion zu verbessern, indem empfohlene Inhalte für die E-Mail **_Betreffzeile_** und **_preheader)_**.
 
-Wenn Sie eine E-Mail von einer Journey erstellen oder eine bestehende E-Mail von einem Journey-Knoten aus öffnen, wird die E-Mail-Vorschauseite mit den _[!UICONTROL E-Mail-Eigenschaften]_ auf der rechten Seite angezeigt. Auf der Registerkarte _[!UICONTROL Zusammenfassung]_ können Sie die Inhaltsgenerierungs-Tools des KI-Assistenten verwenden, um eine Betreffzeile, einen Preheader oder beides zu generieren.
+Wenn Sie eine E-Mail von einer Journey erstellen oder eine bestehende E-Mail von einem Journey-Knoten aus öffnen, wird die E-Mail-Vorschauseite mit den _[!UICONTROL E-Mail-Eigenschaften]_ auf der rechten Seite angezeigt. Auf der Registerkarte _[!UICONTROL Zusammenfassung]_ können Sie die Tools zur Inhaltserstellung verwenden, um eine Betreffzeile, einen Preheader oder beides zu generieren.
 
 >[!BEGINTABS]
 
 >[!TAB Erzeugung der Betreffzeile]
 
-Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zum Generieren einer optimierten Betreffzeile für Ihre E-Mail:
+Die folgenden Schritte beschreiben die Aufgabensequenz zum Generieren einer optimierten Betreffzeile für Ihre E-Mail:
 
 1. Scrollen _im Bedienfeld_ Zusammenfassung“ mit der ausgewählten Registerkarte _Details_ nach unten zum Feld **[!UICONTROL Betreffzeile]**.
 
-1. Klicken Sie auf das Symbol KI![Assistent ( &#x200B;](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}KI-Assistentenzugriffssymbol) rechts neben dem Feld.
+1. Klicken Sie auf _Symbol_ Inhalt generieren![&#x200B; ( Symbol &#x200B;](../../assets/do-not-localize/icon-gen-ai-email-properties.svg){width="30"}Inhaltszugriff generieren) rechts neben dem Feld.
 
-   ![Zugriff des KI-Assistenten für die E-Mail-Betreffzeile](./assets/email-properties-ai-assistant-subject-line-icon.png){width="600" zoomable="yes"}
+   ![Generativer KI-Zugriff für E-Mail-Betreffzeile](./assets/email-properties-generate-content-subject-line-icon.png){width="600" zoomable="yes"}
 
    Der _[!UICONTROL Betreffzeile generieren]_ wird mit den Generierungseinstellungen für die E-Mail-Betreffzeile geöffnet.
 
@@ -164,9 +177,9 @@ Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des K
 
    Die generierten Varianten werden im Dialogfeld angezeigt.
 
-   ![KI-Assistent - von der E-Mail-Betreffzeile generierte Varianten](./assets/email-properties-ai-assistant-subject-line.png){width="600" zoomable="yes"}
+   ![Inhalt generieren - Von der E-Mail-Betreffzeile generierte Varianten](./assets/email-properties-generate-content-subject-line.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie im Bedienfeld KI-Assistent durch die generierten Varianten, um festzustellen, welche am besten geeignet ist.
+1. Scrollen Sie im _Inhalt generieren_ und durchsuchen Sie die generierten Varianten, um zu bestimmen, welche am besten geeignet ist.
 
    Sie können [Feedback senden](#submit-variation-feedback) für eine generierte Variante, indem Sie auf das Symbol _Daumen hoch_, _Daumen runter_ oder _Flag_ klicken und den Grund auswählen, der Ihr Feedback am besten zusammenfasst.
 
@@ -180,19 +193,19 @@ Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des K
 
    * **[!UICONTROL Ton ändern]** - Passen Sie den Ton der Nachricht an Ihren Kommunikationsstil an, z. B. freundlicher, professioneller, dringender oder inspirierender.
 
-   * **[!UICONTROL Kommunikationsstrategie ändern]** - Ändern Sie den Messaging-Ansatz basierend auf Ihren Zielen, z. B. der Schaffung von Dringlichkeit oder der Betonung aufregender Attraktivität.
+   * **[!UICONTROL Kommunikationsstrategie ändern]** - Ändern Sie den Messaging-Ansatz entsprechend Ihren Zielen, z. B. um Dringlichkeit zu schaffen oder um überzeugende Attraktivität hervorzuheben.
 
-   ![KI-Assistent - Verfeinerung der Betreffzeile](./assets/email-properties-ai-assistant-subject-line-refine.png){width="600" zoomable="yes"}
+   ![Inhalt generieren - Betreffzeilenverfeinerung](./assets/email-properties-generate-content-subject-line-refine.png){width="600" zoomable="yes"}
 
 1. Klicken Sie **[!UICONTROL Auswählen]**, um den Betreffzeilentext durch die ausgewählte Variante zu ersetzen und zu den E-Mail-Eigenschaften zurückzukehren.
 
 >[!TAB Preheader-Generierung]
 
-Ein E-Mail-Preheader ist der kurze Zusammenfassungstext, der auf die Betreffzeile folgt, wenn eine E-Mail im Posteingang angezeigt wird. Dies ist ein optionales Element für eine E-Mail, aber eine effektive Möglichkeit, die Interaktion zu verbessern. Die folgenden Schritte beschreiben die Aufgabensequenz für die Verwendung des KI-Assistenten zum Generieren eines optimierten Preheaders für Ihre E-Mail:
+Ein E-Mail-Preheader ist der kurze Zusammenfassungstext, der auf die Betreffzeile folgt, wenn eine E-Mail im Posteingang angezeigt wird. Dies ist ein optionales Element für eine E-Mail, aber eine effektive Möglichkeit, die Interaktion zu verbessern. Die folgenden Schritte beschreiben die Aufgabensequenz zum Generieren eines optimierten Preheaders für Ihre E-Mail:
 
 1. Scrollen Sie im Bedienfeld _Zusammenfassung_ mit der ausgewählten Registerkarte _Details_ nach unten und aktivieren Sie das Kontrollkästchen **[!UICONTROL Preheader]**.
 
-   ![Zugriff des KI-Assistenten für den E-Mail-Preheader](./assets/email-properties-ai-assistant-preheader-icon.png){width="600" zoomable="yes"}
+   ![Generativer KI-Zugriff für E-Mail-Preheader](./assets/email-properties-generate-content-preheader-icon.png){width="600" zoomable="yes"}
 
    Das _[!UICONTROL Preheader generieren]_ wird mit den Generierungseinstellungen für den E-Mail-Preheader geöffnet.
 
@@ -209,9 +222,9 @@ Ein E-Mail-Preheader ist der kurze Zusammenfassungstext, der auf die Betreffzeil
 
    Die generierten Varianten werden im Dialogfeld angezeigt.
 
-   ![KI-Assistent - vom E-Mail-Preheader generierte Varianten](./assets/email-properties-ai-assistant-preheader.png){width="600" zoomable="yes"}
+   ![Inhalt generieren - Vom E-Mail-Preheader generierte Varianten](./assets/email-properties-generate-content-preheader.png){width="600" zoomable="yes"}
 
-1. Scrollen Sie im Bedienfeld KI-Assistent durch die generierten Varianten, um festzustellen, welche am besten geeignet ist.
+1. Scrollen Sie im Bedienfeld _Inhalt generieren_ nach unten und durchsuchen Sie die generierten Varianten, um zu bestimmen, welche am besten geeignet ist.
 
    Sie können [Feedback senden](#submit-variation-feedback) für eine generierte Variante, indem Sie auf das Symbol _Daumen hoch_, _Daumen runter_ oder _Flag_ klicken und den Grund auswählen, der Ihr Feedback am besten zusammenfasst.
 
@@ -227,19 +240,19 @@ Ein E-Mail-Preheader ist der kurze Zusammenfassungstext, der auf die Betreffzeil
 
    * **[!UICONTROL Kommunikationsstrategie ändern]** - Ändern Sie den Messaging-Ansatz basierend auf Ihren Zielen, z. B. der Schaffung von Dringlichkeit oder der Betonung aufregender Attraktivität.
 
-   ![KI-Assistent - Preheader-Verfeinerung](./assets/email-properties-ai-assistant-preheader-refine.png){width="500" zoomable="yes"}
+   ![Inhalt generieren - Präheader-Verfeinerung](./assets/email-properties-generate-content-preheader-refine.png){width="500" zoomable="yes"}
 
 1. Klicken Sie **[!UICONTROL Auswählen]**, um den Preheader durch die ausgewählte Variante zu ersetzen und zu den E-Mail-Eigenschaften zurückzukehren.
 
 >[!ENDTABS]
 
-## Generieren von E-Mail-Textinhalten mit dem KI-Assistenten {#generative-ai-email-design}
+## Generieren von E-Mail-Textinhalten {#generative-ai-email-design}
 
-Nachdem Sie [E-Mail erstellt und personalisiert haben](./email-authoring.md) verwenden Sie den KI-Assistenten in [!DNL Journey Optimizer B2B Edition], der auf generativer KI basiert, um den Inhalt Ihres E-Mail-Textkörpers zu verbessern.
+Nachdem Sie [E-Mail erstellt und personalisiert haben](./email-authoring.md) verwenden Sie die generativen KI-Tools von Adobe, um den Inhalt Ihres E-Mail-Textkörpers zu verbessern.
 
-Im Bereich des E-Mail-Designs kann Ihnen der KI-Assistent dabei helfen, die Wirkung Ihrer Sendungen zu optimieren, indem er den vollständigen E-Mail-Textkörper, zielgerichtete Textinhalte und Bilder generiert, die bei Ihrer Audience Anklang finden. Diese Optimierung Ihrer E-Mail-Kampagnen sorgt für eine bessere Interaktion. Wählen Sie den _KI_ Assistenten (![Menüumschalter KI-Assistent](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ) aus, um die Inhaltsgenerierungs-Tools anzuzeigen, die für die aktuelle Inhaltsauswahl verfügbar sind.
+Im Bereich des E-Mail-Designs können Sie mit KI-Tools die Wirkung Ihrer Sendungen optimieren, indem Sie den vollständigen E-Mail-Textkörper, zielgerichtete Textinhalte und Bilder generieren, die bei Ihrer Audience Anklang finden. Diese Optimierung Ihrer E-Mail-Kampagnen sorgt für eine bessere Interaktion. Wählen Sie _Inhalt generieren_ aus (![Umschalter für das Inhaltsmenü &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25" zoomable="no"} ), um die Inhaltsgenerierungs-Tools anzuzeigen, die für die aktuelle Inhaltsauswahl verfügbar sind.
 
-![KI-Assistenten-Umschalter im E-Mail-Design-Bereich](./assets/email-designer-ai-assistant-button.png){width="600" zoomable="yes"}
+![Umschalter „Inhalt generieren“ im E-Mail-Design-Bereich](./assets/email-designer-generate-content-button.png){width="600" zoomable="yes"}
 
 Führen Sie die folgenden Schritte entsprechend dem Typ der E-Mail-Inhaltserstellung aus, den Sie verwenden möchten:
 
@@ -247,7 +260,7 @@ Führen Sie die folgenden Schritte entsprechend dem Typ der E-Mail-Inhaltserstel
 
 >[!TAB Vollständige E-Mail-Generierung]
 
-Gehen Sie wie folgt vor, um den KI-Assistenten für die vollständige E-Mail-Erstellung zu verwenden, indem Sie eine vorhandene E-Mail-Vorlage verfeinern:
+Gehen Sie wie folgt vor, um eine vollständige E-Mail zu generieren, indem Sie eine vorhandene E-Mail-Vorlage verfeinern:
 
 1. Klicken [&#x200B; nach dem Erstellen der E](./add-email.md)Mail auf **[!UICONTROL E-Mail-Inhalt bearbeiten]**.
 
@@ -257,11 +270,11 @@ Gehen Sie wie folgt vor, um den KI-Assistenten für die vollständige E-Mail-Ers
 
    Weitere Informationen zur Verwendung einer E-Mail-Vorlage finden Sie unter _[Auswählen einer Vorlage](./email-authoring.md#select-a-template)_.
 
-1. Rufen Sie im Bereich zum Entwerfen von E-Mails das Menü des KI-Assistenten auf, indem Sie auf das Symbol ![Umschalter für das &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}-Menü ) auf der rechten Seite klicken.
+1. Klicken Sie im E-Mail-Design auf das Symbol _Inhalt generieren_ (![Menüumschalter für &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} generieren) auf der rechten Seite.
 
-   Die Einstellungen des KI-Assistenten auf der rechten Seite spiegeln _E-Mail_) wider.
+   Die Einstellungen auf der rechten Seite spiegeln &quot;_generieren_ wider.
 
-   ![KI-Assistent - Bibliothek zum Generieren von E-Mail-Inhalten auffordern](./assets/email-designer-ai-assistant-full.png){width="600" zoomable="yes"}
+   ![Inhalt generieren - Bibliothek zum Generieren von E-Mail-Inhalten auffordern](./assets/email-designer-generate-content-full.png){width="600" zoomable="yes"}
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
 
@@ -273,7 +286,7 @@ Gehen Sie wie folgt vor, um den KI-Assistenten für die vollständige E-Mail-Ers
 
    >[!TIP]
    >
-   >Wenn Sie mit der Einholung von generierten Inhalten noch nicht vertraut sind, lesen Sie den Abschnitt _[Best Practices zur Einholung von](../ai-coworker/generative-ai-content.md#generative-ai-prompting-guide)_&quot;.
+   >Wenn Sie mit der Einholung von generierten Inhalten noch nicht vertraut sind, lesen Sie den Abschnitt _[Best Practices zur Einholung von](./generative-ai-content.md#generative-ai-prompting-guide)_&quot;.
 
 1. Um den generierten Inhalt anzupassen, füllen Sie die Einstellungen für Inhaltsanleitungen aus:
 
@@ -287,11 +300,11 @@ Gehen Sie wie folgt vor, um den KI-Assistenten für die vollständige E-Mail-Ers
 
 1. Durchsuchen Sie die generierten Varianten oder klicken Sie auf das Symbol _Vollbild_ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld _[!UICONTROL E-Mail]_) zu öffnen.
 
-   Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Text und Referenzinhalt (falls erforderlich) und zum Neugenerieren der Varianten.
+   Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Text und Referenzinhalte (falls erforderlich) und Neugenerieren der Varianten.
 
    Sie können eine Variante auch optimieren, indem Sie Verfeinerungsaktionen anwenden und Feedback für die generierten Varianten senden. Weitere Informationen _[Verfeinerung von Varianten und Feedback finden](#refine-finalize)_ unter „Vorschau und Inhaltsverfeinerung“.
 
-   ![Vorschau der E-Mail-Varianten und Verfeinerungsoptionen im KI-Assistenten](./assets/email-designer-ai-assistant-full-refine.png){width="700" zoomable="yes"}
+   ![Vorschau generierter E-Mail-Varianten und Verfeinerungsoptionen](./assets/email-designer-generate-content-full-refine.png){width="700" zoomable="yes"}
 
 1. Klicken Sie **[!UICONTROL Auswählen]**, um den Vorlageninhalt durch die ausgewählte Variante zu ersetzen und zum E-Mail-Design zurückzukehren.
 
@@ -299,11 +312,11 @@ Gehen Sie wie folgt vor, um den KI-Assistenten für die vollständige E-Mail-Ers
 
 >[!TAB Nur Text]
 
-Gehen Sie wie folgt vor, um den Textinhalt für eine vorhandene E-Mail mit dem KI-Assistenten zu verfeinern oder zu verbessern:
+Gehen Sie wie folgt vor, um den Textinhalt für eine vorhandene E-Mail zu verfeinern oder zu verbessern:
 
 1. Wählen Sie im E-Mail-Design-Bereich eine _Text_-Komponente aus, um den spezifischen Inhalt anzusprechen.
 
-1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _KI-Assistent_ ( ![KI-Assistenten-Menüumschalter](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
+1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Menüumschalter für Inhalt &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}).
 
    Die Einstellungen auf der rechten Seite spiegeln die Einstellungen zur Inhaltserstellung für die Textkomponente wider.
 
@@ -313,7 +326,7 @@ Gehen Sie wie folgt vor, um den Textinhalt für eine vorhandene E-Mail mit dem K
 
 1. Geben **[!UICONTROL im Feld &quot;]**&quot; eine Beschreibung dessen ein, was generiert werden soll.
 
-   ![KI-Assistent - Texteinstellungen](./assets/email-designer-ai-assistant-text.png){width="600" zoomable="yes"}
+   ![Inhalt generieren - Texteinstellungen](./assets/email-designer-generate-content-text.png){width="600" zoomable="yes"}
 
    Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompt-library), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
 
@@ -331,7 +344,7 @@ Gehen Sie wie folgt vor, um den Textinhalt für eine vorhandene E-Mail mit dem K
 
    Sie können eine Variante auch optimieren, indem Sie Verfeinerungsaktionen anwenden und Feedback für die generierten Varianten senden. Weitere Informationen _[Verfeinerung von Varianten und Feedback finden](#preview-and-refine-the-content)_ unter „Vorschau und Inhaltsverfeinerung“.
 
-   ![KI-Assistent - Vorschau von Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-ai-assistant-text-refine.png){width="700" zoomable="yes"}
+   ![Vorschau der erzeugten Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-generate-content-text-refine.png){width="700" zoomable="yes"}
 
 1. Wenn Sie den gewünschten Inhalt haben, klicken Sie auf **[!UICONTROL Auswählen]**, um den Text durch die ausgewählte Variante zu ersetzen und zum E-Mail-Design zurückzukehren.
 
@@ -339,13 +352,13 @@ Gehen Sie wie folgt vor, um den Textinhalt für eine vorhandene E-Mail mit dem K
 
 >[!TAB Nur Bild]
 
-Gehen Sie wie folgt vor, um den KI-Assistenten zum Verfeinern oder Verbessern des Bildinhalts für eine vorhandene E-Mail zu verwenden:
+Gehen Sie wie folgt vor, um den Bildinhalt für eine vorhandene E-Mail zu verfeinern oder zu verbessern:
 
 1. Wählen Sie im Bereich „E-Mail-Design“ eine Komponente _Bild_ aus, um auf den spezifischen Inhalt zuzugreifen.
 
-1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _KI-Assistent_ ( ![KI-Assistenten-Menüumschalter](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"} ).
+1. Klicken Sie in der äußeren Leiste des rechten Bedienfelds auf das Symbol _Inhalt generieren_ (![Menüumschalter für Inhalt &#x200B;](../../assets/do-not-localize/icon-gen-ai-content.svg){width="25"}).
 
-   Die Einstellungen des KI-Assistenten auf der rechten Seite spiegeln die Erzeugungseinstellungen für die Bildkomponente wider.
+   Die Einstellungen auf der rechten Seite spiegeln die Erzeugungseinstellungen für die Bildkomponente wider.
 
 1. Wählen Sie Ihre **[!UICONTROL Marke]** aus, um sicherzustellen, dass die von KI generierten Inhalte mit Ihren Markenspezifikationen übereinstimmen.
 
@@ -353,7 +366,7 @@ Gehen Sie wie folgt vor, um den KI-Assistenten zum Verfeinern oder Verbessern de
 
 1. Geben Sie im Feld „Eingabeaufforderung“ eine Beschreibung **[!UICONTROL gewünschten]** ein.
 
-   ![KI-Assistent - Geben Sie eine Eingabeaufforderung für die Bildkomponente ein](./assets/email-designer-ai-assistant-image.png){width="600" zoomable="yes"}
+   ![Inhalt generieren - geben Sie eine Eingabeaufforderung für die Bildkomponente ein](./assets/email-designer-generate-content-image.png){width="600" zoomable="yes"}
 
    Verwenden Sie die [Eingabeaufforderungsbibliothek](#prompt-library), wenn Sie Hilfe bei der Erstellung einer effektiven Eingabeaufforderung benötigen.
 
@@ -365,7 +378,7 @@ Gehen Sie wie folgt vor, um den KI-Assistenten zum Verfeinern oder Verbessern de
 
 1. Wenn Sie mit Ihrer Eingabeaufforderung und den Einstellungen zufrieden sind, klicken Sie auf **[!UICONTROL Generieren]**.
 
-   Der KI-Assistent verarbeitet die Anfrage und generiert basierend auf der Eingabeaufforderung und anderen Eingaben die am besten geeigneten Bilder.
+   Das System verarbeitet die Anfrage und generiert basierend auf der Eingabeaufforderung und anderen Eingaben die am besten geeigneten Bilder.
 
    >[!IMPORTANT]
    >
@@ -373,11 +386,11 @@ Gehen Sie wie folgt vor, um den KI-Assistenten zum Verfeinern oder Verbessern de
 
 1. Durchsuchen Sie die generierten Varianten oder klicken Sie auf das Symbol _Vollbild_ ( ![Vollbildsymbol](../assets/do-not-localize/icon-full-screen.svg) ), um das Dialogfeld _[!UICONTROL Bild generieren]_ zu öffnen.
 
-   Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Bilder und Referenzinhalte (falls erforderlich) und zum Neugenerieren der Varianten.
+   Das Dialogfeld bietet zusätzlichen Platz zum Vergleichen der Varianten, Anpassen der Einstellungen für Bilder und Referenzinhalte (falls erforderlich) und Neugenerieren der Varianten.
 
    Sie können eine Variante auswählen und auf **[!UICONTROL Ähnlich generieren]** klicken, um zusätzliche Bilder zu generieren, die der ausgewählten Variante ähnlich sind. Oder klicken Sie auf **[!UICONTROL In Adobe Express bearbeiten]**, um Ihre eigenen Änderungen am Bild vorzunehmen. Weitere [&#x200B; zur Verwendung von Adobe Express zum Verfeinern &#x200B;](./image-edit-adobe-express.md#quick-actions-in-adobe-express) Bildern finden Sie unter „Schnellaktionen in Adobe Express&quot;.
 
-   ![KI-Assistent - Vorschau von Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-ai-assistant-image-refine.png){width="700" zoomable="yes"}
+   ![Vorschau der erzeugten Textvarianten- und Verfeinerungsoptionen](./assets/email-designer-generate-content-image-refine.png){width="700" zoomable="yes"}
 
    Sie können auch [Feedback senden](#submit-variation-feedback) für die generierten Varianten einreichen.
 
@@ -389,7 +402,7 @@ Gehen Sie wie folgt vor, um den KI-Assistenten zum Verfeinern oder Verbessern de
 
 ## Anzeigen einer Vorschau und Verfeinern des Inhalts {#refine-finalize}
 
-Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse optimieren, um sicherzustellen, dass sie genau Ihren Anforderungen entsprechen. Überprüfen Sie die Markenausrichtung, passen Sie Ton und Sprache an und bereiten Sie den Inhalt für einen überprüfbaren Entwurf vor. Sie können auch Feedback für eine Variante senden, um den KI-Assistenten zu trainieren und die zukünftige Ausgabe zu verbessern.
+Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse optimieren, um sicherzustellen, dass sie genau Ihren Anforderungen entsprechen. Überprüfen Sie die Markenausrichtung, passen Sie Ton und Sprache an und bereiten Sie den Inhalt für einen überprüfbaren Entwurf vor. Sie können auch Feedback für eine Variante senden, um die generativen KI-Tools zu trainieren und die zukünftige Ausgabe zu verbessern.
 
 ### Vollbildansicht öffnen
 
@@ -405,9 +418,9 @@ Nachdem Sie Inhaltsvarianten generiert haben, können Sie die Ergebnisse optimie
 
 Klicken Sie auf die **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsfunktionen für E-Mail- und Textvarianten zuzugreifen:
 
-* **[!UICONTROL Entwickeln]** - Der KI-Assistent kann Ihnen dabei helfen, bestimmte Themen zu vertiefen und zusätzliche Details bereitzustellen, um das Verständnis und die Interaktion zu verbessern.
+* **[!UICONTROL Ausarbeiten]** - Erweitern Sie Ihre Kenntnisse zu bestimmten Themen und liefern Sie zusätzliche Details, um das Verständnis und die Interaktion zu verbessern.
 
-* **[!UICONTROL Zusammenfassen]** - Lange Informationen können die Leser überlasten. Nutzen Sie den KI-Assistenten, um die wichtigsten Punkte in klaren, prägnanten Aussagen zusammenzufassen, die die Aufmerksamkeit der Leserinnen und Leser wecken und sie zum Weiterlesen anregen.
+* **[!UICONTROL Zusammenfassen]** - Lange Informationen können die Leser überfordern. Verwenden Sie diese Option, um die wichtigsten Punkte in klaren, knappen Zusammenfassungen zusammenzufassen, die die Aufmerksamkeit auf sich ziehen und die Leser zum weiteren Lesen ermutigen.
 
 * **[!UICONTROL Umformulieren]** - Die Nachricht wird neu geschrieben, wobei ihre Bedeutung erhalten bleibt. Mit dieser Option können Sie alternative Formulierungen generieren, den Lesefluss verbessern oder die Ausdrucksweise anpassen, ohne die Kernbotschaft zu ändern.
 
@@ -427,7 +440,7 @@ Klicken Sie auf die **[!UICONTROL Verfeinern]**, um auf zusätzliche Anpassungsf
 
 Geben Sie Feedback für die generierten Varianten, indem Sie auf das Symbol _Daumen hoch_, _Daumen runter_ oder _Flag_ klicken und den Grund auswählen, der Ihr Feedback am besten zusammenfasst.
 
-![KI-Assistent - Vorschau der erzeugten Varianten](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
+![Vorschau der erzeugten Varianten](./assets/gen-ai-preview-feedback-thumbs-up.png){width="700" zoomable="yes"}
 
 ### Überprüfen der Markenausrichtung (Beta)
 
