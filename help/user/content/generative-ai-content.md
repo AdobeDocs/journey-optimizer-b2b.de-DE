@@ -413,7 +413,7 @@ Der Ton bestimmt, wie Ihre Zielgruppe Ihre Nachricht wahrnimmt und darauf reagie
 
 Referenzinhaltsdateien enthalten Fakten, die Ihre generierten Inhalte mit spezifischen, präzisen Details anreichern. Um festzulegen, welche Teile im Fokus sind, ändern Sie die Eingabeaufforderung beim Hochladen von Dokumenten, z. B. Produktbroschüren oder Whitepapers:
 
-* **anstelle von** _„Verwenden Sie die Produktbroschüre“_&#x200B;**verwenden**&quot;_„Konzentrieren Sie sich auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf SOC 2-Compliance und Datenverschlüsselung“_
+* **anstelle von** _„Verwenden Sie die Produktbroschüre“_**verwenden**&quot;_„Konzentrieren Sie sich auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf SOC 2-Compliance und Datenverschlüsselung“_
 
 * **Statt** _„Referenzieren Sie die Fallstudien“_ **verwenden** _„Markieren Sie die ROI-Ergebnisse von Kundinnen und Kunden im Gesundheitswesen, insbesondere die Kostenreduzierung um 40 % im regionalen medizinischen Zentrum“_
 
