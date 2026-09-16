@@ -7,24 +7,28 @@ role: User
 exl-id: 563d6a85-504d-4c70-b075-8a9a9e88bd6b
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:10:13.939Z
 TQID: https://experienceleague.adobe.com/qTheDe4jO49z8u8ia2wGZvLg-Gbh0MrN--a0lksLPBs
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: '2349'
 ht-degree: 4%
-
 ---
-
 # Aufspaltung und Zusammenführen von Pfaden {#split-paths}
 
 Verwenden Sie Split- und Merge-Path-Knoten, um Personen oder Konten gemäß den von Ihnen definierten Bedingungen zu segmentieren. Erstellen Sie Pfade für die Audience- oder Kontenliste gemäß den Bedingungen, definieren Sie jeden Pfad mit Aktions- und Ereignisknoten für das Segment, kombinieren Sie dann die Pfade und setzen Sie das Journey fort.
@@ -127,7 +131,7 @@ Bewerten Sie beispielsweise die Bereitschaft für eine Einkaufsgruppe anhand der
 
 1. Klicken Sie **[!UICONTROL Fertig]**, wenn alle Bedingungen für den Pfad definiert sind.
 
-Um den Status der Einkaufsgruppe oder des Stadiums zu aktualisieren oder eine E-Mail mit Verkaufswarnungen für die identifizierten Konten zu senden, fügen Sie einen Aktionsknoten im Pfad hinzu.
+Um den Status der Einkaufsgruppe oder des Schritts für die identifizierten Konten zu aktualisieren, fügen Sie einen Aktionsknoten im Pfad hinzu.
 
 ## Pfade nach Personen aufteilen
 
