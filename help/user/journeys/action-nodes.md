@@ -216,7 +216,7 @@ _So verwenden Sie eine vorhandene Zielgruppe :_
 
 +++[!UICONTROL Der Einkaufsgruppe zuweisen]
 
-Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [ und einer ausgewählten Rolle ](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [&#x200B; und einer ausgewählten Rolle &#x200B;](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
 
 ![Aktion ausführen - Zu Einkaufsgruppe hinzufügen](./assets/node-action-add-to-buying-group.png){width="300"}
 
@@ -240,7 +240,7 @@ Verwenden Sie diese Aktion, um [personalisierte Erlebnisse](../content/web-exper
 
 +++[!UICONTROL Aus Einkaufsgruppe entfernen]
 
-Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ ](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
+Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ &#x200B;](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
 
 ![Aktion durchführen - Aus der Einkaufsgruppe entfernen](./assets/node-action-remove-from-buying-group.png){width="300"}
 
@@ -288,7 +288,7 @@ Verwenden Sie diese Aktion, um eine WhatsApp-Nachricht zu senden. Sie können Wh
 
 +++[!UICONTROL Personenprofil aktualisieren]
 
-Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[ zu ](../admin/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
+Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[&#x200B; zu &#x200B;](../admin/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
 
 ![Aktion durchführen - Personenprofil aktualisieren](./assets/node-action-update-person-profile.png){width="300"}
 
@@ -312,7 +312,7 @@ Unterdrücken Sie beispielsweise Kampagnen in Marketo Engage für Personen, die 
 
 +++[!UICONTROL Zu Marketo-Anfragekampagne hinzufügen]
 
-Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne“ in ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} verbundenen Marketo Engage-Instanz hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne“ in &#x200B;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} verbundenen Marketo Engage-Instanz hinzuzufügen.
 
 Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie als Nächstes den Namen der Anfragekampagne aus.
 
