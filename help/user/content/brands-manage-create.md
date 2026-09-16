@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Content strategy
 autotag-review: 2026-03-30T21:55:06.504Z
 TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G2sNc
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 15%
@@ -173,7 +173,7 @@ Um Ihre Markenrichtlinien zu erstellen und zu definieren, können Sie entweder d
 
 Wenn Ihre Marke einen vollständigen Satz von Definitionen enthält und Ihre Anforderungen erfüllt, klicken Sie auf **[!UICONTROL Veröffentlichen]**, um Ihre Markenrichtlinien für die Ausrichtung und Erstellung von Inhalten verfügbar zu machen.
 
-Veröffentlichte Marken sind über die Option **[!UICONTROL Marke]** im KI-[Markenausrichtungswert](./content-evaluation.md#brand-alignment-score) und [Tools zur Inhaltserstellung](../ai-coworker/generative-ai-content.md) zugänglich.
+Veröffentlichte Marken sind über die Option **[!UICONTROL Marke]** im KI-[Markenausrichtungswert](./content-evaluation.md#brand-alignment-score) und [Tools zur Inhaltserstellung](./generative-ai-content.md) zugänglich.
 
 ![Markenoptionen für Inhalte](./assets/brand-menu-content-ai-tools.png){width="300"}
 
