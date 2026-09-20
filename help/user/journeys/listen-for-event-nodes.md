@@ -1,31 +1,34 @@
 ---
 title: Überwachen eines Ereignisses
-description: Konfigurieren von Ereignisknoten für Konto- und Personen-Trigger - Überwachen Sie in Journey Optimizer B2B edition die Kaufgruppenänderungen, E-Mail-Klicks, Formularausfüllungen und Experience Platform-Ereignisse.
+description: Konfigurieren von Ereignisknoten für Konto- und Personen-Trigger - überwachen Sie Gruppenänderungen, E-Mail-Klicks, Formularausfüllungen und Experience Platform-Ereignisse in Journey Optimizer B2B Edition.
 feature: Account Journeys
 role: User
 exl-id: d852660b-f1da-4da0-86f0-85271f55b79f
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:08:46.228Z
 TQID: https://experienceleague.adobe.com/f9N-ZeBXK-ON-gWtJHgFwvr9DCXRQyZRj9O7Jz9qeyo
-source-git-commit: 0b4e657df254a072d5703f13e956275e58554f9a
+source-git-commit: 8295db0f508acc0b28feabdf95f1ccb71f2afc12
 workflow-type: tm+mt
-source-wordcount: 1897
+source-wordcount: '1783'
 ht-degree: 5%
-
 ---
+# Warten auf ein Ereignis
 
-# Auf ein Ereignis lauschen
-
-Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu &#x200B;](./journeys-overview.md), wenn ein Ereignis eintritt, fügen Sie den Knoten _Auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
+Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu ](./journeys-overview.md), wenn ein Ereignis eintritt, fügen Sie den Knoten _Auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -45,80 +48,49 @@ Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu &#x200B;](./jour
 
 1. Verwenden Sie in den Knoteneigenschaften auf der rechten Seite den Selektor _Ereignistyp_, um zwischen **[!UICONTROL Konten]** und **[!UICONTROL Personen]** auszuwählen.
 
-1. Wählen Sie ein Ereignis aus der Liste aus.
-
-   * Wählen Sie für _Ereignistyp_ Personen[&#x200B; den Ereignistyp „Personen](#people-events) aus, den Sie für den Trigger verwenden möchten.
-
-     ![Journey-Knoten - Überwachen von Ereignissen auf Personen](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
+1. Den Ereignis-Trigger für den ausgewählten Ereignistyp definieren:
 
    * Wählen Sie für _Ereignistyp_ Konten“ den [Kontoereignis](#account-events), den Sie für den Trigger verwenden möchten.
 
      ![Journey-Knoten - Auf Ereignisse im Konto überwachen](./assets/node-listen-events-account.png){width="500" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Ereignis bearbeiten]** und definieren Sie Details für das Ereignis.
+     Klicken Sie **[!UICONTROL Ereignis bearbeiten]** und definieren Sie die entsprechenden Kriterien für das [Kontoereignis](#account-events).
 
-   Definieren Sie je nach ausgewähltem Ereignistyp und Ereignis die passenden Kriterien für das Ereignis.
+   * Klicken Sie für _Ereignistyp_ Personen“ auf **[!UICONTROL Ereigniskriterien hinzufügen]**.
 
-   * [Personenveranstaltungen](#people-events)
-   * [Kontoereignisse](#account-events)
+     ![Journey-Knoten - Überwachen von Ereignissen auf Personen](./assets/node-listen-events-people.png){width="500" zoomable="yes"}
 
-   Sie können auch [Filter](#filters-people-event) für das Ereignis einbeziehen.
+     Ziehen Sie im _Ereignis bearbeiten_ ein oder mehrere [Personenereignisse](#people-events) in den Builder-Bereich und legen Sie jeweils die Definition fest. Klicken Sie **[!UICONTROL Begrenzung hinzufügen]** für jede Begrenzung, die Sie zum Verfeinern der Ereignisübereinstimmung verwenden möchten.
+
+     Sie können mehrere Personenereignisse hinzufügen, die übereinstimmen. Das erste qualifizierte Ereignis bringt das Konto auf der Journey voran.
+
+     ![Konto-Journey-Knoten - Überwachen von Ereignissen - Ereignistyp „Personen“ - Ereignis bearbeiten](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
+
+     (Optional) Wählen Sie die Registerkarte **[!UICONTROL Filter]** aus, um [Filter für das Ereignis hinzuzufügen](#filters-people-event).
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-   Die Ereignis- und Filterdefinitionen werden im Knoten und in den Knoteneigenschaften angezeigt.
+   Die Ereignis- und Filterdefinitionen werden in den Knoteneigenschaften angezeigt.
 
-   ![Konto-Journey-Knoten - Überwachen von Ereignissen - Ereignis und Filter](./assets/node-listen-events-account-complete.png){width="500"}
+   ![Konto-Journey-Knoten - Überwachen von Ereignissen - Ereignisse definiert](./assets/node-listen-events-account-complete.png){width="500"}
 
 ### Personen-Events für Account-Journey {#people-events}
 
-Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis überwachen, wenn Sie das Konto auf der Journey entsprechend den Ereignissen vorverlegen möchten, die durch die Aktivität Personen ausgelöst wurden. Sie können Ereignisse auch nach Ereignisverlauf und Personenattributen filtern.
+Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis überwachen, wenn Sie das Konto auf der Journey entsprechend den durch Personen-(Lead-)Aktivitäten ausgelösten Ereignissen weiterleiten möchten. Sie können Ereignisse auch nach Ereignisverlauf und Personenattributen filtern.
 
 >[!TIP]
 >
 >Erlebnisereignisse können auftreten _bevor Personen die Journey_ (z. B. ein vorheriger E-Mail-Klick oder eine Web-Interaktion). Um Personen basierend auf diesen Ereignissen zu routen, verwenden Sie den [!UICONTROL Ereignisverlauf] Filter in einem [Pfade nach Personen](./split-merge-paths-nodes.md#experience-event-history-filtering)-Knoten.
 
+Ausführliche Informationen zur Verwendung von Erlebnisereignissen finden Sie unter [Erlebnisereignis-Trigger ](#experience-event-triggers).
+
 #### Journey Optimizer B2B-Ereignisse {#events-account-people}
 
 | Ereignis | Begrenzungen |
 | ----- | ----------- |
-| [!UICONTROL Der Einkaufsgruppe zugewiesen] | Lösungsinteresse (erforderlich)<br/><br/>Zusätzliche Einschränkungen (optional): <li>Rolle</li><li>Datum der Aktivität</li><br/>Zeitüberschreitung (optional) |
+| [!UICONTROL Lead zur Einkaufsgruppe hinzugefügt] | Lösungsinteresse (erforderlich)<br/><br/>Zusätzliche Einschränkungen (optional): <li>Rolle</li><li>Datum der Aktivität</li> |
+| [!UICONTROL Lead aus Einkaufsgruppe entfernt] | Interesse an der Lösung (erforderlich<br/>Datum der Aktivität (optional) |
 | [!UICONTROL Änderungen des Personenprofils] | Attribut (erforderlich)<br/>Datum der Aktivität (optional)<br/>Neuer Wert (optional)<br/>Vorheriger Wert (optional)<br/>Grund (optional)<br/>Source (optional) |
-| [!UICONTROL Aus Einkaufsgruppe entfernt] | Interesse an der Lösung (erforderlich<br/>Datum der Aktivität (optional)<br/>Zeitüberschreitung (optional) |
-
-1. Legen Sie den erforderlichen Wert fest, der mit dem Ereignis übereinstimmt.
-
-   Legen Sie bei Bedarf den -Operator für die Auswertung fest.
-
-1. Klicken Sie für jede optionale Begrenzung, die Sie für die Ereignisübereinstimmung einbeziehen möchten, auf **[!UICONTROL Begrenzung hinzufügen]** und wählen Sie eine Begrenzung in der Liste aus.
-
-   ![Dialogfeld „Ereignis bearbeiten“ für ein Journey Optimizer B2B People -Ereignis auf einer Konto-Journey](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
-
-1. (Optional) Wählen Sie die Registerkarte **[!UICONTROL Filter]** aus, um [Filter für das Ereignis hinzuzufügen](#filters-people-event).
-
-1. Klicken Sie auf **[!UICONTROL Fertig]**.
-
-#### Erlebnisereignisse {#experience-events-account-people}
-
->[!PREREQUISITES]
->
->Administratoren konfigurieren [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf Ereignisse reagieren.
->
->Um Erlebnisereignisse für Journey-Benutzer verfügbar zu machen, muss zunächst ein Produktadministrator [die Ereignistypen und -felder von Interesse hinzufügen](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
-
-1. Klicken Sie **[!UICONTROL Begrenzung hinzufügen]** und wählen Sie das Feld aus, das Sie für die Begrenzung verwenden möchten.
-
-   Die verfügbaren Einschränkungen werden als verwaltete Felder für die Ereigniskonfiguration definiert.
-
-1. Schließen Sie die Bedingung für die Einschränkung ab.
-
-   Sie können den Standardoperator **[!UICONTROL is]** verwenden, um einen oder mehrere Feldwerte abzugleichen. Sie können auch den Operator **[!UICONTROL isNot]** verwenden, um für alle Werte einen Abgleich durchzuführen, wobei ein oder mehrere angegebene Werte ausgeschlossen sind.
-
-   ![Dialogfeld „Ereignis bearbeiten“ für ein Erlebnisereignis auf einer Konto-Journey](./assets/node-listen-events-people-aep-events-edit-dialog.png){width="700" zoomable="yes"}
-
-1. (Optional) Wählen Sie die Registerkarte **[!UICONTROL Filter]** aus, um [Filter für das Ereignis hinzuzufügen](#filters-people-event).
-
-1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 ### Kontoereignisse {#account-events}
 
@@ -133,7 +105,7 @@ Auf einer Account-Journey können Sie für ein Account-basiertes Ereignis überw
 | [!UICONTROL Änderung des Vollständigkeitswerts] | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional): <li>Neue Bewertung</li><li>Vorherige Bewertung</li><li>Datum der Aktivität</li><br/>-Timeout (optional) |
 | [!UICONTROL Änderung des Interaktionswerts] | Lösungsinteresse<br/>Zusätzliche Einschränkungen (optional): <li>Neue Bewertung</li><li>Vorherige Bewertung</li><li>Datum der Aktivität</li><br/>-Timeout (optional) |
 
-1. Legen Sie die erforderliche Begrenzung fest, die mit dem Ereignis übereinstimmt.
+1. Um eine Übereinstimmung mit dem Ereignis herzustellen, legen Sie die erforderliche Einschränkung fest.
 
 1. Klicken Sie für jede optionale Begrenzung, die Sie für die Ereignisübereinstimmung einbeziehen möchten, auf **[!UICONTROL Begrenzung hinzufügen]** und wählen Sie das Feld aus.
 
@@ -206,7 +178,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Fügen Sie ein -Ereignis hinzu und legen Sie die Einschränkungen fest, die Sie für den Trigger abgleichen möchten.
 
-   Sie können [Erlebnisereignisse](#experience-events-person) und [Profiländerungen von Personen](#person-profile-changes) verwenden, um den Ereignis-Trigger zu definieren.
+   Sie können [Erlebnisereignisse](#experience-event-triggers) und [Profiländerungen von Personen](#person-profile-changes) verwenden, um den Ereignis-Trigger zu definieren.
 
    Ziehen Sie den Ereignis -Trigger per Drag-and-Drop in den Builder-Bereich und legen Sie die Definition fest. Klicken Sie **[!UICONTROL Begrenzung hinzufügen]** für jede Begrenzung, die Sie zum Verfeinern der Ereignisübereinstimmung verwenden möchten.
 
@@ -216,19 +188,39 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
-   Die Ereignis- und Filterdefinitionen werden im Knoten und in den Knoteneigenschaften angezeigt.
+   Die Ereignis- und Filterdefinitionen werden in den Knoteneigenschaften angezeigt.
 
    ![Journey-Knoten - Überwachen von Ereignissen - Ereignis und Filter](./assets/node-listen-events-person-complete.png){width="450"}
 
-### Erlebnisereignisse für Personen-Journey {#experience-events-person}
+### Personenprofiländerungen {#person-profile-changes}
+
+Bei Personen-Journeys können Sie eine Änderung der B2B-Personenprofilattribute verwenden, um den Trigger _Auf ein Ereignis warten_ zu ändern.
+
+1. ** Ziehen Sie **[!UICONTROL Personenprofiländerung] aus der Liste _[!UICONTROL Trigger]_ in den Bereich des Ereignisabgleichs-Builders.
+
+1. Klicken Sie **[!UICONTROL Einschränkung hinzufügen]** und wählen Sie die Attributänderung aus, die Sie für den Ereignis-Trigger verwenden möchten.
+
+   Legen Sie den Feldwert für die Änderung fest, für die Sie eine Übereinstimmung suchen.
+
+   ![Personen-Journey - Überwachen eines Personenprofiländerungsereignisses](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
+
+1. (Optional) Fügen Sie ein weiteres _Personenprofiländerung_ -Attribut hinzu, das Sie als Ereignis-Trigger oder [Erlebnisereignis“ ](#experience-event-triggers) möchten.
+
+   Wenn Sie mehrere Ereignisse zum Abgleichen hinzufügen, bringt das erste qualifizierte Ereignis das Personenprofil auf der Journey voran.
+
+1. (Optional) Wählen Sie die Registerkarte **[!UICONTROL Filter]** aus, um [Filter für das Ereignis hinzuzufügen](#filters-people-event).
+
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
+
+## Erlebnisereignis-Trigger {#experience-event-triggers}
+
+Erlebnisereignisse sind für Personen-Journey verfügbar oder wenn Sie den Ereignistyp _Personen_ in den Account-Journey verwenden. Verwenden Sie das Dialogfeld _[!UICONTROL Ereignis bearbeiten]_, um ein oder mehrere Erlebnisereignisse zum Auslösen des Knotens _Auf ein Ereignis warten_ hinzuzufügen.
 
 >[!PREREQUISITES]
 >
->Administratoren konfigurieren [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf Ereignisse reagieren.
+>Administratoren konfigurieren [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf Ereignisse reagieren.
 >
 >Um Erlebnisereignisse für Journey-Benutzer verfügbar zu machen, muss zunächst ein Produktadministrator [die Ereignistypen und -felder von Interesse hinzufügen](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
-
-Sie können Erlebnisereignisse verwenden, um den Trigger in den Journey des Benutzers im Dialogfeld _[!UICONTROL Ereignis bearbeiten]_ auszuführen.
 
 1. Erweitern Sie **[!UICONTROL Sapphire AEP Events]** in der Liste _[!UICONTROL Trigger]_ auf der linken Seite.
 
@@ -242,31 +234,15 @@ Sie können Erlebnisereignisse verwenden, um den Trigger in den Journey des Benu
 
    ![Dialogfeld „Ereignis bearbeiten“ für ein Erlebnisereignis auf einer Personen-Journey](./assets/node-listen-events-person-journey-edit-event-aep-event.png){width="700" zoomable="yes"}
 
-1. Stellen Sie den Operator und die Werte ein, die für das Ereignisfeld übereinstimmen sollen.
+1. Um eine Übereinstimmung mit dem Ereignisfeld zu erzielen, legen Sie den Operator und die Werte fest.
 
-1. (Optional) Fügen Sie ein weiteres Erlebnisereignis oder eine [Personenprofiländerung“ &#x200B;](#person-profile-changes).
+1. (Optional) Fügen Sie ein weiteres Ereignis hinzu.
 
-   Beim Hinzufügen mehrerer passender Ereignisse. Das erste Qualifizierungsereignis bringt das Personenprofil auf der Journey voran.
+   Sie können mehrere Erlebnisereignisse zum Auslösen des Knotens verwenden.
 
-1. (Optional) Wählen Sie die Registerkarte **[!UICONTROL Filter]** aus, um [Filter für das Ereignis hinzuzufügen](#filters-people-event).
+   Für eine Personen-Journey können Sie auch [Personenprofiländerungen“ ](#person-profile-changes). Für eine Konto-Journey (Ereignistyp „Personen„) können Sie auch [Journey Optimizer B2B-Ereignisse](#events-account-people) hinzufügen.
 
-1. Klicken Sie auf **[!UICONTROL Fertig]**.
-
-### Personenprofiländerungen {#person-profile-changes}
-
-Sie können eine Änderung der B2B-Personenprofilattribute verwenden, um den Trigger in den Journey des Benutzers im Dialogfeld _[!UICONTROL Ereignis bearbeiten]_ zu ändern.
-
-1. **&#x200B; Ziehen Sie &#x200B;** [!UICONTROL Personenprofiländerung] aus der Liste _[!UICONTROL Trigger]_ in den Bereich des Ereignisabgleichs-Builders.
-
-1. Klicken Sie **[!UICONTROL Einschränkung hinzufügen]** und wählen Sie die Attributänderung aus, die Sie für den Ereignis-Trigger verwenden möchten.
-
-   Legen Sie den Feldwert für die Änderung fest, für die Sie eine Übereinstimmung suchen.
-
-   ![Personen-Journey - Überwachen eines Personenprofiländerungsereignisses](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
-
-1. (Optional) Fügen Sie ein weiteres _Personenprofiländerung_ -Attribut hinzu, das Sie als Ereignis-Trigger oder [Erlebnisereignis“ &#x200B;](#experience-events-person) möchten.
-
-   Beim Hinzufügen mehrerer passender Ereignisse. Das erste Qualifizierungsereignis bringt das Personenprofil auf der Journey voran.
+   Wenn Sie mehrere Ereignisse zum Abgleichen hinzufügen, bringt das erste qualifizierte Ereignis das Personenprofil auf der Journey voran.
 
 1. (Optional) Wählen Sie die Registerkarte **[!UICONTROL Filter]** aus, um [Filter für das Ereignis hinzuzufügen](#filters-people-event).
 
@@ -279,7 +255,7 @@ Wenn Sie ein [Personenereignis auf einer Konto-Journey](#people-events) oder ein
 | Filter | Beschreibung |
 | ------------ | ----------- |
 | [!UICONTROL Ereignisverlauf] | Erlebnisereignisse, die von einem Administrator konfiguriert wurden. Siehe _[Auswählen von Erlebnisereignissen und Feldern](../admin/configure-aep-events.md)_. |
-| [!UICONTROL Personenattribute] | Attribute aus dem B2B-Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Bundesland <li>Abbestellt <li>Grund für Abmeldung |
+| [!UICONTROL Personenattribute] | Attribute aus dem B2B-Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
 | [!UICONTROL Personenattribute] | (Nur Personen-Journeys) Attributwert |
 | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
 
@@ -306,12 +282,11 @@ Wenn Sie ein [Personenereignis auf einer Konto-Journey](#people-events) oder ein
 
 1. Wenn die Ereignis- und Filterdefinitionen abgeschlossen sind, klicken Sie auf **[!UICONTROL Fertig]**.
 
-
 ## Hinzufügen einer maximalen Wartezeit zu einem Ereignisknoten {#timeouts}
 
 Legen Sie bei Bedarf fest, wie lange die Journey auf das Ereignis warten soll. Der Journey endet nach einer Zeitüberschreitung, es sei denn, Sie definieren einen Zeitüberschreitungspfad, über den Sie weitere Knoten hinzufügen können.
 
-Aktivieren Sie die Option **[!UICONTROL Timeout]** in den Knoteneigenschaften, um eine maximale Wartezeit für den Knoten _Lauschen auf Ereignis_ anzugeben.
+Aktivieren Sie die **[!UICONTROL Timeout]** in den Knoteneigenschaften, um eine maximale Wartezeit für den Knoten _Auf ein Ereignis überwachen_ anzugeben.
 
 1. Wählen Sie bei aktivierten Optionen den _Typ_ und geben Sie die Parameter für die Zeitüberschreitung an:
 
@@ -333,7 +308,7 @@ Aktivieren Sie die Option **[!UICONTROL Timeout]** in den Knoteneigenschaften, u
 
 1. Definieren Sie den Zeitüberschreitungspfad.
 
-   Die Option **[!UICONTROL Zeitüberschreitungspfad festlegen]** ist standardmäßig ausgewählt. Sie können diesen Pfad verwenden, um festzulegen, was passiert, wenn beim Überwachungsereignisknoten eine Zeitüberschreitung auftritt. Sie können alternative Aktionen und Ereignisse hinzufügen, die für Personenprofile gelten, wenn das Ereignis nicht eintritt.
+   Das System wählt standardmäßig die Option **[!UICONTROL Zeitüberschreitungspfad]**. Sie können diesen Pfad verwenden, um festzulegen, was passiert, wenn beim Knoten _Auf ein Ereignis überwachen_ eine Zeitüberschreitung auftritt. Sie können alternative Aktionen und Ereignisse hinzufügen, die für Personenprofile gelten, wenn das Ereignis nicht eintritt.
 
    ![Journey-Ereignisknoten - Zeitüberschreitungspfad festlegen](./assets/node-event-timeout-set-path.png){width="600" zoomable="yes"}
 
@@ -342,5 +317,5 @@ Aktivieren Sie die Option **[!UICONTROL Timeout]** in den Knoteneigenschaften, u
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3443243/?captions=ger&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on) 
 -->

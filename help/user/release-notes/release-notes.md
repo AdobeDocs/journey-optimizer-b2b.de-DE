@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
 workflow-type: tm+mt
-source-wordcount: '5637'
+source-wordcount: '5645'
 ht-degree: 61%
 ---
 # Versionshinweise zu Journey Optimizer B2B Edition
@@ -48,7 +48,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Funktion | _Aufspaltungspfade von Varianten_ Journey-Knoten | (Zuvor Beta für Account Journey) Marketing-Experten können jetzt Varianten innerhalb eines Accounts oder Personen-Journey testen, indem sie Accounts oder Personen auf der Grundlage definierter Prozentsätze unterschiedlichen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
 | Funktion | C2PA-Metadaten | Bilder, die mit generativen KI-Tools generiert oder bearbeitet wurden, werden jetzt automatisch mit C2PA-Metadaten signiert, sodass Sie die Anforderungen an Inhaltstransparenz und KI-Offenlegung erfüllen können. [Weitere Informationen](../content/c2pa-metadata.md) |
 | Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
-| Verbesserung | Überwachen von Ereignis-Triggern und -Filtern - Account-Journey | Unterstützung für mehrere Trigger und Filter in einem _Lauschen auf_) ist jetzt für Account-Journey verfügbar. |
+| Verbesserung | Überwachen von Ereignis-Triggern und -Filtern - Account-Journey | Für Account-Journey ist jetzt die Unterstützung für mehrere Trigger und Filter in einem _Lauschen Sie auf_) mit dem Ereignistyp _Personen_ verfügbar. [Weitere Informationen](../journeys/listen-for-event-nodes.md) |
 | Verbesserung | Externe Pfadknoten für Aufspaltung - Personen-Journey | Die Unterstützung für _externe Aufspaltungspfade_-Knoten ist jetzt für Personen-Journey verfügbar. [Weitere Informationen](../journeys/external-nodes.md#external-action) |
 | Verbesserung | Externe Aktionsknoten - Personen-Journey | Die Unterstützung für _Externe Aktion_-Knoten ist jetzt für Personen-Journey verfügbar. [Weitere Informationen](../journeys/external-nodes.md#external-split-paths) |
 | Verbesserung | Relationale AEP-Datensätze | Neue relationale Datensätze werden jetzt zusammen mit vorhandenen Datensätzen in Ihrer AEP-Sandbox angezeigt. |
@@ -200,7 +200,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
