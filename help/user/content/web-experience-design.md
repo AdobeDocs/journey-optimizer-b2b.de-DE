@@ -1,34 +1,42 @@
 ---
 title: Web-Erlebnisdesign
-description: Entwerfen von Web-Erlebnissen mit visuellen und nicht visuellen Editoren - Hinzufügen von Änderungen, Verwalten von Inhaltsaktualisierungen, Aktivieren von Klick-Tracking und Personalisieren von Inhalten in Journey Optimizer B2B edition.
+description: Entwerfen von Web-Erlebnissen mit visuellen und nicht visuellen Editoren - Hinzufügen von Änderungen, Verwalten von Inhaltsaktualisierungen, Aktivieren von Klick-Tracking und Personalisieren von Inhalten in Journey Optimizer B2B Edition.
 feature: Content Design Tools, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 77669dd9-f6d2-4117-bedc-bedfd4c519c4
 autotag-review: '2026-05-27T16:20:57.090Z'
 TQID: 'https://experienceleague.adobe.com/VduQltglsVryZl5TEFtWVASl-C8IQX9B7CNNQdIkXnA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: d90cafcd84266a177523fc6d716ebfa8bf999d89
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 2339
-ht-degree: 8%
-
+source-wordcount: '2317'
+ht-degree: 7%
 ---
-
 # Web-Erlebnisdesign
 
 Nachdem Sie [ein Web-Erlebnis](./web-experiences.md#create-a-web-experience) erstellt haben, definieren Sie im Bereich für das Inhalts-Design die Änderungen, die Sie auf Ihre Web-Seiten anwenden möchten.
@@ -41,23 +49,24 @@ Bevor Sie Web-Erlebnisse entwerfen können, stellen Sie sicher, dass die folgend
 
 * Ein Produktadministrator hat einen oder mehrere Web-Kanäle konfiguriert, um die URLs (Seiten) zu definieren, die für ein Web-Erlebnis eingeschlossen werden sollen. Weitere Informationen finden Sie unter [Webkanalkonfigurationen](../admin/configure-channels-web.md).
 
-* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Adobe Experience Platform Web SDK Version 2.16 oder höher ist erforderlich.
+* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Adobe Experience Platform Web SDK Version 2.16 oder höher ist erforderlich.
 
 * Sie verfügen über die erforderlichen [Berechtigungen](../admin/user-management.md#b2b-product-permissions) um Web-Erlebnisse auf einer Journey zu erstellen und zu verwalten:
-   * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen verwalten]_ - Erforderlich zum Hinzufügen oder Aktualisieren eines Web-Personalisierungsaktionsknotens.
-   * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen anzeigen]_ - Erforderlich, um Details für einen Aktionsknoten der Web-Personalisierung anzuzeigen.
+  * _[!UICONTROL Erstellen von B2B-Web-Erlebnissen]_
+  * _[!UICONTROL Verwalten von B2B-Personen-Journey]_
+  * _[!UICONTROL Verwalten von B2B-Konto-Journey]_
 
 >[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
->Bevor Sie ein Web-Erlebnis entwerfen, stellen Sie sicher, dass Sie die Browser-Erweiterung Adobe Experience Cloud Visual Editing Helper für Ihren Webbrowser installiert haben. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Web-Erlebnis-Design-Bereich von Journey Optimizer B2B edition zu öffnen, zu erstellen und eine Vorschau davon anzuzeigen.<br/>
+>Bevor Sie ein Web-Erlebnis entwerfen, stellen Sie sicher, dass Sie die Browser-Erweiterung Adobe Experience Cloud Visual Editing Helper für Ihren Webbrowser installiert haben. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Web-Erlebnis-Design-Bereich von Journey Optimizer B2B Edition zu öffnen, zu erstellen und eine Vorschau davon anzuzeigen.<br/>
 >
->Google Chrome und Microsoft Edge sind derzeit die einzigen Browser, die die Erweiterung und Bearbeitung von Web-Erlebnissen in Journey Optimizer B2B edition unterstützen. Weitere Informationen finden Sie unter [Installieren der Visual Editing Helper-Erweiterung](./web-experiences.md#install-the-visual-editing-helper-extension).
+>Google Chrome und Microsoft Edge sind derzeit die einzigen Browser, die die Erweiterung und Bearbeitung von Web-Erlebnissen in Journey Optimizer B2B Edition unterstützen. Weitere Informationen finden Sie unter [Installieren der Visual Editing Helper-Erweiterung](./web-experiences.md#install-the-visual-editing-helper-extension).
 
 ## Web-Erlebnis-Editor
 
-Journey Optimizer B2B edition bietet zwei Arten von Editoren zum Entwerfen von Web-Änderungen:
+Journey Optimizer B2B Edition bietet zwei Arten von Editoren zum Entwerfen von Web-Änderungen:
 
 | Editor | Beschreibung | Geeignet für |
 | ------ | ----------- | -------- |
@@ -103,11 +112,11 @@ Der visuelle Editor lädt die Web-Seiten in einem iFrame, in dem Sie Elemente au
 
    * Wählen Sie ein vorhandenes Element auf der Seite aus und [ändern Sie es für das Web-Erlebnis](#modify-elements).
 
-   * [Klick-Tracking hinzufügen](#click-tracking-for-web-experiences) für Elemente, um die Interaktion zu messen und Erkenntnisse zu gewinnen.
+   * [Klick-Tracking hinzufügen](#web-click-tracking) für Elemente, um die Interaktion zu messen und Erkenntnisse zu gewinnen.
 
 1. Wiederholen Sie Schritt 2, um andere Seiten zu laden, die Sie in das Web-Erlebnis einbeziehen möchten. Wiederholen Sie Schritt 3, um die Seitenänderungen zu definieren.
 
-1. [Überprüfen Sie Ihre &#x200B;](#manage-modifications) und nehmen Sie die erforderlichen Anpassungen vor.
+1. [Überprüfen Sie Ihre ](#manage-modifications) und nehmen Sie die erforderlichen Anpassungen vor.
 
 1. Wenn Ihre Änderungen abgeschlossen sind, klicken Sie auf den linken Pfeil über dem Editor, um zu den Eigenschaften des Web-Erlebnisses zurückzukehren.
 
@@ -155,7 +164,7 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
 1. Suchen Sie ein Bild aus Ihrer Asset-Bibliothek und wählen Sie es aus.
 
-1. Verwenden Sie bei [&#x200B; die Optionen für &#x200B;](./content-components.md#image) Bildstile im rechten Bedienfeld.
+1. Verwenden Sie bei [ die Optionen für ](./content-components.md#image) Bildstile im rechten Bedienfeld.
 
 +++
 
@@ -167,11 +176,11 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
    Sie können die Personalisierung verwenden, um den Schaltflächentext mithilfe von Daten aus Konto- oder Personenprofilen zu ändern.
 
-1. Verwenden Sie bei [&#x200B; die &#x200B;](./content-components.md#button) im rechten Bedienfeld.
+1. Verwenden Sie bei [ die ](./content-components.md#button) im rechten Bedienfeld.
 
 +++
 
-+++ Container-Elemente
++++Container-Elemente
 
 1. Wählen Sie ein Container-Element auf der Seite aus.
 
@@ -183,11 +192,11 @@ Weitere Informationen zu Textformatierungsoptionen für Textkomponenten finden S
 
 Wenn Sie im linken Navigationsbereich für den visuellen Editor im Design auf das Symbol **+** klicken, können Sie die folgenden Komponententypen zur Seite hinzufügen, um das Web-Erlebnis zu ändern:
 
-* **[!UICONTROL Trennlinie]** - Verwenden Sie diese Komponente, um das Layout und den Inhalt Ihrer E-Mail durch eine Trennlinie zu strukturieren. Sie können Stilattribute wie Zeilenfarbe, Stil und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#divider) in _Inhaltskomponenten_.
-* **[!UICONTROL HTML]** - Verwenden Sie diese Komponente, um HTML-Code zu kopieren und in die vorhandene Struktur einzufügen. Damit können Sie kostenlose modulare HTML-Komponenten erstellen, um externe Inhalte wiederzuverwenden. Weitere Informationen finden Sie unter {[&#128279;](./content-components.md#html)}in _Inhaltskomponenten_.
-* **[!UICONTROL Bild]** - Verwenden Sie diese Komponente, um eine Bilddatei in die Seite einzufügen. Sie können Stilattribute wie Breite und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#image) in _Inhaltskomponenten_.
-* **[!UICONTROL Überschrift]** - Verwenden Sie diese Komponente, um Text für die Überschriftenklasse einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#text) in _Inhaltskomponenten_.
-* **[!UICONTROL Absatz]** - Verwenden Sie diese Komponente, um ein standardmäßiges Textelement einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [&#x200B; unter &#x200B;](./content-components.md#text) in _Inhaltskomponenten_.
+* **[!UICONTROL Trennlinie]** - Verwenden Sie diese Komponente, um das Layout und den Inhalt Ihrer E-Mail durch eine Trennlinie zu strukturieren. Sie können Stilattribute wie Zeilenfarbe, Stil und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#divider) in _Inhaltskomponenten_.
+* **[!UICONTROL HTML]** - Verwenden Sie diese Komponente, um HTML-Code zu kopieren und in die vorhandene Struktur einzufügen. Damit können Sie kostenlose modulare HTML-Komponenten erstellen, um externe Inhalte wiederzuverwenden. Weitere Informationen finden Sie unter {](./content-components.md#html)}in _Inhaltskomponenten_.[
+* **[!UICONTROL Bild]** - Verwenden Sie diese Komponente, um eine Bilddatei in die Seite einzufügen. Sie können Stilattribute wie Breite und Höhe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#image) in _Inhaltskomponenten_.
+* **[!UICONTROL Überschrift]** - Verwenden Sie diese Komponente, um Text für die Überschriftenklasse einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#text) in _Inhaltskomponenten_.
+* **[!UICONTROL Absatz]** - Verwenden Sie diese Komponente, um ein standardmäßiges Textelement einzufügen. Sie können Stilattribute wie Textfarbe, Stil, Schriftart und Größe in den Eigenschaften im rechten Bereich anpassen. Weitere Informationen finden [ unter ](./content-components.md#text) in _Inhaltskomponenten_.
 * **[!UICONTROL Link]** - Verwenden Sie diese Komponente, um einen freistehenden Text-Link zu einer angegebenen URL einzufügen. Sie können Stilattribute über die Eigenschaften im rechten Bedienfeld anpassen.
 
 Wählen Sie links einen Komponententyp aus und bewegen Sie dann den Mauszeiger über ein Element, das an der Stelle angrenzt, an der Sie es hinzufügen möchten.
@@ -196,8 +205,8 @@ Wählen Sie links einen Komponententyp aus und bewegen Sie dann den Mauszeiger �
 
 Klicken Sie auf eine der angezeigten Schaltflächen, um die Komponente zu platzieren:
 
-* ***[!UICONTROL Einfügen vor]** - Einfügen der Komponente vor dem ausgewählten Element.
-* ***[!UICONTROL Einfügen nach]** - Einfügen der Komponente nach dem ausgewählten Element.
+* **[!UICONTROL Einfügen vor]** - Fügen Sie die Komponente vor dem ausgewählten Element ein.
+* **[!UICONTROL Einfügen nach]** - Fügen Sie die Komponente nach dem ausgewählten Element ein.
 
 Um die Auswahl eines Komponententyps für das Einfügen aufzuheben, klicken Sie auf **[!UICONTROL ESC]** in dem kontextuellen blauen Banner, das oben auf der Seite angezeigt wird.
 
@@ -205,7 +214,7 @@ Um die Auswahl eines Komponententyps für das Einfügen aufzuheben, klicken Sie 
 
 Verwenden Sie den nicht visuellen Editor, wenn Sie Änderungen vornehmen müssen, die im visuellen Editor nicht einfach zu erledigen sind. Dieser Code-basierte Ansatz bietet Ihnen präzise Kontrolle über das Targeting und die Änderung von Elementen. Führen Sie die folgenden Schritte aus, um den nicht visuellen Editor zum Entwerfen Ihres Web-Erlebnisses zu verwenden:
 
-1. Klicken Sie auf der _[!UICONTROL „Inhalt]_ auf der Seite mit den Web-Erlebnisdetails **Bereich auf**&#x200B;Änderung hinzufügen“.
+1. Klicken Sie auf der _[!UICONTROL „Inhalt]_ auf der Seite mit den Web-Erlebnisdetails ]**Bereich auf**[!UICONTROL &#x200B;Änderung hinzufügen“.
 
    Der nicht visuelle Editor lädt eine Seite basierend auf der Konfiguration des Web-Kanals.
 
@@ -224,9 +233,9 @@ Verwenden Sie den nicht visuellen Editor, wenn Sie Änderungen vornehmen müssen
 
    * Konfigurieren Sie die Änderungsparameter entsprechend dem Typ:
 
-      * **[!UICONTROL CSS-Selektor]** - Geben Sie einen gültigen CSS-Selektor ein, um bestimmte Elemente auszuwählen.
-      * **[!UICONTROL Aktionstyp]** - Wählen Sie die auszuführende Aktion aus (Bearbeiten, Ausblenden, Löschen, Einfügen, Ersetzen).
-      * **[!UICONTROL Inhalt]** - Geben Sie den Inhalt oder die Formatierung an, die angewendet werden soll.
+     * **[!UICONTROL CSS-Selektor]** - Geben Sie einen gültigen CSS-Selektor ein, um bestimmte Elemente auszuwählen.
+     * **[!UICONTROL Aktionstyp]** - Wählen Sie die auszuführende Aktion aus (Bearbeiten, Ausblenden, Löschen, Einfügen, Ersetzen).
+     * **[!UICONTROL Inhalt]** - Geben Sie den Inhalt oder die Formatierung an, die angewendet werden soll.
 
 1. Klicken Sie **[!UICONTROL Speichern]**, um die Änderung anzuwenden.
 
@@ -261,7 +270,7 @@ Verwenden Sie den nicht visuellen Editor, wenn Sie Änderungen vornehmen müssen
 
 ### Seitenänderungen
 
-Sie können benutzerdefinierten Code mit dem Änderungstyp Seite `<head>` hinzufügen. Das `<head>`-Element ist ein Container für Metadaten (Daten über Daten) und wird zwischen dem `<html>`-Tag und dem `<body>`-Tag platziert. In diesem Fall wartet der Code nicht darauf, dass der Hauptteil oder die Seite geladen wird, sondern er wird zu Beginn des Seitenladevorgangs ausgeführt.
+Sie können benutzerdefinierten Code mit dem Änderungstyp Seite `<head>` hinzufügen. Das `<head>`-Element ist ein Container für Metadaten (Daten über Daten) und wird zwischen dem `<html>`-Tag und dem `<body>`-Tag platziert. In diesem Fall wartet das Symbol nicht darauf, dass der Hauptteil oder die Seite geladen wird, sondern es wird zu Beginn des Seitenladevorgangs ausgeführt.
 
 Das `<head>`-Element wird häufig verwendet, um oben auf der Seite JavaScript- oder CSS-Code hinzuzufügen. Die Auswahlen für nachfolgende visuelle Aktionen hängen von den auf dieser Registerkarte hinzugefügten HTML-Elementen ab.
 

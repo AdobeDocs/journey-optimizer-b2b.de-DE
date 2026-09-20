@@ -1,29 +1,33 @@
 ---
 title: Web-Kanalkonfigurationen
-description: Erfahren Sie, wie Sie Web-Kanaleinstellungen konfigurieren, um Web-Eigenschaften und Seitenabgleichregeln für die Inhaltsbereitstellung in Journey Optimizer B2B edition zu definieren.
+description: Erfahren Sie, wie Sie Web-Kanaleinstellungen konfigurieren, um Web-Eigenschaften und Regeln zum Seitenabgleich für die Inhaltsbereitstellung in Journey Optimizer B2B Edition zu definieren.
 feature: Setup, Channels
 role: Admin
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: f872c85c-1c14-41ce-ab63-67f1736d93f1
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 autotag-review: 2026-03-27T23:15:46.632Z
 TQID: https://experienceleague.adobe.com/jxBV37ku9z-b7dzbhzFy0PToJa6gq9x-u-1OMcdkU3g
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 1a11805d02adb0084cc7ac377782632c940df584
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: '1049'
 ht-degree: 6%
-
 ---
-
 # Web-Kanalkonfigurationen
 
 Eine Web-Konfiguration ist eine Web-Eigenschaft, die durch eine URL identifiziert wird, über die der Inhalt bereitgestellt wird. Es kann einer einzelnen Seiten-URL oder mehreren Seiten entsprechen, sodass Web-Erlebnisse Änderungen über eine oder mehrere Web-Seiten hinweg bereitstellen können. Diese Konfigurationen sind erforderlich, damit Marketing[Fachleute „Aktionsknoten für die Web-Personalisierung in Journey hinzufügen](../content/web-experiences.md#create-a-web-experience) und [Erlebnisänderungen entwerfen](../content/web-experience-design.md) für eine Kampagne verwenden können.
@@ -32,12 +36,11 @@ Eine Web-Konfiguration ist eine Web-Eigenschaft, die durch eine URL identifizier
 
 **Voraussetzungen**
 
-Um Web-Kanäle nutzen zu können, muss auf Ihrer Website für die Besucheridentifizierung und Inhaltsbereitstellung der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementiert sein. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
+Um Web-Kanäle nutzen zu können, muss auf Ihrer Website für die Besucheridentifizierung und Inhaltsbereitstellung der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementiert sein. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
 
-Die Webkanalkonfiguration in Journey Optimizer B2B edition erfordert die folgenden [Berechtigungen](../admin/user-management.md#b2b-product-permissions):
+Die Webkanalkonfiguration in Journey Optimizer B2B Edition erfordert die folgenden [ (Berechtigung](../admin/user-management.md#b2b-product-permissions):
 
-* _[!UICONTROL Kanalkonfigurationen]_ > _[!UICONTROL Nachrichtenvoreinstellungen verwalten]_ - Erforderlich zum Erstellen, Aktualisieren und Löschen von Webkanalkonfigurationen.
-* _[!UICONTROL Kanalkonfigurationen]_ > _[!UICONTROL Nachrichtenvoreinstellungen anzeigen]_ - Erforderlich zum Anzeigen von Webkanalkonfigurationen.
+* _[!UICONTROL Verwalten von B2B-Kanal-Konfigurationen]_
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +48,7 @@ Die Webkanalkonfiguration in Journey Optimizer B2B edition erfordert die folgend
 
 1. Navigieren Sie in der linken Navigation zu **[!UICONTROL Administration]** > **[!UICONTROL Kanäle]**.
 
-1. Wählen _[!UICONTROL im]_ unter „Web“ die Option **[!UICONTROL Kanalkonfigurationen]** aus.
+1. Wählen _[!UICONTROL im]_ unter „Allgemeine Einstellungen“ die Option **[!UICONTROL Kanalkonfigurationen]** aus.
 
    ![Zugreifen auf die Web-Kanal-Konfigurationen](./assets/config-web-channels.png){width="800" zoomable="yes"}
 
@@ -138,7 +141,7 @@ Sie können eine vorhandene Web-Kanal-Konfiguration duplizieren und ändern, um 
 
 1. Klicken Sie auf das _Mehr_) (**…**) für die Variante und wählen Sie **[!UICONTROL Duplizieren]**.
 
-   ![Klicken Sie auf das Menüsymbol Mehr , um eine vorhandene Web-Kanal-Konfiguration zu duplizieren](./assets/config-web-channels-more-menu.png){width="450"}
+   ![Klicken Sie auf das Menüsymbol Mehr , um eine vorhandene Web-Kanal-Konfiguration zu duplizieren](./assets/config-web-channels-more-menu.png){width="350"}
 
    Diese Aktion erstellt einen doppelten Web-Kanal, bei dem `_Copy_nnn` an den Namen angehängt wird.
 

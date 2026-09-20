@@ -1,38 +1,46 @@
 ---
 title: Web-Erlebnisse
-description: Personalisierte Web-Erlebnisse für Account Journey erstellen, entwerfen und veröffentlichen - Bereitstellen zielgerichteter Inhaltsänderungen für Website-Besuchende in Journey Optimizer B2B edition.
+description: Personalisierte Web-Erlebnisse für Account-Journey erstellen, entwerfen und veröffentlichen - für Website-Besucher gezielte Inhaltsänderungen in Journey Optimizer B2B Edition bereitstellen.
 feature: Content, Channels
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d04079ce-da51-40d3-ab05-75c26584521f
 autotag-review: '2026-05-27T16:20:23.362Z'
 TQID: 'https://experienceleague.adobe.com/iT1EdQiozvA7stSut7isr7ofdeLN5PKLUz-9q5OyPWs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: fbb9aba8-f6d8-4266-abfe-9a84ebf4aee2
+    internal-label: Web channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Web experience
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 1544
-ht-degree: 7%
-
+source-wordcount: '1503'
+ht-degree: 6%
 ---
-
 # Web-Erlebnisse
 
-Der Web-Kanal in Adobe Journey Optimizer B2B edition ermöglicht es Ihnen, personalisierte Erlebnisse direkt auf Ihrer Website zu erstellen, sodass Sie aussagekräftige Verbindungen zu Kunden herstellen können. Diese Funktion bietet ein flexibles Set von Tools, mit denen Sie die Interaktion mit maßgeschneiderten Inhalten verbessern und diese nahtlos in andere Kanäle wie E-Mail und SMS integrieren können.
+Der Web-Kanal in Adobe Journey Optimizer B2B Edition ermöglicht es Ihnen, personalisierte Erlebnisse direkt auf Ihrer Website zu erstellen, sodass Sie aussagekräftige Verbindungen zu Kunden herstellen können. Diese Funktion bietet ein flexibles Set von Tools, mit denen Sie die Interaktion mit maßgeschneiderten Inhalten verbessern und diese nahtlos in andere Kanäle wie E-Mail und SMS integrieren können.
 
 Web-Erlebnisse ermöglichen Ihnen Folgendes:
 
@@ -49,18 +57,18 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
 * Ein Produktadministrator hat einen oder mehrere Web-Kanäle konfiguriert, um die URLs (Seiten) zu definieren, die für ein Web-Erlebnis eingeschlossen werden sollen. Weitere Informationen finden Sie unter [Webkanalkonfigurationen](../admin/configure-channels-web.md).
 
-* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
+* Auf Ihrer Website ist [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) für die Besucheridentifizierung und Inhaltsbereitstellung implementiert. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
 
 * Sie verfügen über die erforderlichen [Berechtigungen](../admin/user-management.md#b2b-product-permissions) um Web-Erlebnisse auf einer Journey zu erstellen und zu verwalten:
-  * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen verwalten]_ - Erforderlich zum Hinzufügen oder Aktualisieren eines Web-Personalisierungsaktionsknotens.
-  * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen anzeigen]_ - Erforderlich, um Details für einen Aktionsknoten der Web-Personalisierung anzuzeigen.
-  * _[!UICONTROL Kampagnen]_ > _[!UICONTROL Kampagnen genehmigen und veröffentlichen]_ - Erforderlich zum Veröffentlichen einer Journey mit einem oder mehreren Web-Personalisierungsaktionsknoten.
+  * _[!UICONTROL Erstellen von B2B-Web-Erlebnissen]_
+  * _[!UICONTROL Verwalten von B2B-Personen-Journey]_
+  * _[!UICONTROL Verwalten von B2B-Konto-Journey]_
 
-* Die Browser-Erweiterung „Visual Editing [&#x200B; Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Journey Optimizer B2B edition Content Design Space zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
+* Die Browser-Erweiterung „Visual Editing [ Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Journey Optimizer B2B Edition Content Design-Bereich zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
 
   >[!NOTE]
   >
-  >Google Chrome und Microsoft Edge sind derzeit die einzigen Browser, die die Erstellung von Web-Seiten in Journey Optimizer B2B edition unterstützen.
+  >Google Chrome und Microsoft Edge sind derzeit die einzigen Browser, die die Erstellung von Web-Seiten in Journey Optimizer B2B Edition unterstützen.
 
 >[!ENDSHADEBOX]
 
@@ -72,11 +80,11 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
    Wenn Sie [!DNL Microsoft Edge] verwenden, wählen Sie _Erweiterungen zulassen_ aus anderen Stores auf dem oberen Banner aus. Durch Aktivierung dieser Option können Sie Erweiterungen aus der [!DNL Chrome Web Store] zu [!DNL Microsoft Edge] hinzufügen.
 
-1. Suchen Sie die Browser-Erweiterung _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;und navigieren Sie zu ihr.
+1. Suchen Sie die Browser-Erweiterung _[!DNL Adobe Experience Cloud Visual Editing Helper]_und navigieren Sie zu ihr.
 
    ![Adobe Experience Cloud Visual Editing Helper-Erweiterung für Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** und klicken Sie dann **Bestätigungsdialogfeld auf** Erweiterung hinzufügen“.
+1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** und klicken Sie dann ]**Bestätigungsdialogfeld auf**[!UICONTROL  Erweiterung hinzufügen“.
 
    Wenn Sie [!DNL Microsoft Edge] verwenden, fügt diese Aktion die Erweiterung zu [!DNL Edge] hinzu.
 
@@ -84,11 +92,11 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
    ![Erweiterungssymbol Adobe Experience Cloud Visual Editing Helper in der Symbolleiste von Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension-icon.png){width="450"}
 
-Die [!DNL Adobe Experience Cloud Visual Editing Helper] ist jetzt automatisch aktiviert, wenn eine Website im visuellen Editor von Journey Optimizer B2B edition für Web-Erlebnisse geöffnet wird. Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet alle Einstellungen automatisch, einschließlich der SameSite-Cookie-Einstellungen.
+Die [!DNL Adobe Experience Cloud Visual Editing Helper] wird jetzt automatisch aktiviert, wenn eine Website im visuellen Journey Optimizer B2B Edition-Editor für Web-Erlebnisse geöffnet wird. Die Erweiterung verfügt über keine bedingten Einstellungen und verarbeitet alle Einstellungen automatisch, einschließlich der SameSite-Cookie-Einstellungen.
 
 >[!NOTE]
 >
->Einige Websites werden möglicherweise aus einem der folgenden Gründe nicht zuverlässig im Journey Optimizer B2B edition-Web-Editor geöffnet:
+>Einige Websites werden möglicherweise aus einem der folgenden Gründe nicht zuverlässig im Journey Optimizer B2B Edition-Web-Editor geöffnet:
 >
 >* Die Website hat strenge Sicherheitsrichtlinien.
 >* Die Website befindet sich in einem iFrame.
@@ -96,7 +104,7 @@ Die [!DNL Adobe Experience Cloud Visual Editing Helper] ist jetzt automatisch ak
 
 ## Web-Erlebnis erstellen
 
-Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen &#x200B;](../journeys/action-nodes.md) Folgendes tun:
+Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen ](../journeys/action-nodes.md) Folgendes tun:
 
 1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
 
@@ -118,13 +126,11 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
    ![Dialogfeld „Web-Erlebnis erstellen“](./assets/web-experience-create-dialog.png){width="400"}
 
-<!-- What is this for? 1. Properties? -->
-
 1. Geben **[!UICONTROL auf der]** „Eigenschaften“ die Beschreibung für das Web-Erlebnis ein.
 
 1. Klicken Sie auf **[!UICONTROL Aktionen]** und wählen Sie den **[!UICONTROL Web-Kanal]** aus, der für das Web-Erlebnis verwendet werden soll.
 
-   Die Webkanal-Konfiguration bestimmt, wo die Inhaltsänderungen angewendet werden, basierend auf den konfigurierten Regeln zum Seitenabgleich. Weitere Informationen finden [&#x200B; unter &#x200B;](../admin/configure-channels-web.md) von Web-Kanälen .
+   Die Webkanal-Konfiguration bestimmt, wo die Inhaltsänderungen angewendet werden, basierend auf den konfigurierten Regeln zum Seitenabgleich. Weitere Informationen finden [ unter ](../admin/configure-channels-web.md) von Web-Kanälen .
 
    ![Ausgewählte Web-Kanal-Konfiguration](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
 
@@ -139,7 +145,7 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
    ![Eigenschaften für den visuellen Editor und die Umleitungs-URL umschalten](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Webseite bearbeiten]**, um [Ihre Web-Änderungen zu &#x200B;](./web-experience-design.md).
+1. Klicken Sie auf **[!UICONTROL Webseite bearbeiten]**, um [Ihre Web-Änderungen zu ](./web-experience-design.md).
 
 1. Wenn die Änderungen abgeschlossen sind, klicken Sie auf den linken Pfeil über dem Editor, um zur Registerkarte „Inhalt“ und zu den Eigenschaften des personalisierten Web-Erlebnisknotens zurückzukehren.
 
@@ -172,7 +178,7 @@ Erstellen Sie beispielsweise eine Web-Kampagne mit zwei Abwandlungen:
 
 Erstellen Sie in Abwandlung A für die Hälfte Ihrer Zielpopulation ein Web-Erlebnis mit dem Inhaltseditor.
 
-Wählen Sie in Variante B für _[!UICONTROL andere Hälfte der Zielpopulation die Option]_ Umleiten an URL) aus. Geben Sie die URL einer Seite mit einem alternativen Design ein, das Sie außerhalb von Journey Optimizer B2B edition erstellt haben.
+Wählen Sie in Variante B für _[!UICONTROL andere Hälfte der Zielpopulation die Option]_ Umleiten an URL) aus. Geben Sie die URL einer Seite mit einem alternativen Design ein, das Sie außerhalb von Journey Optimizer B2B Edition erstellt haben.
 
 ![Legen Sie die Besucherumleitung fest, um Besucher zu einer bestimmten URL umzuleiten](./assets/web-experience-journey-node-content-visitor-redirection.png){width="500" zoomable="yes"}
 
@@ -180,7 +186,7 @@ Wählen Sie in Variante B für _[!UICONTROL andere Hälfte der Zielpopulation di
 >
 >Wenn diese Option aktiviert ist, wird die Website-Vorschau nicht angezeigt und der Umschalter _[!UICONTROL Visual Editor]_ ist deaktiviert.
 
-Wenn Ihre Web-Kampagne live ist, können Sie verfolgen, wie das in Journey Optimizer B2B edition definierte Web-Erlebnis im Vergleich zu Web-Erlebnissen funktioniert, die eine Umleitung zur Alternativseite verwenden.
+Wenn Ihre Web-Kampagne live ist, können Sie verfolgen, wie das in Journey Optimizer B2B Edition definierte Web-Erlebnis im Vergleich zu Web-Erlebnissen funktioniert, die eine Umleitung zur Alternativseite verwenden.
 
 ## Testen des Web-Erlebnisses
 
@@ -206,18 +212,18 @@ Ihr Web-Erlebnis wird aktiviert und für die Zielgruppe sichtbar, wenn Sie [die 
 
 Um die Bereitstellung von Web-Erlebnissen zu aktivieren, müssen die folgenden Einstellungen definiert werden:
 
-* Stellen Sie bei der Datenerfassung in Adobe Experience Platform sicher, dass ein Datenstrom definiert ist. Stellen Sie sicher, dass die Option &quot;Adobe Journey Optimizer B2B edition&quot; im Adobe Experience Platform-Service aktiviert ist.
+* Stellen Sie bei der Datenerfassung in Adobe Experience Platform sicher, dass ein Datenstrom definiert ist. Stellen Sie sicher, dass die Option &quot;Adobe Journey Optimizer B2B Edition&quot; im Adobe Experience Platform-Service aktiviert ist.
 
   Durch diese Konfiguration wird sichergestellt, dass die Adobe Experience Platform Edge eingehende Ereignisse korrekt verarbeiten kann. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/datastreams/configure)
 
 * Achten Sie darauf, dass in Adobe Experience Platform bei einer der Zusammenführungsrichtlinien die Option _[!UICONTROL Active-On-Edge]_ aktiviert ist.
 
-  Wählen Sie in Experience Platform unter dem Menü Kunde > Profile > Zusammenführungsrichtlinien eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/ui-guide#configure)
+  Wählen Sie in Experience Platform unter dem Menü Kunde > Profile > Zusammenführungsrichtlinien eine Richtlinie aus. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide#configure)
 
-  Eingehende Journey Optimizer B2B edition-Kanäle verwenden diese Zusammenführungsrichtlinie, um eingehende Web-Erlebnisse auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/ui-guide)
+  Eingehende Journey Optimizer B2B Edition-Kanäle verwenden diese Zusammenführungsrichtlinie, um eingehende Web-Erlebnisse auf der Edge korrekt zu aktivieren und zu veröffentlichen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/ui-guide)
 
 ### Fehlerbehebung
 
-Sie können die Edge Delivery-Ansicht in Adobe Experience Platform Assurance verwenden, um eine Fehlerbehebung bei der Bereitstellung von Journey Optimizer B2B edition Web-Erlebnissen durchzuführen. Mit diesem Plug-in können Sie Anforderungsaufrufe im Detail überprüfen, die erwarteten Edge-Aufrufe überprüfen und Profildaten untersuchen. Zu diesen Profildaten gehören Identitätszuordnungen, Segmentzugehörigkeiten und Einverständniseinstellungen. Sie können auch die qualifizierten und nicht qualifizierten Aktivitäten für die Anfrage überprüfen.
+Sie können die Edge Delivery-Ansicht in Adobe Experience Platform Assurance verwenden, um eine Fehlerbehebung bei der Bereitstellung von Journey Optimizer B2B Edition Web-Erlebnissen durchzuführen. Mit diesem Plug-in können Sie Anforderungsaufrufe im Detail überprüfen, die erwarteten Edge-Aufrufe überprüfen und Profildaten untersuchen. Zu diesen Profildaten gehören Identitätszuordnungen, Segmentzugehörigkeiten und Einverständniseinstellungen. Sie können auch die qualifizierten und nicht qualifizierten Aktivitäten für die Anfrage überprüfen.
 
 Weitere Informationen zur Edge Delivery-Ansicht in Assurance finden Sie in der [Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/assurance/view/edge-delivery).
