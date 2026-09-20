@@ -64,7 +64,7 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
   * _[!UICONTROL Verwalten von B2B-Personen-Journey]_
   * _[!UICONTROL Verwalten von B2B-Konto-Journey]_
 
-* Die Browser-Erweiterung „Visual Editing [ Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Journey Optimizer B2B Edition Content Design-Bereich zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
+* Die Browser-Erweiterung „Visual Editing [&#x200B; Helper](#install-the-visual-editing-helper-extension) für Ihren Webbrowser wurde installiert. Diese Erweiterung ist erforderlich, um Web-Seiten zuverlässig im Journey Optimizer B2B Edition Content Design-Bereich zu öffnen, zu erstellen und in der Vorschau anzuzeigen.
 
   >[!NOTE]
   >
@@ -80,11 +80,11 @@ Bevor Sie Web-Erlebnisse erstellen können, stellen Sie sicher, dass die folgend
 
    Wenn Sie [!DNL Microsoft Edge] verwenden, wählen Sie _Erweiterungen zulassen_ aus anderen Stores auf dem oberen Banner aus. Durch Aktivierung dieser Option können Sie Erweiterungen aus der [!DNL Chrome Web Store] zu [!DNL Microsoft Edge] hinzufügen.
 
-1. Suchen Sie die Browser-Erweiterung _[!DNL Adobe Experience Cloud Visual Editing Helper]_und navigieren Sie zu ihr.
+1. Suchen Sie die Browser-Erweiterung _[!DNL Adobe Experience Cloud Visual Editing Helper]_&#x200B;und navigieren Sie zu ihr.
 
    ![Adobe Experience Cloud Visual Editing Helper-Erweiterung für Google Chrome](./assets/web-experience-google-chrome-adobe-visual-editing-extension.png){width="800" zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** und klicken Sie dann ]**Bestätigungsdialogfeld auf**[!UICONTROL  Erweiterung hinzufügen“.
+1. Klicken Sie **[!UICONTROL Zu Chrome hinzufügen]** und klicken Sie dann **Bestätigungsdialogfeld auf** Erweiterung hinzufügen“.
 
    Wenn Sie [!DNL Microsoft Edge] verwenden, fügt diese Aktion die Erweiterung zu [!DNL Edge] hinzu.
 
@@ -104,7 +104,7 @@ Die [!DNL Adobe Experience Cloud Visual Editing Helper] wird jetzt automatisch a
 
 ## Web-Erlebnis erstellen
 
-Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen ](../journeys/action-nodes.md) Folgendes tun:
+Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten _[!UICONTROL Aktion durchführen]_ hinzufügen &#x200B;](../journeys/action-nodes.md) Folgendes tun:
 
 1. Wählen Sie für _[!UICONTROL Ziel]_ Aktion auf“ **[!UICONTROL Personen]**.
 
@@ -130,7 +130,7 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
 1. Klicken Sie auf **[!UICONTROL Aktionen]** und wählen Sie den **[!UICONTROL Web-Kanal]** aus, der für das Web-Erlebnis verwendet werden soll.
 
-   Die Webkanal-Konfiguration bestimmt, wo die Inhaltsänderungen angewendet werden, basierend auf den konfigurierten Regeln zum Seitenabgleich. Weitere Informationen finden [ unter ](../admin/configure-channels-web.md) von Web-Kanälen .
+   Die Webkanal-Konfiguration bestimmt, wo die Inhaltsänderungen angewendet werden, basierend auf den konfigurierten Regeln zum Seitenabgleich. Weitere Informationen finden [&#x200B; unter &#x200B;](../admin/configure-channels-web.md) von Web-Kanälen .
 
    ![Ausgewählte Web-Kanal-Konfiguration](./assets/web-experience-journey-node-actions-tab.png){width="700" zoomable="yes"}
 
@@ -145,7 +145,7 @@ Sie können Web-Erlebnisse auf einer Journey einrichten, wenn Sie [einen Knoten 
 
    ![Eigenschaften für den visuellen Editor und die Umleitungs-URL umschalten](./assets/web-experience-journey-node-content-properties.png){width="700" zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Webseite bearbeiten]**, um [Ihre Web-Änderungen zu ](./web-experience-design.md).
+1. Klicken Sie auf **[!UICONTROL Webseite bearbeiten]**, um [Ihre Web-Änderungen zu &#x200B;](./web-experience-design.md).
 
 1. Wenn die Änderungen abgeschlossen sind, klicken Sie auf den linken Pfeil über dem Editor, um zur Registerkarte „Inhalt“ und zu den Eigenschaften des personalisierten Web-Erlebnisknotens zurückzukehren.
 

@@ -38,7 +38,7 @@ Eine Web-Konfiguration ist eine Web-Eigenschaft, die durch eine URL identifizier
 
 Um Web-Kanäle nutzen zu können, muss auf Ihrer Website für die Besucheridentifizierung und Inhaltsbereitstellung der [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/js-overview) (`alloy.js`) implementiert sein. Stellen Sie sicher, dass die Adobe Experience Platform Web SDK-Version 2.16 oder höher ist.
 
-Die Webkanalkonfiguration in Journey Optimizer B2B Edition erfordert die folgenden [ (Berechtigung](../admin/user-management.md#b2b-product-permissions):
+Die Webkanalkonfiguration in Journey Optimizer B2B Edition erfordert die folgenden [&#x200B; (Berechtigung](../admin/user-management.md#b2b-product-permissions):
 
 * _[!UICONTROL Verwalten von B2B-Kanal-Konfigurationen]_
 
