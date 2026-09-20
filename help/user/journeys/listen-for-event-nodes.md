@@ -28,7 +28,7 @@ ht-degree: 5%
 ---
 # Warten auf ein Ereignis
 
-Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu ](./journeys-overview.md), wenn ein Ereignis eintritt, fügen Sie den Knoten _Auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
+Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu &#x200B;](./journeys-overview.md), wenn ein Ereignis eintritt, fügen Sie den Knoten _Auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -82,7 +82,7 @@ Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis über
 >
 >Erlebnisereignisse können auftreten _bevor Personen die Journey_ (z. B. ein vorheriger E-Mail-Klick oder eine Web-Interaktion). Um Personen basierend auf diesen Ereignissen zu routen, verwenden Sie den [!UICONTROL Ereignisverlauf] Filter in einem [Pfade nach Personen](./split-merge-paths-nodes.md#experience-event-history-filtering)-Knoten.
 
-Ausführliche Informationen zur Verwendung von Erlebnisereignissen finden Sie unter [Erlebnisereignis-Trigger ](#experience-event-triggers).
+Ausführliche Informationen zur Verwendung von Erlebnisereignissen finden Sie unter [Erlebnisereignis-Trigger &#x200B;](#experience-event-triggers).
 
 #### Journey Optimizer B2B-Ereignisse {#events-account-people}
 
@@ -196,7 +196,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
 Bei Personen-Journeys können Sie eine Änderung der B2B-Personenprofilattribute verwenden, um den Trigger _Auf ein Ereignis warten_ zu ändern.
 
-1. ** Ziehen Sie **[!UICONTROL Personenprofiländerung] aus der Liste _[!UICONTROL Trigger]_ in den Bereich des Ereignisabgleichs-Builders.
+1. **&#x200B; Ziehen Sie &#x200B;** [!UICONTROL Personenprofiländerung] aus der Liste _[!UICONTROL Trigger]_ in den Bereich des Ereignisabgleichs-Builders.
 
 1. Klicken Sie **[!UICONTROL Einschränkung hinzufügen]** und wählen Sie die Attributänderung aus, die Sie für den Ereignis-Trigger verwenden möchten.
 
@@ -204,7 +204,7 @@ Bei Personen-Journeys können Sie eine Änderung der B2B-Personenprofilattribute
 
    ![Personen-Journey - Überwachen eines Personenprofiländerungsereignisses](./assets/node-listen-event-person-edit-event.png){width="700" zoomable="yes"}
 
-1. (Optional) Fügen Sie ein weiteres _Personenprofiländerung_ -Attribut hinzu, das Sie als Ereignis-Trigger oder [Erlebnisereignis“ ](#experience-event-triggers) möchten.
+1. (Optional) Fügen Sie ein weiteres _Personenprofiländerung_ -Attribut hinzu, das Sie als Ereignis-Trigger oder [Erlebnisereignis“ &#x200B;](#experience-event-triggers) möchten.
 
    Wenn Sie mehrere Ereignisse zum Abgleichen hinzufügen, bringt das erste qualifizierte Ereignis das Personenprofil auf der Journey voran.
 
@@ -240,7 +240,7 @@ Erlebnisereignisse sind für Personen-Journey verfügbar oder wenn Sie den Ereig
 
    Sie können mehrere Erlebnisereignisse zum Auslösen des Knotens verwenden.
 
-   Für eine Personen-Journey können Sie auch [Personenprofiländerungen“ ](#person-profile-changes). Für eine Konto-Journey (Ereignistyp „Personen„) können Sie auch [Journey Optimizer B2B-Ereignisse](#events-account-people) hinzufügen.
+   Für eine Personen-Journey können Sie auch [Personenprofiländerungen“ &#x200B;](#person-profile-changes). Für eine Konto-Journey (Ereignistyp „Personen„) können Sie auch [Journey Optimizer B2B-Ereignisse](#events-account-people) hinzufügen.
 
    Wenn Sie mehrere Ereignisse zum Abgleichen hinzufügen, bringt das erste qualifizierte Ereignis das Personenprofil auf der Journey voran.
 
