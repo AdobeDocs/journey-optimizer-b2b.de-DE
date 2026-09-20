@@ -218,7 +218,7 @@ Erlebnisereignisse sind für Personen-Journey verfügbar oder wenn Sie den Ereig
 
 >[!PREREQUISITES]
 >
->Administratoren konfigurieren [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf Ereignisse reagieren.
+>Administratoren konfigurieren [Adobe Experience Platform (AEP) Experience Events](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"}, mit denen Marketing-Experten Account- und Personen-Journey erstellen können, die nahezu in Echtzeit auf Ereignisse reagieren.
 >
 >Um Erlebnisereignisse für Journey-Benutzer verfügbar zu machen, muss zunächst ein Produktadministrator [die Ereignistypen und -felder von Interesse hinzufügen](../admin/configure-aep-events.md#add-an-event) in [!DNL Journey Optimizer B2B Edition].
 
