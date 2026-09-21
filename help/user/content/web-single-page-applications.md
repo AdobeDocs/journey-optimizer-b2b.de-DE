@@ -1,36 +1,43 @@
 ---
 title: Single Page Applications
-description: Erstellen von Web-Erlebnissen für Single Page Applications (SPAs) - Konfigurieren Sie das Anzeigen-Tracking, verarbeiten Sie dynamische Inhalte und verwalten Sie die Client-seitige Navigation in Journey Optimizer B2B edition.
+description: Erstellen von Web-Erlebnissen für Single Page Applications (SPAs) - Konfigurieren Sie das Anzeigen-Tracking, verarbeiten Sie dynamische Inhalte und verwalten Sie die Client-seitige Navigation in Journey Optimizer B2B Edition.
 feature: Channels, Personalization
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 7691006d-3d22-4db4-94d3-cfd420128b86
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a09a5a04-e30b-4d55-b031-38e6f5ec86db
+    internal-label: Experience design
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
 autotag-review: 2026-03-30T22:02:23.111Z
 TQID: https://experienceleague.adobe.com/L5Mn4u-o4xACD2L1TW2lx7pB9gkC3O2uRmL8b0alDkA
-source-git-commit: 2c6aafd07cf033df8801621f7e5275dbeeb2768e
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: '838'
 ht-degree: 2%
-
 ---
-
 # Single Page Applications
 
-Single Page Applications (SPAs) stellen die Web-Personalisierung vor einzigartige Herausforderungen, da sie Seiteninhalte dynamisch aktualisieren, ohne dass die Seiten vollständig neu geladen werden. Journey Optimizer B2B edition bietet spezielle Tools für eine effektive SPA-Personalisierung.
+Single Page Applications (SPAs) stellen die Web-Personalisierung vor einzigartige Herausforderungen, da sie Seiteninhalte dynamisch aktualisieren, ohne dass die Seiten vollständig neu geladen werden. Journey Optimizer B2B Edition bietet spezielle Tools zur effektiven Handhabung der SPA-Personalisierung.
 
 ## Grundlegendes zu SPAs
 
@@ -43,7 +50,7 @@ Im Gegensatz zu herkömmlichen mehrseitigen Websites, auf denen jeder Navigation
 
 ## Konfigurieren der SPA-Unterstützung
 
-Um SPAs effektiv zu personalisieren, müssen Sie das Ansichtstracking so konfigurieren, dass Journey Optimizer B2B edition erkennt, wenn Benutzende zwischen virtuellen Ansichten navigieren.
+Um SPAs effektiv zu personalisieren, müssen Sie die Ansichtsverfolgung konfigurieren, damit Journey Optimizer B2B Edition feststellen kann, wann Benutzer zwischen virtuellen Ansichten navigieren.
 
 ### Ansichtsdeklarationen einrichten
 
@@ -121,7 +128,7 @@ Bei hochdynamischen Inhalten enthält Web SDK Mutationsbeobachter, die erkennen,
 
 ### SPA-Frameworks
 
-Journey Optimizer B2B edition-Web-Erlebnisse funktionieren mit gängigen SPA-Frameworks:
+Journey Optimizer B2B Edition-Web-Erlebnisse funktionieren mit gängigen SPA-Frameworks:
 
 | Framework | Zu beachten |
 | --------- | -------------- |
@@ -179,27 +186,27 @@ Wenn Sie Änderungen am SPA-Design überprüfen, sollten Sie die folgenden Empfe
 
 * **Änderungen werden nicht angezeigt** - Wenn Änderungen nicht in Ihrer SPA angezeigt werden:
 
-   1. **Ansichts-Tracking überprüfen** - Überprüfen Sie, ob `sendEvent` Aufrufe den richtigen Ansichtsnamen enthalten.
+  1. **Ansichts-Tracking überprüfen** - Überprüfen Sie, ob `sendEvent` Aufrufe den richtigen Ansichtsnamen enthalten.
 
-   1. **Überprüfen des Vorhandenseins von Elementen** - Stellen Sie sicher, dass sich Zielelemente im DOM befinden, wenn Änderungen vorgenommen werden.
+  1. **Überprüfen des Vorhandenseins von Elementen** - Stellen Sie sicher, dass sich Zielelemente im DOM befinden, wenn Änderungen vorgenommen werden.
 
-   1. **Überprüfungsselektoren** - Bestätigen Sie, dass die CSS-Selektoren mit der tatsächlichen DOM-Struktur übereinstimmen.
+  1. **Überprüfungsselektoren** - Bestätigen Sie, dass die CSS-Selektoren mit der tatsächlichen DOM-Struktur übereinstimmen.
 
-   1. **Konsole überprüfen** - Suchen Sie nach JavaScript-Fehlern, die Änderungen verhindern können.
+  1. **Konsole überprüfen** - Suchen Sie nach JavaScript-Fehlern, die Änderungen verhindern können.
 
 * **Änderungen werden kurz angezeigt und verschwinden dann** - Dieses Problem tritt in der Regel auf, wenn die SPA geänderte Elemente erneut rendert und ersetzt:
 
-   1. Verwenden Sie spezifischere CSS-Selektoren, die über Renderings hinweg stabil bleiben.
+  1. Verwenden Sie spezifischere CSS-Selektoren, die über Renderings hinweg stabil bleiben.
 
-   1. Aktivieren Sie es Mutationsbeobachtern, Änderungen beim Erstellen von Elementen erneut anzuwenden.
+  1. Aktivieren Sie es Mutationsbeobachtern, Änderungen beim Erstellen von Elementen erneut anzuwenden.
 
-   1. Arbeiten Sie mit Ihrem Entwicklungs-Team zusammen, um den Zielelementen stabile Attribute hinzuzufügen.
+  1. Arbeiten Sie mit Ihrem Entwicklungs-Team zusammen, um den Zielelementen stabile Attribute hinzuzufügen.
 
 * **Doppelte Änderungen** - Wenn Änderungen mehrmals angezeigt werden:
 
-   1. Vergewissern Sie sich, dass Ansichts-Tracking-Ereignisse nur einmal pro Ansichtstransition ausgelöst werden.
+  1. Vergewissern Sie sich, dass Ansichts-Tracking-Ereignisse nur einmal pro Ansichtstransition ausgelöst werden.
 
-   1. Überprüfen Sie, ob Änderungen sich auf bestimmte Ansichten beziehen, anstatt sie global anzuwenden.
+  1. Überprüfen Sie, ob Änderungen sich auf bestimmte Ansichten beziehen, anstatt sie global anzuwenden.
 
 ## Verwandte Themen
 

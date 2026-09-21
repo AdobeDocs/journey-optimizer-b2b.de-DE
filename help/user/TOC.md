@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 4b957915c92aed6e1f37af53e9d2171ec2c58f24
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 83%
 ---
 
 # Benutzerhandbuch für Journey Optimizer B2B Edition {#user}
@@ -70,8 +70,8 @@ ht-degree: 84%
     + [Geregelte Vorlagen](./content/email-authoring-governance.md)
     + [E-Mail-Deduplizierung](./content/email-deduplication.md)
     + [E-Mail-Tracking](./content/email-tracking-manage.md)
-  + Web-Kanal (Beta) {#web-channel}
-    + [Überblick](./content/web-experiences.md)
+  + Web-Kanal {#web-channel}
+    + [Übersicht](./content/web-experiences.md)
     + [Web-Erlebnisdesign](./content/web-experience-design.md)
     + [Single Page Applications](./content/web-single-page-applications.md)
   + [Benutzerdefinierte Personalisierungs-Token](./content/personalization-my-tokens.md)
@@ -172,6 +172,6 @@ ht-degree: 84%
     + [E-Mail-Konfigurationen](./admin/configure-channels-emails.md)
     + [SMS-Konfigurationen](./admin/configure-channels-sms.md)
     + [WhatsApp-Konfigurationen](./admin/configure-channels-whatsapp.md)
-    + [Web-Kanal-Konfigurationen (Beta)](./admin/configure-channels-web.md)
+    + [Web-Kanalkonfigurationen](./admin/configure-channels-web.md)
     + [Landingpage-Konfigurationen](./admin/configure-channels-landing-pages.md)
     + [Forms-Konfigurationen](./admin/configure-channels-forms.md)
