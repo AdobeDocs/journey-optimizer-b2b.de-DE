@@ -9,36 +9,43 @@ autotag-review: '2026-07-08T00:02:50.497Z'
 TQID: 'https://experienceleague.adobe.com/LIutoajlpVQTeJP2y4i0Wv7H-WqGj-c-LVsOGfin384'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 61481d57fb8eca805d9a9bc545124aed568b5416
+    internal-label: Intermediate
+source-git-commit: ec55e33d1db9aa7ecf488e2898564f89df702789
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '896'
 ht-degree: 0%
-
 ---
-
 # Öffnungs-Tracking für E-Mails verwalten
 
 Sie können das Öffnungs-Tracking für eine einzelne E-Mail deaktivieren oder die Tracking-Voreinstellungen jeder Person in Adobe Experience Platform erfassen und einen aufgeteilten Pfad verwenden, um Personen zu Tracking- und Nicht-Tracking-E-Mail-Varianten zu leiten.
 
->[!BEGINSHADEBOX „CNIL Guidance on Email Tracking Pixels“]
+>[!BEGINSHADEBOX „Anleitung zum Tracking von E-Mails in Pixeln“]
 
-Am 14. April 2026 veröffentlichte die *Commission Nationale de l&#39;Informatique et des Libertés* (CNIL) eine [Empfehlung zur Verwendung von Tracking-Pixeln in E-Mails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie könnte sich auf die Versandpraktiken von Entitäten auswirken, die E-Mails an Abonnenten mit Sitz in Frankreich versenden.
+Am 14. April 2026 veröffentlichte die *Commission nationale de l&#39;informatique et des libertés* (CNIL), Frankreichs Datenschutzbehörde, eine [Empfehlung zur Verwendung von Tracking-Pixeln in E-Mails](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Kurz darauf veröffentlichte die unabhängige italienische Datenschutzbehörde („Garante„) [Bestimmung Nr. 284](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10241943) (die „Garantieregelung„) am 17. April 2026. Obwohl diese nicht rechtsverbindlich sind, wird in jedem Leitfaden klargestellt, wann eine Einwilligung erforderlich ist, und es wird hervorgehoben, wie wichtig angemessene Zustimmungspraktiken für das E-Mail-Pixel-Tracking sind. Diese Richtlinie könnte sich auf die Versandpraktiken von Unternehmen auswirken, die E-Mails an Abonnenten gemäß dem geltenden EU-Datenschutzrecht versenden.
 
 Ein E-Mail-Tracking-Pixel ist ein 1 x 1 transparentes Bild, das in die HTML einer E-Mail eingebettet ist. Wenn der E-Mail-Client des Empfängers dieses Bild lädt, pingt das Pixel einen Server an, der Daten wie Zeitstempel, Gerätetyp, E-Mail-Client und manchmal eine IP-Adresse als ungefähren Speicherort aufzeichnet. Dieses Protokoll wird dann an den Datensatz eines Empfängers gebunden, sodass Marketer wissen können, ob eine E-Mail geöffnet wurde.
 
-Die hier beschriebenen [!UICONTROL Journey Optimizer B2B edition]-Produktfunktionen sind Bausteine, die entsprechend konfiguriert und betrieben werden und eine konforme Implementierung unterstützen können. Jeder Kunde ist dafür verantwortlich, seine Verpflichtungen nach geltendem Recht zu bestimmen und zu erfüllen.
+Die hier beschriebenen [!DNL Journey Optimizer B2B Edition] Produktfunktionen sind Bausteine, die entsprechend konfiguriert und betrieben werden und dazu beitragen können, die Einhaltung von Vorschriften durch Kunden zu gewährleisten. Kunden sind allein dafür verantwortlich, ihre Verpflichtungen gemäß den geltenden Leitlinien und anderen Gesetzen zu bestimmen und einzuhalten.
 
 >[!ENDSHADEBOX]
 
