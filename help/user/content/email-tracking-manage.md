@@ -68,7 +68,7 @@ Wenn Sie möchten, dass jede Person auswählen kann, ob ihre E-Mail-Öffnungen v
 Der Workflow besteht aus drei Teilen:
 
 1. [Benutzerdefiniertes Feld für die Tracking-Voreinstellung hinzufügen](#add-custom-field-tracking-preference) in AEP und Senden einer Opt-out-Kommunikation mit einem Formular-Link.
-1. [Fügen Sie einen Aufspaltungspfad für das Tracking-Opt-out ](#add-split-path-tracking) der Journey hinzu.
+1. [Fügen Sie einen Aufspaltungspfad für das Tracking-Opt-out &#x200B;](#add-split-path-tracking) der Journey hinzu.
 1. [Konfigurieren Sie Tracking- und Nicht-Tracking-E-](#configure-tracking-and-non-tracking-email-variants) für jeden Pfad.
 
 ### Benutzerdefiniertes Feld für Tracking-Voreinstellungen hinzufügen {#add-custom-field-tracking-preference}
@@ -113,7 +113,7 @@ Fügen Sie Ihrem Journey [_Aufspaltungspfade nach Personen_ Knoten](../journeys/
 
 ### Konfigurieren von Tracking- und Nicht-Tracking-E-Mail-Varianten {#configure-tracking-and-non-tracking-email-variants}
 
-Fügen Sie jedem Pfad [_[!UICONTROL  Aktionsknoten ]_E-Mail senden](./add-email.md) hinzu, damit jede Person die E-Mail-Variante erhält, die ihrer Tracking-Voreinstellung entspricht.
+Fügen Sie jedem Pfad [_[!UICONTROL &#x200B; Aktionsknoten &#x200B;]_&#x200B;E-Mail senden](./add-email.md) hinzu, damit jede Person die E-Mail-Variante erhält, die ihrer Tracking-Voreinstellung entspricht.
 
 1. Fügen Sie im Pfad mit aktiviertem Tracking die Aktion **[!UICONTROL E-Mail senden]** hinzu und wählen oder erstellen Sie die E-Mail wie gewohnt, wobei **[!UICONTROL Tracking deaktivieren]** in den E-Mail-Eigenschaften deaktiviert bleibt.
 
