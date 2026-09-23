@@ -28,7 +28,7 @@ TQID: https://experienceleague.adobe.com/OHzCXbYkoGg1M-r2M72dinHzVdPoBRZWdm1tu1G
 source-git-commit: a4cce068002a9f26ba7bb4a1aa836ddf92ef8586
 workflow-type: tm+mt
 source-wordcount: '2039'
-ht-degree: 15%
+ht-degree: 16%
 ---
 # Marken erstellen und verwalten {#brand-library}
 
@@ -245,7 +245,7 @@ Sie können mit der Verfeinerung der [Schreibstil](#writing-style) oder [visuell
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
 >title="Ausrichtungswert für den Schreibstil"
->abstract="Im Abschnitt Schreibstil werden Standards für Sprache, Formatierung und Struktur definiert. Der Alignment-Score zeigt, wie gut Ihr Inhalt diesen Richtlinien entspricht, und hebt Bereiche hervor, die verbessert werden müssen."
+>abstract="Im Abschnitt „Schreibstil“ werden Standards für Sprache, Formatierung und Struktur definiert. Der Ausrichtungswert zeigt, inwieweit Ihr Inhalt diesen Richtlinien entspricht, und hebt Bereiche hervor, bei denen Verbesserungsbedarf besteht."
 
 Die _[!UICONTROL Schreibstil]_-Definitionen beschreiben die Standards für das Schreiben von Inhalten und erläutern, wie Sprache, Formatierung und Struktur verwendet werden sollten, um Klarheit, Kohärenz und Konsistenz über alle Materialien hinweg zu gewährleisten.
 
@@ -289,7 +289,7 @@ Supplement your work choice guidelines by adding preferred and avoided terms.
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_imagery"
 >title="Ausrichtungswert für visuellen Content"
->abstract="Der Ausrichtungswert für visuellen Content gibt an, inwieweit Ihr Content Ihren konfigurierten Markenrichtlinien entspricht. Dies hilft Ihnen, die Ausrichtung zu bewerten und Bereiche zu identifizieren, die verbessert werden müssen."
+>abstract="Der Ausrichtungswert für visuellen Content gibt an, inwieweit Ihr Content Ihren konfigurierten Markenrichtlinien entspricht. Auf diese Weise können Sie die Ausrichtung auswerten und Bereiche identifizieren, bei denen Verbesserungsbedarf besteht."
 
 Die _[!UICONTROL Visual Content]_-Definitionen beschreiben die Standards für Bild und Design und erläutern die Spezifikationen, die für die Aufrechterhaltung eines einheitlichen und konsistenten Markenlooks erforderlich sind.
 
