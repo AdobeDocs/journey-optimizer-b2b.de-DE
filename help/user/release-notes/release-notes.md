@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 0fcf6c3c390ee932d2a6c019a4eed721976b32db
+source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
 workflow-type: tm+mt
-source-wordcount: '5645'
+source-wordcount: '5708'
 ht-degree: 61%
 ---
 # Versionshinweise zu Journey Optimizer B2B Edition
@@ -37,6 +37,21 @@ Journey Optimizer B2B Edition setzt nativ auf [!DNL Adobe Experience Platform] a
 
 Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html){target="_blank"}, um Informationen über Berechtigungen, Leitlinien für die Leistung und Einschränkungen zu erhalten.
 
+## Versionshinweise für 2026.9 {#rel-2026-9}
+
+**Bereitstellungsdatum**: 25. September 2026
+
+| Typ | Element | Beschreibung |
+| ---- | ---- | ----------- |
+| Funktion | Personenlisten | Statische und dynamische Personenlisten sind jetzt verfügbar, damit Sie Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Erlebnisereignisverlauf auswählen können. |
+| Funktion | Service-Status-Dashboards | Verfolgen Sie den Betriebszustand externer Aktionen, indem Sie Erfolgs-/Fehlermetriken erfassen und Dashboards zur Überwachung der Service-Leistung bereitstellen. |
+| Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
+
+>[!NOTE]
+>
+>Diese Versionsänderungen beginnen mit der Bereitstellung am 25. September 2026 mit einem schrittweisen Rollout jeder Funktion und Erweiterung. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
+
+
 ## Versionshinweise für 2026.8 {#rel-2026-8}
 
 **Bereitstellungsdatum:**. August 2026
@@ -44,10 +59,8 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Personen-Journey | (Zuvor Beta, frühe Bereitstellung für allgemeine Verfügbarkeit) Sie können jetzt Journey erstellen, um Lead-basiertes Marketing mithilfe von Experience Platform-Zielgruppen und -Daten zu orchestrieren. [Weitere Informationen](../journeys/journeys-overview.md) |
-| Funktion | Personenlisten | Statische und dynamische Personenlisten sind jetzt verfügbar, damit Sie Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Erlebnisereignisverlauf auswählen können. |
 | Funktion | _Aufspaltungspfade von Varianten_ Journey-Knoten | (Zuvor Beta für Account Journey) Marketing-Experten können jetzt Varianten innerhalb eines Accounts oder Personen-Journey testen, indem sie Accounts oder Personen auf der Grundlage definierter Prozentsätze unterschiedlichen Journey-Pfaden zuweisen. [Weitere Informationen](../journeys/variant-split-paths-nodes.md) |
 | Funktion | C2PA-Metadaten | Bilder, die mit generativen KI-Tools generiert oder bearbeitet wurden, werden jetzt automatisch mit C2PA-Metadaten signiert, sodass Sie die Anforderungen an Inhaltstransparenz und KI-Offenlegung erfüllen können. [Weitere Informationen](../content/c2pa-metadata.md) |
-| Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
 | Verbesserung | Überwachen von Ereignis-Triggern und -Filtern - Account-Journey | Für Account-Journey ist jetzt die Unterstützung für mehrere Trigger und Filter in einem _Lauschen Sie auf_) mit dem Ereignistyp _Personen_ verfügbar. [Weitere Informationen](../journeys/listen-for-event-nodes.md) |
 | Verbesserung | Externe Pfadknoten für Aufspaltung - Personen-Journey | Die Unterstützung für _externe Aufspaltungspfade_-Knoten ist jetzt für Personen-Journey verfügbar. [Weitere Informationen](../journeys/external-nodes.md#external-action) |
 | Verbesserung | Externe Aktionsknoten - Personen-Journey | Die Unterstützung für _Externe Aktion_-Knoten ist jetzt für Personen-Journey verfügbar. [Weitere Informationen](../journeys/external-nodes.md#external-split-paths) |
@@ -141,7 +154,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Marken-Kits | (Beta) Definieren Sie eine Marke in Journey Optimizer B2B edition, um Ihrem Kreativteam die Datenquelle bereitzustellen, die es beim Erstellen visueller oder schriftlicher Inhalte verwenden soll. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. [Weitere Informationen](../content/brands-overview.md) |
+| Funktion | Marken-Kits | (Beta) Definieren Sie eine Marke in Journey Optimizer B2B Edition, um Ihrem Kreativteam die Datenquelle bereitzustellen, die es beim Erstellen visueller oder schriftlicher Inhalte verwenden soll. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. [Weitere Informationen](../content/brands-overview.md) |
 | Funktion | Marken für die Erstellung von E-Mail-Inhalten | Sie können Ihre Markenrichtlinien definieren und diese Informationen verwenden, um E-Mail-Inhalte zu generieren. Mit dieser Funktion werden E-Mail-Inhalte an Ihre markenspezifischen Copywriting-Richtlinien, -Stile und -Töne angepasst. [Weitere Informationen](../content/generate-content-emails.md) |
 | Verbesserung | Journey _Warten_ Knoten - Erweiterte Einstellungen | Für einen _Warten_-Knoten in einem Journey können Marketing-Experten jetzt Beendigungstage und -zeiten angeben und Zeitzonen auswählen. Diese Verbesserung ermöglicht eine bessere Kontrolle der Journey-Orchestrierung und des Kampagnenzeitplans. [Weitere Informationen](../journeys/wait-nodes.md#advanced-wait-settings) |
 | Verbesserung | Mitglied des Filters „Einkaufsgruppe“ - wurde entfernt | Bei einem _Aufspaltungspfad nach Personen_-Knoten enthält der _[!UICONTROL Mitglied der Kaufgruppe]_ jetzt die _Ist entfernt_-Beschränkung. Wenn Sie ihn auswählen, kann der Filter das entfernte Mitglied der Einkaufsgruppe einschließen oder ausschließen. Es wird auch in Marketo Engage-Smart-Listen unterstützt, in denen Sie diese neue Einschränkung im Filter _[!UICONTROL Mitglied der Kaufgruppe]_ verwenden können. |
@@ -200,7 +213,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
@@ -220,7 +233,7 @@ Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen:
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Zusammenarbeit an E-Mail-Inhalten | Marketing-Teams können jetzt im Kontext eines E-Mail-Assets Kommentare abgeben und mit den anderen Journey Optimizer B2B edition-Benutzenden zusammenarbeiten. Sie können Team-Mitglieder taggen, um eine E-Mail-Benachrichtigung mit den Details des Kommentars zu erhalten. Die Benachrichtigung ist auch als Pulse-Benachrichtigung verfügbar. [Weitere Informationen](../content/email-collaboration-tools.md) |
+| Funktion | Zusammenarbeit an E-Mail-Inhalten | Marketing-Teams können jetzt im Kontext eines E-Mail-Assets Kommentare abgeben und mit den anderen Journey Optimizer B2B Edition-Benutzern zusammenarbeiten. Sie können Team-Mitglieder taggen, um eine E-Mail-Benachrichtigung mit den Details des Kommentars zu erhalten. Die Benachrichtigung ist auch als Pulse-Benachrichtigung verfügbar. [Weitere Informationen](../content/email-collaboration-tools.md) |
 | Funktion | Dunkler Modus für E-Mail-Design | Der E-Mail-Design-Bereich bietet jetzt die Möglichkeit, in den _dunklen Modus_ wechseln. Im dunklen Modus können Sie eine Vorschau des E-Mail-Inhalts anzeigen und benutzerdefinierte Einstellungen definieren, die speziell für Personen angezeigt werden, die ihre E-Mails im dunklen Modus anzeigen. [Weitere Informationen](../content/email-dark-mode.md) |
 | Verbesserung | Journeys – Pfad nach Anzahl der Personen in der Rolle aufteilen | Verwenden Sie einen nach Kontoknoten aufgeteilten Pfad, um ein Konto mit der Anzahl der Personen in einer oder mehreren Käufergruppenrollen anzusprechen. Im Pfad können Sie die Bereitschaft der Käufergruppe für Verkaufswarnungen und andere Interaktionen basierend auf der Rollentiefe bewerten. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#buying-group-filtering-accounts) |
 | Verbesserung | Journeys – Personenfilter für Ereignisse | Verwenden Sie Personenfilter, um Personenereignisse zu überwachen. Diese Filter bieten die Möglichkeit, eine bestimmte Rolle für eine übereinstimmende Käufergruppe anzusprechen. [Weitere Informationen](../journeys/listen-for-event-nodes.md#filters-people-event) |
