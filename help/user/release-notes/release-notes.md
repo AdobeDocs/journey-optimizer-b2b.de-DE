@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 5ae2c8e9e395f027e166b445a37950e5870789cd
+source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
 workflow-type: tm+mt
-source-wordcount: '5708'
-ht-degree: 61%
+source-wordcount: '5744'
+ht-degree: 60%
 ---
 # Versionshinweise zu Journey Optimizer B2B Edition
 
@@ -45,6 +45,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | ---- | ---- | ----------- |
 | Funktion | Personenlisten | Statische und dynamische Personenlisten sind jetzt verfügbar, damit Sie Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Erlebnisereignisverlauf auswählen können. |
 | Funktion | Service-Status-Dashboards | Verfolgen Sie den Betriebszustand externer Aktionen, indem Sie Erfolgs-/Fehlermetriken erfassen und Dashboards zur Überwachung der Service-Leistung bereitstellen. |
+| Verbesserung | Mitglied des Profilzielgruppenfilters | Dieser Filter ist jetzt für die Bedingungen für den Split-Pfad von Personen-Journey, die Bedingungen für den Split-Pfad von Journey-Personen-Account und für Personenlisten verfügbar, um Profile basierend auf ihrer Zielgruppenzugehörigkeit ein- oder auszuschließen. |
 | Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
 
 >[!NOTE]
@@ -94,12 +95,12 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Landingpages | Landingpages sind in Journey Optimizer B2B edition verfügbar, um Journey und Programme zu unterstützen _(zuvor eine Beta-Programmfunktion)_. <ul><li>Admins können Landingpage-Subdomains und Voreinstellungen konfigurieren, um die Veröffentlichung der Landingpage zu aktivieren. [Weitere Informationen](../admin/configure-channels-landing-pages.md)</li><li>Marketing-Experten können Landingpages erstellen, entwerfen und veröffentlichen, um ihre Journey mit personalisierten Web-Inhalten zu unterstützen. [Weitere Informationen](../content/landing-pages.md)</li></ul> |
-| Funktion | Formulare | Journey Optimizer B2B edition unterstützt jetzt wiederverwendbare Formularkomponenten, um die Datenübermittlung von Landingpages aus zu ermöglichen _(zuvor eine Beta-Programmfunktion)_. <ul><li>Admins können mehrere Formularvorgaben mit verschiedenen Kombinationen von Datensätzen und Streaming-Verbindungen konfigurieren. [Weitere Informationen](../admin/configure-channels-forms.md)</li><li>Marketing-Experten können jetzt wiederverwendbare Formularkomponenten definieren, um Informationen von Web-Seitenbesuchern zu erfassen. [Weitere Informationen](../content/forms.md)</li></ul> |
+| Funktion | Landingpages | Landingpages sind in Journey Optimizer B2B Edition verfügbar, um Journey und Programme zu unterstützen _(zuvor eine Beta-Programmfunktion)_. <ul><li>Admins können Landingpage-Subdomains und Voreinstellungen konfigurieren, um die Veröffentlichung der Landingpage zu aktivieren. [Weitere Informationen](../admin/configure-channels-landing-pages.md)</li><li>Marketing-Experten können Landingpages erstellen, entwerfen und veröffentlichen, um ihre Journey mit personalisierten Web-Inhalten zu unterstützen. [Weitere Informationen](../content/landing-pages.md)</li></ul> |
+| Funktion | Formulare | Journey Optimizer B2B Edition unterstützt jetzt wiederverwendbare Formularkomponenten, um die Datenübermittlung von Landingpages aus zu ermöglichen _(zuvor eine Beta-Programmfunktion)_. <ul><li>Admins können mehrere Formularvorgaben mit verschiedenen Kombinationen von Datensätzen und Streaming-Verbindungen konfigurieren. [Weitere Informationen](../admin/configure-channels-forms.md)</li><li>Marketing-Experten können jetzt wiederverwendbare Formularkomponenten definieren, um Informationen von Web-Seitenbesuchern zu erfassen. [Weitere Informationen](../content/forms.md)</li></ul> |
 | Funktion | Filter „Mitglied der Kontoliste“ | Verwenden Sie die Mitgliedschaft in der Kontoliste als Orchestrierungspunkt in den Account Journey. Marketing-Experten können Account-Blockierungslisten, Prioritätenlisten oder jede andere Untergruppe ihrer Zielgruppe erstellen und Account-spezifische Erlebnisse in Journey basierend auf ihrer Mitgliedschaft bereitstellen. |
 | Funktion | Filtern des Erlebnisereignisverlaufs | Diese Funktion ermöglicht es der B2B-Journey-Orchestrierung, historische Interaktionen zu verwenden, um verhaltensbasierte Entscheidungen für Zielgruppenmitglieder zu fördern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Funktion | Nächstbeste Pfad-Journey-Knoten | Sie können die Split Path-Entscheidungsfindung für Personen-Journey optimieren und verfeinern, wie Zielgruppen über Pfade hinweg vor der Journey-Aktivierung oder zur Laufzeit weitergeleitet werden. [Weitere Informationen](../journeys/next-best-path-node.md) |
-| Funktion | E-Mail-Leistungs-Dashboard | Das E-Mail-Leistungs-Dashboard bietet Marketing-Experten eine einheitliche Ansicht der E-Mail-Aktivität in allen Journey in Adobe Journey Optimizer B2B edition. [Weitere Informationen](../dashboards/email-performance-dashboard.md) |
+| Funktion | E-Mail-Leistungs-Dashboard | Das E-Mail-Leistungs-Dashboard bietet Marketing-Experten eine einheitliche Ansicht der E-Mail-Aktivität in allen Journey in Adobe Journey Optimizer B2B Edition. [Weitere Informationen](../dashboards/email-performance-dashboard.md) |
 | Verbesserung | Audience Agent B2B-Kenntnisse | Audience Agent B2B-Kenntnisse werden aktualisiert, einschließlich der Erstellung von KI-gestützten Einkaufsgruppen-Vorlagen. Verwenden Sie die Erstanbieter-Intent- und Persona-Zuordnung, um Einkaufsgruppenvorlagen zu generieren, von KI empfohlene Rollen-zu-Persona-Zuordnungen zu überprüfen und Vorlagen mit natürlicher Sprache zu verfeinern, bevor Sie sie veröffentlichen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
 | Verbesserung | Übersichts-Dashboard für Journey - Personen-Journey | Personen-Journey (Beta) enthalten jetzt eine Registerkarte _[!UICONTROL Übersicht]_ mit denselben Analytics-Daten wie die Journey-Konten, einschließlich der Verteilung der Journey-Abschlussrate, der Journey nach Interaktionstyp sowie Drill-Through- und Exportaktionen. [Weitere Informationen](../dashboards/journeys-dashboard.md) |
 | Verbesserung | Unterstützung für relationale AEP-Datensätze | Neue relationale Datensätze werden jetzt zusammen mit vorhandenen Datensätzen in Ihrer AEP-Sandbox angezeigt. |
@@ -166,13 +167,13 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 ## Funktionen für Agent-basierte KI {#rel-agents}
 
-Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B edition in der Chat-Oberfläche verfügbar:
+Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B Edition in der Chat-Oberfläche verfügbar:
 
 | Agent | Update | Beschreibung |
 | ----- | ------ | ----------- |
 | Journey Build Agent | Neu und aktualisiert | Der Journey Build Agent analysiert, konzipiert und erstellt Journeys in Echtzeit gemeinsam mit Ihnen. Dies versetzt Marketingteams in die Lage, Starts zu beschleunigen, die Interaktion zu steigern und höhere Konversionsraten voranzutreiben. [Weitere Informationen](../agents/journey-agent.md) |
 | Audience Agent | Neu | Der Audience Agent identifiziert und erstellt Zielgruppen (Käufergruppen) automatisch anhand strukturierter und unstrukturierter Daten. Er hilft Marketing-Fachleuten, die richtigen Personen schneller und präziser anzusprechen. [Weitere Informationen](../agents/audience-agent-b2b.md) |
-| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B edition, die die Account Qualification Agent enthält und dazu dient, Workflows für Business Development Representatives (BDRs) zu optimieren. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"} |
+| Verkaufskennzeichner | Neu | Sales Qualifier ist eine KI-gesteuerte Add-on-Anwendung für Adobe Journey Optimizer B2B Edition, die die Account Qualification Agent enthält und zur Optimierung von Workflows für Business Development Representatives (BDRs) entwickelt wurde. Er automatisiert Workflows für die Qualifizierung von Interessenten, für Kontaktaufnahme und für die Interaktion mit Käufern über verschiedene Kanäle hinweg. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"} |
 
 ## Versionshinweise für 2025.10 {#rel-2025-10}
 
@@ -198,11 +199,11 @@ Die folgenden Agent-KI-Funktionen sind jetzt für Journey Optimizer B2B edition 
 
 ### Aktualisierte Architektur
 
-Mit der aktualisierten Architektur befinden sich Journey Optimizer B2B edition und Marketo Engage nicht mehr im selben System und Datenspeicher. Journey Optimizer B2B edition empfängt Daten von Adobe Experience Platform. Es ist jedoch weiterhin auf Adobe Marketo Engage-Berechtigungen und einige Konfigurationsoptionen angewiesen, um das System bereitzustellen und zu konfigurieren.
+Mit der aktualisierten Architektur sind Journey Optimizer B2B Edition und Marketo Engage nicht mehr auf demselben System und in demselben Datenspeicher. Journey Optimizer B2B Edition empfängt Daten von Adobe Experience Platform. Es ist jedoch weiterhin auf Adobe Marketo Engage-Berechtigungen und einige Konfigurationsoptionen angewiesen, um das System bereitzustellen und zu konfigurieren.
 
 >[!NOTE]
 >
->In früheren Versionshinweisen wurde diese Bereitstellung als &quot;*Architektur“*. Dieses Modell ist jetzt die standardmäßige Implementierung von Journey Optimizer B2B edition.
+>In früheren Versionshinweisen wurde diese Bereitstellung als &quot;*Architektur“*. Dieses Modell ist jetzt die standardmäßige Journey Optimizer B2B Edition-Implementierung.
 
 Diese Implementierung bietet mehrere Vorteile:
 
@@ -213,7 +214,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
@@ -223,7 +224,7 @@ Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mi
 | Funktion | Mehrere Marketo Engage-Aktivierungen | Konfigurieren Sie Verbindungen zu Remote-Marketo Engage-Instanzen und verwenden Sie diese Verbindungen, um Marketo Engage-Aktionen für Journey einzurichten. Diese Aktionen, z. B. das Hinzufügen/Entfernen von Personen aus Listen oder das Hinzufügen von Personen zu einer Anfragekampagne, gelten für die vorgesehene Marketo Engage-Instanz. [Weitere Informationen](../admin/marketo-actions-connect.md) |
 | Funktion | Deduplizierung bei E-Mail-Müdigkeit | Sie können jetzt E-Mail-Deduplizierung aktivieren, um sicherzustellen, dass eine E-Mail im Rahmen einer Journey nicht mehrmals an dieselbe Adresse geschickt wird. Doppelte Adressen werden blockiert, bis der erste Eintrag mit dieser E-Mail-Adresse die Journey abgeschlossen hat.  [Weitere Informationen](../content/email-deduplication.md) |
 | Verbesserung | Gewichtung der Interaktionswerte - AEP-Ereignisse | Die Gewichtung der Interaktionswerte kann jetzt jedes standardmäßige oder benutzerdefinierte Experience Platform-Ereignis enthalten und entsprechend Ihren Anforderungen gewichtet werden. [Weitere Informationen](../admin/engagement-score-weighting.md) |
-| Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B edition. [Weitere Informationen](../admin/configure-channels-emails.md#communication-limits) |
+| Verbesserung | Kommunikationsbeschränkungen | Das System berücksichtigt jetzt die kombinierten Kommunikationsbeschränkungen von Marketo Engage und Journey Optimizer B2B Edition. [Weitere Informationen](../admin/configure-channels-emails.md#communication-limits) |
 
 ## Versionshinweise für 2025.9 {#rel-2025-9}
 
