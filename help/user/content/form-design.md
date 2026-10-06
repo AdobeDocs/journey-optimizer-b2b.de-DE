@@ -1,6 +1,6 @@
 ---
 title: Formular-Design
-description: Entwerfen Sie Formulare mit Feldtypen, Validierung, Stilen und XDM-Schemaattributen für die Geschäftsdatenerfassung in Journey Optimizer B2B edition.
+description: Entwerfen Sie Formulare mit Feldtypen, Validierung, Stilen und XDM-Schemaattributen für die Erfassung von Geschäftsdaten in Journey Optimizer B2B Edition.
 feature: Forms, Content Design Tools
 role: User
 exl-id: 1e19e8a7-8d4f-442f-a2e6-aba52e5a356c
@@ -8,32 +8,42 @@ autotag-review: '2026-05-27T16:10:55.800Z'
 TQID: 'https://experienceleague.adobe.com/2-5PPPyFLrTpU89D-ByVskTVAF6ItgqJYFZrTbHsPTU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Web experience
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2190
+source-wordcount: '2190'
 ht-degree: 2%
-
 ---
-
 # Formular-Design
 
 Nach dem [Erstellen eines Formulars](./forms.md#create-forms) wird im visuellen Design-Bereich ein Entwurf mit einer standardmäßigen allgemeinen Formulardefinition geöffnet. Klicken Sie im _[!UICONTROL Zusammenfassungsbereich]_ auf der rechten Seite auf **[!UICONTROL Formular bearbeiten]** und verwenden Sie den visuellen Design-Bereich, um die Formularstile und Feldkomponenten zu definieren.
 
 ![Formularentwurfsbereich](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Die _&#x200B;**Senden**&#x200B;_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
+Die _**Senden**_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
 
 ## Felder
 
@@ -75,7 +85,7 @@ Formularfelder werden verwendet, um Personenprofildaten zu erfassen, mit denen P
    | ---------- | ----- |
    | **[!UICONTROL checkbox]** | Verwenden Sie diesen Typ, damit Besucher einen Wert _true_ (aktiviert) oder _false_ (deaktiviert) auswählen können. |
    | **[!UICONTROL Kontrollkästchen-Gruppe]** | Verwenden Sie diesen Typ, damit Besucher einen Wert _true_ (aktiviert) oder _false_ (deaktiviert) für mehrere Elemente auswählen können. |
-   | **[!UICONTROL Währung]** | Verwenden Sie diesen Typ, um ein schwebendes Feld zuzulassen, das den für die Journey Optimizer B2B edition-Instanz ausgewählten Standardwährungstyp darstellt. |
+   | **[!UICONTROL Währung]** | Verwenden Sie diesen Typ, um ein schwebendes Feld zuzulassen, das den für die Journey Optimizer B2B Edition-Instanz ausgewählten Standardwährungstyp darstellt. |
    | **[!UICONTROL Datum]** | Verwenden Sie diesen Typ, um die Eingabe auf ein Datumsformat zu beschränken und einen Kalenderselektor in das Feld einzugeben. |
    | **[!UICONTROL Double]** | Variable Double (Double-Precision Floating-Point), gespeichert als IEEE-64-Bit-Gleitkommazahlen (8 Byte). |
    | **[!UICONTROL E-Mail]** | Verwenden Sie diesen Typ, um die Eingabe auf das Format einer E-Mail-Adresse zu beschränken. |

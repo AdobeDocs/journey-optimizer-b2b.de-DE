@@ -1,29 +1,38 @@
 ---
 title: Erstellung von E-Mail-Vorlagen
-description: Erstellen Sie wiederverwendbare E-Mail-Vorlagen mit visuellen Design-Tools, benutzerdefiniertem CSS, Fragmenten und Personalisierung für Account Journey in Journey Optimizer B2B edition.
+description: Erstellen Sie wiederverwendbare E-Mail-Vorlagen mit visuellen Design-Tools, benutzerdefiniertem CSS, Fragmenten und Personalisierung für Account-Journey in Journey Optimizer B2B Edition.
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 2d532f93-c452-400a-8a82-e1f0eb89b199
 autotag-review: 2026-03-30T22:30:02.360Z
+TQID: 'https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-TQID: https://experienceleague.adobe.com/Z8Qz12J8H5p5QsGz5VI0TeKCvLkvbu9gjDE1xEB9VdQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: '547'
 ht-degree: 3%
-
 ---
-
 # Erstellung von E-Mail-Vorlagen
 
 Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email-template) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer E-Mail-Vorlage zu erstellen.
@@ -83,8 +92,8 @@ Nutzen Sie die Ansicht- und Inhaltsvalidierungsoptionen, die im visuellen Design
 * Vergrößern/Verkleinern des Inhalts in allen vordefinierten Zoom-Optionen.
 
 * Wechseln der Anzeige von Inhalten zwischen Desktop, Mobilgerät oder Nur-Text-/Nur-Text-Ansicht.
-   * Klicken Sie auf das _Auge_-Symbol für die geräteübergreifende Inhaltsvorschau.
-   * Wählen Sie eines der standardmäßigen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um eine Vorschau des Inhalts anzuzeigen.
+  * Klicken Sie auf das _Auge_-Symbol für die geräteübergreifende Inhaltsvorschau.
+  * Wählen Sie eines der standardmäßigen Geräte aus oder geben Sie benutzerdefinierte Dimensionen ein, um eine Vorschau des Inhalts anzuzeigen.
 
 ### Mehr Optionen
 

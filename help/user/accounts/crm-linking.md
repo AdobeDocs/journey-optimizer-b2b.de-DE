@@ -1,35 +1,43 @@
 ---
-title: Zugriff auf Detailseiten im CRM
+title: Zugriff auf Detailseiten im Customer Relationship Management
 description: Fügen Sie benutzerdefinierte Links für Konto- und Kontaktdetails hinzu, um den direkten Zugriff auf Journey Optimizer B2B-Insights von Salesforce und Dynamics CRM zu ermöglichen.
 feature: Integrations, Sales Insights
 role: Admin, User
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 152ec02c-e8fb-4d69-8e80-ee546fc0304c
+autotag-review: 2026-03-27T22:24:19.286Z
+TQID: 'https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: fc1ff3b2-6614-41ad-a113-de48597598fd
+    internal-label: Sales Experience
+subfeature_v2:
+  - id: d918a333-f043-4717-886b-aefeef1f8267
+    internal-label: Sales insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: addf009e-030a-4310-8534-776a3e62ed48
-autotag-review: 2026-03-27T22:24:19.286Z
-TQID: https://experienceleague.adobe.com/RDQfNrEzuGj-swuRpEkHCgQZexhN-B7p0Ck8PyM1lX0
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Customer lifecycle
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1470
+source-wordcount: '1470'
 ht-degree: 2%
-
 ---
+# Zugriff auf Detailseiten im Customer Relationship Management
 
-# Zugriff auf Detailseiten im CRM
+Mit Adobe Journey Optimizer B2B Edition können Mitglieder des Vertriebs- und Account-Teams direkt über ihr CRM-Tool (Customer Relationship Management) wie Salesforce oder Microsoft Dynamics auf detaillierte Seiten für Konto- und Kaufgruppeninformationen zugreifen. Mit dieser Integration können Vertriebsmitarbeiter schnell auf Echtzeit-Konto- und Einkaufsgruppeneinblicke zugreifen, wie z. B. den Interaktionsverlauf, Absichtssignale und KI-generierte Empfehlungen. Diese Fähigkeit ermöglicht dem Vertriebsteam eine schnellere Kontaktaufnahme, eine intelligentere Priorisierung und eine bessere Abstimmung mit dem Marketing.
 
-Mit Adobe Journey Optimizer B2B edition können Mitglieder des Vertriebs- und Account-Teams direkt über ihr CRM-Tool (Customer Relationship Management) wie Salesforce oder Microsoft Dynamics auf detaillierte Seiten für Konto- und Kaufgruppeninformationen zugreifen. Mit dieser Integration können Vertriebsmitarbeiter schnell auf Echtzeit-Konto- und Einkaufsgruppeneinblicke zugreifen, wie z. B. den Interaktionsverlauf, Absichtssignale und KI-generierte Empfehlungen. Diese Fähigkeit ermöglicht dem Vertriebsteam eine schnellere Kontaktaufnahme, eine intelligentere Priorisierung und eine bessere Abstimmung mit dem Marketing.
-
-Damit die Mitglieder des Vertriebs- und Account-Teams die [Kontodetails](account-details.md) und [Personendetails](person-details.md) in Journey Optimizer B2B edition aus dem CRM anzeigen können, kann der Salesforce- oder Dynamics-Administrator einen Link aus der Konto-, Kontakt- oder Lead-Ansicht hinzufügen.
+Damit die Mitglieder des Vertriebs- und Account-Teams die Seiten [Kontodetails](account-details.md) und [Personendetails](person-details.md) in Journey Optimizer B2B Edition aus dem CRM anzeigen können, kann der Salesforce- oder Dynamics-Administrator einen Link aus der Konto-, Kontakt- oder Lead-Ansicht hinzufügen.
 
 Wenn ein Mitglied des Vertriebsteams den Link von der CRM-Instanz verwendet, sollte die Sandbox _Prod_ sein, und die IMS-Organisation wird gemäß der folgenden geordneten Logik bestimmt:
 
@@ -39,7 +47,7 @@ Wenn ein Mitglied des Vertriebsteams den Link von der CRM-Instanz verwendet, sol
 
 ## Salesforce-Links
 
-Ein Salesforce-Administrator mit der Berechtigung _Programm anpassen_ kann den Link im Konto-, Kontakt- oder Lead-Layout konfigurieren. Über konfigurierte Links können Vertriebsbenutzer auf die entsprechende Kontodetails- oder Personendetailseite in Adobe Journey Optimizer B2B edition zugreifen.
+Ein Salesforce-Administrator mit der Berechtigung _Programm anpassen_ kann den Link im Konto-, Kontakt- oder Lead-Layout konfigurieren. Über konfigurierte Links können Vertriebsbenutzer auf die entsprechende Kontodetails- oder Personendetailseite in Adobe Journey Optimizer B2B Edition zugreifen.
 
 Fügen Sie in Salesforce den benutzerdefinierten Link als Schaltfläche, Hyperlink oder verknüpftes Symbol hinzu und passen Sie ihn entsprechend den Voreinstellungen Ihres Teams an.
 
@@ -47,7 +55,7 @@ Fügen Sie in Salesforce den benutzerdefinierten Link als Schaltfläche, Hyperli
 
 Detaillierte Informationen zum Hinzufügen eines benutzerspezifischen Links in Salesforce finden Sie unter [Benutzerdefinierte Schaltflächen und Links definieren](https://help.salesforce.com/s/articleView?id=platform.defining_custom_links.htm&type=5) in der Dokumentation zu Salesforce.
 
-Wenn Sie die Ziel-URL für den Link definieren, können Sie das Konto-, Kontakt- oder Lead-Layout verwenden und mit der entsprechenden Detailseite in Journey Optimizer B2B edition verknüpfen:
+Wenn Sie die Ziel-URL für den Link definieren, können Sie das Konto-, Kontakt- oder Lead-Layout verwenden und mit der entsprechenden Detailseite in Journey Optimizer B2B Edition verknüpfen:
 
 * **Konto** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[18-character ID of account]`
 
@@ -130,7 +138,7 @@ Verwenden Sie das `Account` -Objekt, um die 18-stellige ID des Kontos abzurufen,
 
 ## Microsoft Dynamics-Links
 
-Ein Dynamics-Entwickler kann die Konto-, Kontakt- oder Lead-Entität erweitern, um ein Verknüpfungsfeld hinzuzufügen. Über konfigurierte Links können Vertriebsbenutzer auf die entsprechende Kontodetails- oder Personendetailseite in Adobe Journey Optimizer B2B edition zugreifen.
+Ein Dynamics-Entwickler kann die Konto-, Kontakt- oder Lead-Entität erweitern, um ein Verknüpfungsfeld hinzuzufügen. Über konfigurierte Links können Vertriebsbenutzer auf die entsprechende Kontodetails- oder Personendetailseite in Adobe Journey Optimizer B2B Edition zugreifen.
 
 Fügen Sie den benutzerspezifischen Link als Schaltfläche, Hyperlink oder verknüpftes Verknüpfungssymbol hinzu und passen Sie ihn entsprechend den Voreinstellungen Ihres Teams an.
 
@@ -138,7 +146,7 @@ Fügen Sie den benutzerspezifischen Link als Schaltfläche, Hyperlink oder verkn
 
 Verwenden Sie Power Apps, um modellgesteuerte Apps von Microsoft anzupassen, z. B. Dynamics-Komponenten. Ausführliche Informationen zur Verwendung von Power Apps zum Hinzufügen eines benutzerdefinierten Links in Dynamics finden Sie in der [PowerApps-Dokumentation](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-web-resources).
 
-Wenn Sie die Ziel-URL für den Link definieren, können Sie die Konto-, Kontakt- oder Lead-Ansicht verwenden und sie mit der entsprechenden Detailseite in Journey Optimizer B2B edition verknüpfen:
+Wenn Sie die Ziel-URL für den Link definieren, können Sie die Konto-, Kontakt- oder Lead-Ansicht verwenden und sie mit der entsprechenden Detailseite in Journey Optimizer B2B Edition verknüpfen:
 
 * **Konto** - `https://experience.adobe.com/#/journey-optimizer-b2b/accounts/crm/account/[Account ID]`
 

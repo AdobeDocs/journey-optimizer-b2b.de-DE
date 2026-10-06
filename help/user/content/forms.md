@@ -1,6 +1,6 @@
 ---
 title: Formulare
-description: Wiederverwendbare Formulare für die Erfassung von Geschäftsdaten erstellen und verwalten - Felder entwerfen, Dankeseiten festlegen, veröffentlichen und die Nutzung in Journey Optimizer B2B edition verfolgen.
+description: Wiederverwendbare Formulare für die Erfassung von Geschäftsdaten erstellen und verwalten - Felder entwerfen, Dankeseiten festlegen, veröffentlichen und die Nutzung in Journey Optimizer B2B Edition verfolgen.
 feature: Forms, Content
 role: User
 exl-id: bf35081c-b272-44ce-947d-5a344fdb1889
@@ -8,23 +8,29 @@ autotag-review: '2026-05-27T16:11:44.937Z'
 TQID: 'https://experienceleague.adobe.com/enF7MQi47bo8bWotzkhkPL6MQfGnis0rb6wJNyJcxVo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: afa842a8-6e39-516c-be79-63c0be8e2dc6
+    internal-label: Forms
 subfeature_v2:
   - id: d57c4909-c813-470d-ac87-cdd2d6b5f9dc
+    internal-label: Web forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a046883f6f4170f40c01734e1a3f473e9f5bef4c
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2504
+source-wordcount: '2504'
 ht-degree: 2%
-
 ---
-
 # Formulare
 
 Um Informationen von Web-Seitenbesuchern zu erfassen, erstellen Sie Formulare und fügen Sie sie Ihren Landingpages hinzu. Ein Formular ist ein Satz von Feldern, die Seitenbesucher ausfüllen und senden, um Inhalte oder Angebote abzurufen, z. B. ein Whitepaper, ein On-Demand-Webinar oder eine kostenlose Testversion.
@@ -35,7 +41,7 @@ Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des 
 >
 >Bevor Marketing-Teams Formulare erstellen und verwenden können, um Informationen zu erfassen, muss ein Administrator eine oder mehrere Formularvorgaben definieren. Weitere Informationen finden Sie unter [_Forms-Konfigurationen_](../admin/configure-channels-forms.md).
 >
->Für die Erstellung von Formularen in Journey Optimizer B2B edition sind die folgenden [Berechtigungen](../admin/user-management.md#b2b-product-permissions) erforderlich:
+>Für die Erstellung von Formularen in Journey Optimizer B2B Edition sind die folgenden [Berechtigungen](../admin/user-management.md#b2b-product-permissions) erforderlich:
 >
 >* _[!UICONTROL Journey Optimizer-]_ > _[!UICONTROL B2C-Forms lesen]_ - Erforderlich für den Zugriff auf und die Anzeige von Formularen.
 >* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Verwalten von B2C-Forms]_ - Zum Erstellen, Aktualisieren und Löschen von Formularen erforderlich.
@@ -43,7 +49,7 @@ Die Menge an Informationen, die das Formular erfassen soll, hängt vom Wert des 
 
 ## Aufrufen und Verwalten von Formularen {#view-forms}
 
-Um auf Formulare in Journey Optimizer B2B edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite, auf der alle in der Instanz erstellten Formulare angezeigt werden.
+Um auf Formulare in Journey Optimizer B2B Edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Forms]**. Diese Aktion öffnet eine Listenseite, auf der alle in der Instanz erstellten Formulare angezeigt werden.
 
 ![Zugriff auf die Forms-Bibliothek](./assets/forms-list.png){width="800" zoomable="yes"}
 
@@ -69,7 +75,7 @@ Um nach einem Formular anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 ### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -77,7 +83,7 @@ Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!
 
 ## Erstellen von Formularen {#create-forms}
 
-Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in Journey Optimizer B2B edition beginnen, sollten Sie mehrere Dinge berücksichtigen:
+Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in Journey Optimizer B2B Edition beginnen, sollten Sie mehrere Dinge berücksichtigen:
 
 * Bestimmen Sie, welche Formulare Sie benötigen.
 
@@ -105,7 +111,7 @@ Bevor Sie mit dem Erstellen wiederverwendbarer Formulare in Journey Optimizer B2
 >abstract="Wählen Sie eine vordefinierte Voreinstellung aus, die die zu verwendende Verbindung und einen vordefinierten Datensatz für Ihr Formular enthält."
 >additional-url="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/channels/configure-channels-forms" text="Erstellen einer Formularvoreinstellung"
 
-Sie können ein Formular in Journey Optimizer B2B edition erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
+Sie können ein Formular in Journey Optimizer B2B Edition erstellen, indem Sie **[!UICONTROL Formular erstellen]** oben rechts auf der Listenseite _[!UICONTROL Forms]_ klicken.
 
 1. Geben _[!UICONTROL im Dialogfeld „Formular erstellen]_ einen nützlichen **[!UICONTROL Name]** (erforderlich) und **[!UICONTROL Beschreibung]** (optional) ein.
 
@@ -149,7 +155,7 @@ Scrollen Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite 
 
 * **[!UICONTROL Auf Seite bleiben]** - Wählen Sie diese Option, um den Besucher beim Senden des Formulars auf der gleichen Seite zu belassen.
 
-* **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige Journey Optimizer B2B edition-Landingpage als Folgeseite auszuwählen.
+* **[!UICONTROL Landingpage]** - Wählen Sie diese Option, um eine beliebige Journey Optimizer B2B Edition-Landingpage als Folgeseite auszuwählen.
 
 * **[!UICONTROL Externe URL]** - Wählen Sie diese Option aus, um eine beliebige URL als Folgeseite anzugeben. Nachdem der Besucher das Formular gesendet hat, lädt der Browser die vorgesehene URL.
 
@@ -181,7 +187,7 @@ Sie können die Ansicht jederzeit verlassen, indem Sie oben links auf _Zurück_-
 
 ## Anzeigen von durch Verweise verwendeten Formularen
 
-Klicken Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite auf die Registerkarte **[!UICONTROL Verwendet von]**, um Details zur aktuellen Verwendung des Formulars in Journey Optimizer B2B edition sowie zu Landingpages und Landingpage-Vorlagen anzuzeigen.
+Klicken Sie im Bedienfeld _[!UICONTROL Zusammenfassung]_ auf der rechten Seite auf die Registerkarte **[!UICONTROL Verwendet von]**, um Details zur aktuellen Verwendung des Formulars in Journey Optimizer B2B Edition sowie zu Landingpages und Landingpage-Vorlagen anzuzeigen.
 
 >[!IMPORTANT]
 >
@@ -198,7 +204,7 @@ Formulare, die derzeit von einer Landingpage oder Landingpage-Vorlage verwendet 
 Sie können ein Formular mit einer der folgenden Methoden löschen:
 
 * Klicken Sie oben rechts auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
-* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
@@ -215,7 +221,7 @@ Duplizieren Sie ein Formular, um schnell und einfach ein neues Formular mit eine
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
 * Klicken Sie oben rechts auf der Seite mit den Formulardetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
-* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
 
 ![Duplizieren Sie das Formular](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -313,7 +319,7 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 ## Hinzufügen von Formularen zu einer Landingpage oder Vorlage {#insert-forms}
 
-Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) &#x200B;](./landing-page-templates.md).
+Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) ](./landing-page-templates.md).
 
 {{$include /help/_includes/content-design-add-forms.md}}
 

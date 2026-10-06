@@ -1,46 +1,56 @@
 ---
 title: Gestalten barrierefreier Inhalte
-description: Erfahren Sie, wie Sie in Journey Optimizer B2B edition barrierefreie Inhalte für Ihre E-Mails und Landingpages entwerfen
+description: Erfahren Sie, wie Sie in Journey Optimizer B2B Edition barrierefreie Inhalte für Ihre E-Mails und Landingpages entwerfen
 feature: Email Authoring, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: E-Mail, Design, Barrierefreiheit
 exl-id: 744e94f4-195f-4277-877d-09275f40ce23
+autotag-review: '2026-03-30T22:11:25.228Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 subfeature_v2:
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-autotag-review: '2026-03-30T22:11:25.228Z'
-source-git-commit: ee080e04cdc38327ef2367c0f55eee2ae606de51
+    internal-label: Accessibility
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1748
+source-wordcount: '1751'
 ht-degree: 48%
-
 ---
-
 # Gestalten barrierefreier Inhalte {#accessible-content}
 
 Die [EU-Richtlinie zur Barrierefreiheit](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32019L0882){target="_blank"} soll die Beseitigung von Hindernissen, die durch unterschiedliche nationale Vorschriften in den Mitgliedstaaten verursacht werden, den Binnenmarkt für barrierefreie Produkte und Dienstleistungen verbessern.
 
-Diese Richtlinie legt fest, dass alle digitalen Mitteilungen, einschließlich E-Mails, Newslettern, PDFs und herunterladbaren Inhalten, barrierefrei sein sollen. Beim Erstellen von Inhalten für Ihre Empfängerinnen und Empfänger müssen Sie daher bestimmte Leitlinien befolgen (z. B. barrierefreie Schriften und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen).
+Diese Richtlinie legt fest, dass alle digitalen Mitteilungen, einschließlich E-Mails, Newslettern, PDFs und herunterladbaren Inhalten, barrierefrei sein sollen. Beim Erstellen von Content für Ihre Empfängerinnen und Empfänger müssen Sie daher bestimmte Leitlinien befolgen (z. B. barrierefreie Schriften und lesbare Formate verwenden und alternativen Text für Bilder bereitstellen).
 
 Mit den [!DNL Journey Optimizer B2B Edition] Design-Tools können Marketing-Experten Inhalte sowohl für **_E-_** als auch für **_Landingpages_** erstellen. Verwenden Sie diese Tools, um diese Richtlinie einzuhalten, die auf den Web Content Accessibility Guidelines (WCAG) 2.1, Level AA, basiert.
 
 In den folgenden Abschnitten werden die Best Practices zum Entwerfen barrierefreier Inhalte mit [!DNL Journey Optimizer B2B Edition] beschrieben. Diese Informationen konzentrieren sich auf die Gestaltung von Inhalten, die für alle Ihre Empfängerinnen und Empfänger zugänglich sind, sodass Menschen mit Behinderungen Ihre E-Mail-Nachrichten und Landingpages lesen, verstehen und mit ihnen interagieren können.
  
-
 ## Sicherstellen der Lesbarkeit von Text {#text-readability}
 
 Verwenden Sie die Registerkarte **[!UICONTROL Stile]** der Komponente **[!UICONTROL Text]**, um sicherzustellen, dass Ihr Text lesbar ist, z. B. mit einem ordnungsgemäßen Farbkontrast und einfachen Schriftarten. Weitere Informationen zum Formatieren von Textkomponenten finden Sie unter [_Inhaltskomponenten_](content-components.md#text)
@@ -62,8 +72,8 @@ Befolgen Sie bei Schriftarten und Text die folgenden Richtlinien:
 
 ### Farbkontrast
 
-* Wahren Sie zwischen Text und Hintergrund ein Kontrastverhältnis von mindestens 4,5 :1.
-* Achten Sie bei großem Text (≥24 Pixel oder 18 Pixel fett) auf einen Kontrast von mindestens 3 :1.
+* Wahren Sie zwischen Text und Hintergrund ein Kontrastverhältnis von mindestens 4,5:1.
+* Achten Sie bei großem Text (≥24 Pixel oder 18 Pixel fett) auf einen Kontrast von mindestens 3:1.
 * Vermeiden Sie hellgrauen oder pastellfarbenen Text auf weißem Hintergrund.
 * Verlassen Sie sich nicht allein auf Farbe, um Bedeutung zu vermitteln, sondern verwenden Sie auch Unterstreichungen, Symbole usw.
 
@@ -104,7 +114,7 @@ Verwenden Sie die Komponente **[!UICONTROL Bild]**, um alternativen Text für Bi
 
 Befolgen Sie die folgenden Richtlinien für effektiven Alternativtext in digitalen Produkten:
 
-* Beschreiben Sie den Zweck des Bildes kurz und kontextbezogen.
+* Beschreiben Sie den Zweck des Bildes kurz und kontextuell.
 * Vermeiden Sie redundante Ausdrücke wie „Bild von …“ und leeren Alternativtext für dekorative Bilder verwenden.
 * Geben Sie für Symbole mit Bedeutung aussagekräftige Labels an. Nutzen Sie für komplexe Bilder einen kurzen Alternativtext und an anderer Stelle eine längere Beschreibung.
 
@@ -114,7 +124,7 @@ Verwenden Sie im visuellen Design die relevanten Komponenten [Struktur](structur
 
 ![E-Mail-Design-Bereich mit Struktur- und Inhaltskomponenten für organisierte Layouts](assets/accessible-components.png){width="700" zoomable="yes"}
 
-* Nutzen Sie strukturierte, semantische HTML mit passenden Überschriften, Absätzen, Listen und Tabellen.
+* Verwenden Sie strukturiertes, semantisches HTML mit passenden Überschriften, Absätzen, Listen und Tabellen.
 * Stellen Sie sicher, dass der Inhalt einem logischen Fluss von links nach rechts, von oben nach unten folgt.
 * Verwenden Sie klare, knappe Formulierungen.
 * Stellen Sie alternative Formate für PDF-Dateien und Infografiken bereit.
@@ -133,9 +143,9 @@ Um die Lesbarkeit Ihres Inhalts zu bewerten, verwenden Sie den beliebten [Flesch
 
 ## Testen Ihrer Inhalte {#test}
 
-Um die Barrierefreiheit der Inhalte zu überprüfen, können Sie die von [!DNL Journey Optimizer B2B Edition] bereitgestellten Testfunktionen verwenden. Sie wurden nicht speziell dafür konzipiert zu überprüfen, ob Ihre Inhalte vollständig barrierefrei sind, können aber einen ersten Prüfungsschritt darstellen.
+Um die Barrierefreiheit der Inhalte zu überprüfen, können Sie die von [!DNL Journey Optimizer B2B Edition] bereitgestellten Testfunktionen verwenden. Sie wurden nicht speziell dafür konzipiert, zu überprüfen, ob Ihre Inhalte vollständig barrierefrei sind, können aber einen ersten Prüfungsschritt darstellen.
 
-* Zeigen Sie Ihren Inhalt mithilfe von Testprofilen in der Vorschau an.
+* Zeigen Sie Ihren Content mithilfe von Testprofilen in der Vorschau an.
 
 * Verwenden Sie die Option [E-Mail rendern](email-test-rendering.md), die Litmus nutzt, um Ihre Designs in wichtigen E-Mail-Clients (Apple Mail, Gmail, Outlook) zu simulieren und zu sehen, ob Text, Farben und Bilder Ihren Inhalt barrierefrei machen.
 
@@ -165,7 +175,7 @@ HTML-Attribute unterstützen Hilfstechnologien bei der Interpretation von Strukt
 
 ### Sprachattribute {#language}
 
-Fügen Sie beim Gestalten von Designs die Attribute `lang` (Sprache) und `dir` (Textausrichtung) in den Content-Hauptteil ein. Diese Attribute unterstützen Hilfstechnologien wie Bildschirmlesehilfen bei der angemessenen Interpretation und Darstellung Ihrer Inhalte.
+Fügen Sie beim Gestalten von Designs die Attribute `lang` (Sprache) und `dir` (Textausrichtung) in den Content-Hauptteil ein. Diese Attribute unterstützen Hilfstechnologien wie Bildschirmlesehilfen bei der angemessenen Interpretation und Darstellung Ihres Contents.
 
 * Das Attribut `lang` gibt die Sprache der E-Mail für Hilfstechnologien an und stellt sicher, dass Wörter korrekt ausgesprochen werden.
 
@@ -304,27 +314,27 @@ Die Bildschirmlesehilfen lesen:
 Bei Landingpages ermöglicht die Unterstützung der Tastaturnavigation und des Fokus Personen, die keine Maus verwenden können, den Zugriff auf und die Interaktion mit Inhalten. Zudem wird die Anwenderfreundlichkeit verbessert, da alle Benutzenden eine klare und konsistente Möglichkeit haben, durch Informationen zu navigieren.
 
 * Tastaturnavigation und -fokus
-   * Stellen Sie sicher, dass alle interaktiven Elemente (z. B. Schaltflächen, Kontrollkästchen und Links) über `tabindex="0"` verfügen, damit sie in der natürlichen Registerkartenreihenfolge enthalten sind.
-   * Ermöglicht die Navigation mithilfe der Tabulator- und Pfeiltasten (↑ ↓ ← →), wodurch das fokussierte Element sichtbar hervorgehoben werden sollte.
+  * Stellen Sie sicher, dass alle interaktiven Elemente (z. B. Schaltflächen, Kontrollkästchen und Links) über `tabindex="0"` verfügen, damit sie in der natürlichen Registerkartenreihenfolge enthalten sind.
+  * Ermöglicht die Navigation mithilfe der Tabulator- und Pfeiltasten (↑ ↓ ← →), wodurch das fokussierte Element sichtbar hervorgehoben werden sollte.
 * Benutzerdefinierter Fokusstil
-   * Wenden Sie klare und unterscheidbare Stile an, um den Fokus auf umsetzbare Elemente zu lenken:
-     +++Beispiel (CSS)
+  * Wenden Sie klare und unterscheidbare Stile an, um den Fokus auf umsetzbare Elemente zu lenken:
+    +++Beispiel (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     background-color: #20CEFF;   /* Optional background */ 
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    background-color: #20CEFF;   /* Optional background */ 
+    }
+    ```
 
-     +++
+    +++
 
-   * Stellen Sie sicher, dass die Fokusindikatoren den WCAG 2.2-Standards für das Erscheinungsbild des Fokus entsprechen, einschließlich:
-      * Mindestfläche: 2 CSS-Pixel dicke Kontur.
-      * Kontrastverhältnis: ≥ 3 :1 zwischen fokussiertem und unfokussiertem Status.
+  * Stellen Sie sicher, dass die Fokusindikatoren den WCAG 2.2-Standards für das Erscheinungsbild des Fokus entsprechen, einschließlich:
+    * Mindestfläche: 2 CSS-Pixel dicke Kontur.
+    * Kontrastverhältnis: ≥ 3:1 zwischen fokussiertem und unfokussiertem Status.
 
 * Unterstützung für Tastaturaktivierung
-   * Sorgen Sie dafür, dass Kontrollkästchen und Schaltflächen auf die Eingabetaste und Leertaste reagieren.
-   * Validieren Sie die Interaktion nur mit der Tastatur:
-      * Bei Verwendung der Eingabetaste oder Leertaste sollten Kontrollkästchen aktiviert bzw. deaktiviert werden.
-      * Die Schaltflächen sollten mit der Eingabetaste oder Leertaste Trigger werden.
+  * Sorgen Sie dafür, dass Kontrollkästchen und Schaltflächen auf die Eingabetaste und Leertaste reagieren.
+  * Validieren Sie die Interaktion nur mit der Tastatur:
+    * Bei Verwendung der Eingabetaste oder Leertaste sollten Kontrollkästchen aktiviert bzw. deaktiviert werden.
+    * Die Schaltflächen sollten mit der Eingabetaste oder Leertaste Trigger werden.

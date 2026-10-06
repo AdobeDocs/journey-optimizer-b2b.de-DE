@@ -5,26 +5,37 @@ feature: Dashboards, Landing Pages
 level: Beginner
 role: User
 exl-id: 9d067d68-fd35-4b1e-9f23-7fbb6c33ad75
+autotag-review: 2026-03-30T22:41:52.137Z
+TQID: 'https://experienceleague.adobe.com/Uq-9dwXH-k9Y0jmVDXoSfI29i-8gw384J8dXTG07EZk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: a96755d6-1f54-4f3f-a971-d31f83705ab7
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-autotag-review: 2026-03-30T22:41:52.137Z
-TQID: https://experienceleague.adobe.com/Uq-9dwXH-k9Y0jmVDXoSfI29i-8gw384J8dXTG07EZk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Reporting
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 15%
-
 ---
-
 # Web-Interaktions-Dashboard
 
 Das Dashboard für Web-Interaktionen bietet Einblicke in die Interaktion von Web-Besucherinnen und -Besuchern mit wichtigen Inhalten. Es segmentiert Daten in verschiedene Kontobranchen und Regionen, damit Sie Interaktionstrends besser verstehen können. Verwenden Sie dieses Dashboard, um strategische Entscheidungen zu unterstützen, indem Sie Web-Verhaltensmuster aufdecken, die die Inhaltsstrategie und das Account-Targeting beeinflussen.
@@ -50,7 +61,7 @@ Wählen Sie für jedes Attribut, das Sie zum Filtern der Daten verwenden möchte
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_web_engagement_top_page_views"
 >title="Top-Seitenansichten"
->abstract="Die am häufigsten aufgerufenen Seiten auf Ihrer Website, die Ihnen dabei helfen, zu identifizieren, welche Inhalte den meisten Traffic generieren."
+>abstract="Die am häufigsten aufgerufenen Seiten auf Ihrer Website. Diese helfen Ihnen dabei, zu identifizieren, welcher Content den meisten Traffic generiert.&#x200B;"
 
 Diese Tabelle zeigt die 10 am häufigsten angezeigten Web-Seiten, anhand derer Sie ermitteln können, welche Inhalte bei Besuchern am meisten Anklang finden. Die Daten umfassen:
 

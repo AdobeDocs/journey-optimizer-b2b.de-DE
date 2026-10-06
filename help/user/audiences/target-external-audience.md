@@ -4,6 +4,8 @@ description: Aktivieren Sie externe Zielgruppen, um über die Account-Journey zu
 feature: Integrations, Audiences, Account Journeys
 role: User, Admin
 exl-id: 8feb1dc2-2f1f-46bc-bffa-fafea956d84f
+autotag-review: 2026-03-30T19:48:50.374Z
+TQID: 'https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
     internal-label: Journey Optimizer B2B Edition
@@ -14,6 +16,9 @@ feature_v2:
     internal-label: Audiences
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
     internal-label: Integrations
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,9 +34,7 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-autotag-review: 2026-03-30T19:48:50.374Z
-TQID: https://experienceleague.adobe.com/IJVV0NyMn-2Ij2Yvg2mAUL5SLdG6mXcf-k-tD3Nl850
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 3%
@@ -63,7 +66,7 @@ Fügen Sie in Ihrem Journey [Knoten _Aktion ausführen_ hinzu](../journeys/actio
 
    * Wenn bereits mindestens eine externe Zielgruppe erstellt wurde, können Sie **[!UICONTROL Vorhandene auswählen]** und [die Zielgruppe auswählen, die Sie verwenden möchten](#select-an-external-audience).
 
-   * Wenn Sie eine Zielgruppe [&#x200B; möchten, &#x200B;](#create-an-external-audience) Sie für den Knoten verwenden möchten, wählen Sie **[!UICONTROL Neu erstellen]**.
+   * Wenn Sie eine Zielgruppe [ möchten, ](#create-an-external-audience) Sie für den Knoten verwenden möchten, wählen Sie **[!UICONTROL Neu erstellen]**.
 
 ### Erstellen einer externen Zielgruppe
 
@@ -132,4 +135,4 @@ Der Aktivierungsprozess erfordert, dass Sie [!DNL Adobe Target] als externe Ziel
 
    ![Experience Platform - Ziele - Ziel aktivieren - Überprüfen](./assets/aep-destinations-activate-target-audience-review.png){width="700" zoomable="yes"}
 
-Nach der Aktivierung können Sie die Zielgruppe in [Adobe Target-Zielgruppen](https://experienceleague.adobe.com/de/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} sehen und in Adobe Target-Aktivitäten verwenden.
+Nach der Aktivierung können Sie die Zielgruppe in [Adobe Target-Zielgruppen](https://experienceleague.adobe.com/en/docs/target/using/audiences/create-audiences/audiences#use-list){target="_blank"} sehen und in Adobe Target-Aktivitäten verwenden.

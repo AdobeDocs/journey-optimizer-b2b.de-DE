@@ -1,33 +1,41 @@
 ---
 title: Einrichtung des WhatsApp-Kanals
-description: Verbinden Sie Ihr WhatsApp Business-Konto über die Cloud-API von Meta, um WhatsApp-Nachrichten in den Journey des Journey Optimizer B2B edition-Kontos zu aktivieren.
+description: Verbinden Sie Ihr WhatsApp Business-Konto über die Cloud-API von Meta, um WhatsApp-Nachrichten in den Journey des Journey Optimizer B2B Edition-Kontos zu aktivieren.
 feature: Setup, Channels
 role: Admin
 exl-id: b554129e-b607-486a-be7b-aa3452a2fdad
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a7692144-1dc6-426f-b00f-fe187797f61d
+    internal-label: Deliverability
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: eec5558d6065501576a91097182201726020213c
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1515
+source-wordcount: '1515'
 ht-degree: 15%
-
 ---
-
 # Einrichtung des WhatsApp-Kanals
 
-Adobe Journey Optimizer B2B edition sendet WhatsApp-Nachrichten über die Cloud-API von Meta. Bevor Marketer WhatsApp-Nachrichten für Account-Journeys erstellen können, muss ein Produktadministrator einen WhatsApp-Kanal konfigurieren.
+Adobe Journey Optimizer B2B Edition sendet WhatsApp-Nachrichten über die Cloud-API von Meta. Bevor Marketer WhatsApp-Nachrichten für Account-Journeys erstellen können, muss ein Produktadministrator einen WhatsApp-Kanal konfigurieren.
 
-![WhatsApp-Aufgabenfluss für Journey Optimizer B2B edition](./assets/whatsapp-flow-diagram.png)
+![WhatsApp-Aufgabenfluss für Journey Optimizer B2B Edition](./assets/whatsapp-flow-diagram.png)
 
 ## Voraussetzungen
 
@@ -40,13 +48,13 @@ Bevor Sie den WhatsApp-Kanal konfigurieren, stellen Sie sicher, dass Sie Folgend
 
 >[!IMPORTANT]
 >
->Ihre Nutzung der WhatsApp Messaging Services unterliegt den Nutzungsbedingungen von Meta. Durch den Zugriff auf WhatsApp-Nachrichten über Journey Optimizer B2B edition bestätigen Sie, dass Sie die [Meta WhatsApp-Geschäftsrichtlinien überprüft haben und damit einverstanden sind](https://whatsappbusiness.com/policy/).
+>Ihre Nutzung der WhatsApp Messaging Services unterliegt den Nutzungsbedingungen von Meta. Durch den Zugriff auf WhatsApp-Nachrichten über Journey Optimizer B2B Edition bestätigen Sie, dass Sie die [Meta WhatsApp-Geschäftsrichtlinien überprüft haben und damit einverstanden sind](https://whatsappbusiness.com/policy/).
 
 ## Einschränkungen {#limitations}
 
 Für den WhatsApp-Kanal gelten die folgenden Einschränkungen:
 
-* Adobe Journey Optimizer B2B edition ist **nicht HIPAA-kompatibel und nicht HIPAA-fähig**. Darüber hinaus werden Drittanbieter nicht von der Adobe-BAA abgedeckt. Kundinnen und Kunden sind für ihre Compliance und Anbietervalidierung selbst verantwortlich.
+* Adobe Journey Optimizer B2B Edition ist **nicht HIPAA-kompatibel und nicht HIPAA-fähig**. Darüber hinaus werden Drittanbieter nicht von der Adobe-BAA abgedeckt. Kundinnen und Kunden sind für ihre Compliance und Anbietervalidierung selbst verantwortlich.
 
 * Automatisierte oder vordefinierte Antwortnachrichten werden noch nicht unterstützt.
 
@@ -56,7 +64,7 @@ Für den WhatsApp-Kanal gelten die folgenden Einschränkungen:
 
 ## Abschließen der Kanalkonfiguration
 
-Bevor Sie Ihre WhatsApp-Nachricht senden, müssen Sie Ihre Journey Optimizer B2B edition-Umgebung konfigurieren und mit Ihrem WhatsApp-Konto verbinden.
+Bevor Sie Ihre WhatsApp-Nachricht senden, müssen Sie Ihre Journey Optimizer B2B Edition-Umgebung konfigurieren und mit Ihrem WhatsApp-Konto verbinden.
 
 Führen Sie die folgenden Aufgaben aus:
 
@@ -84,7 +92,7 @@ Führen Sie die folgenden Aufgaben aus:
    * **[!UICONTROL API-Token]** - Geben Sie Ihr API-Token ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * **[!UICONTROL Geschäftskonto-ID]** - Geben Sie die eindeutige Nummer Ihres Geschäftsportfolios ein. Weitere Informationen finden Sie in der [Dokumentation zu Meta](https://www.facebook.com/business/help/1181250022022158?id=180505742745347).
 
-   ![WhatsApp-Einstellungen API-Anmeldedaten &#x200B;](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
+   ![WhatsApp-Einstellungen API-Anmeldedaten ](./assets/config-whatsapp-channels-api-credentials.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**.
 
@@ -124,7 +132,7 @@ Wenn beim Konfigurieren der WhatsApp-API-Anmeldedaten ein HTTP-500-Fehler auftri
    * API-Token - Muss ein gültiges [Meta-Zugriffstoken mit entsprechenden Berechtigungen sein](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/).
    * Business Account ID - Muss genau mit Ihrer [Meta Business Account ID](https://www.facebook.com/business/help/1181250022022158?id=180505742745347) übereinstimmen.
 
-1. Testen der Anmeldeinformationen extern : Um zu bestätigen, ob das Problem die Verarbeitung der Anmeldeinformationen oder der Journey Optimizer B2B edition-Anmeldeinformationen betrifft, überprüfen Sie Ihre Anmeldeinformationen mit der Meta-API.
+1. Testen der Anmeldeinformationen extern : Um zu bestätigen, ob das Problem die Verarbeitung der Anmeldeinformationen oder Journey Optimizer B2B Edition-Anmeldeinformationen betrifft, überprüfen Sie Ihre Anmeldeinformationen mit der Meta-API.
 
 <!--
  1. Enable advanced logging - To identify internal server or authentication misconfigurations, enable advanced logs in your Journey Optimizer B2B Edition environment to provide detailed information about the API call failures.
@@ -167,7 +175,7 @@ do we have advanced logs? How are they enabled?
 
 >[!ENDSHADEBOX]
 
-Webhooks ermöglichen es Journey Optimizer B2B edition, eingehende Nachrichten, Einverständnisantworten und Versandbenachrichtigungen von Ihrem WhatsApp Business-Konto zu empfangen. Konfigurieren Sie Webhooks, um eine ordnungsgemäße Einverständnisverwaltung und Nachrichtenverfolgung sicherzustellen.
+Webhooks ermöglichen es Journey Optimizer B2B Edition, eingehende Nachrichten, Einverständnisantworten und Versandbenachrichtigungen von Ihrem WhatsApp Business-Konto zu empfangen. Konfigurieren Sie Webhooks, um eine ordnungsgemäße Einverständnisverwaltung und Nachrichtenverfolgung sicherzustellen.
 
 >[!NOTE]
 >
@@ -212,7 +220,7 @@ Wenn die WhatsApp-API-Anmeldeinformationen erfolgreich erstellt wurden, können 
 
 Nachdem der Webhook gesendet wurde, können Sie die Token- und URL-Werte abrufen und in Meta registrieren.
 
-1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![&#x200B; ( &#x200B;](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
+1. Klicken Sie in der **[!UICONTROL WhatsApp]** Webhooks“ auf das Symbol „Bearbeiten![ ( ](../assets/do-not-localize/icon-edit.svg)Bearbeiten)“ für den von Ihnen erstellten Webhook.
 
 1. Kopieren Sie die Werte **[!UICONTROL Verifizierungstoken]** und **[!UICONTROL Webhook-URL]**.
 
@@ -262,7 +270,7 @@ Eine Kanalkonfiguration definiert die Versandeinstellungen, die beim Senden von 
 
    ![Konfigurationsdetails des WhatsApp-Kanals](./assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. (Derzeit nicht für Journey Optimizer B2B edition anwendbar) Wählen Sie für das **[!UICONTROL WhatsApp-Ausführungsfeld]** das Profilattribut aus, das als vorrangige Telefonnummer verwendet werden soll, wenn für eine Empfängerin oder einen Empfänger mehrere Telefonnummern verfügbar sind.
+1. (Derzeit nicht für Journey Optimizer B2B Edition anwendbar) Wählen Sie für das **[!UICONTROL WhatsApp-Ausführungsfeld]** das Profilattribut aus, das als Prioritätstelefonnummer verwendet werden soll, wenn mehrere Telefonnummern für eine Empfängerin oder einen Empfänger verfügbar sind.
 
 1. Klicken Sie **[!UICONTROL Senden]**, um die Konfiguration zu speichern, oder **[!UICONTROL Als Entwurf speichern]**, um sie abzuschließen und zu einem späteren Zeitpunkt zu übermitteln.
 

@@ -1,14 +1,15 @@
 ---
 title: Persona-Zuordnung
 description: Erfahren Sie, wie Sie in Journey Optimizer B2B Prime eine Personazuordnung einrichten. Ordnen Sie Personenattribute zu, um Personas zu definieren, und verwenden Sie die Filterung abgeleiteter Personas in Personenlisten und Journey von Personen.
-badge: label="GA" type="informative" tooltip="Diese Funktion ist erst verfügbar, wenn GA"
-source-git-commit: d88ebb07186f488541138da23a276429b1f1994b
+badge: label="Allg. verfügbar" type="informative" tooltip="Diese Funktion ist erst verfügbar, wenn GA"
+product_v2:
+  - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 1%
-
+ht-degree: 2%
 ---
-
 # Persona-Mapping
 
 <!-- not available until GA -->

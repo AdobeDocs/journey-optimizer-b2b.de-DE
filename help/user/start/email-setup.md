@@ -4,31 +4,42 @@ description: Konfigurieren Sie Marketo Engage-Optionen für den Journey Optimize
 feature: Setup, Channels
 role: Admin
 exl-id: 5b28d8f2-a3a4-420a-ab03-d1115cf3ab61
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
   - id: ff0c35fa-aa7e-4050-a37c-198fcacd09e6
+    internal-label: Email channel
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+    internal-label: Cross channel delivery
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: '1321'
 ht-degree: 70%
-
 ---
-
 # E-Mail-Setup
 
 Legen Sie die folgenden E-Mail-Optionen fest, um die E-Mail-Bereitstellungsinfrastruktur zu unterstützen, die von der angehängten Marketo Engage-Instanz bereitgestellt wird. Ein Marketo Engage-Produktadministrator kann diese Einstellungen konfigurieren, indem er zum Bereich **[!UICONTROL Admin]** in der Marketo Engage-Instanz navigiert und **[!UICONTROL E-Mail]** auswählt.
@@ -39,11 +50,11 @@ Um E-Mail-Standardwerte für die angehängte Marketo Engage-Instanz einzurichten
 
 ### Von E-Mail und Titel
 
-Ändern Sie die Werte für die Beschriftung Absender-E-Mail und , sodass neue E-Mails automatisch mit diesen Standardwerten aufgefüllt werden.
+Ändern Sie die Werte für die Felder „Von-E-Mail“ und „Label“, damit neue E-Mails automatisch mit diesen Standardwerten ausgefüllt werden.
 
 >[!NOTE]
 >
->Die Änderung gilt nur für die von Ihnen erstellten E-Mails und nicht für andere Benutzende von Marketo Engage oder Journey Optimizer B2B edition.
+>Die Änderung gilt nur für die von Ihnen erstellten E-Mails und nicht für andere Benutzende von Marketo Engage oder Journey Optimizer B2B Edition.
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Admin]** in der angehängten Marketo Engage-Instanz und wählen Sie **[!UICONTROL E-Mail]** aus.
 
@@ -63,7 +74,7 @@ Bei nicht-operativen Marketing-E-Mails werden Text und Links zur Abmeldung unten
 
    >[!TIP]
    >
-   >Marketing-Experten können die Abmeldeposition von HTML in ihrer E-Mail mithilfe von System-Token ändern.
+   >Marketing-Fachleute können die Position des Abmelde-HTML in ihrer E-Mail mithilfe von System-Token ändern.
 
    ![E-Mail-Einstellungen - Standardwerte für HTML abmelden und Text abmelden](./assets/me-admin-email-settings-unsubscribe.png){width="500"}
 
@@ -78,7 +89,7 @@ Bei nicht-operativen Marketing-E-Mails werden Text und Links zur Abmeldung unten
 
 Wenn Sie zum standardmäßigen Systeminhalt zurückkehren müssen, kopieren Sie Folgendes und fügen Sie es ein:
 
-+++ Standardtext zur Abmeldung
++++ Standard-Abmeldungstext des Systems
 
 ```
 <p><font face="Verdana" size="1">If you no longer wish to receive these emails, click on the following link: <a href="%mkt_opt_out_prefix%UnsubscribePage.html?mkt_unsubscribe=1&mkt_tok=##MKT_TOK##">Unsubscribe</a><br/></font></p>` [!UICONTROL Unsubscribe Text]:
@@ -114,7 +125,7 @@ E-Mail-Inhalte haben eingeschränkte Anzeigefunktionen (eingeschränktes CSS und
 
 Wenn Sie jemals zum Standardsysteminhalt zurückkehren müssen, kopieren Sie Folgendes:
 
-+++ Systemstandardwebseite HTML
++++ Standard-Web-Seiten-HTML des Systems
 
 ```
 <div style="text-align: center"><font face="Verdana" size="1">To view this email as a web page, <a href="%mkt_webview_url%?mkt_tok=##MKT_TOK##">click here</a></font></div>
@@ -137,7 +148,7 @@ Wenn Sie [!DNL Velocity Script] verwenden, um benutzerdefinierte Objektdaten in 
 
 [[!DNL Apache Velocity]](https://velocity.apache.org/) ist eine Sprache, die auf [!DNL Java] basiert und für die Vorlage und Skripterstellung von HTML-Inhalten entwickelt wurde. Die Marketo Engage-E-Mail-Infrastruktur unterstützt ihre Verwendung im Kontext von E-Mails durch Skript-Token, die Zugriff auf in benutzerdefinierten Objekten gespeicherte Daten bieten.
 
-Sie können auf übergeordnete und untergeordnete benutzerdefinierte Objekte verweisen, die direkt mit dem Lead oder Kontakt verbunden sind, jedoch keine benutzerdefinierten Objekte der dritten Ebene. Für jedes benutzerdefinierte Objekt sind die 10 zuletzt aktualisierten Datensätze pro Person/Kontakt zur Laufzeit verfügbar und werden von der zuletzt aktualisierten Version (um `0`) zur ältesten aktualisierten Version (um `9`) sortiert.
+Sie können auf übergeordnete und untergeordnete benutzerdefinierte Objekte verweisen, die direkt mit dem Lead oder Kontakt verbunden sind, jedoch nicht auf benutzerdefinierte Objekte der dritten Ebene. Für jedes benutzerdefinierte Objekt sind die 10 zuletzt aktualisierten Datensätze pro Person/Kontakt zur Laufzeit verfügbar und werden von der zuletzt aktualisierten Version (um `0`) zur ältesten aktualisierten Version (um `9`) sortiert.
 
 _So ändern Sie das Limit :_
 
@@ -148,7 +159,7 @@ Feld.
 
    ![Marketo Engage-E-Mail-Administrator - Standardwerte für benutzerdefinierte Objektabrufe sind begrenzt](./assets/me-admin-email-custom-object-retrieval-limits.png){width="500"}
 
-   Es werden Werte von 10 bis 100 unterstützt. Das System legt automatisch das Limit _[!UICONTROL Untergeordneter Abruf]_ fest, indem 1000 durch das übergeordnete Limit dividiert werden. Wenn Sie beispielsweise das übergeordnete Limit auf 50 festlegen, wird das untergeordnete Limit als 20 berechnet (1000 ÷ 50 = 20).
+   Es werden Werte von 10 bis 100 unterstützt. Das System legt automatisch das Limit _[!UICONTROL Untergeordneter Abruf]_ fest, indem 1000 durch das übergeordnete Limit dividiert werden. Wenn Sie beispielsweise das übergeordnete Limit auf 50 festlegen, wird das Limit für untergeordnete Elemente als 20 berechnet (1000 ÷ 50 = 20).
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 
@@ -174,13 +185,13 @@ Feld.
 
 ## Bot-Aktivität für E-Mails filtern {#filter-email-bots}
 
-Die Aktivität „E-Mail-Bot“, auch als Nicht-menschliche Interaktionen (NHI) bezeichnet, kann Ihre E-Mail-Daten _Öffnungen_ und _Klicks_ aufblähen, Ihre Interaktionsmetriken verzerren und einen ereignisbasierten Journey-Fortschritt auslösen. Verwenden Sie die E-Mail-Bot-Filterung , um die Integrität von Metriken und Einblicken zu Klick-Interaktionen aufrechtzuerhalten. Es gibt zwei Methoden, um verdächtige Bot-Aktivitäten zu identifizieren:
+Die Aktivität „E-Mail-Bot“, auch als Nicht-menschliche Interaktionen (NHI) bezeichnet, kann Ihre E-Mail-Daten _Öffnungen_ und _Klicks_ aufblähen, Ihre Interaktionsmetriken verzerren und einen ereignisbasierten Journey-Fortschritt auslösen. Verwenden Sie die E-Mail-Bot-Filterung, um die Integrität der Klick-Interaktionsmetriken und Erkenntnisse aufrechtzuerhalten. Es gibt zwei Methoden, um verdächtige Bot-Aktivitäten zu identifizieren:
 
-* _&#x200B;**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**&#x200B;_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
-* _&#x200B;**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**&#x200B;_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
-   * Lead-ID (muss gleich sein)
-   * E-Mail-Asset (muss dasselbe sein)
-   * Link-Klick oder E-Mail öffnen
+* _**[!UICONTROL Übereinstimmung mit IAB-Bot-Liste]**_ - Aktivitäten, die mit einem Element auf der [Interactive Advertising Bureau Bot List](https://www.iab.com/guidelines/iab-abc-international-spiders-bots-list/){target="_blank"} (User Agent/IP Address) übereinstimmen, werden als Bots markiert.
+* _**[!UICONTROL Übereinstimmung mit Übereinstimmungsmuster]**_ - Zwei oder mehr Aktivitäten, die gleichzeitig (in weniger als einer Sekunde) stattfinden, werden als Bots identifiziert. Beim Vergleich werden folgende Attribute berücksichtigt:
+  * Lead-ID (muss gleich sein)
+  * E-Mail-Asset (muss dasselbe sein)
+  * Link-Klick oder E-Mail-Öffnung
 
 Für die Aktivität E-Mail-Link-Klick und E-Mail-Öffnen werden Attribute mit den folgenden Werten ausgefüllt:
 
@@ -213,7 +224,7 @@ Für die Aktivität E-Mail-Link-Klick und E-Mail-Öffnen werden Attribute mit de
    >
    >Wenn _Dauer zwischen Aktivitäten_ auf `0` Sekunden eingestellt ist, identifiziert Marketo Engage E-Mail-Aktivitäten, die genau in dieser Sekunde stattfinden. Wenn innerhalb der angegebenen Anzahl von Sekunden mehrere E-Mail-Aktivitäten auftreten, wird dies als Bot-Aktivität identifiziert.
 
-   Um eine der Filtermethoden zu deaktivieren, schalten Sie den Schieberegler nach links. Andernfalls werden die Daten nicht zurückgesetzt.
+   Um eine der Filtermethoden zu deaktivieren, schalten Sie den Schieberegler nach links. Wenn Sie dies tun, werden die Daten nicht zurückgesetzt.
 
 ### IP-Blockierungsliste
 

@@ -1,27 +1,32 @@
 ---
 title: Konvertieren eines Bildes in eine E-Mail-Vorlage
-description: Wandeln Sie mit Journey Optimizer B2B edition Bilddateien in HTML-E-Mail-Vorlagen um. Laden Sie PNG/JPEG-Dateien hoch und generieren Sie automatisch wiederverwendbare E-Mail-Inhalte.
+description: Wandeln Sie mit Journey Optimizer B2B Edition Bilddateien in HTML-E-Mail-Vorlagen um. Laden Sie PNG/JPEG-Dateien hoch und generieren Sie automatisch wiederverwendbare E-Mail-Inhalte.
 feature: Email Authoring, Content
 exl-id: ffea0088-9fb3-4e54-8612-e37d9a34b003
+autotag-review: 2026-03-30T22:06:11.745Z
+TQID: 'https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:06:11.745Z
-TQID: https://experienceleague.adobe.com/3P6awHSiX5K4Gh3saXUsaCbwrTYUx9vQ5noh-pA4Kps
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # Konvertieren eines Bildes in eine E-Mail-Vorlage
 
 Das Erstellen und Aktualisieren von E-Mail-Vorlagen ist eine grundlegende Komponente in Ihrem Marketing-Content-supply chain. Aufgrund der manuellen HTML-Codierung sind für diese Aufgaben jedoch häufig viel Zeit und Ressourcen erforderlich. Marketing-Teams haben sich bei der Entwicklung dieser Vorlagen traditionell auf Agenturen oder IT-Teams verlassen. Das neue Tool „Bild-zu-HTML&quot; für E-Mail-Vorlagen vereinfacht diesen Prozess, indem es Marketern ermöglicht, Design-Dateien in HTML-Code-Vorlagen zu konvertieren. Der konvertierte HTML ist für die weitere Bearbeitung im E-Mail-Design-Bereich bereit. Dieses Tool unterstützt sowohl JPEG- als auch PNG-Dateitypen und verfügt über eine Drag-and-Drop-Oberfläche.
@@ -32,7 +37,7 @@ Sie können problemlos als Bilder gespeicherte Design-Dateien (PNG oder JPEG) in
 
 **Verwenden eines Markendesigns**
 
-Wenn Ihr Unternehmen über [Markendesigns](./brand-themes.md) verfügt, die in Journey Optimizer B2B edition definiert sind, können Sie ein Markendesign als Eingabe wählen, sodass die generierte Ausgabe von HTML entsprechend den Markendesignparametern formatiert wird. Mit dieser Eingabe werden Stile wie Hintergrundfarbe, Schaltflächenfarbe, Schriftarten, Zeilenabstand, Ränder und Abstand auf die generierte Vorlage angewendet.  Durch die Verwendung eines Markendesigns entfallen zusätzliche Entwurfsarbeiten für die Formatierung und Formatierung, und es wird eine Vorlage erstellt, die mit minimaler Bearbeitung verwendet werden kann.
+Wenn Ihr Unternehmen über [Markenthemen](./brand-themes.md) verfügt, die in Journey Optimizer B2B Edition definiert sind, können Sie ein Markendesign als Eingabe wählen, sodass die generierte Ausgabe von HTML entsprechend den Markendesignparametern formatiert wird. Mit dieser Eingabe werden Stile wie Hintergrundfarbe, Schaltflächenfarbe, Schriftarten, Zeilenabstand, Ränder und Abstand auf die generierte Vorlage angewendet.  Durch die Verwendung eines Markendesigns entfallen zusätzliche Entwurfsarbeiten für die Formatierung und Formatierung, und es wird eine Vorlage erstellt, die mit minimaler Bearbeitung verwendet werden kann.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +60,7 @@ Wenn Ihr Unternehmen über [Markendesigns](./brand-themes.md) verfügt, die in J
 
 1. Stellen Sie sicher, dass die Bilddatei keine persönlich identifizierbaren Informationen oder persönlichen Daten enthält, und aktivieren Sie das Kontrollkästchen am unteren Rand des Dialogfelds zur Bestätigung.
 
-   Um die Richtlinien zu überprüfen, klicken Sie auf den Link **[!UICONTROL Benutzerrichtlinien für generative KI von Adobe Experience Cloud]**.
+   Um die Richtlinien zu überprüfen, klicken Sie auf den Link **[!UICONTROL Adobe Experience Cloud-Benutzerrichtlinien für generative KI]**.
 
    ![Vervollständigen Sie die Parameter zum Konvertieren einer Bilddatei in eine E-Mail-Vorlage](./assets/email-template-convert-image-dialog.png){width="400" zoomable="yes"}
 

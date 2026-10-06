@@ -8,21 +8,27 @@ autotag-review: '2026-06-19T22:49:14.999Z'
 TQID: 'https://experienceleague.adobe.com/4yZyKIShtXQ1KgivMKaGMwH03sbmeqmURY3kttX6hyI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 598f728a271bf23752dec2b0056bcc3a14a88b32
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1634
-ht-degree: 5%
-
+source-wordcount: '1657'
+ht-degree: 6%
 ---
-
 # Strukturkomponenten {#structure-components}
 
 >[!CONTEXTUALHELP]
@@ -53,14 +59,14 @@ Oben in der _[!UICONTROL Komponenten]_ werden im Abschnitt **[!UICONTROL Struktu
 
 | Symbol | Komponente | Beschreibung |
 | ----- | ----------- | ----------- |
-| ![1:1 Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1 Spalte] | Ein einspaltiger Container, der die Breite des Raums ausfüllt. |
-| ![1:2 Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 Spalte Links] | Ein zweispaltiger Container, der ein Verhältnis von 1:2 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Drittel der Breite ein, die zweite Spalte (rechts) die restlichen zwei Drittel. |
-| ![1:3 Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 Spalte Links] | Ein zweispaltiger Container, der ein Verhältnis von 1:3 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Viertel der Breite ein, die zweite Spalte (rechts) die restlichen drei Viertel. |
-| ![2:1 Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 Spalte rechts] | Ein zweispaltiger Container, der ein Verhältnis von 2:1 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt zwei Drittel der Breite ein, die zweite Spalte (rechts) das restliche Drittel. |
-| ![2:2 Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 Spalte] | Ein zweispaltiger Container, der ein Verhältnis von 2:2 verwendet, um die Breite des Raums auszufüllen. Die linken und rechten Spalten haben die gleiche Breite. |
-| ![3:1 Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 Spalte rechts] | Ein zweispaltiger Container, der ein Verhältnis von :1 zu nutzt, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt drei Viertel (75 %) der Breite ein, die zweite Spalte (rechts) das verbleibende Viertel (25 %). |
-| ![3:3 Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3 Spalte] | Ein dreispaltiger Container, der ein Verhältnis von :3 zu nutzt, um die Breite des Raums auszufüllen. Alle drei Spalten haben die gleiche Breite. |
-| ![4:4 Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4 Spalte] | Ein vierspaltiger Container, der ein 4::4-Verhältnis verwendet, um die Breite des Raums auszufüllen. Alle vier Spalten haben die gleiche Breite. |
+| ![1:1-Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1-Spalte] | Ein einspaltiger Container, der die Breite des Raums ausfüllt. |
+| ![1:2-Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2 Spalte Links] | Ein zweispaltiger Container, der ein Verhältnis von 1:2 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Drittel der Breite ein, die zweite Spalte (rechts) die restlichen zwei Drittel. |
+| ![1:3-Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3 Spalte Links] | Ein zweispaltiger Container, der ein Verhältnis von 1:3 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt ein Viertel der Breite ein, die zweite Spalte (rechts) die restlichen drei Viertel. |
+| ![2:1-Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1 Spalte Rechts] | Ein zweispaltiger Container, der ein Verhältnis von 2:1 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt zwei Drittel der Breite ein, die zweite Spalte (rechts) das restliche Drittel. |
+| ![2:2-Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2 Spalte] | Ein zweispaltiger Container, der ein Verhältnis von 2:2 verwendet, um die Breite des Raums auszufüllen. Die linken und rechten Spalten haben die gleiche Breite. |
+| ![3:1-Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1 Spalte Rechts] | Ein zweispaltiger Container, der ein Verhältnis von 3:1 verwendet, um die Breite des Raums auszufüllen. Die erste Spalte (links) nimmt drei Viertel (75 %) der Breite ein, die zweite Spalte (rechts) das verbleibende Viertel (25 %). |
+| ![3:3-Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL :3 Spalte] | Ein dreispaltiger Container, der ein Verhältnis von 3:3 verwendet, um die Breite des Raums auszufüllen. Alle drei Spalten haben die gleiche Breite. |
+| ![4:4-Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL :4 Spalte] | Ein vierspaltiger Container, der ein Verhältnis von 4:4 verwendet, um die Breite des Raums auszufüllen. Alle vier Spalten haben die gleiche Breite. |
 | ![n:n Spaltensymbol](../../user/assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n Spalte] | Eine anpassbare Spaltenstruktur, die den Raum entsprechend den von Ihnen definierten Spalten ausfüllt. Sie legen die Anzahl der Spalten (zwischen zwei und zehn) und die Breite jeder Spalte einzeln fest. [Weitere Informationen](#change-nn-columns) |
 
 ## Hinzufügen von Strukturkomponenten {#add-structure-components}
@@ -167,7 +173,7 @@ Wählen Sie mit dem _Spalte auswählen_ in der Komponenten-Symbolleiste eine Spa
 
 | Tool | Name | Nutzung |
 | ---- | ---- | ----- |
-| — | Spalte löschen | Inhalt in der Spalte löschen. Siehe das erste Tool in der Spalten-Symbolleiste Abbildung. |
+| – | Spalte löschen | Inhalt in der Spalte löschen. Siehe das erste Tool in der Spalten-Symbolleiste Abbildung. |
 | ![Bedingten Inhalt aktivieren](../../user/assets/do-not-localize/toolbar-button-enable-conditional-content.png){width="40"} | Bedingten Inhalt aktivieren | (E-Mails und Fragmente) Aktivieren bedingter Varianten für die Spalte. |
 | ![Spalte auswählen](../../user/assets/do-not-localize/toolbar-button-column-select.png){width="100"} | Spalte auswählen | Wählen Sie eine Spalte anhand einer Zahl aus. Wenn die Spalte ausgewählt ist, können Sie Einstellungen und Stile anwenden. |
 
@@ -231,7 +237,7 @@ Wenn die Spalte auf der Arbeitsfläche ausgewählt ist, können Sie Stile festle
 
 ## Navigationsbaum {#navigation-tree}
 
-Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![&#x200B; ((Symbol &#x200B;](../../user/assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
+Im visuellen Design können Sie über den Navigationsbaum auf die Strukturkomponenten, einschließlich Spalten und Inhalten, zugreifen. Klicken Sie _[!UICONTROL links auf das Symbol]_ Navigationsbaum![ ((Symbol ](../../user/assets/do-not-localize/icon-navigation-tree.svg) Navigationsbaum) ), um die Baumstruktur anzuzeigen.
 
 ![Zugriff auf die Inhaltsebenen](../../assets/content-design-shared/content-design-layers.png){width="800" zoomable="yes"}
 

@@ -1,33 +1,39 @@
 ---
 title: Journey-Verwaltung
-description: Optimieren Sie die Nachfragegenerierung mit Journey - Erstellen, veröffentlichen und verwalten Sie die Interaktion mit Einkaufsgruppen für E-Mail, SMS und Ereignisse in Journey Optimizer B2B edition.
+description: Optimieren Sie die Nachfragegenerierung mit Journey - Erstellen, veröffentlichen, verwalten Sie die Interaktion mit Einkaufsgruppen für E-Mail, SMS und Ereignisse in Journey Optimizer B2B Edition.
 feature: Account Journeys
 role: User
 exl-id: 5c22f11f-1967-4b55-8aee-16371173c040
+autotag-review: 2026-03-30T23:09:32.398Z
+TQID: 'https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-autotag-review: 2026-03-30T23:09:32.398Z
-TQID: https://experienceleague.adobe.com/OOF-0bfgwrL6pjG8FIVToxcDeHSPeX7tcUhxzbrIIOg
-source-git-commit: aa6547c60d1b4c570601b5540d193eff57ec6b86
+    internal-label: Customer journeys
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1308
+source-wordcount: '1308'
 ht-degree: 46%
-
 ---
-
 # Journey-Verwaltung
 
-In Journey Optimizer B2B edition sind Journey automatisierte, mehrstufige Account- und Lead-basierte Marketing-Pläne, die personalisierte Erlebnisse als Reaktion auf Interaktionen, Geschäftsereignisse oder geplante Kampagnen kanalübergreifend orchestrieren. Definieren Sie verkaufsgesteuerte Interaktionen, die E-Mail, SMS und mehr umfassen, um das eingehende Marketing mit ausgehenden Verkaufsaktivitäten für jedes Mitglied der Einkaufsgruppe zu koordinieren.
+In Journey Optimizer B2B Edition sind Journey automatisierte, mehrstufige Account- und Lead-basierte Marketing-Pläne, die personalisierte Erlebnisse als Reaktion auf Interaktionen, Geschäftsereignisse oder geplante Kampagnen kanalübergreifend orchestrieren. Definieren Sie verkaufsgesteuerte Interaktionen, die E-Mail, SMS und mehr umfassen, um das eingehende Marketing mit ausgehenden Verkaufsaktivitäten für jedes Mitglied der Einkaufsgruppe zu koordinieren.
 
-Journey Optimizer B2B edition unterstützt zwei Journey-Typen:
+Journey Optimizer B2B Edition unterstützt zwei Journey-Typen:
 
 * **Account-Journey** - Optimieren Sie die Nachfragegenerierung und die Kaufgruppenqualifizierung und steigern Sie die Nachfrage nach Ihren Akquise-, Upsell-/Crosssell- und Kundenbindungsprogrammen. Passen Sie Ihre Journeys an die individuellen Bedürfnisse jeder Käufergruppe und jedes Mitglieds einer Käufergruppe an, indem Sie automatisierte Interaktionen für E-Mails, SMS, Ereignisse und mehr verwenden.
 
@@ -94,11 +100,11 @@ Der Status einer Journey kann sich entsprechend den von Ihnen durchgeführten Ak
 
 | Status | Beschreibung | Verfügbare Aktionen |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**Entwurf**&#x200B;_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-a-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Live**&#x200B;_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn eine Journey veröffentlicht wird. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
-| _&#x200B;**Für neue Eintritte geschlossen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
-| _&#x200B;**Abgebrochen**&#x200B;_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
-| _&#x200B;**Beendet**&#x200B;_ | Wenn alle Mitglieder der Konto- oder Personen-Zielgruppe auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Abgeschlossen_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Entwurf**_ | Eine unveröffentlichte Journey, die bearbeitet werden kann. | <li>[Veröffentlichen](./create-publish-journey.md#publish-a-journey)<li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Live**_ | Der Journey-Status ändert sich von _Entwurf_ zu _Live_, wenn eine Journey veröffentlicht wird. In diesem Status kann sie nicht mehr bearbeitet werden. | <li>[Duplizieren](#duplicate-journey)<li>[Für neue Eintritte schließen](#close-to-new-entries) <li>[Abbrechen](#abort-journey) |
+| _**Für neue Eintritte geschlossen**_ | Der Journey-Status ändert sich von _Live_ zu _Für neue Eintritte geschlossen_, wenn Sie in der oberen Navigation auf [!UICONTROL Für neue Eintritte schließen] klicken. | <li>[Duplizieren](#duplicate-journey) <li>[Abbrechen](#abort-journey) |
+| _**Abgebrochen**_ | Der Journey-Status ändert sich von _Live_ oder _Für neue Eintritte geschlossen_, wenn Sie eine Journey abbrechen. Eine abgebrochene Journey kann nicht neu gestartet werden. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
+| _**Beendet**_ | Wenn alle Mitglieder der Konto- oder Personen-Zielgruppe auf einer Journey die Journey abschließen, ändert sich der Status von _Live_ oder _Geschlossen zu neuen Einträgen_ zu _Abgeschlossen_. | <li>[Duplizieren](#duplicate-journey) <li>[Löschen](#delete-journey) |
 
 ## Journey-Maps
 
@@ -116,7 +122,7 @@ In der Journey-Zuordnung können Sie [Knoten hinzufügen](./create-publish-journ
 
 ## Journey-Aktionen
 
-Die Journey-Listenseite enthält alle Journey von Konten oder Personen in Ihrer Journey Optimizer B2B edition-Instanz. Auf der Listenseite können Sie eine Reihe von Aktionen auf eine Journey anwenden.
+Die Journey-Listenseite enthält alle Journey von Konten oder Personen in Ihrer Journey Optimizer B2B Edition-Instanz. Auf der Listenseite können Sie eine Reihe von Aktionen auf eine Journey anwenden.
 
 ### Abbrechen von Journeys
 
@@ -206,4 +212,4 @@ Wenn Sie den Knoten auswählen, klicken Sie auf die Zahl, um eine Liste der Kont
 
 ## Übersichtsvideo zur Account-Journey {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3443216/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443202/?learn=on)

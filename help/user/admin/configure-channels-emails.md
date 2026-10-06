@@ -1,32 +1,42 @@
 ---
 title: Konfigurationen des E-Mail-Kanals
-description: Konfigurieren Sie E-Mail-Versandeinstellungen, Kommunikationsbeschränkungen und Authentifizierungsprotokolle, um die Zustellbarkeit in Journey Optimizer B2B edition zu optimieren.
+description: Konfigurieren Sie E-Mail-Versandeinstellungen, Kommunikationsbeschränkungen und Authentifizierungsprotokolle, um die Zustellbarkeit in Journey Optimizer B2B Edition zu optimieren.
 feature: Setup, Channels
 role: Admin
 exl-id: fb16b5e5-f1a5-4e59-b8c6-56985f03225a
+autotag-review: 2026-03-27T22:54:31.660Z
+TQID: 'https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
+    internal-label: Onboarding
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: a492a671-d5f6-46ee-b832-2efbca14ddd8
-autotag-review: 2026-03-27T22:54:31.660Z
-TQID: https://experienceleague.adobe.com/iJy1TfeslMT4FM3RqcMdIVov0MKQnckKjP09MvdHcvc
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Activation and channels
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1787
+source-wordcount: '1787'
 ht-degree: 97%
-
 ---
-
 # E-Mail-Kanalkonfigurationen
 
-Adobe Journey Optimizer B2B edition nutzt die Kanalfunktionen und die Ereignisverfolgung in Marketo Engage. Admins sollten sicherstellen, dass die Versand- und Tracking-Konfigurationen vorhanden sind, um den Kanalversand für Marketing-Fachleute zu ermöglichen. Informationen zu den Protokollen, die für den E-Mail-Versand und das Tracking über Marketo Engage erforderlich sind, finden Sie unter [Protokolle für das Tracking und den E-Mail-Versand](../start/email-protocols.md).
+Adobe Journey Optimizer B2B Edition nutzt die Kanalfunktionen und das Tracking in Marketo Engage. Admins sollten sicherstellen, dass die Versand- und Tracking-Konfigurationen vorhanden sind, um den Kanalversand für Marketing-Fachleute zu ermöglichen. Informationen zu den Protokollen, die für den E-Mail-Versand und das Tracking über Marketo Engage erforderlich sind, finden Sie unter [Protokolle für das Tracking und den E-Mail-Versand](../start/email-protocols.md).
 
 ## Versandeinstellungen
 
@@ -34,7 +44,7 @@ Die standardmäßigen E-Mail-Einstellungen werden verwendet, wenn Marketing-Expe
 
 ![Zugriff auf die E-Mail-Versandeinstellungen](./assets/config-email-delivery-email-header.png){width="800" zoomable="yes"}
 
-Die Einstellungen sind in Journey Optimizer B2B edition schreibgeschützt. Klicken Sie **[!UICONTROL oben]** auf „Einstellungen bearbeiten“, um auf die Konfigurationsoptionen in der verbundenen Marketo Engage-Instanz zuzugreifen.
+Die Einstellungen sind in Journey Optimizer B2B Edition schreibgeschützt. Klicken Sie **[!UICONTROL oben]** auf „Einstellungen bearbeiten“, um auf die Konfigurationsoptionen in der verbundenen Marketo Engage-Instanz zuzugreifen.
 
 >[!NOTE]
 >
@@ -64,11 +74,11 @@ Um die Branding-Domains zu überprüfen, klicken Sie auf die Registerkarte **[!U
 
 ![Zugriff auf die Einstellungen der Branding-Domains](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Arbeitsbereiche in der verbundenen Marketo Engage-Instanz. Für neue E-Mails wird diese Domain als Standard verwendet, aber Marketing-[&#x200B; können sie pro E-Mail überschreiben](../content/add-email.md#define-the-email-settings). Weitere Informationen zur Definition der Standard-Branding-Domain finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Arbeitsbereiche in der verbundenen Marketo Engage-Instanz. Für neue E-Mails wird diese Domain als Standard verwendet, aber Marketing-[ können sie pro E-Mail überschreiben](../content/add-email.md#define-the-email-settings). Weitere Informationen zur Definition der Standard-Branding-Domain finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
->Wenn Sie mehrere Marken vermarkten und jeweils eigene Marken-Tracking-Links verwenden möchten, können Sie eine zusätzliche Branding-Domain hinzufügen. Weitere Informationen zum Hinzufügen mehrerer Branding-Domains finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
+>Wenn Sie mehrere Marken vermarkten und jeweils eigene Marken-Tracking-Links verwenden möchten, können Sie eine zusätzliche Branding-Domain hinzufügen. Weitere Informationen zum Hinzufügen mehrerer Branding-Domains finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/add-an-additional-branding-domain){target="_blank"}.
 
 ### [!UICONTROL Benutzerdefinierte Kopfzeilenoptionen] {#custom-header-options}
 
@@ -80,11 +90,11 @@ Wenn _[!UICONTROL Strict Transport Security]_ aktiviert ist, wird garantiert, da
 
 ## Kommunikationsbeschränkungen
 
-Kommunikationsbeschränkungen steuern die Anzahl der E-Mails, die ein Kontakt von Ihrer Organisation erhält. Die von Ihnen festgelegten Beschränkungen werden von Journey Optimizer B2B edition und der verbundenen Marketo Engage-Instanz gemeinsam genutzt. Durch die Festlegung dieser Beschränkungen wird sichergestellt, dass ein Lead in einem bestimmten Zeitraum nicht mehr als eine maximale Anzahl von E-Mails erhält.
+Kommunikationsbeschränkungen steuern die Anzahl der E-Mails, die ein Kontakt von Ihrer Organisation erhält. Die von Ihnen festgelegten Beschränkungen werden von Journey Optimizer B2B Edition und der verbundenen Marketo Engage-Instanz gemeinsam genutzt. Durch die Festlegung dieser Beschränkungen wird sichergestellt, dass ein Lead in einem bestimmten Zeitraum nicht mehr als eine maximale Anzahl von E-Mails erhält.
 
 >[!AVAILABILITY]
 >
->Wenden Sie sich an den Adobe-Support oder öffnen Sie ein Support-Ticket, um die Freigabe von Kommunikationsbeschränkungen zwischen Journey Optimizer B2B edition und einer oder mehreren Marketo Engage-Instanzen zu aktivieren.
+>Wenden Sie sich an den Adobe-Support oder öffnen Sie ein Support-Ticket, um die Freigabe von Kommunikationsbeschränkungen zwischen Journey Optimizer B2B Edition und einer oder mehreren Marketo Engage-Instanzen zu aktivieren.
 
 >[!BEGINSHADEBOX]
 
@@ -95,9 +105,9 @@ Kommunikationsbeschränkungen steuern die Anzahl der E-Mails, die ein Kontakt vo
 
 >[!ENDSHADEBOX]
 
-Beispielsweise stellt das System mit einem definierten Limit von fünf E-Mails pro Tag sicher, dass ein Kontakt innerhalb eines Tages keine sechste E-Mail erhält, indem es die sechste E-Mail unterdrückt. Bei gemeinsam genutzten Kommunikationsbeschränkungen zwischen Journey Optimizer B2B edition und Marketo Engage werden die Regeln für Kommunikationsbeschränkungen an einem Ort definiert. Die sechste E-Mail wird unabhängig von der Sendeaktion von Journey Optimizer B2B edition oder Marketo Engage unterdrückt.
+Beispielsweise stellt das System mit einem definierten Limit von fünf E-Mails pro Tag sicher, dass ein Kontakt innerhalb eines Tages keine sechste E-Mail erhält, indem es die sechste E-Mail unterdrückt. Bei gemeinsam genutzten Kommunikations-Limits zwischen Journey Optimizer B2B Edition und Marketo Engage werden die Regeln für Kommunikations-Limits an einem Ort definiert. Die sechste E-Mail wird unabhängig von der Sendeaktion von Journey Optimizer B2B Edition oder Marketo Engage unterdrückt.
 
-Für alle Marketo Engage-Produktionsinstanzen sind standardmäßig Kommunikationsbeschränkungen definiert (weitere Informationen finden Sie in der [&#128279;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} zu Marketo Engage). Sie können separate Kommunikationsbeschränkungen für Journey Optimizer B2B edition und Ihre Marketo Engage-Produktionsinstanz verwenden. Um freigegebene Kommunikationsbeschränkungen zu verwenden, definieren Sie die Regeln in Journey Optimizer B2B edition und erweitern Sie die Freigabe dieser Beschränkungen auf die Marketo Munchkin-Codes.
+Für alle Marketo Engage-Produktionsinstanzen sind standardmäßig Kommunikationsbeschränkungen definiert (weitere Informationen finden Sie in der ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} zu [Marketo Engage). Sie können separate Kommunikations-Limits für Journey Optimizer B2B Edition und Ihre Marketo Engage-Produktionsinstanz verwenden. Um freigegebene Kommunikations-Limits zu verwenden, definieren Sie die Regeln in Journey Optimizer B2B Edition und erweitern Sie die Freigabe dieser Limits auf die Marketo Munchkin-Codes.
 
 >[!IMPORTANT]
 >
@@ -159,7 +169,7 @@ Um die aktuellen Einstellungen zu überprüfen, gehen Sie zu **[!UICONTROL Admin
 
 ![Zugriff auf die SPF/DKIM-Konfiguration](./assets/config-email-spf-dkim.png){width="700" zoomable="yes"}
 
-Die Einstellungen sind in Journey Optimizer B2B edition schreibgeschützt. Klicken Sie **[!UICONTROL oben]** auf „Einstellungen bearbeiten“, um auf die Konfigurationsoptionen in der verbundenen Marketo Engage-Instanz zuzugreifen.
+Die Einstellungen sind in Journey Optimizer B2B Edition schreibgeschützt. Klicken Sie **[!UICONTROL oben]** auf „Einstellungen bearbeiten“, um auf die Konfigurationsoptionen in der verbundenen Marketo Engage-Instanz zuzugreifen.
 
 >[!NOTE]
 >
@@ -195,10 +205,10 @@ Marketo Engage verwendet zwei Methoden zum Bestätigen von Bot-Aktivitäten:
 
 * **Übereinstimmung mit Übereinstimmungsmuster** - Wenn zwei oder mehr Aktivitäten gleichzeitig (innerhalb einer Sekunde) stattfinden, werden sie als Bots identifiziert. Diese Methode berücksichtigt die folgenden Attribute für einen Vergleich:
 
-   * Lead-ID (muss gleich sein)
-   * E-Mail-Asset (muss dasselbe sein)
-   * Link-Klick oder E-Mail öffnen
-   * Zeitdifferenz (sollte weniger als eine Sekunde betragen)
+  * Lead-ID (muss gleich sein)
+  * E-Mail-Asset (muss dasselbe sein)
+  * Link-Klick oder E-Mail öffnen
+  * Zeitdifferenz (sollte weniger als eine Sekunde betragen)
 
 Für die Aktivitäten E-Mail-Link-Klick und E-Mail-Öffnen werden neue Attribute mit den folgenden Werten ausgefüllt:
 
@@ -210,10 +220,10 @@ Um die aktuellen Einstellungen zu überprüfen, gehen Sie zu **[!UICONTROL Admin
 
 ![Konfiguration der Bot-Aktivität für den E-Mail-Versand aufrufen](./assets/config-email-bot-activity.png){width="700" zoomable="yes"}
 
-Die Einstellungen sind in Journey Optimizer B2B edition schreibgeschützt. Klicken Sie **[!UICONTROL oben]** auf „Einstellungen bearbeiten“, um auf die Konfigurationsoptionen in der verbundenen Marketo Engage-Instanz zuzugreifen.
+Die Einstellungen sind in Journey Optimizer B2B Edition schreibgeschützt. Klicken Sie **[!UICONTROL oben]** auf „Einstellungen bearbeiten“, um auf die Konfigurationsoptionen in der verbundenen Marketo Engage-Instanz zuzugreifen.
 
 >[!NOTE]
 >
 >Um auf diese Einstellungen in Adobe Marketo Engage zugreifen und sie bearbeiten zu können, benötigen Sie die Berechtigung eines Produktadministrators.
 
-Weitere Informationen zum Konfigurieren der Bot-Aktivitätsoptionen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.
+Weitere Informationen zum Konfigurieren der Bot-Aktivitätsoptionen finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/filtering-email-bot-activity#select-filter-type){target="_blank"}.

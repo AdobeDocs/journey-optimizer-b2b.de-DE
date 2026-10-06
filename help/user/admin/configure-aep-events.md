@@ -5,40 +5,45 @@ feature: Setup, Integrations
 role: Admin
 solution: Journey Optimizer B2B Edition, Experience Platform
 exl-id: a7696d03-f4c4-4f64-8ef2-b15e59b59770
+autotag-review: 2026-03-27T22:58:08.848Z
+TQID: 'https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
-  - id: adf04a6a-050f-44bc-a52c-db79ccb22ebf
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Administration
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T22:58:08.848Z
-TQID: https://experienceleague.adobe.com/vmRXmmc19LjpJf6EQ0BipW8oXn5GdKT3r-boHLd-XmQ
-source-git-commit: ecc3b7d5a63f67d7f29208278814d5abae969ea4
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1632
+source-wordcount: '1632'
 ht-degree: 12%
-
 ---
-
 # Erlebnisereignisse und -felder auswählen
 
-Admins können bestimmte Adobe Experience Platform (AEP) [Erlebnisereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und ihre zugehörigen Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
+Admins können bestimmte Adobe Experience Platform (AEP) [Erlebnisereignisse](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und ihre zugehörigen Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
 
 <!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
 
 >[!PREREQUISITES]
 >
->Für die Verwendung von Erlebnisereignissen und -feldern in Journey Optimizer B2B edition sind profilaktivierte Erlebnisereignisschemata erforderlich. Weitere Informationen finden Sie unter [Aktivieren von Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/de/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in den Experience Platform-Tutorials.
+>Für die Verwendung von Erlebnisereignissen und -feldern in Journey Optimizer B2B Edition sind profilaktivierte Erlebnisereignisschemata erforderlich. Weitere Informationen finden Sie unter [Aktivieren von Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in den Experience Platform-Tutorials.
 
 Die Verwendung von AEP Experience Events in Journey erfolgt in zwei Schritten:
 
-1. Ein Administrator [fügt in den Journey Optimizer B2B edition-Konfigurationen AEP Experience &#x200B;](#add-an-event) und -felder hinzu.
+1. Ein Administrator [fügt den Journey Optimizer B2B Edition-Konfigurationen AEP Experience ](#add-an-event) und -felder hinzu.
 
 1. In einem Journey verwendet ein Marketer die konfigurierten Ereignisse auf eine dieser zwei Arten:
 
@@ -55,7 +60,7 @@ Beachten Sie bei der Auswahl von Ereignissen zur Erreichung Ihrer Unternehmenszi
 
 * Journey können Erlebnisereignisse überwachen, die über Experience Platform-Streaming-Funktionen aufgenommen werden, z. B. Web-SDK oder HTTP-API.
 
-* Historische Erlebnisereignisdaten werden für eine Person gesammelt, wenn das Ereignis in der Journey Optimizer B2B edition-Datenbank vorhanden ist. Für Personen, die bereits vorhanden sind, wenn ein Ereignistyp zum ersten Mal konfiguriert wird, beginnt die Aufstockung zum Zeitpunkt der Konfiguration. Bei neuen Personen beginnt die Akkumulation, wenn die Person zum ersten Mal hinzugefügt wird (ihre Vorgeschichte ist nicht rückwirkend verfügbar).
+* Historische Erlebnisereignisdaten werden für eine Person gesammelt, wenn das Ereignis in der Journey Optimizer B2B Edition-Datenbank vorhanden ist. Für Personen, die bereits vorhanden sind, wenn ein Ereignistyp zum ersten Mal konfiguriert wird, beginnt die Aufstockung zum Zeitpunkt der Konfiguration. Bei neuen Personen beginnt die Akkumulation, wenn die Person zum ersten Mal hinzugefügt wird (ihre Vorgeschichte ist nicht rückwirkend verfügbar).
 
 * Es gibt derzeit keinen Löschmechanismus für den akkumulierten Ereignisverlauf. Die Richtlinie zur langfristigen Aufbewahrung kann sich ändern.
 
@@ -133,7 +138,7 @@ Um die Felder zu ändern, bearbeiten Sie die Ereignisdetails.
 
 1. Klicken Sie auf den Ereignisnamen oder auf das Symbol _Mehr Menü_ ( **…** ) und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   ![Klicken Sie auf das Menüsymbol Mehr &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Klicken Sie auf das Menüsymbol Mehr ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Felder bearbeiten]**, um das Dialogfeld _[!UICONTROL Felder auswählen]_ zu öffnen und weitere Felder hinzuzufügen.
 
@@ -153,7 +158,7 @@ Um zu verhindern, dass ein Erlebnisereignis in einem Ereignisknoten _auf ein Ere
 
 ## Ereignisse und Felder {#events-and-fields}
 
-[!DNL Journey Optimizer B2B Edition] werden bestimmte Aktivitäten auf Personenebene als Erlebnisereignisse [!DNL Experience Platform]. Diese Ereignisse werden in einem Systemdatensatz gespeichert, der das XDM-Erlebnisereignisschema verwendet und Journey-spezifische Feldergruppen enthält. Sie können diese Ereignisse in [!UICONTROL Journey Optimizer B2B edition] wie jedes andere Erlebnisereignis verwenden.
+[!DNL Journey Optimizer B2B Edition] werden bestimmte Aktivitäten auf Personenebene als Erlebnisereignisse [!DNL Experience Platform]. Diese Ereignisse werden in einem Systemdatensatz gespeichert, der das XDM-Erlebnisereignisschema verwendet und Journey-spezifische Feldergruppen enthält. Sie können diese Ereignisse in [!UICONTROL Journey Optimizer B2B Edition] wie jedes andere Erlebnisereignis verwenden.
 
 Jedes Ereignis zeigt einen definierten Satz von Feldern, die in Journey-Knoten (_eines Ereignisses)_ werden können (Ereignisentscheidung). Um zu bestimmen, welches Ereignis und welche Felder in diesen Journey-Knoten verwendet werden sollen, überprüfen Sie die verfügbaren Ereignistypen und ihre Felder:
 
@@ -491,5 +496,5 @@ Ereignistyp: `leadOperation.interestingMoment`
 <!--
  ## Overview video
 
->[!VIDEO](https://video.tv.adobe.com/v/3448692/?captions=ger&learn=on) 
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on) 
 -->

@@ -1,5 +1,5 @@
 ---
-title: KI-Funktionen in Journey Optimizer B2B edition
+title: KI-Funktionen in Journey Optimizer B2B Edition
 description: Beschleunigen Sie Workflows mit dem KI-Assistenten – erhalten Sie Produktkenntnisse, Hilfe zur Fehlerbehebung und betriebliche Erkenntnisse für Journey Optimizer B2B Edition.
 feature: AI Assistant
 role: User, Admin
@@ -9,32 +9,40 @@ autotag-review: '2026-06-05T16:05:30.499Z'
 TQID: 'https://experienceleague.adobe.com/4bXkOzwadjZVzhedVO6oQEEV1biaWMZFHEuqey74qek'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: eb7448d0-50e6-41cc-83e2-a84cd2413491
+    internal-label: Operational Insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7b5a3fdf94725b7cf3c7f4da8ff5d8cce115a3d7
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1385
+source-wordcount: '1385'
 ht-degree: 9%
-
 ---
+# KI-Funktionen in Journey Optimizer B2B Edition
 
-# KI-Funktionen in Journey Optimizer B2B edition
-
-Die Chat-Oberfläche in Adobe Journey Optimizer B2B edition basiert auf derselben Technologie-Foundation wie [KI-Assistent in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}. Dabei handelt es sich um ein Gesprächserlebnis, mit dem Sie Ihre Workflows in Journey Optimizer B2B edition beschleunigen können. Sie können die Chat-Oberfläche verwenden, um mehr Verständnis für die Produktfunktionen zu erhalten, Probleme zu beheben oder Informationen zu durchsuchen und betriebliche Einblicke für Journey Optimizer B2B edition zu erhalten. Sie können diese Schnittstelle auch verwenden, um die [Journey Agent](../agents/journey-agent.md) und [Audience Agent](../agents/audience-agent-b2b.md) aufzurufen.
+Die Chat-Oberfläche in Adobe Journey Optimizer B2B Edition basiert auf derselben Technologie-Grundlage wie [KI-Assistent in Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}. Es handelt sich um ein Gesprächserlebnis, mit dem Sie Ihre Workflows in Journey Optimizer B2B Edition beschleunigen können. Sie können die Chat-Oberfläche verwenden, um mehr Verständnis für die Produktfunktionen zu erhalten, Probleme zu beheben oder Informationen zu durchsuchen und operative Erkenntnisse für Journey Optimizer B2B Edition zu erhalten. Sie können diese Schnittstelle auch verwenden, um die [Journey Agent](../agents/journey-agent.md) und [Audience Agent](../agents/audience-agent-b2b.md) aufzurufen.
 
 >[!IMPORTANT]
 >
->Bevor Sie den KI[Assistenten in Journey Optimizer B2B edition verwenden &#x200B;](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}, müssen Sie den „Benutzerrichtlinien“ zustimmen. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie beim Rollout zusätzliche KI-Assistenten-Funktionen verwenden können.
+>Bevor Sie den KI[Assistenten in Journey Optimizer B2B Edition verwenden können](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} ist eine Zustimmung zu den „Benutzerrichtlinien“ erforderlich. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie beim Rollout zusätzliche KI-Assistenten-Funktionen verwenden können.
 
 +++Benutzeroberfläche der Benutzervereinbarung anzeigen
 
@@ -48,15 +56,15 @@ Die Chat-Oberfläche in Adobe Journey Optimizer B2B edition basiert auf derselbe
 
 ## Verkaufskennzeichner
 
-Sales Qualifier ist ein KI-gesteuertes Programm, das Sie mit Journey Optimizer B2B edition verwenden können. Es implementiert die Account Qualification Agent und optimiert die Workflows für Business Development Representatives (BDRs). Sales Qualifier automatisiert Workflows für die Qualifizierung von Interessenten, Kontaktaufnahme und Käuferinteraktion kanalübergreifend. Dies reduziert die manuelle BDR-Belastung und beschleunigt die Pipeline-Geschwindigkeit für B2B-Unternehmen.
+Sales Qualifier ist ein KI-gesteuertes Programm, das Sie mit Journey Optimizer B2B Edition verwenden können. Es implementiert die Account Qualification Agent und optimiert die Workflows für Business Development Representatives (BDRs). Sales Qualifier automatisiert Workflows für die Qualifizierung von Interessenten, Kontaktaufnahme und Käuferinteraktion kanalübergreifend. Dies reduziert die manuelle BDR-Belastung und beschleunigt die Pipeline-Geschwindigkeit für B2B-Unternehmen.
 
 Weitere Informationen finden Sie in der Dokumentation zu [Sales Qualifier](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
-## KI-Assistentenfunktionen in Journey Optimizer B2B edition
+## KI-Assistentenfunktionen in Journey Optimizer B2B Edition
 
-Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten, _&#x200B;**Wissensdiagramm**&#x200B;_, und bietet eine umfassende Sammlung von Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
+Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assistent eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort. Diese Antwort ist eine interne Darstellung der zugrunde liegenden Daten, _**Wissensdiagramm**_, und bietet eine umfassende Sammlung von Konzepten, Daten und Metadaten für eine bestimmte Antwort. Das Wissensdiagramm besteht aus Unterdiagrammen, auf die bei jeder Abfrage verwiesen wird:
 
 * Dokumentation zu Adobe Experience League.
 * Operative Artefakte, z. B. Schemata, Felder, Zielgruppen und Journey.
@@ -65,7 +73,7 @@ Um eine Antwort auf Ihre gesendeten Fragen zu formulieren, fragt der KI-Assisten
 
 ### Produktkenntnisse
 
-Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Dokumentation zu Journey Optimizer B2B edition auf Adobe Experience League basieren. Fragen zum Produktwissen können in den folgenden Untergruppen genauer spezifiziert werden:
+Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Journey Optimizer B2B Edition-Dokumentation auf Adobe Experience League basieren. Fragen zum Produktwissen können in den folgenden Untergruppen genauer spezifiziert werden:
 
 | Produktkenntnisse | Beispiele |
 | --- | --- |
@@ -86,7 +94,7 @@ Sie können Fragen zum KI-Assistenten zu Ihren betrieblichen Erkenntnissen in de
 | Domain | Unterstützte Metadaten | Nicht unterstützte Metadaten |
 | --- | --- | --- |
 | Attribute/Felder | <li>Suche nach Attributnamen <li>Attribut - Schemabeziehung <li>Attribut - Datensatzbeziehung <li>Attribut - Zielgruppenbeziehung <li>Attribut - Zielbeziehung | <li>Attributklasse <li>Verfolgung <li>Veraltungsstatus <li>Labels <li>In Attributen gespeicherter Wert |
-| Account Audiences <br><br>**_Hinweis:_** Im Journey Optimizer B2B edition-Kontext kann der KI-Assistent Zielgruppenfragen nur für Account-Zielgruppen beantworten. Im Experience Platform-Kontext kann der KI-Assistent Fragen nur für Personen-Zielgruppen beantworten. | <li>Zielgruppengröße <li>Zielgruppentyp (Streaming oder Batch) <li>Erstellungs-/Änderungsdatum <li>Aktivierungsstatus <li>Anzahl der Mitglieder <li>Duplizieren von Zielgruppen <li>Name- und ID-Suche | <li>Zielgruppenüberschneidungen <li>Zielgruppenaktivierung <li>Verfolgung <li>Erstellen/Ändern <li>Labels <li>Trends bei der Mitgliederqualifizierung |
+| Account Audiences <br><br>**_Hinweis:_** Im Journey Optimizer B2B Edition-Kontext kann der KI-Assistent Zielgruppenfragen nur für Account Audiences beantworten. Im Experience Platform-Kontext kann der KI-Assistent Fragen nur für Personen-Zielgruppen beantworten. | <li>Zielgruppengröße <li>Zielgruppentyp (Streaming oder Batch) <li>Erstellungs-/Änderungsdatum <li>Aktivierungsstatus <li>Anzahl der Mitglieder <li>Duplizieren von Zielgruppen <li>Name- und ID-Suche | <li>Zielgruppenüberschneidungen <li>Zielgruppenaktivierung <li>Verfolgung <li>Erstellen/Ändern <li>Labels <li>Trends bei der Mitgliederqualifizierung |
 | Datenflüsse | <li>Anzahl der Datenflüsse <li>Datenflussstatus <li>Datenfluss - Datensatzbeziehung <li>Datenfluss-Quelle-Beziehung | <li>Erstellung/Änderung <li>Datenfluss-Batch-Beziehungen <li>Anzahl der aufgenommenen Profile |
 | Datensätze | <li>Anzahl der Datensätze <li>Profilaktivierungsstatus <li>Erstellungs-/Änderungsdatum <li>Datensatz - Schemabeziehung <li>Datensatz-Zielgruppen-Beziehung <li>Datensatz - Attributbeziehung <li>Datensatz - Datenflussbeziehung <li>Namenssuche <li>Name- und ID-Suche | <li>Verfolgung <li>Erstellt von <li>Datensatz - Batch-Beziehung <li>Erstellen/Ändern von Datensätzen <li>Datensatzgröße <li>Anzahl der Profile <li>Anzahl Zeilen <li>Wertesuche |
 | Ziele | <li>Konfigurierte Zielzählungen <li>Ziel - Zielgruppenbeziehung <li>Zielattributbeziehung | <li>Konto-Setup <li>Informationen zu Kontoanmeldeinformationen <li>Eindeutige Profile aktiviert |
@@ -104,13 +112,13 @@ Bei Fragen zu operativen Einblicken spiegeln die Antworten möglicherweise nicht
 
 Derzeit umfasst der KI-Assistent Folgendes:
 
-* **Produktwissen**: Der KI-Assistent beantwortet Fragen zum Produktwissen von Real-Time Customer Data Platform und Adobe Journey Optimizer B2B edition.
+* **Produktkenntnisse**: Der KI-Assistent beantwortet Fragen zu Produktkenntnissen für Real-Time Customer Data Platform und Adobe Journey Optimizer B2B Edition.
 
 * **Operative Insights**: Sie können Fragen zum KI-Assistenten für operative Insights für die folgenden Datenobjekte stellen: Attribute, Account-Zielgruppen, Datenflüsse, Datensätze, Ziele, Account-Journey, Schemata, Quellen, Einkaufsgruppenvorlagen und Lösungsinteressen.
 
 ### Datenschutz, Sicherheit und Governance
 
-Der KI-Assistent in Journey Optimizer B2B edition legt den Schwerpunkt auf Datenschutz, Sicherheit und Governance. Lesen Sie die folgenden Informationen, um mehr über die auf das Kundenvertrauen fokussierten Funktionen zu erfahren, die Sie vom KI-Assistenten erwarten können:
+Der KI-Assistent in Journey Optimizer B2B Edition legt den Schwerpunkt auf Datenschutz, Sicherheit und Governance. Lesen Sie die folgenden Informationen, um mehr über die auf das Kundenvertrauen fokussierten Funktionen zu erfahren, die Sie vom KI-Assistenten erwarten können:
 
 * KI Assistant verwendet heutzutage keine personenbezogenen Daten, auch nicht für Trainingszwecke.
 
@@ -118,7 +126,7 @@ Der KI-Assistent in Journey Optimizer B2B edition legt den Schwerpunkt auf Daten
 
 * Sie müssen explizit die Berechtigung haben, mit dem KI-Assistenten zu interagieren.
 
-  * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/browse){target="_blank"}.
+  * Ein Administrator kann Berechtigungen mithilfe der [Benutzeroberfläche „Berechtigungen“ ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} der [Admin Console ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse){target="_blank"}.
 
   * Die Berechtigungen sind granular und Ihr Sandbox-Administrator kann konfigurieren, welche Benutzer verschiedene Fragenkategorien stellen können (Produktkenntnisse mit dem KI-Assistenten oder Fragen zu betrieblichen Einblicken).
 
@@ -130,7 +138,7 @@ Der KI-Assistent in Journey Optimizer B2B edition legt den Schwerpunkt auf Daten
 
 ### Häufig gestellte Fragen
 
-Im Folgenden finden Sie eine Liste von Antworten auf häufig gestellte Fragen zum KI-Assistenten in Journey Optimizer B2B edition.
+Im Folgenden finden Sie eine Liste von Antworten auf häufig gestellte Fragen zum KI-Assistenten in Journey Optimizer B2B Edition.
 
 **Werden die Informationen des KI-Assistenten in Echtzeit bereitgestellt?**
 

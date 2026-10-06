@@ -1,30 +1,38 @@
 ---
 title: Kontodetails
-description: Account Insights mit KI-generierten Zusammenfassungen, Absichtserkennung, Kontaktabdeckungsanalyse und E-Mail-Nachrichten in Journey Optimizer B2B edition anzeigen.
+description: Account Insights mit KI-generierten Zusammenfassungen, Absichtserkennung, Kontaktabdeckungsanalyse und E-Mail-Nachrichten in Journey Optimizer B2B Edition anzeigen.
 feature: Account Insights
 role: User
 exl-id: 12be33de-0a43-43d9-90b8-fe4411a50599
+autotag-review: 2026-03-27T22:20:55.565Z
+TQID: 'https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
+  - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+subfeature_v2:
+  - id: aa03b4f9-8230-4f55-8705-d4fda6d64f2b
+    internal-label: Account insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-27T22:20:55.565Z
-TQID: https://experienceleague.adobe.com/aadp-v3fGMq6ZWQsgEM93wbLpBrtXnDt-B5-cjxqdBA
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 640
+source-wordcount: '640'
 ht-degree: 7%
-
 ---
-
 # Kontodetails
 
-Wenn Sie in Journey Optimizer B2B edition von einer beliebigen Stelle auf einen Kontonamen klicken _wird die_ „Kontodetails“ angezeigt. Diese Seite enthält Informationen zum -Konto, einschließlich Zusammenfassungen zur generativen KI. Es gibt auch [Aktionen](#send-email) die Sie für Kontakte ausführen können, die mit dem Konto verknüpft sind.
+Wenn Sie in Journey Optimizer B2B Edition von einer beliebigen Stelle auf einen Kontonamen klicken _wird die_ „Kontodetails“ angezeigt. Diese Seite enthält Informationen zum -Konto, einschließlich Zusammenfassungen zur generativen KI. Es gibt auch [Aktionen](#send-email) die Sie für Kontakte ausführen können, die mit dem Konto verknüpft sind.
 
 ![Zugriff auf Kontodetails](./assets/account-details.png){width="700" zoomable="yes"}
 
@@ -49,7 +57,7 @@ Der Abschnitt Kontoübersicht enthält die folgenden Kontoinformationen:
 
 ### Absichtsdaten
 
-In Journey Optimizer B2B edition prognostiziert das Absichtserkennungsmodell basierend auf der Kontokontaktaktivität eine Lösung/ein Produkt von Interesse mit ausreichend hoher Konfidenz. Die Absicht von Account-Kontakten kann als die Wahrscheinlichkeit interpretiert werden, dass ein Interesse an einem Produkt besteht.
+In Journey Optimizer B2B Edition prognostiziert das Modell der Absichtserkennung eine Lösung/ein Produkt von Interesse mit ausreichend hoher Konfidenz basierend auf der Kontokontaktaktivität. Die Absicht von Account-Kontakten kann als die Wahrscheinlichkeit interpretiert werden, dass ein Interesse an einem Produkt besteht.
 
 {{intent-data-note}}
 
@@ -93,10 +101,10 @@ Im Abschnitt _[!UICONTROL Kontaktüberschneidung]_ werden Kontakte aus dem Konto
 
 Klicken Sie auf _Information_ ( ![Informationssymbol](../assets/do-not-localize/icon-info.svg) ) neben dem Kontaktnamen, um eine Tabelle mit den folgenden Details anzuzeigen:
 
-* Einkaufsgruppe (klicken Sie auf den Namen, um die [Einkaufsgruppendetails) &#x200B;](../buying-groups/buying-group-details.md) öffnen
+* Einkaufsgruppe (klicken Sie auf den Namen, um die [Einkaufsgruppendetails) ](../buying-groups/buying-group-details.md) öffnen
 * Rolle
 * Lösungsinteresse
-* Produktabsicht (falls [&#x200B; konfiguriert](../admin/intent-data.md))
+* Produktabsicht (falls [ konfiguriert](../admin/intent-data.md))
 * Produkt
 
 Klicken Sie oben links auf _Filter_-Symbol ![Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die Datenanzeige mit einem der folgenden Attribute zu filtern:

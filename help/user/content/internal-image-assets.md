@@ -1,33 +1,39 @@
 ---
 title: Arbeiten mit Assets für interne Bilder
-description: 'Durchsuchen, Verwalten und Verwenden von Journey Optimizer B2B edition-Assets: Organisieren von Ordnern, Bearbeiten von Bildern und Erstellen von Inhalten für Account-Journey.'
+description: 'Durchsuchen, Verwalten und Verwenden von Journey Optimizer B2B Edition-Assets: Organisieren von Ordnern, Bearbeiten von Bildern und Erstellen von Inhalten für Account-Journey.'
 feature: Assets, Content
 role: User
 exl-id: 430ae5b7-2691-454c-bbd2-5a0b7a8843fb
+autotag-review: 2026-03-30T22:14:12.746Z
+TQID: 'https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
-autotag-review: 2026-03-30T22:14:12.746Z
-TQID: https://experienceleague.adobe.com/YsLXorT6DkcbCPecnroWm1Gq-Vs7czRW34IlByASfiQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Digital asset management
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1765
+source-wordcount: '1765'
 ht-degree: 1%
-
 ---
-
 # Arbeiten mit internen Bild-Assets
 
 Das interne Bild-Asset-Repository ist die standardmäßige Bild-Asset-Quelle. Sie können die verfügbaren Assets einfach verwalten und verwenden, um Inhalte zu entwerfen, die die Journey Ihres Kontos unterstützen.
 
-Sie verfügen über alle Asset-Management-Funktionen in Journey Optimizer B2B edition. Zu diesen Funktionen gehören:
+Sie verfügen über alle Asset-Management-Funktionen in Journey Optimizer B2B Edition. Zu diesen Funktionen gehören:
 
 * [Ersetzen](#replace-assets)
 * [Löschen](#delete-assets)
@@ -36,7 +42,7 @@ Sie verfügen über alle Asset-Management-Funktionen in Journey Optimizer B2B ed
 
 ## Durchsuchen von und Zugreifen auf Assets
 
-Um auf interne Assets in Journey Optimizer B2B edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Assets]**. Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
+Um auf interne Assets in Journey Optimizer B2B Edition zuzugreifen, gehen Sie zum linken Navigationsbereich und klicken Sie auf **[!UICONTROL Content-Management]** > **[!UICONTROL Assets]**. Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
 
 ![Durchsuchen von Bild-Assets](assets/assets-list-page.png){width="800" zoomable="yes"}
 
@@ -58,13 +64,13 @@ Klicken Sie auf den Namen eines Assets, um die Asset-Detailseite zu öffnen.
 
 ## Anzeigen von durch Verweise verwendeten Assets
 
-Klicken Sie auf der Seite mit den Asset-Details auf die Registerkarte **[!UICONTROL Verwendet von]**, um Details zur aktuellen Verwendung des Assets in Journey Optimizer B2B edition sowie zu E-Mails, E-Mail-Vorlagen und Fragmenten anzuzeigen.
+Klicken Sie auf der Seite mit den Asset-Details auf die Registerkarte **[!UICONTROL Verwendet von]**, um Details zur aktuellen Verwendung des Assets in Journey Optimizer B2B Edition sowie zu E-Mails, E-Mail-Vorlagen und Fragmenten anzuzeigen.
 
 >[!IMPORTANT]
 >
 >Assets, die derzeit in _E_ Mails, E-Mail-Vorlagen oder Fragmenten VERWENDET) sind **können** gelöscht werden.
 
-Im Bedienfeld werden die Verweise nach Kategorie angezeigt: _E_, _E-Mail-Vorlage_ oder _Fragment_. E-Mails in Journey Optimizer B2B edition sind in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die das Asset verwendet, als Referenzen angezeigt wird.
+Im Bedienfeld werden die Verweise nach Kategorie angezeigt: _E_, _E-Mail-Vorlage_ oder _Fragment_. E-Mails in Journey Optimizer B2B Edition sind in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die das Asset verwendet, als Referenzen angezeigt wird.
 
 Durch Klicken auf den Link werden Sie zu der entsprechenden E-Mail, E-Mail-Vorlage oder dem Fragment weitergeleitet, in der bzw. dem das Asset verwendet wird.
 
@@ -72,7 +78,7 @@ Durch Klicken auf den Link werden Sie zu der entsprechenden E-Mail, E-Mail-Vorla
 
 ## Hinzufügen von Assets
 
-Auf der Listenseite _Assets_ können Sie Bild-Assets zum Journey Optimizer B2B edition Asset-Repository hinzufügen.
+Auf der Listenseite _Assets_ können Sie Bild-Assets zum Journey Optimizer B2B Edition Asset-Repository hinzufügen.
 
 1. Klicken **[!UICONTROL oben]** auf &quot;Assets hinzufügen“.
 
@@ -102,7 +108,7 @@ Verwenden Sie eine der folgenden Methoden, um ein Asset zu löschen:
 
   ![Zugriff auf Aktionen für das Asset](./assets/assets-details-more-menu.png){width="450" zoomable="yes"}
 
-* Klicken Sie auf der __ Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Löschen]** aus den Optionen.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Löschen]** aus den Optionen.
 
   ![Zugriff auf Aktionen für das Asset](./assets/assets-list-file-more-menu.png){width="600" zoomable="yes"}
 
@@ -112,11 +118,11 @@ Wenn das Asset derzeit verwendet wird, wird durch die Aktion ein Informationsdia
 
 ## Ersetzen von Assets
 
-Verwenden Sie eine der folgenden Methoden, um ein Asset im Asset-Repository _[!UICONTROL Journey Optimizer B2B edition]_ zu ersetzen:
+Verwenden Sie eine der folgenden Methoden, um ein Asset im Asset-Repository _[!UICONTROL Journey Optimizer B2B Edition]_ zu ersetzen:
 
 * Gehen Sie zu den Asset-Details und klicken Sie auf **[!UICONTROL … Mehr]** oben rechts und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
 
-* Klicken Sie auf der __ Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf das Symbol Mehr_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Ersetzen]** aus den Optionen aus.
 
 Ziehen _[!UICONTROL im Dialogfeld]_ Asset ersetzen“ die Ersatzdatei per Drag-and-Drop von Ihrem System in das Feld „Datei“. Sie können auch auf den Link _[!UICONTROL Datei auf Ihrem Computer auswählen]_ klicken, um Ihr lokales Dateisystem zur Auswahl einer Datei zu verwenden. (Wenn Sie mehrere Dateien in Ihrem lokalen System auswählen, wird die erste ausgewählte Datei für den Ersatz verwendet.)
 
@@ -132,7 +138,7 @@ Sie können ein Asset mit einer der folgenden Methoden herunterladen:
 
 * Gehen Sie zu den Asset-Details und klicken **[!UICONTROL oben]** auf „Herunterladen“.
 
-* Klicken Sie auf der __ Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen aus.
+* Klicken Sie auf der ]__[!UICONTROL  Assets _auf die_ (**[!UICONTROL …]**) neben dem Asset-Element und wählen Sie **[!UICONTROL Herunterladen]** aus den Optionen aus.
 
 Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Herunterladen]**, um das Herunterladen des Assets auf Ihr lokales System zu starten. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken.
 
@@ -142,7 +148,7 @@ Wählen Sie auf der Listenseite (_[!UICONTROL Content-Management]_ > _[!UICONTRO
 
 ![Ausgewählte Assets](./assets/assets-list-selected.png){width="700" zoomable="yes"}
 
-Sie können die folgenden Massenaktionen für ausgewählte Assets durchführen, die sich im Asset-Repository _[!UICONTROL Journey Optimizer B2B edition]_ befinden:
+Sie können die folgenden Massenaktionen für ausgewählte Assets durchführen, die sich im Asset-Repository _[!UICONTROL Journey Optimizer B2B Edition]_ befinden:
 
 +++Verschieben von Assets
 
@@ -174,7 +180,7 @@ Sie können die folgenden Massenaktionen für ausgewählte Assets durchführen, 
 
 ## Erstellen eines Ordners
 
-1. Klicken Sie auf der __ Assets **[!UICONTROL oben rechts auf]** Ordner erstellen“.
+1. Klicken Sie auf der ]__[!UICONTROL  Assets **[!UICONTROL oben rechts auf]** Ordner erstellen“.
 
 1. Geben Sie im Dialogfeld den Ordnernamen ein und wählen Sie den Ziel-(übergeordneten) Ordner für den neuen Ordner aus.
 
@@ -280,8 +286,8 @@ Durch diese Aktion wird das Bedienfeld Tools geändert, das eine Liste der verf�
 
   Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden können:
 
-   * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
+  * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
 
-   * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
+  * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
 
   ![Verwenden Sie das Filter- und Suchfeld, um das benötigte Asset zu finden](./assets/assets-select-dialog-marketo-filtered.png){width="700" zoomable="yes"}

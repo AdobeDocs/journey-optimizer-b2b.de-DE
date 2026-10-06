@@ -4,25 +4,31 @@ description: Konfigurieren Sie Ihre Branding-Domains so, dass jede Ihrer Marken 
 feature: Setup, Channels
 role: Admin
 exl-id: ccbcbbee-a5be-46fe-bae0-ab026e5cdb72
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: f67a6703d32e133be7c3422e1d5ceb6099da849e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 913
+source-wordcount: '913'
 ht-degree: 75%
-
 ---
-
 # Konfigurieren von Branding-Domains
 
 Eine Branding-Domain in Marketo Engage ist eine benutzerdefinierte Subdomain (z. B. `links.yourcompany.com`), mit der Links umgeschrieben und E-Mail-Klicks verfolgt werden können, um sicherzustellen, dass sie Ihre Marke widerspiegeln statt einer generischen Domain. Jede Branding-Domain fungiert als Klick-Tracking-Domain, um die Zustellbarkeit und das Vertrauen zu verbessern, indem Ihre E-Mail-Links und Landingpage-Links mit Ihrer Domain abgeglichen werden.
@@ -41,7 +47,7 @@ E-Mail-Tracking-Links müssen neu und für die angehängte Marketo Engage-Instan
 
 >[!PREREQUISITES]
 >
->Bevor Sie eine Domain in der Benutzeroberfläche bearbeiten oder hinzufügen, müssen Sie über einen [zugeordneten CNAME zu einer von Adobe bereitgestellten Marketo Engage-Domain](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} verfügen.
+>Bevor Sie eine Domain in der Benutzeroberfläche bearbeiten oder hinzufügen, müssen Sie über einen [zugeordneten CNAME zu einer von Adobe bereitgestellten Marketo Engage-Domain](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/setup-steps#customize-your-landing-page-urls-with-a-cname){target="_blank"} verfügen.
 >
 >Beim Hinzufügen einer Domain sucht das System nach bereits vorhandenen SSLs, die zuvor manuell erstellt wurden. Wenn diese Validierung auftritt, erstellen Sie Ihre Domain, ohne die SSL-Erstellung auszuwählen, und verbinden Sie sie dann als separates Verfahren.
 
@@ -84,7 +90,7 @@ Der erste Schritt bei der Arbeit mit Branding-Domains besteht darin, die in Ihre
 
 ## Definieren einer zusätzlichen Domain
 
-Um mehrere Marken in Ihrer Journey Optimizer B2B edition-Umgebung zu unterstützen, von denen jede über eigene Marken-Tracking-Links verfügt, können Sie nach der Bearbeitung der Standard-Domain eine weitere Branding-Domain hinzufügen. Beim Hinzufügen einer Domain stehen die folgenden Optionen zur Verfügung:
+Um mehrere Marken in Ihrer Journey Optimizer B2B Edition-Umgebung zu unterstützen, von denen jede über eigene Marken-Tracking-Links verfügt, können Sie nach der Bearbeitung der Standard-Domain eine weitere Branding-Domain hinzufügen. Beim Hinzufügen einer Domain stehen die folgenden Optionen zur Verfügung:
 
 >* _Primäre Domain festlegen_: Wählen Sie diese als primäre Domain für den Arbeitsbereich aus. Wenn Sie diese Option auswählen, werden alle vorhandenen nicht gesendeten E-Mails auf die standardmäßige primäre Domain festgelegt und alle neu erstellten E-Mails verwenden automatisch diese primäre Domain. Marketer können bei Bedarf eine alternative Branding-Domain auswählen.
 >
@@ -106,7 +112,7 @@ _Domain hinzufügen :_
 
    >[!NOTE]
    >
-   >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://experienceleague.adobe.com/de/support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
+   >**_Benutzerdefinierte SSL_**: Wenn Sie eine benutzerdefinierte SSL benötigen, können Sie ein [Support-Ticket](https://experienceleague.adobe.com/en/support){target="_blank"} senden. Aktivieren Sie nicht das Kontrollkästchen für die SSL-Erstellung.
 
 <!-- 
 1. If you have multiple workspaces defined for your Marketo Engage instance, click **[!UICONTROL Next]**.

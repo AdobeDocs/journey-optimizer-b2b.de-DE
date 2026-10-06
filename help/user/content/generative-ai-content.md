@@ -25,6 +25,8 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
@@ -34,7 +36,7 @@ topic_v2:
     internal-label: Customer experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
 source-wordcount: '2430'
 ht-degree: 32%
@@ -413,7 +415,7 @@ Der Ton bestimmt, wie Ihre Zielgruppe Ihre Nachricht wahrnimmt und darauf reagie
 
 Referenzinhaltsdateien enthalten Fakten, die Ihre generierten Inhalte mit spezifischen, präzisen Details anreichern. Um festzulegen, welche Teile im Fokus sind, ändern Sie die Eingabeaufforderung beim Hochladen von Dokumenten, z. B. Produktbroschüren oder Whitepapers:
 
-* **anstelle von** _„Verwenden Sie die Produktbroschüre“_&#x200B;**verwenden**&quot;_„Konzentrieren Sie sich auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf SOC 2-Compliance und Datenverschlüsselung“_
+* **anstelle von** _„Verwenden Sie die Produktbroschüre“_**verwenden**&quot;_„Konzentrieren Sie sich auf die erweiterten Sicherheitsfunktionen und Compliance-Zertifizierungen, insbesondere auf SOC 2-Compliance und Datenverschlüsselung“_
 
 * **Statt** _„Referenzieren Sie die Fallstudien“_ **verwenden** _„Markieren Sie die ROI-Ergebnisse von Kundinnen und Kunden im Gesundheitswesen, insbesondere die Kostenreduzierung um 40 % im regionalen medizinischen Zentrum“_
 

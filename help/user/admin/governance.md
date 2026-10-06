@@ -1,28 +1,35 @@
 ---
 title: Governance- und Datenschutzfunktionen
-description: Erfahren Sie mehr über Governance-Funktionen, die derzeit in Journey Optimizer B2B edition verfügbar sind.
+description: Erfahren Sie mehr über die derzeit in Journey Optimizer B2B Edition verfügbaren Governance-Funktionen.
 feature: Setup
 role: Admin
 exl-id: 2845272b-987c-4a37-adf4-6ee5bfd59fc0
+autotag-review: 2026-03-27T23:18:44.352Z
+TQID: 'https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: 2026-03-27T23:18:44.352Z
-TQID: https://experienceleague.adobe.com/PwH34suDPc84nB9eiAWtrkVzsOw82RRGw4hrRogf9zE
-source-git-commit: 6af5c69aac417f557472bdb80df9de7460e65f16
+    internal-label: Privacy
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '692'
 ht-degree: 2%
-
 ---
-
 # Governance- und Datenschutzfunktionen
 
 [!DNL Journey Optimizer B2B Edition] ist eine integrierte Adobe Experience Platform-App. Sie verwendet mehrere Tools und Services, die die Kontrolle über Ihre erfassten Erlebnisdaten in Übereinstimmung mit Ihren Geschäftspraktiken, rechtlichen Verpflichtungen und Entwicklungsprozessen ermöglichen. Die folgenden Abschnitte enthalten eine Zusammenfassung jeder dieser Governance-Funktionen.
@@ -33,13 +40,13 @@ Für [!DNL Journey Optimizer B2B Edition] Benutzer, die Daten von betroffenen Pe
 
 ### DSGVO
 
-Die Datenschutz-Grundverordnung (DSGVO) ist das Datenschutzrecht der Europäischen Union (EU), das die [Datenschutzanforderungen) für &#x200B;](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} EU-Länder harmonisiert und modernisiert.
+Die Datenschutz-Grundverordnung (DSGVO) ist das Datenschutzrecht der Europäischen Union (EU), das die [Datenschutzanforderungen) für ](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} EU-Länder harmonisiert und modernisiert.
 
 [!DNL Journey Optimizer B2B Edition] verwendet die bestehende DSGVO-Governance-Funktion von Experience Platform, die von Privacy Service bereitgestellt wird. Informationen zum Senden und Verwalten von Zugriffs- und Löschanfragen finden Sie unter [_Datenschutzverwaltung_](./privacy-management.md).
 
 ### CNIL
 
-Am 14. April 2026 veröffentlichte die Commission nationale de l&#39;informatique et des libertés ([) eine Empfehlung &#x200B;](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) die Verwendung von Tracking-Pixeln in E-Mails. In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie wirkt sich auf alle Entitäten aus, die E-Mails an Abonnentinnen und Abonnenten mit Sitz in Frankreich senden.
+Am 14. April 2026 veröffentlichte die Commission nationale de l&#39;informatique et des libertés ([) eine Empfehlung ](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) die Verwendung von Tracking-Pixeln in E-Mails. In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie wirkt sich auf alle Entitäten aus, die E-Mails an Abonnentinnen und Abonnenten mit Sitz in Frankreich senden.
 
 CNIL räumte Unternehmen ab dem Datum der Empfehlung einen Zeitraum von drei Monaten ein, um ihre E-Mail-Empfänger über das Vorhandensein der Tracking-Pixel, ihren Zweck und das Recht der Empfänger auf Opt-out zu informieren. Während dieser Übergangsphase wird von Marketo Engage-Benutzenden erwartet, dass sie ihre Empfängerinnen und Empfänger über das Pixel-Tracking informieren und bei Bedarf eine Abmeldung ermöglichen. CNIL wird voraussichtlich nach dem 14. Juli 2026 mit Durchsetzungsmaßnahmen beginnen.
 
@@ -49,17 +56,17 @@ Während die CNIL und andere Regulierungsbehörden die Richtlinien zur Verfolgun
 
 ## Rollenbasierte Zugriffskontrolle (RBAC)
 
-Mit Journey Optimizer B2B edition und Zugriff auf Adobe Admin Console können Admins einem Benutzer Berechtigungen für einen Entitätstyp erteilen (Anzeigen von Segmenten, Verwalten von Segmenten, Verwalten von Journey-Segmenten usw.). Diese Funktion ist Teil des Unified Permissions Framework (UPF), mit dem alle Adobe Experience Platform-Kunden Rollen und Berechtigungen für ihr Unternehmen definieren und verwalten können.
+Mit Journey Optimizer B2B Edition und Zugriff auf die Adobe Admin Console können Admins einem Benutzer Berechtigungen für einen Entitätstyp erteilen (Anzeigen von Segmenten, Verwalten von Segmenten, Verwalten von Journey-Segmenten usw.). Diese Funktion ist Teil des Unified Permissions Framework (UPF), mit dem alle Adobe Experience Platform-Kunden Rollen und Berechtigungen für ihr Unternehmen definieren und verwalten können.
 
 ## Datenverschlüsselung
 
-**_Verschlüsselung ruhender Daten_** - Alle von Adobe Experience Platform in Journey Optimizer B2B edition übertragenen Konto- und Personenprofildaten werden verschlüsselt, um die bestehende Konformität von Experience Platform aufrechtzuerhalten. Alle Entitäten mit Ursprung in Journey Optimizer B2B edition, z. B. Journeys und Einkaufsgruppen, werden ebenfalls verschlüsselt.
+**_Verschlüsselung ruhender Daten_** - Alle von Adobe Experience Platform in Journey Optimizer B2B Edition übertragenen Konto- und Personenprofildaten werden verschlüsselt, um die bestehende Konformität von Experience Platform aufrechtzuerhalten. Alle Entitäten mit Ursprung in Journey Optimizer B2B Edition, z. B. Journeys und Einkaufsgruppen, werden ebenfalls verschlüsselt.
 
-**_Verschlüsselung von Daten bei der Übertragung_** (über ein öffentliches Netzwerk) - Alle Journey Optimizer B2B edition-APIs und -Entitäten werden während der Übertragung mit TLS 1.2 verschlüsselt.
+**_Verschlüsselung von Daten bei der Übertragung_** (über ein öffentliches Netzwerk) - Alle Journey Optimizer B2B Edition-APIs und -Entitäten werden bei der Übertragung mit TLS 1.2 verschlüsselt.
 
 ## Opt-in/Opt-out für Einverständnis
 
-Journey Optimizer B2B edition liest die in den XDM-Profilen von Adobe Experience Platform gespeicherten Einverständnisvoreinstellungen pro Person und erzwingt diese zum Zeitpunkt des Nachrichtenversands für E-Mail-, SMS- und WhatsApp-Kanäle. Eine Person, die sich gegen einen Kanal entschieden hat, wird vom Versand ausgeschlossen, bevor Inhalte vom Kanal oder nachgelagerten Messaging-Anbieter gesendet werden.
+Journey Optimizer B2B Edition liest die in den XDM-Profilen von Adobe Experience Platform gespeicherten Einverständnisvoreinstellungen pro Person und erzwingt diese zum Zeitpunkt des Nachrichtenversands für E-Mail-, SMS- und WhatsApp-Kanäle. Eine Person, die sich gegen einen Kanal entschieden hat, wird vom Versand ausgeschlossen, bevor Inhalte vom Kanal oder nachgelagerten Messaging-Anbieter gesendet werden.
 
 Das Einverständnis wird zum Zeitpunkt des Versands mithilfe von XDM-Feldern aus der Feldergruppe „Profileinverständnis“ ausgewertet. Das standardmäßige Einverständnisverhalten unterscheidet sich je nach Kanal - E-Mail ist standardmäßig aktiviert, wenn keine Voreinstellung festgelegt ist, während SMS und WhatsApp standardmäßig deaktiviert sind.
 
@@ -67,7 +74,7 @@ Einzelheiten zu den für jeden Kanal ausgewerteten XDM-Attributen und deren Stan
 
 ## Zurücksetzen der Sandbox
 
-Das Zurücksetzen von Sandboxes **für Adobe Journey Optimizer B2B edition** derzeit nicht unterstützt. Das Zurücksetzen oder Löschen einer Sandbox, die [!DNL Journey Optimizer B2B Edition] zugeordnet ist, kann zu dauerhaftem Datenverlust führen und erfordert die Bereitstellung einer neuen Instanz.
+Das Zurücksetzen von Sandboxes **für Adobe Journey Optimizer B2B Edition** derzeit nicht unterstützt. Das Zurücksetzen oder Löschen einer Sandbox, die [!DNL Journey Optimizer B2B Edition] zugeordnet ist, kann zu dauerhaftem Datenverlust führen und erfordert die Bereitstellung einer neuen Instanz.
 
 ## Noch nicht verfügbar
 

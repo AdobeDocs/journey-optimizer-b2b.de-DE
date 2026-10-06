@@ -1,27 +1,35 @@
 ---
 title: Journey Details
-description: Überwachen Sie die Account-Journey-Performance mit Abschlussraten, Interaktionsmetriken, E-Mail-/SMS-Analysen und KI-Einblicken in Journey Optimizer B2B edition.
+description: Überwachen Sie die Account-Journey-Performance mit Abschlussraten, Interaktionsmetriken, E-Mail-/SMS-Analysen und KI-Einblicken in Journey Optimizer B2B Edition.
 feature: Dashboards, Account Journeys
 role: User
 exl-id: 09a0e06a-1fd3-44da-9774-23f125f2823d
+autotag-review: 2026-03-30T23:21:08.953Z
+TQID: 'https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+subfeature_v2:
+  - id: c31bc6c7-76bc-467b-80c0-7315a4e3f6be
+    internal-label: Account Journeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: 2026-03-30T23:21:08.953Z
-TQID: https://experienceleague.adobe.com/a5tIOW39sq3Lq30pQ3yr7-IvLGaAXC6LKqY8-mpxCDY
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+    internal-label: Insights
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 1%
-
 ---
-
 # Journey-Details
 
 Wenn Sie auf den Namen für eine aktive Konto-Journey klicken, werden die Journey-Details angezeigt. Die Registerkarte _[!UICONTROL Überblick]_ enthält nützliche Informationen zum Journey, einschließlich der Zusammenfassungen der generativen KI.
@@ -81,7 +89,7 @@ Interagieren Sie mit den Daten über das Aktionssymbol (**…**) oben rechts in 
 
 ### Drill-Through
 
-Wählen Sie für das __ Journey-Status **[!UICONTROL Diagramm „Drill-Through]**, um eine detaillierte Analyse der individuellen Kontostatus durchzuführen.
+Wählen Sie für das ]__[!UICONTROL  Journey-Status **[!UICONTROL Diagramm „Drill-Through]**, um eine detaillierte Analyse der individuellen Kontostatus durchzuführen.
 
 ![Der Drill-Through für die Diagrammdaten](./assets/journey-status-drill-through.png){width="600" zoomable="yes"}
 <!--

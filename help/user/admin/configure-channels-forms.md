@@ -7,22 +7,31 @@ autotag-review: '2026-05-27T16:06:59.553Z'
 TQID: 'https://experienceleague.adobe.com/GFW5SZ5Z-phoEIE6jTVD7EgwcT1Vx647mjoLXJejbFg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Data collection
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 542
-ht-degree: 16%
-
+source-wordcount: '542'
+ht-degree: 19%
 ---
-
 # Forms-Konfigurationen
 
 Bevor Marketer Formulare [erstellen und veröffentlichen](../content/forms.md) um sie auf ihren Landingpages zu verwenden, muss ein Produktadministrator eine oder mehrere dedizierte Voreinstellungen erstellen. Jede Vorgabe definiert den Verbindungsendpunkt, der zum Senden der Formularübermittlungsdaten verwendet wird, und den Datensatz, der zum Speichern der erfassten Daten verwendet wird.
@@ -33,14 +42,14 @@ Wenn Daten auf dem Streaming-Endpunkt landen, werden sie mit den Datensatzinform
 
 ## Voraussetzungen
 
-Um Web-Formulare verwenden zu können, müssen mindestens eine _&#x200B;**HTTP-API-Streaming-Verbindung**&#x200B;_ in Adobe Experience Platform definiert sein. Stellen Sie sicher, dass jede Verbindung, die Sie verwenden möchten, die folgenden Anforderungen erfüllt:
+Um Web-Formulare verwenden zu können, müssen mindestens eine _**HTTP-API-Streaming-Verbindung**_ in Adobe Experience Platform definiert sein. Stellen Sie sicher, dass jede Verbindung, die Sie verwenden möchten, die folgenden Anforderungen erfüllt:
 
 * Datentyp muss auf XDM festgelegt sein (nicht auf Rohdaten)
 * Authentifizierung muss deaktiviert sein (nicht authentifizierte Verbindung)
 
 Detaillierte Informationen zum Erstellen von Streaming-Quellverbindungen finden Sie in der [_Experience Platform-Dokumentation_](https://experienceleague.adobe.com/de/docs/experience-platform/sources/ui-tutorials/create/streaming/http).
 
-Die Forms-Kanalkonfiguration in Journey Optimizer B2B edition erfordert die folgenden [Berechtigungen](../admin/user-management.md#b2b-product-permissions):
+Die Forms-Kanalkonfiguration in Journey Optimizer B2B Edition erfordert die folgenden [Berechtigungen](../admin/user-management.md#b2b-product-permissions):
 
 * _[!UICONTROL B2B-Kanalkonfigurationen]_ > _[!UICONTROL Forms-Vorgaben anzeigen]_ - Erforderlich, um Formularvorgabenkonfigurationen anzuzeigen.
 * _[!UICONTROL B2B-Kanalkonfigurationen]_ > _[!UICONTROL Forms-Voreinstellungen verwalten]_ - Erforderlich zum Erstellen, Aktualisieren und Löschen von Konfigurationen für Formularvorgaben.
@@ -58,9 +67,9 @@ Beim Erstellen einer Voreinstellung:
 
 * Jede Streaming-Verbindung generiert automatisch Ressourcen, z. B.:
 
-   * _Quellverbindung_: Woher die Daten stammen.
-   * _Zielverbindung_: Wo die Daten gespeichert oder genutzt werden.
-   * _Source-Fluss_ - die Pipeline, die Daten von der Quellverbindung nach Experience Platform verschiebt. Es übernimmt die Zuordnung, Umwandlung und Validierung.
+  * _Quellverbindung_: Woher die Daten stammen.
+  * _Zielverbindung_: Wo die Daten gespeichert oder genutzt werden.
+  * _Source-Fluss_ - die Pipeline, die Daten von der Quellverbindung nach Experience Platform verschiebt. Es übernimmt die Zuordnung, Umwandlung und Validierung.
 
 ## Erstellen einer Formularvoreinstellung
 
@@ -76,7 +85,7 @@ Beim Erstellen einer Voreinstellung:
 
    >[!NOTE]
    >
-   >Namen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich `_`, Punkt `.` und Bindestrich `-`.
+   >Namen müssen mit einem Buchstaben (A-Z) beginnen und dürfen nur alphanumerische Zeichen enthalten. Sie können auch die Zeichen Unterstrich (`_`), Punkt (`.`) und Bindestrich (`-`) verwenden.
 
 1. Wählen Sie die **[!UICONTROL Streaming-Verbindung]** aus.
 
