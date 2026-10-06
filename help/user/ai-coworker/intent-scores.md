@@ -43,7 +43,7 @@ ht-degree: 0%
 
 Ein Intent Score misst, wie interessiert eine Person oder ein Konto an einem Keyword, einem Produkt oder einer Produktkategorie ist. Adobe Journey Optimizer B2B Edition berechnet den Score anhand von maschinellem Lernen, das die Ähnlichkeit der Bedeutung misst, und nicht anhand von manuellen Regeln oder einem Festpunktsystem. Jeder Score wird von 0 auf 1 normalisiert, wobei höhere Zahlen eine stärkere Absicht anzeigen.
 
-Die Inhaltsrelevanz wird etwa alle 12 Stunden aktualisiert, und die Intent-Scores werden täglich neu berechnet. Scores aggregieren sich von Keyword zu Produkt und von Person zu Konto. Absichtsbewertungen werden im gesamten [Intelligent Dashboard](../dashboards/intelligent-dashboard.md) und auf den [Kontodetails](../accounts/account-details.md), [_Einkaufsgruppendetails_, ](../buying-groups/buying-group-details.md) und [Personendetails](../accounts/person-details.md) angezeigt.
+Die Inhaltsrelevanz wird etwa alle 12 Stunden aktualisiert, und die Intent-Scores werden täglich neu berechnet. Scores aggregieren sich von Keyword zu Produkt und von Person zu Konto. Absichtsbewertungen werden im gesamten [Intelligent Dashboard](../dashboards/intelligent-dashboard.md) und auf den [Kontodetails](../accounts/account-details.md), [_Einkaufsgruppendetails_, &#x200B;](../buying-groups/buying-group-details.md) und [Personendetails](../accounts/person-details.md) angezeigt.
 
 ![Intent-Datenvisualisierung](../data/assets/intent-data-visualization.png){width="700" zoomable="yes"}
 
@@ -171,7 +171,7 @@ Verwenden Sie die Ansicht auf Produktebene , um zu sehen, welche Produkte insges
 
 Die meiste Scoring-Logik ist darauf ausgelegt, die Ergebnisse im Zeitverlauf zuverlässig und vergleichbar zu halten. Ein Produktadministrator kann zwei Einstellungen an Ihre Anforderungen anpassen:
 
-* **Aktivitätsgewichte** - Erhöhen Sie die Gewichtung von hochwertigen Aktivitäten wie einer Demoanfrage oder einem Seitenbesuch, um eine größere Wirkung auf die Absichtsergebnisse zu erzielen. Um eine Aktivität vollständig auszuschließen, setzen Sie ihre Gewichtung auf null, was für Aktionen wie Abmeldungen nützlich ist, die nicht zur Absicht beitragen. Die Aktivitätsgewichte für die Absichtsberechnung verwenden dasselbe Gewichtungsmodell, das auch zu den [ (Interaktionsbewertungen](../buying-groups/engagement-scores.md) führt. Informationen [_Ändern der Aktivitätsgewichtung finden_](../admin/engagement-score-weighting.md) unter „Konfigurieren der“.
+* **Aktivitätsgewichte** - Erhöhen Sie die Gewichtung von hochwertigen Aktivitäten wie einer Demoanfrage oder einem Seitenbesuch, um eine größere Wirkung auf die Absichtsergebnisse zu erzielen. Um eine Aktivität vollständig auszuschließen, setzen Sie ihre Gewichtung auf null, was für Aktionen wie Abmeldungen nützlich ist, die nicht zur Absicht beitragen. Die Aktivitätsgewichte für die Absichtsberechnung verwenden dasselbe Gewichtungsmodell, das auch zu den [&#x200B; (Interaktionsbewertungen](../buying-groups/engagement-scores.md) führt. Informationen [_Ändern der Aktivitätsgewichtung finden_](../admin/engagement-score-weighting.md) unter „Konfigurieren der“.
 
 * **Taxonomiezuordnungen** - Die Schlüsselwörter, Produkte und Kategorien, auf denen die Bewertung basiert, können verwendet werden. Überprüfen und aktualisieren Sie sie jederzeit auf der Seite _[!UICONTROL Intent Mapping]_. Siehe [_Absichtsdaten_](../admin/intent-data.md) für den Einrichtungsprozess.
 

@@ -40,13 +40,13 @@ Für [!DNL Journey Optimizer B2B Edition] Benutzer, die Daten von betroffenen Pe
 
 ### DSGVO
 
-Die Datenschutz-Grundverordnung (DSGVO) ist das Datenschutzrecht der Europäischen Union (EU), das die [Datenschutzanforderungen) für ](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} EU-Länder harmonisiert und modernisiert.
+Die Datenschutz-Grundverordnung (DSGVO) ist das Datenschutzrecht der Europäischen Union (EU), das die [Datenschutzanforderungen) für &#x200B;](https://commission.europa.eu/law/law-topic/data-protection/data-protection-explained_en){target="_blank"} EU-Länder harmonisiert und modernisiert.
 
 [!DNL Journey Optimizer B2B Edition] verwendet die bestehende DSGVO-Governance-Funktion von Experience Platform, die von Privacy Service bereitgestellt wird. Informationen zum Senden und Verwalten von Zugriffs- und Löschanfragen finden Sie unter [_Datenschutzverwaltung_](./privacy-management.md).
 
 ### CNIL
 
-Am 14. April 2026 veröffentlichte die Commission nationale de l&#39;informatique et des libertés ([) eine Empfehlung ](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) die Verwendung von Tracking-Pixeln in E-Mails. In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie wirkt sich auf alle Entitäten aus, die E-Mails an Abonnentinnen und Abonnenten mit Sitz in Frankreich senden.
+Am 14. April 2026 veröffentlichte die Commission nationale de l&#39;informatique et des libertés ([) eine Empfehlung &#x200B;](https://cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) die Verwendung von Tracking-Pixeln in E-Mails. In der Anleitung wird klargestellt, wann eine Zustimmung erforderlich ist, und die Bedeutung ordnungsgemäßer Zustimmungspraktiken für das E-Mail-Pixel-Tracking hervorgehoben. Diese Richtlinie wirkt sich auf alle Entitäten aus, die E-Mails an Abonnentinnen und Abonnenten mit Sitz in Frankreich senden.
 
 CNIL räumte Unternehmen ab dem Datum der Empfehlung einen Zeitraum von drei Monaten ein, um ihre E-Mail-Empfänger über das Vorhandensein der Tracking-Pixel, ihren Zweck und das Recht der Empfänger auf Opt-out zu informieren. Während dieser Übergangsphase wird von Marketo Engage-Benutzenden erwartet, dass sie ihre Empfängerinnen und Empfänger über das Pixel-Tracking informieren und bei Bedarf eine Abmeldung ermöglichen. CNIL wird voraussichtlich nach dem 14. Juli 2026 mit Durchsetzungsmaßnahmen beginnen.
 

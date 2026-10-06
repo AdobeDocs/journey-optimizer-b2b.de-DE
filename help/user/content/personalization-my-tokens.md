@@ -33,7 +33,7 @@ ht-degree: 2%
 ---
 # Benutzerdefinierte Token für die E-Mail-Personalisierung
 
-Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die beim Generieren des Inhaltsartefakts aufgefüllt werden. Standard-Personalisierungs-Token sind für E-Mails, Landingpages, Fragmente und Vorlagen verfügbar. Sie können auch einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als _Meine Token_ bezeichnet. Jedes dieser benutzerdefinierten Token kann zur Personalisierung beim Verfassen [ Journey-E-Mails verwendet ](./email-authoring.md#personalize-content).
+Die Inhaltspersonalisierung verwendet Token als Platzhalter oder Variablen, die beim Generieren des Inhaltsartefakts aufgefüllt werden. Standard-Personalisierungs-Token sind für E-Mails, Landingpages, Fragmente und Vorlagen verfügbar. Sie können auch einen Satz benutzerdefinierter Token mit Werten definieren, die für die Konto-Journey spezifisch sind. Dieser Satz benutzerdefinierter Token wird als _Meine Token_ bezeichnet. Jedes dieser benutzerdefinierten Token kann zur Personalisierung beim Verfassen [&#x200B; Journey-E-Mails verwendet &#x200B;](./email-authoring.md#personalize-content).
 
 Zusätzlich zu _Meine Token_ die speziell für die Account-Journey gelten, können Sie jedes der standardmäßigen (integrierten) Token für die E-Mail-Personalisierung verwenden.
 
@@ -103,7 +103,7 @@ Wenn Sie E-Mail-Inhalte für Ihre Konto-Journey erstellen, können Sie eines der
 
 1. Wählen Sie die Textkomponente aus und klicken Sie auf das Symbol _Personalisierung hinzufügen_ ( ![Personalisierungssymbol hinzufügen](../../assets/do-not-localize/icon-personalization-field.svg) ) in der Symbolleiste.
 
-   ![Klicken Sie auf das Symbol Personalisierung hinzufügen ](./assets/email-personalize-text.png){width="600"}
+   ![Klicken Sie auf das Symbol Personalisierung hinzufügen &#x200B;](./assets/email-personalize-text.png){width="600"}
 
    Dadurch wird das Dialogfeld _Personalization bearbeiten_ geöffnet. Das Dialogfeld enthält einen Ordner _[!UICONTROL Meine Token]_ in der _[!UICONTROL Personalization Tokens]_-Bibliothek, wenn benutzerdefinierte Token für die Konto-Journey definiert sind.
 

@@ -43,7 +43,7 @@ Admins können bestimmte Adobe Experience Platform (AEP) [Erlebnisereignisse](ht
 
 Die Verwendung von AEP Experience Events in Journey erfolgt in zwei Schritten:
 
-1. Ein Administrator [fügt den Journey Optimizer B2B Edition-Konfigurationen AEP Experience ](#add-an-event) und -felder hinzu.
+1. Ein Administrator [fügt den Journey Optimizer B2B Edition-Konfigurationen AEP Experience &#x200B;](#add-an-event) und -felder hinzu.
 
 1. In einem Journey verwendet ein Marketer die konfigurierten Ereignisse auf eine dieser zwei Arten:
 
@@ -138,7 +138,7 @@ Um die Felder zu ändern, bearbeiten Sie die Ereignisdetails.
 
 1. Klicken Sie auf den Ereignisnamen oder auf das Symbol _Mehr Menü_ ( **…** ) und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   ![Klicken Sie auf das Menüsymbol Mehr ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Klicken Sie auf das Menüsymbol Mehr &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Felder bearbeiten]**, um das Dialogfeld _[!UICONTROL Felder auswählen]_ zu öffnen und weitere Felder hinzuzufügen.
 

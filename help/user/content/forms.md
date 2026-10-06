@@ -75,7 +75,7 @@ Um nach einem Formular anhand des Namens zu suchen, geben Sie eine Textzeichenfo
 
 ### Spaltenanzeige anpassen {#column-display}
 
-Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle ](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
+Passen Sie die Spalten an, die Sie in der Tabelle anzeigen möchten, indem Sie oben rechts auf _Tabelle anpassen_ (![Symbol „Tabelle &#x200B;](../assets/do-not-localize/icon-column-settings.svg)„) klicken.
 
 Wählen Sie im Dialogfeld die anzuzeigenden Spalten aus und klicken Sie auf **[!UICONTROL Anwenden]**.
 
@@ -204,7 +204,7 @@ Formulare, die derzeit von einer Landingpage oder Landingpage-Vorlage verwendet 
 Sie können ein Formular mit einer der folgenden Methoden löschen:
 
 * Klicken Sie oben rechts auf **[!UICONTROL … Weitere]** und wählen Sie **[!UICONTROL Löschen]**.
-* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
+* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Löschen]**.
 
 Diese Aktion öffnet ein Bestätigungsdialogfeld. Sie können den Vorgang abbrechen, indem Sie auf **[!UICONTROL Abbrechen]** klicken oder auf **[!UICONTROL Löschen]** klicken, um den Löschvorgang zu bestätigen.
 
@@ -221,7 +221,7 @@ Duplizieren Sie ein Formular, um schnell und einfach ein neues Formular mit eine
 Sie können ein Formular mit einer der folgenden Methoden duplizieren:
 
 * Klicken Sie oben rechts auf der Seite mit den Formulardetails auf **[!UICONTROL … Mehr]** und wählen Sie **[!UICONTROL Duplizieren]**.
-* Klicken Sie auf der ]__[!UICONTROL  Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
+* Klicken Sie auf der __ Forms _auf die Schaltfläche Mehr_ (**…**) klicken Sie auf das Symbol neben dem Formularnamen und wählen Sie **[!UICONTROL Duplizieren]**.
 
 ![Duplizieren Sie das Formular](./assets/form-list-page-duplicate.png){width="450"}
 
@@ -319,7 +319,7 @@ Bearbeiten Sie das doppelte Formular, um den Namen nach Bedarf zu ändern und da
 
 ## Hinzufügen von Formularen zu einer Landingpage oder Vorlage {#insert-forms}
 
-Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) ](./landing-page-templates.md).
+Forms sind für die Wiederverwendung konzipiert und können eingefügt werden, wenn Sie eine [Landingpage](./landing-page-design.md) oder [Landingpage-Vorlage) &#x200B;](./landing-page-templates.md).
 
 {{$include /help/_includes/content-design-add-forms.md}}
 

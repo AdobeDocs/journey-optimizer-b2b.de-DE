@@ -44,7 +44,7 @@ ht-degree: 1%
 
 Weitere Informationen zur Berechnung des Intent-Scores finden Sie unter [_Intent-Scores_](../ai-coworker/intent-scores.md).
 
-Die Absichtsdaten werden auf der Seite [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Kontodetails_, ](../accounts/account-details.md), [_Einkaufsgruppendetails_ und ](../buying-groups/buying-group-details.md) [_Personendetails_ verwendet](../accounts/person-details.md).
+Die Absichtsdaten werden auf der Seite [_Intelligent Dashboard_](../dashboards/intelligent-dashboard.md), [_Kontodetails_, &#x200B;](../accounts/account-details.md), [_Einkaufsgruppendetails_ und &#x200B;](../buying-groups/buying-group-details.md) [_Personendetails_ verwendet](../accounts/person-details.md).
 
 ## Vorbereiten der Intent-Mapping-Daten
 

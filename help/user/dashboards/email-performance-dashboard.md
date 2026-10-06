@@ -45,7 +45,7 @@ Der **E-Mail** Leistungsbericht bietet Marketing-Experten eine einheitliche Übe
 
 ## Filtern der Daten
 
-Klicken Sie _oben links auf_ Filter![ ( Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die Datenanzeige mithilfe der beiden unterstützten Filtertypen zu filtern. Diese Filter gelten für alle Bereiche gleichzeitig:
+Klicken Sie _oben links auf_ Filter![&#x200B; ( Filtersymbol](../assets/do-not-localize/icon-filter.svg) ), um die Datenanzeige mithilfe der beiden unterstützten Filtertypen zu filtern. Diese Filter gelten für alle Bereiche gleichzeitig:
 
 * **[!UICONTROL Journey]** - Filtert den Bericht, um Daten für eine oder mehrere ausgewählte Journey anzuzeigen. Verwenden Sie diesen Filter, um die Leistung der Journey zu isolieren, die für Ihre Kampagne oder Ihr Programm wichtig sind.
 

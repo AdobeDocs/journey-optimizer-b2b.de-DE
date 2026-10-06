@@ -43,7 +43,7 @@ Nach dem [Erstellen eines Formulars](./forms.md#create-forms) wird im visuellen 
 
 ![Formularentwurfsbereich](./assets/form-new-design-space.png){width="700" zoomable="yes"}
 
-Die _**Senden**_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
+Die _&#x200B;**Senden**&#x200B;_-Schaltfläche (Fußzeilenfeld) ist standardmäßig Teil des Formulars und kann nicht entfernt werden. Sie können die Schaltflächen-/Fußzeilenkomponente im Formular auswählen, um [den Text und die Formatierung für die Schaltfläche zu ändern](#submit-button).
 
 ## Felder
 

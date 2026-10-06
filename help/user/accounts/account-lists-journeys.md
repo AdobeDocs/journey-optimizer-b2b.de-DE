@@ -50,7 +50,7 @@ Alle Account-Journey beginnen mit einem [_Account-Zielgruppe_-Knoten](../journey
 
 **_Nur statische Kontolisten_**
 
-Fügen Sie innerhalb einer Konto-Journey Konten mithilfe eines [einer Aktion _-_ zu einer statischen Kontoliste ](../journeys/action-nodes.md).
+Fügen Sie innerhalb einer Konto-Journey Konten mithilfe eines [einer Aktion _-_ zu einer statischen Kontoliste &#x200B;](../journeys/action-nodes.md).
 
 Sie haben beispielsweise einen Journey-Pfad, über den Sie eine E-Mail senden, und einige Konten führen als Antwort verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey. Mit der Qualifizierung können Sie sie zu einer Kontenliste hinzufügen, die als Zielgruppe für eine andere Journey mit einem anderen Fluss für qualifizierte Konten verwendet wird.
 
@@ -72,7 +72,7 @@ Sie haben beispielsweise einen Journey-Pfad, über den Sie eine E-Mail senden, u
 
 **_Nur statische Kontolisten_**
 
-Entfernen Sie auf einer Konto-Journey Konten mithilfe des Knotens [Aktion ausführen _aus_ statischen ](../journeys/action-nodes.md).
+Entfernen Sie auf einer Konto-Journey Konten mithilfe des Knotens [Aktion ausführen _aus_ statischen &#x200B;](../journeys/action-nodes.md).
 
 Sie haben beispielsweise einen Journey-Pfad, über den Sie eine E-Mail senden, und einige Konten führen als Antwort verschiedene Aktionen aus. Sie betrachten diese Aktivität als Qualifizierungspunkt auf der Journey. Mit dieser Qualifizierung möchten Sie sie aus einer Kontoliste entfernen. Diese Liste wird als Audience für eine andere Journey verwendet, die zusätzliche E-Mails sendet, damit Sie Ihre Qualifizierungskommunikationen nicht duplizieren.
 
@@ -84,8 +84,8 @@ Sie haben beispielsweise einen Journey-Pfad, über den Sie eine E-Mail senden, u
 
 1. Wählen Sie _[!UICONTROL Aktion für Konten]_ die Option **[!UICONTROL Aus Kontoliste entfernen]** aus.
 
-   ![Wählen Sie Aus Kontenliste entfernen ](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
+   ![Wählen Sie Aus Kontenliste entfernen &#x200B;](../journeys/assets/node-action-account-remove-from-account-list.png){width="500"}
 
 1. Wählen **[!UICONTROL unter „Live-]**-Kontoliste auswählen“ die Kontoliste aus, aus der Sie Konten entfernen möchten.
 
-   ![Wählen Sie Aus Kontenliste entfernen ](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}
+   ![Wählen Sie Aus Kontenliste entfernen &#x200B;](../journeys/assets/node-action-account-remove-from-account-list-select.png){width="500"}

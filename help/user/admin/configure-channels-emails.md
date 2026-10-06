@@ -74,7 +74,7 @@ Um die Branding-Domains zu überprüfen, klicken Sie auf die Registerkarte **[!U
 
 ![Zugriff auf die Einstellungen der Branding-Domains](./assets/config-email-delivery-branding-domains.png){width="700" zoomable="yes"}
 
-Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Arbeitsbereiche in der verbundenen Marketo Engage-Instanz. Für neue E-Mails wird diese Domain als Standard verwendet, aber Marketing-[ können sie pro E-Mail überschreiben](../content/add-email.md#define-the-email-settings). Weitere Informationen zur Definition der Standard-Branding-Domain finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
+Diese Einstellung definiert Ihre primäre Domain für einen oder mehrere Arbeitsbereiche in der verbundenen Marketo Engage-Instanz. Für neue E-Mails wird diese Domain als Standard verwendet, aber Marketing-[&#x200B; können sie pro E-Mail überschreiben](../content/add-email.md#define-the-email-settings). Weitere Informationen zur Definition der Standard-Branding-Domain finden Sie in der [Dokumentation zu Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/add-multiple-branding-domains/edit-your-default-branding-domain){target="_blank"}.
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ Kommunikationsbeschränkungen steuern die Anzahl der E-Mails, die ein Kontakt vo
 
 Beispielsweise stellt das System mit einem definierten Limit von fünf E-Mails pro Tag sicher, dass ein Kontakt innerhalb eines Tages keine sechste E-Mail erhält, indem es die sechste E-Mail unterdrückt. Bei gemeinsam genutzten Kommunikations-Limits zwischen Journey Optimizer B2B Edition und Marketo Engage werden die Regeln für Kommunikations-Limits an einem Ort definiert. Die sechste E-Mail wird unabhängig von der Sendeaktion von Journey Optimizer B2B Edition oder Marketo Engage unterdrückt.
 
-Für alle Marketo Engage-Produktionsinstanzen sind standardmäßig Kommunikationsbeschränkungen definiert (weitere Informationen finden Sie in der ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} zu [Marketo Engage). Sie können separate Kommunikations-Limits für Journey Optimizer B2B Edition und Ihre Marketo Engage-Produktionsinstanz verwenden. Um freigegebene Kommunikations-Limits zu verwenden, definieren Sie die Regeln in Journey Optimizer B2B Edition und erweitern Sie die Freigabe dieser Limits auf die Marketo Munchkin-Codes.
+Für alle Marketo Engage-Produktionsinstanzen sind standardmäßig Kommunikationsbeschränkungen definiert (weitere Informationen finden Sie in der [&#128279;](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/email-setup/enable-communication-limits){target="_blank"} zu Marketo Engage). Sie können separate Kommunikations-Limits für Journey Optimizer B2B Edition und Ihre Marketo Engage-Produktionsinstanz verwenden. Um freigegebene Kommunikations-Limits zu verwenden, definieren Sie die Regeln in Journey Optimizer B2B Edition und erweitern Sie die Freigabe dieser Limits auf die Marketo Munchkin-Codes.
 
 >[!IMPORTANT]
 >

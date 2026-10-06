@@ -275,7 +275,7 @@ Verwenden Sie eine Simulation, um zu testen, wie die KI Ihre Eingabeaufforderung
 
 ### Simulation ausführen {#run-simulation}
 
-1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben _rechten Bedienfeld auf_ Simulieren![ ((](../../assets/do-not-localize/icon-simulate-outline.svg)) ).
+1. Wählen Sie den nächstbesten Pfadknoten aus und klicken Sie oben _rechten Bedienfeld auf_ Simulieren![&#x200B; ((](../../assets/do-not-localize/icon-simulate-outline.svg)) ).
 
    ![Nächster bester Pfad - Klicken Sie auf das Symbol „Simulieren“](./assets/node-next-best-path-simulate-select.png){width="500"}
 

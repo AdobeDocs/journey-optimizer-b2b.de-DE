@@ -42,7 +42,7 @@ ht-degree: 2%
 ---
 # Einverständnis mit Kanal-Messaging
 
-Adobe Journey Optimizer B2B Edition liest die in den XDM-Profilen von Adobe Experience Platform gespeicherten Einverständnisvoreinstellungen pro Person und erzwingt diese zum Zeitpunkt des Nachrichtenversands als Teil der [ der App](../admin/governance.md). Personen, die sich gegen einen Kanal entschieden haben, werden vom Versand ausgeschlossen, bevor Inhalte vom Kanal oder nachgelagerten Messaging-Anbieter gesendet werden.
+Adobe Journey Optimizer B2B Edition liest die in den XDM-Profilen von Adobe Experience Platform gespeicherten Einverständnisvoreinstellungen pro Person und erzwingt diese zum Zeitpunkt des Nachrichtenversands als Teil der [&#x200B; der App](../admin/governance.md). Personen, die sich gegen einen Kanal entschieden haben, werden vom Versand ausgeschlossen, bevor Inhalte vom Kanal oder nachgelagerten Messaging-Anbieter gesendet werden.
 
 In den folgenden Abschnitten wird beschrieben, wie Journey Optimizer B2B Edition das Einverständnis zum Zeitpunkt des Nachrichtenversands für jeden unterstützten Kanal bewertet.
 
@@ -80,7 +80,7 @@ Beachten Sie Folgendes für das SMS-Einverständnis:
 
 ## WhatsApp {#whatsapp}
 
-Journey Optimizer B2B Edition wertet die folgenden XDM-Attribute für das WhatsApp-Einverständnis aus, wenn Nachrichten über einen konfigurierten [WhatsApp-Kanal“ gesendet ](../admin/configure-channels-whatsapp.md):
+Journey Optimizer B2B Edition wertet die folgenden XDM-Attribute für das WhatsApp-Einverständnis aus, wenn Nachrichten über einen konfigurierten [WhatsApp-Kanal“ gesendet &#x200B;](../admin/configure-channels-whatsapp.md):
 
 | XDM-Attribut | `y` | `n` | Kein Wert |
 | --- | --- | --- | --- |

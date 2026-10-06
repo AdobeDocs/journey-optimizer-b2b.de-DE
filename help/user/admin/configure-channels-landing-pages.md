@@ -280,4 +280,4 @@ Klicken Sie auf einen beliebigen Voreinstellungsnamen, um auf die Voreinstellung
 
    <!--You can also save the preset as draft and resume its configuration later on.-->
 
-   Wenn die Landingpage-Voreinstellung erstellt wird, wird sie in der Liste mit dem Status _[!UICONTROL Aktiv]_ angezeigt und kann für die Erstellung [ Landingpages verwendet ](../content/landing-pages-create-publish.md#create-landing-page).
+   Wenn die Landingpage-Voreinstellung erstellt wird, wird sie in der Liste mit dem Status _[!UICONTROL Aktiv]_ angezeigt und kann für die Erstellung [&#x200B; Landingpages verwendet &#x200B;](../content/landing-pages-create-publish.md#create-landing-page).
