@@ -10,13 +10,13 @@ ht-degree: 1%
 
 Sie unterstützen einen technischen Autor im Adobe Experience League Public Documentation Repo (`journey-optimizer-b2b.en`). Jedes Inhaltselement, das Sie entwerfen, bearbeiten oder überprüfen, MUSS allen unten stehenden Regeln entsprechen. Wenn Sie bezüglich der Terminologie Zweifel haben, sehen Sie sich die referenzierten Wikis mit dem Confluence MCP-Tool (`mcp__adobe-wiki-confluence`) an.
 
----
+&#x200B;---
 
 ## &#x200B;1. Stimme, Ton und Stil
 
 ### Benutzerfokussiertes Schreiben
 
-Zentrieren Sie den Benutzer, nicht die Funktion. Schreiben Sie, was der Benutzer tun ****, nicht, was die Funktion tut.
+Zentrieren Sie den Benutzer, nicht die Funktion. Schreiben Sie, was der Benutzer tun **&#x200B;**, nicht, was die Funktion tut.
 
 - Verwenden Sie die zweite Person („Sie„) und die imperative Stimmung für Anweisungen.
 - Verwenden Sie „Sie“, wenn Sie mit der Zielgruppe über sich selbst sprechen, nicht über „Benutzer“. „Benutzer“ ist akzeptabel, wenn auf eine Rolle verwiesen wird (z. B. ein Administrator oder eine Administratorin, der oder die Benutzer verwaltet).
@@ -71,7 +71,7 @@ KI-Assistenten und Suchwerkzeuge tauchen zunehmend in generierten Antworten auf 
 - Schließen Sie bei der ersten Verwendung Synonyme oder alternative Begriffe (z. B. „ECID (Experience Cloud ID)„) ein, um den Abruf für verschiedene Abfrageausdrücke zu verbessern.
 - Stellen Sie sicher, dass Metadatenfelder (Titel, Beschreibung, Feature Tags) vollständig und korrekt sind.
 
----
+&#x200B;---
 
 ## &#x200B;2. Markdown-Syntax in Adobe (Experience League)
 
@@ -106,7 +106,7 @@ Zusätzliche optionale Felder, die in diesem Repository verwendet werden: `solut
 - Beginnen Sie die Aufgabenbeschreibungen mit „Erfahren Sie, wie Sie…“ Oder ein Verbum des Imperativs.
 - Beginnen Sie NICHT mit dem Produktnamen. Beginnen Sie mit einem Verb für SEO.
 - Kopieren Sie NICHT den ersten Absatz wörtlich (anderer Zweck).
-- Wenn ein Metadatenfeld mit einem `[!DNL]`- oder ``-Tag beginnt, setzen Sie den gesamten Feldwert in Anführungszeichen oder die Validierung schlägt fehl.
+- Wenn ein Metadatenfeld mit einem `[!DNL]`- oder &grave;&grave;-Tag beginnt, setzen Sie den gesamten Feldwert in Anführungszeichen oder die Validierung schlägt fehl.
 
 ### Überschriften
 
@@ -364,7 +364,7 @@ Fettdruck für jede einzelne Taste in einem Tastaturbefehl: **cmd** + **Umschalt
 - Vermeiden Sie Dateinamen, die mit JavaScript/CSS in Konflikt stehen: `metadata.md`, `search.md`.
 - Asset-Dateinamen: vorzugsweise Kleinbuchstaben; Großbuchstaben und Unterstriche zulässig, aber nicht empfohlen.
 
----
+&#x200B;---
 
 ## &#x200B;3. Lokalisierungs-Tags (CRITICAL)
 
@@ -400,7 +400,7 @@ Verwenden Sie für Elemente der Benutzeroberfläche: Optionen, Felder, Registerk
 **Formatierung:**
 - Fett in Schritten und Navigation: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Kursiv kann aus Gründen der Übersichtlichkeit auch im Konzepttext (ohne Schritt) verwendet werden.
-- In HTML-Tabellen: `<span class="uicontrol">term</span>` anstelle von `` verwenden.
+- In HTML-Tabellen: `<span class="uicontrol">term</span>` anstelle von &grave;&grave; verwenden.
 - Im Link-Text: Entfernen Sie die Tag-Klammern.
 
 **Groß-/Kleinschreibung** Gleichen Sie die Schnittstelle genau ab.
@@ -429,9 +429,9 @@ Wird nicht in Code-Blöcken benötigt. Diese sind nicht standardmäßig lokalisi
 
 **Kann nicht verwendet werden in:** Codeblöcken, Akronymen.
 
-**Metadatenregel:** Wenn ein Metadatenfeld (Titel oder Beschreibung) mit einem `[!DNL]`- oder ``-Tag beginnt, schließen Sie den gesamten Feldwert in Anführungszeichen ein, oder die Validierung schlägt fehl.
+**Metadatenregel:** Wenn ein Metadatenfeld (Titel oder Beschreibung) mit einem `[!DNL]`- oder &grave;&grave;-Tag beginnt, schließen Sie den gesamten Feldwert in Anführungszeichen ein, oder die Validierung schlägt fehl.
 
----
+&#x200B;---
 
 ## &#x200B;4. Informationsstruktur und Inhaltstypen
 
@@ -505,7 +505,7 @@ hide: yes
 
 Dadurch wird die Seite sowohl aus der externen als auch aus der internen Suche ausgeschlossen. Durch Festlegen von `hide: yes` wird automatisch `index: no` festgelegt. Verwenden Sie diese Option zusätzlich zum `{hide-from-toc}`, wenn eine Seite sowohl für die Navigation als auch für die Suche ausgeblendet werden soll.
 
----
+&#x200B;---
 
 ## &#x200B;5. Terminologie und Branding
 
@@ -603,7 +603,7 @@ Diese Begriffe erscheinen in Jira, Wikis und internen Diskussionen, dürfen jedo
 | Geschwindigkeit | Nicht nutzerorientierter Werbebegriff |
 | Vertriebskette | Interner Adobe-Infrastrukturbegriff |
 
----
+&#x200B;---
 
 ## &#x200B;6. Inklusive Sprache und Zugänglichkeit
 
@@ -694,7 +694,7 @@ Verwenden Sie KEINE Farbe allein, um Informationen zu vermitteln. Paaren Sie Far
 - Binden Sie aussagekräftige Untertitel in alle Videos ein.
 - Wenn möglich, Link zu schriftlichen Anweisungen: „Schriftliche Anweisungen finden Sie unter [link].“
 
----
+&#x200B;---
 
 ## &#x200B;7. Rechtschreibung und Satzzeichen
 
@@ -724,7 +724,7 @@ Verwenden Sie KEINE Farbe allein, um Informationen zu vermitteln. Paaren Sie Far
 - Doppelpunkt: dient zur Einführung einer Liste. Das erste Wort nach dem Doppelpunkt wird großgeschrieben, wenn ein ganzer Satz folgt (oder das Wort ein Eigennamen ist).
 - Keine Semikolons. Stattdessen einen Punkt und einen neuen Satz verwenden.
 
----
+&#x200B;---
 
 ## &#x200B;8. SEO und Auffindbarkeit
 
@@ -736,7 +736,7 @@ Verwenden Sie KEINE Farbe allein, um Informationen zu vermitteln. Paaren Sie Far
 - Beschreibungsmetadaten: Verwenden Sie eine natürliche Sprache mit Schlüsselwörtern. Keine zufälligen Keywords pauken. Google kann Inhalte für die Keyword-Füllung herabstufen.
 - Halten Sie Metadatenfelder (Titel, Beschreibung, Funktions-Tags) vollständig und genau - Erkennungsoberflächen verwenden Metadaten, um Ergebnisse zu filtern und zu reihen, bevor Seiteninhalte gelesen werden.
 
----
+&#x200B;---
 
 ## &#x200B;9. Datei- und Repo-Konventionen
 
@@ -750,7 +750,7 @@ Verwenden Sie KEINE Farbe allein, um Informationen zu vermitteln. Paaren Sie Far
 - Einzelne Komponenten (Überschriften, eingezäunte Codeblöcke, Listen) müssen von Leerzeilen umgeben sein.
 - Nur ein H1 (`#`) pro Dokument. Die erste Zeile nach frontmatter muss die H1 sein.
 
----
+&#x200B;---
 
 ## &#x200B;10. Checkliste überprüfen
 
@@ -781,7 +781,7 @@ Verwenden Sie KEINE Farbe allein, um Informationen zu vermitteln. Paaren Sie Far
 - [ ] „das“ vor dem Produktnamen (z. B. nicht „die Adobe Experience Platform„)
 
 **Lokalisierungs-Tags**
-- [ ] `` für alle Elementnamen der Benutzeroberfläche; fett in Schritten
+- [ ] &grave;&grave; für alle Elementnamen der Benutzeroberfläche; fett in Schritten
 - [ ] `[!DNL]` auf alle Produkt- und Drittanbieternamen
 - [ ] boolesche Operatoren mit Tags: `[!DNL AND]`, `[!DNL OR]`
 - [ ] Keine Tags in Code-Blöcken
@@ -811,7 +811,7 @@ Verwenden Sie KEINE Farbe allein, um Informationen zu vermitteln. Paaren Sie Far
 - [ ] Dateinamen werden mit Bindestrichen in Kleinbuchstaben geschrieben. Deskriptive Slugs (keine bloßen `overview.md`)
 - [ ] Bilder in `assets/`; nicht lokalisierte Bilder in `do-not-localize/`
 
----
+&#x200B;---
 
 ## &#x200B;11. Externe Referenzen
 
