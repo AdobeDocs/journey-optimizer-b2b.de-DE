@@ -8,27 +8,33 @@ autotag-review: '2026-06-19T21:52:30.119Z'
 TQID: 'https://experienceleague.adobe.com/HlZVkbD1SkW94xTSLv-rMoKYWG6E79wBGfIH3oGQTNI'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: aed878b8-11d0-487c-828b-d23b2051ec37
+    internal-label: Tiers
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: d270a788-eb1d-40ed-b74e-9158ed975b1f
+    internal-label: Prime
   - id: e7bdffdc-2950-4be5-8c23-84240a995090
+    internal-label: Design tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ce2f6c2108396222b4e31ab2fbd0b509722ad60e
+    internal-label: User
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 2840
+source-wordcount: '2840'
 ht-degree: 7%
-
 ---
-
 # Inhaltskomponenten {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_content_components_email"
 >title="Informationen zu Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine E-Mail gestalten können."
+>abstract="Content-Komponenten sind leere Content-Platzhalter, mit denen Sie eine E-Mail gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_content_components_landing_page"
@@ -38,12 +44,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_content_components_fragment"
 >title="Informationen zu Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie ein Fragment gestalten können."
+>abstract="Content-Komponenten sind leere Content-Platzhalter, mit denen Sie ein Fragment gestalten können."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_content_components_template"
 >title="Informationen zu Inhaltskomponenten"
->abstract="Inhaltskomponenten sind leere Platzhalter für Inhalte, mit denen Sie eine Vorlage gestalten können."
+>abstract="Content-Komponenten sind leere Content-Platzhalter, mit denen Sie eine Vorlage gestalten können."
 
 Verwenden Sie beim Entwerfen von Inhalten für E-Mails, Landingpages, Vorlagen und visuelle Fragmente die [!UICONTROL Inhaltskomponenten], um visuelle Design-Elemente hinzuzufügen.
 
@@ -457,11 +463,11 @@ Erweitern Sie im rechten Bedienfeld mit _[!UICONTROL ausgewählten Registerkarte
 
 * **[!UICONTROL Breite]** - Verwenden Sie den Umschalter, um die Breite nach Pixel oder Prozentsatz festzulegen.
 
-   * Legen Sie für eine prozentuale Breite mithilfe des Schiebereglers den prozentualen Wert fest. Der Prozentsatz bestimmt die Elementgröße anhand des Inhaltsfelds des enthaltenden Blocks, wobei Auffüllung und Rahmen ausgeschlossen sind. Bei einem Wert von 50 wird beispielsweise die Elementbreite auf 50 % der Breite festgelegt, die den Block enthält.
+  * Legen Sie für eine prozentuale Breite mithilfe des Schiebereglers den prozentualen Wert fest. Der Prozentsatz bestimmt die Elementgröße anhand des Inhaltsfelds des enthaltenden Blocks, wobei Auffüllung und Rahmen ausgeschlossen sind. Bei einem Wert von 50 wird beispielsweise die Elementbreite auf 50 % der Breite festgelegt, die den Block enthält.
 
   ![Definieren des Linienstils für eine Trennzeichenkomponente](../../user/content/assets/component-divider-line-options.png){width="250"}
 
-   * Klicken Sie bei einer pixelbasierten Breite auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und bestimmt die Breite des Elements entsprechend seinem Inhalt.
+  * Klicken Sie bei einer pixelbasierten Breite auf die Pfeilsymbole nach oben und unten, um die Anzahl der Pixel zu erhöhen oder zu verringern. Ein leerer Wert (Auto) ist der Standardwert und bestimmt die Breite des Elements entsprechend seinem Inhalt.
 
 * **[!UICONTROL Style]** - Wählen Sie einen Wert aus der Liste der standardmäßigen CSS-`line-style` aus, z _B. Solid_, _Dotted_ und _Dashed_.
 
@@ -573,9 +579,9 @@ Methode zum Hinzufügen des Bild-Assets auswählen:
 
   Es stehen Tools zur Verfügung, mit denen Sie das benötigte Asset finden können:
 
-   * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
+  * Klicken Sie _oben links auf_ Filter), um die angezeigten Elemente nach Ihren Kriterien zu filtern.
 
-   * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
+  * Geben Sie Text in das _Suchen_-Feld ein, um die angezeigten Elemente nach einer Übereinstimmung mit dem Asset-Namen zu filtern.
 
 * **[!UICONTROL Medien importieren]** - Wählen Sie diesen Typ aus, um eine Datei aus Ihrem System auszuwählen und in die [!DNL Journey Optimizer B2B Prime] Asset-Bibliothek zu importieren.
 

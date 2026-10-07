@@ -1,47 +1,56 @@
 ---
 title: Bearbeiten von Bildern mit Adobe Express
-description: Native Bildbearbeitung mit Adobe Express in Journey Optimizer B2B edition - Ändern Sie die Größe, schneiden Sie Bilder zu, entfernen Sie Hintergründe, konvertieren Sie Formate und speichern Sie sie im Asset-Repository.
+description: Bearbeiten Sie Bilder nativ mit Adobe Express in Journey Optimizer B2B Edition - Ändern Sie die Größe, schneiden Sie sie zu, entfernen Sie Hintergründe, konvertieren Sie Formate und speichern Sie sie im Asset-Repository.
 feature: Assets, Content, Integrations
 role: User
 exl-id: 16909f8f-77db-40f8-acd6-e18ac50c0af9
+autotag-review: 2026-03-30T21:58:42.309Z
+TQID: 'https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: e66c61b1-1ca4-4c42-8df9-e5cb44b0555c
+    internal-label: Creative Cloud
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-autotag-review: 2026-03-30T21:58:42.309Z
-TQID: https://experienceleague.adobe.com/-U1lp9chaRnq7nEKin-YnJUMYJbHQ8Q3KtF-PvaGwhA
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content and assets
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 860
+source-wordcount: '860'
 ht-degree: 5%
-
 ---
-
 # Bearbeiten von Bildern mit Adobe Express {#edit-images-adobe-express}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_assets_edit_adobe_express"
 >title="Bearbeiten von Bildern in Adobe Express"
->abstract="Einfache und intuitive Bildbearbeitungs-Tools, die von Adobe Express unterstützt werden, sind direkt in Adobe Journey Optimizer B2B Edition verfügbar, um die Content Velocity zu erhöhen."
+>abstract="Einfache und intuitive Bildbearbeitungs-Tools, die von Adobe Express bereitgestellt werden, sind direkt in Adobe Journey Optimizer B2B Edition verfügbar, um die Content Velocity zu erhöhen."
 
 [!DNL Adobe Journey Optimizer B2B Edition] integriert sich nativ mit Adobe Express und ermöglicht den Zugriff auf eine Reihe [!DNL Adobe Express] Bildbearbeitungs-Tools. Mit diesen Tools können Sie die im [!DNL Journey Optimizer B2B Edition] Asset-Repository gespeicherten Bilder ändern. Die Integration bietet die folgenden zentralen Vorteile:
 
-* Erhöhte Wiederverwendung von Inhalten durch Bearbeiten und Speichern neuer Bild-Assets in Journey Optimizer B2B edition.
+* Erhöhte Wiederverwendung von Inhalten durch Bearbeiten und Speichern neuer Bild-Assets in Journey Optimizer B2B Edition.
 
 * Weniger Zeit und Aufwand beim Aktualisieren von Bild-Assets oder Erstellen neuer Versionen vorhandener Bild-Assets.
 
 >[!NOTE]
 >
->Berechtigungen für Adobe Express-Bearbeitungsfunktionen sind in allen Journey Optimizer B2B edition-Abonnements enthalten.
+>Berechtigungen für Adobe Express-Bearbeitungsfunktionen sind in allen Journey Optimizer B2B Edition-Abonnements enthalten.
 
 Die [!DNL Adobe Express] unterstützen PNG- und JPEG-Bilddateiformate.
 
@@ -59,7 +68,7 @@ Diese Aktion öffnet eine Listenseite mit allen aufgelisteten Assets.
 
    * Um im ausgewählten Ordner nach einem Bild-Asset zu suchen, geben Sie eine Textzeichenfolge in die Suchleiste ein.
 
-   ![Durchsuchen von Assets im Journey Optimizer B2B edition-Repository](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
+   ![Durchsuchen von Assets im Journey Optimizer B2B Edition-Repository](./assets/assets-native-workspace-filtered.png){width="800" zoomable="yes"}
 
 1. Klicken Sie auf den Namen des Bild-Assets, um es zu öffnen und seine Details anzuzeigen.
 
@@ -81,7 +90,7 @@ Wenn Sie über eine Enterprise-Lizenz für Adobe Express verfügen, können Sie 
 
 >[!NOTE]
 >
->Ihre Adobe Express Enterprise-Lizenz muss unter derselben IMS-Organisation erworben werden, um auf diese vollständigen Editor-Funktionen von Journey Optimizer B2B edition zugreifen zu können. Als einzelnes Mitglied der IMS-Organisation benötigen Sie eine zugewiesene Lizenz in der Adobe Express-Instanz. Andernfalls ist der Zugriff auf Adobe Express auf die [Schnellaktionen auf Adobe Express](#quick-actions-in-adobe-express) in Journey Optimizer B2B edition beschränkt.
+>Ihre Adobe Express Enterprise-Lizenz muss unter derselben IMS-Organisation erworben werden, um auf diese vollständigen Editor-Funktionen von Journey Optimizer B2B Edition zugreifen zu können. Als einzelnes Mitglied der IMS-Organisation benötigen Sie eine zugewiesene Lizenz in der Adobe Express-Instanz. Andernfalls ist der Zugriff auf Adobe Express auf die [Schnellaktionen auf Adobe Express](#quick-actions-in-adobe-express) von Journey Optimizer B2B Edition beschränkt.
 
 ![Öffnen Sie das Bild im Adobe Express Enterprise-Editor](./assets/assets-edit-adobe-express-enterprise-editor.png){width="600" zoomable="yes"}
 
@@ -101,7 +110,7 @@ Wenn Sie keine Adobe Express Enterprise-Lizenz haben, haben Sie Zugriff auf den 
 
    ![Wählen Sie einen Bearbeitungstyp aus, um das Bild zu ändern](./assets/assets-edit-adobe-express-left-menu.png){width="600" zoomable="yes"}
 
-1. Wenn Sie zum Adobe Express-Schnellaktionseditor zurückkehren, klicken Sie auf **[!UICONTROL Speichern]**, um die geänderte Bilddatei im Journey Optimizer B2B edition Asset-Repository unter Verwendung desselben Dateinamens zu speichern.
+1. Wenn Sie zum Adobe Express-Schnellaktionseditor zurückkehren, klicken Sie auf **[!UICONTROL Speichern]**, um die geänderte Bilddatei im Journey Optimizer B2B Edition Asset-Repository unter Verwendung desselben Dateinamens zu speichern.
 
 ### Bildgröße ändern
 

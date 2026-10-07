@@ -1,36 +1,46 @@
 ---
 title: Konfigurieren von Experience Manager Asset-Repositorys
-description: Verbinden von Experience Manager Assets-Repositorys mit Journey Optimizer B2B edition für einen nahtlosen Zugriff auf digitale Assets beim Erstellen von Inhalten.
+description: Verbinden von Experience Manager Assets-Repositorys mit Journey Optimizer B2B Edition für einen nahtlosen Zugriff auf digitale Assets beim Erstellen von Inhalten.
 feature: Assets, Integrations
 role: Admin
 exl-id: 4cdfc8bc-823f-4320-a2c3-08226f26eec2
+autotag-review: 2026-03-27T23:16:47.648Z
+TQID: 'https://experienceleague.adobe.com/SCUDOEQRJb1cx-zj1oC2Qac4tPyZZg2l130MO5ds-DQ'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+subfeature_v2:
+  - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-autotag-review: 2026-03-27T23:16:47.648Z
-TQID: https://experienceleague.adobe.com/SCUDOEQRJb1cx-zj1oC2Qac4tPyZZg2l130MO5ds-DQ
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 750
-ht-degree: 1%
-
+source-wordcount: '750'
+ht-degree: 4%
 ---
-
 # Konfigurieren von Experience Manager Asset-Repositorys
 
 [!DNL Adobe Journey Optimizer B2B Edition] lässt sich mit [!DNL Adobe Experience Manager Assets as a Cloud Service] integrieren und ermöglicht die Verwendung von Assets in Ihrem E-Mail-Inhalt. Es sorgt für Transparenz durch den Austausch von Informationen mit [!DNL Experience Manager Assets]. Konfigurieren Sie die zu [!DNL Adobe Experience Assets] Verbindung, um diese Funktion zu aktivieren.
 
-Adobe Experience Manager Cloud Manager ist in Programme unterteilt und jedes Programm verfügt über mehrere Umgebungen und Repositorys ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Wenn Sie Adobe Experience Manager Assets in Adobe Journey Optimizer B2B edition konfigurieren, richten Sie Verbindungen zu jedem Repository ein, das Sie für den Zugriff auf digitale Assets verwenden möchten.
+Adobe Experience Manager Cloud Manager ist in Programme unterteilt und jedes Programm verfügt über mehrere Umgebungen und Repositorys ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/programs/program-types){target="_blank"}). Wenn Sie Adobe Experience Manager Assets in Adobe Journey Optimizer B2B Edition konfigurieren, richten Sie Verbindungen zu jedem Repository ein, das Sie für den Zugriff auf digitale Assets verwenden möchten.
 
 {{aem-assets-licensing-note}}
 
@@ -38,7 +48,7 @@ Adobe Experience Manager Cloud Manager ist in Programme unterteilt und jedes Pro
 
 * Generieren von Service-Anmeldeinformationen für die gewünschte Umgebung auf der AEM Headless-Developer Console ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials#generate-service-credentials){target="_blank"})
 * Beschaffen Sie sich die Zertifikate, die für die Verbindung benötigt werden. Als Best Practice hat es sich bewährt, sicherzustellen, dass die Zertifikate mindestens sechs Monate vor ihrem Ablauf verbleiben. Die Zertifikate laufen alle 365 Tage ab.
-* Adobe Journey Optimizer B2B edition unterstützt den Zugriff auf jeweils eine Digital Asset Management-Quelle. Stellen Sie vor dem Wechsel sicher, dass die erforderlichen Assets in Adobe Experience Manager verfügbar sind.
+* Adobe Journey Optimizer B2B Edition unterstützt den Zugriff auf jeweils eine Digital Asset Management-Quelle. Stellen Sie vor dem Wechsel sicher, dass die erforderlichen Assets in Adobe Experience Manager verfügbar sind.
 
 >[!IMPORTANT]
 >
@@ -83,7 +93,7 @@ Wenn Sie die Konfiguration der Repositorys abgeschlossen haben, können die Team
 
 >[!NOTE]
 >
->Adobe Journey Optimizer B2B edition unterstützt den Zugriff auf jeweils eine Digital Asset Management-Quelle beim Erstellen von Inhalten. 
+>Adobe Journey Optimizer B2B Edition unterstützt den Zugriff auf jeweils eine Digital Asset Management-Quelle beim Erstellen von Inhalten. 
 
 ## Ersetzen eines Zertifikats
 
@@ -127,7 +137,7 @@ Sie können die JSON-Zertifikatdatei anzeigen, die mit der Repository-Verbindung
 
 ## Löschen einer Repository-Verbindung
 
-Durch das Löschen eines Repositorys wird der Benutzerzugriff auf die Experience Manager Assets-Umgebung in Journey Optimizer B2B edition entfernt.
+Durch das Löschen eines Repositorys wird der Benutzerzugriff auf die Experience Manager Assets-Umgebung in Journey Optimizer B2B Edition entfernt.
 
 1. Suchen Sie auf _[!UICONTROL Seite „Digital Asset]_&quot; die Liste der konfigurierten Asset-Repositorys.
 

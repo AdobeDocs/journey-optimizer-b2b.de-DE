@@ -1,6 +1,6 @@
 ---
 title: Hilfsfunktionen
-description: Referenzhandbuch für Personalisierungs-Hilfsfunktionen in Journey Optimizer B2B edition. Es enthält Syntax und Beispiele für Zeichenfolgen, Daten, Mathematik und mehr.
+description: Referenzhandbuch für Personalisierungs-Hilfsfunktionen in Journey Optimizer B2B Edition. Es enthält Syntax und Beispiele für Zeichenfolgen, Daten, Mathematik und mehr.
 feature: Personalization, Content Design Tools
 topic: Personalization
 role: Developer
@@ -11,26 +11,35 @@ autotag-review: '2026-05-27T16:17:26.324Z'
 TQID: 'https://experienceleague.adobe.com/T4rBlUSxIJylMD4PGmAFG3qXJRVBBLEtzPE5WCWx8NA'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d61088ff-4bd9-5d5c-a987-455c8e1943f8
+    internal-label: Content Design Tools
 subfeature_v2:
   - id: bd3c685c-6c92-4a4a-becb-535cc25215de
+    internal-label: Personalization
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 955fac784a8f438ec2f9aaf66e9aaeefda58e2a7
+    internal-label: Personalization
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 4937
-ht-degree: 47%
-
+source-wordcount: '4937'
+ht-degree: 49%
 ---
-
 # Hilfsfunktionen
 
 Verwenden Sie die Helper-Funktionen im Personalisierungseditor, um personalisierte Inhaltserlebnisse präzise und effizient zu definieren, indem Sie Daten bearbeiten, Berechnungen durchführen und Inhalte formatieren. Erkunden Sie diese Funktionen, Operatoren und Helper und experimentieren Sie mit ihnen, um zu erfahren, wie sie zusammenarbeiten, um Ihnen bei der Erstellung maßgeschneiderter, datengesteuerter Journey zu helfen.
@@ -39,7 +48,7 @@ Verwenden Sie die Helper-Funktionen im Personalisierungseditor, um personalisier
 
 Verwenden Sie Aggregationsfunktionen, um mehrere Werte zu gruppieren, um einen einzigen Zusammenfassungswert zu bilden. Sie können auch Array- und Listenfunktionen verwenden, um die Interaktion mit Arrays, Listen und Zeichenfolgen einfacher zu definieren.
 
-### Durchschnitt {#average}
+### average {#average}
 
 Verwenden Sie die Funktion `average` , um das arithmetische Mittel aller ausgewählten Werte im Array zurückzugeben.
 
@@ -327,7 +336,7 @@ Gibt 3 zurück.
 
 +++
 
-### anführen {#head}
+### head {#head}
 
 Verwenden Sie die Funktion `head` , um das erste Element in einem Array oder einer Liste zurückzugeben.
 
@@ -393,7 +402,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die im März, Juni oder Sep
 
 +++
 
-### Umfasst {#includes}
+### includes {#includes}
 
 Mit der Funktion `includes` können Sie bestimmen, ob ein Array oder eine Liste ein bestimmtes Element enthält.
 
@@ -413,7 +422,7 @@ Mit dem folgenden Vorgang werden Personen definiert, zu deren Lieblingsfarben Ro
 
 +++
 
-### überschneidet {#intersects}
+### intersects {#intersects}
 
 Mit der `intersects`-Funktion wird bestimmt, ob zwei Arrays oder Listen mindestens ein gemeinsames Element aufweisen.
 
@@ -524,7 +533,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die alle ihre Lieblingsstä
 
 +++
 
-### Obermenge {#superset}
+### supersetOf {#superset}
 
 Verwenden Sie die Funktion `supersetOf` , um zu bestimmen, ob ein bestimmtes Array (Array A) eine Obermenge eines anderen Arrays (Array B) ist. Mit anderen Worten: ob Array A alle Elemente in Array B enthält.
 
@@ -548,7 +557,7 @@ Mit dem folgenden Vorgang werden Personen definiert, die mindestens einmal Sushi
 
 Verwenden Sie die Datums- und Uhrzeitfunktionen, um Datums- und Uhrzeitvorgänge für Werte durchzuführen.
 
-### Tage hinzufügen {#add-days}
+### addDays {#add-days}
 
 Die Funktion `addDays` passt ein bestimmtes Datum um eine angegebene Anzahl von Tagen an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
@@ -565,7 +574,7 @@ Die Funktion `addDays` passt ein bestimmtes Datum um eine angegebene Anzahl von 
 
 +++
 
-### Stunden hinzufügen {#add-hours}
+### addHours {#add-hours}
 
 Die Funktion `addHours` passt ein bestimmtes Datum um eine angegebene Anzahl von Stunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
@@ -582,7 +591,7 @@ Die Funktion `addHours` passt ein bestimmtes Datum um eine angegebene Anzahl von
 
 +++
 
-### Minuten hinzufügen {#add-minutes}
+### addMinutes {#add-minutes}
 
 Die Funktion `addMinutes` passt ein bestimmtes Datum um eine angegebene Anzahl von Minuten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
@@ -599,7 +608,7 @@ Die Funktion `addMinutes` passt ein bestimmtes Datum um eine angegebene Anzahl v
 
 +++
 
-### AddMonths {#add-months}
+### addMonths {#add-months}
 
 Die Funktion `addMonths` passt ein bestimmtes Datum um eine angegebene Anzahl von Monaten an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
@@ -616,7 +625,7 @@ Die Funktion `addMonths` passt ein bestimmtes Datum um eine angegebene Anzahl vo
 
 +++
 
-### addSecond {#add-seconds}
+### addSeconds {#add-seconds}
 
 Die Funktion `addSeconds` passt ein bestimmtes Datum um eine angegebene Anzahl von Sekunden an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
@@ -633,7 +642,7 @@ Die Funktion `addSeconds` passt ein bestimmtes Datum um eine angegebene Anzahl v
 
 +++
 
-### Jahre hinzufügen {#add-years}
+### addYears {#add-years}
 
 Die Funktion `addYears` passt ein bestimmtes Datum um eine angegebene Anzahl von Jahren an, wobei positive Werte zum Erhöhen und negative Werte zum Verringern verwendet werden.
 
@@ -684,7 +693,7 @@ Die `ageInDays` berechnet die Anzahl der Tage zwischen dem angegebenen Datum und
 
 **Beispiel**
 
-currentDate = 2025-01-07T12:17:10.720122+05:30 (Asia/Kolkata)
+currentDate = 2025-01-07T12:17:10.720122+05:30 (Asien/Kalkutta)
 
 * Eingabe: `{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * Ausgabe: `5`
@@ -703,7 +712,7 @@ Die `ageInMonths` berechnet die Anzahl der Monate zwischen dem angegebenen Datum
 
 **Beispiel**
 
-currentDate = 2025-01-07T12:22:46.993748+05:30(Asia/Kolkata)
+currentDate = 2025-01-07T12:22:46.993748+05:30(Asien/Kalkutta)
 
 * Eingabe: `{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * Ausgabe: `12`
@@ -766,7 +775,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 +++
 
-### Datumsdifferenz {#date-diff}
+### dateDiff {#date-diff}
 
 Verwenden Sie die `dateDiff`-Funktion, um die Differenz zwischen zwei Daten als Anzahl von Tagen abzurufen.
 
@@ -1751,7 +1760,7 @@ Die folgende Operation ruft den Wert der Identitätszuordnung für den Schlüsse
 
 +++
 
-### Schlüssel {#keys}
+### keys {#keys}
 
 Verwenden Sie die Funktion `keys` , um alle Schlüssel für eine bestimmte Zuordnung abzurufen.
 
@@ -1771,7 +1780,7 @@ Mit dem folgenden Vorgang werden alle Schlüssel für die `identityMap` abgerufe
 
 +++
 
-### Werte {#values}
+### values {#values}
 
 Die `values`-Funktion wird zum Abrufen aller Werte einer gegebenen Zuordnung verwendet.
 
@@ -1795,7 +1804,7 @@ Mit dem folgenden Vorgang werden alle Werte für die `identityMap` abgerufen.
 
 Erfahren Sie, wie Sie im Personalisierungseditor arithmetische Funktionen verwenden.
 
-### absolut {#absolute}
+### absolute {#absolute}
 
 Verwenden Sie die Funktion `absolute` , um eine Zahl in ihren absoluten Wert zu konvertieren.
 
@@ -1843,7 +1852,7 @@ Verwenden Sie die Funktion `random` , um einen zufälligen Wert zwischen 0 und 1
 
 +++
 
-### abgerundet {#round-down}
+### roundDown {#round-down}
 
 Mit der Funktion `roundDown` können Sie eine Zahl abrunden.
 
@@ -1855,7 +1864,7 @@ Mit der Funktion `roundDown` können Sie eine Zahl abrunden.
 
 +++
 
-### aufrunden {#round-up}
+### roundUp {#round-up}
 
 Mit der Funktion `roundUp` können Sie eine Zahl aufrunden.
 
@@ -1999,7 +2008,7 @@ Mit dem folgenden Vorgang wird geprüft, ob die Privatadresse der Person vorhand
 
 Erfahren Sie, wie Sie im Personalisierungseditor Zeichenfolgenfunktionen verwenden können.
 
-### Binnenmajuskel {#camelCase}
+### camelCase {#camelCase}
 
 Mit der Funktion `camelCase` wird der erste Buchstabe eines jeden Wortes einer Zeichenfolge großgeschrieben.
 
@@ -2091,7 +2100,7 @@ Verwenden Sie die Funktion `contains` , um zu bestimmen, ob eine Zeichenfolge ei
 
 +++
 
-### doesNotContains {#doesNotContain}
+### doesNotContain {#doesNotContain}
 
 Verwenden Sie die Funktion `doesNotContain` , um zu bestimmen, ob eine Zeichenfolge eine angegebene Unterzeichenfolge nicht enthält.
 
@@ -2169,7 +2178,7 @@ Die folgende Abfrage bestimmt bei Beachtung der Groß-/Kleinschreibung, ob der N
 
 +++
 
-### Encode64 {#encode64}
+### encode64 {#encode64}
 
 Verwenden Sie die Funktion `encode64` zum Codieren einer Zeichenfolge, um personenbezogene Daten (PI) beizubehalten, z. B. zur Aufnahme in eine URL.
 
@@ -2181,7 +2190,7 @@ Verwenden Sie die Funktion `encode64` zum Codieren einer Zeichenfolge, um person
 
 +++
 
-### endet mit {#endsWith}
+### endsWith {#endsWith}
 
 Verwenden Sie die Funktion `endsWith` , um zu bestimmen, ob eine Zeichenfolge mit einer angegebenen Unterzeichenfolge endet.
 
@@ -2479,7 +2488,7 @@ Die folgende Funktion gibt die Länge des Stadtnamens des Profils zurück.
 
 +++
 
-### Gefällt mir {#like}
+### like {#like}
 
 Verwenden Sie die Funktion `like` , um zu bestimmen, ob eine Zeichenfolge einem angegebenen Muster entspricht.
 
@@ -2504,7 +2513,7 @@ Die folgende Abfrage ruft alle Städte ab, in denen Profile leben, und enthält 
 
 +++
 
-### Kleinbuchstaben {#lower}
+### lowerCase {#lower}
 
 Verwenden Sie die Funktion `lowerCase` , um eine Zeichenfolge in Kleinbuchstaben zu konvertieren.
 
@@ -2544,7 +2553,7 @@ Die folgende Abfrage bestimmt ohne Unterscheidung der Groß-/Kleinschreibung, ob
 
 +++
 
-### Maske {#mask}
+### mask {#mask}
 
 Verwenden Sie die Funktion `mask` , um einen Teil einer Zeichenfolge durch „X“-Zeichen zu ersetzen.
 
@@ -2636,7 +2645,7 @@ Die folgende Abfrage bestimmt, ob der Name der Person nicht `john` ist, wobei ni
 
 +++
 
-### RegexGroup {#regexGroup}
+### regexGroup {#regexGroup}
 
 Verwenden Sie die `regexGroup`-Funktion, um spezifische Informationen basierend auf dem bereitgestellten regulären Ausdruck zu extrahieren.
 
@@ -2707,7 +2716,7 @@ Verwenden Sie die Funktion `replaceAll` , um alle Unterzeichenfolgen eines Texte
 
 +++
 
-### RightTrim {#rightTrim}
+### rightTrim {#rightTrim}
 
 Die Funktion `rightTrim` entfernt Leerzeichen vom Ende einer Zeichenfolge.
 
@@ -2719,7 +2728,7 @@ Die Funktion `rightTrim` entfernt Leerzeichen vom Ende einer Zeichenfolge.
 
 +++
 
-### SHA256 {#sha256}
+### sha256 {#sha256}
 
 Mit der Funktion `sha256` wird der sha256-Hash eines Strings berechnet und zurückgegeben.
 
@@ -2899,7 +2908,7 @@ Die Funktion `trim` entfernt alle Leerzeichen vom Anfang und Ende einer Zeichenf
 
 +++
 
-### Großbuchstaben {#upper}
+### upperCase {#upper}
 
 Mit der Funktion `upperCase` wird eine Zeichenfolge in Großbuchstaben umgewandelt.
 

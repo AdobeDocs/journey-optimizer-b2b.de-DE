@@ -1,6 +1,6 @@
 ---
 title: SMS-Authoring
-description: Erstellen von SMS-Nachrichten für Account-Journey mit Personalisierung, Links und Einverständnisverwaltung - Vorschau von Inhalten und Konfigurieren von Versandeinstellungen in Journey Optimizer B2B edition.
+description: Erstellen von SMS-Nachrichten für Account-Journey mit Personalisierung, Links und Einverständnisverwaltung - Vorschau von Inhalten und Konfigurieren von Versandeinstellungen in Journey Optimizer B2B Edition.
 feature: SMS Authoring, Content, Channels
 role: User
 exl-id: bd648253-74de-4083-a37a-ab7ceaea2746
@@ -8,30 +8,42 @@ autotag-review: '2026-05-27T16:18:50.732Z'
 TQID: 'https://experienceleague.adobe.com/MEoL8Fm-drFPWzFZofvS7hMRTTpmRyThVxBUHUsS6Qs'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
+  - id: d66b6f77-1150-58cd-81d8-2a1924d54baa
+    internal-label: SMS Authoring
+  - id: d77af7eb-afc3-53f3-a50c-dabc0d05ecfd
+    internal-label: Channels
 subfeature_v2:
   - id: a22f05f6-0fcf-40c0-a70e-e13a3db185f7
+    internal-label: SMS channel
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
+    internal-label: Cross channel delivery
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3ca6097c65a5a4c817239e0aa0979d1cc1a43836
+    internal-label: Administration
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1251
+source-wordcount: '1251'
 ht-degree: 4%
-
 ---
-
 # SMS-Erstellung
 
-Verwenden Sie Adobe Journey Optimizer B2B edition, um Textnachrichten (SMS) an die Mobilgeräte Ihrer Kunden zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
+Verwenden Sie Adobe Journey Optimizer B2B Edition, um Textnachrichten (SMS) an Ihre Kunden auf ihren Mobilgeräten zu senden. Mit dem SMS-Editor können Sie Nachrichten im Textformat erstellen, personalisieren und in der Vorschau anzeigen.
 
 Bevor Sie SMS-Nachrichten für Konto-Journey erstellen, stellen Sie sicher, dass der [SMS-Service-Provider“ &#x200B;](../admin/configure-channels-sms.md) den Einstellungen _[!UICONTROL Administrator]_ konfiguriert ist.
 
@@ -183,8 +195,8 @@ Es ist gesetzlich vorgeschrieben, Empfängerinnen und Empfängern die Möglichke
 
 Wenn Sie diese Option bereitstellen, können SMS-Empfänger mit Keywords zum Opt-in oder Opt-out antworten. Alle standardmäßigen Opt-in- und Opt-out-Keywords werden unterstützt und berücksichtigt, ebenso wie alle benutzerdefinierten Keywords, die mit dem SMS-Dienstleister konfiguriert wurden. Bei der Abmeldung werden die Profile automatisch aus der Audience künftiger Marketing-Nachrichten entfernt.
 
-Journey Optimizer B2B edition bietet die Möglichkeit, das Opt-out in SMS-Nachrichten mithilfe der folgenden Logik zu verwalten:
+Journey Optimizer B2B Edition bietet die Möglichkeit, das Opt-out in SMS-Nachrichten mithilfe der folgenden Logik zu verwalten:
 
 * Wenn sich ein Lead vom Erhalt von Nachrichten von Ihnen abgemeldet hat, wird das entsprechende Profil standardmäßig von nachfolgenden SMS-Sendungen ausgeschlossen
 
-* Dieses Lead-Einverständnis, das aus verschiedenen Quellen (z. B. AEP oder dem SMS-Dienstleister) stammt, wird mit Journey Optimizer B2B edition synchronisiert. Derzeit wird pro Lead auf Instanzebene nur ein einziger Einverständnisstatus unterstützt (ein Lead &#39;Martin Müller&#39; hat alle Werbe-SMS in der Instanz entweder abonniert oder abgemeldet). Derzeit wird kein Double-Opt-in auf der Ebene der Marke/der individuellen Abonnement-Liste unterstützt.
+* Dieses Lead-Einverständnis, das aus verschiedenen Quellen (z. B. AEP oder dem SMS-Dienstleister) stammt, wird mit Journey Optimizer B2B Edition synchronisiert. Derzeit wird pro Lead auf Instanzebene nur ein einziger Einverständnisstatus unterstützt (ein Lead &#39;Martin Müller&#39; hat alle Werbe-SMS in der Instanz entweder abonniert oder abgemeldet). Derzeit wird kein Double-Opt-in auf der Ebene der Marke/der individuellen Abonnement-Liste unterstützt.

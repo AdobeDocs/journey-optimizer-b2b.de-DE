@@ -1,29 +1,38 @@
 ---
 title: E-Mail-Vorlagen
-description: Wiederverwendbare E-Mail-Vorlagen von Grund auf neu erstellen, HTML importieren oder vorhandene Designs verwalten - Vorlagen für Account-Journey in Journey Optimizer B2B edition verwalten
+description: Wiederverwendbare E-Mail-Vorlagen von Grund auf neu erstellen, HTML importieren oder vorhandene Designs verwalten - Vorlagen für Account-Journey in Journey Optimizer B2B Edition verwalten
 feature: Templates, Email Authoring, Content
 role: User
 exl-id: 4e146802-e3ef-4528-b581-191e28afe86f
+autotag-review: 2026-03-30T22:17:40.055Z
+TQID: 'https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: adfaa694-5e52-4b2d-8c6b-20a18ae4b51b
+    internal-label: Templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:17:40.055Z
-TQID: https://experienceleague.adobe.com/0uA-ggA9prfC1we2LFsmcIoUNP5ViH-gIgQO0qrJUqM
-source-git-commit: 22de56a75a61ff2bf4345bcb09371b4c639206ba
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1522
+source-wordcount: '1522'
 ht-degree: 4%
-
 ---
-
 # E-Mail-Vorlagen
 
 Um den Design-Prozess zu beschleunigen und zu verbessern, können Sie eigenständige E-Mail-Vorlagen erstellen, um Ihre benutzerdefinierten Inhalte in [!DNL Adobe Journey Optimizer B2B Edition] Account-Journey wiederzuverwenden. Mithilfe von Vorlagen können Ihre inhaltsorientierten Team-Mitglieder an E-Mail-Inhalten außerhalb von Journey arbeiten. Marketing-Strategen können diese eigenständigen Vorlagen dann in ihren Journey wiederverwenden und anpassen. Beispielsweise verwaltet ein Teammitglied nur Inhalte, ohne Zugriff auf die Journey des Kontos. Sie können jedoch eine E-Mail-Vorlage erstellen, die Marketing-Experten als Ausgangspunkt für E-Mail-Nachrichten auswählen und entsprechend den Anforderungen für den Journey anpassen können.
@@ -96,7 +105,7 @@ Verwenden Sie den visuellen Inhaltseditor, um die Struktur des E-Mail-Inhalts zu
 
 ### Importieren von HTML
 
-Mit Adobe Journey Optimizer B2B edition können Sie vorhandene HTML-Inhalte importieren, um Ihre E-Mail-Vorlagen zu entwerfen.
+Mit Adobe Journey Optimizer B2B Edition können Sie vorhandenen HTML-Inhalt importieren, um Ihre E-Mail-Vorlagen zu entwerfen.
 
 {{$include /help/_includes/content-design-import.md}}
 
@@ -134,7 +143,7 @@ Klicken Sie auf der Detailseite für E **[!UICONTROL Mail-Vorlagen auf die Regis
 
 ![Klicken Sie auf die Registerkarte Verwendet von , um die Verwendung der Vorlage zu überprüfen](./assets/template-details-used-by.png){width="400"}
 
-E-Mails in Journey Optimizer B2B edition sind in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die die Vorlage verwendet, als Referenzen angezeigt wird.
+E-Mails in Journey Optimizer B2B Edition sind in Journey eingebettet und verfasst, sodass die übergeordnete Journey der E-Mail, die die Vorlage verwendet, als Verweis angezeigt wird.
 
 * Durch Klicken auf den Link gelangen Sie zu der entsprechenden Journey-E-Mail, in der die E-Mail-Vorlage verwendet wird.
 

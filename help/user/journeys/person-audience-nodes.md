@@ -1,31 +1,35 @@
 ---
 title: Personen-Zielgruppenknoten
-description: Konfigurieren Sie Personen-Zielgruppenknoten mit segmentbasierten oder ereignisbasierten Zielgruppen, um Einstiegspunkte für den Personen-Journey für die zielgerichtete Orchestrierung in Journey Optimizer B2B edition zu definieren.
+description: Konfigurieren Sie Personen-Zielgruppenknoten mit segmentbasierten oder ereignisbasierten Zielgruppen, um Einstiegspunkte für den Personen-Journey für die zielgerichtete Orchestrierung in Journey Optimizer B2B Edition zu definieren.
 feature: Audiences
 role: User
-badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version"
 exl-id: 8d4785cd-87f0-4548-9aba-fa18165b0f45
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+    internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
 autotag-review: 2026-03-30T23:13:05.616Z
 TQID: https://experienceleague.adobe.com/b6m294dcpyV34TMoZgOGL6Wft1mI7j4c5IcMhUnG4qE
-source-git-commit: 7cd6c4ecfbbd3a86b4f30d1b4fe6f06655a9c4f5
+source-git-commit: 5e05bba998a9c322487bd68b41e0539074a7000d
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 1%
-
+source-wordcount: '641'
+ht-degree: 0%
 ---
-
 # Personen-Zielgruppen-Journey-Knoten
 
 Der _Personen-Zielgruppe_-Knoten gibt an, welche Personenprofile in die Journey eintreten. Wenn Sie [Personen-Journey erstellen](./create-publish-journey.md#create-a-journey) beginnt die Journey immer mit einem Personen-Zielgruppenknoten, der die Eingabe definiert. Der Zielgruppenknoten Person kann einen von zwei Zielgruppen-Eingabetypen aufweisen: CDP-Segmente oder ereignisbasierte Zugehörigkeit. Segmentbasierte und ereignisbasierte Zielgruppendefinitionen können nicht kombiniert werden.
@@ -36,13 +40,9 @@ Verwenden Sie eine der folgenden Eingabeoptionen für den Knoten „Zielgruppen-
 
 * **Ereigniszielgruppe** - Verwenden Sie qualifizierende Ereignisse, um die Zielgruppe zu definieren. Diese Ereignisse werden in der Knotenkonfiguration definiert und müssen [XDM-Ereignisse verwenden, die in den Administrationseinstellungen konfiguriert sind](../admin/configure-aep-events.md). Bis zu 10 Ereignisse werden für die ereignisbasierte Zielgruppenzugehörigkeit unterstützt. Ein Profil qualifiziert sich sofort für das Journey, nachdem das erste passende Ereignis eintritt, das sein Profil eingeht.
 
-  >[!NOTE]
-  >
-  >Ereignisse können nicht mit Profilattributen kombiniert werden, um Zielgruppendefinitionen einzugrenzen. Verbesserungen in Bezug auf diese Einschränkung sind für zukünftige Versionen geplant.
-
 ## Profilaufnahme
 
-In Journey Optimizer B2B edition synchronisiert eine Aufgabe zur nächtlichen Zielgruppenaufnahme Profile mit Experience Platform. Ereignisbasierte Personenprofile können Journey-Profile qualifizieren, die nicht zu einer von Journey Optimizer B2B edition verwendeten Zielgruppe gehören. Diese sind jedoch veraltet, es sei denn, sie treten einer Zielgruppe bei, die von einer Person auf Journey, Account-Journey oder einer Einkaufsgruppe verwendet wird. Wenn ein Profil aufgenommen und später zu einer Zielgruppe hinzugefügt wird, wird eine Profilzuordnung durchgeführt und das Profil bleibt mit Experience Platform synchronisiert. Verbesserungen an dieser Profildaten-Synchronisierung sind für zukünftige Versionen geplant.
+In Journey Optimizer B2B Edition synchronisiert eine Aufgabe zur nächtlichen Zielgruppenaufnahme Profile mit Experience Platform. Ereignisbasierte Personenprofile können Journey-Profile qualifizieren, die nicht zu einer von Journey Optimizer B2B Edition verwendeten Zielgruppe gehören. Diese sind jedoch veraltet, es sei denn, sie treten einer Zielgruppe bei, die von einer Person auf Journey, Account-Journey oder einer Einkaufsgruppe verwendet wird. Wenn ein Profil aufgenommen und später zu einer Zielgruppe hinzugefügt wird, wird eine Profilzuordnung durchgeführt und das Profil bleibt mit Experience Platform synchronisiert. Verbesserungen an dieser Profildaten-Synchronisierung sind für zukünftige Versionen geplant.
 
 Bei einem neu erstellten Profil, das von einer ereignisbasierten Personen-Journey aufgenommen wurde, fehlen zum Zeitpunkt der Aufnahme möglicherweise die aktualisierten Profilinformationen. Wenn beispielsweise ein Profil durch ein Formularausfüllereignis erstellt wird, werden die übermittelten Daten möglicherweise nicht mit dem Profil synchronisiert, wenn die Journey sie aufnimmt. Das Ergebnis könnten unvollständige Daten für die Personalisierung sein (z. B. in E-Mail-Inhalten). Verbesserungen an dieser Profilereignisdaten-Synchronisierung sind für zukünftige Versionen geplant.
 
@@ -50,7 +50,7 @@ Ereignisbasierte Personenprofile, die noch anonym sind/keine E-Mail-Adressen auf
 
 >[!IMPORTANT]
 >
->Während des aktuellen Beta-Programms ist die ideale Verwendung von Personen-Journey, um nur Profile zu qualifizieren, an die Sie auch in Account-Journeys und Einkaufsgruppendefinitionen denken. Dadurch wird sichergestellt, dass ein vollständiges Profil mit Experience Platform synchronisiert bleibt.
+>Die ideale Verwendung von Personen-Journey besteht darin, nur Profile zu qualifizieren, an die Sie auch in Account-Journey und Einkaufsgruppendefinitionen denken. Dadurch wird sichergestellt, dass ein vollständiges Profil mit Experience Platform synchronisiert bleibt.
 
 ## Festlegen der Zielgruppe für den Zielgruppenknoten „Person“
 

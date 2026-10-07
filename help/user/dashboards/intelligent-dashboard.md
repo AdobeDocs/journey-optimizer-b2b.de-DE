@@ -1,30 +1,37 @@
 ---
 title: Intelligentes Dashboard
-description: Greifen Sie auf KI-gestützte Einblicke für Einkaufsgruppen und Konten mit Interaktionsmetriken, Absichtserkennung und prädiktiven Analysen in Journey Optimizer B2B edition zu.
+description: Greifen Sie auf KI-gestützte Einblicke für Einkaufsgruppen und Konten mit Interaktionsmetriken, Absichtserkennung und prädiktiven Analysen in Journey Optimizer B2B Edition zu.
 feature: Dashboards, Intelligent Insights, Buying Groups
 role: User
 exl-id: 671a78d2-613c-4ac8-bef8-08c673173c72
+autotag-review: 2026-03-30T22:43:58.948Z
+TQID: 'https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-autotag-review: 2026-03-30T22:43:58.948Z
-TQID: https://experienceleague.adobe.com/hT2zUGnpFcnnZ9lnVprrA4SbBEq9jUQ0Zs5DziC4cf8
-source-git-commit: 85a37f81877e120e0a0745dc4352b0b5e557fdb9
+    internal-label: Customer engagement
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1682
+source-wordcount: '1682'
 ht-degree: 16%
-
 ---
-
 # Intelligentes Dashboard
 
 Das intelligente Dashboard bietet eine umfassende Ansicht von [Einkaufsgruppe](../buying-groups/buying-groups-overview.md) und Kontometriken, mit denen Sie Ihre Marketing-Maßnahmen effektiver überwachen und strategischer gestalten können.
@@ -40,7 +47,7 @@ Das intelligente Dashboard bietet außerdem Zugriff auf Konto- und Einkaufsgrupp
 
 {{intent-data-note}}
 
-Um die Informationen und Erkenntnisse aus dem Intelligent Dashboard nutzen zu können, muss Ihre Journey Optimizer B2B edition-Instanz über die erforderlichen Elemente verfügen:
+Um die Informationen und Erkenntnisse aus dem Intelligent Dashboard nutzen zu können, muss Ihre Journey Optimizer B2B Edition-Instanz über die erforderlichen Elemente verfügen:
 
 | Typ | Anforderung |
 | ---- | ----------- |
@@ -167,7 +174,7 @@ Im Abschnitt _[!UICONTROL Steigende Konten]_ wird eine Visualisierung der Konten
 
 >[!NOTE]
 >
->Zu den Kontoaufstockungsdaten gehören nur Konten, die Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen aufnimmt.
+>Zu den Kontozuwachsdaten gehören nur Konten, die Journey Optimizer B2B Edition über Account-Journey oder Einkaufsgruppen aufnimmt.
 
 ![Visualisierung von Kontoaufstockungsdaten](./assets/intelligent-dashboard-account-surge.png){width="800" zoomable="yes"}
 
@@ -211,7 +218,7 @@ Der _[!UICONTROL Konto-Highlights]_ ist in zwei Zeilen unterteilt, um Informatio
 
 >[!NOTE]
 >
->Die Kontohervorhebungsdaten umfassen nur Konten, die von Journey Optimizer B2B edition über Account-Journey oder Einkaufsgruppen aufgenommen werden.
+>Die Kontohervorhebungsdaten umfassen nur Konten, die von Journey Optimizer B2B Edition über Account Journey oder Einkaufsgruppen aufgenommen werden.
 
 ![Account-Highlights](./assets/intelligent-dashboard-account-highlights.png){width="800" zoomable="yes"}
 
@@ -261,7 +268,7 @@ Im Abschnitt _[!UICONTROL Kontaktabdeckung]_ wird die Anzahl der Kontakte mit ei
 
 >[!NOTE]
 >
->Die Daten zur Kontaktabdeckung basieren auf den in der Journey Optimizer B2B edition-Instanz erstellten Einkaufsgruppen.
+>Die Daten zur Kontaktabdeckung basieren auf den in der Journey Optimizer B2B Edition-Instanz erstellten Einkaufsgruppen.
 
 ![Visualisierung von Kontoaufstockungsdaten](./assets/intelligent-dashboard-contact-coverage.png){width="800" zoomable="yes"}
 
@@ -293,7 +300,7 @@ Im _[!UICONTROL Kontaktüberschneidung]_ wird eine Liste von Kontakten angezeigt
 
 >[!NOTE]
 >
->Die Daten zur Kontaktüberschneidung basieren auf den in der Journey Optimizer B2B edition-Instanz erstellten Einkaufsgruppen.
+>Die Daten zur Kontaktüberschneidung basieren auf den in der Journey Optimizer B2B Edition-Instanz erstellten Einkaufsgruppen.
 
 ![Kontaktüberschneidungstabelle](./assets/intelligent-dashboard-contact-overlap.png){width="800" zoomable="yes"}
 

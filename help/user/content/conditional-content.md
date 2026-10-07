@@ -1,32 +1,41 @@
 ---
 title: Bedingte Inhalte
-description: Erstellen Sie dynamische Inhaltsvarianten mit bedingten Regeln, die auf Profilattributen und Ereignissen für personalisierte E-Mails und Fragmente in Journey Optimizer B2B edition basieren.
+description: Erstellen Sie dynamische Inhaltsvarianten mit bedingten Regeln, die auf Profilattributen und Ereignissen für personalisierte E-Mails und Fragmente in Journey Optimizer B2B Edition basieren.
 feature: Email Authoring, Fragments, Content
 role: User
 exl-id: 7a789412-ea52-482f-8dc9-4a1599e85268
+autotag-review: 2026-03-30T22:10:29.308Z
+TQID: 'https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
+subfeature_v2:
+  - id: e1663313-7961-4100-bea9-fa9f4edf8493
+    internal-label: Fragments
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
-autotag-review: 2026-03-30T22:10:29.308Z
-TQID: https://experienceleague.adobe.com/B-As12oHe15O9i3ZCfSz0Og4BRvYyF3BXnXFoVqRWf8
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Content reuse
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: '1264'
 ht-degree: 13%
-
 ---
-
 # Bedingte Inhalte
 
-Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können bedingte Regeln im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
+Bedingte Inhalte ermöglichen es Ihnen, E-Mail- und Fragmentinhalte auf der Grundlage von bedingten Regeln anzupassen. Diese Regeln werden mithilfe von Profilattributen oder kontextuellen Ereignissen definiert. Sie können Regeln mit Bedingungen im Regel-Builder erstellen und sie zur Wiederverwendung in Ihren Konto-Journeys speichern.
 
 Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, können Sie mit Adobe Journey Optimizer bedingte Regeln anwenden, die in der Bibliothek _Bedingungen_ gespeichert sind. Wenden Sie bedingte Regeln im visuellen Design-Bereich an, wenn Sie (E[Mail-Inhalt für eine Konto-Journey](./email-authoring.md) oder ein [visuelles Fragment) &#x200B;](./fragment-authoring.md).
 
@@ -35,12 +44,12 @@ Um Ihren Fragmenten und E-Mail-Nachrichten bedingte Inhalte hinzuzufügen, könn
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_content"
 >title="Bedingte Inhalte"
->abstract="Verwenden Sie bedingte Regeln, um mehrere Varianten einer Inhaltskomponente zu erstellen. Wenn beim Senden der Nachricht keine der Bedingungen erfüllt ist, wird der Inhalt der Standardvariante angezeigt."
+>abstract="Verwenden Sie Regeln mit Bedingungen, um mehrere Varianten einer Content-Komponente zu erstellen. Wenn beim Senden der Nachricht keine der Bedingungen erfüllt ist, wird der Content der Standardvariante angezeigt."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditional_rule_select"
 >title="Bedingte Inhalte"
->abstract="Verwenden Sie eine in der Bibliothek gespeicherte bedingte Regel oder erstellen Sie eine neue."
+>abstract="Verwenden Sie eine in der Bibliothek gespeicherte Regel mit Bedingung oder erstellen Sie eine neue."
 
 Verwenden Sie beim Erstellen eines Fragments oder einer E-Mail im visuellen Design bedingte Regeln, um mehrere Varianten für eine Inhaltskomponente zu definieren.
 
@@ -118,18 +127,18 @@ Die Regeln werden in der Bedingungsbibliothek gespeichert, wo sie für Ihre Orga
 
 | Bedingungstyp | Filter | Beschreibung |
 | -------------- | ------- | ----------- |
-| **Konto** | Kontoattribute | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz</li><li>Ort</li><li>Land</li><li>Mitarbeiterzahl</li><li>Branche</li><li>Name</li><li>SIC-Code</li><li>Status</li> |
-| | [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Der Filter kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li> |
-| **Person** | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verbundene E-Mail-Aktivitäten: <li>[!UICONTROL Link in E-Mail angeklickt]</li><li>Hat E-Mail geöffnet</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li> Diese Bedingungen werden mithilfe einer ausgewählten E-Mail-Nachricht aus einem früheren Abschnitt der Journey ausgewertet. |
-|  | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Ort</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Nachname</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Bundesland</li><li>Abbestellt</li><li>Grund für Abmeldung</li> |
-| | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Engagement-Bewertung</li><li>wird entfernt</li><li>Rolle</li> |
+| **Konto** | Kontoattribute | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz</li><li>Stadt</li><li>Land</li><li>Mitarbeiterzahl</li><li>Branche</li><li>Name</li><li>SIC-Code</li><li>Land</li> |
+| | [!UICONTROL Sonderfilter] > [!UICONTROL Hat Einkaufsgruppe] | Das Konto hat keine Mitglieder von Einkaufsgruppen. Der Filter kann auch anhand eines oder mehrerer der folgenden Kriterien bewertet werden: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li> |
+| **Person** | [!UICONTROL Aktivitätsverlauf] > [!UICONTROL E-Mail] | Mit der Journey verbundene E-Mail-Aktivitäten: <li>[!UICONTROL Link in E-Mail angeklickt]</li><li>Geöffnete E-Mail</li><li>Bekam E-Mail zugestellt</li><li>Bekam E-Mail zugesendet</li> Diese Bedingungen werden mithilfe einer ausgewählten E-Mail-Nachricht aus einem früheren Abschnitt der Journey ausgewertet. |
+|  | [!UICONTROL Personenattribute] | Attribute aus dem Personenprofil, einschließlich: <li>Stadt</li><li>Land</li><li>Geburtsdatum</li><li>E-Mail-Adresse</li><li>E-Mail-Adresse ungültig</li><li>E-Mail angehalten</li><li>Vorname</li><li>Abgeleitetes Bundesland/abgeleitete Region</li><li>Stellenbezeichnung</li><li>Last name</li><li>Mobiltelefonnummer</li><li>Telefonnummer</li><li>Postleitzahl</li><li>Land</li><li>Abbestellt</li><li>Grund für Abmeldung</li> |
+| | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
 
 ### Erstellen einer bedingten Regel {#create-condition}
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_conditions_rule_editor"
 >title="Erstellen einer Bedingung"
->abstract="Kombinieren Sie Attribute und kontextbezogene Ereignisse, um Regeln zu erstellen, die bestimmen, welche Inhaltsvariante in E-Mail-Nachrichten angezeigt werden soll."
+>abstract="Kombinieren Sie Attribute und kontextuelle Ereignisse, um Regeln zu erstellen, die bestimmen, welche Content-Variante in E-Mail-Nachrichten angezeigt werden soll."
 
 Sie können über den E-Mail-Design-Bereich auf den Builder für bedingte Regeln zugreifen, wenn Sie eine Bedingung für eine Komponentenvariante auswählen.
 
@@ -140,7 +149,7 @@ Sie können über den E-Mail-Design-Bereich auf den Builder für bedingte Regeln
 
    ![Wählen Sie den zu erstellenden Bedingungstyp aus](./assets/conditions-select-create-new.png){width="600" zoomable="yes"}
 
-1. Erstellen Sie die bedingte Regel entsprechend Ihren Anforderungen.
+1. Erstellen Sie die Regel mit Bedingung entsprechend Ihren Anforderungen.
 
    Ziehen Sie für jedes Attribut oder Ereignis, das Sie in die Regel aufnehmen möchten, das Element per Drag-and-Drop auf die Arbeitsfläche der Regel. Erweitern Sie den Filter und vervollständigen Sie den Ausdruck.
 
@@ -163,7 +172,7 @@ Sie können über den E-Mail-Design-Bereich auf den Builder für bedingte Regeln
 
 ### Duplizieren einer Regel
 
-In der Bibliothek gespeicherte bedingte Regeln können nicht geändert werden. Sie können jedoch eine vorhandene Regel duplizieren und ändern, um eine neue Regel zu erstellen.
+In der Bibliothek gespeicherte Regeln mit Bedingungen können nicht geändert werden. Sie können jedoch eine vorhandene Regel duplizieren und ändern, um eine neue Regel zu erstellen.
 
 1. Klicken Sie auf das _Mehr_) (**…**) für die Variante und wählen Sie **[!UICONTROL Duplizieren]**.
 

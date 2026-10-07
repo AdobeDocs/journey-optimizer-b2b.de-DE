@@ -1,34 +1,40 @@
 ---
 title: Bewertung und Bewertung von Inhalten
-description: Bewerten von E-Mail-Inhalten mit Bewertung der Markenausrichtung - Validieren Sie Farben, Schriftarten, Logos und den Schreibstil anhand der Markenrichtlinien in Journey Optimizer B2B edition.
+description: Bewerten von E-Mail-Inhalten mit Bewertung der Markenausrichtung - Validieren Sie Farben, Schriftarten, Logos und den Schreibstil anhand der Markenrichtlinien in Journey Optimizer B2B Edition.
 badge: label="Beta" type="Informative"
 feature: Content, Brand Identity
 role: User
 level: Beginner, Intermediate
 exl-id: 686d5ce0-c597-48e1-a51f-e91e95a942d5
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: d2122fb4-ba3b-5da7-99a6-26f1679daf34
+    internal-label: Brand Identity
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: e54cfce913e61fb1f96fc7bedeb51885085d095b
+    internal-label: Intermediate
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 16%
-
 ---
-
 # Bewertung und Bewertung von Inhalten {#content-scoring}
 
 Die Inhaltsauswertung und -bewertung helfen Ihnen bei der Erstellung, Überprüfung und Verwaltung von Inhalten, die den Richtlinien [in der ausgewählten Marke definiert](./brands-manage-create.md#brand-definitions) und den allgemeinen Qualitätsstandards entsprechen. Die Durchführung einer Evaluierung gewährleistet die Konsistenz in Ton, Messaging und visueller Identität in Ihren E-Mail-Kampagnen und dient gleichzeitig als Qualitätsprüfung vor der Live-Schaltung Ihres Inhalts.
 
 >[!AVAILABILITY]
 >
->Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B Edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 >
 >Unter [Markenbezogene Berechtigungen](./brands-overview.md#brand-related-permissions) finden Sie Informationen darüber, wie Produktadministratoren diese Funktionen aktivieren können.
 
@@ -55,12 +61,12 @@ Die Inhaltsauswertung und -bewertung helfen Ihnen bei der Erstellung, Überprüf
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score_overview"
 >title="Markenauswahl"
->abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihre Inhalte in Übereinstimmung mit den spezifischen Richtlinien, Standards und der Markenidentität erstellt werden und die Konsistenz und Markenintegrität gewahrt bleiben."
+>abstract="Wählen Sie Ihre Marke aus, um sicherzustellen, dass Ihr Content in Übereinstimmung mit den spezifischen Richtlinien, Standards und der Markenidentität erstellt wird und die Konsistenz und Markenintegrität gewahrt bleiben."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_score"
 >title="Markenausrichtungswert"
->abstract="Der Markenausrichtungswert misst, inwieweit Ihr Inhalt den Richtlinien Ihrer Marke entspricht, um Konsistenz bezüglich Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
+>abstract="Der Markenausrichtungswert misst, inwieweit Ihr Content den Richtlinien Ihrer Marke entspricht, um Konsistenz bezüglich Farben, Schriftarten, Logo, Bildern und Schreibstil sicherzustellen."
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_brand_colors_score"
@@ -109,7 +115,7 @@ Sie können Änderungen am Inhalt vornehmen und auf **[!UICONTROL Punktzahl neu 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b_quality_score_overview"
 >title="Qualität der Inhalte"
->abstract="Bewerten Sie die allgemeine Inhaltsqualität, um potenzielle Probleme mit Lesbarkeit, Inhaltskohärenz und Effektivität zu identifizieren. Die Qualitätsbewertung ist unabhängig von Ihren Markenrichtlinien."
+>abstract="Bewerten Sie die allgemeine Content-Qualität, um potenzielle Probleme mit Lesbarkeit, Kohärenz des Contents und Effektivität zu identifizieren. Die Qualitätsbewertung ist unabhängig von Ihren Markenrichtlinien."
 
 >[!NOTE]
 >

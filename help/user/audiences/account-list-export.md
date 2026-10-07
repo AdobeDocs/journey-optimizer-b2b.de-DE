@@ -1,26 +1,30 @@
 ---
 title: Exportieren von Konten
-description: Exportieren Sie gefilterte Kontolisten in eine CSV-Datei für Drittanbieterplattformen mit Kaufgruppen- und Interaktionswertfiltern in Journey Optimizer B2B Edition.
+description: Exportieren Sie gefilterte Kontolisten mit Käufergruppen- und Interaktionsbewertungs-Filtern in Journey Optimizer B2B Edition in eine CSV-Datei für Drittanbieterplattformen.
 feature: Audiences
 role: User
 exl-id: 3ec8e8fd-1bc2-4efa-840f-f06520099060
+autotag-review: 2026-03-30T19:51:33.392Z
+TQID: 'https://experienceleague.adobe.com/fvkVLjO9oIF7hOuoqdSS-jU4wAvsrPnKp1fIabH-Ewk'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: e935834c-48b7-43d8-b754-a815196a1b05
+    internal-label: Account lists
+  - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-autotag-review: 2026-03-30T19:51:33.392Z
-TQID: https://experienceleague.adobe.com/fvkVLjO9oIF7hOuoqdSS-jU4wAvsrPnKp1fIabH-Ewk
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Beginner
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 261
+source-wordcount: '261'
 ht-degree: 100%
-
 ---
-
 # Exportieren von Konten
 
 Verwenden Sie die Funktion _Konten exportieren_, um alle Konten oder eine Reihe von Konten basierend auf von Ihnen definierten Filtern zu exportieren. Durch den Exportvorgang wird eine CSV-Datei generiert und die URL für die gespeicherte Datei wird innerhalb einer Pulse-Benachrichtigung gesendet. Mit dieser Funktion können Sie bei Bedarf Konten in Plattformen von Drittanbietern verschieben.

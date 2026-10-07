@@ -1,26 +1,34 @@
 ---
 title: Konfiguration externer Aktionen
-description: Erfahren Sie, wie Entwickler, Administratoren und Marketing-Fachleute zusammenarbeiten, um externe Aktionen zu implementieren, zu konfigurieren und zu verwenden, die Journey Optimizer B2B edition mit externen Services in Journey verbinden.
+description: Erfahren Sie, wie Entwickler, Administratoren und Marketing-Fachleute zusammenarbeiten, um externe Aktionen zu implementieren, zu konfigurieren und zu verwenden, die Journey Optimizer B2B Edition mit externen Services in Journey verbinden.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
+autotag-review: '2026-04-29T23:21:59.633Z'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
+subfeature_v2:
+  - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: a5f11fc1707e274738d961d991fd0dab26c65a4e
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1278
-ht-degree: 1%
-
+source-wordcount: '1278'
+ht-degree: 2%
 ---
-
 # Konfiguration externer Aktionen
 
 Externe Aktionen ermöglichen es Account- und Personen-Journey[!DNL Journey Optimizer B2B Edition] sich direkt über die Journey-Arbeitsfläche mit externen Systemen zu verbinden. Wenn eine Zielgruppe einen externen Aktionsknoten erreicht, führt das System einen asynchronen ausgehenden Aufruf an einen konfigurierten externen Service durch und übergibt dabei Zielgruppenattributdaten. Der externe Service verarbeitet die Daten und antwortet mithilfe eines Callbacks, wobei Zielgruppendaten und Metadaten zurückgegeben werden, die zur Anleitung der Journey-Ausführung verwendet werden können.
@@ -37,12 +45,12 @@ Die Einrichtung von Maßnahmen im Außenbereich erfordert eine Koordinierung der
 | | Rolle | Aufgabe |
 | ---- | ---- | ---- |
 | 1 | Entwickler | [Implementieren und veröffentlichen Sie den externen Service](#implement-service) |
-| 2 | Administrator | [Konfigurieren der Aktion in Journey Optimizer B2B edition](#configure-action) |
+| 2 | Administrator | [Konfigurieren der Aktion in Journey Optimizer B2B Edition](#configure-action) |
 | 3 | Marketer | [Hinzufügen eines externen Knotens zu einer Journey](#add-journey-node) |
 
 ## Implementieren des externen Services {#implement-service}
 
-Der Entwickler muss einen öffentlich zugänglichen Webservice erstellen und veröffentlichen, der der [Adobe Journey Optimizer B2B edition External Actions Service Provider Interface](https://developer.adobe.com/journey-optimizer-b2b-apis/) entspricht.
+Der Entwickler muss einen öffentlich zugänglichen Webdienst erstellen und veröffentlichen, der der [Adobe Journey Optimizer B2B Edition External Actions Service Provider Interface](https://developer.adobe.com/journey-optimizer-b2b-apis/) entspricht.
 
 >[!NOTE]
 >
@@ -149,7 +157,7 @@ Wenn Sie die URL zur OpenAPI-Spezifikation für Ihren externen Service eingeben 
 
 #### Details zu Validierungsfehlern
 
-| Angezeigter Fehler | Warum es passiert ist | Vorgehensweise |
+| Angezeigter Fehler | Warum es passiert ist | Erforderliche Schritte |
 |---|---|---|
 | `This URL is already used by another external action` | Diese Spezifikations-URL ist bereits für eine andere Aktion in Ihrer Organisation registriert. | Verwenden Sie eine andere Spezifikations-URL oder löschen Sie die vorhandene Aktion, die sie bereits verwendet. |
 | `An action with this name already exists` | Der `info.title` in Ihrer Spezifikation entspricht einer bereits vorhandenen Aktion | Ändern Sie den Titel im Feld `info.title` Ihrer Spezifikation in etwas Eindeutiges. |
@@ -158,7 +166,7 @@ Wenn Sie die URL zur OpenAPI-Spezifikation für Ihren externen Service eingeben 
 | `The entity type value is invalid` | Eine Adobe-spezifische `x-` für den Entitätstyp hat einen nicht erkannten Wert | Korrigieren Sie den Entitätstyp auf einen unterstützten Wert. Die gültigen Optionen finden [&#x200B; in &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/) Entwicklerdokumentation . |
 | `The provided document is not a valid OpenAPI specification` | Die Spezifikation kann nicht strukturell analysiert werden. | Validieren Sie Ihre Spezifikation anhand des OpenAPI 3.0-Schemas und beheben Sie etwaige Probleme. |
 | `Required OpenAPI field is missing` | Ein erforderliches OpenAPI-Standardfeld fehlt (z. B. `info` oder `paths`). | Fügen Sie das fehlende Feld hinzu. |
-| `Required endpoint is missing from the specification` | Ein Endpunkt, den Adobe Journey Optimizer B2B edition erfordert, ist nicht in Ihrer Spezifikation definiert. | Fügen Sie den erforderlichen Endpunkt hinzu. In der [Entwicklerdokumentation](https://developer.adobe.com/journey-optimizer-b2b-apis/) finden Sie Informationen dazu, welche Endpunkte benötigt werden. |
+| `Required endpoint is missing from the specification` | Ein für Adobe Journey Optimizer B2B Edition erforderlicher Endpunkt ist nicht in Ihrer Spezifikation definiert. | Fügen Sie den erforderlichen Endpunkt hinzu. In der [Entwicklerdokumentation](https://developer.adobe.com/journey-optimizer-b2b-apis/) finden Sie Informationen dazu, welche Endpunkte benötigt werden. |
 | `Required extension field is missing` | In Ihrer Spezifikation fehlt ein erforderliches Adobe `x-`-Erweiterungsfeld. | Fügen Sie das fehlende Erweiterungsfeld hinzu, wie in der Dokumentation beschrieben. |
 | `Security schemes are missing from the specification` | Für Ihre Spezifikation sind keine `securitySchemes` unter `components` definiert. | Definieren Sie mindestens ein Sicherheitsschema. |
 | `Multiple authentication types are not supported` | Ihre Spezifikation definiert mehr als ein Authentifizierungsschema. | Aktualisieren Sie Ihre -Spezifikation, um einen einzigen Authentifizierungstyp zu verwenden. |

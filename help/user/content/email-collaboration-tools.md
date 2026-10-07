@@ -1,28 +1,34 @@
 ---
 title: E-Mail an Collaboration-Tools senden
-description: Zusammenarbeit bei E-Mails in Journey Optimizer B2B edition. Hinzufügen von Kommentaren, Einladen von Reviewern, Auflösen von Feedback und Optimierung von Review-Workflows für Teams.
+description: Zusammenarbeit bei E-Mails in Journey Optimizer B2B Edition. Hinzufügen von Kommentaren, Einladen von Reviewern, Auflösen von Feedback und Optimierung von Review-Workflows für Teams.
 feature: Email Authoring, Content
 role: User
 exl-id: 2694200e-44c1-41a3-b460-3abe6a341a55
+autotag-review: 2026-03-30T22:09:19.178Z
+TQID: 'https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a4b836d9-ffdd-4df3-a62a-f78b830cf059
+    internal-label: Journeys
   - id: f01b5556-e951-40ba-8625-2e3001864f2b
+    internal-label: Communication channels
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
+  - id: 51366ff1-3b41-5c4e-a237-60cd4c149709
+    internal-label: Email Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-autotag-review: 2026-03-30T22:09:19.178Z
-TQID: https://experienceleague.adobe.com/HS8-H9FXERNgpylLO0rqGULtnMLTeDzQePgWq1qnoWM
-source-git-commit: 9baf03a1ddc1733385b0398ffadde8f548c431cc
+    internal-label: Intermediate
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1213
+source-wordcount: '1213'
 ht-degree: 4%
-
 ---
-
 # E-Mail-Kollaborations-Tools
 
 Der [E-Mail-Design-Bereich](./email-authoring.md) enthält Tools für die Zusammenarbeit bei Kommentaren und Lösungen, damit Marketing-Teams E-Mail-Assets direkt in [!DNL Journey Optimizer B2B Edition] nahtlos überprüfen, besprechen und abschließen können. Anstatt Entwürfe über externe Tools (wie Chat, E-Mail-Threads oder Tabellen) freizugeben, können Benutzende im E-Mail-Design-Bereich Kommentare abgeben, Änderungen vorschlagen und Feedback geben. Verwenden Sie diese Tools, um Ihren Workflow zu optimieren, Fehler zu reduzieren und sicherzustellen, dass die Beteiligten abgestimmt sind, bevor Sie Ihre E-Mail-Kampagne auf einer Account-Journey starten:
@@ -47,7 +53,7 @@ Display visual indicators (badges) for elements with associated comments
 
 ## E-Mail-Collaboration-Tools für Reviewer aktivieren
 
-Produktadministratoren können den Zugriff auf die Tools für die E-Mail-Zusammenarbeit aktivieren, indem sie die Berechtigung **[!UICONTROL B2B-E]** Mails verwalten) über die Benutzeroberfläche _Berechtigungen_ in Adobe Experience Cloud zuweisen.
+Produktadministratoren können den Zugriff auf die Tools für die E-Mail-Zusammenarbeit aktivieren, indem sie die Berechtigung **[!UICONTROL Verwalten von B2B]** E-Mails über die Benutzeroberfläche _Berechtigungen_ in Adobe Experience Cloud zuweisen.
 
 +++ E-Mail-Berechtigungen aktivieren
 

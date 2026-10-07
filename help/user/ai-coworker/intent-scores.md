@@ -1,35 +1,47 @@
 ---
 title: Absichtswerte
-description: Erfahren Sie, wie Journey Optimizer B2B edition die Absichtswerte aus der Interaktion mit Personen und der Inhaltsrelevanz berechnet und wie sich die Werte zu Konten summieren.
+description: Erfahren Sie, wie Journey Optimizer B2B Edition die Absichtswerte aus der Interaktion mit Personen und der Inhaltsrelevanz berechnet und wie sich die Werte zu Konten summieren.
 feature: Dashboards, Intent, Intelligent Insights
 role: User
 autotag-review: '2026-09-11T14:56:32.307Z'
 TQID: 'https://experienceleague.adobe.com/ajtUdNKafSoE1BC08imOpyflpDeAsXaQ3tdlbeYT6NU'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: f979fe0e-02fe-4599-b492-7b3df1d4e7dc
+    internal-label: Intelligent Insights
+  - id: 7da10825-0f0b-5df3-8450-465ae8d76951
+    internal-label: Dashboards
+  - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
 subfeature_v2:
   - id: e388c29d-df1e-4b47-ad27-1b14ae45776e
+    internal-label: Person insights
+  - id: e8c5d7c8-2857-453e-9943-8237af218e97
+    internal-label: Intent data
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 2da5c7bbbadde4bbb5df82a81398ecb970165da2
+    internal-label: Machine learning
+source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 
 # Absichtswerte {#intent-scores}
 
-Ein Intent Score misst, wie interessiert eine Person oder ein Konto an einem Keyword, einem Produkt oder einer Produktkategorie ist. Adobe Journey Optimizer B2B edition berechnet den Score anhand von maschinellem Lernen, das die Ähnlichkeit der Bedeutung misst, und nicht anhand manueller Regeln oder eines Festpunktsystems. Jeder Score wird von 0 auf 1 normalisiert, wobei höhere Zahlen eine stärkere Absicht anzeigen.
+Ein Intent Score misst, wie interessiert eine Person oder ein Konto an einem Keyword, einem Produkt oder einer Produktkategorie ist. Adobe Journey Optimizer B2B Edition berechnet den Score anhand von maschinellem Lernen, das die Ähnlichkeit der Bedeutung misst, und nicht anhand von manuellen Regeln oder einem Festpunktsystem. Jeder Score wird von 0 auf 1 normalisiert, wobei höhere Zahlen eine stärkere Absicht anzeigen.
 
 Die Inhaltsrelevanz wird etwa alle 12 Stunden aktualisiert, und die Intent-Scores werden täglich neu berechnet. Scores aggregieren sich von Keyword zu Produkt und von Person zu Konto. Absichtsbewertungen werden im gesamten [Intelligent Dashboard](../dashboards/intelligent-dashboard.md) und auf den [Kontodetails](../accounts/account-details.md), [_Einkaufsgruppendetails_, &#x200B;](../buying-groups/buying-group-details.md) und [Personendetails](../accounts/person-details.md) angezeigt.
 
@@ -55,7 +67,7 @@ Sie können Taxonomiezuordnungen jederzeit auf der Seite „Absichtszuordnung _[
 
 ### Inhaltsrelevanz {#content-relevance}
 
-Journey Optimizer B2B edition übersetzt Inhalte und Taxonomien in eine mathematische Darstellung ihrer Bedeutung und verwendet dann ein Ähnlichkeitsmodell, um zu messen, wie genau sie übereinstimmen. Inhalte, die einem Keyword oder Produkt sehr ähnlich sind, erhalten eine hohe Relevanz. Nicht verwandte Inhalte erhalten eine niedrige Bewertung.
+Journey Optimizer B2B Edition übersetzt Inhalte und Taxonomien in eine mathematische Darstellung ihrer Bedeutung und verwendet dann ein Ähnlichkeitsmodell, um zu messen, wie genau sie übereinstimmen. Inhalte, die einem Keyword oder Produkt sehr ähnlich sind, erhalten eine hohe Relevanz. Nicht verwandte Inhalte erhalten eine niedrige Bewertung.
 
 Das Ähnlichkeitsmodell ist auf allgemeine Sprache vortrainiert, sodass keine kundenspezifischen Schulungen erforderlich sind, um zu beginnen.
 
@@ -75,7 +87,7 @@ Jeder aussagekräftige Touchpoint, den eine Person hat, wird so erfasst, wie er 
 
 ### Inhaltsextraktion {#content-extraction}
 
-Bevor Inhalte nach Relevanz bewertet werden können, extrahiert Journey Optimizer B2B edition den Text und liest ihn.
+Bevor Inhalte für ihre Relevanz bewertet werden können, extrahiert Journey Optimizer B2B Edition den Text und liest ihn.
 
 * Für jedes neue Inhaltselement extrahiert das System den zugrunde liegenden Text, unabhängig davon, ob er sich auf einer Web-Seite oder in einer E-Mail befindet.
 * Einige Aktivitätstypen, z. B. Formularausfüllungen, enthalten bereits eigene beschreibende Inhalte und überspringen diesen Schritt.
