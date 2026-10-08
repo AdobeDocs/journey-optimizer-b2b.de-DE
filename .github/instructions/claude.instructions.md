@@ -745,7 +745,7 @@ Verwenden Sie KEINE Farbe allein, um Informationen zu vermitteln. Paaren Sie Far
 - Bilder, die nicht lokalisiert werden dürfen, werden in einen `do-not-localize/` Unterordner verschoben.
 - Inhaltsverzeichnisdateien (`TOC.md`) definieren die linke Navigationsstruktur. Aktualisieren Sie sie beim Hinzufügen oder Entfernen von Seiten.
 - Verwenden Sie Stammrelationen (`/help/...`) für Querverweise zwischen Dokumenten in diesem Repository.
-- Verwenden Sie für Links zu Dokumenten außerhalb dieses Repositorys absolute `https://experienceleague.adobe.com/...`-URLs.
+- Verwenden Sie für Links zu Dokumenten außerhalb dieses Repositorys absolute `https://experienceleague.adobe.com/de...`-URLs.
 - Zweigname: kein Präfix für Benutzernamen. Verwenden Sie die Jira-Ticketnummer und einen Slug mit Großschreibung des Titels (z. B. `PLAT-12345-Update-Guardrail-Limits`). Benennen Sie sowohl die Verzweigung als auch den PR-Titel im selben Format.
 - Einzelne Komponenten (Überschriften, eingezäunte Codeblöcke, Listen) müssen von Leerzeilen umgeben sein.
 - Nur ein H1 (`#`) pro Dokument. Die erste Zeile nach frontmatter muss die H1 sein.
@@ -832,7 +832,7 @@ Verwenden Sie das richtige MCP-Tool basierend auf dem Ressourcentyp:
 - **Referenz zu Lokalisierungs-Tags**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/authoring/localization/localize
 - **Markdown-Syntax in Experience League**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/markdown-syntax
 - **Markdown-Schnellübersicht**: https://experienceleague.adobe.com/en/docs/authoring-guide/using/markdown/cheatsheet
-- **Stilreferenz für Versionshinweise**: https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest
+- **Stilreferenz für Versionshinweise**: https://experienceleague.adobe.com/de/docs/experience-platform/release-notes/latest
 
 **Lokaler Klon:**
 - **Authoring-Handbuch repo:** Verwenden Sie einen verfügbaren Checkout des Adobe Experience League Authoring-Handbuchs oder der öffentlichen Dokumentation.
