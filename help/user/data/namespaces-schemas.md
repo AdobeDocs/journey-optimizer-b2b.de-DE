@@ -6,30 +6,37 @@ role: Admin
 exl-id: 40d01027-7cf2-4189-8a49-7a0783c00721
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
   - id: f7ea94b0-a6b4-43ef-bd93-f2c98c8f2072
+    internal-label: Real-Time Customer Data Platform B2B Edition
 feature_v2:
   - id: f2da1b69-6919-4386-a5d2-9c7b5c9033db
+    internal-label: Data management
   - id: c8f3fb27-3167-48ac-a66a-fa4bc3f58dda
+    internal-label: Integrations
   - id: d6e625c1-468f-4d73-9f32-fd1edb87f96b
+    internal-label: Administration
 subfeature_v2:
   - id: f6df9def-cdf7-4728-9ec8-3f65716828c7
+    internal-label: Setup
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 autotag-review: '2026-04-29T23:21:59.633Z'
-source-git-commit: 55446fa98f494b367f9f84abccebc70f59381f26
+source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
 workflow-type: tm+mt
-source-wordcount: 1003
-ht-degree: 87%
-
+source-wordcount: '1029'
+ht-degree: 84%
 ---
-
 # B2B-Namespaces und -Schemata
 
-Die Einrichtung von Journey Optimizer B2B edition umfasst die Konfiguration der Experience Platform-Namespaces und -Schemata, die mit B2B-Quellen verwendet werden. Das Postman-Automatisierungsdienstprogramm ist für die Generierung von B2B-Namespaces und -Schemata erforderlich.
+Das Journey Optimizer B2B Edition-Setup umfasst die Konfiguration der Experience Platform-Namespaces und -Schemata, die mit B2B-Quellen verwendet werden. Das Postman-Automatisierungsdienstprogramm ist für die Generierung von B2B-Namespaces und -Schemata erforderlich.
 
 >[!AVAILABILITY]
 >
@@ -38,6 +45,8 @@ Die Einrichtung von Journey Optimizer B2B edition umfasst die Konfiguration der 
 >- Ihre Experience Platform B2B-Entitäten müssen die Standardbeziehungen verwenden, die im Handbuch [B2B-Namespaces und -Schemata](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/schemas/b2b){target="_blank"} beschrieben sind.
 
 Überprüfen Sie die folgenden Informationen zur zugrunde liegenden Einrichtung für die Namespaces und Schemas, die mit B2B-Quellen verwendet werden sollen. Außerdem enthält es Details zur Konfiguration Ihres Postman-Automatisierungsprogramms, das zum Generieren von B2B-Namespaces und -Schemata erforderlich ist.
+
+Eine Zusammenfassung aller exportierten Datensätze und Details auf Feldebene für die wichtigsten Datensätze finden Sie unter [Adobe Journey Optimizer B2B Edition Adobe Experience Platform-Exportdatensätze](./aep-exported-datasets.md).
 
 ## Einrichten des Dienstprogramms zur automatischen Generierung
 
@@ -59,8 +68,8 @@ Wenn eine Experience Platform-Entwicklerkonsole und [!DNL Postman] eingerichtet 
 | `ACCESS_TOKEN` | Das Autorisierungs-Token, das zum Abschließen von Aufrufen an Experience Platform-APIs erforderlich ist. | `Bearer {ACCESS_TOKEN}` |
 | `META_SCOPE` | In Bezug auf [!DNL Journey Optimizer B2B] und [!DNL Marketo Engage] ist dieser Wert festgelegt und immer auf: `ent_dataservices_sdk` festgelegt. | `ent_dataservices_sdk` |
 | `CONTAINER_ID` | Der `global`-Container enthält alle standardmäßigen von Adobe und Experience Platform bereitgestellten Partnerklassen, Schemafeldgruppen, Datentypen und Schemata. In Bezug auf [!DNL Marketo] ist dieser Wert fest und wird immer auf `global` festgelegt. | `global` |
-| `TECHNICAL_ACCOUNT_ID` | Eine Berechtigung, die zur Integration mit Adobe I/O verwendet wird. | `D42AEVJZTTJC6LZADUBVPA15@techacct.adobe.com` |
-| `IMS` | Das Identity Management-System (IMS) stellt das Framework für die Authentifizierung für Adobe-Services bereit. In Bezug auf [!DNL Journey Optimizer B2B] und [!DNL Marketo Engage] ist dieser Wert festgelegt und immer auf: `ims-na1.adobelogin.com` festgelegt. | `ims-na1.adobelogin.com` |
+| `TECHNICAL_ACCOUNT_ID` | Anmeldedaten, die zur Integration mit Adobe I/O verwendet werden. | `D42AEVJZTTJC6LZADUBVPA15@techacct.adobe.com` |
+| `IMS` | Das Identitäts-Management-System (IMS) stellt das Framework für die Authentifizierung bei Adobe-Services bereit. In Bezug auf [!DNL Journey Optimizer B2B] und [!DNL Marketo Engage] ist dieser Wert festgelegt und immer auf: `ims-na1.adobelogin.com` festgelegt. | `ims-na1.adobelogin.com` |
 | `IMS_ORG` | Eine Unternehmenseinheit, die Produkte und Dienstleistungen besitzen oder lizenzieren und ihren Mitgliedern Zugang gewähren kann. | `ABCEH0D9KX6A7WA7ATQE0TE@adobeOrg` |
 | `SANDBOX_NAME` | Der Name der virtuellen Sandbox-Partition, die Sie verwenden. | `prod` |
 | `TENANT_ID` | Eine ID, mit der sichergestellt wird, dass die von Ihnen erstellten Ressourcen über den richtigen Namespace verfügen und in Ihrer Organisation enthalten sind. | `b2bcdpproductiontest` |
@@ -102,9 +111,9 @@ B2B-Namespaces werden in der primären Identität der Entität verwendet.
 
 ## B2B-Schemata
 
-Schemata dienen in Experience Platform zur konsistenten und wiederverwendbaren Beschreibung der Struktur von Daten. Durch die systemübergreifende einheitliche Definition von Daten wird es einfacher, deren Bedeutung beizubehalten und somit Wert aus Daten zu ziehen.
+Experience Platform verwendet Schemata, um die Struktur von Daten auf konsistente und wiederverwendbare Weise zu beschreiben. Durch die systemübergreifende einheitliche Definition von Daten wird es einfacher, deren Bedeutung beizubehalten und somit Wert aus Daten zu ziehen.
 
-Bevor Experience Platform Daten aufnehmen kann, muss ein Schema vorhanden sein, das die Datenstruktur beschreibt und Einschränkungen hinsichtlich des Datentyps bereitstellt, der in jedem Feld enthalten sein kann. Schemata bestehen aus einer Basisklasse und keiner oder mehreren Schema-Feldergruppen.
+Bevor Experience Platform Daten aufnehmen kann, muss ein Schema vorhanden sein, das die Datenstruktur beschreibt und Einschränkungen hinsichtlich des Datentyps bereitstellt, der in jedem Feld enthalten sein kann. Schemata bestehen aus einer Basisklasse und null oder mehr Schema-Feldgruppen.
 
 Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrundsätzen und Best Practices, finden Sie [_Grundlagen der Schemakomposition_](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/schema/composition){target="_blank"}.
 
@@ -141,7 +150,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
     </tr>
     <tr>
         <td>Beziehung</td>
-        <td><ul><li><code>accountParentKey.sourceKey</code> in der Feldergruppe XDM Business-Kontodetails</li><li>Ziel-Eigenschaft: <code>/accountKey/sourceKey</code></li><li>Typ: Eins-zu-eins</li><li>Referenzschema: B2B-Konto</li><li>Namespace: B2B-Konto</li></ul> </td>
+        <td><ul><li><code>accountParentKey.sourceKey</code> in der Feldgruppe „Details zum XDM Business-Konto“</li><li>Ziel-Eigenschaft: <code>/accountKey/sourceKey</code></li><li>Typ: Eins-zu-eins</li><li>Referenzschema: B2B-Konto</li><li>Namespace: B2B-Konto</li></ul> </td>
     </tr>
 </table>
 
@@ -156,7 +165,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
     </tr>
     <tr>
         <td>Feldergruppen</td>
-        <td><ul><li>XDM-Geschäftspersonendetails</li><li>XDM-Geschäftspersonenkomponenten</li><li>IdentityMap</li><li>Details zu Einverständnis und Voreinstellungen</li></ul> </td>
+        <td><ul><li>Persönliche XDM Business-Informationen</li><li>XDM-Geschäftspersonenkomponenten</li><li>IdentityMap</li><li>Details zu Einverständnis und Präferenzen</li></ul> </td>
     </tr>
     <tr>
         <td>[!DNL Profile] im Schema</td>
@@ -164,7 +173,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
     </tr>
     <tr>
         <td>Primäre Identität</td>
-        <td><code>b2b.personKey.sourceKey</code> in der Feldergruppe XDM-Geschäftspersonendetails .</td>
+        <td><code>b2b.personKey.sourceKey</code> in der Feldgruppe „Persönliche XDM Business-Informationen“</td>
     </tr>
     <tr>
         <td>Primärer Identity-Namespace</td>
@@ -172,7 +181,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
     </tr>
     <tr>
         <td>Sekundäre Identität</td>
-        <td><ol><li><code>extSourceSystemAudit.externalKey.sourceKey</code> der Feldergruppe „XDM-Geschäftspersonendetails“</li><li><code>workEmail.address</code> der Feldergruppe „XDM-Geschäftspersonendetails“</li></ol></td>
+        <td><ol><li><code>extSourceSystemAudit.externalKey.sourceKey</code> der Feldgruppe „Persönliche XDM Business-Informationen“</li><li><code>workEmail.address</code> der Feldgruppe „Persönliche XDM Business-Informationen“</li></ol></td>
     </tr>
     <tr>
         <td>Sekundärer Identity-Namespace</td>
@@ -180,7 +189,7 @@ Weitere Informationen zum Schemakompositionsmodell, einschließlich Planungsgrun
     </tr>
     <tr>
         <td>Beziehung</td>
-        <td><ul><li><code>personComponents.sourceAccountKey.sourceKey</code> der Feldergruppe „XDM-Geschäftspersonenkomponenten“</li><li>Typ: Viele-zu-eins</li><li>Referenzschema: B2B-Konto</li><li>Namespace: B2B-Konto</li><li>Ziel-Eigenschaft: accountKey.sourceKey</li><li>Beziehungsname aus aktuellem Schema: Konto</li><li>Beziehungsname aus Referenzschema: Personen</li></ul> </td>
+        <td><ul><li><code>personComponents.sourceAccountKey.sourceKey</code> der Feldgruppe „XDM Business-Personenkomponenten“</li><li>Typ: Viele-zu-eins</li><li>Referenzschema: B2B-Konto</li><li>Namespace: B2B-Konto</li><li>Ziel-Eigenschaft: accountKey.sourceKey</li><li>Beziehungsname aus aktuellem Schema: Konto</li><li>Beziehungsname aus Referenzschema: Personen</li></ul> </td>
     </tr>
 </table>
 
