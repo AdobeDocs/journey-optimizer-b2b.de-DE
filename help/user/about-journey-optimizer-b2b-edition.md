@@ -58,7 +58,7 @@ Journey Optimizer B2B Edition erstellt, speichert und führt Ihre Account-Journe
 
 Eine Journey beginnt immer mit einer Audience, die Leads oder Accounts und ihre Mitarbeiter für die Journey qualifiziert. Wählen Sie diese Zielgruppe mit dem standardmäßigen Experience Platform-Zielgruppenselektor aus. Marketing-Experten implementieren den Journey, indem sie Pfade mithilfe von Konto-, Personen- oder Einkaufsgruppenkriterien aufteilen. Auf jedem Pfad senden Aktionen Nachrichten oder warten auf das Auftreten eines Ereignisses.
 
-Nachdem Sie eine Konto-Journey erstellt haben, veröffentlichen Sie sie, um die Journey live zu schalten. Qualifizierende Accounts gelangen innerhalb von 24 Stunden auf eine veröffentlichte Journey. [ Erfahren Sie mehr über Datenverfügbarkeit und Synchronisierungszeitpunkt](./data/data-availability-timing.md).
+Nachdem Sie eine Konto-Journey erstellt haben, veröffentlichen Sie sie, um die Journey live zu schalten. Qualifizierende Accounts gelangen innerhalb von 24 Stunden auf eine veröffentlichte Journey. [&#x200B; Erfahren Sie mehr über Datenverfügbarkeit und Synchronisierungszeitpunkt](./data/data-availability-timing.md).
 
 ### Datenfluss
 
