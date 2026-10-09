@@ -56,7 +56,7 @@ Sie können die Wiedereinstiegseinstellungen aktivieren und die Wiedereinstiegse
 
    ![Klicken Sie oben rechts auf einer Konto-Journey auf Mehr](./assets/account-journey-draft-more-menu.png){width="450"}
 
-1. Schalten Sie im Dialogfeld für den erneuten ]_von_[!UICONTROL  Journey die Option **[!UICONTROL Erneuten Eintrag aktivieren]** um.
+1. Schalten Sie im Dialogfeld für den erneuten _von_ Journey die Option **[!UICONTROL Erneuten Eintrag aktivieren]** um.
 
    Wenn die Funktion aktiviert ist, werden die Optionen für Timing, Verzögerung und Grenzwerte angezeigt.
 
@@ -88,7 +88,7 @@ Sie können die Wiedereinstiegseinstellungen aktivieren und die Wiedereinstiegse
 
    ![Klicken Sie oben rechts auf einer Personen-Journey auf Mehr](./assets/person-journey-draft-more-menu.png){width="450"}
 
-1. Schalten Sie im Dialogfeld für den erneuten ]_von_[!UICONTROL  Journey die Option **[!UICONTROL Erneuten Eintrag aktivieren]** um.
+1. Schalten Sie im Dialogfeld für den erneuten _von_ Journey die Option **[!UICONTROL Erneuten Eintrag aktivieren]** um.
 
    Wenn die Funktion aktiviert ist, werden die Optionen für Timing, Verzögerung und Grenzwerte angezeigt.
 
