@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: eb4654dc36b165f5cb40e7999f3204bdc5bd2c85
+source-git-commit: 61cb7f99bf1f1649bf1a8569a506c248146a522e
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5717'
 ht-degree: 60%
 ---
 # Versionshinweise zu Journey Optimizer B2B Edition
@@ -43,15 +43,18 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Personenlisten | Statische und dynamische Personenlisten sind jetzt verfügbar, damit Sie Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Erlebnisereignisverlauf auswählen können. |
 | Funktion | Service-Status-Dashboards | Verfolgen Sie den Betriebszustand externer Aktionen, indem Sie Erfolgs-/Fehlermetriken erfassen und Dashboards zur Überwachung der Service-Leistung bereitstellen. |
+| Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. [Weitere Informationen](../journeys/journey-re-entry.md) |
 | Verbesserung | Mitglied des Profilzielgruppenfilters | Dieser Filter ist jetzt für die Bedingungen für den Split-Pfad von Personen-Journey, die Bedingungen für den Split-Pfad von Journey-Personen-Account und für Personenlisten verfügbar, um Profile basierend auf ihrer Zielgruppenzugehörigkeit ein- oder auszuschließen. |
-| Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
 
 >[!NOTE]
 >
 >Diese Versionsänderungen beginnen mit der Bereitstellung am 25. September 2026 mit einem schrittweisen Rollout jeder Funktion und Erweiterung. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
 
+<!--
+Delayed to Oct
+| Feature | People lists | Static and dynamic people lists are now available so that you can target profiles by your defined criteria, such as demographic attributes and experience event history. |
+-->
 
 ## Versionshinweise für 2026.8 {#rel-2026-8}
 
