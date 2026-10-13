@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # Benutzerzugriff und Berechtigungen
 
@@ -41,9 +41,9 @@ Nachdem die Bereitstellung abgeschlossen und Sandboxes gebunden sind, führen Si
 1. [Erstellen eines Marketo Engage-Produktprofils](#marketo-engage-profile) in der Admin Console (nur neue Marketo Engage-Instanz).
 1. [Hinzufügen einer Benutzergruppe](#add-user-group) in der Admin Console.
 1. [Bearbeiten von integrierten Rollen](#edit-roles-for-product-permissions) oder [Erstellen einer benutzerdefinierten Rolle](#create-a-custom-role) mit Berechtigungen für Journey Optimizer B2B edition.
-1. [Benutzer](#add-users) oder &quot;[&quot; &#x200B;](#add-user-groups-to-a-role) Rollen hinzufügen.
+1. [Benutzer](#add-users) oder &quot;[&quot; ](#add-user-groups-to-a-role) Rollen hinzufügen.
 
-Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [&#128279;](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
+Als Admin können Sie diese Aufgaben in der Adobe Admin Console ausführen, die ein zentraler Ort für die Verwaltung Ihrer Adobe-Produktlizenzen und Benutzenden ist. In der Admin Console können Sie Benutzende an einem zentralen Ort anstatt in Ihren individuellen Lösungen erstellen und verwalten. Weitere Informationen zu den Funktionen und Leistungsmerkmalen von finden Sie auf der Seite Übersicht über Admin Console [](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 ## Die Admin Console aufrufen
 
@@ -85,7 +85,7 @@ Weitere Informationen zur Verwendung von Produktprofilen für Benutzerberechtigu
 
 Wenn Sie Benutzende zum Marketo Engage-Produktprofil hinzufügen, werden sie anschließend zur Rolle _Standardbenutzende_ im Standardarbeitsbereich des Marketo Engage-Abonnements hinzugefügt. Mit dieser Rolle erhalten sie alle Standardberechtigungen für Marketo Engage in diesem Arbeitsbereich. Derzeit müssen alle Journey Optimizer B2B Edition-Benutzenden gleichzeitig Marketo Engage-Benutzende sein. Ein Marketo Engage-Administrator kann den Zugriff einschränken, indem er die Berechtigungen für die Rolle _Standardbenutzer_ aktualisiert oder indem er die Benutzerin bzw. den Benutzer in eine andere Benutzerrolle in Marketo Engage mit eingeschränkteren Berechtigungen verschiebt.
 
-Weitere Informationen zum Verwalten dieser Berechtigungen in Marketo Engage finden Sie unter [Verwalten von Benutzerrollen und -berechtigungen](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in der Dokumentation zu Marketo Engage.
+Weitere Informationen zum Verwalten dieser Berechtigungen in Marketo Engage finden Sie unter [Verwalten von Benutzerrollen und -berechtigungen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/users-and-roles/managing-user-roles-and-permissions){target="_blank"} in der Dokumentation zu Marketo Engage.
 
 >[!ENDSHADEBOX]
 
@@ -178,7 +178,7 @@ Berechtigungen sind Einzelrechte, mit denen Sie die einem Produktprofil zugewies
 
 Im _Berechtigungen_ von Adobe Experience Platform können Admins Benutzerrollen und Zugriffsrichtlinien definieren, um Zugriffsberechtigungen für Funktionen und Objekte innerhalb einer Produktanwendung zu verwalten. In dieser App können Sie Rollen erstellen und verwalten sowie die gewünschten Ressourcenberechtigungen für diese Rollen zuweisen. Mit Berechtigungen können Sie auch die Sandboxes und die Benutzer verwalten, die einer bestimmten Rolle zugeordnet sind.
 
-Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
+Weitere Informationen zu Rollenberechtigungen in Experience Platform finden Sie unter [Verwalten von Berechtigungen für eine Rolle](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} in der Dokumentation zu Experience Platform.
 
 ### B2B-Produktberechtigungen {#b2b-product-permissions}
 
@@ -192,8 +192,12 @@ Die folgenden Berechtigungen regeln den Zugriff auf Funktionen von Journey Optim
 | B2B-Einkaufsgruppen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Einkaufsgruppen. Zu diesen Berechtigungen gehören Lösungsinteressen, Rollenvorlagen und der Status der Käufergruppe. | <li>Verwalten von B2B-Einkaufsgruppen <li>Interessen an B2B-Lösungen verwalten <li>Vorlagen für B2B-Rollen verwalten <li>B2B-Stadien verwalten <li>B2B-Einkaufsgruppen anzeigen |
 | B2B-Kanal-Konfigurationen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Kanal-Konfigurationen. Zu diesen Berechtigungen gehören Einstellungen für Kommunikationsbeschränkungen, API-Anmeldedaten und Sicherheitseinstellungen. | <li>Verwalten von B2B-Kanalkonfigurationen <li>B2B-E-Mail-Einstellungen anzeigen <li>B2B-E-Mail-Einstellungen verwalten <li>Verwalten von B2B-WhatsApp-Voreinstellungen <li>Einstellungen für B2B-Landingpages verwalten <li>B2B-Forms-Voreinstellung anzeigen <li>Verwalten der B2B-Forms-Voreinstellung <li>Veröffentlichen der B2B-Forms-Voreinstellung <li>Erstellen von B2B-Web-Erlebnissen <li>B2B-WhatsApp-Einstellungen verwalten |
 | B2B-Dashboards | Konfigurieren und Anzeigen von Berechtigungen für B2B-Dashboards. Zu diesen Berechtigungen gehören die Kontointeraktion, Käufergruppenschritte, Konten mit steigender Aktivität und die Kontaktabdeckung. | <li>Dashboard für B2B-Interaktionen anzeigen |
-| B2B-Journey | Konfigurieren, Verwalten, Anzeigen und Veröffentlichen von Berechtigungen für B2B-Journey. Zu diesen Berechtigungen gehören Konto- und Personenaktionen, Ereignis-Listener und Aufspaltungspfade. | <li>Journey der B2B-Konten verwalten <li>Verwalten von B2B-Personen-Journey |
+| B2B-Journey | Konfigurieren, Verwalten, Anzeigen und Veröffentlichen von Berechtigungen für B2B-Journey. Zu diesen Berechtigungen gehören Konto- und Personenaktionen, Ereignis-Listener und Aufspaltungspfade. | <li>Journey der B2B-Konten verwalten <li>Verwalten von B2B-Personen-Journey <li>B2B-Personen-Journey anzeigen <li>Veröffentlichen von B2B-Personen-Journey |
 | Journey Optimizer-Regeln | Zugreifen auf und Konfigurieren von Häufigkeitsregeln (Kommunikationsbeschränkungen). Diese Berechtigungen sollten auf Produktadministratoren beschränkt sein. | <li>Anzeigen von Häufigkeitsregeln <li>Verwalten von Häufigkeitsregeln |
+
+>[!NOTE]
+>
+>Alle Berechtigungen für B2B-Personen-Journey gewähren derzeit Personen-Journey Lese-, Schreib- und Veröffentlichungszugriff. Diese bekannte Lücke wird in einer zukünftigen Version behoben.
 
 ### Integrierte B2B-Rollen {#b2b-built-in-roles}
 
