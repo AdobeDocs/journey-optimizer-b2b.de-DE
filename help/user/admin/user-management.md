@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 77%
+source-wordcount: '2381'
+ht-degree: 76%
 ---
 # Benutzerzugriff und Berechtigungen
 
@@ -192,8 +192,12 @@ Die folgenden Berechtigungen regeln den Zugriff auf Funktionen von Journey Optim
 | B2B-Einkaufsgruppen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Einkaufsgruppen. Zu diesen Berechtigungen gehören Lösungsinteressen, Rollenvorlagen und der Status der Käufergruppe. | <li>Verwalten von B2B-Einkaufsgruppen <li>Interessen an B2B-Lösungen verwalten <li>Vorlagen für B2B-Rollen verwalten <li>B2B-Stadien verwalten <li>B2B-Einkaufsgruppen anzeigen |
 | B2B-Kanal-Konfigurationen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Kanal-Konfigurationen. Zu diesen Berechtigungen gehören Einstellungen für Kommunikationsbeschränkungen, API-Anmeldedaten und Sicherheitseinstellungen. | <li>Verwalten von B2B-Kanalkonfigurationen <li>B2B-E-Mail-Einstellungen anzeigen <li>B2B-E-Mail-Einstellungen verwalten <li>Verwalten von B2B-WhatsApp-Voreinstellungen <li>Einstellungen für B2B-Landingpages verwalten <li>B2B-Forms-Voreinstellung anzeigen <li>Verwalten der B2B-Forms-Voreinstellung <li>Veröffentlichen der B2B-Forms-Voreinstellung <li>Erstellen von B2B-Web-Erlebnissen <li>B2B-WhatsApp-Einstellungen verwalten |
 | B2B-Dashboards | Konfigurieren und Anzeigen von Berechtigungen für B2B-Dashboards. Zu diesen Berechtigungen gehören die Kontointeraktion, Käufergruppenschritte, Konten mit steigender Aktivität und die Kontaktabdeckung. | <li>Dashboard für B2B-Interaktionen anzeigen |
-| B2B-Journey | Konfigurieren, Verwalten, Anzeigen und Veröffentlichen von Berechtigungen für B2B-Journey. Zu diesen Berechtigungen gehören Konto- und Personenaktionen, Ereignis-Listener und Aufspaltungspfade. | <li>Journey der B2B-Konten verwalten <li>Verwalten von B2B-Personen-Journey |
+| B2B-Journey | Konfigurieren, Verwalten, Anzeigen und Veröffentlichen von Berechtigungen für B2B-Journey. Zu diesen Berechtigungen gehören Konto- und Personenaktionen, Ereignis-Listener und Aufspaltungspfade. | <li>Journey der B2B-Konten verwalten <li>Verwalten von B2B-Personen-Journey <li>B2B-Personen-Journey anzeigen <li>Veröffentlichen von B2B-Personen-Journey |
 | Journey Optimizer-Regeln | Zugreifen auf und Konfigurieren von Häufigkeitsregeln (Kommunikationsbeschränkungen). Diese Berechtigungen sollten auf Produktadministratoren beschränkt sein. | <li>Anzeigen von Häufigkeitsregeln <li>Verwalten von Häufigkeitsregeln |
+
+>[!NOTE]
+>
+>Alle Berechtigungen für B2B-Personen-Journey gewähren derzeit Personen-Journey Lese-, Schreib- und Veröffentlichungszugriff. Diese bekannte Lücke wird in einer zukünftigen Version behoben.
 
 ### Integrierte B2B-Rollen {#b2b-built-in-roles}
 
