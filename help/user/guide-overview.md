@@ -81,7 +81,7 @@ Marketing-Experten können detaillierte Profile einschließlich Hintergrundinfor
 
 Neueste Versionshinweise
 
-Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserungen in Adobe Journey Optimizer B2B edition auf dem Laufenden.
+Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition auf dem Laufenden.
 
 [Versionshinweise anzeigen](./release-notes/release-notes.md)
 :::
@@ -91,7 +91,7 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 
 Erste Schritte
 
-Lesen Sie die Onboarding-Anleitung für Journey Optimizer B2B edition für Administratoren und Marketing-Fachleute.
+Lesen Sie die Journey Optimizer B2B Edition-Onboarding-Anleitung für Administratoren und Marketing-Fachleute.
 
 [Administratoren](./setup-ultimate.md)
 [Benutzer](./start/get-started.md)
@@ -102,7 +102,7 @@ Lesen Sie die Onboarding-Anleitung für Journey Optimizer B2B edition für Admin
 
 Konfigurieren von XDM-Feldern
 
-Implementieren Sie die Systemkonfigurationen, um die XDM-Schemata und -Felder zu aktivieren, die Sie in Adobe Journey Optimizer B2B edition verwenden möchten.
+Implementieren Sie die Systemkonfigurationen, um die XDM-Schemata und -Felder zu aktivieren, die Sie in Adobe Journey Optimizer B2B Edition verwenden möchten.
 
 [XDM-Feldverwaltung anzeigen](./admin/xdm-field-management.md)
 :::
@@ -202,7 +202,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 ## Zusätzliche Ressourcen
 
 <table style="table-layout:fixed">
-<tr><td><strong>Adobe Journey Optimizer B2B edition</strong><br/>
+<tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> - <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
