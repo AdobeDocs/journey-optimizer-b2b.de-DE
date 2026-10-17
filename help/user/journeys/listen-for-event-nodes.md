@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 5%
+source-wordcount: '2144'
+ht-degree: 4%
 ---
 # Warten auf ein Ereignis
 
-Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu &#x200B;](./journeys-overview.md), wenn ein Ereignis eintritt, fügen Sie den Knoten _Auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
+Um die Audience beim Eintreten eines Ereignisses zum nächsten Schritt auf Ihrer [&#128279;](./journeys-overview.md)Journey zu bewegen, fügen Sie den Knoten _Lauschen auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
 
 <!--
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
@@ -65,7 +65,7 @@ Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu &#x200B;](./jour
 
      Ziehen Sie im _Ereignis bearbeiten_ ein oder mehrere [Personenereignisse](#people-events) in den Builder-Bereich und legen Sie jeweils die Definition fest. Klicken Sie **[!UICONTROL Begrenzung hinzufügen]** für jede Begrenzung, die Sie zum Verfeinern der Ereignisübereinstimmung verwenden möchten.
 
-     Sie können mehrere Personenereignisse hinzufügen, die übereinstimmen. Das erste qualifizierte Ereignis bringt das Konto auf der Journey voran.
+     Sie können mehrere Personenereignisse hinzufügen, die übereinstimmen. Das erste qualifizierte Ereignis bringt das Konto auf die Journey.
 
      ![Konto-Journey-Knoten - Überwachen von Ereignissen - Ereignistyp „Personen“ - Ereignis bearbeiten](./assets/node-listen-events-account-people-edit-event.png){width="700" zoomable="yes"}
 
@@ -79,7 +79,7 @@ Um die Zielgruppe in Ihrem [Journey in den nächsten Schritt zu &#x200B;](./jour
 
 ### Personen-Events für Account-Journey {#people-events}
 
-Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis überwachen, wenn Sie das Konto auf der Journey entsprechend den durch Personen-(Lead-)Aktivitäten ausgelösten Ereignissen weiterleiten möchten. Sie können Ereignisse auch nach Ereignisverlauf und Personenattributen filtern.
+Auf einer Account-Journey können Sie Personen entsprechend einem Ereignis zuordnen, wenn Sie das Konto entsprechend den durch die Aktivität Person (Lead) ausgelösten Ereignissen auf der Journey weiterleiten möchten. Sie können Ereignisse auch nach Ereignisverlauf und Personenattributen filtern.
 
 >[!TIP]
 >
@@ -97,7 +97,7 @@ Ausführliche Informationen zur Verwendung von Erlebnisereignissen finden Sie un
 
 ### Kontoereignisse {#account-events}
 
-Auf einer Account-Journey können Sie für ein Account-basiertes Ereignis überwachen, wenn Sie das Account-Konto entsprechend den durch die Account-Aktivität ausgelösten Ereignissen auf der Journey weiterleiten möchten.
+Auf einer Account-Journey können Sie für ein Account-basiertes Ereignis lauschen, wenn Sie das Account-Konto entsprechend den durch die Account-Aktivität ausgelösten Ereignissen auf der Journey voranbringen möchten.
 
 | Ereignis | Begrenzungen |
 | ----- | ----------- |
@@ -185,7 +185,7 @@ If you have web pages in your connected Marketo Engage instance, you can trigger
 
    Ziehen Sie den Ereignis -Trigger per Drag-and-Drop in den Builder-Bereich und legen Sie die Definition fest. Klicken Sie **[!UICONTROL Begrenzung hinzufügen]** für jede Begrenzung, die Sie zum Verfeinern der Ereignisübereinstimmung verwenden möchten.
 
-   Sie können mehrere Ereignisse hinzufügen, die übereinstimmen. Das erste Qualifizierungsereignis bringt das Personenprofil auf der Journey voran.
+   Sie können mehrere Ereignisse hinzufügen, die übereinstimmen. Das erste qualifizierte Ereignis bringt das Personenprofil auf die Journey.
 
 1. (Optional) Wählen Sie die Registerkarte **[!UICONTROL Filter]** aus, um [Filter für das Ereignis hinzuzufügen](#filters-people-event).
 
@@ -260,7 +260,8 @@ Wenn Sie ein [Personenereignis auf einer Konto-Journey](#people-events) oder ein
 | [!UICONTROL Ereignisverlauf] | Erlebnisereignisse, die von einem Administrator konfiguriert wurden. Siehe _[Auswählen von Erlebnisereignissen und Feldern](../admin/configure-aep-events.md)_. |
 | [!UICONTROL Personenattribute] | Attribute aus dem B2B-Personenprofil, einschließlich: <li>Stadt <li>Land <li>Geburtsdatum <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region<li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Land <li>Abbestellt <li>Grund für Abmeldung |
 | [!UICONTROL Personenattribute] | (Nur Personen-Journeys) Attributwert |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wurde entfernt (Standard: `false`)</li><li>Rolle</li> (Siehe [Mitgliedschaftsfilter](#membership-filtering)) |
+| [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Profilzielgruppe] | Die Person ist oder ist nicht Mitglied in einer oder mehreren Zielgruppen [!DNL Adobe Experience Platform] Profilen. (Siehe [Mitgliedschaftsfilter](#membership-filtering)) |
 
 <!--
 | [!UICONTROL Special filters] > [!UICONTROL Member of List] | The person is or is not a member of one or more Marketo Engage lists. |
@@ -285,13 +286,58 @@ Wenn Sie ein [Personenereignis auf einer Konto-Journey](#people-events) oder ein
 
 1. Wenn die Ereignis- und Filterdefinitionen abgeschlossen sind, klicken Sie auf **[!UICONTROL Fertig]**.
 
+### Filtern von Abonnements {#membership-filtering}
+
+Verwenden Sie im _[!UICONTROL Spezialfilter]_ die folgenden Filter, um ein Ereignis basierend auf der Zugehörigkeit einer Person abzugleichen:
+
+* _[!UICONTROL Mitglied der Einkaufsgruppe]_ - Prüft, ob die Person Mitglied einer Einkaufsgruppe ist.
+* _[!UICONTROL Mitglied der Profilzielgruppe]_ - Wertet aus, ob die Person Mitglied einer [!DNL Adobe Experience Platform] Profilzielgruppe ist.
+
+Um einen Mitgliedschaftsfilter hinzuzufügen, ziehen Sie ihn aus dem Ordner &quot;_[!UICONTROL Filter]_ in den Arbeitsbereich „Filter“ und setzen Sie die Mitgliedschaft auf _true_, um Mitglieder einzuschließen, oder _false_, um sie auszuschließen. Sie können beide Filter in derselben Ereignisdefinition kombinieren und die **[!UICONTROL Filterlogik]** verwenden, um einen oder alle Filter abzugleichen.
+
+Diese Filter sind auch unter „Pfad [&#x200B; Personen aufteilen“ verfügbar](./split-merge-paths-nodes.md#membership-filtering).
+
+![Auf Ereignisknoten überwachen - Mitgliedschaftsfilter](./assets/node-listen-event-people-membership-filters.png){width="700" zoomable="yes"}
+
+**Mitglied der Einkaufsgruppe**
+
+Um ein Ereignis für Mitglieder einer kaufenden Gruppe mit einer bestimmten Rolle abzugleichen, setzen Sie die Mitgliedschaft auf _true_ und wählen Sie ein _[!UICONTROL Lösungsinteresse]_ aus, das mit einer oder mehreren kaufenden Gruppen verknüpft ist.
+
+Wenn Sie den Filter hinzufügen, enthält das System standardmäßig die Beschränkung _[!UICONTROL Ist entfernt]_ und setzt sie auf `false`, sodass der Filter nur aktuellen Mitgliedern der Einkaufsgruppe entspricht.
+
+Klicken Sie auf **[!UICONTROL Begrenzung hinzufügen]**, um zusätzliche Beschränkungen für die Einkaufsgruppenmitgliedschaft einzuschließen:
+
+* _[!UICONTROL Gruppenphase kaufen]_
+* _[!UICONTROL Einkaufsgruppenstatus]_
+* _[!UICONTROL Vollständigkeit]_
+* _[!UICONTROL Engagement score]_
+* _[!UICONTROL Rolle]_
+
+>[!IMPORTANT]
+>
+>Die _[!UICONTROL Is Removed]_-Einschränkung bestimmt, ob entfernte Mitglieder der Einkaufsgruppe ausgewertet werden:
+>
+>* `false` (Standard) - Gibt nur aktuelle Mitglieder der Einkaufsgruppe zurück. Entfernte Mitglieder sind nicht enthalten.
+>* `true` - Gibt nur entfernte Kauf-Gruppenmitglieder zurück. Aktuelle Mitglieder sind nicht eingeschlossen.
+>* Beschränkung entfernt - Gibt sowohl aktuelle als auch entfernte Mitglieder der Einkaufsgruppe zurück.
+>
+>Wenn Sie die Einschränkung entfernen, kann der Filter Personen zuordnen, die nicht mehr zur Einkaufsgruppe gehören.
+
+**Mitglied der Profilzielgruppe**
+
+Verwenden Sie die _[!UICONTROL Profil-Zielgruppe]_, um eine oder mehrere Zielgruppen auszuwählen. Wenn Sie beispielsweise die `integroPerson` Zielgruppe auswählen, stimmt das Ereignis nur mit Personen überein, die zum Zeitpunkt der letzten Batch-Aufnahme Mitglieder dieser Zielgruppe waren.
+
+>[!NOTE]
+>
+>Der Filter berechnet die Zielgruppenzugehörigkeit nicht in Echtzeit. Sie qualifiziert Personen auf Grundlage ihrer Zugehörigkeit zur ausgewählten Zielgruppe als der letzten Batch-Zielgruppenaufnahme. Nur Zielgruppen, die in [!DNL Journey Optimizer B2B Edition] aufgenommen wurden, können ausgewertet werden.
+
 ## Hinzufügen einer maximalen Wartezeit zu einem Ereignisknoten {#timeouts}
 
 Legen Sie bei Bedarf fest, wie lange die Journey auf das Ereignis warten soll. Der Journey endet nach einer Zeitüberschreitung, es sei denn, Sie definieren einen Zeitüberschreitungspfad, über den Sie weitere Knoten hinzufügen können.
 
 Aktivieren Sie die **[!UICONTROL Timeout]** in den Knoteneigenschaften, um eine maximale Wartezeit für den Knoten _Auf ein Ereignis überwachen_ anzugeben.
 
-1. Wählen Sie bei aktivierten Optionen den _Typ_ und geben Sie die Parameter für die Zeitüberschreitung an:
+1. Wählen Sie bei aktivierter Option den _Typ_ und geben Sie die Parameter für die Zeitüberschreitung an:
 
    * **[!UICONTROL Dauer]** - Verwenden Sie diesen Typ, um einen Zeitraum für den Ereignis-Trigger anzugeben. Wenn das Ereignis innerhalb dieses Zeitraums nicht Trigger, wird die Person oder das Konto nicht auf der Journey fortgesetzt.
 

@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Audience segmentation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2569'
 ht-degree: 4%
 ---
 # Aufspaltung und Zusammenführen von Pfaden {#split-paths}
@@ -159,7 +159,8 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 | [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
 | [!UICONTROL Ereignisverlauf] | Teilt Personen auf Grundlage von Erlebnisereignissen, die vor dem Journey-Eintritt aufgetreten sind. Erweitern Sie den Ordner , um alle unter „Admin[&#x200B; > XDM-Ereigniskonfiguration“ konfigurierten Ereignistypen anzuzeigen](../admin/configure-aep-events.md) und wählen Sie einen aus, der als Filter hinzugefügt werden soll. Zu den Einschränkungen gehören Felder aus dem ausgewählten Ereignis, ein Lookback-Zeitfenster, das ab dem Zeitpunkt gemessen wird, zu dem die Person die Journey betritt, und eine optionale Mindestanzahl von Malen. |
 | [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Stadt <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Bundesland |
-| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wird entfernt</li><li>Rolle</li> |
+| [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wurde entfernt (Standard: `false`)</li><li>Rolle</li> (Siehe [Mitgliedschaftsfilter](#membership-filtering)) |
+| [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Profilzielgruppe] | Die Person ist oder ist nicht Mitglied in einer oder mehreren Zielgruppen [!DNL Adobe Experience Platform] Profilen. (Siehe [Mitgliedschaftsfilter](#membership-filtering)) |
 
 ### Pfadbedingungen für Konto-Person
 
@@ -224,15 +225,15 @@ _&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 
 Für einen aufgeteilten Pfad nach Personen können Sie einen Pfad definieren, der auf Erlebnisereignissen basiert, die vor dem Eintritt der Person in die Journey aufgetreten sind. Um eine Liste aller von Ihrem Administrator konfigurierten Ereignistypen anzuzeigen, erweitern Sie den Ordner **[!UICONTROL Ereignisverlauf]** im Bedingungseditor. Ereignistyp auswählen, um ihn als Filterbedingung hinzuzufügen.
 
-Das Lookback-Zeitfenster für den Ereignisverlauf wird ab dem Zeitpunkt rückwärts gemessen, zu dem die Person die Journey betritt. Beispielsweise wird in einem 30-Tage-Fenster bewertet, ob das qualifizierte Ereignis innerhalb der 30 Tage vor dem Journey-Eintrag aufgetreten ist.
+Das Zeitfenster für den Ereignisverlauf wird ab dem Zeitpunkt rückwärts gemessen, zu dem die Person die Journey betritt. Beispielsweise wird in einem 30-Tage-Fenster bewertet, ob das qualifizierte Ereignis innerhalb der 30 Tage vor dem Journey-Eintrag aufgetreten ist.
 
-Sie können den Filter mithilfe von spezifischen Einschränkungen für die Felder des ausgewählten Ereignisses weiter verfeinern. Die optionalen Einschränkungen **[!UICONTROL Mindestanzahl von]**) und **[!UICONTROL Datum der Aktivität]** werden beide innerhalb des definierten Lookback-Fensters ausgewertet. Da Ereignisverlaufsdaten mit Adobe Experience Platform synchronisiert werden, kann es zu einer kurzen Verzögerung kommen, bevor ein kürzlich aufgetretenes Ereignis für diesen Filter verfügbar wird.
+Sie können den Filter mithilfe von spezifischen Einschränkungen für die Felder des ausgewählten Ereignisses weiter verfeinern. Die optionalen Einschränkungen **[!UICONTROL Mindestanzahl von]**) und **[!UICONTROL Datum der Aktivität]** werden beide innerhalb des definierten Lookback-Fensters ausgewertet. Da Ereignisverlaufsdaten aus [!DNL Adobe Experience Platform] synchronisiert werden, kann es zu einer kurzen Verzögerung kommen, bevor ein kürzlich aufgetretenes Ereignis für diesen Filter verfügbar wird.
 
 >[!NOTE]
 >
 >Die [Erlebnisereignis- und Feldkonfigurationen](../admin/configure-aep-events.md) bestimmen die Ereignisse, die im Ordner [!UICONTROL Ereignisverlauf] verfügbar sind.
 
-**Beispiel:** Um Personen, die auf einen Link in einer Marketing-E-Mail geklickt haben, bevor sie die Journey aufrufen, weiterzuleiten, wählen Sie das E-Mail-Klickereignis aus dem Ordner [!UICONTROL Ereignisverlauf] aus, legen Sie das Lookback-Fenster auf den entsprechenden Zeitraum fest und wenden Sie bei Bedarf Einschränkungen auf Feldebene an (z. B. eine bestimmte Link-URL).
+**Beispiel:** Um Personen, die auf einen Link in einer Marketing-E-Mail geklickt haben, bevor sie die Journey aufrufen, weiterzuleiten, wählen Sie das E-Mail-Klickereignis aus dem Ordner [!UICONTROL Ereignisverlauf] aus, legen Sie das Lookback-Fenster fest und wenden Sie bei Bedarf Einschränkungen auf Feldebene an.
 
 ![Pfad nach Personenbedingung für Ereignisverlauf aufteilen](./assets/node-split-people-condition-event-history.png){width="700" zoomable="yes"}
 
@@ -244,13 +245,24 @@ Für jeden Filter _[!UICONTROL Ereignisverlauf]_ können Sie die Option **[!UICO
 
 >[!ENDSHADEBOX]
 
-### Filtern von Abonnements
+### Filtern von Abonnements {#membership-filtering}
 
-Im Abschnitt _[!UICONTROL Spezielle Filter]_ gibt es mehrere Filter, mit denen Sie die Zugehörigkeit einer Person zu einer Einkaufsgruppe bewerten können.
+Verwenden Sie im _[!UICONTROL Spezialfilter]_ die folgenden Filter, um Pfade basierend auf der Zugehörigkeit einer Person zu erstellen:
 
-Wenn Sie beispielsweise einen Pfad für Personen erstellen möchten, die Mitglieder einer Einkaufsgruppe sind und denen eine bestimmte Rolle zugewiesen ist, fügen Sie den Filter _[!UICONTROL Sonderfilter]_ > _[!UICONTROL Mitglied der]_) hinzu. Legen Sie für den Filter die Mitgliedschaft auf _true_ fest und wählen Sie ein _[!UICONTROL Interesse an der Lösung]_ aus, das mit einer oder mehreren Einkaufsgruppen verknüpft ist.
+* _[!UICONTROL Mitglied der Einkaufsgruppe]_ - Prüft, ob die Person Mitglied einer Einkaufsgruppe ist.
+* _[!UICONTROL Mitglied der Profilzielgruppe]_ - Wertet aus, ob die Person Mitglied einer [!DNL Adobe Experience Platform] Profilzielgruppe ist.
 
-![Pfad nach Personen aufteilen Bedingung für den Kauf der Gruppenmitgliedschaft](./assets/node-split-people-condition-buying-group-membership.png){width="700" zoomable="yes"}
+Um einen Mitgliedschaftsfilter hinzuzufügen, ziehen Sie ihn aus dem Ordner _[!UICONTROL Sonderfilter]_ in den Arbeitsbereich Bedingungen und setzen Sie die Mitgliedschaft auf _true_, um Mitglieder einzuschließen, oder _false_, um sie auszuschließen. Sie können beide Filter in derselben Pfadbedingung kombinieren und die **[!UICONTROL Filterlogik]** verwenden, um sie mit einem oder allen Filtern abzugleichen.
+
+Diese Filter sind auch verfügbar, wenn Sie [Filter für ein Ereignis hinzufügen](./listen-for-event-nodes.md#membership-filtering) in einem _auf ein Ereignis_.
+
+![Aufspaltungspfad nach Personen Bedingung für den Kauf einer Gruppen- und Profilzielgruppenmitgliedschaft](./assets/node-split-people-condition-profile-audience-membership.png){width="700" zoomable="yes"}
+
+**Mitglied der Einkaufsgruppe**
+
+Um beispielsweise einen Pfad für Kauf-Gruppenmitglieder mit einer bestimmten Rolle zu erstellen, setzen Sie die Mitgliedschaft auf _true_ und wählen Sie ein _[!UICONTROL Lösungsinteresse]_ aus, das mit Einkaufsgruppen verknüpft ist.
+
+Wenn Sie den Filter hinzufügen, enthält das System standardmäßig die Beschränkung _[!UICONTROL Ist entfernt]_ und setzt sie auf `false`, sodass der Pfad nur die aktuellen Mitglieder der Einkaufsgruppe enthält.
 
 Klicken Sie auf **[!UICONTROL Begrenzung hinzufügen]**, um zusätzliche Beschränkungen für die Einkaufsgruppenmitgliedschaft einzuschließen:
 
@@ -258,12 +270,25 @@ Klicken Sie auf **[!UICONTROL Begrenzung hinzufügen]**, um zusätzliche Beschr�
 * _[!UICONTROL Einkaufsgruppenstatus]_
 * _[!UICONTROL Vollständigkeit]_
 * _[!UICONTROL Engagement score]_
-* _[!UICONTROL wird entfernt]_
 * _[!UICONTROL Rolle]_
 
->[!TIP]
+>[!IMPORTANT]
 >
->Um Mitglieder auszuschließen, die aus einer Einkaufsgruppe entfernt wurden, verwenden Sie die Beschränkung _[!UICONTROL Ist entfernt]_, die auf `false` gesetzt ist. Sie können entfernte Member auch explizit einbeziehen, indem Sie diese Einschränkung auf `true` festlegen.
+>Die _[!UICONTROL Is Removed]_-Einschränkung bestimmt, ob entfernte Mitglieder der Einkaufsgruppe ausgewertet werden:
+>
+>* `false` (Standard) - Gibt nur aktuelle Mitglieder der Einkaufsgruppe zurück. Entfernte Mitglieder sind nicht enthalten.
+>* `true` - Gibt nur entfernte Kauf-Gruppenmitglieder zurück. Aktuelle Mitglieder sind nicht eingeschlossen.
+>* Beschränkung entfernt - Gibt sowohl aktuelle als auch entfernte Mitglieder der Einkaufsgruppe zurück.
+>
+>Wenn Sie die Einschränkung aufheben, kann der Pfad Personen enthalten, die nicht mehr zur Einkaufsgruppe gehören.
+
+**Mitglied der Profilzielgruppe**
+
+Verwenden Sie die _[!UICONTROL Profil-Zielgruppe]_, um eine oder mehrere Zielgruppen auszuwählen. Wenn Sie beispielsweise die Zielgruppe `integroPerson` auswählen, qualifiziert der Pfad alle Personen, die zum Zeitpunkt der letzten Batch-Aufnahme Mitglieder dieser Zielgruppe waren.
+
+>[!NOTE]
+>
+>Der Filter berechnet die Zielgruppenzugehörigkeit nicht in Echtzeit. Sie qualifiziert Personen auf Grundlage ihrer Zugehörigkeit zur ausgewählten Zielgruppe als der letzten Batch-Zielgruppenaufnahme. Nur Zielgruppen, die in [!DNL Journey Optimizer B2B Edition] aufgenommen wurden, können ausgewertet werden.
 
 ## Benutzerdefinierte Datenfilterung {#custom-data-filtering}
 
@@ -287,9 +312,9 @@ Um verschiedene (_Pfade nach Konto zu kombinieren_ fügen Sie in Ihrem Journey e
 
 1. Wählen Sie in den Knoteneigenschaften „Zusammenführungspfade“ die Pfade aus, die zusammengeführt werden sollen.
 
-   ![Journey-Knoten - Zusammenführungspfade](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
+   ![Journey-Knoten - Wählen Sie die zusammenzuführenden Pfade aus](./assets/node-merge-select-paths.png){width="600" zoomable="yes"}
 
-   An dieser Stelle werden die Pfade zusammengeführt, sodass Konten aus den ausgewählten Pfaden zu einem einzigen Pfad kombiniert werden, der durch den Journey weiter ausgeführt werden kann.
+   Die Pfade werden zusammengeführt, sodass Konten aus den ausgewählten Pfaden zu einem einzigen Pfad kombiniert werden, der durch den Journey weiter verarbeitet werden kann.
 
 1. Bei Bedarf können Sie die Zusammenführung von Pfaden aufheben, indem Sie zurück zu den Knoteneigenschaften der Zusammenführungspfade navigieren und das Kontrollkästchen für alle Pfade deaktivieren, die Sie entfernen möchten.
 
