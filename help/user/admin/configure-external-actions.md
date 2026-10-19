@@ -129,11 +129,11 @@ Eine Aktion muss konfiguriert und aktiviert werden, bevor sie von Marketing-Expe
 
      * [!UICONTROL Personen im Konto] - Sendet Konten und kontobezogene Personen
 
-   * **[!UICONTROL Ausgehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem [XDM-Feld“ ](../admin/xdm-field-management.md). Diese Felder werden im Anfragetext an den externen Service gesendet. Eigenschaften der Dienstdefinition: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
+   * **[!UICONTROL Ausgehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem [XDM-Feld“ &#x200B;](../admin/xdm-field-management.md). Diese Felder werden im Anfragetext an den externen Service gesendet. Eigenschaften der Dienstdefinition: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
      ![Ausgehende Felder für externe Aktionen zuordnen](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Eingehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem ([ XDM-Feld) ](../admin/xdm-field-management.md#updatable-fields). Diese Felder werden aus der Antwort des externen Services ausgefüllt. Eigenschaften der Dienstdefinition: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Nach der Erstellung aktualisierbar.
+   * **[!UICONTROL Eingehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem ([&#x200B; XDM-Feld) &#x200B;](../admin/xdm-field-management.md#updatable-fields). Diese Felder werden aus der Antwort des externen Services ausgefüllt. Eigenschaften der Dienstdefinition: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Nach der Erstellung aktualisierbar.
 
    * **[!UICONTROL Kopfzeilenparameter]** - Geben Sie einen Wert für jede Zeile ein, die als HTTP-Kopfzeile in der Anfrage übergeben werden soll. Service-Definitionseigenschaft: `invocationPayloadDef.headers`.
 
@@ -165,7 +165,7 @@ Wenn Sie die URL zur OpenAPI-Spezifikation für Ihren externen Service eingeben 
 | `An action with this name already exists` | Der `info.title` in Ihrer Spezifikation entspricht einer bereits vorhandenen Aktion | Ändern Sie den Titel im Feld `info.title` Ihrer Spezifikation in etwas Eindeutiges. |
 | `Duplicate operation ID found in the specification` | Zwei oder mehr Vorgänge in Ihrer Spezifikation verwenden dieselbe `operationId`. | Geben Sie jedem Vorgang eine eindeutige `operationId`. |
 | `Field in the specification exceeds the maximum allowed length` | Ein Textfeld in Ihrer Spezifikation (z. B. ein Titel oder eine Beschreibung) ist zu lang. | Kürzen Sie das gekennzeichnete Feld. |
-| `The entity type value is invalid` | Eine Adobe-spezifische `x-` für den Entitätstyp hat einen nicht erkannten Wert | Korrigieren Sie den Entitätstyp auf einen unterstützten Wert. Die gültigen Optionen finden [ in ](https://developer.adobe.com/journey-optimizer-b2b-apis/) Entwicklerdokumentation . |
+| `The entity type value is invalid` | Eine Adobe-spezifische `x-` für den Entitätstyp hat einen nicht erkannten Wert | Korrigieren Sie den Entitätstyp auf einen unterstützten Wert. Die gültigen Optionen finden [&#x200B; in &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/) Entwicklerdokumentation . |
 | `The provided document is not a valid OpenAPI specification` | Die Spezifikation kann nicht strukturell analysiert werden. | Validieren Sie Ihre Spezifikation anhand des OpenAPI 3.0-Schemas und beheben Sie etwaige Probleme. |
 | `Required OpenAPI field is missing` | Ein erforderliches OpenAPI-Standardfeld fehlt (z. B. `info` oder `paths`). | Fügen Sie das fehlende Feld hinzu. |
 | `Required endpoint is missing from the specification` | Ein für Adobe Journey Optimizer B2B Edition erforderlicher Endpunkt ist nicht in Ihrer Spezifikation definiert. | Fügen Sie den erforderlichen Endpunkt hinzu. In der [Entwicklerdokumentation](https://developer.adobe.com/journey-optimizer-b2b-apis/) finden Sie Informationen dazu, welche Endpunkte benötigt werden. |
