@@ -127,7 +127,7 @@ Standardmäßig haben alle vier Dimensionen eine Gewichtung von _Medium_ und lei
 
    Der Prozentsatz auf jeder Karte zeigt den Anteil dieser Dimension an, nachdem Ihre Einstellungen kombiniert wurden. Um eine Dimension aus Entscheidungen zu entfernen, setzen Sie sie auf **[!UICONTROL Aus]**.
 
-   ![Dimension-Gewichtungskarten mit Intent-Einstellung auf Hoch (55 %), Industry Medium auf 27 % und Functional Fit und Company Size Low (9 %) ](./assets/journey-traffic-control-dimensions.png){width="600"}
+   ![Dimension-Gewichtungskarten mit Intent-Einstellung auf Hoch (55 %), Industry Medium auf 27 % und Functional Fit und Company Size Low (9 %) &#x200B;](./assets/journey-traffic-control-dimensions.png){width="600"}
 
    Der auf jeder Karte angezeigte Prozentsatz entspricht dem normalisierten Beitrag dieser Dimension, nachdem alle Ihre Auswahlen kombiniert wurden, immer insgesamt 100 %. Wenn Sie eine Dimension anheben, normalisiert das System die anderen automatisch neu, sodass die Gesamtsumme bei 100 % bleibt.
 
@@ -215,7 +215,7 @@ Wählen Sie **[!UICONTROL Nach Ausführung]** aus, um eine Liste jedes Auswertun
 
 Filtern Sie die Liste nach Zeitbereich (24 Stunden, 7 Tage, 30 Tage oder alle Zeiten) und Trigger-Typ.
 
-Öffnen Sie einen Durchlauf, um ein Flussdiagramm der evaluierten Personen zu den Journey anzuzeigen, für die sie registriert waren. Eine Aufschlüsselung für jede Journey zeigt, wie viele Personen **[!UICONTROL Nicht registriert]**, ****, **[!UICONTROL Schiedsrichter]** (unter konkurrierenden Journey ausgewählt) und **[!UICONTROL Nicht angefochten]**. Bei jedem Journey in einem Durchlauf können Sie auch die bewerteten Personen, ihre Ergebnisse, die Journey, mit denen sie angetreten sind, und ihre Übereinstimmungsbewertungen anzeigen.
+Öffnen Sie einen Durchlauf, um ein Flussdiagramm der evaluierten Personen zu den Journey anzuzeigen, für die sie registriert waren. Eine Aufschlüsselung für jede Journey zeigt, wie viele Personen **[!UICONTROL Nicht registriert]**, **&#x200B;**, **[!UICONTROL Schiedsrichter]** (unter konkurrierenden Journey ausgewählt) und **[!UICONTROL Nicht angefochten]**. Bei jedem Journey in einem Durchlauf können Sie auch die bewerteten Personen, ihre Ergebnisse, die Journey, mit denen sie angetreten sind, und ihre Übereinstimmungsbewertungen anzeigen.
 
 ![Flussdiagramm, das die bewerteten Personen und ihre Enrollment-Ergebnisse in allen Journey](./assets/journey-traffic-control-reporting-by-run-flow-chart.png){width="500" zoomable="yes"}
 
@@ -225,7 +225,7 @@ Filtern Sie die Liste nach Zeitbereich (24 Stunden, 7 Tage, 30 Tage oder alle Ze
 
 Jeder Durchgang folgt derselben Sequenz. Die Journey-Traffic-Steuerung liest nur Daten, die bereits in Ihrer [!DNL Journey Optimizer B2B Edition] vorhanden sind, und erfordert keine zusätzlichen Datenquellen.
 
-1. Die Journey-Traffic-Steuerung wartet darauf, dass die Person und [ Konto (](../data/data-availability-timing.md#daily-refresh)) in Ihrer Umgebung erfolgreich abgeschlossen werden. Wenn die Aktualisierung fehlschlägt, wird kein Durchlauf mit veralteten Daten gestartet.
+1. Die Journey-Traffic-Steuerung wartet darauf, dass die Person und [&#x200B; Konto (](../data/data-availability-timing.md#daily-refresh)) in Ihrer Umgebung erfolgreich abgeschlossen werden. Wenn die Aktualisierung fehlschlägt, wird kein Durchlauf mit veralteten Daten gestartet.
 
 1. Die Zielgruppenzugehörigkeit wird in [!DNL Adobe Experience Platform] berechnet und [synchronisiert](../data/data-availability-timing.md#platform-sync) um [!DNL Journey Optimizer B2B Edition]. Nach Abschluss der Segmentierung wartet das System bis zu 30 Minuten auf den Abschluss der Synchronisierung. Wenn die Synchronisierung früher abgeschlossen ist, beginnt die Verarbeitung sofort. Wenn zuerst 30 Minuten vergehen, beginnt die Verarbeitung trotzdem. Wenn die Synchronisierung später abgeschlossen wird, beginnt ein neuer Durchlauf mit den aktualisierten Daten.
 
