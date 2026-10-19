@@ -1,6 +1,6 @@
 ---
 title: Konfiguration externer Aktionen
-description: Erfahren Sie, wie Entwickler, Administratoren und Marketing-Fachleute zusammenarbeiten, um externe Aktionen zu implementieren, zu konfigurieren und zu verwenden, die Journey Optimizer B2B Edition mit externen Services in Journey verbinden.
+description: Erfahren Sie, wie Entwickler, Administratoren und Marketing-Fachleute zusammenarbeiten, um externe Aktionen zu implementieren, zu konfigurieren und zu verwenden, die Journey Optimizer B2B Edition mit externen Services in Journey verbinden, und wie Administratoren den Aktionszustand überwachen.
 feature: Setup, Integrations
 role: Admin, Developer
 exl-id: 226fbf23-7df2-4fd7-b5a4-2057a417a261
@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: dd796abfc909ef2c60877ccf977f4b6e5755693c
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1615'
 ht-degree: 2%
 ---
 # Konfiguration externer Aktionen
@@ -45,7 +45,7 @@ Die Einrichtung von Maßnahmen im Außenbereich erfordert eine Koordinierung der
 | | Rolle | Aufgabe |
 | ---- | ---- | ---- |
 | 1 | Entwickler | [Implementieren und veröffentlichen Sie den externen Service](#implement-service) |
-| 2 | Administrator | [Konfigurieren der Aktion in Journey Optimizer B2B Edition](#configure-action) |
+| 2 | Administrator | [Konfigurieren der Aktion in Journey Optimizer B2B Edition](#configure-action) und [Überwachen des Zustands externer Aktionen](#monitor-external-action-health) |
 | 3 | Marketer | [Hinzufügen eines externen Knotens zu einer Journey](#add-journey-node) |
 
 ## Implementieren des externen Services {#implement-service}
@@ -71,6 +71,8 @@ Eine Aktion muss konfiguriert und aktiviert werden, bevor sie von Marketing-Expe
 1. Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
 
 1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** Externe Aktionen“.
+
+1. Wählen Sie die Registerkarte **[!UICONTROL Durchsuchen]** aus.
 
    ![Zugriff auf den Konfigurationsbereich für externe Aktionen](./assets/configuration-external-actions-list.png){width="800" zoomable="yes"}
 
@@ -127,11 +129,11 @@ Eine Aktion muss konfiguriert und aktiviert werden, bevor sie von Marketing-Expe
 
      * [!UICONTROL Personen im Konto] - Sendet Konten und kontobezogene Personen
 
-   * **[!UICONTROL Ausgehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem [XDM-Feld“ &#x200B;](../admin/xdm-field-management.md). Diese Felder werden im Anfragetext an den externen Service gesendet. Eigenschaften der Dienstdefinition: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
+   * **[!UICONTROL Ausgehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem [XDM-Feld“ ](../admin/xdm-field-management.md). Diese Felder werden im Anfragetext an den externen Service gesendet. Eigenschaften der Dienstdefinition: `invocationPayloadDef.accountFields`, `invocationPayloadDef.fields`.
 
      ![Ausgehende Felder für externe Aktionen zuordnen](./assets/configuration-external-actions-fields.png){width="600" zoomable="yes"}
 
-   * **[!UICONTROL Eingehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem ([&#x200B; XDM-Feld) &#x200B;](../admin/xdm-field-management.md#updatable-fields). Diese Felder werden aus der Antwort des externen Services ausgefüllt. Eigenschaften der Dienstdefinition: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Nach der Erstellung aktualisierbar.
+   * **[!UICONTROL Eingehende Felder]** - Ordnen Sie jedes Feld in der Tabelle einem ([ XDM-Feld) ](../admin/xdm-field-management.md#updatable-fields). Diese Felder werden aus der Antwort des externen Services ausgefüllt. Eigenschaften der Dienstdefinition: `callbackPayloadDef.accountFields`, `callbackPayloadDef.fields`. Nach der Erstellung aktualisierbar.
 
    * **[!UICONTROL Kopfzeilenparameter]** - Geben Sie einen Wert für jede Zeile ein, die als HTTP-Kopfzeile in der Anfrage übergeben werden soll. Service-Definitionseigenschaft: `invocationPayloadDef.headers`.
 
@@ -163,7 +165,7 @@ Wenn Sie die URL zur OpenAPI-Spezifikation für Ihren externen Service eingeben 
 | `An action with this name already exists` | Der `info.title` in Ihrer Spezifikation entspricht einer bereits vorhandenen Aktion | Ändern Sie den Titel im Feld `info.title` Ihrer Spezifikation in etwas Eindeutiges. |
 | `Duplicate operation ID found in the specification` | Zwei oder mehr Vorgänge in Ihrer Spezifikation verwenden dieselbe `operationId`. | Geben Sie jedem Vorgang eine eindeutige `operationId`. |
 | `Field in the specification exceeds the maximum allowed length` | Ein Textfeld in Ihrer Spezifikation (z. B. ein Titel oder eine Beschreibung) ist zu lang. | Kürzen Sie das gekennzeichnete Feld. |
-| `The entity type value is invalid` | Eine Adobe-spezifische `x-` für den Entitätstyp hat einen nicht erkannten Wert | Korrigieren Sie den Entitätstyp auf einen unterstützten Wert. Die gültigen Optionen finden [&#x200B; in &#x200B;](https://developer.adobe.com/journey-optimizer-b2b-apis/) Entwicklerdokumentation . |
+| `The entity type value is invalid` | Eine Adobe-spezifische `x-` für den Entitätstyp hat einen nicht erkannten Wert | Korrigieren Sie den Entitätstyp auf einen unterstützten Wert. Die gültigen Optionen finden [ in ](https://developer.adobe.com/journey-optimizer-b2b-apis/) Entwicklerdokumentation . |
 | `The provided document is not a valid OpenAPI specification` | Die Spezifikation kann nicht strukturell analysiert werden. | Validieren Sie Ihre Spezifikation anhand des OpenAPI 3.0-Schemas und beheben Sie etwaige Probleme. |
 | `Required OpenAPI field is missing` | Ein erforderliches OpenAPI-Standardfeld fehlt (z. B. `info` oder `paths`). | Fügen Sie das fehlende Feld hinzu. |
 | `Required endpoint is missing from the specification` | Ein für Adobe Journey Optimizer B2B Edition erforderlicher Endpunkt ist nicht in Ihrer Spezifikation definiert. | Fügen Sie den erforderlichen Endpunkt hinzu. In der [Entwicklerdokumentation](https://developer.adobe.com/journey-optimizer-b2b-apis/) finden Sie Informationen dazu, welche Endpunkte benötigt werden. |
@@ -184,6 +186,50 @@ This error appears below the URL field (not in the alert banner) and means there
 | `Failed to create external action. Please try again.` | A network error occurred or the server returned an unexpected response | Check your connection and try again. If it keeps happening, contact support |
 -->
 
+## Überwachen des Zustands externer Aktionen {#monitor-health}
+
+Nachdem Marketing-Fachleute mit der Verwendung externer Aktionen in Journey begonnen haben, können Sie auf der Registerkarte _Übersicht_ der Seite Externe Aktionen verfolgen, wie jede Aktion funktioniert. Hiermit können Sie sehen, wie viele Anfragen jede Aktion erhält, wie viele dieser Anfragen fehlschlagen und welche Aktionen die höchsten Fehlerquoten aufweisen.
+
+Anzeigen des Dashboards:
+
+1. Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Konfigurationen]**.
+
+1. Klicken Sie **[!UICONTROL Zwischenbereich auf]** Externe Aktionen“.
+
+   Das System zeigt standardmäßig die Registerkarte **[!UICONTROL Übersicht]** mit den Daten der externen Aktion der letzten sieben Tage an.
+
+1. Wählen Sie im Menü Datumsbereich die zu überprüfende Periode aus oder geben Sie im Datumsfeld ein Start- und ein Enddatum ein. Der Standardbereich sind die letzten 30 Tage.
+
+   ![Das Dashboard für die Konsistenz externer Aktionen zeigt Datumsbereichsfilter, die Gesamtzahl der Anfragen, Fehler, Fehlerrate und die Aktionsleistung an.](./assets/config-external-action-health.png){width="700" zoomable="yes"}
+
+   Die Metriken und die Tabelle werden aktualisiert, sodass nur die Aktivität aus dem ausgewählten Zeitraum angezeigt wird.
+
+### Metriken {#metrics}
+
+Im _Überblick_ wird die Leistung aller externen Aktionen für den ausgewählten Zeitraum zusammengefasst.
+
+| Metrik | Beschreibung |
+| ---- | ---- |
+| [!UICONTROL Aktionen insgesamt] | Die Zahl der im Bericht enthaltenen Maßnahmen im Außenbereich. |
+| [!UICONTROL Anfragen insgesamt] | Die Gesamtzahl der Anfragen an externe Dienste in allen Aktionen. |
+| [!UICONTROL Fehler insgesamt] | Die Gesamtzahl der Anfragen, die zu einem Fehler geführt haben. |
+| [!UICONTROL Fehlerrate] | Der Prozentsatz der Anfragen, die zu einem Fehler geführt haben. |
+
+### Aktionsleistung {#actions}
+
+Die _Performance der_&quot; listet jede externe Aktion und ihre Aktivität für den ausgewählten Zeitraum auf.
+
+| Spalte | Beschreibung |
+| ---- | ---- |
+| [!UICONTROL Name] | Der Name der externen Aktion. |
+| [!UICONTROL Anzahl der Anfragen] | Die Anzahl der Anfragen, die an den externen Service der Aktion gesendet wurden. |
+| [!UICONTROL Fehleranzahl] | Die Anzahl der Anfragen, die zu einem Fehler geführt haben. |
+| [!UICONTROL Fehlerrate] | Der Prozentsatz der Anfragen, die zu einem Fehler geführt haben. |
+
+Verwenden Sie die Tabelle, um Aktionen zu vergleichen und die zu finden, die Aufmerksamkeit erfordern. Eine Aktion mit einer hohen Fehlerrate weist beispielsweise auf ein Problem mit dem externen Service, seinen Authentifizierungsdaten oder seiner Konfiguration hin. Arbeiten Sie mit dem Entwickler zusammen, der den Service implementiert hat, um die Ursache zu untersuchen.
+
 ## Hinzufügen eines externen Knotens zu einer Journey {#add-journey-node}
 
 Nachdem eine Aktion aktiviert wurde, können Marketing-Fachleute einen _[!UICONTROL Externe Aktion]_ oder _[!UICONTROL Externer Aufspaltungspfad]_-Knoten zu jedem Konto- oder Personen-Journey hinzufügen. Informationen zum Hinzufügen und Verwenden dieser Knoten auf der Journey-Arbeitsfläche finden Sie unter [Externe Knoten](../journeys/external-nodes.md).
+
+![Externer Aktionsknoten - Wählen Sie Externer Service aus](../journeys/assets/node-external-action-service-name.png){width="600" zoomable="yes"}
