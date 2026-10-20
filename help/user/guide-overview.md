@@ -10,14 +10,14 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ee6ac259b93e9350e7078bd3112c5f37f2e0b302
+source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 30%
+source-wordcount: '1057'
+ht-degree: 27%
 ---
 # Dokumentation zu Adobe Journey Optimizer B2B Edition
 
-[!DNL Adobe Journey Optimizer B2B Edition] ist eine erstklassige Anwendung, mit der Marketing- und Vertriebsteams Account-basierte Erlebnisse orchestrieren und Einkaufsgruppen für bestimmte Produkte über den gesamten Kundenlebenszyklus hinweg qualifizieren können. Es nutzt KI, um Einkaufsgruppen innerhalb von Zielkonten anzusprechen und zu qualifizieren, und hilft Ihren Teams so, eine Pipeline mit höherer Qualität zu generieren, bessere Akquise-, Expansions- und Aufbewahrungsstrategien zu entwerfen. Darüber hinaus ermöglicht es gemeinsame Einblicke durch Vertriebs- und Marketing-Teams.
+[!DNL Adobe Journey Optimizer B2B Edition] ist eine erstklassige Anwendung, mit der Marketing- und Vertriebsteams Account-basierte Erlebnisse orchestrieren und Einkaufsgruppen für bestimmte Produkte über den gesamten Kundenlebenszyklus hinweg qualifizieren können. Es verwendet KI, um Einkaufsgruppen innerhalb von Zielkonten anzusprechen und zu qualifizieren, sodass Ihre Teams eine Pipeline mit höherer Qualität generieren und bessere Akquise-, Expansions- und Aufbewahrungsstrategien entwerfen können. Darüber hinaus ermöglicht es gemeinsame Einblicke durch Vertriebs- und Marketing-Teams.
 
 Diese Dokumentation enthält Informationen zur Verwaltung der Anwendung. Es wurde für Marketing-Experten, Vertreter der Geschäftsentwicklung, Datenanalysten und operative Administratoren entwickelt.
 
@@ -27,13 +27,17 @@ Sehen Sie sich dieses Sampling der neuesten Ergänzungen und Verbesserungen in d
 
 >[!BEGINTABS]
 
->[!TAB AI Agents]
+>[!TAB Personen-Journey ]
 
-Mit der [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home#agent-orchestrator){target="_blank"} kann die Benutzeroberfläche des KI-Assistenten automatisch spezialisierte Agenten aufrufen, um Ihnen die richtigen Antworten und Erkenntnisse zu liefern. Agent Orchestrator speichert Ihren Gesprächsverlauf, sodass Sie auf natürliche Weise auf früheren Fragen aufbauen können, ohne den Kontext zu wiederholen, und kombiniert Einblicke aus mehreren Agenten, um Ihnen klare, einheitliche Antworten zu bieten. Im [!DNL Journey Optimizer B2B Edition] Kontext gibt es drei speziell entwickelte Agenten für bestimmte B2B-Aufgaben und -Domains:
+Orchestrieren Sie Lead-basiertes Marketing mit Personen-Journeys, die [!DNL Adobe Experience Platform] Zielgruppen und Daten verwenden, um einzelne Personen zu interagieren. Personen-Journey unterstützen jetzt _Abhören eines Ereignisses_, externe Aktionen und externe Aufspaltungsknoten sowie den erneuten Eintritt von Journey. Verwenden Sie sie zusammen mit Account Journey und Buying Groups, um die vollständige Buying Journey zu orchestrieren.
 
-* [Audience Agent B2B](./agents/audience-agent-b2b.md)
-* [Journey Agent B2B](./agents/journey-agent.md)
-* [Account Qualification Agent](https://experienceleague.adobe.com/de/docs/sales-qualifier/using/home){target="_blank"}
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/journeys-overview.md" tooltip="Informationen zu Personen-Journey"}
+
+>[!TAB Aufspaltungspfade der Variante]
+
+Testen Sie Varianten innerhalb eines Accounts oder Personen-Journey, indem Sie basierend auf von Ihnen definierten Prozentsätzen Konten oder Personen unterschiedlichen Journey-Pfaden zuweisen. In Personen-Journey ist die Zuordnung deterministisch, sodass jede Person immer denselben Weg verfolgt, was gesteuerte Experimente unterstützt.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="Informationen zu Aufspaltungspfaden für Varianten"}
 
 >[!TAB WhatsApp-Kanal]
 
@@ -55,21 +59,9 @@ Für Aktionsknoten _E-Mail senden_ in Personen-Journeys können Sie jetzt die Se
 
 >[!TAB Erneute Eingabe von Journey]
 
-Sie können jetzt Konten/Personen über einen Konto-Journey-Workflow mehrmals senden. Der Wiedereinstieg betrifft mehrere Szenarien, z. B. die Neubewertung von Qualifikationskriterien und wiederverwendbare Nurture-Workflows. Verwenden Sie die Wiedereinstiegseinstellungen, um Kriterien, Beschränkungen und Wartezeiten festzulegen, damit die Konten sich kontrolliert für die Journey qualifizieren.
+Sie können jetzt Konten oder Personen über ein Konto oder Personen-Journey mehrmals senden. Der Wiedereinstieg betrifft mehrere Szenarien, z. B. die Neubewertung von Qualifikationskriterien und wiederverwendbare Nurture-Workflows. Verwenden Sie die Einstellungen für den erneuten Eintritt, um Kriterien, Beschränkungen und Wartezeiten festzulegen, damit sich Accounts oder Personen kontrolliert für den Journey qualifizieren.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/journey-re-entry.md" tooltip="Informationen zum erneuten Eintreten von Journey"}
-
->[!TAB Markenthemen]
-
-Mit Designs können nicht-technische Designer wiederverwendbare Richtlinien für das Design von E-Mail-Inhalten erstellen, die an eine bestimmte Marke und ein bestimmtes Styling angepasst sind. Designs ermöglichen es Marketing-Experten, visuell ansprechende, markenkonsistente E-Mails schneller und mit weniger Aufwand zu nutzen und erweiterte Anpassungsoptionen für individuelle Design-Anforderungen bereitzustellen.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/brand-themes.md" tooltip="Informationen zu Markenthemen"}
-
->[!TAB Persona-Zuordnung]
-
-Marketing-Experten können detaillierte Profile einschließlich Hintergrundinformationen, Zuständigkeiten, Probleme und bevorzugte Kommunikationskanäle definieren. Mit diesen Definitionen können Admins Personas anhand von Personenattributen in [!DNL Journey Optimizer B2B Edition] konfigurieren, damit Rollenvorlagen optimierte und konsistente Rollenbedingungen verwenden können, die diese Personas erfassen.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/persona-mapping.md" tooltip="Informationen zum Persona-Mapping"}
 
 >[!ENDTABS]
 
@@ -81,7 +73,7 @@ Marketing-Experten können detaillierte Profile einschließlich Hintergrundinfor
 
 Neueste Versionshinweise
 
-Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserungen in Adobe Journey Optimizer B2B Edition auf dem Laufenden.
+Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserungen in [!DNL Adobe Journey Optimizer B2B Edition] auf dem Laufenden.
 
 [Versionshinweise anzeigen](./release-notes/release-notes.md)
 :::
@@ -91,7 +83,7 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 
 Erste Schritte
 
-Lesen Sie die Journey Optimizer B2B Edition-Onboarding-Anleitung für Administratoren und Marketing-Fachleute.
+Lesen Sie die [!DNL Journey Optimizer B2B Edition] Onboarding-Anleitung für Admins und Marketing-Fachleute.
 
 [Administratoren](./setup-ultimate.md)
 [Benutzer](./start/get-started.md)
@@ -100,11 +92,14 @@ Lesen Sie die Journey Optimizer B2B Edition-Onboarding-Anleitung für Administra
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
 
-Konfigurieren von XDM-Feldern
+Verwalten von Daten
 
-Implementieren Sie die Systemkonfigurationen, um die XDM-Schemata und -Felder zu aktivieren, die Sie in Adobe Journey Optimizer B2B Edition verwenden möchten.
+Aktivieren Sie die XDM-Schemata und -Felder, die Sie in [!DNL Adobe Journey Optimizer B2B Edition] verwenden möchten, und erfahren Sie, wie die Daten in [!DNL Adobe Experience Platform] funktionieren.
 
 [XDM-Feldverwaltung anzeigen](./admin/xdm-field-management.md)
+[Exportierte Datensätze](./data/aep-exported-datasets.md)
+[Datensatzabfragen](./data/aep-query-examples.md)
+[Datenverfügbarkeit und Synchronisierungszeitpunkt](./data/data-availability-timing.md)
 :::
 
 :::
@@ -124,7 +119,7 @@ Konfigurieren und verwalten Sie E-Mail, SMS, WhatsApp und andere Kanäle für pe
 
 Erstellen einer Journey
 
-Gestalten, orchestrieren, verwalten und optimieren Sie personalisierte Journey.
+Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Account- und Personen-Journey.
 
 [Erkunden Sie Journeys](./journeys/journeys-overview.md)
 :::
@@ -165,14 +160,8 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Erste Schritte"><br/>
-      <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmeldung und Startseite</a><br/><a href="./start/get-started.md">Onboarding-Anleitung</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">KI-Assistent</a>
+      <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmeldung und Startseite</a><br/><a href="./start/get-started.md">Onboarding-Anleitung</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">KI-Funktionen</a>
     </td>
-    <!--
-    <td>
-      <img src="../assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>Configuration<br/>administration</strong><br/><a href="using/configuration/channel-surfaces.md">Channel surfaces</a> - <a href="using/configuration/about-data-sources-events-actions.md">Configure journeys</a>  - <a href="using/administration/permissions-overview.md">Access control</a> - <a href="using/administration/sandboxes.md">Sandboxes management</a>
-    </td>
-    -->
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Käufergruppen"><br/>
 <strong>Käufergruppen</strong><br/><a href="./buying-groups/buying-groups-overview.md">Überblick über Käufergruppen</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Rollenvorlagen</a><br/><a href="./buying-groups/solution-interests.md">Lösungsinteressen</a><br/><a href="./buying-groups/buying-groups-create.md">Käufergruppen erstellen</a>

@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: 783fa2ddf72a910b191b2eb93c6dcd71d2cddc8c
+source-git-commit: 585e34d466ff17723a4049a0050a79d23783f2ce
 workflow-type: tm+mt
-source-wordcount: '5781'
+source-wordcount: '5784'
 ht-degree: 60%
 ---
 # Versionshinweise zu Journey Optimizer B2B Edition
@@ -43,7 +43,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Service-Status-Dashboards | Verfolgen Sie den Betriebszustand externer Aktionen, indem Sie Erfolgs-/Fehlermetriken erfassen und Dashboards zur Überwachung der Service-Leistung bereitstellen. |
+| Verbesserung | Externer Aktionszustand | Admins können jetzt die Leistung von externen Aktionen in einem Dashboard überwachen, das die Anzahl der Anfragen, die Fehleranzahl und die Fehlerrate anzeigt. [Weitere Informationen](../admin/configure-external-actions.md#monitor-health) |
 | Verbesserung | Mitglied des Profilzielgruppenfilters | Dieser Filter ist jetzt für die Bedingungen für den Split-Pfad von Personen-Journey, die Bedingungen für den Split-Pfad von Journey-Personen-Konten und _Auf ein Ereignis_)-Knotenfilter zum Ein- oder Ausschließen von Profilen basierend auf ihrer Zielgruppenzugehörigkeit verfügbar. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Verbesserung | Mitglied des Einkaufsgruppenfilters - Ist standardmäßig entfernt | In _Knotenfiltern Pfad nach Personen_ Bedingungen und _Auf ein Ereignis überwachen_ ist die _[!UICONTROL Ist entfernt]_-Beschränkung jetzt standardmäßig ausgewählt und auf `false` gesetzt, wenn Sie den Filter _[!UICONTROL Mitglied der Kaufgruppe]_ hinzufügen. Der Filter gibt nur aktuelle Einkaufsgruppenmitglieder zurück, es sei denn, Sie ändern oder entfernen die Beschränkung. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Verbesserung | Journey-Wiedereintritt - Person Journey | Der Wiedereintritt von Journey wird jetzt von Personen-Journey unterstützt. |
