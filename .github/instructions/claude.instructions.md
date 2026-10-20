@@ -386,7 +386,7 @@ Verwenden Sie für Markenproduktnamen, die in englischer Sprache bleiben müssen
 - Akronyme (bleiben automatisch auf Englisch)
 - Begriffe bereits in der Datenbank „Nicht übersetzen“
 
-**In-Link-Text** Entfernen Sie die Tag-Klammern, um Rendering-Probleme zu vermeiden. Verwenden Sie `[Adobe](https://www.adobe.com)` nicht `[[!DNL Adobe]](https://www.adobe.com)`.
+**In-Link-Text** Entfernen Sie die Tag-Klammern, um Rendering-Probleme zu vermeiden. Verwenden Sie `[Adobe](https://www.adobe.com/de)` nicht `[[!DNL Adobe]](https://www.adobe.com/de)`.
 
 ### `[!UICONTROL Label]`: Benutzeroberflächen-Steuerelemente
 
