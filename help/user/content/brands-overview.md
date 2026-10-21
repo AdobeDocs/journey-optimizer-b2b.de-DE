@@ -68,7 +68,7 @@ Ihr Unternehmen kann durch die Verwendung einer Marke bei der Erstellung und Bew
 >
 >Diese Funktion ist derzeit als öffentliche Betaversion verfügbar.
 >
->Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B Edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Eine [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B Edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 
 Eine definierte Marke stellt die _Quelle der Wahrheit_ bereit, die Ihr Kreativ-Team beim Erstellen visueller oder schriftlicher Inhalte verwenden kann. Wenn diese Richtlinien kompiliert und die Marken-Assets freigegeben werden, kann jedes Team-Mitglied oder jeder Mitarbeiter markeninterne Inhalte für Ihr Produkt erstellen. Führen Sie die folgenden Schritte aus, um die Erstellung von markeninternen Inhalten in Journey Optimizer B2B Edition zu aktivieren:
 

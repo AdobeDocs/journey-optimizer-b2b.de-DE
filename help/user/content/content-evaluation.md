@@ -34,7 +34,7 @@ Die Inhaltsauswertung und -bewertung helfen Ihnen bei der Erstellung, Überprüf
 
 >[!AVAILABILITY]
 >
->Eine [Benutzervereinbarung](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B Edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
+>Eine [Benutzervereinbarung](https://www.adobe.com/de/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} ist erforderlich, bevor Sie KI-gestützte Funktionen in Adobe Journey Optimizer B2B Edition verwenden können. Weitere Informationen erhalten Sie beim Adobe-Support.
 >
 >Unter [Markenbezogene Berechtigungen](./brands-overview.md#brand-related-permissions) finden Sie Informationen darüber, wie Produktadministratoren diese Funktionen aktivieren können.
 
