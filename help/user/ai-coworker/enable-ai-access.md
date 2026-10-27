@@ -46,7 +46,7 @@ ht-degree: 5%
 >
 >Wenn Sie in der Benutzeroberfläche „Berechtigungen“ eine Nachricht erhalten, dass Ihr Unternehmen zusätzlichen rechtlichen Bedingungen zustimmen muss, um Zugriff auf [!DNL Coworker] Chat zu erhalten, wenden Sie sich an Ihr Adobe-Accountteam, um Unterstützung zu erhalten.
 
-Verwenden Sie die [Benutzeroberfläche „Berechtigungen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}, um den Zugriff auf [!DNL Coworker] Chat in Ihrer Organisation zu gewähren oder zu widerrufen. Um [!DNL Coworker] Chat verwenden zu können, muss ein Benutzer zu einer Rolle gehören, die mit den Berechtigungen _[!UICONTROL KI-Assistent aktivieren]_ und _[!UICONTROL Betriebseinblicke anzeigen]_ konfiguriert ist.
+Verwenden Sie die [Benutzeroberfläche „Berechtigungen](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"}, um den Zugriff auf [!DNL Coworker] Chat in Ihrer Organisation zu gewähren oder zu widerrufen. Um [!DNL Coworker] Chat verwenden zu können, muss ein Benutzer zu einer Rolle gehören, die mit den Berechtigungen _[!UICONTROL KI-Assistent aktivieren]_ und _[!UICONTROL Betriebseinblicke anzeigen]_ konfiguriert ist.
 
 Als Administrator haben Sie folgende Möglichkeiten:
 
@@ -56,7 +56,7 @@ Als Administrator haben Sie folgende Möglichkeiten:
 
 ![Zuweisen von KI-Funktionsberechtigungen](./assets/coworker-permissions.png){width="800" zoomable="yes"}
 
-Verwenden Sie die Benutzeroberfläche „Berechtigungen“, um Berechtigungen für die Verwendung [!DNL Coworker] Chats in [!DNL Adobe Journey Optimizer B2B Edition] zu erteilen. Informationen zum Zugriff auf [!DNL CX Coworker] in [!DNL Adobe Experience Platform] und anderen [!DNL Adobe Experience Cloud] Anwendungen finden Sie in der [Dokumentation zu CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}.
+Verwenden Sie die Benutzeroberfläche „Berechtigungen“, um Berechtigungen für die Verwendung [!DNL Coworker] Chats in [!DNL Adobe Journey Optimizer B2B Edition] zu erteilen. Informationen zum Zugriff auf [!DNL CX Coworker] in [!DNL Adobe Experience Platform] und anderen [!DNL Adobe Experience Cloud] Anwendungen finden Sie in der [Dokumentation zu CX Enterprise Coworker](https://experienceleague.adobe.com/de/docs/coworker/content/chat/overview){target="_blank"}.
 
 Wenn der Benutzer über die erforderlichen Berechtigungen verfügt, kann er auf [!DNL Coworker] Chat zugreifen, indem er auf das Symbol _[!DNL Coworker]Chat_ in der oberen Kopfzeile der Anwendung klickt.
 
