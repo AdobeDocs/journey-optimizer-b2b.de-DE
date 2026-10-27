@@ -20,15 +20,15 @@ role_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '633'
 ht-degree: 3%
 ---
 
 # Datenschutzverwaltung {#privacy-management}
 
-[Adobe Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/home){target="_blank"} stellt eine RESTful-API und eine Benutzeroberfläche bereit, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. Mit [!DNL Adobe Privacy Service] können Sie Anfragen für den Zugriff auf und die Löschung von personenbezogenen oder vertraulichen Kundendaten aus Adobe CX Enterprise-Programmen stellen, was die automatische Einhaltung gesetzlicher und unternehmensinterner Datenschutzbestimmungen erleichtert.
+[Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/home){target="_blank"} stellt eine RESTful-API und eine Benutzeroberfläche bereit, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen. Mit [!DNL Adobe Privacy Service] können Sie Anfragen für den Zugriff auf und die Löschung von personenbezogenen oder vertraulichen Kundendaten aus Adobe CX Enterprise-Programmen stellen, was die automatische Einhaltung gesetzlicher und unternehmensinterner Datenschutzbestimmungen erleichtert.
 
 [!DNL Adobe Journey Optimizer B2B Edition] bietet diese Datenschutztools, mit denen Sie die globalen Datenschutzanforderungen erfüllen können. Verwenden Sie [!DNL Privacy Service], um Zugriffs- und Löschanfragen für Daten, die [!DNL Journey Optimizer B2B Edition] erfasst und speichert, zu senden und zu verwalten.
 
@@ -41,7 +41,7 @@ Sie können einzelne Anfragen zum Zugreifen auf und Löschen von Verbraucherdate
 
 [!DNL Journey Optimizer B2B Edition] Datenschutztools helfen Ihnen bei der Einhaltung der Vorschriften durch [!DNL Privacy Service]. Jede Verordnung gilt, wenn Sie Daten für Personen speichern, die in der zugehörigen Region wohnen.
 
-Eine aktuelle Liste der unterstützten Richtlinien finden Sie unter [_Übersicht über Datenschutzbestimmungen_](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/regulations/overview){target="_blank"} in der Dokumentation zu Privacy Service.
+Eine aktuelle Liste der unterstützten Richtlinien finden Sie unter [_Übersicht über Datenschutzbestimmungen_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"} in der Dokumentation zu Privacy Service.
 
 ## Anfragetypen {#access-and-delete-requests}
 
@@ -54,12 +54,12 @@ Eine aktuelle Liste der unterstützten Richtlinien finden Sie unter [_Übersicht
 
 >[!BEGINSHADEBOX]
 
-![Berechtigungssymbol](../assets/do-not-localize/icon_permissions-outline.svg) Für diese Schritte sind das Produktprofil [!DNL Privacy Service] und die folgenden [Berechtigungen für die zugewiesene Benutzerrolle in Experience Platform&quot; &#x200B;](./user-management.md):
+![Berechtigungssymbol](../assets/do-not-localize/icon_permissions-outline.svg) Für diese Schritte sind das Produktprofil [!DNL Privacy Service] und die folgenden [Berechtigungen für die zugewiesene Benutzerrolle in Experience Platform&quot; ](./user-management.md):
 
 * **[!UICONTROL Privacy Service-Berechtigungen]** - `Privacy Read Permission` und `Privacy Write Permission`
 * **[!UICONTROL Data Governance]** - `View Privacy Console`
 
-Weitere [_finden Sie unter „Verwalten von Berechtigungen_](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/permissions){target="_blank"} Privacy Service&quot; im [!DNL Privacy Service].
+Weitere [_finden Sie unter „Verwalten von Berechtigungen_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"} Privacy Service&quot; im [!DNL Privacy Service].
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +88,7 @@ Verwenden Sie die Option **[!UICONTROL Regulierungstyp]** oben rechts, um die an
 
      * Der zugehörige Lead in [!DNL Marketo Engage].
      * In [!DNL Journey Optimizer B2B Edition] erstellte Personen- und Kontoaufzeichnungen.
-     * KI-Assistent-Gesprächsverlauf, der auf die personenbezogenen Daten der Person verweist.
+     * [!DNL Coworker] Chat-Gesprächsverlauf, der auf die personenbezogenen Daten der Person verweist.
 
 1. Wählen Sie **[!UICONTROL Produkte]** die Option **[!UICONTROL Marketo]**.
 
@@ -122,7 +122,7 @@ Verwenden Sie die folgenden Feldwerte in Ihrer Anfrage:
 | `users.action` | `access` oder `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo`, um sowohl [!DNL Journey Optimizer B2B Edition]- als auch [!DNL Marketo Engage] einzuschließen |
-| `regulation` | Beispiel: `ccpa` <br/>Einige Regulierungswerte ändern sich, sodass sie eine Bundesstaatsabkürzung enthalten (z. B. `ucpa_ut_usa`). Ältere Werte bleiben für einen Übergangszeitraum gültig. Die aktuelle Liste [&#x200B; Sie unter „Übersicht über &#x200B;](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/regulations/overview){target="_blank"}&quot;, bevor Sie Integrationen mit diesen Werten erstellen. |
+| `regulation` | Beispiel: `ccpa` <br/>Einige Regulierungswerte ändern sich, sodass sie eine Bundesstaatsabkürzung enthalten (z. B. `ucpa_ut_usa`). Ältere Werte bleiben für einen Übergangszeitraum gültig. Die aktuelle Liste [ Sie unter „Übersicht über ](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}&quot;, bevor Sie Integrationen mit diesen Werten erstellen. |
 
 Im folgenden Beispiel wird eine DSGVO-Löschanfrage mit [!DNL Journey Optimizer B2B Edition] Daten gesendet.
 

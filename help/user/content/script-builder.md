@@ -1,6 +1,6 @@
 ---
 title: Skript-Builder
-description: Verwenden Sie Script Builder, einen KI-gestützten Assistenten im E-Mail-Design-Bereich, um Handlebars-Personalisierungsskripte zu generieren und Marketo Engage Velocity-Skripte in Journey Optimizer B2B edition zu konvertieren.
+description: Verwenden Sie Script Builder, einen KI-gestützten Assistenten im E-Mail-Design-Bereich, um Handlebars-Personalisierungsskripte zu generieren und Marketo Engage Velocity-Skripte in Journey Optimizer B2B Edition zu konvertieren.
 feature: AI Assistant, Generative AI, Personalization, Email Authoring
 role: User, Developer
 badgeBeta: label="Beta" type="informative" tooltip="Diese Funktion befindet sich derzeit in einer eingeschränkten Beta-Version​"
@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 44b7880ce3450637cf706cef55da7a434e90a93a
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 3%
@@ -49,7 +49,7 @@ Für die Erstellung von bedingter E-Mail-Personalisierung, wie das Wechseln von 
 
 >[!IMPORTANT]
 >
->Der Benutzerzugriff auf Script Builder wird über dieselben Berechtigungen gesteuert wie für andere generative KI-Funktionen in [!DNL Journey Optimizer B2B Edition]. Informationen zum Gewähren von Funktionsberechtigungen finden Sie unter [Aktivieren des Zugriffs auf den KI-Assistenten](../ai-coworker/enable-ai-assistant-access.md).
+>Der Benutzerzugriff auf Script Builder wird über dieselben Berechtigungen gesteuert wie für andere generative KI-Funktionen in [!DNL Journey Optimizer B2B Edition]. Informationen zum Gewähren von Funktionsberechtigungen finden Sie unter [Aktivieren des Zugriffs auf KI-Funktionen](../ai-coworker/enable-ai-access.md).
 
 Bevor Sie Script Builder verwenden, lesen Sie die [Richtlinien und Einschränkungen](./generative-ai-content.md#general-guidelines-and-limitations) die für Funktionen der generativen KI in [!DNL Journey Optimizer B2B Edition] gelten. [Benutzerzustimmung](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} ist auch eine Akzeptanz erforderlich, bevor Sie KI-Funktionen verwenden können.
 
@@ -69,7 +69,7 @@ Script Builder ist im [Personalisierungseditor](./personalization.md) verfügbar
 
    >[!BEGINSHADEBOX]
 
-   Wenn Sie das erste Mal auf Script Builder zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI &#x200B;]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} und bestätigen Sie Ihre Zustimmung.
+   Wenn Sie das erste Mal auf Script Builder zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI ]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} und bestätigen Sie Ihre Zustimmung.
 
    ![Dialogfeld der Vereinbarung über die Nutzungsbedingungen für Generative KI in Script Builder](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 
@@ -112,7 +112,7 @@ Verwenden Sie Script Builder, um ein vorhandenes [!DNL Marketo Engage] Velocity-
 
    Script Builder analysiert die Velocity-Konstrukte, gleicht die Token-Verweise auf XDM-Profilattribute ab und generiert das entsprechende Handlebars-Skript.
 
-1. Überprüfen Sie den [Konversionsbericht](#review-conversion-report) und [&#x200B; Sie alle Token auf, die manuelles Mapping benötigen](#resolve-tokens-without-mapping).
+1. Überprüfen Sie den [Konversionsbericht](#review-conversion-report) und [ Sie alle Token auf, die manuelles Mapping benötigen](#resolve-tokens-without-mapping).
 
 1. [Vorschau und Validierung](#preview-validate-script) das generierte Skript anzeigen und es dann direkt in der E-Mail speichern.
 

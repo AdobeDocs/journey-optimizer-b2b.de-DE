@@ -1,26 +1,28 @@
 ---
 title: Einkaufsgruppen-Rollenvorlagen
-description: Erstellen Sie Rollenvorlagen mit bedingter automatischer Zuweisung, um Entscheidungsträger und Stakeholder für Einkaufsgruppen in Journey Optimizer B2B edition zu identifizieren.
+description: Erstellen Sie Rollenvorlagen mit bedingter automatischer Zuweisung, um Entscheidungsträger und Stakeholder für Einkaufsgruppen in Journey Optimizer B2B Edition zu identifizieren.
 feature: Buying Groups
 role: User
 exl-id: 9206356e-e9cf-486c-8982-c7d893222413
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 8a36ccaf9e7e0740485cd2e37fae78aadd72216f
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1435'
 ht-degree: 5%
-
 ---
-
 # Vorlagen für Käufergruppenrollen
 
 In einem B2B-Markt treffen normalerweise mehrere Personen Kaufentscheidungen. Diese Personen nehmen entsprechend ihrer Rolle in der Organisation am Entscheidungsprozess teil. Erstellen Sie Rollenvorlagen für Käufergruppen, die eine Gruppe von Rollendefinitionen entsprechend jedem Produktanbietungstyp oder Account-Anwendungsfall enthalten.
@@ -29,9 +31,9 @@ In einem B2B-Markt treffen normalerweise mehrere Personen Kaufentscheidungen. Di
 
 >[!BEGINSHADEBOX]
 
-## Audience Agent B2B
+## Zielgruppen-Fähigkeiten
 
-[Audience Agent B2B](../agents/audience-agent-b2b.md) kann aus der Erstanbieter-Absichtserkennung und dem Persona-Mapping eine Vorlage für Einkaufsgruppen-Rollen generieren. Im geführten Fluss können Sie mit einem Produkt verknüpfte Rollen identifizieren, von KI empfohlene Rollen-zu-Rollen-Zuordnungen überprüfen und die Vorlage mit natürlicher Sprache verfeinern, bevor Sie sie veröffentlichen.
+Verwenden Sie [Zielgruppenkenntnisse für B2B-Konten und Personen](../agents/audience-agent-b2b.md) um aus der Erstanbieter-Absichtserkennung und dem Persona-Mapping eine Vorlage für die Einkaufsgruppenrolle zu generieren. Im geführten Fluss können Sie mit einem Produkt verknüpfte Rollen identifizieren, von KI empfohlene Rollen-zu-Rollen-Zuordnungen überprüfen und die Vorlage mit natürlicher Sprache verfeinern, bevor Sie sie veröffentlichen.
 
 **Eingabeaufforderungen zum Versuch:**
 
@@ -39,7 +41,7 @@ In einem B2B-Markt treffen normalerweise mehrere Personen Kaufentscheidungen. Di
 * `<role>` hinzufügen, die `<persona>` zugeordnet sind
 * `<role>`/`<persona>` entfernen
 
-![Audience Agent B2B - Erstellen einer Vorlage für Einkaufsgruppenrollen](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
+![Vorlage „Gruppenrolle kaufen“ mit Zielgruppen-Fähigkeiten generiert.](./assets/buying-group-roles-agent-create.png){width="800" zoomable="yes"}
 
 >[!ENDSHADEBOX]
 
@@ -109,7 +111,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert &#x200B;](./default-custom-roles.md#create-a-custom-role).
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#create-a-custom-role).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -171,7 +173,7 @@ Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte
 
 1. Ändern Sie im Dialogfeld den Wert **[!UICONTROL Mitglieder erforderlich]** für jede definierte Rolle nach Bedarf.
 
-   Sie können den Wert eingeben oder auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   Sie können den Wert eingeben oder auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Dialogfeld mit den Einstellungen für die Vollständigkeit der Rollenvorlage](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -223,4 +225,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)

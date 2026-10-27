@@ -1,6 +1,6 @@
 ---
-title: Journey Agent B2B
-description: Erfahren Sie, wie Sie mit der KI-gestützten Journey Agent und ihren Fähigkeiten zuverlässige B2B-Journey erstellen, verwalten und beobachten können.
+title: Journey-Kenntnisse für B2B
+description: Erfahren Sie, wie Sie die KI-gestützten Journey-Fähigkeiten verwenden können, die Sie zum Erstellen, Verwalten und Beobachten robuster B2B-Journey verwenden können.
 feature: Account Journeys, Person Journeys, Agentic AI
 role: User
 exl-id: 5d2945ab-4f6c-4d9c-b0a1-1a93dc1849f3
@@ -36,31 +36,31 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1115'
 ht-degree: 0%
 ---
-# Journey Agent B2B
+# Journey-Kenntnisse für B2B
 
-Journey Agent B2B ist ein KI-gestützter Assistent in Adobe Journey Optimizer B2B Edition, der Ihnen dabei hilft, B2B-Journeys mit natürlicher Sprache zu entwerfen, auszuführen, zu optimieren und zu überwachen. Die Lösung reduziert den Zeit- und Komplexitätsaufwand für die Erstellung und Verwaltung von Kunden-Journey durch die Kombination von Automatisierung, datengesteuerten Empfehlungen und Echtzeit-Beobachtbarkeit.
+In [!DNL CX Enterprise Coworker] Chat helfen Ihnen die Journey-Fähigkeiten, [!DNL Adobe Journey Optimizer B2B Edition] Journey in natürlicher Sprache zu entwerfen, auszuführen, zu optimieren und zu überwachen. Die Verwendung dieser Kenntnisse reduziert den Zeit- und Komplexitätsaufwand für die Erstellung und Verwaltung von Account- und Personen-Journey, indem Automatisierung, datengesteuerte Empfehlungen und die Echtzeitbeobachtung kombiniert werden.
 
-![Journey Agent B2B-Eingabeaufforderung](./assets/journey-agent-prompt.png)
+[!DNL CX Coworker] bietet eine Reihe von KI-Fähigkeiten, die eine Untergruppe für den B2B-Journey-Lebenszyklus enthalten. Diese derzeit verfügbaren Fähigkeiten sind:
 
-Journey Agent B2B bietet eine Reihe von KI-Fähigkeiten, die sich jeweils auf einen anderen Aspekt des B2B-Journey-Lebenszyklus konzentrieren. Derzeit verfügbare Fähigkeiten sind:
+* **[Journey-Erstellungsfähigkeiten](#journey-creation-skills)** - Erstellen, Aktualisieren und Optimieren von Journey über natürliche Spracheingaben
+* **[Journey-Beobachtungsfähigkeiten](#journey-observability-skills)** - Stellen Sie Fragen darüber, wie Konten und Personen sich durch aktive Journey bewegen
 
-* **[Journey-Kenntnisse aufbauen](#journey-build-skill)** - Erstellen, aktualisieren und optimieren Sie Journey über natürliche Spracheingaben.
-* **[Journey-Beobachtungsfähigkeiten](#journey-observability-skill)** - Stellen Sie Fragen darüber, wie Konten und Personen durch aktive Journey navigieren
+Klicken Sie oben _der Anwendung auf das[!DNL Coworker]_ ( ![Fragen [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ), um die [!DNL Coworker] zu öffnen.
 
-## Journey Build-Kenntnisse
+## Journey-Erstellungsfähigkeiten {#journey-creation-skills}
 
-Die Journey-Build-Kenntnisse übersetzen Ihre Marketing-Ziele, Interaktionsstrategien und KPIs in vollständige B2B-Kunden-Journey. Es geht auf drei wichtige Herausforderungen ein, vor denen B2B-Marketer heute stehen:
+Die Fähigkeiten zur Journey-Erstellung übersetzen Ihre Marketing-Ziele, Interaktionsstrategie und KPIs in vollständige B2B-Kunden-Journey. Sie behandeln drei wichtige Herausforderungen, mit denen B2B-Marketer heute konfrontiert sind:
 
 * Umgang mit immer komplexeren Kunden-Journey (Komplexität in Zielgruppe, Inhalt und Messaging sowie Omni-Channel)
 * Steigerung der Effizienz angesichts knapper Haushaltsmittel
 * Finden Sie heraus, wie die optimale Kunden-Journey strukturiert sein sollte
 
-Als Marketing-Experte können Sie diese Fähigkeit verwenden, um:
+Als Marketing-Experte können Sie diese Fähigkeiten verwenden, um:
 
 * **Erstellen** - Übersetzen Sie Ihre Marketing-Ziele, Produkte, Interaktionsstrategien und KPIs in eine personalisierte Kunden-Journey mit Automatisierung und Bedingungen
 * **Recommend** - Nutzen Sie frühere Marketing-Interaktionen und andere historische Daten, um die Journey-Erstellung zu optimieren
@@ -69,13 +69,13 @@ Als Marketing-Experte können Sie diese Fähigkeit verwenden, um:
 
 ### Grundlegende Verwendung
 
-Um die Journey Agent-Build-Kenntnisse zu verwenden, geben Sie in das Eingabeaufforderungsfenster ein, was Sie mithilfe natürlicher Sprache erstellen möchten:
+Um die Journey-Erstellungsfähigkeiten zu verwenden, geben Sie in das [!DNL Coworker]-Eingabeaufforderungsfenster ein, was Sie mit natürlicher Sprache erstellen möchten:
 
 „Erstellen Sie eine B2B-Journey, um Entscheidungsträger zu einer Roadshow mit engagierten Accounts einzuladen, die am ehesten neue Pipelines eröffnen wird.“
 
-![Journey-Agent-B2B-Eingabeaufforderung für die Build-Kenntnis](./assets/journey-agent-tasks.png)
+![Kenntnisse zur Erstellung von Journey für B2B-Eingabeaufforderung in [!DNL CX Coworker]](./assets/coworker-chat-b2b-journey-prompt.png){width="800" zoomable="yes"}
 
-Je mehr Details Sie angeben, desto besser ist die Antwort. Wenn Sie über Marketing-Materialien verfügen, die das Ereignis oder Ihr Produkt usw. beschreiben, fügen Sie diese in die Eingabeaufforderung ein, damit der Agent das Ziel besser versteht.
+Je mehr Details Sie angeben, desto besser ist die Antwort. Wenn Sie über Marketing-Materialien verfügen, die das Ereignis oder Ihr Produkt usw. beschreiben, fügen Sie diese in die Eingabeaufforderung ein, damit [!DNL Coworker] das Ziel besser versteht.
 
 „Fungieren Sie als B2B-Journey-Stratege, um eine mehrstufige Kundenkonto-Journey zu erstellen, die Entscheidungsträger und Marketing-Personas in der frühen Explorationsphase von `<Solution Name>` pflegt und einbindet. Ziel ist es, anonyme Besucher in bekannte Kontakte zu konvertieren, die Interaktion mit relevanten Inhalten auf `<domain>`.com zu vertiefen und qualifizierte Leads für `<Product Name>` Vertriebsarbeit zu gewinnen. Verwenden Sie Kanäle wie E-Mail und bezahlte Medien und nutzen Sie vorhandene Zielgruppensegmente und -inhalte. Strukturieren Sie die Journey über die Phasen der Bewusstseinsbildung, der Abwägung und der Bewertung hinweg über einen Zeitraum von 4 bis 6 Wochen mit klaren Triggern, Maßnahmen und Zielen für jedes Stadium. Schließen Sie KPIs wie Konversionsraten, Interaktionswerte und Demoanfragen ein und geben Sie die Ausgabe als strukturierten Journey-Fluss zurück.“
 
@@ -86,11 +86,11 @@ Diese detaillierte Eingabeaufforderung enthält:
 * **Strukturiertes Format**: Verwenden Sie Aufzählungspunkte, nummerierte Schritte oder Vorlagen.
 * **Rollenzuweisung**: Geben Sie die Rolle der KI an - „Als Datenanalyst fungieren…“
 
-Verwenden Sie den Agenten, um die Verfeinerung zu iterieren: Beginnen Sie einfach und verfeinern Sie dann Ihre Eingabeaufforderung basierend auf den Ergebnissen. Feedback-Schleifen verbessern die Ergebnisse im Laufe der Zeit.
+Beginnen Sie mit einer einfachen Eingabeaufforderung und verfeinern Sie sie dann auf der Grundlage der Ergebnisse. Verwenden Sie Folgeaufforderungen zur Iteration.
 
 ### End-to-End-Erstellung von B2B-Journey
 
-Die Journey-Build-Fähigkeit kann einen End-to-End-Journey-Fluss (Account- oder Personen-Journey) aus Texteingaben und Metadaten in natürlicher Sprache über ein Gesprächserlebnis generieren, anstatt über eine herkömmliche Benutzeroberfläche.
+Die Fähigkeiten zur Journey-Erstellung können einen End-to-End-Journey-Fluss (Account- oder Personen-Journey) aus Texteingaben und Metadaten in natürlicher Sprache über ein Gesprächserlebnis generieren, anstatt über eine herkömmliche Benutzeroberfläche.
 
 Beispiel für eine End-to-End-Journey-Eingabeaufforderung:
 
@@ -107,25 +107,21 @@ Sie können als B2B-Journey-Designer eine mehrstufige Kundenkonto-Journey erstel
 * Strukturieren Sie die Journey über `awareness`-, `consideration`- und `evaluation` Stadien hinweg über 4-6 Wochen, mit klaren Triggern, Aktionen und Zielen für jedes Stadium.
 * Schließen Sie KPIs wie `conversion rates`, `engagement scores` und `demo requests` ein und geben Sie die Ausgabe als strukturierten Journey-Fluss zurück.
 
-## Journey-Beobachtungsgabe
+## Journey Observability Skills {#journey-observability-skills}
 
-Mit der Journey-Beobachtungsfunktion können Sie Fragen zur natürlichen Sprache stellen, wie Konten und Personen sich durch Ihre B2B-Journey bewegen - ohne sich durch Journey-Karten, Protokolle oder Dashboards zu wühlen. Es umfasst zwei Hauptbereiche: Journey-Progression und Datensynchronisierungsbeobachtung.
+Mit den Journey-Beobachtungsfähigkeiten können Sie Fragen zur natürlichen Sprache stellen, wie Konten und Personen sich durch Ihre B2B-Journey bewegen - ohne sich durch Journey-Karten, Protokolle oder Dashboards zu wühlen. Sie decken zwei Hauptbereiche ab: die Journey-Progression und die Datensynchronisierungsbeobachtbarkeit.
 
-Sie können darauf an zwei Stellen in Journey Optimizer B2B Edition zugreifen:
-
-* **Rechtsleiste Assistent in der Journey-Map** - Stellen Sie Journey-spezifische Fragen direkt aus der Journey-Map. Der Journey-Name wird automatisch in den Kontext eingefügt.
-
-* **Vollbild-Assistentenseite** - Eine größere Ansicht für Gespräche, die für komplexe oder kontoübergreifende Fragen geeignet ist und mehrere Journey untersucht.
+![Eingabeaufforderung zur Beobachtung von Journey und Antwort in [!DNL CX Coworker]](./assets/journey-observability-prompt-response.png){width="800" zoomable="yes"}
 
 ### Journey insight auf Kontoebene
 
 Verfolgen Sie, wie ein bestimmter Account durch eine Journey floss, indem Sie Fragen stellen wie:
 
-* „Geben Sie mir grundlegende Informationen zum Konto ACME Industries.“
+* „Geben Sie mir grundlegende Informationen zu Bodea Cloud-Konten.“
 * „Erzählen Sie mir, wie der Account Northstar Services die Journey-ABM-Nurture-Strategie durchlief.“
 * „Wann hat Account Contoso LLC diese Journey gestartet?“
 
-### Argumentation und Zählungen für aufgeteilte Knoten
+### Argumentation und Zählungen bei Aufspaltungen
 
 Verstehen, warum eine Verzweigung erstellt wurde und wie viele Personen oder Konten jedem Pfad gefolgt sind:
 
@@ -133,13 +129,13 @@ Verstehen, warum eine Verzweigung erstellt wurde und wie viele Personen oder Kon
 * „Geben Sie mir die Anzahl der Personen für jeden Pfad im geteilten Knoten-459c7c.“
 * „Personen auf dem San Jose-Pfad für Account8 zeigen.“
 
-Der Agent überprüft die Aufspaltungslogik, Kontoattribute und Aktivitäten, um Routing-Entscheidungen zu erklären und die Anzahl pro Pfad oder Personenlisten zurückzugeben.
+Journey Observability Skills analysieren Aufspaltungslogik, Account-Attribute und Aktivitäten, um Routing-Entscheidungen zu erklären und Zählungen pro Pfad oder Personenlisten zurückzugeben.
 
 ### Journey-Ergebnisse auf Benutzerebene
 
 Analysieren Sie einzelne Ergebnisse innerhalb eines Accounts oder auf einer ganzen Journey. Dies ist besonders nützlich für die Kaufgruppenanalyse und das Tracking von Entscheidungsträgern vs. Influencer-Verhalten:
 
-* „Geben Sie mir in jedem Pfad die Anzahl der Personen für diesen aufgeteilten Knoten für Account123.“
+* „Geben Sie mir die Anzahl der Personen in jedem Aufspaltungspfad für die Bodea Next Web Engagement Journey.“
 * „Listen Sie Personen im ausgeblendeten Überspringpfad auf.“
 * „Personen für dieses Konto im Standortpfad von San Diego anzeigen.“
 
@@ -160,7 +156,7 @@ Bei Journey, die auf externe Kanäle wie LinkedIn pushen, können Sie den Aktivi
 
 ### Datensynchronisierung und Pipeline-Beobachtbarkeit
 
-Die Beobachtbarkeits-Qualifikation kann auch Informationen zum Zustand der Datensynchronisation anzeigen, um die Fehlerbehebung zu erleichtern, warum ein Konto oder Lead nicht in einer Journey enthalten war:
+Die Journey-Beobachtungsfähigkeiten können auch Informationen zum Zustand der Datensynchronisation enthalten, um die Fehlerbehebung zu unterstützen, warum ein Konto oder Lead nicht in einer Journey enthalten war:
 
 * Auftragsmetriken und Status für externen Zielgruppenexport
 * Batch-Segmentierungspläne und Abschlusszeiten
