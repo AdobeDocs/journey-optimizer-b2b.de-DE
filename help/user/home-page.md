@@ -44,7 +44,7 @@ Wenn Sie sich bei Adobe Experience Platform anmelden und die Adobe Journey Optim
 
 ![Startseite von Journey Optimizer B2B Edition](./assets/home-page.png){width="800" zoomable="yes"}
 
-Journey Optimizer B2B Edition verfügt über zwei primäre Benutzer-Personas: _**Marketer**_ und _**Administrator**_. Jede Persona verfügt über eine spezifische Startseite für verschiedene Reifephasen (neu oder erweitert). Der Seiten-Content basiert darauf, was jede Persona in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt.
+Journey Optimizer B2B Edition verfügt über zwei primäre Benutzer-Personas: _&#x200B;**Marketer**&#x200B;_ und _&#x200B;**Administrator**&#x200B;_. Jede Persona verfügt über eine spezifische Startseite für verschiedene Reifephasen (neu oder erweitert). Der Seiten-Content basiert darauf, was jede Persona in Bezug auf Informationen und die nächsten zu ergreifenden Maßnahmen benötigt.
 
 * **Marketing-Fachkraft – Neue Benutzende** – Die Startseite _Marketing-Fachkraft_ für neue Benutzende hilft ihnen, sich mit Journey Optimizer B2B und dessen Funktionen vertraut zu machen. Es enthält eine Anleitung für den neuen Marketing-Experten, damit er die Feinheiten des Systems versteht und B2B-Marketing-Strategien und -Initiativen effizient entwickeln kann.
 * **Marketing-Fachkraft – Erfahrene Benutzende** – Die Startseite _Marketing-Fachkraft_ für erfahrene Marketing-Fachkräfte zeigt den Fortschritt der aktuellen Initiative sowie empfohlene nächste Aktionen an und bietet Schnellzugriff auf relevante Abschnitte.

@@ -69,7 +69,7 @@ Script Builder ist im [Personalisierungseditor](./personalization.md) verfügbar
 
    >[!BEGINSHADEBOX]
 
-   Wenn Sie das erste Mal auf Script Builder zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI ]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} und bestätigen Sie Ihre Zustimmung.
+   Wenn Sie das erste Mal auf Script Builder zugreifen, lesen Sie die [_[!UICONTROL Nutzungsbedingungen für Generative AI &#x200B;]_](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"} und bestätigen Sie Ihre Zustimmung.
 
    ![Dialogfeld der Vereinbarung über die Nutzungsbedingungen für Generative KI in Script Builder](./assets/personalization-script-builder-gen-ai-terms.png){width="400"}
 
@@ -112,7 +112,7 @@ Verwenden Sie Script Builder, um ein vorhandenes [!DNL Marketo Engage] Velocity-
 
    Script Builder analysiert die Velocity-Konstrukte, gleicht die Token-Verweise auf XDM-Profilattribute ab und generiert das entsprechende Handlebars-Skript.
 
-1. Überprüfen Sie den [Konversionsbericht](#review-conversion-report) und [ Sie alle Token auf, die manuelles Mapping benötigen](#resolve-tokens-without-mapping).
+1. Überprüfen Sie den [Konversionsbericht](#review-conversion-report) und [&#x200B; Sie alle Token auf, die manuelles Mapping benötigen](#resolve-tokens-without-mapping).
 
 1. [Vorschau und Validierung](#preview-validate-script) das generierte Skript anzeigen und es dann direkt in der E-Mail speichern.
 

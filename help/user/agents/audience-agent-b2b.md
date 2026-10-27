@@ -491,7 +491,7 @@ Zielgruppen-Fähigkeiten verwenden First-Party-Intent-Daten aus [!DNL Adobe Jour
 1. Bezeichnete Assets (Ereignisdaten) werden mit dem Verhalten der Besucher (Anzahl der besuchten Seiten) kombiniert, um eine Besucherabsicht auf Keyword-, Produkt- und Produktkategorieebene → die Absichtsberechnung zu bestimmen
 1. Absichtsbewertungen auf Besucherprofilebene werden auf Kontoebene aggregiert, um die Kontoabsicht in einem bestimmten Keyword, einer bestimmten Produkt- und Produktkategorie > Absichtskonto-Aggregation zu bestimmen
 
-Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder ](../admin/intent-data.md):
+Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x200B;](../admin/intent-data.md):
 
 <table>
   <tbody>
