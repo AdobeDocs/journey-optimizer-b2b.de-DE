@@ -1,6 +1,6 @@
 ---
 title: Anmelde- und Startseite
-description: Greifen Sie auf Journey Optimizer B2B Edition zu und navigieren Sie zu personalisierten Startseiten – verschiedene Ansichten für Marketing-Fachleute und Admins mit Schnellzugriff und KI-Assistent.
+description: Greifen Sie auf Journey Optimizer B2B Edition zu und navigieren Sie zu personalisierten Startseiten - verschiedene Ansichten für Marketing-Experten und Administratoren mit schnellem Zugriff und [!DNL Coworker] Chat.
 feature: Home Page
 role: Admin, User
 exl-id: 61956f53-62dc-421f-935c-acdb9e6ba178
@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 83%
+source-wordcount: '414'
+ht-degree: 72%
 ---
 # Anmelde- und Startseite
 
@@ -53,7 +53,7 @@ Journey Optimizer B2B Edition verfügt über zwei primäre Benutzer-Personas: _&
 
 Der Abschnitt _[!UICONTROL Zuletzt aufgerufen]_ enthält eine Liste der zuletzt aufgerufenen Assets für die Marketing-Fachkraft oder die Admins. Verwenden Sie diese Liste, um direkt zu dem Asset zu gelangen, an dem Sie kürzlich gearbeitet haben, ohne erst durch eine Reihe von Asset-Seiten navigieren oder danach suchen zu müssen.
 
-Die Seite bietet auch Zugriff auf den [KI-Assistenten](./ai-coworker/ai-assistant-overview.md), der Benutzenden dabei hilft, schnell benötigte Informationen zu bestimmten Fragen oder Themen zu erhalten.<!-- and to obtain specific recommendations for their challenges or objectives-->
+Die Seite enthält auch Zugriff auf [Coworker Chat](./ai-coworker/ai-overview.md), der Benutzern hilft, schnell Informationen zu bestimmten Fragen oder Themen zu erhalten, die sie benötigen.<!-- and to obtain specific recommendations for their challenges or objectives-->
 
 <!--
 

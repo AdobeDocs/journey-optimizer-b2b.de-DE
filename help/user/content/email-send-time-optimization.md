@@ -28,9 +28,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '477'
 ht-degree: 0%
 ---
 # Optimierung des E-Mail-Versandzeitpunkts
@@ -46,16 +46,16 @@ Die Sendezeitoptimierung wird derzeit unterstützt für:
 * **Journey-Typ**: Personen-Journey
 * **channel**: email
 * **Konfiguration**: _E-Mail senden_ Aktionsknoten
-* **Reporting**: KI-Assistent durch die Journey-Beobachtungsfähigkeit
+* **Reporting**: [!DNL Coworker] Chat durch die Journey-Beobachtungsfähigkeiten
 
-  Leistungseinblicke wie Nutzung, Interaktionssteigerung und STO-Vergleiche mit Nicht-STO-Vergleichen sind über Abfragen in natürlicher Sprache im KI-Assistenten verfügbar.
+  Leistungseinblicke wie Verwendung, Interaktionssteigerung und STO-Vergleiche mit Nicht-STO-Vergleichen sind über Abfragen in natürlicher Sprache in [!DNL Coworker] Chat verfügbar.
 
 >[!BEGINSHADEBOX]
 
 Es sind viele **_zukünftige Verbesserungen_** für STO geplant:
 
 * Unterstützung für _Account-Journey_
-* Globale STOP-Konfiguration im Bereich _[!UICONTROL Admin]_
+* Globale STO-Konfiguration im Bereich _[!UICONTROL Administration]_
 * STO-Aktivierung auf Journey-Ebene
 * Konfigurierbare Test-/Kontrollaufteilungen
 * Ein dediziertes STO-Reporting-Dashboard
@@ -90,4 +90,4 @@ Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [&#x200B; Personen-
 
 ## STO-Erkenntnisse
 
-STO-Einblicke werden über den _KI-Assistenten_ mithilfe der Journey Agent [_Observability Skill_](../agents/journey-agent.md#journey-observability-skill) bereitgestellt. Sie können die Nutzung von Abfragen, Interaktionsmetriken, Test-/Kontrollergebnisse, die Knotenleistung und die gesamte Auswirkung auf das Journey abfragen.
+STO-Einblicke werden über _[!DNL Coworker]Chat_ der Beobachtungsfähigkeiten [_Journey bereitgestellt_](../agents/journey-agent.md#journey-observability-skills). Sie können die Nutzung von Abfragen, Interaktionsmetriken, Test-/Kontrollergebnisse, die Knotenleistung und die gesamte Auswirkung auf das Journey abfragen.

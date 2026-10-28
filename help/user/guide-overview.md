@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: 87bce853d68d03eabceccf02ba80a8077dce206d
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 27%
+source-wordcount: '1123'
+ht-degree: 26%
 ---
 # Dokumentation zu Adobe Journey Optimizer B2B Edition
 
@@ -160,7 +160,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px" alt="Erste Schritte"><br/>
-      <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmeldung und Startseite</a><br/><a href="./start/get-started.md">Onboarding-Anleitung</a> <br/><a href="./ai-coworker/ai-assistant-overview.md">KI-Funktionen</a>
+      <strong>Erste Schritte</strong><br/><a href="home-page.md">Anmeldung und Startseite</a><br/><a href="./start/get-started.md">Onboarding-Anleitung</a> <br/><a href="./ai-coworker/ai-overview.md">KI-Funktionen</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_audience.svg" width="35px" alt="Käufergruppen"><br/>
@@ -188,6 +188,16 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 </tr>
 </table>
 
+>[!BEGINSHADEBOX]
+
+## [!DNL Marketo Qualifier]
+
+[!DNL Adobe Marketo Qualifier] ist eine KI-gesteuerte Anwendung, die Sie mit [!DNL Journey Optimizer B2B Edition] verwenden können. Es implementiert die Kontenqualifikation und optimiert die Workflows für Business Development Representatives (BDRs). [!DNL Marketo Qualifier] automatisiert Workflows für die Qualifizierung von Interessenten, Kontaktaufnahme und Käuferinteraktion kanalübergreifend. Dies reduziert die manuelle BDR-Belastung und beschleunigt die Pipeline-Geschwindigkeit für B2B-Unternehmen.
+
+Weitere Informationen finden Sie in der Dokumentation zu [Marketo Qualifier](https://experienceleague.adobe.com/de/docs/marketo-qualifier/using/home){target="_blank"}.
+
+>[!ENDSHADEBOX]
+
 ## Zusätzliche Ressourcen
 
 <table style="table-layout:fixed">
@@ -203,4 +213,3 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 <a href="https://experienceleague.adobe.com/de/docs/marketo/using/home" target="_blank">Benutzerdokumentation</a> - <a href="https://experienceleague.adobe.com/de/docs/marketo-developer/marketo/home" target="_blank">Entwicklerdokumentation</a>
 </td>
 </tr></table>
-

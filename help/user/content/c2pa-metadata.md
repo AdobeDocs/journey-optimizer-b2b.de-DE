@@ -1,6 +1,6 @@
 ---
 title: C2PA-Metadaten
-description: Erfahren Sie, wie Adobe Journey Optimizer B2B edition C2PA-Metadaten automatisch auf Bilder anwendet, die mit generativen KI-Tools generiert oder bearbeitet wurden, und was dies für Ihre Inhalte bedeutet.
+description: Erfahren Sie, wie Adobe Journey Optimizer B2B Edition C2PA-Metadaten automatisch auf Bilder anwendet, die mit generativen KI-Tools generiert oder bearbeitet wurden, und was dies für Ihre Inhalte bedeutet.
 feature: Assets, Content
 hide: true
 role: User
@@ -8,21 +8,25 @@ autotag-review: '2026-07-31T22:15:54.535Z'
 TQID: 'https://experienceleague.adobe.com/9XCqPWz62uDDLFAyxARfD2jErYx2aOiOB5fAOGLLTbo'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: a65c8aea-b21a-41ce-9ed7-6b517a69fd0b
+    internal-label: Generative AI
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
   - id: e666e996-b2cf-4c45-8fc2-1c625212abab
+    internal-label: Content management
 subfeature_v2:
   - id: c8402946-ff35-44c5-ab98-74c1bba0975f
+    internal-label: Assets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 14e960aa56ce951f3606ffe35e0481c659021ad6
+    internal-label: User
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 952
-ht-degree: 0%
-
+source-wordcount: '952'
+ht-degree: 4%
 ---
-
 # C2PA-Metadaten
 
 Marketing-Organisationen sind mehr denn je besorgt über Inhaltstransparenz, KI-Offenlegung und die Verhinderung von Manipulationen an Assets. Die Content Authenticity Initiative (CAI) von Adobe erstellt Tools, die dem technischen Standard [Coalition for Content Provenance and Authenticity](https://c2pa.org/specifications/specifications/1.1/specs/C2PA_Specification.html#_trust_model) (C2PA) entsprechen. _C2PA-_: sind verschlüsselte, manipulationssichere Informationen, die Betrachtern helfen, die Herkunft von Inhalten zu verstehen und die Integrität von Marken-Assets sicherzustellen. Zu diesen Informationen gehören:
@@ -60,7 +64,7 @@ Wenn Sie Bilder in Ihre E-Mail- oder WhatsApp-Nachrichten einfügen, werden die 
 
 >[!INFO]
 >
->Im Bereich der generativen KI-Transparenz entstehen neue Gesetze, und Adobe arbeitet daran, die geltenden Anforderungen in allen Rechtssystemen zu erfüllen. C2PA-Metadaten sind das Herkunftstool, das Adobe verwendet, um die Anforderungen dieser Gesetze zu erfüllen.
+>In Bezug auf Transparenz generativer KI entstehen ständig neue Gesetze und Adobe arbeitet daran, die geltenden Anforderungen in allen Gerichtsbarkeiten zu erfüllen. C2PA-Metadaten sind das Herkunftstool, das Adobe verwendet, um die Anforderungen dieser Gesetze zu erfüllen.
 
 Wenn Sie ein Bild mit Tools für generative KI in [!DNL Journey Optimizer B2B Edition] generieren oder bearbeiten, werden C2PA-Metadaten automatisch an dieses Bild angehängt, sodass keine Aktion Ihrerseits erforderlich ist.
 
@@ -77,13 +81,13 @@ Wenn Sie ein neues Bild über eine Textaufforderung, ein Referenzbild oder ein �
 * Beschneiden Sie ein generiertes Bannerbild, damit es auf eine Web-Seite passt. Die C2PA-Metadaten werden beim Zuschneiden beibehalten.
 * Verwenden Sie ein hochgeladenes Stockfoto als E-Mail-Hintergrund und schneiden Sie es so zu, dass es auf den Bildschirm passt. Wenn das Stockfoto keine generativen KI-Informationen enthält, werden keine C2PA-Metadaten erstellt.
 
-Wenn Sie eine Anpassung an eine Bilddatei vornehmen, z. B. sie auf die angeforderten Abmessungen zuschneiden, werden die C2PA-Metadaten nur beibehalten, wenn das Quellbild bereits über sie verfügt. Beim Zuschneiden werden die Bildpixel neu erstellt, wodurch normalerweise diese C2PA-Metadaten entfernt werden, sodass der KI-Assistent sie vor dem Zuschneiden aus dem Quellbild liest, sie dann neu erstellt und erneut an das zugeschnittene Ergebnis anhängt. Beim Zuschneiden selbst wird keine neue generative KI-Aktion hinzugefügt, sondern die vorhandene beibehalten.
+Wenn Sie eine Anpassung an eine Bilddatei vornehmen, z. B. sie auf die angeforderten Abmessungen zuschneiden, werden die C2PA-Metadaten nur beibehalten, wenn das Quellbild bereits über sie verfügt. Beim Zuschneiden werden die Bildelemente neu erstellt, wodurch normalerweise diese C2PA-Metadaten entfernt werden, sodass die generativen KI-Tools sie vor dem Zuschneiden aus dem Quellbild lesen, dann neu erstellen und erneut an das zugeschnittene Ergebnis anhängen. Beim Zuschneiden selbst wird keine neue generative KI-Aktion hinzugefügt, sondern die vorhandene beibehalten.
 
 ### Hinzufügen einer Textüberlagerung
 
 **_Example:_** Erstellen einer Werbe-Überschrift als Textüberlagerung auf einem generierten Hintergrundbild für eine Landingpage. Die C2PA-Metadaten aus dem Hintergrundbild werden beibehalten.
 
-Wenn Sie generierten Text über einem Hintergrundbild rendern, werden C2PA-Metadaten nur dann an das resultierende Bild angehängt, wenn das Hintergrundbild bereits C2PA-Metadaten enthält. Durch das Rendern der Überlagerung wird ein neues Bild erstellt, sodass das Bildbearbeitungs-Tool die C2PA-Metadaten aus dem Hintergrund liest und erneut an das Ergebnis anhängt. Der Überlagerungsschritt fügt keine neue generative KI-Aktion hinzu.
+Wenn Sie generierten Text über einem Hintergrundbild rendern, werden C2PA-Metadaten nur dann an das resultierende Bild angehängt, wenn das Hintergrundbild bereits C2PA-Metadaten enthält. Durch das Rendern der Überlagerung wird ein neues Bild erstellt, sodass das Bildbearbeitungs-Tool die C2PA-Metadaten aus dem Hintergrund liest und erneut an das Ergebnis anhängt. Der Überlagerungsschritt fügt keine neue Aktion der generativen KI hinzu.
 
 ### Überlagern eines Bildes
 

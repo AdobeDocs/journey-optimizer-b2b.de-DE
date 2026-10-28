@@ -1,10 +1,10 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 4bf162645af8589b8e36bb36be1ac6594b7bdeab
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 82%
+source-wordcount: '457'
+ht-degree: 79%
 ---
 
 # Benutzerhandbuch für Journey Optimizer B2B Edition {#user}
@@ -29,15 +29,14 @@ ht-degree: 82%
   + [Datenverfügbarkeit und Synchronisierungszeitpunkt](./data/data-availability-timing.md)
   + [Exportierte Datensätze](./data/aep-exported-datasets.md)
   + [Datensatzabfragen](./data/aep-query-examples.md)
-+ KI-Funktionen {#ai-assistant}
-  + [Übersicht](./ai-coworker/ai-assistant-overview.md)
-  + [Aktivieren des Zugriffs auf den KI-Assistenten](./ai-coworker/enable-ai-assistant-access.md)
++ KI-Funktionen {#ai-capabilities}
+  + [Übersicht](./ai-coworker/ai-overview.md)
+  + [Zugriff aktivieren](./ai-coworker/enable-ai-access.md)
   + [Anleitung zu Fragen](./ai-coworker/question-guidance.md)
-  + [Chat-Oberfläche](./ai-coworker/use-ai-assistant.md)
   + [Absichtswerte](./ai-coworker/intent-scores.md)
-  + Agentinnen bzw. Agenten {#ai-agents}
-    + [Audience Agent B2B](./agents/audience-agent-b2b.md)
-    + [Journey Agent B2B](./agents/journey-agent.md)
+  + Mitarbeiterqualifikationen {#coworker-skills}
+    + [Zielgruppenkenntnisse für B2B-Konten und Personen](./agents/audience-agent-b2b.md)
+    + [Journey-Kenntnisse für B2B](./agents/journey-agent.md)
 + Intelligente Dashboards {#dashboards}
   + [Insights-Dashboard](./dashboards/intelligent-dashboard.md)
   + [Interaktions-Dashboard](./dashboards/engagement-dashboard.md)

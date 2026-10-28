@@ -1,6 +1,6 @@
 ---
-title: Audience Agent B2B
-description: Audience Agent B2B in Journey Optimizer B2B edition verwendet Intent Analysis und Persona Mapping, um Einkaufsgruppen zu erstellen und B2B-Marketing-Workflows zu beschleunigen.
+title: Zielgruppenkenntnisse für B2B-Konten und Personen
+description: Erfahren Sie mehr über Zielgruppenfähigkeiten für B2B-Konten und Personen. Erkunden Sie die Produktabsicht, identifizieren Sie Rollen, bewerten Sie die Rollenabdeckung und erstellen Sie Einkaufsgruppenvorlagen.
 feature: Agentic AI, Audiences
 role: User
 exl-id: c1210912-66ba-4b5f-8f3b-96eb6280c926
@@ -8,89 +8,121 @@ autotag-review: '2026-06-05T16:43:42.459Z'
 TQID: 'https://experienceleague.adobe.com/d7KMYbH0NpoYGnBdTCmCpzLgpGIYfNP-YIFCQUjZpIg'
 product_v2:
   - id: aacce07f-424e-489e-8d02-a4fb2f4211bd
+    internal-label: Journey Optimizer B2B Edition
 feature_v2:
   - id: afadf741-c5fe-42cd-8013-23bb6ff2d1bc
+    internal-label: Buying Groups
   - id: beb5f4be-cec3-471a-9db6-831a77dd3ac9
+    internal-label: Audiences
   - id: bef5003b-cad2-4f40-bdb2-a80426d52ef5
+    internal-label: AI Assistant
 subfeature_v2:
   - id: ff10f619-348f-47e3-99bf-3ce4c817cf2c
+    internal-label: Agentic AI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b43117c1e47f698d62b29f56b4713ac776c497a0
+    internal-label: Taxonomy
+source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
 workflow-type: tm+mt
-source-wordcount: 2500
-ht-degree: 2%
-
+source-wordcount: '1692'
+ht-degree: 1%
 ---
+# Zielgruppenkenntnisse für B2B-Konten und Personen
 
-# Audience Agent B2B
+Verwenden Sie Zielgruppenkenntnisse für B2B in der [!DNL CX Coworker]. Erkunden Sie die Produktabsichten von Konten und Personen hinweg. Identifizieren Sie relevante Personas, bewerten Sie die Abdeckung der Einkaufsgruppe und erstellen Sie Vorlagen für die Einkaufsgruppenrolle.
 
-Mit [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) ist Audience Agent B2B in Journey Optimizer B2B edition verfügbar. Die Verwendung dieses Agenten verbessert die Effizienz und Effektivität beim Erkunden und Skalieren von Zielgruppen, beschleunigt die Erstellung von Einkaufsgruppen und bietet nahtlose Workflows für die Journey-Aktivierung:
-
-* **_Priorisieren der Zielgruppen nach Intent_**: Ziehen Sie Personas auf der Grundlage des Produktintents für verschiedene Zielgruppen in den Schluss und optimieren Sie die Kampagnenplanung, indem Sie die Zeit für die Audience-Validierung reduzieren.
-
-* **_Nutzen von KI zur Erkennung und Erstellung von Einkaufsgruppen_**: Verwenden Sie KI, strukturierte, unstrukturierte Daten und einheitliche First-Party-Daten, um die Erkennung und Erstellung von Einkaufsgruppen zu optimieren.
-
-![Audience Agent B2B im Vollseitenmodus](./assets/audience-agent-full.png){width="700" zoomable="yes"}
+* Bewerten Sie das Kontointeresse an bestimmten Produkten und vergleichen Sie Absichtstrends.
+* Identifizieren Sie Personen und Rollen, die mit Produktinteressen verbunden sind.
+* Überprüfen Sie die Rolle der Einkaufsgruppe und ermitteln Sie Deckungslücken.
+* Generieren und Verfeinern von Vorlagen für Einkaufsgruppen-Rollen.
 
 >[!PREREQUISITES]
 >
->Für die Verwendung von Audience Agent B2B sind erforderliche Datendefinitionen und Zuordnungen vorhanden:<br/>
+>Bevor Sie Zielgruppen-Fähigkeiten für B2B-Konten und Personen verwenden, konfigurieren Sie die folgenden Datendefinitionen und -zuordnungen:
 >
->* [Intent-Datentaxonomie/Zuordnung](../admin/intent-data.md)
->* [XDM-Feldtaxonomie/-zuordnung](#xdm-data-prerequisites)
+>* [Intent-Datentaxonomie und -Zuordnung](../admin/intent-data.md)
+>* [XDM-Feldzuordnung](#xdm-data-prerequisites)
 
-## Audience Agent B2B-Funktionen
+Klicken Sie auf _[!DNL Coworker]_ ( ![Fragen [!DNL Coworker]](../assets/do-not-localize/icon-ask-coworker.svg) ) oben in der Anwendung, um die [!DNL Coworker] Anwendung zu öffnen. Geben Sie in der Chat-Oberfläche Ihre Aufforderung in natürlicher Sprache ein.
 
-| Bereich | Funktion | Geschäftswert |
-| ---- | ------------ | -------------- |
-| Absichtsanalyse | <li> Messen Sie die Stärke der Kontoabsicht (z. B. niedrig, mittel und hoch) für bestimmte Produkte. <li>Vergleichen Sie die Trends der Produktzinsen im Zeitverlauf (z. B. die Top-Produkte der letzten _n_ Tage). <li>Identifizieren Sie Konten, die aktiv Interesse an bestimmten Produkten zeigen. <li>Interaktionsmuster, die Kontoaktivität mit persönlicher Abdeckung kombinieren. | <li>Hilft Teams, sich zum richtigen Zeitpunkt auf die richtigen Accounts zu konzentrieren. <li>Verbessert die Pipeline-Qualität, indem Konten mit echten Kaufsignalen priorisiert werden. <li>Ermöglicht proaktive Interaktion, bevor Mitbewerber handeln. |
-| Persona-Mapping | <li>Erkennen und ordnen Sie die wichtigsten Personas nach Produktabsicht. <li>Identifizieren Sie Personen, die am Kauf eines oder mehrerer Produkte beteiligt sind. <li>Ordnen Sie Rollen (z _B._, _Entscheidungsträger_ und _Influencer_ mit einer Begründung zu. <li>Überprüfen, warum eine bestimmte Person als Champion gilt. | <li>Stellt sicher, dass das Vertriebsteam die wahren Entscheidungsträger und Einflussnehmer einbindet. <li>Geringerer Aufwand bei Kontakten mit geringen Auswirkungen. <li>Steigert die Gewinnraten durch Abstimmung der Reichweite auf die Kaufkraftdynamik. |
-| Einkaufsgruppenbewertung | <li>Bewerten Sie die Größe der Einkaufsgruppe (z. B. Gruppen mit mehr als _n_ Mitgliedern). <li>Messen Sie die persönliche Abdeckung aller Konten (z. B. unter _x_%). <li>Verfolgen Sie Rollenverteilungs- und Abdeckungslücken in Einkaufsgruppen. <li>Markieren Sie Konten mit Champions, die in den letzten Angeboten identifiziert wurden. | <li>Zeigt Abdeckungslücken, die Abschlüsse blockieren könnten. <li>Stärkt Multithreading-Strategien durch Sicherstellung einer vollständigen Rollendarstellung. <li>Verbessert die Verfolgung der Angebotsstatus durch Interaktionseinblicke auf Gruppenebene. |
-| Erstellung und Verwertbarkeit von Einkaufsgruppen | <li>Auf beobachteten Rollen- und Rollenmustern basierende Rollen-zu-Rollen-Zuordnungen empfehlen. <li>Generieren Sie eine Vorlage für die Einkaufsgruppenrolle für ein bestimmtes Produkt. <li>Unterstützen Sie die Anpassung von Vorlagen, indem Sie bestimmte Rollen und Personas ein- oder ausschließen. <li>Überprüfen Sie, ob die erforderlichen Rollen definiert sind, bevor Sie Einkaufsgruppen erstellen. | <li>Reduziert manuellen Aufwand und Risiko unvollständiger Einkaufsgruppenvorlagen. <li>Stellt sicher, dass die Rollenabdeckung vor der Erstellung validiert wird, wodurch das Risiko von Abdeckungslücken verringert wird. <li>Wandelt Analyseeinblicke in sofortige, operative nächste Schritte um. |
+![Zielgruppen-Eingabeaufforderung in [!DNL CX Coworker]](./assets/audience-skills-prompt.png){width="800" zoomable="yes"}
+
+## Zielgruppen-Kompetenz-Fokusbereiche
+
+Verwenden Sie Zielgruppen-Fokusbereiche, um die Account-Absicht zu untersuchen, Personen und Rollen zu verstehen und Kaufgruppenvorlagen vorzubereiten.
+
+| Focus | Aufgaben |
+| ----- | ----- |
+| Kontoabsicht | Bewerten Sie die Kontoabsicht für bestimmte Produkte mithilfe einer niedrigen, mittleren und hohen Absichtsebene. Vergleichen Sie die Entwicklung der Produktzinsen im Zeitverlauf und ermitteln Sie Konten, die Interesse an bestimmten Produkten zeigen. Überprüfen Sie die Interaktionsmuster zusammen mit der persönlichen Abdeckung. |
+| Personen und Rollen | Personas in einem oder mehreren Produkten nach Produktabsicht identifizieren und ordnen Überprüfen Sie Opportunity-Metriken, einschließlich Gewinnrate, Mitgliedschaftsrate und Anzahl. Ordnen Sie Rollen wie _Champion_, _Entscheidungsträger_ und _Influencer_ zu und überprüfen Sie Erklärungen für Rollenzuweisungen. |
+| Abdeckung der Einkaufsgruppe | Bewerten Sie die Größe der Einkaufsgruppe und die persönliche Abdeckung aller Konten. Überprüfen Sie die Rollenverteilung und identifizieren Sie fehlende Rollen oder Personas. Finden Sie Konten mit Champions, die in den letzten Angeboten identifiziert wurden. |
+| Einkaufsgruppenvorlagen | Generieren von Rollenvorlagen für Einkaufsgruppen für bestimmte Produkte und Überprüfen empfohlener Rollenzuordnungen. Verfeinern von Vorlagen durch Einschließen oder Ausschließen von Rollen und Personas. Validieren Sie die erforderlichen Rollen, bevor Sie Einkaufsgruppen erstellen. |
 
 ## Einschränkungen
 
-Audience Agent B2B hängt von der konfigurierten Intent-Taxonomie, den XDM-Feldzuordnungen und Erlebnisereignisdaten ab. Einblicke sind weniger zuverlässig, wenn Opportunity-Daten unvollständig sind, die Intent-Taxonomie fehlt oder veraltet ist oder die erforderlichen Profil- und Account-IDs nicht zugeordnet sind. Für die Absichtsberechnung verarbeitet der Agent nur diese Erlebnisereignisse: `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed` und `web.webpagedetails.pageViews`.
+Zielgruppeneinblicke hängen von der konfigurierten Intent-Taxonomie, den XDM-Feldzuordnungen und den Erlebnisereignisdaten ab. Unvollständige Opportunity-Daten, fehlende oder veraltete Taxonomien oder fehlende Profil- und Kontokennungen können die Zuverlässigkeit von insight beeinträchtigen.
+
+Die Absichtsberechnung verwendet nur diese Erlebnisereignisse: `directMarketing.emailClicked`, `directMarketing.emailOpened`, `directMarketing.emailUnsubscribed` und `web.webpagedetails.pageViews`.
 
 ## Beispiele für Prompts
 
-Diese Eingabeaufforderungsbeispiele zeigen einige der Möglichkeiten auf, wie Sie den Agenten verwenden können:
+Geben Sie die folgenden Eingabeaufforderungen in der [!DNL CX Coworker] ein, um die Kontoabsicht zu untersuchen, Personen und Rollen zu verstehen und Kaufgruppenvorlagen vorzubereiten.
+
+### Kontoabsicht
+
+Erkunden Sie das Kontointeresse an Produkten und überprüfen Sie die Änderungen in der Absicht.
 
 * Trend-Fenster anzeigen: Früheste und neueste Aktualisierungen für die Kontoproduktzielsetzung pro Produkt.
-* Listen Sie `<product>` Einkaufsgruppen mit Produktabsicht und Bewertungen auf.
-* Listen Sie `<product>` Personas und Rollen mit ihren Opportunity-Metriken auf (Erfolgsrate, Mitgliedschaftsrate, Anzahl).
-* Wie ist die durchschnittliche Abdeckung von Account-Personas bei Accounts in `<industry>` für `<product>`?
 * Welche Accounts haben eine geringe Absicht für ein Produkt, haben aber immer noch offene Möglichkeiten (die es wert sind, gepflegt zu werden)?
-* Welche Accounts haben diese Woche neue Absichtssignale für `<account_name>` hinzugefügt?
+* Welche neuen Absichtssignale wurden diese Woche für `<account_name>` aufgezeichnet?
+
+### Personen und Rollen
+
+Identifizieren Sie die mit dem Produktinteresse verknüpften Personen und überprüfen Sie die empfohlenen Einkaufsgruppenrollen.
+
 * Anzeigen der mit `<product>` verknüpften Rollen
 * Zeigen Sie mir die Empfehlung der Rollenzuordnung zu Persona-Zuordnung für `<product>`.
+* Listen Sie `<product>` Personas und Rollen mit ihren Opportunity-Metriken auf (Erfolgsrate, Mitgliedschaftsrate, Anzahl).
+
+### Einkaufsgruppen und Vorlagen
+
+Überprüfen Sie die Einkaufsgruppenabsicht und -abdeckung und generieren oder verfeinern Sie dann Vorlagen.
+
+* Listen Sie `<product>` Einkaufsgruppen mit Produktabsicht und Bewertungen auf.
+* Wie ist die durchschnittliche Abdeckung von Account-Personas bei Accounts in `<industry>` für `<product>`?
 * Erstellen Sie eine Einkaufsgruppenvorlage für `<product>`.
 * Erstellen Sie eine Einkaufsgruppenvorlage für `<product>` ohne `<persona>` und entfernen Sie die Rolle `<role>` .
 
 ## Konzepte
 
+Verwenden Sie diese Konzepte, um Kontoabsicht, persönliches Ranking und Kaufgruppenempfehlungen zu interpretieren.
+
 | Konzept | Erklärung |
 | ------- | ----------- |
-| Zielgruppenerkennung | Hinter den Kulissen untersucht der Agent Absichtssignale von Erstanbietern, die auf zwei Dingen basieren: Wie stark Leute mit Ihrer Marke interagieren und welche Arten von Personas sie repräsentieren. Die Analyse blickt auf die letzten 18 Monate der Aktivität zurück, um die Produktabsichten für alle Personen im Konto zu erkennen, insbesondere in der Zeit, die zum Abschluss einer Opportunity führte. Diese Analyse hilft dem Agenten, die Personas hervorzuheben, die den Deal am wahrscheinlichsten beeinflussen.<br/><br/>Manchmal haben Konten nicht alle Opportunity-Daten in perfekter Form, was jedoch in Ordnung ist, und der Agent kann die Produktabsicht weiterhin rein aus Interaktionsmustern erkennen. |
-| Persona | Personas stellen die Arten von Personen dar, die mit einem Konto interagieren. Der Agent erstellt sie, indem er sich die Stellenbezeichnung, die Funktion und die Dienstaltersstufe ansieht und diese Informationen dann normalisiert, sodass sie in verschiedenen Konten konsistent sind. Auf diese Weise können Sie schnell erkennen, ob Sie Entscheidungsträger, Influencer oder Support-Rollen erreichen, anstatt sich in unübersichtlichen Titeln zu verlieren. Personas helfen Ihnen zu verstehen, wer Interesse zeigt, nicht nur, wie viel Interesse es gibt. |
-| Einkaufsgruppenrollen zuordnen | Nachdem Rollen Rollen zugeordnet wurden, fügen Sie sie zu einer Einkaufsgruppe zusammen - dem gesamten Team innerhalb des Kontos, das den Kauf am wahrscheinlichsten beeinflusst oder entscheidet. Jede Rolle (z _B._, _Influencer_ oder _Champion_) fügt ein Bild hinzu, damit Sie einen klaren Überblick über das Komitee haben, das den Deal vorantreibt.<br/><br/>Der Agent ordnet jede identifizierte Rolle der Rolle zu, die sie am wahrscheinlichsten für ein bestimmtes Produkt spielen, basierend auf der Stellenbezeichnung, der Funktion, dem Dienstalter und anderen von Ihnen konfigurierten Attributen. Es wird auch die Abdeckung für jede Rolle angezeigt, damit Sie sehen können, welche Rollen gut repräsentiert sind und wo Lücken in Ihrer Interaktionsstrategie verbleiben. |
-| Opportunity-Daten zur Erkennung von Persona verwenden | Um Ihnen einen möglichst genauen Überblick darüber zu geben, wer interagiert und wo seine Interessen liegen, nähert sich der Agent dem Persona-Ranking und der Produktabsicht gemäß den folgenden Kriterien: <ul><li>Best-Case-Szenario: Wenn Sie Daten wie _Opportunity-_, _Opportunity-Abschlussdatum_ und eine klare _Zuordnung von Opportunity zu Produkt_ bereitstellen können, kann der Agent Personas sicher nach Produkt ordnen.<li>Dieses Ranking bietet ein präzises Verständnis von Interaktion und Interesse im gesamten Konto. </ul>Der Agent weiß jedoch, dass die Daten nicht immer vollständig sind, was in Ordnung ist. Es enthält intelligente Fallbacks, um die Dinge in Bewegung zu halten:<ul><li>Der Agent analysiert das Volumen der Aktivitäten und gibt den jüngsten Aktivitäten mehr Gewicht, indem er den Zeitverfall verwendet.<li>Mit dieser Gewichtung kann der Agent Personas differenzieren und ordnen, auch ohne vollständige Opportunity-Daten. </ul>Wenn es um die Verknüpfung von Opportunities mit Produkten geht, sieht der Agent wie folgt aus:<ul><li>_Ideal_: Sie stellen die Zuordnungstabelle bereit oder helfen dem Agenten bei ihrer Erstellung.<li>_Wenn nicht verfügbar_: Der Agent verwendet Fuzzy Matching, um die Punkte zu verbinden.<li>_Keine Verknüpfung_: Der Agent leitet die Produktabsicht auf der Grundlage der letzten Aktivitäten vor dem Abschlussdatum ab.</ul>Dieser mehrschichtige Ansatz stellt sicher, dass der Agent auch dann noch aussagekräftige Einblicke liefern kann, wenn die Daten nicht perfekt sind. |
-| Opportunity-Analyse | Der Agent untersucht historische Opportunity-Daten, um zu verstehen, welche Faktoren am stärksten einen Gewinn vorhersagen. Dazu verwendet er drei Kerndimensionen:<ol><li>Erfolgsquote: Zeigt an, wie oft Angebote erfolgreich abgeschlossen werden, wenn bestimmte Rollen beteiligt sind. Wenn Konten mit einem bestimmten Persona-Muster (z. B. ein technischer Bewerter oder ein Entscheidungsträger auf VP-Ebene) häufiger konvertieren, gewichtet das Modell dieses Muster höher. Diese Informationen sind ein Prozentsatz der Gesamtchancen, z. B. abgeschlossene oder gewonnene Opportunitys.<li>Mitgliedschaftsrate: Misst, wie oft ein Personentyp in verschiedenen Opportunities für ein bestimmtes Produkt angezeigt wird. Wenn bestimmte Rollen durchgängig in erfolgreichen Angeboten erscheinen, deutet dies darauf hin, dass sie eine entscheidende Rolle im Kaufprozess spielen.<li>Personaler Einfluss: Quantifiziert, wie viel eine bestimmte Rolle zum Ergebnis beiträgt, nicht nur, ob sie vorhanden ist, sondern auch, wie ihre Interaktion oder Aktivitätsstufe mit Gewinnen korreliert.</ol>Gemeinsam helfen diese Signale zu entscheiden, welche Personas die stärksten Auswirkungen auf Kaufergebnisse haben, auch wenn die Opportunity-Daten unvollständig sind. Im Laufe der Zeit kann das System so wirkungsvolle Personas und Muster erkennen, die den Geschäftserfolg am ehesten vorhersagen können und dann die Account-Absicht, die Persona-Zuordnung und die Kaufempfehlungen der Gruppe beeinflussen. |
-| Absicht | Wenn jemand eine Web-Seite besucht oder auf einen E-Mail-Link klickt, der sich auf ein Produkt bezieht, ist dies ein Signal, dass er interessiert ist, und das wird als _bezeichnetIntent_.<br/><br/>Der Agent beginnt mit einer Taxonomie, die im Grunde eine Liste der Produkte des Kunden und der Schlüsselwörter ist, die sie beschreiben. Diese Informationen helfen dem Agenten zu verstehen, worum es bei jedem Inhalt oder jeder Interaktion geht.<br/><br/>Anschließend verwendet der Agent diese Taxonomie, um Besucheraktivitäten zu kennzeichnen, z. B. welche Schlüsselwörter oder Produkte ihre Aktionen betreffen.<br/><br/>Anschließend untersucht der Agent, wie stark jemand interagiert, z. B. wie viele Seiten er besucht oder wie oft er interagiert. Anhand dieser Informationen wird der individuelle Intent Score für bestimmte Keywords, Produkte oder Produktkategorien berechnet. Sie fasst jeden Intent-Score in _Hoch_, _Medium_ oder _Niedrig_ Intent zusammen, um die Interessenstärke anzugeben. (Geringe Absicht: `<=0.2`, Medium-Absicht: `0.2 < score <= 0.6`, Hohe Absicht: `0.6 < score <= 1`)<br/><br/>Schließlich kombiniert der Agent die Absichtsbewertungen aller Personen aus demselben Unternehmen (Account), um die allgemeine Absicht auf Kontoebene anzuzeigen, die zeigt, welche Produkte oder Themen das Unternehmen am meisten interessiert zu sein scheint. |
-| Rollen, die eine Einkaufsgruppe beeinflussen | Jede Einkaufsgruppe besteht aus Rollen, die unterschiedlich zur Kaufentscheidung beitragen, z. B _„Entscheidungsträger_, _Influencer_, _Champion_ und _Endbenutzer_. Jede Rolle hat unterschiedliche Auswirkungen.<br/><br/>Entscheidungsträger haben den größten Einfluss und kontrollieren in der Regel Budgetgenehmigungen. Influencer formen Evaluierung und Recommendations. Champions tragen dazu bei, einen internen Konsens herzustellen, während Endbenutzer die Eignung des Produkts überprüfen.<br/><br/>Der Agent zeigt Ihnen diese Rollen und hilft Ihnen zu verstehen, wer die Kaufentscheidung bestimmt, wo Ihre Interaktion am stärksten ist und wo Lücken in der Abdeckung bestehen könnten. Diese Informationen ermöglichen es Ihnen, sich auf die Rollen zu konzentrieren, die für dieses Produkt am wichtigsten sind. |
-| Personen- oder Rollenabdeckung | Für jedes Produkt gibt es in der Regel eine Reihe von Schlüsselrollen und Rollen, von denen bekannt ist, dass sie den Kauf beeinflussen (_N_ Rollen oder Rollen).<br/><br/>Für jedes Konto berechnet der Agent die Abdeckung, indem er überprüft, wie viele dieser _N_-Rollen von mindestens einer Person innerhalb dieses Kontos repräsentiert werden.<br/><br/>Wenn alle _N_-Rollen vorhanden sind, wird das Konto vollständig abgedeckt. Wenn nur einige Rollen dargestellt werden, ist die Abdeckung teilweise.<br/><br/>Einfach ausgedrückt: Die Rollen- und Personenabdeckung misst, wie vollständig Ihre Einkaufsgruppe für ein Produkt ist, je nachdem, ob alle wichtigen Entscheidungsträger, Einflussnehmer und Champions einbezogen werden. |
+| Zielgruppenerkennung | Analysieren Sie First-Party-Interaktionssignale von Personen in einem -Konto, um Produktinteressen und relevante Personas zu identifizieren. In der Analyse werden die vorherigen 18 Monate der Aktivität berücksichtigt, einschließlich der Aktivität vor Abschluss der Opportunity. Interaktionsmuster können auf eine Produktabsicht hinweisen, wenn die Opportunity-Daten unvollständig sind. Fehlende Daten können jedoch die Zuverlässigkeit von insight beeinträchtigen. |
+| Persona | Personas gruppieren Personen nach normalisierter Stellenbezeichnung, Funktion und Dienstalter. Verwenden Sie Personas, um zu verstehen, wer mit einem Account interagiert, einschließlich Entscheidungsträgern, Influencern und Support-Rollen. |
+| Einkaufsgruppenrollen zuordnen | Ordnen Sie den produktspezifischen Einkaufsgruppenrollen Personas basierend auf Auftragstitel, Funktion, Dienstalter und konfigurierten Attributen zu. Diese Rollen repräsentieren die Personen innerhalb eines Accounts, die einen Kauf beeinflussen oder entscheiden. Überprüfen Sie die Abdeckung, um fehlende Rollen zu identifizieren. |
+| Opportunity-Daten für persönliches Ranking | Das Opportunity-Stadium, das Abschlussdatum und die Zuordnung von Opportunity zu Produkt unterstützen das persönliche Ranking für jedes Produkt. Wenn Opportunity-Daten unvollständig sind, verwendet das Ranking das Aktivitätsvolumen und den Zeitverfall, um der letzten Aktivität mehr Gewicht zu verleihen.<br/><br/>Produktverknüpfung verwendet eine bereitgestellte oder generierte Tabelle für die Zuordnung von Opportunity zu Produkt, sofern verfügbar. Andernfalls verknüpft der Fuzzy Matching Opportunities mit Produkten. Wenn keine Verknüpfung verfügbar ist, wird die Produktabsicht aus der letzten Aktivität vor dem Opportunity-Abschlussdatum abgeleitet. Durch diese Fallback-Methoden werden die Zuverlässigkeitsbeschränkungen unvollständiger Daten nicht beseitigt. |
+| Opportunity-Analyse | Die historische Opportunity-Analyse verwendet drei Dimensionen, um die mit den Kaufergebnissen verbundenen Persönlichkeitsmuster zu identifizieren:<ul><li>Erfolgsquote: Misst, wie oft Gelegenheiten gewonnen werden, wenn bestimmte Rollen beteiligt sind. Persönliche Muster, die mit höheren Gewinnraten verbunden sind, erhalten mehr Gewicht.</li><li>Mitgliedschaftsrate: Misst, wie oft eine Rolle in Opportunities für ein bestimmtes Produkt angezeigt wird.</li><li>Persönlicher Einfluss: Misst, wie die persönliche Interaktion oder Aktivität mit Gewinnen korreliert, und geht darüber hinaus, ob die Rolle vorhanden ist.</li></ul>Diese Signale geben Aufschluss über die Kontoabsicht, die persönliche Zuordnung und die Kaufempfehlungen der Gruppe. |
+| Absicht | Die Absicht zeigt das Produktinteresse durch Interaktion an, z. B. Web-Seitenbesuche oder E-Mail-Link-Klicks. Die Produkttaxonomie verbindet Interaktionsaktivitäten mit Schlüsselwörtern, Produkten und Produktkategorien. Interaktionstiefe und -frequenz bestimmen individuelle Absichtswerte für jedes Keyword, Produkt oder jede Produktkategorie.<br/><br/>Scores zeigen die Interessensstärke: Niedriger Intent: `<=0.2`, Medium Intent: `0.2 < score <= 0.6`, hoher Intent: `0.6 < score <= 1`.<br/><br/>Die individuellen Intent-Scores werden für alle Personen im selben Konto aggregiert, um den Account-Intent zu bestimmen. |
+| Rollen, die eine Einkaufsgruppe beeinflussen | Die Rolle der Einkaufsgruppe stellt verschiedene Beiträge zu einer Kaufentscheidung dar. _Entscheidungsträger_ steuern normalerweise Budgetgenehmigungen. _Influencer_ Formauswertung und Empfehlungen. _Champions_ erzielen einen internen Konsens. _Endbenutzer_ Überprüfen Sie die Produktpassung.<br/><br/>Prüfen Sie die Rollenzuweisungen und -abdeckung, um zu verstehen, wer die Entscheidung beeinflusst und wo weiterhin Interaktionslücken bestehen. |
+| Personen- oder Rollenabdeckung | Die Abdeckung misst, wie viele erwartete Rollen oder Personas mindestens einen Vertreter in einem Konto haben. Bei einem Produkt mit _N_ erwarteten Rollen oder Rollen bedeutet die vollständige Abdeckung, dass alle _N_ dargestellt werden. Teilweise Abdeckung bedeutet, dass einige fehlen. Nutzen Sie die Abdeckung, um die Vollständigkeit der Einkaufsgruppe zu bewerten und Lücken zu identifizieren. |
 
 ## Voraussetzungen für XDM-Daten
 
-Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Produkte zeigen, und berechnet Personas und Rollen basierend auf den definierten Daten. Stellen Sie sicher, dass die folgenden vorausgesetzten Daten für die Verwendung von Audience Agent-Funktionen konfiguriert sind:
+Konfigurieren Sie die folgenden XDM-Feldzuordnungen, um die Analyse der Kontoabsicht, die Identifikation von Personen und die Zuordnung der Einkaufsgruppenrolle zu unterstützen.
 
 ### XDM-Feldzuordnung
 
@@ -174,7 +206,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span >Profile</span>
         </p>
       </td>
-      <td>Vorname der Person, der von Audience Agent zur Anzeige von Namen in der Benutzeroberfläche verwendet wird, wenn ein Kriterium erfüllt ist</td>
+      <td>Zeigt den Vornamen der Person in Ergebnissen an, die Ihrer Abfrage entsprechen.</td>
     </tr>
     <tr class="">
       <td>
@@ -187,7 +219,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span> Profile</span>
         </p>
       </td>
-      <td>Vollständiger Name der Person, der von Audience Agent zur Anzeige von Namen in der Benutzeroberfläche verwendet wird, wenn ein Kriterium erfüllt ist</td>
+      <td>Zeigt den vollständigen Namen der Person in Ergebnissen an, die Ihrer Abfrage entsprechen.</td>
     </tr>
     <tr class="">
       <td>
@@ -200,7 +232,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span> Profile</span>
         </p>
       </td>
-      <td>Nachname der Person, von Audience Agent zur Anzeige von Namen in der Benutzeroberfläche verwendet, wenn ein Kriterium erfüllt ist</td>
+      <td>Zeigt den Nachnamen der Person in Ergebnissen an, die Ihrer Abfrage entsprechen.</td>
     </tr>
     <tr>
       <td>
@@ -227,7 +259,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span>Konten</span>
         </p>
       </td>
-      <td>Name des Kontos, das von Audience Agent verwendet wird, um in der Benutzeroberfläche anzuzeigen, wenn ein Kriterium in der Benutzerabfrage erfüllt ist</td>
+      <td>Zeigt den Kontonamen in den Ergebnissen an, die Ihrer Abfrage entsprechen.</td>
       <td rowspan="4">
         <p>
           <br/>
@@ -252,7 +284,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span>Konten</span>
         </p>
       </td>
-      <td>Beschreibung des Kontos/Unternehmens, das von Audience Agent verwendet wird, um einen Filter auf Konten basierend auf der Benutzerabfrage in der Benutzeroberfläche anzuwenden </td>
+      <td>Unterstützt die Kontofilterung nach Kontobeschreibung auf der Grundlage Ihrer Abfrage.</td>
     </tr>
     <tr>
       <td>
@@ -265,7 +297,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span> Konten</span>
         </p>
       </td>
-      <td>Von Audience Agent verwendete Konto-/Unternehmensbranche, um Kontofilter basierend auf Benutzerabfragen in der Benutzeroberfläche anzuwenden </td>
+      <td>Unterstützt die Filterung von Konten nach Branchen basierend auf Ihrer Abfrage.</td>
     </tr>
     <tr>
       <td>
@@ -278,7 +310,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span> Konten</span>
         </p>
       </td>
-      <td>Rechnungsadresse des Kontos/Unternehmens, das von Audience Agent verwendet wird, um Kontofilter basierend auf Benutzerabfragen in der Benutzeroberfläche anzuwenden </td>
+      <td>Unterstützt die Kontofilterung nach Abrechnungsadressenregion basierend auf Ihrer Abfrage.</td>
     </tr>
     <tr>
       <td>
@@ -320,7 +352,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span> Opportunity</span>
         </p>
       </td>
-      <td>Name der von Audience Agent verwendeten Opportunity </td>
+      <td>In der Opportunity-Analyse verwendeter Opportunity-Name.</td>
       <td rowspan="5">
         <p>
           <br/>
@@ -364,7 +396,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
           <span>Opportunity</span>
         </p>
       </td>
-      <td>Beschreibung der von Audience Agent verwendeten Opportunity </td>
+      <td>In der Opportunity-Analyse verwendete Opportunity-Beschreibung.</td>
     </tr>
     <tr>
       <td>
@@ -452,7 +484,7 @@ Audience Agent bietet Einblicke in Konten, die die First-Party-Absicht für -Pro
 
 ### Taxonomiedaten
 
-Audience Agent nutzt die in Journey Optimizer B2B edition erkannte First-Party-Absicht:
+Zielgruppen-Fähigkeiten verwenden First-Party-Intent-Daten aus [!DNL Adobe Journey Optimizer B2B Edition]. Die Absichtsberechnung verbindet die Produkttaxonomie mit der Interaktionsaktivität und aggregiert die individuellen Bewertungen auf Kontoebene.
 
 1. Intent Computation erfordert Taxonomiedaten (Kundenprodukte und entsprechende Keywords) von Kunden > Taxonomie
 1. Taxonomiedaten werden zur Kennzeichnung von Ereignisdaten (Asset-Kennzeichnung) verwendet. Diese Daten bieten Einblicke darüber, welche Keywords und Produkte Besucherinnen und Besucher basierend auf ihren Ereignisdaten > Asset-Kennzeichnung interessieren 
@@ -547,7 +579,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Ermitteln Sie den Ereignistyp, da der Agent nur vier Ereignisse verarbeitet (<span>directMarketing.emailClicked, directMarketing.emailOpened, directMarketing.emailUnsubscribed, web.webpagedetails.pageViews)</span>
+      <td>Identifiziert den Ereignistyp. Die Absichtsberechnung verwendet nur <code>directMarketing.emailClicked</code>, <code>directMarketing.emailOpened</code>, <code>directMarketing.emailUnsubscribed</code> und <code>web.webpagedetails.pageViews</code>.
       </td>
     </tr>
     <tr>
@@ -602,7 +634,7 @@ Zusätzlich zu „Konfigurieren der [-Taxonomie“ sind die folgenden Felder &#x
           <span>Erlebnisereignis</span>
         </p>
       </td>
-      <td>Dient zum Abrufen des E-Mail-Inhalts aus dem Marketo Engage-Rechenzentrum. Er besteht aus (SourceID@SourceInstanceID.SourceType)</td>
+      <td>Dient zum Abrufen des E-Mail-Inhalts aus dem [!DNL Adobe Marketo Engage] Rechenzentrum. Sie umfasst (SourceID@SourceInstanceID.SourceType).</td>
     </tr>
     <tr>
       <td>
