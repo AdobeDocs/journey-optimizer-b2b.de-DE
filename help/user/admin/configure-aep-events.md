@@ -26,24 +26,23 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 12%
+source-wordcount: '1639'
+ht-degree: 13%
 ---
 # Erlebnisereignisse und -felder auswählen
 
-Admins können bestimmte Adobe Experience Platform (AEP) [Erlebnisereignisse](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und ihre zugehörigen Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
+Admins können bestimmte Adobe Experience Platform (AEP) [Erlebnisereignisse](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent){target="_blank"} und ihre zugehörigen Felder im Vereinigungsschema für Erlebnisereignisse auswählen. Nach der Auswahl können Benutzende Entscheidungsregeln konfigurieren, die auf diese Erlebnisereignisse lauschen, um dynamische und zielgerichtete Kampagnenaktionen zu ermöglichen, die auf nahezu in Echtzeit erfassten Ereignisdaten basieren.
 
-<!-- ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Watch the video overview](#overview-video) -->
-
+![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoüberblick ansehen](#overview-video)
 >[!PREREQUISITES]
 >
->Für die Verwendung von Erlebnisereignissen und -feldern in Journey Optimizer B2B Edition sind profilaktivierte Erlebnisereignisschemata erforderlich. Weitere Informationen finden Sie unter [Aktivieren von Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/de/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in den Experience Platform-Tutorials.
+>Für die Verwendung von Erlebnisereignissen und -feldern in Journey Optimizer B2B Edition sind profilaktivierte Erlebnisereignisschemata erforderlich. Weitere Informationen finden Sie unter [Aktivieren von Echtzeit-Kundenprofilen](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/enable-profiles){target="_blank"} in den Experience Platform-Tutorials.
 
 Die Verwendung von AEP Experience Events in Journey erfolgt in zwei Schritten:
 
-1. Ein Administrator [fügt den Journey Optimizer B2B Edition-Konfigurationen AEP Experience &#x200B;](#add-an-event) und -felder hinzu.
+1. Ein Administrator [fügt den Journey Optimizer B2B Edition-Konfigurationen AEP Experience ](#add-an-event) und -felder hinzu.
 
 1. In einem Journey verwendet ein Marketer die konfigurierten Ereignisse auf eine dieser zwei Arten:
 
@@ -138,7 +137,7 @@ Um die Felder zu ändern, bearbeiten Sie die Ereignisdetails.
 
 1. Klicken Sie auf den Ereignisnamen oder auf das Symbol _Mehr Menü_ ( **…** ) und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   ![Klicken Sie auf das Menüsymbol Mehr &#x200B;](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
+   ![Klicken Sie auf das Menüsymbol Mehr ](./assets/configurations-xdm-classes-events-more-menu.png){width="500" zoomable="yes"}
 
 1. Klicken Sie auf **[!UICONTROL Felder bearbeiten]**, um das Dialogfeld _[!UICONTROL Felder auswählen]_ zu öffnen und weitere Felder hinzuzufügen.
 
@@ -493,8 +492,6 @@ Ereignistyp: `leadOperation.interestingMoment`
 
 +++
 
-<!--
- ## Overview video
+## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3448692/?captions=ger&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3448637/?learn=on)
