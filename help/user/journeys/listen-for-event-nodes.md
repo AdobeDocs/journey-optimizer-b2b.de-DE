@@ -24,18 +24,16 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 3e1cd3a144fcaeb980036fe6b9928a1d8bd0c299
+source-git-commit: b5346fc612e8664b7ddbbf40f07789d0c4069117
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2156'
 ht-degree: 4%
 ---
 # Warten auf ein Ereignis
 
 Um die Audience beim Eintreten eines Ereignisses zum nächsten Schritt auf Ihrer [&#128279;](./journeys-overview.md)Journey zu bewegen, fügen Sie den Knoten _Lauschen auf ein Ereignis_ hinzu. Je nach Journey-Typ können Sie diesen Knoten verwenden, um den nächsten Trigger auf der Journey entsprechend den Personen- oder Kontoereignissen festzulegen.
 
-<!--
-![Video](../../assets/do-not-localize/icon-video.svg){width="30", vertical-align="middle"} [Watch the overview video](#overview-video)
--->
+![Video](../../assets/do-not-localize/icon-video.svg){width=„30“, vertical-align=„Middle“} [Video mit einer Übersicht ansehen](#overview-video)
 
 ## Konto-Journeys {#account-journeys}
 
@@ -363,8 +361,6 @@ Aktivieren Sie die **[!UICONTROL Timeout]** in den Knoteneigenschaften, um eine 
 
    Wenn Sie den Pfad nicht definieren möchten, können Sie das Kontrollkästchen _[!UICONTROL Zeitüberschreitungspfad festlegen]_ deaktivieren.
 
-<!--
- ## Overview video
+## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443243/?captions=ger&learn=on) 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3443243/?captions=ger&learn=on)
