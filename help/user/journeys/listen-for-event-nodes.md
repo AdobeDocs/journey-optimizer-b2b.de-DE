@@ -363,4 +363,4 @@ Aktivieren Sie die **[!UICONTROL Timeout]** in den Knoteneigenschaften, um eine 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443219/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443243/?captions=ger&learn=on)
