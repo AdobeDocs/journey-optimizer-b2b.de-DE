@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Personalization
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
     internal-label: Web experience
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0d7af9ad43f2fce159de48c01d7e1c6c6ae234af
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1414'
 ht-degree: 6%
 ---
 # Web-Erlebnisse
@@ -192,17 +192,19 @@ Wählen Sie in Variante B für _[!UICONTROL andere Hälfte der Zielpopulation di
 
 Wenn Ihre Web-Kampagne live ist, können Sie verfolgen, wie das in Journey Optimizer B2B Edition definierte Web-Erlebnis im Vergleich zu Web-Erlebnissen funktioniert, die eine Umleitung zur Alternativseite verwenden.
 
-## Testen des Web-Erlebnisses
+<!--
+## Test the web experience
 
-Nachdem der Inhaltsentwurf für das Web-Erlebnis abgeschlossen ist, können Sie die Funktion _Inhalt simulieren_ verwenden, um eine Vorschau Ihrer Web-Seitenänderungen anzuzeigen. Wenn Sie personalisierten Inhalt eingefügt haben, können Sie mithilfe von Testprofildaten überprüfen, wie der Inhalt gerendert wird. Die Simulationstools sind auf der Registerkarte _[!UICONTROL Inhalt]_ für das Web-Erlebnis oder den Visual Design Editor für Inhalte verfügbar.
+After the content design is complete for the web experience, you can use the _Simulate content_ feature to preview your web page modifications. If you inserted personalized content, you can use test profile data to check how the content is rendered. The simulation tools are available from the _[!UICONTROL Content]_ tab for the web experience, or the content visual design editor.
 
-1. Klicken **[!UICONTROL oben]** auf „Inhalt simulieren“.
+1. Click **[!UICONTROL Simulate content]** at the top right.
 
-1. Wählen Sie ein Testprofil aus.
+1. Select a test profile.
 
-1. Um Ihre Web-Seite mithilfe der Testprofildaten zu überprüfen, fügen Sie ein Testprofil hinzu.
+1. To check your web page using the test profile data, add a test profile.
 
-<!-- This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out -->
+This works differently than emails (rely on Marketo data), currently. Will expand when we figure it out
+-->
 
 ## Web-Erlebnis aktivieren
 
