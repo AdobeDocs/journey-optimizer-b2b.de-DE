@@ -38,7 +38,7 @@ ht-degree: 1%
 
 Account Journey zeigen den Fortschritt für Accounts an. Personen-Journey zeigen den Fortschritt für Personen an. Die verfügbaren Widgets und Metrikbeschriftungen unterscheiden sich je nach Journey-Typ. Wählen Sie die entsprechende Registerkarte für Dashboard-Details.
 
-Verwenden Sie für E-Mail-Metriken, die in allen Journey aggregiert werden[ den E-Mail-Leistungsbericht](../dashboards/email-performance-dashboard.md).
+Verwenden Sie für E-Mail-Metriken, die in allen Journey aggregiert werden[&#x200B; den E-Mail-Leistungsbericht](../dashboards/email-performance-dashboard.md).
 
 >[!BEGINTABS]
 
