@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Data integration
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 827c313f032d482ac2b0a5fa8f41d6506e67b9cb
+source-git-commit: 25cbdfb352740385181a68f96b0b2e6ebc3313e7
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '730'
 ht-degree: 0%
 ---
 # Datenverfügbarkeit und Synchronisierungszeitpunkt {#data-availability}
@@ -75,7 +75,7 @@ Verwenden Sie dieses Thema, um zu verstehen, wie schnell Datenänderungen in Ihr
 
 >[!TIP]
 >
->Entwerfen Sie Journey mit dem Verständnis, dass die Zielgruppenzugehörigkeit täglich aktualisiert wird, nicht in Echtzeit. Wenn Sie nahezu in Echtzeit antworten müssen, verwenden Sie [ereignisbasierte Trigger &#x200B;](../journeys/listen-for-event-nodes.md) anstelle der zielgruppenbasierten Eingabe.
+>Entwerfen Sie Journey mit dem Verständnis, dass die Zielgruppenzugehörigkeit täglich aktualisiert wird, nicht in Echtzeit. Wenn Sie nahezu in Echtzeit antworten müssen, verwenden Sie [ereignisbasierte Trigger ](../journeys/listen-for-event-nodes.md) anstelle der zielgruppenbasierten Eingabe.
 
 ## Datensynchronisation mit [!DNL Experience Platform] {#platform-sync}
 
@@ -85,6 +85,14 @@ Die Daten bewegen sich in unterschiedlichen Abständen zwischen den beiden Syste
 
 * **[!DNL Experience Platform]zu[!DNL Journey Optimizer B2B Edition]** - Die Datensynchronisation erfolgt nahezu in Echtzeit und kann bis zu 30 Minuten dauern.
 * **[!DNL Journey Optimizer B2B Edition]bis[!DNL Experience Platform]** - Datensynchronisation in Mikrostapeln und kann bis zu 4 Stunden dauern.
+
+## Änderungen der Profilidentität {#profile-identity-changes}
+
+Änderungen am `identityMap` eines Profils in [!DNL Adobe Experience Platform] können dessen Verknüpfung mit einem vorhandenen Personendatensatz in [!DNL Journey Optimizer B2B Edition] aufheben. Der vorherige Personendatensatz ist als gelöscht markiert und wird nicht mehr durch die Verarbeitung von Journey- oder Einkaufsgruppen weiterverarbeitet.
+
+Das Profil muss sich erneut für eine Zielgruppe qualifizieren, die für die [!DNL Journey Optimizer B2B Edition] aktiviert und erneut aufgenommen werden soll. Wenn der aufgenommene Datensatz eine andere Personen-ID hat, wird er als neue Person behandelt. Wenn diese Person eine Journey betritt, beginnt sie von Anfang an, anstatt den Fortschritt des vorherigen Datensatzes fortzusetzen.
+
+Historische Journey-Statuszahlen enthalten weiterhin den gelöschten Personendatensatz. Beim **[!UICONTROL Drill-Through]** sind gelöschte Datensätze jedoch ausgeschlossen, sodass die Datensatzanzahl niedriger als die Diagrammanzahl sein kann. Weitere Informationen finden Sie unter [Bericht zum Abschluss von Journey-Vorgängen für Personen](../journeys/journey-details.md#person-journey-completion).
 
 ## Aktivitätsereignisse und Journey-Aktionen {#activity-and-actions}
 
