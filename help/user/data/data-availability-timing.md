@@ -75,7 +75,7 @@ Verwenden Sie dieses Thema, um zu verstehen, wie schnell Datenänderungen in Ihr
 
 >[!TIP]
 >
->Entwerfen Sie Journey mit dem Verständnis, dass die Zielgruppenzugehörigkeit täglich aktualisiert wird, nicht in Echtzeit. Wenn Sie nahezu in Echtzeit antworten müssen, verwenden Sie [ereignisbasierte Trigger ](../journeys/listen-for-event-nodes.md) anstelle der zielgruppenbasierten Eingabe.
+>Entwerfen Sie Journey mit dem Verständnis, dass die Zielgruppenzugehörigkeit täglich aktualisiert wird, nicht in Echtzeit. Wenn Sie nahezu in Echtzeit antworten müssen, verwenden Sie [ereignisbasierte Trigger &#x200B;](../journeys/listen-for-event-nodes.md) anstelle der zielgruppenbasierten Eingabe.
 
 ## Datensynchronisation mit [!DNL Experience Platform] {#platform-sync}
 
