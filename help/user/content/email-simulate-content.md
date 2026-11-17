@@ -62,7 +62,7 @@ Sie können auf die Rendering-Vorschau über den [E-Mail-Design-Bereich](./email
 
    ![Wählen Sie ein Personenprofil aus, um die Simulation zu rendern](./assets/email-simulate-content-preview.png){width="800" zoomable="yes"}
 
-   Wenn die _[!UICONTROL Personen]_ Liste auf der linken Seite leer ist, [ Sie „Personen hinzufügen](#add-people) mithilfe von Kontakten.
+   Wenn die _[!UICONTROL Personen]_ Liste auf der linken Seite leer ist, [&#x200B; Sie „Personen hinzufügen](#add-people) mithilfe von Kontakten.
 
    >[!TIP]
    >
