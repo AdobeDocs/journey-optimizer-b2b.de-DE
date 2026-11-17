@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 78d7701e30628aad4b732b2d0858953ba09e26f5
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 8%
@@ -84,7 +84,7 @@ Ein Testversand ist eine gesendete Testnachricht, mit der Sie und Ihre Team-Mitg
 
 1. Klicken **[!UICONTROL oben]** auf „Testversand durchführen“.
 
-   ![Klicken Sie auf Testversand durchführen](assets/email-simulate-content-preview-send-proof.png){width="500"}
+   ![Klicken Sie auf Testversand durchführen](assets/email-simulate-content-preview-send-proof.png){width="600"}
 
 1. Geben Sie auf _Seite Testversand_ die E-Mail-Adresse des ersten Empfängers ein.
 
