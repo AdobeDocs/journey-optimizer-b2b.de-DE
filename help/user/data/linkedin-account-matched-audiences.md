@@ -40,7 +40,7 @@ ht-degree: 14%
 
 Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
 
-Bevor Sie einen Datenfluss aus Journey Optimizer B2B Edition initiieren, müssen Sie mindestens eine Instanz des Ziel-Connectors für LinkedIn-Zielgruppen-[(Unternehmen) mit abgeglichenem Zielgruppen-](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
+Bevor Sie einen Datenfluss aus Journey Optimizer B2B Edition initiieren, müssen Sie mindestens eine Instanz des Ziel-Connectors für LinkedIn-Zielgruppen-[(Unternehmen) mit abgeglichenem Zielgruppen-](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/catalog/social/linkedin#connect){target="_blank"} mit einem in Ihrer Experience Platform-Anwendung konfigurierten LinkedIn-Kampagnenmanager-Konto haben.
 
 ## Konfigurieren einer neuen Verbindung mit einem LinkedIn-Konto {#linkedin-destination-setup}
 
