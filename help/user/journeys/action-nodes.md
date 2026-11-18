@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2358'
 ht-degree: 3%
 ---
 # Durchführen einer Aktion
@@ -129,10 +129,13 @@ Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Pe
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Person zum (anderen) Journey hinzufügen] | <li>Konto-Journey (Aktion für Personen) <li>Personen-Journey | <li>Live-Personen-Journey auswählen |
 | | [!UICONTROL Hinzufügen zur externen Kundenzielgruppe] | <li>Konto-Journey <li>Personen-Journey | <li>Externe Kundenzielgruppe auswählen |
+| | [!UICONTROL Zu Personenliste hinzufügen] | <li>Konto-Journey (Aktion für Personen) <li>Personen-Journey | <li>Statische Personenliste auswählen |
 | | [!UICONTROL Der Einkaufsgruppe zuweisen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen <li>Rolle auswählen |
 | | [!UICONTROL Interessanter Moment der Person] | <li>Konto-Journey <li>Personen-Journey | <li>Typ <li>Beschreibung |
 | | [!UICONTROL Web-Erlebnis personalisieren] (Beta) | <li>Konto-Journey | <li>Web-Erlebnis erstellen/bearbeiten |
 | | [!UICONTROL Aus Einkaufsgruppe entfernen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen |
+| | [!UICONTROL Aus Personenliste entfernen] | <li>Konto-Journey (Aktion für Personen) <li>Personen-Journey | <li>Statische Personenliste auswählen |
+| | [!UICONTROL Person von Journey entfernen] | <li>Personen-Journey | <li>Personen-Journey auswählen |
 | | [!UICONTROL E-Mail senden] | <li>Konto-Journey <li>Personen-Journey | <li>E-Mail erstellen <li>Sendezeitoptimierung (optional, nur Personen-Journey) |
 | | [!UICONTROL SMS senden] | <li>Konto-Journey | <li>SMS erstellen |
 | | [!UICONTROL WhatsApp senden] | <li>Konto-Journey | <li>WhatsApp-Nachricht erstellen |
@@ -216,6 +219,16 @@ _So verwenden Sie eine vorhandene Zielgruppe :_
 
 +++
 
++++[!UICONTROL Zu Personenliste hinzufügen]
+
+Mit dieser Aktion können Sie Personen zu einer statischen ([) &#x200B;](../audiences/people-lists.md) hinzufügen. Wenn eine Person den Aktionsknoten erreicht, wird sie vom System als Mitglied der ausgewählten Liste hinzugefügt. Wenn die Person bereits Mitglied ist, wird die Aktion ignoriert.
+
+Klicken Sie **[!UICONTROL Auswählen]**, um eine statische Personenliste auszuwählen, oder klicken Sie auf **[!UICONTROL Erstellen]**, um eine neue statische Personenliste zu erstellen. Weitere Informationen finden Sie unter [Verwenden von Personenlisten in Journey](../audiences/people-lists-journeys.md).
+
+![Aktion ausführen - Zu Personenliste hinzufügen](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL Der Einkaufsgruppe zuweisen]
 
 Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [&#x200B; und einer ausgewählten Rolle &#x200B;](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
@@ -245,6 +258,16 @@ Verwenden Sie diese Aktion, um [personalisierte Erlebnisse](../content/web-exper
 Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ &#x200B;](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
 
 ![Aktion durchführen - Aus der Einkaufsgruppe entfernen](./assets/node-action-remove-from-buying-group.png){width="300"}
+
++++
+
++++[!UICONTROL Aus Personenliste entfernen]
+
+Mit dieser Aktion können Sie Personen aus einer statischen ([) &#x200B;](../audiences/people-lists.md) entfernen. Wenn eine Person den Aktionsknoten erreicht, entfernt das System sie aus der ausgewählten Liste. Wenn die Person kein Mitglied ist, wird die Aktion ignoriert.
+
+Klicken Sie **[!UICONTROL Auswählen]**, um die Liste der statischen Personen auszuwählen. Weitere Informationen finden Sie unter [Verwenden von Personenlisten in Journey](../audiences/people-lists-journeys.md).
+
+![Aktion ausführen - Aus Personenliste entfernen](./assets/node-action-remove-from-people-list.png){width="300"}
 
 +++
 

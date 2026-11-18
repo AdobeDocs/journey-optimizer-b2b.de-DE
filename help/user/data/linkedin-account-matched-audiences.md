@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: cad51180-f8ce-4cb7-aefc-437847b5d6d6
     internal-label: Cross channel delivery
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # Zugeordnete Zielgruppen des LinkedIn-Kontos
 
-[!DNL Journey Optimizer B2B Edition] bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch das Festlegen einer Reihe von Filtern für Käufergruppen können Sie eine LinkedIn Matched Audience verwalten, um Interessierte gezielt anzusprechen, die Ihren Käufergruppenparametern entsprechen. Sie können eine Zielgruppe auch von einer Konto-Journey aus einem „Aktion _&quot;-_ aktivieren.
+[!DNL Journey Optimizer B2B Edition] bietet die Möglichkeit, LinkedIn-Anzeigen-Zielgruppen über Zielgruppen mit Konto-Matched zu generieren, und wurde entwickelt, um Ihnen beim Ausfüllen leerer Rollen in Ihren Einkaufsgruppen zu helfen. Durch das Festlegen einer Reihe von Filtern für Käufergruppen können Sie eine LinkedIn Matched Audience verwalten, um Interessierte gezielt anzusprechen, die Ihren Käufergruppenparametern entsprechen. Sie können eine Zielgruppe auch von einer Konto-Journey aus einem „Aktion [_&quot;-_ aktivieren](../journeys/action-nodes.md).
 
 Diese Funktion nutzt Experience Platform-Ziele, um einige Aspekte der Integration zu verwalten. Es gibt eine Beschränkung von zehn Datenflüssen.
 
@@ -91,7 +91,7 @@ Der Name und die Beschreibung für das LinkedIn-Konto sind für Einkaufsgruppen 
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Konto für Einkaufsgruppen aktivieren
+## Konto für Einkaufsgruppen aktivieren (#activate-buying-group)
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Verwenden Sie ab Version 2025.10 die Aktion _Für Ziel aktivieren_ für Konten, 
 
 1. Wählen Sie in den Knoteneigenschaften auf der rechten Seite das Ziel aus.
 
-   * Wenn ein oder mehrere Ziele erstellt wurden, können Sie auf **[!UICONTROL Ziel auswählen]** klicken, um ein vorhandenes Ziel auszuwählen.
+   * Wenn ein oder mehrere Ziele erstellt wurden, klicken Sie auf **[!UICONTROL Ziel auswählen]**, um ein vorhandenes Ziel auszuwählen.
 
    * Wenn keine Ziele vorhanden sind oder Sie ein neues Ziel erstellen möchten, klicken Sie auf **[!UICONTROL Ziel einrichten]**.
 

@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d608cf06498c800cba3172985cf4d1fbfe84d2f8
+source-git-commit: 734966636b6d2addf014905431fa755f6fe92ee6
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 76%
+source-wordcount: '2420'
+ht-degree: 75%
 ---
 # Benutzerzugriff und Berechtigungen
 
@@ -193,6 +193,7 @@ Die folgenden Berechtigungen regeln den Zugriff auf Funktionen von Journey Optim
 | B2B-Kanal-Konfigurationen | Konfigurieren, Verwalten und Anzeigen von Berechtigungen für B2B-Kanal-Konfigurationen. Zu diesen Berechtigungen gehören Einstellungen für Kommunikationsbeschränkungen, API-Anmeldedaten und Sicherheitseinstellungen. | <li>Verwalten von B2B-Kanalkonfigurationen <li>B2B-E-Mail-Einstellungen anzeigen <li>B2B-E-Mail-Einstellungen verwalten <li>Verwalten von B2B-WhatsApp-Voreinstellungen <li>Einstellungen für B2B-Landingpages verwalten <li>B2B-Forms-Voreinstellung anzeigen <li>Verwalten der B2B-Forms-Voreinstellung <li>Veröffentlichen der B2B-Forms-Voreinstellung <li>Erstellen von B2B-Web-Erlebnissen <li>B2B-WhatsApp-Einstellungen verwalten |
 | B2B-Dashboards | Konfigurieren und Anzeigen von Berechtigungen für B2B-Dashboards. Zu diesen Berechtigungen gehören die Kontointeraktion, Käufergruppenschritte, Konten mit steigender Aktivität und die Kontaktabdeckung. | <li>Dashboard für B2B-Interaktionen anzeigen |
 | B2B-Journey | Konfigurieren, Verwalten, Anzeigen und Veröffentlichen von Berechtigungen für B2B-Journey. Zu diesen Berechtigungen gehören Konto- und Personenaktionen, Ereignis-Listener und Aufspaltungspfade. | <li>Journey der B2B-Konten verwalten <li>Verwalten von B2B-Personen-Journey <li>B2B-Personen-Journey anzeigen <li>Veröffentlichen von B2B-Personen-Journey |
+| B2B-Personenlisten | Verwalten und Anzeigen von Berechtigungen für B2B-Personenlisten. Zu diesen Berechtigungen gehören das Erstellen, Bearbeiten und Löschen von statischen und dynamischen Personenlisten sowie das Hinzufügen und Entfernen von Personen aus statischen Listen. | <li>B2B-Personenlisten verwalten <li>B2B-Personenlisten anzeigen |
 | Journey Optimizer-Regeln | Zugreifen auf und Konfigurieren von Häufigkeitsregeln (Kommunikationsbeschränkungen). Diese Berechtigungen sollten auf Produktadministratoren beschränkt sein. | <li>Anzeigen von Häufigkeitsregeln <li>Verwalten von Häufigkeitsregeln |
 
 >[!NOTE]

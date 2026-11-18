@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: ef3e184c1782cacc0d5452274b858c0a3d365189
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5888'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Versionshinweise zu Journey Optimizer B2B Edition
@@ -43,10 +43,10 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
-| Funktion | Personenlisten | Verwenden Sie statische und dynamische Personenlisten, um Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Verlauf von Erlebnisereignissen anzusprechen. |
-| Funktion | Journey-Knotenbeschriftungen | Fügen Sie Journey-Knoten Beschriftungen hinzu, um sie auf der Journey-Arbeitsfläche zu identifizieren. |
-| Verbesserung | Filter „Mitglied der Personenliste“ | Verwenden Sie den Filter _[!UICONTROL Mitglied der Personenliste]_, um Profile basierend auf ihrer Mitgliedschaft in der Personenliste ein- oder auszuschließen. |
-| Verbesserung | Journey-Aktionen der Personenliste | Personen zu statischen Personenlisten hinzufügen oder Personen aus diesen entfernen über die Journey des Kontos und der Person. |
+| Funktion | Personenlisten | Verwenden Sie statische und dynamische Personenlisten, um Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Verlauf von Erlebnisereignissen anzusprechen. [Weitere Informationen](../audiences/people-lists.md) |
+| Funktion | Journey-Knotenbeschriftungen | Fügen Sie Journey-Knoten Beschriftungen hinzu, um sie auf der Journey-Arbeitsfläche zu identifizieren. [Weitere Informationen](../journeys/create-publish-journey.md#label-a-node). |
+| Verbesserung | Mitglied von Personenlistenfiltern | Verwenden Sie die Filter _[!UICONTROL Mitglied der Personenliste]_, um Profile basierend auf ihrer statischen oder dynamischen Personenlistenmitgliedschaft ein- oder auszuschließen. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#membership-filtering) |
+| Verbesserung | Journey-Aktionen der Personenliste | Personen zu statischen Personenlisten hinzufügen oder Personen aus diesen entfernen über die Journey des Kontos und der Person. [Weitere Informationen](../journeys/action-nodes.md#people-actions) |
 
 >[!NOTE]
 >Diese Versionsänderungen beginnen am 6. November 2026 mit einem schrittweisen Rollout der einzelnen Funktionen und Verbesserungen. Die Veröffentlichungstermine für Funktionen und Verbesserungen können sich ändern.
@@ -108,7 +108,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | ---- | ---- | ----------- |
 | Funktion | Landingpages | Landingpages sind in Journey Optimizer B2B Edition verfügbar, um Journey und Programme zu unterstützen _(zuvor eine Beta-Programmfunktion)_. <ul><li>Admins können Landingpage-Subdomains und Voreinstellungen konfigurieren, um die Veröffentlichung der Landingpage zu aktivieren. [Weitere Informationen](../admin/configure-channels-landing-pages.md)</li><li>Marketing-Experten können Landingpages erstellen, entwerfen und veröffentlichen, um ihre Journey mit personalisierten Web-Inhalten zu unterstützen. [Weitere Informationen](../content/landing-pages.md)</li></ul> |
 | Funktion | Formulare | Journey Optimizer B2B Edition unterstützt jetzt wiederverwendbare Formularkomponenten, um die Datenübermittlung von Landingpages aus zu ermöglichen _(zuvor eine Beta-Programmfunktion)_. <ul><li>Admins können mehrere Formularvorgaben mit verschiedenen Kombinationen von Datensätzen und Streaming-Verbindungen konfigurieren. [Weitere Informationen](../admin/configure-channels-forms.md)</li><li>Marketing-Experten können jetzt wiederverwendbare Formularkomponenten definieren, um Informationen von Web-Seitenbesuchern zu erfassen. [Weitere Informationen](../content/forms.md)</li></ul> |
-| Funktion | Filter „Mitglied der Kontoliste“ | Verwenden Sie die Mitgliedschaft in der Kontoliste als Orchestrierungspunkt in den Account Journey. Marketing-Experten können Account-Blockierungslisten, Prioritätenlisten oder jede andere Untergruppe ihrer Zielgruppe erstellen und Account-spezifische Erlebnisse in Journey basierend auf ihrer Mitgliedschaft bereitstellen. |
+| Funktion | Filter „Mitglied der Kontoliste“ | Verwenden Sie die Mitgliedschaft in der Kontoliste als Orchestrierungspunkt in den Account Journey. Marketing-Experten können Account-Blockierungslisten, Prioritätenlisten oder jede andere Untergruppe ihrer Zielgruppe erstellen und Account-spezifische Erlebnisse in Journey basierend auf ihrer Mitgliedschaft bereitstellen. [Weitere Informationen](../accounts/account-lists-journeys.md#split-paths-member-of-account-list) |
 | Funktion | Filtern des Erlebnisereignisverlaufs | Diese Funktion ermöglicht es der B2B-Journey-Orchestrierung, historische Interaktionen zu verwenden, um verhaltensbasierte Entscheidungen für Zielgruppenmitglieder zu fördern. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#experience-event-history-filtering) |
 | Funktion | Nächstbeste Pfad-Journey-Knoten | Sie können die Split Path-Entscheidungsfindung für Personen-Journey optimieren und verfeinern, wie Zielgruppen über Pfade hinweg vor der Journey-Aktivierung oder zur Laufzeit weitergeleitet werden. [Weitere Informationen](../journeys/next-best-path-node.md) |
 | Funktion | E-Mail-Leistungs-Dashboard | Das E-Mail-Leistungs-Dashboard bietet Marketing-Experten eine einheitliche Ansicht der E-Mail-Aktivität in allen Journey in Adobe Journey Optimizer B2B Edition. [Weitere Informationen](../dashboards/email-performance-dashboard.md) |
