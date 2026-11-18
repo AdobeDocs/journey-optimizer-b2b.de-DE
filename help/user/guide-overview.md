@@ -10,10 +10,10 @@ feature_v2:
   - id: f467931a-9b22-4ca8-869f-adfbd64061ce
     internal-label: Onboarding
 TQID: https://experienceleague.adobe.com/BK-uFYGIZyqRNy4Gx-vJB-oy3q8zpjERIoJwBvgofUY
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 262e06bce2cf9698731eda2cb0a3436c5080fddf
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 26%
+source-wordcount: '1103'
+ht-degree: 23%
 ---
 # Dokumentation zu Adobe Journey Optimizer B2B Edition
 
@@ -27,6 +27,18 @@ Sehen Sie sich dieses Sampling der neuesten Ergänzungen und Verbesserungen in d
 
 >[!BEGINTABS]
 
+>[!TAB Personenlisten]
+
+Erstellen Sie wiederverwendbare statische und dynamische Personenlisten, um Profile mithilfe von demografischen Attributen und Erlebnisereignisverlauf auszuwählen. Verwenden Sie die Listenmitgliedschaft, um Personen durch Konto- und Personen-Journey zu leiten. Verwenden Sie Journey-Aktionen, um Personen zu statischen Listen hinzuzufügen oder daraus zu entfernen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/audiences/people-lists.md" tooltip="Informationen zu Personenlisten"}
+
+>[!TAB Journey-Knotenbeschriftungen]
+
+Fügen Sie den Knoten in den Konto- und Personen-Journey Anzeigebeschriftungen hinzu, um ähnliche Schritte zu unterscheiden und ihren Zweck auf der Journey-Arbeitsfläche zu verdeutlichen.
+
+[!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/create-publish-journey.md#label-a-node" tooltip="Erfahren Sie mehr über das Journey von Knotenbezeichnungen"}
+
 >[!TAB Personen-Journey ]
 
 Orchestrieren Sie Lead-basiertes Marketing mit Personen-Journeys, die [!DNL Adobe Experience Platform] Zielgruppen und Daten verwenden, um einzelne Personen zu interagieren. Personen-Journey unterstützen jetzt _Abhören eines Ereignisses_, externe Aktionen und externe Aufspaltungsknoten sowie den erneuten Eintritt von Journey. Verwenden Sie sie zusammen mit Account Journey und Buying Groups, um die vollständige Buying Journey zu orchestrieren.
@@ -38,18 +50,6 @@ Orchestrieren Sie Lead-basiertes Marketing mit Personen-Journeys, die [!DNL Adob
 Testen Sie Varianten innerhalb eines Accounts oder Personen-Journey, indem Sie basierend auf von Ihnen definierten Prozentsätzen Konten oder Personen unterschiedlichen Journey-Pfaden zuweisen. In Personen-Journey ist die Zuordnung deterministisch, sodass jede Person immer denselben Weg verfolgt, was gesteuerte Experimente unterstützt.
 
 [!BADGE Weitere Informationen]{type=Informative url="/help/user/journeys/variant-split-paths-nodes.md" tooltip="Informationen zu Aufspaltungspfaden für Varianten"}
-
->[!TAB WhatsApp-Kanal]
-
-Wenn Entwickelnde und Produktadministratoren eine Integration mit einem Meta Business Manager-Konto konfigurieren, können Marketing-Experten WhatsApp-Nachrichten mithilfe der Meta Cloud-API als Inhaltskanal in Account-Journey aufnehmen. WhatsApp verbindet E-Mail und SMS als verfügbaren Kanal für die direkte Bereitstellung von Journey-Inhalten an Account-Mitglieder.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/admin/configure-channels-whatsapp.md" tooltip="Informationen zum WhatsApp-Kanal"}
-
->[!TAB Generative KI-Modelle]
-
-E-Mail-Designer können jetzt aus standardmäßigen [!DNL Firefly], benutzerdefinierten [!DNL Firefly], die für markenspezifische Assets trainiert wurden, und genehmigten Bildmodellen von Drittanbietern auswählen, wenn sie Bilder für E-Mail-Inhalte generieren. Diese Auswahl gibt Teams die Kontrolle darüber, welches Modell zu ihrem spezifischen Design-Szenario passt, von allgemeinen Inhaltsanforderungen bis hin zu markenspezifischen oder spezialisierten Anwendungsfällen.
-
-[!BADGE Weitere Informationen]{type=Informative url="/help/user/content/generative-ai-models.md" tooltip="Erfahren Sie mehr über die Auswahl des Modells für generative KI"}
 
 >[!TAB Versandzeitoptimierung]
 
@@ -69,7 +69,7 @@ Sie können jetzt Konten oder Personen über ein Konto oder Personen-Journey meh
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Neueste Versionshinweise
 
@@ -79,18 +79,19 @@ Bleiben Sie mit den neuesten Versionshinweisen, neuen Funktionen und Verbesserun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Erste Schritte
 
 Lesen Sie die [!DNL Journey Optimizer B2B Edition] Onboarding-Anleitung für Admins und Marketing-Fachleute.
 
-[Administratoren](./setup-ultimate.md)
-[Benutzer](./start/get-started.md)
+[Checkliste für Administratoren](./setup-ultimate.md)
+
+[Onboarding für -Benutzer](./start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Verwalten von Daten
 
@@ -103,7 +104,7 @@ Aktivieren Sie die XDM-Schemata und -Felder, die Sie in [!DNL Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Kommunikationskanäle
 
@@ -115,30 +116,33 @@ Konfigurieren und verwalten Sie E-Mail, SMS, WhatsApp und andere Kanäle für pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Erstellen einer Journey
 
 Entwerfen, orchestrieren, verwalten und optimieren Sie personalisierte Account- und Personen-Journey.
 
-[Erkunden Sie Journeys](./journeys/journeys-overview.md)
+[Journey erkunden](./journeys/journeys-overview.md)
+[Verwenden von Kontolisten in Journey](./accounts/account-lists-journeys.md)
+[Verwendung von Personenlisten in Journey](./audiences/people-lists-journeys.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Einkaufsgruppen verstehen
 
 Detaillierte Anleitungen zum Erstellen, Verwalten und Optimieren von Einkaufsgruppen für eine effektive Zielgruppenbestimmung.
 
-[Informationen zu Einkaufsgruppen](./buying-groups/buying-groups-overview.md)
+[Einkaufsgruppen verstehen](./buying-groups/buying-groups-overview.md)
+[Einkaufsgruppen erstellen](./buying-groups/buying-groups-create.md)
 :::
 
 ::::
 
 <!--
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=de)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Design Content
 
@@ -167,8 +171,8 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
 <strong>Käufergruppen</strong><br/><a href="./buying-groups/buying-groups-overview.md">Überblick über Käufergruppen</a><br/><a href="./buying-groups/buying-groups-role-templates.md">Rollenvorlagen</a><br/><a href="./buying-groups/solution-interests.md">Lösungsinteressen</a><br/><a href="./buying-groups/buying-groups-create.md">Käufergruppen erstellen</a>
     </td>
     <td>
-      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Konto-Journeys"><br/>
-      <strong>Konto-Journeys</strong><br/><a href="./journeys/journeys-overview.md">Übersicht über Journeys</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Erstellen einer Konto-Journey</a><br/><a href="./journeys/journey-nodes.md">Journey-Knoten</a>
+      <img src="../assets/do-not-localize/icon-paths.svg" width="35px" alt="Journeys"><br/>
+      <strong>Journey</strong><br/><a href="./journeys/journeys-overview.md">Journey-Übersicht</a><br/><a href="./journeys/create-publish-journey.md#create-a-journey">Konto oder Personen-Journey erstellen</a><br/><a href="./journeys/journey-nodes.md">Journey-Knoten</a>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -184,8 +188,7 @@ Entdecken Sie die Komponenten einer Käufergruppe und erfahren Sie mehr über di
       <img src="../assets/do-not-localize/icon-offer.svg" width="35px" alt="Erkenntnisse und Dashboards"><br/>
       <strong>Insights</strong><br/><a href="./dashboards/intelligent-dashboard.md">Intelligent Dashboard</a><br/><a href="./dashboards/engagement-dashboard.md">Interaktions-Dashboard</a><br/><a href="./dashboards/buying-groups-dashboard.md">Gruppen-Dashboard kaufen</a><br/><a href="./dashboards/journeys-dashboard.md">Journey-Dashboard</a><br/><a href="./buying-groups/incrm-insights.md">In-CRM-Insights</a>
     </td>
-
-</tr>
+   </tr>
 </table>
 
 >[!BEGINSHADEBOX]
@@ -202,7 +205,7 @@ Weitere Informationen finden Sie in der Dokumentation zu [Marketo Qualifier](htt
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> - <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=de" target="_blank">Journey Optimizer Schema Dictionary</a> -->
+<a href="https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos und Tutorials</a> - <a href="https://helpx.adobe.com/de/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Produktbeschreibung</a> <!-- - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Security overview (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">APIs reference</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html" target="_blank">Journey Optimizer Schema Dictionary</a> -->
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
 <a href="https://experienceleague.adobe.com/de/docs/experience-platform/landing/home" target="_blank">Dokumentation</a> - <a href="https://business.adobe.com/de/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Entwicklerressourcen</a>
