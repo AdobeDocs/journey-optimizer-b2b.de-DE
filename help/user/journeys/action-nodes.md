@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
 workflow-type: tm+mt
-source-wordcount: '2176'
+source-wordcount: '2358'
 ht-degree: 3%
 ---
 # Durchführen einer Aktion
@@ -129,10 +129,13 @@ Verwenden Sie in einem Konto oder auf einer Personen-Journey eine Aktion für Pe
 | ------- | ------ | ------------ | ----------- |
 | [Journey Optimizer B2B](#journey-optimizer-b2b-actions) | [!UICONTROL Person zum (anderen) Journey hinzufügen] | <li>Konto-Journey (Aktion für Personen) <li>Personen-Journey | <li>Live-Personen-Journey auswählen |
 | | [!UICONTROL Hinzufügen zur externen Kundenzielgruppe] | <li>Konto-Journey <li>Personen-Journey | <li>Externe Kundenzielgruppe auswählen |
+| | [!UICONTROL Zu Personenliste hinzufügen] | <li>Konto-Journey (Aktion für Personen) <li>Personen-Journey | <li>Statische Personenliste auswählen |
 | | [!UICONTROL Der Einkaufsgruppe zuweisen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen <li>Rolle auswählen |
 | | [!UICONTROL Interessanter Moment der Person] | <li>Konto-Journey <li>Personen-Journey | <li>Typ <li>Beschreibung |
 | | [!UICONTROL Web-Erlebnis personalisieren] (Beta) | <li>Konto-Journey | <li>Web-Erlebnis erstellen/bearbeiten |
 | | [!UICONTROL Aus Einkaufsgruppe entfernen] | <li>Konto-Journey | <li>Lösungsinteresse auswählen |
+| | [!UICONTROL Aus Personenliste entfernen] | <li>Konto-Journey (Aktion für Personen) <li>Personen-Journey | <li>Statische Personenliste auswählen |
+| | [!UICONTROL Person von Journey entfernen] | <li>Personen-Journey | <li>Personen-Journey auswählen |
 | | [!UICONTROL E-Mail senden] | <li>Konto-Journey <li>Personen-Journey | <li>E-Mail erstellen <li>Sendezeitoptimierung (optional, nur Personen-Journey) |
 | | [!UICONTROL SMS senden] | <li>Konto-Journey | <li>SMS erstellen |
 | | [!UICONTROL WhatsApp senden] | <li>Konto-Journey | <li>WhatsApp-Nachricht erstellen |
@@ -180,7 +183,7 @@ Verwenden Sie diese Aktion, um Personen zu einer externen Zielgruppe zu pushen, 
 Wenn Sie diese personenbasierte Aktion auswählen, können Sie eine neue externe Zielgruppe erstellen oder aus der Liste der vorhandenen externen Zielgruppen auswählen.
 
 * Bei bestehenden Zielgruppen können Sie aus externen Kundenzielgruppen wählen, die nur in [!DNL Journey Optimizer B2B Edition] erstellt wurden.
-* Wenn Sie eine Zielgruppe erstellen und für diese Journey-Aktion verwenden, stellen Sie sicher, dass Sie eine Verbindung mit dem Ziel herstellen. Weitere Informationen finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} und [Aktivierung - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in der [!DNL Experience Platform].
+* Wenn Sie eine Zielgruppe erstellen und für diese Journey-Aktion verwenden, stellen Sie sicher, dass Sie eine Verbindung mit dem Ziel herstellen. Weitere Informationen finden Sie unter [Erstellen einer neuen Zielverbindung](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"} und [Aktivierung - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview#activate-audiences-from-the-destinations-catalog){target="_blank"} in der [!DNL Experience Platform].
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Videoübersicht über die Orchestrierung bezahlter Medien ansehen](../data/linkedin-account-matched-audiences.md#orchestrate-paid-media-engagement)
 
@@ -216,9 +219,19 @@ _So verwenden Sie eine vorhandene Zielgruppe :_
 
 +++
 
++++[!UICONTROL Zu Personenliste hinzufügen]
+
+Mit dieser Aktion können Sie Personen zu einer statischen ([) ](../audiences/people-lists.md) hinzufügen. Wenn eine Person den Aktionsknoten erreicht, wird sie vom System als Mitglied der ausgewählten Liste hinzugefügt. Wenn die Person bereits Mitglied ist, wird die Aktion ignoriert.
+
+Klicken Sie **[!UICONTROL Auswählen]**, um eine statische Personenliste auszuwählen, oder klicken Sie auf **[!UICONTROL Erstellen]**, um eine neue statische Personenliste zu erstellen. Weitere Informationen finden Sie unter [Verwenden von Personenlisten in Journey](../audiences/people-lists-journeys.md).
+
+![Aktion ausführen - Zu Personenliste hinzufügen](./assets/node-action-add-to-people-list.png){width="300"}
+
++++
+
 +++[!UICONTROL Der Einkaufsgruppe zuweisen]
 
-Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [&#x200B; und einer ausgewählten Rolle &#x200B;](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile basierend auf einem ausgewählten [ und einer ausgewählten Rolle ](../buying-groups/buying-groups-overview.md) einer Kaufgruppe hinzuzufügen.
 
 ![Aktion ausführen - Zu Einkaufsgruppe hinzufügen](./assets/node-action-add-to-buying-group.png){width="300"}
 
@@ -242,9 +255,19 @@ Verwenden Sie diese Aktion, um [personalisierte Erlebnisse](../content/web-exper
 
 +++[!UICONTROL Aus Einkaufsgruppe entfernen]
 
-Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ &#x200B;](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
+Verwenden Sie diese Aktion, um Personenprofile aus einer [Einkaufsgruppe“ ](../buying-groups/buying-groups-overview.md) Grundlage eines ausgewählten Lösungsinteresses zu entfernen.
 
 ![Aktion durchführen - Aus der Einkaufsgruppe entfernen](./assets/node-action-remove-from-buying-group.png){width="300"}
+
++++
+
++++[!UICONTROL Aus Personenliste entfernen]
+
+Mit dieser Aktion können Sie Personen aus einer statischen ([) ](../audiences/people-lists.md) entfernen. Wenn eine Person den Aktionsknoten erreicht, entfernt das System sie aus der ausgewählten Liste. Wenn die Person kein Mitglied ist, wird die Aktion ignoriert.
+
+Klicken Sie **[!UICONTROL Auswählen]**, um die Liste der statischen Personen auszuwählen. Weitere Informationen finden Sie unter [Verwenden von Personenlisten in Journey](../audiences/people-lists-journeys.md).
+
+![Aktion ausführen - Aus Personenliste entfernen](./assets/node-action-remove-from-people-list.png){width="300"}
 
 +++
 
@@ -290,7 +313,7 @@ Verwenden Sie diese Aktion, um eine WhatsApp-Nachricht zu senden. Sie können Wh
 
 +++[!UICONTROL Personenprofil aktualisieren]
 
-Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[&#x200B; zu &#x200B;](../admin/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
+Verwenden Sie diese Aktion, um den Wert eines „Personenprofilattributs[ zu ](../admin/field-mapping.md#xdm-business-person-attributes). Wählen Sie das Attribut aus und legen Sie dann den neuen Wert fest.
 
 ![Aktion durchführen - Personenprofil aktualisieren](./assets/node-action-update-person-profile.png){width="300"}
 
@@ -314,7 +337,7 @@ Unterdrücken Sie beispielsweise Kampagnen in Marketo Engage für Personen, die 
 
 +++[!UICONTROL Zu Marketo-Anfragekampagne hinzufügen]
 
-Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne“ in &#x200B;](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} verbundenen Marketo Engage-Instanz hinzuzufügen.
+Verwenden Sie diese Aktion, um Personenprofile zu einer [Anfragekampagne“ in ](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-campaigns/flow-actions/request-campaign){target="_blank"} verbundenen Marketo Engage-Instanz hinzuzufügen.
 
 Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie als Nächstes den Namen der Anfragekampagne aus.
 
@@ -324,7 +347,7 @@ Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie al
 
 +++[!UICONTROL Zur Marketo-Liste hinzufügen]
 
-Mit dieser Aktion können Sie Personen zu einer [statischen Liste](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in einer verbundenen Marketo Engage-Instanz hinzufügen.
+Mit dieser Aktion können Sie Personen zu einer [statischen Liste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in einer verbundenen Marketo Engage-Instanz hinzufügen.
 
 Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie anschließend den Listennamen aus.
 
@@ -334,7 +357,7 @@ Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie an
 
 +++[!UICONTROL Aus Marketo-Liste entfernen]
 
-Mit dieser Aktion können Sie Personen aus einer [statischen Liste](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage entfernen.
+Mit dieser Aktion können Sie Personen aus einer [statischen Liste](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/static-lists/understanding-static-lists){target="_blank"} in Marketo Engage entfernen.
 
 Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie anschließend den Listennamen aus.
 
@@ -344,4 +367,4 @@ Wählen Sie zunächst eine verbundene Marketo Engage-Instanz aus. Wählen Sie an
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443254/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443207/?learn=on)
