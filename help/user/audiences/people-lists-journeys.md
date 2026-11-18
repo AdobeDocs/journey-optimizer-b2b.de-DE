@@ -28,7 +28,7 @@ ht-degree: 0%
 
 # Personenlisten in Journey verwenden
 
-Es gibt mehrere Möglichkeiten, „Personenlisten[ in Ihre Account-Journey](./people-lists.md) und Personen-Journey zu integrieren:
+Es gibt mehrere Möglichkeiten, „Personenlisten[&#x200B; in Ihre Account-Journey](./people-lists.md) und Personen-Journey zu integrieren:
 
 * **Beibehalten einer statischen Liste von einer Journey** - Verwenden Sie in einem _Aktion durchführen_-Knoten die _[!UICONTROL Zu Personenliste hinzufügen]_ oder _[!UICONTROL Aus Personenliste entfernen]_, um die Mitgliedschaft in einer statischen Personenliste zu aktualisieren, wenn Personen die Journey durchlaufen.
 * **Personen basierend auf Listenmitgliedschaft routen** - Verwenden Sie im Knoten _Pfade aufteilen_ den Filter _[!UICONTROL Personenmitglied der statischen Personenliste]_ oder _[!UICONTROL Personenmitglied der dynamischen Personenliste]_, um einen Pfad für Personen zu erstellen, die Mitglieder einer Liste sind (oder nicht).
@@ -39,7 +39,7 @@ Sie können beispielsweise eine Ausschlussliste mit Team-Mitgliedern und Partner
 
 **_Nur statische Personenlisten_**
 
-Fügen Sie innerhalb eines Accounts oder einer Personen-Journey Personen mithilfe des Knotens [Aktion ausführen _zu_ Personenliste ](../journeys/action-nodes.md#people-actions).
+Fügen Sie innerhalb eines Accounts oder einer Personen-Journey Personen mithilfe des Knotens [Aktion ausführen _zu_ Personenliste &#x200B;](../journeys/action-nodes.md#people-actions).
 
 Betrachten Sie beispielsweise einen Journey-Pfad, über den Sie eine E-Mail senden und sich einige Personen für ein Webinar registrieren. Sie betrachten diese Antwort als Qualifizierungspunkt auf der Journey. Nach der Qualifizierung sollten Sie diese Personen zu einer statischen Personenliste hinzufügen, die eine andere Journey verwendet, um qualifizierte Personen in einen anderen Pfad aufzuteilen.
 
@@ -63,7 +63,7 @@ Betrachten Sie beispielsweise einen Journey-Pfad, über den Sie eine E-Mail send
 
 **_Nur statische Personenlisten_**
 
-Entfernen Sie in einem Konto oder einer Personen-Journey Personen mithilfe des Knotens [Aktion ausführen _aus_ Liste ](../journeys/action-nodes.md#people-actions).
+Entfernen Sie in einem Konto oder einer Personen-Journey Personen mithilfe des Knotens [Aktion ausführen _aus_ Liste &#x200B;](../journeys/action-nodes.md#people-actions).
 
 Wenn eine Person beispielsweise konvertiert hat, möchten Sie sie aus einer statischen Liste entfernen. Diese Liste wird verwendet, um Personen auf einen Pflegepfad zu leiten, damit sie keine Pflegekommunikation mehr erhalten.
 

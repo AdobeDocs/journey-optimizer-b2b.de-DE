@@ -38,7 +38,7 @@ Verwenden Sie Split- und Merge-Path-Knoten, um Personen oder Konten gemäß den 
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
-Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, die entweder auf _**- oder Personenfiltern**_. Eine Aufspaltung, die auf einem Personenfilter basiert, wird automatisch mit einem Zusammenführungspfade -Knoten geschlossen, damit alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
+Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, die entweder auf _&#x200B;**- oder Personenfiltern**&#x200B;_. Eine Aufspaltung, die auf einem Personenfilter basiert, wird automatisch mit einem Zusammenführungspfade -Knoten geschlossen, damit alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Ein Knoten _Pfade aufteilen_ definiert einen oder mehrere segmentierte Pfade, di
 
 Pfade, die nach Konten aufgeteilt sind, können sowohl Konto- als auch Personenaktionen und -ereignisse enthalten. Diese Pfade können weiter aufgeteilt werden.
 
-_**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**_
+_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**&#x200B;_
 
 * Jeder Pfad, den Sie hinzufügen, enthält einen Endknoten mit der Möglichkeit, Knoten zu jedem Edge hinzuzufügen.
 * Aufspaltung nach Kontoknoten kann verschachtelt werden (Sie können den Pfad wiederholt nach Konten aufteilen).
@@ -65,7 +65,7 @@ _**Wie funktioniert ein aufgeteilter Pfad nach Kontenknoten**_
 | Pfadbedingungen | Beschreibung |
 | --------------- | ----------- |
 | [!UICONTROL Kontoattribute] | Attribute aus dem Kontoprofil, einschließlich: <li>Jahresumsatz <li>Stadt <li>Land <li>Mitarbeiterzahl <li>Branche <li>Name <li>SIC-Code <li>Status |
-| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) ](../admin/xdm-field-management.md#relational-schemas). (Siehe [_Benutzerdefinierte Datenfilterung_](#custom-data-filtering).) |
+| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Das Konto hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [_Benutzerdefinierte Datenfilterung_](#custom-data-filtering).) |
 | [!UICONTROL Sonderfilter] > [!UICONTROL Konto hat eine passende Einkaufsgruppe] | Dem Konto ist mindestens eine Einkaufsgruppe zugeordnet. Sie kann für eine passende Einkaufsgruppe anhand einer oder mehrerer der folgenden Einschränkungen bewertet werden: <li>Interesse an der Lösung <li>Einkaufsgruppenphase <li>Einkaufsgruppenstatus <li>Interaktionsbewertung <li>Vollständigkeitsindex <li> Anzahl der Personen in der Rolle in der Käufergruppe |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Account Member of Account List] | Das Konto ist oder ist nicht Mitglied in mindestens einer der ausgewählten Kontolisten. (Siehe [_Knoten „Pfade aufteilen“ - Kontomitglied der Kontoliste_](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list)) |
 
@@ -141,7 +141,7 @@ Um den Status der Einkaufsgruppe oder des Schritts für die identifizierten Kont
 
 Verwenden Sie den Filter _[!UICONTROL Spezielle Filter]_ > _[!UICONTROL Kontomitglied der]_), um einen Pfad für Konten zu definieren, der auf ihrer Zugehörigkeit zu einer [Kontoliste](../accounts/account-lists.md) basiert. Setzen Sie die Mitgliedschaft auf _true_, um Konten in die Listen aufzunehmen, oder _false_, um sie auszuschließen, und wählen Sie eine oder mehrere Kontolisten aus. Um beispielsweise Konten auf einer Blockierungsliste von einem Pfad fern zu halten, fügen Sie den Filter hinzu, legen Sie die Mitgliedschaft auf _false_ fest und wählen Sie Ihre Blockierungsliste aus.
 
-Die Schritte finden Sie unter [Knoten „Pfade aufteilen“ - Kontomitglied der ](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list).
+Die Schritte finden Sie unter [Knoten „Pfade aufteilen“ - Kontomitglied der &#x200B;](../accounts/account-lists-journeys.md#split-paths-account-member-of-account-list).
 
 ## Pfade nach Personen aufteilen
 
@@ -149,7 +149,7 @@ _(Konto- und Personen-Journey)_
 
 Pfade, die nach Personen aufgeteilt sind, können nur Personenaktionen enthalten. Diese Pfade können nicht erneut aufgeteilt und automatisch wieder verbunden werden.
 
-_**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**_
+_&#x200B;**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**&#x200B;_
 
 * Die Funktion „Aufspaltung nach Personen _Knoten funktioniert in einer Kombination aus_ und Zusammenführung. Die Pfade der Aufspaltung werden automatisch zusammengeführt, sodass alle Personen mit dem nächsten Schritt fortfahren können, ohne ihren Kontokontext zu verlieren.
 * Nach Personen aufgeteilte Knoten können nicht verschachtelt werden (Sie können keinen aufgeteilten Pfad für Personen auf einem Pfad hinzufügen, der sich in diesem gruppierten Knoten befindet).
@@ -163,8 +163,8 @@ _**Wie funktioniert ein aufgeteilter Pfad nach Personenknoten**_
 
 | Filter | Beschreibung |
 | ------------ | ----------- |
-| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) ](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
-| [!UICONTROL Ereignisverlauf] | Teilt Personen auf Grundlage von Erlebnisereignissen, die vor dem Journey-Eintritt aufgetreten sind. Erweitern Sie den Ordner , um alle unter „Admin[ > XDM-Ereigniskonfiguration“ konfigurierten Ereignistypen anzuzeigen](../admin/configure-aep-events.md) und wählen Sie einen aus, der als Filter hinzugefügt werden soll. Zu den Einschränkungen gehören Felder aus dem ausgewählten Ereignis, ein Lookback-Zeitfenster, das ab dem Zeitpunkt gemessen wird, zu dem die Person die Journey betritt, und eine optionale Mindestanzahl von Malen. |
+| [!UICONTROL Benutzerdefinierte Objekte] > hat `<custom object>` | [!BADGE Beta]{type=Informative tooltip="Beta-Funktion"} Die Person hat keine relationalen Schemaeinträge. Sie kann auch anhand eines der ausgewählten benutzerdefinierten Objektkriterien ausgewertet werden, wie im [XDM Relational Schema) &#x200B;](../admin/xdm-field-management.md#relational-schemas). (Siehe [Benutzerdefinierte Datenfilterung](#custom-data-filtering)) |
+| [!UICONTROL Ereignisverlauf] | Teilt Personen auf Grundlage von Erlebnisereignissen, die vor dem Journey-Eintritt aufgetreten sind. Erweitern Sie den Ordner , um alle unter „Admin[&#x200B; > XDM-Ereigniskonfiguration“ konfigurierten Ereignistypen anzuzeigen](../admin/configure-aep-events.md) und wählen Sie einen aus, der als Filter hinzugefügt werden soll. Zu den Einschränkungen gehören Felder aus dem ausgewählten Ereignis, ein Lookback-Zeitfenster, das ab dem Zeitpunkt gemessen wird, zu dem die Person die Journey betritt, und eine optionale Mindestanzahl von Malen. |
 | [!UICONTROL Personenattribute] | Attribute aus dem [Personenprofil](../admin/field-mapping.md#xdm-business-person-attributes), einschließlich: <li>Stadt <li>Land <li>E-Mail-Adresse <li>E-Mail-Adresse ungültig <li>E-Mail angehalten <li>Vorname <li>Abgeleitetes Bundesland/abgeleitete Region <li>Stellenbezeichnung <li>Last name <li>Mobiltelefonnummer <li>Personeninteraktionsbewertung <li>Telefonnummer <li>Postleitzahl <li>Bundesland |
 | [!UICONTROL Sonderfilter] > [!UICONTROL Mitglied der Einkaufsgruppe] | Die Person ist oder ist kein Kauf-Gruppenmitglied, das anhand eines oder mehrerer der folgenden Kriterien bewertet wird: <li>Interesse an der Lösung</li><li>Einkaufsgruppenstatus</li><li>Vollständigkeitsindex</li><li>Interaktionsbewertung</li><li>wurde entfernt (Standard: `false`)</li><li>Rolle</li> (Siehe [_Mitgliedschaftsfilter_](#membership-filtering)) |
 | [!UICONTROL Spezialfilter] > [!UICONTROL Mitglied der Profilzielgruppe] | Die Person ist oder ist nicht Mitglied in einer oder mehreren Zielgruppen [!DNL Adobe Experience Platform] Profilen. (Siehe [_Mitgliedschaftsfilter_](#membership-filtering)) |
@@ -250,7 +250,7 @@ Sie können den Filter mithilfe von spezifischen Einschränkungen für die Felde
 
 >[!BEGINSHADEBOX „Inaktivitätsfilterung“]
 
-Für jeden Filter _[!UICONTROL Ereignisverlauf]_ können Sie die Option **[!UICONTROL Zu Inaktivitätsfilter wechseln]** aktivieren. Diese Option ändert den Filter in eine Auswertung für eine Abwesenheit dieses Aktivitätstyps. Um einen Pfad für Personen zu erstellen _**die eine E-Mail**_ geöffnet) haben, fügen Sie den Filter _[!UICONTROL Direkt-Marketing-E-Mail geöffnet]_ hinzu. Aktivieren Sie die Option Inaktivität und geben Sie die E-Mail-Adresse an.
+Für jeden Filter _[!UICONTROL Ereignisverlauf]_ können Sie die Option **[!UICONTROL Zu Inaktivitätsfilter wechseln]** aktivieren. Diese Option ändert den Filter in eine Auswertung für eine Abwesenheit dieses Aktivitätstyps. Um einen Pfad für Personen zu erstellen _&#x200B;**die eine E-Mail**&#x200B;_ geöffnet) haben, fügen Sie den Filter _[!UICONTROL Direkt-Marketing-E-Mail geöffnet]_ hinzu. Aktivieren Sie die Option Inaktivität und geben Sie die E-Mail-Adresse an.
 
 ![Pfad nach Inaktivitätsbedingung für Personen aufteilen](./assets/node-split-people-condition-inactivity.png){width="700" zoomable="yes"}
 
@@ -309,13 +309,13 @@ Verwenden Sie die _[!UICONTROL Profil-Zielgruppe]_, um eine oder mehrere Zielgru
 
 _(Nur Journey der Person)_
 
-Verwenden Sie die Filter _[!UICONTROL Statische Liste des Kontomitglieds]_ und _[!UICONTROL Dynamische Liste des Kontomitglieds]_ um Personen basierend darauf weiterzuleiten, ob ihr Konto Mitglied einer ([) ](../accounts/account-lists.md) ist. Legen Sie den Operator auf _is_ fest, um Personen einzuschließen, deren Konto in den Listen enthalten ist, oder _is_, um sie auszuschließen, und wählen Sie eine oder mehrere Kontolisten aus. Um beispielsweise Personen in auf die Blockierungsliste gesetzt Konten von einem Pflegepfad fernzuhalten, fügen Sie den Filter _[!UICONTROL Person Mitglied der statischen Kontoliste]_ hinzu, legen Sie den Operator auf _ist nicht_ fest und wählen Sie Ihre Blockierungsliste aus.
+Verwenden Sie die Filter _[!UICONTROL Statische Liste des Kontomitglieds]_ und _[!UICONTROL Dynamische Liste des Kontomitglieds]_ um Personen basierend darauf weiterzuleiten, ob ihr Konto Mitglied einer ([) &#x200B;](../accounts/account-lists.md) ist. Legen Sie den Operator auf _is_ fest, um Personen einzuschließen, deren Konto in den Listen enthalten ist, oder _is_, um sie auszuschließen, und wählen Sie eine oder mehrere Kontolisten aus. Um beispielsweise Personen in auf die Blockierungsliste gesetzt Konten von einem Pflegepfad fernzuhalten, fügen Sie den Filter _[!UICONTROL Person Mitglied der statischen Kontoliste]_ hinzu, legen Sie den Operator auf _ist nicht_ fest und wählen Sie Ihre Blockierungsliste aus.
 
 Anweisungen hierzu finden Sie unter [Knoten „Pfade aufteilen“ - Person Mitglied der Kontenliste](../accounts/account-lists-journeys.md#split-paths-member-of-account-list).
 
 **Mitglieder von Personenlisten**
 
-Verwenden Sie die Filter _[!UICONTROL Statische Liste des Personenmitglieds von Personen]_ und _[!UICONTROL Dynamische Liste des Personenmitglieds von Personen]_ um Personen auf Grundlage der Mitgliedschaft in einer &quot;[-Liste“ ](../audiences/people-lists.md). Legen Sie den Operator auf _is_ fest, um Listenmitglieder einzuschließen, oder _is_, um sie auszuschließen, und wählen Sie eine oder mehrere Listen aus. Um beispielsweise Mitarbeiter und Partner von einem Pflegepfad fernzuhalten, fügen Sie den Filter _[!UICONTROL Person Mitglied der statischen Personenliste]_ hinzu, legen Sie den Operator auf _ist nicht_ fest und wählen Sie Ihre Ausschlussliste aus.
+Verwenden Sie die Filter _[!UICONTROL Statische Liste des Personenmitglieds von Personen]_ und _[!UICONTROL Dynamische Liste des Personenmitglieds von Personen]_ um Personen auf Grundlage der Mitgliedschaft in einer &quot;[-Liste“ &#x200B;](../audiences/people-lists.md). Legen Sie den Operator auf _is_ fest, um Listenmitglieder einzuschließen, oder _is_, um sie auszuschließen, und wählen Sie eine oder mehrere Listen aus. Um beispielsweise Mitarbeiter und Partner von einem Pflegepfad fernzuhalten, fügen Sie den Filter _[!UICONTROL Person Mitglied der statischen Personenliste]_ hinzu, legen Sie den Operator auf _ist nicht_ fest und wählen Sie Ihre Ausschlussliste aus.
 
 Die Schritte finden Sie unter [Pfade nach Personenlistenmitgliedschaft aufteilen](../audiences/people-lists-journeys.md#split-paths-by-list-membership).
 

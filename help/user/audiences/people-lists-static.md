@@ -77,7 +77,7 @@ Eine statische [Personenliste](./people-lists.md) ist eine Sammlung von Personen
 
 ## Mitglieder entfernen {#static-list-remove-members}
 
-Sie können Personen mithilfe der Aktion „Aus Personenliste entfernen“ automatisch über einen Journey [!UICONTROL  aus einer ] entfernen. (Siehe [Verwenden von Personenlisten in Journey](./people-lists-journeys.md))
+Sie können Personen mithilfe der Aktion „Aus Personenliste entfernen“ automatisch über einen Journey [!UICONTROL &#x200B; aus einer &#x200B;] entfernen. (Siehe [Verwenden von Personenlisten in Journey](./people-lists-journeys.md))
 
 <!--
 TODO: Restore this section when the activate to a destination function is released.

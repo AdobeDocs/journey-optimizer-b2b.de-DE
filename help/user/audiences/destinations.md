@@ -28,7 +28,7 @@ ht-degree: 6%
 
 # Ziele
 
-Ziele sind vorgefertigte Integrationen, mit denen Sie [statische Personenlisten)-Mitglieder ](./people-lists-static.md) Konto-Journey-Zielgruppen an soziale Plattformen senden können. Durch das Aktivieren einer statischen Liste für ein Ziel wird die Mitgliedschaft synchron gehalten. Wenn Personen der Liste hinzugefügt oder daraus entfernt werden, werden sie entsprechend der Zielgruppe und entsprechend jeder Kampagne, die von der Zielgruppe bedient wird, hinzugefügt oder daraus entfernt.
+Ziele sind vorgefertigte Integrationen, mit denen Sie [statische Personenlisten)-Mitglieder &#x200B;](./people-lists-static.md) Konto-Journey-Zielgruppen an soziale Plattformen senden können. Durch das Aktivieren einer statischen Liste für ein Ziel wird die Mitgliedschaft synchron gehalten. Wenn Personen der Liste hinzugefügt oder daraus entfernt werden, werden sie entsprechend der Zielgruppe und entsprechend jeder Kampagne, die von der Zielgruppe bedient wird, hinzugefügt oder daraus entfernt.
 
 Es gibt drei Möglichkeiten, Personen für ein verbundenes Ziel zu aktivieren:
 
