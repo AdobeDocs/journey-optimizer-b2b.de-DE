@@ -24,14 +24,14 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 9d5641659907d61be992ed218088a023a5211c56
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 6%
+source-wordcount: '1101'
+ht-degree: 5%
 ---
 # Erstellen und Veröffentlichen einer Journey
 
-Um mit einer Journey zu beginnen, erstellen Sie die Journey und erstellen Sie dann den Knoten- und Journey-Fluss in der Journey-Zuordnung.
+Um eine neue Journey zu beginnen, erstellen Sie die Journey und erstellen Sie dann den Knoten- und Journey-Fluss in der Journey-Map.
 
 ![Video](../../assets/do-not-localize/icon-video.svg){width="30"} [Übersichtsvideo ansehen](#overview-video)
 
@@ -68,7 +68,7 @@ _So fügen Sie eine neue Journey hinzu :_
 
 +++
 
-## Bausteine für das Journey-Design
+## Komponenten für das Journey-Design
 
 Die _Journey-Zuordnung_ ist der zentrale Bereich im Journey-Arbeitsbereich. In diesem Bereich können Sie Journey-Knoten hinzufügen und konfigurieren. Klicken Sie auf einen Knoten, um seinen Eigenschaftenbereich rechts von der Arbeitsfläche zu öffnen und ihn entsprechend Ihrem Design festzulegen. Eine Journey beginnt immer mit einem Zielgruppenknoten, auf dem Sie die Eingabe für Ihren Journey definieren können:
 
@@ -85,13 +85,13 @@ Nachdem Sie eine Konto-Journey erstellt und die Zielgruppe hinzugefügt haben, e
 * [Warten](./wait-nodes.md)
 * [Pfade zusammenführen](./split-merge-paths-nodes.md)
 
-## Schutzmechanismen
+## Leitlinien
 
-Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen können, ohne Fehler zu verursachen:
+Die folgenden Leitplanken sind vorhanden, um beim Erstellen eines Journey ohne Fehler zu helfen:
 
 * _Löschen eines Knotens mit aufgeteiltem Pfad_: Zum Löschen eines Knotens müssen alle nachfolgenden Knoten in jedem Pfad gelöscht werden.
 * _Löschen eines Zusammenführungsknotens_: Ein Zusammenführungsknoten kann nur gelöscht werden, wenn ein Pfad mit ihm verbunden ist. Um einen Zusammenführungsknoten zu löschen, lassen Sie nur einen Pfad ausgewählt.
-* _Wechseln zwischen Konto und Personen_: Wenn Sie die Auswahl von Konten zu Personen ändern, werden alle nachfolgenden Knoten in jedem Pfad gelöscht.
+* _Wechseln zwischen Konten und Personen_: Wenn Sie die Auswahl von Konten auf Personen ändern, werden alle nachfolgenden Knoten in jedem Pfad gelöscht.
 
 ## Knoten hinzufügen
 
@@ -99,7 +99,41 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 1. Klicken Sie auf das Pluszeichen ( **+** ) im Pfad und wählen Sie den Knotentyp aus.
 
+   ![Klicken Sie auf + und wählen Sie den Typ aus, um dem Pfad einen Journey-Knoten hinzuzufügen](./assets/node-add-menu.png){width="400" zoomable="no"}
+
+   Die verfügbaren Knotentypen hängen vom Journey-Typ und dem Pfadkontext ab. Weitere Informationen finden Sie unter {0 _](./journey-nodes.md)Journey-Knoten}.[_
+
 1. Legen Sie die Knoteneigenschaften rechts fest.
+
+   Die Eigenschaften hängen vom Knotentyp ab.
+
+## Kennzeichnen von Knoten {#label-a-node}
+
+[!DNL Adobe Journey Optimizer B2B Edition] zeigt jeder Knoten auf der Journey-Zuordnung seinen Standardnamen an, z. B. _Warten_ oder _E-Mail senden_. Fügen Sie Anzeigebeschriftungen hinzu, um Knoten desselben Typs zu unterscheiden und den Zweck jedes Schritts anzugeben. Verwenden Sie beispielsweise _48-Stunden-_ oder _Begrüßungs-E-Mail_.
+
+Sie können einem beliebigen Knoten auf einer Konto-Journey oder Personen-Journey eine Anzeigelabel hinzufügen.
+
+1. Wählen Sie in der Journey-Zuordnung den Knoten aus, den Sie beschriften möchten.
+
+1. Geben Sie in den Knoteneigenschaften den Text in das Feld **[!UICONTROL Titel anzeigen]** ein.
+
+   Die Bezeichnung kann bis zu 255 Zeichen lang sein.
+
+1. Klicken Sie außerhalb des Felds, um die Bezeichnung anzuwenden.
+
+   ![Fügen Sie eine Anzeigebeschriftung hinzu, um den Knoten auf der Journey zu unterscheiden](./assets/node-display-label.png){width="500" zoomable="no"}
+
+   Die Beschriftung ersetzt den Standardnamen auf dem Knoten in der Journey-Zuordnung.
+
+Um den Standardnamen wiederherzustellen, löschen Sie das Feld **[!UICONTROL Beschriftung anzeigen]** und klicken Sie außerhalb des Felds.
+
+Beim Veröffentlichen der Journey wird die Anzeigebeschriftung für jeden Knoten mit der veröffentlichten Journey gespeichert.
+
+>[!NOTE]
+>
+>Anzeigebeschriftungen sind nicht für Knoten in Journey verfügbar, die erstellt wurden, bevor diese Funktion verfügbar war.
+
+Knotenbezeichnungen sind im `AJOB2B - 1.5.4 - journey node` und `AJOB2B-1_5_4-journey_node` Datensatz verfügbar. Sie können in [!DNL Adobe Experience Platform] Kennzeichnungen abfragen und sie für das Reporting in [!DNL Adobe Customer Journey Analytics] verwenden. Weitere Informationen zum Abfragen der exportierten Daten finden Sie im Abschnitt [Voraussetzungen für Datensatzabfragen](../data/aep-query-examples.md#prerequisites).
 
 ## Löschen eines Knotens
 
@@ -111,23 +145,21 @@ Die folgenden Leitplanken sind vorhanden, damit Sie eine Journey erstellen könn
 
 ## Hinzufügen und Löschen eines Pfads
 
-1. Navigieren Sie zur Journey-Karte.
-
-1. Klicken Sie auf das Pluszeichen ( **+** ) auf dem Pfad und fügen Sie den [Pfadknoten aufteilen“ &#x200B;](./split-merge-paths-nodes.md#split-paths).
+1. Klicken Sie in der Journey-Zuordnung auf das Pluszeichen ( **+** ) auf dem Pfad und fügen Sie den [Pfadknoten aufteilen](./split-merge-paths-nodes.md#split-paths) hinzu.
 
 1. Klicken Sie in den Knoteneigenschaften auf der rechten Seite auf **[!UICONTROL Konto]**.
 
 1. Um weitere Pfade hinzuzufügen, klicken Sie auf **[!UICONTROL Pfad hinzufügen]**.
 
-   Bei jedem Pfad, der auf der Journey erstellt wird, wird eine neue Pfadkarte in den Eigenschaften angezeigt.
+   Für jeden Pfad, der auf der Journey erstellt wird, wird eine neue Pfadkarte in den Eigenschaften angezeigt.
 
 1. Navigieren Sie zu einem der Pfade auf der Journey und fügen Sie [action](./action-nodes.md) oder [event](./listen-for-event-nodes.md)-Knoten mithilfe des Pluszeichens zu diesem Pfad hinzu.
 
 1. Wählen Sie den [Aufspaltungspfad](./split-merge-paths-nodes.md)-Knoten aus, um die Eigenschaften auf der rechten Seite zu öffnen.
 
-   Die Pfade mit Knoten auf ihnen können nicht gelöscht werden.
+   Pfade mit -Knoten können nicht gelöscht werden.
 
-1. Um diese Pfade zu löschen, müssen Sie zuerst alle Knoten in diesem Pfad löschen.
+1. Um einen Pfad zu löschen, müssen Sie zuerst alle Knoten auf diesem Pfad löschen.
 
 ## Journey planen
 
@@ -135,7 +167,7 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen&rbrace; klicken.
+1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen} klicken.
 
 1. Legen Sie im Dialogfeld die Zeitplanoptionen fest:
 
@@ -185,4 +217,4 @@ Sie können eine Journey veröffentlichen, wenn keine Blocker-Fehler vorliegen. 
 
 ## Übersichtsvideo
 
->[!VIDEO](https://video.tv.adobe.com/v/3443228/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443204/?learn=on)

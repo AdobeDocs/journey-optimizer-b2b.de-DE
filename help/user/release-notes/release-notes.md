@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Administration
 autotag-review: 2026-03-30T22:58:45.043Z
 TQID: https://experienceleague.adobe.com/l-vflrFipj9LP8xYNOQP8C1ZPJUu1XoQpUT5uV0uDEM
-source-git-commit: dccf8dfaf5376b39a9cd1d3843a37a2d02a81270
+source-git-commit: 6e7322b04f002d63b127ac68f87fa58a88028921
 workflow-type: tm+mt
-source-wordcount: '5899'
+source-wordcount: '5901'
 ht-degree: 58%
 ---
 # Versionshinweise zu Journey Optimizer B2B Edition
@@ -44,7 +44,7 @@ Lesen Sie die [Produktbeschreibung](https://helpx.adobe.com/de/legal/product-des
 | Typ | Element | Beschreibung |
 | ---- | ---- | ----------- |
 | Funktion | Personenlisten | Verwenden Sie statische und dynamische Personenlisten, um Profile anhand Ihrer definierten Kriterien wie demografische Attribute und Verlauf von Erlebnisereignissen anzusprechen. [Weitere Informationen](../audiences/people-lists.md) |
-| Funktion | Journey-Knotenbeschriftungen | Fügen Sie Journey-Knoten Beschriftungen hinzu, um sie auf der Journey-Arbeitsfläche zu identifizieren. |
+| Funktion | Journey-Knotenbeschriftungen | Fügen Sie Journey-Knoten Beschriftungen hinzu, um sie auf der Journey-Arbeitsfläche zu identifizieren. [Weitere Informationen](../journeys/create-publish-journey.md#label-a-node). |
 | Verbesserung | Mitglied von Personenlistenfiltern | Verwenden Sie die Filter _[!UICONTROL Mitglied der Personenliste]_, um Profile basierend auf ihrer statischen oder dynamischen Personenlistenmitgliedschaft ein- oder auszuschließen. [Weitere Informationen](../journeys/split-merge-paths-nodes.md#membership-filtering) |
 | Verbesserung | Journey-Aktionen der Personenliste | Personen zu statischen Personenlisten hinzufügen oder Personen aus diesen entfernen über die Journey des Kontos und der Person. [Weitere Informationen](../journeys/action-nodes.md#people-actions) |
 
@@ -220,7 +220,7 @@ Diese Implementierung bietet mehrere Vorteile:
 
 >[!NOTE]
 >
->Eine Konfigurationsanleitung finden [&#x200B; in der &#x200B;](../setup-ultimate.md)Setup-Checkliste“.
+>Eine Konfigurationsanleitung finden [ in der ](../setup-ultimate.md)Setup-Checkliste“.
 
 Die folgenden neuen Funktionen und Verbesserungen sind in der Version 2025.10 mit der aktualisierten Architektur verfügbar:
 
