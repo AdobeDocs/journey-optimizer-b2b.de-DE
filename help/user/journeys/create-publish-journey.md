@@ -101,7 +101,7 @@ Die folgenden Leitplanken sind vorhanden, um beim Erstellen eines Journey ohne F
 
    ![Klicken Sie auf + und wählen Sie den Typ aus, um dem Pfad einen Journey-Knoten hinzuzufügen](./assets/node-add-menu.png){width="400" zoomable="no"}
 
-   Die verfügbaren Knotentypen hängen vom Journey-Typ und dem Pfadkontext ab. Weitere Informationen finden Sie unter {0 _](./journey-nodes.md)Journey-Knoten}.[_
+   Die verfügbaren Knotentypen hängen vom Journey-Typ und dem Pfadkontext ab. Weitere Informationen finden Sie unter {0 _[&#128279;](./journey-nodes.md)Journey-Knoten}._
 
 1. Legen Sie die Knoteneigenschaften rechts fest.
 
@@ -167,7 +167,7 @@ Wenn Sie eine Journey veröffentlichen, kann diese sofort oder an einem geplante
 
 1. Navigieren Sie zur Journey-Karte.
 
-1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen} klicken.
+1. Planen Sie den Journey, indem Sie in der Kopfzeile auf **[!UICONTROL Journey]** Einstellungen&rbrace; klicken.
 
 1. Legen Sie im Dialogfeld die Zeitplanoptionen fest:
 
