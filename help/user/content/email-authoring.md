@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 5%
 ---
 # Verfassen von E-Mail-Nachrichten
@@ -39,15 +39,15 @@ Nachdem Sie [ein E-Mail-Asset zu einem Journey-Aktionsknoten hinzugefügt](./add
 
 Klicken Sie **[!UICONTROL der Registerkarte _[!UICONTROL Details]_ im rechten Bedienfeld auf]** E-Mail-Inhalt bearbeiten“.
 
-![Klicken Sie auf E-Mail-Inhalt bearbeiten &#x200B;](./assets/add-email-content.png){width="700" zoomable="yes"}
+![Klicken Sie auf E-Mail-Inhalt bearbeiten ](./assets/add-email-content.png){width="700" zoomable="yes"}
 
 Diese Aktion startet die E-Mail-Design-Tools, in denen Sie aus den folgenden Optionen auswählen können, wie Sie Ihre E-Mail gestalten möchten:
 
-* [Erstellen Sie Ihre E-Mail von Grund &#x200B;](#design-from-scratch) mithilfe der visuellen Design-Oberfläche.
+* [Erstellen Sie Ihre E-Mail von Grund ](#design-from-scratch) mithilfe der visuellen Design-Oberfläche.
 
 * [Importieren Sie vorhandene HTML-Inhalte](#import-existing-html-content) aus einer Datei oder einem ZIP-Ordner.
 
-* [Wählen Sie eine vorhandene &#x200B;](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus.
+* [Wählen Sie eine vorhandene ](#select-a-template) aus einer Liste integrierter oder benutzerdefinierter E-Mail-Vorlagen aus.
 
 Nachdem Sie den E-Mail-Inhalt erstellt und personalisiert haben, können Sie den Inhalt zur Validierung oder zur späteren Verwendung exportieren. Klicken Sie **[!UICONTROL HTML exportieren]**, um den Inhalt als ZIP-Datei zu speichern, die Ihre HTML und Assets enthält.
 
@@ -69,7 +69,7 @@ Verwenden Sie den visuellen Inhaltsdesignbereich, um die Struktur und den Inhalt
 
 1. [Struktur und Inhalt hinzufügen](./email-authoring.md#structure-content) zur Vorlage hinzufügen.
 
-1. [Links überprüfen und &#x200B;](#edit-linked-url-tracking).
+1. [Links überprüfen und ](#edit-linked-url-tracking).
 
 1. [Testen Sie die E-Mail](#email-testing).
 
@@ -103,7 +103,11 @@ Sie können den importierten Inhalt nach Bedarf mit den visuellen E-Mail-Editor-
 >
 > Auf gespeicherte Vorlagen können Einstellungen für die Governance (Inhaltssperrung) auf eine oder mehrere Komponenten angewendet werden. Der visuelle Design-Bereich bietet Richtlinien zu gesperrten Komponenten, wenn Sie [E-Mail aus einer verwalteten Vorlage erstellen](./email-authoring-governance.md).
 
-## Hinzufügen von Struktur und Inhalten {#structure-content}
+## Module hinzufügen
+
+{{$include /help/_includes/content-design-modules.md}}
+
+## Hinzufügen von Struktur und Content&#x200B; {#structure-content}
 
 {{$include /help/_includes/content-design-components.md}}
 
@@ -145,7 +149,7 @@ Nachdem die E-Mail gespeichert wurde, wird sie auf der Seite mit den Fragmentdet
 
 >[!NOTE]
 >
->Wenn _[!UICONTROL Meine Token]_ für die Konto-Journey definiert sind, können Sie diese Journey-spezifischen Token auch für Ihren E-Mail-Inhalt verwenden. Weitere Informationen finden [&#x200B; unter „Benutzerdefinierte Token &#x200B;](./personalization-my-tokens.md) E-Mail-Personalisierung“.
+>Wenn _[!UICONTROL Meine Token]_ für die Konto-Journey definiert sind, können Sie diese Journey-spezifischen Token auch für Ihren E-Mail-Inhalt verwenden. Weitere Informationen finden [ unter „Benutzerdefinierte Token ](./personalization-my-tokens.md) E-Mail-Personalisierung“.
 
 ### Verknüpftes URL-Tracking bearbeiten
 

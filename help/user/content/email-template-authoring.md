@@ -28,16 +28,20 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 3%
 ---
 # Erstellung von E-Mail-Vorlagen
 
-Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email-template) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer E-Mail-Vorlage zu erstellen.
+Nachdem Sie [E-Mail-Vorlage erstellt haben](./email-templates.md#create-an-email-template) definieren Sie im visuellen Design-Bereich das Layout und den Inhalt für Ihre E-Mail-Vorlage.
 
-## Hinzufügen von Struktur und Inhalten {#structure-content}
+## Module hinzufügen
+
+{{$include /help/_includes/content-design-modules.md}}
+
+## Hinzufügen von Struktur und Content&#x200B; {#structure-content}
 
 {{$include /help/_includes/content-design-components.md}}
 
