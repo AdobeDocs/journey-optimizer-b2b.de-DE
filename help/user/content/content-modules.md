@@ -61,7 +61,7 @@ Beginnen Sie mit einem Modul, das dem zu erstellenden Abschnitt entspricht, und 
 
 >[!NOTE]
 >
->Fügen Sie für Marketing-E-Mails einen Ausschluss-Link hinzu und [ Sie E-Mail-Warnungen](./add-email.md#check-alerts) bevor Sie die Journey veröffentlichen.
+>Fügen Sie für Marketing-E-Mails einen Ausschluss-Link hinzu und [&#x200B; Sie E-Mail-Warnungen](./add-email.md#check-alerts) bevor Sie die Journey veröffentlichen.
 
 1. Öffnen Sie Ihre E-Mail, Landingpage, Ihr visuelles Fragment oder Ihre Vorlage im visuellen Design-Bereich.
 
