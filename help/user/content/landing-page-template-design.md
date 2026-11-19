@@ -31,14 +31,18 @@ topic_v2:
     internal-label: Personalization
   - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
     internal-label: Content reuse
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 7%
 ---
 # Design von Landingpage-Vorlagen
 
-Nachdem Sie [Landingpage-Vorlage erstellt haben](./landing-page-templates.md#create-a-landing-page-template) verwenden Sie den visuellen Design-Bereich, um die Struktur- und Inhaltskomponenten in Ihrer Seitenvorlage zu erstellen.
+Nachdem Sie [Landingpage-Vorlage erstellt haben](./landing-page-templates.md#create-a-landing-page-template) definieren Sie im visuellen Design-Bereich das Layout und den Inhalt für Ihre Seitenvorlage.
+
+## Module hinzufügen
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## Hinzufügen von Struktur und Content&#x200B; {#structure-content-landing-page}
 

@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 21fbce544faf291ad01a3301a9981add95442097
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 5%
 ---
 # Verfassen von E-Mail-Nachrichten
@@ -103,7 +103,11 @@ Sie können den importierten Inhalt nach Bedarf mit den visuellen E-Mail-Editor-
 >
 > Auf gespeicherte Vorlagen können Einstellungen für die Governance (Inhaltssperrung) auf eine oder mehrere Komponenten angewendet werden. Der visuelle Design-Bereich bietet Richtlinien zu gesperrten Komponenten, wenn Sie [E-Mail aus einer verwalteten Vorlage erstellen](./email-authoring-governance.md).
 
-## Hinzufügen von Struktur und Inhalten {#structure-content}
+## Module hinzufügen
+
+{{$include /help/_includes/content-design-modules.md}}
+
+## Hinzufügen von Struktur und Content&#x200B; {#structure-content}
 
 {{$include /help/_includes/content-design-components.md}}
 

@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: d713d57bddf2ac6f8cf7e7a7d163281f607d729c
+source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '471'
 ht-degree: 78%
 ---
 
@@ -150,6 +150,7 @@ ht-degree: 78%
     + [Landingpage-Design](./content/landing-page-design.md)
     + [Landingpage-Inhalte generieren](./content/generate-content-landing-pages.md)
   + Tools für das Design von Inhalten {#content-design}
+    + [Inhaltsmodule](./content/content-modules.md)
     + [Strukturkomponenten](./content/structure-components.md)
     + [Inhaltskomponenten](./content/content-components.md)
     + [Benutzerdefiniertes CSS](./content/design-custom-css.md)
