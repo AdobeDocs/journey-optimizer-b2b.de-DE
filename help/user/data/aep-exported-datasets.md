@@ -23,9 +23,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 autotag-review: '2026-09-29T00:00:00.000Z'
-source-git-commit: 801025ee02617d56fc8ab933b59385bca38f5097
+source-git-commit: ddeb4c1a777efa3449470a32784065a14eb6e7d1
 workflow-type: tm+mt
-source-wordcount: '4845'
+source-wordcount: '4862'
 ht-degree: 7%
 ---
 
@@ -388,6 +388,12 @@ Jeder Datensatz beschreibt ein Web-, E-Mail- oder anderes unterstütztes Aktivit
 
 ### E-Mail-Abo beenden (`directMarketing.emailUnsubscribed`)
 
+E-Mail-Abmeldeereignisse haben ihren Ursprung in [!DNL Adobe Marketo Engage] und werden in [!DNL Journey Optimizer B2B Edition] importiert.
+
+>[!NOTE]
+>
+>Für dieses Ereignis sind `_experience.journeyOrchestration.stepEvents.journeyID` und `_experience.journeyOrchestration.stepEvents.nodeID` immer leer.
+
 | Feldname | Beziehung | Was es Ihnen sagt |
 |------------|-------------|-------------|
 | `_id` | Datensatz-ID | Aktivitätskennung. |
@@ -404,8 +410,8 @@ Jeder Datensatz beschreibt ein Web-, E-Mail- oder anderes unterstütztes Aktivit
 | `directMarketing.mailingKey.sourceKey` |  | Vollständige E-Mail-Inhaltskennung. |
 | `directMarketing.mailingName` |  | Mailing-Name. |
 | `directMarketing.email` |  | E-Mail-Adresse |
-| `_experience.journeyOrchestration.stepEvents.journeyID` | Stimmt überein mit `AJOB2B-1_5_4-person_journey` (`_id`) | Journey-ID (falls zugeordnet). |
-| `_experience.journeyOrchestration.stepEvents.nodeID` | Stimmt überein mit `AJOB2B-1_5_4-person_journey_node` (`_id`) | Journey-Knoten-ID (falls zugeordnet). |
+| `_experience.journeyOrchestration.stepEvents.journeyID` |  | Für E-Mail-Abmeldeereignisse immer leer. |
+| `_experience.journeyOrchestration.stepEvents.nodeID` |  | Für E-Mail-Abmeldeereignisse immer leer. |
 
 ### E-Mail geöffnet (`directMarketing.emailOpened`)
 
