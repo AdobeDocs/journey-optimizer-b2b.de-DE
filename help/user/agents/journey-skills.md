@@ -50,7 +50,7 @@ Die Kennungen für Kenntnisse und die unterstützten Aktionen zu Lookup, Erstell
 * [Anleitung zur Erstellung von Journey](#journey-creation-skills): Bereiten Sie eine Zusammenfassung vor und überprüfen Sie einen Entwurf, bevor Sie ihn erstellen.
 * [Anleitung zur Journey-Beobachtung](#journey-observability-skills): Stellen Sie Fragen darüber, wie Konten und Personen durch aktive Journey navigieren.
 
-Anweisungen zum Öffnen der App und zum Starten von Konversationen finden Sie im [Handbuch zur -Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Anweisungen zum Öffnen der App und zum Starten von Konversationen finden Sie im [Handbuch zur -Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 ## Journey-Erstellungsfähigkeiten {#journey-creation-skills}
 

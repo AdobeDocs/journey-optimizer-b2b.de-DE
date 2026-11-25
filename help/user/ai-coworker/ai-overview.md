@@ -58,7 +58,7 @@ Verwenden Sie die Benutzeroberfläche der [!DNL CX Enterprise Coworker]-App für
 
 Informationen zu unterstützten Journey-Aufgaben, Genehmigungsanforderungen und Beispiel-Workflows finden Sie unter [Mitarbeiter in Adobe Journey Optimizer B2B Edition](../agents/coworker-overview.md).
 
-Anweisungen zum Öffnen der App, Starten von Konversationen und Verwenden von Chat-Funktionen finden Sie im Handbuch zur [CX Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Anweisungen zum Öffnen der App, Starten von Konversationen und Verwenden von Chat-Funktionen finden Sie im Handbuch zur [CX Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 Überlegen Sie, welche Art von Anfrage Sie benötigen, bevor Sie eine [!DNL Coworker] Chat-Abfrage senden.
 
@@ -117,4 +117,4 @@ Fahren Sie mit allgemeinen Kenntnissen über [!DNL Coworker] Chat fort, um ihn w
 
 * [Aktivieren des Zugriffs auf KI-Funktionen](./enable-ai-access.md)
 * [Anleitung zu Fragen](./question-guidance.md)
-* [Handbuch zur CX Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [Handbuch zur CX Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide){target="_blank"}

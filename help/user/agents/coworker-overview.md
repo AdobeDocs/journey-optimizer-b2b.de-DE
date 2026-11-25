@@ -43,7 +43,7 @@ Suchen Sie bestehende Konto- und Personen-Journey, erstellen Sie neue Journey-En
 
 [!DNL Coworker] respektiert die vorhandenen [Produktberechtigungen](../admin/user-management.md#b2b-product-permissions) Ihres Unternehmens. Sie können nur Aktionen ausführen, zu denen Sie bereits berechtigt sind. Administratoren steuern, wann Sie Schreibzugriff haben. Informationen zu Zugriffsanforderungen finden Sie unter [Aktivieren des KI-Zugriffs](../ai-coworker/enable-ai-access.md).
 
-[!DNL Coworker] funktioniert im gesamten Adobe-Ökosystem, nicht nur in [!DNL Journey Optimizer B2B Edition]. Die erweiterten Funktionen finden Sie in der Übersicht über den [Adobe CX Enterprise Coworker-Chat](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview){target="_blank"}. Anweisungen zum Öffnen der App und zum Starten von Konversationen finden Sie im [Handbuch zur -Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
+[!DNL Coworker] funktioniert im gesamten Adobe-Ökosystem, nicht nur in [!DNL Journey Optimizer B2B Edition]. Die erweiterten Funktionen finden Sie in der Übersicht über den [Adobe CX Enterprise Coworker-Chat](https://experienceleague.adobe.com/de/docs/coworker/content/chat/overview){target="_blank"}. Anweisungen zum Öffnen der App und zum Starten von Konversationen finden Sie im [Handbuch zur -Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 ## Journey-Kenntnisse {#skills}
 
