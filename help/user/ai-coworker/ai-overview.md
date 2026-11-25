@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c2d3ba94927361f7695e901ef9071bdd4ded8f7d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '895'
 ht-degree: 8%
 ---
 # KI-Funktionen in Journey Optimizer B2B Edition
@@ -42,7 +42,7 @@ Nutzen Sie KI-Funktionen in [!DNL Adobe Journey Optimizer B2B Edition], um Inhal
 
 >[!IMPORTANT]
 >
->Bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können[&#x200B; ist eine Vereinbarung mit den &#x200B;](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}Benutzerrichtlinien“ erforderlich. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie beim Rollout zusätzliche KI-aktivierte Funktionen verwenden können.
+>Bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können[ ist eine Vereinbarung mit den ](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}Benutzerrichtlinien“ erforderlich. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie beim Rollout zusätzliche KI-aktivierte Funktionen verwenden können.
 
 +++Benutzeroberfläche der Benutzervereinbarung anzeigen
 
@@ -54,9 +54,11 @@ Nutzen Sie KI-Funktionen in [!DNL Adobe Journey Optimizer B2B Edition], um Inhal
 
 ## Verwenden der [!DNL Coworker] App {#coworker-app}
 
-Verwenden Sie die Benutzeroberfläche der [!DNL CX Enterprise Coworker]-App für alle Chat-Workflows außer der Inhaltserstellung. Stellen Sie Produktfragen, erkunden Sie operative Einblicke und verwenden Sie [Journey-](../agents/journey-agent.md) und [Zielgruppen-Kenntnisse für B2B-Accounts und Personen](../agents/audience-agent-b2b.md). Die Inhaltserstellung bleibt in [!DNL Journey Optimizer B2B Edition] verfügbar.
+Verwenden Sie die Benutzeroberfläche der [!DNL CX Enterprise Coworker]-App für alle Chat-Workflows außer der Inhaltserstellung. Stellen Sie Produktfragen, erkunden Sie operative Einblicke und verwenden Sie [Journey-](../agents/journey-skills.md) und [Zielgruppen-Kenntnisse für B2B-Accounts und Personen](../agents/audience-skills-b2b.md). Die Inhaltserstellung bleibt in [!DNL Journey Optimizer B2B Edition] verfügbar.
 
-Anweisungen zum Öffnen der App, Starten von Konversationen und Verwenden von Chat-Funktionen finden Sie im Handbuch zur [CX Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide){target="_blank"}.
+Informationen zu unterstützten Journey-Aufgaben, Genehmigungsanforderungen und Beispiel-Workflows finden Sie unter [Mitarbeiter in Adobe Journey Optimizer B2B Edition](../agents/coworker-overview.md).
+
+Anweisungen zum Öffnen der App, Starten von Konversationen und Verwenden von Chat-Funktionen finden Sie im Handbuch zur [CX Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}.
 
 Überlegen Sie, welche Art von Anfrage Sie benötigen, bevor Sie eine [!DNL Coworker] Chat-Abfrage senden.
 
@@ -78,7 +80,7 @@ _Operative Einblicke_ beziehen sich auf Antworten, die [!DNL Coworker] über Ihr
 * Wie viele Konto-Zielgruppen wurden noch nie in einer Journey verwendet?
 * Welche aktiven Journey verwenden Lösungsinteresse _x_?
 
-Sie können [!DNL Coworker] Fragen zu Ihren betrieblichen Erkenntnissen in den folgenden Bereichen stellen:
+In der folgenden Tabelle werden Fragen zu betrieblichen Insights, aber nicht alle [!DNL Coworker], beschrieben. Die Erstellung und Bearbeitung von Journey sind separate [Workflows für Journey-Kenntnisse](../agents/coworker-overview.md#skills). Diese Workflows unterstützen Konto- und Personen-Journey mit Änderungen, die auf gespeicherte Entwürfe angewendet werden.
 
 | Domain | Unterstützte Metadaten | Nicht unterstützte Metadaten |
 | --- | --- | --- |
@@ -115,4 +117,4 @@ Fahren Sie mit allgemeinen Kenntnissen über [!DNL Coworker] Chat fort, um ihn w
 
 * [Aktivieren des Zugriffs auf KI-Funktionen](./enable-ai-access.md)
 * [Anleitung zu Fragen](./question-guidance.md)
-* [Handbuch zur CX Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/coworker/content/chat/ui-guide){target="_blank"}
+* [Handbuch zur CX Coworker-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/coworker/content/chat/ui-guide){target="_blank"}

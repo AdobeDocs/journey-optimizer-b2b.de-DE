@@ -28,7 +28,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ce5504e7a539c38b489fddc103358029edf1cfba
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Es sind viele **_zukünftige Verbesserungen_** für STO geplant:
 
 ## Konfiguration
 
-Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [&#x200B; Personen-Journey einen _[!UICONTROL Aktion ausführen]_-](../journeys/action-nodes.md) hinzufügen.
+Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [ Personen-Journey einen _[!UICONTROL Aktion ausführen]_-](../journeys/action-nodes.md) hinzufügen.
 
 1. Wählen Sie für _[!UICONTROL Aktion auswählen]_ die Option **[!UICONTROL E-Mail senden]**.
 
@@ -90,4 +90,4 @@ Sie können die Sendezeitoptimierung konfigurieren, wenn Sie [&#x200B; Personen-
 
 ## STO-Erkenntnisse
 
-STO-Einblicke werden über _[!DNL Coworker]Chat_ der Beobachtungsfähigkeiten [_Journey bereitgestellt_](../agents/journey-agent.md#journey-observability-skills). Sie können die Nutzung von Abfragen, Interaktionsmetriken, Test-/Kontrollergebnisse, die Knotenleistung und die gesamte Auswirkung auf das Journey abfragen.
+STO-Einblicke werden über _[!DNL Coworker]Chat_ der Beobachtungsfähigkeiten [_Journey bereitgestellt_](../agents/journey-skills.md#journey-observability-skills). Sie können die Nutzung von Abfragen, Interaktionsmetriken, Test-/Kontrollergebnisse, die Knotenleistung und die gesamte Auswirkung auf das Journey abfragen.

@@ -18,7 +18,7 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -33,7 +33,7 @@ In einem B2B-Markt treffen normalerweise mehrere Personen Kaufentscheidungen. Di
 
 ## Zielgruppen-Fähigkeiten
 
-Verwenden Sie [Zielgruppenkenntnisse für B2B-Konten und Personen](../agents/audience-agent-b2b.md) um aus der Erstanbieter-Absichtserkennung und dem Persona-Mapping eine Vorlage für die Einkaufsgruppenrolle zu generieren. Im geführten Fluss können Sie mit einem Produkt verknüpfte Rollen identifizieren, von KI empfohlene Rollen-zu-Rollen-Zuordnungen überprüfen und die Vorlage mit natürlicher Sprache verfeinern, bevor Sie sie veröffentlichen.
+Verwenden Sie [Zielgruppenkenntnisse für B2B-Konten und Personen](../agents/audience-skills-b2b.md) um aus der Erstanbieter-Absichtserkennung und dem Persona-Mapping eine Vorlage für die Einkaufsgruppenrolle zu generieren. Im geführten Fluss können Sie mit einem Produkt verknüpfte Rollen identifizieren, von KI empfohlene Rollen-zu-Rollen-Zuordnungen überprüfen und die Vorlage mit natürlicher Sprache verfeinern, bevor Sie sie veröffentlichen.
 
 **Eingabeaufforderungen zum Versuch:**
 
@@ -111,7 +111,7 @@ Jede Rolle, die Sie für die Vorlage definieren, verwendet einen Satz von Filter
 
    * Wählen Sie die **[!UICONTROL Einkaufsgruppenrolle]** aus der Liste aus.
 
-     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert &#x200B;](./default-custom-roles.md#create-a-custom-role).
+     Es gibt sechs Standardrollen: `Decision Maker`, `Influencer`, `Practitioner`, `Executive Steering Committee`, `Champion` und `Other`. Die Liste enthält auch alle [benutzerdefinierten Rollen), die in der Liste _Rollen_ definiert ](./default-custom-roles.md#create-a-custom-role).
 
      ![Liste der Gruppenrollen kaufen](./assets/roles-template-create-roles-list.png){width="700" zoomable="yes"}
 
@@ -173,7 +173,7 @@ Unter [Vollständigkeitswerte](./completeness-scores.md) finden Sie detaillierte
 
 1. Ändern Sie im Dialogfeld den Wert **[!UICONTROL Mitglieder erforderlich]** für jede definierte Rolle nach Bedarf.
 
-   Sie können den Wert eingeben oder auf **&plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
+   Sie können den Wert eingeben oder auf **&amp;plus;** oder **−** klicken, um den Wert zu erhöhen oder zu verringern.
 
    ![Dialogfeld mit den Einstellungen für die Vollständigkeit der Rollenvorlage](./assets/buying-group-details-edit-roles-completeness-settings-dialog.png){width="450"}
 
@@ -225,4 +225,4 @@ Sie können eine Rollenvorlage löschen, wenn sie sich im Status _Entwurf_ befin
 
 ## Übersichtsvideo {#overview-video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3453310/?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433079/?learn=on)
