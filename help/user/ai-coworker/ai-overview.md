@@ -42,7 +42,7 @@ Nutzen Sie KI-Funktionen in [!DNL Adobe Journey Optimizer B2B Edition], um Inhal
 
 >[!IMPORTANT]
 >
->Bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können[ ist eine Vereinbarung mit den ](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}Benutzerrichtlinien“ erforderlich. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie beim Rollout zusätzliche KI-aktivierte Funktionen verwenden können.
+>Bevor Sie KI-Funktionen in [!DNL Journey Optimizer B2B Edition] verwenden können[&#x200B; ist eine Vereinbarung mit den &#x200B;](https://www.adobe.com/de/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}Benutzerrichtlinien“ erforderlich. Diese Vereinbarung enthält auch die öffentliche Beta-Vereinbarung, sodass Sie beim Rollout zusätzliche KI-aktivierte Funktionen verwenden können.
 
 +++Benutzeroberfläche der Benutzervereinbarung anzeigen
 
