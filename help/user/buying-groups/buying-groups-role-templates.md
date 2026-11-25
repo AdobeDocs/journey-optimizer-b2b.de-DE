@@ -18,7 +18,7 @@ level_v2:
     internal-label: Beginner
 autotag-review: 2026-03-30T21:37:51.618Z
 TQID: https://experienceleague.adobe.com/e1CT6SECzRUs4GDSIVB4okY7rvhXaedeec0k27r-6aA
-source-git-commit: 0ce0bd0bae3557e780ec960f5e01b3ee9a57100d
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 5%
@@ -33,7 +33,7 @@ In einem B2B-Markt treffen normalerweise mehrere Personen Kaufentscheidungen. Di
 
 ## Zielgruppen-Fähigkeiten
 
-Verwenden Sie [Zielgruppenkenntnisse für B2B-Konten und Personen](../agents/audience-agent-b2b.md) um aus der Erstanbieter-Absichtserkennung und dem Persona-Mapping eine Vorlage für die Einkaufsgruppenrolle zu generieren. Im geführten Fluss können Sie mit einem Produkt verknüpfte Rollen identifizieren, von KI empfohlene Rollen-zu-Rollen-Zuordnungen überprüfen und die Vorlage mit natürlicher Sprache verfeinern, bevor Sie sie veröffentlichen.
+Verwenden Sie [Zielgruppenkenntnisse für B2B-Konten und Personen](../agents/audience-skills-b2b.md) um aus der Erstanbieter-Absichtserkennung und dem Persona-Mapping eine Vorlage für die Einkaufsgruppenrolle zu generieren. Im geführten Fluss können Sie mit einem Produkt verknüpfte Rollen identifizieren, von KI empfohlene Rollen-zu-Rollen-Zuordnungen überprüfen und die Vorlage mit natürlicher Sprache verfeinern, bevor Sie sie veröffentlichen.
 
 **Eingabeaufforderungen zum Versuch:**
 

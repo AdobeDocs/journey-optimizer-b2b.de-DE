@@ -1,9 +1,9 @@
 ---
 user-guide-title: Dokumentation zu Journey Optimizer B2B Edition
 user-guide-description: Erfahren Sie mehr über Adobe Journey Optimizer B2B Edition und darüber, wie Sie sie zum Orchestrieren von Konto- und Käufergruppen-Journeys mithilfe der integrierten generativen KI und branchenführender Automatisierung verwenden können.
-source-git-commit: 5c2beb7a315bf8f671f594b9c241a7e24e8328dc
+source-git-commit: 81b4844bc7b333baaa2218639a542fefd512102f
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '473'
 ht-degree: 78%
 ---
 
@@ -34,9 +34,10 @@ ht-degree: 78%
   + [Zugriff aktivieren](./ai-coworker/enable-ai-access.md)
   + [Anleitung zu Fragen](./ai-coworker/question-guidance.md)
   + [Absichtswerte](./ai-coworker/intent-scores.md)
-  + Mitarbeiterqualifikationen {#coworker-skills}
-    + [Zielgruppenkenntnisse für B2B-Konten und Personen](./agents/audience-agent-b2b.md)
-    + [Journey-Kenntnisse für B2B](./agents/journey-agent.md)
+  + CX Enterprise Coworker {#coworker-skills}
+    + [Übersicht](./agents/coworker-overview.md)
+    + [Zielgruppenkenntnisse für B2B-Konten und Personen](./agents/audience-skills-b2b.md)
+    + [Journey-Kenntnisse für B2B](./agents/journey-skills.md)
 + Intelligente Dashboards {#dashboards}
   + [Insights-Dashboard](./dashboards/intelligent-dashboard.md)
   + [Interaktions-Dashboard](./dashboards/engagement-dashboard.md)

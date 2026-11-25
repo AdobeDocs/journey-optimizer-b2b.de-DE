@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
     internal-label: Behavioral data
-source-git-commit: 8d51e62165a40322efc45af87bbdfcd56e8eefb9
+source-git-commit: 876251dd1b69fc768c790daf0b9b1482015d69af
 workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 0%
@@ -331,4 +331,4 @@ Nach der Live-Schaltung des Journey wird der nächstbeste Pfadknoten zur Ausfüh
 * Der Konfidenzwert für jede Pfadzuweisung
 * Argumentation auf Pfad- und Profilebene mit erweiterbaren Details für einzelne Profile
 
-Live-Ergebnisse sind auch für die Journey-Konsole und über die [Journey-Beobachtungsfähigkeiten](../agents/journey-agent.md#journey-observability-skills) in [!DNL Coworker] Chat verfügbar.
+Live-Ergebnisse sind auch für die Journey-Konsole und über die [Journey-Beobachtungsfähigkeiten](../agents/journey-skills.md#journey-observability-skills) in [!DNL Coworker] Chat verfügbar.
